@@ -16,11 +16,27 @@ Myanmar Forever adds a dedicated Myanmar translation window while keeping the or
 - [Current coverage and next translation priorities](docs/COVERAGE.md)
 - [Release notes](RELEASE_NOTES.md)
 
-The current source tree matches the published v0.6.2 package. It retains the installation folder `Myanmar_Forever_NorthshireTest`, reports the in-game title `MyanmarForever`, and supports `/mmforever` and `/mmnorth`. The old v0.1.0 ZIP is retained as a historical artifact; its internal `0.7.0` test identity does not describe the current build.
+The `Myanmar_Forever_NorthshireTest` source folder matches the published v0.6.2 package. It retains that installation folder name, reports the in-game title `MyanmarForever`, and supports `/mmforever` and `/mmnorth`. The old v0.1.0 ZIP is retained as a historical artifact; its internal `0.7.0` test identity does not describe the current build.
 
 Native Myanmar proofreading and current live-client/controller verification remain pending. Automated checks do not certify translation quality or live quest availability.
 
 ## Coverage
+
+### Development candidate: v0.6.3
+
+The [Undead starter update](docs/UNDEAD-STARTER-REVIEW.md) adds 24 Deathknell/Brill quest records and 106 translated fields, including early class introductions. The combined candidate contains **688 quest IDs, 3,240 translated fields and 1,879 dialogue states**. The first two examples were approved in chat; full native proofreading and current live-client testing remain pending.
+
+[Download the v0.6.3 candidate ZIP](dist/MyanmarForever_v0.6.3-beta-candidate.zip). Fully exit WoW and replace the entire addon folder so the rebuilt font and catalog stay together.
+
+Read the [full Myanmar/English translation review](docs/UNDEAD-STARTER-TRANSLATIONS.html), edit [the translation pack](translations/undead-v0.6.3/pack.json), or reproduce the validated candidate with:
+
+```powershell
+python tools/build_candidate.py --output ../outputs/candidate-0.6.3
+```
+
+Use a new output directory. Install dependencies from `requirements-dev.txt` first. The command generates the runtime ZIP and its matching font/catalog together, preserving the published source folder. See [validation results](docs/validation/v0.6.3-undead-2026-11-05.json). v0.6.3 has not been published on CurseForge.
+
+### Published v0.6.2
 
 The packaged build contains **664 quest IDs**, **3,134 translated fields**, and **1,821 available offer/progress/completion states**. Coverage focuses on Human, Dwarf/Gnome, Night Elf, Orc/Troll, and Tauren routes. It is incomplete; a listed quest does not imply that every dialogue state is available.
 

@@ -6,6 +6,8 @@ Comparison: [UA_Forever 0.23.0](https://github.com/sysrover/UA_Forever/releases/
 
 ## How much is translated?
 
+**Development update:** the [v0.6.3 Undead starter candidate](UNDEAD-STARTER-REVIEW.md) adds 24 quest records and 106 fields. Its totals are **688 IDs, 3,240 fields and 1,879 available dialogue states**. All 688 IDs occur in the pinned UA corpus: **11.07%**, with **5,526 IDs remaining outside the candidate**. This remains a comparison-corpus percentage. The tables below describe the published v0.6.2 baseline, which is preserved. See the [candidate inventory](coverage/undead-candidate-2026-11-05.json).
+
 | Measure | Packaged Myanmar coverage |
 | --- | ---: |
 | Quest IDs | 664 |
@@ -64,9 +66,9 @@ The measured delta above compares the five quest text fields and the English ide
 
 ### 1. Fill the missing Undead starting route
 
-There is no dedicated **Deathknell / Tirisfal Glades / Silverpine Forest** route in our worklist. Completing a starting experience for the remaining base race is a clearer next expansion than scattering isolated quests across many later zones.
+The published baseline has no dedicated **Deathknell / Tirisfal Glades / Silverpine Forest** route. The v0.6.3 candidate now covers the shared Deathknell story, the Brill handoff and supported starter class introductions. The next coherent continuation is Brill and the rest of Tirisfal, followed by Silverpine, after reviewing this candidate in the current client.
 
-UA contains these untranslated starting candidates:
+The original audit identified these untranslated candidates; all except A Putrid Task are now included in the starter candidate:
 
 | Quest ID | English title |
 | --- | --- |

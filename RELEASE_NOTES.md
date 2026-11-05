@@ -1,3 +1,17 @@
+# v0.6.3-beta-candidate — Undead starter update
+
+Prepared November 5, 2026; candidate only, not published on CurseForge.
+
+- Adds 24 quest records covering the shared Deathknell story, the Brill handoff, early class introductions and supported starter class quests.
+- Adds 106 translated fields in the style approved for the two review samples. Keeps English names with Myanmar pronunciation and the existing first-introduction meanings.
+- Combined candidate: 688 quest IDs, 3,240 translated fields and 1,879 available dialogue states. Preserves all 664 existing quest translations.
+- Leaves 13 unavailable source states absent and holds one additional gender-dependent reply for live confirmation.
+- Rebuilds the font and catalog together. Source quantities, placeholders, annotation rules, Unicode round trips, glyph coverage and all 13 Lua regression groups pass.
+
+Read the [route and review notes](docs/UNDEAD-STARTER-REVIEW.md) and [full translations](docs/UNDEAD-STARTER-TRANSLATIONS.html). Full native Myanmar proofreading and current live-client/controller testing remain pending.
+
+---
+
 # v0.6.2-beta-candidate — current public build
 
 Published on [CurseForge](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929) on November 5, 2026. The GitHub source tree now matches that package.
