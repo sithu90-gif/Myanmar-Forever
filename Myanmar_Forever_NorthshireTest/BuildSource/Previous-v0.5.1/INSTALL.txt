@@ -1,0 +1,63 @@
+MyanmarForever v0.5.1-beta
+
+INSTALL / UPDATE
+1. Fully exit World of Warcraft. Back up your installed addon folder.
+2. Extract the ZIP. Copy its Myanmar_Forever_NorthshireTest folder into your
+   WoW Forever client's Interface/AddOns directory. For the standard beta
+   installation this is _classic_beta_/Interface/AddOns.
+3. Replace the existing folder with that same name. Do not rename it.
+4. Keep your WTF/SavedVariables files; existing settings and captures are reused.
+5. Restart the client. /reload alone may not refresh the replaced font.
+6. Enable MyanmarForever on the character-selection AddOns screen.
+
+PLAY
+Open NPC quest dialogue normally. Available Myanmar drafts appear in a separate,
+resizable window. Drag the top bar; use the lower-right corner to resize.
+A- and A+ change text size. Scroll with the mouse wheel or the scroll bar.
+The original quest window remains available. For an absent or held translation,
+the Myanmar reader stays hidden and the native quest text remains usable.
+Live translations also require a readable English quest title matching the
+catalog (or a documented alias). Mismatched or unavailable titles keep native
+English and are recorded in local captures. Explicit ID previews bypass this
+check for review; a preview is not evidence of live compatibility.
+
+OPTIONAL KEY / GAMEPAD CONTROLS
+In the game's Key Bindings menu, find Myanmar Forever. Assign your own inputs to:
+Show / hide translation; Scroll up; Scroll down; Close; Increase text; Decrease text.
+No keys are assigned automatically. Gamepad input depends on the client's
+binding support or your controller setup. Hardware behavior is not yet tested.
+Macro alternatives: /mmforever up, /mmforever down, /mmforever hide,
+/mmforever toggle, /mmforever bigger, /mmforever smaller.
+
+PREVIEW AND CAPTURE
+/mmforever 788                Preview a Valley of Trials offer.
+/mmforever 784                Preview a Durotar offer.
+/mmforever 871                Preview a Barrens offer.
+/mmforever 3082               Preview the Troll Hunter introduction.
+/mmforever 788 progress       Preview progress if that state has a draft.
+/mmforever 788 complete       Preview completion if that state has a draft.
+/mmforever reset              Reset window geometry and font size.
+/mmdebug                     Toggle development controls.
+/mmnorth                     Remains a compatible alias.
+
+NPC offer, progress and completion text is captured locally, including quests
+outside the packaged catalog. /reload or logout saves captures to disk.
+/mmforever capture is the manual fallback while an NPC quest dialogue is open.
+Capture data can contain player names. Review it before sharing it publicly.
+Capturing does not translate text or download a new build automatically.
+
+CONTENTS AND TEST STATUS
+610 quest records; 1,676 translated dialogue states; no new quests in this patch.
+All 474 earlier records and the 136 Orc/Troll/Barrens additions were cross-checked.
+Eight older fields have small source-precision or English-label refinements.
+The other 602 quest records are unchanged from v0.5.0-beta.
+
+All 2,884 enabled fields passed source numeric-digit and identity-token checks,
+font coverage and Unicode round-trip checks. Lua 5.1 mock tests cover title
+validation, native fallback, captures, all dialogue states and reader controls.
+Native Myanmar proofreading, actual Forever client testing and controller
+hardware testing remain pending.
+
+Open Translation-Audit.html for scope, exact changes, unresolved references,
+and a searchable current catalog. BuildSource contains evidence hashes, source
+links, editable Unicode data and portable build/test scripts.

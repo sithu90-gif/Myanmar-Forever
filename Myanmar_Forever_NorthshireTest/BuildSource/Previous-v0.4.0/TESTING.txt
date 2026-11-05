@@ -1,0 +1,30 @@
+MyanmarForever v0.4.0-beta — live test checklist
+
+These steps have NOT been run in a live client. Start with a full client restart.
+Use a Night Elf character and retain the normal English quest window for comparison.
+
+1. FIRST OPEN: Speak to a starter NPC, or preview /mmforever 456. Check that
+   Myanmar is visible immediately without pressing A+ or A-. Check stacked marks,
+   clipped ascenders/descenders, English names, punctuation and Arabic digits.
+2. QUEST STATES: Play available quests in Shadowglen, Teldrassil and Darkshore.
+   Compare offers, objectives, progress and rewards with the live English text.
+   Useful previews: 97977, 934, 983, 4763 and your class introduction 3116–3120.
+   Previewing confirms the catalog only; actual NPC dialogue confirms routing.
+3. IDENTITY: Confirm player name/class/race appear correctly. Check quest 3118
+   progress keeps the native text and records a capture; it is deliberately held.
+4. LONG TEXT: Open /mmforever 4763. Scroll to both ends, resize narrow/wide,
+   then change text size. Check for clipping, overlap, runaway scroll or errors.
+5. BINDINGS: Assign spare keys under Myanmar Forever. Verify all six actions.
+   Close during an NPC dialogue transition; the reader must stay closed until
+   explicitly reopened or the next dialogue state occurs.
+6. GAMEPAD: If your setup exposes gamepad bindings, assign spare buttons and
+   repeat scroll/close/toggle. Confirm your existing movement/combat inputs work.
+7. SAVE: Move the window, change text size, /reload, and reopen a quest.
+   Verify settings persist and existing captures are still present.
+8. FALLBACK: Open a quest not in the package. The English quest remains usable;
+   the Myanmar window should hide and the live state should be captured locally.
+
+Log each issue with quest ID, stage, live English screenshot, Myanmar screenshot,
+client build, class, race and input setup. Mark captures as player-substituted.
+/reload or logout before copying the addon's SavedVariables capture file.
+Do not mark a draft verified based only on its /mmforever preview.

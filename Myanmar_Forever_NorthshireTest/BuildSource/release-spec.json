@@ -1,0 +1,73 @@
+{
+  "version": "0.6.2-beta-candidate",
+  "quests": 664,
+  "dialogueStates": 1821,
+  "absentOrHeldStates": 171,
+  "translatedFields": 3134,
+  "priorQuests": 610,
+  "newQuests": 54,
+  "unchangedQuestRecords": 26,
+  "changedPriorQuestRecords": 584,
+  "heldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    },
+    {
+      "id": 745,
+      "field": "objective",
+      "reason": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    },
+    {
+      "id": 98387,
+      "field": "detail",
+      "reason": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+    },
+    {
+      "id": 98387,
+      "field": "objective",
+      "reason": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+    }
+  ],
+  "changedQuestRecords": 638,
+  "addedQuestRecords": 0,
+  "presentationOnlyCorrection": true,
+  "questRecordsChangedSince061": 0,
+  "baseTranslationReviewVersion": "0.6.1-beta-candidate"
+}

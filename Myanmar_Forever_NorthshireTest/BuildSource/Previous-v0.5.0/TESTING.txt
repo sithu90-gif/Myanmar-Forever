@@ -1,0 +1,45 @@
+MyanmarForever v0.5.0-beta — live test checklist
+
+These steps have NOT been run in a live client. Start with a full client restart.
+Use Orc and Troll characters as appropriate. Keep the normal English quest
+window available for comparison; previews alone do not verify live behavior.
+
+1. FIRST OPEN: Speak to a Valley of Trials NPC, or preview /mmforever 788.
+   Myanmar must appear immediately without pressing A+ or A-. Check stacked
+   marks, clipping, English names, punctuation and Arabic digits.
+2. STARTER ROUTE: Compare actual offer, objective, progress and completion
+   text for 788, 789 and custom quest 97279. Continue toward Sen'jin (826),
+   Razor Hill (784), and The Crossroads (871) when those quests are available.
+   Compare names, directions, creature types and every objective quantity.
+3. CLASS INTROS: Check your own available class introduction:
+   Orc: Warrior 2383, Hunter 3087, Rogue 3088, Shaman 3089, Warlock 3090.
+   Troll: Warrior 3065, Hunter 3082, Rogue 3083, Shaman 3084, Priest 3085, Mage 3086.
+   These are introductions, not a claim of complete class-chain coverage.
+4. IDENTITIES: In quest 6394, verify player name and race on both Orc and Troll.
+   Check class substitutions in 96875 if available. Include a player name
+   containing punctuation when possible. Do not interpret captured player
+   names as universal source text.
+5. HOLDS: Quest 842 completion and 3083 progress must keep native English.
+   Verify that each live state is captured. Capture 842 with male and female
+   characters to resolve the reference's combined replies. Capture 3083 on
+   more than one Rogue to confirm the player-name substitution.
+6. SOURCE QUIRKS: Check 4641 progress (scorpid wording), 3065 offer (parchment
+   versus Simple Tablet), and 890's Drizzlek/Drizzlik spelling against live text.
+   Quest 97279 has no reference progress; 926 has only completion; repeatable
+   turn-ins 889 and 5042–5046 have progress/completion but no offer draft.
+7. LONG TEXT: Preview /mmforever 784 or another long offer. Scroll to both ends,
+   resize narrow/wide and change text size. Check clipping, overlap and errors.
+8. INPUTS: Assign spare inputs under Key Bindings > Myanmar Forever. Verify
+   all six actions. Close during an NPC dialogue transition; it must stay
+   closed until explicitly reopened or the next dialogue state occurs.
+   If your setup supports gamepad bindings, repeat scroll/close/toggle and
+   confirm existing movement/combat inputs still work.
+9. SAVE AND FALLBACK: Move the window, change text size, /reload, and reopen.
+   Verify settings and existing captures persist. Open an unlisted quest:
+   the reader must hide, native English must remain usable, and the state
+   must be captured locally.
+
+Log quest ID, dialogue stage, live English and Myanmar screenshots, client build,
+class, race and input setup. Mark captured text as player-substituted.
+/reload or logout before copying the addon's SavedVariables capture file.
+Do not mark a draft verified based only on its /mmforever preview.

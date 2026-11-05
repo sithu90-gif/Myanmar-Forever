@@ -1,0 +1,41 @@
+MyanmarForever 0.6.2-beta-candidate — concise first-introduction correction
+
+- Adds 45 source-aware short term meanings, including Horde and every dynamic
+  class/race identity. Keeps English identity and the existing pronunciation rule.
+- Normalizes covered old explanation variants instead of stacking definitions.
+- Remembers displayed meanings per character; previews do not change that history.
+- Keeps an active display stable during rerenders and only marks successfully shown
+  Myanmar text as introduced. A failed, superseded or hidden render cannot consume it.
+- Preserves all quest Unicode drafts and source audits byte-for-byte from 0.6.1.
+- Preserves 664 IDs / 3,134 fields / 1,821 states, 11 holds and 24 source-caveat records.
+- Adds no window restyling, binding change, publication, or gameplay advice.
+
+See TERM-EXPLANATION-GUIDE.txt and BuildSource/term-glossary-v0.6.2.json.
+All earlier release notes and reviews describe their corresponding historical build.
+
+Previous changes
+
+0.6.1 correction highlights
+
+638 of the existing 664 quests changed; 26 are unchanged. The exact 2,076 changed
+fields appear in the before/after ledger and Full-Catalog-Review.html.
+
+- Naming: first-use English identity plus Myanmar pronunciation per displayed
+  section, including NPCs, target/item/spell names and identifying quest titles.
+  Full names receive one combined label; repeated short references stay compact.
+- Meaning: 4641 now says the PLAYER will be a proud Horde warrior; Kaltunk's
+  appraisal and Gornek's skeptical training voice are no longer softened into
+  generic polite narration. Reward choices, directional instructions, uncertainty,
+  rune-learning language and individual humor received source-aware corrections.
+- 825: advanced mechanical knowledge belongs to the humans; gnomes are their allies.
+- 97253: the machine is redirected home; the speaker is not the one returning.
+- Dynamic class/race: 17 known identities receive matching shaped first-use labels.
+  All player-name and source placeholders are preserved; unknown identities stay literal.
+- Source safety: 98387 offer/objective now fall back to native English because
+  refreshed references and the prior source/UA disagree. Eleven fields are held.
+- Six newly discovered public-source states remain unintegrated pending separate
+  source/version and live review. Eight known onward gaps remain out of scope.
+
+All 664 records and all five field states were read in two assisted reviews.
+Tests verify integrity and runtime behavior; they do not certify native Myanmar,
+pronunciation or live quest availability. Those gates remain pending.

@@ -1,0 +1,190 @@
+[
+  {
+    "id": 96627,
+    "en": "The Adventurer",
+    "english": {
+      "title": "The Adventurer",
+      "detail": "<name>, you have proven your competence as a protector thus far. That is why I am now entrusting you with an unusual task.\n\nI've heard of a new adventurer down the road by Goldshire. Go and see what he's doing.",
+      "objective": "Speak to Sam Sarsparilla near Goldshire.",
+      "progress": null,
+      "complete": "I appreciate the lookin' out, <class>. That marshal's just a worrywart.\n\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?"
+    },
+    "fieldSources": {
+      "title": {
+        "rawEnglish": "The Adventurer",
+        "normalizedEnglish": "The Adventurer",
+        "build": "1.60.1",
+        "capturedAt": 1790912686,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "complete": {
+        "rawEnglish": "I appreciate the lookin' out, mage. That marshal's just a worrywart.\r\n\r\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
+        "normalizedEnglish": "I appreciate the lookin' out, <class>. That marshal's just a worrywart.\n\nHey, you've got the look of an adventurer yourself. How would you like to learn about camping?",
+        "build": "1.60.1",
+        "capturedAt": 1790913663,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "detail": {
+        "rawEnglish": "Siara, you have proven your competence as a protector thus far. That is why I am now entrusting you with an unusual task.\r\n\r\nI've heard of a new adventurer down the road by Goldshire. Go and see what he's doing.",
+        "normalizedEnglish": "<name>, you have proven your competence as a protector thus far. That is why I am now entrusting you with an unusual task.\n\nI've heard of a new adventurer down the road by Goldshire. Go and see what he's doing.",
+        "build": "1.60.1",
+        "capturedAt": 1790912686,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "objective": {
+        "rawEnglish": "Speak to Sam Sarsparilla near Goldshire.",
+        "normalizedEnglish": "Speak to Sam Sarsparilla near Goldshire.",
+        "build": "1.60.1",
+        "capturedAt": 1790912686,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      }
+    },
+    "uaReference": "UA_Forever 0.12.0 / entries/forever/catalogs/quests/missing.lua; all four IDs present",
+    "note": "Live English primary. UA adds /sit to 95998 objective; omitted because live source does not contain it. Missing states left empty."
+  },
+  {
+    "id": 95998,
+    "en": "The Great Outdoors",
+    "english": {
+      "title": "The Great Outdoors",
+      "detail": "Well howdy there, <class>. I can see you've got the look of an adventurer about you. Good for you. The world needs more of us restless souls, seeking fortune and glory.\n\nIt's a big wide world out there and you'll need to learn to thrive in the wilds to be successful. Not sure how your outdoorsman skills are but I reckon I could teach you a thing or two, if you'd be apt to learn.\n\nHave a seat near the fire, get comfy. I'll walk you through it.",
+      "objective": "Sit near Sam's Basic Campfire and wait until you receive the Boosted Rest buff.",
+      "progress": null,
+      "complete": "So now that we've learned the basics, why don't you go and learn a tradeskill. They will also teach you the know-how to create a proper camp fixture suitable to your new profession."
+    },
+    "fieldSources": {
+      "title": {
+        "rawEnglish": "The Great Outdoors",
+        "normalizedEnglish": "The Great Outdoors",
+        "build": "1.60.1",
+        "capturedAt": 1790917268,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "detail": {
+        "rawEnglish": "Well howdy there, mage. I can see you've got the look of an adventurer about you. Good for you. The world needs more of us restless souls, seeking fortune and glory.\r\n\r\nIt's a big wide world out there and you'll need to learn to thrive in the wilds to be successful. Not sure how your outdoorsman skills are but I reckon I could teach you a thing or two, if you'd be apt to learn.\r\n\r\nHave a seat near the fire, get comfy. I'll walk you through it.",
+        "normalizedEnglish": "Well howdy there, <class>. I can see you've got the look of an adventurer about you. Good for you. The world needs more of us restless souls, seeking fortune and glory.\n\nIt's a big wide world out there and you'll need to learn to thrive in the wilds to be successful. Not sure how your outdoorsman skills are but I reckon I could teach you a thing or two, if you'd be apt to learn.\n\nHave a seat near the fire, get comfy. I'll walk you through it.",
+        "build": "1.60.1",
+        "capturedAt": 1790913691,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "objective": {
+        "rawEnglish": "Sit near Sam's Basic Campfire and wait until you receive the Boosted Rest buff.",
+        "normalizedEnglish": "Sit near Sam's Basic Campfire and wait until you receive the Boosted Rest buff.",
+        "build": "1.60.1",
+        "capturedAt": 1790913691,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "complete": {
+        "rawEnglish": "So now that we've learned the basics, why don't you go and learn a tradeskill. They will also teach you the know-how to create a proper camp fixture suitable to your new profession.",
+        "normalizedEnglish": "So now that we've learned the basics, why don't you go and learn a tradeskill. They will also teach you the know-how to create a proper camp fixture suitable to your new profession.",
+        "build": "1.60.1",
+        "capturedAt": 1790917268,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      }
+    },
+    "uaReference": "UA_Forever 0.12.0 / entries/forever/catalogs/quests/missing.lua; all four IDs present",
+    "note": "Live English primary. UA adds /sit to 95998 objective; omitted because live source does not contain it. Missing states left empty."
+  },
+  {
+    "id": 97924,
+    "en": "Camping 101: Skinning",
+    "english": {
+      "title": "Camping 101: Skinning",
+      "detail": "Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can possess.\n\nI reckon I know someone that can teach you how to craft a Camp Chair for your camp. Sometimes it's important to just take a load off, and you can use some of those hides you've gathered to make a comfy chair to sit in. A bit of relaxation can help ensure that you are at your peak condition and can strike where it counts the next time you find yourself in a dust-up.",
+      "objective": "Speak with Helene Peltskinner in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+      "progress": null,
+      "complete": null
+    },
+    "fieldSources": {
+      "title": {
+        "rawEnglish": "Camping 101: Skinning",
+        "normalizedEnglish": "Camping 101: Skinning",
+        "build": "1.60.1",
+        "capturedAt": 1790917316,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "detail": {
+        "rawEnglish": "Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can possess.\r\n\r\nI reckon I know someone that can teach you how to craft a Camp Chair for your camp. Sometimes it's important to just take a load off, and you can use some of those hides you've gathered to make a comfy chair to sit in. A bit of relaxation can help ensure that you are at your peak condition and can strike where it counts the next time you find yourself in a dust-up.",
+        "normalizedEnglish": "Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can possess.\n\nI reckon I know someone that can teach you how to craft a Camp Chair for your camp. Sometimes it's important to just take a load off, and you can use some of those hides you've gathered to make a comfy chair to sit in. A bit of relaxation can help ensure that you are at your peak condition and can strike where it counts the next time you find yourself in a dust-up.",
+        "build": "1.60.1",
+        "capturedAt": 1790917316,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "objective": {
+        "rawEnglish": "Speak with Helene Peltskinner in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+        "normalizedEnglish": "Speak with Helene Peltskinner in Goldshire to learn to craft a camping item for your profession once you have shown proficiency in your skill.",
+        "build": "1.60.1",
+        "capturedAt": 1790917316,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      }
+    },
+    "uaReference": "UA_Forever 0.12.0 / entries/forever/catalogs/quests/missing.lua; all four IDs present",
+    "note": "Live English primary. UA adds /sit to 95998 objective; omitted because live source does not contain it. Missing states left empty."
+  },
+  {
+    "id": 96626,
+    "en": "Camping 101: Cooking",
+    "english": {
+      "title": "Camping 101: Cooking",
+      "detail": "So you want to learn more about camping, huh? Good for you, <class>. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\n\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+      "objective": "Speak with Tomas in Goldshire to learn to become a cook.",
+      "progress": "A good campfire is the foundation to any good camp.",
+      "complete": "With this, you'll be able to set up a camp anywhere out in the wilderness. What you've learned is just the basics, so you won't be able to place too many furnishings around it.\n\nRaise your cooking skill and you might just be able to learn to make even bigger fires.\n\nYou can also learn the basics of furnishing your campsites from other tradeskill trainers if you're savvy in their skills."
+    },
+    "fieldSources": {
+      "title": {
+        "rawEnglish": "Camping 101: Cooking",
+        "normalizedEnglish": "Camping 101: Cooking",
+        "build": "1.60.1",
+        "capturedAt": 1790917294,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "progress": {
+        "rawEnglish": "A good campfire is the foundation to any good camp.",
+        "normalizedEnglish": "A good campfire is the foundation to any good camp.",
+        "build": "1.60.1",
+        "capturedAt": 1790919080,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "complete": {
+        "rawEnglish": "With this, you'll be able to set up a camp anywhere out in the wilderness. What you've learned is just the basics, so you won't be able to place too many furnishings around it.\r\n\r\nRaise your cooking skill and you might just be able to learn to make even bigger fires.\r\n\r\nYou can also learn the basics of furnishing your campsites from other tradeskill trainers if you're savvy in their skills.",
+        "normalizedEnglish": "With this, you'll be able to set up a camp anywhere out in the wilderness. What you've learned is just the basics, so you won't be able to place too many furnishings around it.\n\nRaise your cooking skill and you might just be able to learn to make even bigger fires.\n\nYou can also learn the basics of furnishing your campsites from other tradeskill trainers if you're savvy in their skills.",
+        "build": "1.60.1",
+        "capturedAt": 1790919111,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "detail": {
+        "rawEnglish": "So you want to learn more about camping, huh? Good for you, mage. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\r\n\r\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+        "normalizedEnglish": "So you want to learn more about camping, huh? Good for you, <class>. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\n\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+        "build": "1.60.1",
+        "capturedAt": 1790917294,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      },
+      "objective": {
+        "rawEnglish": "Speak with Tomas in Goldshire to learn to become a cook.",
+        "normalizedEnglish": "Speak with Tomas in Goldshire to learn to become a cook.",
+        "build": "1.60.1",
+        "capturedAt": 1790917294,
+        "source": "User live SavedVariables capture",
+        "note": "Siara/name and mage/class are editorial identity markers, not claimed raw client tokens; UA cross-check supports name/class in offer text."
+      }
+    },
+    "uaReference": "UA_Forever 0.12.0 / entries/forever/catalogs/quests/missing.lua; all four IDs present",
+    "note": "Live English primary. UA adds /sit to 95998 objective; omitted because live source does not contain it. Missing states left empty."
+  }
+]

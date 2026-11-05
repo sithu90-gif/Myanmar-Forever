@@ -1,0 +1,63 @@
+{
+  "version": "0.5.1-beta",
+  "auditedDate": "2026-10-07",
+  "records": 610,
+  "previousRecordsBeforeOrcTroll": 474,
+  "orctrollRecords": 136,
+  "enabledFieldsChecked": 2884,
+  "englishRecords": 610,
+  "uaRecords": 610,
+  "uaRelease": "0.18.5-beta",
+  "uaGitTag": "0.18.5",
+  "uaCommit": "8cd9c9d265337f4f799ccdc12beb24ae1acbef81",
+  "uaRepository": "https://github.com/sysrover/UA_Forever",
+  "uaSourcePath": "entries/forever/cliend_db/quests.lua",
+  "uaExactTitleMatches": 604,
+  "uaCaseOnlyTitleDifferences": 3,
+  "documentedSpellingAliases": 3,
+  "translationFieldsChanged": 8,
+  "questRecordsChanged": 8,
+  "questRecordsUnchanged": 602,
+  "newQuestRecords": 0,
+  "runtimeDialogueStates": 1676,
+  "absentOrHeldDialogueStates": 154,
+  "heldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    }
+  ],
+  "absentReferenceFields": 161,
+  "uaNumericFlagsReviewed": 16,
+  "englishEvidenceRecoveredForExistingBookDialogueFields": 11,
+  "sourceNumericDigitCheck": "passed for every enabled field",
+  "sourceIdentityTokenCheck": "passed after literal Warrior correction",
+  "directionKeywordScreen": "no missing cardinal-direction keywords detected; automated screen only",
+  "objectiveNameScreen": "all flagged objectives manually triaged; seven clarity/English-label refinements",
+  "scriptEncodingScreen": "no stray Cyrillic, replacement characters, HTML entities or encoded PUA in editable drafts",
+  "humanLanguageReview": "pending; this audit is not a complete native-language proofread",
+  "inGame": "not tested",
+  "controllerHardware": "not tested",
+  "reviewScope": "Catalog-wide identity, number, field-presence, direction and objective-name checks plus targeted meaning review of flagged passages. English references remain authoritative over a different localization; no Ukrainian-to-Myanmar machine pivot."
+}

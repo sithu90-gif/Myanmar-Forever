@@ -1,0 +1,39 @@
+MyanmarForever v0.5.0-beta — portable build
+
+Python 3.10+ is recommended. From this directory:
+  python -m pip install -r requirements.txt
+  python build.py
+  python test.py
+
+No previous production workspace or OS font installation is required.
+Edit drafts.json (normal Myanmar Unicode), update worklist.json and the source
+review evidence, then rebuild BOTH fonts/NorthshireShaped.ttf and
+Catalogs/Northshire.lua. Never mix them across versions. mm_preshape.py is an
+inherited helper; use build.py, not its standalone sample CLI.
+
+Original Noto Sans Myanmar 2.107 supplies Myanmar shaping tables and glyphs.
+The previous v0.3.0 runtime font in Previous-v0.3.0/LatinFallback.ttf supplies
+Latin characters absent from that upstream Myanmar-only font. Its original
+1000-unit outlines were unchanged by its 1.6 em adjustment. Both are SIL OFL.
+The combined temporary font is used only while building and is removed on exit.
+The derived runtime font is named MM Northshire Shaped, not an upstream Noto font.
+
+The builder checks every Myanmar run's glyph sequence, advances and offsets
+against full-run HarfBuzz shaping before assigning private-use clusters. It
+also checks Unicode round trips and complete runtime glyph coverage.
+test.py runs the shipped addon and XML actions under a Lua 5.1 WoW API mock,
+checks all 1,830 quest/state combinations, preserves 474 baseline records and
+four runtime files, and checks source numeric-digit and identity-token evidence
+for the 629 new fields. These checks cannot certify translation quality or
+live game behavior. release-spec.json records the current coverage and holds.
+
+orctroll-sources.json and nightelf-sources.json contain source URLs, field hashes,
+token/quantity expectations, absences and review notes. Newly retrieved English
+passages are not duplicated in this package. Fetch the linked references for
+full context. orctroll-inventory.json records the selected scope and exclusions.
+baseline-v0.4.0.json records the previous ZIP, per-quest and runtime checksums.
+baseline-v0.3.0.json remains available for the older release history.
+Previous-v0.3.0 preserves historical source; its old workspace-dependent scripts
+are provenance only and are not the current build entrypoints. Previous-v0.4.0
+preserves the prior release documentation and validation reports.
+Font-Proof.png is an offline rendering sample, not a game screenshot.

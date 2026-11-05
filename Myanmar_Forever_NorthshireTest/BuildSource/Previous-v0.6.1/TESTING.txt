@@ -1,0 +1,61 @@
+MYANMAR FOREVER 0.6.1 LIVE VERIFICATION CHECKLIST
+
+Offline checks and source comparison are recorded separately. None of these live
+checks has been performed for this candidate.
+
+INSTALL / VERSION
+[ ] Fully restart WoW after replacing the whole Myanmar_Forever_NorthshireTest folder.
+[ ] Confirm 0.6.1-beta-candidate in the addon list; do not identify a version by a screenshot alone.
+[ ] Confirm the font loads on the first open, without changing font size.
+
+SOURCE IDENTITY / DISPATCH
+[ ] Accept/open an actual quest; record its numeric ID and exact English title.
+[ ] Compare offer, objective, progress and completion separately with the original English.
+[ ] Test stage transitions, closing and reopening, another NPC/quest, quest log and unknown IDs.
+[ ] A reused ID with a different title must retain native text and record a local capture.
+[ ] Missing/held states must not display another state's draft.
+[ ] Preview commands /mmforever ID [progress|complete] are for review only.
+
+NAMES / VOICE / MEANING
+[ ] Quest4641: Kaltunk's teasing appraisal and Gornek's skeptical, blunt training voice.
+[ ] Quest4641: the PLAYER becomes a proud Horde member; pride must not reverse direction.
+[ ] Check Kaltunk, Horde, Valley/ValleyofTrials and the current class pronunciation.
+[ ] Check each field independently: first important name use annotated, subsequent use compact.
+[ ] Review corrected reward-choice, direction, negation, uncertainty and idiom issues in audit.
+[ ] Check English target/item/spell identities against actual client labels.
+[ ] Native Myanmar reviewer: read for natural grammar, pronunciation and speaker-specific register.
+
+DYNAMIC IDENTITIES / RENDERING
+[ ] Test actual class/race values on more than one character, including Warrior and another class.
+[ ] First class/race use is annotated separately in title/offer/objective/progress/completion.
+[ ] Repeated use in one field stays compact; player names remain literal.
+[ ] Inspect long annotated NPC/item/place names at default, minimum and maximum font sizes.
+[ ] Scroll to the final line; check combining marks, word boundaries, punctuation and no clipped text.
+[ ] Check glyphs using the installed runtime font, not only the Unicode review document.
+
+SOURCE DISCREPANCIES / HOLDS
+[ ] Quest4641: capture whether its Scorpid progress actually occurs in the current client.
+    Public English includes it; pinned UA has no progress. No resolution was invented.
+[ ] Held fields:98021complete,95213complete,3118progress,842complete,3083progress,
+    745objective,98435detail/objective,99108detail,98387detail/objective. Compare their source-sensitive branches
+    or counters before considering any release of those holds.
+[ ] Quest98387: verify whether the live objective is 10 Battleworn Axes or
+    8 Stolen Weapons plus 10 Blackrock Supplies. Do not release the hold by guessing.
+[ ] Newly found progress/completion for 97977, 99051 and 99052 are unintegrated
+    source-discovery followups, not missing work silently marked translated.
+[ ] Eight known onward gaps remain outside this correction scope; see Tauren inventory.
+
+CONTROLLER / UI
+[ ] Check all six existing bindings on controller hardware; close/cancel must cancel pending opens.
+[ ] Do not attribute the separate client Bug/Feedback/Test overlay to this addon.
+
+CAPTURE
+Open the relevant live NPC state and use /mmforever capture if needed. /reload saves
+local captures. Include quest ID, title, state, build/locale and original English in
+a review report. Review captures before sharing if they contain player names.
+
+RELEASE GATE
+[ ] Native Myanmar sign-off.
+[ ] Current Forever source/acceptance and state verification.
+[ ] Controller hardware sign-off.
+[ ] Explicit user approval before publication. No publication is part of this correction task.

@@ -1,0 +1,22 @@
+{
+  "version": "0.4.0-beta",
+  "result": "PASS",
+  "quests": 474,
+  "dialogueStates": 1312,
+  "absentOrHeldStates": 110,
+  "priorQuestRecordsUnchanged": 353,
+  "newQuestRecords": 121,
+  "newFieldsCheckedForNumericDigitsAndIdentityTokens": 572,
+  "runtimeFieldsDecodedAndGlyphChecked": 2255,
+  "bindingActions": 6,
+  "LuaVersion": "Lua 5.1",
+  "runtimeTests": [
+    "PASS: Lua 5.1; 474 quests / 1312 available and 110 absent or held dialogue states; previews and real-event routing; recovered identities including race/class/name; font failure; saved UI; captures; stale/unknown/secret guards; unverified elf branch and placeholder held.",
+    "PASS: automatic capture of unknown quests in all 3 states, invalid/secret IDs rejected; new live quest identity markers and absent states.",
+    "PASS: v0.3.0 route additions, class intros, source hold, exclusions and identity suffixes.",
+    "PASS: Night Elf offers and held-name fallback; six shipped XML bindings; scroll clamps; font-size limits; hidden-input guards; close cancellation and toggle; /mmforever alias."
+  ],
+  "inGame": "not tested",
+  "controllerHardware": "not tested",
+  "nativeMyanmarReview": "pending"
+}

@@ -1,0 +1,50 @@
+MyanmarForever v0.5.1-beta — portable build and audit
+
+Python 3.10+ is recommended. From this directory:
+  python -m pip install -r requirements.txt
+  python build.py
+  python test.py
+
+No previous production workspace or OS font installation is required.
+Edit drafts.json in normal Myanmar Unicode, update worklist.json and the
+relevant source evidence, and rebuild BOTH Catalogs/Northshire.lua and
+fonts/NorthshireShaped.ttf. Never mix a font and catalog from different builds.
+
+Noto Sans Myanmar 2.107 provides Myanmar shaping. Previous-v0.3.0/LatinFallback.ttf
+provides the inherited Latin outlines absent from that Myanmar-only source font.
+Both fonts are SIL OFL. The derived runtime font is named MM Northshire Shaped.
+The 1.6 em adjustment accounts for stacked marks; it does not scale the outlines.
+The temporary combined input font is removed on exit.
+
+build.py compares every Myanmar run with full-run HarfBuzz glyphs, advances and
+offsets before assigning private-use clusters. It checks Unicode round trips
+and glyph coverage. It also exports explicitly documented English title aliases.
+mm_preshape.py is an inherited helper; use build.py as the build entrypoint.
+
+test.py checks all 610 records / 1,830 dialogue combinations and 2,884 enabled
+fields under a Lua 5.1 WoW API mock. It validates the source hashes' associated
+digit/token expectations, the five holds, the eight disclosed edits and the
+602 unchanged records. It exercises the shipped bindings and title guard,
+including wrong/missing/secret/error titles, NPC/log contexts, aliases, previews,
+captures and toggle revalidation. Offline tests cannot certify live behavior.
+
+Audit evidence:
+  source-audit-v0.5.1.json       Per-field URLs, hashes, expectations and holds.
+  audit-summary-v0.5.1.json      Scope, counts and limitations.
+  translation-changes-v0.5.1.json Before/after Myanmar text and reasons.
+  ua-differences-v0.5.1.json     All 16 numeric representation/source differences.
+  baseline-v0.5.0.json          Previous ZIP, quest and unchanged-code hashes.
+  release-spec.json             Current expected counts.
+
+The UA comparison is pinned to release tag 0.18.5, commit
+8cd9c9d265337f4f799ccdc12beb24ae1acbef81. It is a second localization reference,
+not live-client proof or the authority for changing English quest quantities.
+Retrieved full English passages and the Ukrainian catalog are not duplicated
+in the new audit files. Follow the per-field source links. Historical source
+and captures remain in Previous-v0.3.0; old workspace-dependent scripts there
+are provenance only. Previous-v0.4.0 and Previous-v0.5.0 preserve release history.
+
+Translation-Audit.html at the addon root shows the current drafts and changes.
+The older race-specific review pages are historical snapshots of those additions.
+Font-Proof.png is an offline rendering sample, not a game screenshot.
+Native Myanmar proofreading, in-game and controller testing remain pending.

@@ -1,0 +1,5861 @@
+{
+  "version": "0.6.2-brief-meaning-proposal-2026-10-11",
+  "status": "assisted_source_reviewed_native_wording_pending",
+  "scope": "45 short first-introduction meanings; stable source pronunciations preserved; 664-quest drafts remain byte-identical",
+  "draftsSHA256": "fc018e2c4b821eb6723e85dfc41d175fdffb23ce8a66ba2e89f92b3888cf3e37",
+  "renderPolicy": "Introduce each stable key once on first genuinely displayed eligible occurrence. Later displays retain pronunciation without meaning. Do not use catalog order as encounter order. Match whole annotations; never replace a substring inside another English identity. Honor excludedContexts before seen-state consumption.",
+  "terms": [
+    {
+      "key": "faction.horde",
+      "en": "Horde",
+      "pronunciation": "ဟော်ဒ်",
+      "meaning": "မျိုးနွယ်စုပေါင်းအင်အားစု",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Horde (ဟော်ဒ်)",
+          "en": "Horde",
+          "pronunciation": "ဟော်ဒ်",
+          "sourceQuestIDs": [
+            1372,
+            1391,
+            4641,
+            787,
+            840,
+            786,
+            791,
+            825,
+            831,
+            2161,
+            4021,
+            875,
+            98024,
+            6541,
+            5041,
+            3921,
+            855,
+            871,
+            876,
+            6382,
+            3082,
+            3084,
+            3118
+          ],
+          "sourceContexts": [
+            {
+              "questID": 1372,
+              "field": "complete"
+            },
+            {
+              "questID": 1391,
+              "field": "progress"
+            },
+            {
+              "questID": 4641,
+              "field": "detail"
+            },
+            {
+              "questID": 4641,
+              "field": "complete"
+            },
+            {
+              "questID": 787,
+              "field": "title"
+            },
+            {
+              "questID": 787,
+              "field": "detail"
+            },
+            {
+              "questID": 787,
+              "field": "complete"
+            },
+            {
+              "questID": 840,
+              "field": "title"
+            },
+            {
+              "questID": 840,
+              "field": "detail"
+            },
+            {
+              "questID": 786,
+              "field": "progress"
+            },
+            {
+              "questID": 786,
+              "field": "complete"
+            },
+            {
+              "questID": 791,
+              "field": "progress"
+            },
+            {
+              "questID": 791,
+              "field": "complete"
+            },
+            {
+              "questID": 825,
+              "field": "progress"
+            },
+            {
+              "questID": 831,
+              "field": "complete"
+            },
+            {
+              "questID": 2161,
+              "field": "complete"
+            },
+            {
+              "questID": 4021,
+              "field": "detail"
+            },
+            {
+              "questID": 4021,
+              "field": "complete"
+            },
+            {
+              "questID": 875,
+              "field": "detail"
+            },
+            {
+              "questID": 875,
+              "field": "progress"
+            },
+            {
+              "questID": 875,
+              "field": "complete"
+            },
+            {
+              "questID": 98024,
+              "field": "detail"
+            },
+            {
+              "questID": 6541,
+              "field": "detail"
+            },
+            {
+              "questID": 5041,
+              "field": "complete"
+            },
+            {
+              "questID": 3921,
+              "field": "detail"
+            },
+            {
+              "questID": 855,
+              "field": "detail"
+            },
+            {
+              "questID": 871,
+              "field": "complete"
+            },
+            {
+              "questID": 876,
+              "field": "detail"
+            },
+            {
+              "questID": 6382,
+              "field": "detail"
+            },
+            {
+              "questID": 6382,
+              "field": "complete"
+            },
+            {
+              "questID": 3082,
+              "field": "progress"
+            },
+            {
+              "questID": 3084,
+              "field": "complete"
+            },
+            {
+              "questID": 3118,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        786,
+        787,
+        791,
+        825,
+        831,
+        840,
+        855,
+        871,
+        875,
+        876,
+        1372,
+        1391,
+        2161,
+        3082,
+        3084,
+        3118,
+        3921,
+        4021,
+        4641,
+        5041,
+        6382,
+        6541,
+        98024
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Neutral coalition label. Do not call Horde intrinsically evil or equate it with the Burning Legion. No exhaustive race list or current-retail leadership claim.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/786-thwarting-kolkar-aggression",
+        "https://www.60.tools/quests/787-the-new-horde",
+        "https://www.60.tools/quests/791-carry-your-weight",
+        "https://www.60.tools/quests/825-from-the-wreckage",
+        "https://www.60.tools/quests/831-the-admirals-orders"
+      ]
+    },
+    {
+      "key": "faction.alliance",
+      "en": "Alliance",
+      "pronunciation": "အလိုင်းယန့်စ်",
+      "meaning": "လူသားတို့ပါဝင်တဲ့ မဟာမိတ်အဖွဲ့",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Alliance (အလိုင်းယန့်စ် — မဟာမိတ်အဖွဲ့)",
+          "en": "Alliance",
+          "pronunciation": "အလိုင်းယန့်စ်",
+          "sourceQuestIDs": [
+            95212,
+            314,
+            224,
+            237,
+            267,
+            250,
+            283
+          ],
+          "sourceContexts": [
+            {
+              "questID": 95212,
+              "field": "complete"
+            },
+            {
+              "questID": 314,
+              "field": "detail"
+            },
+            {
+              "questID": 314,
+              "field": "complete"
+            },
+            {
+              "questID": 224,
+              "field": "progress"
+            },
+            {
+              "questID": 237,
+              "field": "detail"
+            },
+            {
+              "questID": 237,
+              "field": "complete"
+            },
+            {
+              "questID": 267,
+              "field": "detail"
+            },
+            {
+              "questID": 250,
+              "field": "detail"
+            },
+            {
+              "questID": 283,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Alliance (အလိုင်းယန့်စ်)",
+          "en": "Alliance",
+          "pronunciation": "အလိုင်းယန့်စ်",
+          "sourceQuestIDs": [
+            783,
+            77616,
+            98407,
+            219,
+            825,
+            898,
+            891,
+            1133,
+            2139,
+            3119
+          ],
+          "sourceContexts": [
+            {
+              "questID": 783,
+              "field": "detail"
+            },
+            {
+              "questID": 77616,
+              "field": "detail"
+            },
+            {
+              "questID": 98407,
+              "field": "detail"
+            },
+            {
+              "questID": 219,
+              "field": "detail"
+            },
+            {
+              "questID": 825,
+              "field": "detail"
+            },
+            {
+              "questID": 898,
+              "field": "detail"
+            },
+            {
+              "questID": 891,
+              "field": "complete"
+            },
+            {
+              "questID": 1133,
+              "field": "detail"
+            },
+            {
+              "questID": 1133,
+              "field": "complete"
+            },
+            {
+              "questID": 2139,
+              "field": "complete"
+            },
+            {
+              "questID": 3119,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        219,
+        224,
+        237,
+        250,
+        267,
+        283,
+        314,
+        783,
+        825,
+        891,
+        898,
+        1133,
+        2139,
+        3119,
+        77616,
+        95212,
+        98407
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Neutral coalition label. The literal sense alone is insufficient to identify this named WoW faction; the brief reference to Humans distinguishes it.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/219-missing-in-action",
+        "https://www.60.tools/quests/224-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/237-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/250-a-dark-threat-looms",
+        "https://www.60.tools/quests/267-the-trogg-threat"
+      ]
+    },
+    {
+      "key": "class.warrior",
+      "en": "Warrior",
+      "pronunciation": "ဝေါရီယာ",
+      "meaning": "အနီးကပ်တိုက်ခိုက်တဲ့ စစ်သည်",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Warrior Trainer Alyissia (ဝေါရီယာ ထရေးနာ အလစ်ဆီယာ)",
+          "en": "Warrior Trainer Alyissia",
+          "pronunciation": "ဝေါရီယာ ထရေးနာ အလစ်ဆီယာ",
+          "sourceQuestIDs": [
+            3116
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3116,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Warrior Trainer Frang (ဝေါရီယာ ထရိန်းနာ ဖရန်ဂ်)",
+          "en": "Warrior Trainer Frang",
+          "pronunciation": "ဝေါရီယာ ထရိန်းနာ ဖရန်ဂ်",
+          "sourceQuestIDs": [
+            2383,
+            3065
+          ],
+          "sourceContexts": [
+            {
+              "questID": 2383,
+              "field": "detail"
+            },
+            {
+              "questID": 3065,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Warrior (ဝေါရီယာ — စစ်သည်)",
+          "en": "Warrior",
+          "pronunciation": "ဝေါရီယာ",
+          "sourceQuestIDs": [
+            3106,
+            3112
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3106,
+              "field": "detail"
+            },
+            {
+              "questID": 3106,
+              "field": "complete"
+            },
+            {
+              "questID": 3112,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Warrior (ဝေါရီယာ)",
+          "en": "Warrior",
+          "pronunciation": "ဝေါရီယာ",
+          "sourceQuestIDs": [
+            3100,
+            77616,
+            152,
+            56,
+            2383,
+            3065,
+            3082,
+            3116,
+            743
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3100,
+              "field": "detail"
+            },
+            {
+              "questID": 3100,
+              "field": "progress"
+            },
+            {
+              "questID": 3100,
+              "field": "complete"
+            },
+            {
+              "questID": 77616,
+              "field": "detail"
+            },
+            {
+              "questID": 152,
+              "field": "detail"
+            },
+            {
+              "questID": 152,
+              "field": "objective"
+            },
+            {
+              "questID": 152,
+              "field": "progress"
+            },
+            {
+              "questID": 56,
+              "field": "progress"
+            },
+            {
+              "questID": 2383,
+              "field": "complete"
+            },
+            {
+              "questID": 3065,
+              "field": "complete"
+            },
+            {
+              "questID": 3082,
+              "field": "progress"
+            },
+            {
+              "questID": 3116,
+              "field": "complete"
+            },
+            {
+              "questID": 743,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        56,
+        152,
+        743,
+        2383,
+        3065,
+        3082,
+        3100,
+        3106,
+        3112,
+        3116,
+        77616
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/56-the-night-watch",
+        "https://www.60.tools/quests/152-the-coast-isnt-clear",
+        "https://www.60.tools/quests/743-dangers-of-the-windfury",
+        "https://www.60.tools/quests/2383",
+        "https://www.60.tools/quests/3065"
+      ],
+      "identityTokens": [
+        "WARRIOR"
+      ]
+    },
+    {
+      "key": "class.paladin",
+      "en": "Paladin",
+      "pronunciation": "ပယ်လဒင်",
+      "meaning": "မြင့်မြတ်စွမ်းအားသုံး စစ်သည်",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Paladin (ပယ်လဒင် — သန့်ရှင်းသောစစ်သည်)",
+          "en": "Paladin",
+          "pronunciation": "ပယ်လဒင်",
+          "sourceQuestIDs": [
+            3107
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3107,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Paladin (ပယ်လဒင်)",
+          "en": "Paladin",
+          "pronunciation": "ပယ်လဒင်",
+          "sourceQuestIDs": [
+            3101,
+            967
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3101,
+              "field": "detail"
+            },
+            {
+              "questID": 967,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        967,
+        3101,
+        3107
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/967-the-tower-of-althalaxx",
+        "https://www.60.tools/quests/3101",
+        "https://www.60.tools/quests/3107-consecrated-rune"
+      ],
+      "identityTokens": [
+        "PALADIN"
+      ]
+    },
+    {
+      "key": "class.hunter",
+      "en": "Hunter",
+      "pronunciation": "ဟန်တာ",
+      "meaning": "သားရဲထိန်းကျောင်းတဲ့ မုဆိုး",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Hunter Trainer Jen'shan (ဟန်တာ ထရိန်းနာ ဂျန်ရှန်)",
+          "en": "Hunter Trainer Jen'shan",
+          "pronunciation": "ဟန်တာ ထရိန်းနာ ဂျန်ရှန်",
+          "sourceQuestIDs": [
+            3082,
+            3087
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3082,
+              "field": "detail"
+            },
+            {
+              "questID": 3087,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Hunter Trainer Ayanna (ဟန်တာ ထရေးနာ အယာနာ)",
+          "en": "Hunter Trainer Ayanna",
+          "pronunciation": "ဟန်တာ ထရေးနာ အယာနာ",
+          "sourceQuestIDs": [
+            3117
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3117,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Hunter (ဟန်တာ — မုဆိုး)",
+          "en": "Hunter",
+          "pronunciation": "ဟန်တာ",
+          "sourceQuestIDs": [
+            3108
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3108,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Hunter (ဟန်တာ)",
+          "en": "Hunter",
+          "pronunciation": "ဟန်တာ",
+          "sourceQuestIDs": [
+            92479,
+            91758,
+            3082
+          ],
+          "sourceContexts": [
+            {
+              "questID": 92479,
+              "field": "detail"
+            },
+            {
+              "questID": 91758,
+              "field": "detail"
+            },
+            {
+              "questID": 3082,
+              "field": "progress"
+            },
+            {
+              "questID": 3082,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        3082,
+        3087,
+        3108,
+        3117,
+        91758,
+        92479
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/3082",
+        "https://www.60.tools/quests/3087",
+        "https://www.60.tools/quests/3108-etched-rune",
+        "https://www.60.tools/quests/3117-etched-sigil",
+        "https://www.60.tools/quests/91758"
+      ],
+      "identityTokens": [
+        "HUNTER"
+      ]
+    },
+    {
+      "key": "class.rogue",
+      "en": "Rogue",
+      "pronunciation": "ရိုးဂ်",
+      "meaning": "ပုန်းလျှိုးတိုက်ခိုက်တဲ့ ကျွမ်းကျင်သူ",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Rogue Trainer Frahun (ရိုးဂ် ထရေးနာ ဖရာဟန်)",
+          "en": "Rogue Trainer Frahun",
+          "pronunciation": "ရိုးဂ် ထရေးနာ ဖရာဟန်",
+          "sourceQuestIDs": [
+            3118
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3118,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Rogue Trainer Rwag (ရိုးဂ် ထရိန်းနာ ရွက်ဂ်)",
+          "en": "Rogue Trainer Rwag",
+          "pronunciation": "ရိုးဂ် ထရိန်းနာ ရွက်ဂ်",
+          "sourceQuestIDs": [
+            3083,
+            3088
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3083,
+              "field": "detail"
+            },
+            {
+              "questID": 3088,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Rogue (ရိုးဂ် — လျှို့ဝှက်တိုက်ခိုက်သူ)",
+          "en": "Rogue",
+          "pronunciation": "ရိုးဂ်",
+          "sourceQuestIDs": [
+            3109,
+            3113
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3109,
+              "field": "detail"
+            },
+            {
+              "questID": 3113,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Rogue (ရိုးဂ်)",
+          "en": "Rogue",
+          "pronunciation": "ရိုးဂ်",
+          "sourceQuestIDs": [
+            65,
+            5043
+          ],
+          "sourceContexts": [
+            {
+              "questID": 65,
+              "field": "detail"
+            },
+            {
+              "questID": 5043,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        65,
+        3083,
+        3088,
+        3109,
+        3113,
+        3118,
+        5043
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/65-the-defias-brotherhood",
+        "https://www.60.tools/quests/3083",
+        "https://www.60.tools/quests/3088",
+        "https://www.60.tools/quests/3109-encrypted-rune",
+        "https://www.60.tools/quests/3113-encrypted-memorandum"
+      ],
+      "identityTokens": [
+        "ROGUE"
+      ]
+    },
+    {
+      "key": "class.priest",
+      "en": "Priest",
+      "pronunciation": "ပရီးစ်တ်",
+      "meaning": "အလင်းနှင့် အရိပ်မှော်သုံး ဘာသာရေးဆရာ",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Priest Trainer Ken'jai (ပရိစ်တ် ထရိန်းနာ ကန်ဂျိုင်း)",
+          "en": "Priest Trainer Ken'jai",
+          "pronunciation": "ပရိစ်တ် ထရိန်းနာ ကန်ဂျိုင်း",
+          "sourceQuestIDs": [
+            3085
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3085,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Priest Trainer Shanda (ပရီးစ်တ် ထရေးနာ ရှန်ဒါ)",
+          "en": "Priest Trainer Shanda",
+          "pronunciation": "ပရီးစ်တ် ထရေးနာ ရှန်ဒါ",
+          "sourceQuestIDs": [
+            3119
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3119,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Priest (ပရီးစ်တ် — ဘာသာရေးဆရာ)",
+          "en": "Priest",
+          "pronunciation": "ပရီးစ်တ်",
+          "sourceQuestIDs": [
+            3110
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3110,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Priest (ပရီးစ်တ်)",
+          "en": "Priest",
+          "pronunciation": "ပရီးစ်တ်",
+          "sourceQuestIDs": [
+            3103
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3103,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Priestess (ပရီးစ်တက်စ် — ဘာသာရေးဆရာမ)",
+          "en": "Priestess",
+          "pronunciation": "ပရီးစ်တက်စ်",
+          "sourceQuestIDs": [
+            5623
+          ],
+          "sourceContexts": [],
+          "sourceKind": "build.py dynamic <priest/priestess> marker label; parent verified"
+        }
+      ],
+      "sourceQuestIDs": [
+        3085,
+        3103,
+        3110,
+        3119
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/3085",
+        "https://www.60.tools/quests/3103",
+        "https://www.60.tools/quests/3110-hallowed-rune",
+        "https://www.60.tools/quests/3119-hallowed-sigil"
+      ],
+      "identityTokens": [
+        "PRIEST"
+      ]
+    },
+    {
+      "key": "class.shaman",
+      "en": "Shaman",
+      "pronunciation": "ရှာမန်",
+      "meaning": "ဓာတ်ဝိညာဉ်စွမ်းအားသုံး မှော်ဆရာ",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Shaman Trainer Shikrik (ရှာမန် ထရိန်းနာ ရှစ်ခရစ်ခ်)",
+          "en": "Shaman Trainer Shikrik",
+          "pronunciation": "ရှာမန် ထရိန်းနာ ရှစ်ခရစ်ခ်",
+          "sourceQuestIDs": [
+            3084,
+            3089
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3084,
+              "field": "detail"
+            },
+            {
+              "questID": 3089,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Shaman (ရှာမန် — သဘာဝဝိညာဉ်မှော်ဆရာ)",
+          "en": "Shaman",
+          "pronunciation": "ရှာမန်",
+          "sourceQuestIDs": [
+            86667
+          ],
+          "sourceContexts": [
+            {
+              "questID": 86667,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Shaman (ရှာမန်)",
+          "en": "Shaman",
+          "pronunciation": "ရှာမန်",
+          "sourceQuestIDs": [
+            787,
+            828,
+            829,
+            842,
+            853,
+            5044,
+            5045,
+            3082,
+            3084
+          ],
+          "sourceContexts": [
+            {
+              "questID": 787,
+              "field": "detail"
+            },
+            {
+              "questID": 828,
+              "field": "detail"
+            },
+            {
+              "questID": 829,
+              "field": "detail"
+            },
+            {
+              "questID": 842,
+              "field": "detail"
+            },
+            {
+              "questID": 853,
+              "field": "detail"
+            },
+            {
+              "questID": 5044,
+              "field": "progress"
+            },
+            {
+              "questID": 5045,
+              "field": "complete"
+            },
+            {
+              "questID": 3082,
+              "field": "progress"
+            },
+            {
+              "questID": 3084,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        787,
+        828,
+        829,
+        842,
+        853,
+        3082,
+        3084,
+        3089,
+        5044,
+        5045,
+        86667
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/787-the-new-horde",
+        "https://www.60.tools/quests/828-margoz",
+        "https://www.60.tools/quests/829-neeru-fireblade",
+        "https://www.60.tools/quests/842-crossroads-conscription",
+        "https://www.60.tools/quests/853-apothecary-zamah"
+      ],
+      "identityTokens": [
+        "SHAMAN"
+      ]
+    },
+    {
+      "key": "class.mage",
+      "en": "Mage",
+      "pronunciation": "မေ့ဂျ်",
+      "meaning": "မှော်နဲ့ အဝေးကတိုက်ခိုက်တဲ့ ပညာရှင်",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Mage Trainer Mai'ah (မေ့ဂျ် ထရိန်းနာ မိုင်အာ)",
+          "en": "Mage Trainer Mai'ah",
+          "pronunciation": "မေ့ဂျ် ထရိန်းနာ မိုင်အာ",
+          "sourceQuestIDs": [
+            3086
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3086,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Mage (မေ့ဂျ် — မှော်ပညာရှင်)",
+          "en": "Mage",
+          "pronunciation": "မေ့ဂျ်",
+          "sourceQuestIDs": [
+            3114
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3114,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Mage (မေ့ဂျ်)",
+          "en": "Mage",
+          "pronunciation": "မေ့ဂျ်",
+          "sourceQuestIDs": [
+            3104,
+            94,
+            56,
+            265,
+            1395
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3104,
+              "field": "detail"
+            },
+            {
+              "questID": 94,
+              "field": "detail"
+            },
+            {
+              "questID": 56,
+              "field": "progress"
+            },
+            {
+              "questID": 265,
+              "field": "progress"
+            },
+            {
+              "questID": 1395,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        56,
+        94,
+        265,
+        1395,
+        3086,
+        3104,
+        3114
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/56-the-night-watch",
+        "https://www.60.tools/quests/94-a-watchful-eye",
+        "https://www.60.tools/quests/265-the-shadowy-search-continues",
+        "https://www.60.tools/quests/1395-supplies-for-nethergarde",
+        "https://www.60.tools/quests/3086"
+      ],
+      "identityTokens": [
+        "MAGE"
+      ]
+    },
+    {
+      "key": "class.warlock",
+      "en": "Warlock",
+      "pronunciation": "ဝေါလော့ခ်",
+      "meaning": "နတ်ဆိုးစွမ်းအားသုံး အမှောင်မှော်ဆရာ",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Warlock (ဝေါလော့ခ် — အမှောင်မှော်ဆရာ)",
+          "en": "Warlock",
+          "pronunciation": "ဝေါလော့ခ်",
+          "sourceQuestIDs": [
+            3115
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3115,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Warlock (ဝေါလော့ခ်)",
+          "en": "Warlock",
+          "pronunciation": "ဝေါလော့ခ်",
+          "sourceQuestIDs": [
+            1598,
+            806,
+            829,
+            3090,
+            966
+          ],
+          "sourceContexts": [
+            {
+              "questID": 1598,
+              "field": "detail"
+            },
+            {
+              "questID": 806,
+              "field": "detail"
+            },
+            {
+              "questID": 829,
+              "field": "detail"
+            },
+            {
+              "questID": 3090,
+              "field": "detail"
+            },
+            {
+              "questID": 966,
+              "field": "detail"
+            },
+            {
+              "questID": 966,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        806,
+        829,
+        966,
+        1598,
+        3090,
+        3115
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/806-dark-storms",
+        "https://www.60.tools/quests/829-neeru-fireblade",
+        "https://www.60.tools/quests/966-the-tower-of-althalaxx",
+        "https://www.60.tools/quests/1598",
+        "https://www.60.tools/quests/3090"
+      ],
+      "identityTokens": [
+        "WARLOCK"
+      ]
+    },
+    {
+      "key": "class.druid",
+      "en": "Druid",
+      "pronunciation": "ဒရူးအစ်ဒ်",
+      "meaning": "အသွင်ပြောင်းနိုင်တဲ့ သဘာဝမှော်ပညာရှင်",
+      "category": "class",
+      "aliases": [
+        {
+          "text": "Druid Trainer Mardant (ဒရူးအစ်ဒ် ထရေးနာ မာဒန့်တ်)",
+          "en": "Druid Trainer Mardant",
+          "pronunciation": "ဒရူးအစ်ဒ် ထရေးနာ မာဒန့်တ်",
+          "sourceQuestIDs": [
+            3120
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3120,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Druid (ဒရူးအစ်ဒ်)",
+          "en": "Druid",
+          "pronunciation": "ဒရူးအစ်ဒ်",
+          "sourceQuestIDs": [
+            886,
+            870,
+            458,
+            921,
+            483,
+            922,
+            929,
+            933,
+            934,
+            935,
+            2159,
+            2438,
+            2541,
+            7383
+          ],
+          "sourceContexts": [
+            {
+              "questID": 886,
+              "field": "detail"
+            },
+            {
+              "questID": 870,
+              "field": "detail"
+            },
+            {
+              "questID": 458,
+              "field": "complete"
+            },
+            {
+              "questID": 921,
+              "field": "progress"
+            },
+            {
+              "questID": 483,
+              "field": "detail"
+            },
+            {
+              "questID": 922,
+              "field": "detail"
+            },
+            {
+              "questID": 929,
+              "field": "detail"
+            },
+            {
+              "questID": 933,
+              "field": "complete"
+            },
+            {
+              "questID": 934,
+              "field": "progress"
+            },
+            {
+              "questID": 935,
+              "field": "detail"
+            },
+            {
+              "questID": 2159,
+              "field": "detail"
+            },
+            {
+              "questID": 2438,
+              "field": "detail"
+            },
+            {
+              "questID": 2541,
+              "field": "title"
+            },
+            {
+              "questID": 2541,
+              "field": "detail"
+            },
+            {
+              "questID": 7383,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        458,
+        483,
+        870,
+        886,
+        921,
+        922,
+        929,
+        933,
+        934,
+        935,
+        2159,
+        2438,
+        2541,
+        3120,
+        7383
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-gb/game/classes"
+      ],
+      "reviewNote": "Class or clear trainer sense only. Do not match this word inside an enemy target identity. A role summary, not a claim that every class ability is described.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/458-the-woodland-protector",
+        "https://www.60.tools/quests/483-the-relics-of-wakening",
+        "https://www.60.tools/quests/870-the-forgotten-pools",
+        "https://www.60.tools/quests/886-the-barrens-oases",
+        "https://www.60.tools/quests/921-crown-of-the-earth"
+      ],
+      "identityTokens": [
+        "DRUID"
+      ]
+    },
+    {
+      "key": "race.human",
+      "en": "Human",
+      "pronunciation": "ဟျူးမန်",
+      "meaning": "လူသားမျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Human (ဟျူးမန်)",
+          "en": "Human",
+          "pronunciation": "ဟျူးမန်",
+          "sourceQuestIDs": [
+            783,
+            7,
+            244,
+            98407,
+            169,
+            1372,
+            1391,
+            99160,
+            1338,
+            3106,
+            3107,
+            3115,
+            787,
+            784,
+            791,
+            825,
+            831,
+            891,
+            3090
+          ],
+          "sourceContexts": [
+            {
+              "questID": 783,
+              "field": "complete"
+            },
+            {
+              "questID": 7,
+              "field": "complete"
+            },
+            {
+              "questID": 244,
+              "field": "complete"
+            },
+            {
+              "questID": 98407,
+              "field": "detail"
+            },
+            {
+              "questID": 169,
+              "field": "complete"
+            },
+            {
+              "questID": 1372,
+              "field": "detail"
+            },
+            {
+              "questID": 1372,
+              "field": "complete"
+            },
+            {
+              "questID": 1391,
+              "field": "detail"
+            },
+            {
+              "questID": 99160,
+              "field": "detail"
+            },
+            {
+              "questID": 1338,
+              "field": "detail"
+            },
+            {
+              "questID": 3106,
+              "field": "complete"
+            },
+            {
+              "questID": 3107,
+              "field": "complete"
+            },
+            {
+              "questID": 3115,
+              "field": "progress"
+            },
+            {
+              "questID": 787,
+              "field": "detail"
+            },
+            {
+              "questID": 784,
+              "field": "detail"
+            },
+            {
+              "questID": 791,
+              "field": "detail"
+            },
+            {
+              "questID": 791,
+              "field": "progress"
+            },
+            {
+              "questID": 825,
+              "field": "detail"
+            },
+            {
+              "questID": 825,
+              "field": "progress"
+            },
+            {
+              "questID": 831,
+              "field": "detail"
+            },
+            {
+              "questID": 831,
+              "field": "complete"
+            },
+            {
+              "questID": 891,
+              "field": "detail"
+            },
+            {
+              "questID": 3090,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        7,
+        169,
+        244,
+        783,
+        784,
+        787,
+        791,
+        825,
+        831,
+        891,
+        1338,
+        1372,
+        1391,
+        3090,
+        3106,
+        3107,
+        3115,
+        98407,
+        99160
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/7",
+        "https://www.60.tools/quests/169-wanted-gathilzogg",
+        "https://www.60.tools/quests/244-encroaching-gnolls",
+        "https://www.60.tools/quests/783",
+        "https://www.60.tools/quests/784-vanquish-the-betrayers"
+      ],
+      "identityTokens": [
+        "Human"
+      ]
+    },
+    {
+      "key": "race.dwarf",
+      "en": "Dwarf",
+      "pronunciation": "ဒွာ့ဖ်",
+      "meaning": "အရပ်ပုပြီး ကိုယ်ထည်တောင့်တင်းတဲ့ မျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Dwarf (ဒွာ့ဖ် — လူပုမျိုးနွယ်)",
+          "en": "Dwarf",
+          "pronunciation": "ဒွာ့ဖ်",
+          "sourceQuestIDs": [
+            319,
+            318,
+            99160,
+            315,
+            98423,
+            96391,
+            419,
+            179,
+            307,
+            6387,
+            217,
+            237,
+            436,
+            1338,
+            267,
+            3106,
+            3115
+          ],
+          "sourceContexts": [
+            {
+              "questID": 319,
+              "field": "detail"
+            },
+            {
+              "questID": 318,
+              "field": "detail"
+            },
+            {
+              "questID": 99160,
+              "field": "detail"
+            },
+            {
+              "questID": 315,
+              "field": "detail"
+            },
+            {
+              "questID": 98423,
+              "field": "detail"
+            },
+            {
+              "questID": 96391,
+              "field": "detail"
+            },
+            {
+              "questID": 419,
+              "field": "complete"
+            },
+            {
+              "questID": 179,
+              "field": "title"
+            },
+            {
+              "questID": 307,
+              "field": "detail"
+            },
+            {
+              "questID": 6387,
+              "field": "detail"
+            },
+            {
+              "questID": 217,
+              "field": "progress"
+            },
+            {
+              "questID": 237,
+              "field": "detail"
+            },
+            {
+              "questID": 436,
+              "field": "detail"
+            },
+            {
+              "questID": 1338,
+              "field": "detail"
+            },
+            {
+              "questID": 1338,
+              "field": "progress"
+            },
+            {
+              "questID": 1338,
+              "field": "complete"
+            },
+            {
+              "questID": 267,
+              "field": "detail"
+            },
+            {
+              "questID": 267,
+              "field": "complete"
+            },
+            {
+              "questID": 3106,
+              "field": "complete"
+            },
+            {
+              "questID": 3115,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Dwarf (ဒွာ့ဖ်)",
+          "en": "Dwarf",
+          "pronunciation": "ဒွာ့ဖ်",
+          "sourceQuestIDs": [
+            1097,
+            270,
+            322,
+            3086,
+            746
+          ],
+          "sourceContexts": [
+            {
+              "questID": 1097,
+              "field": "detail"
+            },
+            {
+              "questID": 270,
+              "field": "detail"
+            },
+            {
+              "questID": 322,
+              "field": "detail"
+            },
+            {
+              "questID": 3086,
+              "field": "complete"
+            },
+            {
+              "questID": 746,
+              "field": "title"
+            },
+            {
+              "questID": 746,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        179,
+        217,
+        237,
+        267,
+        270,
+        307,
+        315,
+        318,
+        319,
+        322,
+        419,
+        436,
+        746,
+        1097,
+        1338,
+        3086,
+        3106,
+        3115,
+        6387,
+        96391,
+        98423,
+        99160
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/179-dwarven-outfitters",
+        "https://www.60.tools/quests/217-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/237-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/267-the-trogg-threat",
+        "https://www.60.tools/quests/270-the-doomed-fleet"
+      ],
+      "identityTokens": [
+        "Dwarf"
+      ]
+    },
+    {
+      "key": "race.night_elf",
+      "en": "Night Elf",
+      "pronunciation": "နိုက် အဲလ်ဖ်",
+      "meaning": "ညဘက်လှုပ်ရှားလေ့ရှိတဲ့ အဲလ်ဖ်မျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Night Elf (နိုက် အဲလ်ဖ်)",
+          "en": "Night Elf",
+          "pronunciation": "နိုက် အဲလ်ဖ်",
+          "sourceQuestIDs": [
+            486,
+            982,
+            967,
+            1003
+          ],
+          "sourceContexts": [
+            {
+              "questID": 486,
+              "field": "complete"
+            },
+            {
+              "questID": 982,
+              "field": "progress"
+            },
+            {
+              "questID": 967,
+              "field": "complete"
+            },
+            {
+              "questID": 1003,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        486,
+        967,
+        982,
+        1003
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/486-ursal-the-mauler",
+        "https://www.60.tools/quests/967-the-tower-of-althalaxx",
+        "https://www.60.tools/quests/982-deep-ocean-vast-sea",
+        "https://www.60.tools/quests/1003-buzzbox-525"
+      ],
+      "identityTokens": [
+        "NightElf"
+      ]
+    },
+    {
+      "key": "race.gnome",
+      "en": "Gnome",
+      "pronunciation": "နိုးမ်",
+      "meaning": "ကိုယ်ထည်သေးငယ်တဲ့ တီထွင်ပညာရှင်မျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Gnome (နိုးမ် — လူပုမျိုးနွယ်)",
+          "en": "Gnome",
+          "pronunciation": "နိုးမ်",
+          "sourceQuestIDs": [
+            412,
+            3361,
+            2038,
+            3106,
+            3109,
+            3112,
+            3114
+          ],
+          "sourceContexts": [
+            {
+              "questID": 412,
+              "field": "detail"
+            },
+            {
+              "questID": 412,
+              "field": "complete"
+            },
+            {
+              "questID": 3361,
+              "field": "detail"
+            },
+            {
+              "questID": 2038,
+              "field": "complete"
+            },
+            {
+              "questID": 3106,
+              "field": "progress"
+            },
+            {
+              "questID": 3109,
+              "field": "complete"
+            },
+            {
+              "questID": 3112,
+              "field": "progress"
+            },
+            {
+              "questID": 3114,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Gnome (နိုးမ်)",
+          "en": "Gnome",
+          "pronunciation": "နိုးမ်",
+          "sourceQuestIDs": [
+            174,
+            825,
+            1002
+          ],
+          "sourceContexts": [
+            {
+              "questID": 174,
+              "field": "detail"
+            },
+            {
+              "questID": 825,
+              "field": "detail"
+            },
+            {
+              "questID": 1002,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        174,
+        412,
+        825,
+        1002,
+        2038,
+        3106,
+        3109,
+        3112,
+        3114,
+        3361
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/174-look-to-the-stars",
+        "https://www.60.tools/quests/412-operation-recombobulation",
+        "https://www.60.tools/quests/825-from-the-wreckage",
+        "https://www.60.tools/quests/1002-buzzbox-323",
+        "https://www.60.tools/quests/2038-bingles-missing-supplies"
+      ],
+      "identityTokens": [
+        "Gnome"
+      ]
+    },
+    {
+      "key": "race.orc",
+      "en": "Orc",
+      "pronunciation": "အော်ခ်",
+      "meaning": "အစွယ်ရှိပြီး ကိုယ်ထည်တောင့်တင်းတဲ့ မျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Orc (အော်ခ်)",
+          "en": "Orc",
+          "pronunciation": "အော်ခ်",
+          "sourceQuestIDs": [
+            141,
+            124,
+            129,
+            98387,
+            20,
+            116,
+            92,
+            89,
+            125,
+            169,
+            95999,
+            19,
+            126,
+            219,
+            248,
+            1372,
+            1383,
+            805,
+            840,
+            99052,
+            786,
+            809,
+            818,
+            823,
+            834,
+            852,
+            6361,
+            6365,
+            6384,
+            3086
+          ],
+          "sourceContexts": [
+            {
+              "questID": 141,
+              "field": "detail"
+            },
+            {
+              "questID": 124,
+              "field": "detail"
+            },
+            {
+              "questID": 129,
+              "field": "complete"
+            },
+            {
+              "questID": 98387,
+              "field": "progress"
+            },
+            {
+              "questID": 20,
+              "field": "progress"
+            },
+            {
+              "questID": 20,
+              "field": "complete"
+            },
+            {
+              "questID": 116,
+              "field": "detail"
+            },
+            {
+              "questID": 92,
+              "field": "detail"
+            },
+            {
+              "questID": 89,
+              "field": "detail"
+            },
+            {
+              "questID": 125,
+              "field": "detail"
+            },
+            {
+              "questID": 169,
+              "field": "detail"
+            },
+            {
+              "questID": 95999,
+              "field": "detail"
+            },
+            {
+              "questID": 19,
+              "field": "detail"
+            },
+            {
+              "questID": 19,
+              "field": "progress"
+            },
+            {
+              "questID": 19,
+              "field": "complete"
+            },
+            {
+              "questID": 126,
+              "field": "complete"
+            },
+            {
+              "questID": 219,
+              "field": "detail"
+            },
+            {
+              "questID": 248,
+              "field": "detail"
+            },
+            {
+              "questID": 1372,
+              "field": "detail"
+            },
+            {
+              "questID": 1372,
+              "field": "complete"
+            },
+            {
+              "questID": 1383,
+              "field": "complete"
+            },
+            {
+              "questID": 805,
+              "field": "complete"
+            },
+            {
+              "questID": 840,
+              "field": "objective"
+            },
+            {
+              "questID": 99052,
+              "field": "detail"
+            },
+            {
+              "questID": 786,
+              "field": "detail"
+            },
+            {
+              "questID": 809,
+              "field": "detail"
+            },
+            {
+              "questID": 818,
+              "field": "detail"
+            },
+            {
+              "questID": 823,
+              "field": "detail"
+            },
+            {
+              "questID": 834,
+              "field": "detail"
+            },
+            {
+              "questID": 852,
+              "field": "complete"
+            },
+            {
+              "questID": 6361,
+              "field": "complete"
+            },
+            {
+              "questID": 6365,
+              "field": "progress"
+            },
+            {
+              "questID": 6384,
+              "field": "complete"
+            },
+            {
+              "questID": 3086,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        19,
+        20,
+        89,
+        92,
+        116,
+        124,
+        125,
+        126,
+        129,
+        141,
+        169,
+        219,
+        248,
+        786,
+        805,
+        809,
+        818,
+        823,
+        834,
+        840,
+        852,
+        1372,
+        1383,
+        3086,
+        6361,
+        6365,
+        6384,
+        95999,
+        98387,
+        99052
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/19-tharilzun",
+        "https://www.60.tools/quests/20-blackrock-menace",
+        "https://www.60.tools/quests/89-the-everstill-bridge",
+        "https://www.60.tools/quests/92-redridge-goulash",
+        "https://www.60.tools/quests/116-dry-times"
+      ],
+      "identityTokens": [
+        "Orc"
+      ]
+    },
+    {
+      "key": "race.troll",
+      "en": "Troll",
+      "pronunciation": "ထရိုးလ်",
+      "meaning": "စွယ်ရှည်နဲ့ နားချွန်ရှိတဲ့ မျိုးနွယ်",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Troll (ထရိုးလ် — မျိုးနွယ်အမည်)",
+          "en": "Troll",
+          "pronunciation": "ထရိုးလ်",
+          "sourceQuestIDs": [
+            287,
+            98319,
+            315,
+            3361,
+            218,
+            182
+          ],
+          "sourceContexts": [
+            {
+              "questID": 287,
+              "field": "detail"
+            },
+            {
+              "questID": 98319,
+              "field": "detail"
+            },
+            {
+              "questID": 315,
+              "field": "detail"
+            },
+            {
+              "questID": 3361,
+              "field": "detail"
+            },
+            {
+              "questID": 3361,
+              "field": "progress"
+            },
+            {
+              "questID": 218,
+              "field": "detail"
+            },
+            {
+              "questID": 218,
+              "field": "complete"
+            },
+            {
+              "questID": 182,
+              "field": "title"
+            },
+            {
+              "questID": 182,
+              "field": "detail"
+            },
+            {
+              "questID": 182,
+              "field": "progress"
+            },
+            {
+              "questID": 182,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Troll (ထရိုးလ်)",
+          "en": "Troll",
+          "pronunciation": "ထရိုးလ်",
+          "sourceQuestIDs": [
+            805,
+            786,
+            818,
+            826,
+            3065
+          ],
+          "sourceContexts": [
+            {
+              "questID": 805,
+              "field": "detail"
+            },
+            {
+              "questID": 786,
+              "field": "detail"
+            },
+            {
+              "questID": 818,
+              "field": "detail"
+            },
+            {
+              "questID": 826,
+              "field": "detail"
+            },
+            {
+              "questID": 3065,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        182,
+        218,
+        287,
+        315,
+        786,
+        805,
+        818,
+        826,
+        3065,
+        3361,
+        98319
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/182-the-troll-cave",
+        "https://www.60.tools/quests/218-the-stolen-journal",
+        "https://www.60.tools/quests/287-frostmane-hold",
+        "https://www.60.tools/quests/315-the-perfect-stout",
+        "https://www.60.tools/quests/786-thwarting-kolkar-aggression"
+      ],
+      "identityTokens": [
+        "Troll"
+      ]
+    },
+    {
+      "key": "race.tauren",
+      "en": "Tauren",
+      "pronunciation": "တော်ရန်",
+      "meaning": "နွားသဏ္ဌာန်ရှိတဲ့ လူမျိုး",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Tauren (တော်ရန်)",
+          "en": "Tauren",
+          "pronunciation": "တော်ရန်",
+          "sourceQuestIDs": [
+            881,
+            4921,
+            845,
+            850,
+            747,
+            750,
+            754,
+            861,
+            764
+          ],
+          "sourceContexts": [
+            {
+              "questID": 881,
+              "field": "detail"
+            },
+            {
+              "questID": 4921,
+              "field": "detail"
+            },
+            {
+              "questID": 845,
+              "field": "complete"
+            },
+            {
+              "questID": 850,
+              "field": "detail"
+            },
+            {
+              "questID": 747,
+              "field": "detail"
+            },
+            {
+              "questID": 747,
+              "field": "complete"
+            },
+            {
+              "questID": 750,
+              "field": "complete"
+            },
+            {
+              "questID": 754,
+              "field": "complete"
+            },
+            {
+              "questID": 861,
+              "field": "detail"
+            },
+            {
+              "questID": 764,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        747,
+        750,
+        754,
+        764,
+        845,
+        850,
+        861,
+        881,
+        4921
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Brief descriptive identity, not a moral characterization or exhaustive lore. Pronunciation retained from 0.6.1. Race images/descriptions in the official manual, PDF pages 69–70 and appendices. Native wording review remains pending.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/747-the-hunt-begins",
+        "https://www.60.tools/quests/750-the-hunt-continues",
+        "https://www.60.tools/quests/754-winterhoof-cleansing",
+        "https://www.60.tools/quests/764-the-venture-co",
+        "https://www.60.tools/quests/845-the-zhevra"
+      ],
+      "identityTokens": [
+        "Tauren"
+      ]
+    },
+    {
+      "key": "race.undead",
+      "en": "Undead",
+      "pronunciation": "အန်ဒက်ဒ်",
+      "meaning": "သေပြီးမှ ပြန်ထလာသူ",
+      "category": "race",
+      "aliases": [
+        {
+          "text": "Undead (အန်ဒက်ဒ်)",
+          "en": "Undead",
+          "pronunciation": "အန်ဒက်ဒ်",
+          "sourceQuestIDs": [
+            56,
+            57,
+            223,
+            227,
+            3301,
+            967
+          ],
+          "sourceContexts": [
+            {
+              "questID": 56,
+              "field": "detail"
+            },
+            {
+              "questID": 57,
+              "field": "detail"
+            },
+            {
+              "questID": 223,
+              "field": "complete"
+            },
+            {
+              "questID": 227,
+              "field": "complete"
+            },
+            {
+              "questID": 3301,
+              "field": "detail"
+            },
+            {
+              "questID": 967,
+              "field": "detail"
+            },
+            {
+              "questID": 967,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        56,
+        57,
+        223,
+        227,
+        967,
+        3301
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://worldofwarcraft.blizzard.com/en-us/game/races"
+      ],
+      "reviewNote": "Broad undead meaning fits both the playable label and undead creatures. The API race token Scourge is only an internal identifier for Undead: never explain the player as the Scourge faction.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/56-the-night-watch",
+        "https://www.60.tools/quests/57-the-night-watch",
+        "https://www.60.tools/quests/223-worgen-in-the-woods",
+        "https://www.60.tools/quests/227-morgan-ladimore",
+        "https://www.60.tools/quests/967-the-tower-of-althalaxx"
+      ],
+      "identityTokens": [
+        "Scourge"
+      ]
+    },
+    {
+      "key": "faction.burning_legion",
+      "en": "Burning Legion",
+      "pronunciation": "ဘာနင်း လီဂျန်",
+      "meaning": "ကျူးကျော်နတ်ဆိုးတပ်ကြီး",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Burning Legion (ဘာနင်း လီဂျန်)",
+          "en": "Burning Legion",
+          "pronunciation": "ဘာနင်း လီဂျန်",
+          "sourceQuestIDs": [
+            3103,
+            787,
+            809,
+            924,
+            921,
+            770
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3103,
+              "field": "progress"
+            },
+            {
+              "questID": 787,
+              "field": "detail"
+            },
+            {
+              "questID": 809,
+              "field": "detail"
+            },
+            {
+              "questID": 924,
+              "field": "detail"
+            },
+            {
+              "questID": 921,
+              "field": "detail"
+            },
+            {
+              "questID": 770,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        770,
+        787,
+        809,
+        921,
+        924,
+        3103
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://wow-site-bwa-production-eks-prod-use1-01.worldofwarcraft.blizzard.com/en-gb/news/20176411/the-legion-pre-expansion-patch-arrives-july-20"
+      ],
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/770-the-demon-scarred-cloak",
+        "https://www.60.tools/quests/787-the-new-horde",
+        "https://www.60.tools/quests/809-akzeloth",
+        "https://www.60.tools/quests/921-crown-of-the-earth",
+        "https://www.60.tools/quests/924-the-demon-seed"
+      ]
+    },
+    {
+      "key": "faction.burning_blade",
+      "en": "Burning Blade",
+      "pronunciation": "ဘာနင်း ဘလိတ်ဒ်",
+      "meaning": "နတ်ဆိုးကိုးကွယ်တဲ့ အဖွဲ့",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Burning Blade (ဘာနင်း ဘလိတ်ဒ်)",
+          "en": "Burning Blade",
+          "pronunciation": "ဘာနင်း ဘလိတ်ဒ်",
+          "sourceQuestIDs": [
+            792,
+            794,
+            805,
+            832,
+            806,
+            827,
+            809,
+            823,
+            828
+          ],
+          "sourceContexts": [
+            {
+              "questID": 792,
+              "field": "detail"
+            },
+            {
+              "questID": 792,
+              "field": "progress"
+            },
+            {
+              "questID": 792,
+              "field": "complete"
+            },
+            {
+              "questID": 794,
+              "field": "detail"
+            },
+            {
+              "questID": 805,
+              "field": "detail"
+            },
+            {
+              "questID": 805,
+              "field": "complete"
+            },
+            {
+              "questID": 832,
+              "field": "complete"
+            },
+            {
+              "questID": 806,
+              "field": "detail"
+            },
+            {
+              "questID": 806,
+              "field": "progress"
+            },
+            {
+              "questID": 827,
+              "field": "detail"
+            },
+            {
+              "questID": 827,
+              "field": "complete"
+            },
+            {
+              "questID": 809,
+              "field": "detail"
+            },
+            {
+              "questID": 823,
+              "field": "detail"
+            },
+            {
+              "questID": 828,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        792,
+        794,
+        805,
+        806,
+        809,
+        823,
+        827,
+        828,
+        832
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/792",
+        "https://www.60.tools/quests/794",
+        "https://www.60.tools/quests/829"
+      ],
+      "reviewNote": "Durotar cult sense in this catalog. Do not apply to Burning Blade Coven (a cave/place) or the Medallion item, or assume all historical Burning Blade clan uses have this sense.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/792-vile-familiars",
+        "https://www.60.tools/quests/794-burning-blade-medallion",
+        "https://www.60.tools/quests/805-report-to-senjin-village",
+        "https://www.60.tools/quests/806-dark-storms",
+        "https://www.60.tools/quests/809-akzeloth"
+      ]
+    },
+    {
+      "key": "faction.defias",
+      "en": "Defias Brotherhood",
+      "pronunciation": "ဒီဖိုင်ယက်စ် ဘရာသာဟုဒ်",
+      "meaning": "ဓားပြအဖွဲ့",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Defias Brotherhood (ဒီဖိုင်ယက်စ် ဘရာသာဟုဒ်)",
+          "en": "Defias Brotherhood",
+          "pronunciation": "ဒီဖိုင်ယက်စ် ဘရာသာဟုဒ်",
+          "sourceQuestIDs": [
+            18,
+            3102,
+            1598,
+            65,
+            132,
+            141,
+            135,
+            142,
+            155
+          ],
+          "sourceContexts": [
+            {
+              "questID": 18,
+              "field": "detail"
+            },
+            {
+              "questID": 3102,
+              "field": "complete"
+            },
+            {
+              "questID": 1598,
+              "field": "detail"
+            },
+            {
+              "questID": 65,
+              "field": "title"
+            },
+            {
+              "questID": 65,
+              "field": "detail"
+            },
+            {
+              "questID": 132,
+              "field": "title"
+            },
+            {
+              "questID": 141,
+              "field": "title"
+            },
+            {
+              "questID": 135,
+              "field": "title"
+            },
+            {
+              "questID": 142,
+              "field": "title"
+            },
+            {
+              "questID": 155,
+              "field": "title"
+            },
+            {
+              "questID": 155,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Defias (ဒီဖိုင်ယက်စ်)",
+          "en": "Defias",
+          "pronunciation": "ဒီဖိုင်ယက်စ်",
+          "sourceQuestIDs": [
+            3904,
+            3100,
+            77617,
+            77618,
+            77620,
+            77621,
+            83,
+            153,
+            132,
+            14,
+            92745,
+            135,
+            142,
+            155
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3904,
+              "field": "detail"
+            },
+            {
+              "questID": 3904,
+              "field": "complete"
+            },
+            {
+              "questID": 3100,
+              "field": "progress"
+            },
+            {
+              "questID": 77617,
+              "field": "detail"
+            },
+            {
+              "questID": 77618,
+              "field": "detail"
+            },
+            {
+              "questID": 77618,
+              "field": "objective"
+            },
+            {
+              "questID": 77620,
+              "field": "detail"
+            },
+            {
+              "questID": 77620,
+              "field": "objective"
+            },
+            {
+              "questID": 77621,
+              "field": "detail"
+            },
+            {
+              "questID": 77621,
+              "field": "objective"
+            },
+            {
+              "questID": 83,
+              "field": "detail"
+            },
+            {
+              "questID": 153,
+              "field": "detail"
+            },
+            {
+              "questID": 132,
+              "field": "detail"
+            },
+            {
+              "questID": 14,
+              "field": "detail"
+            },
+            {
+              "questID": 14,
+              "field": "progress"
+            },
+            {
+              "questID": 92745,
+              "field": "detail"
+            },
+            {
+              "questID": 135,
+              "field": "detail"
+            },
+            {
+              "questID": 142,
+              "field": "detail"
+            },
+            {
+              "questID": 142,
+              "field": "complete"
+            },
+            {
+              "questID": 155,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        14,
+        18,
+        65,
+        83,
+        132,
+        135,
+        141,
+        142,
+        153,
+        155,
+        1598,
+        3100,
+        3102,
+        3904,
+        77617,
+        77618,
+        77620,
+        77621,
+        92745
+      ],
+      "sourceURLs": [
+        "https://worldofwarcraft.blizzard.com/en-gb/news/24095666/unveiling-cataclysm-classic-zones-dungeons-and-pvp-season-9",
+        "https://www.60.tools/quests/18"
+      ],
+      "reviewNote": "The short label identifies the group in these quests without adding a long or partisan origin story. Compound enemy names excluded.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/14-the-peoples-militia",
+        "https://www.60.tools/quests/18",
+        "https://www.60.tools/quests/65-the-defias-brotherhood",
+        "https://www.60.tools/quests/83-red-linen-goods",
+        "https://www.60.tools/quests/132-the-defias-brotherhood"
+      ]
+    },
+    {
+      "key": "faction.night_watch",
+      "en": "Night Watch",
+      "pronunciation": "နိုက်တ် ဝေါ့ချ်",
+      "meaning": "ဒေသခံ ကာကွယ်ရေးအစောင့်တပ်",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Night Watch (နိုက်တ် ဝေါ့ချ်)",
+          "en": "Night Watch",
+          "pronunciation": "နိုက်တ် ဝေါ့ချ်",
+          "sourceQuestIDs": [
+            145,
+            146,
+            56,
+            57,
+            58,
+            156,
+            173,
+            223,
+            228,
+            245
+          ],
+          "sourceContexts": [
+            {
+              "questID": 145,
+              "field": "detail"
+            },
+            {
+              "questID": 146,
+              "field": "detail"
+            },
+            {
+              "questID": 146,
+              "field": "progress"
+            },
+            {
+              "questID": 56,
+              "field": "title"
+            },
+            {
+              "questID": 56,
+              "field": "detail"
+            },
+            {
+              "questID": 57,
+              "field": "title"
+            },
+            {
+              "questID": 57,
+              "field": "complete"
+            },
+            {
+              "questID": 58,
+              "field": "title"
+            },
+            {
+              "questID": 58,
+              "field": "complete"
+            },
+            {
+              "questID": 156,
+              "field": "complete"
+            },
+            {
+              "questID": 173,
+              "field": "detail"
+            },
+            {
+              "questID": 223,
+              "field": "detail"
+            },
+            {
+              "questID": 228,
+              "field": "complete"
+            },
+            {
+              "questID": 245,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        56,
+        57,
+        58,
+        145,
+        146,
+        156,
+        173,
+        223,
+        228,
+        245
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/56",
+        "https://www.60.tools/quests/146"
+      ],
+      "reviewNote": "Darkshire local defense force. Quest 56 title already has ညကင်းတပ် immediately after its label; consider that a sufficient existing introduction.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/56-the-night-watch",
+        "https://www.60.tools/quests/57-the-night-watch",
+        "https://www.60.tools/quests/58-the-night-watch",
+        "https://www.60.tools/quests/145-messenger-to-darkshire",
+        "https://www.60.tools/quests/146-messenger-to-darkshire"
+      ]
+    },
+    {
+      "key": "faction.peoples_militia",
+      "en": "People's Militia",
+      "pronunciation": "ပီပယ်လ်စ် မီလစ်ရှာ",
+      "meaning": "ဒေသခံ ပြည်သူ့ကာကွယ်ရေးတပ်",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "People's Militia (ပီပယ်လ်စ် မီလစ်ရှာ)",
+          "en": "People's Militia",
+          "pronunciation": "ပီပယ်လ်စ် မီလစ်ရှာ",
+          "sourceQuestIDs": [
+            109,
+            102,
+            12,
+            13,
+            14,
+            144,
+            143
+          ],
+          "sourceContexts": [
+            {
+              "questID": 109,
+              "field": "detail"
+            },
+            {
+              "questID": 109,
+              "field": "complete"
+            },
+            {
+              "questID": 102,
+              "field": "complete"
+            },
+            {
+              "questID": 12,
+              "field": "title"
+            },
+            {
+              "questID": 12,
+              "field": "detail"
+            },
+            {
+              "questID": 12,
+              "field": "progress"
+            },
+            {
+              "questID": 13,
+              "field": "title"
+            },
+            {
+              "questID": 13,
+              "field": "detail"
+            },
+            {
+              "questID": 13,
+              "field": "complete"
+            },
+            {
+              "questID": 14,
+              "field": "title"
+            },
+            {
+              "questID": 14,
+              "field": "detail"
+            },
+            {
+              "questID": 14,
+              "field": "progress"
+            },
+            {
+              "questID": 14,
+              "field": "complete"
+            },
+            {
+              "questID": 144,
+              "field": "progress"
+            },
+            {
+              "questID": 143,
+              "field": "detail"
+            },
+            {
+              "questID": 143,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Militia (မီလစ်ရှာ)",
+          "en": "Militia",
+          "pronunciation": "မီလစ်ရှာ",
+          "sourceQuestIDs": [
+            144
+          ],
+          "sourceContexts": [
+            {
+              "questID": 144,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        12,
+        13,
+        14,
+        102,
+        109,
+        143,
+        144
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/102",
+        "https://www.60.tools/quests/144"
+      ],
+      "reviewNote": "Westfall local militia, not a formal modern military branch.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/12-the-peoples-militia",
+        "https://www.60.tools/quests/13-the-peoples-militia",
+        "https://www.60.tools/quests/14-the-peoples-militia",
+        "https://www.60.tools/quests/102-patrolling-westfall",
+        "https://www.60.tools/quests/109-report-to-gryan-stoutmantle"
+      ]
+    },
+    {
+      "key": "faction.venture_company",
+      "en": "Venture Co.",
+      "pronunciation": "ဗန်ချာ ကို",
+      "meaning": "သယံဇာတထုတ်ယူရေး ကုမ္ပဏီ",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Venture Company (ဗန်ချာ ကမ်ပနီ)",
+          "en": "Venture Company",
+          "pronunciation": "ဗန်ချာ ကမ်ပနီ",
+          "sourceQuestIDs": [
+            896,
+            3922,
+            894,
+            3924,
+            858,
+            3923
+          ],
+          "sourceContexts": [
+            {
+              "questID": 896,
+              "field": "detail"
+            },
+            {
+              "questID": 3922,
+              "field": "detail"
+            },
+            {
+              "questID": 894,
+              "field": "detail"
+            },
+            {
+              "questID": 894,
+              "field": "objective"
+            },
+            {
+              "questID": 3924,
+              "field": "detail"
+            },
+            {
+              "questID": 858,
+              "field": "complete"
+            },
+            {
+              "questID": 3923,
+              "field": "detail"
+            },
+            {
+              "questID": 3923,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Venture Co. (ဗန်ချာ ကို)",
+          "en": "Venture Co.",
+          "pronunciation": "ဗန်ချာ ကို",
+          "sourceQuestIDs": [
+            749,
+            751,
+            764,
+            765,
+            98424
+          ],
+          "sourceContexts": [
+            {
+              "questID": 749,
+              "field": "detail"
+            },
+            {
+              "questID": 751,
+              "field": "detail"
+            },
+            {
+              "questID": 751,
+              "field": "progress"
+            },
+            {
+              "questID": 751,
+              "field": "complete"
+            },
+            {
+              "questID": 764,
+              "field": "title"
+            },
+            {
+              "questID": 764,
+              "field": "detail"
+            },
+            {
+              "questID": 764,
+              "field": "progress"
+            },
+            {
+              "questID": 764,
+              "field": "complete"
+            },
+            {
+              "questID": 765,
+              "field": "detail"
+            },
+            {
+              "questID": 765,
+              "field": "progress"
+            },
+            {
+              "questID": 765,
+              "field": "complete"
+            },
+            {
+              "questID": 98424,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        749,
+        751,
+        764,
+        765,
+        858,
+        894,
+        896,
+        3922,
+        3923,
+        3924,
+        98424
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/749",
+        "https://www.60.tools/quests/751"
+      ],
+      "reviewNote": "Economic organization, not an army. Do not match Venture Co. Mine or named employees as a whole.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/749-the-ravaged-caravan",
+        "https://www.60.tools/quests/751-the-ravaged-caravan",
+        "https://www.60.tools/quests/764-the-venture-co",
+        "https://www.60.tools/quests/765-supervisor-fizsprocket",
+        "https://www.60.tools/quests/858-ignition"
+      ]
+    },
+    {
+      "key": "faction.forsaken",
+      "en": "Forsaken",
+      "pronunciation": "ဖော်ဆေကန်",
+      "meaning": "လွတ်လပ်တဲ့ သေပြီးပြန်ထသူများအဖွဲ့",
+      "category": "faction",
+      "aliases": [
+        {
+          "text": "Forsaken (ဖော်ဆေကန်)",
+          "en": "Forsaken",
+          "pronunciation": "ဖော်ဆေကန်",
+          "sourceQuestIDs": [
+            848
+          ],
+          "sourceContexts": [
+            {
+              "questID": 848,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        848
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Free-willed undead group, distinct from all undead and from the Scourge. Only the proper-group label in quest 848 is included.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/848-fungal-spores"
+      ]
+    },
+    {
+      "key": "rank.warchief",
+      "en": "Warchief",
+      "pronunciation": "ဝေါချိဖ်",
+      "meaning": "စစ်ခေါင်းဆောင်အကြီးအကဲ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Warchief Thrall (ဝေါချိဖ် သရောလ်)",
+          "en": "Warchief Thrall",
+          "pronunciation": "ဝေါချိဖ် သရောလ်",
+          "sourceQuestIDs": [
+            99082
+          ],
+          "sourceContexts": [
+            {
+              "questID": 99082,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Warchief (ဝေါချိဖ်)",
+          "en": "Warchief",
+          "pronunciation": "ဝေါချိဖ်",
+          "sourceQuestIDs": [
+            4641,
+            787,
+            832,
+            784,
+            791,
+            831
+          ],
+          "sourceContexts": [
+            {
+              "questID": 4641,
+              "field": "detail"
+            },
+            {
+              "questID": 787,
+              "field": "detail"
+            },
+            {
+              "questID": 832,
+              "field": "complete"
+            },
+            {
+              "questID": 784,
+              "field": "detail"
+            },
+            {
+              "questID": 791,
+              "field": "progress"
+            },
+            {
+              "questID": 831,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        784,
+        787,
+        791,
+        831,
+        832,
+        4641,
+        99082
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence. All annotated instances here refer to Thrall; the wording also remains safe for other war chiefs. Do not define the word universally as leader of Horde.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/784-vanquish-the-betrayers",
+        "https://www.60.tools/quests/787-the-new-horde",
+        "https://www.60.tools/quests/791-carry-your-weight",
+        "https://www.60.tools/quests/831-the-admirals-orders",
+        "https://www.60.tools/quests/832-burning-shadows"
+      ]
+    },
+    {
+      "key": "rank.marshal",
+      "en": "Marshal",
+      "pronunciation": "မာရှယ်",
+      "meaning": "အဆင့်မြင့် စစ်အရာရှိ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Marshal McBride (မာရှယ် မက်ဘရိုက်)",
+          "en": "Marshal McBride",
+          "pronunciation": "မာရှယ် မက်ဘရိုက်",
+          "sourceQuestIDs": [
+            783,
+            7,
+            15,
+            21,
+            91752,
+            91772
+          ],
+          "sourceContexts": [
+            {
+              "questID": 783,
+              "field": "detail"
+            },
+            {
+              "questID": 783,
+              "field": "objective"
+            },
+            {
+              "questID": 7,
+              "field": "objective"
+            },
+            {
+              "questID": 15,
+              "field": "objective"
+            },
+            {
+              "questID": 21,
+              "field": "objective"
+            },
+            {
+              "questID": 91752,
+              "field": "detail"
+            },
+            {
+              "questID": 91752,
+              "field": "objective"
+            },
+            {
+              "questID": 91772,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Marshal Haggard (မာရှယ် ဟက်ဂါ့ဒ်)",
+          "en": "Marshal Haggard",
+          "pronunciation": "မာရှယ် ဟက်ဂါ့ဒ်",
+          "sourceQuestIDs": [
+            75,
+            78
+          ],
+          "sourceContexts": [
+            {
+              "questID": 75,
+              "field": "objective"
+            },
+            {
+              "questID": 78,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Marshal Marris (မာရှယ် မဲရစ်စ်)",
+          "en": "Marshal Marris",
+          "pronunciation": "မာရှယ် မဲရစ်စ်",
+          "sourceQuestIDs": [
+            34,
+            246,
+            20,
+            19,
+            115
+          ],
+          "sourceContexts": [
+            {
+              "questID": 34,
+              "field": "detail"
+            },
+            {
+              "questID": 246,
+              "field": "complete"
+            },
+            {
+              "questID": 20,
+              "field": "objective"
+            },
+            {
+              "questID": 19,
+              "field": "objective"
+            },
+            {
+              "questID": 115,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Marshal Dughan (မာရှယ် ဒူဂန်)",
+          "en": "Marshal Dughan",
+          "pronunciation": "မာရှယ် ဒူဂန်",
+          "sourceQuestIDs": [
+            91772,
+            54,
+            40,
+            91775,
+            46,
+            39,
+            35,
+            147,
+            62,
+            76,
+            176,
+            123
+          ],
+          "sourceContexts": [
+            {
+              "questID": 91772,
+              "field": "detail"
+            },
+            {
+              "questID": 91772,
+              "field": "objective"
+            },
+            {
+              "questID": 54,
+              "field": "detail"
+            },
+            {
+              "questID": 54,
+              "field": "objective"
+            },
+            {
+              "questID": 40,
+              "field": "detail"
+            },
+            {
+              "questID": 40,
+              "field": "objective"
+            },
+            {
+              "questID": 91775,
+              "field": "objective"
+            },
+            {
+              "questID": 46,
+              "field": "complete"
+            },
+            {
+              "questID": 39,
+              "field": "detail"
+            },
+            {
+              "questID": 39,
+              "field": "objective"
+            },
+            {
+              "questID": 35,
+              "field": "objective"
+            },
+            {
+              "questID": 147,
+              "field": "objective"
+            },
+            {
+              "questID": 62,
+              "field": "objective"
+            },
+            {
+              "questID": 76,
+              "field": "objective"
+            },
+            {
+              "questID": 176,
+              "field": "detail"
+            },
+            {
+              "questID": 176,
+              "field": "objective"
+            },
+            {
+              "questID": 123,
+              "field": "detail"
+            },
+            {
+              "questID": 123,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Marshal (မာရှယ်)",
+          "en": "Marshal",
+          "pronunciation": "မာရှယ်",
+          "sourceQuestIDs": [
+            146
+          ],
+          "sourceContexts": [
+            {
+              "questID": 146,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        7,
+        15,
+        19,
+        20,
+        21,
+        34,
+        35,
+        39,
+        40,
+        46,
+        54,
+        62,
+        75,
+        76,
+        78,
+        115,
+        123,
+        146,
+        147,
+        176,
+        246,
+        783,
+        91752,
+        91772,
+        91775
+      ],
+      "sourceURLs": [
+        "https://www.merriam-webster.com/dictionary/marshal"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/7",
+        "https://www.60.tools/quests/15",
+        "https://www.60.tools/quests/19-tharilzun",
+        "https://www.60.tools/quests/20-blackrock-menace",
+        "https://www.60.tools/quests/21"
+      ]
+    },
+    {
+      "key": "rank.captain",
+      "en": "Captain",
+      "pronunciation": "ကက်ပ်တင်",
+      "meaning": "တပ်ဖွဲ့ သို့မဟုတ် သင်္ဘော ခေါင်းဆောင်",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Captain Thalo'thas Brightsun (ကက်ပ်တင် သာလိုသတ်စ် ဘရိုက်တ်ဆန်း)",
+          "en": "Captain Thalo'thas Brightsun",
+          "pronunciation": "ကက်ပ်တင် သာလိုသတ်စ် ဘရိုက်တ်ဆန်း",
+          "sourceQuestIDs": [
+            891
+          ],
+          "sourceContexts": [
+            {
+              "questID": 891,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Captain Rugelfuss (ကက်ပ်တင် ရူးဂယ်လ်ဖတ်စ် — ဗိုလ်ကြီး)",
+          "en": "Captain Rugelfuss",
+          "pronunciation": "ကက်ပ်တင် ရူးဂယ်လ်ဖတ်စ်",
+          "sourceQuestIDs": [
+            86585,
+            217,
+            267
+          ],
+          "sourceContexts": [
+            {
+              "questID": 86585,
+              "field": "objective"
+            },
+            {
+              "questID": 217,
+              "field": "objective"
+            },
+            {
+              "questID": 267,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Captain Fairmount (ကက်ပ်တင် ဖဲယားမောင့်တ်)",
+          "en": "Captain Fairmount",
+          "pronunciation": "ကက်ပ်တင် ဖဲယားမောင့်တ်",
+          "sourceQuestIDs": [
+            891
+          ],
+          "sourceContexts": [
+            {
+              "questID": 891,
+              "field": "detail"
+            },
+            {
+              "questID": 891,
+              "field": "objective"
+            },
+            {
+              "questID": 891,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Captain Brightsun (ကက်ပ်တင် ဘရိုက်တ်ဆန်း)",
+          "en": "Captain Brightsun",
+          "pronunciation": "ကက်ပ်တင် ဘရိုက်တ်ဆန်း",
+          "sourceQuestIDs": [
+            898
+          ],
+          "sourceContexts": [
+            {
+              "questID": 898,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Captain Longshore (ကက်ပ်တင် လောင်းရှော)",
+          "en": "Captain Longshore",
+          "pronunciation": "ကက်ပ်တင် လောင်းရှော",
+          "sourceQuestIDs": [
+            895
+          ],
+          "sourceContexts": [
+            {
+              "questID": 895,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Captain Sanders (ကပ်တင် ဆန်းဒါးစ်)",
+          "en": "Captain Sanders",
+          "pronunciation": "ကပ်တင် ဆန်းဒါးစ်",
+          "sourceQuestIDs": [
+            136,
+            138,
+            139,
+            140
+          ],
+          "sourceContexts": [
+            {
+              "questID": 136,
+              "field": "title"
+            },
+            {
+              "questID": 136,
+              "field": "detail"
+            },
+            {
+              "questID": 136,
+              "field": "objective"
+            },
+            {
+              "questID": 138,
+              "field": "title"
+            },
+            {
+              "questID": 139,
+              "field": "title"
+            },
+            {
+              "questID": 140,
+              "field": "title"
+            },
+            {
+              "questID": 140,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Captain Danuvin (ကပ်တင် ဒါနူဗင်)",
+          "en": "Captain Danuvin",
+          "pronunciation": "ကပ်တင် ဒါနူဗင်",
+          "sourceQuestIDs": [
+            102
+          ],
+          "sourceContexts": [
+            {
+              "questID": 102,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Captain Grayson (ကပ်တင် ဂရေးဆန်)",
+          "en": "Captain Grayson",
+          "pronunciation": "ကပ်တင် ဂရေးဆန်",
+          "sourceQuestIDs": [
+            103,
+            152,
+            104
+          ],
+          "sourceContexts": [
+            {
+              "questID": 103,
+              "field": "objective"
+            },
+            {
+              "questID": 152,
+              "field": "objective"
+            },
+            {
+              "questID": 104,
+              "field": "objective"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        102,
+        103,
+        104,
+        136,
+        138,
+        139,
+        140,
+        152,
+        217,
+        267,
+        891,
+        895,
+        898,
+        86585
+      ],
+      "sourceURLs": [
+        "https://www.merriam-webster.com/dictionary/captain"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/102-patrolling-westfall",
+        "https://www.60.tools/quests/103-keeper-of-the-flame",
+        "https://www.60.tools/quests/104-the-coastal-menace",
+        "https://www.60.tools/quests/136-captain-sanders-hidden-treasure",
+        "https://www.60.tools/quests/138-captain-sanders-hidden-treasure"
+      ]
+    },
+    {
+      "key": "rank.sentinel",
+      "en": "Sentinel",
+      "pronunciation": "ဆန်တီနယ်လ်",
+      "meaning": "နိုက်အဲလ်ဖ် ကာကွယ်ရေးတပ်သား",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Sentinel Arynia Cloudsbreak (ဆန်တီနယ်လ် အရီနီယာ ကလောင်းဒ်ဇ်ဘရိတ်ခ်)",
+          "en": "Sentinel Arynia Cloudsbreak",
+          "pronunciation": "ဆန်တီနယ်လ် အရီနီယာ ကလောင်းဒ်ဇ်ဘရိတ်ခ်",
+          "sourceQuestIDs": [
+            937,
+            938
+          ],
+          "sourceContexts": [
+            {
+              "questID": 937,
+              "field": "objective"
+            },
+            {
+              "questID": 938,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Sentinel Tysha Moonblade (ဆန်တီနယ်လ် တိုင်ရှာ မွန်းဘလေးဒ်)",
+          "en": "Sentinel Tysha Moonblade",
+          "pronunciation": "ဆန်တီနယ်လ် တိုင်ရှာ မွန်းဘလေးဒ်",
+          "sourceQuestIDs": [
+            953
+          ],
+          "sourceContexts": [
+            {
+              "questID": 953,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Sentinel Amara Nightwalker (ဆန်တီနယ်လ် အမာရာ နိုက်ဝေါကာ)",
+          "en": "Sentinel Amara Nightwalker",
+          "pronunciation": "ဆန်တီနယ်လ် အမာရာ နိုက်ဝေါကာ",
+          "sourceQuestIDs": [
+            487
+          ],
+          "sourceContexts": [
+            {
+              "questID": 487,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Sentinel Glynda Nal'Shea (ဆန်တီနယ်လ် ဂလင်ဒါ နယ်လ်ရှေး)",
+          "en": "Sentinel Glynda Nal'Shea",
+          "pronunciation": "ဆန်တီနယ်လ် ဂလင်ဒါ နယ်လ်ရှေး",
+          "sourceQuestIDs": [
+            4811,
+            98025,
+            4740,
+            4813
+          ],
+          "sourceContexts": [
+            {
+              "questID": 4811,
+              "field": "objective"
+            },
+            {
+              "questID": 98025,
+              "field": "detail"
+            },
+            {
+              "questID": 98025,
+              "field": "objective"
+            },
+            {
+              "questID": 4740,
+              "field": "detail"
+            },
+            {
+              "questID": 4740,
+              "field": "objective"
+            },
+            {
+              "questID": 4813,
+              "field": "detail"
+            },
+            {
+              "questID": 4813,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Sentinel Aynasha (ဆန်တီနယ်လ် အိုင်နာရှာ)",
+          "en": "Sentinel Aynasha",
+          "pronunciation": "ဆန်တီနယ်လ် အိုင်နာရှာ",
+          "sourceQuestIDs": [
+            5713
+          ],
+          "sourceContexts": [
+            {
+              "questID": 5713,
+              "field": "objective"
+            },
+            {
+              "questID": 5713,
+              "field": "progress"
+            }
+          ]
+        },
+        {
+          "text": "Sentinel (ဆန်တီနယ်လ်)",
+          "en": "Sentinel",
+          "pronunciation": "ဆန်တီနယ်လ်",
+          "sourceQuestIDs": [
+            458,
+            921,
+            487,
+            933,
+            937,
+            4740,
+            958,
+            967
+          ],
+          "sourceContexts": [
+            {
+              "questID": 458,
+              "field": "detail"
+            },
+            {
+              "questID": 921,
+              "field": "progress"
+            },
+            {
+              "questID": 487,
+              "field": "complete"
+            },
+            {
+              "questID": 933,
+              "field": "detail"
+            },
+            {
+              "questID": 937,
+              "field": "detail"
+            },
+            {
+              "questID": 4740,
+              "field": "detail"
+            },
+            {
+              "questID": 4740,
+              "field": "progress"
+            },
+            {
+              "questID": 958,
+              "field": "detail"
+            },
+            {
+              "questID": 967,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        458,
+        487,
+        921,
+        933,
+        937,
+        938,
+        953,
+        958,
+        967,
+        4740,
+        4811,
+        4813,
+        5713,
+        98025
+      ],
+      "sourceURLs": [
+        "https://worldofwarcraft.blizzard.com/en-us/game/races/night-elf",
+        "https://worldofwarcraft.blizzard.com/en-gb/media/short-story/elegy"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/458-the-woodland-protector",
+        "https://www.60.tools/quests/487-the-road-to-darnassus",
+        "https://www.60.tools/quests/921-crown-of-the-earth",
+        "https://www.60.tools/quests/933-crown-of-the-earth",
+        "https://www.60.tools/quests/937-the-enchanted-glade"
+      ]
+    },
+    {
+      "key": "rank.arch_druid",
+      "en": "Arch Druid",
+      "pronunciation": "အာ့ခ် ဒရူးအစ်ဒ်",
+      "meaning": "ဒရူးအစ်ဒ် အကြီးအကဲ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Arch Druid Fandral Staghelm (အာ့ခ် ဒရူးအစ်ဒ် ဖန်ဒရယ်လ် စတက်ဂ်ဟဲလ်မ်)",
+          "en": "Arch Druid Fandral Staghelm",
+          "pronunciation": "အာ့ခ် ဒရူးအစ်ဒ် ဖန်ဒရယ်လ် စတက်ဂ်ဟဲလ်မ်",
+          "sourceQuestIDs": [
+            933,
+            935,
+            940
+          ],
+          "sourceContexts": [
+            {
+              "questID": 933,
+              "field": "complete"
+            },
+            {
+              "questID": 935,
+              "field": "objective"
+            },
+            {
+              "questID": 940,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Arch Druid (အာ့ခ် ဒရူးအစ်ဒ်)",
+          "en": "Arch Druid",
+          "pronunciation": "အာ့ခ် ဒရူးအစ်ဒ်",
+          "sourceQuestIDs": [
+            934,
+            935,
+            940,
+            7383,
+            952
+          ],
+          "sourceContexts": [
+            {
+              "questID": 934,
+              "field": "progress"
+            },
+            {
+              "questID": 934,
+              "field": "complete"
+            },
+            {
+              "questID": 935,
+              "field": "detail"
+            },
+            {
+              "questID": 940,
+              "field": "detail"
+            },
+            {
+              "questID": 940,
+              "field": "progress"
+            },
+            {
+              "questID": 7383,
+              "field": "progress"
+            },
+            {
+              "questID": 7383,
+              "field": "complete"
+            },
+            {
+              "questID": 952,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        933,
+        934,
+        935,
+        940,
+        952,
+        7383
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/933-crown-of-the-earth",
+        "https://www.60.tools/quests/934-crown-of-the-earth",
+        "https://www.60.tools/quests/935-crown-of-the-earth",
+        "https://www.60.tools/quests/940-teldrassil",
+        "https://www.60.tools/quests/952-grove-of-the-ancients"
+      ]
+    },
+    {
+      "key": "rank.chief",
+      "en": "Chief",
+      "pronunciation": "ချိဖ်",
+      "meaning": "အဖွဲ့အကြီးအကဲ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Chief Engineer Hinderweir (ချိဖ် အင်ဂျင်နီယာ ဟင်ဒါဝီယာ — အင်ဂျင်နီယာချုပ်)",
+          "en": "Chief Engineer Hinderweir",
+          "pronunciation": "ချိဖ် အင်ဂျင်နီယာ ဟင်ဒါဝီယာ",
+          "sourceQuestIDs": [
+            161,
+            199,
+            250,
+            274,
+            278,
+            280,
+            283
+          ],
+          "sourceContexts": [
+            {
+              "questID": 161,
+              "field": "objective"
+            },
+            {
+              "questID": 161,
+              "field": "complete"
+            },
+            {
+              "questID": 199,
+              "field": "objective"
+            },
+            {
+              "questID": 250,
+              "field": "objective"
+            },
+            {
+              "questID": 274,
+              "field": "detail"
+            },
+            {
+              "questID": 274,
+              "field": "objective"
+            },
+            {
+              "questID": 278,
+              "field": "objective"
+            },
+            {
+              "questID": 280,
+              "field": "objective"
+            },
+            {
+              "questID": 283,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Chief Archaeologist Greywhisker (ချိဖ် အာခီအော်လဂျစ်စ်တ် ဂရေးဝစ်စ်ကာ)",
+          "en": "Chief Archaeologist Greywhisker",
+          "pronunciation": "ချိဖ် အာခီအော်လဂျစ်စ်တ် ဂရေးဝစ်စ်ကာ",
+          "sourceQuestIDs": [
+            741
+          ],
+          "sourceContexts": [
+            {
+              "questID": 741,
+              "field": "detail"
+            },
+            {
+              "questID": 741,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Chief Sharptusk Thornmantle (ချိဖ် ရှာ့ပ်တက်စ်ခ် သောန်မန်တယ်လ်)",
+          "en": "Chief Sharptusk Thornmantle",
+          "pronunciation": "ချိဖ် ရှာ့ပ်တက်စ်ခ် သောန်မန်တယ်လ်",
+          "sourceQuestIDs": [
+            3376
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3376,
+              "field": "detail"
+            },
+            {
+              "questID": 3376,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Chief Baine Bloodhoof (ချိဖ် ဘိန်း ဘလဒ်ဟူးဖ်)",
+          "en": "Chief Baine Bloodhoof",
+          "pronunciation": "ချိဖ် ဘိန်း ဘလဒ်ဟူးဖ်",
+          "sourceQuestIDs": [
+            763
+          ],
+          "sourceContexts": [
+            {
+              "questID": 763,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Chief Hawkwind (ချိဖ် ဟော့ခ်ဝင်းဒ်)",
+          "en": "Chief Hawkwind",
+          "pronunciation": "ချိဖ် ဟော့ခ်ဝင်းဒ်",
+          "sourceQuestIDs": [
+            747,
+            750,
+            752,
+            753,
+            755,
+            757,
+            763,
+            781
+          ],
+          "sourceContexts": [
+            {
+              "questID": 747,
+              "field": "detail"
+            },
+            {
+              "questID": 750,
+              "field": "progress"
+            },
+            {
+              "questID": 752,
+              "field": "objective"
+            },
+            {
+              "questID": 753,
+              "field": "objective"
+            },
+            {
+              "questID": 755,
+              "field": "detail"
+            },
+            {
+              "questID": 755,
+              "field": "complete"
+            },
+            {
+              "questID": 757,
+              "field": "objective"
+            },
+            {
+              "questID": 763,
+              "field": "complete"
+            },
+            {
+              "questID": 781,
+              "field": "detail"
+            },
+            {
+              "questID": 781,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Chief Bloodhoof (ချိဖ် ဘလဒ်ဟူးဖ်)",
+          "en": "Chief Bloodhoof",
+          "pronunciation": "ချိဖ် ဘလဒ်ဟူးဖ်",
+          "sourceQuestIDs": [
+            744
+          ],
+          "sourceContexts": [
+            {
+              "questID": 744,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Chief (ချိဖ်)",
+          "en": "Chief",
+          "pronunciation": "ချိဖ်",
+          "sourceQuestIDs": [
+            747,
+            753,
+            757
+          ],
+          "sourceContexts": [
+            {
+              "questID": 747,
+              "field": "progress"
+            },
+            {
+              "questID": 753,
+              "field": "detail"
+            },
+            {
+              "questID": 757,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        161,
+        199,
+        250,
+        274,
+        278,
+        280,
+        283,
+        741,
+        744,
+        747,
+        750,
+        752,
+        753,
+        755,
+        757,
+        763,
+        781,
+        3376
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence. Broad enough for tribal chiefs, chief engineer, and chief archaeologist.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/161-a-dark-threat-looms",
+        "https://www.60.tools/quests/199-a-dark-threat-looms",
+        "https://www.60.tools/quests/250-a-dark-threat-looms",
+        "https://www.60.tools/quests/274-a-dark-threat-looms",
+        "https://www.60.tools/quests/278-a-dark-threat-looms"
+      ]
+    },
+    {
+      "key": "rank.commander",
+      "en": "Commander",
+      "pronunciation": "ကမာန်ဒါ",
+      "meaning": "တပ်မှူး",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Commander Althea Ebonlocke (ကမာန်ဒါ အဲလ်သီယာ အီဘွန်လော့ခ်)",
+          "en": "Commander Althea Ebonlocke",
+          "pronunciation": "ကမာန်ဒါ အဲလ်သီယာ အီဘွန်လော့ခ်",
+          "sourceQuestIDs": [
+            56,
+            57,
+            58,
+            227,
+            228
+          ],
+          "sourceContexts": [
+            {
+              "questID": 56,
+              "field": "objective"
+            },
+            {
+              "questID": 57,
+              "field": "objective"
+            },
+            {
+              "questID": 58,
+              "field": "objective"
+            },
+            {
+              "questID": 227,
+              "field": "objective"
+            },
+            {
+              "questID": 228,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Commander Ebonlocke (ကမာန်ဒါ အီဘွန်လော့ခ်)",
+          "en": "Commander Ebonlocke",
+          "pronunciation": "ကမာန်ဒါ အီဘွန်လော့ခ်",
+          "sourceQuestIDs": [
+            79,
+            97
+          ],
+          "sourceContexts": [
+            {
+              "questID": 79,
+              "field": "detail"
+            },
+            {
+              "questID": 79,
+              "field": "objective"
+            },
+            {
+              "questID": 97,
+              "field": "detail"
+            },
+            {
+              "questID": 97,
+              "field": "objective"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        56,
+        57,
+        58,
+        79,
+        97,
+        227,
+        228
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/56"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/56-the-night-watch",
+        "https://www.60.tools/quests/57-the-night-watch",
+        "https://www.60.tools/quests/58-the-night-watch",
+        "https://www.60.tools/quests/79-the-legend-of-stalvan",
+        "https://www.60.tools/quests/97-the-legend-of-stalvan"
+      ]
+    },
+    {
+      "key": "rank.lieutenant",
+      "en": "Lieutenant",
+      "pronunciation": "လူတဲနန့်တ်",
+      "meaning": "အငယ်တန်း စစ်အရာရှိ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Lieutenant Benedict (လူတဲနန့်တ် ဘဲနဒစ်ခ်တ်)",
+          "en": "Lieutenant Benedict",
+          "pronunciation": "လူတဲနန့်တ် ဘဲနဒစ်ခ်တ်",
+          "sourceQuestIDs": [
+            784
+          ],
+          "sourceContexts": [
+            {
+              "questID": 784,
+              "field": "detail"
+            },
+            {
+              "questID": 784,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Lieutenant Fangore (လူးတဲနန့်တ် ဖန်ဂိုး)",
+          "en": "Lieutenant Fangore",
+          "pronunciation": "လူးတဲနန့်တ် ဖန်ဂိုး",
+          "sourceQuestIDs": [
+            180
+          ],
+          "sourceContexts": [
+            {
+              "questID": 180,
+              "field": "title"
+            },
+            {
+              "questID": 180,
+              "field": "detail"
+            },
+            {
+              "questID": 180,
+              "field": "objective"
+            },
+            {
+              "questID": 180,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        180,
+        784
+      ],
+      "sourceURLs": [
+        "https://www.merriam-webster.com/dictionary/lieutenant"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/180-wanted-lieutenant-fangore",
+        "https://www.60.tools/quests/784-vanquish-the-betrayers"
+      ]
+    },
+    {
+      "key": "rank.mountaineer",
+      "en": "Mountaineer",
+      "pronunciation": "မောင်တီနီယာ",
+      "meaning": "တောင်တန်းဒေသ ကင်းစောင့်တပ်သား",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Mountaineer Cobbleflint (မောင်တီနီယာ ကော့ဘယ်လ်ဖလင့် — တောင်စောင့်)",
+          "en": "Mountaineer Cobbleflint",
+          "pronunciation": "မောင်တီနီယာ ကော့ဘယ်လ်ဖလင့်",
+          "sourceQuestIDs": [
+            224,
+            237
+          ],
+          "sourceContexts": [
+            {
+              "questID": 224,
+              "field": "objective"
+            },
+            {
+              "questID": 237,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Cornelius (မောင်တီနီယာ ကော်နီးလီယပ်စ် — တောင်စောင့်)",
+          "en": "Mountaineer Cornelius",
+          "pronunciation": "မောင်တီနီယာ ကော်နီးလီယပ်စ်",
+          "sourceQuestIDs": [
+            98319,
+            98323
+          ],
+          "sourceContexts": [
+            {
+              "questID": 98319,
+              "field": "detail"
+            },
+            {
+              "questID": 98319,
+              "field": "objective"
+            },
+            {
+              "questID": 98323,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Stormpike (မောင်တီနီယာ စတောမ်ပိုက်ခ် — တောင်စောင့်)",
+          "en": "Mountaineer Stormpike",
+          "pronunciation": "မောင်တီနီယာ စတောမ်ပိုက်ခ်",
+          "sourceQuestIDs": [
+            307,
+            1339,
+            1338
+          ],
+          "sourceContexts": [
+            {
+              "questID": 307,
+              "field": "objective"
+            },
+            {
+              "questID": 1339,
+              "field": "title"
+            },
+            {
+              "questID": 1339,
+              "field": "detail"
+            },
+            {
+              "questID": 1339,
+              "field": "objective"
+            },
+            {
+              "questID": 1338,
+              "field": "title"
+            },
+            {
+              "questID": 1338,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Gravelgaw (မောင်တီနီယာ ဂရက်ဗယ်လ်ဂေါ — တောင်စောင့်)",
+          "en": "Mountaineer Gravelgaw",
+          "pronunciation": "မောင်တီနီယာ ဂရက်ဗယ်လ်ဂေါ",
+          "sourceQuestIDs": [
+            224,
+            237
+          ],
+          "sourceContexts": [
+            {
+              "questID": 224,
+              "field": "complete"
+            },
+            {
+              "questID": 237,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Barleybrew (မောင်တီနီယာ ဘာလီဘရူး — တောင်စောင့်)",
+          "en": "Mountaineer Barleybrew",
+          "pronunciation": "မောင်တီနီယာ ဘာလီဘရူး",
+          "sourceQuestIDs": [
+            413
+          ],
+          "sourceContexts": [
+            {
+              "questID": 413,
+              "field": "objective"
+            },
+            {
+              "questID": 413,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Wallbang (မောင်တီနီယာ ဝေါလ်ဘန်း — တောင်စောင့်)",
+          "en": "Mountaineer Wallbang",
+          "pronunciation": "မောင်တီနီယာ ဝေါလ်ဘန်း",
+          "sourceQuestIDs": [
+            237,
+            263
+          ],
+          "sourceContexts": [
+            {
+              "questID": 237,
+              "field": "complete"
+            },
+            {
+              "questID": 263,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Gretchen (မောင်တီနီယာ ဂရက်ချန် — တောင်စောင့်)",
+          "en": "Mountaineer Gretchen",
+          "pronunciation": "မောင်တီနီယာ ဂရက်ချန်",
+          "sourceQuestIDs": [
+            98319,
+            98322,
+            98323
+          ],
+          "sourceContexts": [
+            {
+              "questID": 98319,
+              "field": "objective"
+            },
+            {
+              "questID": 98322,
+              "field": "detail"
+            },
+            {
+              "questID": 98322,
+              "field": "objective"
+            },
+            {
+              "questID": 98323,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Kadrell (မောင်တီနီယာ ကက်ဒရယ်လ် — တောင်စောင့်)",
+          "en": "Mountaineer Kadrell",
+          "pronunciation": "မောင်တီနီယာ ကက်ဒရယ်လ်",
+          "sourceQuestIDs": [
+            414,
+            416
+          ],
+          "sourceContexts": [
+            {
+              "questID": 414,
+              "field": "title"
+            },
+            {
+              "questID": 414,
+              "field": "detail"
+            },
+            {
+              "questID": 414,
+              "field": "objective"
+            },
+            {
+              "questID": 416,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Mountaineer Thalos (မောင်တီနီယာ သာလော့စ် — တောင်စောင့်)",
+          "en": "Mountaineer Thalos",
+          "pronunciation": "မောင်တီနီယာ သာလော့စ်",
+          "sourceQuestIDs": [
+            282
+          ],
+          "sourceContexts": [
+            {
+              "questID": 282,
+              "field": "detail"
+            },
+            {
+              "questID": 282,
+              "field": "objective"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        224,
+        237,
+        263,
+        282,
+        307,
+        413,
+        414,
+        416,
+        1338,
+        1339,
+        98319,
+        98322,
+        98323
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/414",
+        "https://www.60.tools/quests/416"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/224-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/237-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/263-in-defense-of-the-kings-lands",
+        "https://www.60.tools/quests/282-senirs-observations",
+        "https://www.60.tools/quests/307-filthy-paws"
+      ]
+    },
+    {
+      "key": "rank.quartermaster",
+      "en": "Quartermaster",
+      "pronunciation": "ကွော်တာမာစတာ",
+      "meaning": "တပ်ရိက္ခာနှင့် အသုံးအဆောင် တာဝန်ခံ",
+      "category": "rank",
+      "aliases": [
+        {
+          "text": "Quartermaster Lungertz (ကွာတာမားစ်တာ လန်းဂတ်စ်)",
+          "en": "Quartermaster Lungertz",
+          "pronunciation": "ကွာတာမားစ်တာ လန်းဂတ်စ်",
+          "sourceQuestIDs": [
+            1395
+          ],
+          "sourceContexts": [
+            {
+              "questID": 1395,
+              "field": "detail"
+            },
+            {
+              "questID": 1395,
+              "field": "objective"
+            }
+          ]
+        },
+        {
+          "text": "Quartermaster Lewis (ကွော်တာမာစတာ လူးဝစ်စ်)",
+          "en": "Quartermaster Lewis",
+          "pronunciation": "ကွော်တာမာစတာ လူးဝစ်စ်",
+          "sourceQuestIDs": [
+            6281,
+            6285
+          ],
+          "sourceContexts": [
+            {
+              "questID": 6281,
+              "field": "complete"
+            },
+            {
+              "questID": 6285,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        1395,
+        6281,
+        6285
+      ],
+      "sourceURLs": [
+        "https://www.merriam-webster.com/dictionary/quartermaster"
+      ],
+      "reviewNote": "Preserve the complete NPC name and its existing pronunciation. Explain the role once across all named holders. Do not interpret this as an exact modern rank equivalence.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/1395-supplies-for-nethergarde",
+        "https://www.60.tools/quests/6281-continue-to-stormwind",
+        "https://www.60.tools/quests/6285-return-to-lewis"
+      ]
+    },
+    {
+      "key": "concept.totem",
+      "en": "Totem",
+      "pronunciation": "တိုးတမ်",
+      "meaning": "ဝိညာဉ်ရေးရာ သင်္ကေတပစ္စည်း",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Totem (တိုးတမ်)",
+          "en": "Totem",
+          "pronunciation": "တိုးတမ်",
+          "sourceQuestIDs": [
+            97977,
+            758
+          ],
+          "sourceContexts": [
+            {
+              "questID": 97977,
+              "field": "detail"
+            },
+            {
+              "questID": 758,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "totem (တိုးတမ်)",
+          "en": "totem",
+          "pronunciation": "တိုးတမ်",
+          "sourceQuestIDs": [
+            763,
+            748,
+            754,
+            756
+          ],
+          "sourceContexts": [
+            {
+              "questID": 763,
+              "field": "detail"
+            },
+            {
+              "questID": 748,
+              "field": "detail"
+            },
+            {
+              "questID": 748,
+              "field": "complete"
+            },
+            {
+              "questID": 754,
+              "field": "detail"
+            },
+            {
+              "questID": 756,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        748,
+        754,
+        756,
+        758,
+        763,
+        97977
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://www.60.tools/quests/97977",
+        "https://www.60.tools/quests/758"
+      ],
+      "reviewNote": "Broad wording includes ritual symbols and shaman objects. Do not promise that every totem is a castable Shaman ability or combat buff. Compound item names stay out of scope.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/748-poison-water",
+        "https://www.60.tools/quests/754-winterhoof-cleansing",
+        "https://www.60.tools/quests/756-thunderhorn-totem",
+        "https://www.60.tools/quests/758-thunderhorn-cleansing",
+        "https://www.60.tools/quests/763-rites-of-the-earthmother"
+      ]
+    },
+    {
+      "key": "concept.rune",
+      "en": "Rune",
+      "pronunciation": "ရူးန်",
+      "meaning": "ရေးထွင်းသည့် သင်္ကေတအက္ခရာ",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Rune (ရူးန်)",
+          "en": "Rune",
+          "pronunciation": "ရူးန်",
+          "sourceQuestIDs": [
+            77616,
+            77617,
+            77618,
+            77621
+          ],
+          "sourceContexts": [
+            {
+              "questID": 77616,
+              "field": "title"
+            },
+            {
+              "questID": 77616,
+              "field": "detail"
+            },
+            {
+              "questID": 77616,
+              "field": "objective"
+            },
+            {
+              "questID": 77616,
+              "field": "progress"
+            },
+            {
+              "questID": 77616,
+              "field": "complete"
+            },
+            {
+              "questID": 77617,
+              "field": "complete"
+            },
+            {
+              "questID": 77618,
+              "field": "detail"
+            },
+            {
+              "questID": 77618,
+              "field": "objective"
+            },
+            {
+              "questID": 77618,
+              "field": "complete"
+            },
+            {
+              "questID": 77621,
+              "field": "detail"
+            },
+            {
+              "questID": 77621,
+              "field": "objective"
+            },
+            {
+              "questID": 77621,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        77616,
+        77617,
+        77618,
+        77621
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/77616",
+        "https://www.60.tools/quests/3106"
+      ],
+      "reviewNote": "A broad symbol/script meaning that does not turn every trainer letter into an ability-unlocking rune. Specific power is already explained by relevant quest prose. Compound trainer items are excluded, preserving their title wording.",
+      "sourceQuestURLs": [
+        "https://www.wowhead.com/forever/quest=77616/the-lost-rune",
+        "https://www.wowhead.com/classic/quest=77617/relics-of-the-light",
+        "https://www.wowhead.com/classic/quest=77618/thrice-stolen",
+        "https://www.wowhead.com/classic/quest=77621/stolen-power"
+      ]
+    },
+    {
+      "key": "concept.sigil",
+      "en": "Sigil",
+      "pronunciation": "ဆစ်ဂျစ်လ်",
+      "meaning": "အမှတ်အသား တံဆိပ်",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Sigil (ဆစ်ဂျစ်လ်)",
+          "en": "Sigil",
+          "pronunciation": "ဆစ်ဂျစ်လ်",
+          "sourceQuestIDs": [
+            3116,
+            3117,
+            3118,
+            3119,
+            3120
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3116,
+              "field": "detail"
+            },
+            {
+              "questID": 3117,
+              "field": "detail"
+            },
+            {
+              "questID": 3117,
+              "field": "progress"
+            },
+            {
+              "questID": 3118,
+              "field": "detail"
+            },
+            {
+              "questID": 3119,
+              "field": "detail"
+            },
+            {
+              "questID": 3120,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        3116,
+        3117,
+        3118,
+        3119,
+        3120
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/3116"
+      ],
+      "reviewNote": "No automatic claim of magic: the trainer sigils in this chain are readable messages. Compound item-title translations stay unchanged.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/3116-simple-sigil",
+        "https://www.60.tools/quests/3117-etched-sigil",
+        "https://www.60.tools/quests/3118-encrypted-sigil",
+        "https://www.60.tools/quests/3119-hallowed-sigil",
+        "https://www.60.tools/quests/3120-verdant-sigil"
+      ]
+    },
+    {
+      "key": "concept.hearthstone",
+      "en": "Hearthstone",
+      "pronunciation": "ဟာ့သ်စတုန်း",
+      "meaning": "သတ်မှတ်တည်းခိုရာကို ပြန်ပို့တဲ့ မှော်ကျောက်",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Hearthstone (ဟာ့သ်စတုန်း)",
+          "en": "Hearthstone",
+          "pronunciation": "ဟာ့သ်စတုန်း",
+          "sourceQuestIDs": [
+            2159
+          ],
+          "sourceContexts": [
+            {
+              "questID": 2159,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        2159
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "No cooldown, range, or current-Forever mechanic claim. PDF page 101 (Hearthstones and Inns).",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/2159-dolanaar-delivery"
+      ]
+    },
+    {
+      "key": "concept.fel",
+      "en": "Fel",
+      "pronunciation": "ဖဲလ်",
+      "meaning": "နတ်ဆိုးတို့သုံးတဲ့ ဖျက်ဆီးရေးမှော်စွမ်းအား",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Fel (ဖဲလ်)",
+          "en": "Fel",
+          "pronunciation": "ဖဲလ်",
+          "sourceQuestIDs": [
+            77621
+          ],
+          "sourceContexts": [
+            {
+              "questID": 77621,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        77621
+      ],
+      "sourceURLs": [
+        "https://worldofwarcraft.blizzard.com/en-us/news/19803331/timewalking-highlight-the-shattered-halls",
+        "https://worldofwarcraft.blizzard.com/en-us/game/classes/demon-hunter"
+      ],
+      "reviewNote": "Only standalone Fel. Morbent Fel is an NPC proper name and must not match.",
+      "sourceQuestURLs": [
+        "https://www.wowhead.com/classic/quest=77621/stolen-power"
+      ]
+    },
+    {
+      "key": "concept.arcane",
+      "en": "Arcane",
+      "pronunciation": "အာကိန်း",
+      "meaning": "လျှို့ဝှက်ဆန်းကြယ်တဲ့ မှော်ပညာ",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Arcane Arts (အာကိန်း အာ့တ်စ် — မှော်အတတ်)",
+          "en": "Arcane Arts",
+          "pronunciation": "အာကိန်း အာ့တ်စ်",
+          "sourceQuestIDs": [
+            3114
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3114,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Arcane (အာကိန်း)",
+          "en": "Arcane",
+          "pronunciation": "အာကိန်း",
+          "sourceQuestIDs": [
+            3105,
+            77620,
+            91723,
+            91,
+            3087
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3105,
+              "field": "complete"
+            },
+            {
+              "questID": 77620,
+              "field": "detail"
+            },
+            {
+              "questID": 77620,
+              "field": "complete"
+            },
+            {
+              "questID": 91723,
+              "field": "detail"
+            },
+            {
+              "questID": 91,
+              "field": "detail"
+            },
+            {
+              "questID": 3087,
+              "field": "progress"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        91,
+        3087,
+        3105,
+        3114,
+        77620,
+        91723
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf"
+      ],
+      "reviewNote": "Intentionally broad and spoiler-free. Do not add retail cosmology or equate Arcane with Fel.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/91-solomons-law",
+        "https://www.60.tools/quests/3087",
+        "https://www.60.tools/quests/3105",
+        "https://www.60.tools/quests/3114-glyphic-memorandum",
+        "https://www.wowhead.com/classic/quest=77620/spell-research"
+      ]
+    },
+    {
+      "key": "concept.holy_light",
+      "en": "Holy Light",
+      "pronunciation": "ဟိုးလီ လိုက်တ်",
+      "meaning": "မြင့်မြတ်သော အလင်းစွမ်းအား",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Holy Light (ဟိုးလီ လိုက်တ် — သန့်ရှင်းသောအလင်း)",
+          "en": "Holy Light",
+          "pronunciation": "ဟိုးလီ လိုက်တ်",
+          "sourceQuestIDs": [
+            3106,
+            3107,
+            3115
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3106,
+              "field": "complete"
+            },
+            {
+              "questID": 3107,
+              "field": "complete"
+            },
+            {
+              "questID": 3115,
+              "field": "progress"
+            },
+            {
+              "questID": 3115,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Light (လိုက်တ် — မြင့်မြတ်သော အလင်း)",
+          "en": "Light",
+          "pronunciation": "လိုက်တ်",
+          "sourceQuestIDs": [
+            99158,
+            99159,
+            99161,
+            432,
+            99162,
+            182,
+            255,
+            309,
+            531,
+            3110
+          ],
+          "sourceContexts": [
+            {
+              "questID": 99158,
+              "field": "progress"
+            },
+            {
+              "questID": 99159,
+              "field": "progress"
+            },
+            {
+              "questID": 99161,
+              "field": "complete"
+            },
+            {
+              "questID": 432,
+              "field": "detail"
+            },
+            {
+              "questID": 99162,
+              "field": "detail"
+            },
+            {
+              "questID": 182,
+              "field": "complete"
+            },
+            {
+              "questID": 255,
+              "field": "complete"
+            },
+            {
+              "questID": 309,
+              "field": "complete"
+            },
+            {
+              "questID": 531,
+              "field": "detail"
+            },
+            {
+              "questID": 3110,
+              "field": "complete"
+            }
+          ]
+        },
+        {
+          "text": "Holy Light (ဟိုးလီ လိုက်တ်)",
+          "en": "Holy Light",
+          "pronunciation": "ဟိုးလီ လိုက်တ်",
+          "sourceQuestIDs": [
+            3101,
+            3103,
+            967
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3101,
+              "field": "complete"
+            },
+            {
+              "questID": 3103,
+              "field": "progress"
+            },
+            {
+              "questID": 967,
+              "field": "detail"
+            }
+          ]
+        },
+        {
+          "text": "Light (လိုက်တ်)",
+          "en": "Light",
+          "pronunciation": "လိုက်တ်",
+          "sourceQuestIDs": [
+            3905,
+            77617,
+            77619,
+            5623,
+            12,
+            13,
+            14,
+            48,
+            146,
+            164,
+            58,
+            78,
+            79,
+            98,
+            222,
+            223,
+            231,
+            269
+          ],
+          "sourceContexts": [
+            {
+              "questID": 3905,
+              "field": "complete"
+            },
+            {
+              "questID": 77617,
+              "field": "title"
+            },
+            {
+              "questID": 77617,
+              "field": "detail"
+            },
+            {
+              "questID": 77619,
+              "field": "title"
+            },
+            {
+              "questID": 77619,
+              "field": "detail"
+            },
+            {
+              "questID": 77619,
+              "field": "objective"
+            },
+            {
+              "questID": 77619,
+              "field": "progress"
+            },
+            {
+              "questID": 77619,
+              "field": "complete"
+            },
+            {
+              "questID": 5623,
+              "field": "title"
+            },
+            {
+              "questID": 5623,
+              "field": "detail"
+            },
+            {
+              "questID": 5623,
+              "field": "complete"
+            },
+            {
+              "questID": 12,
+              "field": "progress"
+            },
+            {
+              "questID": 13,
+              "field": "detail"
+            },
+            {
+              "questID": 14,
+              "field": "complete"
+            },
+            {
+              "questID": 48,
+              "field": "detail"
+            },
+            {
+              "questID": 48,
+              "field": "progress"
+            },
+            {
+              "questID": 146,
+              "field": "complete"
+            },
+            {
+              "questID": 164,
+              "field": "detail"
+            },
+            {
+              "questID": 58,
+              "field": "complete"
+            },
+            {
+              "questID": 78,
+              "field": "complete"
+            },
+            {
+              "questID": 79,
+              "field": "progress"
+            },
+            {
+              "questID": 98,
+              "field": "detail"
+            },
+            {
+              "questID": 222,
+              "field": "progress"
+            },
+            {
+              "questID": 223,
+              "field": "complete"
+            },
+            {
+              "questID": 231,
+              "field": "complete"
+            },
+            {
+              "questID": 269,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        12,
+        13,
+        14,
+        48,
+        58,
+        78,
+        79,
+        98,
+        146,
+        164,
+        182,
+        222,
+        223,
+        231,
+        255,
+        269,
+        309,
+        432,
+        531,
+        967,
+        3101,
+        3103,
+        3106,
+        3107,
+        3110,
+        3115,
+        3905,
+        5623,
+        77617,
+        77619,
+        99158,
+        99159,
+        99161,
+        99162
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://www.60.tools/quests/967"
+      ],
+      "reviewNote": "Named spiritual force in the quest uses. Not ordinary light or any item/place containing Light. Do not imply a particular real-world faith.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/12-the-peoples-militia",
+        "https://www.60.tools/quests/13-the-peoples-militia",
+        "https://www.60.tools/quests/14-the-peoples-militia",
+        "https://www.60.tools/quests/48-sweet-amber",
+        "https://www.60.tools/quests/58-the-night-watch"
+      ]
+    },
+    {
+      "key": "concept.moonwell",
+      "en": "Moonwell",
+      "pronunciation": "မွန်းဝဲလ်",
+      "meaning": "မှော်စွမ်းအားရှိတဲ့ မြင့်မြတ်ရေတွင်း",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Moonwell (မွန်းဝဲလ်)",
+          "en": "Moonwell",
+          "pronunciation": "မွန်းဝဲလ်",
+          "sourceQuestIDs": [
+            921,
+            928,
+            929,
+            933,
+            934,
+            938,
+            7383,
+            4812,
+            4763,
+            4813
+          ],
+          "sourceContexts": [
+            {
+              "questID": 921,
+              "field": "detail"
+            },
+            {
+              "questID": 921,
+              "field": "progress"
+            },
+            {
+              "questID": 928,
+              "field": "detail"
+            },
+            {
+              "questID": 929,
+              "field": "detail"
+            },
+            {
+              "questID": 933,
+              "field": "detail"
+            },
+            {
+              "questID": 934,
+              "field": "detail"
+            },
+            {
+              "questID": 938,
+              "field": "objective"
+            },
+            {
+              "questID": 7383,
+              "field": "detail"
+            },
+            {
+              "questID": 4812,
+              "field": "detail"
+            },
+            {
+              "questID": 4812,
+              "field": "complete"
+            },
+            {
+              "questID": 4763,
+              "field": "detail"
+            },
+            {
+              "questID": 4813,
+              "field": "detail"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        921,
+        928,
+        929,
+        933,
+        934,
+        938,
+        4763,
+        4812,
+        4813,
+        7383
+      ],
+      "sourceURLs": [
+        "https://www.60.tools/quests/921",
+        "https://www.60.tools/quests/4812",
+        "https://worldofwarcraft.blizzard.com/en-gb/media/short-story/elegy"
+      ],
+      "reviewNote": "Moonwell type only, not a general place-name glossary. Auberdine Moonwell remains a whole place identity without type-trigger substring matching.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/921-crown-of-the-earth",
+        "https://www.60.tools/quests/928-crown-of-the-earth",
+        "https://www.60.tools/quests/929-crown-of-the-earth",
+        "https://www.60.tools/quests/933-crown-of-the-earth",
+        "https://www.60.tools/quests/934-crown-of-the-earth"
+      ]
+    },
+    {
+      "key": "concept.emerald_dream",
+      "en": "Emerald Dream",
+      "pronunciation": "အဲမရယ်လ်ဒ် ဒရင်းမ်",
+      "meaning": "သဘာဝနှင့် ဆက်နွယ်တဲ့ အိပ်မက်ဘုံ",
+      "category": "concept",
+      "aliases": [
+        {
+          "text": "Emerald Dream (အဲမရယ်လ်ဒ် ဒရင်းမ်)",
+          "en": "Emerald Dream",
+          "pronunciation": "အဲမရယ်လ်ဒ် ဒရင်းမ်",
+          "sourceQuestIDs": [
+            2561,
+            483,
+            2438,
+            2541,
+            5321,
+            3120
+          ],
+          "sourceContexts": [
+            {
+              "questID": 2561,
+              "field": "complete"
+            },
+            {
+              "questID": 483,
+              "field": "detail"
+            },
+            {
+              "questID": 483,
+              "field": "progress"
+            },
+            {
+              "questID": 2438,
+              "field": "detail"
+            },
+            {
+              "questID": 2541,
+              "field": "detail"
+            },
+            {
+              "questID": 5321,
+              "field": "detail"
+            },
+            {
+              "questID": 3120,
+              "field": "progress"
+            },
+            {
+              "questID": 3120,
+              "field": "complete"
+            }
+          ]
+        }
+      ],
+      "sourceQuestIDs": [
+        483,
+        2438,
+        2541,
+        2561,
+        3120,
+        5321
+      ],
+      "sourceURLs": [
+        "https://bnetcmsus-a.akamaihd.net/cms/template_resource/263A8NGR8HLZ1556919642368.pdf",
+        "https://www.60.tools/quests/483",
+        "https://www.60.tools/quests/3120",
+        "https://worldofwarcraft.blizzard.com/en-gb/news/20271917/raid-preview-7-eerie-reasons-to-enter-the-emerald-nightmare"
+      ],
+      "reviewNote": "Broad lore concept relevant to sleeping druids. Do not equate it with normal sleep or a universal afterlife.",
+      "sourceQuestURLs": [
+        "https://www.60.tools/quests/483-the-relics-of-wakening",
+        "https://www.60.tools/quests/2438-the-emerald-dreamcatcher",
+        "https://www.60.tools/quests/2541-the-sleeping-druid",
+        "https://www.60.tools/quests/2561-druid-of-the-claw",
+        "https://www.60.tools/quests/3120-verdant-sigil"
+      ]
+    }
+  ],
+  "excludedContexts": [
+    {
+      "id": 152,
+      "questID": 152,
+      "field": "detail",
+      "key": "class.warrior",
+      "aliases": [
+        "Warrior (ဝေါရီယာ)"
+      ],
+      "reason": "Shortened Murloc Warrior kill target, not an introduction to the player class.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/152-the-coast-isnt-clear"
+    },
+    {
+      "id": 152,
+      "questID": 152,
+      "field": "objective",
+      "key": "class.warrior",
+      "aliases": [
+        "Warrior (ဝေါရီယာ)"
+      ],
+      "reason": "Shortened Murloc Warrior kill target, not an introduction to the player class.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/152-the-coast-isnt-clear"
+    },
+    {
+      "id": 152,
+      "questID": 152,
+      "field": "progress",
+      "key": "class.warrior",
+      "aliases": [
+        "Warrior (ဝေါရီယာ)"
+      ],
+      "reason": "Shortened Murloc Warrior kill target, not an introduction to the player class.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/152-the-coast-isnt-clear"
+    },
+    {
+      "id": 56,
+      "questID": 56,
+      "field": "progress",
+      "key": "class.warrior",
+      "aliases": [
+        "Warrior (ဝေါရီယာ)"
+      ],
+      "reason": "Shortened Skeletal Warrior / Skeletal Mage enemy targets established by this quest.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/56-the-night-watch"
+    },
+    {
+      "id": 56,
+      "questID": 56,
+      "field": "progress",
+      "key": "class.mage",
+      "aliases": [
+        "Mage (မေ့ဂျ်)"
+      ],
+      "reason": "Shortened Skeletal Warrior / Skeletal Mage enemy targets established by this quest.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/56-the-night-watch"
+    },
+    {
+      "id": 743,
+      "questID": 743,
+      "field": "detail",
+      "key": "class.warrior",
+      "aliases": [
+        "Warrior (ဝေါရီယာ)"
+      ],
+      "reason": "Ruul describes himself as warrior and teacher, not a player-class tutorial. The next word စစ်သည်တော် already supplies the generic meaning.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/743-dangers-of-the-windfury"
+    },
+    {
+      "id": 65,
+      "questID": 65,
+      "field": "detail",
+      "key": "class.rogue",
+      "aliases": [
+        "Rogue (ရိုးဂ်)"
+      ],
+      "reason": "Source calls Wiley a rogue, meaning a disreputable contact here. It does not establish player Rogue mechanics.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/65-the-defias-brotherhood"
+    },
+    {
+      "id": 783,
+      "questID": 783,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/783"
+    },
+    {
+      "id": 7,
+      "questID": 7,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/7"
+    },
+    {
+      "id": 244,
+      "questID": 244,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/244-encroaching-gnolls"
+    },
+    {
+      "id": 98407,
+      "questID": 98407,
+      "field": "detail",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/98407-show-of-force"
+    },
+    {
+      "id": 169,
+      "questID": 169,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/169-wanted-gathilzogg"
+    },
+    {
+      "id": 1372,
+      "questID": 1372,
+      "field": "detail",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/1372-nothing-but-the-truth"
+    },
+    {
+      "id": 1372,
+      "questID": 1372,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/1372-nothing-but-the-truth"
+    },
+    {
+      "id": 1391,
+      "questID": 1391,
+      "field": "detail",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/1391-nothing-but-the-truth"
+    },
+    {
+      "id": 99160,
+      "questID": 99160,
+      "field": "detail",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/99160-rimes-wrath"
+    },
+    {
+      "id": 1338,
+      "questID": 1338,
+      "field": "detail",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/1338-stormpikes-order"
+    },
+    {
+      "id": 3106,
+      "questID": 3106,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/3106-simple-rune"
+    },
+    {
+      "id": 3107,
+      "questID": 3107,
+      "field": "complete",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/3107-consecrated-rune"
+    },
+    {
+      "id": 3115,
+      "questID": 3115,
+      "field": "progress",
+      "key": "race.human",
+      "aliases": [
+        "Human (ဟျူးမန်)"
+      ],
+      "reason": "Immediately following လူသား already gives the meaning of Human; do not add another human-race explanation.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/3115-tainted-memorandum"
+    },
+    {
+      "id": 56,
+      "questID": 56,
+      "field": "title",
+      "key": "faction.night_watch",
+      "aliases": [
+        "Night Watch (နိုက်တ် ဝေါ့ချ်)"
+      ],
+      "reason": "The title already follows the annotation with ညကင်းတပ်, a sufficient short meaning in this display.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/56-the-night-watch"
+    },
+    {
+      "id": 265,
+      "questID": 265,
+      "field": "progress",
+      "key": "class.mage",
+      "aliases": [
+        "Mage (မေ့ဂျ်)"
+      ],
+      "reason": "Immediately following မှော်ဆရာ already supplies a generic mage meaning; this is not a class tutorial.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/265-the-shadowy-search-continues"
+    },
+    {
+      "id": 1395,
+      "questID": 1395,
+      "field": "complete",
+      "key": "class.mage",
+      "aliases": [
+        "Mage (မေ့ဂျ်)"
+      ],
+      "reason": "Immediately following မှော်ဆရာ already supplies a generic mage meaning; this is not a class tutorial.",
+      "action": "retain_pronunciation_without_introduction",
+      "sourceURL": "https://www.60.tools/quests/1395-supplies-for-nethergarde"
+    }
+  ],
+  "outOfScope": [
+    "Scourge faction: not annotated in this catalog; race API token must not trigger it.",
+    "Scarlet Crusade and Cenarion Circle: absent as such; do not add new lore.",
+    "All NPCs, place names, ordinary items, and enemy labels outside explicit aliases.",
+    "Hunter / Warrior / Mage / Shaman words embedded in creature names.",
+    "Sentinel Hill; Morbent Fel; Burning Blade Coven; compound Rune/Sigil/Totem item-title explanations."
+  ],
+  "sourceCaveats": [
+    "Manual supports stable identities and roles, not current Forever balance, class-race availability, cooldowns, or retail chronology.",
+    "Public quest pages preserve game-authored primary dialogue but are third-party mirrors. Reviewed saved English snapshots exist under full_catalog_correction/review.",
+    "Current spellings are carried over solely to avoid unrelated change, not declared native-approved.",
+    "Physical race descriptions are brief visual/lore identifiers, not exhaustive descriptions or claims about every individual."
+  ]
+}

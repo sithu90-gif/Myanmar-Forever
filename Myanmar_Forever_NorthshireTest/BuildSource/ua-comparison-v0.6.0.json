@@ -1,0 +1,1493 @@
+{
+  "metadata": {
+    "retrievedAt": "2026-10-11T03:39:40Z",
+    "uaVersion": "0.20.5",
+    "uaCommit": "332e9b866f55cd56afb658cc7f9202dc08b15b88",
+    "uaBlob": "3202db0749f21b8debf6846cc48da903f1956e3a",
+    "uaSha256": "e86f00bdc86e3cd3851284db394d51207ea9c4aa8627f4a3293114aa4e233575",
+    "uaByteLength": 9093804,
+    "ua0200SameQuestBlob": true,
+    "ua0185Blob": "058b13bd0035af0488b8ade71eda2793e190fb87",
+    "ua0185Sha256": "cb49c607ce679bca4d802deac7a9076a004137add7473c4fdb75141169dcf874",
+    "releaseUrl": "https://github.com/sysrover/UA_Forever/releases/tag/0.20.5",
+    "releasePublishedAt": "2026-10-10T23:44:31Z",
+    "curseForgeLatestObserved": "0.20.0",
+    "curseForgeUrl": "https://www.curseforge.com/wow/addons/ua-forever",
+    "proposedCoreCount": 54,
+    "newForeverCount": 13,
+    "notes": [
+      "54 is a proposed starter/core inventory, not an all-Tauren-level1-20 completeness claim.",
+      "60.tools map category alone omits13 verified Forever-new quests, Red Cloud Mesa starter category and class categories.",
+      "WCLBox names are backtranslated and unsuitable as English translation source; Wowhead Forever and UA en supply exact titles.",
+      "No downloaded source code was executed; Lua was parsed as string data."
+    ],
+    "ua0185HistoricalAuditCommit": "8cd9c9d265337f4f799ccdc12beb24ae1acbef81",
+    "ua0185CurrentTagObject": "a463dd7b2430c1c1a6316d4896eb5ec654b79307",
+    "ua0185CurrentTagDereferencedCommit": "5a8a656abb1d0a2ff2a6f9e9028e5c52e4c9dd4e",
+    "ua0185HistoricalAndCurrentActiveQuestBlobIdentical": true,
+    "ua0185ComparisonNote": "Both the historical baseline audit commit8cd9c9d265337f4f799ccdc12beb24ae1acbef81 and current0.18.5tag commit5a8a656abb1d0a2ff2a6f9e9028e5c52e4c9dd4e contain the same active quest blob058b13bd0035af0488b8ade71eda2793e190fb87. Historical audit provenance remains unchanged."
+  },
+  "exactTitleMatches": 54,
+  "numericDigitDifferences": [],
+  "quests": [
+    {
+      "id": 747,
+      "en": "The Hunt Begins",
+      "uaLine": 2148,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "d9f821150f3b1f7c60f7bde054ed26681676283f84165595e3bdb37c319e6544"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "4f13f4183e3569db1e432a3e4122a30968f5b5789ab7cf3f62a3a65190650a35"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "49ffab2cb579ca7506407c88febe372bef40865e1c60824b9b354a41b6abee10"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "cfae991c153f8e330bd20028821509912cd5cba42cb44eab096596f33d8938f7"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "e466638f68ce7894d3ad5f502809c3c57417a13f6fe51922d9beeefb80231051"
+        }
+      }
+    },
+    {
+      "id": 750,
+      "en": "The Hunt Continues",
+      "uaLine": 2157,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b277458dde1385dacffac07d7e395f2d8837bd599faedde8af31207057347920"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "89d8e25d5994f192a3a1205bab3894a8b95c572799ddf1a9033ed6bdae42cdb0"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "fea0e3fbacd5b50b78ac06a91fe787255834a0e85a61aa8c09ffcf9e12befb6a"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "a7072321cf08b11e9f29ab1e4962213e3e72c2c6db58918631cac58610750666"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "7f988e5325ab79104b19646c6c518d824e838a1bedc5e179600624da2b63496b"
+        }
+      }
+    },
+    {
+      "id": 752,
+      "en": "A Humble Task",
+      "uaLine": 2159,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "31589d1c4cb48d171219046128c7735c47a78b0a2f1ca9e6e37ba53cf274a82c"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ea1cc92f7c5a4f0c11a7d8b5377e84e8b7216a41146e7fe4894a11a1480477b8"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "4ad65e0caf60e1f84cc4ac2b2b173a03d0e6a80674da055a3d9a32c66a3d7f27"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1df4893567aea6f59339152dfbfffd38073e53cd38cbe719332528e817082102"
+        }
+      }
+    },
+    {
+      "id": 753,
+      "en": "A Humble Task",
+      "uaLine": 2160,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "31589d1c4cb48d171219046128c7735c47a78b0a2f1ca9e6e37ba53cf274a82c"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "57acbdc2684c6e06cad434957b6a0479db677eb4997cc37fcb25449f8df10ae8"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "81f02e6e7074ddfc8b016d9507114d9f56f314fc478ef315e321f8e65e1d38a8"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "208fd05a7ccdfee58b24f8885e259a7eca8ecc8c4613e9dbaa11c9ee7b4ecb3b"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "3e412d17c4233ce20dbd6c58dae2bf0bb0fb86a98e5e70acb65dfa71c0f40338"
+        }
+      }
+    },
+    {
+      "id": 755,
+      "en": "Rites of the Earthmother",
+      "uaLine": 2163,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "193817f4a1c346ae725daf57d50fb393c4103ca895e4a80e0573025e40ad0ab4"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "6e8a398c7754d5df49c66bbd3a082cde078e46607df3f6df86ee721cf1746608"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b59e10639f70baf2d4d60c64385722e0600ab21e8a2384d148fb668cb9183dc9"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "0ac38301912df3721a5750c3915096b28bac739390eec36108bf8bda0c49ce52"
+        }
+      }
+    },
+    {
+      "id": 757,
+      "en": "Rite of Strength",
+      "uaLine": 2165,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "477715ae12b7b9b67f6ea36fd8a530c8e3d195c1bb55016f7a77d2d08017846f"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "f4319243de6a0737e6e5c35c373f1eca571f66e827463e36a16f7b85120b3b1d"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "fec6c8fe463e38adb947b2fbc87873c5cb54efd106c8c935a6d715fd054111c8"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "9d918d6b065ee631142a56551becf300a2375654546c3dc690c1151fbfacf1da"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1c152589d2674b9b4d89398b7ff44f56818d1f35cd151107a95e60e48b63a49f"
+        }
+      }
+    },
+    {
+      "id": 763,
+      "en": "Rites of the Earthmother",
+      "uaLine": 2171,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "193817f4a1c346ae725daf57d50fb393c4103ca895e4a80e0573025e40ad0ab4"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "0e72527456998ba843ad30ff1ad8184a312d4848e4be028c1b0700ae516549ba"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "3bcfadf7980f20b8f80420c76bf3abd68633ccf45a173ef86a0ec34bbe42a331"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "8922f7aee898ec6d939e2892eb6d1bcc1c95305291762d4f615363d3ae13833e"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "f168f91b09b927891fdf0e7fb1e49e1e5c226aaa8740fb32d3fe25736ccef8c3"
+        }
+      }
+    },
+    {
+      "id": 780,
+      "en": "The Battleboars",
+      "uaLine": 2211,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b6f187c7b9942e91a2162a603de7141b9aeb725859d7056744d782c4b5695536"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "86ed5bbd1f3ef9fd0c2ad2610b7f1e5eeeee423b7352f9ba9edf9c9723513624"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "0845730dd1c9db2421140172f4bf72caee420673f0889f6aa39ee12f2430fa13"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "b97a10790cd6daae545838eb1a709859f8074d4ee977bc3aa3cf263b9c8bf7f2"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "db6c4549a4346ecaf2458cfbd0cd17d3cb001710b56c07ee18331bbbe1b9eec8"
+        }
+      }
+    },
+    {
+      "id": 781,
+      "en": "Attack on Camp Narache",
+      "uaLine": 4237,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "f3c2fcf87836e8ce76d25f29a534119293adc05375b78f12c5fbbdb9dbdb381b"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "e30de650af8e92b99e150905747e360cb2aa73843bfd5ba5064035e5e1728a1f"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "801eb6ccbfd0bace94d5433e9cffb6dd5cadd84f9675a2b155d9eeb2c5454824"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "374b82f0b033172404ed61ed7cbb0aba985e73a38f2153d8545d221a95e102bb"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "e07cb0015df7cbc541c26ebf29cc4b24727ae0012f9f7e9666ff4b839a412d33"
+        }
+      }
+    },
+    {
+      "id": 1656,
+      "en": "A Task Unfinished",
+      "uaLine": 1535,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "88a9d59f6aefd246083391e596daf594278f11c0be6cb31602c70ccf6e997c4d"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "a4f496052e0ba8c972a54464b8d6c0fd80872f8770ce4ea6823f79d935d01795"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "e1dbdaf14d4fc0f0eb482076db612b8355386e1f9910452ca04e2c9294f087f5"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "872fc4ccf8ed14580247b8807c1781d73a29c69765f501e00a5bc02968bd2111"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "a40166a2086488b40f0b9d63785aaea2721b52e78e3f47aaf8db2e97f23ba233"
+        }
+      }
+    },
+    {
+      "id": 3376,
+      "en": "Break Sharptusk!",
+      "uaLine": 1654,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "558944db4f70dafb19fee493725185d41a293f5a9fd866817361d899d8b2b13b"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "634c28e4205314d9d6badcf170d0a4fe0181453d7fd659b9ea6019453195bff6"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "0219d8e833f0ee01b9664624be0a7bdc4c122ca721fa2a896027ca281b4ae9ba"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "0ae51f6c5b40f85a2a725ac2c30b22d01bdb604e93b5026d7e409edf3739883a"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "6ba38b404b552b1b20d6a87373f1bfae2d3ec14c64776e1493dbb66600e39353"
+        }
+      }
+    },
+    {
+      "id": 3091,
+      "en": "Simple Note",
+      "uaLine": 1628,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "2c132bb95ff951848fc9f9fe76b086eed718da12c03840b42d595b637d8a5855"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "d4909fd7c47ea689d766e71d3353cc4c84a9181d871cf8a5a7f568972df5d803"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "2e96df6a6648c178d074a79d67b71a3c8bf3258591e09620b6dbacdb285b8966"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "b97318db16ce244ec5d7f86b85f66ad40c92d10aa90c5213b5b0cab644a0cd05"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1b98e27d12229b6741a3f03714e70320e475fe2977edd9a547e104ed292ec32a"
+        }
+      }
+    },
+    {
+      "id": 3092,
+      "en": "Etched Note",
+      "uaLine": 1629,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "62c466b88ab296d7424ee5b306b860076f93d7827fd23ecfb97596977ca01839"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "9dd70fb7f762c7c01005f217a0114682f6a4b10e37af210cd5b20fe67b94795b"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "93480b3635d88080da7d3c631ac0f8b61926704d6f87343b21eaa9738a18a5df"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "75ccc37769f1f18d52955f2284d50c3b335de0f7f12a9be848f2e5df61929292"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "5a03ee100bda756e11da6a1ee47dc40552ea922e4132bfacbbf17669b4c1930b"
+        }
+      }
+    },
+    {
+      "id": 3093,
+      "en": "Rune-Inscribed Note",
+      "uaLine": 1630,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "2183252a91d397c96b192245a19f09ef44458b9f30eae8839851febd68c7ca9c"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "1e527d7c845a5f38f8ded3f98ca454391bc08922bced2f74fff68df76a6eeae1"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "bf2d5a3715ef257fec57f99a76b6e1bb194c44c2eff55c9e2e27411285d1e597"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "4d914b0da407603aac3668615dcfd9bcd39c164d0b74d5383db65f3e0b0e5320"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "19dfb8f195cb5500168a859f167169134af84743fbafd795753b0adfebb7d069"
+        }
+      }
+    },
+    {
+      "id": 3094,
+      "en": "Verdant Note",
+      "uaLine": 1631,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "7a19800af93d9c11d4f951b96b6ab9eac835d47359342faa9dfc94f12b5229c9"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "cf5c8bf524778412940bea3c7efa9a19ba77473efb680f19aa38160b87e493a6"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "473520d5522b1c84b300230f4fba0ef0995067c632f73a11ea2e63a1a2c71943"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "d61ca295a3ddee71db902fc3ef49bacde461354bfef04ab767fc26658257e519"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "534fa81f075839d1a3d49f5d800093e99367ce97a13930ea9af6aec9f488b513"
+        }
+      }
+    },
+    {
+      "id": 748,
+      "en": "Poison Water",
+      "uaLine": 2149,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "9173fcb9014b81c3b6226cabe6f803b7912fcabe57433671c6bd5c1183f52197"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "fdfef71b8024d003273c20be1363f728fde0ac1455a3b1c4b7a67ff6f7a6e3b4"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "061b857cda5447bc6ae1d9def145018f5b54857cb217cc237ee2bf3182db07b2"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "90a5d86960f1e19c782cd4ae6a7d1e7a4c841af45a89aacd4b5fb60995f88327"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "910fb46cf403a349d1dbed6605a1ff5c0941c027533e1a148b90a81554dff5d1"
+        }
+      }
+    },
+    {
+      "id": 767,
+      "en": "Rite of Vision",
+      "uaLine": 2175,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "ea175db926927d3299fcbc739a8f41f2cb04f38966a3778c3bf675a17d56492e"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ed7dffe3e0124c6eca4775dcc34da8012ea5904c830912d4626f48e472815389"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "32f9549fa49ccf4989878c722da7f098bc12e7fa25ad0cad5168ef3b90e40d07"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "5e67b526e7ece7a12c25da975001102a0a37c51167c33c6f89a35539dfd7191f"
+        }
+      }
+    },
+    {
+      "id": 761,
+      "en": "Swoop Hunting",
+      "uaLine": 2167,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "c9381193de87d44e1ad03ca33e5d896d419adf1d29bb7a0108f64618eece03f2"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "6391c150ee8ada04851d57ab33475763617c42704e3325c318d64fde2dba9d1e"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "5fb0cabc805c818d271105690ae202bea7523d6e1457a823563386da0c2731d9"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "da038460894a13fc1d5ce5141b5ffc7432472df9097ca756503b0dff20e7d32e"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "ac8058c0a54380ac336746bfbb8e3edab1ec6fc6e3100c13796a23f87e20ebfe"
+        }
+      }
+    },
+    {
+      "id": 754,
+      "en": "Winterhoof Cleansing",
+      "uaLine": 2161,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "1e3d7627598122f2cdfad95da2128ec34c3a1bd9af042b1243694629c5a9b2d8"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "889e9c8a498e5f7fccae473f136d0827e15217bfbd1818b77552f0bc45b6c2e2"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "0bac1ae9b9f6bb2cf1a4c4fab242b5e62cf927b2d90a90e23a89af72a50c656d"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "41b048b08a1c2978972794e8e9b540faa25d07fae9ce72295a534819b38c0768"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "f97fb81aa2fea4e776c679d25f94976201334dcb6841a06448b6c96048732f40"
+        }
+      }
+    },
+    {
+      "id": 772,
+      "en": "Rite of Vision",
+      "uaLine": 2181,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "ea175db926927d3299fcbc739a8f41f2cb04f38966a3778c3bf675a17d56492e"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "180cd1c3e828da6354fc6e714ba0eb3a10df0c41ef6eb4a81757464fb7992a05"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "e5c9c595b833b2f4a14d5c3b524a4df7cee586df2b84b22f66a5031f1cd64a71"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "bb113f74d578456807f70827438d0e2623585e01096a3accab1505a01c2a256d"
+        }
+      }
+    },
+    {
+      "id": 771,
+      "en": "Rite of Vision",
+      "uaLine": 2180,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "ea175db926927d3299fcbc739a8f41f2cb04f38966a3778c3bf675a17d56492e"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ac8bf56a9bf61e05d3acceea5d1399384255397297154006f25a1ab5a6aab605"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "d83be13c16cd3f24aec11492b8254fa743c95fd411344ad550c502c32c4997a7"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "55f2a0194d764c8208cb3bdb300426392c4e0e8a577add76f083fb89a7945930"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "5a56d9798af9ea2132519d3b411e60ed302ce511e907fa110bd154df4848cf7e"
+        }
+      }
+    },
+    {
+      "id": 756,
+      "en": "Thunderhorn Totem",
+      "uaLine": 2164,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "5e471fb997392f909226e55950b06969c7724cbf65b2bb999abeaada60756e50"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ee1130f85896e864fad66c247e70726687dfedcb3e481fd82040f6e5f6c23c5c"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "710aeee8e8b746593bff4198a3ce655b4f71d7fbc15da134e96f3e573ef0cb9a"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "249730584952b8ad5c329df4462d0d43c8dd8a191a8d4af48d591b65a6655fa5"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "d5a2e6e5cc0ddf1f02de97df3d5a2c46a1f633764a2cf1702304804b0891c8bd"
+        }
+      }
+    },
+    {
+      "id": 743,
+      "en": "Dangers of the Windfury",
+      "uaLine": 2144,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "3ffe1aa2eed968a2c238324c4df7fa77fff017e49769c746899366f944194b79"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "4844ab8ce523f199aaa789ebfb752577024ad5d9b2e1f41d24ef766904ed9e42"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "6c84065ea6e5a21462e67b75f370284a1ed6755b358987321a8403baef887840"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "65a0a42a9737adbacc385a098cea983343db8759ac5089c3a3b0edb52f1d4df0"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "a18c6a27b4281d921aad86d8d3f189d34bd9aa74ce369eeb95801bcc3038ec00"
+        }
+      }
+    },
+    {
+      "id": 746,
+      "en": "Dwarven Digging",
+      "uaLine": 2147,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "e9c3c4276f1d53824769357c64703ca219293b83cb73ed458d31f3087d2a1376"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ebfc28003cd3fb2fce6b59d8da6bff34438f6985fb6e926b2163149625db06b4"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "f141ff7700bea87c52fbb2c7f3e646b5fd47c46bd3487d4475c5b655bb6f11e5"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "62bd50caec256cb4c449ff032d1d105ac670935928c50efadefcdeb4b4c1d3a7"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1bc55e0a2f2cade9d408e8110d6b9b95f0c6e13fd165d82c59b220e7adf7d17c"
+        }
+      }
+    },
+    {
+      "id": 766,
+      "en": "Mazzranache",
+      "uaLine": 2174,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "cf7942c11ef1a8303628a6c4b4bdc53557dd0a9e636713a3d9ae73464074a544"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "165f028aab87c8546d7a4c86e1e8c0cd074b5153295c181bc9877340c768072c"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "f6c84d467d9021ebda1fe0bf1f6c764c16b4e43564e5f6a43e46a36b8adc18e9"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "39b4d497addc015f469b5c0f9c4ed1b010365af1ca6d73e964065ef636e9c00b"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "9f187f558c63c7ae7471eac690ce562b029e3c44d5678624b0675c9586142042"
+        }
+      }
+    },
+    {
+      "id": 745,
+      "en": "Sharing the Land",
+      "uaLine": 2146,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "5eb76b65896f1e50957a8b068fc16899832369df130e081a34ac0126fe5700fb"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "2f36f21b1cdbd6d41d81eab5431335292a40b296a9c0c47e669c5a30214a1408"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "6f45ae49c437f0c16a13480312252d76c217e76d1c6b3b0ba05d54309a5f2a54"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "2d3c4b7b6a98bd6ad0fcd2da27ce6e37f1f491c34f52f549f03448f4fe03a596"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "72813b0c66e0560f4a21f8ed911bb63f1196c704b46eaeb1349a957dd2a1c17d"
+        }
+      }
+    },
+    {
+      "id": 749,
+      "en": "The Ravaged Caravan",
+      "uaLine": 2152,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "8bd7aded5d86a3b5bbacf004180fcded9d959c78129a0af34e0b08d11621a5a0"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "37fe20e15ac20f4c59924cd6fcd76e301eba7e2983a01b4ff416d77c618a25fc"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "f89b573d29bfa7a25ad0db649719cf848a338059c18b4ce23ee07be020cff23e"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "cdd62bbcc78d3ea5f3d8b57cb3c89f1996eb1dbfc93b16efcfdbe94a11a6be28"
+        }
+      }
+    },
+    {
+      "id": 751,
+      "en": "The Ravaged Caravan",
+      "uaLine": 2158,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "8bd7aded5d86a3b5bbacf004180fcded9d959c78129a0af34e0b08d11621a5a0"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "543974325302484f7f2f108ffc5bf4bb566689c7b137c4484bd498c63a063806"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "ecd8ce3c5a3e48dfb9b3f30b56ca58af2ce8556c757d2ade8d50ad8dd7aaaa10"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "fb0ce3113b1211ee150aae60d048f825a31400f171a92de6d6f292fd8ab715d5"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1fd8fde9e32ce67670175cdf484a8dfa7c555dc10ea319a9450c3d16ea0d8ad0"
+        }
+      }
+    },
+    {
+      "id": 758,
+      "en": "Thunderhorn Cleansing",
+      "uaLine": 4136,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "78bf924524c53226ea784dd75e72f5802cdf9698c2cdd8f39ed7e7172ff1fdbe"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "424167d0c52c4d5736f5a2cd580b11eef3e2d04948f99741d336b558ec5477e2"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "af44f17db253b813863667b9b44a7a876c29b8b9cc0a8e6a69b6562d61bd2337"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "66a9f6cb088fcb0cee0dd323a1181bd7ea85fab91226ea878dfad96cb8faba1d"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "76610e909441ecac8699c49276f02f9790dc8dd506140460765b1460e145b67a"
+        }
+      }
+    },
+    {
+      "id": 833,
+      "en": "A Sacred Burial",
+      "uaLine": 2356,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "6b9a1ee819b53fff93cb67581e5e8d3fedf88a81c60018dee2fcb166b1335fe2"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "99a508eb38f05c64c12f71685950da337485079b4811685bae2300b259429133"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "d3bc1e1631db79e5916d7f8cd823bd18f535af3b7ad68e660d54522f37d140ff"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "9073e5be9fae8b068404638bdbe2ea1a750d5b47aad6f3de0d837022a83d5116"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "c2606a636ce2ad503c4909ef33df6c357bbc5848006ef6429a72d52a6f9cf3f4"
+        }
+      }
+    },
+    {
+      "id": 775,
+      "en": "Journey into Thunder Bluff",
+      "uaLine": 2188,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "d23af6aa624f1b620df8abd3e39754a3d03b9549fa69e8adbb49f21a253ac5b1"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "6f7cc1f409162781bba747d589b950806b26c29389f52c28b367239ae671601c"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "a71ff8b97f54190038aada9788fcc2482a5ce7471041637a25aa165c4d16a53c"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "bd7aad618a2a83b794fe8b0c2f11d64f9358b867ca02fad75d33d00e587b3451"
+        }
+      }
+    },
+    {
+      "id": 773,
+      "en": "Rite of Wisdom",
+      "uaLine": 2182,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "86c7c2d1653097019c3b72e9f22e0ec680ca789117d20b6626c3c09475febb17"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "6309394239cc833ee4ad1489c840d322a4d1d7e2a3e3183dc8860081e6715286"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b2a07e574ef37a8cd780c8d33057db0a90f9f11e615845832947c1f5051ba1ca"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "1a13cf2825524ce67f65adf958c8f33300e5133850191bbaed4902880276777b"
+        }
+      }
+    },
+    {
+      "id": 861,
+      "en": "The Hunter's Way",
+      "uaLine": 2452,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "6c56df2b967dd1e253b9b43cb6b25b123c819b7c5b7a855b472e7175274b0990"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "a78743edbc192ad077af8ac39f115247c2137324722cfbac5cb0ac2f1cf71c4b"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b811bd1e81350c5eef2e900fcf40936629ba715e5ab42d70c21d31808c367501"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "379704a5d90320b4f582c0178ab483dfb701c7f52492ded4b1c5cf7300dba5ae"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "edaa9d23751a4389d53f33d556111d6b2981c3f14be71c75665ff7d6d09073d7"
+        }
+      }
+    },
+    {
+      "id": 764,
+      "en": "The Venture Co.",
+      "uaLine": 2172,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "325881ff2761c44938899d2e0ee1336d1de70471bf2c67e3970e68dbf79640ce"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "da0f13949a64e2c120849aaaa62164db736d7232afe542c44b1abb5d6269b7e0"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "a77f0a55477a9f9d538fe2f30182faa33f8b9c9192fef266e13a66798da3773a"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "270d2e5dafd63c86cb16218e7536e4f383d506e780ba16bb28a42fec2c275ffc"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "973ff68ba8225be92ffb95efaefe837680eb5d57f5bfded6df9441e55a8b570c"
+        }
+      }
+    },
+    {
+      "id": 760,
+      "en": "Wildmane Cleansing",
+      "uaLine": 4140,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "a6c58defe7d7df202be154d7b2f6b57b8761f86abca855c4698d926968b54591"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "31fedcde43f74949c3a56895cb3c87c7d438c57108a9feb36b4abef30c4637cf"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b58e91c56f00f3e7c9a009522b3fb93a05ccbb8d13f97e313310f4667246054d"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "31450cb0c38650c6137c8db09fdcc41e133824e63fd10e8da7651b02c635f77e"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "c4823c836e3711d3acaa3d99adeb8f99634f5d29c58f9411b58f820d16150d7d"
+        }
+      }
+    },
+    {
+      "id": 759,
+      "en": "Wildmane Totem",
+      "uaLine": 2166,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "64f0d5f3b2c666bf4fda446aaff627bd6d5fa4f3a3e73ec75046a39683044608"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "2b270002fb00c78451290fffe65806f19efd0e46aafeef8ba2ede55d699937c5"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "bdaab272e9a37955e43ff448ba4bb7ccf341de4a5a11bfdc56ab77cced987bf4"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "66d2632756e0e18bc1ae3ee34f50d6743954341477c838cf1fa5861df62e3360"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "42b467cd78aaccaed020252e1d2013289ab89d4819ac824e4271732f7045c44a"
+        }
+      }
+    },
+    {
+      "id": 854,
+      "en": "Journey to the Crossroads",
+      "uaLine": 2421,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b35d9b1dbba1685f2e36172462569e97e031b34bdb05b9f8c0e1c53d585f42e9"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "a7c3bc542e8132b5f5c6c1a7508b169e8f59626cccf9da3980c00ac6b6f0d1a8"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "3bbcbf9022b0a16da0ad9d7167435b71a41eae25d070d14b907bac30a32db25b"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "fa5503108a124b6c83258ffa9573cb125cf96cd353af04deb24a5f4403c7aeac"
+        }
+      }
+    },
+    {
+      "id": 765,
+      "en": "Supervisor Fizsprocket",
+      "uaLine": 2173,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "7935e16bf7f2d4ef421086a03a998b922b83623d686f88d252331c7d52978d92"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "8dc78b7510ace8a122ee1697c736bd9e132df311f1cc0d641268a2ca03ab1ba1"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "294bdb4946e607e25e50c94a70dcf509bb3147e9f83284d5f68e9c4733560931"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "92c32b067bae71ad533b318c761592f1f95543a64f8f302adc9a0b8403d708a9"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "873538e828952d5e70c8a239367cf8888b2240ab2e00bafd30dd79d2658d0e69"
+        }
+      }
+    },
+    {
+      "id": 770,
+      "en": "The Demon Scarred Cloak",
+      "uaLine": 2179,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "78b221b917d2e2a684d32fc4bdafcf1589e3fcdfa339f920b167c4d73ba35f15"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "68c68d22a3dc2910e37103e2a0b72edca1fc761e48e15331e92e2c7d18783938"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "99d484c45b34df665b626e2a2c1889e7bf0dc46281713c153b663bea424b42a4"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": true,
+          "sha256": "a1941c392baea963970e1c834fd8ff97f6478d1cc9aa94ee53e338c8ab6875b3"
+        }
+      }
+    },
+    {
+      "id": 776,
+      "en": "Rites of the Earthmother",
+      "uaLine": 4223,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "193817f4a1c346ae725daf57d50fb393c4103ca895e4a80e0573025e40ad0ab4"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "f439a9804c209fa8923380cd71b10642392237362fb4a0b1ae74e6f7e30e0d7b"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b44acced094dbc9ac9e5d2aa5fae7504c42c7f47425cc906b28572e422cca4af"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "2c5c9a3f02f195e25c700921f00160cf91c3ec60e2188c2de82b846bbddcf5aa"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "e34f64bd86bf2d8bd28ec67d728af18f6455872d1d256ae56813b4daeb7edc5c"
+        }
+      }
+    },
+    {
+      "id": 744,
+      "en": "Preparation for Ceremony",
+      "uaLine": 2145,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "282e9917d4c7e0351f1d1ff8aeaa0ed815618046e0988f2eb0da58cf12440832"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "85321398acf6eb31a4f23454a6efd94f1e5165e89c69ead5967ae37e2574a137"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "1e5819fb12ec379e869bc28b9284804425c279efd065aefd8f8e693ef8414d1f"
+        },
+        "progress": {
+          "present": true,
+          "sha256": "aedb8cc16f824df21773ea8fcb587109f690fd4984c82281193f990e3b8c6fb5"
+        },
+        "complete": {
+          "present": true,
+          "sha256": "122d4a5cec55de38dc924e0649cbad3061838609b2925552f0854e45508a1577"
+        }
+      }
+    },
+    {
+      "id": 95805,
+      "en": "Grace of An'she and Mu'sha",
+      "uaLine": 2633,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "93aed7f1dbdfc0c661e14f3bd0b862e74e958ca4cad861a28f2b97359326f7ed"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "ab90700c35a6fbf096476225dc92390b152bf0eed062dfb748dca11f29043b57"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "aab44fa1ca8feb662ccf8aa3c1066b0ef71ec596d3bd0173481a668eb9910e02"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 96130,
+      "en": "Chakuyak",
+      "uaLine": 2636,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "443e45b71b12422b1fabe33fdac7f46a63659ad702116b4b3d5eef671e39863b"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "85606cb3ecd87cd58c6859066c469ae00ad98a1aef49176067c3de5779422213"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "d41c5e1b02e05a0025efd955180974d0264882489e6e81fbf7c9179be522c799"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99108,
+      "en": "Sparring Match",
+      "uaLine": 2763,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "6d2366efc50f03426d174da533228480602d61c1d5f8c1d5d30fdb2d406c1197"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "bfc8d92c20ef3852617dc3ad4305c22191b3cd5cf7656206e3d1f6e19e9a0894"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "8b497f61f37feaa6ce7ac3bec85da9ff0a03a0d902b20a2e06f8607be13015cb"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99411,
+      "en": "Kyle's Gone Missing!",
+      "uaLine": 2774,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b99238f527dc3fb3f60057dfdc8eb3471b2ef1fa32d9b9a21a3230e074dc22a3"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "fd9dcc0fd026adc4a766d8f91b6f344ce95ae2a62620c2906784d97dc13fa847"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "7d3ef2ed1c7de9d69701dc329f4f1f1bef16e293eee866047631845609ef64a8"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 98430,
+      "en": "The Longwalkers",
+      "uaLine": 2744,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b67da4c94849203dda4048db77db16cdab0cd354f21dfc4ef203ffe42df77f51"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "73957fcab4aa67fc499e672f9ce949983632f2432e1888517420a654c44ba148"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "dcd350d4edadf071cce23c9dc76946b4067964da32ed17bf375c0ec01b18d089"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99079,
+      "en": "Longwalker Malah",
+      "uaLine": 2758,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "b296a24d5e298ba134bf4fc0c06d94c391a2e05435435a97ebef4ad285f1d2a9"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "14c0143d5807fc483119185eb2bbe755e805f2db4b5496ef9eb380befd8f3384"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "312b857de360718a64a12b6543cae3811b9343b1ae7c565ab560ee4dca3a4760"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99081,
+      "en": "Grim Tidings",
+      "uaLine": 2760,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "fb731dd9afcc3b130267c4da4a8ecd57b8fbb639b4d143c72331af3d3ee98b93"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "94f00c91e60789ad060ee2c65e54c815b0badbcabcc78105bd0e1fe067479b7d"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "821934d8dc0c90d325a7c23d2c1d8ec8b599aa7c6f834ad81e46567657bdae59"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99101,
+      "en": "Our Ancient Enemy",
+      "uaLine": 2762,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "298288115b3e2c1c9167d1509748a61698bda5e29691fe10494b3975a73cb27e"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "71a6784e1caef0ae295b62fa9b4239e8ba76d2a48b0788d987f19cb04a934880"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "d9793f8d352ef78674930d46594559fc31968dfcebd9e36da358bbbb4f09f7c2"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99080,
+      "en": "Drive Them Out",
+      "uaLine": 2759,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "f85d315a058f33d1c321d9d565332f4e1776cd8886c85b86651cd7172d983b16"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "3254271df823cfe98a0b2f27c3d8c76dd07d90088fa40c28f78832e5b8e72355"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "cb516bce54b865e90cf9aec5b1f7098f0228e999f78118cf8799f627f41727f0"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 99082,
+      "en": "The High Chieftain",
+      "uaLine": 2761,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "995890612d1fd9a4a0301436fd0c30781a2a4b7be9d5d8082ba6651f10a38cdd"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "5b26efa1f571a0b99215a8ab2021f3b57a56e0a64dd5b04c57ab6e36ff77e9f2"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "68e0ca27987a1e67555395eaeec6bcae0869f5f55dda7600e0f310815ddf3591"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 98424,
+      "en": "Fizsprocket's Notes",
+      "uaLine": 2742,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "08bdee3910548224426a247b9a1e76996ae53a4755369afe1405ff97381160f3"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "f7ec18f8518f6822132a3e625b45bd623bb6b78f9f6efa42b99d450aa57fad3b"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "b3c3dc73d2328ac0b26494d1515b470beca7afe5b7de76efb348fdd43ba4f777"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 98435,
+      "en": "Thunderhorn's Report",
+      "uaLine": 2745,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "e010e3c824f6040332ea6198008962ffd8f304ff42cdf345d42f76c5d34f53e2"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "624a000994694674b284c979bc6bdf77d2870d996d16ec08d04aae0688e0ab5c"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "fbe24132f45ef43ad9c19408314be84b2005306c2ef22499ec41c08f2b01011a"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    },
+    {
+      "id": 98427,
+      "en": "Ceasing Operations",
+      "uaLine": 2743,
+      "fields": {
+        "title": {
+          "present": true,
+          "sha256": "559d138c21b723f5e7068759e8847f65d77e79e05dbb1d185adc9424c6dbb595"
+        },
+        "detail": {
+          "present": true,
+          "sha256": "5ecb272dab8470d38f207f5569756d2092ce9b0320aecb2172fb4131beaf075f"
+        },
+        "objective": {
+          "present": true,
+          "sha256": "0e2645a745b8c5edc57e236d6bf48bb66f1814af7abd3ac923b62ef5baffdedd"
+        },
+        "progress": {
+          "present": false,
+          "sha256": null
+        },
+        "complete": {
+          "present": false,
+          "sha256": null
+        }
+      }
+    }
+  ],
+  "note": "Second localization cross-check; English remains source for Myanmar. Numeric/token checks do not establish semantic or live-client equivalence."
+}

@@ -1,0 +1,1 @@
+This build uses build.py safe_clusters in the production workspace to merge unsafe isolation boundaries before calling the original mm_preshape font builder. Do not regenerate with the original sample script alone. The rendered glyph sequence/positions were verified equal to full-run HarfBuzz shaping for every Myanmar run. Font and catalog must always be regenerated together.

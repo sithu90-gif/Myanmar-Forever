@@ -1,0 +1,47 @@
+MyanmarForever v0.4.0-beta
+
+INSTALL / UPDATE
+1. Fully exit World of Warcraft. Back up your installed addon folder.
+2. Extract the ZIP. Copy its Myanmar_Forever_NorthshireTest folder into your
+   WoW Forever client's Interface/AddOns directory. For the standard beta
+   installation this is _classic_beta_/Interface/AddOns.
+3. Replace the existing folder with that same name. Do not rename it.
+4. Keep your WTF/SavedVariables files; existing settings and captures are reused.
+5. Restart the client. /reload alone may not refresh the replaced font.
+6. Enable MyanmarForever on the character-selection AddOns screen.
+
+PLAY
+Open NPC quest dialogue normally. Available Myanmar drafts appear in a separate,
+resizable window. Drag the top bar; use the lower-right corner to resize.
+A- and A+ change text size. Scroll with the mouse wheel or the scroll bar.
+The original quest window remains available. For an absent or held translation,
+the Myanmar reader stays hidden and the native quest text remains usable.
+
+OPTIONAL KEY / GAMEPAD CONTROLS
+In the game's Key Bindings menu, find Myanmar Forever. Assign your own inputs to:
+Show / hide translation; Scroll up; Scroll down; Close; Increase text; Decrease text.
+No keys are assigned automatically. Gamepad input depends on the client's
+binding support or your controller setup. Hardware behavior is not yet tested.
+Macro alternatives: /mmforever up, /mmforever down, /mmforever hide,
+/mmforever toggle, /mmforever bigger, /mmforever smaller.
+
+PREVIEW AND CAPTURE
+/mmforever 456                Preview a Night Elf quest offer.
+/mmforever 456 progress       Preview progress if that state has a draft.
+/mmforever 456 complete       Preview completion if that state has a draft.
+/mmforever reset              Reset window geometry and font size.
+/mmdebug                     Toggle development controls.
+/mmnorth                     Remains a compatible alias.
+
+NPC offer, progress and completion text is captured locally, including quests
+outside the packaged catalog. /reload or logout saves captures to disk.
+/mmforever capture is the manual fallback while an NPC quest dialogue is open.
+Capture data can contain player names. Review it before sharing it publicly.
+Capturing does not translate text or download a new build automatically.
+
+TEST STATUS
+474 quest records; 1,312 translated dialogue states; 121 new Night Elf quests.
+Automated Lua 5.1 mock, font, token and quantity-digit checks passed.
+Native Myanmar review, live-client testing and controller-hardware testing
+remain pending. See TESTING.txt before publishing this beta as verified.
+BuildSource contains editable Unicode data, source links and portable scripts.

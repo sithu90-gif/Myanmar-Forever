@@ -1,0 +1,522 @@
+{
+  "auditDate": "2026-11-05",
+  "baselineVersion": "0.6.2-beta-candidate",
+  "upstreamVersion": "0.23.0",
+  "upstreamCommit": "e7087161130b9fe48efbe7b7b0a548d184af329d",
+  "previousUpstreamVersion": "0.20.5",
+  "previousUpstreamCommit": "332e9b866f55cd56afb658cc7f9202dc08b15b88",
+  "upstreamSourceBuild": "1.60.1.70790",
+  "upstreamRelease": "https://github.com/sysrover/UA_Forever/releases/tag/0.23.0",
+  "upstreamPublishedAtUTC": "2026-11-05T02:48:00Z",
+  "upstreamOfficialZIP_SHA256": "74469bddba69af0411e7d0e7116f14d1e2c40e0a133633eb94fba2f47b94ef38",
+  "provenance": {
+    "uaQuestFileSHA256": "1655f676c60b2afe939acc234988a331f48d22709bf8e0605f7eaf6a782b5f76",
+    "previousUAQuestFileSHA256": "e86f00bdc86e3cd3851284db394d51207ea9c4aa8627f4a3293114aa4e233575",
+    "draftsSHA256": "fc018e2c4b821eb6723e85dfc41d175fdffb23ce8a66ba2e89f92b3888cf3e37",
+    "worklistSHA256": "721d492bbaab5794bce93c52f44ad232d47a29017f6788636e4e0eefa7a582a9",
+    "luaEvaluation": "Lua 5.1; empty globals; 10 million instruction limit; catalog only, no addon scripts"
+  },
+  "coverage": {
+    "myanmarQuestIDs": 664,
+    "translatedFields": {
+      "title": 664,
+      "detail": 649,
+      "objective": 649,
+      "progress": 530,
+      "complete": 642
+    },
+    "translatedFieldTotal": 3134,
+    "availableDialogueStates": 1821,
+    "absentOrHeldDialogueStates": 171,
+    "uaUniqueQuestIDs": 6214,
+    "overlapQuestIDs": 664,
+    "uaQuestIDsMissingFromMyanmar": 5550,
+    "myanmarQuestIDsAbsentFromUA": [],
+    "shareOfUAQuestIDsPercent": 10.69,
+    "titleMatches": {
+      "case_only": 6,
+      "documented_alias": 3,
+      "exact": 655
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "held": true
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "held": true
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "held": true
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "held": true
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "held": true
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "held": false
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "held": true
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "held": true
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "held": true
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "held": true
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "held": true
+      }
+    ],
+    "regionCounts": {
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 69,
+      "Dun Morogh": 44,
+      "Durotar": 33,
+      "Duskwood": 77,
+      "Elwynn Forest": 45,
+      "Elwynn Forest / Camping": 4,
+      "Loch Modan": 39,
+      "Mulgore": 37,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Teldrassil": 33,
+      "The Barrens": 80,
+      "Thunder Bluff": 1,
+      "Valley of Trials": 13,
+      "Westfall": 44
+    }
+  },
+  "upstreamFactionTableEntries": {
+    "Alliance": 1373,
+    "Horde": 1349,
+    "Both": 3492
+  },
+  "upstreamFieldPresence": {
+    "title": 6214,
+    "detail": 5203,
+    "objective": 4915,
+    "progress": 4060,
+    "complete": 5232
+  },
+  "myanmarOverlapByUpstreamFactionTable": {
+    "Alliance": 362,
+    "Horde": 164,
+    "Both": 138
+  },
+  "upstreamDuplicateIDsAcrossFactionTables": [],
+  "upstreamChangesSince0205": {
+    "addedQuestIDs": [],
+    "removedQuestIDs": [],
+    "changedQuestRecords": [
+      {
+        "id": 181,
+        "fields": [
+          "en"
+        ]
+      },
+      {
+        "id": 94374,
+        "fields": [
+          "complete"
+        ]
+      }
+    ]
+  },
+  "existingHeldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    },
+    {
+      "id": 745,
+      "field": "objective",
+      "reason": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    },
+    {
+      "id": 98387,
+      "field": "detail",
+      "reason": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+    },
+    {
+      "id": 98387,
+      "field": "objective",
+      "reason": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+    }
+  ],
+  "absentEnglishReferenceFields": 175,
+  "sourceCaveatQuestIDs": [
+    77619,
+    98021,
+    98387,
+    98407,
+    95213,
+    257,
+    258,
+    3110,
+    97977,
+    1003,
+    4723,
+    6342,
+    3118,
+    4641,
+    787,
+    97223,
+    99051,
+    99052,
+    842,
+    905,
+    890,
+    3065,
+    3083,
+    3084,
+    3086,
+    745,
+    99108,
+    98435
+  ],
+  "nativeReview": "pending; no native approval claimed",
+  "liveVerification": "pending; no release-client acceptance or controller approval claimed",
+  "knownUnintegratedSourceStates": [
+    {
+      "id": 97977,
+      "field": "progress",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    },
+    {
+      "id": 97977,
+      "field": "complete",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    },
+    {
+      "id": 99051,
+      "field": "progress",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    },
+    {
+      "id": 99051,
+      "field": "complete",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    },
+    {
+      "id": 99052,
+      "field": "progress",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    },
+    {
+      "id": 99052,
+      "field": "complete",
+      "runtime": "native English fallback",
+      "reason": "New source state needs separate source/version review and live confirmation."
+    }
+  ],
+  "knownOnwardGaps": [
+    {
+      "id": 95495,
+      "en": "The Hermit Tanner",
+      "category": "The Barrens",
+      "level": 18,
+      "minimumLevel": 14,
+      "metadataSource": "https://wowforever.wclbox.com/en/renwu/the-barrens",
+      "source": "https://www.wowhead.com/forever/quest=95495/the-hermit-tanner",
+      "priorIds": [
+        95494,
+        95507
+      ],
+      "chainEvidence": "Wowhead quest95621 series shows two starting quests converging into95495 then95621; acceptance/prerequisite semantics require live check.",
+      "characterClass": null,
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2625",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 95621,
+      "en": "Trouble in the Valley",
+      "category": "The Barrens",
+      "level": 18,
+      "minimumLevel": 14,
+      "metadataSource": "https://wowforever.wclbox.com/en/renwu/the-barrens",
+      "source": "https://www.wowhead.com/forever/quest=95621/trouble-in-the-valley",
+      "priorIds": [
+        95495
+      ],
+      "chainEvidence": "Wowhead quest95621 series",
+      "characterClass": null,
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2628",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 95508,
+      "en": "Unwelcome Guests",
+      "category": "The Barrens",
+      "level": 18,
+      "minimumLevel": 14,
+      "metadataSource": "https://wowforever.wclbox.com/en/renwu/the-barrens",
+      "source": "https://www.wowhead.com/forever/quest=95508/unwelcome-guests",
+      "priorIds": [
+        95621
+      ],
+      "chainEvidence": "Wowhead quest95508 player comments corroborate continuation after investigating marines; weaker than quest-series metadata.",
+      "characterClass": null,
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2627",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 98340,
+      "en": "The Great Cat Spirit",
+      "category": "Druid",
+      "level": 20,
+      "minimumLevel": 20,
+      "metadataSource": "https://wowforever.wclbox.com/en/maoxing",
+      "source": "https://www.wowhead.com/forever/quest=98340/the-great-cat-spirit",
+      "priorIds": [],
+      "chainEvidence": "Wowhead quest98340 series",
+      "characterClass": "Druid",
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2737",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 98405,
+      "en": "The Great Cat Spirit",
+      "category": "Druid",
+      "level": 20,
+      "minimumLevel": 20,
+      "metadataSource": "https://wowforever.wclbox.com/en/maoxing",
+      "source": "https://www.wowhead.com/forever/quest=98405/the-great-cat-spirit",
+      "priorIds": [
+        98340
+      ],
+      "chainEvidence": "Wowhead quest98340 series",
+      "characterClass": "Druid",
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2741",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 98342,
+      "en": "The Great Cat Spirit",
+      "category": "Druid",
+      "level": 20,
+      "minimumLevel": 20,
+      "metadataSource": "https://wowforever.wclbox.com/en/maoxing",
+      "source": "https://www.wowhead.com/forever/quest=98342/the-great-cat-spirit",
+      "priorIds": [
+        98405
+      ],
+      "chainEvidence": "Wowhead quest98340 series",
+      "characterClass": "Druid",
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2738",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 98739,
+      "en": "Blessings of the Great Cat Spirit",
+      "category": "Druid",
+      "level": 20,
+      "minimumLevel": 20,
+      "metadataSource": "https://wowforever.wclbox.com/en/maoxing",
+      "source": "https://www.wowhead.com/forever/quest=98739/blessings-of-the-great-cat-spirit",
+      "priorIds": [
+        98342
+      ],
+      "chainEvidence": "Wowhead quest98340 series",
+      "characterClass": "Druid",
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2751",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    },
+    {
+      "id": 98362,
+      "en": "To Thunder Bluff",
+      "category": "Druid",
+      "level": 20,
+      "minimumLevel": 20,
+      "metadataSource": "https://wowforever.wclbox.com/en/maoxing",
+      "source": "https://www.wowhead.com/forever/quest=98362/to-thunder-bluff",
+      "priorIds": [
+        98739
+      ],
+      "chainEvidence": "Wowhead quest98340 series",
+      "characterClass": "Druid",
+      "raceScope": "Tauren-route relevance; exact race restriction not live-verified",
+      "uaSource": "https://github.com/sysrover/UA_Forever/blob/332e9b866f55cd56afb658cc7f9202dc08b15b88/entries/forever/cliend_db/quests.lua#L2739",
+      "uaFields": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "absent_in_ua",
+        "complete": "absent_in_ua"
+      },
+      "existingIn051": false,
+      "proposedDisposition": "visible_deferred_gap",
+      "liveForeverVerified": false,
+      "included": false
+    }
+  ],
+  "limitations": [
+    "UA unique IDs are a comparison corpus, not the total number of live game quests.",
+    "Region figures count packaged Myanmar records; no complete per-zone denominator was established.",
+    "A record with a title is not necessarily translated in every dialogue state.",
+    "UA presence is secondary evidence, not an English semantic source or proof that a state exists live.",
+    "Upstream changes compare English identifiers and the five quest text fields, not task-object translations."
+  ]
+}

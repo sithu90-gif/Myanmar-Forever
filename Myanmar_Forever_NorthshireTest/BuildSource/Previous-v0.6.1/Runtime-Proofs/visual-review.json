@@ -1,0 +1,22 @@
+{
+  "version": "0.6.1-beta-candidate",
+  "method": "Inspected all seven generated images from actual QuestBridge preview strings and the rebuilt runtime font. Offline canvas at twice default width; not a live WoW screenshot.",
+  "images": [
+    "4641-complete-Warrior-Orc.png",
+    "4641-detail-Shaman-Troll.png",
+    "33-complete-Warrior-Human.png",
+    "3741-complete-Mage-Gnome.png",
+    "1003-progress-Druid-Night Elf.png",
+    "747-progress-Hunter-Tauren.png",
+    "99080-detail-Shaman-Tauren.png"
+  ],
+  "observations": [
+    "No missing-glyph boxes, visible clipping or overlapping lines in these seven renders.",
+    "First-use class labels and repeated English references render distinctly.",
+    "Long offer and objective fields retain their separate annotations."
+  ],
+  "limits": [
+    "Not every catalog field visually inspected.",
+    "Actual game line wrapping, scaling, controller scrolling and native Myanmar quality remain pending."
+  ]
+}

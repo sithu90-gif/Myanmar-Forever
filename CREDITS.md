@@ -8,7 +8,13 @@ Myanmar Forever is a community-created Myanmar (Burmese) quest and story localiz
 
 Development and localization research used **UA_Forever** by **sysrover** as a technical reference and as secondary field / coverage evidence.
 
-The v0.1.0-beta source package contains build metadata that references UA_Forever quest catalog paths used during the localization workflow. English quest references remain the primary semantic source for Myanmar translation.
+The current v0.6.2 package preserves its earlier source audits against UA_Forever 0.20.5 at commit `332e9b866f55cd56afb658cc7f9202dc08b15b88`. The November 5 repository audit separately compares UA_Forever 0.23.0 at commit `e7087161130b9fe48efbe7b7b0a548d184af329d`.
+
+English quest references remain the primary semantic source for Myanmar translation. This audit does not import new Ukrainian translations into the Myanmar catalog.
+
+- [UA_Forever repository](https://github.com/sysrover/UA_Forever)
+- [UA_Forever 0.23.0](https://github.com/sysrover/UA_Forever/releases/tag/0.23.0)
+- [Original packaged attribution and English-reference notes](Myanmar_Forever_NorthshireTest/CREDITS.txt)
 
 UA_Forever is distributed under the GNU General Public License v3.0. We gratefully acknowledge its developers and contributors.
 

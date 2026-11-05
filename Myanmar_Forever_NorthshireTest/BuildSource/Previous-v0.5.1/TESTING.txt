@@ -1,0 +1,40 @@
+MyanmarForever v0.5.1-beta — live test checklist
+
+These steps have NOT been run in a live client. Fully restart after installation.
+This patch adds title validation and eight small refinements to older drafts.
+
+1. NORMAL QUEST: Open a supported quest at its NPC. Verify Myanmar appears on
+   the first opening without A+/A-, and the English window remains available.
+   Compare offer, objective, progress and completion as they become available.
+2. TITLE MATCHING: Compare the live English title with the catalog's title.
+   If the reader hides, inspect MMNorthshireCaptures for titleMatch and
+   translationFallback. Do not disable the guard just to force a draft to show.
+   Capture changed names for review. Quest 138/139/140 accept the documented
+   Captain Sanders'/Captain Sander's spelling variants.
+3. QUEST LOG: Select a supported quest, then use /mmforever with no ID. Close
+   and toggle the reader. It must keep the selected quest and matching title.
+   /mmforever 788 is an explicit preview; it deliberately bypasses live matching.
+4. OLDER CORRECTIONS: Review 58 (Darkshire), 91752 (Northshire Abbey), and the
+   English item/title labels in 71, 130, 160, 178 and 230. Quest 3100 completion
+   should say Warrior regardless of the class used for a catalog preview.
+5. REFERENCE DIFFERENCES: On quest 258, record the live required boar count.
+   Packaged English-backed text says 5; UA says 6. Also compare 56 progress,
+   1002 progress and the 101 in 96626's title against the current client.
+6. HELD TEXT: 98021 completion, 95213 completion, 3118 progress, 842 completion
+   and 3083 progress must keep native English and record captures. Gather the
+   relevant race/gender/player-name variants before releasing those fields.
+7. EARLIER CONTENT: Spot-check Human, Dwarf/Gnome and Night Elf characters,
+   including the Northshire book chain 91741, 92124, 91743, 91745, 91752, 91758,
+   91772. Existing source availability does not certify current quest availability.
+8. ORC/TROLL: Check available quests 788, 789, 97279, 826, 784, 871 and the
+   character's class introduction. Confirm race/name substitutions in 6394.
+9. READER: Scroll a long quest, resize narrow/wide and change text size. Check
+   clipping and stacked Myanmar marks. Test all six optional bindings, including
+   closing during a dialogue transition and toggling. Repeat on a controller
+   only if your setup supports binding its buttons.
+10. PERSISTENCE: Move the reader, adjust font size, /reload and reopen a quest.
+    Verify settings and old captures remain. Unlisted quests keep native text.
+
+Log quest ID, stage, live English and Myanmar screenshots, client build, class,
+race and input setup. Save captures with /reload or logout before copying them.
+Player names in captures are substitutions, not necessarily literal source text.

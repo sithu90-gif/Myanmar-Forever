@@ -1,0 +1,51 @@
+MyanmarForever 0.6.2-beta-candidate
+Short first-introduction meanings • 11 October 2026
+
+ပြင်ထားတာ
+Horde၊ Warrior လို အရေးပါတဲ့ ဝေါဟာရတွေကို စတွေ့တဲ့အခါ
+အသံထွက်နဲ့ အဓိပ္ပာယ်တိုတို တစ်ခါပဲ ပြပေးပါတယ်။
+နောက်တစ်ခါတွေ့ရင် အဓိပ္ပာယ်ကို ထပ်မရှင်းတော့ပါဘူး။
+အသံထွက်ပြတဲ့ မူလစည်းမျဉ်းကတော့ ဆက်ရှိပါတယ်။
+
+Examples on the first live appearance for a character:
+Horde (ဟော်ဒ် — မျိုးနွယ်စုပေါင်းအင်အားစု)
+Warrior (ဝေါရီယာ — အနီးကပ်တိုက်ခိုက်တဲ့ စစ်သည်)
+
+What “once” means
+- One short meaning per term per character. Other characters keep their own history.
+- The first shown quest section keeps its explanation while redrawing, resizing,
+  toggling the same section, or switching the debug language back to Myanmar.
+- Later quest sections use the regular pronunciation-only annotation. Seeing Horde
+  in 4641's offer therefore means its completion normally does not explain it again.
+- Pronunciation remains once per displayed field, independently of learning meanings.
+- Explicit catalog previews show the first-introduction wording for review and never
+  consume the character's live introduction history.
+- A held or absent translation, a title mismatch, a failed font render, and English
+  debug text do not count as a shown Myanmar introduction.
+- History is saved with that character on normal logout/reload. The window reset
+  command resets window geometry only; it does not erase term history.
+
+Scope
+45 curated faction, class, race, rank and game-concept terms. Static and dynamic
+class/race labels share the same rule. Meanings stay short and do not add quest
+instructions, recommendations, or a lore paragraph. Ordinary NPC/place names are
+not given blanket explanations. Exact source-context exclusions prevent a creature
+called a Warrior or Mage from being mislabeled as the player's class.
+
+Install
+Close World of Warcraft. Replace the existing Myanmar_Forever_NorthshireTest folder
+with the folder from this ZIP in Interface/AddOns, preserving the exact folder name.
+Restart the game so the matching font/catalog pair is loaded. Do not mix files from
+0.6.1 and 0.6.2. Earlier candidate ZIPs remain separate and unchanged.
+
+Content preserved
+664 quest IDs, 3,134 enabled fields, 1,821 dialogue states, 11 held fields and the
+24 existing source-caveat records. No quest prose or source holds were rewritten.
+The reader's appearance, layout, bindings and controls are unchanged.
+
+Verification boundary
+Python and Lua 5.1 offline checks verify source preservation, actual meaning text,
+font/catalog coverage and introduction lifecycle. Attached proof images render the
+actual built font and runtime output offline. They are not in-game screenshots.
+Native Myanmar proofreading, current Forever client and controller checks remain
+pending. This is a test candidate, not a published release.

@@ -1,0 +1,25 @@
+MyanmarForever v0.5.1-beta — 2026-10-07
+Project: https://github.com/sithu90-gif/Myanmar-Forever
+Code: GNU GPL version 3; see LICENSE.txt.
+Fonts: SIL OFL 1.1; see fonts/OFL.txt and fonts/NOTICE.txt.
+World of Warcraft, quest names and setting belong to their respective owners.
+This is an unofficial community translation addon.
+
+Based on MyanmarForever v0.5.0-beta. This patch audits all 610 quest records,
+refines eight older fields, and adds live English quest-title validation.
+QuestBridge.lua and build/test scripts were modified on 2026-10-07.
+Renderer.lua, Controls.lua and Bindings.xml are unchanged from v0.5.0-beta.
+Generated catalog and matching derived font were rebuilt.
+Translations are AI-assisted drafts; native Myanmar review remains pending.
+
+UA_Forever 0.18.5-beta was reviewed for quest IDs, English titles, field coverage,
+numeric differences and title-validation behavior. Its title-validation approach
+informed the new guard; this is not a wholesale port of its UI translation system.
+UA_Forever: https://github.com/sysrover/UA_Forever (GNU GPL version 3).
+UA_Forever credits ClassicUA: https://github.com/greenya/ClassicUA.
+
+English evidence includes the project's existing user-provided live captures and
+public 60.tools, Wowhead and ForeverChanges quest references. Public database
+text is not represented as a new live capture. Exact URLs and hashes are in
+BuildSource/source-audit-v0.5.1.json. Historical attributions are preserved under
+BuildSource/Previous-v0.3.0, Previous-v0.4.0 and Previous-v0.5.0.

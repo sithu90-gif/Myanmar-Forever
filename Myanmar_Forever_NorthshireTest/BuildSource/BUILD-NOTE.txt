@@ -1,0 +1,19 @@
+MyanmarForever 0.6.2 — presentation-only term correction
+
+From BuildSource: python build.py; python test.py
+Use the pinned dependencies in requirements.txt.
+
+Edit term-glossary-v0.6.2.json to review definitions/aliases/exclusions. Rebuild
+the font and catalog together. drafts.json and 0.6.1 English/source review files
+are preserved byte-for-byte; baseline-v0.6.1.json pins them. The current tests
+combine original catalog/state tests with term_tests.lua for live introduction
+lifecycle. Do not infer translation quality or live compatibility from mocks.
+
+Runtime load order: catalog, TermIntroductions.lua, Renderer.lua, QuestBridge.lua,
+Controls.lua. The renderer change is a successful-visible-text callback only;
+no style/layout/control changes. Per-character MMNorthshireTermSeen persists
+introduced term keys. Global settings/captures retain their original scope.
+
+Previous-v0.6.1 contains original runtime/build/test/docs snapshots. Existing
+source/semantic reports are carried forward from 0.6.1; this patch does not claim
+a new full-quest semantic rewrite. Native/live/controller review remains pending.

@@ -1,4 +1,23 @@
-# v0.1.0-beta source note
+# v0.6.2-beta-candidate — current public build
+
+Published on [CurseForge](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929) on November 5, 2026. The GitHub source tree now matches that package.
+
+- 664 quest IDs, 3,134 translated fields, and 1,821 offer/progress/completion states.
+- Includes the v0.6.1 source-based translation corrections and the earlier Tauren route expansion.
+- Adds 45 concise first-introduction meanings while preserving English identifiers and pronunciation rules.
+- Remembers introduced meanings per character. Previews, failed renders, hidden displays, and superseded events do not consume introduction history.
+- Preserves quest Unicode drafts and source audits from v0.6.1; v0.6.2 itself is a presentation correction rather than a quest expansion.
+- Eleven fields retain the native fallback while source/version questions remain unresolved.
+
+Native Myanmar proofreading and current live-client/controller checks remain pending. See the [packaged release notes](Myanmar_Forever_NorthshireTest/RELEASE_NOTES.md) for the historical v0.6.1 correction details.
+
+## November 5 GitHub sync and coverage audit
+
+This repository update imports the already published v0.6.2 source and audits it against UA_Forever 0.23.0. It does not change the addon runtime, add unreviewed translations, or publish another addon version. See [coverage and priorities](docs/COVERAGE.md).
+
+---
+
+# v0.1.0-beta source note (historical)
 
 This repository snapshot corresponds to the first public CurseForge package named `MyanmarForever_v0.1.0-beta.zip`.
 

@@ -1,0 +1,75 @@
+{
+  "version": "0.6.0-beta-candidate",
+  "quests": 664,
+  "dialogueStates": 1822,
+  "absentOrHeldStates": 170,
+  "translatedFields": 3136,
+  "priorQuests": 610,
+  "newQuests": 54,
+  "unchangedQuestRecords": 610,
+  "changedPriorQuestRecords": 0,
+  "heldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    },
+    {
+      "id": 745,
+      "field": "objective",
+      "reason": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    }
+  ],
+  "auditedDate": "2026-10-11",
+  "newEnabledFieldsChecked": 252,
+  "enabledFieldsChecked": 3136,
+  "absentReferenceFields": 175,
+  "newEnglishRecords": 54,
+  "newUaRecords": 54,
+  "uaRelease": "0.20.5",
+  "uaCommit": "332e9b866f55cd56afb658cc7f9202dc08b15b88",
+  "newUaExactTitleMatches": 54,
+  "newUaNumericDigitDifferences": [],
+  "priorSourceAudit": "v0.5.1 source audit preserved; no fresh external re-audit of the prior 610 in this build",
+  "reviewScope": "54-record English/title/field/numeric/token source checks. Independent assisted meaning screen, not native proofread.",
+  "sourceLimitations": "41 Classic-era-route/reference records plus 13 Forever-added records. Public reference pages are not live captures. Does not certify all Tauren 1–20 quests.",
+  "humanLanguageReview": "pending",
+  "inGame": "not tested",
+  "controllerHardware": "not tested",
+  "publication": "not published; user verification required"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "0.5.1-beta",
+  "result": "PASS",
+  "quests": 610,
+  "dialogueStates": 1676,
+  "absentOrHeldStates": 154,
+  "priorQuestRecordsUnchanged": 602,
+  "questRecordsWithReviewedEdits": 8,
+  "translationFieldsChanged": 8,
+  "newQuestRecords": 0,
+  "sourceFieldsCheckedForNumericDigitsAndIdentityTokens": 2884,
+  "runtimeFieldsDecodedAndGlyphChecked": 2884,
+  "heldFieldsChecked": 5,
+  "documentedTitleAliasIDs": [
+    138,
+    139,
+    140
+  ],
+  "priorRuntimeFilesUnchanged": [
+    "Renderer.lua",
+    "Controls.lua",
+    "Bindings.xml"
+  ],
+  "bindingActions": 6,
+  "LuaVersion": "Lua 5.1",
+  "runtimeTests": [
+    "PASS: Lua 5.1; 610 quests / 1676 available and 154 absent or held dialogue states; previews and real-event routing; recovered identities including race/class/name; font failure; saved UI; captures; stale/unknown/secret guards; unverified elf branch and placeholder held.",
+    "PASS: automatic capture of unknown quests in all 3 states, invalid/secret IDs rejected; new live quest identity markers and absent states.",
+    "PASS: v0.3.0 route additions, class intros, source hold, exclusions and identity suffixes.",
+    "PASS: Night Elf offers and held-name fallback; six shipped XML bindings; scroll clamps; font-size limits; hidden-input guards; close cancellation and toggle; /mmforever alias.",
+    "PASS: Orc/Troll race, name and class substitutions; 11 class introductions; held gender/name fields captured with native fallback; absent custom progress and completion-only/repeatable turn-ins.",
+    "PASS: live NPC and quest-log title validation; wrong/missing/secret/error title fallback with captures; explicit previews; documented aliases; case/format normalization; punctuation protection; toggle revalidation."
+  ],
+  "inGame": "not tested",
+  "controllerHardware": "not tested",
+  "nativeMyanmarReview": "pending"
+}
