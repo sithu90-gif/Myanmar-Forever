@@ -1,3 +1,22 @@
+# MyanmarForever 1.0.0
+
+- Adds the Skyborne starting experience on Zephras Isle, including the shared story, both faction branches, early class quests, beginner professions and the departure handoffs.
+- Includes the Deathknell/Brill starter translations from the previous candidate. All nine playable races now have starter-route translation coverage.
+- Fixes the missing Hunter pet-training, Camping, fishing-bait and delivery quests captured during play, plus the missing progress reply for Delicate Instruments.
+- Keeps English names recognizable with Myanmar pronunciation, and adds a short Skyborne race introduction alongside the existing beginner term meanings.
+- Preserves automatic local quest capture when opening NPC offer, progress and completion dialogue. Use `/reload` or log out to save new captures to disk.
+- Uses version **1.0.0**, with no beta or candidate suffix. Rebuilds the bundled font and quest catalog together.
+
+Fully exit WoW and replace the complete `Myanmar_Forever_NorthshireTest` folder in `Interface/AddOns`. Keep that folder name and your existing SavedVariables. Commands: `/mmforever` and `/mmnorth`.
+
+Coverage follows available English evidence; unavailable or unresolved quest states keep the original-language fallback. Version 1 does not mean every quest in WoW Forever is translated. Full native Myanmar proofreading and current live Skyborne/controller testing remain pending.
+
+Source, field-level evidence and validation: https://github.com/sithu90-gif/Myanmar-Forever
+
+Full coverage: **852 quest IDs, 3,983 fields and 2,294 available dialogue states**. All 16 Lua regression groups and font/source checks pass. [Detailed coverage](docs/V1-COVERAGE.md).
+
+---
+
 # v0.6.3-beta-candidate — Undead starter update
 
 Prepared November 5, 2026; candidate only, not published on CurseForge.

@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0",
+  "date": "2026-11-06",
+  "releaseType": "release",
+  "packs": [
+    "translations/undead-v0.6.3",
+    "translations/live-fixes-v1",
+    "translations/skyborne-a-v1",
+    "translations/skyborne-b-v1",
+    "translations/skyborne-c-v1"
+  ],
+  "starterCoverage": [
+    {"zone": "Northshire", "races": ["Human"]},
+    {"zone": "Coldridge Valley", "races": ["Dwarf", "Gnome"]},
+    {"zone": "Shadowglen", "races": ["Night Elf"]},
+    {"zone": "Valley of Trials", "races": ["Orc", "Troll"]},
+    {"zone": "Red Cloud Mesa", "races": ["Tauren"]},
+    {"zone": "Deathknell", "races": ["Undead"]},
+    {"zone": "Zephras Isle", "races": ["Skyborne"], "factions": ["Alliance", "Horde"]}
+  ],
+  "coverageMeaning": "All nine playable races have starter-route coverage; individual unavailable states and later-zone quests can remain untranslated.",
+  "expectedSkyborneQuestIDs": 151,
+  "expectedNewLiveCaptureQuestIDs": 13
+}

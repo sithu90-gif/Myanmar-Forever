@@ -1,3 +1,11 @@
+# Version 1.0.0 — November 6, 2026
+
+The latest GitHub release is **1.0.0**, with **852 quest IDs**, **3,983 translated fields**, and **2,294 available dialogue states**. It adds both Skyborne starter branches and fixes all missing states found in the saved capture snapshot. All nine playable races have starter-route coverage. [Current report](V1-COVERAGE.md) · [Version 1 download](../dist/MyanmarForever_v1.0.0.zip).
+
+The dated November 5 reports below describe the previous published baseline and candidate.
+
+---
+
 # Coverage audit — November 5, 2026
 
 Baseline: **MyanmarForever 0.6.2-beta-candidate**, [published package](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929).

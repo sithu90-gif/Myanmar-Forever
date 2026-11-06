@@ -1,131 +1,75 @@
 # Myanmar Forever
 
-Myanmar (Burmese) quest and story translation addon for **World of Warcraft: Forever**.
+Myanmar quest and story translations for **World of Warcraft: Forever**.
 
-Myanmar Forever adds a dedicated Myanmar translation window while keeping the original English quest interface available. The project focuses first on quest story, objectives, dialogue, important character names, ranks, and titles.
+## Version 1.0.0
 
-## Status
+[Download MyanmarForever 1.0.0](dist/MyanmarForever_v1.0.0.zip)
 
-**Early public beta.** Translation coverage is incomplete and will expand over time.
+This release adds both Skyborne starter branches on Zephras Isle, includes the Undead starter update, and fixes the missing quests captured during play. All **nine playable races** now have starter-route translation coverage. Coverage follows available English evidence; it does not mean every quest or every state is translated.
 
-## Current public release
+- [Version 1 changelog](releases/1.0.0-NOTES.md)
+- [Coverage, sources and known gaps](docs/V1-COVERAGE.md)
+- [Full Myanmar/English review](docs/V1-TRANSLATION-REVIEW.html)
+- [Build and validation results](docs/validation/v1.0.0-2026-11-06.json)
 
-**CurseForge release:** `v0.6.2-beta-candidate`, published November 5, 2026.
+Version **1.0.0** has no beta or candidate suffix. Full native Myanmar proofreading and current live Skyborne/controller verification remain pending; automated checks establish source integrity and runtime behavior, not native fluency.
 
-- [Download v0.6.2](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929)
-- [Current coverage and next translation priorities](docs/COVERAGE.md)
-- [Release notes](RELEASE_NOTES.md)
+## Starter routes
 
-The `Myanmar_Forever_NorthshireTest` source folder matches the published v0.6.2 package. It retains that installation folder name, reports the in-game title `MyanmarForever`, and supports `/mmforever` and `/mmnorth`. The old v0.1.0 ZIP is retained as a historical artifact; its internal `0.7.0` test identity does not describe the current build.
+| Area | Races |
+| --- | --- |
+| Northshire | Human |
+| Coldridge Valley | Dwarf, Gnome |
+| Shadowglen | Night Elf |
+| Valley of Trials | Orc, Troll |
+| Red Cloud Mesa | Tauren |
+| Deathknell | Undead |
+| Zephras Isle, both faction branches | Skyborne |
 
-Native Myanmar proofreading and current live-client/controller verification remain pending. Automated checks do not certify translation quality or live quest availability.
+Existing translations also cover parts of the follow-on zones. The version 1 update includes the supported Skyborne class introductions, beginner profession/camping quests, island departure handoffs and immediate capital introductions.
 
-## Coverage
+## Install
 
-### Development candidate: v0.6.3
+1. Fully exit WoW and back up your current addon and SavedVariables.
+2. Extract the ZIP and replace the complete `Myanmar_Forever_NorthshireTest` folder in the game's `Interface/AddOns` folder. Keep that folder name.
+3. Start WoW and enable **MyanmarForever**.
 
-The [Undead starter update](docs/UNDEAD-STARTER-REVIEW.md) adds 24 Deathknell/Brill quest records and 106 translated fields, including early class introductions. The combined candidate contains **688 quest IDs, 3,240 translated fields and 1,879 dialogue states**. The first two examples were approved in chat; full native proofreading and current live-client testing remain pending.
+Keep the rebuilt font and catalog together. Commands: `/mmforever` and `/mmnorth`. Existing settings, captures and per-character term history use the same SavedVariables names.
 
-[Download the v0.6.3 candidate ZIP](dist/MyanmarForever_v0.6.3-beta-candidate.zip). Fully exit WoW and replace the entire addon folder so the rebuilt font and catalog stay together.
+## Untranslated quest capture
 
-Read the [full Myanmar/English translation review](docs/UNDEAD-STARTER-TRANSLATIONS.html), edit [the translation pack](translations/undead-v0.6.3/pack.json), or reproduce the validated candidate with:
+The addon automatically records NPC quest offer, progress and completion text locally, including unknown quests and missing states. Use `/reload` or log out to save it to disk. With a dialogue open, `/mmforever capture` can also capture it manually.
 
-```powershell
-python tools/build_candidate.py --output ../outputs/candidate-0.6.3
-```
+Capture does not translate or upload quests automatically. SavedVariables can contain substituted player names; source evidence is sanitized before sharing or adding it to this repository.
 
-Use a new output directory. Install dependencies from `requirements-dev.txt` first. The command generates the runtime ZIP and its matching font/catalog together, preserving the published source folder. See [validation results](docs/validation/v0.6.3-undead-2026-11-05.json). v0.6.3 has not been published on CurseForge.
+## Features
 
-### Published v0.6.2
+- Dedicated Myanmar reader with the original English quest interface available
+- Adjustable text size, scrolling, movable/resizable window and optional key bindings
+- English identities retained with Myanmar pronunciation
+- 46 short beginner term meanings, including Skyborne, introduced once per character
+- Matching bundled font and catalog generated from editable Unicode drafts
+- Strict quest ID/title checks with English fallback and capture for unsupported states
 
-The packaged build contains **664 quest IDs**, **3,134 translated fields**, and **1,821 available offer/progress/completion states**. Coverage focuses on Human, Dwarf/Gnome, Night Elf, Orc/Troll, and Tauren routes. It is incomplete; a listed quest does not imply that every dialogue state is available.
+## Build from source
 
-The November 5 audit compares this build with [UA_Forever 0.23.0](https://github.com/sysrover/UA_Forever/releases/tag/0.23.0). Our 664 IDs are **10.69% of its 6,214 quest IDs**. This is a comparison-corpus percentage, not a measured percentage of all live game quests. The report includes all 5,550 upstream IDs missing from our catalog and separates deliberate source holds from missing evidence.
-
-## Current features
-
-- Myanmar quest and story translations for supported quests
-- Dedicated Myanmar translation window
-- Draggable and resizable window
-- Adjustable Myanmar text size
-- Bundled Myanmar-compatible shaped font
-- Original English names retained where useful
-- Myanmar explanation/pronunciation for selected names, ranks, and titles
-- English fallback when no Myanmar translation is available
-- 45 concise first-introduction term meanings, remembered per character; previews do not consume introduction history
-- Six optional key bindings and `/mmforever` / `/mmnorth` commands
-
-## Translation approach
-
-English quest references are treated as the primary semantic source. UA_Forever is used as a secondary technical / coverage reference. The project does not claim that UA_Forever's Ukrainian wording is the source of the Myanmar translation.
-
-## Installation
-
-For normal players, install **Myanmar Forever** from CurseForge.
-
-For manual installation of this release:
-
-1. Fully exit World of Warcraft and back up the current addon folder and SavedVariables.
-2. Replace the complete `Myanmar_Forever_NorthshireTest` folder inside the game's `Interface/AddOns` folder. Keep the exact folder name.
-3. Start the game.
-4. Enable **MyanmarForever** in the AddOns list.
-
-See `Myanmar_Forever_NorthshireTest/INSTALL.txt` for the release-specific notes and commands.
-
-Do not mix `Catalogs/Northshire.lua` and `fonts/NorthshireShaped.ttf` from different builds. A reload alone may retain a cached font. See the [term explanation guide](Myanmar_Forever_NorthshireTest/TERM-EXPLANATION-GUIDE.txt).
-
-## Feedback
-
-Please use GitHub Issues to report:
-
-- untranslated quests
-- incorrect or unnatural Myanmar wording
-- font/rendering problems
-- text clipping
-- UI problems
-- incorrect names, ranks, or titles
-
-A screenshot plus the English quest name or Quest ID is especially useful.
-
-## Source layout
-
-- `Myanmar_Forever_NorthshireTest/` — complete addon/source tree from the published v0.6.2 package, including historical build/review material
-- `Myanmar_Forever_NorthshireTest/Catalogs/` — generated runtime quest catalog
-- `Myanmar_Forever_NorthshireTest/BuildSource/` — editable/reference build data and validation material
-- `Myanmar_Forever_NorthshireTest/fonts/` — bundled font plus its license/notice
-- `LICENSE` — project GPLv3 license
-- `CREDITS.md` — acknowledgements and attribution
-- `docs/COVERAGE.md` — current inventory, limitations, and priorities
-- `docs/coverage/` — audit JSON and complete missing-ID CSV
-- `tools/audit_coverage.py` — reproducible comparison against supplied UA catalogs
-
-## Development and validation
-
-Use Python 3.13 and the pinned dependencies:
+Install the pinned dependencies in `requirements-dev.txt`, then run:
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\python -m pip install -r requirements-dev.txt
-.venv\Scripts\python -m unittest discover -s tools -p "test_*.py" -v
-.venv\Scripts\python Myanmar_Forever_NorthshireTest/BuildSource/test.py
+python tools/build_release.py --output ../outputs/MyanmarForever-1.0.0
 ```
 
-The existing addon test runner writes `BuildSource/test-results.json`. The committed copy is the original released report; fresh execution evidence is recorded separately under `docs/validation/`.
+Choose a new output directory. The command composes the versioned translation packs, checks source/review hashes, rebuilds the font and catalog, and runs Lua state-routing, capture and identity tests. It creates the install ZIP and a validation report.
 
-Obtain the two upstream quest catalogs at the commits pinned in [the audit JSON](docs/coverage/2026-11-05.json), then reproduce the comparison:
+`releases/1.0.0.json` lists the exact packs. The directory `Myanmar_Forever_NorthshireTest/` is the byte-preserved **0.6.2 release snapshot**, used as the build base; build version 1 or use its ZIP rather than copying that old folder directly. New source, English evidence and per-field reviews are under `translations/`.
 
-```powershell
-.venv\Scripts\python tools/audit_coverage.py --upstream path/to/0.23.0/quests.lua --previous path/to/0.20.5/quests.lua
-```
+The [earlier CurseForge 0.6.2 package](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929) and [0.6.3 candidate notes](docs/UNDEAD-STARTER-REVIEW.md) remain available as history. The 0.1 ZIP is also historical; its internal test version does not describe version 1.
 
-Edit Unicode prose in `BuildSource/drafts.json` and first-introduction meanings in `BuildSource/term-glossary-v0.6.2.json`. Build the font and catalog together with `BuildSource/build.py`. Historical notes inside the source tree describe their own build dates.
+## Translation and feedback
 
-## License
+English quest text controls meaning. UA_Forever is a secondary quest identity/state reference; its Ukrainian wording is not the source of Myanmar prose. Missing English states and unresolved branches remain explicit.
 
-Myanmar Forever source is distributed under the **GNU General Public License v3.0**. See `LICENSE`.
+Please report quest ID/title, the dialogue state and the original English when requesting a correction. Review captures for personal information before sharing. Screenshots help with font and layout issues.
 
-The bundled Myanmar font is separately licensed under the **SIL Open Font License 1.1**. See `Myanmar_Forever_NorthshireTest/fonts/OFL.txt` and `NOTICE.txt`.
-
-## Disclaimer
-
-Myanmar Forever is an unofficial community-created addon. It is not affiliated with, endorsed by, or sponsored by Blizzard Entertainment. World of Warcraft, Warcraft, and related names and trademarks belong to their respective owners.
+The project uses GPLv3; see `LICENSE` and the packaged credits and font licences.
