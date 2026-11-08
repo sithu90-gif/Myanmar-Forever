@@ -1,4 +1,4 @@
-"""Compose source-reviewed translation packs into MyanmarForever 1.0.0.
+"""Compose source-reviewed translation packs into a manifest-selected release.
 
 The checked-in 0.6.2 folder remains a released snapshot. Release composition is
 explicit: additions cannot replace an existing quest, and field overrides must
@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 from collections import Counter
+from datetime import date
 import hashlib
 import json
 from pathlib import Path
@@ -22,7 +23,24 @@ ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/'Myanmar_Forever_NorthshireTest'
 FIELDS={'title','detail','objective','progress','complete'}
 TOKENS=re.compile(r'<(?:name|class|race|priest/priestess)>',re.I)
-VERSION='1.0.0'
+
+def release_version(manifest):
+    version=manifest['version']
+    if not isinstance(version,str) or not re.fullmatch(r'(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)',version):
+        raise ValueError('Manifest version must be a stable numeric major.minor.patch release')
+    release_date=manifest['date']
+    if not isinstance(release_date,str) or date.fromisoformat(release_date).isoformat()!=release_date:
+        raise ValueError('Manifest date must use YYYY-MM-DD')
+    return version
+
+
+def release_document(relative):
+    path=(ROOT/relative).resolve()
+    if not path.is_relative_to((ROOT/'releases').resolve()):
+        raise ValueError('Release documents must be inside releases/')
+    if not path.is_file():
+        raise FileNotFoundError(f'Missing release document: {path}')
+    return path
 
 
 def read(path):
@@ -113,6 +131,17 @@ def compose(manifest):
     if manifest.get('expectedNewLiveCaptureQuestIDs'):
         captured=next(r for r in pack_reports if r['path']=='translations/live-fixes-v1')
         assert captured['questAdditions']==manifest['expectedNewLiveCaptureQuestIDs']
+    if manifest.get('expectedUndeadTirisfalQuestIDs'):
+        directory=ROOT/'translations/undead-tirisfal-v1.1.0'
+        inventory=read(directory/'inventory.json')
+        expected=set(map(str,inventory['includedQuestIDs']))
+        pack=read(directory/'pack.json')
+        assert len(expected)==inventory['includedCount']==manifest['expectedUndeadTirisfalQuestIDs']
+        assert expected==set(pack['drafts']),'Tirisfal inventory differs from the translated pack'
+        sources=read(directory/'english-sources.json')
+        counts={field:sum(bool(sources[qid]['english'].get(field)) for qid in expected) for field in FIELDS}
+        assert counts==inventory['englishFieldCounts'],'Tirisfal English inventory is stale'
+        assert sum(counts.values())==inventory['englishFieldsTotal']
     return drafts,rows,baseline,overrides,pack_reports,all_holds
 
 
@@ -136,18 +165,19 @@ def patch_runtime(addon):
     renderer.write_text(renderer.read_text(encoding='utf8').replace('Myanmar font loaded | Draft quest catalog','Myanmar font loaded | Quest catalog'),encoding='utf8')
 
 
-def add_skyborne_identity(build_source):
+def add_skyborne_identity(build_source,version):
     identities=read(build_source/'identity-glossary.json')
     identities['race']['Skyborne']={'en':'Skyborne','pronunciation':'စကိုင်းဘောန်း'}
     write(build_source/'identity-glossary.json',identities)
     terms=read(build_source/'term-glossary-v0.6.2.json')
     terms['terms'].append({'key':'race.skyborne','en':'Skyborne','pronunciation':'စကိုင်းဘောန်း','meaning':'ကောင်းကင်ဒေသမှ အယ်လ်ဖ်မျိုးနွယ်','category':'race','aliases':[]})
-    terms['version']='1.0.0'
+    terms['version']=version
     terms['scope']='46 short introduction meanings, including the Skyborne race; original term records preserved.'
     write(build_source/'term-glossary-v0.6.2.json',terms)
 
 
 def verify(addon,drafts,baseline,overrides,manifest,pack_reports,holds):
+    version=release_version(manifest)
     from fontTools.ttLib import TTFont
     from lupa.lua51 import LuaRuntime
     assert read(addon/'BuildSource/drafts.json')==drafts
@@ -181,44 +211,56 @@ def verify(addon,drafts,baseline,overrides,manifest,pack_reports,holds):
     for _,record in a.termGlossary.items():
         for field in ('short','intro'):assert all(ord(c) in cmap for c in record[field])
     assert count==total_fields==v['translatedFields']
-    assert v['version']==VERSION and v['runtimeQuestCount']==len(drafts) and v['runtimeDialogueStates']==states
+    assert v['version']==version and v['runtimeQuestCount']==len(drafts) and v['runtimeDialogueStates']==states
+    assert read(addon/'BuildSource/release-spec.json')['version']==version
+    assert read(addon/'BuildSource/term-glossary-v0.6.2.json')['version']==version
     assert v['dynamicIdentityLabels']==18 and v['firstIntroductionTerms']==46
     for file,key in [('fonts/NorthshireShaped.ttf','fontSHA256'),('Catalogs/Northshire.lua','catalogSHA256')]:assert sha(addon/file)==v[key]
     for name in ('Controls.lua','Bindings.xml','TermIntroductions.lua'):assert sha(addon/name)==sha(BASE/name)
     for toc in addon.glob('*.toc'):
-        text=toc.read_text(encoding='utf8');assert '## Version: 1.0.0' in text and 'beta' not in text.lower() and 'candidate' not in text.lower()
+        text=toc.read_text(encoding='utf8');assert f'## Version: {version}' in text.splitlines() and '## Title: MyanmarForever' in text.splitlines() and 'beta' not in text.lower() and 'candidate' not in text.lower()
     baseline_holds=read(BASE/'BuildSource/release-spec.json')['heldFields']
-    return {'version':VERSION,'result':'PASS','date':manifest['date'],'questIDs':len(drafts),'translatedFields':count,'dialogueStates':states,'absentOrHeldDialogueStates':3*len(drafts)-states,'preservedBaselineQuestRecords':len(baseline),'baselineFieldOverrides':[{'id':int(k[0]),'field':k[1]} for k in overrides],'packs':pack_reports,'heldFields':baseline_holds+holds,'addedHeldFields':holds,'fontSHA256':v['fontSHA256'],'catalogSHA256':v['catalogSHA256'],'dynamicIdentityLabels':18,'firstIntroductionTerms':46,'luaRegressionGroups':[s.replace('17 preshaped','18 preshaped').replace('all 17 class/race','all 18 class/race') for s in logs if s.startswith('PASS:')],'capture':'Automatic local capture preserved; missing live-captured states checked','nativeMyanmarProofreading':'pending','currentLiveSkyborneClient':'not tested','controllerHardware':'not tested'}
+    report={'version':version,'result':'PASS','date':manifest['date'],'questIDs':len(drafts),'translatedFields':count,'dialogueStates':states,'absentOrHeldDialogueStates':3*len(drafts)-states,'preservedBaselineQuestRecords':len(baseline),'baselineFieldOverrides':[{'id':int(k[0]),'field':k[1]} for k in overrides],'packs':pack_reports,'heldFields':baseline_holds+holds,'addedHeldFields':holds,'fontSHA256':v['fontSHA256'],'catalogSHA256':v['catalogSHA256'],'dynamicIdentityLabels':18,'firstIntroductionTerms':46,'luaRegressionGroups':[s.replace('17 preshaped','18 preshaped').replace('all 17 class/race','all 18 class/race') for s in logs if s.startswith('PASS:')],'capture':'Automatic local capture preserved; missing live-captured states checked','nativeMyanmarProofreading':'pending','currentLiveSkyborneClient':'not tested','controllerHardware':'not tested'}
+    if 'translations/undead-tirisfal-v1.1.0' in manifest['packs']:
+        report['currentLiveUndeadClient']='not tested'
+    return report
 
 
 def build(output,manifest_path):
     manifest=read(manifest_path)
-    assert manifest['version']==VERSION
+    version=release_version(manifest)
+    notes=release_document(f'releases/{version}-NOTES.md')
+    terms=release_document(manifest.get('termsGuide',f'releases/{version}-TERMS.txt'))
     drafts,rows,baseline,overrides,pack_reports,holds=compose(manifest)
     output=output.resolve()
     assert not output.is_relative_to(BASE.resolve()),'Output cannot be inside the preserved release snapshot'
+    assert not output.is_relative_to((ROOT/'translations').resolve()),'Output cannot be inside preserved translation sources'
     if output.exists():raise FileExistsError(f'Choose a new output directory: {output}')
     output.mkdir(parents=True)
     addon=output/BASE.name
     shutil.copytree(BASE,addon,ignore=shutil.ignore_patterns('__pycache__','*.pyc'))
     source=addon/'BuildSource'
     write(source/'drafts.json',drafts);write(source/'worklist.json',rows)
-    add_skyborne_identity(source)
+    add_skyborne_identity(source,version)
+    spec=read(source/'release-spec.json')
+    spec['version']=version
+    write(source/'release-spec.json',spec)
     builder=source/'build.py'
     text=builder.read_text(encoding='utf8');old="VERSION='0.6.2-beta-candidate'";assert text.count(old)==1
-    builder.write_text(text.replace(old,"VERSION='1.0.0'"),encoding='utf8')
+    builder.write_text(text.replace(old,f'VERSION={version!r}'),encoding='utf8')
     subprocess.run([sys.executable,'-X','utf8',str(builder)],check=True)
     patch_runtime(addon)
     for toc in addon.glob('*.toc'):
-        text=toc.read_text(encoding='utf8').replace('## Version: 0.6.2-beta-candidate','## Version: 1.0.0').replace('Myanmar quest drafts','Myanmar quest translations')
+        text=toc.read_text(encoding='utf8');old='## Version: 0.6.2-beta-candidate';assert text.splitlines().count(old)==1
+        text=text.replace(old,f'## Version: {version}').replace('Myanmar quest drafts','Myanmar quest translations')
         toc.write_text(text,encoding='utf8')
     report=verify(addon,drafts,baseline,overrides,manifest,pack_reports,holds)
-    (addon/'RELEASE_NOTES.md').write_text((ROOT/'releases/1.0.0-NOTES.md').read_text(encoding='utf8'),encoding='utf8')
-    (addon/'TERM-EXPLANATION-GUIDE.txt').write_text((ROOT/'releases/1.0.0-TERMS.txt').read_text(encoding='utf8'),encoding='utf8')
-    (addon/'INSTALL.txt').write_text('MyanmarForever 1.0.0\n\nFully exit WoW. Back up your current addon and SavedVariables, then replace the complete Myanmar_Forever_NorthshireTest folder in Interface/AddOns. Keep the folder name and do not mix font/catalog versions. Enable MyanmarForever. Commands: /mmforever, /mmnorth.\n\nAutomatic local quest capture is enabled. Open NPC offer/progress/completion dialogue; /reload or logout saves captures to disk. No automatic network upload or live machine translation occurs.\n\nCoverage: '+str(report['questIDs'])+' quest IDs; '+str(report['translatedFields'])+' translated fields. Version 1 is a release number, not a claim that every quest or live branch is complete. Native proofreading and current live/controller review remain pending.\n',encoding='utf8')
+    (addon/'RELEASE_NOTES.md').write_text(notes.read_text(encoding='utf8'),encoding='utf8')
+    (addon/'TERM-EXPLANATION-GUIDE.txt').write_text(terms.read_text(encoding='utf8'),encoding='utf8')
+    (addon/'INSTALL.txt').write_text(f'MyanmarForever {version}\n\nFully exit WoW. Back up your current addon and SavedVariables, then replace the complete Myanmar_Forever_NorthshireTest folder in Interface/AddOns. Keep the folder name and do not mix font/catalog versions. Enable MyanmarForever. Commands: /mmforever, /mmnorth.\n\nAutomatic local quest capture is enabled. Open NPC offer/progress/completion dialogue; /reload or logout saves captures to disk. No automatic network upload or live machine translation occurs.\n\nCoverage: '+str(report['questIDs'])+' quest IDs; '+str(report['translatedFields'])+' translated fields. Version 1 is a release number, not a claim that every quest or live branch is complete. Native proofreading and current live/controller review remain pending.\n',encoding='utf8')
     credits=addon/'CREDITS.txt'
-    credits.write_text(credits.read_text(encoding='utf8')+'\n\nMyanmarForever 1.0.0 starter update, 2026-11-06. English source evidence and assisted Myanmar review are maintained at https://github.com/sithu90-gif/Myanmar-Forever/tree/main/translations . UA_Forever is secondary identity/state evidence. Sanitized live captures were compared with public English; private SavedVariables are not distributed.\n',encoding='utf8')
-    archive=output/'MyanmarForever_v1.0.0.zip'
+    credits.write_text(credits.read_text(encoding='utf8')+f'\n\nMyanmarForever {version} starter update, {manifest["date"]}. English source evidence and assisted Myanmar review are maintained at https://github.com/sithu90-gif/Myanmar-Forever/tree/main/translations . UA_Forever is secondary identity/state evidence. Sanitized live captures were compared with public English; private SavedVariables are not distributed.\n',encoding='utf8')
+    archive=output/f'MyanmarForever_v{version}.zip'
     names=['Bindings.xml','Controls.lua','QuestBridge.lua','Renderer.lua','TermIntroductions.lua','CREDITS.txt','LICENSE.txt','INSTALL.txt','RELEASE_NOTES.md','TERM-EXPLANATION-GUIDE.txt']
     files=[addon/n for n in names]+list(addon.glob('*.toc'))+[p for d in ('Catalogs','fonts') for p in (addon/d).rglob('*') if p.is_file()]
     with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED) as z:

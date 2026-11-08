@@ -1,0 +1,171 @@
+{
+  "version": "1.1.0",
+  "result": "PASS",
+  "date": "2026-11-08",
+  "questIDs": 946,
+  "translatedFields": 4423,
+  "dialogueStates": 2549,
+  "absentOrHeldDialogueStates": 289,
+  "preservedBaselineQuestRecords": 664,
+  "baselineFieldOverrides": [
+    {
+      "id": 91723,
+      "field": "progress"
+    }
+  ],
+  "packs": [
+    {
+      "path": "translations/undead-v0.6.3",
+      "questAdditions": 24,
+      "fieldAdditions": 106,
+      "fieldOverrides": 0,
+      "packSHA256": "e1dcfa0b57f0cba6712fb7eb4b4c384a1bc121fe6e8c5a7311c81bda004d550d"
+    },
+    {
+      "path": "translations/live-fixes-v1",
+      "questAdditions": 13,
+      "fieldAdditions": 61,
+      "fieldOverrides": 1,
+      "packSHA256": "ec59863973243ae979648c96a4070ce13bf4ea3187d0758ed4c88c7095e27639"
+    },
+    {
+      "path": "translations/skyborne-a-v1",
+      "questAdditions": 50,
+      "fieldAdditions": 231,
+      "fieldOverrides": 0,
+      "packSHA256": "42adc870d6db97f378f4c3468e7256994ab4c9ca73ce88d05d5cae3f353af01b"
+    },
+    {
+      "path": "translations/skyborne-b-v1",
+      "questAdditions": 50,
+      "fieldAdditions": 221,
+      "fieldOverrides": 0,
+      "packSHA256": "a15ec0aa320276bb5f227ad70edfec7063b789de921c55228e580fb905c2167f"
+    },
+    {
+      "path": "translations/skyborne-c-v1",
+      "questAdditions": 51,
+      "fieldAdditions": 229,
+      "fieldOverrides": 0,
+      "packSHA256": "0d021bdbadf741e52131bf053da5ba9a86c09ec59a20dd9899aa0913f2ca105d"
+    },
+    {
+      "path": "translations/undead-tirisfal-v1.1.0",
+      "questAdditions": 94,
+      "fieldAdditions": 440,
+      "fieldOverrides": 0,
+      "packSHA256": "20adc7dfe656406f3d80623e0317c08cba2e1e564b7546576318c822ea8e8ffe"
+    }
+  ],
+  "heldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    },
+    {
+      "id": 745,
+      "field": "objective",
+      "reason": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    },
+    {
+      "id": 98387,
+      "field": "detail",
+      "reason": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+    },
+    {
+      "id": 98387,
+      "field": "objective",
+      "reason": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+    },
+    {
+      "id": 3099,
+      "field": "progress",
+      "reason": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+    }
+  ],
+  "addedHeldFields": [
+    {
+      "id": 3099,
+      "field": "progress",
+      "reason": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+    }
+  ],
+  "fontSHA256": "bc355606c119f4d596fda8ac005636dd202a96f9b85af158682b49fcd8e71767",
+  "catalogSHA256": "fff099bfa0499d800830240721ab023b0cbba7edf72ae64f3486199ff576c777",
+  "dynamicIdentityLabels": 18,
+  "firstIntroductionTerms": 46,
+  "luaRegressionGroups": [
+    "PASS: Lua 5.1; 946 quests / 2549 available and 289 absent or held dialogue states; previews and real-event routing; recovered identities including race/class/name; font failure; saved UI; captures; stale/unknown/secret guards; unverified elf branch and placeholder held.",
+    "PASS: automatic capture of unknown quests in all 3 states, invalid/secret IDs rejected; new live quest identity markers and absent states.",
+    "PASS: v0.3.0 route additions, class intros, source hold, exclusions and identity suffixes.",
+    "PASS: Night Elf offers and held-name fallback; six shipped XML bindings; scroll clamps; font-size limits; hidden-input guards; close cancellation and toggle; /mmforever alias.",
+    "PASS: Orc/Troll race, name and class substitutions; 11 class introductions; held gender/name fields captured with native fallback; absent custom progress and completion-only/repeatable turn-ins.",
+    "PASS: live NPC and quest-log title validation; wrong/missing/secret/error title fallback with captures; explicit previews; documented aliases; case/format normalization; punctuation protection; toggle revalidation.",
+    "PASS: Tauren Warrior/Hunter/Shaman/Druid introductions; preserved identity substitutions; conflicting goals and class-sensitive offers held with captures; new quest title mismatch fallback; Forever-added completion routing.",
+    "PASS: 18 preshaped class/race identities; first use resets per displayed field; repeated labels deduplicated; localized tokens, unknown/error/secret getters, literal player names; accepted-ID/title/state transitions.",
+    "PASS: Quest 4641 displays actual Horde/Warrior meanings once; stable current-stage redraw, sizing, close, reset, debug switches and preview return; learned pronunciation persists in new stages/encounters.",
+    "PASS: stateless previews; new quest/stage learning; per-character saved-table isolation, seen reset, reload-style cache reset, invalid-schema recovery; no player identity strings stored.",
+    "PASS: title mismatch/missing/error/secret, held states, invalid IDs, superseded events, dismissed callbacks, auto-off, English debug, hidden/cold layout and failed/throwing font/text APIs never consume introductions.",
+    "PASS: meanings follow title/body/objective source order, pronunciation remains once per field; all 18 class/race meanings verified; locale-independent tokens, same-stage identity changes and percent/color/marker-like usernames stay safe.",
+    "PASS: static/dynamic canonical deduplication, exact old-meaning replacement, alias reordering and overlap boundaries, sex-specific priest labels, static-only field exclusions and idempotent current-view renderer commits.",
+    "PASS: Skyborne race IDs 95/96, English identity aliases, separate introduction history, unknown/secret identity fallback and repeated-render lifecycle.",
+    "PASS: source-documented Skyborne title aliases and strict wrong-title capture/fallback.",
+    "PASS: all 13 captured missing quest IDs, the Delicate Instruments progress override, automatic capture after translation, and future unknown-quest capture."
+  ],
+  "capture": "Automatic local capture preserved; missing live-captured states checked",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveSkyborneClient": "not tested",
+  "controllerHardware": "not tested",
+  "currentLiveUndeadClient": "not tested",
+  "zip": {
+    "name": "MyanmarForever_v1.1.0.zip",
+    "bytes": 657866,
+    "sha256": "77ae9241dc174da4022c2f89cc9de7e3925f3c2e3d8f1c500fef77ec6918ff5c"
+  },
+  "preservedPreviousRelease": {
+    "version": "1.0.0",
+    "questRecords": 852,
+    "allFieldsUnchanged": true
+  },
+  "preservedReleaseSnapshot": {
+    "version": "0.6.2-beta-candidate",
+    "fileCount": 176,
+    "allSHA256Match": true
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-08",
+  "status": "assisted_editorial_proposals_native_pending",
+  "rule": "Maintained exact terms take precedence; shared new names and compound cores reconciled explicitly. Published v1.0.0 records are unchanged.",
+  "choices": {
+    "Agamand": "အဂါမန်ဒ်",
+    "Balnir Farmstead": "ဘယ်လ်နီယာ ဖာမ်းစတက်ဒ်",
+    "Carendin Halgar": "ကဲရန်ဒင် ဟယ်လ်ဂါ",
+    "Coleman Farthing": "ကိုးလ်မန် ဖားသင်း",
+    "Deathguard Linnea": "ဒက်သ်ဂါ့ဒ် လင်နီယာ",
+    "Magic Quarter": "မဲဂျစ်ခ် ကွော်တာ",
+    "Solliden Farmstead": "ဆောလီဒန် ဖာမ်းစတက်ဒ်",
+    "Temple of the Damned": "တဲမ်ပယ်လ် အော့ဗ် သ ဒဲမ်ဒ်",
+    "darkhound": "ဒါ့ခ်ဟောင်းန်ဒ်",
+    "Bandarion Keep": "ဘန်ဒါရီယန် ကီးပ်",
+    "Danitha Morr": "ဒါနီသာ မော",
+    "Carolai Anise": "ကဲရလိုင် အဲနစ်စ်",
+    "Danitha": "ဒါနီသာ"
+  },
+  "fieldEdits": [
+    {
+      "partition": "a",
+      "id": 1473,
+      "field": "objective",
+      "beforeSHA256": "84d1b403053ad910cf754f76617152b6e12aec94a31b6ee8193f3bb19427f38d",
+      "afterSHA256": "5c3317d55aef7e94b2d05f0622887e128bddb7d8c7f0acb5f6adbd284378d38d",
+      "edits": [
+        {
+          "term": "Temple of the Damned",
+          "before": "တမ်ပယ်လ် အော့ဗ် သ ဒဲမ်ဒ်",
+          "after": "တဲမ်ပယ်လ် အော့ဗ် သ ဒဲမ်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1478,
+      "field": "detail",
+      "beforeSHA256": "2e91a46580de31e54f8620a77049363d3328b4b3f8c5503df35122d683948e55",
+      "afterSHA256": "b059402797173d30ce946208087bd52f3c43afb277ff3782036871e40ef7be05",
+      "edits": [
+        {
+          "term": "Temple of the Damned",
+          "before": "တဲမ်ပယ်လ် အော့ဗ် သ ဒမ်ဒ်",
+          "after": "တဲမ်ပယ်လ် အော့ဗ် သ ဒဲမ်ဒ်"
+        },
+        {
+          "term": "Carendin Halgar",
+          "before": "ကာရန်ဒင် ဟယ်လ်ဂါ",
+          "after": "ကဲရန်ဒင် ဟယ်လ်ဂါ"
+        },
+        {
+          "term": "Magic Quarter",
+          "before": "မဲဂျစ် ကွာတာ",
+          "after": "မဲဂျစ်ခ် ကွော်တာ"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1478,
+      "field": "objective",
+      "beforeSHA256": "03b3e47761850971bad1646598cf46c078e206287387ec2df986b1d9d1bee1c7",
+      "afterSHA256": "ec30226dd099bec304de1e23a9b986b6f07835634b130c87375eb8487f8e686d",
+      "edits": [
+        {
+          "term": "Carendin Halgar",
+          "before": "ကာရန်ဒင် ဟယ်လ်ဂါ",
+          "after": "ကဲရန်ဒင် ဟယ်လ်ဂါ"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1820,
+      "field": "detail",
+      "beforeSHA256": "d65e263d78d205da3e280102babb7deebb72f6bfa7aaf2b9c998bc0b109a5e87",
+      "afterSHA256": "a91f5c42e7378603d293530262be272d5798484a2681772504c4499c03dfde50",
+      "edits": [
+        {
+          "term": "Coleman Farthing",
+          "before": "ကိုးလ်မန် ဖာသင်း",
+          "after": "ကိုးလ်မန် ဖားသင်း"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1820,
+      "field": "objective",
+      "beforeSHA256": "ad9767ff2bff18608420d0066ba719dfb03f1d57e1efae0e41bda1e53921fb1f",
+      "afterSHA256": "d06c0bbed4aa27d2af6f3fedd5e3fbdba11ff15ae24d4a996d122117f0d18cdc",
+      "edits": [
+        {
+          "term": "Coleman Farthing",
+          "before": "ကိုးလ်မန် ဖာသင်း",
+          "after": "ကိုးလ်မန် ဖားသင်း"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1821,
+      "field": "title",
+      "beforeSHA256": "87c7bf8f0dabee5aec4f80de72f58cc6308df0825b8cd1eedf646c580e32d36c",
+      "afterSHA256": "5d8f0a29553030384966e24e287e862be8d20f303883b8b90e6dccedf7ae89a2",
+      "edits": [
+        {
+          "term": "Agamand",
+          "before": "အာဂါမန်ဒ်",
+          "after": "အဂါမန်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1821,
+      "field": "detail",
+      "beforeSHA256": "246b831abe84954ff9d25e5ec7e24533bd9d47d5231e941f3b298166302c60df",
+      "afterSHA256": "36c4f38c383be9539aa53bbd0fae3b58077b9ad7488232f3df810cb7cf0d5181",
+      "edits": [
+        {
+          "term": "Agamand mills",
+          "before": "အာဂါမန်ဒ် မီလ်ဇ်",
+          "after": "အဂါမန်ဒ် မီလ်ဇ်"
+        },
+        {
+          "term": "Agamand",
+          "before": "အာဂါမန်ဒ်",
+          "after": "အဂါမန်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1821,
+      "field": "objective",
+      "beforeSHA256": "83d1b62de19c23565034120483f83081ffbe1ba1f1929f734c4bfdf8af0acd12",
+      "afterSHA256": "e137a580640c022ab0d155cefbd3327fa22a9c6fb1eb34fc151837f7b246c180",
+      "edits": [
+        {
+          "term": "Agamand Family dagger",
+          "before": "အာဂါမန်ဒ် ဖဲမလီ ဒဲဂါ",
+          "after": "အဂါမန်ဒ် ဖဲမလီ ဒဲဂါ"
+        },
+        {
+          "term": "Agamand Family Sword",
+          "before": "အာဂါမန်ဒ် ဖဲမလီ ဆော့ဒ်",
+          "after": "အဂါမန်ဒ် ဖဲမလီ ဆော့ဒ်"
+        },
+        {
+          "term": "Agamand Family Mace",
+          "before": "အာဂါမန်ဒ် ဖဲမလီ မေးစ်",
+          "after": "အဂါမန်ဒ် ဖဲမလီ မေးစ်"
+        },
+        {
+          "term": "Agamand Family Axe",
+          "before": "အာဂါမန်ဒ် ဖဲမလီ အက်ခ်စ်",
+          "after": "အဂါမန်ဒ် ဖဲမလီ အက်ခ်စ်"
+        },
+        {
+          "term": "Coleman Farthing",
+          "before": "ကိုးလ်မန် ဖာသင်း",
+          "after": "ကိုးလ်မန် ဖားသင်း"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1821,
+      "field": "complete",
+      "beforeSHA256": "fdc298d9ec0c362fbd5c1b18a4f6d3f58871169a1d8dd0604caef340b192c7ec",
+      "afterSHA256": "b923c750c10140dc2e77adc411219eec2bce1f7dfa90888b1822c8b490525c26",
+      "edits": [
+        {
+          "term": "Agamand",
+          "before": "အာဂါမန်ဒ်",
+          "after": "အဂါမန်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 1881,
+      "field": "detail",
+      "beforeSHA256": "adcba7651a6cc611375ce6fdefaf6a06e8c182be5c150efb325df1f7f39f7627",
+      "afterSHA256": "7b3bc66d63f59561bf1b82a072ff275e98bc6f3bcc5f7f4975ee5b136580f2d8",
+      "edits": [
+        {
+          "term": "Magic Quarter",
+          "before": "မဲဂျစ် ကွာတာ",
+          "after": "မဲဂျစ်ခ် ကွော်တာ"
+        }
+      ]
+    },
+    {
+      "partition": "b",
+      "id": 95314,
+      "field": "objective",
+      "beforeSHA256": "83d6f6fdf42b63adc8cfbe4a18679663138e0e3073ebd598cd9b4caac06d109f",
+      "afterSHA256": "a908a9b0aac72622ef486befa0ed53dbafbd0dfb6aacc1154b1a07121235fc7f",
+      "edits": [
+        {
+          "term": "Carolai Anise",
+          "before": "ကဲရလိုင် အန်နစ်စ်",
+          "after": "ကဲရလိုင် အဲနစ်စ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96896,
+      "field": "objective",
+      "beforeSHA256": "4fa7ed0a77e18585d6969ef9e2bfbb25122b701f5fbc482bf3d9821bde21c7c1",
+      "afterSHA256": "f0c08b856228aeb30e7591671ba97d7e8a7306de36d1a4dccddfa34f51431a3b",
+      "edits": [
+        {
+          "term": "Danitha Morr",
+          "before": "ဒနီသာ မော်ရ်",
+          "after": "ဒါနီသာ မော"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96896,
+      "field": "detail",
+      "beforeSHA256": "c271a0956f2974622c44ba8bbbcaceff7f4dd37a6a137aa03665ccbe7be6938b",
+      "afterSHA256": "c1d0c9320e727b10941d961a0b2e49fecaaa5c9636dcf9e4d6189501f6acd2d3",
+      "edits": [
+        {
+          "term": "Danitha",
+          "before": "ဒနီသာ",
+          "after": "ဒါနီသာ"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96899,
+      "field": "title",
+      "beforeSHA256": "317c8f20a2c440ba77136650790cae1ae74f34bf686062a3ea4f2b34fc807639",
+      "afterSHA256": "a40efa51e16071fed1844ad852c15d711d8f5443354f5a596ea61a413930874e",
+      "edits": [
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96899,
+      "field": "objective",
+      "beforeSHA256": "fa23a5d590f74b7af995362fbafc21f34eb8f78ea8b4ecf62ba4290c51c143d1",
+      "afterSHA256": "89c48136078331501e7893ee088f2453733fcdb36f8481ce79af201ca2171fdf",
+      "edits": [
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96899,
+      "field": "detail",
+      "beforeSHA256": "4dca49a4481afd3e5f0b8e6b2a37b8277ce4caced13528e89b3f9a1f11fbf760",
+      "afterSHA256": "f55c2738cecb896101b6beb487110731b368ac2039abe9f4c0608ee3ac0b1a0f",
+      "edits": [
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 96899,
+      "field": "complete",
+      "beforeSHA256": "3330f71171fe83e94b8ad72ecba6033408484a606c4748c4e0c61424b57f3225",
+      "afterSHA256": "513c8828a05a45a66a5020cc00c62168ea319887b59294542880e9fae8b4b2e6",
+      "edits": [
+        {
+          "term": "Danitha",
+          "before": "ဒနီသာ",
+          "after": "ဒါနီသာ"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 97558,
+      "field": "detail",
+      "beforeSHA256": "990f9875705c9fb2ac49a5cbb1171ded5d54fa77f9fd688ed13fc18c590b7834",
+      "afterSHA256": "90535c03e2540605d1bbe026f49ea58eff8202a31ca7ae3e3c1195fee3df58ec",
+      "edits": [
+        {
+          "term": "darkhound",
+          "before": "ဒါ့ခ်ဟောင်းဒ်",
+          "after": "ဒါ့ခ်ဟောင်းန်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 97951,
+      "field": "objective",
+      "beforeSHA256": "3690bb525731885db1b311aa9e14e4c6d78ae36a2a360f4a49c6ff7e5efb7ec2",
+      "afterSHA256": "7c7400ae70996bca2df0ae5c14cba6e8f8b77ae1676b3f7bad584433d4df2e70",
+      "edits": [
+        {
+          "term": "Carolai Anise",
+          "before": "ကယ်ရိုလိုင်း အဲနစ်စ်",
+          "after": "ကဲရလိုင် အဲနစ်စ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 99142,
+      "field": "detail",
+      "beforeSHA256": "90057b2021a278cb40b46a3783179db2868e1f0a13ef32d0a748fdaab80409ca",
+      "afterSHA256": "a275a3b1d6e1b503000c3c9837b8ccce13e78eb26cec3b42fc0e9b85ee07202f",
+      "edits": [
+        {
+          "term": "Balnir Farmstead",
+          "before": "ဘယ်လ်နီယာ ဖားမ်းစတက်ဒ်",
+          "after": "ဘယ်လ်နီယာ ဖာမ်းစတက်ဒ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 99144,
+      "field": "detail",
+      "beforeSHA256": "a1ede286482e6344a2ddbc6580fe1e93dd9e660bfb39c8d868687ee2c4ecd3ff",
+      "afterSHA256": "ca73b95998b5ab445e85ce08f8f6eed177b32a202e91ae308fd66b7112a37ca6",
+      "edits": [
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 99144,
+      "field": "complete",
+      "beforeSHA256": "174699ff73a8fac7609ed5c11391fdc988af687ff733909a27bceeebf91be722",
+      "afterSHA256": "b17b059a716f0a8c0f6212825a986e7d383a590ee644344f2a443c74f60b5315",
+      "edits": [
+        {
+          "term": "Solliden Farmstead",
+          "before": "ဆောလစ်ဒန် ဖားမ်းစတက်ဒ်",
+          "after": "ဆောလီဒန် ဖာမ်းစတက်ဒ်"
+        },
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 99152,
+      "field": "detail",
+      "beforeSHA256": "e9791907d3d32771c713c35effa2b6453d640d87959a794334404ce7eee1185f",
+      "afterSHA256": "86d8b132497408b41145c6dddaed1329837f33b130f95f989a7f86493e6d7eda",
+      "edits": [
+        {
+          "term": "Bandarion Keep",
+          "before": "ဘန်ဒါရီယွန် ကီးပ်",
+          "after": "ဘန်ဒါရီယန် ကီးပ်"
+        }
+      ]
+    },
+    {
+      "partition": "c",
+      "id": 99156,
+      "field": "objective",
+      "beforeSHA256": "aa7990679db5e7d44e0c7e9f0908e087189356477d3385b136c82470d83cdd06",
+      "afterSHA256": "2596a893f9d1ec9542d70bbdb8b6607bab138ee6190e2189ab8d0c10fc903949",
+      "edits": [
+        {
+          "term": "Deathguard Linnea",
+          "before": "ဒက်သ်ဂါ့ဒ် လီနီယာ",
+          "after": "ဒက်သ်ဂါ့ဒ် လင်နီယာ"
+        }
+      ]
+    }
+  ]
+}

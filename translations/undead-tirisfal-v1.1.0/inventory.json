@@ -1,0 +1,689 @@
+{
+  "date": "2026-11-08",
+  "scope": "Undead Brill and remaining Tirisfal route, approximately levels5–13; supported early warrior,rogue,mage,priest,warlock and paladin routes, Undercity closure, Eleanor Shackleton camping/profession tutorials, and Silverpine delivery only. Existing24Deathknell IDs preserved unchanged.",
+  "installedQuestieVersion": "1.0.11",
+  "questieZoneArea": 85,
+  "questieZoneCount": 53,
+  "public60ToolsZoneCount": 50,
+  "publicForeverDBZoneCount": 54,
+  "includedCount": 94,
+  "includedQuestIDs": [
+    354,
+    355,
+    356,
+    357,
+    358,
+    359,
+    360,
+    361,
+    362,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371,
+    372,
+    374,
+    375,
+    398,
+    404,
+    405,
+    407,
+    408,
+    409,
+    410,
+    411,
+    426,
+    427,
+    431,
+    445,
+    492,
+    1471,
+    1473,
+    1478,
+    1818,
+    1819,
+    1820,
+    1821,
+    1822,
+    1881,
+    1882,
+    1885,
+    1886,
+    1898,
+    1899,
+    1978,
+    5481,
+    5482,
+    5650,
+    86784,
+    91282,
+    91285,
+    91294,
+    91316,
+    91317,
+    94427,
+    94434,
+    94435,
+    94436,
+    94438,
+    94440,
+    94441,
+    95314,
+    95328,
+    95803,
+    96607,
+    96656,
+    96658,
+    96895,
+    96896,
+    96897,
+    96898,
+    96899,
+    97558,
+    97951,
+    97952,
+    97953,
+    97954,
+    97955,
+    97956,
+    97957,
+    97958,
+    97959,
+    97960,
+    97961,
+    98545,
+    99134,
+    99141,
+    99142,
+    99144,
+    99152,
+    99153,
+    99156
+  ],
+  "existingDeathknellPreservedQuestIDs": [
+    8,
+    363,
+    364,
+    376,
+    380,
+    381,
+    382,
+    383,
+    590,
+    1470,
+    3095,
+    3096,
+    3097,
+    3098,
+    3099,
+    3901,
+    3902,
+    5651,
+    6395,
+    90902,
+    91208,
+    91209,
+    98389,
+    98601
+  ],
+  "groups": {
+    "Tirisfal story and local side quests": [
+      354,
+      355,
+      356,
+      358,
+      359,
+      360,
+      361,
+      362,
+      365,
+      366,
+      367,
+      368,
+      369,
+      370,
+      371,
+      372,
+      374,
+      375,
+      398,
+      404,
+      405,
+      407,
+      408,
+      409,
+      410,
+      411,
+      426,
+      427,
+      431,
+      445,
+      492,
+      5481,
+      5482,
+      86784,
+      95314,
+      95328,
+      96895,
+      96896,
+      96897,
+      96898,
+      96899,
+      97558,
+      98545,
+      99134,
+      99141,
+      99142,
+      99144,
+      99152,
+      99153,
+      99156
+    ],
+    "Camping and beginner profession introductions": [
+      96607,
+      96656,
+      96658,
+      97951,
+      97952,
+      97953,
+      97954,
+      97955,
+      97956,
+      97957,
+      97958,
+      97959,
+      97960,
+      97961
+    ],
+    "Originating class routes and capital handoff closure": [
+      357,
+      1471,
+      1473,
+      1478,
+      1818,
+      1819,
+      1820,
+      1821,
+      1822,
+      1881,
+      1882,
+      1885,
+      1886,
+      1898,
+      1899,
+      1978,
+      5650,
+      91282,
+      91285,
+      91294,
+      91316,
+      91317,
+      94427,
+      94434,
+      94435,
+      94436,
+      94438,
+      94440,
+      94441,
+      95803
+    ]
+  },
+  "levelRange": {
+    "questLevelMin": 4,
+    "questLevelMax": 13,
+    "level13StarterClosureIDs": [
+      408,
+      1886,
+      1898,
+      1899,
+      1978,
+      95328,
+      99156
+    ]
+  },
+  "englishFieldCounts": {
+    "title": 94,
+    "detail": 91,
+    "objective": 91,
+    "progress": 70,
+    "complete": 94
+  },
+  "englishFieldsTotal": 440,
+  "exclusions": [
+    {
+      "id": 8,
+      "en": "A Rogue's Deal",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 105,
+      "en": "Alas, Andorhal",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 363,
+      "en": "Rude Awakening",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 364,
+      "en": "The Mindless Ones",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 376,
+      "en": "The Damned",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 380,
+      "en": "Night Web's Hollow",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 381,
+      "en": "The Scarlet Crusade",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 382,
+      "en": "The Red Messenger",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 383,
+      "en": "Vital Intelligence",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 441,
+      "en": "Raleigh and the Undercity",
+      "reason": "Level 16 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 16
+    },
+    {
+      "id": 590,
+      "en": "A Rogue's Deal",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 838,
+      "en": "Scholomance",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 964,
+      "en": "Skeletal Fragments",
+      "reason": "Level 57 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 57
+    },
+    {
+      "id": 1470,
+      "en": "Piercing the Veil",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 1657,
+      "en": "Stinking Up Southshore",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 1959,
+      "en": "Report to Anastasia",
+      "reason": "Level 15 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 15
+    },
+    {
+      "id": 3095,
+      "en": "Simple Scroll",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3096,
+      "en": "Encrypted Scroll",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3097,
+      "en": "Hallowed Scroll",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3098,
+      "en": "Glyphic Scroll",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3099,
+      "en": "Tainted Scroll",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3901,
+      "en": "Rattling the Rattlecages",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 3902,
+      "en": "Scavenging Deathknell",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 5096,
+      "en": "Scarlet Diversions",
+      "reason": "Level 53 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 53
+    },
+    {
+      "id": 5098,
+      "en": "All Along the Watchtowers",
+      "reason": "Level 56 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 56
+    },
+    {
+      "id": 5228,
+      "en": "The Scourge Cauldrons",
+      "reason": "Level 53 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 53
+    },
+    {
+      "id": 5229,
+      "en": "Target: Felstone Field",
+      "reason": "Level 53 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 53
+    },
+    {
+      "id": 5231,
+      "en": "Target: Dalson's Tears",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5233,
+      "en": "Target: Writhing Haunt",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5235,
+      "en": "Target: Gahrron's Withering",
+      "reason": "Level 58 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 58
+    },
+    {
+      "id": 5238,
+      "en": "Mission Accomplished!",
+      "reason": "Level 58 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 58
+    },
+    {
+      "id": 5341,
+      "en": "Barov Family Fortune",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5342,
+      "en": "The Last Barov",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5405,
+      "en": "Argent Dawn Commission",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5406,
+      "en": "Corruptor's Scourgestones",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5407,
+      "en": "Invader's Scourgestones",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5408,
+      "en": "Minion's Scourgestones",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5504,
+      "en": "Mantles of the Dawn",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5511,
+      "en": "The Key to Scholomance",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5514,
+      "en": "Mold Rhymes With...",
+      "reason": "Level 57 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 57
+    },
+    {
+      "id": 5524,
+      "en": "Chromatic Mantle of the Dawn",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5651,
+      "en": "In Favor of Darkness",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 5804,
+      "en": "Araj's Scarab",
+      "reason": "Level 60 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 60
+    },
+    {
+      "id": 5901,
+      "en": "A Plague Upon Thee",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 5902,
+      "en": "A Plague Upon Thee",
+      "reason": "Level 55 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 55
+    },
+    {
+      "id": 6395,
+      "en": "Marla's Last Wish",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 8322,
+      "en": "Rotten Eggs",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8652,
+      "en": "Graveborn the Elder",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8827,
+      "en": "Winter's Presents",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8828,
+      "en": "Winter's Presents",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8860,
+      "en": "New Year Celebrations!",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8861,
+      "en": "New Year Celebrations!",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 8902,
+      "en": "Dearest Elenia,",
+      "reason": "Seasonal/event quest, outside permanent starter route."
+    },
+    {
+      "id": 90902,
+      "en": "Rediscovering the Light",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 91208,
+      "en": "Coming to Terms",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 91209,
+      "en": "Continue Your Training",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 91858,
+      "en": "Diplomatic Incident",
+      "reason": "Level 22 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 22
+    },
+    {
+      "id": 92422,
+      "en": "The Wrath of Rath'mael",
+      "reason": "Level 22 later-zone/dungeon/class content; outside approximately 5–13 Tirisfal route.",
+      "questLevel": 22
+    },
+    {
+      "id": 98389,
+      "en": "A Light in the Darkness",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 98601,
+      "en": "A Difficult Path",
+      "reason": "Already released; preserved unchanged, no duplicate addition."
+    },
+    {
+      "id": 96997,
+      "en": "A Steed in Death as They Were in Life",
+      "reason": "Public zone riding/mount record absent installed QuestieDB; riding is outside starter route. Not enabled from database presence alone."
+    },
+    {
+      "id": 97203,
+      "en": "Learning to Ride",
+      "reason": "Public zone riding/mount record absent installed QuestieDB; riding is outside starter route. Not enabled from database presence alone."
+    },
+    {
+      "id": 5660,
+      "en": "Touch of Weakness",
+      "reason": "Alternate priest racial referrals from distant capitals, not originating Tirisfal. Local Undercity training record5658 included."
+    },
+    {
+      "id": 5661,
+      "en": "Touch of Weakness",
+      "reason": "Alternate priest racial referrals from distant capitals, not originating Tirisfal. Local Undercity training record5658 included."
+    },
+    {
+      "id": 5662,
+      "en": "Touch of Weakness",
+      "reason": "Alternate priest racial referrals from distant capitals, not originating Tirisfal. Local Undercity training record5658 included."
+    },
+    {
+      "id": 5663,
+      "en": "Touch of Weakness",
+      "reason": "Alternate priest racial referrals from distant capitals, not originating Tirisfal. Local Undercity training record5658 included."
+    },
+    {
+      "id": 1498,
+      "en": "Path of Defense",
+      "reason": "Parallel Barrens/Durotar class branch, not originating Tirisfal starter chain."
+    },
+    {
+      "id": 1502,
+      "en": "Thun'grim Firegaze",
+      "reason": "Parallel Barrens/Durotar class branch, not originating Tirisfal starter chain."
+    },
+    {
+      "id": 1883,
+      "en": "Speak with Un'thuwa",
+      "reason": "Parallel Barrens/Durotar class branch, not originating Tirisfal starter chain."
+    },
+    {
+      "id": 1884,
+      "en": "Ju-Ju Heaps",
+      "reason": "Parallel Barrens/Durotar class branch, not originating Tirisfal starter chain."
+    },
+    {
+      "id": 5658,
+      "en": "Touch of Weakness",
+      "reason": "Disputed English source: localcapital Questie start/endAelthalyste but60.tools prose is trollreferral requiringzeppelin; Wowhead onlytitle. Hold entirerecord pendingcurrentlivecapture."
+    }
+  ],
+  "publicReconciliation": {
+    "60toolsOnlyVsQuestieZone": [],
+    "QuestieZoneOnlyVs60tools": [
+      5901,
+      5902,
+      98389
+    ],
+    "foreverdbOnlyVsQuestieZone": [
+      96997,
+      97203
+    ],
+    "QuestieZoneOnlyVsForeverDB": [
+      98389
+    ]
+  },
+  "sourceCaveats": [
+    "All included records checked against Wowhead Forever English and60.tools; current live dialogue remains unverified.",
+    "UA0.23.0 provides secondary field-presence/title comparison only; no UA prose copied as English.",
+    "60.tools query response includes an unfiltered backing quest table; zone count parsed only rows whose category cell is Tirisfal Glades.",
+    "Wowhead zone inventory HTML fetch returned403; browse rendered only filter shell, so zone enumeration used installed QuestieDB plus60.tools andForeverDB reconciliation.",
+    "Primary60.tools404 for97952,97954,97958,97961; recovered English fields from Wowhead Forever.",
+    "No selected titles contain unused,tempdisabled,test,zzOLD or placeholder markers; exclusions are explicit and not based on IDthreshold.",
+    "Null English states are preserved as absent after both English sources reviewed; do not invent or reconstruct."
+  ],
+  "references": [
+    "https://www.60.tools/map/eastern-kingdoms/tirisfal-glades",
+    "https://www.60.tools/quests?group=Tirisfal%20Glades",
+    "https://www.foreverdb.app/en/forever/zones/tirisfal-glades/quests",
+    "https://www.wowhead.com/forever/quests/eastern-kingdoms/tirisfal-glades"
+  ],
+  "sourceHashes": {
+    "60-group.html": "943decc8b99f7bd95bd7c96c810b32f737465881de77b2ffbf802bbd6a093d05",
+    "60-map.html": "f52bd9143031765cbc3f3a8d67d33a61bc7a44344a454122875a266cd81e4e64",
+    "foreverdb-zone.html": "8f580d16a452ec63f4a2f5f92a1fcac215f7e09e98fdf78716a7fe9535ad24ee",
+    "questie-all.json": "2359428dc066b0314551a07fd1ab992b5ebbdd39e4f704058962467a9f2b2cc2"
+  },
+  "sourceConflicts": [
+    {
+      "id": 5658,
+      "disposition": "excluded",
+      "reason": "InstalledQuestieDB localAelthalyste trainer metadata disagrees with60.tools trollreferral/zeppelindetail; Wowhead onlytitle."
+    },
+    {
+      "id": 357,
+      "field": "complete",
+      "disposition": "retainfullerprimary60tools",
+      "reason": "Wowhead has fourlinebreaks where60.tools has Bethor opensglowingbook stage direction; rawHTMLconfirms omission is sourcevariant, not parserloss."
+    }
+  ]
+}

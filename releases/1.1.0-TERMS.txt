@@ -1,0 +1,28 @@
+MyanmarForever 1.1.0
+Short first-introduction meanings — 8 November 2026
+
+Version 1 contains 46 curated faction, class, race, rank and game-concept meanings,
+including Skyborne. Important English identities retain Myanmar pronunciation.
+The first successful live display of an eligible term adds one short meaning.
+Later encounters use pronunciation alone. Ordinary NPC/place names do not receive
+blanket explanations or extra quest advice.
+
+Examples:
+Horde (ဟော်ဒ် — မျိုးနွယ်စုပေါင်းအင်အားစု)
+Warrior (ဝေါရီယာ — အနီးကပ်တိုက်ခိုက်တဲ့ စစ်သည်)
+Skyborne (စကိုင်းဘောန်း — ကောင်းကင်ဒေသမှ အယ်လ်ဖ်မျိုးနွယ်)
+
+Introduction history is per character, using the existing SavedVariables names.
+Static and dynamic class/race labels share the same history. Skyborne is its own
+race identity, separate from Undead. Previews show introductions for review and
+never consume live history. A held/missing state, title mismatch, hidden or failed
+render and English debug display do not consume it either. The current displayed
+section remains stable while resizing or redrawing. Window reset does not clear
+term history. Reload/logout saves it normally.
+
+Close WoW fully and replace the complete Myanmar_Forever_NorthshireTest addon
+folder. Keep the rebuilt font and catalog together; do not mix versions.
+
+Automated source, glyph and Lua tests verify data integrity and introduction
+lifecycle. Full native proofreading and current live Skyborne/controller checks
+remain pending; these are distinct from the version 1.0.0 release number.

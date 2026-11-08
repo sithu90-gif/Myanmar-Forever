@@ -4,3 +4,6 @@
 *.csv text eol=lf
 # Preserve every published source byte, including historical build artifacts.
 Myanmar_Forever_NorthshireTest/** -text
+# Keep audited source and tool-response file hashes stable across checkouts.
+translations/undead-tirisfal-v1.1.0/** -text whitespace=cr-at-eol
+translations/undead-tirisfal-v1.1.0/deepl-evidence/** -text whitespace=cr-at-eol,-blank-at-eof

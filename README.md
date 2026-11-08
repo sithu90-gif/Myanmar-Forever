@@ -2,18 +2,21 @@
 
 Myanmar quest and story translations for **World of Warcraft: Forever**.
 
-## Version 1.0.0
+## Version 1.1.0
 
-[Download MyanmarForever 1.0.0](dist/MyanmarForever_v1.0.0.zip)
+[Download MyanmarForever 1.1.0](dist/MyanmarForever_v1.1.0.zip)
 
-This release adds both Skyborne starter branches on Zephras Isle, includes the Undead starter update, and fixes the missing quests captured during play. All **nine playable races** now have starter-route translation coverage. Coverage follows available English evidence; it does not mean every quest or every state is translated.
+This release extends the Undead route through Brill and Tirisfal Glades, including Forever-specific quests, supported early class chains and local Camping/profession introductions. It preserves the nine-race starter coverage from version 1.0.0, including both Skyborne branches. Coverage follows available English evidence; it does not mean every quest or every state is translated.
 
-- [Version 1 changelog](releases/1.0.0-NOTES.md)
-- [Coverage, sources and known gaps](docs/V1-COVERAGE.md)
-- [Full Myanmar/English review](docs/V1-TRANSLATION-REVIEW.html)
-- [Build and validation results](docs/validation/v1.0.0-2026-11-06.json)
+Version 1.1.0 contains **946 quest IDs and 4,423 translated fields**. The Undead packs contain **118 quest records** across Deathknell, Brill and Tirisfal, reaching approximately levels 1–13.
 
-Version **1.0.0** has no beta or candidate suffix. Full native Myanmar proofreading and current live Skyborne/controller verification remain pending; automated checks establish source integrity and runtime behavior, not native fluency.
+- [Version 1.1 changelog](releases/1.1.0-NOTES.md)
+- [Undead coverage, sources and known gaps](docs/V1.1-COVERAGE.md)
+- [New Undead Myanmar/English review](docs/UNDEAD-TIRISFAL-TRANSLATIONS.html)
+- [Build and validation results](docs/validation/v1.1.0-2026-11-08.json)
+- [Previous 1.0.0 coverage](docs/V1-COVERAGE.md) and [translation review](docs/V1-TRANSLATION-REVIEW.html)
+
+Version **1.1.0** has no beta or candidate suffix. Full native Myanmar proofreading and current live-client/controller verification remain pending; automated checks establish source integrity and runtime behavior, not native fluency.
 
 ## Starter routes
 
@@ -24,10 +27,10 @@ Version **1.0.0** has no beta or candidate suffix. Full native Myanmar proofread
 | Shadowglen | Night Elf |
 | Valley of Trials | Orc, Troll |
 | Red Cloud Mesa | Tauren |
-| Deathknell | Undead |
+| Deathknell → Brill / Tirisfal Glades | Undead |
 | Zephras Isle, both faction branches | Skyborne |
 
-Existing translations also cover parts of the follow-on zones. The version 1 update includes the supported Skyborne class introductions, beginner profession/camping quests, island departure handoffs and immediate capital introductions.
+Existing translations also cover parts of the follow-on zones. The Undead route now reaches local level-13 finales, with immediate capital and Silverpine delivery handoffs; Silverpine questing is a later update. Skyborne coverage includes supported class introductions, beginner profession/camping quests, island departure handoffs and immediate capital introductions.
 
 ## Install
 
@@ -57,12 +60,12 @@ Capture does not translate or upload quests automatically. SavedVariables can co
 Install the pinned dependencies in `requirements-dev.txt`, then run:
 
 ```powershell
-python tools/build_release.py --output ../outputs/MyanmarForever-1.0.0
+python tools/build_release.py --manifest releases/1.1.0.json --output ../outputs/MyanmarForever-1.1.0
 ```
 
 Choose a new output directory. The command composes the versioned translation packs, checks source/review hashes, rebuilds the font and catalog, and runs Lua state-routing, capture and identity tests. It creates the install ZIP and a validation report.
 
-`releases/1.0.0.json` lists the exact packs. The directory `Myanmar_Forever_NorthshireTest/` is the byte-preserved **0.6.2 release snapshot**, used as the build base; build version 1 or use its ZIP rather than copying that old folder directly. New source, English evidence and per-field reviews are under `translations/`.
+`releases/1.1.0.json` lists the exact packs. Select a manifest explicitly; the builder's default remains the original 1.0.0 manifest. The directory `Myanmar_Forever_NorthshireTest/` is the byte-preserved **0.6.2 release snapshot**, used as the build base; build the selected release or use its ZIP rather than copying that old folder directly. New source, English evidence and per-field reviews are under `translations/`.
 
 The [earlier CurseForge 0.6.2 package](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929) and [0.6.3 candidate notes](docs/UNDEAD-STARTER-REVIEW.md) remain available as history. The 0.1 ZIP is also historical; its internal test version does not describe version 1.
 
