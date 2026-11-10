@@ -1,0 +1,78 @@
+{
+  "inputs": [
+    {
+      "id": 99,
+      "field": "title",
+      "english": "Arugal's Folly",
+      "englishSHA256": "415d31278a0bd599615a8e5f273ceca3f9474f5c17f596d520abf829e15846da"
+    },
+    {
+      "id": 99,
+      "field": "detail",
+      "english": "As my understanding of Arugal's magic grows so does my disdain for the hapless fool.  I am close to completing my research on his so called remedy.\n\nMy knowledge will be complete when I learn what enchantment is causing the strange behavior going on in Pyrewood Village.  By day, the peasants appear to be Human.  But when the sun goes down the townsfolk turn into Moonrage Worgen.\n\nI need to draw energy from the enchanted shackles Arugal cast on them.  Bring to me six enchanted Pyrewood Shackles, <name>.",
+      "englishSHA256": "e5115c54fbfddc23ede592db3c4cacb5f994a30988e545a242f2209736b2e718"
+    },
+    {
+      "id": 99,
+      "field": "objective",
+      "english": "Bring 6 Pyrewood Shackles to Dalar Dawnweaver at the Sepulcher.",
+      "englishSHA256": "3e178e62e6b386e941a9dbcab8db1542c4a009b8f44801301287ab89d2cf5d89"
+    },
+    {
+      "id": 99,
+      "field": "progress",
+      "english": "Have you secured the Pyrewood Shackles yet, <name>?",
+      "englishSHA256": "a236f0b438919dab825e9a5dff6f9e27ee4657db3ef98ec9c88044028730a2e6"
+    },
+    {
+      "id": 99,
+      "field": "complete",
+      "english": "Your persistence is commendable.  With the knowledge you helped me gather, Arugal will fall and his reckless magic shall be undone.  Cheers to you, <name>.",
+      "englishSHA256": "2c64b3de2e903df93f040102a016005aacf8989e7ef4e59bffff7ab6bf08d314"
+    }
+  ],
+  "request": {
+    "targetLangs": [
+      "MY"
+    ],
+    "context": "As my understanding of Arugal's magic grows so does my disdain for the hapless fool.  I am close to completing my research on his so called remedy.\n\nMy knowledge will be complete when I learn what enchantment is causing the strange behavior going on in Pyrewood Village.  By day, the peasants appear ",
+    "customInstructions": [
+      "Preserve placeholders and exact numbers. Keep proper names of NPCs, factions, locations, spell and item names, and creatures in English. Preserve the quest giver’s dry, dismissive voice."
+    ]
+  },
+  "response": {
+    "structuredContent": {
+      "translations": [
+        {
+          "targetLang": "MY",
+          "translations": [
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "အာရူဂယ်၏ အမှား"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "Arugal ရဲ့ မာယာအကြောင်းကို ပိုမိုနားလည်လာသမျှ ကျွန်ုပ်၏ ကံဆိုးသူအပေါ် မုန်းတီးမှုလည်း တိုးလာသည်။ သူခေါ်ဆိုသော ကုထုံးအပေါ် ကျွန်ုပ်၏ သုတေသနကို မကြာမီ ပြီးမြောက်တော့မည်။\n\nPyrewood ကျေးရွာမှာ ဖြစ်နေတဲ့ ထူးဆန်းတဲ့ အပြုအမူတွေကို ဖြစ်စေတဲ့ မှော်ဆွဲခြင်းက ဘာလဲဆိုတာ သိလာတဲ့အခါ ကျွန်ုပ်၏ အသိပညာ ပြည့်စုံမည်။ နေ့အချိန်တွင် လယ်သမားများသည် လူသားကဲ့သို့ မြင်ရသော်လည်း နေဝင်ချိန်တွင် ကျေးရွာသားများသည် Moonrage Worgen အဖြစ် ပြောင်းလဲသွားကြသည်။\n\nArugal က သူတို့ပေါ်တွင် ပစ်ထားသော မှော်ဆွဲထားသော ချည်ကန်များမှ စွမ်းအင်ကို ဆွဲယူရန် လိုအပ်သည်။ <name>၊ မှော်ဆွဲထားသော Pyrewood ချည်ကန် ခြောက်ခုကို ယူလာပေးပါ။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "Sepulcher တွင် ရှိသော Dalar Dawnweaver ထံသို့ Pyrewood Shackles ၆ ခု ယူဆောင်ပါ။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "<name>၊ မင်း Pyrewood Shackles တွေကို ရယူပြီးပြီလား?"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "သင့်၏ မလျော့မစွာ ကြိုးစားမှုသည် ချီးကျူးစရာကောင်းပါသည်။  သင်ကူညီပေးခဲ့သော အသိပညာဖြင့် Arugal ကျဆင်းမည်၊ သူ၏ မစဉ်းစားဘဲ အသုံးပြုသော မာယာအားလုံးကို ဖျက်သိမ်းနိုင်မည်။  <name>၊ သင့်အတွက် ဂုဏ်ပြုပါသည်။"
+            }
+          ]
+        }
+      ],
+      "ignoredParameters": [
+        "context",
+        "customInstructions"
+      ]
+    }
+  }
+}

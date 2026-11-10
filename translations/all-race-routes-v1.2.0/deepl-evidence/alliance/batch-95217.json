@@ -1,0 +1,92 @@
+{
+  "inputs": [
+    {
+      "id": 95217,
+      "field": "title",
+      "text": "The Quarry's Smith",
+      "englishSHA256": "8164b90f4145492da6593d6e5d4e72bfa2f9fa82ef74b62318a9846a52cf36c7"
+    },
+    {
+      "id": 95217,
+      "field": "objective",
+      "text": "Collect 12 Copper Bars and 4 Toughened Boar Hides and deliver them to Frast Dokner.",
+      "englishSHA256": "8b4547251df70e702d02684ab203e86d74fa10e0ecbd4ba2fd52d8cea14ce17e"
+    },
+    {
+      "id": 95217,
+      "field": "progress",
+      "text": "Don't slack off, <name>. Smithin' isn't for the lazy!",
+      "englishSHA256": "a437dc0c78c4e404b00e5df73ec1fe68f364594497ef42464bca242ae1e05c2f"
+    },
+    {
+      "id": 95217,
+      "field": "complete",
+      "text": "You're a resourceful one, <name>.\n\nNow listen up - I'm not going to repeat myself!",
+      "englishSHA256": "25eb49aac1d99ffddbf6d8a7ade307c35f9bfd0a24bcb6ca7c20f92fbfc46da4"
+    },
+    {
+      "id": 95217,
+      "field": "detail",
+      "text": "So you're looking to learn the blacksmith's trade? Maybe we can help each other.\n\nThe supply shipment's late, and I need materials for some repairs around the camp. If you get me what I need, I'll teach you some of my techniques. Sound fair?",
+      "englishSHA256": "4821622e48394664eeecb6da3719ef1cdded4a1797717a61116d753a2a66a86b"
+    }
+  ],
+  "request": {
+    "text": [
+      "The Quarry's Smith",
+      "Collect 12 Copper Bars and 4 Toughened Boar Hides and deliver them to Frast Dokner.",
+      "Don't slack off, <name>. Smithin' isn't for the lazy!",
+      "You're a resourceful one, <name>.\n\nNow listen up - I'm not going to repeat myself!",
+      "So you're looking to learn the blacksmith's trade? Maybe we can help each other.\n\nThe supply shipment's late, and I need materials for some repairs around the camp. If you get me what I need, I'll teach you some of my techniques. Sound fair?"
+    ],
+    "context": "So you're looking to learn the blacksmith's trade? Maybe we can help each other.\n\nThe supply shipment's late, and I need materials for some repairs around the camp. If you get me what I need, I'll teach you some of my techniques. Sound fair?",
+    "targetLangs": [
+      "MY"
+    ]
+  },
+  "response": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Notice: the DeepL Free plan does not support the parameter context. DeepL translated without it. This parameter is available on DeepL Pro."
+      },
+      {
+        "type": "text",
+        "text": "{\"translations\":[{\"targetLang\":\"MY\",\"translations\":[{\"detectedSourceLanguage\":\"EN\",\"text\":\"The Quarry \\u101B\\u1032\\u1037 \\u1005\\u1019\\u1005\\u103A\"},{\"detectedSourceLanguage\":\"EN\",\"text\":\"\\u1000\\u103C\\u1031\\u1038\\u1014\\u102E\\u1018\\u102C\\u1038 \\u1041\\u1042 \\u1001\\u103B\\u1031\\u102C\\u1004\\u103A\\u1038\\u1014\\u103E\\u1004\\u1037\\u103A \\u1001\\u102D\\u102F\\u1004\\u103A\\u1001\\u1036\\u1037\\u101E\\u1031\\u102C \\u101D\\u1000\\u103A\\u1021\\u101B\\u1031\\u1001\\u103D\\u1036 \\u1044 \\u1001\\u102F\\u1000\\u102D\\u102F \\u1005\\u102F\\u1006\\u1031\\u102C\\u1004\\u103A\\u1038\\u1015\\u103C\\u102E\\u1038 Frast Dokner \\u1011\\u1036 \\u1015\\u102D\\u102F\\u1037\\u1006\\u1031\\u102C\\u1004\\u103A\\u1015\\u102B\\u104B\"},{\"detectedSourceLanguage\":\"EN\",\"text\":\"\\u1019\\u1015\\u103B\\u1004\\u103A\\u1038\\u1015\\u102B\\u1014\\u1032\\u1037\\u104A \\u003Cname\\u003E\\u104B \\u101E\\u1036\\u1019\\u100F\\u102D\\u101C\\u102F\\u1015\\u103A\\u1001\\u103C\\u1004\\u103A\\u1038\\u101F\\u102C \\u1015\\u103B\\u1004\\u103A\\u1038\\u1010\\u1032\\u1037\\u101E\\u1030\\u1010\\u103D\\u1031\\u1021\\u1010\\u103D\\u1000\\u103A \\u1019\\u101F\\u102F\\u1010\\u103A\\u1018\\u1030\\u1038\\u104B\"},{\"detectedSourceLanguage\":\"EN\",\"text\":\"\\u1019\\u1004\\u103A\\u1038\\u1000 \\u1021\\u101B\\u1004\\u103A\\u1038\\u1021\\u1019\\u103C\\u1005\\u103A\\u101B\\u103E\\u102C\\u1010\\u1010\\u103A\\u101E\\u1030\\u1010\\u1005\\u103A\\u101A\\u1031\\u102C\\u1000\\u103A\\u1015\\u102B\\u104A \\u003Cname\\u003E\\u104B\\n\\n\\u1021\\u1001\\u102F\\u1010\\u1031\\u102C\\u1037 \\u1014\\u102C\\u1038\\u1011\\u1031\\u102C\\u1004\\u103A\\u1015\\u102B - \\u1004\\u102B \\u1015\\u103C\\u1014\\u103A\\u1019\\u1015\\u103C\\u1031\\u102C\\u1010\\u1031\\u102C\\u1037\\u1018\\u1030\\u1038!\"},{\"detectedSourceLanguage\":\"EN\",\"text\":\"\\u101E\\u1036\\u1019\\u100F\\u102D\\u101C\\u102F\\u1015\\u103A\\u1004\\u1014\\u103A\\u1038\\u1000\\u102D\\u102F \\u101E\\u1004\\u103A\\u101A\\u1030\\u1001\\u103B\\u1004\\u103A\\u1010\\u102C\\u101C\\u102C\\u1038\\u104B \\u1000\\u103B\\u103D\\u1014\\u103A\\u1010\\u1031\\u102C\\u103A\\u1010\\u102D\\u102F\\u1037 \\u1021\\u1015\\u103C\\u1014\\u103A\\u1021\\u101C\\u103E\\u1014\\u103A \\u1000\\u1030\\u100A\\u102E\\u1014\\u102D\\u102F\\u1004\\u103A\\u1019\\u101A\\u103A\\u1011\\u1004\\u103A\\u1010\\u101A\\u103A\\u104B\\n\\n\\u1015\\u1005\\u1039\\u1005\\u100A\\u103A\\u1038\\u1015\\u102D\\u102F\\u1037\\u1006\\u1031\\u102C\\u1004\\u103A\\u101B\\u1031\\u1038\\u1014\\u1031\\u102C\\u1000\\u103A\\u1000\\u103B\\u1014\\u1031\\u1015\\u103C\\u102E\\u1038 \\u1005\\u1001\\u1014\\u103A\\u1038\\u1021\\u1010\\u103D\\u1004\\u103A\\u1038 \\u1015\\u103C\\u102F\\u1015\\u103C\\u1004\\u103A\\u1011\\u102D\\u1014\\u103A\\u1038\\u101E\\u102D\\u1019\\u103A\\u1038\\u101B\\u1031\\u1038\\u1021\\u1010\\u103D\\u1000\\u103A \\u101C\\u102D\\u102F\\u1021\\u1015\\u103A\\u1010\\u1032\\u1037 \\u1015\\u1005\\u1039\\u1005\\u100A\\u103A\\u1038\\u1010\\u103D\\u1031\\u101B\\u103E\\u102D\\u1010\\u101A\\u103A\\u104B \\u1019\\u1004\\u103A\\u1038\\u101C\\u102D\\u102F\\u1021\\u1015\\u103A\\u1010\\u102C\\u1010\\u103D\\u1031\\u1000\\u102D\\u102F \\u101B\\u101A\\u1030\\u1015\\u1031\\u1038\\u1014\\u102D\\u102F\\u1004\\u103A\\u101B\\u1004\\u103A \\u1000\\u103B\\u103D\\u1014\\u103A\\u1010\\u1031\\u102C\\u1037\\u103A\\u1014\\u100A\\u103A\\u1038\\u101C\\u1019\\u103A\\u1038\\u1010\\u1001\\u103B\\u102D\\u102F\\u1037\\u1000\\u102D\\u102F \\u101E\\u1004\\u103A\\u1015\\u1031\\u1038\\u1019\\u101A\\u103A\\u104B \\u1000\\u1031\\u102C\\u1004\\u103A\\u1038\\u101C\\u102C\\u1038\\u104B\"}]}],\"ignoredParameters\":[\"context\"]}"
+      }
+    ],
+    "structuredContent": {
+      "translations": [
+        {
+          "targetLang": "MY",
+          "translations": [
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "The Quarry ရဲ့ စမစ်"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "ကြေးနီဘား ၁၂ ချောင်းနှင့် ခိုင်ခံ့သော ဝက်အရေခွံ ၄ ခုကို စုဆောင်းပြီး Frast Dokner ထံ ပို့ဆောင်ပါ။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "မပျင်းပါနဲ့၊ <name>။ သံမဏိလုပ်ခြင်းဟာ ပျင်းတဲ့သူတွေအတွက် မဟုတ်ဘူး။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "မင်းက အရင်းအမြစ်ရှာတတ်သူတစ်ယောက်ပါ၊ <name>။\n\nအခုတော့ နားထောင်ပါ - ငါ ပြန်မပြောတော့ဘူး!"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "သံမဏိလုပ်ငန်းကို သင်ယူချင်တာလား။ ကျွန်တော်တို့ အပြန်အလှန် ကူညီနိုင်မယ်ထင်တယ်။\n\nပစ္စည်းပို့ဆောင်ရေးနောက်ကျနေပြီး စခန်းအတွင်း ပြုပြင်ထိန်းသိမ်းရေးအတွက် လိုအပ်တဲ့ ပစ္စည်းတွေရှိတယ်။ မင်းလိုအပ်တာတွေကို ရယူပေးနိုင်ရင် ကျွန်တော့်နည်းလမ်းတချို့ကို သင်ပေးမယ်။ ကောင်းလား။"
+            }
+          ]
+        }
+      ],
+      "ignoredParameters": [
+        "context"
+      ]
+    },
+    "isError": false
+  }
+}

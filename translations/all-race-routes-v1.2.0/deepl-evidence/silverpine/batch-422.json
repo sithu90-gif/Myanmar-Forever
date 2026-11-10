@@ -1,0 +1,78 @@
+{
+  "inputs": [
+    {
+      "id": 422,
+      "field": "title",
+      "english": "Arugal's Folly",
+      "englishSHA256": "415d31278a0bd599615a8e5f273ceca3f9474f5c17f596d520abf829e15846da"
+    },
+    {
+      "id": 422,
+      "field": "detail",
+      "english": "How Arugal gained acceptance within the Kirin Tor is beyond me.  His spell-casting knowledge seemed as transparent as a blown glass bauble.\n\nWhat's important now is learning exactly what magic Arugal used so that I can turn it against him and secure Silverpine Forest for the Dark Lady.\n\nArugal first stayed at the wheat farm just north of the bridge.  One of the Deathstalkers reported seeing some spellbooks but could not secure them.  Retrieve for me the spell labeled Remedy of Arugal from those books.",
+      "englishSHA256": "2630dc131ab48a998244fe5a219dca630db532c81d85aed096c49c4328defa27"
+    },
+    {
+      "id": 422,
+      "field": "objective",
+      "english": "Retrieve the Remedy of Arugal for Dalar Dawnweaver at the Sepulcher.",
+      "englishSHA256": "49069832790e08e1e88ea5172439f37511eeb77dbfa453a97890a53add1ee6f3"
+    },
+    {
+      "id": 422,
+      "field": "progress",
+      "english": "Before I know what we are dealing with here, <class>, I need to study the spell known as Remedy of Arugal.  Bring it to me now or I shall be forced to find myself a worthy servant.",
+      "englishSHA256": "90d650a0f22dd4b8b6222a09b14564bc1391af8c3a7afa2833d79894688bd2bf"
+    },
+    {
+      "id": 422,
+      "field": "complete",
+      "english": "This is precisely the spell I was in search of, <class>.  If your dedication to The Dark Lady's cause remains infallible you will find you have quite a future amongst The Forsaken.",
+      "englishSHA256": "bb8b2514a97c3183c0eb7988f1c60a02cec5146a57f8dc2aeb970f755762b016"
+    }
+  ],
+  "request": {
+    "targetLangs": [
+      "MY"
+    ],
+    "context": "How Arugal gained acceptance within the Kirin Tor is beyond me.  His spell-casting knowledge seemed as transparent as a blown glass bauble.\n\nWhat's important now is learning exactly what magic Arugal used so that I can turn it against him and secure Silverpine Forest for the Dark Lady.\n\nArugal first",
+    "customInstructions": [
+      "Preserve placeholders and exact numbers. Keep proper names of NPCs, factions, locations, spell and item names, and creatures in English. Preserve the quest giver’s dry, dismissive voice."
+    ]
+  },
+  "response": {
+    "structuredContent": {
+      "translations": [
+        {
+          "targetLang": "MY",
+          "translations": [
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "အာရူဂယ်၏ အမှား"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "Arugal က ဘယ်လိုနည်းဖြင့် Kirin Tor အဖွဲ့ထဲမှာ လက်ခံခံရတာလဲဆိုတာ ကျွန်တော် မနားလည်ပါဘူး။ သူ့ရဲ့ မန္တလေးကျကျကျွမ်းကျင်မှုကတော့ ဖောင်းထုတ်ထားတဲ့ ဖန်ပုလင်းကလေးလိုပဲ ပြတ်သားရှင်းလင်းနေခဲ့တယ်။\n\nယခုအရေးကြီးတာကတော့ Arugal က ဘယ်လိုမန္တလေးတွေ သုံးခဲ့တာလဲဆိုတာကို တိတိကျကျ သိရှိပြီး၊ အဲဒီမန္တလေးတွေကို သူ့ကိုယ်သူ ဆန့်ကျင်အသုံးချကာ Dark Lady အတွက် Silverpine တောကို ထိန်းချုပ်နိုင်ဖို့ပါ။\n\nArugal သည် တံတားမြောက်ဘက်ရှိ ဂျုံစိုက်ပျိုးခြံတွင် ပထမဆုံးနေထိုင်ခဲ့သည်။ Deathstalkers တစ်ဦးက မှော်စာအုပ်အချို့ကို မြင်တွေ့ခဲ့သော်လည်း ထိန်းယူ၍ မရနိုင်ခဲ့ကြောင်း တင်ပြခဲ့သည်။ ထိုစာအုပ်များထဲမှ \"Arugal ၏ ကုသနည်း (Remedy of Arugal)\" ဟု အမည်ပေးထားသော မှော်ကို ငါ့အတွက် ယူဆောင်လာပါ။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "Sepulcher တွင် Dalar Dawnweaver အတွက် Arugal ၏ ဆေးဝါးကို ရယူပါ။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "ဒီမှာ ကျွန်တော်တို့ ဘာကို ရင်ဆိုင်နေရတာလဲဆိုတာ မသိခင်၊ <class>၊ ကျွန်တော်က Remedy of Arugal လို့ခေါ်တဲ့ မန္တရားကို လေ့လာဖို့ လိုတယ်။ အခုချက်ချင်း ယူလာပါ၊ မဟုတ်ရင် ကျွန်တော် တန်ဖိုးရှိတဲ့ ဝန်ထမ်းတစ်ယောက်ကို ရှာဖွေဖို့ မဖြစ်မနေဖြစ်သွားမယ်။"
+            },
+            {
+              "detectedSourceLanguage": "EN",
+              "text": "ဤသည်မှာ ကျွန်ုပ် ရှာဖွေနေခဲ့သော မှော်တစ်ခုဖြစ်ပါသည်၊ <class>။  မင်းသည် မှောင်မယ်တော်၏ ရည်ရွယ်ချက်အတွက် မပြိုမကျ ဆက်လက်ထောက်ခံပါက၊ The Forsaken အဖွဲ့အတွင်း မင်းအတွက် အနာဂတ်ကြီးတစ်ခု ရှိလာမည်ကို တွေ့မြင်ရမည်။"
+            }
+          ]
+        }
+      ],
+      "ignoredParameters": [
+        "context",
+        "customInstructions"
+      ]
+    }
+  }
+}
