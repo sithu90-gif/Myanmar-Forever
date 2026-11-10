@@ -1,8 +1,9 @@
 """Compose source-reviewed translation packs into a manifest-selected release.
 
 The checked-in 0.6.2 folder remains a released snapshot. Release composition is
-explicit: additions cannot replace an existing quest, and field overrides must
-name an existing unavailable field. Private SavedVariables are never packaged.
+explicit: additions cannot replace an existing quest. Overrides fill unavailable
+fields or correct reviewed text whose prior hash matches the pack. Private
+SavedVariables are never packaged.
 """
 from __future__ import annotations
 
@@ -93,6 +94,9 @@ def compose(manifest):
         reviews={str(r['id']):r for r in read(directory/'review-audit.json')}
         added=pack.get('drafts',{})
         changed=pack.get('overrides',{})
+        prior_hashes=pack.get('overridePriorSHA256',{})
+        for qid,fields in prior_hashes.items():
+            assert fields and fields.keys()<=changed.get(qid,{}).keys(),(qid,'Unused prior override hash')
         assert not set(added)&set(drafts),('Duplicate/addition collision',relative,set(added)&set(drafts))
         assert len(pack['rows'])==len(added)==len({str(r['id']) for r in pack['rows']})
         assert set(added)=={str(r['id']) for r in pack['rows']}
@@ -108,7 +112,13 @@ def compose(manifest):
             assert sources[qid]['english']['title']==next(r['en'] for r in rows if str(r['id'])==qid)
             for field,text in fields.items():
                 assert (qid,field) not in overrides,(qid,field,'Duplicate override')
-                assert drafts[qid].get(field) is None and text,(qid,field,'Override would change an existing translation')
+                assert field in drafts[qid] and text,(qid,field,'Invalid override field')
+                previous=drafts[qid][field]
+                expected_hash=prior_hashes.get(qid,{}).get(field)
+                if previous is None:
+                    assert expected_hash is None,(qid,field,'Expected prior translation is missing')
+                else:
+                    assert expected_hash==text_sha(previous),(qid,field,'Override requires the exact prior translation hash')
                 overrides[(qid,field)]=text
             validate_fields(qid,fields,sources[qid],reviews[qid],holds)
         issues=lint(added|changed,pack['pronunciations'],pack.get('annotationExceptions',{}))
