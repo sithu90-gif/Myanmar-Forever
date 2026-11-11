@@ -1,0 +1,798 @@
+{
+  "checkedAt": "2026-11-11",
+  "myanmarVersion": "1.2.1",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-11",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "manifestSHA256": "9d7dcb3eb5c85128e52b80e10ca1a1d452120f34db6fc0475f54f4feef724203",
+  "upstreamFactionEntries": {
+    "Alliance": 1373,
+    "Horde": 1349,
+    "Both": 3492
+  },
+  "coverage": {
+    "myanmarQuestIDs": 986,
+    "translatedFields": {
+      "title": 986,
+      "detail": 968,
+      "objective": 968,
+      "progress": 734,
+      "complete": 957
+    },
+    "translatedFieldTotal": 4613,
+    "availableDialogueStates": 2659,
+    "absentOrHeldDialogueStates": 299,
+    "uaUniqueQuestIDs": 6214,
+    "overlapQuestIDs": 985,
+    "uaQuestIDsMissingFromMyanmar": 5229,
+    "myanmarQuestIDsAbsentFromUA": [
+      93161
+    ],
+    "shareOfUAQuestIDsPercent": 15.85,
+    "titleMatches": {
+      "case_only": 6,
+      "documented_alias": 3,
+      "exact": 976
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 590,
+        "en": "A Rogue's Deal",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "documentedHold": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "documentedHold": "Public reference concatenates male and female replies."
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "documentedHold": "Fixed player name Rangrang in the public reference; live substitution unverified."
+      },
+      {
+        "id": 3099,
+        "en": "Tainted Scroll",
+        "field": "progress",
+        "documentedHold": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "documentedHold": "Fixed player name Ferlis in the public reference; live substitution unverified."
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "documentedHold": "Race marker describes the NPC, while the reader expands player race."
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "documentedHold": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "documentedHold": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "documentedHold": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "documentedHold": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "documentedHold": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+      }
+    ],
+    "regionCounts": {
+      "Brill / Tirisfal Glades": 94,
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 69,
+      "Deathknell → Brill": 24,
+      "Dun Morogh": 45,
+      "Durotar": 37,
+      "Duskwood": 77,
+      "Elwynn Forest": 54,
+      "Elwynn Forest / Camping": 4,
+      "Elwynn Forest → Stormwind → Loch Modan": 1,
+      "Loch Modan": 41,
+      "Mulgore": 37,
+      "Mulgore / Thunder Bluff": 3,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Silverpine Forest": 11,
+      "Stormwind": 3,
+      "Stormwind / Deadmines": 3,
+      "Teldrassil": 39,
+      "The Barrens": 80,
+      "Thunder Bluff": 1,
+      "Valley of Trials": 13,
+      "Westfall": 48,
+      "Westfall / Stormwind / Deadmines": 6,
+      "Zephras Isle": 101,
+      "Zephras Isle → faction departure": 50
+    }
+  },
+  "titleMismatches": [],
+  "changesSincePreviousCatalog": {
+    "addedQuestIDs": [],
+    "removedQuestIDs": [],
+    "changedQuestRecords": [
+      {
+        "id": 100,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 176,
+        "fields": [
+          "en"
+        ]
+      },
+      {
+        "id": 220,
+        "fields": [
+          "detail",
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 375,
+        "fields": [
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 710,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 769,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 818,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 921,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 929,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 933,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 934,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 935,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 944,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 960,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 961,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 1073,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 1103,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 1195,
+        "fields": [
+          "detail",
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 1196,
+        "fields": [
+          "detail",
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 1526,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 1534,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 1705,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 1838,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 2201,
+        "fields": [
+          "detail",
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 2609,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 2926,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 2962,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 3375,
+        "fields": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 3568,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 4783,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 7383,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 7889,
+        "fields": [
+          "title"
+        ]
+      },
+      {
+        "id": 9267,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 79593,
+        "fields": [
+          "title"
+        ]
+      },
+      {
+        "id": 92749,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94004,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94213,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 94216,
+        "fields": [
+          "title",
+          "detail"
+        ]
+      },
+      {
+        "id": 94217,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 94232,
+        "fields": [
+          "title",
+          "detail"
+        ]
+      },
+      {
+        "id": 94247,
+        "fields": [
+          "title",
+          "detail"
+        ]
+      },
+      {
+        "id": 94257,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 94467,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94503,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98046,
+        "fields": [
+          "detail"
+        ]
+      },
+      {
+        "id": 98386,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 99159,
+        "fields": [
+          "title"
+        ]
+      },
+      {
+        "id": 99160,
+        "fields": [
+          "objective"
+        ]
+      }
+    ]
+  },
+  "changedRecordsInMyanmar": [
+    {
+      "id": 176,
+      "fields": [
+        "en"
+      ]
+    },
+    {
+      "id": 375,
+      "fields": [
+        "objective",
+        "progress"
+      ]
+    },
+    {
+      "id": 818,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 921,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 929,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 933,
+      "fields": [
+        "objective"
+      ]
+    },
+    {
+      "id": 934,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 935,
+      "fields": [
+        "detail"
+      ]
+    },
+    {
+      "id": 944,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 7383,
+      "fields": [
+        "detail",
+        "objective"
+      ]
+    },
+    {
+      "id": 92749,
+      "fields": [
+        "objective"
+      ]
+    },
+    {
+      "id": 99159,
+      "fields": [
+        "title"
+      ]
+    },
+    {
+      "id": 99160,
+      "fields": [
+        "objective"
+      ]
+    }
+  ],
+  "plannedQuestChecks": [
+    {
+      "id": 437,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Dead Fields"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 438,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Decrepit Ferry"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 439,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Rot Hide Clues"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 443,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Rot Hide Ichor"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 444,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Rot Hide Origins"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 446,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Thule Ravenclaw"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 448,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Report to Hadrec"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 95495,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Hermit Tanner"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 95508,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Unwelcome Guests"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 95621,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trouble in the Valley"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 96821,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Legging It"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 96822,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "For Honor"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 98042,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "It's All Fun and Games Until..."
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 98046,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Crown of the Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 98065,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Crown of the Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": false
+    }
+  ],
+  "reviewStatus": "Changed UA text and field gaps are candidates for an English-source recheck.",
+  "chainVerification": "UA membership is checked per planned step. Chain edges require quest metadata and English evidence."
+}

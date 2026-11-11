@@ -83,6 +83,8 @@ The [earlier CurseForge 0.6.2 package](https://www.curseforge.com/wow/addons/mya
 
 ## Translation and feedback
 
+Every batch includes a counter-check against the latest official UA_Forever release under the workflow in [AGENTS.md](AGENTS.md). The comparison records the upstream version, commit, hashes, quest IDs and per-field gaps. [Latest counter-check](docs/coverage/ua-countercheck-1.2.1-2026-11-11.json)
+
 English quest text controls meaning. UA_Forever is a secondary quest identity/state reference; its Ukrainian wording is not the source of Myanmar prose. Missing English states and unresolved branches remain explicit.
 
 Please report quest ID/title, the dialogue state and the original English when requesting a correction. Review captures for personal information before sharing. Screenshots help with font and layout issues.
