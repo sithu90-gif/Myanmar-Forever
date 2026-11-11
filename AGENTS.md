@@ -7,3 +7,5 @@ Compare the actual composed Myanmar release and every planned quest ID against t
 Review new or changed UA entries against current English quest references and sanitized live captures. English controls the meaning of the Myanmar translation. Use installed quest metadata and current English sources to check chain links and live captures to resolve uncertain branches. Record a quest absent from UA as an exception when independent English evidence supports it.
 
 Keep unavailable or conflicting fields explicit. Preserve names, quantities, directions, stage instructions and supported substitution markers. State native proofreading and current live verification separately from source and machine checks.
+
+Use one daily batch of 50–100 quests during active working sessions. Start with 50 and expand toward 75–100 when source verification and review permit. Translate in groups of 5–10 connected quests. Perform a separate English/Myanmar review pass on every group, including names, quantities, directions, NPC voice, placeholders and each available dialogue state. Assemble the daily release after the groups pass validation and report unresolved fields with their evidence.
