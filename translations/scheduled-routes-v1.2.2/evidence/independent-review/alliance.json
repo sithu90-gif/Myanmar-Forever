@@ -1,0 +1,673 @@
+{
+  "partition": "alliance",
+  "reviewType": "independent assisted English/Myanmar semantic and source-boundary review",
+  "reviewer": "daily_independent_review agent; independent from partition author",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceFiles": {
+    "english-sources.json": "7263d40b2f6c78ee4dae36b2bed06a9d2970a5c1dc08e5990f0d35879b1ef817",
+    "edited.json": "25a110230976e7fd5543934da2cf380e11f21fa3c421178e230b94a16a7170eb"
+  },
+  "questCount": 13,
+  "enabledFieldCount": 59,
+  "correctionFieldCount": 3,
+  "sourceBoundaryChecks": "Independently read preserved Wowhead HTML dialogue boundaries for all13 quests. Normalized exact comparison passed each Description and each available Progress/Completion; special direct-heading Progress of91736/91738 is bounded before table. Shiny Red Apple(4) and Thunder Applejack(1) UI requirements excluded. Null offers/objectives for those repeatables legitimate;97236/99053 progress absent. Supported name/class markers and stage-direction angle counts exact. Manually read quantities including two watch members, one page, three residues and all directional/conditional instructions.",
+  "quests": [
+    {
+      "id": 490,
+      "en": "Bounty: Gnarlpine Furbolg",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Current Bounty title and 15 fangs retained, strict Sentinel bounty without invented capture alternative, corrupted former friends and reward proof. Ban'ethil Hollow west of Dolanaar/south of road and eastern Starbreeze both present. UA <UNUSED> provenance is obsolete, not an enabled runtime alias. Current objective quantity is 15, not historical20.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "be42a30d820fc32e6a441ff388cd9f8d1b0147320a10af2a0e3f55522c8f35ea",
+          "myanmarSHA256": "ee2ab3cae155933acb1abaae4de28dc3007601dd7b790da90426cba5753def08"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "1e636f4fa16aeb33c26733d3237d6870e54c53d236f6d5d277bc02ec968e4b04",
+          "myanmarSHA256": "4cab294134a69f7c1b48b17bd0dcf651a2859382006048179c1752d65ba64cd8"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "29ae5c00cd6b0ac38e5087b9436f8ed286eadf35539e31e24ea441b81e602c0f",
+          "myanmarSHA256": "870751173df62fe4eb7f060bb0062532a4038bddf9c7b2050f541a22cf6a3c92"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "0a24f330a0fc4ab7edfadcd569f146851ed289688c859901566da9de592109a5",
+          "myanmarSHA256": "84dcca49a006828e81bb27a9367936395d2ea1b08f2be2fdd38474455ab178fe"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "372e06ac3253c460fb9dfc5c35efcd84a7fd7b60401ead4ce02a8985febcb28a",
+          "myanmarSHA256": "2b123955153cf16ef3c3aa79b7ffc11591d202b31d61c3cdbfbf03bfb658782d"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 87288,
+      "en": "Soft Saber Pelts",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Friendly small rustic Dolanaar trader voice, tools/trinkets/barter, six exact Soft Nightsaber Pelts to Aldria, local aggressiveness/self-defense reassurance retained. Completion preserves majestic-animal regret, safe roads, blankets/shawls and unnamed soft/sturdy reward.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "660594981b8a8aae4d1c03882e8f2f41e4c39d198091f168db744e379f8dd921",
+          "myanmarSHA256": "bdbd889a9c30c310c8a5f8d3a8c466bc1ce028df032a764d7bffd1fab476801c"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "d3fe4b3a902a96b52bb413e98500d5aed71ff885920a83b9efba0b01384ea921",
+          "myanmarSHA256": "164f7eb75f7018b20a08ca4c054632e5a952a0601f5a77866123053176603bc5"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "580a65b18dd7bea0c78477c818f3fda2bd2e9ec1feb1b5625074380eeb876fa0",
+          "myanmarSHA256": "85207b22c63b405f5d2ab0312b0e33f9d3a537fc5b9d0be9e55e20c169a4492c"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "4fb8ab27f9bf8e33fb01e9ed0d3ef33dd98233e86cd4a0bef1ed88461ea36831",
+          "myanmarSHA256": "67e638b2c16558c95e0be91d96328cdacfdee8678664d112e611fff794925c22"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "00c4f54e3a3384b2eb5a33ff6ec202e6065de73418a550408589c88aaff14bd2",
+          "myanmarSHA256": "768274b1252a85bae106c0b4e0b316893767d65806306463813eb88b999c9067"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 91736,
+      "en": "Applejack Still",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all three enabled fields. Exact identifying still title; apple scent burns nose during device inspection and machine dispenses clear liquid into bottle, ellipsis retained. Independently inspected immediate Progress heading and stopped before four-apple UI item table. No offer/objective in preserved English, both correctly null. Optional repeatable coverage, not verified live.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "76dacc6d5af259b6e015b008aa0bcd938f22cdb9988a563c1c2d98a5819d01a8",
+          "myanmarSHA256": "3e23f484a2900976c7b03c62ca7e3edaf975ed4c307f5b0db1c5ec54f85b973f"
+        },
+        "detail": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "2520210d851a219a598ccdcf66c4606cab8dcd7b150e2ebac556ff9f04336405",
+          "myanmarSHA256": "a73c949a9bae73f93bcf665a9cf809947fcde32fdad178c97ff936f47c660f04"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "7074b61f0e0ecb8fe81a2d084129ce6b99fee9c3584c5afbe56a5be73a6a240d",
+          "myanmarSHA256": "5d6c5594bb8eb8ea49cae21017032be83cfaeb54d0890057892715d23f3be61c"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 91738,
+      "en": "An Apple Treat",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all three enabled fields. Apple treat title interpreted as a pleasant offering, not an invented named food. Sergeant eyes lighting up on noticing bottle, surprised question, months without a drop, troops' smiles and class marker retained. Inspected immediate Progress heading before one-bottle UI table; null offer/objective legitimate. Optional repeatable coverage, not verified live.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "82fcc19c2048f3e5b5fea579af8d5cc8a14e2adc921a323f6340d96e010284a0",
+          "myanmarSHA256": "543a1de27efa4eff90f18534d3530e463a695213f333e08aa1c421983814a02f"
+        },
+        "detail": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "0243c93714c091e513e1646e03e0d198b291b3bf140c3afc715d33f59a5fc19b",
+          "myanmarSHA256": "a814013ac8e79f7d6b8774891964e527c7f1d50bdc475a260d3e13bda835a186"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "e94f2f66fc82cb2cce8e2cf2ef8eb31417d5e6114a92cb76e1a3c4ff686b2cec",
+          "myanmarSHA256": "02ea8799bf6fc9f6c2b508bdf7830ebda230b7aa5e8b59caa93d7a38356dc8aa"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 91740,
+      "en": "Croaky's Head",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Exact Croaky's Head item, Merell Ross at Ridgepoint Tower; local murloc terror and tentative guard interest retained. Completion says two watch members last week, not yesterday; hope/leader-dead condition and Elwynn destination intact.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "7c38a2cd6d7567b9b9b43b53efcacbf89f837119efc94796995c880881fdbd49",
+          "myanmarSHA256": "1c1b3d3c6077d8a4a5ccddf9aff1ba4ef3875cac595710ae6620c65d9ef46262"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "66ba374dc58fe416386d58025e4633d0db9521042b26ccabd2060800f833b5da",
+          "myanmarSHA256": "40d0791fc4406b744757953d0591070e9f6f66ad5b5d602bdec47fc1f651869d"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "612663226d77e1b480ffc81515ef4e814eb87daeb24328745398485be22e2018",
+          "myanmarSHA256": "63bbf35bd06003dc7093257ae2a7a4fba03e06b95dcb3079d5be7dd2522c16c5"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+          "myanmarSHA256": "30f45747ad967baf22851518633bde15feae1df7a2f18ef6b55ad7a9dce3bb59"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "5b8c7ef677979d8ec8bc024ab62a008f4c516f9fc0cf1732c36193a049385323",
+          "myanmarSHA256": "e828437b340fdf725055805641f40606714d7b51f268c21eee9bdf76eba14a78"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 91746,
+      "en": "Elmpaw's Head",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Exact Elmpaw's Head, Helene Peltskinner near Goldshire; impressive trophy and tentative hunter/skinner interest retained. Praise, exact name marker, preparation and collectors paying well for mantel display preserved, without invented currency amount.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "8f4bbba756b377491b96bd2758a8946b989b59e2fbd7acc47231794603157fb6",
+          "myanmarSHA256": "b5b90e265853dd7d143d5ae270abd1510b2e4bc205f646eeda1a180d918a6d36"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "19eb24cff6a330f86b8f6cfc1d95e8b13d76ebff9c0fd7242ad1ebdccb3ec583",
+          "myanmarSHA256": "ef2f0e34834320f9f2b14988224598d729df7cf35d49e69e202e490a79f51ca5"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "280cd669ba363645b5ae180f1c753b7a6fdec9ff1fa581509560aa3cce370a28",
+          "myanmarSHA256": "dc3e64c17c78f53d016768ad27607ba130d02e6028400817ac37e0c359c28f29"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+          "myanmarSHA256": "30f45747ad967baf22851518633bde15feae1df7a2f18ef6b55ad7a9dce3bb59"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c36ea1cd272e07f6dfa4c627fd08159c8bc2377714736d0609ac3cc7c22a4369",
+          "myanmarSHA256": "361c2ea71d86b3092f8cfa987a07af61dcc578c8b080c4aac09fa922837882cd"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 91753,
+      "en": "An Enchanting Lesson",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Academic/practical contrast, uneducated Kobold innate minor-magic aptitude, wax effigy enchantment dismantling, three residues from disenchanting Geomancer drops and two-sides-of-a-coin analogy retained. Requested academic wording correction to avoid literary-theory narrowing; requested shared Luminous Residue pronunciation reconciliation.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5f5601dcfc66103635f0ed482c9a46d747a549f5b41df9812694932cf552054f",
+          "myanmarSHA256": "26907991d8ec03917c967b5a62b1e49bcb56851bc1eeb55d2d8846dcca69800b"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "14a95b2367b6605607f2283b3632007c6fcaeb8a66dd076a8e1f49fda065dc7b",
+          "myanmarSHA256": "14c962fe960202ecbbabd94a100f73a14e71d1e6b902f60040ca8c9d82ca04e9"
+        },
+        "objective": {
+          "status": "correction requested",
+          "englishSHA256": "6133b2be5ed68eae42ba73714018614eacbc31e3d2f214a6acbdae48f4d35955",
+          "myanmarSHA256": "0688b313edd298b7a3897836d4f717a3ca687fc196868effe7e4b96c1a0716d8"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "618f382b8c92eb1b2e7949b982882ec10c577e7accc7114276b01d5743da5b85",
+          "myanmarSHA256": "20954e676bb5092c0a6876c5c61d741773ec6806ee51786a5cc5375a481b507f"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "d4c9ee9638a34f662532375701d2317460f6ea0120226b484852cadac417a068",
+          "myanmarSHA256": "eb77ae9115b41103a769908f38005828ad7273ae8ecc5e0b36fbae650dc4f6cc"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishEvidence": "Academic rigor is of course essential to the enchanter's craft",
+          "reason": "စာပေသီအိုရီ can mean literary theory; the source calls for rigorous scholarly study of enchanting, not literary study. Preserve source-specific academic/practical contrast.",
+          "englishSHA256": "14a95b2367b6605607f2283b3632007c6fcaeb8a66dd076a8e1f49fda065dc7b",
+          "reviewedMyanmarSHA256": "14c962fe960202ecbbabd94a100f73a14e71d1e6b902f60040ca8c9d82ca04e9",
+          "old": "မှော်အစွမ်းသွင်းပညာရပ်အတွက် စာပေသီအိုရီကို စနစ်တကျ တိတိကျကျ လေ့လာဖို့ လိုတာတော့ မှန်ပါတယ်။",
+          "new": "မှော်အစွမ်းသွင်းပညာရပ်အတွက် စနစ်တကျ တိတိကျကျ လေ့လာဆည်းပူးဖို့ လိုတာတော့ မှန်ပါတယ်။",
+          "proposedFullField": "မှော်အစွမ်းသွင်းပညာရပ်အတွက် စနစ်တကျ တိတိကျကျ လေ့လာဆည်းပူးဖို့ လိုတာတော့ မှန်ပါတယ်။ ဒါပေမဲ့ လက်တွေ့အခြေခံကောင်းတစ်ခုကလည်း အကျိုးများစွာ ပေးနိုင်တယ်။ ဥပမာအနေနဲ့ အနိမ့်တန်း Kobold (ကိုဘိုးလ်) ကို စဉ်းစားကြည့်ပါ။ သူတို့ဟာ ပညာကို စနစ်တကျ သင်ကြားဖူးခြင်းမရှိပေမယ့် ရိုးရှင်းတဲ့ မှော်ပညာအသေးစားတွေနဲ့ မှော်အစွမ်းသွင်းမှုတွေအတွက် မွေးရာပါ အရည်အချင်းတစ်မျိုးကို ပြသကြတယ်။\n\nသူတို့ရဲ့ ဖယောင်းရုပ်တုတချို့ကို ရယူပြီး၊ အဲဒီထဲမှာ ချည်နှောင်ထည့်သွင်းထားတဲ့ မှော်အစွမ်းတွေကို ဖြိုခွဲလေ့လာကြည့်ပါ။ သင့်အတွက် အသိအမြင် ပိုရှင်းသွားစေနိုင်တယ်။",
+          "status": "pending guarded integration by root"
+        },
+        {
+          "field": "objective",
+          "severity": "editorial correction requested",
+          "englishEvidence": "Luminous Residue",
+          "reason": "New assisted pronunciation proposals disagree across partitions: Horde 96873 uses လူးမနပ်စ် ရက်ဇီဒူး, Alliance uses လူးမီနပ်စ် ရဲဇီဒျူး. Neither is in maintained local terms. Proposed guarded reconciliation to Horde spelling for one consistent batch term, pending root spelling decision and native pronunciation review; update pronunciations/provenance too.",
+          "englishSHA256": "6133b2be5ed68eae42ba73714018614eacbc31e3d2f214a6acbdae48f4d35955",
+          "reviewedMyanmarSHA256": "0688b313edd298b7a3897836d4f717a3ca687fc196868effe7e4b96c1a0716d8",
+          "old": "Luminous Residue (လူးမီနပ်စ် ရဲဇီဒျူး)",
+          "new": "Luminous Residue (လူးမနပ်စ် ရက်ဇီဒူး)",
+          "proposedFullField": "Tower of Azora (တာဝါ အော့ဖ် အဇိုရာ) ရှိ Kitta Firewind (ကစ်တာ ဖိုင်ယာဝင်းဒ်) က Luminous Residue (လူးမနပ်စ် ရက်ဇီဒူး) ၃ ခု စုဆောင်းစေချင်သည်။\n\nKobold Geomancers (ကိုဘိုးလ် ဂျီအိုမန်ဆာစ်) များထံမှ ရရှိသော Crude Wax Effigies (ခရူးဒ် ဝက်စ် အက်ဖီဂျီစ်) များ၏ မှော်အစွမ်းကို ဖြိုခွဲထုတ်ယူခြင်းဖြင့် Luminous Residue ကို ရရှိနိုင်သည်။",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 97236,
+      "en": "Fang of Githyiss",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Fang of Githyiss identity independently annotated in title/objective, Aldrassil spider-study recipient left unnamed, fresh large specimen and tentative interest intact. NPC loves surprises and expects specimen to advance study; correctly absent progress.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "708c1e9bc06a3703dc5da82e3d1e7686ad3d8c1d188c88a53b9967c124f5086d",
+          "myanmarSHA256": "e5f91b828d040e96a11f337f89a3709c25edb5b4b3176ca731f06a1a1078df90"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "b81700ab3c56523d00b59000df534dcb9053732405972663da40205fdd422a2e",
+          "myanmarSHA256": "a3d674b2ed2ed9abfcc62b5cfb1e3a7b92ae513f2cb6c61f73eaef36e1708a46"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "28ebb95ae1209872b9a8286ecb5931c074fcd74aa98aaac8bbfb11356336e1e9",
+          "myanmarSHA256": "e8cb1d879c6cbc648d01cf4204cb1aa1ff7306b6cb56a9a526029c8e19f7fb48"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "0e4caf02fe50d14ed08770a1a2f239ad1c422c8a15d53a28c798a5d63636f9a1",
+          "myanmarSHA256": "d00dcc09f5a5b9ce0794df7a0092792ce7564cea258709516136a4c4a32bb534"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98042,
+      "en": "It's All Fun and Games Until...",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields and stage directions. Single page/uninvited foreboding mental voice and all three ominous sentences in order; Peerless Eye from either Disciple or source-shortened Thug, exact Master's Glaive/Darkshore/Auberdine task. Thundris silence, ancient-evil mark, immediate Darnassus study, class marker and farewell intact.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "2bf1993b8e8b41f518c6282430f9eff85e0ac6cb7d08c847b3e870ff4e3a6eae",
+          "myanmarSHA256": "7872cc2a4080d37b1a93903821a76349cf4d89ecb57643bdf865c7a91c18ceab"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "f47ca61065c1e16011c45a29f0adac8b4a3fce40fc7fba40b2150f03d4e19570",
+          "myanmarSHA256": "c2198b6cd5c5146c065be480a96acfbd7ad1b3b6277a61e38e86173d97332ac2"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "fc3ecb92e200f781c861300b0fe7a14d40c279675c06cde14066c6bb47911038",
+          "myanmarSHA256": "b43f9226192b1f318789a0ccbc212e016c5db5b6894c7d1239886629baec17e6"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "80ab7add17359eb39008ecc0bba939f584df3ea77222e2d8c1e5ca545255db12",
+          "myanmarSHA256": "d350e6eda80994b8b410a6c092866cf2b2bf30eae06bac1e7c456b5bb745311e"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "f01cf14e25010a593a5300a9b0f7f12a02da077da165fd7292d19e88f83c5daf",
+          "myanmarSHA256": "9ee185b5f39da99e04a43f310c68b8ad400ddec26a23247c8b23d715924d9119"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98046,
+      "en": "Crown of the Earth",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Same-title step is Drained Vessel to Lariia, independently distinct from next Moonwell Remnants delivery. Narrowed gaze, brusque dismissal, both stage directions, no answers in water as before, priestess south, final search elsewhere, Malfurion absence and remaining drops/speculative failed incantation intact. Current lowercase class controls over secondary uppercase variant.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "ab6c9168574713c081349cb296acf938c5428ea4eaeb8bc9f7196751174e4676",
+          "myanmarSHA256": "6e53074e0109f00ae35254b80e246f4a1afc418c845ce07aaac61ce1988fb845"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "e701e2d2750842c17030da29e3141693767bcd75ff123ae23152b44f5586e8fc",
+          "myanmarSHA256": "a81acb9dafdc9e8b86b8ab3703055805bc8155ce3cd1fbaed6438492f3a5a883"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d86f9bdca9756aea27de32b82046a477a5c46696df4e7ef5d61fb27568839978",
+          "myanmarSHA256": "37f1255b119af04c409f3b85c102c06980bc6a65f4c1a0258d49fa9c1990cee4"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "a9cf895193f2abb419263d6dd403c5c79f4afb460dd115412823da313fb82bf6",
+          "myanmarSHA256": "8ff2db5d9eaacebdbfc6038854b9a6bb69b3b51579bd54814912f29c748e7a01"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c5e50b56f4ef67d548d46adbf2756c05a143f8313ad906ee2bcb77c87f64f8ba",
+          "myanmarSHA256": "f8868e066a81a7a9464de93ff1765303a54d1aaeb3c3ae3d7b7dc7309cbec29b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98065,
+      "en": "Crown of the Earth",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Same-title next step sends Moonwell Remnants to Tyrande Whisperwind; immediate delivery, ceremonial container, firm/kind High Priestess, light/protection and directly above intact. Completion keeps sole civic burden, softening face/apology, temporary Arch Druid station, druid/religious/civic distinction, all drops blessed and thanks for saving water.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "ab6c9168574713c081349cb296acf938c5428ea4eaeb8bc9f7196751174e4676",
+          "myanmarSHA256": "6e53074e0109f00ae35254b80e246f4a1afc418c845ce07aaac61ce1988fb845"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "fb31e29339488636d7396e0e98b7717a9bd040634dff6fc1d21304dfe18b6ba6",
+          "myanmarSHA256": "bb609149caa8041018d825d67a99f36c16d573304ad03af20aed0b825a6bd22c"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "77495afb6a673becff63daa354b37ab4e764ea78f40ca1deec16ab6b7e4eb6a3",
+          "myanmarSHA256": "8cbc52ed20b406255e2eb430c4ad31e535dc19c926a3c5aaf4ef7fe3a84f4695"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "e27f412d4035cb3325957e20110128210f0e5bf6c62bf58276229914bf322147",
+          "myanmarSHA256": "2075ec59f3ab6559e7facfaff54097e2366c54db3728217c1dd25a54b0ecb44e"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "afcea6b5296d620094eea2f5c7dd8ef4652e82c1b14fd2b4fb570b49a61e9aa1",
+          "myanmarSHA256": "b4137dda0bc010597a0f61397b6097ebce3c525685ce4adcbb7bf24af6da462b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98403,
+      "en": "Twisted Hatred",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Lord Melenas acts for another; tentative corruption/venom plan, northwest Cleft, caution/bring allies, eight Befouled Webwoods and Xethorr's Mature Fel Moss to Tallonkai intact. Lowered voice and free Xethorr, rumor not proof, older nonoriginal sample may yield information, ordinary Darnassus study deferred for secrecy/Dolanaar reputation retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "28aa5a6aa94b72164ae6d5e591b7d92c50726862092b73473ffc8649406a47d7",
+          "myanmarSHA256": "a441b7304974c47d8c25b2ebc1a9495b7866a1de63aefec2e436a2c40692520b"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "521a00d1a50e6fdc64a9fb85130361f95ad31fa3d5281d6121ee55134c1c9073",
+          "myanmarSHA256": "ba9f5ca94bacf042a313e3d7e69a1e67e2a703f6b6adc0b5aba5256f1818867b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "29446d96bf8f049c524ae75ff8ee11fbaf384cb8b68b9b233ded3c203457f16d",
+          "myanmarSHA256": "9f38cd30eeab489c69d8f93d6b4f54d00735130bed475cba5d46b32ba8613d26"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "129d1812d6329243f38b42dea3e77e8608617e13de26af46a625a26ed270321b",
+          "myanmarSHA256": "350d2bf1030df8c48163c5522904bbfec9e97831a2c822cedfecdbd8e9270999"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "d51f0c156fedd0200ea764fe3b1a27351add7d0dc4fef08ac7d9ad17b721b30f",
+          "myanmarSHA256": "6914a8536b08f286d8a0b1067a6232c7c8d2c1a006021c976f17581ea77a128a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 99053,
+      "en": "Escaping Ban'ethil",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Oracle Tree message for sleeping druids, fight downward, ambush/captivity, underground dislike for kaldorei, Sentinel Lynessa escort and report safety to Sentinel Kyra all retained. Requested next-meal sentence repair to carry the captive's fear of becoming food rather than literal concern for someone's meal. Completion Elune thanks, best sentinel/personal friend and safety reward intact; progress correctly absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "41c536599b00c9c1432b7711ec68f9da8db8b50de80773d9b71774f58e227334",
+          "myanmarSHA256": "7ae555e12dc97132e4968bc5dee126f2ef58136f73f89c0a30a33cd042c84dc0"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "a9720363e7fa11b00e3dfc2c03c02e2c6c0d40e6eb08375e1531ef99cb5fa1ae",
+          "myanmarSHA256": "2a9348efa1de44b77ee03422160cfd8f7fb24302419936b17ec036e03f737a43"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "79bb759db110c11d5dcdc05cc85dc7d70c4b7d2f6d68c5b91e6a23ae6bacd22a",
+          "myanmarSHA256": "986128c82680874aca980d27c281eba7de450953582bc86c600695eac75b47aa"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "fc0f476337149a13dabb457d619740d34480bb9e1ebf3163ce9cfeed692acdd6",
+          "myanmarSHA256": "c91002b644a5afb0699e277bfae66619ecb22740718af7511fad6e390767ff15"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishEvidence": "They ambushed me before I could turn back and brought me down here--I fear for their next meal.",
+          "reason": "Captivity context implies the speaker fears becoming furbolg food. Literal အတွက် wording reads fear/concern for their meal and obscures the dark threat; restore implied victim relation without adding a gameplay instruction.",
+          "englishSHA256": "a9720363e7fa11b00e3dfc2c03c02e2c6c0d40e6eb08375e1531ef99cb5fa1ae",
+          "reviewedMyanmarSHA256": "2a9348efa1de44b77ee03422160cfd8f7fb24302419936b17ec036e03f737a43",
+          "old": "သူတို့ရဲ့နောက်တစ်နပ်အတွက် ငါ ကြောက်နေရတယ်။",
+          "new": "သူတို့ရဲ့ နောက်တစ်နပ်က ငါ ဖြစ်သွားမှာကို ကြောက်နေမိတယ်။",
+          "proposedFullField": "ငါ့ဆုတောင်းတွေ ပြည့်ဝပြီ။ မင်း ဒီအောက်အထိ တိုက်ခိုက်ပြီး ရောက်လာတာကို ငါ အရမ်းကျေးဇူးတင်တယ်။\n\nOracle Tree (အော်ရာကယ်လ် ထရီး) က ဒီမှာ အိပ်စက်နေတဲ့ druids (ဒရူးအစ်ဒ်ဇ်) တွေဆီ သတင်းစကားပို့ဖို့ ငါ့ကို လွှတ်လိုက်တာ။ ဒါပေမဲ့ ဒီနေရာတစ်ခုလုံးကို furbolg (ဖာဘောလ်ဂ်) တွေ သိမ်းပိုက်ထားတာကိုပဲ တွေ့ခဲ့ရတယ်။ ငါ ပြန်မလှည့်နိုင်ခင် သူတို့ ဝင်တိုက်ပြီး ငါ့ကို ဒီအောက် ခေါ်လာခဲ့ကြတယ်။ သူတို့ရဲ့ နောက်တစ်နပ်က ငါ ဖြစ်သွားမှာကို ကြောက်နေမိတယ်။\n\nမင်းဘယ်လိုနေလဲတော့ မသိဘူး။ ငါကတော့ ဒီနေရာကို ရွံမုန်းတယ်။ မြေအောက်ဆိုတာ kaldorei (ကယ်လ်ဒိုရိုင်) တွေ နေစရာနေရာ မဟုတ်ဘူး။",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    }
+  ]
+}

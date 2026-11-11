@@ -1,0 +1,653 @@
+{
+  "partition": "horde",
+  "reviewType": "independent assisted English/Myanmar semantic and source-boundary review",
+  "reviewer": "daily_independent_review agent; independent from partition author",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceFiles": {
+    "english-sources.json": "5dbae86fc0f731c1a66277c1abf4d9583fade8dea57a6563a74b468c813edcc1",
+    "edited.json": "6884c69b86edfa28a580cba9e4c44dbac274b304546c29d20ddb57d86e056481"
+  },
+  "questCount": 12,
+  "enabledFieldCount": 57,
+  "correctionFieldCount": 5,
+  "sourceBoundaryChecks": "Independently compared all 12 Description sections and every hidden Progress/Completion div in preserved Wowhead HTML with English source fields after HTML/whitespace normalization; all match; three progress states correctly absent. No scripts, UI gains/rewards, item-objective labels or adjacent sections entered dialogue. All supported markers match exactly. Numeric and written quantities read against English in each enabled field.",
+  "quests": [
+    {
+      "id": 96821,
+      "en": "Legging It",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields: northbound offer and south-Durotar kill objective have different viewpoints but no contradiction. Six Creepers plus six Lurkers, Gar'thok report destination and southbound peon completion retained. Legging pun translated semantically; progress absent in HTML.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "a2fba9ae0e73910b220cf9184b4cd0ac1f413c264277d3a958969870c6075d1b",
+          "myanmarSHA256": "d398be7d29895e4326702b3bbe4764513a15be9fc300e990c1a1176defabb4a3"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "6c0b9649137fbc34fbde043b63c756a7be3b333c3cf573d29caedd5bd17f52ac",
+          "myanmarSHA256": "293e72d7b6f007e89b7930052cfea2fcc3ed97e1db5c6a0021df69ddf6c5d1ed"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ad363140336c89cd32b8c06249b0b5c96c1b93e7c2da507e03d99c2ae38b5f0b",
+          "myanmarSHA256": "4e558b7d90ad37f1cc85e61974df353dda7eb926d08010c49f7d4c3246dc16cf"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "04c4f8a0feb5ff4d518f8eab3777227fa0df7acb11ce896edb0898ab7b6cadd1",
+          "myanmarSHA256": "ed1923a06514aa0fe920d84112e1176f4a36213e9d0d792b3583f8743981c9bf"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 96825,
+      "en": "This Fruit Could Bite Back",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Western hills/town-west Razormane Grounds, eight fruit, bypass quilboars, spines joke, saved seeds and future Orgrimmar planting retained. No item-objective/UI extraction debris; title conveys biting-back joke.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "bf9ce4b113b16ba771af3ce15600b98b70154f436df3c7fcc1135bb75da63036",
+          "myanmarSHA256": "f18f1fc56c3bb720bc77f8919bae1aeb5cc5b64ff00730efb493d33c60f2768f"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "b9ff79ff768f99540b0d97763426d886c74c0e308f30a2f6a4b23b6e963affaf",
+          "myanmarSHA256": "d30631a92cff7f807c900aa651687e86cc44ecd1199401d5cad6a2ffb9bcc749"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "0ec2c561065ed94f9c8f60a9d22edf7eb8d0879abb0b0369dbb3a652cbecf090",
+          "myanmarSHA256": "f8f0b79888ea6c082e08e9f72b552367791fa790df598cd31d5d234f90e2aff1"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "644d9881a6c5ad1692a02a4b6ebddd1daed3e242b0fabb0d20dc93ac0db51472",
+          "myanmarSHA256": "aeef0b5bcd887582431808b0c9e5f838e9780928cb4908184fa1ffd25b465638"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "9692918f30488a3e6a66d47808fdc9495c6e198444b382b465692ee7efc68515",
+          "myanmarSHA256": "18d53fc5101188af17eb67e6b26ef21c88c0b21a78320ed14172664073bd034e"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 96822,
+      "en": "For Honor",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Fallen Horde warriors cannot be retrieved after human reinforcements; collect all three distinct Raider items outside Tiragarde Keep and return to Turroc, not remains. Solemn remembrance retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "0e130a452826edad06a01dd690070691f99a7c02503aa1c5d402f81d0d0b40fb",
+          "myanmarSHA256": "1fb6b2f5f1f1f81067dc43c04a44fb39af9a020f2b491250b06ed5495ec1aaa5"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "98b3f37bd1b384abd470846215315cc1a502c70abf243da169b5d4c03ed6fbe7",
+          "myanmarSHA256": "b2b6af0b75337a795048a7632166c5d161e6bbbb0497ef619196f3e783c7386e"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "89238cc19c70fdf70b5782f25b841ceadabb137585524e851a1003e4c8150454",
+          "myanmarSHA256": "3cf0259b3d1a3618aadd998cbafbf119f46b3eb70b328066cb4da2c8b946ee29"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "4a7bbbd20fd7807ac19fe4e7310694c889033e24b161acb141e233f6f292862d",
+          "myanmarSHA256": "c0666ab884fb64ad1e21b16982a3c554af196afdec3076434078b5530a936ec8"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "80ba9c3728780d6ef67c38024c5f57ff41a23d23051dbccb595bae714ce1a1e9",
+          "myanmarSHA256": "defe6eb81a5e31a9b3a82f0e914b5c8c2dd387c64ee2e56cb298beeba050fdaf"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 96873,
+      "en": "A Pain in the Neck",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Eastward location, Zalazane mind-control, enchanted pendants, stripping rather than adding magic, three residues via disenchanting Echo Isles troll drops and release of spirits all preserved. Requested single awkward warning-clause repair; no missing source clauses.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5dbf31fa9244711d4d535c916250e5340cb42f008d1ed4c9c04aa710bbe092bd",
+          "myanmarSHA256": "465a3d21dc881e19f8416ddf64a01833cf33f886c43e13f6cb5e57d0048604c3"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "3632c05254529d5d51fe409b2568c635392da187aa0aae0d00b6df694742b52d",
+          "myanmarSHA256": "1893109ef7e9c24a2930ec33f83ba98faadb833e828a489a834d00d54e934a3f"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "3716b030120dc5e46b9ebac7f95e6a47c2ad5c9b51f7f5cc2a450f9016212c4f",
+          "myanmarSHA256": "293637fc413a878cf3f79cc47bc7b9757054961d9bd18caf890f350fbcff5710"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "2f93de34ad0a9cd89ca03e244cb23581bfd9f52a19a708e7dc99fb9313cae41f",
+          "myanmarSHA256": "55908971f7fd49dce17052626d30179431d9d25fc83b1217a3a9259ca69875c7"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "f633367222409ec72cf8b1ce254f0a0375c19c1b4bb4b2ff3f4e2f952bc82f2c",
+          "myanmarSHA256": "60724675ad472c363f90521da8679d31f834dcd477ffe747b8d90f8e773708c4"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishEvidence": "And don't accidentally put one around your neck, if you value your freedom!",
+          "reason": "Avoid the unnatural stacked inflection စွပ်မိမနေစေနဲ့; preserve the preventive warning and freedom condition.",
+          "englishSHA256": "3632c05254529d5d51fe409b2568c635392da187aa0aae0d00b6df694742b52d",
+          "reviewedMyanmarSHA256": "1893109ef7e9c24a2930ec33f83ba98faadb833e828a489a834d00d54e934a3f",
+          "old": "စွပ်မိမနေစေနဲ့!",
+          "new": "သွားမစွပ်မိစေနဲ့!",
+          "proposedFullField": "ဒီနေရာရဲ့ အရှေ့ဘက်က trolls (ထရိုးလ်ဇ်) တွေဟာ witchdoctor Zalazane (ဝစ်ချ်ဒေါက်တာ ဇာလာဇိန်း) ရဲ့ ထိန်းချုပ်မှုအောက်မှာ ကိုယ်ပိုင်စိတ်ဆန္ဒ ပျောက်ဆုံးသွားကြပြီ။ သူ့အကျဉ်းသားတွေရဲ့ စိတ်ကို ချုပ်ကိုင်ထားဖို့ ရက်စက်တဲ့ မှော်ပညာအမျိုးမျိုးကို သူသုံးတယ်။ ဒါပေမယ့် သူအကြိုက်ဆုံး လှည့်ကွက်တစ်ခုကတော့ မကောင်းဆိုးဝါး ချည်နှောင်မန္တန်တွေ ပတ်ထားတဲ့ လည်ဆွဲတွေကို သူတို့ ဝတ်ဆင်ခိုင်းတာပဲ။\n\nဒီလည်ဆွဲတွေထဲက မှော်အစွမ်းကို ဖယ်ထုတ်ရင်း မင်းရဲ့ မှော်သွင်းပညာကို လေ့ကျင့်ပြီး ရလာတာတွေ ငါ့ဆီ ယူလာပါ။ လွတ်လပ်မှုကို တန်ဖိုးထားတယ်ဆိုရင်တော့ မင်းလည်ပင်းမှာ တစ်ခုကို မတော်တဆ သွားမစွပ်မိစေနဲ့!",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 96876,
+      "en": "Ukor's Lost Pack",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Exact identifying pack title retained, crude stitched name stays quoted, southern Durotar return, peon-style short progress and dropped pack during giant-spider escape retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "70d91b56eb2159245a0d5282ed15b74c6bab264637be110aa458de7e60109b49",
+          "myanmarSHA256": "42212d6b6ce7ad5eca587cfd1df0322f09806cee2e3194d32d7606354884c610"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "e78782223ab5057f2e9504e2d1746a108ca881f8a5e9e6c027ef665ee6657939",
+          "myanmarSHA256": "16cd1ddd8764f0cdd5798ff0d56f6fee3174647453dc1bac1237fa6c8235e174"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "b762b353223450b605e6ca3ec8736074967c67d91b12d0440c9e1e895c9ea48c",
+          "myanmarSHA256": "e4028bab22abe5b344bc36a1754ba12f73af6bca56bf8147b5ad26459de001fa"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "4764003ee287a3a0632c77c4cb1f7fde12544cea84cca9d464961a64f7e8c7a5",
+          "myanmarSHA256": "c327ad2ba04307fc221caea6ec8a149f9802dc0ce9c80e28723a5e8779b74808"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "852b1c7f4829fd918385fa47fd0c0a337ec3266923698723fcaefba5bf8fd92d",
+          "myanmarSHA256": "78768adc9fbe4a80b86971cb6d946f3762129aab7816339308fa2f4f292a4e53"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 99123,
+      "en": "Lost in the Shadows",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Pal'juh feminine speaker supported by completion; failed magic forces hiding, escort from Kolkar Crag and report to Master Vornal remain. Hunter raptor-versus-tiger comparison and gently corrective voice retained; progress absent in HTML.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "7043e5cca859f25421b78ac251fcbff9ddb25743a2bb49518bc0ddf1ada05b83",
+          "myanmarSHA256": "411551eae050bc6478b978186e84b60edc1eb505d4d7fc739df3913dbe7b99a0"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "36fb87d917a6b3cb9592254521e1017d1db212f35bcf66e69b3d5ee0dfcccdbf",
+          "myanmarSHA256": "511fdfba8f4e6347c4a0c251401111721a217c7fb2036458e82ee8ffccf7e27f"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "fcc5b8c274803971b97a9c474a5815d6385376c5b410b874a901dab5b4a2c043",
+          "myanmarSHA256": "f14ab7ad4bcf9d3add14c95be446454d5bd4c321bb8ef89d47984e081cfef126"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "729295ecf53633e274e869b07983eb0f938c5a5f098d628c071b6c68b1994d37",
+          "myanmarSHA256": "8eedd8ae6ca113dc8f8f14825893e6b37b7f210a182fbb3618a4503652387077"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 97225,
+      "en": "Forgotten Loa Idols",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. All four offer paragraphs present: loa communion, scattered on largest isle, conditional risk of offense if idols not recovered, return request. Eight idols to Master Gadrin, rituals soon and Darkspear favor retained; no invented ritual instructions.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "7537e050de28d0da75fb93b9b4a4e329ee616cea35ad9c74f5dfd1fe73a3eed3",
+          "myanmarSHA256": "9787433fb331002cbe4151b6923f29d8116304f11a87c4c546ac0c241ee86965"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "ebc41c9681f7cf936e4b2aed4cae7ba49c85f1a92ceaed4258be5359418db8fd",
+          "myanmarSHA256": "9f4413cc87adebf2cff146b4db9e09bbd0cd95c84a36b092ad03c00eea152796"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "f5979be2a3c80e9ddba43c5905462a69a2b2533285456899bd9591d6b0ea144e",
+          "myanmarSHA256": "4ee1da5ab187c3a8f495554b5de40fed3cf4d25bbbb56a59756e94a2f1ef51e3"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "f0338c034da4c091a3144fb8c5b2784ee9156254d6ab14a87f2ffb861f35ee07",
+          "myanmarSHA256": "f7f504cf4520e16d307c5405516c86ae53af3c10518815b04a85f32770e6b4b7"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "467865c14d0022aee159a519c3b3e6e6676734d1e54928e28cf0129710910868",
+          "myanmarSHA256": "98c603a1c572aadcf6565c0da6a133900dbee7b0cb39c1e00fac40575e599794"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 96874,
+      "en": "This Is Spinal Axe",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Craft axe head from back spines, Saru laughter/dismissive rejoinder, smithing lesson, five Weathered Spines plus five Rough Grinding Stones, and uncertain crafting difficulty/continued work retained. Semantic title retains spinal-axe joke without treating it as an item identity.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f05991b319579ad61acb9b0e07364aeba882efd78ef385b854a858cbc0ecfd8c",
+          "myanmarSHA256": "53d246859d24dc18ee8023720f5c289ba461f5446a7efbc68fd8d31b976d700f"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "414f9eb617fb24976d4eb95f9748cdf5b8949656caa129b36e8c6873aafbb3b2",
+          "myanmarSHA256": "9ac593a7de786f7632e8a1b6da76c0e015d7b7182fbd62fe1a66c819b8c205dd"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "8fc0fcacc53d9e3fa284aa0b89f05942c967d875f723d87add3b70571a67cf88",
+          "myanmarSHA256": "c171e4e892a32ab2832e7c6bb3b76a32462ec904e8c6ee2aae3822205915d0f4"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+          "myanmarSHA256": "e70495c243fcb152e279f2e1f3ed5d072da66be6365e35794de070adc3ce21e1"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "a013ca33acd4720500c165b804746aa7b693d84f6da6391baff4789aa4e32575",
+          "myanmarSHA256": "644694b94076467d8f1b5d46a0b8b002a4b6dc4088bf3bac88903cb4c080ae7a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 96877,
+      "en": "Halikor's Hoof",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Identifying Halikor's Hoof retained in title/objective, generic mighty lizard remains generic, delivery only to Orgrimmar with no invented NPC. Trophy admiration and class marker retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5d1c37b80985a3bc3ed8f5d9951d17b52fd08f7310cdabef92ef50b4fe70b38c",
+          "myanmarSHA256": "0cb97868eb774a871efe0b08139e5e32bc2767f1b4f361157bb7209ff5da4cb0"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "10d9e863463a1717ce683b5e10065513e5c630b841513db69f65019820e502f9",
+          "myanmarSHA256": "16d1b7b1fe384acfbd755072953fab1da99a024eb517a7cdfd3c916c18fe2cda"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "9223a1edb46b1727ba6196ce8ff6614679df660b7a6297ba3cfc1eae8ed9a8dc",
+          "myanmarSHA256": "17ab60e8c812215e8491222ac47315850d37d29ca91f72cffa415d27967cd8c8"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+          "myanmarSHA256": "e70495c243fcb152e279f2e1f3ed5d072da66be6365e35794de070adc3ce21e1"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "6c62cfce946953e9ac15b1ff2174a781faea71286578825397ac509b608eddd1",
+          "myanmarSHA256": "78ddfa998715c03893950cd5979ff8e05b4361e7bb3e37cf2e68c20fe1403de8"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 95495,
+      "en": "The Hermit Tanner",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Hides delivery, solitary tanner, ridge behind speaker versus steep hillside, alarming appearance reassurance, Vrang inability to travel and private matter retained. Requested hermit wording and ridge precision repairs; no source ambiguity or held state.",
+      "fields": {
+        "title": {
+          "status": "correction requested",
+          "englishSHA256": "d638aaefbab7e48d39b18b44b6566b576d750b03dcf40493476416375589a2d9",
+          "myanmarSHA256": "e4e8c6ceec68b6d6167d563ce5643fc58e5dc552c15508a6cc2d68f9df66be87"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "28a51dbdffb36979fa550133d788df4799fd9825b1ca7e54075eed537e807ee4",
+          "myanmarSHA256": "34e89cebfdf94833ca4dbe0f13f2ca1ccf622f23e704bcf5935b51597ec0de1e"
+        },
+        "objective": {
+          "status": "correction requested",
+          "englishSHA256": "235307837c6e655aa7cde5bc99a7dbfbb3b69e4d7c4afacb89430726bee11d3a",
+          "myanmarSHA256": "c75653ecd5a7e59e8ec97d4ac76c13fe15bc0489a3b5753fded37743aa09c0bb"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "27044175420700d85161e5f922f780e450a28896997027d0c361201648e9cc17",
+          "myanmarSHA256": "df135242d6729dd5223de469887677e318401f8db54d0b09aa007d957808a1ad"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "cb21c0845f0137c155793bfbcf8d1e231e3ef87f675c58665581ce269b05b551",
+          "myanmarSHA256": "7a3a8c0af7929bf0b84ab87eab751698a2d48e858f9a118b2af85836e6211f1f"
+        }
+      },
+      "issues": [
+        {
+          "field": "title",
+          "severity": "editorial correction requested",
+          "englishEvidence": "The Hermit Tanner",
+          "reason": "Hermit denotes a person living apart; the original wording can imply loneliness not stated by the source.",
+          "englishSHA256": "d638aaefbab7e48d39b18b44b6566b576d750b03dcf40493476416375589a2d9",
+          "reviewedMyanmarSHA256": "e4e8c6ceec68b6d6167d563ce5643fc58e5dc552c15508a6cc2d68f9df66be87",
+          "old": "အထီးကျန်နေတဲ့ သားရေနယ်သမား",
+          "new": "သီးသန့်နေထိုင်တဲ့ သားရေနယ်သမား",
+          "proposedFullField": "သီးသန့်နေထိုင်တဲ့ သားရေနယ်သမား",
+          "status": "pending guarded integration by root"
+        },
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishEvidence": "he lives alone on the top of the ridge behind me. Climbing up a steep hillside",
+          "reason": "Keep ridge distinct from steep hillside; retain တောင်စောင်း for the later hillside clause.",
+          "englishSHA256": "28a51dbdffb36979fa550133d788df4799fd9825b1ca7e54075eed537e807ee4",
+          "reviewedMyanmarSHA256": "34e89cebfdf94833ca4dbe0f13f2ca1ccf622f23e704bcf5935b51597ec0de1e",
+          "old": "ငါ့နောက်က တောင်စောင်းထိပ်မှာ တစ်ယောက်တည်း နေတယ်။",
+          "new": "ငါ့နောက်က တောင်ကြောထိပ်မှာ တစ်ယောက်တည်း နေတယ်။",
+          "proposedFullField": "ဒီသားရေတွေက ငါ မကြာခဏ ကုန်သွယ်တဲ့ သားရေနယ်သမားဆီ ပို့ဖို့ပါ။ သူက လူတွေကို ရှောင်ပြီး သီးသန့်နေတတ်သူမျိုးပဲ။ ငါ့နောက်က တောင်ကြောထိပ်မှာ တစ်ယောက်တည်း နေတယ်။ အခုလောလောဆယ် မတ်စောက်တဲ့ တောင်စောင်းကို ငါ လွယ်လွယ်ကူကူ မတက်နိုင်လို့ မင်း ငါ့အစား သွားပို့ပေးရင် ကျေးဇူးတင်မိမှာပါ။\n\nအော်၊ အဲဒီသားရေနယ်သမားရဲ့... ရုပ်ရည်အကြောင်း ပြောရဦးမယ်။ မင်း ထိတ်လန့်စရာ မလိုပါဘူး။ သူ့ရုပ်ရည်က ဘယ်လိုပဲဖြစ်ဖြစ် သူက အန္တရာယ်မပေးပါဘူး။ အဲဒါ အမှန်ဆိုတာ ငါ ကျိန်ပြောရဲတယ်။",
+          "status": "pending guarded integration by root"
+        },
+        {
+          "field": "objective",
+          "severity": "editorial correction requested",
+          "englishEvidence": "the hermit on the ridge overlooking the Dry Hills in the Barrens",
+          "reason": "Preserve ridge landmark and voluntary solitary-living meaning.",
+          "englishSHA256": "235307837c6e655aa7cde5bc99a7dbfbb3b69e4d7c4afacb89430726bee11d3a",
+          "reviewedMyanmarSHA256": "c75653ecd5a7e59e8ec97d4ac76c13fe15bc0489a3b5753fded37743aa09c0bb",
+          "old": "တောင်စောင်းပေါ်က အထီးကျန်နေသူဆီ",
+          "new": "တောင်ကြောပေါ်က သီးသန့်နေထိုင်သူဆီ",
+          "proposedFullField": "Barrens (ဘဲရန်းစ်) ရှိ Dry Hills (ဒရိုင်း ဟေးလ်စ်) ကို အပေါ်ကနေ မြင်နေရတဲ့ တောင်ကြောပေါ်က သီးသန့်နေထိုင်သူဆီ Bundle of Hides (ဘန်ဒယ် အော့ဗ် ဟိုက်ဒ်စ်) ကို ယူသွားပါ။",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 95508,
+      "en": "Unwelcome Guests",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Former navy membership, Lord Admiral/Theramore/Durotar sequence, explicit civilian executions, interruption and approaching men retained. Walton must survive Terry Longdrink/Kul Tiras marines, grateful reward and safe travels intact. Requested ridge terrain repair; progress absent in HTML.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "59bb154b284340dda1f88124833216daf10ea844dba3021e2d5378ed95752fb3",
+          "myanmarSHA256": "16a2bbb956493390276732eb78d2c9ae020eac5dde0fe5a81d3df3be45bda1a1"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "2e6790f82cbe5e852362c30f9662ba8fe09ac4722715434e14a5f838c84bc87e",
+          "myanmarSHA256": "7f7257c46dae2dcc7a3972cadf797ae45f6287b8dcbc06a255218028d0cb24e1"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "0816b2366bf3e862fdaa3393dec62e22f63a18858d50770c683288bc6890cd73",
+          "myanmarSHA256": "82105590c6cd0c6570773e1b8d64290a5b49ba17c73117e9e9dae6b568776de5"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c0996bbb97c95501add7fbe3620d7697832da21004faeae16ff4c11746d2b1ea",
+          "myanmarSHA256": "9bf1240624a45e666342e4dae94d287f3d2f208eeff6a2fc34d5fbdaf3c6cc6e"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishEvidence": "There's a group of men coming up the ridge!",
+          "reason": "Preserve the ridge landmark rather than a generic hillside slope.",
+          "englishSHA256": "2e6790f82cbe5e852362c30f9662ba8fe09ac4722715434e14a5f838c84bc87e",
+          "reviewedMyanmarSHA256": "7f7257c46dae2dcc7a3972cadf797ae45f6287b8dcbc06a255218028d0cb24e1",
+          "old": "လူတစ်စု တောင်စောင်းအတိုင်း တက်လာနေတယ်!",
+          "new": "လူတစ်စု တောင်ကြောအတိုင်း တက်လာနေတယ်!",
+          "proposedFullField": "ဟုတ်ပါတယ်၊ ကျွန်တော်က အရင်က Kul Tiras (ကူးလ် တီရက်စ်) ရေတပ်အဖွဲ့ဝင်ပါ။ Lord Admiral (လော့ဒ် အက်ဒ်မရယ်) က Theramore (သယ်ရာမော) ကို သိမ်းပိုက်ပြီး Durotar (ဒူရိုတာ) မှာ စစ်ဆင်ရေး စတုန်းက သူ့နည်းလမ်းတွေနဲ့ ပတ်သက်လို့ ကျွန်တော့်မှာ... \"ကန့်ကွက်စရာတွေ\" ရှိခဲ့တယ်။ အထူးသဖြင့် အရပ်သားတွေကို ကွပ်မျက်တဲ့ နည်းလမ်းတွေကိုပေါ့။\n\nဒီထက် ပြောစရာတွေ ရှိသေးပေမယ့်... ခဏ... အဲဒါ ဘာလဲ?\n\nလူတစ်စု တောင်ကြောအတိုင်း တက်လာနေတယ်!",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 95621,
+      "en": "Trouble in the Valley",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Morning sighting below, rifle scope, Kul Tiras livery, conditional offered work, south caravan camp, kill/investigate instruction and objective distinction retained. Daelin already dead, still-flying banner, distance from Tiragarde and deserter revelation intact.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "9480498b34640d9ee3436090c4b140ec2277338141d670054a5a6b39d04a7d03",
+          "myanmarSHA256": "2f571be0040b777733e3796f6a9be9713161df0013de27a25f7d1a6fe8adaee5"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "3e93ba6309d3715e1ca7c2788367270e3f921a96da79c3b8fc89d16901875c1f",
+          "myanmarSHA256": "b97b1010060dd97ea2c9078d5c7e647c2e7b49ea4d61b6a09f64e0579ce5adc6"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "b13ca4c342be037f7b7590aa84ee8dab9cfb6255dc508263875cab0244a92d28",
+          "myanmarSHA256": "f7df17e0eaac7575f3f0ef1da731ac3fbfe188ca779c4787727d39fbb04fd02d"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "996bb54cd0482d6ca054c6e64e491a3d4cd563b4b72f7526c94d39ad68fba280",
+          "myanmarSHA256": "25cf42307b5fffc1d21832dc1c107dbb53cb8926cacc3c05dd3351fa81f84eb8"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "821b719c5790bcb975f65fcd85d6a5b6a7296ebb2295567eda768b13ff94b548",
+          "myanmarSHA256": "e3fbe2f108ea405962afc89db35159b130326e1cf4863350e0d4a4c8bab2d15b"
+        }
+      },
+      "issues": []
+    }
+  ]
+}
