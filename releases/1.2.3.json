@@ -1,0 +1,84 @@
+{
+  "version": "1.2.3",
+  "date": "2026-11-12",
+  "releaseType": "release",
+  "termsGuide": "releases/1.1.0-TERMS.txt",
+  "packs": [
+    "translations/undead-v0.6.3",
+    "translations/live-fixes-v1",
+    "translations/skyborne-a-v1",
+    "translations/skyborne-b-v1",
+    "translations/skyborne-c-v1",
+    "translations/undead-tirisfal-v1.1.0",
+    "translations/westfall-toxic-soil-v1.1.1",
+    "translations/all-race-routes-v1.2.0",
+    "translations/early-route-followups-v1.2.1",
+    "translations/scheduled-routes-v1.2.2",
+    "translations/scheduled-routes-v1.2.3"
+  ],
+  "starterCoverage": [
+    {
+      "zone": "Northshire",
+      "races": [
+        "Human"
+      ]
+    },
+    {
+      "zone": "Coldridge Valley",
+      "races": [
+        "Dwarf",
+        "Gnome"
+      ]
+    },
+    {
+      "zone": "Shadowglen",
+      "races": [
+        "Night Elf"
+      ]
+    },
+    {
+      "zone": "Valley of Trials",
+      "races": [
+        "Orc",
+        "Troll"
+      ]
+    },
+    {
+      "zone": "Red Cloud Mesa",
+      "races": [
+        "Tauren"
+      ]
+    },
+    {
+      "zone": "Deathknell",
+      "races": [
+        "Undead"
+      ]
+    },
+    {
+      "zone": "Zephras Isle",
+      "races": [
+        "Skyborne"
+      ],
+      "factions": [
+        "Alliance",
+        "Horde"
+      ]
+    }
+  ],
+  "routeExtension": {
+    "zone": "Brill and Tirisfal Glades",
+    "races": [
+      "Undead"
+    ],
+    "approximateLevelRange": [
+      5,
+      13
+    ],
+    "scope": "Later Undead route beyond Deathknell through Brill and supported early Tirisfal quests; Silverpine is a later update."
+  },
+  "coverageMeaning": "Nine-race starters plus supported followups; 1.2.3 adds50 Silverpine and early class-chain records. Per-ID/state coverage and documented disabled branches, not a claim of complete race/level coverage.",
+  "expectedSkyborneQuestIDs": 151,
+  "expectedNewLiveCaptureQuestIDs": 13,
+  "expectedUndeadTirisfalQuestIDs": 94
+}

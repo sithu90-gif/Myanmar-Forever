@@ -1,0 +1,962 @@
+{
+  "checkedAt": "2026-11-11T20:32:48.712197+00:00",
+  "myanmarVersion": "1.2.3",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-11T20:32:48.712197+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "manifestSHA256": "f89b8ecb8fa6c93a85af5241e5582273db922d721d81c5cbe457706192c9f465",
+  "upstreamFactionEntries": {
+    "Alliance": 1373,
+    "Horde": 1349,
+    "Both": 3492
+  },
+  "coverage": {
+    "myanmarQuestIDs": 1086,
+    "translatedFields": {
+      "title": 1086,
+      "detail": 1062,
+      "objective": 1066,
+      "progress": 807,
+      "complete": 1057
+    },
+    "translatedFieldTotal": 5078,
+    "availableDialogueStates": 2926,
+    "absentOrHeldDialogueStates": 332,
+    "uaUniqueQuestIDs": 6214,
+    "overlapQuestIDs": 1085,
+    "uaQuestIDsMissingFromMyanmar": 5129,
+    "myanmarQuestIDsAbsentFromUA": [
+      93161
+    ],
+    "shareOfUAQuestIDsPercent": 17.46,
+    "titleMatches": {
+      "case_only": 6,
+      "documented_alias": 3,
+      "exact": 1075,
+      "mismatch": 1
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "documentedHold": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "documentedHold": "Public reference concatenates male and female replies."
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "documentedHold": "Fixed player name Rangrang in the public reference; live substitution unverified."
+      },
+      {
+        "id": 3099,
+        "en": "Tainted Scroll",
+        "field": "progress",
+        "documentedHold": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "documentedHold": "Fixed player name Ferlis in the public reference; live substitution unverified."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "progress",
+        "documentedHold": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+      },
+      {
+        "id": 6086,
+        "en": "Training the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6125,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 6130,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "documentedHold": "Race marker describes the NPC, while the reader expands player race."
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "documentedHold": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "documentedHold": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "documentedHold": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "documentedHold": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "documentedHold": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+      }
+    ],
+    "regionCounts": {
+      "Brill / Tirisfal Glades": 94,
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 70,
+      "Deathknell → Brill": 24,
+      "Druid class routes": 26,
+      "Dun Morogh": 45,
+      "Durotar": 46,
+      "Duskwood": 77,
+      "Elwynn Forest": 59,
+      "Elwynn Forest / Camping": 4,
+      "Elwynn Forest → Stormwind → Loch Modan": 1,
+      "Hunter class routes": 16,
+      "Loch Modan": 41,
+      "Mulgore": 37,
+      "Mulgore / Thunder Bluff": 3,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Silverpine Forest": 44,
+      "Stormwind": 3,
+      "Stormwind / Deadmines": 3,
+      "Teldrassil": 46,
+      "The Barrens": 83,
+      "Thunder Bluff": 1,
+      "Valley of Trials": 13,
+      "Westfall": 48,
+      "Westfall / Stormwind / Deadmines": 6,
+      "Zephras Isle": 101,
+      "Zephras Isle → faction departure": 50
+    }
+  },
+  "titleMismatches": [
+    {
+      "id": 490,
+      "en": "Bounty: Gnarlpine Furbolg"
+    }
+  ],
+  "changesSincePreviousCatalog": {
+    "addedQuestIDs": [],
+    "removedQuestIDs": [],
+    "changedQuestRecords": []
+  },
+  "changedRecordsInMyanmar": [],
+  "plannedQuestChecks": [
+    {
+      "id": 26,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "A Lesson to Learn"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 27,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "A Lesson to Learn"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 28,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trial of the Lake"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 29,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trial of the Lake"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 30,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trial of the Sea Lion"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 31,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Aquatic Form"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 272,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trial of the Sea Lion"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 452,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Pyrewood Ambush"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 491,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Wand to Bethor"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 493,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Journey to Hillsbrad Foothills"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 530,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "A Husband's Revenge"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 3221,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Speak with Renferrel"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5061,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Aquatic Form"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5921,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Moonglade"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5922,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Moonglade"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5929,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Great Bear Spirit"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5930,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Great Bear Spirit"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5931,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Back to Darnassus"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 5932,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Back to Thunder Bluff"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6001,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Body and Heart"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6002,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Body and Heart"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6061,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6062,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6063,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6064,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6081,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Training the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6082,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6083,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6084,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6085,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6086,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Training the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6087,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6088,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6089,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Training the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6101,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6102,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Taming the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6103,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Training the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6121,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Lessons Anew"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6122,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Principal Source"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6123,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Gathering the Cure"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6124,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Curing the Sick"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6125,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Power over Poison"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6126,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Lessons Anew"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6127,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Principal Source"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6128,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Gathering the Cure"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6129,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Curing the Sick"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 6130,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Power over Poison"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 95981,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Watching the Roads"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 98298,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Arugal's Folly"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 98299,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Stop the Spread"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": true
+    }
+  ],
+  "reviewStatus": "Changed UA text and field gaps are candidates for an English-source recheck.",
+  "chainVerification": "UA membership is checked per planned step. Chain edges require quest metadata and English evidence.",
+  "reviewedTitleDiscrepancies": [
+    {
+      "id": 490,
+      "upstreamTitle": "<UNUSED>",
+      "decision": "Retain previously English-verified Bounty title; obsolete generic runtime alias remains disabled. UA package/catalog unchanged since prior source review.",
+      "evidence": "translations/scheduled-routes-v1.2.2/english-sources.json"
+    }
+  ],
+  "undisposedTitleMismatches": []
+}

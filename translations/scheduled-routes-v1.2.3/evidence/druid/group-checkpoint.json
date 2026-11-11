@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-12",
+  "worktree": "work/Myanmar-Forever-v1.2.3",
+  "partition": "druid",
+  "sourcePin": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-11T20:32:48.712197+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "reviewedGroups": [
+    {
+      "id": "druid-bear",
+      "questIDs": [
+        5921,
+        5922,
+        5929,
+        5930,
+        5931,
+        5932,
+        6001,
+        6002
+      ],
+      "status": "worker English/Myanmar assisted review completed; independent review pending",
+      "checks": [
+        "all36 available fields compared to English",
+        "race-specific Moondust/Lunardust and return targets verified",
+        "northwest/east/west and only-when conditions checked",
+        "staged gestures and NPC voice preserved",
+        "primary marker case retained"
+      ],
+      "artifact": "editorial-bear.json"
+    },
+    {
+      "id": "druid-poison",
+      "questIDs": [
+        6121,
+        6122,
+        6123,
+        6124,
+        6125,
+        6126,
+        6127,
+        6128,
+        6129,
+        6130
+      ],
+      "status": "worker English/Myanmar assisted review completed; independent review pending",
+      "checks": [
+        "all46 available states reviewed,44 enabled and2 gender-branch detail holds",
+        "primary English marker case retained",
+        "5+12 fungus versus5+5 horn quantities and10 named targets checked",
+        "written ten remains written, no extra numeric token",
+        "water-table and animal mistranslations corrected",
+        "6124/6129 progress explicitly sourced to60.tools with URL and HTMLhash"
+      ],
+      "artifact": "editorial-poison.json",
+      "heldFields": [
+        "6125.detail",
+        "6130.detail"
+      ]
+    },
+    {
+      "id": "druid-aquatic",
+      "questIDs": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        272,
+        5061
+      ],
+      "status": "worker English/Myanmar assisted review completed; independent review pending",
+      "checks": [
+        "all38 sourced fields read against English",
+        "two trial conditions and written quantities checked",
+        "time limit and rapidly decaying bauble retained without invented duration",
+        "two distinct pendant halves and shrine proximity preserved",
+        "primary<class> versus secondary<race> discrepancy documented",
+        "Tauren ancestors praise retained only in31",
+        "Sea Lion and aquatic-form MT errors corrected"
+      ],
+      "artifact": "editorial-aquatic.json"
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "partitionStatus": "worker review and integrity validation complete; awaiting independent assisted review",
+  "counts": {
+    "questCount": 26,
+    "sourcedFields": 120,
+    "enabledFields": 118,
+    "heldFields": 2,
+    "unavailableFields": 10,
+    "rawDeepLCoverage": 120
+  },
+  "validation": {
+    "linguisticLintIssues": 0,
+    "buildReleaseValidateFieldsErrors": 0,
+    "artifact": "validation.json",
+    "sha256": "fbcfe0350ca829bee00f5dbe75cb197aee69c8d88655ae7550ef292566cbe829"
+  },
+  "artifacts": {
+    "edited.json": "acf19ca6caa3005830e050a20ddb12dfe1a6b97b463da60850e928bd83d380dc",
+    "english-sources.json": "6c01f579e4b53a51bbdef572653d40eef8158bd215c50f0c3e78c409d655b8a1",
+    "pronunciations.json": "275d35edf4f9bb313059e3f32c834faaa6f0ed8d52ab0edb0db34dcfd8c7fc09",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "held-fields.json": "4be3a4b5b6d1ef116ebbdbe20c5f28193f3a41fb189ac7bb1c218cf5f44256fb",
+    "review-audit.json": "073f5bfbefee50ffb7dcfac222d7bed38aac2db2d6c9dd118b02ac7ece2e46c1",
+    "comparison-provenance.json": "0bb54c0630c5717f83972c9765d8d9b7a42febe5afdc2814c126c57cefd06e29",
+    "review-groups.json": "939d687405644de124286f652bd4a4f825a0a412e0afaf133a8deb2fcf920644"
+  }
+}

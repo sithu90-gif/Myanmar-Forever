@@ -1,0 +1,397 @@
+{
+  "partition": "silverpine",
+  "reviewType": "independent assisted English/Myanmar semantic and source-boundary review",
+  "reviewer": "nov12_independent_review agent; independent from partition author",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceFiles": {
+    "english-sources.json": "76ab3cc90f68ce21d77d5bf18b5799e3429eb110c9d120f636de7c04ecae55ab",
+    "edited.json": "d3ee0e9fdc221ad307463bb7d7c869e3caa93e9b4adb493452f0cbcbdee00296"
+  },
+  "questCount": 8,
+  "enabledFieldCount": 36,
+  "correctionFieldCount": 0,
+  "sourceBoundaryChecks": "Inspected preserved raw Wowhead HTML around all8 title/objective, Description and Progress/Completion boundaries. Independent stdlib HTMLParser traversal matched every sourced field after whitespace normalization. All4 unavailable Progress states lack source state; no objective tables, provided-item/UI blocks, scripts or adjacent section text entered dialogue. Four enabled states missingUA/60.tools exist as explicit current-primary reply divs:95981.complete,98298.progress,98298.complete,98299.complete. All enabled English/Myanmar fields read for meaning, quantities, conditions, speaker, directions and proper identities; this is not native proofreading or current live verification.",
+  "quests": [
+    {
+      "id": 3221,
+      "en": "Speak with Renferrel",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Renferrel summoned player while deathstalkers were being helped; no details known by intermediary, wolf hearts given earlier, attention-request completion retained. Speak destination is Apothecary Renferrel at Sepulcher. English objective is explicit despite secondary omission; Progress correctly absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "e84e32803192d0fa19189e75632d2444e6ae59e9882c1588499ce3b362d07691",
+          "myanmarSHA256": "fbb9be92c1f8ce92ef3fe27def5b230eef1bec7c67fb2e6a465119c16966f18f"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "9ea55039df3a744e21d2e9f8f5a0deba921f7b364447057d568d5275b06326ec",
+          "myanmarSHA256": "5181fbb589ffb7500ea126ce17449801c16003919a013a21c7e6e780fb5a3fe5"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "0cd5600e1adc8d369f8015a3c781f512e8d7c2e913cecea0376207b34673a079",
+          "myanmarSHA256": "22f3986d32b9f870fdce8638dddd2a8b8be11625e59e758ab4889c0701ca96ba"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "4148ec3b441519f7d808f675ed6289ff33078a7ec136607ed28bbc8118a2b25e",
+          "myanmarSHA256": "b689d74fefd9529866019e11992aece6b1899b1b02ebc6a0ca63606138c6048d"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 452,
+      "en": "Pyrewood Ambush",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Nick-of-time arrival, imminent Council return, Arugal occupied in keep, puppet control and tentative sons-turning-on-master belief retained. Faerleia needs help to kill Council for Sylvanas. Tentative final town control/expulsion from Shadowfang Keep and salute preserved. Exact lower-case <name> follows primary; Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "30924cd86a6edf5588e0e611d0ec1180ee22aa60278c826a0f8258dd995627b1",
+          "myanmarSHA256": "7d0b531be7e5f8831d7f657a355d612a91ac26755498ba68cf700e61bb8af7cf"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "039fcb8e187c67057359ac4be068571714d68ba8bbea292a514e87925e8a368f",
+          "myanmarSHA256": "4dd9c5195671cf9216312458301e1620cdeb927b3ed02197621684936c9d576f"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d28e1f9068d6af6fc0de13dfdedfa0067c2410d370a98ad85f4fe4caaa51e6cc",
+          "myanmarSHA256": "f4cf26ee0f7d45a702121359816def81ba0a56e435d763893d75853f00b77571"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "62502f2f0e33add95e498961866d875c03702e5b543e52a6aceddfdc9aab0ea7",
+          "myanmarSHA256": "37cbd9ac6ab25f8e7521a23fd4131a4ff4367ce508de7d9845b287930be19461"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 491,
+      "en": "Wand to Bethor",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Two colleagues plus Thule, apprentice wands each mage owned, friendship symbol, dislike versus unwillingness to part or share, theft and Fenris Keep retained. Woven Wand goes to Bethor in Magic Quarter/Undercity. Progress really asks about defeating Thule Ravenclaw. Completion preserves Lich King alignment, Bethor inference that unused power would have been sensed, gratitude/reward.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "62df6da747c71a672cee84c19b69a3baf16b21f7a88b60808ee14b81111a83cf",
+          "myanmarSHA256": "ea35a5f7104cead06670ddd8772864c87c4d56b4ab94cd764d5b070d136dcec0"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "420d8e527dc2a8b6b5e355f52d10e4058e4067835a2f6e1f5b2c539c4ce67f54",
+          "myanmarSHA256": "1102f937662718b7998ea2fa8e16792ee872fdf101efc8a3c42a2fe63d248e68"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "3a99031fce3ef4265475167121cb85dc29b8e860c556882b1d7259948eedc342",
+          "myanmarSHA256": "b59d60fb9418b8a09f633d7ae321a6aa3ca49e273ea57aaa5579bda23c41270c"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "c9e294a0109be23c1a6a329198355366b388bddda58b868f7812b31c18235620",
+          "myanmarSHA256": "1636998943a15caf17ea2df928c89d34724a769b67b6c4ced2443e7d0ec29c46"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "7171951925b58155e5976d2db588795e48e78d8ad6bb4b75937de55f4e012f82",
+          "myanmarSHA256": "db3411918f38ed3dfc74d789ee121b6aa4f04c0aca5e81787220316edb839980"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 493,
+      "en": "Journey to Hillsbrad Foothills",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Extreme Dark Lady pressure, New Plague research, existing progress and faster information sharing preserved. Latest findings owner Renferrel, recipient Lydon in Tarren Mill/Hillsbrad Foothills; long journey, south, roads and signs retained. Progress question remains open; anxious-to-study completion conveys eagerness.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "ad9d677f9f718734dd5a6b56c5c2883ec42f5d500a5c7fb308b22de99b891f53",
+          "myanmarSHA256": "635e6a14c333549929f2b56e5e76df872d3780eb34ddc2f108361e5277434c69"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "ea24c4715695a862efea4be256cfe43d92f9f904fda8a246420c18d2818bd24e",
+          "myanmarSHA256": "0008bdf6c62d746eb20c5fee786de6eadc8bc852ad05d1776321ffd768987817"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "4c9aa1b6ea6672c1681c7e418e1a764c0e0705ea9a124b595b55053485d055f7",
+          "myanmarSHA256": "6cd951e6bdd35033db33db1dffd3ec89b8f73808ddf73cd4a7923c5c0b2ba9a4"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "5fc515e1d804247f3f80a613be068f9ab093695b6387c8610f7f2050637f6071",
+          "myanmarSHA256": "1e3768e0c21f43fd8baa128e7ff1abe8e87b4a06c4937a63bba386232028a98e"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "6c87712df6146f8460e33c2d7efe34cf26ab7f42d48310a94a9c704b1257790b",
+          "myanmarSHA256": "3d65dfd48798f91755f6ba6312d7790b0b95a003bfa61ada3c3558239d79ff56"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 530,
+      "en": "A Husband's Revenge",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. Former good friend murdered wife; inability to grieve but yearning for revenge and conditional reward retained. Last-heard report at southern Silverpine/Greymane Wall, attempted flight into Gilneas, kill Valdred and bring hands to Raleigh/Undercity retained. Completion returns earlier ring, names Deliah and keeps hands as betrayal memorial; no invented grief or collection amount.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "cbad24114a74b7d8a3bad8dc7d535e16ce3bff3c19c9231a8c7fa58807b9719b",
+          "myanmarSHA256": "6d3f9b953974cf2b4e57d67c2df86a4366afacdda94a151d2a56ab37b78a6505"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "4b4723c664831a0b434f95a325655edaa9eb8e4fc40e4de19261cd477445f4e8",
+          "myanmarSHA256": "62919119eebc4a682b534b7bf02697d4b2a75f846ae9f23a9ed98a87bd95e80c"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "c73268d84ab24279f7650ee1e2aa8a68030c72b58fa1f8612b9d1d0e0f3c457f",
+          "myanmarSHA256": "cf9a4de69601e203878e3305e0b2e68e8ce66452b26eeb3d7b6f50800dfb35d9"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "56b3c337837f3bb19c5eb6860bba958fa5043a34bf3deb7d5c44e7658e5e6591",
+          "myanmarSHA256": "2a522b4220f699d87a572d0ee7a2e794f99743a35996c83e99e3014eb18924ad"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "178f95525401ba20c553d2ace93fe29dc9eee0ff422455067abc8f76bd42bead",
+          "myanmarSHA256": "92dc0b7f3508487d69dae9c52476f44f85205e24e67ef95a96477bb7e6506834"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 95981,
+      "en": "Watching the Roads",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Conditional steady relic shipping, stopping at source, roads around Ambermill and prolonged border access retained. Objective is precisely 8 Dalaran Wizards and 8 Dalaran Watchers for Allister at Sepulcher. Explicit current-primary Completion absent from UA and secondary is valid: fallen barrier, tight road control, certain paranoia but irrelevant reason retained. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "7323fc39896213064bee0264d494036da6274f299d4904a9344552d2beb98702",
+          "myanmarSHA256": "43475fe4acb57affd993457858eda33d2662794d197485f21ccafe826d4ef545"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "38e382b12def3f80d793ac1cd45b31722b204e5ef72f29884faf0fb3cf09449b",
+          "myanmarSHA256": "e58aefa3c645a13c4b2da1dc2ac5199324dad2ef8f7a3762baab8a9928adb9a2"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d186bc6db2c53513fd22b3f877686fd0ae0dfe2a14ae7fa71fcf6b85bb139658",
+          "myanmarSHA256": "d63fc43805940e18c7205ff375698b1251d13f44b7829735e7fae600927bb1ed"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "8a9425fe8be7230c108c85d687ca06f8f505538ba275ce8a72aaab3ee1875ea5",
+          "myanmarSHA256": "6004126f455eeb13783c69d876cfbb0fca6f1ef33ac061b4cc05bf905debb08e"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98298,
+      "en": "Arugal's Folly",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all five fields. ID98298 is Worgen Bits step, distinguished from prior same-title Arugal steps by item280375 and quantity6. Ridicule, binding-versus-creation evidence, desire to discover transmission, apparent nearby human spread, south/Greymane Wall and tearing beasts apart retained. Fangs/claws/gizzards and guts inspection preserved. Explicit primary Progress/Completion absentUA are valid. Dalar gets last laugh, exposes fraud, rejects remedy and continues solution search.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "415d31278a0bd599615a8e5f273ceca3f9474f5c17f596d520abf829e15846da",
+          "myanmarSHA256": "6271b77bb49c7f031f0b0efee6f253bed7477ca93fdab6fdfa87b91037d5a425"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "e6b9de67941716a79769ef2288b1f7fc19fa03838a1abe92a7951d8a7d16f54b",
+          "myanmarSHA256": "e89aac0708d5eabf78b9d73c1a1d7ab5301b59ddc3883d86f5908601825d9e2a"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "1f9daba3cd763ec977c027b0772e1bc5777bfe470553261966866901b6bfd04b",
+          "myanmarSHA256": "d3033e50bea6c334a895244d0c800f6408ca600f0bad9fc54368258e030eec91"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "267d9233340eda0a7d46837b2171e2e59ff5021316da184ea81803752a7f2617",
+          "myanmarSHA256": "dd8e0260757b76c9df7564809e27d140b548fea1bb8e90a4b703be527c55f449"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "acdea7beb5d392c66401890037c0567cb486adaa4b13ed428a0dfcada990bf36",
+          "myanmarSHA256": "2563ac380d997d54d20c036e53f74b5080524e63c1dd34172d1487f2489926fc"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 98299,
+      "en": "Stop the Spread",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all four enabled fields. Arugal responsibility with mechanism unknown; containment while research proceeds, qualified Forsaken immunity, gathered humans and pre-servitude killing retained. Exact <race> warning; 5 Sickly plus5 Haggard Refugees for Dalar at Sepulcher. Explicit primary Completion absentUA is valid; reluctant Gilnean entry, tentative fortunate/no-likely-spread inference and entire-kingdom depravity retained. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "4b7326485c4788d6b62f14a22a7398e26ae0256625815275643eee8954c08f2f",
+          "myanmarSHA256": "9c1dd4ad889c98365bb0ef782b71c8944095258bc44e04ee420899363daab679"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "4743a0bd5785aafe6a6d99c315cfb46565d6da0c50b1fbb8ccd6438474860f76",
+          "myanmarSHA256": "a78091dfd36b879f48b0280efe5ac0ec40224d68ea5f875b6f1ba4b7b5123cc6"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a46a2b7cc52064c2793520ff228a73fa24812d542d490552772c08533e996cff",
+          "myanmarSHA256": "2d053ca4338deb1c8e9390dbddaa04ddf0843aa4393da87a1806b22eec9f4ad6"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "275b0e2a498b6a51b07c6281aea430382fe6ea9a71c1a4f21c54ac6354837aa8",
+          "myanmarSHA256": "82bdbc96fdd725f4e12af53b1e2dcb0dc10ad2ac7284fea511e6161235afd84c"
+        }
+      },
+      "issues": []
+    }
+  ]
+}

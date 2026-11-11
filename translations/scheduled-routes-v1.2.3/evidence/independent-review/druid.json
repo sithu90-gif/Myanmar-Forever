@@ -1,0 +1,1409 @@
+{
+  "partition": "druid",
+  "reviewType": "independent assisted English/Myanmar semantic and source-boundary review",
+  "reviewer": "nov12_druid_review agent; independent from partition author",
+  "reviewedAtUTC": "2026-11-11T20:52:56.777656+00:00",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceFiles": {
+    "english-sources.json": "6c01f579e4b53a51bbdef572653d40eef8158bd215c50f0c3e78c409d655b8a1",
+    "edited.json": "acf19ca6caa3005830e050a20ddb12dfe1a6b97b463da60850e928bd83d380dc",
+    "pronunciations.json": "275d35edf4f9bb313059e3f32c834faaa6f0ed8d52ab0edb0db34dcfd8c7fc09",
+    "held-fields.json": "4be3a4b5b6d1ef116ebbdbe20c5f28193f3a41fb189ac7bb1c218cf5f44256fb",
+    "review-audit.json": "073f5bfbefee50ffb7dcfac222d7bed38aac2db2d6c9dd118b02ac7ece2e46c1",
+    "comparison-provenance.json": "0bb54c0630c5717f83972c9765d8d9b7a42febe5afdc2814c126c57cefd06e29",
+    "validation.json": "fbcfe0350ca829bee00f5dbe75cb197aee69c8d88655ae7550ef292566cbe829",
+    "editorial-bear.json": "679169e846d9067af47f0ed522e3651c64cb28ce8e76aea0386c13e07fc95fa9",
+    "editorial-poison.json": "83a59001dd38404fd35906cc2a3f03d0b6da332411c0c39382eab991ed3ac782",
+    "editorial-aquatic.json": "3676b1d4579c258e356345840a6dfd3091b3ffa4871477ef53950a8622e7ff49"
+  },
+  "questCount": 26,
+  "enabledFieldCount": 118,
+  "sourcedFieldCount": 120,
+  "heldFieldCount": 2,
+  "correctionFieldCount": 4,
+  "sourceBoundaryChecks": "Read English/Myanmar in three connected groups of8/10/8 quests and every enabled field. Independent standard-library HTML tree extraction, separate from fetcher regex, matched every preserved Wowhead title/objective/Description/Progress/Completion after whitespace normalization, including null states, with script/style and UI tables excluded. Two documented Progress fallbacks were matched to independently bounded60.tools paragraphs instead. All fieldSources HTML hashes verified. Written quantities, targets, directions, conditions, stage gestures, player markers and faction distinctions received semantic reads; automated checks do not constitute semantic/native/live approval. Final audit field hashes and every validation artifact hash independently matched actual files.",
+  "finalDraftReview": "First reviewed combined draft99618c1459765e6f296a3d75b0016e4009129d0af323369d0e362dad8c264e8e. Worker later inserted lowercase sickly deer/gazelles and Aquatic Form identities in15 fields; reread all affected fields against English and confirmed meaning preserved. Current combined acf19ca6caa3005830e050a20ddb12dfe1a6b97b463da60850e928bd83d380dc matches all current connected-group draft field values. Correction requests are guarded against this latest final draft.",
+  "rawHTMLSHA256": {
+    "5921-wowhead.html": "ea9f747753c60d3d952d302db59c99355f3a541933913f8ebad8f60381c3228a",
+    "5921-sixty.html": "35922146134aa73f6ddcf38bb6f847a19b36f8898eddcfd6d94da16d2453829f",
+    "5922-wowhead.html": "1cb6e3f38ddc41ba01625ab8b7468780b96b5739c3221b7cb70478daa2e2ef52",
+    "5922-sixty.html": "261aa815e9d70c2428d8cc263f7c356cbc7099668f269b01571ee1e6a5f8c8f1",
+    "5929-wowhead.html": "df606e7e05b8e9fe39a362c7ddbacca354ba7dbfb9754069df3772512521afe7",
+    "5929-sixty.html": "af4effc62bb925b141d51e298d5c227317833c57f31442d5b31963eeda1e5e82",
+    "5930-wowhead.html": "eda7c8830f131bb39f427b83443d90cac3d5c655d03e1d7b86b6652d6c8785e4",
+    "5930-sixty.html": "5224277e608bd5522bb43a7d7210ea2861ed039c0877c9a89fccf21e92ce237a",
+    "5931-wowhead.html": "d8bd5b4925f5fec2e82594a5254868bba44a5b98c1cc11fd6b7260b80d6c3910",
+    "5931-sixty.html": "f0ef314aeadefc55b4495309ffb6bf5fb3d917d713851b0b4ab9f463c8d81906",
+    "5932-wowhead.html": "02378510ea71520373f21a1fcd1bd253f4931fcb9274164c018cc30c6ac2eadc",
+    "5932-sixty.html": "a2ed290b4cf1c72dabb16b7d9c51796837ced602872c7d90a48aefcf14932779",
+    "6001-wowhead.html": "5f07624ea5170910c206814cf42aef941a4603e532afa030857aa27b004af93f",
+    "6001-sixty.html": "a7036c8854f169062ae9fc4ab878bbdc38e2763c1bd787e346eeceea2a943491",
+    "6002-wowhead.html": "3a2a283eca377c4db1fa7a29dffce4546afc91dbb41d0a76c1f916611019a453",
+    "6002-sixty.html": "6412e8c057d1bcefc13692b9514048d455d48e9176ed5d8292ca0f49f3d1b3c2",
+    "6121-wowhead.html": "bdf67e34acd3278b897c8c65ef139ee1ea0a9efb76a7f8a45c5ff9ae23f95c03",
+    "6121-sixty.html": "f4bb616d663f86b79e4a5d807a2ab1057dcd65202c8e94b5c0d8ea8ae23e6e20",
+    "6122-wowhead.html": "49633e8cfb25aad5d0d108e0635a1038a4a0c759b8b11c03c723b9f44fa0d61d",
+    "6122-sixty.html": "68e316622964f5a3c6e15e22052156fdba3e13883dee6c423ddc5f7f4baf9c71",
+    "6123-wowhead.html": "e3ebe91c055e8e99a0a07756c8c6fd0cf1027791b06d5d69a36986045715b876",
+    "6123-sixty.html": "f84d067ba7cce08d4dc69d36f38034434b724ee0d9364a63537bb067700769fd",
+    "6124-wowhead.html": "bf41bb70439a98455bfe4b16047ee4428ba78771cbf74f698ff555ad41e878fb",
+    "6124-sixty.html": "9b7d3fdd6a00563092dcffbe9403e024866f91e918633557088f985a65158d81",
+    "6125-wowhead.html": "0ac7020a039691c584f8304f305b2e533b03149abf92962d73561d76ce401fd6",
+    "6125-sixty.html": "b8a015b95438af27aea6ac274985786d921c225239bd93378d528f2c823d4275",
+    "6126-wowhead.html": "852393a21906d8496e716c24a97b3cc16d0334d296212344540df17f2e38f3c2",
+    "6126-sixty.html": "2f726201f72befb2f3c5564d6fa747aeb6a7dc549d1d3194eeb755c7bdbf85bc",
+    "6127-wowhead.html": "49c238c381f5b460022c3b9a848543dd8030bbacc5421611db0e8025ca1086ac",
+    "6127-sixty.html": "42a03955da9d00cc9ae46ebd53e3d29dd2bc53b7f759ca8fd851d6f73fddf5c0",
+    "6128-wowhead.html": "50b5464836289a46408645cf09d8ac5c444d541910e57b06a7e27c9e4ff9b8b6",
+    "6128-sixty.html": "b0afad0b3106dd23c8fd2f43b0a78258e31fd2857b70fe094caa22ceb04d92dd",
+    "6129-wowhead.html": "696b566c48965298da7c987b39ca04d32c115dbda5fd0abc9b782e4090ab625c",
+    "6129-sixty.html": "4f174e16fa52a3139b27d638b9d64840780ae16cca8fb4de2cdc8c724d60206b",
+    "6130-wowhead.html": "a06231cc95c610a612723d145ff4df3676c356c480e0a2ca02a7e6a5bbe50118",
+    "6130-sixty.html": "d80316c68d0b29503415fa7d83d5e3487e7efabb1c25c4913552949e5b2dfe6a",
+    "26-wowhead.html": "a2e9f201cdb4dbf503c0553ea4ba1d54894ded8879512d0e78d70cae766ff551",
+    "27-wowhead.html": "224781948dcc79aa923d28a76645ed281877cda8d05cca3409f04fda8a970601",
+    "27-sixty.html": "e6f757af5b9e1caa578e21ce581bbbb175dc7a237dca365216953140fc6593ed",
+    "28-wowhead.html": "8de46e8149193bea6815af461e54ad4a63b803b027ca1c02509cbab33c241be0",
+    "28-sixty.html": "ea180a7bf1c3b7247b343d7941b799a263eacd1b91e3503c419a084f8121f017",
+    "29-wowhead.html": "98beadeea669065128926749904994468acb40ad83e0a1d37a785b09058c2c5c",
+    "29-sixty.html": "96e57035a119e08ed0c0615da5b7caa6143343671f114a79224e212bb03dbdab",
+    "30-wowhead.html": "e3440f392147d69f4c0d71a2b34d2cf43b66b7b967d9764d6a83eafdc82e94f7",
+    "30-sixty.html": "b9248a9a4063fb8e0eefc5314c1fc8bf220f90ffef7ba8cda84f68ef5c38524a",
+    "31-wowhead.html": "36345a9bfe250c9a43959ffb5b98bc21b72535dc975c5e618fa050b15d9f47a3",
+    "31-sixty.html": "2443503800f898af0d71f9663d53b09294e2b3244c9bbe7fb03665d5e6beee96",
+    "272-wowhead.html": "c9893edcf1b5a827a1dd445d874167c0f3120c8cd4cc8e32717964303bfc8b0a",
+    "272-sixty.html": "e15d0eb2063ca0f23a0427893781f7bfdea567a1c35e6c7bb3dfac71a7360b10",
+    "5061-wowhead.html": "be1145ce8900d1db7e4dd4fdd3367a2521df80c76526a368b3a45fb31da78e01",
+    "5061-sixty.html": "14761525bb38887bb59aca9dc62c93ac01782c8956f31a22e7a6f2cbdfdfb989"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-11T20:32:48.712197+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "upstreamCrossCheck": "Independently loaded pinned UA0.26.0 quests.lua and verified catalog SHA25604fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f. All26 IDs, exact English titles and sourced field presence corroborated. UA is secondary identity/state evidence, not the English meaning source.6124/6129.Progress present in UA; installed metadata agrees with correct quest targets, return NPC11802 and6123→6124→6125/6128→6129→6130 chains. No sanitized live captures supplied.",
+  "fallbackProgressReview": {
+    "6124": {
+      "sourceURL": "https://www.60.tools/quests/6124-curing-the-sick",
+      "htmlSHA256": "9b7d3fdd6a00563092dcffbe9403e024866f91e918633557088f985a65158d81",
+      "sourceKind": "60.tools same-ID English progress fallback; primary omitted state",
+      "boundary": "Actual <h2>Progress</h2><p class=\"preserve-lines\"> paragraph closes before separate Completion section; no script/table content. Wowhead Progress absent. English asks about Alanndarian Nightsong of Auberdine and unfinished work; matching ID/chain/UA state supports enabling directly sourced fallback."
+    },
+    "6129": {
+      "sourceURL": "https://www.60.tools/quests/6129-curing-the-sick",
+      "htmlSHA256": "4f174e16fa52a3139b27d638b9d64840780ae16cca8fb4de2cdc8c724d60206b",
+      "sourceKind": "60.tools same-ID English progress fallback; primary omitted state",
+      "boundary": "Actual <h2>Progress</h2><p class=\"preserve-lines\"> paragraph closes before separate Completion section; no script/table content. Wowhead Progress absent. English asks about Tonga Runetotem at the Crossroads and unfinished work; matching ID/chain/UA state supports enabling directly sourced fallback."
+    }
+  },
+  "heldFields": [
+    {
+      "id": 6125,
+      "field": "detail",
+      "reason": "Unsupported primary <him/her>; secondary renders literal alternatives. No sanitized live branch. Null retained."
+    },
+    {
+      "id": 6130,
+      "field": "detail",
+      "reason": "Unsupported primary <him/her>; secondary renders literal alternatives. No sanitized live branch. Null retained."
+    }
+  ],
+  "titleDecision": "Withdrew initial Trial title-only suggestion after full STYLE-GUIDE identifying-title rule explicitly permits exact names of named rites. Trial of the Lake/Trial of the Sea Lion are named rites throughout English dialogue; root concurred. Aquatic Form is a spell/form identity. No title corrections requested.",
+  "quests": [
+    {
+      "id": 5921,
+      "en": "Moonglade",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Night Elf Staghelm/Remulos tension and guardian context; Claw learning, Teleport spell and Nighthaven/Dendrite retained. Father Cenarius invocation, quick invisible overhead gesture/slight aura, bear nature and lifelong embrace/propagation preserved. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3a03db920a67309701521df9dcc418925f91ea6d1c20d0d04c91fe2ba5093733",
+          "myanmarSHA256": "9c443e2fd4ce071216410839d488d20473abca74c20a9db33d51994803f5625c"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "db6f2c8fc353668cf2680850e3ba90ed17e9f8b938e52909b89191161e88569a",
+          "myanmarSHA256": "51dd069c13d7ef27894eaa2b407eaa34d678eef37519d97b41ec948fa7a73d5b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "6ddd380c801a668d8bbc58a289c26c075ec67e0f8c2dbd3ada85579c06d75847",
+          "myanmarSHA256": "47f4797c3e83eef1c90edd019bda1ae60847f9cf5370ad86eab0af6fe6d07388"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "71c5ab32b810322948fc707de811d54bcaa44a0604c4c3d7e86c165d45456bca",
+          "myanmarSHA256": "44aba4c3bd24a87967a0008fdfb19d94d28aa8f8f1cb2fcdfee820e7b746eac9"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5922,
+      "en": "Moonglade",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Distinct all-druid tauren/night elf welcome and Remulos watching hibernation retained rather than importing5921 political context. Teleport/Nighthaven/Dendrite, shared invocation, overhead gesture/aura and bear teaching preserved. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3a03db920a67309701521df9dcc418925f91ea6d1c20d0d04c91fe2ba5093733",
+          "myanmarSHA256": "9c443e2fd4ce071216410839d488d20473abca74c20a9db33d51994803f5625c"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "7fa3c1d21566eeb27d402e4e32a86f90e43f7319627b9ad418fd124d1615ddfd",
+          "myanmarSHA256": "97ed5ad51f765836d05cad8ef942aeadbeb1046fe5eab2dec1ff375a7e652a7d"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "6ddd380c801a668d8bbc58a289c26c075ec67e0f8c2dbd3ada85579c06d75847",
+          "myanmarSHA256": "47f4797c3e83eef1c90edd019bda1ae60847f9cf5370ad86eab0af6fe6d07388"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "71c5ab32b810322948fc707de811d54bcaa44a0604c4c3d7e86c165d45456bca",
+          "myanmarSHA256": "44aba4c3bd24a87967a0008fdfb19d94d28aa8f8f1cb2fcdfee820e7b746eac9"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5929,
+      "en": "Great Bear Spirit",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Northwest Moonglade Great Bear Spirit tutor/mentor, all-druid instruction, spirit satisfaction/release and blessing as continuation condition, Nighthaven return preserved. Another invisible gesture, another aura, slight smile, wisdom and unfocused knowing intent retain mentor voice.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "d846c952ebd6badee13612b287186934d3ca48dfa2c91f2982b4eaac173ed03a",
+          "myanmarSHA256": "b4441b2cc5246fb13ba8081b575de2831a3e0d20b13c020f7ddc963dd25f3b74"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "81c98962f9813f3da705bb597a886eb3de55a75de23b219c6a7d4bb747b64a79",
+          "myanmarSHA256": "f9f41de6b6e5af654641df4d707c1a283713ee2b81d682eaa779cea4d2d9eb5a"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "61049a315957e66f27b606ee5753201cacc3cc354cd30ba781e7e837aae53269",
+          "myanmarSHA256": "c2e2109ecc840c077ada578016114c48c4eb0849879cb41140b10866631b5122"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "3f596c8c5b1d447a398e8737d36095dfa1fcd4724f249a9f6d901f7ac88d17aa",
+          "myanmarSHA256": "10c9f50272666052c6ff12f226b902cebb56664aa4ce883431cd37ef42d266ee"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c33875130a4692a6498c5ff6c17d07e1f0c7e679ddb249408ec2e3b3b561effa",
+          "myanmarSHA256": "43dcdaa897ce111934e44cf92c780377af9686e1837adf38eef2610ff39f5e6b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5930,
+      "en": "Great Bear Spirit",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields independently read. Same-title twin preserves northwest spirit, instruction for all druids, satisfaction/release/blessing condition, Nighthaven return, repeated overhead gesture/aura/slight smile and focusing bear strength.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "d846c952ebd6badee13612b287186934d3ca48dfa2c91f2982b4eaac173ed03a",
+          "myanmarSHA256": "b4441b2cc5246fb13ba8081b575de2831a3e0d20b13c020f7ddc963dd25f3b74"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "81c98962f9813f3da705bb597a886eb3de55a75de23b219c6a7d4bb747b64a79",
+          "myanmarSHA256": "f9f41de6b6e5af654641df4d707c1a283713ee2b81d682eaa779cea4d2d9eb5a"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "61049a315957e66f27b606ee5753201cacc3cc354cd30ba781e7e837aae53269",
+          "myanmarSHA256": "c2e2109ecc840c077ada578016114c48c4eb0849879cb41140b10866631b5122"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "3f596c8c5b1d447a398e8737d36095dfa1fcd4724f249a9f6d901f7ac88d17aa",
+          "myanmarSHA256": "10c9f50272666052c6ff12f226b902cebb56664aa4ce883431cd37ef42d266ee"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c33875130a4692a6498c5ff6c17d07e1f0c7e679ddb249408ec2e3b3b561effa",
+          "myanmarSHA256": "43dcdaa897ce111934e44cf92c780377af9686e1837adf38eef2610ff39f5e6b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5931,
+      "en": "Back to Darnassus",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Mathrengyl/Darnassus/Cenarion Enclave return, danger near faltered balance, applied lessons retained. Bewildering/intense meeting, Azeroth-in-heavens timespan, purpose-fueling wisdom/power and coming test preserved. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "2a949c447f0147787c89fe1b7e4d230e694980344cd188f7aff376003b1cac9a",
+          "myanmarSHA256": "6dad4349afb705a5d164fa472d6112ed754a7a489dfa79356a6427f4986d8ff5"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "78eb5b4eb38a7d902217a8eec7ff479e819c7bf3f88b22ebdead715bbc1ce7de",
+          "myanmarSHA256": "b0f9400ef90ccc65f22a765aa07c23c15008a3ba744f85e2c6b9af9697a83422"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "58acee5091c49d0e49a0be7dcecf2306dc6fcfa7a3048a33c295432c1c0c32cf",
+          "myanmarSHA256": "f0b055573790fa80bdf822b0f03a058fe3254c246671879ffa37b4d182512664"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "110ea3646b32cc3652e560d5a0a5c3714fb207af503946a99edd3610f047733b",
+          "myanmarSHA256": "887709a1b28125e188cb35531d4df3b049e8985c8707af15c6a6c3cb76c64f22"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5932,
+      "en": "Back to Thunder Bluff",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Tauren newness in Cenarius ways, Turak/Thunder Bluff/Elder Rise return distinct from5931. Completion preserves exact <name>/<race>, listening to spirits/shared prosperity; primary marker controls over secondary literal tauren. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "cd89c08a790d5e6c5f3a02278b0578b175161a92432e6270d094a300cc4f38b9",
+          "myanmarSHA256": "635bf4ede8290c3dfe58db1dbbd406261ca021cc705281efff804761ca861fa9"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "b08378854e384e37c520841a8974059805411c0dac922285a0bdfb5fc6a2a73f",
+          "myanmarSHA256": "bcccf4a0f15e5483b12083307b4eaa0975de1ad73ad2c5b7132628add709b8d8"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "4aecd8aed29bc1ff2667bb3adffa03d4c56c1492067f6ecde59464ea5589c06a",
+          "myanmarSHA256": "4fcb033ef7c53ca40afc65c43272f5b126afdabcc6b08c2f14c750132ac06183"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "aec3f15591cebdd49f4e8cdb5ebcc896f41c2a049df54ca1341d2b14952941ea",
+          "myanmarSHA256": "11b2c205e7f5a629d3743920ae326bb1ee18af890d7a8fb4ba1d9d9bec6d4daa"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6001,
+      "en": "Body and Heart",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Directly east of Auberdine, closest cave/stone, Lunaclaw only after Cenarion Moondust use, earned body-and-heart strength and Mathrengyl/Darnassus return preserved. Moondust distinct from6002 Lunardust. Progress withholds help until challenge faced; completion teaches <class> of Claw.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5fc32263d1fea695e5778d0ed23c4a6c6d4abfb9c75f059a4ae02d23f4d485d1",
+          "myanmarSHA256": "05baf4054391e0f2a16b1583407ad5a0e2c5f3babb54d143e342a1c257b631e8"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "3da17241f8225c40d06791f8cc01a31bf0d2a46927807010f79db9030e96c10c",
+          "myanmarSHA256": "422bcdc9ea56a2e63732a845c3e59f81572fbd5b8a33df930dda704358f77fb4"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "c5d7aa052f7efc4bb872e88fa25e2791771d0fd900fda31f9e88cd0642d57fa5",
+          "myanmarSHA256": "b1a04bc6220a57ad916d594900af69d0da408ffc79c0968bb4bdffec37a99cea"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "0f9310a14afb1175e05cf7bf6e1ff93cf08fddf0b7a4a5e2899ca312135429ab",
+          "myanmarSHA256": "d10aa73c1e711e4bcd574b233c241949fba66f8adbf1c01d11ab93ee3aa82c04"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1164172a11e7056708ed497b43b0a571386cd06008fb1b73d3393919203afccf",
+          "myanmarSHA256": "19d7eaf3c6887923df9a338a73ae362abeebf1ddaef1be1b8ac832c2dcd422e6"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6002,
+      "en": "Body and Heart",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. West of Taurajo in Barrens before Mulgore, nonnative moonkin, Moonkin Stone, Cenarion Lunardust and Lunaclaw preserved. Between-Mulgore/Barrens objective and Turak/Thunder Bluff return distinct from6001. Challenge condition, Great Bear teaching, <name>/<class> retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5fc32263d1fea695e5778d0ed23c4a6c6d4abfb9c75f059a4ae02d23f4d485d1",
+          "myanmarSHA256": "05baf4054391e0f2a16b1583407ad5a0e2c5f3babb54d143e342a1c257b631e8"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "7fcc005a6e27570f7186226a6f984b286f6b6b4e527c48f16fbf89325793c86c",
+          "myanmarSHA256": "e41c2e6b30ea5d2aecf9fc5003641ecf4e0b73646f3c91730f9a38c1d485ff55"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "6b1c45d92ab9a1d0d62a93f7c8fc9f3e908a5472021805d3d3b0da6336129b7f",
+          "myanmarSHA256": "5c588f799fd7765430550416e9c361958b1de714bc8667dc2bce44c2b948561b"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "0f9310a14afb1175e05cf7bf6e1ff93cf08fddf0b7a4a5e2899ca312135429ab",
+          "myanmarSHA256": "d10aa73c1e711e4bcd574b233c241949fba66f8adbf1c01d11ab93ee3aa82c04"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1164172a11e7056708ed497b43b0a571386cd06008fb1b73d3393919203afccf",
+          "myanmarSHA256": "19d7eaf3c6887923df9a338a73ae362abeebf1ddaef1be1b8ac832c2dcd422e6"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6121,
+      "en": "Lessons Anew",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Mere-incantation correction requested. Layperson treatment and seriousness of spiritual gift retained; Moonglade/Nighthaven/Dendrite, actual Auberdine crisis and no-preplanned-exercise distinction preserved. Primary <name>/<class> exact; Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "1a38bc489ff36e3c6517459edecaa234ac2dee799c1539cd9576327161f00acf",
+          "myanmarSHA256": "73d97df9ee0122b4b6660023c68af19e1fd8e77af0faeb421100aeb55126d743"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+          "myanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "faa3aa2717469b0f61663191aa11fab95dcf6831e5f1c5129ad53c1710cf4853",
+          "myanmarSHA256": "79e731568104a9e8b6d01fe4a8ec3e83214d94e9b7718c168f1b9c10d8112861"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "43aa1da7f94e298f9d4d5cc4a5025421d92bcbdbf7d068a0a934a408cc724a4d",
+          "myanmarSHA256": "7ea08ebd904430dc523f80646e399a1de433508d25d6344a4e4c6ff478792462"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+          "reviewedMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+          "old": "မန္တန်အနည်းငယ် ရွတ်ဆိုရုံဖြင့်",
+          "new": "မန္တန် ရွတ်ဆိုရုံဖြင့်",
+          "proposedFullField": "ယခု အဆိပ်အကြောင်းနှင့် ကျွန်ုပ်တို့ druids (ဒရူးအစ်ဒ်ဇ်) တို့၏ အဆိပ်ကို ထိန်းချုပ်နိုင်စွမ်းအကြောင်း သင်လေ့လာရန် အသင့်ဖြစ်ပြီ၊ <name>။ Cenarius (ဆနာရီယပ်စ်) က ကျွန်ုပ်တို့အား မန္တန် ရွတ်ဆိုရုံဖြင့် အဆိုးရွားဆုံး အဆိပ်ကိုပင် ဖယ်ရှားနိုင်စွမ်း ပေးသနားထားသည်။ ဤလက်ဆောင်ကို ပေါ့ပေါ့တန်တန် သဘောမထားသင့်ပေ... ဤသင်ခန်းစာကို သင်သေချာနားလည်စေရန် သာမန်လူတစ်ဦး လုပ်ရသကဲ့သို့ အဆိပ်သင့်မှု၏ သက်ရောက်မှုများကို ကိုင်တွယ်ဖြေရှင်းရမည်။\n\nMoonglade (မွန်းဂလေးဒ်) သို့ ခရီးထွက်ပြီး Dendrite Starblaze (ဒန်ဒရိုက်တ် စတားဘလေ့ဇ်) နှင့် စကားပြောပါ။ သင့်သင်ခန်းစာကို စတင်ရန် သူက သင့်ရောက်လာမှုကို စောင့်မျှော်နေသည်။",
+          "englishEvidence": "with but a mere incantation",
+          "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase.",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 6122,
+      "en": "The Principal Source",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Cliffspring Falls/Darkshore drinking-water source, suspected deer poison, cave-mouth sample and naga warning, Empty/Filled sampler distinction, Alanndarian/Auberdine delivery retained. Groundwater pollution, deer beyond river, another possible cause and researching cure preserved.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "8129f2a4e23ba70ce6f39536d93a5d6fc4e70e928b5169e09713f813f930417e",
+          "myanmarSHA256": "60a282c9b0afec00f1319d236e4e0c69fd93cd3588aec2ad5c70486eef9834c8"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "2c72107eb3f73784679daf271786642238a254c7fe195deb47184025666534a9",
+          "myanmarSHA256": "b3ad271c1dd593788d5ba02841ff5e209666a6f00b6f3d8c85e30a3abda44f8b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "becfc8e832d7f6196649c3ed1b849ae26c45434147639b2ac6d1362e125043eb",
+          "myanmarSHA256": "14d034dc9f88196e2f1fc49f855192cf2441cc6d7357cc815678ef9aa51bbbdb"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "8c9faaca62c5bb4c210ef1dc696b4ba32faea058686738d5ae8cabedb3c3d8d3",
+          "myanmarSHA256": "fb4337b109402f619c8896b7710646a9cdea8f37982d1de78085c0307e2a76d5"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "dbdf1b3e1fb7a7fd29857b46126f7c181f05ca6c874141e26a56b2f4b56bd323",
+          "myanmarSHA256": "c3d8cf5b6d6628bd4d15cbd1f84d97efe5da143c0a568c503d6cbf22f23ca52b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6123,
+      "en": "Gathering the Cure",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Salve water base, Earthroot/Herbalist dependency, nearby eastern caves/recently irritable Moonkin retained. Exactly5 Earthroot plus12 Lunar Funguses to Alanndarian/Auberdine; deer urgency, ample initial doses and specific-antidote contrast preserved.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3b82e1a2c17f5d22283a797d169fd8d5e728714a4915b0ce8f1c921dee2709fc",
+          "myanmarSHA256": "101678680158e36c0cfe6d2870f6ae5ce4790ed1f45837ab4412a0983a514f87"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "28ca7ef4a80b5fd30b88c79218c321bffd63bd84b6a478044c1cc8e9af478e56",
+          "myanmarSHA256": "dcc3d1dea0f83f32266260b24c286d23c0356b6dba48025d19e395763de93f24"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d011d7a3f8a78520194b597be5f22f72e83e553ea62241d9fc29ad085ef540ef",
+          "myanmarSHA256": "4d4af0f48fc42b471fc8d6a6bebb688d0d41325230be3d673c9f6df782076be2"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "28beea3b8dfb039d5b7a2b722d66f48ec74c6f6dec0017c747ddc3c9d2feaf7b",
+          "myanmarSHA256": "e163036d244a21a98e3339e9ee5311363e2f71d0e9b19c42da9761f5339f44d5"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "9ca41391b6409d13b46f133b9bd95e0db62f5e1eedeea375b481996458b321bf",
+          "myanmarSHA256": "6867e66db23c3a77176eb25bf010ae32778572eb2517439f3121455f5b95e6b9"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6124,
+      "en": "Curing the Sick",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read including independently bounded60.tools Progress. Written ten doses, village salve work, named Sickly Deer10, south of Cliffspring River north of Auberdine through southern Darkshore/Ashenvale boundary, Dendrite/Circle thanks retained. Completion acknowledges-versus-ignores corruption contrast intact. Final lowercase target identity insertion reread.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "11d745002029b730bceffaa5d3f44e92e60ec1e58d8dc8a5e1a6db4abc33a1c8",
+          "myanmarSHA256": "83638d1cc5c00ada69042cae8a286913c5b45ceee3c1a8d23dc6d2faceb0654d"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "fb4d3c01b116037784a4e2e8f074484253af84ecc94b8eebc062653c19d8ce75",
+          "myanmarSHA256": "871a7a03856e43acc9b9764dab953ce158d7470207942a0289f3692e1ada78f0"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "bcd2a193061b55a1cad279320baea66263a15b4cb122a8c2a9ce5daf1a83e169",
+          "myanmarSHA256": "8ae33b234d5295dd88d7c6a31ced0a060e29cb403a3fb851ba32c3756c0de472"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "34b6542120fe301be6a6f7f1a46a03ea21f4c5f079491f2ea3c6f65212bcb553",
+          "myanmarSHA256": "f43dd035e42917604d9705b2dab71874f2668320be0f1acf817c45ac3194e225"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "4e37300ab8fb8cd98589fb63cd562433ecbca7c18a24c4569f382b96880bffb7",
+          "myanmarSHA256": "592a90bb03edc7a02caf517327d92b27b363f5a4e026524d09fe7b4aeccc26b7"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6125,
+      "en": "Power over Poison",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "objective",
+        "complete"
+      ],
+      "notes": "Three enabled fields and held English Detail read. Detail null justified by unsupported <him/her>; no live branch guessed. Mathrengyl/Cenarion Enclave/Darnassus objective retained. Auberdine investigation, grace under pressure and <name> preserved; requested permanent capability instead of permission and definite rather than possible harm.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "6433bef273c6cb606e25b8547789b96efa6f04d837648985990ee244f333bd68",
+          "myanmarSHA256": "1f8e15f58049f6b2b09b6bc1f405d11d85f7dc67beb3599c57c9b33c2589ad70"
+        },
+        "detail": {
+          "status": "held: unsupported gender alternative; live branch pending",
+          "englishSHA256": "1844a14d2a2e2670144c1b0e80bd3f27824703a4618eb6ecf9608cbdac2883be",
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ee298aac50937c36b45ed5480d39c5680addeab234f2fd41ccc718e8366a5d69",
+          "myanmarSHA256": "25bf4d6b99c79187a1a1799d74ee98d1b6e28f8d18b581e043fe1728f3d86198"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "correction requested",
+          "englishSHA256": "c0c69457a1e85f7f353382b7b24c8b78cc64837e735d89e9bc463b380bb5d392",
+          "myanmarSHA256": "4a5da479f3979e162eb14a74c174389043ff832ba9879036699f8d6032286259"
+        }
+      },
+      "issues": [
+        {
+          "field": "complete",
+          "severity": "editorial correction requested",
+          "englishSHA256": "c0c69457a1e85f7f353382b7b24c8b78cc64837e735d89e9bc463b380bb5d392",
+          "reviewedMyanmarSHA256": "4a5da479f3979e162eb14a74c174389043ff832ba9879036699f8d6032286259",
+          "old": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Auberdine (အော်ဘာဒင်းန်) မှာ ဖြစ်ပျက်နေတဲ့ အခြေအနေကို သိလိုက်ရတာ အံ့အားသင့်မိခဲ့ပါသည်။  ဒီကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးဖို့ လိုအပ်နေပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းက သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေနိုင်ပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ပေါ် အမြဲတမ်းထိန်းချုပ်ခွင့်ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "new": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Auberdine (အော်ဘာဒင်းန်) မှာ ဖြစ်ပျက်နေတဲ့ အခြေအနေကို သိလိုက်ရတာ အံ့အားသင့်မိခဲ့ပါသည်။  ဒီကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးဖို့ လိုအပ်နေပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းက သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ကို အမြဲတမ်း ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "proposedFullField": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Auberdine (အော်ဘာဒင်းန်) မှာ ဖြစ်ပျက်နေတဲ့ အခြေအနေကို သိလိုက်ရတာ အံ့အားသင့်မိခဲ့ပါသည်။  ဒီကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးဖို့ လိုအပ်နေပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းက သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ကို အမြဲတမ်း ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "englishEvidence": "permanent power over poison; is most upsetting to the balance",
+          "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning. Also စေနိုင်ပါသည် weakens existing harm to possible harm; definite စေပါသည် matches the source.",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 6126,
+      "en": "Lessons Anew",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Same mere-incantation correction as6121. Layperson lesson, Moonglade/Nighthaven/Dendrite and actual Crossroads/Barrens crisis remain distinct from Auberdine. Primary <name>/<class> exact despite secondary literal druid. Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "1a38bc489ff36e3c6517459edecaa234ac2dee799c1539cd9576327161f00acf",
+          "myanmarSHA256": "73d97df9ee0122b4b6660023c68af19e1fd8e77af0faeb421100aeb55126d743"
+        },
+        "detail": {
+          "status": "correction requested",
+          "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+          "myanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "faa3aa2717469b0f61663191aa11fab95dcf6831e5f1c5129ad53c1710cf4853",
+          "myanmarSHA256": "79e731568104a9e8b6d01fe4a8ec3e83214d94e9b7718c168f1b9c10d8112861"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "f8dc361055cb63c59d6c0573fac91d10829914aff1769aeb40011c2942c3b130",
+          "myanmarSHA256": "22c4bd7a88c4e8e7798d177e4c33abd7d74d27a8be6bfaa65a05e65c04ef9791"
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "severity": "editorial correction requested",
+          "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+          "reviewedMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+          "old": "မန္တန်အနည်းငယ် ရွတ်ဆိုရုံဖြင့်",
+          "new": "မန္တန် ရွတ်ဆိုရုံဖြင့်",
+          "proposedFullField": "ယခု အဆိပ်အကြောင်းနှင့် ကျွန်ုပ်တို့ druids (ဒရူးအစ်ဒ်ဇ်) တို့၏ အဆိပ်ကို ထိန်းချုပ်နိုင်စွမ်းအကြောင်း သင်လေ့လာရန် အသင့်ဖြစ်ပြီ၊ <name>။ Cenarius (ဆနာရီယပ်စ်) က ကျွန်ုပ်တို့အား မန္တန် ရွတ်ဆိုရုံဖြင့် အဆိုးရွားဆုံး အဆိပ်ကိုပင် ဖယ်ရှားနိုင်စွမ်း ပေးသနားထားသည်။ ဤလက်ဆောင်ကို ပေါ့ပေါ့တန်တန် သဘောမထားသင့်ပေ... ဤသင်ခန်းစာကို သင်သေချာနားလည်စေရန် သာမန်လူတစ်ဦး လုပ်ရသကဲ့သို့ အဆိပ်သင့်မှု၏ သက်ရောက်မှုများကို ကိုင်တွယ်ဖြေရှင်းရမည်။\n\nMoonglade (မွန်းဂလေးဒ်) သို့ ခရီးထွက်ပြီး Dendrite Starblaze (ဒန်ဒရိုက်တ် စတားဘလေ့ဇ်) နှင့် စကားပြောပါ။ သင့်သင်ခန်းစာကို စတင်ရန် သူက သင့်ရောက်လာမှုကို စောင့်မျှော်နေသည်။",
+          "englishEvidence": "with but a mere incantation",
+          "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase.",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 6127,
+      "en": "The Principal Source",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Dreadmist northwest of Crossroads, weather-influencing pools, suspected demon-worshipping Burning Blade, very-top pool and Tonga/Crossroads retained. Empty/Filled sampler distinction, northern Barrens/east-west-road gazelle range, ecosystem harm and another possible cause preserved. Final lowercase target identity insertion reread.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "8129f2a4e23ba70ce6f39536d93a5d6fc4e70e928b5169e09713f813f930417e",
+          "myanmarSHA256": "60a282c9b0afec00f1319d236e4e0c69fd93cd3588aec2ad5c70486eef9834c8"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "726557a001df5bb9b484d43ae628b6820b8b8717efc0ddf7f8d86f5c6e1d2ef2",
+          "myanmarSHA256": "1c363bb57951c8a8c4988037c7d085afd2f0ecee74844d1648cf3fcdd023875b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ca6f9e26a002b8fbebb0b497015c45ba39977a14a5ce49abe1211732fb825626",
+          "myanmarSHA256": "c8de34f738b66fca7af19836680605cac9c7e8c3fa883607b659be29eb090999"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "3d012ecc0b33bdf8c57deb3176982faaaa3ad72b6285afb29563f1c621556558",
+          "myanmarSHA256": "311ad65fd82887b4273668cb7f1afbcf3be545d04c5df499e5103a3d45af9615"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "a9ba8d241e0142951ff8ef26c4a4637e2bf2541715aa4f13d464e7adebda02bc",
+          "myanmarSHA256": "36817c6eb53aa644417b33bb8e03759333e1e97dc6806b44223258feac8265dd"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6128,
+      "en": "Gathering the Cure",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Water base, Earthroot/Herbalist dependency, whole kodo horns rather than fragments, manageable northern Barrens kodos and balance-motivated killing retained. Exactly5 Earthroot plus5 Kodo Horns to Tonga/Crossroads distinct from fungus recipe. Gazelle urgency and specific-antidote contrast preserved.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3b82e1a2c17f5d22283a797d169fd8d5e728714a4915b0ce8f1c921dee2709fc",
+          "myanmarSHA256": "101678680158e36c0cfe6d2870f6ae5ce4790ed1f45837ab4412a0983a514f87"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "15851d6296f8e97908dff95bc84a83bbe2739e29c03d1df37a57f915a86f7ac6",
+          "myanmarSHA256": "1a6e4075ce11d21aca0f971735038cb569465ce457e72d4015eb94fdd8288b6e"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a1c418c7f827c145fcc713cb9ddcdb875d69e7cd7ff8579ded76f73bbfb3c983",
+          "myanmarSHA256": "d986c1f7bbee17f5f627290cae0ba67cd84a0d3d3cb5a3a3518871e16fc958d8"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "daba647e6b4ed8e899ecb1ee116bef84a6d0de2d5e4071274b6406961688026a",
+          "myanmarSHA256": "28c1c22019f7fc4b98166310ebbd6977b03440793c58d46d8cdf426350c3c31d"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "9ca41391b6409d13b46f133b9bd95e0db62f5e1eedeea375b481996458b321bf",
+          "myanmarSHA256": "6867e66db23c3a77176eb25bf010ae32778572eb2517439f3121455f5b95e6b9"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6129,
+      "en": "Curing the Sick",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read including independently bounded60.tools Progress. Written ten doses, local authorities, named Sickly Gazelles10 north of Crossroads east-west road and Dendrite thanks retained. <race>/<name>, Cenarius, Thunder Bluff elders and balance transcending artificial racial barriers preserved. Final lowercase target identity insertions reread.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "11d745002029b730bceffaa5d3f44e92e60ec1e58d8dc8a5e1a6db4abc33a1c8",
+          "myanmarSHA256": "83638d1cc5c00ada69042cae8a286913c5b45ceee3c1a8d23dc6d2faceb0654d"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "67359b112e9fb56a1d268cc90fbd609ee46ae6b71de964fb5ce5a8a18906ac6a",
+          "myanmarSHA256": "ae2707115edf37edcb4032420051084549df5f68268bb0c4c82bee4560c528e0"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ed0054f93e165ab5fb0f025830d1c309b27d4b0f7a8413f561c0f626ba554d2a",
+          "myanmarSHA256": "2b12a0ab1ce6d390255d8c93638ba8c697e738cebe4d6306b1ab318c40bf7e35"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "3112a2ff510d3e81b0c358ba32ca4b9eca0fd5ed899046b5e442d713aa52fe5d",
+          "myanmarSHA256": "398af76a223ab33585c4f9b46a4620be5289c40eada587b7dd27cfab2bfdebe4"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1f1a350e1ab53488cc34c1114816627815aac6627e4d4b41878011f644c21811",
+          "myanmarSHA256": "d0f02f90509ed5eba058bd988b47a4d1fa0203436a6c50dada55a9566c4c2a29"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6130,
+      "en": "Power over Poison",
+      "decision": "corrections requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "objective",
+        "complete"
+      ],
+      "notes": "Three enabled fields and held English Detail read. Unsupported <him/her> Detail correctly null. Turak/Elder Rise/Thunder Bluff objective distinct from6125. Crossroads investigation, definite harm, grace under pressure and <name> retained; requested permanent capability rather than permission.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "6433bef273c6cb606e25b8547789b96efa6f04d837648985990ee244f333bd68",
+          "myanmarSHA256": "1f8e15f58049f6b2b09b6bc1f405d11d85f7dc67beb3599c57c9b33c2589ad70"
+        },
+        "detail": {
+          "status": "held: unsupported gender alternative; live branch pending",
+          "englishSHA256": "01d3c60f74523383df3a2a70b8994df3112b53d6671a04ce55428526561e970b",
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a3ad172b4b2edaa9f5957c0b719b5f00266c28560ff7a80907cdb6c51d264a6a",
+          "myanmarSHA256": "7e81974ab6ce56a7bb7e045a76b1b6f26f4ff86cf8284a4f2d0423d8776c0299"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "correction requested",
+          "englishSHA256": "8c37e6325f7399090012b9a32c3a62a7b419c1c4773291ab8a4b0e139767b230",
+          "myanmarSHA256": "007bd7cb0db3b1c51b3ffc48048413550bf908e6d6c0d837f775bea28f0cb0af"
+        }
+      },
+      "issues": [
+        {
+          "field": "complete",
+          "severity": "editorial correction requested",
+          "englishSHA256": "8c37e6325f7399090012b9a32c3a62a7b419c1c4773291ab8a4b0e139767b230",
+          "reviewedMyanmarSHA256": "007bd7cb0db3b1c51b3ffc48048413550bf908e6d6c0d837f775bea28f0cb0af",
+          "old": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Crossroads (ခရော့စ်ရိုးဒ်စ်) တွင် ဖြစ်ပျက်နေသော အခြေအနေကို သိလိုက်ရသည်မှာ အံ့အားသင့်မိပါသည်။  ဤကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးရန် လိုအပ်ပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းသည် သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ပေါ် အမြဲတမ်းထိန်းချုပ်ခွင့်ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "new": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Crossroads (ခရော့စ်ရိုးဒ်စ်) တွင် ဖြစ်ပျက်နေသော အခြေအနေကို သိလိုက်ရသည်မှာ အံ့အားသင့်မိပါသည်။  ဤကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးရန် လိုအပ်ပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းသည် သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ကို အမြဲတမ်း ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "proposedFullField": "ပြန်လာတာကို ကြိုဆိုပါတယ် - သင်ထွက်သွားပြီးနောက် ဒီသင်ခန်းစာမှာ သင့်တိုးတက်မှုကို ကျွန်ုပ် လိုက်လံကြည့်ရှုခဲ့ပြီး Crossroads (ခရော့စ်ရိုးဒ်စ်) တွင် ဖြစ်ပျက်နေသော အခြေအနေကို သိလိုက်ရသည်မှာ အံ့အားသင့်မိပါသည်။  ဤကိစ္စကို နောက်ထပ် စုံစမ်းစစ်ဆေးရန် လိုအပ်ပါသည်၊ အဆိပ်ပစ္စည်းများကို ပတ်ဝန်းကျင်ထဲ ထည့်သွင်းခြင်းသည် သဘာဝညီမျှမှုကို အလွန်ထိခိုက်စေပါသည်။\n\nဖိအားအောက်မှာ သင်သည် တည်ငြိမ်ပြေပြစ်စွာ ကိုင်တွယ်နိုင်ခဲ့သည်။ ထိုအတွက် သင့်အား အဆိပ်ကို အမြဲတမ်း ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်းထက် ကောင်းမွန်သော ဆုမရှိပါ။ ဤစွမ်းရည်ကို ကောင်းစွာ အသုံးချပါ၊ <name>... ကောင်းစွာ အသုံးချပါ။",
+          "englishEvidence": "permanent power over poison",
+          "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning.",
+          "status": "pending guarded integration by root"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "en": "A Lesson to Learn",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields read. Nature-protector progress praise, Cenarius water aspect, Moonglade/Nighthaven/Circle/Dendrite retained. Unlimited water movement, earned-before-mastered form and two trials with pressure/resolve tests preserved. Primary available; preserved secondary fetch timed out. Final Aquatic Form identity insertion reread; Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "efeb6c93527af4e1606b5c7df7ac0d48421568ece366bdfe03b70fe62ee7d46a",
+          "myanmarSHA256": "4f4c00ee7e7e88109ab4db6e98e2240678479c9c858f67f6238d5d63a5108c75"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "9388c04b263ac01e6133855c4f16ac0fc6659d127633c980fcd3e4ac55296595",
+          "myanmarSHA256": "281d9c5e01345095598245a5f1fa39519a42356e88b5a2e4bc9a733d35c36125"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a737a274b84965e7a9df925887d6406c630fdadd47e1deee8cadf08abe9a67ac",
+          "myanmarSHA256": "eb0d327d440f30144070063ac17da49e4205874315b7703a1ae7910410b6bb24"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "71866fc9dc81895d2edfd31b338e2397cb070b724ea0d94e29a13e4f7a2735dd",
+          "myanmarSHA256": "fb84e57d24c4a8d38a9389cacf662e3bc2e1fb57ac9f40d5d9592186337f2e1e"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 27,
+      "en": "A Lesson to Learn",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Four enabled fields independently read. Praise, Cenarius aspect, Nighthaven/Dendrite, unlimited movement, earned-before-mastered form and two trials preserved. Primary <name>/<class> exact. Final Aquatic Form insertion reread; Progress absent.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "efeb6c93527af4e1606b5c7df7ac0d48421568ece366bdfe03b70fe62ee7d46a",
+          "myanmarSHA256": "4f4c00ee7e7e88109ab4db6e98e2240678479c9c858f67f6238d5d63a5108c75"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "9388c04b263ac01e6133855c4f16ac0fc6659d127633c980fcd3e4ac55296595",
+          "myanmarSHA256": "281d9c5e01345095598245a5f1fa39519a42356e88b5a2e4bc9a733d35c36125"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a737a274b84965e7a9df925887d6406c630fdadd47e1deee8cadf08abe9a67ac",
+          "myanmarSHA256": "eb0d327d440f30144070063ac17da49e4205874315b7703a1ae7910410b6bb24"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "71866fc9dc81895d2edfd31b338e2397cb070b724ea0d94e29a13e4f7a2735dd",
+          "myanmarSHA256": "fb84e57d24c4a8d38a9389cacf662e3bc2e1fb57ac9f40d5d9592186337f2e1e"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 28,
+      "en": "Trial of the Lake",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Rapidly decaying deep-lake Shrine Bauble, urgent Shrine of Remulos trip/use then Tajarri, finite unspecified time and possible other-druid competition retained. Northwest shrine/within-boundaries condition, mental/physical dexterity, female warden duty/privilege and Remulos tribute preserved. Primary <class> controls over secondary <race>. Named-rite title retained under style exception.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "78de72168201f1f66b20b7e048397f4adb399aacad914e19566d2d941bb2c0b8",
+          "myanmarSHA256": "512dcd95d9560cac79adcee6f2ea246925f8223fec8ee0d7a8db081d56e3f2fc"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "2f5058345bc8451e79eb5ed0e15a07166d28fa8e3a3102120ec04e931509c175",
+          "myanmarSHA256": "dd1ec6e3c68b341b73a6056c9fd485e100620304ed15aa8690b34ce996d169bf"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "f983e1e9d30d63a3707e3b457a6849892991e1893d0cfe37410923f5a972ae51",
+          "myanmarSHA256": "d223d78c63c7dbcef77b5be42099be4e55c329f586a4dc785ed37ae38747436e"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "69a25138eeb5c383c89f710e55540fe73e23bb692ce6f7e640ec3030eb5f51a5",
+          "myanmarSHA256": "c3ed628ac2ad1f439c3a8baccf0de370212d688970fb40b87fa2044c91081243"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "7ee7742c90fcb9d7bda89f80f4dd35de746cbbf07e81f1b7e60516a05c93c90d",
+          "myanmarSHA256": "20e57477abf8a753b5ce647357277a52af273ec170f55e7bbc55416100e7487a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 29,
+      "en": "Trial of the Lake",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields independently read. Same-title twin preserves decaying lake bauble, unspecified time, possible competition, northwest shrine/use within boundaries then Tajarri, warden duty/privilege and Remulos tribute. Primary <class>, not secondary <race>. Named-rite title retained under explicit style exception.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "78de72168201f1f66b20b7e048397f4adb399aacad914e19566d2d941bb2c0b8",
+          "myanmarSHA256": "512dcd95d9560cac79adcee6f2ea246925f8223fec8ee0d7a8db081d56e3f2fc"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "2f5058345bc8451e79eb5ed0e15a07166d28fa8e3a3102120ec04e931509c175",
+          "myanmarSHA256": "dd1ec6e3c68b341b73a6056c9fd485e100620304ed15aa8690b34ce996d169bf"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "f983e1e9d30d63a3707e3b457a6849892991e1893d0cfe37410923f5a972ae51",
+          "myanmarSHA256": "d223d78c63c7dbcef77b5be42099be4e55c329f586a4dc785ed37ae38747436e"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "69a25138eeb5c383c89f710e55540fe73e23bb692ce6f7e640ec3030eb5f51a5",
+          "myanmarSHA256": "c3ed628ac2ad1f439c3a8baccf0de370212d688970fb40b87fa2044c91081243"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "7ee7742c90fcb9d7bda89f80f4dd35de746cbbf07e81f1b7e60516a05c93c90d",
+          "myanmarSHA256": "20e57477abf8a753b5ce647357277a52af273ec170f55e7bbc55416100e7487a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 30,
+      "en": "Trial of the Sea Lion",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Two complementary pendant halves/traits, agility gliding versus endurance, equal use, local clues, shrine-proximity joining and Dendrite/Nighthaven delivery retained. Exploration encouragement and mutual dependency/willing sea-lion embrace preserved. Final Aquatic Form insertions reread. Named rite title permitted.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "c75e265a554f3df436165f01e92a20acd3ff054b6e34b6a84aa71fb38a556bd9",
+          "myanmarSHA256": "aab3c9460bb667957f66af1eb6146f91486afb0fe984e2abee61c83c3fd3c2f9"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "5de6c86dd97f02709242914ed88c32b1766fe7d40acf667c3c2cc75c42abf68d",
+          "myanmarSHA256": "48a65443e68fdcd3ccf1c17f5704edfd3a33b2afd41e6ae92629aee46fad0402"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "c693ef1b31f4a7dbd81ad12bb5ec7e60fdf2327af3d10d7b98610f7499e7ebee",
+          "myanmarSHA256": "dd73a45cc0277a35e8811e701115f9e4d29f8da089755caa2f7f2ef736a7c059"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "fcce3aafb55d9dd60c8aba9811bf1266f186733b7a9d0166b5200d2748c18e9f",
+          "myanmarSHA256": "281aef59b1ee8301b4baf3266c323d8f7ee3699fd03f46648cf0c4d193cab319"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "854d6ba5f3dabd71f80e50bd9f5e2a3c66fd798745934342e633aa09da9a6e07",
+          "myanmarSHA256": "13d0ec6ea37210cf1feb49cce69492e08004f0e81267f3d7391d156168fda2aa"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 31,
+      "en": "Aquatic Form",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Turak/Thunder Bluff trainer, pendant proof before teaching, water unity, farewell retained. Tauren-only ancestors praise and two-trial gear reward preserved. Aquatic Form spell identity retained; final inserted identity fields reread.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "1f3075462cf8c345c548fa52541941990d5edd8b6cb61d102286e2fab5cf1e42",
+          "myanmarSHA256": "8007b778cfbeab44e6b193e6e31c568f472f6399dbea2dcf4e6e0be8f260f69f"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "e3bc9b412ef38561f2d7ee46765995507f5e09a77012a58037425e1ad02b7471",
+          "myanmarSHA256": "ef2bb9e7c80ce1a2a0bac5a3e02ea5ea38c6976dd6dcd2e597b66a85534c2c12"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "1fce3ad314c7f3bd1ef081ef1716fd44e166499feb8353a60eabefdd6e5e70a5",
+          "myanmarSHA256": "cfe2144832cf18f4469249a176fa3b9e75b9b740c3e2d01f57390e969b89eaab"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "520eac3c067323bad0a63e17a6b52e653775466d9e5c6f2a09817b3082a5fba7",
+          "myanmarSHA256": "f48715092f3b9baa4e8f977e704c6d9dac52a25a1dd64e2cdcc8862de2e0ec61"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "b4671b48347a8f0c288aa0623f065e52c6ae3d5e6c0cb93a9322cef9150df199",
+          "myanmarSHA256": "9068b724d0e589a3ee74a7537ad1822af111e5ee02d46ff5047a565870629d6e"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 272,
+      "en": "Trial of the Sea Lion",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields independently read. Distinct Aquatic Agility/Endurance halves, two traits equally used, local clues, shrine proximity, Dendrite/Nighthaven delivery, exploration and mutual dependency/willing embrace retained. Final Aquatic Form insertions reread. Named rite title permitted.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "c75e265a554f3df436165f01e92a20acd3ff054b6e34b6a84aa71fb38a556bd9",
+          "myanmarSHA256": "aab3c9460bb667957f66af1eb6146f91486afb0fe984e2abee61c83c3fd3c2f9"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "5de6c86dd97f02709242914ed88c32b1766fe7d40acf667c3c2cc75c42abf68d",
+          "myanmarSHA256": "48a65443e68fdcd3ccf1c17f5704edfd3a33b2afd41e6ae92629aee46fad0402"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "c693ef1b31f4a7dbd81ad12bb5ec7e60fdf2327af3d10d7b98610f7499e7ebee",
+          "myanmarSHA256": "dd73a45cc0277a35e8811e701115f9e4d29f8da089755caa2f7f2ef736a7c059"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "fcce3aafb55d9dd60c8aba9811bf1266f186733b7a9d0166b5200d2748c18e9f",
+          "myanmarSHA256": "281aef59b1ee8301b4baf3266c323d8f7ee3699fd03f46648cf0c4d193cab319"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "854d6ba5f3dabd71f80e50bd9f5e2a3c66fd798745934342e633aa09da9a6e07",
+          "myanmarSHA256": "13d0ec6ea37210cf1feb49cce69492e08004f0e81267f3d7391d156168fda2aa"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5061,
+      "en": "Aquatic Form",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "All five fields read. Mathrengyl/Darnassus return and pendant proof distinct from31. Before-teaching proof, aquatic unity, two-trial gear reward retained; no Tauren ancestors sentence imported. Aquatic Form spell identity retained; final inserted identity fields reread.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "1f3075462cf8c345c548fa52541941990d5edd8b6cb61d102286e2fab5cf1e42",
+          "myanmarSHA256": "8007b778cfbeab44e6b193e6e31c568f472f6399dbea2dcf4e6e0be8f260f69f"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "211609a2b8cd9d8260782ceb0caf1888a4ff63fe42bd215961f242d96e826cb8",
+          "myanmarSHA256": "f7caef1a165cb4cdf9123ed5a8dd8feeecd3b0bd302e9b7e45e4a5e72779929b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "015d4af831bde45665c3e9bfa51829233f658c48714f0ce17cf468c557754804",
+          "myanmarSHA256": "aac3c90a092d9448a186d657207d9aa0f012b54df7e0313afc9c3206c3a94077"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "7dcd378735d41dbde9272e1a9ddf6dbfc9400f098c36c514f2bd26ae0cf29819",
+          "myanmarSHA256": "a0172434038892a6ca0cd4b78f68a3fbd94e6f8fd177b36571c9a745353aabb7"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "5e612d2866fa321aabd92309f31c530d03dfff7f219a4fdfe21fb66f8e4ce5f8",
+          "myanmarSHA256": "1d1d33a2add77c052c88b44aa9c01120f21817b1f77d72456fa17077e2231055"
+        }
+      },
+      "issues": []
+    }
+  ]
+}

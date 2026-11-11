@@ -1,0 +1,811 @@
+{
+  "partition": "hunter",
+  "reviewType": "independent assisted English/Myanmar semantic and source-boundary review",
+  "reviewer": "nov12_independent_review agent; independent from partition author",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceFiles": {
+    "english-sources.json": "76e108a9a655db171626dcfbec65dd2451153e0a870ddb78c97efc595d2cd5f5",
+    "edited.json": "45892ee1cee8295641ac9cff28d7b54ae69fc6116f0b89e7d4c1da96ad3880f8"
+  },
+  "questCount": 16,
+  "enabledFieldCount": 74,
+  "correctionFieldCount": 0,
+  "sourceHoldFieldCount": 1,
+  "heldFieldsAlreadyPresent": [
+    {
+      "id": 6064,
+      "field": "detail"
+    },
+    {
+      "id": 6086,
+      "field": "detail"
+    }
+  ],
+  "sourceBoundaryChecks": "Inspected preserved raw Wowhead HTML Description and explicit reply-div boundaries and title/objective sections for all16. Independent stdlib HTMLParser traversal matched all5 source fields after whitespace normalization. Four training Progress states are absent; no scripts, objective tables, provided items or UI text entered dialogue. Preserved60.tools comparison inspected: objectives absent there, marker-case differences follow primary,6103 Completion punctuation does not change meaning.6064/6086 detail gender alternatives remain held.6064.progress additionally has genuine primary-lad/secondary-lad-lass conflict; raw secondary Progress heading/body verified. Exact enabled markers match. Every enabled Myanmar field was read against English for meaning, named targets, directions, speaker and written amounts; this is not native or live verification.",
+  "sameTitleAndEligibilityChecks": "Installed fresh metadata distinguishes four separate Hunter classMask4 chains: Tauren raceMask32:6061→6087→6088→6089; Orc/Troll raceMask130:6062→6083→6082→6081; Night Elf raceMask8:6063→6101→6102→6103; Dwarf raceMask4:6064→6084→6085→6086. QuestIDs, supplied-rod itemIDs and target/trainer NPCs compared to HTML; identical generic Taming/Training titles do not merge these records.",
+  "quests": [
+    {
+      "id": 6061,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. First Tauren step is Adult Plainstrider with rod15914, Yaw Sharpmane/Bloodhoof Village. Ancestral combat, taking in spirits, Earthmother closeness, nature unity, eventual choice versus current practice retained. Objective returns rod; progress target and Earthmother signs completion match.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "4b5abe83c79f2496c9286c09c961fb5b1eaeeb7bc797d74df63f3faa4680b048",
+          "myanmarSHA256": "63070acdbe6f4a40f76e079b38cd4d228d7eabd8d92a24129c1c9e4e4242c886"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "31793a2c0e5b5d5cc0972a3e85400408cdfa7e79e84a3561919261eca8cf3998",
+          "myanmarSHA256": "85353788f0000effa8a846434e21415799e483521075698d78d9cae9357bf18e"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "3c07deec9552f704d572f9dde00ab143fd903c14a09007daf8fd93744b05cac1",
+          "myanmarSHA256": "8e63bc3b64d82e07bccc53ed3d2741f55e57f35b0216e1b3377a6f4a459406fd"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "bf1ef72de0354215f900c172a1d004df77159cb8491ef10f146ae475f5c8b79a",
+          "myanmarSHA256": "db00d6a2ce64adf9eeeca2f855bce43cf0119c7a7f304bfb6c701fee43576c5c"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6087,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Second Tauren step Prairie Stalker/wolf with rod15915 follows6061, not bird or boar. Fiery anticipation, swift/fearless qualities player must adopt, becoming a battle team and muscle-to-muscle unity preserved. Objective returns rod to Yaw; progress found-question and Earthmother next-lesson belief retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "5039677e6bd2044944c788dd3add7534aa8dd1006202635772758f4e564c766d",
+          "myanmarSHA256": "2bf0b62e5aa8988e7ea69ad5603798ab1078df6f7cb2d3240aed234d1d61dc6e"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ce435de744a25f3f517465aacfa2b8c9687f82bfd333945759167c8858cc80ea",
+          "myanmarSHA256": "a1e5c95d93e7eff0aea54ba4cc210cfc424c567912710be05eb1d051f4792aca"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "c9eb4bb1416147c0c33befb2c0632a10fe318b3a6f47ab1ad6341934622c22f4",
+          "myanmarSHA256": "d174469e512a85c962125e1a7ae2ed1bf8a74cc42aec78aba3e9789de7b8ab48"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "e21b05f2c35567188825e3fb51f9362a30edaf07420fa4b015a2e67ee07b59e8",
+          "myanmarSHA256": "8a42ecbcc17490e35d6304626ed174785567ff768ba068d6e8d112834ef37f68"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6088,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Final Tauren taming target Swoop with rod15916 follows6087. Sky creature, difficult opponent, ally sharp attacks/threatening presence retained. Future skill grant upon return, chosen companion sharing challenges/experience and call/dismiss preserved. Objective rod return to Yaw; readiness, Earthmother blessing and honoring her in completion retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "6b5d10e6659b2376090645b72a89479a4af22135cd4276ccb27073c1b1faf865",
+          "myanmarSHA256": "67983cb8407710d7884ce66d219ecf558d83f943506f32e7b341051e2a7cb690"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "19169be683098a66721eff7db6a286822a4756868f6cf36bb73d1d18479d3f64",
+          "myanmarSHA256": "75e3ab0c7fb9203f18fe34371b066f59a970de3024affcd177e0d64f76f28665"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "bc9e8030fa49e7f025aa353d85f822d512087dd711c1dc69c8a10248d4cd0b68",
+          "myanmarSHA256": "61ee9e123ef5a36230a0469720760860798c4918e7821b1f41ae5f9d9b0fba14"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "07713f20014e0b0ad2b7c9f5cdb7964bf0dc1382fea375473d10a4a1b433eab1",
+          "myanmarSHA256": "b80799097d5a8155ee39d43c104f0cdd8800ae00921d7b8d9747840cc0c75a64"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6089,
+      "en": "Training the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all4 enabled fields; Progress unavailable. Tauren training follows6088 and goes to Holt Thunderhorn on Hunter Rise/Thunder Bluff. Conditional worthiness, Azeroth beasts conquered, strong creatures commanded and Earthmother ties preserved; same-field Holt abbreviation valid. Completion separates training/new abilities/feeding/reviving if fallen from earlier taming/call/dismiss, with blessing/future conversation.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f40bc0b7328d5708112927a1b0465fa2b8fe3e0b520269bcfc75cb53cc572592",
+          "myanmarSHA256": "469b1c362e3bf07fd74a8d852c34f5892751cbaecb0cad51a105cb096d28d3fe"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "ed9613c7a67e278e9f6534b3ee9313ca2a3b221a528b52940cee161c8fca5cf7",
+          "myanmarSHA256": "062943d6252ae39795793dbc31bfb5b1d68b9dfbb2580ed7faf6ba0e8f3466a8"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "cd5288f5d9c202a13157d1dc865e37ffc8c706c2debfba2850977e5d2c791a9d",
+          "myanmarSHA256": "235182bd04322505b55c0a45001a4b9e6e06395483ade64928ce1155114d39e4"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "0d3fb621b1552cca7c064d8478c8c2eb73f00665dc63b54421340a33903536db",
+          "myanmarSHA256": "3d80b3ad4b0ae72e93f8a525ede949bac0ddcb24cace5110e7baacc75c2bdef0"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6062,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. First Orc/Troll step Dire Mottled Boar with rod15917, Thotar/Razor Hill. Authority-over-nature framing, inherent creature power, determination, nearby boars and battle practice with boar at side retained. Objective rod return and young-class greeting; readiness is belief, not certainty.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "8c67d67a26a50aaf953aa54232b8ab9b41fc068b2f3c545135ea81ce8612a85b",
+          "myanmarSHA256": "0bea9352ea19f2b04f57d487d4ab7e92a8aa07e336cdec4221a046f7246f3a7b"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ddf69deccbc6c5fedd3bb9e981493918554d3bb8372a0578eae58413dadeb9b7",
+          "myanmarSHA256": "725c74d5f77fcd8077d845a06bb967734f63e9e06522289ce54d2777705ae05b"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "d0f6baaa4511c815f2f263659c0e3dd6e26859a296218c67bbdffa73a994d08a",
+          "myanmarSHA256": "536f63a30c41fae914159348494793104b17f3f39fe5b16be9b687b1dd3e5d7b"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "6daa48712a676c91eb4a1532e23001aa0ec49d1ae76b7e39fd85ef0261463492",
+          "myanmarSHA256": "fe7400957d2eb9af1cc2b6f1628a5a187e7e32241e80a4927f56b12cf15f74ca"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6083,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Second Orc/Troll step Surf Crawler with rod15919 follows6062. Pet advantage/strength extension retained. Coastal waters across Senjin Village near Echo Isles, spirited crab and practice preserved. Objective returns rod to Thotar/Razor Hill; progress effective control question and swift-learner praise remain specific.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "d5f7a188b265cbb56fa7f3b11c30509d228dff8c08286da77c4da6dd6227b267",
+          "myanmarSHA256": "5db38b04ac90b22cd8a0c7bb6502dd42db17709a371914d7e9c0defbb389744f"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "4116254b25e532476b594b4723d999ca6a4b6811a79bb73e660a4e66bf3cc961",
+          "myanmarSHA256": "3c8aae7544041579aa7066bc2fbf53040c682ad846dc009143f56227df22e068"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "5073052f4ea790f8d61a6824b1dd8167fd14a442a2c5822f765618cfda81e509",
+          "myanmarSHA256": "dd138ee9d2341a4b8dfeaf64417d2de1c12f807925182fe29c2ddfccebf44c33"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "55ef165a93d572aaca62ca06f9a30c881b199d420fdda30a6a22c6601a8b703a",
+          "myanmarSHA256": "3b78d44a4aeffb9eafbbadd275ddcbb5ec7c224083da807110b07ee5ec6fd96f"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6082,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Final Orc/Troll step Armored Scorpid with rod15920 follows6083. Emulate quick/confident strikes and hunter destiny retained. On-return skills, player command, shared experience and call/dismiss preserved. Unlike earlier objectives, only return to Thotar is required in wording, without inserted rod-return instruction. Completion learned-all, choose own pet and earned abilities retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "f1685f5e1ee9e44fc6fe00ecdd3d5acdee09cbdbb66688e76c851fcdb3bf0d9d",
+          "myanmarSHA256": "cab98b773b603ee4607950f7898f07c2f64c82e718aa4efe622edf54f33a512e"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "1d5804e1c659f9a667f3aaa0a16df03979b5d1d180da299245f09ed8315e45ed",
+          "myanmarSHA256": "a1492d28441479400abb0ba2cc12cd48486d8664cf1f67fa41bea8696359ac78"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "11c11e08fd26e9a22b75ac6c89b7a2654cc170bd76faef7855d9bdb1c2e50cb9",
+          "myanmarSHA256": "004973c8a5011197fd2cb41f66e60386b8c7018e69769407c9ef4af4abd296d3"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "3729dea350b660cc7bdcf0d5c0e0578f68f32a27398d82c0bca70b3980728e09",
+          "myanmarSHA256": "c5e5eaa27a2eaa236b4159d75efcec2761a188d9b8567d4ba4bb7288ece154a8"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6081,
+      "en": "Training the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all4 enabled fields; Progress unavailable. Orc/Troll training follows6082 and sends player to Ormak Grimshot near Hall of the Brave/Orgrimmar. Taming versus training distinction retained. Completion teaches abilities, feeding and conditional revival, repeats exact<class> twice, then future conversation. No added location in concise objective.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f40bc0b7328d5708112927a1b0465fa2b8fe3e0b520269bcfc75cb53cc572592",
+          "myanmarSHA256": "469b1c362e3bf07fd74a8d852c34f5892751cbaecb0cad51a105cb096d28d3fe"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "17127618ae1d9c06dc0090a0e746cdaa0ecf7c104df24ca5dd249452434470c7",
+          "myanmarSHA256": "9eb5b3272339a26a7694779404e8c1cf007e8897cd8682c5743c36f2f29075f5"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ccd2bf214787e6c036ce9368b182303aba7046121c2536df235c72ec0eabbfaa",
+          "myanmarSHA256": "9812749c557e448333d3ce67fc92d767d8c6c7d567e07832b1e3a816e0cd664e"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "de692a98a82bad205783754cb109be3a182b181f5fff1dde13130770c63a41a0",
+          "myanmarSHA256": "95565b4b79d297b39f2372bc7777039b25f3fd0458d0a9ac21b38807b90f4620"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6063,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. First Night Elf step Webwood Lurker with rod15921, Dazalar/Dolanaar. Responsibility, nature as stronger respected power rather than bent to desires and proving understanding before pet ability retained. Practice as hunter, objective rod return, future-class encouragement and fast-learner praise match.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "eeff29e0f7628c284d43a444c59a98f228fc5262273c71b9b94884087024f5ee",
+          "myanmarSHA256": "25b6eeff2909b22ce627c0ba4cae911e021b8e8802d8ffbb950fd5cee39a2ed5"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "fb77607a4a2aa5a4dc5847286b2ae5b207ce35348e90a4b8ac38ce8e1c3f26d4",
+          "myanmarSHA256": "93c0408586a9971dab0c48fe1ecd7e8cea8d87581233930cca3db7af8cad3d1c"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "a2eea1f31325af218e5d06da713c2f0be89c8c7ac370d2d70792c7c1bf8b65db",
+          "myanmarSHA256": "b3d3c767505db77d7c7585bfdccc29915459628412b949190c799a8c8c8a9a3a"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "f4abdbd8860227865d654344479b88ef94c1959527704b62a404bcb482e9e688",
+          "myanmarSHA256": "f27cdfb4c25f4242e4c0fbb66aa117d71d1ea0dfc5e10ef16e3abfd57293d1e8"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6101,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Second Night Elf step Nightsaber Stalker with rod15922 follows6063. Predictable ongoing change, appreciating differences, southern target, practice and similarities/differences retained. Objective rod return to Dazalar; exact<race> in nature-balance progress and commitment/understanding completion preserved.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "d55730f830f4d9801bc463c3568a77be12b665ff2032b795fdbf89ed05e124b6",
+          "myanmarSHA256": "1cd0cb96f0968c59580bd258d9af942dca0b151d2e7ae33180f8e7f70306892f"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "b6534457afd7e0059fff302f65b0f13900c5fbe2392b61bcaca805048c227ab3",
+          "myanmarSHA256": "9d3bf545c92a2b7378dcf2620560488ca19e4f961cc89c4fbdc64adac9e4ac2b"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "789c6be9bc1f47e20a00b64e43b695021013096cd9d99a3ac3d3ed384da2fbf2",
+          "myanmarSHA256": "efac78918cfaabad92300782b9193946e20388c0fb65273b549a413292f09b57"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "3db0e1e23651824ad5699500111f5d723ab63c891f97f740a546185b05018396",
+          "myanmarSHA256": "16d9f669677ea9ad63d4a3560bb9b89b32510faf9475bdf3d308604a476e095a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6102,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Final Night Elf step Strigid Screecher with rod15923 follows6101. Written two previously tamed land creatures, sky/strong owl, west direction and practice at side preserved. Future companion shares challenges/experience, call/dismiss preserved. Objective rod return; completion deliberate choice among land/water/sky, lasting companionship and earned skills retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "4827fe87df1dc951060afd1a4649f30c8e5a79939d965656dd1b147ce9dae498",
+          "myanmarSHA256": "abb4e05509ed4a53eea0c947d287a353658576f37952886f1c42d4f479e715a9"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "61c3ca9313a1746f508a248d05cf302b2f424d2b58ae9e687b2a7202ad193a2d",
+          "myanmarSHA256": "43861a93c3060a11a1a2dec7582ed0569bcc7f1ea8351f5a13ad85eee6162a88"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "321084bec02ab52b38c0c1a3b4fa2ff72427a52fb36890be2a295819a8e63dc4",
+          "myanmarSHA256": "50c34bb1617b088e94af2d529d015195ff6f3cd1b5289ee6c6bb9a2e7f8a4a16"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "165d5897cabf1765debef629196c66359de88aba291bba47a1b06f331b9c0c79",
+          "myanmarSHA256": "59f4d74822a3262bd65335f64711cf78efd6e40a9fdf7fde3662894c637907d9"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6103,
+      "en": "Training the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all4 enabled fields; Progress unavailable. Night Elf training follows6102, female Jocaste at Cenarion Enclave/Darnassus. Haste, apparent sternness yet pleasure at hunter advancement, reciprocal respect and good luck retained. Completion abilities/feed/conditional revive, balance and awe of nature plus later conversation preserved. Secondary punctuation variant does not change meaning.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f40bc0b7328d5708112927a1b0465fa2b8fe3e0b520269bcfc75cb53cc572592",
+          "myanmarSHA256": "469b1c362e3bf07fd74a8d852c34f5892751cbaecb0cad51a105cb096d28d3fe"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "69aaed5a110510341d5c8bb4cba18ccc01f7f2691081698b653bad60721a04f3",
+          "myanmarSHA256": "3558c168a5b1188ebc24847d51935084020930e707f6ec83aba1d836831e86fb"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "a98e8421d1efb02b7977056d7e502706e0d9e6904faa62e4c345356d28cf920b",
+          "myanmarSHA256": "3876411151d06f4ffc3130095695b46b9b29b43bc44ad3e8d47e694533ecafba"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "70bd361438940feec9f19497bfffce103b3a66836ec583e1800c256c1a16d87e",
+          "myanmarSHA256": "6c158a17a1e05a9c00508184850085e1eafcf3b9913d9ac8f42e7de5b306854d"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6064,
+      "en": "Taming the Beast",
+      "decision": "source hold requested",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all4 currently enabled fields and held source detail. First Dwarf step Large Crag Boar with rod15911, Grif Wildheart/Kharanos. Detail remains correctly held for unresolved primary<lad/lass>. Objective rod return and teasing next-question completion match. Progress few-trials-before-one-choice is faithful to primary, but its male address conflicts with secondary lad/lass; request hold pending gender evidence rather than applying fixed male address to all players.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "held source-supported unresolved gender branch",
+          "englishSHA256": "bf265196f07da731d4b56477694459ad676bef6e802f39656b3200a77ab537e0",
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "f5e1abe93c31c4d4c01d5d9f07b24b8d0b8581b3a1627d08f2d963774f1bc2d7",
+          "myanmarSHA256": "49747202d4201fc591cb84896c8a84a41c069d7ba2f2d2c5fa2033ab31517f43"
+        },
+        "progress": {
+          "status": "source variant unresolved; hold requested",
+          "englishSHA256": "0264428591a603e6536b43b96a33a7196bbada19c7faf7336b79d7d0447e3212",
+          "myanmarSHA256": "d258753117d9f983fa23c5eb1882bb8053f377b61de97767cfc017eb7d942387"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "30cf43438aa65e470dd8a14976a7cdf92efddc0ea3f3fdf5052fcde4d56b625d",
+          "myanmarSHA256": "c1ed424452e8e619b02e44fd6e90ddf91be1054ac82a3641a724ad8c901425b6"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6084,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Second Dwarf step Snow Leopard with rod15913 follows6064. Burly crag boars versus finesse, south AND east, white cats, carved-rifle analogy, strong damage and agility/speed comparison retained. Singular later snow-leopard alias follows annotated plural in same field. Objective only return to Grif, no inserted rod return. Learning-enough condition in completion retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "7fc91e954d07ee4cfe4fd299191865ba5743b3657427082ca64737ccf5b62ca5",
+          "myanmarSHA256": "edd998c96daa337ec8b1ee2bd5c9262242618a33f1fd56aa28bcaa10fdc9790a"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "9b60d11cc2c94ee24eee5eafa8bb91fa8a323b1177d7a78c3e9ec543f52c298d",
+          "myanmarSHA256": "7d99a19a2f36619907b14986652c362d68f2b0bcfaa0f067f751e62d90a63193"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "768016c55955a0a235b0282209a897f3fc9b0908fbbae44e3de0c932ba94ed44",
+          "myanmarSHA256": "2b983d93d7ffa90b2fb1473391233c7fe70df37d80ea86d9404175a02b6e4679"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "3cdc60e3bffa7d99a564bda6c0da65a83c6fcd8bb6dcc6f68ec5260d8b306b03",
+          "myanmarSHA256": "c18973236340f9c0458542fc556c74147e02b58319651e2b5e867084c23c701d"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6085,
+      "en": "Taming the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "notes": "Read all5 enabled fields. Final Dwarf step Ice Claw Bear with rod15908 follows6084. Little beyond brute strength, excellent fledgling companion, east of Kharanos and try-if-liked instruction retained. Future chosen animal shares challenges/experience and call/dismiss retained. Objective rod return; completion grants abilities and encourages good loyal pet/enjoying hunt.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f51e84a34faa459ac9446d288cc234bc8cd7031662de4b14d7a071b0ac2c0857",
+          "myanmarSHA256": "48e69b1fd2526b102b8583a45311496b18dec69eeb2102275ccd1bd21e31236e"
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "4f77907ecc3295a879b1bb6c6db9f2bc6683dec238b74b0047a6db70143b13ca",
+          "myanmarSHA256": "cdb1aa8469ba076ad07ed54c7f505630d1e5eb60d81ad6d62b340e2eaf4f80b3"
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "3268efe929b488239f756e84b574f36ad03d87f82a105b91975f67eec2ddd55d",
+          "myanmarSHA256": "fa5bb9abb8f6db4e1718054808a83b0e0661187ed4d22ddd8bee6a944d883d2e"
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "b74d99eb3c83892205c631b68d156c30ae00d698dbcc95e0cd8356c098c3ebb7",
+          "myanmarSHA256": "dd5b97623773981c55ed9f39f66f21ab13c125ef7abf16a14160257af8d0110b"
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1ad8ed45579798bac4fd172497122e71231f5d792e54f7fcc3d2fc9159aac01d",
+          "myanmarSHA256": "853281a8131920b017b09152b2122c3ee9298d4bacb37afef96494edff29f2de"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6086,
+      "en": "Training the Beast",
+      "decision": "pass assisted review",
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "enabledFieldsReviewed": [
+        "title",
+        "objective",
+        "complete"
+      ],
+      "notes": "Read all3 enabled fields and held source detail; Progress unavailable. Dwarf training follows6085 and objective is Belia Thundergranite/Ironforge. Detail correctly held for unresolved primary<lad/lass> and secondary lad. Completion new recruit/on-way-to-great-class, teach abilities/feed/conditional revive, respect/good treatment and reciprocal loyalty retained.",
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f40bc0b7328d5708112927a1b0465fa2b8fe3e0b520269bcfc75cb53cc572592",
+          "myanmarSHA256": "469b1c362e3bf07fd74a8d852c34f5892751cbaecb0cad51a105cb096d28d3fe"
+        },
+        "detail": {
+          "status": "held source-supported unresolved gender branch",
+          "englishSHA256": "5a6d1cbbec1666fa99674b704edf20c384d1bce7b7cbb022f881c8d4b83da3ee",
+          "myanmarSHA256": null
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "e64780c403f5847f8af090eebeb851cee96eeaa6c8fbd24821a94a61afcdf442",
+          "myanmarSHA256": "ce27edaa8a0b44fe9c32dbe82930736fe8dcc634228390d60fa36f31c8157172"
+        },
+        "progress": {
+          "status": "unavailable as sourced",
+          "englishSHA256": null,
+          "myanmarSHA256": null
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "054c59656fa80975fce33fb55a292ccdb649d19093d6645e22d8870e6442bd1d",
+          "myanmarSHA256": "0cacbf39a8e6bd8034ad4a0f6af085dd4ca602f87fee0356f219a6736253d36d"
+        }
+      },
+      "issues": []
+    }
+  ],
+  "requestedHolds": [
+    {
+      "id": 6064,
+      "field": "progress",
+      "englishSHA256": "0264428591a603e6536b43b96a33a7196bbada19c7faf7336b79d7d0447e3212",
+      "reviewedMyanmarSHA256": "d258753117d9f983fa23c5eb1882bb8053f377b61de97767cfc017eb7d942387",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy.",
+      "primaryEnglishEvidence": "Don't worry, lad! You'll get ta try a few before you'll need to decide on just one.",
+      "secondaryEnglishEvidence": "Don't worry, lad/lass! You'll get ta try a few before you'll need to decide on just one.",
+      "secondaryEnglishSHA256": "b053e8f9f6e9b01ef5be035e9568448f693a3b55ad722092498c3f36fe25a72e",
+      "primaryEvidenceURL": "https://www.wowhead.com/forever/quest%3D6064/taming-the-beast",
+      "secondaryEvidenceURL": "https://www.60.tools/quests/6064-taming-the-beast",
+      "evidenceURLs": {
+        "primary": "https://www.wowhead.com/forever/quest%3D6064/taming-the-beast",
+        "secondary": "https://www.60.tools/quests/6064-taming-the-beast"
+      },
+      "reviewedMyanmar": "စိတ်မပူနဲ့၊ မောင်ရင်။ တစ်ကောင်တည်း ရွေးဖို့ မဆုံးဖြတ်ရခင် အနည်းငယ် စမ်းကြည့်ခွင့် ရဦးမှာပါ။",
+      "status": "accepted by root; guarded hold integration pending"
+    }
+  ]
+}

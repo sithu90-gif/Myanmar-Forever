@@ -1,0 +1,55 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "druid",
+      "id": 6121,
+      "field": "detail",
+      "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+      "priorMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+      "correctedMyanmarSHA256": "21d0c2f9161dd7914e55930cf06c10108ea49cce1222ac4dbcd7456567fafc58",
+      "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase."
+    },
+    {
+      "partition": "druid",
+      "id": 6125,
+      "field": "complete",
+      "englishSHA256": "c0c69457a1e85f7f353382b7b24c8b78cc64837e735d89e9bc463b380bb5d392",
+      "priorMyanmarSHA256": "4a5da479f3979e162eb14a74c174389043ff832ba9879036699f8d6032286259",
+      "correctedMyanmarSHA256": "b0e1bd0a2d801d71a64ff014361238842eb2df26714f1de1254488245348dde6",
+      "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning. Also စေနိုင်ပါသည် weakens existing harm to possible harm; definite စေပါသည် matches the source."
+    },
+    {
+      "partition": "druid",
+      "id": 6126,
+      "field": "detail",
+      "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+      "priorMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+      "correctedMyanmarSHA256": "21d0c2f9161dd7914e55930cf06c10108ea49cce1222ac4dbcd7456567fafc58",
+      "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase."
+    },
+    {
+      "partition": "druid",
+      "id": 6130,
+      "field": "complete",
+      "englishSHA256": "8c37e6325f7399090012b9a32c3a62a7b419c1c4773291ab8a4b0e139767b230",
+      "priorMyanmarSHA256": "007bd7cb0db3b1c51b3ffc48048413550bf908e6d6c0d837f775bea28f0cb0af",
+      "correctedMyanmarSHA256": "7cd477eebf82d6cee4f9c540350b5208b44af5f64645d5d01ea0848b3f73edbe",
+      "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning."
+    },
+    {
+      "partition": "hunter",
+      "id": 6064,
+      "field": "progress",
+      "englishSHA256": "0264428591a603e6536b43b96a33a7196bbada19c7faf7336b79d7d0447e3212",
+      "priorMyanmarSHA256": "d258753117d9f983fa23c5eb1882bb8053f377b61de97767cfc017eb7d942387",
+      "correctedMyanmarSHA256": null,
+      "decision": "hold conflicting gender variants",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+    }
+  ],
+  "pronunciationDecisions": {},
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

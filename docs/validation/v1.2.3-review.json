@@ -1,0 +1,123 @@
+{
+  "version": "1.2.3",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-12",
+  "completedReviewAtUTC": "2026-11-11T20:56:01.296340+00:00",
+  "newQuestIDs": 50,
+  "newEnabledFields": 227,
+  "questIDs": 1086,
+  "translatedFields": 5078,
+  "addedHeldFields": [
+    {
+      "id": 6125,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6130,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6064,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "bf265196f07da731d4b56477694459ad676bef6e802f39656b3200a77ab537e0",
+      "rawDeepLSHA256": "8b10562effaea0c7c5deb64481e18e2d963ff619c73508cbf6c143a4fba55914",
+      "englishEvidence": "6064-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6086,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "5a6d1cbbec1666fa99674b704edf20c384d1bce7b7cbb022f881c8d4b83da3ee",
+      "rawDeepLSHA256": "cae471bc1a53e3453cf88d0c0912c19651bc3fdd338f7d53fddf09c3b5a77f52",
+      "englishEvidence": "6086-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6064,
+      "field": "progress",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+    }
+  ],
+  "sourceToolPythonTests": 10,
+  "luaRegressionGroups": 20,
+  "newQuestStateRoutingChecks": 150,
+  "independentlyReviewedQuestIDs": 50,
+  "integrationCorrections": [
+    {
+      "partition": "druid",
+      "id": 6121,
+      "field": "detail",
+      "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+      "priorMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+      "correctedMyanmarSHA256": "21d0c2f9161dd7914e55930cf06c10108ea49cce1222ac4dbcd7456567fafc58",
+      "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase."
+    },
+    {
+      "partition": "druid",
+      "id": 6125,
+      "field": "complete",
+      "englishSHA256": "c0c69457a1e85f7f353382b7b24c8b78cc64837e735d89e9bc463b380bb5d392",
+      "priorMyanmarSHA256": "4a5da479f3979e162eb14a74c174389043ff832ba9879036699f8d6032286259",
+      "correctedMyanmarSHA256": "b0e1bd0a2d801d71a64ff014361238842eb2df26714f1de1254488245348dde6",
+      "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning. Also စေနိုင်ပါသည် weakens existing harm to possible harm; definite စေပါသည် matches the source."
+    },
+    {
+      "partition": "druid",
+      "id": 6126,
+      "field": "detail",
+      "englishSHA256": "442896c21b2982f3f4f3bf324c1a5aa3006d0c803ea7c814903521408741bd51",
+      "priorMyanmarSHA256": "da1a68bf9e1b2460fd6b91bae2fe146c06d2b1959e7733ad70f419f010169dc2",
+      "correctedMyanmarSHA256": "21d0c2f9161dd7914e55930cf06c10108ea49cce1222ac4dbcd7456567fafc58",
+      "reason": "မန္တန်အနည်းငယ် can mean a few incantations. The source stresses mere incantation as a simple means, so remove the added amount phrase."
+    },
+    {
+      "partition": "druid",
+      "id": 6130,
+      "field": "complete",
+      "englishSHA256": "8c37e6325f7399090012b9a32c3a62a7b419c1c4773291ab8a4b0e139767b230",
+      "priorMyanmarSHA256": "007bd7cb0db3b1c51b3ffc48048413550bf908e6d6c0d837f775bea28f0cb0af",
+      "correctedMyanmarSHA256": "7cd477eebf82d6cee4f9c540350b5208b44af5f64645d5d01ea0848b3f73edbe",
+      "reason": "ထိန်းချုပ်ခွင့်ပေးခြင်း conveys granting a right/permission. The reward is permanent capability learned through a spell; explicit ထိန်းချုပ်နိုင်စွမ်း ပေးခြင်း preserves that meaning."
+    },
+    {
+      "partition": "hunter",
+      "id": 6064,
+      "field": "progress",
+      "englishSHA256": "0264428591a603e6536b43b96a33a7196bbada19c7faf7336b79d7d0447e3212",
+      "priorMyanmarSHA256": "d258753117d9f983fa23c5eb1882bb8053f377b61de97767cfc017eb7d942387",
+      "correctedMyanmarSHA256": null,
+      "decision": "hold conflicting gender variants",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+    }
+  ],
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-11T20:32:48.712197+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "installedMetadata": {
+    "version": "1.0.12",
+    "tocSHA256": "d605067dcba3ea23f665756fd13d31a01a2bdb7a238dad705ca563da8171aa7f",
+    "decodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "questCount": 5233
+  },
+  "newLivePlaytest": "not performed",
+  "nativeMyanmarProofreading": "pending",
+  "controllerHardware": "not tested",
+  "zip": {
+    "name": "MyanmarForever_v1.2.3.zip",
+    "bytes": 735499,
+    "sha256": "fd2de6fa216fcedf47573585bbe515e91af10ab67d2aa403d0c24f5efdd1cbfe"
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "partition": "hunter",
+  "selectedQuestIDs": [
+    6061,
+    6087,
+    6088,
+    6089,
+    6062,
+    6083,
+    6082,
+    6081,
+    6063,
+    6101,
+    6102,
+    6103,
+    6064,
+    6084,
+    6085,
+    6086
+  ],
+  "sourcePinReference": "../upstream-reference.json",
+  "completedReviewGroups": [
+    "hunter-horde-training",
+    "hunter-alliance-training"
+  ],
+  "reviewedQuestIDs": [
+    6061,
+    6087,
+    6088,
+    6089,
+    6062,
+    6083,
+    6082,
+    6081,
+    6063,
+    6101,
+    6102,
+    6103,
+    6064,
+    6084,
+    6085,
+    6086
+  ],
+  "reviewedEnabledFields": 74,
+  "pendingGroupQuestIDs": [],
+  "rawDeepLBatches": 3,
+  "independentAssistedReview": "pending",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "updatedAt": "2026-11-11T20:44:37.796596+00:00",
+  "checks": {
+    "checkedAt": "2026-11-11T20:44:37.796596+00:00",
+    "quests": 16,
+    "sourcedFields": 76,
+    "enabledFields": 74,
+    "unavailableFields": 4,
+    "heldFields": 2,
+    "linguisticIssues": [],
+    "fieldHashPlaceholderQuantityValidation": "passed all80 field states using current tools/build_release.validate_fields",
+    "rawDeepLInputCoverage": "passed76 sourced fields including2 held offers",
+    "htmlHashes": "passed all32 original English HTML files",
+    "sourceBoundaryAvailability": "passed original script-stripped HTML comparison for all16 quests;4 absent progress states retained",
+    "installedMetadataObjectivesAndTitles": "all16 exact match; UA titles and availability match fresh pinned0.26.0",
+    "writtenQuantityDirectionChecks": "two land animals6102, south6101, west6102, south AND east6084, east6085, a few before just one6064 preserved",
+    "groupsReviewed": 2,
+    "independentAssistedReview": "not performed; assigned separately by root",
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  "artifactPaths": [
+    "edited.json",
+    "english-sources.json",
+    "pronunciations.json",
+    "pronunciation-proposals.json",
+    "annotation-exceptions.json",
+    "held-fields.json",
+    "held-proposals.json",
+    "review-audit.json",
+    "comparison-provenance.json",
+    "review-groups.json",
+    "validation.json",
+    "source-boundaries.json",
+    "fetched.json",
+    "raw-deepl-fields.json"
+  ],
+  "heldFields": [
+    {
+      "id": 6064,
+      "field": "detail"
+    },
+    {
+      "id": 6086,
+      "field": "detail"
+    }
+  ],
+  "phase": "partition ready for independent assisted review"
+}
