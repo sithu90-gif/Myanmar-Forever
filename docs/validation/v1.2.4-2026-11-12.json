@@ -1,0 +1,331 @@
+{
+  "version": "1.2.4",
+  "result": "PASS",
+  "date": "2026-11-12",
+  "questIDs": 1136,
+  "translatedFields": 5293,
+  "dialogueStates": 3045,
+  "absentOrHeldDialogueStates": 363,
+  "preservedBaselineQuestRecords": 664,
+  "baselineFieldOverrides": [
+    {
+      "id": 91723,
+      "field": "progress"
+    },
+    {
+      "id": 92749,
+      "field": "objective"
+    },
+    {
+      "id": 92745,
+      "field": "progress"
+    },
+    {
+      "id": 590,
+      "field": "progress"
+    }
+  ],
+  "packs": [
+    {
+      "path": "translations/undead-v0.6.3",
+      "questAdditions": 24,
+      "fieldAdditions": 106,
+      "fieldOverrides": 0,
+      "packSHA256": "8419209331f8ba39ed51fcef5ce42e64e95f780c8a2fbd4c8dae61b8ac9a2cfe"
+    },
+    {
+      "path": "translations/live-fixes-v1",
+      "questAdditions": 13,
+      "fieldAdditions": 61,
+      "fieldOverrides": 1,
+      "packSHA256": "743dbd057ab520fe45f4f72d0244ad00925f3a7a11b1f567202b797ff3fb3b30"
+    },
+    {
+      "path": "translations/skyborne-a-v1",
+      "questAdditions": 50,
+      "fieldAdditions": 231,
+      "fieldOverrides": 0,
+      "packSHA256": "362fa20505d744c305d3f5d3cba05421b12713ce571122c79df078cb60b72407"
+    },
+    {
+      "path": "translations/skyborne-b-v1",
+      "questAdditions": 50,
+      "fieldAdditions": 221,
+      "fieldOverrides": 0,
+      "packSHA256": "78ac3b880315063d7a77497fbf848d017c23efe315caad149d6ca1ef383ad45f"
+    },
+    {
+      "path": "translations/skyborne-c-v1",
+      "questAdditions": 51,
+      "fieldAdditions": 229,
+      "fieldOverrides": 0,
+      "packSHA256": "5dbbf360665bc7a668e63e01b7ac010fcbeb011c2692752b37fbbc5d957dda50"
+    },
+    {
+      "path": "translations/undead-tirisfal-v1.1.0",
+      "questAdditions": 94,
+      "fieldAdditions": 440,
+      "fieldOverrides": 0,
+      "packSHA256": "20adc7dfe656406f3d80623e0317c08cba2e1e564b7546576318c822ea8e8ffe"
+    },
+    {
+      "path": "translations/westfall-toxic-soil-v1.1.1",
+      "questAdditions": 6,
+      "fieldAdditions": 26,
+      "fieldOverrides": 1,
+      "packSHA256": "29be5fe0a351493e4f092b885a97521d29bf7d9f8ce3660102ed94b39fced18d"
+    },
+    {
+      "path": "translations/all-race-routes-v1.2.0",
+      "questAdditions": 22,
+      "fieldAdditions": 107,
+      "fieldOverrides": 1,
+      "packSHA256": "f5b2f45e09fe2ff8f685c61243ed583aa20a3078f14daa207a81694c4a244672"
+    },
+    {
+      "path": "translations/early-route-followups-v1.2.1",
+      "questAdditions": 12,
+      "fieldAdditions": 56,
+      "fieldOverrides": 0,
+      "packSHA256": "1a8749276b6102c57bb016a179322d0e9aae7291be4a2dd297e17995664a82fe"
+    },
+    {
+      "path": "translations/scheduled-routes-v1.2.2",
+      "questAdditions": 50,
+      "fieldAdditions": 237,
+      "fieldOverrides": 1,
+      "packSHA256": "f78a58e7113a61079698990b7ce55034091f74b418b318a0c51410e0af287188"
+    },
+    {
+      "path": "translations/scheduled-routes-v1.2.3",
+      "questAdditions": 50,
+      "fieldAdditions": 227,
+      "fieldOverrides": 0,
+      "packSHA256": "3d50bbfe61b4b7bd6b1b5fd10f53e08328d2e4733acf8a52fb2e7f054a6df854"
+    },
+    {
+      "path": "translations/scheduled-routes-v1.2.4",
+      "questAdditions": 50,
+      "fieldAdditions": 215,
+      "fieldOverrides": 0,
+      "packSHA256": "13fc9f7b1a749689c7223df46913345621cf8110141fed75a4035b3fc9e8aa90"
+    }
+  ],
+  "heldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    },
+    {
+      "id": 95213,
+      "field": "complete",
+      "reason": "Race marker describes the NPC, while the reader expands player race."
+    },
+    {
+      "id": 3118,
+      "field": "progress",
+      "reason": "Fixed player name Ferlis in the public reference; live substitution unverified."
+    },
+    {
+      "id": 842,
+      "field": "complete",
+      "reason": "Public reference concatenates male and female replies."
+    },
+    {
+      "id": 3083,
+      "field": "progress",
+      "reason": "Fixed player name Rangrang in the public reference; live substitution unverified."
+    },
+    {
+      "id": 745,
+      "field": "objective",
+      "reason": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    },
+    {
+      "id": 98387,
+      "field": "detail",
+      "reason": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+    },
+    {
+      "id": 98387,
+      "field": "objective",
+      "reason": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+    },
+    {
+      "id": 3099,
+      "field": "progress",
+      "reason": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+    },
+    {
+      "id": 6125,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6130,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6064,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "bf265196f07da731d4b56477694459ad676bef6e802f39656b3200a77ab537e0",
+      "rawDeepLSHA256": "8b10562effaea0c7c5deb64481e18e2d963ff619c73508cbf6c143a4fba55914",
+      "englishEvidence": "6064-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6086,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "5a6d1cbbec1666fa99674b704edf20c384d1bce7b7cbb022f881c8d4b83da3ee",
+      "rawDeepLSHA256": "cae471bc1a53e3453cf88d0c0912c19651bc3fdd338f7d53fddf09c3b5a77f52",
+      "englishEvidence": "6086-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6064,
+      "field": "progress",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+    },
+    {
+      "id": 1638,
+      "field": "complete",
+      "reason": "Current Wowhead Forever completion addresses lad;60.tools instead has <name>;pinned UA has gender alternatives. No current sanitized live capture resolves the address branch. Hold completion without guessing or gender-neutralizing it."
+    },
+    {
+      "id": 1639,
+      "field": "complete",
+      "reason": "Current Wowhead Forever completion says fancy boy;60.tools says fancy boy/girl;pinned UA has gender alternatives. No current sanitized live capture resolves the branch. Hold completion without guessing or gender-neutralizing it."
+    },
+    {
+      "id": 1462,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1462-earth-sapta"
+    },
+    {
+      "id": 1463,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1463-earth-sapta"
+    }
+  ],
+  "addedHeldFields": [
+    {
+      "id": 3099,
+      "field": "progress",
+      "reason": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+    },
+    {
+      "id": 6125,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6130,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+    },
+    {
+      "id": 6064,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "bf265196f07da731d4b56477694459ad676bef6e802f39656b3200a77ab537e0",
+      "rawDeepLSHA256": "8b10562effaea0c7c5deb64481e18e2d963ff619c73508cbf6c143a4fba55914",
+      "englishEvidence": "6064-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6086,
+      "field": "detail",
+      "reason": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion.",
+      "englishSHA256": "5a6d1cbbec1666fa99674b704edf20c384d1bce7b7cbb022f881c8d4b83da3ee",
+      "rawDeepLSHA256": "cae471bc1a53e3453cf88d0c0912c19651bc3fdd338f7d53fddf09c3b5a77f52",
+      "englishEvidence": "6086-wowhead.html",
+      "rawDeepLEvidence": "raw-deepl-fields.json"
+    },
+    {
+      "id": 6064,
+      "field": "progress",
+      "reason": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+    },
+    {
+      "id": 1638,
+      "field": "complete",
+      "reason": "Current Wowhead Forever completion addresses lad;60.tools instead has <name>;pinned UA has gender alternatives. No current sanitized live capture resolves the address branch. Hold completion without guessing or gender-neutralizing it."
+    },
+    {
+      "id": 1639,
+      "field": "complete",
+      "reason": "Current Wowhead Forever completion says fancy boy;60.tools says fancy boy/girl;pinned UA has gender alternatives. No current sanitized live capture resolves the branch. Hold completion without guessing or gender-neutralizing it."
+    },
+    {
+      "id": 1462,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1462-earth-sapta"
+    },
+    {
+      "id": 1463,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1463-earth-sapta"
+    }
+  ],
+  "fontSHA256": "e731c15187c02acfe4885911e7d2c19f8bf192113fe3dc7b6488cb2a4e2a6d60",
+  "catalogSHA256": "40370ba6b979c6f3c6faf716ab74007d5e1b32050892e67dd2f0fc9d394577e1",
+  "dynamicIdentityLabels": 18,
+  "firstIntroductionTerms": 46,
+  "luaRegressionGroups": [
+    "PASS: Lua 5.1; 1136 quests / 3045 available and 363 absent or held dialogue states; previews and real-event routing; recovered identities including race/class/name; font failure; saved UI; captures; stale/unknown/secret guards; unverified elf branch and placeholder held.",
+    "PASS: automatic capture of unknown quests in all 3 states, invalid/secret IDs rejected; new live quest identity markers and absent states.",
+    "PASS: v0.3.0 route additions, class intros, source hold, exclusions and identity suffixes.",
+    "PASS: Night Elf offers and held-name fallback; six shipped XML bindings; scroll clamps; font-size limits; hidden-input guards; close cancellation and toggle; /mmforever alias.",
+    "PASS: Orc/Troll race, name and class substitutions; 11 class introductions; held gender/name fields captured with native fallback; absent custom progress and completion-only/repeatable turn-ins.",
+    "PASS: live NPC and quest-log title validation; wrong/missing/secret/error title fallback with captures; explicit previews; documented aliases; case/format normalization; punctuation protection; toggle revalidation.",
+    "PASS: Tauren Warrior/Hunter/Shaman/Druid introductions; preserved identity substitutions; conflicting goals and class-sensitive offers held with captures; new quest title mismatch fallback; Forever-added completion routing.",
+    "PASS: 18 preshaped class/race identities; first use resets per displayed field; repeated labels deduplicated; localized tokens, unknown/error/secret getters, literal player names; accepted-ID/title/state transitions.",
+    "PASS: Quest 4641 displays actual Horde/Warrior meanings once; stable current-stage redraw, sizing, close, reset, debug switches and preview return; learned pronunciation persists in new stages/encounters.",
+    "PASS: stateless previews; new quest/stage learning; per-character saved-table isolation, seen reset, reload-style cache reset, invalid-schema recovery; no player identity strings stored.",
+    "PASS: title mismatch/missing/error/secret, held states, invalid IDs, superseded events, dismissed callbacks, auto-off, English debug, hidden/cold layout and failed/throwing font/text APIs never consume introductions.",
+    "PASS: meanings follow title/body/objective source order, pronunciation remains once per field; all 18 class/race meanings verified; locale-independent tokens, same-stage identity changes and percent/color/marker-like usernames stay safe.",
+    "PASS: static/dynamic canonical deduplication, exact old-meaning replacement, alias reordering and overlap boundaries, sex-specific priest labels, static-only field exclusions and idempotent current-view renderer commits.",
+    "PASS: Skyborne race IDs 95/96, English identity aliases, separate introduction history, unknown/secret identity fallback and repeated-render lifecycle.",
+    "PASS: source-documented Skyborne title aliases and strict wrong-title capture/fallback.",
+    "PASS: all 13 captured missing quest IDs, the Delicate Instruments progress override, automatic capture after translation, and future unknown-quest capture.",
+    "PASS: scheduled 50-quest batch across 150 dialogue states plus the verified Rogue's Deal progress reply; absent states and automatic captures preserved.",
+    "PASS: distinct Crown/Recipe steps, repeatable progress-only source layouts and strict rejection of obsolete UA UNUSED title.",
+    "PASS: 12 November 50-quest batch across150 dialogue states, class-chain captures,4 unsupported-gender offers and1 conflicting-gender progress hold.",
+    "PASS: all12 same-title Hunter target/trainer pairs, faction-specific Druid dust/ingredients/cure targets/aquatic returns and Forever Arugal objective.",
+    "PASS: afternoon 50-class-quest batch across 150 dialogue states, automatic captures and source/runtime holds.",
+    "PASS: 19 Warrior/Mage/Shaman objective contracts, distinct Earth branches, provided-item UI exclusion, reward-only robe states and reviewed source holds."
+  ],
+  "capture": "Automatic local capture preserved; missing live-captured states checked",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveSkyborneClient": "not tested",
+  "controllerHardware": "not tested",
+  "currentLiveUndeadClient": "not tested",
+  "zip": {
+    "name": "MyanmarForever_v1.2.4.zip",
+    "bytes": 761794,
+    "sha256": "cddf88873c768e5c9c6b8e958709119aeaae692de048f6c56bd718d1c326952c"
+  }
+}

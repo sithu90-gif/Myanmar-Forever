@@ -20,7 +20,7 @@ def clean(text):
 def parse_wowhead(raw):
     raw = re.sub(r'<script\b[^>]*>.*?</script>', '', raw, flags=re.S | re.I)
     patterns = {"title": r'<h1[^>]*class="heading-size-1"[^>]*>(.*?)</h1>',
-                "objective": r'<h1[^>]*class="heading-size-1"[^>]*>.*?</h1>\s*(.*?)(?:<table|<ul|<h2)'}
+                "objective": r'<h1[^>]*class="heading-size-1"[^>]*>.*?</h1>\s*(.*?)(?:<table|<ul|<h2|<div class="pad")'}
     patterns.update({field: rf'<div id="lknlksndgg-{heading.lower()}"[^>]*>(.*?)</div>'
                      for field, heading in fields.items() if field != 'detail'})
     patterns['detail'] = r'<h2[^>]*>Description</h2>(.*?)(?:<h2|<div class="pad")'

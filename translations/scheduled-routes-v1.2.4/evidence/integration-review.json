@@ -1,0 +1,93 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "warrior",
+      "id": 1498,
+      "field": "detail",
+      "englishSHA256": "d379a4366e1a9d591c252d0c4725092b8d8d7ffffb5ecf20f7de0ff0a50bc13a",
+      "priorMyanmarSHA256": "35deaae1216dcad9d8a12ad2c6f7bd0fdcfe06305de34752365c457b5ecc4e55",
+      "correctedMyanmarSHA256": "6656c71ca9adbb0910caddfb891d9de4efdd53899f1347bb1253f46ee201112f",
+      "reason": "The original Description links singed scales to item6486. Its English identity is otherwise omitted in this independently displayed field. Restore the already-maintained item label/pronunciation while preserving a stack as proof; objective alone does not provide the offer first-use identity."
+    },
+    {
+      "partition": "warrior",
+      "id": 1678,
+      "field": "detail",
+      "englishSHA256": "2e613440a4bcebf762318fbf94313918290040540ec23c10d4a7b3c87a55539d",
+      "priorMyanmarSHA256": "2373f4b94c58ea9cb9ec462fced15094c699e4a622763a6573505ebe768ec3a9",
+      "correctedMyanmarSHA256": "8b39778621fe55101845afdeecc717abb043161aeb2e5cf362238bf750bdb5c7",
+      "reason": "The original Description links Vejrek's head to quest item6799. Preserve the full recognizable item identity with its existing objective pronunciation in this separately displayed field, rather than splitting it into the earlier NPC name and a generic Myanmar head."
+    },
+    {
+      "partition": "warrior",
+      "id": 1679,
+      "field": "detail",
+      "englishSHA256": "295878f8639955745d70a9b21a26a7e609039b7fe50a6f87f3928f809b8cc06b",
+      "priorMyanmarSHA256": "e395439bb33cc0ffabf83be64339fc68c50703597f6938d608530ac4f0778416",
+      "correctedMyanmarSHA256": "e6ccd0ca4e9ff529f1dbba4e02abb2678c74a40e8952cb09a83a2ccae640b5bd",
+      "reason": "Batch maintained-pronunciations.json defines both dwarf and Dwarf as ဒွာ့ဖ်. Restore that exact maintained value rather than introducing an unrecorded pronunciation change."
+    },
+    {
+      "partition": "warrior",
+      "id": 1681,
+      "field": "detail",
+      "englishSHA256": "b8fd22e7358d94e589c57ff4b4a41eafc2e7107d34c90428fa8c1abeb02936b0",
+      "priorMyanmarSHA256": "316e84be12db9e4f6c5714ac3b12256df2997dc606c757fe0a89f6ae3579736b",
+      "correctedMyanmarSHA256": "178794f1e815f28b165105559252b6e424e5dd18562aff98550aad97f334f80f",
+      "reason": "The maintained compound Dark Iron Dwarf is ဒါ့ခ် အိုင်ယန် ဒွာ့ဖ်. Align the dwarf vowel/core in the plural compound with maintained Dwarf, preserving the current assisted plural ending. This is consistency editing, not native certification."
+    },
+    {
+      "partition": "warrior",
+      "id": 1681,
+      "field": "complete",
+      "englishSHA256": "0cb228ff536b22bc31a553afb335945397cce240255fd404aef3dc5ba8d116f1",
+      "priorMyanmarSHA256": "075af376b288eb6de6717268c2a6fd70d0ad247f1651c4c85552307f9d72ca2b",
+      "correctedMyanmarSHA256": "d6332b7e56ac206882bfc20d19fb3918e93deb7220c3ae7c62bc276fdf269e7c",
+      "reason": "Keep the same plural-compound spelling as corrected offer and maintained Dark Iron Dwarf core. No change to source meaning, quantity or voice; native pronunciation review remains pending."
+    },
+    {
+      "partition": "shaman",
+      "id": 1517,
+      "field": "detail",
+      "englishSHA256": "04771911d5fbcd1445d0e2e750eaea76fb9f029c5703750873522ba4bc0bc9d4",
+      "priorMyanmarSHA256": "e1ebe838a1d97d9fb8dd724429948dc438ec740cc67d303f9d656a8dbd69b74c",
+      "correctedMyanmarSHA256": "e2f8b9122a52dfa8e6b862fbcaca053f0f0ab923d2afb18de42ac07a61fc6940",
+      "reason": "The primary Description and secondary source both say the sapta was created FOR the element. The current Myanmar relative clause makes the element the creator of the sapta. Express its intended element without changing the Spirit Rock southwest/Hidden Path route, strong-willed gate, sacred-place-only rule or the other dialogue."
+    },
+    {
+      "partition": "shaman",
+      "id": 1519,
+      "field": "progress",
+      "englishSHA256": "b150e933526edcc7f9bb798b98e5e3acb123899bf454d449c7a556bb7951622f",
+      "priorMyanmarSHA256": "d8629596d30fa06233fe82115eb3459fa5d1770fc2152089f26f7448765c98b9",
+      "correctedMyanmarSHA256": "ba9ad0131091f4f7883f7c708e6aac4919a788a28b65ed50f901d66e27074ac0",
+      "reason": "English says earth waits because SHE KNOWS all things erode and are reborn. The joined သူမသိလို့ can instead read as because she/he DOES NOT KNOW. Explicit female subject marker က removes the polarity ambiguity while preserving the personification and patience/rebirth meaning."
+    },
+    {
+      "partition": "shaman",
+      "id": 1520,
+      "field": "detail",
+      "englishSHA256": "b6f05be557efd8d021825ddadd1a5ddd08f638ce8ba35cf5ac689b34ec625fd6",
+      "priorMyanmarSHA256": "bebf09d655d16cf36e501d9c7628cf145221636f3581c3bf959e09a659edc02a",
+      "correctedMyanmarSHA256": "1c0ccb3f7161b6169f39b3169525df6d0aea442f6d0145a82c9cd49a4dfdacf1",
+      "reason": "The primary Description and secondary source both identify the element FOR which the sapta was created. The Myanmar currently describes the element as creating the sapta. Restore the intended element while preserving the permanent bond, open-minded gate and east shrine/Kodo Rock branch."
+    },
+    {
+      "partition": "shaman",
+      "id": 1526,
+      "field": "detail",
+      "englishSHA256": "5ce800b8a12509d766b1dd91114ebc4c0d3234b17c607ce2703a51c5906012bc",
+      "priorMyanmarSHA256": "e5c26f47057d2037bbc88fa00f6daf2e4128292ec5567e4321d83adbab51bb90",
+      "correctedMyanmarSHA256": "1d7dd5487c51f3dd4938e6ddf0cdd7b50728fd2e84c6e22262a75a31170a4bf9",
+      "reason": "The original primary Description links glowing embers to quest item6655 (Glowing Ember). This independently displayed field drops its recognizable English item identity. Restore the canonical item and existing pronunciation, retaining source plural, swift kill/power growth, brazier and torch sequence. The objective annotation cannot introduce the offer field."
+    }
+  ],
+  "pronunciationDecisions": {
+    "dwarf": "ဒွာ့ဖ်",
+    "Dark Iron dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဖ်စ်"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

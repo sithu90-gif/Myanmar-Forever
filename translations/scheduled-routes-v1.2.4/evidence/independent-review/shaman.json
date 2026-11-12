@@ -1,0 +1,769 @@
+{
+  "reviewType": "Independent assisted English/Myanmar source-semantic review",
+  "reviewer": "nov12_pm_review_shaman",
+  "reviewedAtUTC": "2026-11-12T06:56:52.761611+00:00",
+  "sourceFileSHA256": "d09e1a1771e4517d3beb6ea6b6d6191387b3ee70c19020f44f0596af0a36f8f4",
+  "reviewedEditedFileSHA256": "36472438bf2245cf1cd5b0d5d9ec8f2e9d0356a069a33ab67370feb98acdc3ac",
+  "validationFileSHA256": "2b41fe05d55015e15f27eebb159bb2063e633f83958563650d83972a274d8eaa",
+  "reviewedArtifactSHA256": {
+    "edited.json": "36472438bf2245cf1cd5b0d5d9ec8f2e9d0356a069a33ab67370feb98acdc3ac",
+    "pronunciations.json": "ff8c5a9d782774f5564ae1dafd2e0f749c38fcaab88185cfd4bfe96b82393787",
+    "annotation-exceptions.json": "73968c3eeffa7f7e664fa890640c995cc7947918a4e702d0268c1ab1393653a1",
+    "english-sources.json": "d09e1a1771e4517d3beb6ea6b6d6191387b3ee70c19020f44f0596af0a36f8f4",
+    "review-audit.json": "5ff01dc54d7d9fcf7a1f783891084e5ba14a7ff5a18dbf42ccf7acc5b9b4d37b",
+    "comparison-provenance.json": "c49e5530716569327efbb298ed8ff4b0a94fa6799cd69a98a8a1a9ac0923cea5",
+    "held-fields.json": "084f4ef18d688132e9b6fc0a29a12fdcc740445a0ac74fd149593982b79f6017",
+    "held-proposals.json": "64a8d1218fe7b28de593559898007d438c9a6647f88eeb2cc38ceec2b1ce62ad",
+    "review-groups.json": "d98742db4df205696eee9eed979cddcd9cbf0206de5c5becc8fbddca5509bc31",
+    "source-review.json": "341e2918ea41445607dbb1a505800533001fadea3f9ccf857fe842fcb3766f17",
+    "source-boundaries.json": "bb59d59b2b6f92b5f99455927f9bc884d3c5a821030df7bb5e220360085973cf",
+    "written-quantity-review.json": "582977b167b523f443f276a701382089c8ba9ce75d8271c82d434d65bd3c4341"
+  },
+  "questCount": 16,
+  "enabledFieldsRead": 72,
+  "heldProposalsRead": 2,
+  "originalHTMLBoundaries": "Read all16 original primary objective/Description/Progress/Completion boundaries and32 primary/secondary HTML hashes. Confirmed absent progress in1517/1520/94374/1522/1462/1463; repeatable1462/1463 have Completion and no Description/Progress. Provided-item objective UI excluded for1517/1520/94374. Primary-only Alliance completion/progress containers really contain dialogue; secondary absence alone is not conflict. Secondary scroll additions and player-marker case differences follow current primary.",
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-12T06:37:08.020727+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "workerFinalHashValidation": "All worker validation artifact hashes matched actual files; all80 audit English/Myanmar hashes and all80 provenance edited hashes matched final inputs;32 source HTML hashes verified before report write.",
+  "requestedHolds": [],
+  "existingHoldsAgreed": [
+    {
+      "id": 1462,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1462-earth-sapta"
+    },
+    {
+      "id": 1463,
+      "field": "detail",
+      "reason": "Secondary 60.tools offer exists, but current Wowhead Forever and pinned UA0.26.0 both lack detail. Legacy/current state unconfirmed; disabled pending sanitized live capture.",
+      "sourceURL": "https://www.60.tools/quests/1463-earth-sapta"
+    }
+  ],
+  "quests": [
+    {
+      "id": 1516,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "6895f00cd368d735a8b02ce9abbc6f4e7d97a088be817f695d871b7ced5a5137",
+          "reviewedMyanmarSHA256": "acaa7b9839f32ecc0b82d4c28ce1eb90a3faeeaa374c82c6c324231fdf40829a"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "ca11dd3709fb225acdb621c74eb13912849129b962c6dd55cf027d2d9d721670",
+          "reviewedMyanmarSHA256": "ac25a56fc8b9cc21d8a3eb8bf5390f7e37fe0bfbd110214ecc00c8f5f6351a18"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "455b9949586be5b9e91da9b49d5e03c61f47dd13c6819e5c32aac100a8f31665",
+          "reviewedMyanmarSHA256": "b4395f1c2830e3c1945f26c6caaf17f57a39fbae9446d1c3ce02b58b5eb014f4"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "d3fb8fdc5b4ba3377af286dfed8cc5dc78a0b934a64b4458554efbe21332a746",
+          "reviewedMyanmarSHA256": "d560b656f3c9708e434467ff41cc274489cd927adb073091cbfd87f099fc2e55"
+        }
+      },
+      "notes": [
+        "Read all five fields against both English sources and original primary boundaries. Canaga Earthcaller/Valley of Trials: north Felstalkers, two hooves, patience and conflict, envy plus hatred from ignorance, respect condition, fickleness and making sapta retained. Current lowercase<class> controls secondary<Class>."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1517,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read; correction requested",
+          "englishSHA256": "04771911d5fbcd1445d0e2e750eaea76fb9f029c5703750873522ba4bc0bc9d4",
+          "reviewedMyanmarSHA256": "e1ebe838a1d97d9fb8dd724429948dc438ec740cc67d303f9d656a8dbd69b74c"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "376deacb1c374ea7033d65004912368832930a958042495242d3ad59667588fe",
+          "reviewedMyanmarSHA256": "461ce9a621f39c7886847a35f3d713172d7e4e0ead24d396da9d137bdf32c7e9"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "efc3491e45cd793f38f08155f2dd5045d064cec3a6a1c188b35e6aa469022d7b",
+          "reviewedMyanmarSHA256": "24fafca7a5da58121a5fefab1420fcc5ee9512dde1f56b0bc525b890e56f530a"
+        }
+      },
+      "notes": [
+        "Read title/detail/objective/complete and confirmed absent progress. Strong-willed magic brew; sacred-place-only restriction; Spirit Rock southwest at Hidden Path end; humble earth rite and opposing other elements retained. Objective ends before Provided item UI. One sapta/element relation correction requested."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "04771911d5fbcd1445d0e2e750eaea76fb9f029c5703750873522ba4bc0bc9d4",
+          "reviewedMyanmarSHA256": "e1ebe838a1d97d9fb8dd724429948dc438ec740cc67d303f9d656a8dbd69b74c",
+          "old": "အဲဒီ sapta ကို ဖန်တီးထားပေးတဲ့ ဓာတ်နဲ့",
+          "new": "အဲဒီ sapta ရည်ရွယ်ထားတဲ့ ဓာတ်နဲ့",
+          "proposedFullField": "sapta (ဆပ်တာ) ဆိုတာ ငါတို့ရဲ့စိတ်ဝိညာဉ်တွေကို သဘာဝဓာတ်တွေနဲ့ ချည်နှောင်ဖို့ ဖန်တီးထားတဲ့ အဖျော်ရည်ပဲ။ မှော်စွမ်းအား ပေါင်းစပ်ထားတဲ့ ဒီဆေးရည်က စိတ်ဓာတ်ခိုင်မာသူတွေကို အခြားသူတွေမမြင်နိုင်သလို သဘာဝဓာတ်တွေကို မြင်နိုင်စေမယ်။ မင်းရဲ့စိတ်ဝိညာဉ်ဟာ အဲဒီ sapta ရည်ရွယ်ထားတဲ့ ဓာတ်နဲ့ ဆက်နွှယ်သွားမယ်။ ရွေးချယ်ထားတဲ့ shaman (ရှာမန်) အနည်းငယ်ကသာ ဖျော်စပ်နည်းကို သိတယ်။\n\nsapta ကို မြင့်မြတ်တဲ့နေရာမှာပဲ အမြဲသောက်ရတယ်။ တခြားဘယ်နေရာမှာမှ မသောက်ရဘူး၊ ဒါကို မှတ်ထား။\n\nဒီနေရာရဲ့ အနောက်တောင်ဘက်မှာ Spirit Rock (စပီရစ်တ် ရော့ခ်) ကို ရှာလိုက်။ Hidden Path (ဟစ်ဒန် ပတ်သ်) ရဲ့အဆုံးမှာ ရှိတယ်။ အဲဒီမှာ မင်းရဲ့ sapta ကို သောက်လိုက်၊ ပြီးတော့... အင်း၊ မင်းကိုယ်တိုင် မြင်ရလိမ့်မယ်။",
+          "reason": "The primary Description and secondary source both say the sapta was created FOR the element. The current Myanmar relative clause makes the element the creator of the sapta. Express its intended element without changing the Spirit Rock southwest/Hidden Path route, strong-willed gate, sacred-place-only rule or the other dialogue."
+        }
+      ]
+    },
+    {
+      "id": 1518,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "3674496fb11743ee98ae81f2a6cc965b61a083860e3ad2f9d5f22c609a1bbe32",
+          "reviewedMyanmarSHA256": "62429b94fc69d58f3aab2e9ac613dc4c8a584d81fecf797effb0c788c83f0b93"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "28eb5cd055fc6b53c23aaba2dbeb690810c6b1b91acb351f2594d4b839a20dd6",
+          "reviewedMyanmarSHA256": "fbb85952d46d35ce91270d9b76f5cf0560ab91f6bad74e2e1e33f2eb6efe6cfa"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "b7ec8885eb14467bcf6272413741fd61102137aa839e449ad7f3e2da67a3a65a",
+          "reviewedMyanmarSHA256": "c26a9390bdc39974a3f2519005db3da59138ea55b89d0aa7d75dc20a6e63b07c"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "2635213712fe96dd2eef9a0a8acd2c336b13705b4010490d651a5ab84179db3a",
+          "reviewedMyanmarSHA256": "780d5799494f50f848a29f9d40e00c91b7399408a8a3c959911f41d1f7af6f29"
+        }
+      },
+      "notes": [
+        "Read all five fields. Rough Quartz to male Canaga/Valley of Trials, pebble outlasts many others, four paths, possession condition and blunt dismissal, spell focus/progressive ability access/trainers preserved. Current completion ends earth totem ellipsis; secondary extra scroll sentence excluded. Exact<name>/<class> retained."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1519,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "41ec45f86853b0c23f8edc8a531003a4b8028b6496cfea35c0805cc18899ae74",
+          "reviewedMyanmarSHA256": "e5d30cd0c0c22a5cbaca67c427a76d75219fe19c9481cd53d631e7fcb263dd20"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "159fac73baf25a7a9a1ae0ddcca3a6abd6cda551fa87319e2b59516d8d6d3647",
+          "reviewedMyanmarSHA256": "41e6232bfe3a5f4d726ac9010a65add120caaab0bf2b711ba52aa6c79ce6dfc4"
+        },
+        "progress": {
+          "status": "independently read; correction requested",
+          "englishSHA256": "b150e933526edcc7f9bb798b98e5e3acb123899bf454d449c7a556bb7951622f",
+          "reviewedMyanmarSHA256": "d8629596d30fa06233fe82115eb3459fa5d1770fc2152089f26f7448765c98b9"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "83237bd44a858f565adb4935adda175d204c875f7b44ecdadd9bab9b055519e1",
+          "reviewedMyanmarSHA256": "714fc11ccf3d4298f8d9eac5e27c3b9407f194b086a561f6ad567d2bbadf9829"
+        }
+      },
+      "notes": [
+        "Read all five fields. Seer Ravenfeather/Camp Narache: east Bristleback ravine, two applications of Ritual Salve, enough for own potion, patient erosion/rebirth and irreversible knowledge retained. Earth Mother female personification and respect condition retained. Clarify female subject in knows clause to prevent a negation reading."
+      ],
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "b150e933526edcc7f9bb798b98e5e3acb123899bf454d449c7a556bb7951622f",
+          "reviewedMyanmarSHA256": "d8629596d30fa06233fe82115eb3459fa5d1770fc2152089f26f7448765c98b9",
+          "old": "ဆိုတာ သူမသိလို့",
+          "new": "ဆိုတာ သူမက သိလို့",
+          "proposedFullField": "မြေဓာတ်က စိတ်ရှည်တယ်။ အချိန်တန်ရင် အရာအားလုံး တိုက်စားပျက်ယွင်းပြီး ပြန်လည်မွေးဖွားတယ်ဆိုတာ သူမက သိလို့ သင်အသင့်ဖြစ်တဲ့အထိ စောင့်ပေးလိမ့်မယ်။ ဒါဟာ အရာအားလုံးရဲ့သံသရာပဲ။ တောင်တွေ သဲကန္တာရဖြစ်သွားတယ်။ မြစ်တွေ ချောက်ကမ်းပါးကြီးတွေ ဖြစ်သွားတယ်။ မြေဓာတ်ဟာ ဓာတ်အားလုံးထဲမှာ ခေါင်းအမာဆုံးနဲ့ ဉာဏ်အမြော်အမြင်အရှိဆုံးပဲ။\n\nစိတ်ရှည်ခြင်းနဲ့ ခံနိုင်ရည်ကို သင် အရာရာထက် အရင်သင်ယူရမယ်။ သင်အသင့်ဖြစ်ပြီလို့ မြေဓာတ်က ခံစားမိလို့ အခု သင့်ကိုခေါ်နေတာ။ သင်အောင်မြင်ရင် ဒါကို သင့်ရဲ့ပြန်လည်မွေးဖွားခြင်းအဖြစ် သဘောထားပါ။ အဲဒီနောက်မှာတော့ မသိနားမလည်တဲ့ဘဝဆီ ဘယ်တော့မှ ပြန်သွားနိုင်မှာ မဟုတ်တော့ဘူး။",
+          "reason": "English says earth waits because SHE KNOWS all things erode and are reborn. The joined သူမသိလို့ can instead read as because she/he DOES NOT KNOW. Explicit female subject marker က removes the polarity ambiguity while preserving the personification and patience/rebirth meaning."
+        }
+      ]
+    },
+    {
+      "id": 1520,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read; correction requested",
+          "englishSHA256": "b6f05be557efd8d021825ddadd1a5ddd08f638ce8ba35cf5ac689b34ec625fd6",
+          "reviewedMyanmarSHA256": "bebf09d655d16cf36e501d9c7628cf145221636f3581c3bf959e09a659edc02a"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "3e458d2d55ead8a1a9bc5cba5de123f36acb1ae514683789518e56bfc5f7ec13",
+          "reviewedMyanmarSHA256": "fe39c461bba214b83617fd2110f8101c3a2ea4a831b4c849675c240d11186b64"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "efc3491e45cd793f38f08155f2dd5045d064cec3a6a1c188b35e6aa469022d7b",
+          "reviewedMyanmarSHA256": "24fafca7a5da58121a5fefab1420fcc5ee9512dde1f56b0bc525b890e56f530a"
+        }
+      },
+      "notes": [
+        "Read title/detail/objective/complete and confirmed no progress. Open-minded magic perception, permanent elemental bond and holy-place-only rule retained. Detail east shrine and objective Kodo Rock correctly differ from1517 southwest Spirit Rock. Provided item UI excluded; completion matches1517 source. One sapta/element relation correction requested."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "b6f05be557efd8d021825ddadd1a5ddd08f638ce8ba35cf5ac689b34ec625fd6",
+          "reviewedMyanmarSHA256": "bebf09d655d16cf36e501d9c7628cf145221636f3581c3bf959e09a659edc02a",
+          "old": "အဲဒီ sapta ကို ဖန်တီးထားပေးတဲ့ ဓာတ်နဲ့",
+          "new": "အဲဒီ sapta ရည်ရွယ်ထားတဲ့ ဓာတ်နဲ့",
+          "proposedFullField": "sapta (ဆပ်တာ) ဆိုတာ ငါတို့ရဲ့စိတ်ဝိညာဉ်တွေကို သဘာဝဓာတ်တွေနဲ့ ချည်နှောင်ဖို့ ဖန်တီးထားတဲ့ အဖျော်ရည်ပဲ။ မှော်စွမ်းအား ပေါင်းစပ်ထားတဲ့ ဒီဆေးရည်က စိတ်ကိုဖွင့်ထားသူတွေကို အရင်က ဘယ်သူမှမမြင်ဖူးသလို သဘာဝဓာတ်တွေကို မြင်နိုင်စေမယ်။ သင့်ရဲ့စိတ်ဝိညာဉ်ဟာ အဲဒီ sapta ရည်ရွယ်ထားတဲ့ ဓာတ်နဲ့ အမြဲတမ်း ဆက်နွှယ်နေမယ်။ ငါတို့လိုလူတွေထဲက ရွေးချယ်ထားတဲ့အနည်းငယ်ကသာ ဖန်တီးနည်းလျှို့ဝှက်ချက်တွေကို သိတယ်။\n\nsapta ကို မြင့်မြတ်တဲ့နေရာမှာပဲ အမြဲသောက်ရတယ်။ တခြားဘယ်နေရာမှာမှ မသောက်ရဘူး။\n\nဒီနေရာရဲ့ အရှေ့ဘက်မှာ shaman (ရှာမန်) နတ်ကွန်းကို ရှာပြီး sapta ကို သောက်ပါ။",
+          "reason": "The primary Description and secondary source both identify the element FOR which the sapta was created. The Myanmar currently describes the element as creating the sapta. Restore the intended element while preserving the permanent bond, open-minded gate and east shrine/Kodo Rock branch."
+        }
+      ]
+    },
+    {
+      "id": 1521,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "4bed1aa1d0dc32566b0f5d9ee7647f1309b90e55a1b2a6a1a0304d6edaaf3299",
+          "reviewedMyanmarSHA256": "07ba71e65102daa9273940603cb9275381fca03f7d337982e99e4c751f5ce735"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "3d931379a9f2dd7a09bb3c1f4aa9a8aeaae641242825f81b195982ee86443394",
+          "reviewedMyanmarSHA256": "4c621b24080e305f18bd7c9a3702a17efb1c6edfa8ea1a38bb540063a34fc34d"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "d43f0981a80b00a19c73a46f2ed718eb1080ea0e3c8bc4da9e5bab7feffa1166",
+          "reviewedMyanmarSHA256": "0ff370fdf89fb153a7cfe8ed7685f5ab44831a82804f6b37cccaebb64bc324e0"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "eaa472a20134ad4758bd37d2cc71005766faed92dd3251518ebea840509a339d",
+          "reviewedMyanmarSHA256": "620a3a189b8a07a294e1ca5df78c7614677a725af918d8e90c9606c6a8479f5a"
+        }
+      },
+      "notes": [
+        "Read all five fields. Rough Quartz to female Seer Ravenfeather/Camp Narache, pebble outlasts mountains (not1518/94375 many others), four paths, pity/dedication and Kalimdor trainers retained. Current completion ellipsis controls secondary scroll addition. Exact lowercase<name> preserved."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94373,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "2c0047382dd78bd341782a7d9d2863ec79a69b6eb3df0e53a763d7e48db98113",
+          "reviewedMyanmarSHA256": "43b67e86967bff0b2ebec4b8cea51d7d21189b0771d4413fb1f2d299b18702ce"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "5b33201df24df41c4e3ba4cea3a38c037064d91eb1a1fa5041fc4ed84fb67ecf",
+          "reviewedMyanmarSHA256": "af53935425e640af80ddc6f1e8c99203c2d0b44124c0e800d61ac7e37caa9e55"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "745ad15fc96ff48b03536cf79a7c23146f36239babd46e7a5d697035dfbaae08",
+          "reviewedMyanmarSHA256": "df8af047510700fb679b3949303ded8870800d90f312ae77300e54b84d67147a"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "72bcd9a35cc308e07599b52ef2e22896b7efc80d63c16a97fbd53524dc40fe4e",
+          "reviewedMyanmarSHA256": "eb631df3de30821797b909d171ee1e015675859e90697ba76108aa8ab2392067"
+        }
+      },
+      "notes": [
+        "Read all five fields. Teo Hammerstorm/Anvilmar branch: south Frostmane cave, two Iceclaw-bear necklaces, objective Frostmane Bear Pendants2; no Horde ingredients introduced. Primary Progress and Completion really exist in original hidden reply containers although secondary and pinnedUA omit them. Lad alone is not contradictory branch evidence; source familiar address rendered as လူငယ်ရေ. Exact<race>, envy rather than hatred, horizon trouble, respect condition and stone slight retained. No additional hold warranted."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94374,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "24f64efc565fda54a6c4f2388a5db67828cb675cbd4cebe380f0e2d44a8bb6f6",
+          "reviewedMyanmarSHA256": "293c2ac66549755296aaef05884605e69c32a5a8ff01f045beb96b1ec7349d50"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "9feeb3c926fdcee86c4cce420a0f652e6069f0f470daaa379e03cc9b53d98708",
+          "reviewedMyanmarSHA256": "1cd574bc328ed60878c71ce2e1c3fd5a312dc933e090a3b73ffd1dee9be4bfd5"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "e4f645e449e35083babee44989f477c0feb095cd234a9034162c6ddeb2abf9fe",
+          "reviewedMyanmarSHA256": "39cff9a3d4b4f2a62f30f14c1f3a57e0867d551b4641498790cd916b7975b93e"
+        }
+      },
+      "notes": [
+        "Read title/detail/objective/complete; confirmed no progress. North Spirit Stone at mountain hidden-path end differs from Spirit Rock southwest/Kodo Rock east. Magic, few shamans, will-strength gate and sacred-only drink retained. Primary completion frozen land/snow/stone, bodily-spiritual bond and clashing/roaring dual nature retained despite absent secondary completion. Provided item UI excluded."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94375,
+      "title": "Call of Earth",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "d220cf2284d85dd2fe55878e391cf5fa705cfb09061c5f8b807c8b7284eb8771",
+          "reviewedMyanmarSHA256": "9446bd1e9b59e4ab1eea9507749d4f31d6656b129f508bece2e6dcd79d8e2d52"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "570e858df0085c97a37cb45273be6874b767f837de595b7245b06bed57aa01b4",
+          "reviewedMyanmarSHA256": "e0f60c8e6f2d3d7a915c592571d665f6172f09a6274f14838ce9860e93b768f5"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "449c033ee19bf7548f72f823d4c0a7291ae2c5872adee10940a141def859e74e",
+          "reviewedMyanmarSHA256": "538ce9e47d996bbae76bcb9a42c8f6985b7f93c7d92c47230576d8aff81fd2d3"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "52c4cc3c63cebb557fb18f29376b6e0179e459f52a89f7b7128a7a46eeb19144",
+          "reviewedMyanmarSHA256": "cae31284ae37ad782d966e1d7443df53495f94767222bdb4da09b2b70d4b1f86"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "9921bba66aae599c23b8b9b8d89f8dcc2e7ff5b6aa9614f2458db7aa8f41c928",
+          "reviewedMyanmarSHA256": "f24f2fad333eef600673e7975397febecf20c40c9dbca254c33fe0effd2251bf"
+        }
+      },
+      "notes": [
+        "Read all five fields, including primary-only Progress and Completion in actual containers. Rough Quartz to male Teo/Anvilmar, many others longevity comparison, stone possession and mountain choosing, empty-handed dismissal, focus for stone/soil/other-element spells, future trainers and ground speaking through player retained. Current lowercase<name> controls secondary<Name>."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1522,
+      "title": "Call of Fire",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+          "reviewedMyanmarSHA256": "b48631beecf13d9d246797f8694a9474283300bcdf13d603635c9a300cdc7a70"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "2bb1139ba103303c9ace9a1494689d29b84da107f5d52ae446a69bb223e9c2cf",
+          "reviewedMyanmarSHA256": "9bb288f6e8458807166efc50923d7591087e642ffc948398404e10b344d029b0"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "b6fe3cf32db2d43716df768420c12be8ea9b43e11f4e0ae4b8ec88bdc255172f",
+          "reviewedMyanmarSHA256": "f8ef02533a198e604993e26e439ab7fae550d02ba79c12a27b5a2a45dde1a0e2"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "686cfd179ad30ce37e5c4243f568b69e43e3ac066febe70b815d412ca8e6583a",
+          "reviewedMyanmarSHA256": "238e6a5285de1a3b9006bf311313e2907d8fa522a5f52598eac01185d8fa0c4a"
+        }
+      },
+      "notes": [
+        "Read title/detail/objective/complete; confirmed no progress. Searn to Kranal north of Crossroads/Barrens, conditional readiness and do-not-go-too-far elves territory warning retained. Friendly blessing, trust in Searn, next fire sapta, desire, patience and restraining hand retained; no invented Myanmar dialect."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1524,
+      "title": "Call of Fire",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+          "reviewedMyanmarSHA256": "b48631beecf13d9d246797f8694a9474283300bcdf13d603635c9a300cdc7a70"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "e15e09954f5e259319a524fba4c2fd04a758447b848cdc8352cad95a764813eb",
+          "reviewedMyanmarSHA256": "6e1d152c42340ecb082851111cbcaa4e661d45b8ed424a855d49af8d3e1b146e"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "d245cc8b0962288ae91d949ae2c6d6445163b5fd8fd35341586fe496cb25649c",
+          "reviewedMyanmarSHA256": "994604c16669e876890a0e920da38810c488b138f912549bbf4123f91a43bde3"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "ebf03a674267a26e06936a786fcfbb8afd9c6439b0467537209e50a2fac8ff92",
+          "reviewedMyanmarSHA256": "140927c4c380e09d7f64824a9601393a027235d7b5795cb4d1535c8f69ceb3b3"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "fd0f3ee0def25b60758332b14dd567f0c9b0b7b2af7d33fe45b9e213bc3d3ba3",
+          "reviewedMyanmarSHA256": "385f48332b814bd92bbdddd1772e650da8cc50a6cf74394ce66afe83dc31e043"
+        }
+      },
+      "notes": [
+        "Read all five fields and final Great Sea pronunciation reconciliation. Power-versus-readiness distinction; Southfury River/Durotar before Great Sea; hidden high-peak trail, Telf Joolam/Shrine of the Dormant Flame; carry dormant torch and return it lit to original speaker retained. Keeper refusal followed by apology for unrecognized Torch, apparent emptiness and Horde sacred secret preserved."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1525,
+      "title": "Call of Fire",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+          "reviewedMyanmarSHA256": "b48631beecf13d9d246797f8694a9474283300bcdf13d603635c9a300cdc7a70"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "a6beb51865b8cf2231fdad4c78d3bc95a145ebe7996e371de08a836043a4ab67",
+          "reviewedMyanmarSHA256": "09a73d3a0b09887b6bcae0ce2db07a969f0c46b56999abc00b7739cabd621e03"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "853f3635847812ebc24327bb9a128da83fb77a215deedbee6dc22db5f3180777",
+          "reviewedMyanmarSHA256": "ac424e8aa8b68e99eadd324109e09ecd2e472da7186a60467e992024af90aadf"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "05e11e53d4a47bbdd237ac10d5c84ec306285605838b309bb87d8664468af471",
+          "reviewedMyanmarSHA256": "09d62660bf6258405f69b6e2b14185a0e482e4d89b9bb14ba7439b8af4c335a4"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "01ec45b360e07651162f18ce1bb3926c0b997cc824850228f314763f2c8e8b65",
+          "reviewedMyanmarSHA256": "709ebcbdb2a0a02aeb521e07377986089bc1015116efbafcca99b2bff42f00ae"
+        }
+      },
+      "notes": [
+        "Read all five fields. Fire Tar1 from eastern Barrens Razormane spellcasters plus Reagent Pouch1 from Burning Blade cave above ravines northeast Razor Hill; written two ingredients retained separately from objective digits1+1. History-lesson question, conditional ingredient sufficiency/usual availability, elemental affinity, warlock-fire link, life/creation and opposing forces coexisting/meaning preserved."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1526,
+      "title": "Call of Fire",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+          "reviewedMyanmarSHA256": "b48631beecf13d9d246797f8694a9474283300bcdf13d603635c9a300cdc7a70"
+        },
+        "detail": {
+          "status": "independently read; correction requested",
+          "englishSHA256": "5ce800b8a12509d766b1dd91114ebc4c0d3234b17c607ce2703a51c5906012bc",
+          "reviewedMyanmarSHA256": "e5c26f47057d2037bbc88fa00f6daf2e4128292ec5567e4321d83adbab51bb90"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "b2cc88ecb7b0c22aa44d332ba4d9a9a2f36b4d2787e3b11f4047e980569720d2",
+          "reviewedMyanmarSHA256": "ab6e0cb47ae10da08defe027afff96d0badc920acc4dbff36b5269d14b1721ef"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "c7c671e5233b42658debf4f37383bf9b29c3b58f309908f22849af92a6389848",
+          "reviewedMyanmarSHA256": "47a29512420e54ad8788baf207e20c5c027fbbac96219be106a8e3bac3fe4ea6"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "dff7b3e067778fd09425cc9a59bd26b486d46245fe91b3bc4dfefa51e1482da6",
+          "reviewedMyanmarSHA256": "6b2198e8e7e5a64c5a6f459f634625340ca65d1ace23da4e4878b792fc793d93"
+        }
+      },
+      "notes": [
+        "Read all five fields and original linked item6655. Sapta at shrine, mountain top manifestation does not attack until ready yet sees player perception; swift kill because time increases power; embers/brazier/torch sequence preserved. Objective target/item/shrine identities correct. Progress one-third height, smooth rails inscriptions exception, no weather wear/cool bowl; completion white-hot flame, bodily effects, rhythmic fire and instant torch ignition preserved. Restore offer Glowing Ember first-use English identity."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "5ce800b8a12509d766b1dd91114ebc4c0d3234b17c607ce2703a51c5906012bc",
+          "reviewedMyanmarSHA256": "e5c26f47057d2037bbc88fa00f6daf2e4128292ec5567e4321d83adbab51bb90",
+          "old": "သူ့ရဲ့တောက်ပနေတဲ့မီးခဲတွေကို",
+          "new": "သူ့ရဲ့ Glowing Ember (ဂလိုးဝင်း အမ်ဘာ) တွေကို",
+          "proposedFullField": "fire sapta (ဖိုင်ယာ ဆပ်တာ) ဖျော်ပြီးပြီ။ မီးတောက်ကို မင်း ရင်ဆိုင်ရမယ့်အချိန် ရောက်ပြီ။ နတ်ကွန်းမှာ sapta ကို သုံးပြီး တောင်ထိပ်ကို တက်သွားကာ အဲဒီက ဓာတ်သဏ္ဌာန်ကို ရင်ဆိုင်ပါ။ မင်းအသင့်မဖြစ်မချင်း သူ မတိုက်ခိုက်ဘူး။ ဒါပေမယ့် မင်း သူ့ကို မြင်နိုင်တာကိုတော့ သူသိလိမ့်မယ်။\n\nသူ့ကို မြန်မြန်နှိမ်နင်းလိုက်၊ <name>။ သူ့ကိုသတ်ဖို့ မင်းအချိန်ကြာလေလေ သူ့စွမ်းအား ပိုကြီးလာလေလေပဲ။ သူရှုံးနိမ့်သွားရင် သူ့ရဲ့ Glowing Ember (ဂလိုးဝင်း အမ်ဘာ) တွေကို မီးခွက်ထဲ ထည့်ပြီး မီးရှူးတိုင်ကို မီးညှိလိုက်ပါ။",
+          "reason": "The original primary Description links glowing embers to quest item6655 (Glowing Ember). This independently displayed field drops its recognizable English item identity. Restore the canonical item and existing pronunciation, retaining source plural, swift kill/power growth, brazier and torch sequence. The objective annotation cannot introduce the offer field."
+        }
+      ]
+    },
+    {
+      "id": 1527,
+      "title": "Call of Fire",
+      "reviewedFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+          "reviewedMyanmarSHA256": "b48631beecf13d9d246797f8694a9474283300bcdf13d603635c9a300cdc7a70"
+        },
+        "detail": {
+          "status": "independently read against English",
+          "englishSHA256": "07a145ae58170f574b435812d308a6fc3fba8573c4ea04e50c64107bf2c35f63",
+          "reviewedMyanmarSHA256": "7bf48a22946838bb0369faa8a9fe6d8ac9e3a2e51cd526287ad57c2dae100634"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "68144dcbc1a80f3d5fb86fe924f691cbb81f89c29bc45191f1339baa18672501",
+          "reviewedMyanmarSHA256": "76f6d37558548d1f807d529ad30daa87e5d89283ac13ecd76c8d8e88a8c09564"
+        },
+        "progress": {
+          "status": "independently read against English",
+          "englishSHA256": "950425b9577fc422c2a824fa1a152a3a949ebd0446953be234fa00901c438440",
+          "reviewedMyanmarSHA256": "12a855be01a08e8ceef374f9c467ad21fe63ad1b4b80590bfd29391e4468cdec"
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "3b87cc8df5e75eba8a5dde4ad6d637a15483b80e45492b1cbc84e9fd999b6bd6",
+          "reviewedMyanmarSHA256": "4b86377ea758b11d4c082db7f33e786a6fca1b44a842d84e3482710d269adfa5"
+        }
+      },
+      "notes": [
+        "Read all five fields. Player narrative turns from brazier, sees Durotar, wind picks up/flame dances violently, excitement and descent to Barrens/Kranal Fiss retained. Objective Torch of Eternal Flame differs from Dormant Flame step. Mild inquiry, brighter-spirit pride, conditional future command, brethren guidance/wisdom and newest totem retained."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1462,
+      "title": "Earth Sapta",
+      "reviewedFields": [
+        "title",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "b7045a862fe231ae542d44a9cdcb61498729cb1f19455f63bd1af25f50df63ea",
+          "reviewedMyanmarSHA256": "8e93c072751ed989d362505a901dc8951bed5d5384d7727c3fb127194f7cc548"
+        },
+        "detail": {
+          "status": "held proposal independently read; runtime field remains null",
+          "englishSHA256": "28789ee4fc2760940880bfb53d3f976234647013c6a270ee493651000ce2e6c1",
+          "reviewedMyanmarSHA256": null,
+          "heldProposalSHA256": "9fa13e3bc8736d33a606ec3919136950fcae45704205c0874fb56a0ca9e37cb6"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "2efe3242dc5ad2d13c85ad415a770883ab041eda50e2f0dc63d017565ffdd076",
+          "reviewedMyanmarSHA256": "7a9b66c762a16bdcb2f8a09cf18178b657bf91787cb7b44e0b2cfe75373c391e"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "253b7b078443b5d7421e9b6d57ddf1b679bb0d2572d2a4ebd03fd63ad7e47010",
+          "reviewedMyanmarSHA256": "821b002ec0fbce4f176c23bf11910a81db8d554bc319de523ee2a4fceb6c31dc"
+        }
+      },
+      "notes": [
+        "Read three enabled fields and secondary-held offer proposal. Earth Sapta identifying item title retained with pronunciation. Replacement objective Seer Ravenfeather, sacred completion and no progress match primary/UA. Secondary-only without sapta AND earth totem offer proposal preserves both absences but remains disabled pending current live evidence; agree existing hold."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1463,
+      "title": "Earth Sapta",
+      "reviewedFields": [
+        "title",
+        "objective",
+        "complete"
+      ],
+      "fields": {
+        "title": {
+          "status": "independently read against English",
+          "englishSHA256": "b7045a862fe231ae542d44a9cdcb61498729cb1f19455f63bd1af25f50df63ea",
+          "reviewedMyanmarSHA256": "8e93c072751ed989d362505a901dc8951bed5d5384d7727c3fb127194f7cc548"
+        },
+        "detail": {
+          "status": "held proposal independently read; runtime field remains null",
+          "englishSHA256": "043be79d82da74267423e51a5af17960a68feb61eeb066ff2ef6557994fc84ef",
+          "reviewedMyanmarSHA256": null,
+          "heldProposalSHA256": "73b18f04178e2d0e76425ba87e9102c4aad6765d6763b675a9d43d52e7dcd3a9"
+        },
+        "objective": {
+          "status": "independently read against English",
+          "englishSHA256": "aa2ffe0875f324b2d582362884a5a30aa2875093f953763ea66abef077a4e7e1",
+          "reviewedMyanmarSHA256": "3e12c3e0abb9a5059e54dbd240660a7784b54a6846e76ce53100a0ae20ed2dfa"
+        },
+        "progress": {
+          "status": "unavailable state confirmed in primary/secondary original boundaries",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "independently read against English",
+          "englishSHA256": "74db871f1e03352f9106fa59da0bf0484e42d5cf165fe541ab03cfd5d3a91349",
+          "reviewedMyanmarSHA256": "a1aa327c23c7913922aaaf4fc22a73e91f6c4b78c40b9de3707ac8fa7b732c5e"
+        }
+      },
+      "notes": [
+        "Read three enabled fields and secondary-held offer proposal. Earth Sapta identifying item title retained with pronunciation. Replacement objective Canaga Earthcaller; good-faith one, prior proof and future caution completion retained. No progress. Secondary offer capital<Name> preserved in proposal, current primary/UA omit it; hold remains pending current live capture."
+      ],
+      "issues": []
+    }
+  ],
+  "issueCount": 4,
+  "proposedChecks": {
+    "linguisticLint": "passed all16 quests in memory after four proposed corrections; existing pronunciations/exceptions suffice",
+    "buildReleaseValidateFields": "passed all80 field states in memory after updating hypothetical review Myanmar hashes; exact player markers/digits/null states/two holds unchanged"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "result": "Four guarded field corrections requested. No additional source holds. Root must apply or resolve these findings, then refresh integrated hashes and validation."
+}

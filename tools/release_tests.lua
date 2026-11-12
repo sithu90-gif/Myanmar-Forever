@@ -153,3 +153,49 @@ if A.quests[6061] then
   assert(A.quests[98298].objective:find('Worgen Bits',1,true), 'Forever Arugal step mixed')
   print('PASS: all12 same-title Hunter target/trainer pairs, faction-specific Druid dust/ingredients/cure targets/aquatic returns and Forever Arugal objective.')
 end
+
+if A.quests[1498] then
+  debugCommand('off');titleOverride=nil
+  local ids={1505,1498,1502,1503,1638,1639,1640,1665,1666,1667,1679,1678,1680,1681,1682,1684,1683,1686,1692,1693,1860,1861,1879,1880,1883,1884,1919,1920,1921,1941,1959,1960,1961,1962,1516,1517,1518,1519,1520,1521,94373,94374,94375,1522,1524,1525,1526,1527,1462,1463}
+  for _,id in ipairs(ids) do
+    assert(A.quests[id],'Afternoon class-route quest missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon class-route state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost identity')
+    end
+  end
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS: afternoon 50-class-quest batch across 150 dialogue states, automatic captures and source/runtime holds.')
+end
+
+if A.quests[1498] then
+  local expected={
+    [1498]={'Singed Scale','Uzzek'},[1503]={'Forged Steel Bar',"Thun'grim"},
+    [1640]={'Bartleby'},[1667]={"Haggard's Badge",'Dead-tooth Jack'},[1678]={"Vejrek's Head",'Muren Stormpike'},
+    [1681]={'Umbral Ore','Tormus Deepforge'},[1686]={'Elunite Ore','Medallion of Elura','Elanaria'},
+    [1921]={'Charged Rift Gem','Wynne Larson'},[1961]={'Dalaran Mana Gem','Josef Gregorian'},
+    [1516]={'Felstalker','Canaga Earthcaller'},[1519]={'Ritual Salve','Seer Ravenfeather'},
+    [94373]={'Frostmane Bear Pendant','Teo Hammerstorm'},
+    [1517]={'Spirit Rock','Earth Sapta'},[1520]={'Kodo Rock','Earth Sapta'},[94374]={'Spirit Stone','Earth Sapta'},
+    [1525]={'Fire Tar','Reagent Pouch','Telf Joolam'},[1526]={'Minor Manifestation of Fire','Glowing Ember'},
+    [1462]={'Seer Ravenfeather','Earth Sapta'},[1463]={'Canaga Earthcaller','Earth Sapta'}}
+  for id,terms in pairs(expected) do
+    local objective=A.quests[id].objective:lower()
+    for _,term in ipairs(terms) do
+      assert(objective:find(term:lower(),1,true),'Class branch target/item/recipient mixed: '..id..'/'..term)
+    end
+  end
+  local hoof=A.quests[1516].objective:lower()
+  assert(hoof:find('felstalker hoof',1,true) or hoof:find('felstalker hooves',1,true),'Orc Earth reagent was not the correct hoof item')
+  for _,id in ipairs({1517,1520,94374}) do
+    assert(not A.quests[id].objective:find('Provided item:',1,true),'Website item widget leaked into objective')
+  end
+  for _,id in ipairs({1941,1962}) do
+    assert(A.quests[id].complete and not A.quests[id].detail and not A.quests[id].objective,'Robe reward turn-in invented offer/objective or lost completion')
+  end
+  assert(not A.quests[1638].complete and not A.quests[1639].complete,'Conflicting Warrior gender completion was enabled')
+  assert(not A.quests[1462].detail and not A.quests[1463].detail,'Unverified legacy Sapta offer was enabled')
+  print('PASS: 19 Warrior/Mage/Shaman objective contracts, distinct Earth branches, provided-item UI exclusion, reward-only robe states and reviewed source holds.')
+end

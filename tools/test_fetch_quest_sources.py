@@ -37,5 +37,16 @@ class QuestSourceTests(unittest.TestCase):
         self.assertEqual(result['complete'], 'Well done.')
 
 
+    def test_provided_item_widget_is_not_objective_dialogue(self):
+        result = parse_wowhead('<h1 class="heading-size-1">Call of Earth</h1>'
+            'Find Spirit Rock and drink the <a href="/forever/item=6635">Earth Sapta</a>.'
+            '<div class="pad"></div>\n\nProvided item: \n'
+            '<table class="icon-list"><tr><td>Earth Sapta (1)</td></tr></table>'
+            '<h2>Description</h2>Listen to the spirit.<h2>Rewards</h2>Experience')
+        self.assertEqual(result['objective'], 'Find Spirit Rock and drink the Earth Sapta.')
+        self.assertNotIn('Provided item', result['objective'])
+        self.assertEqual(result['detail'], 'Listen to the spirit.')
+
+
 if __name__ == '__main__':
     unittest.main()

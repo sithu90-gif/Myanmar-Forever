@@ -1,0 +1,977 @@
+{
+  "checkedAt": "2026-11-12T06:37:08.020727+00:00",
+  "myanmarVersion": "1.2.4",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.0",
+    "commit": "36a13111d8aa052675ce1125dc6a95c69a1526b6",
+    "checkedAt": "2026-11-12T06:37:08.020727+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.0",
+    "publishedAtUTC": "2026-11-10T21:28:34Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.0/UA_Forever-0.26.0.zip",
+    "assetSHA256": "8ed551f25533df0d26697c3a9b2a6547ffa58fb9490d8ed59639122be2f12ddd",
+    "catalogSHA256": "04fee01fb0bcbc7adb1f763267c5d2fd2868ddb2523ab1522d80092e5c9abf6f"
+  },
+  "manifestSHA256": "1854e47e5d198b94556e3f5b0da502b2e8f9cf71c5d62670a3c9591122ce9670",
+  "upstreamFactionEntries": {
+    "Alliance": 1373,
+    "Horde": 1349,
+    "Both": 3492
+  },
+  "coverage": {
+    "myanmarQuestIDs": 1136,
+    "translatedFields": {
+      "title": 1136,
+      "detail": 1106,
+      "objective": 1112,
+      "progress": 834,
+      "complete": 1105
+    },
+    "translatedFieldTotal": 5293,
+    "availableDialogueStates": 3045,
+    "absentOrHeldDialogueStates": 363,
+    "uaUniqueQuestIDs": 6214,
+    "overlapQuestIDs": 1135,
+    "uaQuestIDsMissingFromMyanmar": 5079,
+    "myanmarQuestIDsAbsentFromUA": [
+      93161
+    ],
+    "shareOfUAQuestIDsPercent": 18.27,
+    "titleMatches": {
+      "case_only": 6,
+      "documented_alias": 3,
+      "exact": 1125,
+      "mismatch": 1
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "documentedHold": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "documentedHold": "Public reference concatenates male and female replies."
+      },
+      {
+        "id": 1638,
+        "en": "A Warrior's Training",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion addresses lad;60.tools instead has <name>;pinned UA has gender alternatives. No current sanitized live capture resolves the address branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 1639,
+        "en": "Bartleby the Drunk",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion says fancy boy;60.tools says fancy boy/girl;pinned UA has gender alternatives. No current sanitized live capture resolves the branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "documentedHold": "Fixed player name Rangrang in the public reference; live substitution unverified."
+      },
+      {
+        "id": 3099,
+        "en": "Tainted Scroll",
+        "field": "progress",
+        "documentedHold": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "documentedHold": "Fixed player name Ferlis in the public reference; live substitution unverified."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "progress",
+        "documentedHold": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+      },
+      {
+        "id": 6086,
+        "en": "Training the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6125,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 6130,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "documentedHold": "Race marker describes the NPC, while the reader expands player race."
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "documentedHold": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "documentedHold": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "documentedHold": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "documentedHold": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "documentedHold": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+      }
+    ],
+    "regionCounts": {
+      "Brill / Tirisfal Glades": 94,
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 70,
+      "Deathknell → Brill": 24,
+      "Druid class routes": 26,
+      "Dun Morogh": 45,
+      "Durotar": 46,
+      "Duskwood": 77,
+      "Elwynn Forest": 59,
+      "Elwynn Forest / Camping": 4,
+      "Elwynn Forest → Stormwind → Loch Modan": 1,
+      "Hunter class routes": 16,
+      "Loch Modan": 41,
+      "Mage class routes": 14,
+      "Mulgore": 37,
+      "Mulgore / Thunder Bluff": 3,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Shaman class routes": 16,
+      "Silverpine Forest": 44,
+      "Stormwind": 3,
+      "Stormwind / Deadmines": 3,
+      "Teldrassil": 46,
+      "The Barrens": 83,
+      "Thunder Bluff": 1,
+      "Valley of Trials": 13,
+      "Warrior class routes": 20,
+      "Westfall": 48,
+      "Westfall / Stormwind / Deadmines": 6,
+      "Zephras Isle": 101,
+      "Zephras Isle → faction departure": 50
+    }
+  },
+  "titleMismatches": [
+    {
+      "id": 490,
+      "en": "Bounty: Gnarlpine Furbolg"
+    }
+  ],
+  "changesSincePreviousCatalog": {
+    "addedQuestIDs": [],
+    "removedQuestIDs": [],
+    "changedQuestRecords": []
+  },
+  "changedRecordsInMyanmar": [],
+  "plannedQuestChecks": [
+    {
+      "id": 1462,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Earth Sapta"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1463,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Earth Sapta"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1498,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Path of Defense"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1502,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Thun'grim Firegaze"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1503,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Forged Steel"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1505,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Veteran Uzzek"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1516,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1517,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1518,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1519,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1520,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1521,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1522,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Fire"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1524,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Fire"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1525,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Fire"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1526,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Fire"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1527,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Fire"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1638,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "A Warrior's Training"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1639,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Bartleby the Drunk"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1640,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Beat Bartleby"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1665,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Bartleby's Mug"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1666,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Marshal Haggard"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1667,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Dead-tooth Jack"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1678,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Vejrek"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1679,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Muren Stormpike"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1680,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Tormus Deepforge"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1681,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Ironband's Compound"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1682,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Grey Iron Weapons"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1683,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Vorlus Vilehoof"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1684,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Elanaria"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1686,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Shade of Elura"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1692,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Smith Mathiel"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1693,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Weapons of Elunite"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1860,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Speak with Jennea"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1861,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Mirror Lake"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1879,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Speak with Bink"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1880,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Mage-tastic Gizmonitor"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1883,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Speak with Un'thuwa"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1884,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Ju-Ju Heaps"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1919,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Report to Jennea"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1920,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Investigate the Blue Recluse"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1921,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Gathering Materials"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1941,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Manaweave Robe"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1959,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Report to Anastasia"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1960,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Investigate the Alchemist Shop"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1961,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Gathering Materials"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 1962,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Spellfire Robes"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 94373,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 94374,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": true
+    },
+    {
+      "id": 94375,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Call of Earth"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "alreadyInMyanmar": true
+    }
+  ],
+  "reviewStatus": "Changed UA text and field gaps are candidates for an English-source recheck.",
+  "chainVerification": "UA membership is checked per planned step. Chain edges require quest metadata and English evidence.",
+  "reviewedTitleDiscrepancies": [
+    {
+      "id": 490,
+      "upstreamTitle": "<UNUSED>",
+      "decision": "Retain previously English-verified Bounty title; obsolete generic runtime alias remains disabled. UA package/catalog unchanged since prior source review.",
+      "evidence": "translations/scheduled-routes-v1.2.2/english-sources.json"
+    }
+  ],
+  "undisposedTitleMismatches": []
+}
