@@ -1,0 +1,291 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUTC": "2026-11-12T20:59:35.438217+00:00",
+  "reviewType": "Independent assisted English/Myanmar review by a separate reviewer; originating worker files unchanged",
+  "status": "Review completed with three proposed field corrections; root disposition and post-correction checks pending",
+  "scope": {
+    "questCount": 24,
+    "allStatesReviewed": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "sourcedFields": 92,
+    "enabledFields": 88,
+    "existingHeldFields": 4,
+    "unavailableSourceFields": 28
+  },
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.5",
+    "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+    "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+    "publishedAtUTC": "2026-11-12T18:09:44Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+    "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+    "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+  },
+  "sourceAndIntegrityReview": [
+    "Read all24 English/current edited records, original saved Wowhead HTML boundaries and all available 60.tools source differences. All original Wowhead HTML hashes match recorded boundaries.",
+    "Checked92 DeepL field requests against the exact current English fields; five requests are below5000 input characters and92 outputs retain original field identities. All120 field audit English/Myanmar/raw hashes match their artifacts.",
+    "Current source availability, title aliases and all24 pinned UA comparisons agree. The reviewed upstream pin exactly matches the parent current upstream-reference.json.",
+    "Confirmed exact marker sequence and case in all88 enabled fields; human/dwarf targets, one-script quantities, two attackers, ten cloth, ten years, approximate monthly timing and resurrection conditions were read against English.",
+    "Pronunciation entries shared with the maintained map agree. New spellings remain assisted proposals pending native review. A full spy identity addition is proposed below.",
+    "No sanitized live captures were supplied; no live, native or controller verification is inferred."
+  ],
+  "evidenceSHA256": {
+    "english-sources.json": "adba20b9b5e8c250a51b26a3c379986842073c4d3a28c00a2ac77040bcd326da",
+    "edited.json": "bd4c24eefa8b81b5bd25acc0301f6c0a9b28e4f6c655ed0bb843d45902eefaab",
+    "pronunciations.json": "0a516b87f8c9d2ee31538296f057fb551095a5453b3184c8e12a9cab12ccbbe4",
+    "proposed-pronunciations.json": "202588e5af44c74421c62b2af5395735cd1be68ad9be1ce4029ab240819d13bf",
+    "held-fields.json": "2543dc20de98a0bf8865a089e1e90e52125b7c16875f4a71191a4bd444a0dde3",
+    "source-boundaries.json": "605e1136ed88e4362398f83d947cdf21ea21484fc7c803b8ef2c75126930c515",
+    "source-differences.json": "370f8d8be456b72e31dc4fd3580f14af32711080fa79d294f88e67c1be9680e7",
+    "ua-comparison.json": "3fac6ab3e16990f390bef7c6fc51a5d80bdac9f8b19cc59349a4c1fab5e73f7a",
+    "review-audit.json": "4b75dd7727cbfdc2350c3fdc5c437f8944ba2ffcfdf9be59f6fcfe394d6d20a2",
+    "review-groups.json": "a3b5308607af49ef4385c091993dddf900729b9fa42f04a732577dfc1529ef3f",
+    "comparison-provenance.json": "29a681e8634e9445399028310189545aeb6706e069d3956b4d60cb74495bc381",
+    "validation.json": "2ce85b091b8672104a016f2d437d6dfce295514ac54626580b1c7eb5328f20a1"
+  },
+  "quests": [
+    {
+      "id": 1641,
+      "reviewNotes": [
+        "Read title, all four dialogue-state dispositions and current bare Completion HTML. Only title and completion are sourced. Human Duthorian starter preserves Stormwind, moral virtue, Book of Divinity, study and understanding/capability conditions; no extra state is enabled."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1642,
+      "reviewNotes": [
+        "Read all five states, including unavailable progress. Human reading step returns to Duthorian Rall in Stormwind. Moral goodness differs from godhood; compassion, patience and bravery remain equal in importance to battle strength. Completion preserves the Tome question, helping less fortunate people and sound judgment."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1643,
+      "reviewNotes": [
+        "Read all five states, including unavailable progress. Search objective identifies Stephanie Turner in the Trade District of Stormwind while the offer leaves the charitable beneficiary unspecified. Stephanie retains the warm greeting, cloth/leather shortage, orphanage and unnamed husband seeking help in Ironforge."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1644,
+      "reviewNotes": [
+        "Read all five sourced fields. Ten Linen Cloth goes to Stephanie Turner in Stormwind; the offer remains nonspecific. The written decade remains ten years. Stephanie thanks the player and hopes John returns sooner. Progress has the proposed plural-group correction below."
+      ],
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "7b532c393e1ed35ed8fd1115b0a81dd04dc37424d77f0c7fdd1c06a7be61cbb2",
+          "reviewedMyanmarSHA256": "f19085d94ee7ef6eccb4850b593ae4e683256f218567e7c02f9a75114353b550",
+          "old": "ကလေးတွေနဲ့ ကျွန်မကို တစ်ယောက်တည်းထားခဲ့ရလို့",
+          "new": "ကလေးတွေနဲ့ ကျွန်မကိုပဲ ချန်ထားခဲ့ရလို့",
+          "proposedFullField": "ကျွန်မရဲ့ John (ဂျွန်) က Ironforge (အိုင်ယန်ဖော့ဂျ်) မှာ ပိုပြီး ကံကောင်းနေဖို့ မျှော်လင့်ပါတယ်။ ကလေးတွေနဲ့ ကျွန်မကိုပဲ ချန်ထားခဲ့ရလို့ အဲဒီခရီးတွေကို သူ သိပ်မကြိုက်ဘူး။ ဒါပေမယ့် မသွားမဖြစ်မှန်း သူသိတယ်။ သူက အင်မတန် စိတ်ထားကောင်းတာ။\n\nတချို့နှစ်တွေက တခြားနှစ်တွေထက် လွယ်ကူခဲ့ပေမယ့် ဒီနှစ်ကတော့ အများကြီး ပိုခက်ခဲတယ်။ ကြီးမားတဲ့ ပြောင်းလဲမှုတစ်ခု ရောက်လာတော့မယ်လို့ လေထုထဲက တစ်စုံတစ်ခုက အချက်ပေးနေသလိုပဲ။ ဒါပေမယ့် ဘယ်သူသိနိုင်မှာလဲ။",
+          "reason": "English leaves the children and Stephanie alone as a group. တစ်ယောက်တည်း means a single person alone and conflicts with the explicitly plural group. The replacement preserves John leaving the family behind without changing the people or reason."
+        }
+      ]
+    },
+    {
+      "id": 1780,
+      "reviewNotes": [
+        "Read all five state dispositions. Existing detail hold is warranted: current <men/women> and older male-only text do not establish live gender routing. Objective returns to Duthorian; completion preserves both lowercase <name> markers, Cathedral, charity, civic duties, valuing others above self and eventual reward."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1781,
+      "reviewNotes": [
+        "Read all five state dispositions and padding/hidden-completion boundaries. This delivers the Symbol to Gazin, not to Henze. Gazin is being healed near the altar and does not yet need the Symbol. Current Forever <class> controls over 60.tools <race>; cough, conditional aid, friend identities and wry voice remain."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1786,
+      "reviewNotes": [
+        "Read all five state dispositions. Human resurrection objective is Henze Faulk in Elwynn, with Heroes' Vigil an island in Stone Cairn Lake in northeastern Elwynn. A couple is preserved as two; Henze holds the attackers while Gazin escapes. Existing completion hold is warranted for brother versus brother/sister without live capture."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1787,
+      "reviewNotes": [
+        "Read all five sourced fields. One Defias Script is retrieved from Defias Rogue Wizards in Elwynn and returned to Gazin Tenorm in Stormwind. Henze remains unfit for battle, asks to report his safety, and treats plans as possible insight. Progress preserves the King and his advisors; completion names Henze, not Narm."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1788,
+      "reviewNotes": [
+        "Read all five state dispositions. Gazin will take the script to the advisors after Duthorian sees it; the immediate target is Duthorian in Stormwind. Completion preserves two <name> markers, <class>, Symbol readiness, future resurrection of companions and Henze as the prior example."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1790,
+      "reviewNotes": [
+        "Read all five state dispositions and bare Completion boundary. This Human repeatable has only title and completion. More than one life is at risk; failure to help Gazin and Henze permits another Symbol, and repeated failure may later reflect upon the player. No secondary detail was enabled."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1645,
+      "reviewNotes": [
+        "Read all five state dispositions and bare Completion boundary. Dwarf starter retains the current greeting and <name>, distinct from older Here in Ironforge and Human Here in Stormwind. Book, virtue, Light and conditional understanding/capability remain; no offer, objective or progress is invented."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1646,
+      "reviewNotes": [
+        "Read all five state dispositions. Dwarf book-reading objective targets Tiza Battleforge in Ironforge; its opening asks whether the book was read, unlike Human 1642. Matched shared moral instruction, equal virtues, patient charity and sound judgment to English independently."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1647,
+      "reviewNotes": [
+        "Read all five state dispositions. Search is for John Turner on the outer ring of Ironforge. Tiza remains in the temple for other paladins. John retains the interrupted shouted STOR, apologetic sir, self-introduction, question, homesickness and the burden of feeding/clothing dependents. The interrupted place name was not completed."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1648,
+      "reviewNotes": [
+        "Read all five sourced fields. Ten Linen Cloth goes to John Turner in Ironforge; his wife is in Stormwind, visits are about monthly, and the decade is ten years. A shipment is conditional on more linen. Both sources contain the literal noble man; no alternate branch was invented. Completion has the proposed could/should correction below."
+      ],
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "9630791737fd5130c6ba30586177d6ca9d2652ad634dc8e72cba05a6d7a1ad59",
+          "reviewedMyanmarSHA256": "186749549ad3a0aab8d8830715d8e96020773a3bd49288e3593ceaf1de7b5d29",
+          "old": "ဒါက မင်းလုပ်ပေးသင့်တဲ့ အနည်းဆုံးအရာပဲ ဟုတ်လား။",
+          "new": "ဒါက မင်းလုပ်ပေးနိုင်တဲ့ အနည်းဆုံးအကူအညီလေးပါပဲ ဟုတ်လား။",
+          "proposedFullField": "မင်းက အင်မတန် ကောင်းတာပဲ၊ <name>။ ထပ်ပြီး ကျေးဇူးတင်ပါတယ်။\n\nကျွန်တော့်အတွက် ဒီလိုလုပ်ပေးတာ မင်းဟာ စိတ်ထားမြင့်မြတ်တဲ့ အမျိုးသားတစ်ဦးပါပဲ။ Light (လိုက်တ်) ကို လိုက်နာဖို့ မင်းရွေးချယ်ထားတာ မဆန်းပါဘူး။ မင်းလုပ်ပေးခဲ့သမျှကို ပြန်ဆပ်နိုင်မယ့် နည်းလမ်းတစ်ခုခု ရှိရင် ကောင်းမှာပဲ... ဘာပြောတာလဲ။ ဒါက မင်းလုပ်ပေးနိုင်တဲ့ အနည်းဆုံးအကူအညီလေးပါပဲ ဟုတ်လား။ တွေ့လား။ အဲဒါပဲ ကျွန်တော် ပြောနေတာ၊ <name>။ အဆုံးထိ စိတ်ထားမြင့်မြတ်တာပဲ။\n\nဘေးကင်းပါစေ။ ခရီးသွားရာမှာ Light က မင်းကို ကာကွယ်ပါစေ။",
+          "reason": "The player's humble least-you-could-do reply uses ability/could, whereas လုပ်ပေးသင့်တဲ့ changes it to what the player should do. Preserve the modest charitable response rather than introducing an obligation."
+        }
+      ]
+    },
+    {
+      "id": 1778,
+      "reviewNotes": [
+        "Read all five state dispositions. John plans to return to Stephanie in Stormwind; objective returns to Tiza in Ironforge. Exact lowercase <class> controls over the secondary uppercase variant. Tiza's completion preserves civic duties and charity without importing the Human others-above-self clause."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1779,
+      "reviewNotes": [
+        "Read all five state dispositions and padding/hidden-completion boundaries. Symbol is delivered to Tiza's husband Muiredon Battleforge in Ironforge. A single priest heals him; he does not yet need the Symbol. Completion preserves cough, both <class> markers, third-person self-reference and best friend Narm."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1783,
+      "reviewNotes": [
+        "Read all five state dispositions. Dwarf resurrection objective is Narm Faulk in Dun Morogh, distinct from Human Henze. Dark Iron dwarves are south of Helm's Bed Lake; the leader giving orders is witnessed, then an ambush forces Muiredon to seek support at Narm's instruction. Existing brother versus brother/sister completion hold remains justified."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1784,
+      "reviewNotes": [
+        "Read all five sourced fields. One Dark Iron Script from Dark Iron dwarves near Helm's Bed returns to Muiredon Battleforge in Ironforge. Narm speaks in the offer, Muiredon in progress/completion. Captain orders, council disbelief, possible plans, healed wounds, wife-consent condition and wife-exception joke remain. Proposed correction retains the full identifying spy phrase."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "018a6d9233d7b749568a5034c2ced2641e9aeed91a2a7b257a86d860ab2575c7",
+          "reviewedMyanmarSHA256": "5fc0befc9558b61a4bcc8bc677dbbbfbdddf36448ad68063f2dc88ada019f079",
+          "old": "Dark Iron (ဒါ့ခ် အိုင်ယန်) သူလျှိုတစ်ယောက်ကို",
+          "new": "Dark Iron spies (ဒါ့ခ် အိုင်ယန် စပိုင်ဇ်) တွေထဲက တစ်ယောက်ကို",
+          "proposedFullField": "ငါ တိုက်ပွဲမှာ မကျဆုံးခင် Muiredon (မျူရာဒန်) နဲ့ ငါက အဲဒီအိမ်လေးနားက Dark Iron spies (ဒါ့ခ် အိုင်ယန် စပိုင်ဇ်) တွေထဲက တစ်ယောက်ကို အနိုင်ယူလုနီးပါး ဖြစ်ခဲ့တယ်။ သူတို့တပ်မှူးက သူတို့ကို အမိန့်စာတွေ ပေးနေတာ ငါတို့ တွေ့ခဲ့လို့ သူ့ကိုသတ်ပြီး အမိန့်စာတွေကို ရယူဖို့ ကြိုးစားခဲ့ကြတာ။\n\nIronforge (အိုင်ယန်ဖော့ဂျ်) က ကောင်စီဝင်တချို့ဟာ Dun Morogh (ဒန်မိုရော့ဂ်) မှာ Dark Iron dwarves (ဒါ့ခ် အိုင်ယန် ဒွာ့ဖ်စ်) တွေ ရှိနေတယ်ဆိုတာကို အခုထိ မယုံကြသေးဘူး။ အဲဒီစာတမ်းတွေထဲက တစ်စောင် ရယူနိုင်ရင် သူတို့ရဲ့ လှုပ်ရှားမှုတွေကို သက်သေပြနိုင်ရုံမက သူတို့ ဘာစီစဉ်နေလဲဆိုတာလည်း သိကောင်းသိနိုင်မယ်။\n\nအဲဒီစာတမ်းတွေထဲက တစ်စောင်ကို ရယူပြီး Muiredon ဆီ ပြန်ယူသွားပါ၊ <name>။",
+          "reason": "Retain the full identifying enemy phrase Dark Iron spies and its first-use compound pronunciation. The edited text keeps only the faction name and translates the spy identity. The replacement preserves one of the spies, the nearby small house and the almost-defeated condition."
+        }
+      ]
+    },
+    {
+      "id": 1785,
+      "reviewNotes": [
+        "Read all five state dispositions. Return target is Tiza in Ironforge. Muiredon's colloquial tuchus/pronto line and promised future battle preserve his direct voice without invented dialect. Completion preserves two <name> markers, <class>, readiness for the Symbol, scroll blessing and future teaching of resurrection."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1789,
+      "reviewNotes": [
+        "Read all five state dispositions and bare Completion boundary. Dwarf repeatable has only title and the current completion: after Symbol use fails to help Narm, return for another. This differs from Human 1790 and the older 60.tools completion. The state placement, husband reference and haste remain correct."
+      ],
+      "issues": []
+    },
+    {
+      "id": 2997,
+      "reviewNotes": [
+        "Read all five state dispositions. Dun Morogh introduction directs travel to Ironforge, then upstairs in Hall of Mysteries in Mystic Ward. Young paladins go to Tiza to learn, not the reverse. Both <name> offer markers remain. Title identifies Tome of Divinity without The; completion retains the Light-path blessing."
+      ],
+      "issues": []
+    },
+    {
+      "id": 2998,
+      "reviewNotes": [
+        "Read all five state dispositions. Existing detail hold is warranted for unsupported <brother/sister> and missing live branch evidence; the whole field remains null. Objective goes to Duthorian Rall in Stormwind. Completion preserves the beauty question and ideal arrival timing without a superlative claim about the city."
+      ],
+      "issues": []
+    },
+    {
+      "id": 2999,
+      "reviewNotes": [
+        "Read all five state dispositions. Local introduction says go upstairs, distinct from 2997 travel and 3000 return. No Hall/Mystic Ward directions absent from this offer were added. Young paladins go to Tiza to learn; objective is Tiza in Ironforge and completion retains the Light-path blessing."
+      ],
+      "issues": []
+    },
+    {
+      "id": 3000,
+      "reviewNotes": [
+        "Read all five state dispositions. Introduction explicitly returns from helping Azeroth to home Ironforge, retains dwarven paladins and expectations of all of us, and places Tiza upstairs in Hall of Mysteries/Mystic Ward. Its unique welcome completion was retained rather than replaced by another introduction."
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "retainedHolds": [
+    {
+      "id": 1780,
+      "field": "detail",
+      "englishSHA256": "da139ee8a2104f7ca6bf7975d716fb8968a305be8cb0d0d1e8f4b0e515d76abf",
+      "reason": "CurrentForever contains unsupported <men/women> branch;60.tools supplies male-only wording and <Class> instead of current<class>. No sanitized live gender capture. Hold entire detail; rawDeepL preserved."
+    },
+    {
+      "id": 1786,
+      "field": "complete",
+      "englishSHA256": "1878e32f279bdab2409b807e8ae2bbbb650978c04ebba402d81ab55a46bcad2c",
+      "reason": "CurrentForever default displays brother;60.tools displays brother/sister. No sanitized live gender branch evidence. Hold full completion rather than enabling male-only address for all players; rawDeepL saved."
+    },
+    {
+      "id": 1783,
+      "field": "complete",
+      "englishSHA256": "98970adb5787ab7d8ca401e60c5c6a9981c757832813fd49979b8eca4bdc3988",
+      "reason": "CurrentForever default brother conflictswith60.tools brother/sister. No sanitized live genderbranch evidence. Hold entire completion; no male-only address enabled for all players. RawDeepL retained."
+    },
+    {
+      "id": 2998,
+      "field": "detail",
+      "englishSHA256": "e93110e05daa6bcb21a3c30fe181c80ebdea989e4bbb15dae5ec1b93d8b04f94",
+      "reason": "CurrentForever<brother/sister> isunsupportedgenderbranch;60.tools hasliteralbrother/sister. No sanitizedlivecapture resolvesbranchrouting. Holdentiredetail; allEnglishstillpassedDeepL."
+    }
+  ],
+  "pronunciationMapReconciliation": [
+    {
+      "term": "Dark Iron spies",
+      "old": null,
+      "new": "ဒါ့ခ် အိုင်ယန် စပိုင်ဇ်",
+      "reason": "Full identifying enemy phrase restored in1784.detail; assisted plural-spies pronunciation, pending native proofreading."
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}

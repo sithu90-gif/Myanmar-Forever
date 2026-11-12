@@ -1,0 +1,253 @@
+{
+  "reviewType": "Independent assisted source-aware English/Myanmar review; proposals only; worker files unchanged",
+  "partition": "rogue",
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.5",
+    "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+    "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+    "publishedAtUTC": "2026-11-12T18:09:44Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+    "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+    "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+  },
+  "reviewedArtifactSHA256": {
+    "english-sources.json": "307ef325d9f7d0265033ed2110f8de69467404bb198c4aee1cdd2bd79772a1fb",
+    "edited.json": "17378f27b7093b6484136d10deb4f86f45f72dfce52b7fa542ffc2a3f600e73c",
+    "pronunciations.json": "0fefb050397a8ddcd967b9b880ca9730cc9f12c176460d0f29f71a828dce62fc",
+    "held-fields.json": "97d675ff0389e58d08a74121f8a3428709571db3828afe025675093068f832e0",
+    "review-audit.json": "a218d56b264a87b25f8cb7730072651c38d1c1a603d56d4bc30c552c0d54578e",
+    "comparison-provenance.json": "c7adb24545cbc3fdd478316ff8e4050c595fa50fa54f6a78bc309faac50cb620",
+    "review-groups.json": "ee35f401a780793d2bf6060046b9e002f91d238cd423777ca84231b369af0cff"
+  },
+  "counts": {
+    "quests": 16,
+    "fieldSlots": 80,
+    "sourcedFields": 74,
+    "enabledFields": 73,
+    "existingHeldFields": 1,
+    "issues": 2
+  },
+  "checks": {
+    "allFiveStatesPerIDReadAgainstEnglish": true,
+    "savedPrimaryHTMLReparsedMatchesAllSourceFields": true,
+    "auditAndProvenanceFieldHashesMatch": true,
+    "rawDeepLFieldMappingAndHashesMatch": true,
+    "caseSensitiveMarkersMatchEnabledFields": true,
+    "namesQuantitiesWrittenQuantitiesDirectionsNPCVoiceJokesReviewed": true,
+    "sameTitleShatteredHandIDs1858And1963Distinguished": true,
+    "firstImportantIdentityPronunciationEachFieldReviewed": true
+  },
+  "quests": [
+    {
+      "id": 1858,
+      "reviewNotes": {
+        "title": "Identifying Shattered Hand faction retained with independent pronunciation. Same English title as1963 is correct; IDs and tasks are distinct.",
+        "detail": "Complex locked Tazan satchel; key absent from his body, assumption another holds it, Gamon assistant/drunk at tavern and quiet theft retained.",
+        "objective": "Steal key, then open Satchel and deliver contents to Therzok/Cleft of Shadow/Orgrimmar. Not the preceding kill-and-deliver-satchel step.",
+        "progress": "Desired object in grasp but inaccessible rhetorical frustration retained.",
+        "complete": "Approval, newest Shattered Hand membership, gift and belief it will help in future preserved. <name> exact."
+      },
+      "issues": []
+    },
+    {
+      "id": 1859,
+      "reviewNotes": {
+        "title": "Therzok identity/pronunciation retained.",
+        "detail": "Quiet conversational Kaplak voice, player description as an orc, combat competence, occasional sneakery, rhetorical question and Therzok/Orgrimmar offer retained; lowercase <name> follows current primary.",
+        "objective": "Speak Therzok in Cleft of Shadow/Orgrimmar, all first named identities pronounced.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "Kaplak contact, discussion and important future with Hand retained; Hand pronounced independently."
+      },
+      "issues": []
+    },
+    {
+      "id": 1963,
+      "reviewNotes": {
+        "title": "Same faction title as1858 deliberately retained; first Shattered Hand task distinguished by ID.",
+        "detail": "Warchief caution, Horde pride and covert methods retained. Tazan troll trades with pirates near Ratchet; kill him and bring his satchel. No added stealth mechanic.",
+        "objective": "Kill Tazan, deliver Satchel to Therzok/Cleft of Shadow/Orgrimmar; no key theft or contents substituted.",
+        "progress": "Axe-drawn charge versus knife in dark and fool judgment correct.",
+        "complete": "Tazan gone, locked satchel unusable until information obtained; second challenge still pending. Named identities pronounced."
+      },
+      "issues": []
+    },
+    {
+      "id": 2205,
+      "reviewNotes": {
+        "title": "Seek out wording translated; source SI: 7 spacing retained with pronunciation.",
+        "detail": "Correctly null/held: primary has unresolved <boy/girl>, secondary fixed boy. No approved runtime branch or live evidence. Raw translation retained in provenance; do not enable.",
+        "objective": "Keryn Sylvius package to Master Mathias Shaw at Stormwind Barracks; full ranked identity independently pronounced.",
+        "progress": "Help question and exact <class> retained.",
+        "complete": "Found Shaw; run and subsequent search strain mind/body; Renzik offers inn directions versus work. Teasing voice retained. Myanmar inferential wording read in completed-arrival context."
+      },
+      "issues": []
+    },
+    {
+      "id": 2206,
+      "reviewNotes": {
+        "title": "Ordinary Snatch and Grab wording translated semantically.",
+        "detail": "Defias south of Goldshire; Jerod's Landing occupied; Redridge -> Westfall contraband route exact. Infiltrate dock house and obtain schedule likely in Dockmaster pockets. Conditional discovery/disavowal, both <name> occurrences and SI:7 retained.",
+        "objective": "Defias Dockmaster, Shipping Schedule and Master Mathias Shaw correctly retained/pronounced.",
+        "progress": "Barracks loitering threat rendered as diminishing remaining life, without invented timer; exact <class>.",
+        "complete": "Sarcastic astonishment and potential proper <class>, gift blade, later SI:7 service, sharp skills/eyes/blade and unseen approach preserved; exact markers."
+      },
+      "issues": []
+    },
+    {
+      "id": 2218,
+      "reviewNotes": {
+        "title": "Road to Salvation meaning retained.",
+        "detail": "Lost soul/purpose/work joke, written thousand, Hogral cure metaphor, road up to Ironforge, Forlorn Cavern/thieves guild and Hulfdan Blackbeard retained.",
+        "objective": "Speak Hulfdan Blackbeard in Ironforge; first terms pronounced.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "Scoundrel/officer aspiration is rhetorical, not actual promotion; self-regard insult becomes welcome as source joke. <name> exact."
+      },
+      "issues": []
+    },
+    {
+      "id": 2238,
+      "reviewNotes": {
+        "title": "Simple subterfuge meaning preserved.",
+        "detail": "King strip mines ore/gems; TEN lifetimes written quantity retained. Values/valuables repetition retained. Sharing without Stinkbeard awareness, Onin MacHammar near Gnomeregan, hidden among lepers, caution all preserved.",
+        "objective": "Find Onin MacHammar near Gnomeregan, no later report-delivery task substituted.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "Whisper/shush, blunt daft-fool insult and risk of being heard retained."
+      },
+      "issues": []
+    },
+    {
+      "id": 2239,
+      "reviewNotes": {
+        "title": "Exact report-item identity Onin's Report independently pronounced.",
+        "detail": "Nearly daily armored steam tanks, contacts to EAST and exact route Ironforge -> Gol'Bolar Quarry pickup -> Kharanos refuel -> long way past Gnomeregan -> Ironforge unload retained. Report to Hulfdan for next step; <race> exact.",
+        "objective": "Onin's Report to Hulfdan/Ironforge retained.",
+        "progress": "Leper gnome stench/crazy-smile taunt and Onin-news question retained with first-term pronunciations.",
+        "complete": "Beard oath, dagger, Circle future call, written step THREE after step TWO, boot up backside and final Interested joke all retained; <name> exact."
+      },
+      "issues": []
+    },
+    {
+      "id": 1998,
+      "reviewNotes": {
+        "title": "Fenwick Thatros identity/pronunciation retained.",
+        "detail": "Correct named parties, Varimathras belief Fenwick leads rooted undead, Silverpine Forest, immediate task/faith, latest Deathstalker reports near decrepit Lordamere dock retained. Correction proposed to unambiguously attach immediate removal to the threat/person, rather than Forsaken.",
+        "objective": "Kill Fenwick, return HEAD to Mennet Carkad/Rogues' Quarter/Undercity, all first identities pronounced.",
+        "progress": "Utmost faith in player performing service for Lord Varimathras; no deity/prayer substitution.",
+        "complete": "Deathstalker services prove worth; perhaps time for further shadow-arts training preserves possibility. <name> exact."
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "a85c9d88b364d206609e9600d1f19a3f8a2e5d7ebebaa6cf550606ec5f48c006",
+          "reviewedMyanmarSHA256": "9c6308be61a215abee38d70508e009f38d6b1df7c764fc7d214d4923885ca2c2",
+          "old": "ချက်ချင်းရှင်းပစ်ရမယ့် Forsaken (ဖော်ဆေကန်) ကိုခြိမ်းခြောက်နေတဲ့သူတစ်ယောက်အကြောင်း",
+          "new": "Forsaken (ဖော်ဆေကန်) ကို ခြိမ်းခြောက်နေပြီး ချက်ချင်းရှင်းပစ်ရမယ့်သူတစ်ယောက်အကြောင်း",
+          "proposedFullField": "Forsaken (ဖော်ဆေကန်) ကို ခြိမ်းခြောက်နေပြီး ချက်ချင်းရှင်းပစ်ရမယ့်သူတစ်ယောက်အကြောင်း Lord Varimathras (လော့ဒ် ဗာရီမသရက်စ်) က ငါ့ဆီ စာတစ်စောင် အခုလေးတင်ပို့လိုက်တယ်။ သူ့နာမည်က Fenwick Thatros (ဖန်ဝစ်ခ် သက်သရော့စ်)၊ Silverpine Forest (ဆီလ်ဗာပိုင်းန် ဖောရစ်စ်တ်) မှာ အခြေချနေတဲ့ မသေမရှင်တွေရဲ့ ခေါင်းဆောင်တစ်ယောက်လို့ Lord Varimathras ယုံကြည်တဲ့သူပဲ။\n\nမင်းနာမည်က ငါ့စိတ်ထဲ ချက်ချင်းပေါ်လာတယ်၊ <name>။ ဒီတာဝန်ကို မင်းအမှားအယွင်းမရှိ ပြီးအောင်လုပ်နိုင်မယ်ဆိုတဲ့အထိ မင်းအစွမ်းကို ငါယုံတယ်။\n\nSilverpine (ဆီလ်ဗာပိုင်းန်) က Deathstalkers (ဒက်သ်စတောကာဇ်) တွေရဲ့နောက်ဆုံးသတင်းတွေအရ Lordamere (လော်ဒါမီယာ) ပေါ်က ပျက်စီးယိုယွင်းနေတဲ့ ဆိပ်ခံတံတားအနီးမှာ Thatros (သက်သရော့စ်) ကို တွေ့နိုင်တယ်။",
+          "reason": "The source says the threat/person threatening Forsaken must be removed immediately. The existing pre-nominal ချက်ချင်းရှင်းပစ်ရမယ့် directly precedes Forsaken and can make Forsaken the elimination target. Reorder the clauses so both threatening and immediate removal explicitly describe the person. Preserve all names, markers and the remaining statement."
+        }
+      ]
+    },
+    {
+      "id": 1999,
+      "reviewNotes": {
+        "title": "Tools of the Trade ordinary title meaning retained.",
+        "detail": "Kirin Tor wizards at Ambermill, documents about CURRENT Dalaran state, prisoner admission, Lord Varimathras entrusted Deathstalkers; equipment AND lockpicking knowledge, Estelle Gendry outfitter and tools BEFORE departure retained.",
+        "objective": "Exact Dalaran Status Report to Mennet Carkad/Rogues' Quarter/Undercity preserved. Primary and installed metadata support objective absent from secondary extraction.",
+        "progress": "Located documents question and <name> retained.",
+        "complete": "Fine lockpicking art learned faster than expected, trust justified and career optimism retained. Both current references have fixed boy; ကောင်လေးရ retained, no invented female branch. Current live gender behavior remains unverified."
+      },
+      "issues": []
+    },
+    {
+      "id": 2241,
+      "reviewNotes": {
+        "title": "Ordinary Apple Falls title wording translated; no invented item identity.",
+        "detail": "Lovestruck denial, EVERY waking moment, pictures, days without eating/sleeping/drinking, unrealized love, emphatic ME, only talks to rogues, flower from Jannok preserved.",
+        "objective": "Exact Jannok's Rose to Syurna in Darnassus retained/pronounced.",
+        "progress": "Sarcastic own-funeral flowers retained without invented actual death condition.",
+        "complete": "Hypothetical accumulated flowers enough for shop, dolt Jannok, courier may be useful and work question retained; exact <class>."
+      },
+      "issues": []
+    },
+    {
+      "id": 2242,
+      "reviewNotes": {
+        "title": "Destiny Calls translated semantically.",
+        "detail": "Possible help with Teldrassil forests, disastrous cooperation attempts, BRANCH at Oracle Glade outskirts, all force/diplomacy approaches doomed, perhaps stealth, Sethir packs and return report retained. No kill order or quantity invented.",
+        "objective": "Find Sethir and return any discovered clues to Syurna.",
+        "progress": "Anything to report from Sethir question and lowercase <name> retained.",
+        "complete": "Uncertain inference that Darkshore forest/river sickness taints home; service complete here and blade reward for Teldrassil retained. Source only primary available; secondary failure documented, not silently treated as corroboration."
+      },
+      "issues": []
+    },
+    {
+      "id": 2259,
+      "reviewNotes": {
+        "title": "Erion Shadewhisper full identity independently pronounced.",
+        "detail": "Explicit reassurance NOT sent to Syurna; Erion/Cenarion Enclave and haste retained. <name> exact.",
+        "objective": "Contact Erion Shadewhisper in Darnassus.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "Branch out idiom rendered as new experience; world awaits and <race> retained."
+      },
+      "issues": []
+    },
+    {
+      "id": 2260,
+      "reviewNotes": {
+        "title": "Erion retained/pronounced; ordinary behest translated.",
+        "detail": "Reputation far and wide, Stormwind Intelligence request by name, taxing/perilous travel, SI:7 training opportunity, new world, Old Town/Stormwind and Renzik The Shiv at HQ retained. Two <name> exact.",
+        "objective": "Stormwind City and seek counsel meaning retained despite source council typo; quoted full Renzik identity uses one combined pronunciation as documented exception. Terminal quoted period not name text.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "SI:7 call answered, distant shores to join ranks, much still to learn and <name> retained; training completion not invented."
+      },
+      "issues": []
+    },
+    {
+      "id": 2281,
+      "reviewNotes": {
+        "title": "Redridge retained/pronounced and rendezvous translated.",
+        "detail": "Premature field deployment would kill recruit; Renzik refers to himself by name and promises preparation. Redridge Mountains/Lucius/SI:7/Lakeshire docks with shady good-for-nothings all preserved.",
+        "objective": "Lakeshire in Redridge Mountains, speak Lucius; first names pronounced.",
+        "progress": "English absent; Myanmar null.",
+        "complete": "Fat fingers tease and more useless thieves turned accomplished rogues retained; <name> exact."
+      },
+      "issues": []
+    },
+    {
+      "id": 2282,
+      "reviewNotes": {
+        "title": "Alther's Mill exact location independently pronounced.",
+        "detail": "Years training thieves, Lucius self-boast, mill up off road, chest with important object, bring token THEN receive Certificate of Thievery retained; no invented skill level.",
+        "objective": "Open Lucius's Lockbox -> recover Token of Thievery -> return to Lucius/Lakeshire; distinct objects preserved.",
+        "progress": "Orcs first-use pronunciation and hearsay/nosing around retained. Correction proposed for specific mill/place reference currently rendered as a grinding machine.",
+        "complete": "Opened chest, praise, if die NOW due own stupidity rather than inexperience; dry insult and <name> exact."
+      },
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "ca7e470bc05a062a753f085c7a357c5470cec85b5153bc3cbd957b32aa3f62f2",
+          "reviewedMyanmarSHA256": "15e5521813f7e5ee9301bfc36e6f3d53c29e4e7dc8987799cbc975a92d1f4f10",
+          "old": "ကြိတ်စက်အနားမှာ",
+          "new": "Alther's Mill (အယ်လ်သာစ် မီလ်) အနားမှာ",
+          "proposedFullField": "orcs (အော်ခ်စ်) အကြောင်းပြောဖို့ ငါမေ့သွားသလား။\n\nAlther's Mill (အယ်လ်သာစ် မီလ်) အနားမှာ သူတို့ ဟိုစပ်စပ်ဒီစပ်စပ် လိုက်ကြည့်နေကြတယ်လို့ ငါကြားတယ်။",
+          "reason": "The mill is the established Alther's Mill location from this quest, rather than a generic grinding machine (ကြိတ်စက်). Retain its recognizable location identity and maintained pronunciation on its first occurrence in this independently displayed field, following the style guide's shortened-location reference rule. Preserve the hearsay and orcs statement; add no directions or gameplay claims."
+        }
+      ]
+    }
+  ],
+  "requestedHolds": [],
+  "confirmedExistingHolds": [
+    {
+      "id": 2205,
+      "field": "detail",
+      "englishSHA256": "3b0ba87ae74b0901beed90ca07a329c9921e49ceefe4d52f0b1459140661a356",
+      "reason": "Primary source has unsupported/unresolved <boy/girl>, secondary gives fixed boy; retain null until runtime/live evidence supports an exact branch."
+    }
+  ],
+  "pronunciationMapReconciliation": [],
+  "nativeMyanmarProofreading": "pending; independent assisted review is not native proofreading",
+  "liveClientVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}

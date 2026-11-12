@@ -1,0 +1,49 @@
+{
+  "acceptedIndependentFields": [
+    "92579.detail",
+    "92701.detail",
+    "93090.detail",
+    "98013.detail",
+    "99129.complete"
+  ],
+  "applied": [
+    {
+      "id": 92579,
+      "field": "detail",
+      "reviewedMyanmarSHA256": "5246a571683a36b64c067219764516ff9a17c9221170cc3dad4b983e614edff0",
+      "correctedMyanmarSHA256": "474abb66d5ea7f3ce2869ee6c7c363d6f46c3550b4ea42eee602a01b73c48b05",
+      "reason": "Current English and linked NPC identify Stormfist. စတုန်း is Stone, not Storm; inherited maintained-map spelling mispronounces the identity. Use established Storm core စတော်မ် as in Stormhoof/Stormwind. Assisted reconciliation pending native review."
+    },
+    {
+      "id": 92701,
+      "field": "detail",
+      "reviewedMyanmarSHA256": "38fb245cff7235d5878201e103e9e14c9cc8af65846d00cb2a8a9edb0a8a593c",
+      "correctedMyanmarSHA256": "f91297746faa0540423ae496b934dbdda51756c16650062832204caf7c3a824e",
+      "reason": "This same-title step independently identifies Stormfist. Inherited စတုန်း reads Stonefist. Reconcile to Storm စတော်မ် while retaining exact English identity; native pronunciation review remains pending."
+    },
+    {
+      "id": 93090,
+      "field": "detail",
+      "reviewedMyanmarSHA256": "5b124a39d626ce6036d8d33ccb3dcc1980e87b906a976ac7c698e244b9ac2c00",
+      "correctedMyanmarSHA256": "4ee7570e59454d8b4e0464ed644845877265626f199336856f36b973a77fb89e",
+      "reason": "Source explicitly names Windshapers shamans, a recognizable player class. Current field keeps only Myanmar phonetics. Retain canonical English Shaman and maintained first-use pronunciation, with natural Myanmar plural တွေ."
+    },
+    {
+      "id": 98013,
+      "field": "detail",
+      "reviewedMyanmarSHA256": "c86558a68355f648d9716e9b3dfa1300c44a4bb49e23d74306117b62ad6f02a0",
+      "correctedMyanmarSHA256": "38039e5f3e6dd4d0427f621150d955f82cbd2b6ebf18a26e32eabac9b0b2e77f",
+      "reason": "Source says Scores of cursed Highborne roam the once great city. Prior wording conveys plural creatures and an old city but omits large quantity and former greatness. Restore both without an invented exact count; preserve northeast and clearing them from this land."
+    },
+    {
+      "id": 99129,
+      "field": "complete",
+      "reviewedMyanmarSHA256": "d17e0f388c196a697a56f865b6750dd0747d1fbace2995a3041ee3846f336da0",
+      "correctedMyanmarSHA256": "58c96e4e25c8f95f06620dccfaffb8b2e7745564cbf6c907a26ca299bc12968b",
+      "reason": "English says the NPC needs the player to help obtain supplies. Bare မင်း အကူအညီလိုလိမ့်မယ် can read as the player needing help. Explicit ငါ and မင်းရဲ့ အကူအညီကို preserve speaker, helper and direction of assistance."
+    }
+  ],
+  "propagatedIdentityOnlyFields": 12,
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

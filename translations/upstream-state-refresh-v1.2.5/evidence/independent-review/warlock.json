@@ -1,0 +1,452 @@
+{
+  "reviewType": "independent assisted English/Myanmar review",
+  "reviewedAtUTC": "2026-11-12T20:55:42.046047+00:00",
+  "reviewer": "nov13_warlock_review",
+  "questCount": 10,
+  "fieldStatesRead": 50,
+  "sourceFields": 46,
+  "enabledFieldsReviewed": 44,
+  "heldFieldsReviewed": 2,
+  "absentFieldsReviewed": 4,
+  "scope": "All five states per ID read against saved current Forever English and original HTML boundaries; secondary 60.tools variants, installed Questie identity/links, pinned UA coverage, local pronunciation map, group review, field audit and raw DeepL provenance inspected. No worker or repository file edited.",
+  "integrityChecks": {
+    "primaryHTMLReparseAndHashes": "pass for all 10 records",
+    "englishEditedRawHashesAndInputMappings": "pass for all 46 source fields; edited nulls retained for 2 holds",
+    "exactMarkers": "pass for all 44 enabled fields",
+    "pronunciationMapAgainstMaintained": "no canonical differences for shared terms",
+    "writtenAndNumericQuantities": "six heads and three feather charms verified separately from numeric objectives",
+    "newCorrectionsFound": 0
+  },
+  "reviewedArtifactSHA256": {
+    "edited.json": "3ccfc6de75443d50389a5851cb278c2f74dbf91bf2e411530e99bf324c75e79c",
+    "english-sources.json": "7c44f5a67c890ab6e79a445dab3e034e1f1a9e8137c70fef734b0ca714626032",
+    "pronunciations.json": "206640cc27d4dbf6f21e0058e749bf7bdf8f5c03c4462be7c4b85f99e3401f3d",
+    "held-fields.json": "105f2f7465cdef57b437714ce7b4ef35d4a7b9325e8375cd13b005057101caf8",
+    "review-audit.json": "42c0e3e5a83b086cd57d34990db2b2b0f422834dfab6c241345cbd12a82fd02b",
+    "comparison-provenance.json": "61fcaa40c10cf0f6a5443102fd6a3d7e685ffd26f659c0b328ccfa74dd97745f",
+    "review-groups.json": "876a950b9bc905729b75b253efc3fe615f08ac954aa15f850734565fe3a3d2a4"
+  },
+  "quests": [
+    {
+      "id": 1485,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: exact target identity Vile Familiars, independently annotated; separate quest ID from the 1499 handoff.",
+        "Detail: distrust earned by earlier warlocks, tolerated but not loved, reclusive practice and no prescribed path retain the speaker meaning. Six heads and northeast cave are correct; warlocks, Horde and vile familiars have first-use pronunciation.",
+        "Objective: numeric six Vile Familiar Heads to Ruzan, with item and recipient annotations; not the Zureetha handoff.",
+        "Progress: independently confirmed HOLD. Actual primary and secondary HTML both say would risk, despite few enough interested and a warning about readiness. Inferring a missing not would change evidence. No Myanmar field is enabled.",
+        "Complete: exact <class>; assorted summoned beings are useful tools despite appearance. Small imp remains a formidable opponent. Imp identity is independently annotated."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "39c42384b5a0eba506cb49d83cc9086445105c6f478505c6cfcdb4bb46be5976",
+          "reviewedMyanmarSHA256": "a342b450ab9516d6aa0e908c22e6af15699e63f080e76bfe2b1ec4fe5a1385cc"
+        },
+        "detail": {
+          "englishSHA256": "46064b298688cde4d9c0ec05262554632b3a31c462cef88ce2e7711f817e61ae",
+          "reviewedMyanmarSHA256": "db30665621b8f06d53021f14ddd1aeaae0aa44aeb11f2882f4644df41ce14332"
+        },
+        "objective": {
+          "englishSHA256": "81a4200047430d979546a87df38e5b92abe0a1c2f9a9fba6b93be5fead5c748e",
+          "reviewedMyanmarSHA256": "32ea809858f31cf56613dd362e1de6c1404c1c68f736674d613be580a3ce3835"
+        },
+        "progress": {
+          "englishSHA256": "586d4816b608dda63a2d3f5f8bf2786ab661dba270543e3cbf22ce947ef621f8",
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "3059960237d93cff5c9fa9141477a37145853ccb0edc98e8110997d9a8ee982c",
+          "reviewedMyanmarSHA256": "05e4a2818658a74e8df774154febbb8c943b1e542de037df215501d4246f7087"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1499,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: same Vile Familiars identity as 1485 is legitimate, while this ID is the subsequent Ruzan-to-Zureetha handoff.",
+        "Detail: culling creatures in cave near the earlier fight, experience through helping Zureetha, prior imp assistance and probable reward preserve the source. Names and target identities have first-use pronunciation.",
+        "Objective: speak to Zureetha Fargaze; no additional collection or kill requirement is introduced.",
+        "Progress: absent from current primary HTML and UA field availability; null is correct.",
+        "Complete: exact <name>; merely pets of darker Burning Blade powers and success as a sign of greater future deeds retained. Both identifying terms are annotated."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "39c42384b5a0eba506cb49d83cc9086445105c6f478505c6cfcdb4bb46be5976",
+          "reviewedMyanmarSHA256": "a342b450ab9516d6aa0e908c22e6af15699e63f080e76bfe2b1ec4fe5a1385cc"
+        },
+        "detail": {
+          "englishSHA256": "9f17a2e812e38b474a01cb8f6df188196501817ddf335353e5d3c05124e24797",
+          "reviewedMyanmarSHA256": "33fefbb353f26a8f26bca1e559e34aa0797f713ce4255b39485d14cd86d76bd7"
+        },
+        "objective": {
+          "englishSHA256": "213ed5edf7d7d7956c395a4b3662725235ea6bd77445dc2bcb04152995fc7db2",
+          "reviewedMyanmarSHA256": "513562c15451ec2483f934f07f64df3d20f242fdc21ba1a70f41ce6a870363c5"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "f7ea72c4969db22891bacaaf4690a27a2cba3d4a8283e5b727df9215df9000cf",
+          "reviewedMyanmarSHA256": "c5ba7258ba2acb47e3bf83fc937d5807d576674001941cc6fe74d56c8fe3517f"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1599,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: Beginnings is ordinary wording and is translated semantically.",
+        "Detail: research interruption, teasing no-grudge voice, simplest imp summon and prior proof of magical plus physical ability preserved. Three feather charms from frostmane novices in southwest cave are correct. All important static identities have field-local pronunciation.",
+        "Objective: numeric three Feather Charms delivered to Alamar Grimm in Anvilmar, each identifying phrase independently annotated.",
+        "Progress: charms carried by novices have unspecified magic, interesting research and surprise at trolls preserved; no invented magical effect.",
+        "Complete: two exact <name> markers plus <class> and <race>; other people judge merit, conditional imp overpowering/career-ending threat, probable survival through first few months and dangerous magic despite small size preserved. Imp first-use annotation present.",
+        "Secondary 60.tools fetch unavailable by recorded TLS timeout; primary saved HTML, installed Questie metadata and pinned UA identity support these fields. No live verification is inferred."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "da7dc975f30f09bc087a8c4d77c39e2ef7d23e2b2c462a920f0c14ad940c011a",
+          "reviewedMyanmarSHA256": "d931f1c5515d87f45b4a0fb8494488e101a6912bc63c0e68568d6335c4a07834"
+        },
+        "detail": {
+          "englishSHA256": "b85f99a3c987fa86baeaabef191eeac9bf072a52cbe77d91a16af95504a70a37",
+          "reviewedMyanmarSHA256": "f111753fbefd3f82cdb1c9bf6b317681d3416bfae4a12a5d9b77613ab8e4d297"
+        },
+        "objective": {
+          "englishSHA256": "8ee347fb1f009c1a1a7fdf0c157c1b9fb019ec417b320355e2223319c9aa131d",
+          "reviewedMyanmarSHA256": "6f70e5f65471700b6baf76dcfe2d452cad27796dc731b7f7fbfaba1fd2d6b37f"
+        },
+        "progress": {
+          "englishSHA256": "d9aeca82080a7d094d5fd73d7a7ea0719cfd4ed2dd7614ba725626b0f7975de2",
+          "reviewedMyanmarSHA256": "455713cc401d61e7af2b4749ba94ba2ceb3c701ebc5a69c79f0b44de0eae58b6"
+        },
+        "complete": {
+          "englishSHA256": "dcbd7459cd152cca3b847dd3325ca37d85d06b791eade95f76c49958f6a725b6",
+          "reviewedMyanmarSHA256": "aef522a451f1e86bc21303ee26155c692fe584dcac445adcc56fcbdbf432f263"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1506,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: Gan'rul identity retained and summons wording translated semantically.",
+        "Detail: immediate contact, senior warlocks in Cleft of Shadow, and uncertain very good or very bad summons preserved. Primary exact <name> casing controls secondary <Name>. Field-local name, place and class pronunciations present.",
+        "Objective: Gan'rul Bloodeye in Orgrimmar matches primary and Questie; secondary missing objective is not contrary English evidence.",
+        "Progress: no current primary state, correctly null.",
+        "Complete: Ophek contact concern, further <class> training, current business must wait, and pointed rhetorical no-problem question retain the source voice. Exact marker and Ophek annotation present."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "7105366f6014a0731cd253c63f78da25ea9f088810a8717d20d0a797d96db2b9",
+          "reviewedMyanmarSHA256": "49c3dc366e10fbf389000003a30b2a77527a3d8aeb6b25dcb7bc9ce7c0a8a896"
+        },
+        "detail": {
+          "englishSHA256": "083654de50a4916bf5794e35665144cc5ee6bbea5716f2d7f21f21d7e00e34e7",
+          "reviewedMyanmarSHA256": "f86c57a509acba43ae160ed7fceb23522bf0795b8b5f4e25ce62e438ddb4aee4"
+        },
+        "objective": {
+          "englishSHA256": "aac08edd9391dd2a2e6fda7666cafe451b3f4dbe2f7373c2da470071a4c8b022",
+          "reviewedMyanmarSHA256": "49aad2738e1c4b24029495b9b809bb694248ea0ebd65650154bea74ce845b157"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "3eb18c4f73d95e6e5e1b5735f16636c3f446bc72b62f27c212d179f226fcce29",
+          "reviewedMyanmarSHA256": "5b0d55a54efca484eb63ad9bfecd09e899a4c2944dfa44f727c2db4e643f773a"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1501,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: ordinary creature framing translated, identifying Void retained and annotated.",
+        "Detail: few remaining warlocks, justified risk and quickly maturing for Horde/Warchief retained. Tablet of Verga stolen by Burning Blade and kept at their Skull Rock lair east of the city, then runes for a voidwalker, are correct; first static identity occurrences are annotated.",
+        "Objective: recover Tablet of Verga for Gan'rul Bloodeye in Orgrimmar; all full identifying phrases annotated.",
+        "Progress: exact <name>; possession of Tablet is the prerequisite for further conversation, with negative condition retained.",
+        "Complete: hope for additional Burning Blade losses, annoyance to Warchief and stigma upon all warlocks retained. It does not assert additional kills occurred; all identities independently annotated."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "f8737fc6465410630e4e835b44067e4d378b002007bea7d336081ec22a34f6f7",
+          "reviewedMyanmarSHA256": "037fb7066d37bc9cbbf9c4593bc1682a8273f4a551280a262df64e7d18613e70"
+        },
+        "detail": {
+          "englishSHA256": "97a21bb8cb666a5b6fbb9c15fe85c6e00b53a277a171a532fe886011ae6b5f18",
+          "reviewedMyanmarSHA256": "ec61346075d6c82917611b475353d7191b2145cc3bc1c92f402875afbcf3ebaf"
+        },
+        "objective": {
+          "englishSHA256": "492a564e7cdf151b59da3a4eabbb99c490bc5c9cc4a18ca13609c618adb5aeb5",
+          "reviewedMyanmarSHA256": "eb203f8db6b9eb75b334805f9104080da143ffeeca5bae082667a5de4b2cde5b"
+        },
+        "progress": {
+          "englishSHA256": "c34649807f5340cb7466b09272a265a620388811745384845680101c02413bfe",
+          "reviewedMyanmarSHA256": "d5aefeb5d08f3c996defc88fca8589ab1d1a0ac63ea7fede89ebe24bd78281d3"
+        },
+        "complete": {
+          "englishSHA256": "c672a99801e8aecb57fcaa1d64f22ccdd28183f45d11c2f8d78dfd43a307810e",
+          "reviewedMyanmarSHA256": "977aff4ef002240d8d5356b80bac11ca9abb9ca44f9dc85ee5789010e820db6b"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1504,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: binding wording translated semantically; same display title as 1689 while Horde branch remains distinct.",
+        "Detail: Tablet glyphs go to circle inside Neeru Fireblade's tent across the cavern; summon and defeat voidwalker with available physical/magic means, return glyphs, then learn binding to will. Item, NPC and creature annotations present. It is not the Alliance choker/circle-below branch.",
+        "Objective: use then return Glyphs of Summoning to Gan'rul Bloodeye in Orgrimmar after subduing a voidwalker. All identifying phrases independently annotated.",
+        "Progress: speaker once in player's position; own voidwalker resists less over years, suspected intent to lower guard remains suspicion. Both exact <name> markers retained.",
+        "Complete: similar summon to defeated voidwalker, high expectations met so far, warning against pride, and future tasks making current one as easy as waking retain source comparison direction. Exact <name> retained."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "dcbeedd80da9c3a245495abec7ee8029bf210f06d6ae264647c0f48cdd43f42e",
+          "reviewedMyanmarSHA256": "b4679cd18d5abf4b6b7df27ca535349508e225e06cf12c5dcc2d89f539a1504a"
+        },
+        "detail": {
+          "englishSHA256": "c45712ff83322b82b39d3a1f735ba896cd155ee5b3f001d0425b440094a85557",
+          "reviewedMyanmarSHA256": "e80135d869880574163a871765d7f64c173fc13a4ce44752b0d389fe0b71ef7a"
+        },
+        "objective": {
+          "englishSHA256": "24c018a941ade0276af09418f6f84bfe085fb63331434a3e128d9e4198fb7381",
+          "reviewedMyanmarSHA256": "41cd45b3c0c758d5d1b3da669aec86991707ef72915f18f557724db7af818cb0"
+        },
+        "progress": {
+          "englishSHA256": "919fd61370ffc01a92fb444c6946f1181c2e6a23824f396e40b15fe6293c0fa1",
+          "reviewedMyanmarSHA256": "b78bdf4f212d6310cf3ed576cc09ee40f81e4b9931938ac5f6428d7176e2b152"
+        },
+        "complete": {
+          "englishSHA256": "ad9da608ed47211810d3a62fea81e956991b50d58b5569de88dcf4f17ff26ca0",
+          "reviewedMyanmarSHA256": "0a0b1fe7054ca2e39366968eb89697a3586dd473af5f0b192be62cf6b9ef4706"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1685,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: Gakin name retained with annotation; ordinary summons wording translated.",
+        "Detail: all-day futile search, unexpected arrival, no further delay, urgent additional training with Master Gakin, tavern basement and discretion about location preserved. Full Master Gakin and Slaughtered Lamb phrases independently annotated.",
+        "Objective: report to Gakin the Darkbinder in Mage Quarter of Stormwind, all identifying phrases independently annotated.",
+        "Progress: no current primary state, correctly null.",
+        "Complete: independently confirmed HOLD. Primary actual HTML has stern Remen/<class>/head-on-shoulders speech; secondary actual HTML has concerned <name>/fear-the-worst/invested-time speech. No Myanmar field enabled until conclusive evidence resolves the branch."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "216a835d44eb998541fc16338a2cf7b206c4d7af166da6a806a208e9320e7ee0",
+          "reviewedMyanmarSHA256": "6b0264ab1944374fa015c85973cf5736e78a2f73cea113eedd594fc13e2ef187"
+        },
+        "detail": {
+          "englishSHA256": "3028a7fae33b3e1a821bfdd4b7e366a83671142f89ecbb356a5df4008c0ba6b2",
+          "reviewedMyanmarSHA256": "80ebbe5d508600661d7482579f6c85c142a3fd4c518ecb8553bfd4712c1cb3aa"
+        },
+        "objective": {
+          "englishSHA256": "00f6f3fe3477069a83f83b6688fbec1efde4e9aceff74b71f1eeea248fa16503",
+          "reviewedMyanmarSHA256": "34929e743caa39d32ffe6bf4f6ae4e7f22366db303de88e10d80fca873b2f57f"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "6ec77b5a36dc3d17bc21e197531da2aa6df3f345aeb5a959dcbf05c787f81468",
+          "reviewedMyanmarSHA256": null
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1688,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: exact Surena Caledon target identity with independent pronunciation.",
+        "Detail: talented young former student, bitter insults, flight with Defias Erlan Drudgemoor, gifted bloodstone choker demanded back, speaker valuing her life at nothing, and Brackwell Pumpkin Patch retained. Does not add a separate kill instruction. Static identities annotated per field.",
+        "Objective: Surena's Choker for Gakin the Darkbinder in Stormwind; source label is distinct from Bloodstone Choker in 1689 and all identifying phrases annotated.",
+        "Progress: even older/wiser people undermined by youth and beauty; lifelong caution and exact <name> retained.",
+        "Complete: talent insufficient to master <class> magic alone, regret at waste with occasional necessity and hope for different return on investment preserved. Exact primary <class> controls secondary static warlock; Surena independently annotated."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "9cd93aa1162c8921c798ac9974047ce820f199fa18f293af1a0e76ccc786e002",
+          "reviewedMyanmarSHA256": "0eba1fd786354d32b0eb6807b0e9be196bb99a73fc23387cbb4f07707c3132e1"
+        },
+        "detail": {
+          "englishSHA256": "df812d9d7bae741efbbc0e095e306a140f207d4ed6a8004b5dfaf503bcae42c4",
+          "reviewedMyanmarSHA256": "36eb487cd3355c0b128d327336e6e86f6e3a6b42f3af69caacb71f3292d8b767"
+        },
+        "objective": {
+          "englishSHA256": "ce5a35acc043fd1172f36eaba64760a64cbd18b598a4bf421fd22f80a72590fa",
+          "reviewedMyanmarSHA256": "c078c0d19b376fc2a91db69e26bc46ca3c1dd8cb87144fa6aa585caa6bd4d0da"
+        },
+        "progress": {
+          "englishSHA256": "2c73e4d5a60dde828601c25ca6840a30b1738e2049efbdb3e06438e0d7ef628b",
+          "reviewedMyanmarSHA256": "e956b56b3a12ee1a5965d10c87378a8a440eb628991b6381d847b9a81aae7c22"
+        },
+        "complete": {
+          "englishSHA256": "2bd93645d17d94cc09b87215be8cd0c0e4121f03ae4b7836575c700510940525",
+          "reviewedMyanmarSHA256": "6bcaa2afef474cf08e91e436a122e8b4546ce5451819c453091ab11368835e8c"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1689,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: semantic binding title matches 1504 display wording, while Alliance item/recipient route is distinct.",
+        "Detail: choker recovery and besting Surena establish at least her capability, urgent training need, magic flows alone insufficient, summon/subdue voidwalker using available physical/magic weapons, and choker magic at circle below retained. Surena, warlock and voidwalker independently annotated.",
+        "Objective: Bloodstone Choker used and returned to Gakin the Darkbinder in Stormwind after subduing voidwalker; not the Horde glyphs/tent route. Every identifying phrase annotated.",
+        "Progress: control cannot be taught until a voidwalker has been overcome. Negative prerequisite is correct; creature annotation present.",
+        "Complete: exceeded expectation but met hope, subjugated voidwalker as useful ally in certain future trials, no more lessons at present but far from done retained. Both exact <name> markers and field-local voidwalker pronunciation present."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "dcbeedd80da9c3a245495abec7ee8029bf210f06d6ae264647c0f48cdd43f42e",
+          "reviewedMyanmarSHA256": "b4679cd18d5abf4b6b7df27ca535349508e225e06cf12c5dcc2d89f539a1504a"
+        },
+        "detail": {
+          "englishSHA256": "7e99c7c234eb953a12620db919e2f91aa21976343f85afc181eca0480134f9ab",
+          "reviewedMyanmarSHA256": "f4402268a90d293860bbafe9a3a8a1764abdaeed0ce63519ffe98990f2f76f31"
+        },
+        "objective": {
+          "englishSHA256": "787db3eaed295c465a6a28fa1f94b005373f28975010d87b997f763ac1da2726",
+          "reviewedMyanmarSHA256": "7d6651e2fe87e36ebd0905ca22843cc992f62bc4bd9b4a855869208401778730"
+        },
+        "progress": {
+          "englishSHA256": "cae352d2fa922f3c5bc76eb957bb384a84155b8feceba65e00fc32b66fc33367",
+          "reviewedMyanmarSHA256": "03dfee0430429fd026ec2e0c3ebd5d682c1f58704c7bb6d662d7c458e33e7077"
+        },
+        "complete": {
+          "englishSHA256": "f1dd4cd0ceb27951b7a4432a6c489bd0dcd356410dcb48b4cddb67460b847734",
+          "reviewedMyanmarSHA256": "eec5bff3a0e95eb372a1a165091ede9d24aa6f94dadd24780cb51034f9696e61"
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1715,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "Title: named tavern The Slaughtered Lamb retained and independently annotated.",
+        "Detail: former Khaz Modan training under Gnomeregan masters, forced Ironforge relocation, Magni surveillance, sending novices to Stormwind, Gakin competence despite speaker anger, and tavern basement retained. Static identities annotated at first important occurrence in this field.",
+        "Objective: Gakin the Darkbinder in Mage Quarter of Stormwind matches primary and installed metadata; secondary lacks the objective, without conflicting instruction.",
+        "Progress: no current primary state, correctly null.",
+        "Complete: Blackwrench referral, irritated criticism of Ironforge warlocks, limited room/teachers in Stormwind and eventual attention from increased traffic preserved; names, place and class identities annotated per field."
+      ],
+      "reviewedFieldHashes": {
+        "title": {
+          "englishSHA256": "26f7dc3f0e83ebf0bb14bf2ad324dc100e471d2306c98c88f7c24f286fd08a60",
+          "reviewedMyanmarSHA256": "af8f7acb12e2b44d1e55473911d8555bf2ab270055761db058283e1e553f2c10"
+        },
+        "detail": {
+          "englishSHA256": "b6b6cfb64aa86700f33412edaece8faf980ac9f5724d4644fd07bb267010a34b",
+          "reviewedMyanmarSHA256": "86fa3efdd5d3add6250fa02135f7615efcd171f66aa3bcc2d29181163dd8f9e1"
+        },
+        "objective": {
+          "englishSHA256": "00f6f3fe3477069a83f83b6688fbec1efde4e9aceff74b71f1eeea248fa16503",
+          "reviewedMyanmarSHA256": "34929e743caa39d32ffe6bf4f6ae4e7f22366db303de88e10d80fca873b2f57f"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "ad8adc5b1a1bbfc1dd85508443c795cc2dbd1115f0979a1ebf28b51dfdc9e599",
+          "reviewedMyanmarSHA256": "0583237cffbe5555b23fbea19b26e86c6ce959900abefd589ed9318babbda457"
+        }
+      },
+      "issues": []
+    }
+  ],
+  "requestedHolds": [
+    {
+      "id": 1485,
+      "field": "progress",
+      "englishSHA256": "586d4816b608dda63a2d3f5f8bf2786ab661dba270543e3cbf22ce947ef621f8",
+      "reviewedMyanmarSHA256": null,
+      "reason": "Retain existing hold: both saved source HTML versions have would risk after few enough interested, so intended safety negation is unresolved; do not silently insert not."
+    },
+    {
+      "id": 1685,
+      "field": "complete",
+      "englishSHA256": "6ec77b5a36dc3d17bc21e197531da2aa6df3f345aeb5a959dcbf05c787f81468",
+      "reviewedMyanmarSHA256": null,
+      "reason": "Retain existing hold: actual current primary completion (Remen/<class>/head-on-shoulders) and secondary completion (<name>/fear-the-worst/training-only) are materially different speeches; sanitized current live or other conclusive evidence needed."
+    }
+  ],
+  "pronunciationMapReconciliation": [],
+  "nativeMyanmarProofreading": "pending; this assisted review is not native certification",
+  "liveClientVerification": "not tested; no sanitized current live capture available to this reviewer",
+  "controllerHardwareVerification": "not tested"
+}

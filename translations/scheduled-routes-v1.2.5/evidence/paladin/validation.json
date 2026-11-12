@@ -1,0 +1,233 @@
+{
+  "validatedAtUTC": "2026-11-12T20:54:43.164191+00:00",
+  "quests": 24,
+  "sourcedFields": 92,
+  "enabledFields": 88,
+  "unavailableSourceFields": 28,
+  "nullFields": [
+    {
+      "id": 1641,
+      "field": "detail"
+    },
+    {
+      "id": 1641,
+      "field": "objective"
+    },
+    {
+      "id": 1641,
+      "field": "progress"
+    },
+    {
+      "id": 1642,
+      "field": "progress"
+    },
+    {
+      "id": 1643,
+      "field": "progress"
+    },
+    {
+      "id": 1780,
+      "field": "detail"
+    },
+    {
+      "id": 1780,
+      "field": "progress"
+    },
+    {
+      "id": 1781,
+      "field": "progress"
+    },
+    {
+      "id": 1786,
+      "field": "progress"
+    },
+    {
+      "id": 1786,
+      "field": "complete"
+    },
+    {
+      "id": 1788,
+      "field": "progress"
+    },
+    {
+      "id": 1790,
+      "field": "detail"
+    },
+    {
+      "id": 1790,
+      "field": "objective"
+    },
+    {
+      "id": 1790,
+      "field": "progress"
+    },
+    {
+      "id": 1645,
+      "field": "detail"
+    },
+    {
+      "id": 1645,
+      "field": "objective"
+    },
+    {
+      "id": 1645,
+      "field": "progress"
+    },
+    {
+      "id": 1646,
+      "field": "progress"
+    },
+    {
+      "id": 1647,
+      "field": "progress"
+    },
+    {
+      "id": 1778,
+      "field": "progress"
+    },
+    {
+      "id": 1779,
+      "field": "progress"
+    },
+    {
+      "id": 1783,
+      "field": "progress"
+    },
+    {
+      "id": 1783,
+      "field": "complete"
+    },
+    {
+      "id": 1785,
+      "field": "progress"
+    },
+    {
+      "id": 1789,
+      "field": "detail"
+    },
+    {
+      "id": 1789,
+      "field": "objective"
+    },
+    {
+      "id": 1789,
+      "field": "progress"
+    },
+    {
+      "id": 2997,
+      "field": "progress"
+    },
+    {
+      "id": 2998,
+      "field": "detail"
+    },
+    {
+      "id": 2998,
+      "field": "progress"
+    },
+    {
+      "id": 2999,
+      "field": "progress"
+    },
+    {
+      "id": 3000,
+      "field": "progress"
+    }
+  ],
+  "heldFields": 4,
+  "heldFieldDetails": [
+    {
+      "id": 1780,
+      "field": "detail",
+      "reason": "CurrentForever contains unsupported <men/women> branch;60.tools supplies male-only wording and <Class> instead of current<class>. No sanitized live gender capture. Hold entire detail; rawDeepL preserved.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1786,
+      "field": "complete",
+      "reason": "CurrentForever default displays brother;60.tools displays brother/sister. No sanitized live gender branch evidence. Hold full completion rather than enabling male-only address for all players; rawDeepL saved.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1783,
+      "field": "complete",
+      "reason": "CurrentForever default brother conflictswith60.tools brother/sister. No sanitized live genderbranch evidence. Hold entire completion; no male-only address enabled for all players. RawDeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 2998,
+      "field": "detail",
+      "reason": "CurrentForever<brother/sister> isunsupportedgenderbranch;60.tools hasliteralbrother/sister. No sanitizedlivecapture resolvesbranchrouting. Holdentiredetail; allEnglishstillpassedDeepL.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    }
+  ],
+  "reviewedGroups": [
+    [
+      1641,
+      1642,
+      1643,
+      1644,
+      1780
+    ],
+    [
+      1781,
+      1786,
+      1787,
+      1788,
+      1790
+    ],
+    [
+      1645,
+      1646,
+      1647,
+      1648,
+      1778
+    ],
+    [
+      1779,
+      1783,
+      1784,
+      1785,
+      1789,
+      2997,
+      2998,
+      2999,
+      3000
+    ]
+  ],
+  "linguisticLintIssues": [],
+  "buildReleaseValidateFields": "passed for all24 quests and five states each; English/Myanmar hashes, exact marker case, numeric multiset, encoding and held/unavailable states checked",
+  "rawDeepLMappingValidation": "passed all92 sourced fields including4holds across5batches, all requests under5000characters; originalEnglishinputs, rawoutputhashes andeditedhashes verified",
+  "sourceBoundaryValidation": "all24currentForeverHTMLhashes and reparsedfieldsets match; barecompletion states andProvideditemboundaries reviewed",
+  "UAComparison": "all24exactEnglishaliases andsourcefieldpatterns matchUA0.26.5 selection",
+  "metadataObjectiveValidation": "allavailable20objectives exactmatch installedQuestieDB1.0.12",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "independentAssistedReview": "not performed by originating worker; root review pending",
+  "artifactSHA256": {
+    "edited.json": "bd4c24eefa8b81b5bd25acc0301f6c0a9b28e4f6c655ed0bb843d45902eefaab",
+    "pronunciations.json": "0a516b87f8c9d2ee31538296f057fb551095a5453b3184c8e12a9cab12ccbbe4",
+    "proposed-pronunciations.json": "202588e5af44c74421c62b2af5395735cd1be68ad9be1ce4029ab240819d13bf",
+    "annotation-exceptions.json": "beb28cc6a1e132ffc3010271b3a7cc0dc81f9f6ea4353e0d146fd43ae784be1e",
+    "english-sources.json": "adba20b9b5e8c250a51b26a3c379986842073c4d3a28c00a2ac77040bcd326da",
+    "fetched.json": "235f47f4194a7a9b0d86221d33cdba7d9f80cd12cdcaf120d9d1ac082f27cd96",
+    "selection.json": "682ecc120fce2e2a9c210d55cd6546576a1801fc5373ea013d1fbaae9c5036e6",
+    "review-audit.json": "4b75dd7727cbfdc2350c3fdc5c437f8944ba2ffcfdf9be59f6fcfe394d6d20a2",
+    "comparison-provenance.json": "29a681e8634e9445399028310189545aeb6706e069d3956b4d60cb74495bc381",
+    "held-fields.json": "2543dc20de98a0bf8865a089e1e90e52125b7c16875f4a71191a4bd444a0dde3",
+    "groups.json": "85752f3edea7d0ea00b804c93829d48d0c457425f3265de60af808501975b7c7",
+    "review-groups.json": "a3b5308607af49ef4385c091993dddf900729b9fa42f04a732577dfc1529ef3f",
+    "source-boundaries.json": "605e1136ed88e4362398f83d947cdf21ea21484fc7c803b8ef2c75126930c515",
+    "source-differences.json": "370f8d8be456b72e31dc4fd3580f14af32711080fa79d294f88e67c1be9680e7",
+    "ua-comparison.json": "3fac6ab3e16990f390bef7c6fc51a5d80bdac9f8b19cc59349a4c1fab5e73f7a",
+    "raw-deepl-01.json": "657abc2e64de22710a4c933e530b97477a47de184d9d866892fb2106e9e2e498",
+    "raw-deepl-02.json": "4f55d474ebabf8983875acf22efe2c16c0f46072f1b0c18dce272e95b6aa588f",
+    "raw-deepl-03.json": "57d0c26658663df6e74783d731f14f99d2a5eca44b23a74ad77d566ce18f7df3",
+    "raw-deepl-04.json": "6f10ea9f8c0153c49c83608a5d91f8c6e233434bb2d6a230c76451d0973efe21",
+    "raw-deepl-05.json": "5f77e29deec9d2cb2abecdfd134347f1190f0880ed5c4ccf6fa613c4d90d3c0a"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "version": "1.2.5",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-13",
+  "reviewedAtUTC": "2026-11-12T21:27:45.875264+00:00",
+  "newQuestIDs": 50,
+  "newQuestFields": 205,
+  "filledExistingFields": 49,
+  "filledExistingQuestIDs": 31,
+  "guardedCorrectedFields": 68,
+  "existingQuestIDsUpdated": 83,
+  "newEnabledFieldsTotal": 254,
+  "questIDs": 1186,
+  "translatedFields": 5547,
+  "dialogueStates": 3203,
+  "absentOrHeldDialogueStates": 355,
+  "batchSupportedHeldFields": [
+    {
+      "id": 1780,
+      "field": "detail",
+      "reason": "CurrentForever contains unsupported <men/women> branch;60.tools supplies male-only wording and <Class> instead of current<class>. No sanitized live gender capture. Hold entire detail; rawDeepL preserved.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1786,
+      "field": "complete",
+      "reason": "CurrentForever default displays brother;60.tools displays brother/sister. No sanitized live gender branch evidence. Hold full completion rather than enabling male-only address for all players; rawDeepL saved.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1783,
+      "field": "complete",
+      "reason": "CurrentForever default brother conflictswith60.tools brother/sister. No sanitized live genderbranch evidence. Hold entire completion; no male-only address enabled for all players. RawDeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 2998,
+      "field": "detail",
+      "reason": "CurrentForever<brother/sister> isunsupportedgenderbranch;60.tools hasliteralbrother/sister. No sanitizedlivecapture resolvesbranchrouting. Holdentiredetail; allEnglishstillpassedDeepL.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 2205,
+      "field": "detail",
+      "reason": "Current Wowhead source includes unresolved <boy/girl> gender branch, while60.tools gives fixed boy. Runtime marker support/gender selection and live evidence unavailable; field held after raw DeepL rather than inventing gender variant."
+    },
+    {
+      "id": 1485,
+      "field": "progress",
+      "reason": "Both English references say would risk after few enough interested, producing contradictory/ambiguous safety intent. Do not silently change would to would not. Entire progress held until clearer English or sanitized current live evidence resolves intent. Literal English and raw DeepL retained."
+    },
+    {
+      "id": 1685,
+      "field": "complete",
+      "reason": "Material source conflict: Wowhead Forever stern Remen/class/head-on-shoulders completion versus 60.tools concerned name/fear-worst/training-only completion. Current live or other conclusive evidence required before enabling. Both literal versions, raw DeepL and non-enabled edited candidate retained."
+    },
+    {
+      "id": 91736,
+      "field": "detail",
+      "reason": "60.tools legacy offer labels the apple-smell sentence as Detail, but current primary places it under Progress and has no offer. Do not duplicate progress as an offer without current live source evidence. Raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 91738,
+      "field": "detail",
+      "reason": "60.tools legacy offer labels the ThunderApplejack/sergeant sentence as Detail; current primary has this text only under Progress and no offer. Hold conflicting legacy state; raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 93928,
+      "field": "complete",
+      "reason": "Current primary explicitly shows development placeholder(PH)Thanks. Hold completion pending finished current dialogue or sanitized live evidence; do not ship translated placeholder. Raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "reason": "Prior hold retained: current primary task tracker says Cleanse the Wildmane Well while offer/prose objective and installed metadata say deliver ThunderhornsReport. Current live goal remains uncaptured; conflicting offer held. Raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "reason": "Prior hold retained: current primary task tracker conflicts with report-delivery prose objective. Do not choose a live goal without sanitized current capture. Raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Prior hold retained: secondary-only offer says player is not a Warrior, while class eligibility/alternative offers are unverified. Current primary unavailable via helper and web; installed metadata does not resolve class branch. Raw DeepL retained.",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested"
+    }
+  ],
+  "activeHeldUniqueFields": 30,
+  "resolvedHeldFields": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "reason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+    }
+  ],
+  "pythonTests": 14,
+  "luaRegressionGroups": 25,
+  "newQuestStateRoutingChecks": 150,
+  "upstreamFillRoutingChecks": 49,
+  "currentEnglishMarkerAndQuantityContracts": 1393,
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.5",
+    "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+    "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+    "publishedAtUTC": "2026-11-12T18:09:44Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+    "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+    "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+  },
+  "upstreamAffectedPriorQuestIDs": 303,
+  "upstreamAddedStates": 472,
+  "contextFieldSlotsCompared": 1515,
+  "currentSourceLimitations": [
+    {
+      "id": 97921,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "cfb7781783453e170b2601fc1bb98d84dd2e74221dd560c4868d3661cb36fcb6",
+      "priorEnglishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "reason": "Current primary/secondary have no progress. Available prior English Yes, I can teach you matches retained Myanmar. Preserve inherited release field with explicit current-source limitation; no current/live pass claimed."
+    },
+    {
+      "id": 99108,
+      "field": "objective",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "6e0889ac48946b3beab879797a056df0e1aa6a9c47e47500947f0a03263ff051",
+      "priorEnglishSHA256": null,
+      "reason": "Current primary unavailable and secondary has no objective. Retained Myanmar says3 total PvP or Novice Warrior wins for Tang Stonehoof; current evidence cannot certify count/recipient. Preserve reviewed prior release with explicit limitation; no inferred new text."
+    },
+    {
+      "id": 99108,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "7085afff786b2bb4f925bcccf25d77b7df05e1d0a562404a342a0c9b6f630bee",
+      "priorEnglishSHA256": null,
+      "reason": "No current primary/secondary progress or prior English in this comparison. Read retained weapon-tip teacher metaphor, but source meaning cannot be newly certified. Preserve inherited field with limitation; no known contradiction established."
+    },
+    {
+      "id": 99108,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "66de24ca79d22a00696615fb121d947fe8eaad30b7c569fd8daa74e2afe73604",
+      "priorEnglishSHA256": null,
+      "reason": "No current primary/secondary completion or prior English in comparison. Retained class praise, supplies/wounds/future battles cannot be freshly source-certified. Preserve inherited field with explicit limitation."
+    },
+    {
+      "id": 99142,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "2ec88f9e84cd71fa65777f338967c2b53683d9714d0df106df01cd85c0243095",
+      "priorEnglishSHA256": "8553492813bd814b32031912fd6c70ad9f6be1527b2992eb9baf77f76bd4c741",
+      "reason": "Primary unavailable/secondary no progress. Available prior English interruptions, recognition and tomb weed question matches retained Myanmar; no known mismatch. Preserve current-source limitation."
+    },
+    {
+      "id": 99142,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "8427c329df759e566cf2a2931a6666efb277bf3a02d5870aecf3c31d33ac8e9f",
+      "priorEnglishSHA256": "cff9ddba16795739262f76d9a69ac224c0e760066a2b45a519b5e585870f6a6c",
+      "reason": "Primary unavailable/secondary no completion. Prior English praise, Holland weed-inspection gesture, violent-maturing wish, progress concession and many deaths/player pride match retained Myanmar. No current/live pass claimed."
+    },
+    {
+      "id": 99144,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "b17b059a716f0a8c0f6212825a986e7d383a590ee644344f2a443c74f60b5315",
+      "priorEnglishSHA256": "5baa6d9b83e9f85f8acbbceb05ae515f866bae438aaf94ea672255404cd3826b",
+      "reason": "Primary unavailable/secondary no completion. Prior English Dawnstone aid/promising order, gift and Bandarion monastery on bluffs northwest of Solliden, open to Light seekers match retained Myanmar. Current-source/live remains unavailable."
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "zip": {
+    "name": "MyanmarForever_v1.2.5.zip",
+    "bytes": 795854,
+    "sha256": "bf4115a60c3b6657ad6407006273cb5689a14687f6de4ee9855fc70d06316a12"
+  }
+}

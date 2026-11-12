@@ -1,0 +1,39 @@
+{
+  "resolvedAtUTC": "2026-11-12T21:07:49.457235+00:00",
+  "decision": "Enable two current primary literal elf completions in reviewed candidate. Fresh installed eligibility metadata establishes narrow Skyborne identity; no conflicting branch source. This resolves source hold, not liveverification.",
+  "records": [
+    {
+      "id": 98021,
+      "field": "complete",
+      "oldHoldReason": "Reference reply is specific to an elf; current racial branches require live confirmation.",
+      "freshEvidence": {
+        "installedQuestieDB": "1.0.12",
+        "raceMask": 4294967296,
+        "raceIdentity": "Skyborne Alliance only",
+        "prerequisite": 94947,
+        "prerequisiteTitle": "Welcome to Azeroth",
+        "offer": "After journeying here from another plane of existence",
+        "currentPrimary": "CurrentForever completion explicitly skinnyelf, no competing alternative",
+        "UA": "UA0.26.5 added thiscompletion; pinnedcatalogagreesstate"
+      }
+    },
+    {
+      "id": 98024,
+      "field": "complete",
+      "oldHoldReason": "Conservative newhold matching98021 pendingbranch/raceidentity",
+      "freshEvidence": {
+        "installedQuestieDB": "1.0.12",
+        "raceMask": 8589934592,
+        "raceIdentity": "Skyborne Horde only",
+        "prerequisite": 95350,
+        "prerequisiteTitle": "Welcome to Azeroth",
+        "offer": "After journeying here from the elemental plane",
+        "currentPrimary": "CurrentForever literalelfgreeting withThorkstagedirection, no competing alternative",
+        "UA": "UA0.26.5 added thiscompletion; pinnedcatalogagreesstate"
+      }
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "independentAssistedReview": "pending; must recheck resolution and allsourceevidence"
+}

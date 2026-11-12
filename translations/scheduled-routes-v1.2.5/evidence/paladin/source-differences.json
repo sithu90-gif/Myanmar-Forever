@@ -1,0 +1,333 @@
+[
+  {
+    "id": 1642,
+    "secondaryFetchError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "decision": "Current Forever source is available, saved and compared with installed metadata and pinned UA; secondary timeout does not create a state."
+  },
+  {
+    "id": 1643,
+    "secondaryFetchError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "decision": "Current Forever source is available, saved and compared with installed metadata and pinned UA; secondary timeout does not create a state."
+  },
+  {
+    "id": 1644,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Bless their hearts, most of them have no families because of the Scourge attacks in the last decade.\n\nMy husband John collects the materials for me to make the shirts and pants for the children, but I haven't even had time to do that. I've been too focused on keeping food on their plates, and a roof over their heads.\n\nWhat's that? You'd be willing to help? Oh, thank the Light, and thank you, <name>.\n\nIf you could bring me some linen cloth so I can sew clothes for the kids, that would help me out so much.",
+        "sixtyTools": "Bless their hearts, most of them have no families because of the Scourge attacks in the last decade.\n\nMy husband John collects the materials for me to make the shirts and pants for the children, but I haven't even had time to do that. I've been too focused on keeping food on their plates, and a roof over their heads.\n\nWhat's that? You'd be willing to help? Oh, thank the Light, and thank you, <Name>.\n\nIf you could bring me some linen cloth so I can sew clothes for the kids, that would help me out so much."
+      },
+      "objective": {
+        "currentForever": "Bring 10 Linen Cloth to Stephanie Turner in Stormwind.",
+        "sixtyTools": null
+      }
+    },
+    "decision": [
+      "Human delivery: 10 Linen Cloth to Stephanie Turner in Stormwind. All five states exist. Current Forever lowercase <name> controls against the 60.tools uppercase <Name>.",
+      "Corrected a serious raw DeepL decade-to-twenty-years error to ten years. Restored John in progress, the linen identities and the objective quantity 10. Kept the offer amount nonspecific, the family charity and the uncertain premonition of change."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1780,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "I'll take these to the children this very day. Please be safe, good <class>. It is not often <men/women> of your character show their faces in the city, but you've proven that the paladins here in Stormwind shall never turn their backs on those in need.\n\nFarewell.",
+        "sixtyTools": "I'll take these to the children this very day. Please be safe, good <Class>. It is not often men of your character show their faces in the city, but you've proven that the paladins here in Stormwind shall never turn their backs on those in need.\n\nFarewell."
+      },
+      "objective": {
+        "currentForever": "Speak to Duthorian Rall in Stormwind.",
+        "sixtyTools": null
+      },
+      "complete": {
+        "currentForever": "You've returned so quickly, <name>. And what have you accomplished in your time away from the Cathedral?\n\nHave you helped a noble cause? Perhaps you've learned the value of charity or some more about your obligations to the citizens of Azeroth. Tell me, who have you helped and how.... Well, I'm impressed, <name>, those are surely the actions of one who follows the Light and values others above oneself.\n\nSuch sacrifice will always be rewarded in time.",
+        "sixtyTools": "You've returned so quickly, <name>. And what have you accomplished in your time away from the Cathedral?\n\nHave you helped a noble cause? Perhaps you've learned the value of charity or some more about your obligations to the citizens of Azeroth. Tell me, who have you helped and how... Well, I'm impressed, <name>, those are surely the actions of one who follows the Light and values others above oneself.\n\nSuch sacrifice will always be rewarded in time."
+      }
+    },
+    "decision": [
+      "Human return from Stephanie to Duthorian. The objective and completion are source-reviewed; the shortened Cathedral identity is retained with a pronunciation.",
+      "Detail is held for unsupported <men/women> substitution and conflicting older male-only wording. Completion preserves charity, civic obligations, others before self and eventual reward. No invented neutral gender state was enabled."
+    ],
+    "heldFields": [
+      "detail"
+    ]
+  },
+  {
+    "id": 1781,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Take this, <name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now the time has come to see if you're powerful enough to focus one of the Light's greatest gifts.\n\nMy friend Gazin returned recently from an encounter with some Defias in Elwynn near Heroes' Vigil--he barely escaped with his life. He's near the altar having his wounds healed by our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May you bask in the Light's glory.",
+        "sixtyTools": "Take this, <Name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now the time has come to see if you're powerful enough to focus one of the Light's greatest gifts.\n\nMy friend Gazin returned recently from an encounter with some Defias in Elwynn near Heroes' Vigil--he barely escaped with his life. He's near the altar having his wounds healed by our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May you bask in the Light's glory."
+      },
+      "objective": {
+        "currentForever": "Take the Symbol of Life to Gazin Tenorm in Stormwind.",
+        "sixtyTools": null
+      },
+      "complete": {
+        "currentForever": "*cough*\n\nPleasure to meet you, <class>. Don't mind my wounds, the good priest here can take care of ol' Gazin this time. I won't be needing the power of that Symbol of Life you've got there... not yet anyway.\n\nSo, Duthorian sent you to speak to me, huh? Fair enough. I'll tell you exactly what befell me and my friend Henze. And with any luck, and some skill on your part, perhaps you can still help us all.",
+        "sixtyTools": "*cough*\n\nPleasure to meet you, <race>. Don't mind my wounds, the good priest here can take care of ol' Gazin this time. I won't be needing the power of that Symbol of Life you've got there... not yet anyway.\n\nSo, Duthorian sent you to speak to me, huh? Fair enough. I'll tell you exactly what befell me and my friend Henze. And with any luck, and some skill on your part, perhaps you can still help us all."
+      }
+    },
+    "decision": [
+      "Human Symbol delivery to wounded Gazin Tenorm, not the Henze revival itself. Priests are healing Gazin near the altar, and he does not yet need the Symbol. Provided item UI is excluded at the padding-div boundary.",
+      "Current Forever completion uses <class> while 60.tools uses <race>; current Forever controls. Restored the cough, identities, narrow escape, conditional help and the wounded speaker’s wry voice."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1786,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Henze and I had made it to Heroes' Vigil, an island in the middle of Stone Cairn Lake in northeastern Elwynn. We'd heard the Defias had infiltrated our borders and we wanted proof to take to the king's advisors.\n\nWe caught sight of a couple of the scum going over some documents, and we attacked. Unfortunately, we were quickly overwhelmed by more of the mages.\n\nHenze held them off for me while I escaped... the daft fool, going and being brave.\n\nHe's out there now, Henze is. Can you help us, <name>?",
+        "sixtyTools": "Henze and I had made it to Heroes' Vigil, an island in the middle of Stone Cairn Lake in northeastern Elwynn. We'd heard the Defias had infiltrated our borders and we wanted proof to take to the king's advisors.\n\nWe caught sight of a couple of the scum going over some documents, and we attacked. Unfortunately, we were quickly overwhelmed by more of the mages.\n\nHenze held them off for me while I escaped... the daft fool, going and being brave.\n\nHe's out there now, Henze is. Can you help us, <Name>?"
+      },
+      "objective": {
+        "currentForever": "Take the Symbol of Life and resurrect Henze Faulk in Elwynn.",
+        "sixtyTools": null
+      },
+      "complete": {
+        "currentForever": "Thank you, brother.\n\nSeeing you wield the Symbol of Life, may I assume Duthorian or Gazin sent you?\n\nI fell to the Defias spell casters while Gazin and I tried to get their plans from them: I was able to hold on long enough to allow Gazin to escape, but in the end, their magics overwhelmed me.\n\nBut you were able to bring me back: the ability to use the Symbol doesn't come to just anyone, <name>. It bodes well for you that you were able to empower it with your own faith.",
+        "sixtyTools": "Thank you, brother/sister.\n\nSeeing you wield the Symbol of Life, may I assume Duthorian or Gazin sent you?\n\nI fell to the Defias spell casters while Gazin and I tried to get their plans from them: I was able to hold on long enough to allow Gazin to escape, but in the end, their magics overwhelmed me.\n\nBut you were able to bring me back: the ability to use the Symbol doesn't come to just anyone, <name>. It bodes well for you that you were able to empower it with your own faith."
+      }
+    },
+    "decision": [
+      "Human resurrection target is Henze Faulk on Heroes' Vigil, an island in Stone Cairn Lake in northeastern Elwynn. This is distinct from Narm in the Dwarf route. No unsupported item-use condition was added.",
+      "Corrected raw DeepL a couple to exactly two enemies, restored lake and class identities, and preserved Henze holding attackers while Gazin escaped. Completion is held for the brother versus brother/sister source conflict."
+    ],
+    "heldFields": [
+      "complete"
+    ]
+  },
+  {
+    "id": 1787,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "We'll have time to talk more about the Symbol at a later time. What's important now is to get those papers we saw the Defias going over. If we can get our hands on them, we'll be able to prove the Defias have infiltrated Elwynn and hopefully gain some insight into what their plans are.\n\nI'm in no shape for battle as of now, <name>. Do you think you're strong enough to get those papers from the Defias here on the island?\n\nIf you're able to get them, bring them back to Gazin and let him know I'm all right.",
+        "sixtyTools": "We'll have time to talk more about the Symbol at a later time. What's important now is to get those papers we saw the Defias going over. If we can get our hands on them, we'll be able to prove the Defias have infiltrated Elwynn and hopefully gain some insight into what their plans are.\n\nI'm in no shape for battle as of now, <Name>. Do you think you're strong enough to get those papers from the Defias here on the island?\n\nIf you're able to get them, bring them back to Gazin and let him know I'm all right."
+      }
+    },
+    "decision": [
+      "Human post-resurrection retrieval: one Defias Script from Defias Rogue Wizards, then return to Gazin Tenorm in Stormwind. All five states, including hidden progress, were reviewed separately.",
+      "Preserved Henze being unfit for battle, papers as proof and possible insight, and the conditional return. Corrected the raw DeepL King-to-prince error. The Dwarf Dark Iron Script was not substituted."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1788,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "I'll take the script to the King's advisors after Duthorian's taken a look at them, but in the meantime, you should go speak to Duthorian now. He'll be wanting to pat you on the back for sure!\n\nThank you again, <name>. I hope we meet again. You're surely an ally I'm proud to call friend.",
+        "sixtyTools": "I'll take the script to the King's advisors after Duthorian's taken a look at them, but in the meantime, you should go speak to Duthorian now. He'll be wanting to pat you on the back for sure!\n\nThank you again, <Name>. I hope we meet again. You're surely an ally I'm proud to call friend."
+      },
+      "objective": {
+        "currentForever": "Speak to Duthorian Rall in Stormwind.",
+        "sixtyTools": null
+      }
+    },
+    "decision": [
+      "Human final return to Duthorian. Gazin will take the script to the royal advisors only after Duthorian reads it. Preserved praise and friendship.",
+      "Raw DeepL dropped the first <name> in completion; restored both exact <name> markers and <class>. Resurrection of fallen companions is a future ability, with the Symbol test demonstrating readiness."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1790,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": null,
+        "sixtyTools": "Make haste, <Name>, more than one life hangs in the balance if you fail.\n\nIf for some reason you fail to help Gazin and Henze, then return to me and I will give you another Symbol of Life for your travels.\n\nDon't mistake my aid as simple charity, you must prove yourself worthy like any other paladin and continual failure may reflect upon you later."
+      }
+    },
+    "decision": [
+      "Human repeatable replacement Symbol stage, distinct from Dwarf 1789. Current Forever has title and bare completion only. 60.tools duplicates the body into detail and uses a static paladin in its older wording.",
+      "Preserved urgency, more than one life at risk, failed help for Gazin and Henze leading to another Symbol, and the warning about repeated failure. Exact <class> retained; no old detail state enabled."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1645,
+    "sourceDifferences": {
+      "complete": {
+        "currentForever": "A pleasure to meet you, <name>. I am responsible for putting paladins on the path to greater virtue as they devote themselves to the Light and defend Azeroth from the Scourge and other threats.\n\nThe time has come for you to take your first step towards being truly virtuous. If you accept it, I will give you a Book of Divinity. In studying it, you shall learn some about the Light, and what is expected of you. If you understand it, and are capable, then you will succeed in attaining greater abilities.",
+        "sixtyTools": "Here in Ironforge, I am responsible for putting paladins on the path to greater virtue as they devote themselves to the Light and defend Azeroth from the Scourge and other threats.\n\nThe time has come for you to take your first step towards being truly virtuous. If you accept it, I will give you a Book of Divinity. In studying it, you shall learn some about the Light, and what is expected of you. If you understand it, and are capable, then you will succeed in attaining greater abilities."
+      }
+    },
+    "decision": [
+      "Dwarf starter from Tiza: title and bare completion only. Current Forever opens with A pleasure to meet you, <name>, while 60.tools has the older Here in Ironforge opening.",
+      "Kept the current greeting and player marker, moral virtue, Book of Divinity, conditional study and capability. Did not copy the Human Stormwind opening."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1647,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Your task then, <name>, is to find someone here in Ironforge that is in need of aid. Someone who is pure of heart and motive. Perhaps someone helping others. Perhaps someone in need of a guide. Regardless, the person must have noble intent and be relying on your kindness.\n\nDo this, and return to me when you are finished. Then, we shall discuss more of your path and what it means to be a paladin of the Light. I will remain here in the temple for your return. Other paladins will need my guidance also.",
+        "sixtyTools": "Your task then, <Name>, is to find someone here in Ironforge that is in need of aid. Someone who is pure of heart and motive. Perhaps someone helping others. Perhaps someone in need of a guide. Regardless, the person must have noble intent and be relying on your kindness.\n\nDo this, and return to me when you are finished. Then, we shall discuss more of your path and what it means to be a paladin of the Light. I will remain here in the temple for your return. Other paladins will need my guidance also."
+      },
+      "complete": {
+        "currentForever": "THE ORPHANAGE OF STOR... oh, sorry, didn't mean to shout at you, sir,\n\nMy name is John Turner. How are you?\n\nGood, good, glad to hear things go well for you. I've had a long day of work already, and I miss my wife terribly, but that's the price you have to pay when there are mouths to feed and backs to clothe.",
+        "sixtyTools": "THE ORPHANAGE OF STOR... oh, sorry, didn't mean to shout at you, sir.\n\nMy name is John Turner. How are you?\n\nGood, good, glad to hear things go well for you. I've had a long day of work already, and I miss my wife terribly, but that's the price you have to pay when there are mouths to feed and backs to clothe."
+      }
+    },
+    "decision": [
+      "Dwarf charitable search ends at John Turner on the outer ring of Ironforge. Tiza remains in the temple to guide other paladins; the extra Dwarf sentences were retained.",
+      "Raw DeepL lost the shouted orphanage announcement and changed missing his wife to forgetting her. Restored the truncated STOR without completing it, the question and the homesick voice. No unobserved gender branch was invented."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1778,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "I'm going to see about making plans to return home soon. Hopefully, Stephanie is doing well back in Stormwind. I can't wait to see her again. Till next we meet, <class>.",
+        "sixtyTools": "I'm going to see about making plans to return home soon. Hopefully, Stephanie is doing well back in Stormwind. I can't wait to see her again. Till next we meet, <Class>."
+      }
+    },
+    "decision": [
+      "Dwarf return from John to Tiza. John speaks in the offer about returning to Stephanie in Stormwind; Tiza speaks in completion. Current <class> controls against older <Class>.",
+      "Kept the separate speakers, civic obligations, charity and eventual reward. Did not import the Human others-above-self sentence absent from this completion."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1779,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "I want you to take this, <name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.\n\nMy husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you.",
+        "sixtyTools": "I want you to take this, <Name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.\n\nMy husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you."
+      },
+      "complete": {
+        "currentForever": "*cough*\n\nGood day to ya, <class>. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that Symbol of Life ya got there quite yet.\n\nSo, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya--I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a <class> jus' like yerself.",
+        "sixtyTools": "*cough*\n\nGood day to ya, <class>. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that Symbol of Life ya got there quite yet.\n\nSo, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya-I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a <class> jus' like yerself."
+      }
+    },
+    "decision": [
+      "Dwarf Symbol delivery from Tiza to her husband Muiredon Battleforge. He is being healed by one priest, does not yet need the Symbol, and names his friend Narm as another <class>. Both <class> markers in completion remain exact.",
+      "Provided item UI was excluded. Tiza’s authoritative voice and Muiredon’s colloquial voice were reviewed without inventing a Myanmar regional accent. Cough and item/priest identities were preserved."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1783,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.\n\nNarm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.\n\nNarm needs help, an' I'll not rest till he gets it.\n\nC'n ya help, <name>?",
+        "sixtyTools": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.\n\nNarm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.\n\nNarm needs help, an' I'll not rest till he gets it.\n\nC'n ya help, <Name>?"
+      },
+      "complete": {
+        "currentForever": "I can't thank you enough, brother.\n\nI can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.\n\nIt's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later.",
+        "sixtyTools": "I can't thank you enough, brother/sister.\n\nI can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.\n\nIt's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later."
+      }
+    },
+    "decision": [
+      "Dwarf resurrection target is Narm Faulk in Dun Morogh. The offer places the Dark Iron dwarves south of Helm's Bed Lake. Muiredon escaped to seek support after Narm told him to run.",
+      "Corrected raw DeepL intent to see the leader to actually witnessing orders. Preserved the ambush, enemy toughness and refusal to rest before Narm gets help. Completion is held for the brother versus brother/sister conflict."
+    ],
+    "heldFields": [
+      "complete"
+    ]
+  },
+  {
+    "id": 1784,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.\n\nSome of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.\n\nGet one of those scripts and take it back to Muiredon, <name>.",
+        "sixtyTools": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.\n\nSome of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.\n\nGet one of those scripts and take it back to Muiredon, <Name>."
+      }
+    },
+    "decision": [
+      "Dwarf retrieval: one Dark Iron Script from Dark Iron dwarves near Helm's Bed, returned to Muiredon in Ironforge. Narm speaks in detail; Muiredon speaks in progress and completion. All five states were reviewed.",
+      "Preserved the captain’s orders, council disbelief, proof and possible plans. Progress says wounds are healed but returning is conditional on convincing his wife. Restored the wife exception joke and nearly defeating a spy. Current <name> controls against <Name>."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 1785,
+    "secondaryFetchError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "decision": "Current Forever source is available, saved and compared with installed metadata and pinned UA; secondary timeout does not create a state."
+  },
+  {
+    "id": 1789,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": null,
+        "sixtyTools": "If you fail to help Narm after you've used the Symbol of Life, <Name>, then return to me and I shall give you another.\n\nIt is important to both my husband and I that you return successful. Please, make haste."
+      },
+      "complete": {
+        "currentForever": "If you fail to help Narm after you've used the Symbol of Life, <name>, then return to me and I shall give you another.\n\nIt is important to both my husband and I that you return successful. Please, make haste.",
+        "sixtyTools": "Make haste, <name>, more than one life hangs in the balance if you fail.\n\nIf for some reason you fail to help Muiredon and Narm, then return to me and I will give you another Symbol of Life for your travels.\n\nDon't mistake my aid as simple charity, you must prove yourself worthy like any other <class> and continual failure may reflect upon you later."
+      }
+    },
+    "decision": [
+      "Dwarf repeatable replacement Symbol, not Human 1790. Current Forever has bare completion only: after using the Symbol and failing to help Narm, return for another.",
+      "60.tools places the current completion in detail and supplies a different older completion mentioning Muiredon, Narm and repeated failure. Current Forever controls state placement and meaning. No objective, offer or progress was invented."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 2997,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Hello, <name>. I know you're busy helping out the people of Dun Morogh, but when you have the time, you should make your way up to Ironforge to speak to one of our most respected ilk: Tiza Battleforge. She's the one the younger paladins go to when it's time they learn more about the Light and what's expected of ya.\n\nYou can find her upstairs in the Hall of Mysteries. If you've never been there, it's in the Mystic Ward. Good luck to ya, <name>.",
+        "sixtyTools": "Hello, <Name>. I know you're busy helping out the people of Dun Morogh, but when you have the time, you should make your way up to Ironforge to speak to one of our most respected ilk: Tiza Battleforge. She's the one the younger paladins go to when it's time they learn more about the Light and what's expected of ya.\n\nYou can find her upstairs in the Hall of Mysteries. If you've never been there, it's in the Mystic Ward. Good luck to ya, <Name>."
+      },
+      "objective": {
+        "currentForever": "Speak to Tiza Battleforge in Ironforge.",
+        "sixtyTools": null
+      }
+    },
+    "decision": [
+      "Dun Morogh trainer introduction to Tiza in Ironforge. Preserved upstairs Hall of Mysteries in the Mystic Ward and both lowercase <name> offer markers.",
+      "Corrected raw DeepL teacher/student direction: young paladins go to Tiza to learn, rather than Tiza going to question them. The identifying Tome title omits The exactly as the English source does."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 2998,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Greetings, <brother/sister>. Duthorian Rall, one of our most influential paladins, was speaking about you recently. I overheard him talking about how it was time you be put to the test some... along with some very complimentary things about how well you've performed thus far.\n\nIf I were you, I'd head to Stormwind and speak to him when you have time. I'm sure he's in the Cathedral of Light--that's where he spends most of his time.",
+        "sixtyTools": "Greetings, brother/sister. Duthorian Rall, one of our most influential paladins, was speaking about you recently. I overheard him talking about how it was time you be put to the test some... along with some very complimentary things about how well you've performed thus far.\n\nIf I were you, I'd head to Stormwind and speak to him when you have time. I'm sure he's in the Cathedral of Light--that's where he spends most of his time."
+      }
+    },
+    "decision": [
+      "Human trainer introduction targets Duthorian Rall in Stormwind. Detail is held for unsupported <brother/sister> despite otherwise stable Cathedral of Light location; no partial invented state was enabled.",
+      "Completion preserves the beauty question and the ideal timing, correcting the raw DeepL superlative. The player marker remains exact."
+    ],
+    "heldFields": [
+      "detail"
+    ]
+  },
+  {
+    "id": 2999,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Hello, <name>. I know you're busy helping out the people of Dun Morogh, but when you have the time, you should go upstairs and speak to one of our most respected ilk: Tiza Battleforge. She's the one the younger paladins go to when it's time they learn more about the Light and what's expected of ya.",
+        "sixtyTools": "Hello, <Name>. I know you're busy helping out the people of Dun Morogh, but when you have the time, you should go upstairs and speak to one of our most respected ilk: Tiza Battleforge. She's the one the younger paladins go to when it's time they learn more about the Light and what's expected of ya."
+      }
+    },
+    "decision": [
+      "Local trainer introduction says go upstairs, distinct from the journey in 2997 and return from Azeroth in 3000. No Hall or Mystic Ward instructions absent from this offer were added.",
+      "Preserved the young paladins going to Tiza for Light study. The source objective lacks an English final period; only Myanmar punctuation was normalized."
+    ],
+    "heldFields": []
+  },
+  {
+    "id": 3000,
+    "sourceDifferences": {
+      "detail": {
+        "currentForever": "Hello, <name>. I know you're busy helping out the people of Azeroth, but when you have the time, you should return to Ironforge and speak to one of the most respected paladins of your home: Tiza Battleforge. She's the one the younger dwarven paladins go to when it is time they learn more about the Light and what's expected of all of us.\n\nYou can find her upstairs in the Hall of Mysteries which is located in the Mystic Ward.",
+        "sixtyTools": "Hello, <Name>. I know you're busy helping out the people of Azeroth, but when you have the time, you should return to Ironforge and speak to one of the most respected paladins of your home: Tiza Battleforge. She's the one the younger dwarven paladins go to when it is time they learn more about the Light and what's expected of all of us.\n\nYou can find her upstairs in the Hall of Mysteries which is located in the Mystic Ward."
+      },
+      "objective": {
+        "currentForever": "Speak to Tiza Battleforge in Ironforge.",
+        "sixtyTools": null
+      }
+    },
+    "decision": [
+      "Trainer introduction from broader Azeroth explicitly says return to home Ironforge. Preserved young dwarven paladins, Tiza, and upstairs Hall of Mysteries in the Mystic Ward.",
+      "Corrected raw DeepL home as a building to the homeland sense. Kept its unique welcoming completion rather than copying the Light-path blessing from other introductions."
+    ],
+    "heldFields": []
+  }
+]

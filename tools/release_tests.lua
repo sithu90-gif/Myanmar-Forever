@@ -199,3 +199,74 @@ if A.quests[1498] then
   assert(not A.quests[1462].detail and not A.quests[1463].detail,'Unverified legacy Sapta offer was enabled')
   print('PASS: 19 Warrior/Mage/Shaman objective contracts, distinct Earth branches, provided-item UI exclusion, reward-only robe states and reviewed source holds.')
 end
+
+if A.quests[1641] then
+  debugCommand('off');titleOverride=nil
+  local ids={1641,1642,1643,1644,1780,1781,1786,1787,1788,1790,1645,1646,1647,1648,1778,1779,1783,1784,1785,1789,2997,2998,2999,3000,1859,1963,1858,2205,2206,2218,2238,2239,2241,2242,2259,2260,2281,2282,1998,1999,1485,1499,1599,1506,1501,1504,1685,1688,1689,1715}
+  for _,id in ipairs(ids) do
+    assert(A.quests[id], '13 November class quest missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'13 November dialogue routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'13 November capture lost quest identity')
+    end
+  end
+  local held={{1780,'detail'},{1786,'complete'},{1783,'complete'},{2998,'detail'},{2205,'detail'},{1485,'progress'},{1685,'complete'}}
+  for _,x in ipairs(held) do
+    assert(not A.quests[x[1]][x[2]],'Unresolved source/runtime branch incorrectly enabled')
+    questID=x[1]
+    fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[x[2]]);flush()
+    assert(not A.window:IsShown(),'Held source did not retain original-language fallback')
+    assert(MMNorthshireCaptures[x[1]].states[x[2]].translationFallback~=nil,'Held source lost automatic capture')
+  end
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS: 13 November50 class quests across150 dialogue states, seven explicit source holds and automatic fallback captures.')
+end
+
+if A.quests[1641] then
+  local expected={
+    [1643]={'Stephanie Turner','Trade District'},[1644]={'Linen Cloth','Stephanie Turner'},
+    [1647]={'John Turner','Ironforge'},[1648]={'Linen Cloth','John Turner'},
+    [1786]={'Symbol of Life','Henze Faulk'},[1783]={'Symbol of Life','Narm Faulk'},
+    [1787]={'Defias Script','Gazin Tenorm'},[1784]={'Dark Iron Script','Muiredon Battleforge'},
+    [1963]={'Tazan','Satchel','Therzok'},[1858]={'key','Satchel','Therzok'},
+    [2206]={'Defias Dockmaster','Shipping Schedule'},[2238]={'Onin MacHammar','Gnomeregan'},
+    [2242]={'Sethir the Ancient','Syurna'},[2282]={'Token of Thievery','Lucius'},
+    [1999]={'Dalaran Status Report','Mennet Carkad'},[1485]={'Vile Familiar Heads','Ruzan'},
+    [1501]={'Tablet of Verga',"Gan'rul Bloodeye"},
+    [1504]={'Glyphs of Summoning',"Gan'rul Bloodeye"},
+    [1688]={"Surena's Choker",'Gakin the Darkbinder'},
+    [1689]={'Bloodstone Choker','Gakin the Darkbinder'}}
+  for id,terms in pairs(expected) do
+    local objective=A.quests[id].objective:lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'13 November distinct class target/item/recipient mixed: '..id..'/'..term) end
+  end
+  assert(A.quests[1789].complete and not A.quests[1789].detail and not A.quests[1789].objective,'Dwarf Tome reward-only state mixed with legacy offer')
+  print('PASS:20 distinct Paladin/Rogue/Warlock target-item-recipient contracts and reward-only Dwarf turn-in; Unicode quantities validated against source before shaping.')
+end
+
+if A.quests[1641] then
+  debugCommand('off');titleOverride=nil
+  local filled={{90902,'progress'},{90902,'complete'},{91208,'progress'},{91208,'complete'},{91209,'complete'},{98389,'progress'},{98389,'complete'},{98601,'progress'},{98601,'complete'},{92706,'progress'},{92706,'complete'},{95494,'progress'},{95494,'complete'},{95507,'progress'},{95507,'complete'},{95774,'progress'},{95774,'complete'},{96875,'progress'},{96875,'complete'},{97223,'progress'},{97223,'complete'},{97253,'progress'},{97253,'complete'},{97279,'progress'},{97279,'complete'},{99051,'progress'},{99051,'complete'},{99052,'progress'},{99052,'complete'},{87760,'progress'},{87760,'complete'},{97894,'complete'},{97926,'progress'},{97926,'complete'},{97977,'progress'},{97977,'complete'},{98013,'complete'},{98025,'progress'},{98025,'complete'},{91724,'progress'},{94864,'progress'},{95998,'progress'},{97919,'progress'},{97924,'complete'},{94411,'progress'},{97970,'progress'},{97973,'progress'},{98021,'complete'},{98024,'complete'}}
+  for _,x in ipairs(filled) do
+    questID=x[1];local field=x[2]
+    fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[field]);flush()
+    assert(A.quests[questID][field] and A.window:IsShown(),'Reviewed upstream reply remains unavailable')
+    assert(MMNorthshireCaptures[questID].states[field].translationFallback==nil,'Reviewed upstream fill still reports fallback')
+    assert(MMNorthshireCaptures[questID].states[field].title==A.quests[questID].en,'Upstream fill lost capture identity')
+  end
+  assert(A.quests[98021].complete and A.quests[98024].complete,'Source-resolved Skyborne arrival greeting missing')
+  assert(not A.quests[93928].complete,'Placeholder PH source was enabled')
+  assert(not A.quests[91736].detail and not A.quests[91738].detail,'Legacy offers duplicated current progress')
+  assert(not A.quests[98435].detail and not A.quests[98435].objective,'Unresolved source branch was enabled')
+  assert(not A.quests[99108].detail,'Unconfirmed legacy offer was enabled')
+  assert(A.quests[91724].objective:find('8',1,true),'Current Defias Wizard quantity not updated')
+  assert(A.quests[99128].objective:find('7',1,true) and A.quests[99128].objective:find('4',1,true),'Current Murloc quantities not updated')
+  assert(A.quests[99130].objective:find('6',1,true) and A.quests[99130].objective:find('18',1,true),'Current bait ingredients not updated')
+  assert(A.quests[94792].progress:find('<class>',1,true),'Current Hunter progress lost class marker')
+  assert(A.quests[94793].detail:find('<class>',1,true) and A.quests[94793].complete:find('<class>',1,true),'Current Hunter training lost class markers')
+  assert(A.quests[94441].complete:find('Bandarion Keep',1,true) and not A.quests[94441].complete:find("Tyr's Watch",1,true),'Current Bandarion place correction missing')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:49 upstream reply routing/capture contracts, source-resolved Skyborne greetings, six remaining source holds and guarded quantity/class/place corrections.')
+end

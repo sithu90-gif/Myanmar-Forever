@@ -1,0 +1,66 @@
+{
+  "questCount": 10,
+  "sourceFields": 46,
+  "DeepLComparedFields": 46,
+  "enabledFields": 44,
+  "heldFields": [
+    {
+      "id": 1485,
+      "field": "progress",
+      "reason": "Both English references say would risk after few enough interested, producing contradictory/ambiguous safety intent. Do not silently change would to would not. Entire progress held until clearer English or sanitized current live evidence resolves intent. Literal English and raw DeepL retained."
+    },
+    {
+      "id": 1685,
+      "field": "complete",
+      "reason": "Material source conflict: Wowhead Forever stern Remen/class/head-on-shoulders completion versus 60.tools concerned name/fear-worst/training-only completion. Current live or other conclusive evidence required before enabling. Both literal versions, raw DeepL and non-enabled edited candidate retained."
+    }
+  ],
+  "absentFields": [
+    {
+      "id": 1499,
+      "field": "progress"
+    },
+    {
+      "id": 1506,
+      "field": "progress"
+    },
+    {
+      "id": 1685,
+      "field": "progress"
+    },
+    {
+      "id": 1715,
+      "field": "progress"
+    }
+  ],
+  "DeepLBatchCharacterCounts": [
+    4639,
+    4171
+  ],
+  "checks": {
+    "linguistic_lint.lint": "pass;0 issues",
+    "build_release.validate_fields": "pass;10 quests and all5 states each",
+    "fullRawDeepLCoverage": "pass;46 source fields with exact input/raw/edited identity and hashes",
+    "inputResponseStructuredContentEquality": "pass",
+    "batchLimits": "pass;<5000 characters per call",
+    "originalHTMLBoundaryReparse": "pass;50 state matches including4 absent states",
+    "questIDsTitlesAndAliases": "pass;selection, current Forever, QuestieDB and UA membership agree",
+    "classRestriction": "pass;installed class mask256 all10; race masks kept perID",
+    "paragraphFlow": "pass;enabled source/final paragraph counts match",
+    "exactPlayerMarkersAndNumbers": "pass via build_release.validate_fields",
+    "writtenQuantities": "assisted semantic review pass;six heads northeast and three charms southwest",
+    "sameTitleBranchIdentity": "pass;1485/1499 handoff and1504/1689 distinct items/circles/returnNPCs",
+    "encodingAndUnexpectedScripts": "pass;no Thai, Cyrillic, replacement or private-use characters"
+  },
+  "unresolvedErrorsInEnabledFields": 0,
+  "independentAssistedReview": "not performed; root assigned separately",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "sourceLimitations": [
+    "1485.progress contradictory English held",
+    "1685.complete materially conflicting source speeches held",
+    "1599 secondary60.tools TLS handshake timed out after retry; current primary original HTML, QuestieDB and UA available"
+  ],
+  "sourceReview": "separate assisted source review completed; distinct from independent/native/live verification",
+  "validatedAtUTC": "2026-11-12T20:51:42.584417+00:00"
+}

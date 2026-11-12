@@ -155,6 +155,47 @@ def compose(manifest):
     return drafts,rows,baseline,overrides,pack_reports,all_holds
 
 
+def classify_source_holds(drafts, recorded_holds):
+    # Keep the historical reason as evidence, but a later reviewed field override
+    # must no longer be reported as an active runtime hold.
+    active=[];resolved=[]
+    for hold in recorded_holds:
+        target=resolved if drafts.get(str(hold['id']),{}).get(hold['field']) else active
+        target.append(hold)
+    return active,resolved
+
+
+def reviewed_hold_test_source(source_text, drafts):
+    cases=[
+        ('98021','complete',
+         "command('98021 complete');assert(not A.window:IsShown(),'Unverified elf-specific completion released')",
+         "command('98021 complete');assert(A.window:IsShown(),'Source-reviewed Skyborne completion missing')"),
+        ('97924','complete',
+         "command('97924 complete');assert(not A.window:IsShown())",
+         "command('97924 complete');assert(A.window:IsShown(),'Source-reviewed camping completion missing')"),
+        ('97279','progress',
+         "assert(not A.window:IsShown() and MMNorthshireCaptures[97279].states.progress,'Absent custom progress fallback failed')",
+         "assert(A.window:IsShown() and MMNorthshireCaptures[97279].states.progress,'Source-reviewed custom progress or capture missing')")]
+    for qid,field,old,new in cases:
+        if drafts.get(qid,{}).get(field):
+            assert source_text.count(old)==1, 'Historical source-state assertion changed; review the test update'
+            source_text=source_text.replace(old,new)
+    if drafts.get('98021',{}).get('complete'):
+        source_text=source_text.replace('unverified elf branch and placeholder held.','reviewed source holds and placeholder protections.')
+    return source_text
+
+
+
+def reviewed_term_test_source(source_text, drafts):
+    if drafts.get('98021',{}).get('complete'):
+        assert not drafts.get('842',{}).get('complete'), 'Replacement held-view probe requires a still-held source state'
+        old="liveShow(98021,'QUEST_COMPLETE');assert(not A.window:IsShown());emptySeen()"
+        new="liveShow(842,'QUEST_COMPLETE');assert(not A.window:IsShown());emptySeen()"
+        assert source_text.count(old)==1, 'Historical held-view probe changed; review the test update'
+        source_text=source_text.replace(old,new)
+    return source_text
+
+
 def patch_runtime(addon):
     bridge=addon/'QuestBridge.lua'
     text=bridge.read_text(encoding='utf8')
@@ -230,7 +271,9 @@ def verify(addon,drafts,baseline,overrides,manifest,pack_reports,holds):
     for toc in addon.glob('*.toc'):
         text=toc.read_text(encoding='utf8');assert f'## Version: {version}' in text.splitlines() and '## Title: MyanmarForever' in text.splitlines() and 'beta' not in text.lower() and 'candidate' not in text.lower()
     baseline_holds=read(BASE/'BuildSource/release-spec.json')['heldFields']
-    report={'version':version,'result':'PASS','date':manifest['date'],'questIDs':len(drafts),'translatedFields':count,'dialogueStates':states,'absentOrHeldDialogueStates':3*len(drafts)-states,'preservedBaselineQuestRecords':len(baseline),'baselineFieldOverrides':[{'id':int(k[0]),'field':k[1]} for k in overrides],'packs':pack_reports,'heldFields':baseline_holds+holds,'addedHeldFields':holds,'fontSHA256':v['fontSHA256'],'catalogSHA256':v['catalogSHA256'],'dynamicIdentityLabels':18,'firstIntroductionTerms':46,'luaRegressionGroups':[s.replace('17 preshaped','18 preshaped').replace('all 17 class/race','all 18 class/race') for s in logs if s.startswith('PASS:')],'capture':'Automatic local capture preserved; missing live-captured states checked','nativeMyanmarProofreading':'pending','currentLiveSkyborneClient':'not tested','controllerHardware':'not tested'}
+    active_holds,resolved_holds=classify_source_holds(drafts,baseline_holds+holds)
+    active_pack_holds,_=classify_source_holds(drafts,holds)
+    report={'version':version,'result':'PASS','date':manifest['date'],'questIDs':len(drafts),'translatedFields':count,'dialogueStates':states,'absentOrHeldDialogueStates':3*len(drafts)-states,'preservedBaselineQuestRecords':len(baseline),'baselineFieldOverrides':[{'id':int(k[0]),'field':k[1]} for k in overrides],'packs':pack_reports,'heldFields':active_holds,'resolvedHeldFields':resolved_holds,'addedHeldFields':active_pack_holds,'fontSHA256':v['fontSHA256'],'catalogSHA256':v['catalogSHA256'],'dynamicIdentityLabels':18,'firstIntroductionTerms':46,'luaRegressionGroups':[s.replace('17 preshaped','18 preshaped').replace('all 17 class/race','all 18 class/race') for s in logs if s.startswith('PASS:')],'capture':'Automatic local capture preserved; missing live-captured states checked','nativeMyanmarProofreading':'pending','currentLiveSkyborneClient':'not tested','controllerHardware':'not tested'}
     if 'translations/undead-tirisfal-v1.1.0' in manifest['packs']:
         report['currentLiveUndeadClient']='not tested'
     return report
@@ -260,6 +303,10 @@ def build(output,manifest_path):
     builder.write_text(text.replace(old,f'VERSION={version!r}'),encoding='utf8')
     subprocess.run([sys.executable,'-X','utf8',str(builder)],check=True)
     patch_runtime(addon)
+    snapshot_tests=source/'tests.lua'
+    snapshot_tests.write_text(reviewed_hold_test_source(snapshot_tests.read_text(encoding='utf8'),drafts),encoding='utf8')
+    term_tests=source/'term_tests.lua'
+    term_tests.write_text(reviewed_term_test_source(term_tests.read_text(encoding='utf8'),drafts),encoding='utf8')
     for toc in addon.glob('*.toc'):
         text=toc.read_text(encoding='utf8');old='## Version: 0.6.2-beta-candidate';assert text.splitlines().count(old)==1
         text=text.replace(old,f'## Version: {version}').replace('Myanmar quest drafts','Myanmar quest translations')

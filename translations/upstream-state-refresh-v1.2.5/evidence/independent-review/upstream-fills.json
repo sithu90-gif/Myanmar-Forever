@@ -1,0 +1,306 @@
+{
+  "reviewedAtUTC": "2026-11-12T21:13:24.181001+00:00",
+  "reviewType": "Independent English-source/assisted Myanmar semantic and editorial review; not native proofreading or live verification",
+  "status": "Review completed; three field corrections proposed for root to apply and revalidate",
+  "scope": {
+    "contextQuestIDs": 36,
+    "overriddenQuestIDs": 31,
+    "enabledFields": 49,
+    "sourceSupportedHeldFields": 6,
+    "documentedSourceUnavailableFields": 109,
+    "newQuestRecords": 0,
+    "englishContextStatesReadPerQuest": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ]
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.5",
+    "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+    "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+    "publishedAtUTC": "2026-11-12T18:09:44Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+    "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+    "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+  },
+  "evidenceFilesSHA256": {
+    "overrides.json": "6ab213377c04785e160a0f0cd9d8fb810b240df7827595deb302df814ee8e65f",
+    "english-sources.json": "c17e2d04f198ff63a315df779ea353ca2e40714beaf1c3a1c4d2ac8a6cffa13d",
+    "review-audit.json": "285d4824b4bc0f891787427448522219d9fbba97dc85df9d87a9b445dcd5f09e",
+    "source-boundaries.json": "9d755de2aff731d48bbc65f596a95e04e9745ee885575a40097201d8d29ace27",
+    "source-comparisons.json": "1f937be31b8385f05dcd47605680676ea00bfaa493751d5551ea8fb97ff21980",
+    "comparison-provenance.json": "c9b1ecaf42d469fb68b668a5780baa581710be5aaa0b710d2b1005c8eb75592d",
+    "held-fields.json": "c7eae83da115a39131cad94f265c2a79b753c76189c48748a69bf815768da7d6",
+    "hold-resolutions.json": "55b1110ee7ac1c9fb754fbbad67538d0dbf47a416c48292872f0ec8580707f81",
+    "review-groups.json": "b5368abb34cb6ac5c4a8bcf5fd375429568ae1bb3e9a983f979da15240027cd8",
+    "validation.json": "15101cb8f033c3055173dd624c85281061c8a9c36123831e64c9e6bea2ec49d0"
+  },
+  "checks": {
+    "rawDeepL": "All five retained responses read; 55 input identities, input/raw/edited hashes, response indexes and batch hashes verified. All five calls below 5000 input characters.",
+    "primaryEvidence": "33 original HTML hashes and current parser outputs verified; two web-reader fallback response hashes verified. All 49 enabled fields equal current primary field text. 99108 primary unavailable and held.",
+    "identityAndState": "All 36 English aliases match pinned UA entries. Distinct Threat from Below steps 99051/99052 and bear-taming 94864 preserved. No reply/offer duplication enabled.",
+    "integrity": "Repository validate_fields passed originals, including all six null holds; linguistic lint clean. Proposed fields separately pass marker, numeric, encoding, hash and annotation checks.",
+    "semantic": "Read all five English context states for every context ID and compared every enabled fill plus held raw state. Checked named identities, written quantities, stage actions, exact marker case, NPC voice, uncertainty and conditions.",
+    "pronunciations": "Maintained first-use spellings and seven documented new/case/plural proposals are internally coherent. No pronunciation map change requested; native pronunciation approval is not asserted."
+  },
+  "retainedHolds": [
+    {
+      "id": 91736,
+      "field": "detail",
+      "englishSHA256": "2520210d851a219a598ccdcf66c4606cab8dcd7b150e2ebac556ff9f04336405",
+      "reason": "60.tools legacy offer labels the apple-smell sentence as Detail, but current primary places it under Progress and has no offer. Do not duplicate progress as an offer without current live source evidence. Raw DeepL retained."
+    },
+    {
+      "id": 91738,
+      "field": "detail",
+      "englishSHA256": "0243c93714c091e513e1646e03e0d198b291b3bf140c3afc715d33f59a5fc19b",
+      "reason": "60.tools legacy offer labels the ThunderApplejack/sergeant sentence as Detail; current primary has this text only under Progress and no offer. Hold conflicting legacy state; raw DeepL retained."
+    },
+    {
+      "id": 93928,
+      "field": "complete",
+      "englishSHA256": "a2532505d9afb02fa8c868167f1971e48f003ae471a8c4e33a537df566f72a8c",
+      "reason": "Current primary explicitly shows development placeholder(PH)Thanks. Hold completion pending finished current dialogue or sanitized live evidence; do not ship translated placeholder. Raw DeepL retained."
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "englishSHA256": "a4ae386344f54aefd9a6966fae58e17d971fce28cfbe216b1fdf0bec49754cb3",
+      "reason": "Prior hold retained: current primary task tracker says Cleanse the Wildmane Well while offer/prose objective and installed metadata say deliver ThunderhornsReport. Current live goal remains uncaptured; conflicting offer held. Raw DeepL retained."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "englishSHA256": "0913cb5407e30c37e8aa6ec659be3440be30b1b19fb5b67de61e2882991be91a",
+      "reason": "Prior hold retained: current primary task tracker conflicts with report-delivery prose objective. Do not choose a live goal without sanitized current capture. Raw DeepL retained."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "englishSHA256": "c2f37bb6119440966f233219fa9a55f2167590beaaf7bf3bfbf131c614bd6825",
+      "reason": "Prior hold retained: secondary-only offer says player is not a Warrior, while class eligibility/alternative offers are unverified. Current primary unavailable via helper and web; installed metadata does not resolve class branch. Raw DeepL retained."
+    }
+  ],
+  "requestedHolds": [],
+  "pronunciationMapReconciliation": [],
+  "quests": [
+    {
+      "id": 87760,
+      "reviewNotes": "Read title, offer, objective and both replies. Rod recovery, destruction, coerced marine creatures, threshers and sea turtles remain distinct; corrected raw animal mistranslations are resolved. Persistence and personal gratitude retained.",
+      "issues": []
+    },
+    {
+      "id": 90902,
+      "reviewNotes": "Read all five states in the five-heal Holy Light context. Both new replies preserve reacquired mastery, Forsaken pain tolerance, purification, badge/evidence and continued service; exact <class> preserved.",
+      "issues": []
+    },
+    {
+      "id": 91208,
+      "reviewNotes": "Read all five states. The frightened paladin is the female NPC in completion, not a player gender variant. More than a few brothers and sisters, painful acclimation, merciful end and prayer to Light are preserved.",
+      "issues": []
+    },
+    {
+      "id": 91209,
+      "reviewNotes": "Read all five states. The completion speaker is Shari in Brill; proof is to her and Brill residents, followed by conditional onward guidance. Both <class> markers and training-return condition are correct.",
+      "issues": []
+    },
+    {
+      "id": 91724,
+      "reviewNotes": "Read all five states. The new progress correctly requests notification before another attempt to calibrate the instruments; it does not turn calibration into negotiation.",
+      "issues": []
+    },
+    {
+      "id": 91736,
+      "reviewNotes": "Read all five source states and primary HTML headings. The apple-smell sentence is primary Progress, while the legacy source labels it Detail. Retain Detail hold; do not duplicate the existing progress into an offer.",
+      "issues": []
+    },
+    {
+      "id": 91738,
+      "reviewNotes": "Read all five source states and primary HTML headings. Sergeant/Thunder Applejack sentence belongs to current Progress; legacy Detail remains held, and no replacement offer is invented.",
+      "issues": []
+    },
+    {
+      "id": 92706,
+      "reviewNotes": "Read all five states in the Bruuz fin bounty context. Shark panic, crew reluctance, possible soup and last-laugh joke retain Gazlowe voice. <race> remains exact.",
+      "issues": []
+    },
+    {
+      "id": 93928,
+      "reviewNotes": "Read all five states and the completion boundary. Literal development placeholder (PH) Thanks is present in current primary; keep completion held despite upstream coverage and raw DeepL output.",
+      "issues": []
+    },
+    {
+      "id": 94411,
+      "reviewNotes": "Read all five states. Concise progress preserves the required deed in a reluctantly violent Shendar mission; no invented aggression, promise or numerical condition is added.",
+      "issues": []
+    },
+    {
+      "id": 94864,
+      "reviewNotes": "Read all five states and the final Young Forest Bear taming context. New progress retains the source plural beasts and burliest strength; tame remains training, not mere capture. Elwynn pronunciation matches maintained value.",
+      "issues": []
+    },
+    {
+      "id": 95494,
+      "reviewNotes": "Read all five states. The trade correctly sends raw hides to the tanner in exchange for finished leather goods. Injury, obligations and refusal to begin falling short remain intact.",
+      "issues": []
+    },
+    {
+      "id": 95507,
+      "reviewNotes": "Read all five states in the eight-trapped-game step after Vrang lion hides. Completion retains exasperation about the leg wound and possible hunger without inventing a magical curse. Progress stage needs the concrete vocal-action correction below.",
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "ac8314367a11fd22509819d9859fda3691c37145f108437f64de12a25306da9a",
+          "reviewedMyanmarSHA256": "a2839b132b488f084571b2c4e93084eecb60b709e38e7444d57811ada83ccbb3",
+          "old": "<မင်းချဉ်းကပ်လာတဲ့အခါ Vrang (ဗရန်ဂ်) က မင်းကိုကြည့်ပြီး နှာမှုတ်သံပြုသည်။>",
+          "new": "<မင်းချဉ်းကပ်လာတဲ့အခါ Vrang (ဗရန်ဂ်) က မင်းကို အင်းခနဲ အသံပြုတုံ့ပြန်သည်။>",
+          "proposedFullField": "<မင်းချဉ်းကပ်လာတဲ့အခါ Vrang (ဗရန်ဂ်) က မင်းကို အင်းခနဲ အသံပြုတုံ့ပြန်သည်။>",
+          "reason": "English stage direction says Vrang grunts at the approaching player. Current wording adds looking at the player and specifies a nasal snort (နှာမှုတ်သံ). Use a short vocal response without inventing that different physical action; retain stage brackets, approach condition and Vrang annotation."
+        }
+      ]
+    },
+    {
+      "id": 95774,
+      "reviewNotes": "Read all five states. Olgra memorial is not a photograph; lifelong revenge, each sword swing, fallen enemies, me/us hesitation and Lok-tar remain intact. No quantity from the four-adornment objective is changed.",
+      "issues": []
+    },
+    {
+      "id": 95998,
+      "reviewNotes": "Read all five states. Progress preserves survival skills and relative increased survival chance from rest/preparation; it makes no guarantee and adds no level or profession requirement.",
+      "issues": []
+    },
+    {
+      "id": 96875,
+      "reviewNotes": "Read all five states with five Rough Lizard Hide and two Cured Light Hides context. Replies preserve the short prompt and pride in work helping Orgrimmar grow; no quantity is added or changed.",
+      "issues": []
+    },
+    {
+      "id": 97223,
+      "reviewNotes": "Read all five states. Bloodtalon cunning/swiftness, raising from eggs, difficulty training adults, repeated capture attempts, recent danger, preserved bloodline and tribal service remain coherent. More than one occasion is correctly rendered as one or more additional attempts, not a single attempt.",
+      "issues": []
+    },
+    {
+      "id": 97253,
+      "reviewNotes": "Read all five states. Metal jingling is recovered parts rather than money; prototype, Gagsprocket lecture and unplanned box reward retain Wrenix humor. Five handfuls remain objective context, not altered reply quantities.",
+      "issues": []
+    },
+    {
+      "id": 97279,
+      "reviewNotes": "Read all five states in six-weapon salvage chain. Gorak is the literal current reply name although the quest giver context is Gornek; source spelling is retained and not silently normalized. Expectation of arrival, intact survival and repairs for next recruits are preserved.",
+      "issues": []
+    },
+    {
+      "id": 97894,
+      "reviewNotes": "Read all five states. Old Borgy is the affectionate Borgus alias in the brother-to-brother context. Business all but stopped is correctly near-stoppage, not absolute stoppage; tragedy and invitation to help remain.",
+      "issues": []
+    },
+    {
+      "id": 97919,
+      "reviewNotes": "Read all five states in First Aid camping branch. Progress retains conditional profession skill before teaching, with no invented numeric threshold.",
+      "issues": []
+    },
+    {
+      "id": 97924,
+      "reviewNotes": "Read all five states in Skinning/Camp Chair branch. Completion keeps Camp Chair identity, wilderness trial restriction, campfire prerequisite and optional culinary training suggestion. Campfire is not translated as stove.",
+      "issues": []
+    },
+    {
+      "id": 97926,
+      "reviewNotes": "Read all five states and Alexston reply delivery context. Both Stormwind and Darnassus decline aid; uncertain Auberdine self-determination and thanks for the journey are preserved. Maintained place annotations are coherent.",
+      "issues": []
+    },
+    {
+      "id": 97970,
+      "reviewNotes": "Read all five states in Mining/Lodestone branch. New progress preserves aptitude condition without invented skill level or unsupported guarantee.",
+      "issues": []
+    },
+    {
+      "id": 97973,
+      "reviewNotes": "Read all five states in Tailoring branch. New progress retains return-and-talk condition after gaining profession skill. Source Faction Banner/Rallying Banner variation is existing context and is not altered by this fill.",
+      "issues": []
+    },
+    {
+      "id": 97977,
+      "reviewNotes": "Read all five states. Larger totems remain unwanted, nightmare shadow and former elven friends retain the transformation rather than inventing an attack, and the unfinished reflection/only hope remain. Four totems stay in objective context.",
+      "issues": []
+    },
+    {
+      "id": 98013,
+      "reviewNotes": "Read all five states in the 12/8/6 Stormscale-target context. Completion preserves admonition not to fret and moral condemnation of pillaging ones own home for a dark master.",
+      "issues": []
+    },
+    {
+      "id": 98021,
+      "reviewNotes": "Read all five states, fresh installed metadata and hold resolution. Race mask 4294967296 and prerequisite 94947 Welcome to Azeroth establish narrow Skyborne Alliance context; arrival from another plane and current primary/UA 0.26.5 literal skinny-elf reply are coherent. Historical source hold may be resolved as authorized; this is not proof of live eligibility. Wry reluctant welcome, months of requests and exact <class> remain.",
+      "issues": []
+    },
+    {
+      "id": 98024,
+      "reviewNotes": "Read all five states, fresh installed metadata and hold resolution. Race mask 8589934592 and prerequisite 95350 Welcome to Azeroth establish narrow Skyborne Horde context; elemental-plane arrival and current primary/UA 0.26.5 elf reply agree. No new branch hold requested, and live eligibility remains untested. Harsh survival warning and <class> are preserved; correct the grunt stage action below.",
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "621eecab72c9ffb2670c5d083cd5b372379b230f798947ee2f9fcecd1d71ee05",
+          "reviewedMyanmarSHA256": "7cf7847871af09e2d50c8a03bfeeda3c98c53749da72b005aadd965a317a6da3",
+          "old": "<Thork (သော်ခ်) က မင်းကို ခေါင်းစခြေဆုံး အကဲခတ်ကြည့်ရင်း ခပ်ပြင်းပြင်း နှာမှုတ်သံပြုသည်။>",
+          "new": "<Thork (သော်ခ်) က မင်းကို ခေါင်းစခြေဆုံး အကဲခတ်ကြည့်ရင်း ခပ်ပြတ်ပြတ် အင်းခနဲ အသံပြုသည်။>",
+          "proposedFullField": "ဒါဘာလဲ။ Elf (အဲလ်ဖ်) တစ်ယောက်လား။ မင်းကို Warchief (ဝေါချိဖ်) က လွှတ်လိုက်တယ်လို့ ပြောနေတာလား။\n\n<Thork (သော်ခ်) က မင်းကို ခေါင်းစခြေဆုံး အကဲခတ်ကြည့်ရင်း ခပ်ပြတ်ပြတ် အင်းခနဲ အသံပြုသည်။>\n\nငါ့အမြင်မှာ မင်းနည်းနည်းပိန်နေပုံပဲ။ ဒါပေမယ့် အဲဒါအရေးမကြီးဘူး။ ဒီနေရာမှာ မင်းအောင်မြင်ပြီး အသက်ရှင်နိုင်ရင်ရှင်၊ မရှင်နိုင်ရင် သေမှာပဲ။ ဒီနယ်မြေတွေရဲ့ သဘောသဘာဝက အဲဒီအတိုင်းပဲ။",
+          "reason": "English says grunts sharply while looking the player up and down. Preserve the sharp vocal grunt, rather than adding a nasal snort. Rest of the literal elf greeting and survival warning remains source-supported and unchanged."
+        }
+      ]
+    },
+    {
+      "id": 98025,
+      "reviewNotes": "Read all five states. Named female owl, uncertainty over her madness, regret about lack of another solution, former guardianship, Sentinels greeting and safe Auberdine roads are preserved. No player gender is invented.",
+      "issues": []
+    },
+    {
+      "id": 98389,
+      "reviewNotes": "Read all five states in six Webbed Victims rescue context. Replies preserve sympathy, Executor Arren, service/protection through Light gifts and equal value to Dark Lady plans; no economic poverty or deity is invented.",
+      "issues": []
+    },
+    {
+      "id": 98435,
+      "reviewNotes": "Read all five states and original task/provided-item boundary. Current task tracker explicitly says Cleanse the Wildmane Well while offer/prose objective and installed metadata describe Thunderhorn report delivery. Retain both existing holds until current live goal evidence resolves the conflict; raw DeepL remains evidence only.",
+      "issues": []
+    },
+    {
+      "id": 98601,
+      "reviewNotes": "Read all five states in Consecrated Scroll delivery context. Resolve is determination; Light-caused pain, even-a-moment warning, purifying crucible and stronger-than-previous-life comparison remain intact.",
+      "issues": []
+    },
+    {
+      "id": 99051,
+      "reviewNotes": "Read all five states in current-primary web fallback with checked response hash. This Threat from Below ID is the nine Naga Spinefin step before 99052. Completion keeps uncertain northward retreat and watching for stragglers/suspicious activity. Progress needs the modality/inquiry correction below.",
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "f04dd89f4c1b86fc786ecb81c19f3342bd1044d4344e34d3d5e0afbea39d9d8c",
+          "reviewedMyanmarSHA256": "7073f30c1ee3c11d5742cb715a20b2d8a8ea3caa63c37a0b16327a8fad66f302",
+          "old": "အဲဒီမြွေစုတ်တွေ မင်းကို ဒုက္ခမပေးနိုင်ဘူးလို့ မျှော်လင့်တယ်။",
+          "new": "အဲဒီမြွေစုတ်တွေ မင်းကို ဒုက္ခမပေးကြဘူးမဟုတ်လား။",
+          "proposedFullField": "အဲဒီမြွေစုတ်တွေ မင်းကို ဒုက္ခမပေးကြဘူးမဟုတ်လား။",
+          "reason": "English asks hopefully whether the snake scum are not giving trouble now. Current မပေးနိုင်ဘူး asserts inability to cause trouble and turns the query into a statement. Restore the negative inquiry/hopeful expectation without the unsupported cannot modality; keep contemptuous snake-scum voice."
+        }
+      ]
+    },
+    {
+      "id": 99052,
+      "reviewNotes": "Read all five states in current-primary web fallback with checked response hash. Same-title successor is the sea giant kill, not naga fins. Blood and thunder, audible fall and unusual survival boast remain; no fire or hunter mistranslation survives.",
+      "issues": []
+    },
+    {
+      "id": 99108,
+      "reviewNotes": "Read all available states and explicit nulls. Only a legacy offer is available; it says player is not a Warrior while current primary/alternative class branch remains unavailable. Preserve existing Detail hold and exact historical <Class> in evidence; do not enable the raw bow-as-ladder mistranslation.",
+      "issues": []
+    }
+  ],
+  "independentAssistedReview": "performed; root must guard exact reviewed hashes and resolve proposed corrections",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "warlock-connected-10",
+    "questIds": [
+      1485,
+      1499,
+      1599,
+      1506,
+      1501,
+      1504,
+      1685,
+      1688,
+      1689,
+      1715
+    ],
+    "connectedClusters": [
+      [
+        1485,
+        1499
+      ],
+      [
+        1599
+      ],
+      [
+        1506,
+        1501,
+        1504
+      ],
+      [
+        1685,
+        1715,
+        1688,
+        1689
+      ]
+    ],
+    "connection": "Warlock introductory imp and level10 voidwalker training; separate Horde and Alliance branches. Class mask256 checked on all; per-ID race restrictions retained in installed metadata.",
+    "status": "separate_assisted_source_review_complete_with_explicit_holds",
+    "reviewMethod": "All final English/Myanmar fields reread in a separate pass after raw DeepL and editorial draft. Checked IDs, same-title stages, names, quantities, directions, conditions, player markers, paragraph flow, negative prerequisites, speaker voice and return items. Independent review must be performed by another agent.",
+    "enabledFields": 44,
+    "sourceFields": 46,
+    "heldFields": [
+      {
+        "id": 1485,
+        "field": "progress",
+        "reason": "Both English references say would risk after few enough interested, producing contradictory/ambiguous safety intent. Do not silently change would to would not. Entire progress held until clearer English or sanitized current live evidence resolves intent. Literal English and raw DeepL retained."
+      },
+      {
+        "id": 1685,
+        "field": "complete",
+        "reason": "Material source conflict: Wowhead Forever stern Remen/class/head-on-shoulders completion versus 60.tools concerned name/fear-worst/training-only completion. Current live or other conclusive evidence required before enabling. Both literal versions, raw DeepL and non-enabled edited candidate retained."
+      }
+    ],
+    "absentFields": [
+      {
+        "id": 1499,
+        "field": "progress"
+      },
+      {
+        "id": 1506,
+        "field": "progress"
+      },
+      {
+        "id": 1685,
+        "field": "progress"
+      },
+      {
+        "id": 1715,
+        "field": "progress"
+      }
+    ],
+    "notableCorrections": [
+      "Familiar is a demon identity, not friend; imp remains distinct from voidwalker.",
+      "1501 lair is not rooftop.",
+      "1504 future tasks comparison restored; glyphs and Neeru tent not conflated with1689 choker and circle below.",
+      "1689 completion meets hopes despite exceeding expectations; repaired raw DeepL negation reversal.",
+      "1599 raw Thai mark removed and magic-as-love repaired.",
+      "1688 different-results wording tightened on separate reread."
+    ],
+    "writtenQuantityReview": [
+      {
+        "id": 1485,
+        "field": "detail",
+        "source": "six heads",
+        "reviewedMyanmar": "ခေါင်းခြောက်လုံး"
+      },
+      {
+        "id": 1599,
+        "field": "detail",
+        "source": "three feather charms",
+        "reviewedMyanmar": "feather charms ... သုံးခု"
+      }
+    ],
+    "independentAssistedReview": "not performed; root assigns separate reviewer",
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested",
+    "completedAtUTC": "2026-11-12T20:51:42.584417+00:00",
+    "editedSHA256": "3ccfc6de75443d50389a5851cb278c2f74dbf91bf2e411530e99bf324c75e79c",
+    "reviewAuditSHA256": "42c0e3e5a83b086cd57d34990db2b2b0f422834dfab6c241345cbd12a82fd02b",
+    "upstreamReference": {
+      "repository": "sysrover/UA_Forever",
+      "version": "0.26.5",
+      "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+      "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+      "publishedAtUTC": "2026-11-12T18:09:44Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+      "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+      "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+    }
+  }
+]

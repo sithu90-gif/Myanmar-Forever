@@ -1,0 +1,56 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "paladin",
+      "id": 1644,
+      "field": "progress",
+      "englishSHA256": "7b532c393e1ed35ed8fd1115b0a81dd04dc37424d77f0c7fdd1c06a7be61cbb2",
+      "priorMyanmarSHA256": "f19085d94ee7ef6eccb4850b593ae4e683256f218567e7c02f9a75114353b550",
+      "correctedMyanmarSHA256": "40ff1a8da2eeea32530eb3e84f938a5b77eb1843c5526049e8e7e4476ebd8540",
+      "reason": "English leaves the children and Stephanie alone as a group. တစ်ယောက်တည်း means a single person alone and conflicts with the explicitly plural group. The replacement preserves John leaving the family behind without changing the people or reason."
+    },
+    {
+      "partition": "paladin",
+      "id": 1648,
+      "field": "complete",
+      "englishSHA256": "9630791737fd5130c6ba30586177d6ca9d2652ad634dc8e72cba05a6d7a1ad59",
+      "priorMyanmarSHA256": "186749549ad3a0aab8d8830715d8e96020773a3bd49288e3593ceaf1de7b5d29",
+      "correctedMyanmarSHA256": "148eec05cd9b9ef8a70e1c57a5a29492800e62e139d55f3d28db3351ae3434b3",
+      "reason": "The player's humble least-you-could-do reply uses ability/could, whereas လုပ်ပေးသင့်တဲ့ changes it to what the player should do. Preserve the modest charitable response rather than introducing an obligation."
+    },
+    {
+      "partition": "paladin",
+      "id": 1784,
+      "field": "detail",
+      "englishSHA256": "018a6d9233d7b749568a5034c2ced2641e9aeed91a2a7b257a86d860ab2575c7",
+      "priorMyanmarSHA256": "5fc0befc9558b61a4bcc8bc677dbbbfbdddf36448ad68063f2dc88ada019f079",
+      "correctedMyanmarSHA256": "1ec3613657041e84e6b768a7b88aed435519c844d64224331bb58a2e22f42ce3",
+      "reason": "Retain the full identifying enemy phrase Dark Iron spies and its first-use compound pronunciation. The edited text keeps only the faction name and translates the spy identity. The replacement preserves one of the spies, the nearby small house and the almost-defeated condition."
+    },
+    {
+      "partition": "rogue",
+      "id": 1998,
+      "field": "detail",
+      "englishSHA256": "a85c9d88b364d206609e9600d1f19a3f8a2e5d7ebebaa6cf550606ec5f48c006",
+      "priorMyanmarSHA256": "9c6308be61a215abee38d70508e009f38d6b1df7c764fc7d214d4923885ca2c2",
+      "correctedMyanmarSHA256": "6e3da9675de41b43fb44502a64dc3b12bcf1d4d6a8d0a5a9843b232939af508f",
+      "reason": "The source says the threat/person threatening Forsaken must be removed immediately. The existing pre-nominal ချက်ချင်းရှင်းပစ်ရမယ့် directly precedes Forsaken and can make Forsaken the elimination target. Reorder the clauses so both threatening and immediate removal explicitly describe the person. Preserve all names, markers and the remaining statement."
+    },
+    {
+      "partition": "rogue",
+      "id": 2282,
+      "field": "progress",
+      "englishSHA256": "ca7e470bc05a062a753f085c7a357c5470cec85b5153bc3cbd957b32aa3f62f2",
+      "priorMyanmarSHA256": "15e5521813f7e5ee9301bfc36e6f3d53c29e4e7dc8987799cbc975a92d1f4f10",
+      "correctedMyanmarSHA256": "f268d35357b656a43d7fc1ec4f9690bdb406679841cf70f563ae45750619b2dd",
+      "reason": "The mill is the established Alther's Mill location from this quest, rather than a generic grinding machine (ကြိတ်စက်). Retain its recognizable location identity and maintained pronunciation on its first occurrence in this independently displayed field, following the style guide's shortened-location reference rule. Preserve the hearsay and orcs statement; add no directions or gameplay claims."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Dark Iron spies": "ဒါ့ခ် အိုင်ယန် စပိုင်ဇ်"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

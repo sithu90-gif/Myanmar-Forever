@@ -1,0 +1,92 @@
+{
+  "reviewType": "Narrow independent assisted release/code review",
+  "scope": "Final 4641 completion term identity correction; source-hold classification; generated legacy state assertions and held-view term-learning probe. Prior translation-group reviews are separate evidence.",
+  "verdict": "PASS: no blocking finding in this review scope",
+  "findings": [
+    {
+      "severity": "informational",
+      "subject": "4641 source variants",
+      "finding": "Current Wowhead Forever completion says fixed warrior; secondary 60.tools uses <class>. Final follows the pinned current primary and adds no dynamic marker. Current live branch remains unverified."
+    },
+    {
+      "severity": "informational",
+      "subject": "Active-hold record count",
+      "finding": "33 active reason records represent 30 unique quest fields. Duplicate historical/current reasons for 98435 detail/objective and 99108 detail are preserved evidence, not enabled fields or additional held-field counts."
+    }
+  ],
+  "quest4641": {
+    "field": "complete",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D4641/your-place-in-the-world",
+    "sourcePageSHA256": "11208a76e70037f3342e408b720ecdf019199e14925309a39ebd604081a235a3",
+    "english": "Another one of Kaltunk's recruits, hm?\n\nA sorry state of affairs we find ourselves in if this is the best the Horde can produce. No matter. By the time we think you're ready to leave the Valley, you'll be a proud warrior of the Horde.",
+    "englishSHA256": "f16118de894c3d5ba97e3b6112a8effa7b2f7efe775e170dd0d2ec5f55289814",
+    "finalMyanmar": "Kaltunk (ကယ်လ်တန်ခ်) ဆီက စစ်သားသစ်တစ်ယောက် ထပ်လာပြန်ပြီလား၊ ဟမ်။\n\nHorde (ဟော်ဒ်) က အကောင်းဆုံး ရှာပေးနိုင်တာ ဒီလောက်ပဲဆိုရင် ငါတို့အဖြစ်ကတော့ စိတ်ပျက်စရာပဲ။ ထားပါတော့။ Valley of Trials (ဗဲလီ အော့ဗ် ထရိုင်ယယ်လ်စ်) ကနေ ထွက်ဖို့ မင်းအသင့်ဖြစ်ပြီလို့ ငါတို့ဆုံးဖြတ်တဲ့အချိန်မှာ မင်းဟာ Horde ရဲ့ Warrior (ဝေါရီယာ) တစ်ယောက်အဖြစ် ကိုယ့်ကိုယ်ကိုယ် ဂုဏ်ယူနေပြီဖြစ်မယ်။",
+    "finalMyanmarSHA256": "359614cd88cf9006655070aba2a934f33eb16692621f75a62b0a1597b9874f1c",
+    "verdict": "PASS",
+    "semanticReview": "Preserves Gornek's skeptical recruit assessment, conditional disappointment, no-matter dismissal, readiness timing, Valley reference and future pride in the Horde. Literal warrior is retained as recognizable Warrior with the maintained pronunciation.",
+    "placeholders": {
+      "english": [],
+      "myanmar": [],
+      "verdict": "Exact: neither completion contains a supported substitution marker."
+    },
+    "annotation": "Warrior (ဝေါရီယာ) exactly matches class.warrior static alias in term-glossary-v0.6.2.json. TermIntroductions scans static aliases and dynamic identities into the same term key. 4641 complete has no class.warrior exception. Existing term_tests.lua lines 34-52 protect actual first introduction, redraw stability and pronunciation after learning.",
+    "hashBinding": "Current final-overrides, composed release field, post-package-review and pack review-audit agree."
+  },
+  "codeChecks": {
+    "classifySourceHolds": "PASS: uses the actual composed field to separate active versus resolved reasons; preserves original reason objects. Untranslated or absent quest fields remain active. Composition validates reviewed source/translation hashes and exact prior override hashes before classification.",
+    "actualHoldDisposition": {
+      "activeReasonRecords": 33,
+      "activeUniqueFields": 30,
+      "resolvedReasonRecords": 1,
+      "resolvedFields": [
+        {
+          "id": 98021,
+          "field": "complete",
+          "historicalReason": "Reference reply is specific to an elf; current racial branches require live confirmation."
+        }
+      ],
+      "enabledFieldsMisreportedActive": [],
+      "missingFieldsMisreportedResolved": []
+    },
+    "reviewedHoldTestSource": "PASS: only adapts exact legacy assertions for composed enabled 98021.complete, 97924.complete and 97279.progress. Assertion strings must occur exactly once. Pending manifest keeps original tests. 97279 capture assertion remains required. No other hold assertions are removed.",
+    "reviewedTermTestSource": "PASS: only when reviewed 98021.complete exists, replaces exact legacy held-view probe with still-held 842.complete. Explicitly rejects a filled 842.complete and a changed historical anchor. emptySeen assertion is retained. The existing tests.lua separately checks held 842 completion for both player sexes and capture retention.",
+    "baselinePreservation": {
+      "verdict": "PASS",
+      "comparisonRoot": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\Myanmar-Forever\\Myanmar_Forever_NorthshireTest",
+      "identicalNonPycFiles": 176,
+      "added": [],
+      "removed": [],
+      "changed": []
+    },
+    "generatedTests": "PASS: r5 generated tests.lua and term_tests.lua exactly match the two reviewed transformation functions applied to preserved snapshot files.",
+    "focusedUnitTests": {
+      "command": "..\\venv\\Scripts\\python.exe -B -X utf8 -m unittest discover -s tools -p test_build_release.py -v",
+      "result": "PASS",
+      "testCount": 3,
+      "coverage": "Active/resolved hold reasons; actual historical pending/current test snapshots; stale assertion rejection; held-view learning probe pending/current/stale/replacement-enabled guards."
+    },
+    "fileSHA256": {
+      "tools/build_release.py": "14009ff5e02a43a34c753edfbadf1a588d8318639457d29649a2d750396b4ac2",
+      "tools/test_build_release.py": "8eafc255aafc729465e703818877b3b4dce274738ce253f08524f9db2626d793",
+      "Myanmar_Forever_NorthshireTest/TermIntroductions.lua": "b184e063ca7eb454a21bdd2512ae33d6eb944388ed47861f3ac832b489ad2eab",
+      "Myanmar_Forever_NorthshireTest/BuildSource/term_tests.lua": "13fc00a10433fb9caef38a50a8fa0b7cb897f43c969a47c6c72e657055e6525c",
+      "Myanmar_Forever_NorthshireTest/BuildSource/tests.lua": "930cc7f6778d830d98dd2df80b65ae930309902f7777dcf33225b8703d86bdd7"
+    }
+  },
+  "observedPackageValidation": {
+    "path": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\morning-2026-11-13\\build-v1.2.5-r5\\validation.json",
+    "result": "PASS",
+    "questIDs": 1186,
+    "translatedFields": 5547,
+    "luaRegressionGroups": 25,
+    "zip": {
+      "name": "MyanmarForever_v1.2.5.zip",
+      "bytes": 795854,
+      "sha256": "bf4115a60c3b6657ad6407006273cb5689a14687f6de4ee9855fc70d06316a12"
+    },
+    "note": "Read existing root-built r5 validation; did not rerun a broad package build."
+  },
+  "nativeMyanmarProofreading": "pending: assisted review is not native proofreading",
+  "currentLiveForeverVerification": "not tested: no live-client claim established by code or package checks",
+  "controllerHardwareVerification": "not tested"
+}

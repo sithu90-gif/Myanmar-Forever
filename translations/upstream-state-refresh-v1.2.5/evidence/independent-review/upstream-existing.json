@@ -1,0 +1,2517 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUTC": "2026-11-12T21:08:21.828485+00:00",
+  "reviewType": "Independent assisted source-aware English/Myanmar review by separate reviewer; root/shared files unchanged",
+  "status": "All93 field dispositions reviewed;5 additional guarded corrections proposed;7 current-source limitations retained",
+  "scope": {
+    "questCount": 76,
+    "fieldCount": 93,
+    "currentEnglishFieldsReviewed": 86,
+    "currentPrimaryHTMLFields": 67,
+    "currentPrimaryWebFallbackFields": 19,
+    "rootProposedCorrectionsReviewed": 55,
+    "retainedPriorFieldsReviewed": 38,
+    "additionalFieldCorrectionsProposed": 5,
+    "currentSourceUnavailableFields": 7,
+    "other1258UnchangedEnglishHashFields": "outside fresh semantic pass; parent verified exact English/hash inheritance"
+  },
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "0.26.5",
+    "commit": "1fee3ca08cfcafb2314785ef4386be87f618e7ef",
+    "checkedAt": "2026-11-12T20:37:56.093202+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/0.26.5",
+    "publishedAtUTC": "2026-11-12T18:09:44Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/0.26.5/UA_Forever-0.26.5.zip",
+    "assetSHA256": "44c19527300bbad6ac74ae70c4ed7742a09308d53179aa35d050c53d9d56dac2",
+    "catalogSHA256": "3d5787579389921682e184164ad7934984c27bf5b0da1418f7ccddaca0a4d346"
+  },
+  "sourcePinProvenance": "Used parent run freshly recorded UA0.26.5 pin/current captures; no separate release refresh or quest selection.",
+  "sourceAndIntegrityReview": [
+    "Read all93 final proposed/prior Myanmar fields;86 current English pairs and7 availability dispositions, without fresh semantic certification when English is unavailable.",
+    "All93 prior Myanmar/English hashes and all55 override/proposed/provenance hashes match.",
+    "All67 saved primary field bodies contain full current English in script-free DOM after whitespace normalization; primary file hashes match. Manually inspected relevant changed-quantity/direction/branch, finding and missing-state boundaries.",
+    "All19 web fallback fields match saved current primary English and response-file hashes. No new missing-state text invented.",
+    "All55 raw DeepL inputs exactly map to current English identities;55 raw output hashes match provenance. Input batches4772,4591,4682,4507,1560 characters each below5000.",
+    "Exact supported player-marker sequence/case match all86 currently sourced fields. Read quantities, targets, directions, chronology, uncertainty, NPC voice, gestures and identity annotations.",
+    "Supplied sanitized capture audit covers252 historical states from103 quests and explicitly no current live playtest; no raw substituted dialogue for these differences was supplied or invented."
+  ],
+  "integrityChecks": {
+    "priorMyanmarHashes": "93/93 match",
+    "currentEnglishHashesIncludingNulls": "93/93 match",
+    "currentPrimaryHTMLSHA256": "67/67 match",
+    "scriptFreeHTMLTextContainment": "67/67 match",
+    "primaryWebFallbackFieldMatches": "19/19 match",
+    "rootFinalCorrectionHashes": "55/55 match",
+    "rawDeepLIdentityAndHashMapping": "55/55 match",
+    "exactSupportedPlayerMarkerSequences": "86/86 match"
+  },
+  "evidenceSHA256": {
+    "upstream-reference.json": "081f3ef9598510bf9a79357be0492c654139b291592d5d4c3ac22c9d42e173d1",
+    "upstream-all-fields-required.json": "f95790e6622723c4c8ea2f02730e496027550f24ea1f7bbfae5cd1d7bceef2a8",
+    "upstream-english/fetched.json": "4e1a8b9afa8963ab099a37ce0b5a2fe5c1cb4aebf2a5766d5486033895db94ab",
+    "upstream-english/web-fetched.json": "632ac82a6a8a2df07cb6a45e61b41403d410464f0e4553310b1439076969a1cd",
+    "upstream-corrections/proposed-corrections.json": "7c9556f87a8421b4508a7166732357da7586eb45cdd360be3bbd33fe0d19942e",
+    "upstream-corrections/enabled-field-dispositions.json": "5ef05c0153a2bfc8d3e4f3eee59a1fa16aa85eb74502964563ff21f539ad6156",
+    "upstream-corrections/overrides.json": "e81bab5fadf2dca86a114ef98b6e2d75f7bfec1f3769c558a8bb9dd9af90d95c",
+    "upstream-corrections/english-sources.json": "71db2b893c40247995774dcfd5861593b0759a12591e70032bdff73bfa98b49b",
+    "upstream-corrections/review-audit.json": "503770db4e6afb01c2ae4b2f35388767f8ba6bc1f76f9bf3231ba63ede2ac282",
+    "upstream-corrections/comparison-provenance.json": "2e455fd86fb4d2605b8ef67bf4c03514834895c3142fd2bb6e7b96adc50a4722",
+    "upstream-corrections/deepl-input-batches.json": "d1d499329bc7375c0fa1efdf586e832890034f6a01f9b02edfb7efc5f3e73398",
+    "maintained-pronunciations.json": "77f5a5172c220ffdaf46524b85e8ce0f9067c7e41578880b3dce1db736fb8a36",
+    "sanitized-local-capture-review.json": "808d67a732fc8ccb4413718402af25ad7a8b2271e8cd45fdf0c6d6cdea9f2302",
+    "upstream-corrections/deepl-raw-0.json": "23de0a55f8eb3f594d77ec8197621b56da4931b448b64baf561119666eda7137",
+    "upstream-corrections/deepl-raw-1.json": "39412dd706073c5d7de35f9980e7d3f15bf01c4633fb8ec0ad7ff20e95b611ac",
+    "upstream-corrections/deepl-raw-2.json": "1c1da28bede569e7dbed42dc5d82f54bb1025a71adeeb60a7a4e3b1d7ee9688f",
+    "upstream-corrections/deepl-raw-3.json": "cd51520b87d2ef9f4d20cd41aa70f7cc4bbee6f2b150536354dec30e4c89ba05",
+    "upstream-corrections/deepl-raw-4.json": "a12d53c096c8d54d9f58a972604ed8343cb12671ae24df393a7715f271e7a3cc"
+  },
+  "quests": [
+    {
+      "id": 4641,
+      "englishTitle": "Your Place in the World",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read full teasing recruitment: adulthood, Horde/Warchief, bare-handed strangling, both Kaltunk gestures, Gornek in western Den and exact lowercase name/class markers. Marker correction preserves meaning.",
+        "complete: Read skeptical assessor voice, poor recruit quality and readiness to leave Valley. Primary says warrior; proposed ordinary စစ်သည် correctly removes secondary dynamic class. Valley of Trials is established identity."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "a27de36ae2f126c63b3c51d64a3587985d12190bfe20ecc762305a33e3e5f5f2",
+          "reviewedMyanmarSHA256": "180cf49e7e1a1741939c570e0e55bd1d81267fdc1dd18a5c83575993e9ff1912",
+          "priorMyanmarSHA256": "730762a88e8f86f0a624ab377a21f6be707fa9bc710a86d484bf11196213355c",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D4641",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "11208a76e70037f3342e408b720ecdf019199e14925309a39ebd604081a235a3",
+          "notes": "Read full teasing recruitment: adulthood, Horde/Warchief, bare-handed strangling, both Kaltunk gestures, Gornek in western Den and exact lowercase name/class markers. Marker correction preserves meaning."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "f16118de894c3d5ba97e3b6112a8effa7b2f7efe775e170dd0d2ec5f55289814",
+          "reviewedMyanmarSHA256": "69e58a6ce260d0e5ec5757f8460cbb02ea59d62dafd667820ee03102818058fb",
+          "priorMyanmarSHA256": "1142822d77830628643e986c1540b8af5877b07890915bb2bf1e348084911afc",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D4641",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "11208a76e70037f3342e408b720ecdf019199e14925309a39ebd604081a235a3",
+          "notes": "Read skeptical assessor voice, poor recruit quality and readiness to leave Valley. Primary says warrior; proposed ordinary စစ်သည် correctly removes secondary dynamic class. Valley of Trials is established identity."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 87760,
+      "englishTitle": "Holy Diver",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read unwilling mounts/burden beasts, obstinate/old/injured animals driven out for sport, sacred duty, Mathystra, offshore threshers and beastmistress/tools. Lowercase name is supported; indignation remains."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "738f8119d31bc1b2dbceff50370a872ed14a2ec3da1c5e4cb41cc4ba00493834",
+          "reviewedMyanmarSHA256": "085f7362320ea283569122761c4440d55f63440adbd2335596d47c5273fa0780",
+          "priorMyanmarSHA256": "33806f16822bc202071fb947b47cefe466159ac5bce0a3f6f804cd096436981b",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D87760",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "748eeb6ec6e79fb655438bea70dfce69b76898a062bf0471c43dc1c2cf15490d",
+          "notes": "Read unwilling mounts/burden beasts, obstinate/old/injured animals driven out for sport, sacred duty, Mathystra, offshore threshers and beastmistress/tools. Lowercase name is supported; indignation remains."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91294,
+      "englishTitle": "Touring the Grounds",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read controlled murloc threat, modest stronghold/home, exploration then Danitha Morr, settlement and Light blessing. Lowercase name matches current English."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "bd73251670260870de855a6bb8aa722952ec0798fca295cb2a41ff6a32afada0",
+          "reviewedMyanmarSHA256": "e7eafa47dddc5e65c49c63826544fcde530566a0641b8a503433874d1d71a2be",
+          "priorMyanmarSHA256": "c888e2c227d3e8d364e2a5cfdde7d7ad072ee9ce9306020adb24485b9ca9f2f8",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91294",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "e2bbbaaa1e205933e339793a61b2a64cedab177159835c08af9e394d1f96770e",
+          "notes": "Read controlled murloc threat, modest stronghold/home, exploration then Danitha Morr, settlement and Light blessing. Lowercase name matches current English."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91316,
+      "englishTitle": "Making Repairs",
+      "fieldsChecked": [
+        "progress"
+      ],
+      "reviewNotes": [
+        "progress: Read location-is-everything idiom, imposing bluffs, distance from civilization, supply difficulty and admitted oversight. Prior Myanmar preserves meaning despite typography changes."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "progress",
+          "englishSHA256": "bb9dd0f08f2c945e2ea910853a9bef9c08f9d40f2dd01f3a8b40b27e3352e82c",
+          "reviewedMyanmarSHA256": "8c357e283e747116b5cdf7ebd0b3fb66c5a16b02373a2d1221962de71770abb7",
+          "priorMyanmarSHA256": "8c357e283e747116b5cdf7ebd0b3fb66c5a16b02373a2d1221962de71770abb7",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91316",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "835567fc529c7ccd2decab0e77824a4b2af8ea278933988d35f38b67dd145bb5",
+          "notes": "Read location-is-everything idiom, imposing bluffs, distance from civilization, supply difficulty and admitted oversight. Prior Myanmar preserves meaning despite typography changes."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91724,
+      "englishTitle": "Delicate Instruments",
+      "fieldsChecked": [
+        "detail",
+        "objective"
+      ],
+      "reviewNotes": [
+        "detail: Read almost-finished instruments, Nether exclamation, continuing disruption, rumored bandit magic near Stone Cairn Lake and tentative request. Lowercase name is supported.",
+        "objective: Independently read8 Defias Rogue Wizards, Stone Cairn Lake and return to Hamish Bergwort in Tower of Azora.6-to-8 correction is necessary and correct."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "69b1ad9300af6584d6f498453c52818400c6806e7b734218d3dddfee44736b91",
+          "reviewedMyanmarSHA256": "b3836ef5af38ade6ba1d836ffdc4d7ef8575b4a180c5245fdc43bb8b45cdb247",
+          "priorMyanmarSHA256": "88d34e8a343e1655a2098153b1cc5d1707e81b57ef86a4d29e6df0914c306320",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91724",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "0a06e2960522415da303e2c280e31b9e7b6c9bb2632a173a7efc4e05ca385a06",
+          "notes": "Read almost-finished instruments, Nether exclamation, continuing disruption, rumored bandit magic near Stone Cairn Lake and tentative request. Lowercase name is supported."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "c4c44ef05d656502ee8a8bfb91f7fd65c6a1de0d0a9e48acb08460ef55c42b8d",
+          "reviewedMyanmarSHA256": "b0da9b7c385980119f0d43d0368dd8d6af6a4b5cdf8f86a706acedd652fea588",
+          "priorMyanmarSHA256": "9828dd849920025c72d4a228b80a071c58645395bc84de5422d0ea5ddcf27bd2",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91724",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "0a06e2960522415da303e2c280e31b9e7b6c9bb2632a173a7efc4e05ca385a06",
+          "notes": "Independently read8 Defias Rogue Wizards, Stone Cairn Lake and return to Hamish Bergwort in Tower of Azora.6-to-8 correction is necessary and correct."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91733,
+      "englishTitle": "Downstream",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read returning trade-post shipment, overturned wagon, supplies washed downstream before retrieval, murloc/wolf danger and hardy-player request. Prior Myanmar preserves sequence/agency."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "2330aabb1d07101236e3283db0e7d83351c0c40517f746a5e45fb7d987d99e02",
+          "reviewedMyanmarSHA256": "5bdb22eec4cc8647538ad3e9ea7f1747a8efa4001c3bd0b11322243427dd21f8",
+          "priorMyanmarSHA256": "5bdb22eec4cc8647538ad3e9ea7f1747a8efa4001c3bd0b11322243427dd21f8",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91733",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "7301a12c60d37a5e4fc864838cb3f1f55bbe89943fa009cb9352bdabb4535ee2",
+          "notes": "Read returning trade-post shipment, overturned wagon, supplies washed downstream before retrieval, murloc/wolf danger and hardy-player request. Prior Myanmar preserves sequence/agency."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91743,
+      "englishTitle": "Rascally Rodents",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read gift of one unneeded how-to book, many books still missing, kobolds apparently not eating them and puzzled question. No semantic correction required."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "205e754cea622177fee84982f662f14c84f2033ffe298fbad0cde2f287549067",
+          "reviewedMyanmarSHA256": "f42bba3e65b4dddf0de23bd7a914a7b51219e886cf9dc635d58ece9b7ab8f2fd",
+          "priorMyanmarSHA256": "f42bba3e65b4dddf0de23bd7a914a7b51219e886cf9dc635d58ece9b7ab8f2fd",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91743",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "fc2fdcee9db46f60ea6d4c560b7a8809f636c1a36575b1a79e1d9c0f879c16be",
+          "notes": "Read gift of one unneeded how-to book, many books still missing, kobolds apparently not eating them and puzzled question. No semantic correction required."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 91777,
+      "englishTitle": "Rare Books",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read exactly two named books, Brother Paxton return, Jasperlode Mine, apprentice summoning an elemental versus unknown master danger and bringing friends. Full item identities/count remain."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "2221dd7b9888d08dc4ed48084839f0ae2ad033ddae59298c89f4e321b28d283a",
+          "reviewedMyanmarSHA256": "6d5e762e7dbc328c4b6fd008298b892224aac0138876c2d37bf3e64f8749d8b3",
+          "priorMyanmarSHA256": "6d5e762e7dbc328c4b6fd008298b892224aac0138876c2d37bf3e64f8749d8b3",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D91777",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "26431a8cb4d278ef7f5a12c6bbe8212f3060fe17a7981ab07f7560808f3e8539",
+          "notes": "Read exactly two named books, Brother Paxton return, Jasperlode Mine, apprentice summoning an elemental versus unknown master danger and bringing friends. Full item identities/count remain."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92467,
+      "englishTitle": "Call of Earth",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read spirit/element binding, strong-willed sight, restricted shaman recipe, sacred-place-only drinking and Rise of Spirits. Primary pass is east; northeast-to-east correction is supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "d8503b974940af25c3309d245f8c630ec440f5cde25b218a42db03e3dd3e1eda",
+          "reviewedMyanmarSHA256": "e123b4ecf4475015219f60cc7b705eed1acf5a615eda6bb776eecf4ab8ff4a82",
+          "priorMyanmarSHA256": "b18f158192a5c5ae077d72613dcc7ac3274a1c69c38573b6f8f78cabc361e0e4",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92467",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "9b0aa8639098f33f5ee316d0b51707b76d43ef89131495e915c1be023a31dcc2",
+          "notes": "Read spirit/element binding, strong-willed sight, restricted shaman recipe, sacred-place-only drinking and Rise of Spirits. Primary pass is east; northeast-to-east correction is supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92468,
+      "englishTitle": "Call of Earth",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read Rough Quartz proof for Windshaper Boro, totem heart, small things outlasting others, patience/strength/wisdom and reciprocal earth respect. Lowercase name is supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "72996b757b8ebae25857b08930779c0469311d35f11f669b989ed414f93de94e",
+          "reviewedMyanmarSHA256": "68bc08442f8cb265b779592b2f82e314c8f788d1a84bfb9fcc6a96fc24ddc6a4",
+          "priorMyanmarSHA256": "3c9c654ebb4c8bb235e7d53d43d3a281db147ad8b7e6ff024b9c1b58093ba9aa",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92468",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "67a26c1deebb8758fe151a7b352313b079a03657fa1cf85997a19e691fd8d0cb",
+          "notes": "Read Rough Quartz proof for Windshaper Boro, totem heart, small things outlasting others, patience/strength/wisdom and reciprocal earth respect. Lowercase name is supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92474,
+      "englishTitle": "Falling With Style",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read ledge/jump, innate air-walking slows fall, forward floating, invented rules/irrelevant points and Rorian landing prank/laughter. Name correction preserves playful voice."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "4515e0f3858157a104ea7bf11d299c05e1f8903814b740729e915ba9831b42f5",
+          "reviewedMyanmarSHA256": "8e92e67349e39ee136117ff8e5f7d3cd52f2dda9171cfdbfbcfb6892603b1cb9",
+          "priorMyanmarSHA256": "791e0fbe1aaa6485a9fb5a191d1ab5ae7e7ba6c225b0ffcd423e23e1021cccab",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92474",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "7da5cd8758da1e8305ec20fd39f4c81bb7234b3837bee39160a2e3c1bfcf42b9",
+          "notes": "Read ledge/jump, innate air-walking slows fall, forward floating, invented rules/irrelevant points and Rorian landing prank/laughter. Name correction preserves playful voice."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92579,
+      "englishTitle": "To Valanaar",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read safe pylon/village, report to Valennia in southeastern Valanaar, peacekeeper leadership, expanding cult and Shen'dar friendship. Marker change supported; inherited Stormfist pronunciation still reads Stonefist, flagged below."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "9f46eb3a3b9b2a4b6eaebcf981e1ceb7965d6f2ce1c362fd78ee5ee8478563ea",
+          "reviewedMyanmarSHA256": "5246a571683a36b64c067219764516ff9a17c9221170cc3dad4b983e614edff0",
+          "priorMyanmarSHA256": "f813f74092a3af655cb3f0af80652292a66d81bdfbd1740c7f2a3659386fe8f1",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "additional source-aware correction proposed",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92579",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "66d9d2192dedc5079a70ae8d89ef58b1da9097aeb11568a26458c68c99854c0b",
+          "notes": "Read safe pylon/village, report to Valennia in southeastern Valanaar, peacekeeper leadership, expanding cult and Shen'dar friendship. Marker change supported; inherited Stormfist pronunciation still reads Stonefist, flagged below."
+        }
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "9f46eb3a3b9b2a4b6eaebcf981e1ceb7965d6f2ce1c362fd78ee5ee8478563ea",
+          "reviewedMyanmarSHA256": "5246a571683a36b64c067219764516ff9a17c9221170cc3dad4b983e614edff0",
+          "old": "Valennia Stormfist (ဗာလန်နီးယား စတုန်းဖစ်စ်)",
+          "new": "Valennia Stormfist (ဗာလန်နီးယား စတော်မ်ဖစ်စ်)",
+          "proposedFullField": "လောလောဆယ်တော့ စွမ်းအားတိုင်နဲ့ ရွာက ဘေးကင်းနေပုံရလို့ ဒီအစီရင်ခံစာကို ကျွန်းရဲ့ အရှေ့တောင်ဘက်အစွန်က Valanaar (ဗာလာနား) မှာရှိတဲ့ Valennia Stormfist (ဗာလန်နီးယား စတော်မ်ဖစ်စ်) ဆီ ပို့ပေးစေချင်တယ်။ Valennia က ကျွန်းပေါ်က ငြိမ်းချမ်းရေးစောင့်တပ်တွေရဲ့ ခေါင်းဆောင်ပဲ။ ဒီမှာ ဖြစ်ခဲ့တာကို သူ သိဖို့လိုတယ်။\n\nဂိုဏ်းက အရှိန်နဲ့ ကျယ်ပြန့်လာနေတယ်။ အခုထိ ငြိမ်းချမ်းရေးစောင့်တပ်တွေက တိုက်ရိုက်ထိပ်တိုက်တွေ့ဖို့ ရှောင်နေခဲ့ပေမယ့် အဲဒီကာလတွေ ပြီးသွားပြီ။ Valanaar က တိုက်ဖို့ အဆင်သင့်ဖြစ်ဖို့ လိုတယ်။\n\nဘာပဲဖြစ်ဖြစ် ကျေးဇူးတင်ပါတယ်။ Shen'dar (ရှန်ဒါ) မှာ မင်းအတွက် မိတ်ဆွေတွေ အမြဲရှိနေမယ်၊ <name>။",
+          "reason": "Current English and linked NPC identify Stormfist. စတုန်း is Stone, not Storm; inherited maintained-map spelling mispronounces the identity. Use established Storm core စတော်မ် as in Stormhoof/Stormwind. Assisted reconciliation pending native review."
+        }
+      ]
+    },
+    {
+      "id": 92645,
+      "englishTitle": "Breaking the Breaker",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read commander Belguilos the Breaker, former peacekeeper already off, increased cult danger, possible death mission, survival need and hill-base villa. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "27d737f1a90c63dbe51c6fcc19f7993b0e03fc96dfa22e59d4b95b2823bef9d6",
+          "reviewedMyanmarSHA256": "074d888a2f8b3d57a3414f7240f2274a079d60e22e916581c623ba24a4be28d0",
+          "priorMyanmarSHA256": "41fcf37126709d5fffc75d782e1383a9e2274ae2900595f3a206ed849f07ae78",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92645",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "46c7dab701b4cada267f25b872efd241fd31394472605fd3cc821c5965bc1eac",
+          "notes": "Read commander Belguilos the Breaker, former peacekeeper already off, increased cult danger, possible death mission, survival need and hill-base villa. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92646,
+      "englishTitle": "Confront Lorthuna",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read Lorthuna portal to upper spires, Ayessa/Elaadrin pursuit moments ago, injured speaker staying and specifically finding Ayessa. Reinforcement condition/class retained, distinct from93835."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "f5c0ffde6dc98bb5b2fa12ca9321f2777fffeacda5a7c3730d0204380f84f156",
+          "reviewedMyanmarSHA256": "f106609523ae2676459b87c8c6b8f81f371f75e85a4b289d48a3db2dc9027185",
+          "priorMyanmarSHA256": "8c1a301e85c93e54b3bea71e682ab0467a7f9d9fa762fc85fc91bcf13c2253f7",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92646",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "4bd9c1f516bc5b6b2427c10aa0e7a83fced745ab89115b33df272ad283289eff",
+          "notes": "Read Lorthuna portal to upper spires, Ayessa/Elaadrin pursuit moments ago, injured speaker staying and specifically finding Ayessa. Reinforcement condition/class retained, distinct from93835."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92701,
+      "englishTitle": "To Valanaar",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read same-title step independently: Valennia in southeastern Valanaar, growing cult, peacekeepers ending avoidance and Shen'dar friendship. Name change supported; inherited Stormfist pronunciation flagged."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "9f46eb3a3b9b2a4b6eaebcf981e1ceb7965d6f2ce1c362fd78ee5ee8478563ea",
+          "reviewedMyanmarSHA256": "38fb245cff7235d5878201e103e9e14c9cc8af65846d00cb2a8a9edb0a8a593c",
+          "priorMyanmarSHA256": "37762821ac165c6667254190e69d2e430d6009d38bb0b6920f4f8ab07be52073",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "additional source-aware correction proposed",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92701",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "4e93c184e4cd580ba3850f73fe9b26b71fa363398a5a7d2d0b3bc14ad314ee93",
+          "notes": "Read same-title step independently: Valennia in southeastern Valanaar, growing cult, peacekeepers ending avoidance and Shen'dar friendship. Name change supported; inherited Stormfist pronunciation flagged."
+        }
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "9f46eb3a3b9b2a4b6eaebcf981e1ceb7965d6f2ce1c362fd78ee5ee8478563ea",
+          "reviewedMyanmarSHA256": "38fb245cff7235d5878201e103e9e14c9cc8af65846d00cb2a8a9edb0a8a593c",
+          "old": "Valennia Stormfist (ဗာလန်နီးယား စတုန်းဖစ်စ်)",
+          "new": "Valennia Stormfist (ဗာလန်နီးယား စတော်မ်ဖစ်စ်)",
+          "proposedFullField": "လောလောဆယ် မျှော်တိုင်နဲ့ ရွာက ဘေးကင်းသွားပြီထင်တယ်။ ဒါကြောင့် ကျွန်းရဲ့ အရှေ့တောင်စွန်း၊ Valanaar (ဗာလာနား) က Valennia Stormfist (ဗာလန်နီးယား စတော်မ်ဖစ်စ်) ဆီ ဒီအစီရင်ခံစာကို မင်းပို့ပေးစေချင်တယ်။ Valennia (ဗာလန်နီးယား) က ကျွန်းပေါ်က ငြိမ်းချမ်းရေးစောင့်တပ်ရဲ့ ခေါင်းဆောင်ပဲ။ ဒီမှာ ဖြစ်ခဲ့တာတွေကို သူ သိဖို့လိုတယ်။\n\nဂိုဏ်းက အရှိန်အဟုန်နဲ့ အင်အားချဲ့လာတယ်။ ငြိမ်းချမ်းရေးစောင့်တပ်က အခုထိ တိုက်ရိုက်ထိပ်တိုက်ရင်ဆိုင်တာကို ရှောင်ခဲ့ပေမယ့် အဲဒီနေ့ရက်တွေ ကုန်ဆုံးသွားပြီ။ Valanaar က တိုက်ပွဲအတွက် အသင့်ဖြစ်နေရမယ်။\n\nဘာပဲဖြစ်ဖြစ် ကျေးဇူးတင်ပါတယ်။ Shen'dar (ရှန်ဒါ) မှာ မင်းအတွက် မိတ်ဆွေတွေ အမြဲရှိနေမှာပါ၊ <name>။",
+          "reason": "This same-title step independently identifies Stormfist. Inherited စတုန်း reads Stonefist. Reconcile to Storm စတော်မ် while retaining exact English identity; native pronunciation review remains pending."
+        }
+      ]
+    },
+    {
+      "id": 92703,
+      "englishTitle": "Deliver the News",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read no-longer-stranger thanks, conditional Alvarion return, recovery before windshaper construct inspection, family hesitation, belly gesture and secret implication. Lowercase name preserves discretion/agency."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "43193f8c23364eb0836173fd9fe344c90c44c0a03d7e81b189a3c1a603336aaf",
+          "reviewedMyanmarSHA256": "59e7fb9b50cf6d409bae6683320344894005d830763259a35c832d7eb4452544",
+          "priorMyanmarSHA256": "07580bfb15240acaecc965e5ba892751591991b9d06b806e5c5e22f826468e8e",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92703",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "6ead811dc2bfaa8ad198cb3e9538137c0d5272cc41993f84df11ea33411b4830",
+          "notes": "Read no-longer-stranger thanks, conditional Alvarion return, recovery before windshaper construct inspection, family hesitation, belly gesture and secret implication. Lowercase name preserves discretion/agency."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92834,
+      "englishTitle": "Avenged Tenfold",
+      "fieldsChecked": [
+        "progress"
+      ],
+      "reviewNotes": [
+        "progress: Read disagreement with Windshapers, rejected Al'Aketh peace, dear friend killed by attempted high road and lifelong regret. Removal of sentence absent from primary is supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "progress",
+          "englishSHA256": "d67457c49f3c1a69bb9880df74e9e59ed659bde6485e528d38631f7b71d53cd6",
+          "reviewedMyanmarSHA256": "1d12ad5dc3d1bed8cc29bd1c56811013781520c5574a577ab81a61cd3cfedde2",
+          "priorMyanmarSHA256": "09395f6ecd60c88f5416f16e9c06478102da7430613f06b6209292500e7372a7",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92834",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "cab66ca84c7c0164b68f245fdaae88effc9039846a64437d707c5338db44774e",
+          "notes": "Read disagreement with Windshapers, rejected Al'Aketh peace, dear friend killed by attempted high road and lifelong regret. Removal of sentence absent from primary is supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92880,
+      "englishTitle": "Return to Valanaar",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read time to clear attackers, improved odds, stable-state Valanaar report, reinforcements becoming budding hero and four-winds blessing. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "291b491ddd26d8ec7989e9bff5ad3a902bf1b76abd5a4fdc7d060d2fd97933c9",
+          "reviewedMyanmarSHA256": "23057770786321a1405d640fd1abf8c1a22e23e3e4934db136c2e5c080826004",
+          "priorMyanmarSHA256": "508a285d826c969be2901cf3861ec8715965ed0f1927907b2431382099d0bff2",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92880",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "91a3b64f1a36314e7e7d23bac148aa63abc4212df713bba5119e6852259dbc1d",
+          "notes": "Read time to clear attackers, improved odds, stable-state Valanaar report, reinforcements becoming budding hero and four-winds blessing. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 92947,
+      "englishTitle": "Making Our Move",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read fighters distracting at shrine front while main force flanks, rapid push/High Priestess, skull-cracking and second Hyusaa near steps. Class correction preserves commands/timing."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "fab5f8865e66e22c9147effedf5f9af74a31ebe65a0fab369fcf44ccf231f4f8",
+          "reviewedMyanmarSHA256": "bc7b0d1bf539941080bda2dcf9fd123ab62014005e74defb38ae706470d83893",
+          "priorMyanmarSHA256": "03ab80a03de8817b384c86cd80790080c65fb2a4a22878cb11f73eff20a5b08c",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D92947",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "bc139c0291cf8499ca9efaf0031accb94166890a18cc75eee0cb61110b304a8d",
+          "notes": "Read fighters distracting at shrine front while main force flanks, rapid push/High Priestess, skull-cracking and second Hyusaa near steps. Class correction preserves commands/timing."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 93089,
+      "englishTitle": "What Comes Next",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read thanks to Elaadrin for High Order/Kirin Tor, approved departure, hoped-for arcane stability and conditional player strengthening expedition. Marker and distinction from93090 preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "8dd14144bc5594947ab7faae9944dc4f96467c6be3facb4fb096c73098c5a19b",
+          "reviewedMyanmarSHA256": "5e6271d0e5afaef50c7ce4dbef4af7021722ef4dfc7b574f3b60bb04f5c2d9fa",
+          "priorMyanmarSHA256": "49668b627a5428c2e7e3005e0091fd19fc5e58e369ca63d1d4e548134367705f",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D93089",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "f35bb96aea0509169d1cc1b17dfadec989e4e029d8cbd5dc70204cf84a515944",
+          "notes": "Read thanks to Elaadrin for High Order/Kirin Tor, approved departure, hoped-for arcane stability and conditional player strengthening expedition. Marker and distinction from93090 preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 93090,
+      "englishTitle": "What Comes Next",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read thanks to Ayessa for Windshapers/Earthen Ring, shamans leaving, blessing and hoped-for stability. Name correction supported; static shaman class lacks retained English, flagged below."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b1088b9beb4dc7eee8b1d1116b9e24520b475cf181fb8d9fc3a6ab8faf8dd319",
+          "reviewedMyanmarSHA256": "5b124a39d626ce6036d8d33ccb3dcc1980e87b906a976ac7c698e244b9ac2c00",
+          "priorMyanmarSHA256": "6add410df7e755649bf863a7717727642fcc2870e5f9331944d8109e7b81f359",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "additional source-aware correction proposed",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D93090",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "6bde0bddb1a80db3215d2222505c79b687bcac85bdd67ebab2baf063225932f6",
+          "notes": "Read thanks to Ayessa for Windshapers/Earthen Ring, shamans leaving, blessing and hoped-for stability. Name correction supported; static shaman class lacks retained English, flagged below."
+        }
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "b1088b9beb4dc7eee8b1d1116b9e24520b475cf181fb8d9fc3a6ab8faf8dd319",
+          "reviewedMyanmarSHA256": "5b124a39d626ce6036d8d33ccb3dcc1980e87b906a976ac7c698e244b9ac2c00",
+          "old": "ရှာမန်တွေကို",
+          "new": "Shaman (ရှာမန်) တွေကို",
+          "proposedFullField": "Zephras Isle (ဇက်ဖရပ်စ် အိုင်လ်) အတွက် Windshapers (ဝင်းဒ်ရှေးပါဇ်) နဲ့ “Earthen Ring (အာသန် ရင်းဂ်)” ဆိုတဲ့ မင်းရဲ့ မိတ်ဆွေသစ်တွေ လုပ်ပေးခဲ့တာအားလုံးအတွက် Ayessa (အေးယက်ဆာ) ကို ငါ ကျေးဇူးတင်ကြောင်း ပြောပေးပါ။ Windshapers ရဲ့ Shaman (ရှာမန်) တွေကို ခေါ်ပြီး ကျွန်းက ထွက်ခွာမယ့် အစီအစဉ်ကို ငါ သိပါတယ်။ ဒီခရီးအတွက် မင်းတို့အဖွဲ့ကို ငါ ကောင်းချီးပေးပြီး အောင်မြင်ပါစေလို့ ဆုတောင်းပေးတယ်။\n\nWindshapers ရှာတွေ့လာမယ့် ဖြေရှင်းနည်းဟာ လွန်ခဲ့တဲ့နှစ်တွေအတွင်း ငါတို့ လိုအပ်နေခဲ့တဲ့ တည်ငြိမ်မှုကို တကယ်ပေးနိုင်ပါစေလို့ပဲ မျှော်လင့်ရတာပေါ့။\n\nလေတို့က မင်းနဲ့အတူ ရှိပါစေ၊ <name>။",
+          "reason": "Source explicitly names Windshapers shamans, a recognizable player class. Current field keeps only Myanmar phonetics. Retain canonical English Shaman and maintained first-use pronunciation, with natural Myanmar plural တွေ."
+        }
+      ]
+    },
+    {
+      "id": 93791,
+      "englishTitle": "Speak with Belann",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read growing magic skill, aspiring mages' old High Order tradition, own spell focus, Belann in Valanaar and more than a century crafting staves/wands. Lowercase name supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "53e2a16bd2261687712561766b98d492f62526c70031a31d6f23518532ea56de",
+          "reviewedMyanmarSHA256": "bb4af1bbaee66f4eaaffe6638fa1c7217813f30d98a5bcf24c591970acdfd094",
+          "priorMyanmarSHA256": "53afca6126229885f906177dcfec8aa0b3015c2f40f6f94dac68b163ed388704",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D93791",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "0cb5750ee04ad6332be3c3e6f9581efdd8d74819635363e75ba31a5d5436ab45",
+          "notes": "Read growing magic skill, aspiring mages' old High Order tradition, own spell focus, Belann in Valanaar and more than a century crafting staves/wands. Lowercase name supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 93835,
+      "englishTitle": "Confront Lorthuna",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read portal pursuit/injured speaker/reinforcements independently of92646. This branch specifically finds Elaadrin; proposed Myanmar preserves that and lowercase class."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "24852b9ca10eeffbd85c08dbdea024cc816833e4f9a759763f157750d3cdff12",
+          "reviewedMyanmarSHA256": "c0cc96af811661fc02498483ad84140c0e67bcde42ae8de2624b09b4e0440823",
+          "priorMyanmarSHA256": "36ed8e39593e874992ecac5c163a29533e8fdd3e46f183eb997dea9a288b4211",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D93835",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "8a36009dc66f7ffd7b7ae4d093e559edc7966026089e120a137264c06bb9a231",
+          "notes": "Read portal pursuit/injured speaker/reinforcements independently of92646. This branch specifically finds Elaadrin; proposed Myanmar preserves that and lowercase class."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94006,
+      "englishTitle": "The Great Ursera Spirit",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read study readiness, wise Urs'endris, generations of ursera-shape teaching, withering sky-falling domain and northeast waterfall in Shrine of Akir shadow. Marker change preserves unusual sky-domain meaning."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "66f97ec9451c2c2f72bf15dab0ea2dc501aed91d585506650eb344905590b0b7",
+          "reviewedMyanmarSHA256": "aab9b7521327b51b07dd6757ef407cd55c85cf851625dde1feae80b79ab91e4d",
+          "priorMyanmarSHA256": "23a47e6c8fe52c379d6d0ab36ff287a25e01288dc49875033f8f02d3f8045171",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94006",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "11b47b1e509767e30109e1fd64388b31767401af2e320838117532b84d4decba",
+          "notes": "Read study readiness, wise Urs'endris, generations of ursera-shape teaching, withering sky-falling domain and northeast waterfall in Shrine of Akir shadow. Marker change preserves unusual sky-domain meaning."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94050,
+      "englishTitle": "Training the Beast",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read pet taming versus still-needed training, sister Quel'dora as best teacher and wind farewell. Lowercase class and taming/training distinction supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "a7facd8377c356d920933c2b7ac7440abcd66be7e9402f962f2ab20059764ec4",
+          "reviewedMyanmarSHA256": "28fe723a8c6cdde36e0845779f2b9d1e2e3cb2f0deb6286cbd667925774a5704",
+          "priorMyanmarSHA256": "a12d66be8bb5d13cc0e0b3e62f4d4d460914649fddd506221131565db759add1",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94050",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "fa8e6a59e176ee8e25b0761557076bb8df0dd753cb8712377f1e8deb85d82872",
+          "notes": "Read pet taming versus still-needed training, sister Quel'dora as best teacher and wind farewell. Lowercase class and taming/training distinction supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94414,
+      "englishTitle": "The Anchors of Zephras",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read ancient anchor pylon, wind-spirit gifts sustaining island, unstable magic without visible distress/lost splendor and offered perception gift. Lowercase name supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "864f93e2efa6051c5a4113683e62d7a4c6331f35c76a50ae9b65d7861e5bd79a",
+          "reviewedMyanmarSHA256": "2c0512b83b24a60c9b6709f6c5df2efc5bb0ca39c2d87b72fdbdf4548e4798e1",
+          "priorMyanmarSHA256": "731f5eaf246554eadec8ecf7967743759dcb16d2aac8796a0303f785ed8274a3",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94414",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "03e22383117d904c5bfa1c4935c90890e55434c5ee2cd705816658eb1d4d832c",
+          "notes": "Read ancient anchor pylon, wind-spirit gifts sustaining island, unstable magic without visible distress/lost splendor and offered perception gift. Lowercase name supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94435,
+      "englishTitle": "A Lesson in Divinity",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read gratitude despite unknown motive, conditional thanks to sender, Tanis Alderwood friendship and lowercase class. No unsupported resurrection claim is added."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "f6628e5601e4903606659ff6d815bd3d1a91fdc31eca6e6a52a3739fe004bf53",
+          "reviewedMyanmarSHA256": "7a5143a62bb0ac405d2b7b2f549e44c507c522ca92721f9c9e1b9bc0f6052f83",
+          "priorMyanmarSHA256": "7789c1e32e1f4c491009151be3e3b973ba259a9c7e9e218b5c1f38153ac2ccf2",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94435",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "50fd631da6692d2cb296da25fe61fd3c452f71e799f6a2c3800a8ed5f9d860f0",
+          "notes": "Read gratitude despite unknown motive, conditional thanks to sender, Tanis Alderwood friendship and lowercase class. No unsupported resurrection claim is added."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94438,
+      "englishTitle": "A Lesson in Divinity",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read return from death, surprise at class rescuer, Symbol unseen since prewar Lordaeron, Billmuth/Scarlet scouting and further Forsaken help. Prior Myanmar preserves names/uncertainty/marker."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "901345f1221f78654943dabb17ba6325ff7671774cd2fa717cc8137283905f4e",
+          "reviewedMyanmarSHA256": "c3e94713956557333e152d5d241c38a8e36a4b7d1230e4e067dfa48ac835a780",
+          "priorMyanmarSHA256": "c3e94713956557333e152d5d241c38a8e36a4b7d1230e4e067dfa48ac835a780",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94438",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "8f962aa5198066eab7095e7066b709d9b27fee4b7689116d12a6c40710ac4a6c",
+          "notes": "Read return from death, surprise at class rescuer, Symbol unseen since prewar Lordaeron, Billmuth/Scarlet scouting and further Forsaken help. Prior Myanmar preserves names/uncertainty/marker."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94441,
+      "englishTitle": "A Lesson in Divinity",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read thanks to Danitha, Deathguard hearing of Bandarion Keep paladins, paladin promise/Forsaken pride and Dark Lady blessing. Lowercase name and current Bandarion identity supported.",
+        "complete: Read Symbol/class readiness restriction, redemption gift/resurrecting fallen companions, wise use, Forsaken and Bandarion paladins and winning fellow Forsaken hearts. Bandarion replaces obsolete Tyr's Watch; markers/annotations supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "008c80ec561d1260d7340bbfb93ef34f4cbc16d3418d1dda027835c5f45cc991",
+          "reviewedMyanmarSHA256": "34bd860099f2cf71c93fd56315127127e3d045af5e482f459ea959d2bb9aa4f8",
+          "priorMyanmarSHA256": "72e2439a2d7aa513b4f51e651a125098f4c57a560bde3f2d4434cb3fbcb78f17",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94441",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "5268fabcddfa651fed49fa82f30eb16ed62fc053ca9e94837301ba68f7b658df",
+          "notes": "Read thanks to Danitha, Deathguard hearing of Bandarion Keep paladins, paladin promise/Forsaken pride and Dark Lady blessing. Lowercase name and current Bandarion identity supported."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "d5e70b015c2f9e962d1bb5263661769f322a987ca639869373411567fd3b394b",
+          "reviewedMyanmarSHA256": "16ffcd1fd1de5fddc707aa582efc6f11c3779c6a88c088e692b93363d709bb4b",
+          "priorMyanmarSHA256": "9d25be0cb7eaca826f4f1f442a01b959c26ccc3a33fb614991e5e456e04b35cb",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94441",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "5268fabcddfa651fed49fa82f30eb16ed62fc053ca9e94837301ba68f7b658df",
+          "notes": "Read Symbol/class readiness restriction, redemption gift/resurrecting fallen companions, wise use, Forsaken and Bandarion paladins and winning fellow Forsaken hearts. Bandarion replaces obsolete Tyr's Watch; markers/annotations supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94484,
+      "englishTitle": "Unnerving Silence",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read Shadowgale destination, northeast druid cave, overdue correspondence, ruined Ban'aethall/unrest, feared catastrophe and Elegael reassurance request. Lowercase name supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "313f7fb0184d3af15fa21e67e0ba042b553569cb83620d47b113e15684c493b4",
+          "reviewedMyanmarSHA256": "9b9bd38bc814d24c7a7d219124fd161173d958505db7e7887fed23e18624325e",
+          "priorMyanmarSHA256": "d0084de657a8a1373b09e15629364afe03f82bcb2a6f08774273a2fd3590eb50",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94484",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "fc67ff826a479487f8ab1710a23d5ab2eb2834e37edc54983b4c1bd56f680731",
+          "notes": "Read Shadowgale destination, northeast druid cave, overdue correspondence, ruined Ban'aethall/unrest, feared catastrophe and Elegael reassurance request. Lowercase name supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94489,
+      "englishTitle": "The Wounds of Betrayal",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read Elegael paling at Jorel/other druids' fate, interrupted grief, suppressed sob/teeth/snarl and oath against ALL cult allies. Canonical Al'Aketh correction preserves anger."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "515ede3f79315dd10f1cc7fde487c128c20ecf82e1b76493d3c433a74e4a68b2",
+          "reviewedMyanmarSHA256": "f1a793b07149cb94e48c233f0c6993254b93fab93a686ad5c5c2c53fbf11106e",
+          "priorMyanmarSHA256": "55bbd097eca8f869f989d95d3c47d891cf22349c3b77c67b3ea2918b736b8c4b",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94489",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "50ab070611c1ea79b98d3cda7ac7b957387ec02c942970218cbd74ff84dfc4ee",
+          "notes": "Read Elegael paling at Jorel/other druids' fate, interrupted grief, suppressed sob/teeth/snarl and oath against ALL cult allies. Canonical Al'Aketh correction preserves anger."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94490,
+      "englishTitle": "Ripped Missive",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read pylon attack aim, druids as inconvenience, shaking rage/fangs/death threat, conditional Valanaar orders and possible traitor. Correct Valanaar and Lotheluum handoff retained."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "f376618a37760701f00a83e686bb0027d6452783123200a3dddd9060675c760c",
+          "reviewedMyanmarSHA256": "6672a2c566737e046a1de7f8ba90adfc67c1cbb961e52e5a4f749e038c5b0ff2",
+          "priorMyanmarSHA256": "87ef4143f317f6f42bc022b934887f9d57acd9b7eb6e18a62f1d161b4c53199f",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94490",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "bc301c897ea79120b82b0e4addfa0a4d7178834c6481339ae2899d8b2f585f6b",
+          "notes": "Read pylon attack aim, druids as inconvenience, shaking rage/fangs/death threat, conditional Valanaar orders and possible traitor. Correct Valanaar and Lotheluum handoff retained."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94491,
+      "englishTitle": "The Fate of the Den",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read Valanaar correspondent feeding cult, speaker unable to travel, Lotheluum needing dead's fates/news, handling aftermath despite damage, swift departure/future hope amid more cult kills. Lowercase name supported.",
+        "complete: Read terrified Lotheluum gesture, broken apology/unutterable loss, conditional authentic letter, at-best accomplice/at-worst traitor and immediate High Elder report. Prior Myanmar preserves marker/grief."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "210835140078d6e371fd2354b70ebf605bd9002c18e14a65133ac77239ae6564",
+          "reviewedMyanmarSHA256": "837b9d4c1af1cddf38f0abd8e72e58995666797a072a742e217ba620cba20d00",
+          "priorMyanmarSHA256": "4509c039c0804e45dd5ae7fcd8f31adbcb95dea92069482ca8f504d4bbb1e3bc",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94491",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "4e2ed173f5a68c75e87bb59dca78c6868a67a8b0513a623be14434bd9c7cd90b",
+          "notes": "Read Valanaar correspondent feeding cult, speaker unable to travel, Lotheluum needing dead's fates/news, handling aftermath despite damage, swift departure/future hope amid more cult kills. Lowercase name supported."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "fb5fcac7e252d12a3581d85814c484ed25b29012fe6b5adad11ea07d1de9215e",
+          "reviewedMyanmarSHA256": "b59ab4b58494673ff2bb20c8c6ed7165cfd73aef48e327b4bc7fdb17d1b34517",
+          "priorMyanmarSHA256": "b59ab4b58494673ff2bb20c8c6ed7165cfd73aef48e327b4bc7fdb17d1b34517",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94491",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "4e2ed173f5a68c75e87bb59dca78c6868a67a8b0513a623be14434bd9c7cd90b",
+          "notes": "Read terrified Lotheluum gesture, broken apology/unutterable loss, conditional authentic letter, at-best accomplice/at-worst traitor and immediate High Elder report. Prior Myanmar preserves marker/grief."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94792,
+      "englishTitle": "Taming the Beast",
+      "fieldsChecked": [
+        "progress"
+      ],
+      "reviewNotes": [
+        "progress: Read name-addressed encouragement and future great dynamic class. Replacing fixed Hunter with lowercase class exactly follows current primary."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "progress",
+          "englishSHA256": "a2eea1f31325af218e5d06da713c2f0be89c8c7ac370d2d70792c7c1bf8b65db",
+          "reviewedMyanmarSHA256": "07049d4044616d6337bde0a3e69053098eb6863cef4fcdfa2b84325a50f9c4a9",
+          "priorMyanmarSHA256": "d2930576d14e3a5df85c79911fe09ef070d6d4191a358ba666fbd8aebf22bee6",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94792",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "775f1c1e98cd0efba1a1697704db813b6caee8d612c7b22c9429a58aeb2c20ec",
+          "notes": "Read name-addressed encouragement and future great dynamic class. Replacing fixed Hunter with lowercase class exactly follows current primary."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94793,
+      "englishTitle": "Training the Beast",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read taming versus training, lifelong woodsman Isaac Chan and young dynamic class farewell. Proposed class replacement and NPC identity supported.",
+        "complete: Read fledgling class, training/guidance, new pet abilities, feeding/revival if fallen, balance/nature awe and later conversation. Exact lowercase name/class markers correct."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "cbe8488645867a256555ab068c91a5fcc5890b0247803676c127d1014761a96b",
+          "reviewedMyanmarSHA256": "bca7e9125eac809136b3b8c406f8a171d31a4784f5eb7e69e3e82eafd4477ef5",
+          "priorMyanmarSHA256": "ae56b1e0716caec4e16ea76470adde56eadd4cf0bacf0b12075e3fefaa648c47",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94793",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "66e07d47c1f3b2df648dad2fc15b11a584abe401bfd547886a02cd747fd814fc",
+          "notes": "Read taming versus training, lifelong woodsman Isaac Chan and young dynamic class farewell. Proposed class replacement and NPC identity supported."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "70bd361438940feec9f19497bfffce103b3a66836ec583e1800c256c1a16d87e",
+          "reviewedMyanmarSHA256": "17ee8df5033282f97c8d497005786b03c13f6c94d09eaf6b71061d20d51dca25",
+          "priorMyanmarSHA256": "b5d6bfcf4f39b5aeeab45f01a12dee1f041a98151b7beab3b0e600da2de1f533",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94793",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "66e07d47c1f3b2df648dad2fc15b11a584abe401bfd547886a02cd747fd814fc",
+          "notes": "Read fledgling class, training/guidance, new pet abilities, feeding/revival if fallen, balance/nature awe and later conversation. Exact lowercase name/class markers correct."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 94947,
+      "englishTitle": "Welcome to Azeroth",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read Bolvar regency, Kirin Tor expecting High Order members rather than single emissary, long-absent High Elf guest, King's welcome/free Alliance travel and Skyborne. Plural-member change supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "abf6f508b3fcf8c981d1be538934e95e6ea984ead3702cb725f8d7d4bdccee76",
+          "reviewedMyanmarSHA256": "da193e39847417e1d7927d67c48deef27292b41779380766c325adf429b987ea",
+          "priorMyanmarSHA256": "b2b6388df9fb17918c2a0e5fdc775fb01030a26940283cd881160e7793bfaa2b",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D94947",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "ca5c634e2b9c3740deea51a8e271aa27d2dddf4bcb6b001994a751502d4d6e43",
+          "notes": "Read Bolvar regency, Kirin Tor expecting High Order members rather than single emissary, long-absent High Elf guest, King's welcome/free Alliance travel and Skyborne. Plural-member change supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 95349,
+      "englishTitle": "The Earthen Ring",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read cult delay, remaining Valanaar while handful of Windshapers advance, Alaana receiving Mulgore arrivals, exploration before others join, lodge-exterior dock/skycutter readiness and Banu-Alah. Name correction supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "dbc255b914980b61372f7c973292ddb1ef74792b317a6fe4adb2731e1472ded9",
+          "reviewedMyanmarSHA256": "8f7bcf4f666f4d59ffc337f9432318912a3e39271e95a77cdbae456dfe250ebc",
+          "priorMyanmarSHA256": "d0af16c45a5f8174d5d50eeb79a4c1eb3a50f7e8f969b9c9409d0dcb3f813156",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D95349",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "562024ef0d5ace50074f68ca1f66d72328199f95ab47436d46d82e8b126f6c54",
+          "notes": "Read cult delay, remaining Valanaar while handful of Windshapers advance, Alaana receiving Mulgore arrivals, exploration before others join, lodge-exterior dock/skycutter readiness and Banu-Alah. Name correction supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 95350,
+      "englishTitle": "Welcome to Azeroth",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read allies key to survival, Earthen Ring/Horde, nearby Thunder Bluff, Orgrimmar further east, central flight master and Windshaper contact with Warchief Thrall. Lowercase name supported.",
+        "complete: Read Thrall/Horde, Earthen Ring expecting Windshaper members, unexpected High Elf guest in Orgrimmar, travel permission/honor. Prior Myanmar preserves plural members/class."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "80ed1e26088e7ef1fe871d05f67852d97f2af3345debc6b5d59858c5e82f69d6",
+          "reviewedMyanmarSHA256": "587e562888323b178684c2c075168e1391ab8e76db7cfd89dc93e8fadd4e8ba7",
+          "priorMyanmarSHA256": "b14160d83a1d67c10f59456b5a4962f643368858958c8af3e8db203938549cf0",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D95350",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "b90cd02871526e30e4ab0842dc5b7cca9a5c14cc6ea0af690c1905fac8a8af15",
+          "notes": "Read allies key to survival, Earthen Ring/Horde, nearby Thunder Bluff, Orgrimmar further east, central flight master and Windshaper contact with Warchief Thrall. Lowercase name supported."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "2281fd5d2a37e2a5518bf89e5c24d81a093f60295fa7e5bd61b1e8b7b9e965e6",
+          "reviewedMyanmarSHA256": "43706e1b0334e76b3ef31b523984dc0497ee533d138280e75bd205dec2b9fa08",
+          "priorMyanmarSHA256": "43706e1b0334e76b3ef31b523984dc0497ee533d138280e75bd205dec2b9fa08",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D95350",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "b90cd02871526e30e4ab0842dc5b7cca9a5c14cc6ea0af690c1905fac8a8af15",
+          "notes": "Read Thrall/Horde, Earthen Ring expecting Windshaper members, unexpected High Elf guest in Orgrimmar, travel permission/honor. Prior Myanmar preserves plural members/class."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 96607,
+      "englishTitle": "The Great Outdoors",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read restless adventurer seeking fortune/glory, wild survival skills, learning condition and sitting by fire for instruction. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "d42680608232a44fd2bb3a2ac0aab46086aaabdab5fc190ff3e30213486b33c7",
+          "reviewedMyanmarSHA256": "6dc7a667d16516455667f6c716379b1e825d69180d564b4f7a8e5c413b6090bf",
+          "priorMyanmarSHA256": "e41cf5b37c43deaf3e621f36e9fcd3a59b518ff3146287f99b8089e493ddb9ce",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D96607",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "4aa87116caaf0e7f84a67496bad5abb7f0399c161c546929759ab6a9ded5049e",
+          "notes": "Read restless adventurer seeking fortune/glory, wild survival skills, learning condition and sitting by fire for instruction. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 96646,
+      "englishTitle": "Camping 101: Cooking",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read camping knowledge, cook training/campfire as first step, tasty food versus camp foundation and class address. Lowercase class preserves practical teacher voice."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "7176391751e9df90c672427c762c0c565d4ed73d0844f29c6c7037cc728ac1c2",
+          "reviewedMyanmarSHA256": "00cb8eb41b2ce09f8cfe351ba10f63100e4dfa6b80be23496cbce8d722dc0ad8",
+          "priorMyanmarSHA256": "f48cf393f03cbe83ad2ebef20ddb6ad3bd428bbbe989146d097e1c6d681d446f",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D96646",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "fbb08736e5f32c65070b71f2785e6f20b008b265b9148a3ae26ad78709b8d346",
+          "notes": "Read camping knowledge, cook training/campfire as first step, tasty food versus camp foundation and class address. Lowercase class preserves practical teacher voice."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 96656,
+      "englishTitle": "The Adventurer",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read trust earned through Scarlet opposition, unusual task and new female adventurer down road near Brill. Lowercase name supported; target's agency retained."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "5afdc79f49a6ca83ccf8e3e1120c9a62716eae32821dfad5230e9af7cbed63ff",
+          "reviewedMyanmarSHA256": "fb9b031b9b3ee6b79d7dd25ee87f6bf170c1fba423e98e5027996d9e11241635",
+          "priorMyanmarSHA256": "77565d2b65bbdf7b3b26aaf4e0c14431d01ef0d4803dd4152349380f93212d48",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D96656",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "d6b68daf1b6a12b0696cf1c914102a817781bb086d435736e24eeffabadde310",
+          "notes": "Read trust earned through Scarlet opposition, unusual task and new female adventurer down road near Brill. Lowercase name supported; target's agency retained."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 96658,
+      "englishTitle": "Camping 101: Cooking",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read separate cooking-step text: camping knowledge, cook/campfire first steps and camp foundation beyond tasty food. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "7176391751e9df90c672427c762c0c565d4ed73d0844f29c6c7037cc728ac1c2",
+          "reviewedMyanmarSHA256": "831b6874d3181887c78e4ab1ccb3b54411a6a4980a0f1afa9c694c00b803ade0",
+          "priorMyanmarSHA256": "23446aacb448a38fac1073e82e91c7b7f75b96127eb2845bd71319b570591d33",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D96658",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "bd2654f84250345f54a3be9152795b9d4680f35370f3554b904dcae814147a39",
+          "notes": "Read separate cooking-step text: camping knowledge, cook/campfire first steps and camp foundation beyond tasty food. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 96875,
+      "englishTitle": "Beasts of Thunder Ridge",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read growing Orgrimmar, peon wall/roof linings, Thunder Ridge lizard hides too thick for armor but good building material, lighter cured hides and skill challenge. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "4e73391aa91fa0356f3f33898d5a2ea312e7f006e2bb3c4869375c0c3989030a",
+          "reviewedMyanmarSHA256": "2f0448da4ff2e650178349c2e14c63f32e04e476fab43d0f0063b9116428c351",
+          "priorMyanmarSHA256": "9fdb7713e373e92335eb9de91d1b595cd8eadf8d9f41b734b4c107e0b64b2033",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D96875",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "abaab684924872391e7ff418e8f71c82388d83e76079d3d49e3aa42f2264ccc2",
+          "notes": "Read growing Orgrimmar, peon wall/roof linings, Thunder Ridge lizard hides too thick for armor but good building material, lighter cured hides and skill challenge. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97243,
+      "englishTitle": "Call of Fire",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read Skywall within elemental plane, four element spirits/listening, fire-attuned shen'dorei Olariaan and Shrine of Flames in Gustberry Lowlands at island edge west of Valanaar. Prior geography/identities preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "2154c10c1c9a3f3704537df8fdec049adefc166bd2b9dbdd999cda7b1e4560ce",
+          "reviewedMyanmarSHA256": "96a8c684cd4ba80a46233ec8136172536820a666b28a331f54b53fd5bb52b643",
+          "priorMyanmarSHA256": "96a8c684cd4ba80a46233ec8136172536820a666b28a331f54b53fd5bb52b643",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97243",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "b906a58385624c31381523ade88566675e50c8c8d828daa880e5faf015191064",
+          "notes": "Read Skywall within elemental plane, four element spirits/listening, fire-attuned shen'dorei Olariaan and Shrine of Flames in Gustberry Lowlands at island edge west of Valanaar. Prior geography/identities preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97558,
+      "englishTitle": "Hides for the Forsaken",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read undead skin never self-healing, cursed survival taking from living, replacement hides of different thicknesses/body sites, duskbat membranes/darkhound hide/Vile Fin murloc skin. Name correction preserves morbid explanation."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "52770ab682d701f19ee229a8048f962a0a2aa9e8243592c718890e6141ab3e4f",
+          "reviewedMyanmarSHA256": "1f74a12df17a6ebf0f51436d2545c9cbd3956263738d8a0ac753485f483b3e10",
+          "priorMyanmarSHA256": "90535c03e2540605d1bbe026f49ea58eff8202a31ca7ae3e3c1195fee3df58ec",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97558",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "9f33b60ca35054fab9b05fb7c26102a1f0d803892343c32dfd5e7f660e549b96",
+          "notes": "Read undead skin never self-healing, cursed survival taking from living, replacement hides of different thicknesses/body sites, duskbat membranes/darkhound hide/Vile Fin murloc skin. Name correction preserves morbid explanation."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97919,
+      "englishTitle": "Camping 101: First Aid",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read honorable/pragmatic First Aid for class, possible instructor, camp First Aid Kit and healing that could save lives. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b000be442de949b163129ec5739777cd70cc84dfdca6a751294cbba936e98b3a",
+          "reviewedMyanmarSHA256": "6e3b89d535b13c7f7e195dde51eefc7a875b884f7f36e0d0f16d0df6375c2bd8",
+          "priorMyanmarSHA256": "0a61d2f209074fa15db6e5f023dac4995d9489d53a105d7912cb4a80eed16950",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97919",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "277a1d015563ca03fee9b48a4b4071f6083e1aa938a05fdc34006b025a985d9d",
+          "notes": "Read honorable/pragmatic First Aid for class, possible instructor, camp First Aid Kit and healing that could save lives. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97921,
+      "englishTitle": "Camping 101: Herbalism",
+      "fieldsChecked": [
+        "progress"
+      ],
+      "reviewNotes": [
+        "progress: Current primary/secondary have no progress. Available prior English Yes, I can teach you matches retained Myanmar. Preserve inherited release field with explicit current-source limitation; no current/live pass claimed."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "progress",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "cfb7781783453e170b2601fc1bb98d84dd2e74221dd560c4868d3661cb36fcb6",
+          "priorMyanmarSHA256": "cfb7781783453e170b2601fc1bb98d84dd2e74221dd560c4868d3661cb36fcb6",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97921",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "bcd97ee3d6e35954b6683475580e2ad80f5750583a7f2be848c57e690ddc0cb3",
+          "notes": "Current primary/secondary have no progress. Available prior English Yes, I can teach you matches retained Myanmar. Preserve inherited release field with explicit current-source limitation; no current/live pass claimed."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97926,
+      "englishTitle": "Making Do",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read sincere wish aid were easy, widespread need, diminished/thin Stormwind funds and reply to elder when next seen falling short of hopes. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "73fcf4de078d8eb3a6e7964a5359bd7d3b9c565105338301ed146f5c38c0959b",
+          "reviewedMyanmarSHA256": "96e6141484042048de61897ecc8f5355814ae44ec38a57ff903022b79550d47e",
+          "priorMyanmarSHA256": "86cb7928c08d1112b3a3ea7bd46f67b0bdf1c71fca40fabc34cefd8b2415e512",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97926",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "090e57445a7ac51314215fd3e98e4f46dd703dc4386818124c9a2eebf5945640",
+          "notes": "Read sincere wish aid were easy, widespread need, diminished/thin Stormwind funds and reply to elder when next seen falling short of hopes. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97955,
+      "englishTitle": "Camping 101: First Aid",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read separate First Aid route: honorable/practical class pursuit, Kit instructor, inevitable injuries and possible life-saving camp healing. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b000be442de949b163129ec5739777cd70cc84dfdca6a751294cbba936e98b3a",
+          "reviewedMyanmarSHA256": "7e4176daf1393137ed2ffc50b5e86979e9c765ee79ed884dcb167c1751231bc5",
+          "priorMyanmarSHA256": "a8800a0920cea1b3ecf30b52fe75eeaee58eb2ee061675e4d3000abad99e1a46",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97955",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "832cac74b9457c5e9c90c2f7dc3acef1a1767e486a1fec975fbd30ae14621018",
+          "notes": "Read separate First Aid route: honorable/practical class pursuit, Kit instructor, inevitable injuries and possible life-saving camp healing. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97965,
+      "englishTitle": "Camping 101: First Aid",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read other First Aid route independently, class address, possible instructor and conditional saved lives. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b000be442de949b163129ec5739777cd70cc84dfdca6a751294cbba936e98b3a",
+          "reviewedMyanmarSHA256": "6e3b89d535b13c7f7e195dde51eefc7a875b884f7f36e0d0f16d0df6375c2bd8",
+          "priorMyanmarSHA256": "0a61d2f209074fa15db6e5f023dac4995d9489d53a105d7912cb4a80eed16950",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97965",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "aa5761794d750fb2b81b04fd052b8d97c0c42583f4087756f8c43abb397ed7b9",
+          "notes": "Read other First Aid route independently, class address, possible instructor and conditional saved lives. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97969,
+      "englishTitle": "Camping 101: Leatherworking",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read leatherworker, tent instructor, cool on hot days/dry in rain and rest to stay sharp. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b74bc56e1071acf121fab0e5c919ec7bd72306b695fa964a7f58ae3397e79d6b",
+          "reviewedMyanmarSHA256": "8ac0da13a5532f67293d819ebcd3c235156565518598905fba61d4ae9ff101f2",
+          "priorMyanmarSHA256": "1c4ecf95db33da27ca690888eaa470c73fe6bffb07cd72c5379f3995bab3c3b9",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97969",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "ac98f8376f5760c468643e916939b5100e28234c65389a3d9539c53f74d9b1e9",
+          "notes": "Read leatherworker, tent instructor, cool on hot days/dry in rain and rest to stay sharp. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 97977,
+      "englishTitle": "Nature's Call",
+      "fieldsChecked": [
+        "objective"
+      ],
+      "reviewNotes": [
+        "objective: Read exactly4 Gnarlpine Totems for Tarindrella. Prior Myanmar preserves quantity, named item/annotation and recipient."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "59ab85c94245e0f3f7e43421806274330b419d46f467735a11ff7b09a623cf5b",
+          "reviewedMyanmarSHA256": "088794747811480317fa131252014d07460c92513363a59b8530ffc804ace83e",
+          "priorMyanmarSHA256": "088794747811480317fa131252014d07460c92513363a59b8530ffc804ace83e",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D97977",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "06cd563e26b674f55ebe0bd361866277446c0d1b169da0b718fa521a5c774aed",
+          "notes": "Read exactly4 Gnarlpine Totems for Tarindrella. Prior Myanmar preserves quantity, named item/annotation and recipient."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98013,
+      "englishTitle": "Swelling Forces",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read hostile ruins, cursed Highborne now naga, northeast clearing, former forest shelter/Twilight harm and war-for-war resolve. Marker change supported; Scores and once-great-city meanings omitted, consolidated correction proposed."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "da2503cb64419644f0b6ff4ee89bd700d7417ebba6013e2f4c5e46f375d9d397",
+          "reviewedMyanmarSHA256": "c86558a68355f648d9716e9b3dfa1300c44a4bb49e23d74306117b62ad6f02a0",
+          "priorMyanmarSHA256": "d0bfe7b0e90deb24a607e90be0112a486f36872e714339a05295f2e9cb6ef85d",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "additional source-aware correction proposed",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98013",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "db7ce3ccbd8ee6444962a76a5eace4b73a068a0dc31fb5e01a2bf328970a52d1",
+          "notes": "Read hostile ruins, cursed Highborne now naga, northeast clearing, former forest shelter/Twilight harm and war-for-war resolve. Marker change supported; Scores and once-great-city meanings omitted, consolidated correction proposed."
+        }
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "da2503cb64419644f0b6ff4ee89bd700d7417ebba6013e2f4c5e46f375d9d397",
+          "reviewedMyanmarSHA256": "c86558a68355f648d9716e9b3dfa1300c44a4bb49e23d74306117b62ad6f02a0",
+          "old": "တစ်ချိန်က Highborne (ဟိုင်းဘောန်) ဖြစ်ပြီး အခု Naga (နာဂါ) လို့ခေါ်ကြတဲ့ ကျိန်စာသင့်သူတွေဟာ မြို့ဟောင်းထဲ လှည့်လည်နေတယ်။ အရှေ့မြောက်ဘက်သွားပြီး သူတို့ကို ရှင်းလင်းပါ။",
+          "new": "အခု Naga (နာဂါ) လို့ခေါ်ကြတဲ့ ကျိန်စာသင့် Highborne (ဟိုင်းဘောန်) အမြောက်အမြားဟာ တစ်ချိန်က ခမ်းနားခဲ့တဲ့ မြို့ထဲ လှည့်လည်နေကြတယ်။ အရှေ့မြောက်ဘက်သွားပြီး ဒီနယ်မြေကနေ သူတို့ကို ရှင်းလင်းဖယ်ရှားပါ။",
+          "proposedFullField": "အပျက်အစီးထဲ ဝင်ဖို့ စိတ်ကိုတင်းထားပါ၊ လူငယ်ရေ။ အဲဒီမှာ အလွယ်တကူ သွားခွင့်မရဘူး။\n\nအခု Naga (နာဂါ) လို့ခေါ်ကြတဲ့ ကျိန်စာသင့် Highborne (ဟိုင်းဘောန်) အမြောက်အမြားဟာ တစ်ချိန်က ခမ်းနားခဲ့တဲ့ မြို့ထဲ လှည့်လည်နေကြတယ်။ အရှေ့မြောက်ဘက်သွားပြီး ဒီနယ်မြေကနေ သူတို့ကို ရှင်းလင်းဖယ်ရှားပါ။\n\nသူတို့ရဲ့အရင်ဘဝ မရှိတော့ဘူး။ Twilight's Hammer (တွိုင်းလိုက်တ်စ် ဟဲမာ) ကို ကူညီရင် တစ်ချိန်က ခိုလှုံခွင့်ပေးခဲ့တဲ့ သစ်တောတွေအတွက် ပိုနာကျင်စရာပဲ ဖြစ်မယ်။\n\nသူတို့လိုချင်တာ စစ်ပွဲပဲ၊ <class>။ ငါတို့လည်း စစ်ပွဲနဲ့ ပြန်တုံ့ပြန်မယ်။",
+          "reason": "Source says Scores of cursed Highborne roam the once great city. Prior wording conveys plural creatures and an old city but omits large quantity and former greatness. Restore both without an invented exact count; preserve northeast and clearing them from this land."
+        }
+      ]
+    },
+    {
+      "id": 98025,
+      "englishTitle": "WANTED: Jai'vhanel",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read public bounty, Jai'vhanel/Swordfeather, mad owl/Auberdine travelers, north of Ameth'Aran/mountain base, exactly one jet-black feather, Sentinel Glynda claim and council signature. Prior operational detail preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "2bdb098c0da2907775ff33c39b87fdfa4e87c776b83586ba1471e1bcc26dc44e",
+          "reviewedMyanmarSHA256": "355fbcef798c38ae19ef47b6df2851d113741655527d82e7a1dd7eb62a267601",
+          "priorMyanmarSHA256": "355fbcef798c38ae19ef47b6df2851d113741655527d82e7a1dd7eb62a267601",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98025",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "9a4a7309180912204f99516e055b680993c5b14c5e7ea812e5ff08f483d3f91c",
+          "notes": "Read public bounty, Jai'vhanel/Swordfeather, mad owl/Auberdine travelers, north of Ameth'Aran/mountain base, exactly one jet-black feather, Sentinel Glynda claim and council signature. Prior operational detail preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98248,
+      "englishTitle": "Shipping Label",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read right place/person, associate registration without paperwork, compromised deliveries, Merchant's Favor buying goods/services, starter amount and crate question. Prior Myanmar preserves exchange direction/merchant impatience."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "97bc785cb5cbab1a9c3c17859e693fc195758383e42b6bbc5071b023b6332296",
+          "reviewedMyanmarSHA256": "c7e6bd757906b3827e033dcf20cae6bb2ae9e6faf72986c35fc39e288e83b055",
+          "priorMyanmarSHA256": "c7e6bd757906b3827e033dcf20cae6bb2ae9e6faf72986c35fc39e288e83b055",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98248",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "dd12c922ab7f9dd65b66a2ee2dbbc9e5b3ea35cf44a21dce19e1eb25f5b48f22",
+          "notes": "Read right place/person, associate registration without paperwork, compromised deliveries, Merchant's Favor buying goods/services, starter amount and crate question. Prior Myanmar preserves exchange direction/merchant impatience."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98326,
+      "englishTitle": "Frosthowl",
+      "fieldsChecked": [
+        "objective",
+        "complete"
+      ],
+      "reviewNotes": [
+        "objective: Read Frosthowl kill, Sack of Fish collection and Gretta Ganter in Brewnall Village. Prior Myanmar preserves target/item/recipient and retained labels.",
+        "complete: Read lifesaver/name thanks, husband laughing it off but speaker unable to tell him another lake night and tentative feast. Prior roles/extra-night quantity preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "fa92ff87c4e508d7d01ef8a2c1cc22b98db4fde885dda34face81dcc5b2cb978",
+          "reviewedMyanmarSHA256": "feb048533b94f719d81a2d4d1f0d658cf143a6cae7eda4f52c0ab4e906cd5cb6",
+          "priorMyanmarSHA256": "feb048533b94f719d81a2d4d1f0d658cf143a6cae7eda4f52c0ab4e906cd5cb6",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98326",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "646a82828c6f8075574995ba17d1de6837bd5b08ce6a1282b8515f8ed05c6ba4",
+          "notes": "Read Frosthowl kill, Sack of Fish collection and Gretta Ganter in Brewnall Village. Prior Myanmar preserves target/item/recipient and retained labels."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "c54575eddfe7a4d287d5db8aadec2154f7c8be551af263db044c552414ad691c",
+          "reviewedMyanmarSHA256": "8183367c7a03b90773a11ded8ef1dce42bdb8db91c8a3e731e3e141fbff2324e",
+          "priorMyanmarSHA256": "8183367c7a03b90773a11ded8ef1dce42bdb8db91c8a3e731e3e141fbff2324e",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98326",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "646a82828c6f8075574995ba17d1de6837bd5b08ce6a1282b8515f8ed05c6ba4",
+          "notes": "Read lifesaver/name thanks, husband laughing it off but speaker unable to tell him another lake night and tentative feast. Prior roles/extra-night quantity preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98389,
+      "englishTitle": "A Light in the Darkness",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read undead paladin/Light, shared Forsaken overcoming living's end, fear of being smitten as monsters, complex undeath relationship and freeing freshly raised fools in northwest Night's Web Hollow. Lowercase class supported."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "8e696a9cbd06939e6a6049128546ddce1338eedcbd368d4c48fdd48d7de48d4c",
+          "reviewedMyanmarSHA256": "d6cd6b1a586656c1bdac9ebc16ace95b1d5bd50e7acdfe4185de772c625b3c4f",
+          "priorMyanmarSHA256": "ddb6cb7b8c0c9756e235a796bd9e09ba33a269324bbe831352ebc6ea10504a2f",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98389",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "bd02721c678bb6a433743e8a694631ef7854848f1294f985b5e1b11cd573097a",
+          "notes": "Read undead paladin/Light, shared Forsaken overcoming living's end, fear of being smitten as monsters, complex undeath relationship and freeing freshly raised fools in northwest Night's Web Hollow. Lowercase class supported."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98424,
+      "englishTitle": "Fizsprocket's Notes",
+      "fieldsChecked": [
+        "detail",
+        "complete"
+      ],
+      "reviewNotes": [
+        "detail: Read worn papers separately folded in Fizsprocket inside breast pocket, information seemingly usable against local Venture Co. and further search before Morin return. Prior inference/sequence/identities preserved.",
+        "complete: Read valuable knowledge/thanks, Morin examining notes and apparent clarity of next move. Prior stage direction/tentative seems preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "4c7e8aea2ccee8af0698d0b87b5b8bd2049884886fa76ce0a9253852ffc6e7f7",
+          "reviewedMyanmarSHA256": "12b4387c8cf2dd6a6273fd3f9e467477c70887e7834fc8156c4de66cf4d3fdf4",
+          "priorMyanmarSHA256": "12b4387c8cf2dd6a6273fd3f9e467477c70887e7834fc8156c4de66cf4d3fdf4",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98424",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "0ecaaa44cc6047fa23eacf9df21570b502f13e2dbbe9028e5281c359f77e8477",
+          "notes": "Read worn papers separately folded in Fizsprocket inside breast pocket, information seemingly usable against local Venture Co. and further search before Morin return. Prior inference/sequence/identities preserved."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "a2a282f11db9ce005c23c294d27be01438a534fa08a402bca9b665c4c892b472",
+          "reviewedMyanmarSHA256": "03e3bb5c38e32375609cb9ecd50968f62fc9d7441e527ad5fe480a34ac0ed168",
+          "priorMyanmarSHA256": "03e3bb5c38e32375609cb9ecd50968f62fc9d7441e527ad5fe480a34ac0ed168",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98424",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "0ecaaa44cc6047fa23eacf9df21570b502f13e2dbbe9028e5281c359f77e8477",
+          "notes": "Read valuable knowledge/thanks, Morin examining notes and apparent clarity of next move. Prior stage direction/tentative seems preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98430,
+      "englishTitle": "The Longwalkers",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read safe Stormhoof as most trusted scout/important mission, risking player life to save his, service beyond known, hospitality, safe city/bluff allies and Ish-ne-alo por-ah. Prior gratitude preserved without lore additions."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "6924c0c2a7b1528fae78567d382a2c8939e46899df5710ae86765415428cd941",
+          "reviewedMyanmarSHA256": "1472fcfaba8f5962df81ca586a054a8d01b97930ad27407ce91beb554ba45819",
+          "priorMyanmarSHA256": "1472fcfaba8f5962df81ca586a054a8d01b97930ad27407ce91beb554ba45819",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98430",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "00a072aedfd5542ac5a58e0e9d8021f322c23ea37c92a95d2059a217c2a3b329",
+          "notes": "Read safe Stormhoof as most trusted scout/important mission, risking player life to save his, service beyond known, hospitality, safe city/bluff allies and Ish-ne-alo por-ah. Prior gratitude preserved without lore additions."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 98435,
+      "englishTitle": "Thunderhorn's Report",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read joy in Mulgore streams, wells helping people and wildlife used for food/clothes/companionship, honoring Mull request and gift. Prior dependencies/speaker preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "a0b8e397794398a48f8ac23cbb8ea44206460408aa3ee778ed7e6f26002e9f7e",
+          "reviewedMyanmarSHA256": "e98ea6c0278079e16b2a2a101064eef7b5da5b248c77a4a2c3651c4c5c5bd92a",
+          "priorMyanmarSHA256": "e98ea6c0278079e16b2a2a101064eef7b5da5b248c77a4a2c3651c4c5c5bd92a",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D98435",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": "2aec8ad9fe9278db8075d071e728e86d5efec439f17bbbac82810552d35520a7",
+          "notes": "Read joy in Mulgore streams, wells helping people and wildlife used for food/clothes/companionship, honoring Mull request and gift. Prior dependencies/speaker preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99079,
+      "englishTitle": "Longwalker Malah",
+      "fieldsChecked": [
+        "objective"
+      ],
+      "reviewNotes": [
+        "objective: Read Longwalker Malah Longwind east of Bloodhoof Village near Mulgore edge. Prior full rank/name, direction and geography preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "a489b098dca60011bfe0f50c212266828ecc4aad41517bd459d4794752d331d9",
+          "reviewedMyanmarSHA256": "d83005a4befb04b239f6ccbac3c02b5cc742abcb0bc760bd7722096a295fc9f6",
+          "priorMyanmarSHA256": "d83005a4befb04b239f6ccbac3c02b5cc742abcb0bc760bd7722096a295fc9f6",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99079",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read Longwalker Malah Longwind east of Bloodhoof Village near Mulgore edge. Prior full rank/name, direction and geography preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99080,
+      "englishTitle": "Drive Them Out",
+      "fieldsChecked": [
+        "objective",
+        "complete"
+      ],
+      "reviewNotes": [
+        "objective: Read6 Galak Centaurs,4 Galak Outrunners and Herak the Pillager head to Baine Bloodhoof. Prior both counts/distinct targets/recipient preserved.",
+        "complete: Read blood/honor, last fall/ending stampede, village victory, young ones urgently needing security and young class thanks. Prior voice/lowercase class preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "9d49c22e243452fbf5a124cef2cc042506c1777a0a3c7a2795a5177ee7b035eb",
+          "reviewedMyanmarSHA256": "e6a87a2464782c65cf67491c32b922927ad8c18097b7a126ce629f86b423328e",
+          "priorMyanmarSHA256": "e6a87a2464782c65cf67491c32b922927ad8c18097b7a126ce629f86b423328e",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99080",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read6 Galak Centaurs,4 Galak Outrunners and Herak the Pillager head to Baine Bloodhoof. Prior both counts/distinct targets/recipient preserved."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "07bb3198afc9bdb894945606dd3dda5046eb004709e6f1034328cf52d1796cc0",
+          "reviewedMyanmarSHA256": "a9a00d02254fbd993503a8178c8a7aafef0d9e39dbd21e4c56b43a331bdd0ce4",
+          "priorMyanmarSHA256": "a9a00d02254fbd993503a8178c8a7aafef0d9e39dbd21e4c56b43a331bdd0ce4",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99080",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read blood/honor, last fall/ending stampede, village victory, young ones urgently needing security and young class thanks. Prior voice/lowercase class preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99081,
+      "englishTitle": "Grim Tidings",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read arrows' direction revealing new camp, activity suggesting small raiding party, report still clenched and Brave Wildrunner needing Malah fate/killers. Prior uncertainty/observation/direction preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b6c1e47e4e0d127fc010498b7505d2356197be5ba1b266c54a3b00bc847f7c47",
+          "reviewedMyanmarSHA256": "9cb45707a4577570c972adf2a3320ac14ce0015b758145144dd4843fc6afaac7",
+          "priorMyanmarSHA256": "9cb45707a4577570c972adf2a3320ac14ce0015b758145144dd4843fc6afaac7",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99081",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read arrows' direction revealing new camp, activity suggesting small raiding party, report still clenched and Brave Wildrunner needing Malah fate/killers. Prior uncertainty/observation/direction preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99082,
+      "englishTitle": "The High Chieftain",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read Galak outrage in Mulgore, ancestral pride, pain on return, honoring gift and Earth Mother/far-world travel. Prior threat/blessing preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "ab48f481622ebfd9d46d22882dc04a69c39fbb4090b3e6248624993bb145960b",
+          "reviewedMyanmarSHA256": "88e7c2a95cecd7e8d2336183a626db5b2fd75b1f6958b73edb04d6bfb43d7259",
+          "priorMyanmarSHA256": "88e7c2a95cecd7e8d2336183a626db5b2fd75b1f6958b73edb04d6bfb43d7259",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99082",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read Galak outrage in Mulgore, ancestral pride, pain on return, honoring gift and Earth Mother/far-world travel. Prior threat/blessing preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99101,
+      "englishTitle": "Our Ancient Enemy",
+      "fieldsChecked": [
+        "detail",
+        "objective"
+      ],
+      "reviewNotes": [
+        "detail: Read Baine leadership, immediate incursion warning, Malah report delivery, town center and urgent no-time command. Prior target/item/timing preserved.",
+        "objective: Read exact named Report and Baine recipient independently of offer. Prior both identities preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "b290660c10cea631b0d5b523cbe1a4210e5094d19306e928b2edb254de2cd17d",
+          "reviewedMyanmarSHA256": "ded5424b73f8f3d19d68fc6a435273a3bd438bc5af4386b00a59a05df6de1291",
+          "priorMyanmarSHA256": "ded5424b73f8f3d19d68fc6a435273a3bd438bc5af4386b00a59a05df6de1291",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99101",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read Baine leadership, immediate incursion warning, Malah report delivery, town center and urgent no-time command. Prior target/item/timing preserved."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "09c97be229e9685f9cf4316618a2feced7a153dc5ddd407fff576f4d9bb9f77e",
+          "reviewedMyanmarSHA256": "376d08d11868f39c83615d745ed4fc3215d01a43518ac819f872f45626923b6a",
+          "priorMyanmarSHA256": "376d08d11868f39c83615d745ed4fc3215d01a43518ac819f872f45626923b6a",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99101",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read exact named Report and Baine recipient independently of offer. Prior both identities preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99108,
+      "englishTitle": "Sparring Match",
+      "fieldsChecked": [
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "objective: Current primary unavailable and secondary has no objective. Retained Myanmar says3 total PvP or Novice Warrior wins for Tang Stonehoof; current evidence cannot certify count/recipient. Preserve reviewed prior release with explicit limitation; no inferred new text.",
+        "progress: No current primary/secondary progress or prior English in this comparison. Read retained weapon-tip teacher metaphor, but source meaning cannot be newly certified. Preserve inherited field with limitation; no known contradiction established.",
+        "complete: No current primary/secondary completion or prior English in comparison. Retained class praise, supplies/wounds/future battles cannot be freshly source-certified. Preserve inherited field with explicit limitation."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "6e0889ac48946b3beab879797a056df0e1aa6a9c47e47500947f0a03263ff051",
+          "priorMyanmarSHA256": "6e0889ac48946b3beab879797a056df0e1aa6a9c47e47500947f0a03263ff051",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99108",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "Current primary unavailable and secondary has no objective. Retained Myanmar says3 total PvP or Novice Warrior wins for Tang Stonehoof; current evidence cannot certify count/recipient. Preserve reviewed prior release with explicit limitation; no inferred new text."
+        },
+        {
+          "field": "progress",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "7085afff786b2bb4f925bcccf25d77b7df05e1d0a562404a342a0c9b6f630bee",
+          "priorMyanmarSHA256": "7085afff786b2bb4f925bcccf25d77b7df05e1d0a562404a342a0c9b6f630bee",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99108",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "No current primary/secondary progress or prior English in this comparison. Read retained weapon-tip teacher metaphor, but source meaning cannot be newly certified. Preserve inherited field with limitation; no known contradiction established."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "66de24ca79d22a00696615fb121d947fe8eaad30b7c569fd8daa74e2afe73604",
+          "priorMyanmarSHA256": "66de24ca79d22a00696615fb121d947fe8eaad30b7c569fd8daa74e2afe73604",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99108",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "No current primary/secondary completion or prior English in comparison. Retained class praise, supplies/wounds/future battles cannot be freshly source-certified. Preserve inherited field with explicit limitation."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99127,
+      "englishTitle": "A Net Disaster",
+      "fieldsChecked": [
+        "detail",
+        "objective"
+      ],
+      "reviewNotes": [
+        "detail: Read absent bites/not even a minnow, Lee overnight traps, checking any stock and showing odd findings. Prior name/timing/suspicious voice preserved.",
+        "objective: Read fishing traps specifically in Crystal Lake. Proposed trap wording matches current objective/offer; no unsupported net target remains."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "62dde290cd0a67f36005179d7b3c1fb53f98aabf30b84091a70b6910c69bbd72",
+          "reviewedMyanmarSHA256": "bdba33698c82b7432a476d17c1450ac1948d6eeae53b7c6036d672996d2a3609",
+          "priorMyanmarSHA256": "bdba33698c82b7432a476d17c1450ac1948d6eeae53b7c6036d672996d2a3609",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99127",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read absent bites/not even a minnow, Lee overnight traps, checking any stock and showing odd findings. Prior name/timing/suspicious voice preserved."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "ec1bf46674aaf8e3acfd1efd3cde8f74498343209091fd40fd9544d1e297daf2",
+          "reviewedMyanmarSHA256": "393d5f4743c24c246ded2fc25e76f923717f2a993a8b3f2ab0e83e4e3c175489",
+          "priorMyanmarSHA256": "662eb1afeb8652a956ffc04c2f757771580bace411c70c417323ee201da99e3b",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99127",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read fishing traps specifically in Crystal Lake. Proposed trap wording matches current objective/offer; no unsupported net target remains."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99128,
+      "englishTitle": "Slimy Menace",
+      "fieldsChecked": [
+        "objective",
+        "complete"
+      ],
+      "reviewNotes": [
+        "objective: Read7 Murlocs plus4 Murloc Streamrunner at Crystal Lake then Jason Mathers return. Proposed objective preserves both counts/subtypes/place/recipient.",
+        "complete: Read audible warbling/nightmares, slowing them and certain quick replacement numbers. Prior pessimistic humor/repopulation prediction preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "6869d4ce8ca47a75fd503fd4a40b6d22570a15299820d603c8b5877d4135ac7c",
+          "reviewedMyanmarSHA256": "94f4aac976bbc3c37c616a25fdc41d19ac2ac27a065a3d1f5f20d7f5a69bb024",
+          "priorMyanmarSHA256": "bd78d02dbf3b349232685d985f0531db1b07812d553f788f7d194228f997448d",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99128",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read7 Murlocs plus4 Murloc Streamrunner at Crystal Lake then Jason Mathers return. Proposed objective preserves both counts/subtypes/place/recipient."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "f0798c4a4490967bc20027aa763ae493b6706eb8b7266bd77910adc138a91c8b",
+          "reviewedMyanmarSHA256": "dd5e2c8abdbba8633af14961522433de5a4820848b447def37389adc985a9441",
+          "priorMyanmarSHA256": "dd5e2c8abdbba8633af14961522433de5a4820848b447def37389adc985a9441",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99128",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read audible warbling/nightmares, slowing them and certain quick replacement numbers. Prior pessimistic humor/repopulation prediction preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99129,
+      "englishTitle": "A Man About a Murloc",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read guards ignoring murloc warnings and NPC needing player help obtaining revenge supplies. Prior final sentence can read as player needing help; explicit speaker/genitive proposed to remove ambiguity."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "8608315289299f7ca53e5a259fbf2941381a078365e83c3f6fd275133fce21e6",
+          "reviewedMyanmarSHA256": "d17e0f388c196a697a56f865b6750dd0747d1fbace2995a3041ee3846f336da0",
+          "priorMyanmarSHA256": "d17e0f388c196a697a56f865b6750dd0747d1fbace2995a3041ee3846f336da0",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "additional source-aware correction proposed",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99129",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read guards ignoring murloc warnings and NPC needing player help obtaining revenge supplies. Prior final sentence can read as player needing help; explicit speaker/genitive proposed to remove ambiguity."
+        }
+      ],
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "8608315289299f7ca53e5a259fbf2941381a078365e83c3f6fd275133fce21e6",
+          "reviewedMyanmarSHA256": "d17e0f388c196a697a56f865b6750dd0747d1fbace2995a3041ee3846f336da0",
+          "old": "ဒါပေမဲ့ လိုတဲ့ပစ္စည်းတွေ ရဖို့ မင်း အကူအညီလိုလိမ့်မယ်။",
+          "new": "ဒါပေမဲ့ လိုတဲ့ပစ္စည်းတွေ ရဖို့ ငါ မင်းရဲ့ အကူအညီကို လိုလိမ့်မယ်။",
+          "proposedFullField": "Murloc (မာလော့ခ်) တွေအကြောင်း အစောင့်တွေကို ငါ သတိပေးနေခဲ့တာ။ သူတို့ နားမထောင်ကြဘူး။\n\nအဲဒီကောင်တွေကို ပြန်ပညာပေးဖို့ ငါ့မှာ အကြံတချို့ရှိတယ်။ ဒါပေမဲ့ လိုတဲ့ပစ္စည်းတွေ ရဖို့ ငါ မင်းရဲ့ အကူအညီကို လိုလိမ့်မယ်။",
+          "reason": "English says the NPC needs the player to help obtain supplies. Bare မင်း အကူအညီလိုလိမ့်မယ် can read as the player needing help. Explicit ငါ and မင်းရဲ့ အကူအညီကို preserve speaker, helper and direction of assistance."
+        }
+      ]
+    },
+    {
+      "id": 99130,
+      "englishTitle": "An Enticing Offer",
+      "fieldsChecked": [
+        "objective",
+        "complete"
+      ],
+      "reviewNotes": [
+        "objective: Read6 Vials of Animal Blood and18 Duskweed Petals for bait, then Remy Two Times in Goldshire. Proposed counts/full items/recipient/location correct.",
+        "complete: Read short wait, simple bait safe if pets do not ingest and Jason told not to eat any. Prior condition/warned person/dry humor preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "objective",
+          "englishSHA256": "189de5170e119bf53f80762ea9feb76ee6480894c058392f01784d985c1676d4",
+          "reviewedMyanmarSHA256": "df46e52e895af3a194ce0b7415a7a300fa2cd4ff9cac6c55a087bd5aa0ce3a55",
+          "priorMyanmarSHA256": "60d7c4c1050957eae64c89ab1763d68a1d57f4deda7ad1454f488616fdce978a",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99130",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read6 Vials of Animal Blood and18 Duskweed Petals for bait, then Remy Two Times in Goldshire. Proposed counts/full items/recipient/location correct."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": "95cdcac8afa0256e1e0fc525989f971e9c96e3830238bea5a175d5257fe7dc60",
+          "reviewedMyanmarSHA256": "1b3e476f870142b8c7c9d3bc6393e2aad2549c9e90d9c4f9459a93a9df7df69f",
+          "priorMyanmarSHA256": "1b3e476f870142b8c7c9d3bc6393e2aad2549c9e90d9c4f9459a93a9df7df69f",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99130",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read short wait, simple bait safe if pets do not ingest and Jason told not to eat any. Prior condition/warned person/dry humor preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99134,
+      "englishTitle": "Discipline",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read not-Deathguard/yet-undisappointed insult, lack of incompetence reward, excessive incompetence punished, interrupted name check and threat of becoming reward. Lowercase name preserves sarcasm/threat."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "23e7a14b0b775662a0f64b8e060edf6c7d685d02466e6dcd4983d62c6a6e5910",
+          "reviewedMyanmarSHA256": "e49340d0e3f70ec062b41990c5f408183e35a3e60fcb3af475a9d12763f9ee77",
+          "priorMyanmarSHA256": "c80e8cd4266fc6a62e37d5dce7c1b6b3bab01a9a06c0509567529b325d6c290b",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99134",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read not-Deathguard/yet-undisappointed insult, lack of incompetence reward, excessive incompetence punished, interrupted name check and threat of becoming reward. Lowercase name preserves sarcasm/threat."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99141,
+      "englishTitle": "Patience",
+      "fieldsChecked": [
+        "detail"
+      ],
+      "reviewNotes": [
+        "detail: Read perfect Dark Lady will, Executor duty, overdue reports, no patience; Dillinger west/graveyard, Kristof east/waystation, Gordo west/Stillwater. Lowercase class preserves commands/routing."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "82b22804208eb254ffc40720157f6b07f99b51dab6142f4cf03f3f4dbb4f813b",
+          "reviewedMyanmarSHA256": "b6cbc5f03047ec3fb421da94e02fb2156fd313959d6d8b6e013adaf77da8278b",
+          "priorMyanmarSHA256": "d91343b32d42330c87cbfbc5bbe9264d17dc03b295e81245ef0b52ad8bc849b4",
+          "reviewedVersion": "root proposed override",
+          "rootDisposition": "source-supported guarded correction planned",
+          "independentDisposition": "root proposed correction independently accepted",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99141",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read perfect Dark Lady will, Executor duty, overdue reports, no patience; Dillinger west/graveyard, Kristof east/waystation, Gordo west/Stillwater. Lowercase class preserves commands/routing."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99142,
+      "englishTitle": "Tomb Weed",
+      "fieldsChecked": [
+        "progress",
+        "complete"
+      ],
+      "reviewNotes": [
+        "progress: Primary unavailable/secondary no progress. Available prior English interruptions, recognition and tomb weed question matches retained Myanmar; no known mismatch. Preserve current-source limitation.",
+        "complete: Primary unavailable/secondary no completion. Prior English praise, Holland weed-inspection gesture, violent-maturing wish, progress concession and many deaths/player pride match retained Myanmar. No current/live pass claimed."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "progress",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "2ec88f9e84cd71fa65777f338967c2b53683d9714d0df106df01cd85c0243095",
+          "priorMyanmarSHA256": "2ec88f9e84cd71fa65777f338967c2b53683d9714d0df106df01cd85c0243095",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99142",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "Primary unavailable/secondary no progress. Available prior English interruptions, recognition and tomb weed question matches retained Myanmar; no known mismatch. Preserve current-source limitation."
+        },
+        {
+          "field": "complete",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "8427c329df759e566cf2a2931a6666efb277bf3a02d5870aecf3c31d33ac8e9f",
+          "priorMyanmarSHA256": "8427c329df759e566cf2a2931a6666efb277bf3a02d5870aecf3c31d33ac8e9f",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99142",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "Primary unavailable/secondary no completion. Prior English praise, Holland weed-inspection gesture, violent-maturing wish, progress concession and many deaths/player pride match retained Myanmar. No current/live pass claimed."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99143,
+      "englishTitle": "Bottles and Baubles",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Read interesting collection working well enough, speaker older supplies gift and fishing beginners. Prior sufficiency/exchange direction/beginner purpose preserved."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": "b4329465dbe49cce340fbdae040a70057dfc8b8f77f71d49031a696079718312",
+          "reviewedMyanmarSHA256": "7a4c178ec0dfcb704789fad9b1f50d3db1cb89c7ad519c43ae85b9ab1a76bb57",
+          "priorMyanmarSHA256": "7a4c178ec0dfcb704789fad9b1f50d3db1cb89c7ad519c43ae85b9ab1a76bb57",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99143",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read interesting collection working well enough, speaker older supplies gift and fishing beginners. Prior sufficiency/exchange direction/beginner purpose preserved."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99144,
+      "englishTitle": "Seeking Refuge",
+      "fieldsChecked": [
+        "complete"
+      ],
+      "reviewNotes": [
+        "complete: Primary unavailable/secondary no completion. Prior English Dawnstone aid/promising order, gift and Bandarion monastery on bluffs northwest of Solliden, open to Light seekers match retained Myanmar. Current-source/live remains unavailable."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "complete",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": "b17b059a716f0a8c0f6212825a986e7d383a590ee644344f2a443c74f60b5315",
+          "priorMyanmarSHA256": "b17b059a716f0a8c0f6212825a986e7d383a590ee644344f2a443c74f60b5315",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "current primary/secondary state unavailable; preserve prior reviewed release and evidence; no newly inferred state",
+          "independentDisposition": "retained prior reviewed field with current-source limitation",
+          "currentEnglishAvailable": false,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99144",
+          "primaryViaWebFallback": false,
+          "currentHTMLSHA256": null,
+          "notes": "Primary unavailable/secondary no completion. Prior English Dawnstone aid/promising order, gift and Bandarion monastery on bluffs northwest of Solliden, open to Light seekers match retained Myanmar. Current-source/live remains unavailable."
+        }
+      ],
+      "issues": []
+    },
+    {
+      "id": 99411,
+      "englishTitle": "Kyle's Gone Missing!",
+      "fieldsChecked": [
+        "detail",
+        "objective"
+      ],
+      "reviewNotes": [
+        "detail: Read Kyle lost/hungry around Bloodhoof, feeding calms him home, favorite strider meat, plentiful striders east, hunting one and putting meat down in town. Prior causal sequence/single kill/direction/interaction preserved.",
+        "objective: Read Ahab in Mulgore Bloodhoof Village, full Kyle the Frenzied, Tender Strider Meat then Ahab return. Prior target/item/recipient preserved independently."
+      ],
+      "fieldDispositions": [
+        {
+          "field": "detail",
+          "englishSHA256": "f71d86683b6e032cbce9cc0ba66f6eb49da81c34809ef1d9880bf1774200f30e",
+          "reviewedMyanmarSHA256": "14a7a8c2943b224e5decfa1fac2a6e027170f427967597b5335af87c79cbded0",
+          "priorMyanmarSHA256": "14a7a8c2943b224e5decfa1fac2a6e027170f427967597b5335af87c79cbded0",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99411",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read Kyle lost/hungry around Bloodhoof, feeding calms him home, favorite strider meat, plentiful striders east, hunting one and putting meat down in town. Prior causal sequence/single kill/direction/interaction preserved."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "9be5dd36c3efc418a500b3e7ff7265479449c2b35da3d5d2f77776930b95b33d",
+          "reviewedMyanmarSHA256": "ad65c02fe7b14784270da2b9ef1cc6bdd85d29835dc6b0100fd40539547ca088",
+          "priorMyanmarSHA256": "ad65c02fe7b14784270da2b9ef1cc6bdd85d29835dc6b0100fd40539547ca088",
+          "reviewedVersion": "prior reviewed release text",
+          "rootDisposition": "separate semantic comparison passed; typography/whitespace or equivalent wording preserves prior reviewed Myanmar",
+          "independentDisposition": "retained prior Myanmar independently accepted against current English",
+          "currentEnglishAvailable": true,
+          "sourceURL": "https://www.wowhead.com/forever/quest%3D99411",
+          "primaryViaWebFallback": true,
+          "currentHTMLSHA256": null,
+          "notes": "Read Ahab in Mulgore Bloodhoof Village, full Kyle the Frenzied, Tender Strider Meat then Ahab return. Prior target/item/recipient preserved independently."
+        }
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "retainedSourceLimitations": [
+    {
+      "id": 97921,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "cfb7781783453e170b2601fc1bb98d84dd2e74221dd560c4868d3661cb36fcb6",
+      "priorEnglishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+      "reason": "Current primary/secondary have no progress. Available prior English Yes, I can teach you matches retained Myanmar. Preserve inherited release field with explicit current-source limitation; no current/live pass claimed."
+    },
+    {
+      "id": 99108,
+      "field": "objective",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "6e0889ac48946b3beab879797a056df0e1aa6a9c47e47500947f0a03263ff051",
+      "priorEnglishSHA256": null,
+      "reason": "Current primary unavailable and secondary has no objective. Retained Myanmar says3 total PvP or Novice Warrior wins for Tang Stonehoof; current evidence cannot certify count/recipient. Preserve reviewed prior release with explicit limitation; no inferred new text."
+    },
+    {
+      "id": 99108,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "7085afff786b2bb4f925bcccf25d77b7df05e1d0a562404a342a0c9b6f630bee",
+      "priorEnglishSHA256": null,
+      "reason": "No current primary/secondary progress or prior English in this comparison. Read retained weapon-tip teacher metaphor, but source meaning cannot be newly certified. Preserve inherited field with limitation; no known contradiction established."
+    },
+    {
+      "id": 99108,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "66de24ca79d22a00696615fb121d947fe8eaad30b7c569fd8daa74e2afe73604",
+      "priorEnglishSHA256": null,
+      "reason": "No current primary/secondary completion or prior English in comparison. Retained class praise, supplies/wounds/future battles cannot be freshly source-certified. Preserve inherited field with explicit limitation."
+    },
+    {
+      "id": 99142,
+      "field": "progress",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "2ec88f9e84cd71fa65777f338967c2b53683d9714d0df106df01cd85c0243095",
+      "priorEnglishSHA256": "8553492813bd814b32031912fd6c70ad9f6be1527b2992eb9baf77f76bd4c741",
+      "reason": "Primary unavailable/secondary no progress. Available prior English interruptions, recognition and tomb weed question matches retained Myanmar; no known mismatch. Preserve current-source limitation."
+    },
+    {
+      "id": 99142,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "8427c329df759e566cf2a2931a6666efb277bf3a02d5870aecf3c31d33ac8e9f",
+      "priorEnglishSHA256": "cff9ddba16795739262f76d9a69ac224c0e760066a2b45a519b5e585870f6a6c",
+      "reason": "Primary unavailable/secondary no completion. Prior English praise, Holland weed-inspection gesture, violent-maturing wish, progress concession and many deaths/player pride match retained Myanmar. No current/live pass claimed."
+    },
+    {
+      "id": 99144,
+      "field": "complete",
+      "decision": "preserve prior reviewed release; current primary/secondary state unavailable",
+      "reviewedMyanmarSHA256": "b17b059a716f0a8c0f6212825a986e7d383a590ee644344f2a443c74f60b5315",
+      "priorEnglishSHA256": "5baa6d9b83e9f85f8acbbceb05ae515f866bae438aaf94ea672255404cd3826b",
+      "reason": "Primary unavailable/secondary no completion. Prior English Dawnstone aid/promising order, gift and Bandarion monastery on bluffs northwest of Solliden, open to Light seekers match retained Myanmar. Current-source/live remains unavailable."
+    }
+  ],
+  "pronunciationMapReconciliation": [
+    {
+      "identity": "Valennia Stormfist",
+      "existingMaintained": "ဗာလန်နီးယား စတုန်းဖစ်စ်",
+      "proposedMaintained": "ဗာလန်နီးယား စတော်မ်ဖစ်စ်",
+      "scope": "92579.detail and92701.detail in this93-field review. Root should reconcile maintained map and separately guard other literal occurrences. No shared files changed.",
+      "reason": "Inherited Stone core does not pronounce Stormfist; use established Storm core. Native proofreading pending."
+    }
+  ],
+  "nativeMyanmarProofreading": "pending; assisted review is not native certification",
+  "liveClientVerification": "not tested; unavailable current-source fields remain explicitly limited",
+  "controllerHardwareVerification": "not tested",
+  "nextAction": "Root to guard/disposition5 exact final-Myanmar-hash proposals, reconcile pronunciation map and repeat affected checks before release."
+}

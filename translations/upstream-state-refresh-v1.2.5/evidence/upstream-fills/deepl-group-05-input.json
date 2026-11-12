@@ -1,0 +1,56 @@
+{
+  "group": 5,
+  "route": "Shendar village and Mulgore source-exception routes",
+  "request": {
+    "targetLangs": [
+      "MY"
+    ],
+    "text": [
+      "Do what must be done, <class>.",
+      "I can train you if you have the aptitude.",
+      "Come talk to me again once you've gained some skill with your profession.",
+      "Our elders in Thunder Bluff must know of the progress we have made here, thanks to your aid.\n\nPlease, take this to Arch Druid Hamuul Runetotem in Thunder Bluff. You will find him in the Elder Rise, on the east side of the city. You must take the lifts up to the center of the city, then cross the bridges to reach it.",
+      "Bring Thunderhorn's Report to Arch Druid Hamuul Runetotem in Thunder Bluff.",
+      "Hail, young <Class>. Though you are not a warrior and I cannot teach you that path, that does not mean you would not benefit from my tutelage.\n\nBefore you lies the arena. In it, it matters not who you call mother or whether you wield sword or bow. All are equal, and all learn to sharpen their horns in direct combat.\n\nWill you enter our space, and learn our ways for yourself? You may face any of these novices, or any other willing adversary. I care not which."
+    ]
+  },
+  "characters": 998,
+  "fields": [
+    {
+      "id": 94411,
+      "field": "progress",
+      "englishSHA256": "a144f5ec1fa7c84fc52100d7795265d4475f06e0191d0a012649d4077a00773a",
+      "priorHoldReason": null
+    },
+    {
+      "id": 97970,
+      "field": "progress",
+      "englishSHA256": "50afd0661e8f0101e33dfd19625d8a145948a0dce8ac389977cbb470dbb77afd",
+      "priorHoldReason": null
+    },
+    {
+      "id": 97973,
+      "field": "progress",
+      "englishSHA256": "80f5ac92ed5f8c7f361779b1dd48daf99230fb135a0b6b2e651062fece240f07",
+      "priorHoldReason": null
+    },
+    {
+      "id": 98435,
+      "field": "detail",
+      "englishSHA256": "a4ae386344f54aefd9a6966fae58e17d971fce28cfbe216b1fdf0bec49754cb3",
+      "priorHoldReason": "Source task tracker says cleanse the Wildmane Well while offer/prose objective says deliver a report. Hold the offer until current live goal is captured."
+    },
+    {
+      "id": 98435,
+      "field": "objective",
+      "englishSHA256": "0913cb5407e30c37e8aa6ec659be3440be30b1b19fb5b67de61e2882991be91a",
+      "priorHoldReason": "Source task tracker conflicts with prose objective. Do not choose a live goal without a current capture."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "englishSHA256": "c2f37bb6119440966f233219fa9a55f2167590beaaf7bf3bfbf131c614bd6825",
+      "priorHoldReason": "Source offer explicitly says the player is not a Warrior; class eligibility or alternative offer branches are not verified in the current client."
+    }
+  ]
+}

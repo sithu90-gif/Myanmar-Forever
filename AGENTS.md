@@ -13,3 +13,7 @@ The user authorized a daily 03:00 Asia/Rangoon batch of 50 quests and a conditio
 Read the workspace `.summer/quest-automation-state.json` and confirm its worktree/artifact evidence. Completed IDs from manual workflow tests count as completed work; future scheduled batches must continue after those IDs. Respect `nextNewBatchNotBeforeLocalDate` while allowing unfinished reviews to resume. Save completed ZIP downloads, changelogs, review reports and SHA-256 under `C:/GameDev/Myanmar Forever Translation`, in versioned subfolders, as authorized by the user.
 
 Refresh installed QuestieDB metadata before selection. Fetch current English with `tools/fetch_quest_sources.py --output <batch-source-directory> --metadata <decoded-installed-metadata.json> --ids <quest-IDs>`. Inspect missing states and HTML boundaries, including repeatable quests whose Progress text follows its heading directly. `tools/test_fetch_quest_sources.py` protects that layout. Document obsolete upstream labels separately; never enable an invalid generic runtime title alias just to remove an audit mismatch.
+
+When new English and installed metadata resolve a previously held state, document the old reason and the new source evidence. A reviewed fill must leave the active-hold report while preserving its historical reason under resolvedHeldFields. Native and live test status remain separate.
+
+Preserve the exact bytes of copied Windows validation reports in Git with per-release -text attributes, so delivered validation and package evidence retain stable hashes.
