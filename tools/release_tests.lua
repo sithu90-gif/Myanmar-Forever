@@ -270,3 +270,63 @@ if A.quests[1641] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS:49 upstream reply routing/capture contracts, source-resolved Skyborne greetings, six remaining source holds and guarded quantity/class/place corrections.')
 end
+
+if A.quests[5621] then
+  debugCommand('off');titleOverride=nil
+  local ids={5621,5622,5624,5625,5626,5648,5649,98574,5627,5628,5629,5630,5631,5632,5633,5652,5654,5655,5656,5657,990,991,1023,1024,1025,1008,1134,1007,1009,1010,1020,1033,1034,1016,1017,1061,1062,1063,1064,1065,1066,1067,1086,6523,6401,6548,6629,6421,6481,6461}
+  for _,id in ipairs(ids) do
+    assert(A.quests[id],'13 November afternoon quest missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon dialogue routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost quest identity')
+    end
+  end
+  for _,x in ipairs({{5624,'detail'},{5630,'detail'},{5633,'detail'},{5652,'detail'},{5656,'complete'}}) do
+    assert(not A.quests[x[1]][x[2]],'Unresolved Priest source branch incorrectly enabled')
+    questID=x[1];fire(({detail='QUEST_DETAIL',complete='QUEST_COMPLETE'})[x[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[x[1]].states[x[2]].translationFallback~=nil,'Priest hold lost fallback/capture')
+  end
+  for _,id in ipairs({96390,98319,99160}) do
+    questID=id;fire('QUEST_PROGRESS');flush()
+    assert(A.quests[id].progress and A.window:IsShown(),'Fresh source-supported Progress reply remains unavailable')
+    assert(MMNorthshireCaptures[id].states.progress.translationFallback==nil,'Restored Progress retains missing-state flag')
+  end
+  assert(not A.quests[99108].detail,'Unverified class-specific Sparring Match offer was enabled')
+  assert(A.quests[92465].detail:find('<class>',1,true) and not A.quests[92465].detail:find('<Class>',1,true),'Current primary class marker case lost')
+  assert(A.quests[96390].detail:find('Dark Iron spies',1,true),'Identifying Dark Iron target phrase lost')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS: afternoon50 quests across150 dialogue states, five Priest source holds, three restored Progress replies and guarded class/target corrections.')
+end
+
+if A.quests[5621] then
+  local expected={
+    [5621]={'Sentinel Shaya','Laurna Morninglight'},[5624]={'Guard Roberts','Priestess Josetta'},
+    [5625]={'Mountaineer Dolf','Maxan Anvol'},[5648]={"Grunt Kor'ja","Tai'jin"},
+    [98574]={'Hallowed Memorandum','Branstock Khalder'},[5628]={'Priestess Alathea','Darnassus'},[5654]={"Ur'kyo",'Orgrimmar'},
+    [991]={'Teronis'},[1023]={'Glowing Gem',"Teronis' Journal"},[1024]={"Shael'dryn",'moonwell'},[1025]={'Den Watcher','Ursa','Totemic','Warrior'},
+    [1008]={'Wrathtail Head','Shindrell Swiftfire'},[1134]={'Pridewing Venom Sac','Shindrell Swiftfire'},
+    [1007]={'Ancient Statuette','Talen'},[1009]={'Ring of Zoram','Talen'},
+    [1016]={'Intact Elemental Bracer','Divining Scroll','Divined Scroll','Sentinel Velene Starstrike'},
+    [1017]={'Sarilus Foulborne','Sentinel Velene Starstrike'},
+    [1065]={"Zamah's Note",'Apothecary Lydon'},[1066]={'Vials of Innocent Blood','Apothecary Lydon'},
+    [1067]={"Lydon's Toxin",'Apothecary Zamah'},[1086]={'Toxic Fogger','Apothecary Zamah'},
+    [6523]={'Kaya Flathoof','Camp Aparaje','Makaba Flathoof'},[6401]={'Tammra Windfield','Sun Rock Retreat'},
+    [6548]={'Grimtotem Ruffian','Grimtotem Mercenar'},[6629]={'Grundig Darkcloud','Grimtotem Brute'},
+    [6421]={'Resonite Crystal',"Mor'rogal"},[6481]={'Enchanted Resonite Crystal','Goggeroc',"Mor'rogal"},
+    [6461]={'Deepmoss Creeper','Deepmoss Venomspitter'}}
+  for id,terms in pairs(expected) do
+    local objective=A.quests[id].objective:lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'Afternoon target/item/recipient step mixed: '..id..'/'..term) end
+  end
+  for _,id in ipairs({5621,5624,5625,5648}) do
+    assert(A.quests[id].objective:find('Lesser Heal',1,true) and A.quests[id].objective:find('Power Word',1,true) and A.quests[id].objective:find('Fortitude',1,true),'Priest heal-then-buff spell identities lost')
+  end
+  for _,id in ipairs({5627,5652}) do
+    assert(A.quests[id].complete and not A.quests[id].detail and not A.quests[id].objective,'Completion-only Priest lesson invented an offer/objective')
+  end
+  assert(A.quests[5632].complete,'Source-supported Returning Home completion fallback missing')
+  assert(A.quests[1025].progress,'Source-supported Aggressive Defense Progress fallback missing')
+  print('PASS:28 Priest/Ashenvale/Stonetalon objective identity contracts, distinct injured targets, heal/buff spell identities, completion-only lessons and reviewed secondary-state fallbacks.')
+end

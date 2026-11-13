@@ -1,0 +1,63 @@
+{
+  "status": "pass",
+  "questCount": 20,
+  "enabledFieldCount": 77,
+  "enabledFieldCounts": {
+    "title": 20,
+    "detail": 15,
+    "objective": 18,
+    "progress": 5,
+    "complete": 19
+  },
+  "sourcedOrHeldCandidateFields": 82,
+  "heldFields": [
+    {
+      "id": 5624,
+      "field": "detail",
+      "reason": "Current English contains unsupported <him/her> gender branch; no reviewed runtime normalization or live capture; retain raw candidate, do not choose gender."
+    },
+    {
+      "id": 5630,
+      "field": "detail",
+      "reason": "Current English contains unsupported <laddy/lassy> address branch; no live branch evidence or supported runtime substitution."
+    },
+    {
+      "id": 5633,
+      "field": "detail",
+      "reason": "Current English contains unsupported <laddy/lass> address branch; no live branch evidence or supported runtime substitution."
+    },
+    {
+      "id": 5656,
+      "field": "complete",
+      "reason": "Current Forever completion absent. Secondary English repeats5652 lesson rather than handoff; conflicts with current UA1.0.0 short training greeting and installed3044→6018 handoff. No replacement invented."
+    },
+    {
+      "id": 5652,
+      "field": "detail",
+      "reason": "Current Forever is completion-only; installed giver=ender6018 has no handoff objective. Secondary legacy offer directs player to Ur'kyo like another handoff step; exact English and raw DeepL preserved as a held proposal."
+    }
+  ],
+  "heldFieldCount": 5,
+  "unavailableFieldCount": 18,
+  "linguisticLintIssues": [],
+  "buildReleaseValidateFields": "Passed 20 records / 100 field slots: source and review hashes, placeholders, numeric quantities, and no invented states.",
+  "allAngleTokenMultisets": "Passed 77 enabled fields.",
+  "rawInputFieldMapping": "82 unique identities; input/raw/edited text SHA-256 all accounted",
+  "inputCharacters": [
+    4455,
+    4485,
+    4489,
+    1679,
+    313,
+    202,
+    285
+  ],
+  "englishTitlesAndUA": "20 exact title matches against current pinned catalog 1.0.0.",
+  "englishSourceReview": "Separate post-edit assisted reread completed in groups of 8, 7 and 5 quests.",
+  "independentAssistedReview": "not performed; parent to assign",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveForeverVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "releasePackaging": "parent responsibility; not claimed",
+  "originalCurrentPrimaryEnglish": "current-primary-english.json"
+}

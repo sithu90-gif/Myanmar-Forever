@@ -1,0 +1,267 @@
+{
+  "reviewType": "independent source-aware English/Myanmar assisted review; corrections proposed for guarded application by root",
+  "reviewedAtUTC": "2026-11-13T07:06:07.787261+00:00",
+  "questCount": 15,
+  "fieldSlots": 75,
+  "enabledFieldsReviewed": 70,
+  "unavailableFieldsReviewed": 5,
+  "groups": [
+    {
+      "group": "stonetalon-toxin-route",
+      "questCount": 8,
+      "enabledFieldsReviewed": 37
+    },
+    {
+      "group": "southeast-stonetalon-linked-routes",
+      "questCount": 7,
+      "enabledFieldsReviewed": 33
+    }
+  ],
+  "evidenceChecks": {
+    "rawBatches": [
+      {
+        "file": "raw-deepl-1.json",
+        "fields": 28,
+        "inputCharacters": 4560,
+        "sha256": "9dedf428ef240d0ca65b06b2028557b364028275303e1c2bce7a0b05216bf0ee"
+      },
+      {
+        "file": "raw-deepl-2.json",
+        "fields": 31,
+        "inputCharacters": 4432,
+        "sha256": "931207ce61f0092fe78d7bc01cdbdd89aa4fbfe0a58539425a6879dd2cc5a21e"
+      },
+      {
+        "file": "raw-deepl-3.json",
+        "fields": 11,
+        "inputCharacters": 2503,
+        "sha256": "322f4205f36e9c03db90998041d91499af8e1ca4ac8d27949ed129630778af25"
+      }
+    ],
+    "htmlFilesHashed": 30,
+    "hashParserAndMarkerErrors": [],
+    "officialLatestReleaseRechecked": "GitHub connector GET /repos/sysrover/UA_Forever/releases/latest; current tag 1.0.0, published 2026-11-13T03:27:29Z; annotated tag 0f3d80ea406ebeafb20b11895a2d1efafba18227 peels to 3487d77e9ec21795d31f63ba3941c31efbe4403d; web cache-miss resolved by connector fallback.",
+    "officialLatestReleaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "packageSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640",
+    "metadataVersion": "1.0.12",
+    "metadataSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "cloudGlossary": "Not applied: prior batch check returned Pro required; all 70 input fields have recorded DeepL MY output before editorial correction. Maintained local pronunciation evidence reviewed."
+  },
+  "quests": [
+    {
+      "id": 1061,
+      "reviewNotes": [
+        "Independently read title, detail, objective and completion against saved current Forever English and original HTML; unavailable Progress has no heading/reply in either saved source and is absent from UA, so null is supported.",
+        "Checked female Seereth, promising shaman, land heard rather than seen, west from Barrens Crossroads, Greatwood Vale camp, and literal <class>. Source meaning and identifying annotations retained.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1062,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Confirmed 15 Venture Co. Loggers, northwest beyond Greatwood Vale into Windshear Crag, return to Seereth at the Stonetalon/Barrens border, and literal <name> markers.",
+        "Violence as the goblins' best-understood language and removal of Company personnel remain explicit; no sanitization of Seereth's intended violence. Exact full target annotation is valid despite the punctuation lexer exception. One malformed Myanmar phrase should be corrected.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "0036dae916302cf001eeedc55d2bd18871da7c826602695628a65eed569a523c",
+          "reviewedMyanmarSHA256": "05d93ba2359666a91345a00f24ea86ffa59ed038e0ceca499b86eb06d8becaf8",
+          "old": "သူတို့ အနားလည်ဆုံး ဘာသာစကားနဲ့",
+          "new": "သူတို့ အကောင်းဆုံး နားလည်တဲ့ ဘာသာစကားနဲ့",
+          "proposedFullField": "goblin (ဂေါ့ဘလင်) တွေ ဦးစီးတဲ့ Venture Company (ဗန်ချာ ကမ်ပနီ) က Stonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) ထဲ ဝင်ရောက်လာပြီး သစ်ပင်တွေ ခုတ်လှဲကာ ကျယ်ပြန့်တဲ့ သစ်တောတွေကို မီးရှို့နေတယ်။ ဒီနေရာက ဝိညာဉ်တွေဟာ နာကျင်မှုနဲ့ ဒေါသကြောင့် မျက်စိမမြင်နိုင်လောက်အောင် ဖြစ်နေကြပြီ။ Venture Company ကို ငါတို့ တားဆီးရမယ်!\n\nအနောက်မြောက်ဘက်ကို သွားပါ။ Greatwood Vale (ဂရိတ်ဝုဒ် ဗေးလ်) ကို ကျော်ပြီး Windshear Crag (ဝင်းဒ်ရှီးယား ခရက်ဂ်) ထဲ ဝင်သွားပါ။ goblin တွေနဲ့ သူတို့ရဲ့ လက်အောက်ခံတွေ အလုပ်လုပ်နေတာ တွေ့လိမ့်မယ်။ Stonetalon (စတုန်းတဲလန်) ကို အမြတ်ထုတ်ဖျက်ဆီးတာကို Horde (ဟော်ဒ်) က လက်မခံဘူးဆိုတာ သူတို့ကို ပြလိုက်ပါ။ သူတို့ အကောင်းဆုံး နားလည်တဲ့ ဘာသာစကားနဲ့ ပြလိုက်ပါ...\n\nအကြမ်းဖက်မှုနဲ့ပေါ့။",
+          "reason": "English says the language they best understand. The edited phrase contains malformed အနားလည်ဆုံး; the replacement gives the intended best-understood wording and leaves the violent punch line intact. Assisted editorial correction; native review remains pending."
+        }
+      ]
+    },
+    {
+      "id": 1063,
+      "reviewNotes": [
+        "Independently read all four enabled fields and original HTML boundaries; Progress genuinely absent in both sources and UA.",
+        "Checked Magatha identity, tauren elders, uncertainty about spiritual aid, northeastern Elder Rise in Thunder Bluff, and counsel in current Completion rather than legacy council. Current spelling resolves a lexical reference difference, not a quest branch conflict.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1064,
+      "reviewNotes": [
+        "Independently read all four enabled fields and original HTML boundaries; Progress genuinely absent in both sources and UA.",
+        "Checked Magatha's land/disease rationale and political trust, female Apothecary Zamah as scholar/emissary, Pools of Vision below Spirit Rise, Thunder Bluff objective, unbeating-heart line and literal <name>. Proposed Apothecary core consistency correction affects two fields; name/meaning remain unchanged.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "3cf19e8d887cde409636be00c8896ab73da7ce7f0a3edafd2b88a5ee194eacf0",
+          "reviewedMyanmarSHA256": "5fe995664a622bb181463874f1a5dad604709c97b0529b6c406699fbb5b69117",
+          "old": "Apothecary Zamah (အပေါသက်ကရီ ဇာမာ)",
+          "new": "Apothecary Zamah (အပေါသီကဲရီ ဇာမာ)",
+          "proposedFullField": "tauren (တော်ရန်) တွေဟာ မြေနဲ့ ဆက်နွယ်နှောင်ဖွဲ့နေကြလို့ Stonetalon (စတုန်းတဲလန်) ရဲ့ ဒုက္ခအကြောင်း ကြားရတာ ကျွန်မကို နာကျင်စေတယ်။ ဒါပေမယ့် မြေကို ကုစားဖို့ဆိုရင် အဲဒီမြေပေါ်က ရောဂါကို အရင် ဖယ်ရှားရလိမ့်မယ်လို့ ကျွန်မ စိုးရိမ်မိတယ်။\n\nဒါဆို Forsaken (ဖော်ဆေကန်) တွေက ကျွန်မတို့နဲ့ မဟာမိတ်ဖြစ်နေတာ ကံကောင်းတာပေါ့ မဟုတ်လား? ရောဂါအကြောင်း သူတို့ ကောင်းကောင်းသိတယ်။ ကျွန်မတို့ကို သူတို့ ကူညီနိုင်မယ်လို့ ယုံတယ်။ အဲဒီလို ကူညီပေးခြင်းက ကျွန်မတို့ လူမျိုးတွေကြားက ယုံကြည်မှုကိုလည်း ခိုင်မာစေလိမ့်မယ်။\n\nApothecary Zamah (အပေါသီကဲရီ ဇာမာ) နဲ့ စကားပြောပါ။ သူမက Forsaken ရဲ့ ပညာရှင်တစ်ဦး၊ သံတမန်တစ်ဦးပဲ။ Spirit Rise (စပီရစ်တ် ရိုက်ဇ်) အောက်က Pools of Vision (ပူးလ်စ် အော့ဗ် ဗစ်ရှန်) မှာ သူမကို တွေ့လိမ့်မယ်။",
+          "reason": "Reconcile the repeated Apothecary rank core with Apothecary Lydon in the same chain and the maintained Johaan/Renferrel/Berard spelling. The maintained map presently contains conflicting core spellings; propose the narrow Zamah entry change alongside these field corrections. Retain full English identity and Zamah core; this is consistency editing, not native-certified pronunciation."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "8a0f96c27732f43eea2e13626c651d43ded79d103a3ac7a64a86ab57a601cc33",
+          "reviewedMyanmarSHA256": "a5d604f218acc0b20cc9608b7979af414e4cb847c9f81304fa50403e549d485e",
+          "old": "Apothecary Zamah (အပေါသက်ကရီ ဇာမာ)",
+          "new": "Apothecary Zamah (အပေါသီကဲရီ ဇာမာ)",
+          "proposedFullField": "Thunder Bluff (သန်ဒါ ဘလဖ်) ရှိ Pools of Vision (ပူးလ်စ် အော့ဗ် ဗစ်ရှန်) တွင် Apothecary Zamah (အပေါသီကဲရီ ဇာမာ) နှင့် စကားပြောပါ။",
+          "reason": "Reconcile the repeated Apothecary rank core with Apothecary Lydon in the same chain and the maintained Johaan/Renferrel/Berard spelling. The maintained map presently contains conflicting core spellings; propose the narrow Zamah entry change alongside these field corrections. Retain full English identity and Zamah core; this is consistency editing, not native-certified pronunciation."
+        }
+      ]
+    },
+    {
+      "id": 1065,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked toxin route begins with Zamah's Note, not a toxin delivery at this step, and objective names Apothecary Lydon at Tarren Mill.",
+        "Checked extreme measures without bloodshed, colleague uncertainty, distant Lordaeron/Hillsbrad Foothills, zeppelin to Undercity then north Tirisfal, southwest Silverpine, south Hillsbrad; Progress asks about new test subjects. Identities and stage handoff retained.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 1066,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked toxin is intended to remove aggression and make Venture Company weak/docile; innocent blood is collected by Syndicate Shadow Mages for unsavory purposes, not a request to harvest it directly from innocents.",
+        "Checked 5 Vials of Innocent Blood, Durnholde Keep southeast, turn-in to Apothecary Lydon at Tarren Mill, and wait while concoction is mixed. The sly little-trouble Completion question should retain its rhetorical question form rather than become a flat statement.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "3ee7e8e207c88385d89584c1120c430e5a6fd5d7194c24a55f2d464a1d7f1d81",
+          "reviewedMyanmarSHA256": "ec7743c719983e8ce6de91c85ca5798c7093f976a0aaaf61b06e4a777aae90e1",
+          "old": "Syndicate (ဆင်ဒီကိတ်) က မင်းကို သိပ်ဒုက္ခမပေးခဲ့ဘူးလို့ ငါ ယုံတယ်။",
+          "new": "Syndicate (ဆင်ဒီကိတ်) က မင်းကို သိပ်ဒုက္ခမပေးခဲ့ဘူး မဟုတ်လား?",
+          "proposedFullField": "ကောင်းတယ်! Syndicate (ဆင်ဒီကိတ်) က မင်းကို သိပ်ဒုက္ခမပေးခဲ့ဘူး မဟုတ်လား?\n\nငါ ပြောခဲ့သလို အပြစ်မဲ့သူတို့ရဲ့ သွေးဆိုတာ ရဖို့ မလွယ်ဘူး။ Syndicate Shadow Mages (ဆင်ဒီကိတ် ရှဲဒိုး မေ့ဂျစ်) တွေက ခက်ခဲတဲ့အပိုင်းကို ငါတို့အစား လုပ်ပေးထားလို့ ငါတို့ ကံကောင်းတာပဲ။\n\nကဲ၊ ငါ ဆေးရည်စပ်နေတုန်း ခဏစောင့်ဦး...",
+          "reason": "Current English has I trust the Syndicate gave you little trouble? as a sly rhetorical question. Restore that questioning assumption instead of a flat declaration of belief; retain the little-trouble sense and NPC voice. Assisted editorial correction; native review remains pending."
+        }
+      ]
+    },
+    {
+      "id": 1067,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked Lydon's Toxin must first go back to Apothecary Zamah in Thunder Bluff before use, and Zamah creates the delivery method.",
+        "Favorable and perhaps contagious results, Lydon's excitement about field use, Zamah's conditional confidence in Lydon and literal <name> retained. Proposed Apothecary core consistency correction affects two fields.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "1f1d26e0b91787bf245108899c8321b4883906f1ea53f3f04296216841625576",
+          "reviewedMyanmarSHA256": "61a664c66f4cbd011f63ba9335f07e0c5fa08389446463a215f3149af9f91545",
+          "old": "Apothecary Zamah (အပေါသက်ကရီ ဇာမာ)",
+          "new": "Apothecary Zamah (အပေါသီကဲရီ ဇာမာ)",
+          "proposedFullField": "ဒီမှာ အဆိပ်ပဲ။ Venture Company (ဗန်ချာ ကမ်ပနီ) ကို ဒါနဲ့ တိုက်ခိုက်ရင် လိုချင်တဲ့ အကျိုးရလဒ်၊ တခြားသူတွေဆီ ကူးစက်ပြန့်ပွားနိုင်တဲ့ အကျိုးရလဒ်မျိုးတောင် ရကောင်းရလိမ့်မယ်။ ငါ့လက်ရာကို လက်တွေ့မှာ အသုံးချတာ မြင်ရမယ်ဆိုတော့ တကယ် စိတ်လှုပ်ရှားမိတယ်လို့ ပြောရမယ်!\n\nဒါပေမယ့် အသုံးမပြုခင် Apothecary Zamah (အပေါသီကဲရီ ဇာမာ) ဆီ ယူသွားပါ။ အဆိပ်ရဲ့ အစွမ်း အထိရောက်ဆုံးဖြစ်အောင် ပို့လွှတ်နည်းတစ်ခု သူမ ဖန်တီးရမယ်။",
+          "reason": "Reconcile the repeated Apothecary rank core with Apothecary Lydon in the same chain and the maintained Johaan/Renferrel/Berard spelling. The maintained map presently contains conflicting core spellings; propose the narrow Zamah entry change alongside these field corrections. Retain full English identity and Zamah core; this is consistency editing, not native-certified pronunciation."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "2f0ee6e3668dfc147b00dd3b1991be495e7fdc5b121558161922be32ff4cc075",
+          "reviewedMyanmarSHA256": "0f2d3e25a54a8579b58c40474b763679fe640c2f604be14b3232a61959109bf3",
+          "old": "Apothecary Zamah (အပေါသက်ကရီ ဇာမာ)",
+          "new": "Apothecary Zamah (အပေါသီကဲရီ ဇာမာ)",
+          "proposedFullField": "Lydon's Toxin (လိုင်ဒန်စ် တော့ခ်ဆင်) ကို Thunder Bluff (သန်ဒါ ဘလဖ်) ရှိ Apothecary Zamah (အပေါသီကဲရီ ဇာမာ) ထံ ယူသွားပါ။",
+          "reason": "Reconcile the repeated Apothecary rank core with Apothecary Lydon in the same chain and the maintained Johaan/Renferrel/Berard spelling. The maintained map presently contains conflicting core spellings; propose the narrow Zamah entry change alongside these field corrections. Retain full English identity and Zamah core; this is consistency editing, not native-certified pronunciation."
+        }
+      ]
+    },
+    {
+      "id": 1086,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked toxin is ready, port may or may not exist, light cargo/messages, small flying-machine rather than zeppelin scale, search Company areas, place toxin and run, then return to Apothecary Zamah.",
+        "Objective correctly carries Toxic Fogger to Venture Co. sky port. Current lowercase <name> supersedes legacy <Name>. Completion retains poisoning, hope of reaching headquarters, dismissal of guilt, deserved worse and dark paths to victory. Proposed Apothecary core consistency correction affects objective only.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": [
+        {
+          "field": "objective",
+          "englishSHA256": "ec6d6200ff98328582bc911c123979f400baf9697422462ab3ec358710fefd11",
+          "reviewedMyanmarSHA256": "5bc98467065e4aaee960aad69e5e8ab8545553917b5d36bc0282b4f899a15f5d",
+          "old": "Apothecary Zamah (အပေါသက်ကရီ ဇာမာ)",
+          "new": "Apothecary Zamah (အပေါသီကဲရီ ဇာမာ)",
+          "proposedFullField": "Toxic Fogger (တော့ခ်ဆစ်ခ် ဖော့ဂါ) ကို Venture Co. (ဗန်ချာ ကို) ၏ လေဆိပ်သို့ ယူသွားပြီး Apothecary Zamah (အပေါသီကဲရီ ဇာမာ) ထံ ပြန်သွားပါ။",
+          "reason": "Reconcile the repeated Apothecary rank core with Apothecary Lydon in the same chain and the maintained Johaan/Renferrel/Berard spelling. The maintained map presently contains conflicting core spellings; propose the narrow Zamah entry change alongside these field corrections. Retain full English identity and Zamah core; this is consistency editing, not native-certified pronunciation."
+        }
+      ]
+    },
+    {
+      "id": 6523,
+      "reviewNotes": [
+        "Independently read all four enabled fields and original HTML boundaries; Progress genuinely absent in both sources and UA.",
+        "Checked Kaya is the rescued daughter, escort to Camp Aparaje before reporting to father Makaba Flathoof near southeastern Stonetalon edge; father worried for her safety. Completion reports Kaya alive and thanks rescuer. No source branch conflict.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6401,
+      "reviewNotes": [
+        "Independently read all four enabled fields and original HTML boundaries; Progress genuinely absent in both sources and UA.",
+        "Checked this is the post-escort good-news report to aunt Tammra Windfield at Sun Rock Retreat, west along path, not another Kaya escort. Preserved the village attack and presumed loss, niece relationship and literal <name>.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6548,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked 8 Grimtotem Ruffians plus 6 Grimtotem Mercenaries, western targets, return to Makaba near southeastern Stonetalon edge.",
+        "Grief, revenge, his killing all he could, barely escaping alive, desire for more dead and permanent memory of the raid remain explicit. Current lowercase <name> retained against legacy uppercase marker. No added mercy or invented motivation.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6629,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked Grundig Darkcloud plus 6 Grimtotem Brutes, his leadership of the raid, personal band, Grimtotem Post farther along western path and return to Makaba at southeastern edge.",
+        "Checked daring condition, worst-of-lot emphasis, killing/report states, grateful voice and current lowercase <name> against legacy uppercase. Full-name title, target annotations and shortened Brutes in Progress remain recognizable.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6421,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked Boulderslide Ravine southeast, deep cave exploration plus 10 Resonite Crystals for Mor'rogal at Sun Rock Retreat; both exploration and collection requirements retained.",
+        "Preserved tension, uncertainty, hoof/finger memory joke, Earthen magic, kobolds uncovering an Earthen, Titans creating them, possible enchantment against kobold plot, and full angle-bracket Mor'rogal head-shake stage direction. Current lowercase <name>/<class> markers retained; legacy capitalization differences do not create branch uncertainty.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6481,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked sleeping Goggeroc inside Resonite cask, shaman-altered crystals, opening cask with Enchanted Resonite Crystal, slaying weakened Goggeroc, then returning news AND crystal to Mor'rogal.",
+        "Preserved urgent timing after long slumber, unmatched Earthen might, threat to all Stonetalon/Kalimdor, honor/reward voice and every literal repeated <class>/<name>. Current than spelling resolves legacy then typo in hero line. No invented additional quantity.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 6461,
+      "reviewNotes": [
+        "Independently read all five fields and original HTML boundaries. Checked Xen'zilla at Malaka'Jin, 10 Deepmoss Creepers plus 7 Deepmoss Venomspitters, northward direction, nighttime camp raids and stolen hunted food.",
+        "Preserved unwanted-dinner-guests and dinner-plate jokes, boast/fear contrast, mon as friendly address without invented regional dialect, perhaps fewer guests tonight, grateful voice and literal <class>/<name>. No live verification claimed.",
+        "Integrity independently checked: original HTML SHA-256 and current source reparse, English/edited/raw DeepL hashes in review-audit and comparison-provenance, one-to-one raw mapping and exact player-marker sequence all match. UA1.0.0 title and installed metadata match; available states agree, with no changed UA fields since prior pin. Native Myanmar proofreading pending; current live Forever verification not tested."
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "pronunciationMapReconciliation": [
+    {
+      "term": "Apothecary Zamah",
+      "old": "အပေါသက်ကရီ ဇာမာ",
+      "new": "အပေါသီကဲရီ ဇာမာ",
+      "reason": "Use the same Apothecary core as Lydon in this chain and maintained Johaan/Renferrel/Berard. Zamah core is unchanged. Other historical Apothecary variants remain outside this partition; root should assess separately rather than silently rewriting them. Assisted consistency proposal pending native pronunciation review."
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

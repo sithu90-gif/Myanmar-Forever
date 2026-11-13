@@ -1,0 +1,1321 @@
+[
+  {
+    "id": 5621,
+    "englishTitle": "Garments of the Moon",
+    "uaEnglishTitles": [
+      "Garments of the Moon"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3600
+        ]
+      ],
+      "3": [
+        [
+          3600
+        ]
+      ],
+      "8": [
+        "Find Sentinel Shaya and heal her wounds using Lesser Heal (Rank 2). Afterwards, grant her Power Word: Fortitude and then return to Laurna Morninglight in Dolanaar."
+      ],
+      "10": [
+        [
+          [
+            12429,
+            null,
+            17
+          ]
+        ]
+      ],
+      "28": [
+        5622
+      ],
+      "S": {
+        "1": "Garments of the Moon",
+        "4": 5,
+        "5": 4,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 134218374
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "I need your help, <name>. I am needed here to train the other students, but you, you can help one of our injured Sentinels just south of Dolanaar. She was hurt patrolling the town and could use our aid. Her name is Shaya.\n\nWhen you find her, heal her wounds, and then fortify her body with your spells. This will at least protect her from harm longer if she finds trouble. Return to me here after you've done your duty to Elune.",
+        "secondary": "I need your help, <Name>. I am needed here to train the other students, but you, you can help one of our injured Sentinels just south of Dolanaar. She was hurt patrolling the town and could use our aid. Her name is Shaya.\n\nWhen you find her, heal her wounds, and then fortify her body with your spells. This will at least protect her from harm longer if she finds trouble. Return to me here after you've done your duty to Elune.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Find Sentinel Shaya and heal her wounds using Lesser Heal (Rank 2). Afterwards, grant her Power Word: Fortitude and then return to Laurna Morninglight in Dolanaar.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "progress": {
+        "current": "Our spells of Fortify are very powerful, <name>. They allow our companions to take further injury from all types of attacks and survive in situations where they would normally fall. But this is nothing when compared to our abilities to heal. There are no greater healers than a <class>--do well to remember that. Your power alone can turn the tides of battle easily.",
+        "secondary": "Our spells of Fortify are very powerful, Delor. They allow our companions to take further injury from all types of attacks and survive in situations where they would normally fall. But this is nothing when compared to our abilities to heal. There are no greater healers than a priest--do well to remember that. Your power alone can turn the tides of battle easily.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Ordinary Moon garments title translated semantically.",
+      "detail": "South of Dolanaar, injured Sentinel Shaya, healing THEN strengthening, return after duty preserved. Corrected raw dark/hunting-magic wording to spell power.",
+      "objective": "Sentinel Shaya; Lesser Heal Rank2 THEN Power Word: Fortitude; Laurna Morninglight/Dolanaar preserved.",
+      "progress": "Fortify reference and <name>/<class> preserved; corrected turn-the-tides idiom and taking further injury from all attack types.",
+      "complete": "Elune identity restored from raw transliteration; optional robe, continuing order recognition and farewell retained."
+    }
+  },
+  {
+    "id": 5622,
+    "englishTitle": "In Favor of Elune",
+    "uaEnglishTitles": [
+      "In Favor of Elune"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3595
+        ]
+      ],
+      "3": [
+        [
+          3600
+        ]
+      ],
+      "8": [
+        "Speak to Laurna Morninglight in Teldrassil."
+      ],
+      "S": {
+        "1": "In Favor of Elune",
+        "4": 5,
+        "5": 4,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "22": 5621,
+        "23": 8,
+        "27": 5621,
+        "p": 134
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "<name>, you must travel to Dolanaar when your business here in Shadowglen is done. There, you will find Laurna Morninglight. She will instruct you further in the ways of Elune, and it is with her that you will earn your first garments denoting your station as a <priest/priestess> of Elune.\n\nTake care, and may you be protected in your journeys.",
+        "secondary": "<Name>, you must travel to Dolanaar when your business here in Shadowglen is done. There, you will find Laurna Morninglight. She will instruct you further in the ways of Elune, and it is with her that you will earn your first garments denoting your station as a priest of Elune.\n\nTake care, and may you be protected in your journeys.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Laurna Morninglight in Teldrassil.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Elune proper name with semantic favor framing.",
+      "detail": "Shadowglen business must finish before Dolanaar journey; Laurna teaches/awards first garments; exact supported <priest/priestess>.",
+      "objective": "Teldrassil broad region preserved, rather than replacing objective with detail town.",
+      "progress": "Unavailable in both current references and UA.",
+      "complete": "Restored dropped <name> from raw output; Shanda referral and priests/Elune retained."
+    }
+  },
+  {
+    "id": 5624,
+    "englishTitle": "Garments of the Light",
+    "uaEnglishTitles": [
+      "Garments of the Light"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          377
+        ]
+      ],
+      "3": [
+        [
+          377
+        ]
+      ],
+      "8": [
+        "Find Guard Roberts and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Priestess Josetta in Goldshire."
+      ],
+      "10": [
+        [
+          [
+            12423,
+            null,
+            17
+          ]
+        ]
+      ],
+      "28": [
+        5623
+      ],
+      "S": {
+        "1": "Garments of the Light",
+        "4": 5,
+        "5": 4,
+        "6": 1,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 134218374
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Normally I put forth a small challenge to followers of the Light to test their skill. I want to see if they are worthy of wearing their first robes--a sign that the church outwardly approves of the <priest/priestess> and supports <him/her>.\n\nBut this situation is a bit different. One of Goldshire's citizens saw an injured guard near the lake to the east of here. His name is Roberts. Find him, heal him, fortify his body and return here. If you can do that for me, then I will consider your test complete.",
+        "secondary": "Normally I put forth a small challenge to followers of the Light to test their skill. I want to see if they are worthy of wearing their first robes--a sign that the church outwardly approves of the priest and supports him.\n\nBut this situation is a bit different. One of Goldshire's citizens saw an injured guard near the lake to the east of here. His name is Roberts. Find him, heal him, fortify his body and return here. If you can do that for me, then I will consider your test complete.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Find Guard Roberts and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Priestess Josetta in Goldshire.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Shared Light garments title retained with lore identity.",
+      "detail": "HELD: <him/her> branch lacks supported runtime substitution; raw DeepL exists but omitted it. No gender branch selected. East lake/Roberts evidence retained in source.",
+      "objective": "Human Guard Roberts, rank2 heal then Fortitude, Josetta/Goldshire; not Dolf branch.",
+      "progress": "Corrected raw love-power wording to magic; vital healing plus Fortitude sustain companions against more blows.",
+      "complete": "Corrected raw malformed guard phrase; one MORE healthy guard, optional robe, future tests do not require it."
+    }
+  },
+  {
+    "id": 5625,
+    "englishTitle": "Garments of the Light",
+    "uaEnglishTitles": [
+      "Garments of the Light"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          1226
+        ]
+      ],
+      "3": [
+        [
+          1226
+        ]
+      ],
+      "8": [
+        "Find Mountaineer Dolf and heal his wounds using Lesser Heal (Rank 2). Afterwards, grant him Power Word: Fortitude and then return to Maxan Anvol in Kharanos."
+      ],
+      "10": [
+        [
+          [
+            12427,
+            null,
+            17
+          ]
+        ]
+      ],
+      "28": [
+        5626
+      ],
+      "S": {
+        "1": "Garments of the Light",
+        "4": 5,
+        "5": 4,
+        "6": 68,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 134218374
+      }
+    },
+    "sourceDifferences": {
+      "complete": {
+        "current": "Well done, <name>. You got the Light inside you, that's for sure.\n\nHere, take this robe. It'll denote your role in the church and help people recognize you as a <class>--wear it if you want.\n\nLater, there will be more tests that you'll have to go through. Do what you can to learn about your abilities and what you're capable of. Try your hand at a fight or two alone, and then again with other travelers.\n\nBut don't fret none... you're as powerful as they come.",
+        "secondary": "Excellent, <name>. With one more healthy guard out there to help the town, we'll be that much safer. I'm glad to see you're already learning to use your abilities wisely. If you feel you are ready for more training at any time, please come back to me. But for now, take this robe. It will let others know that you are one of our order. If you don't want to wear it, that's fine. Later there will be more tests and this robe isn't necessary for those.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same title as5624, distinct questID/race/giver/target.",
+      "detail": "Corrected raw one-of-your-power wording to person of that power; Kharanos citizen reports Dolf south outside town; heal and Fortitude.",
+      "objective": "Dwarf Mountaineer Dolf; Lesser Heal Rank2 then Fortitude; Maxan Anvol/Kharanos.",
+      "progress": "Dolf search and prospective heroes; Fortitude enables more blows and healing keeps them alive.",
+      "complete": "Used current distinct Anvol/Dwarf speech, not copied Josetta/Human completion on60.tools. Light, <class>, optional robe, later tests, one-or-two fights alone then with travelers retained."
+    }
+  },
+  {
+    "id": 5626,
+    "englishTitle": "In Favor of the Light",
+    "uaEnglishTitles": [
+      "In Favor of the Light"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          837
+        ]
+      ],
+      "3": [
+        [
+          1226
+        ]
+      ],
+      "8": [
+        "Speak to Maxan Anvol in Dun Morogh."
+      ],
+      "S": {
+        "1": "In Favor of the Light",
+        "4": 5,
+        "5": 4,
+        "6": 68,
+        "7": 16,
+        "17": -262,
+        "22": 5625,
+        "23": 8,
+        "27": 5625,
+        "p": 134
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Hey! <name>! Got a minute?!\n\nYa been following the Light now for long enough that you find your way to Maxan Anvol in Kharanos. He'll teach ya more about the path yer following, and if you prove worthy, give ya yer first set of robes to denote your station as a <priest/priestess>.\n\nNow get goin'! As soon as yer done here, head through the tunnel--he'll be waitin' for ya.",
+        "secondary": "Hey! <Name>! Got a minute?!\n\nYa been following the Light now for long enough that you find your way to Maxan Anvol in Kharanos. He'll teach ya more about the path yer following, and if you prove worthy, give ya yer first set of robes to denote your station as a priest/priestess.\n\nNow get goin'! As soon as yer done here, head through the tunnel--he'll be waitin' for ya.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Light proper identity plus ordinary favor framing.",
+      "detail": "Corrected raw tunnel mistranslation and false already-arrived meaning: go to Maxan Anvol/Kharanos; finish here first, then through tunnel; conditional worthiness/first robes; exact player markers.",
+      "objective": "Dun Morogh is objective region; did not substitute Kharanos.",
+      "progress": "Unavailable.",
+      "complete": "Branstock referral, larger step into Light, body AND will strength preserved."
+    }
+  },
+  {
+    "id": 5648,
+    "englishTitle": "Garments of Spirituality",
+    "uaEnglishTitles": [
+      "Garments of Spirituality"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3706
+        ]
+      ],
+      "3": [
+        [
+          3706
+        ]
+      ],
+      "8": [
+        "Find Grunt Kor'ja and heal her wounds using Lesser Heal (Rank 2). Afterwards, grant her Power Word: Fortitude and then return to Tai'jin at Razor Hill."
+      ],
+      "10": [
+        [
+          [
+            12430,
+            null,
+            17
+          ]
+        ]
+      ],
+      "28": [
+        5649
+      ],
+      "S": {
+        "1": "Garments of Spirituality",
+        "4": 5,
+        "5": 4,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 134218374
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "You be ready for your first test, <name>. South of Razor Hill, just outta town, one of our grunts be hurt fightin' off some o' Proudmoore's old troops. She not doin' too well, an' she benefit much if one of our kind could help her. Find her--her name be Kor'ja--heal her wounds, an' give her the blessin' of our ancestors.\n\nYou do this, an' me thinks that be sufficient proof that you ready to move on in our ways.",
+        "secondary": "You be ready for your first test, <Name>. South of Razor Hill, just outta town, one of our grunts be hurt fightin' off some o' Proudmoore's old troops. She not doin' too well, an' she benefit much if one of our kind could help her. Find her--her name be Kor'ja--heal her wounds, an' give her the blessin' of our ancestors.\n\nYou do this, an' me thinks that be sufficient proof that you ready to move on in our ways.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Ordinary spiritual garments title translated semantically.",
+      "detail": "Restored raw dropped <name>; ready assertion instead of prepare command; injured female Kor'ja south of RazorHill; Proudmoore former troops, ancestor blessing, sufficient proof and speaker uncertainty retained.",
+      "objective": "Female Grunt Kor'ja, rank2 heal THEN Fortitude, Tai'jin/RazorHill.",
+      "progress": "Corrected raw loss of ancestor-death idiom, imperative remember and classes; keeps healing+Fortitude combination for warriors,mages,all others.",
+      "complete": "Kor'ja survives and defends town against humans; wisdom vs brute strength; optional usefulness/recipient indifference, earned robe and brother address retained."
+    }
+  },
+  {
+    "id": 5649,
+    "englishTitle": "In Favor of Spirituality",
+    "uaEnglishTitles": [
+      "In Favor of Spirituality"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3707
+        ]
+      ],
+      "3": [
+        [
+          3706
+        ]
+      ],
+      "8": [
+        "Speak to Tai'jin in Durotar."
+      ],
+      "S": {
+        "1": "In Favor of Spirituality",
+        "4": 5,
+        "5": 4,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "22": 5648,
+        "23": 8,
+        "27": 5648,
+        "p": 134
+      }
+    },
+    "sourceDifferences": {},
+    "sourceNotes": {
+      "title": "Ordinary spirituality/favor title; no invented named rite.",
+      "detail": "Horde loyalty/honor, durable traditions, orc disapproval not barring secret practice; Tai'jin/RazorHill female teacher, readiness condition retained.",
+      "objective": "Durotar region with Tai'jin identity restored.",
+      "progress": "Unavailable.",
+      "complete": "Corrected raw denial of tribe identity to changed tribe over time; reversed order of gaining strength and defeating enemies preserved, subtle distinction and tribe reliance retained."
+    }
+  },
+  {
+    "id": 98574,
+    "englishTitle": "Hallowed Memorandum",
+    "uaEnglishTitles": [
+      "Hallowed Memorandum"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          658
+        ]
+      ],
+      "3": [
+        [
+          837
+        ]
+      ],
+      "8": [
+        "Read the Hallowed Memorandum and speak to Branstock Khalder in Anvilmar."
+      ],
+      "13": [
+        179
+      ],
+      "26": [
+        [
+          54,
+          50
+        ]
+      ],
+      "S": {
+        "1": "Hallowed Memorandum",
+        "4": 1,
+        "5": 1,
+        "6": 64,
+        "7": 16,
+        "11": 282338,
+        "17": -262,
+        "p": 33558662
+      }
+    },
+    "sourceDifferences": {
+      "progress": {
+        "current": "Ah, another <race> comin' ta learn about the Light! You'll find that deepening your connection to the Light relies on curiosity and intelligence, qualities that many gnomes have in abundance. The way o' the Light isn't a technical discipline, it's a riddle, and one that provides both life lessons and practical blessings.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": "With time and practice, you'll discover new facets to the Light. In a way, it's finding a union between what you think and what you feel. As you deepen your connection with the Light, you can come back to me to talk about what you've learned. I'll be happy to show you how to tap into that force to teach ya how to heal, or to smite the wicked. For a small donation, of course!",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Exact identifying item HallowedMemorandum retained.",
+      "detail": "Memorandum passed while helping, uncertain origin from priest trainer Branstock, read when opportunity and find insideAnvilmar.",
+      "objective": "Exact HallowedMemorandum item and BranstockKhalder/Anvilmar.",
+      "progress": "Gnome race64 priest16 branch; <race> denotes person not entire race. Curiosity/intelligence, manygnomes, riddle vs technicaldiscipline, life lessons/practicalblessings retained.",
+      "complete": "Light thought/feeling union, return as connectiondeepens, teach heal OR smitewicked; small-donation joke retained."
+    }
+  },
+  {
+    "id": 5627,
+    "englishTitle": "Stars of Elune",
+    "uaEnglishTitles": [
+      "Stars of Elune"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": false,
+      "objective": false,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          11401
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "13": [
+        5628,
+        5629,
+        5630,
+        5631,
+        5632,
+        5633
+      ],
+      "16": [
+        5628,
+        5629,
+        5630,
+        5631,
+        5632,
+        5633
+      ],
+      "S": {
+        "1": "Stars of Elune",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 36870
+      }
+    },
+    "sourceDifferences": {},
+    "sourceNotes": {
+      "title": "Ordinary Stars-of-Elune title, not invented spell identity Starshards; Elune retained.",
+      "detail": "Current primary+secondary completion-only lesson: no offer invented.",
+      "objective": "Unavailable current primary+secondary+installed objective.",
+      "progress": "Unavailable.",
+      "complete": "Elune attention, proven worthiness, IF ready, unique-to-our-people one spell retained; no spell invented."
+    }
+  },
+  {
+    "id": 5628,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          377
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5629,
+        5630,
+        5631,
+        5632,
+        5633
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Ah, yes, hello, <name>? I'm glad you stopped to talk for a moment. You are a far way from home at such a young age--I admire such ambition. I wish when I was younger I could have mustered the courage to travel the world.\n\nThere was a priestess of your order here looking for you not too long ago. She said it was very urgent you returned to the Temple of the Moon in Darnassus and speak to Priestess Alathea--it had something to do with your training. I wouldn't dally too long if you can help it.",
+        "secondary": "Ah, yes, hello, <Name>? I'm glad you stopped to talk for a moment. You are a far way from home at such a young age--I admire such ambition. I wish when I was younger I could have mustered the courage to travel the world.\n\nThere was a priestess of your order here looking for you not too long ago. She said it was very urgent you returned to the Temple of the Moon in Darnassus and speak to Priestess Alathea--it had something to do with your training. I wouldn't dally too long if you can help it.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same-title ReturningHome alternatives tracked by ID.",
+      "detail": "Foreign young traveler giver voice, admiration and unrealized courage wish, urgent return to TempleoftheMoon/Darnassus and PriestessAlathea due training; corrected raw if-help-available mistranslation of if-you-can-help-it.",
+      "objective": "Alathea/Darnassus, not current giver.",
+      "progress": "Unavailable.",
+      "complete": "Corrected raw amazing/surprise opening to positive welcome; explicit home restored, Tyrande+speaker, safe return, questions and deferred travel talk retained."
+    }
+  },
+  {
+    "id": 5629,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3600
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5628,
+        5630,
+        5631,
+        5632,
+        5633
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Hello again, <name>. I know you've been busy aiding our people, but you must take some time for yourself also. Priestess Alathea sent someone here looking for you. It seems that you've caught the attention of our elders and they feel you are prepared for greater things. Head to the Temple of the Moon in Darnassus and look for Alathea there. She will be waiting. Good luck, and may Elune be with you.",
+        "secondary": "Hello again, <Name>. I know you've been busy aiding our people, but you must take some time for yourself also. Priestess Alathea sent someone here looking for you. It seems that you've caught the attention of our elders and they feel you are prepared for greater things. Head to the Temple of the Moon in Darnassus and look for Alathea there. She will be waiting. Good luck, and may Elune be with you.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": "Wonderful, you've returned, <name>. It always pleases Tyrande and myself when those we've trained go out into the world and return to us safely. How have things been with you? Does Elune still bless your travels? Perhaps after we speak more about the business at hand, you could tell me more of your travels.",
+        "secondary": "Wonderful, you've returned home, <name>. It always pleases Tyrande and myself when those we've trained go out into the world and return to us safely. How have things been with you? Does Elune still bless your travels? Perhaps after we speak more about the business at hand, you could tell me more of your travels.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same title, own NightElf route handoff.",
+      "detail": "Busy helping ownpeople, timeforself, Alathea sent messenger, apparent elders interest/readiness not certainty; temple/Darnassus, wait/blessing retained. Short Alathea alias refers back to fully annotated PriestessAlathea.",
+      "objective": "PriestessAlathea/Darnassus.",
+      "progress": "Unavailable.",
+      "complete": "Current primary says returned without home, unlike60.tools; distinct opening preserved and all following questions matched."
+    }
+  },
+  {
+    "id": 5630,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          1226
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5628,
+        5629,
+        5631,
+        5632,
+        5633
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Hello there, <laddy/lassy>. Good to see you travelin' far and wide to distant lands. No offense meant, but a lot o' your kind don't take well to these cold climates usually. Glad to see you're made of tougher stuff.\n\nNot too long ago one of your priestesses was in here lookin' for you--said somethin' about you finding a Priestess Alathea in the Temple of the Moon back in Darnassus. Said it was important and you should head back there soon.",
+        "secondary": "Hello there, laddy. Good to see you travelin' far and wide to distant lands. No offense meant, but a lot o' your kind don't take well to these cold climates usually. Glad to see you're made of tougher stuff.\n\nNot too long ago one of your priestesses was in here lookin' for you--said somethin' about you finding a Priestess Alathea in the Temple of the Moon back in Darnassus. Said it was important and you should head back there soon.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same-title alternative by ID.",
+      "detail": "HELD: exact <laddy/lassy> branch unsupported; preserve raw offer coldclimate/urgentreturn evidence without inventing branch.",
+      "objective": "Alathea/Darnassus unaffected by held offer.",
+      "progress": "Unavailable.",
+      "complete": "Current primary complete home-welcome, Tyrande+speaker safe return, Elune question, business before travelstories."
+    }
+  },
+  {
+    "id": 5631,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          376
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5628,
+        5629,
+        5630,
+        5632,
+        5633
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "A priestess recently visited our halls seeking you out, young <race>. She said that she was on a mission to find you and that you should return to the Temple of the Moon in Darnassus as soon as possible. When you arrive, seek out a Priestess Alathea--she will tell you more.\n\nThe Light be with you, <name>.",
+        "secondary": "A priestess recently visited our halls seeking you out, young <Race>. She said that she was on a mission to find you and that you should return to the Temple of the Moon in Darnassus as soon as possible. When you arrive, seek out a Priestess Alathea--she will tell you more.\n\nThe Light be with you, <Name>.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same-title alternative by ID.",
+      "detail": "Corrected raw halls=apartments error. Young <race>, priestess search mission, return assoonaspossible to temple/Darnassus, Alathea furtherinfo and Light/<name> farewell preserved.",
+      "objective": "Alathea/Darnassus.",
+      "progress": "Unavailable.",
+      "complete": "Home welcome shared by this explicit source, not indiscriminately copied to5629."
+    }
+  },
+  {
+    "id": 5632,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          11397
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5628,
+        5629,
+        5630,
+        5631,
+        5633
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Oh, yes, of course. Hello, <name>. A messenger from our order was here not too long ago looking for you. She mentioned something important happening back in Darnassus and that you should return to the Temple of the Moon as soon as you can. When you arrive, speak to Priestess Alathea. I believe it has something to do with your progressing so well in our ways.\n\nAgain, return to Darnassus when you can.",
+        "secondary": "Oh, yes, of course. Hello, <Name>. A messenger from our order was here not too long ago looking for you. She mentioned something important happening back in Darnassus and that you should return to the Temple of the Moon as soon as you can. When you arrive, speak to Priestess Alathea. I believe it has something to do with your progressing so well in our ways.\n\nAgain, return to Darnassus when you can.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": null,
+        "secondary": "Wonderful, you've returned home, <name>. It always pleases Tyrande and myself when those we've trained go out into the world and return to us safely. How have things been with you? Does Elune still bless your travels? Perhaps after we speak more about the business at hand, you could tell me more of your travels.",
+        "selectedReference": "sixty"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same-title alternative, installed giver11397→ender11401.",
+      "detail": "Corrected raw messenger=diplomat and whenever-time return mistranslations. Important Darnassus event, temple assoonpossible, Alathea, speaker belief about progress and whenyoucan refrain retained.",
+      "objective": "Alathea/Darnassus; race8 priest16 metadata confirms step.",
+      "progress": "Unavailable.",
+      "complete": "Explicit secondary fallback: current primary absent; exact60.tools English matches UA1.0.0 completion pattern and Alathea ender11401/NightElf metadata. Raw DeepL input/response05 saved; sourceURL/HTMLhash recorded. No primary completion fabricated."
+    }
+  },
+  {
+    "id": 5633,
+    "englishTitle": "Returning Home",
+    "uaEnglishTitles": [
+      "Returning Home"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          11406
+        ]
+      ],
+      "3": [
+        [
+          11401
+        ]
+      ],
+      "8": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "16": [
+        5627,
+        5628,
+        5629,
+        5630,
+        5631,
+        5632
+      ],
+      "S": {
+        "1": "Returning Home",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Greetings, <laddy/lass>. Good to see you here in our great halls. A blessing be on you and your kind.\n\nWhile you were traveling through our lands, a priestess of your temple came here seeking you. She said that you were to return to the Temple of the Moon as soon as possible. I'm sorry I can't tell you more, but it did sound important. When you get to the temple, speak to a Priestess Alathea.",
+        "secondary": "Greetings, laddy. Good to see you here in our great halls. A blessing be on you and your kind.\n\nWhile you were traveling through our lands, a priestess of your temple came here seeking you. She said that you were to return to the Temple of the Moon as soon as possible. I'm sorry I can't tell you more, but it did sound important. When you get to the temple, speak to a Priestess Alathea.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Priestess Alathea in Darnassus.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same-title alternative, distinct giver11406.",
+      "detail": "HELD: exact <laddy/lass> branch unsupported; raw capture/evidence saved, no branch selected.",
+      "objective": "Alathea/Darnassus.",
+      "progress": "Unavailable.",
+      "complete": "Source home-welcome, safe return, Tyrande/Elune and deferred travel talk preserved."
+    }
+  },
+  {
+    "id": 5652,
+    "englishTitle": "Hex of Weakness",
+    "uaEnglishTitles": [
+      "Hex of Weakness"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          6018
+        ]
+      ],
+      "3": [
+        [
+          6018
+        ]
+      ],
+      "16": [
+        5654,
+        5655,
+        5656,
+        5657
+      ],
+      "S": {
+        "1": "Hex of Weakness",
+        "4": 10,
+        "5": 10,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32774
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": null,
+        "secondary": "I sent here to make sure that you not wander too far from home, <name>. They send me to make sure you return home because Ur'kyo, greatest of our priests, wish to speak to you. You go there. You got to the Valley of Spirits in the orc city and you speak to Ur'kyo. He wait for you now.",
+        "selectedReference": "sixty"
+      }
+    },
+    "sourceNotes": {
+      "title": "Exact identifying spell HexofWeakness retained with pronunciation, not raw generic bad-effect rendering.",
+      "detail": "HELD: current primary has a completion-only lesson. Secondary legacy English offer directs player to Ur'kyo despite installed giver=ender6018 and no objective. Saved exact secondary English and separate DeepL input/response07; no handoff field enabled.",
+      "objective": "Unavailable in current Forever, installed metadata and secondary HTML. Secondary explicitly states No objectives are recorded for this quest yet; Turn in near Orgrimmar is site UI, not quest objective. UA presence alone is not English evidence.",
+      "progress": "Unavailable.",
+      "complete": "Lesson from Ur'kyo giver=ender6018; heedlesson, spellboon, futuretests for self-improvement/proveworth totribe; no handoff greeting copied."
+    }
+  },
+  {
+    "id": 5654,
+    "englishTitle": "Hex of Weakness",
+    "uaEnglishTitles": [
+      "Hex of Weakness"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3706
+        ]
+      ],
+      "3": [
+        [
+          6018
+        ]
+      ],
+      "8": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "16": [
+        5652,
+        5655,
+        5656,
+        5657
+      ],
+      "S": {
+        "1": "Hex of Weakness",
+        "4": 10,
+        "5": 10,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "It be time for you to meet with Ur'kyo, <name>. He be in the Valley of Spirits in the orc city. Go there and speak to him. It is time you learn more of the old ways of our kind. It time you be brought into the circle and made a true priest of our tribe.",
+        "secondary": "It be time for you to meet with Ur'kyo, <Name>. He be in the Valley of Spirits in the orc city. Go there and speak to him. It is time you learn more of the old ways of our kind. It time you be brought into the circle and made a true priest of our tribe.",
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": "Ah, good, you be here now. We can start your training in the old ways.",
+        "secondary": "You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same spell title, distinct handoffID.",
+      "detail": "Time to meet Ur'kyo, orc city ValleyofSpirits (corrected raw mountains), oldways and initiation as truepriest preserved.",
+      "objective": "Orgrimmar/Ur'kyo; installed3706→6018.",
+      "progress": "Unavailable.",
+      "complete": "Current short handoff greeting supported by UA1.0.0; rejected secondary copied5652 lesson."
+    }
+  },
+  {
+    "id": 5655,
+    "englishTitle": "Hex of Weakness",
+    "uaEnglishTitles": [
+      "Hex of Weakness"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          11407
+        ]
+      ],
+      "3": [
+        [
+          6018
+        ]
+      ],
+      "8": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "16": [
+        5652,
+        5654,
+        5656,
+        5657
+      ],
+      "S": {
+        "1": "Hex of Weakness",
+        "4": 10,
+        "5": 10,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "I sent here to make sure that you not wander too far from home, <name>. They send me to make sure you return home because Ur'kyo, greatest of our priests, wish to speak to you. You go there. You go to the Valley of Spirits in the orc city and you speak to Ur'kyo. He wait for you now.",
+        "secondary": "I sent here to make sure that you not wander too far from home, <Name>. They send me to make sure you return home because Ur'kyo, greatest of our priests, wish to speak to you. You go there. You go to the Valley of Spirits in the orc city and you speak to Ur'kyo. He wait for you now.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Ur'kyo in Orgrimmar.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": "Ah, good, you be here now. We can start your training in the old ways.",
+        "secondary": "You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same spell title, distinct giver11407→6018.",
+      "detail": "Corrected raw subject inversion: speaker WAS SENT here to stop player straying, greatestpriest Ur'kyo wantsplayer; directcommands, orccity/ValleyofSpirits and waitingnow retained.",
+      "objective": "Orgrimmar/Ur'kyo.",
+      "progress": "Unavailable.",
+      "complete": "Current short training greeting, not secondary copiedlesson."
+    }
+  },
+  {
+    "id": 5656,
+    "englishTitle": "Hex of Weakness",
+    "uaEnglishTitles": [
+      "Hex of Weakness"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          3044
+        ]
+      ],
+      "3": [
+        [
+          6018
+        ]
+      ],
+      "8": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "16": [
+        5652,
+        5654,
+        5655,
+        5657
+      ],
+      "S": {
+        "1": "Hex of Weakness",
+        "4": 10,
+        "5": 10,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "It always warms my undying heart to see priests from all cultures wander the world. To know that power exists that is not arcane and well within our grasp. That's why it is my honor to direct you home, <name>.\n\nUr'kyo, your great priest in Orgrimmar, has asked for your presence. You can find him in the Valley of Spirits.",
+        "secondary": "It always warms my undying heart to see priests from all cultures wander the world. To know that power exists that is not arcane and well within our grasp. That's why it is my honor to direct you home, <Name>.\n\nUr'kyo, your great priest in Orgrimmar, has asked for your presence. You can find him in the Valley of Spirits.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Ur'kyo in Orgrimmar.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": null,
+        "secondary": "You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.",
+        "selectedReference": "sixty"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same spell title, distinct giver3044→6018.",
+      "detail": "Undying-heart voice, cultures ofpriests, non-Arcane accessiblepower (corrected raw secret/nonsecret), honor directingplayer HOME, Ur'kyo request and ValleyofSpirits retained. Separate reread removed accidental superlative: source says great priest, not greatest (that belongs to5655).",
+      "objective": "Orgrimmar/Ur'kyo samehandoff.",
+      "progress": "Unavailable.",
+      "complete": "HELD: primary completion absent; secondary lesson text copies5652 and conflicts with currentUA short handoff pattern/ender6018. Saved rawtranslation06 and exactsecondary English, no invented replacement from UA."
+    }
+  },
+  {
+    "id": 5657,
+    "englishTitle": "Hex of Weakness",
+    "uaEnglishTitles": [
+      "Hex of Weakness"
+    ],
+    "titleMatch": "exact",
+    "uaFields": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "metadata": {
+      "2": [
+        [
+          4606
+        ]
+      ],
+      "3": [
+        [
+          6018
+        ]
+      ],
+      "8": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "16": [
+        5652,
+        5654,
+        5655,
+        5656
+      ],
+      "S": {
+        "1": "Hex of Weakness",
+        "4": 10,
+        "5": 10,
+        "6": 128,
+        "7": 16,
+        "17": -262,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "sourceDifferences": {
+      "detail": {
+        "current": "Home. Return home, young <race>.\n\nYour spiritual leader Ur'kyo begs you to return to him and speak about the path you travel.\n\nGo to the Valley of Spirits in the great Horde city of Orgrimmar. You will find him there.",
+        "secondary": "Home. Return home, young <Race>.\n\nYour spiritual leader Ur'kyo begs you to return to him and speak about the path you travel.\n\nGo to the Valley of Spirits in the great Horde city of Orgrimmar. You will find him there.",
+        "selectedReference": "wowhead"
+      },
+      "objective": {
+        "current": "Speak to Ur'kyo in Orgrimmar.",
+        "secondary": null,
+        "selectedReference": "wowhead"
+      },
+      "complete": {
+        "current": "Ah, good, you be here now. We can start your training in the old ways.",
+        "secondary": "You would do well to pay heed to this lesson, young one. The Hex of Weakness will be a great boon to you in battle. Later I will have tests for you to further yourself and prove your worth to the tribe.",
+        "selectedReference": "wowhead"
+      }
+    },
+    "sourceNotes": {
+      "title": "Same spell title, own giver4606→6018.",
+      "detail": "Repeated Home call and young <race>, spiritualleader begsPLAYER return toHIM (fixed raw direction reversal), path notliteraltravelroute, Horde/Orgrimmar/ValleyofSpirits retained.",
+      "objective": "Ur'kyo/Orgrimmar.",
+      "progress": "Unavailable.",
+      "complete": "Current short handoff greeting; sameEnglish as5654/55 treated separately byID."
+    }
+  }
+]

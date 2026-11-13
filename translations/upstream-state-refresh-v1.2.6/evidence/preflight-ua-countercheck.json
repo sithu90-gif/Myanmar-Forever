@@ -1,0 +1,5425 @@
+{
+  "checkedAt": "2026-11-13T06:37:16.027940+00:00",
+  "myanmarVersion": "1.2.5",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T06:37:16.027940+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "manifestSHA256": "5565bd2f8d882918104d3e21f6a3eb30642d5322e369de5171ed24e7f35fdf0d",
+  "upstreamFactionEntries": {
+    "Alliance": 1587,
+    "Horde": 1529,
+    "Both": 3846
+  },
+  "coverage": {
+    "myanmarQuestIDs": 1186,
+    "translatedFields": {
+      "title": 1186,
+      "detail": 1149,
+      "objective": 1158,
+      "progress": 878,
+      "complete": 1176
+    },
+    "translatedFieldTotal": 5547,
+    "availableDialogueStates": 3203,
+    "absentOrHeldDialogueStates": 355,
+    "uaUniqueQuestIDs": 6962,
+    "overlapQuestIDs": 1186,
+    "uaQuestIDsMissingFromMyanmar": 5776,
+    "myanmarQuestIDsAbsentFromUA": [],
+    "shareOfUAQuestIDsPercent": 17.04,
+    "titleMatches": {
+      "case_only": 6,
+      "documented_alias": 3,
+      "exact": 1177
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "documentedHold": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "documentedHold": "Public reference concatenates male and female replies."
+      },
+      {
+        "id": 1485,
+        "en": "Vile Familiars",
+        "field": "progress",
+        "documentedHold": "Both English references say would risk after few enough interested, producing contradictory/ambiguous safety intent. Do not silently change would to would not. Entire progress held until clearer English or sanitized current live evidence resolves intent. Literal English and raw DeepL retained."
+      },
+      {
+        "id": 1638,
+        "en": "A Warrior's Training",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion addresses lad;60.tools instead has <name>;pinned UA has gender alternatives. No current sanitized live capture resolves the address branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 1639,
+        "en": "Bartleby the Drunk",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion says fancy boy;60.tools says fancy boy/girl;pinned UA has gender alternatives. No current sanitized live capture resolves the branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 1685,
+        "en": "Gakin's Summons",
+        "field": "complete",
+        "documentedHold": "Material source conflict: Wowhead Forever stern Remen/class/head-on-shoulders completion versus 60.tools concerned name/fear-worst/training-only completion. Current live or other conclusive evidence required before enabling. Both literal versions, raw DeepL and non-enabled edited candidate retained."
+      },
+      {
+        "id": 1780,
+        "en": "The Tome of Divinity",
+        "field": "detail",
+        "documentedHold": "CurrentForever contains unsupported <men/women> branch;60.tools supplies male-only wording and <Class> instead of current<class>. No sanitized live gender capture. Hold entire detail; rawDeepL preserved."
+      },
+      {
+        "id": 1783,
+        "en": "The Tome of Divinity",
+        "field": "complete",
+        "documentedHold": "CurrentForever default brother conflictswith60.tools brother/sister. No sanitized live genderbranch evidence. Hold entire completion; no male-only address enabled for all players. RawDeepL retained."
+      },
+      {
+        "id": 1786,
+        "en": "The Tome of Divinity",
+        "field": "complete",
+        "documentedHold": "CurrentForever default displays brother;60.tools displays brother/sister. No sanitized live gender branch evidence. Hold full completion rather than enabling male-only address for all players; rawDeepL saved."
+      },
+      {
+        "id": 2205,
+        "en": "Seek out SI: 7",
+        "field": "detail",
+        "documentedHold": "Current Wowhead source includes unresolved <boy/girl> gender branch, while60.tools gives fixed boy. Runtime marker support/gender selection and live evidence unavailable; field held after raw DeepL rather than inventing gender variant."
+      },
+      {
+        "id": 2998,
+        "en": "Tome of Divinity",
+        "field": "detail",
+        "documentedHold": "CurrentForever<brother/sister> isunsupportedgenderbranch;60.tools hasliteralbrother/sister. No sanitizedlivecapture resolvesbranchrouting. Holdentiredetail; allEnglishstillpassedDeepL."
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "documentedHold": "Fixed player name Rangrang in the public reference; live substitution unverified."
+      },
+      {
+        "id": 3099,
+        "en": "Tainted Scroll",
+        "field": "progress",
+        "documentedHold": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "documentedHold": "Fixed player name Ferlis in the public reference; live substitution unverified."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "progress",
+        "documentedHold": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+      },
+      {
+        "id": 6086,
+        "en": "Training the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6125,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 6130,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 92461,
+        "en": "Harmony in Balance",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92514,
+        "en": "Welcome to Shen'dar Village",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92517,
+        "en": "The Criminal Element",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92598,
+        "en": "The Gift of Skysight",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92642,
+        "en": "Disrupting Logistics",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92645,
+        "en": "Breaking the Breaker",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92753,
+        "en": "Destruction in Deadmines",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93161,
+        "en": "The Ancient Hilt",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93161,
+        "en": "The Ancient Hilt",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 93461,
+        "en": "Welcome to Shen'dar Village",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93739,
+        "en": "Exploring the Horde",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93746,
+        "en": "A Firm Response",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93835,
+        "en": "Confront Lorthuna",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93928,
+        "en": "Of Mice and Milk",
+        "field": "complete",
+        "documentedHold": "Current primary explicitly shows development placeholder(PH)Thanks. Hold completion pending finished current dialogue or sanitized live evidence; do not ship translated placeholder. Raw DeepL retained."
+      },
+      {
+        "id": 93949,
+        "en": "Bugged",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93963,
+        "en": "Exploring the Alliance",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 94413,
+        "en": "A Magical Affront",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "documentedHold": "Race marker describes the NPC, while the reader expands player race."
+      },
+      {
+        "id": 95508,
+        "en": "Unwelcome Guests",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 95981,
+        "en": "Watching the Roads",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96390,
+        "en": "Nip 'Em in the Bud",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96821,
+        "en": "Legging It",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97924,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97954,
+        "en": "Camping 101: Engineering",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97957,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97958,
+        "en": "Camping 101: Leatherworking",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97964,
+        "en": "Camping 101: Blacksmithing",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97968,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97971,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97972,
+        "en": "Camping 101: Tailoring",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98013,
+        "en": "Swelling Forces",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98284,
+        "en": "Camping 101: Enchanting",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98285,
+        "en": "Camping 101: Engineering",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98299,
+        "en": "Stop the Spread",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98319,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "documentedHold": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "documentedHold": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "documentedHold": "Prior hold retained: current primary task tracker says Cleanse the Wildmane Well while offer/prose objective and installed metadata say deliver ThunderhornsReport. Current live goal remains uncaptured; conflicting offer held. Raw DeepL retained."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "documentedHold": "Prior hold retained: current primary task tracker conflicts with report-delivery prose objective. Do not choose a live goal without sanitized current capture. Raw DeepL retained."
+      },
+      {
+        "id": 98517,
+        "en": "Call of Fire",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "documentedHold": "Prior hold retained: secondary-only offer says player is not a Warrior, while class eligibility/alternative offers are unverified. Current primary unavailable via helper and web; installed metadata does not resolve class branch. Raw DeepL retained."
+      },
+      {
+        "id": 99160,
+        "en": "Rime's Wrath",
+        "field": "progress",
+        "documentedHold": null
+      }
+    ],
+    "regionCounts": {
+      "Brill / Tirisfal Glades": 94,
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 70,
+      "Deathknell → Brill": 24,
+      "Druid class routes": 26,
+      "Dun Morogh": 45,
+      "Durotar": 46,
+      "Duskwood": 77,
+      "Elwynn Forest": 59,
+      "Elwynn Forest / Camping": 4,
+      "Elwynn Forest → Stormwind → Loch Modan": 1,
+      "Hunter class routes": 16,
+      "Loch Modan": 41,
+      "Mage class routes": 14,
+      "Mulgore": 37,
+      "Mulgore / Thunder Bluff": 3,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Paladin class routes": 24,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Rogue class routes": 16,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Shaman class routes": 16,
+      "Silverpine Forest": 44,
+      "Stormwind": 3,
+      "Stormwind / Deadmines": 3,
+      "Teldrassil": 46,
+      "The Barrens": 83,
+      "Thunder Bluff": 1,
+      "Valley of Trials": 13,
+      "Warlock class routes": 10,
+      "Warrior class routes": 20,
+      "Westfall": 48,
+      "Westfall / Stormwind / Deadmines": 6,
+      "Zephras Isle": 101,
+      "Zephras Isle → faction departure": 50
+    }
+  },
+  "titleMismatches": [],
+  "changesSincePreviousCatalog": {
+    "addedQuestIDs": [
+      14452,
+      25126,
+      92189,
+      93451,
+      95820,
+      95821,
+      96027,
+      96028,
+      96957,
+      96959,
+      96964,
+      96971,
+      96978,
+      96979,
+      96982,
+      96983,
+      96989,
+      96991,
+      96992,
+      96994,
+      96996,
+      96997,
+      96998,
+      96999,
+      97000,
+      97001,
+      97006,
+      97007,
+      97009,
+      97010,
+      97017,
+      97018,
+      97029,
+      97045,
+      97046,
+      97048,
+      97049,
+      97074,
+      97119,
+      97168,
+      97169,
+      97170,
+      97171,
+      97173,
+      97174,
+      97175,
+      97176,
+      97177,
+      97178,
+      97179,
+      97180,
+      97182,
+      97183,
+      97184,
+      97185,
+      97186,
+      97188,
+      97194,
+      97197,
+      97198,
+      97200,
+      97203,
+      97204,
+      97205,
+      97264,
+      97270,
+      97271,
+      97319,
+      97327,
+      97378,
+      97403,
+      97404,
+      97405,
+      97411,
+      97412,
+      97420,
+      97446,
+      97447,
+      97453,
+      97490,
+      97530,
+      97534,
+      97536,
+      97540,
+      97617,
+      97663,
+      97821,
+      97883,
+      97884,
+      97986,
+      97987,
+      97988,
+      98096,
+      98109,
+      98166,
+      98192,
+      98203,
+      98205,
+      98215,
+      98231,
+      98233,
+      98325,
+      98462,
+      98476,
+      98477,
+      98830,
+      98889,
+      98890,
+      98891,
+      98893,
+      98895,
+      98896,
+      98897,
+      98898,
+      98899,
+      98903,
+      98904,
+      98905,
+      98907,
+      98908,
+      98910,
+      98911,
+      98912,
+      98913,
+      98914,
+      98915,
+      99187,
+      99192,
+      99193,
+      99194,
+      99195,
+      99198,
+      99199,
+      99200,
+      99201,
+      99202,
+      99203,
+      99204,
+      99205,
+      99206,
+      99207,
+      99208,
+      99209,
+      99210,
+      99211,
+      99212,
+      99214,
+      99215,
+      99216,
+      99217,
+      99218,
+      99233,
+      99234,
+      99257,
+      99258,
+      99326,
+      99435,
+      99670
+    ],
+    "removedQuestIDs": [],
+    "changedQuestRecords": [
+      {
+        "id": 490,
+        "fields": [
+          "en",
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 785,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 1144,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 7790,
+        "fields": [
+          "en",
+          "title",
+          "detail",
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 7962,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 8168,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 8171,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 78088,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 78823,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 79358,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 79361,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 79366,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 79624,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 82062,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 82084,
+        "fields": [
+          "detail",
+          "objective"
+        ]
+      },
+      {
+        "id": 86574,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86576,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86577,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86611,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86615,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86747,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 86757,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 87318,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 88757,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 88758,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 88807,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 88884,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 88917,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 89001,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 89013,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 89037,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 89038,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 90487,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 90854,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 90865,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91208,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 91285,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 91497,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91500,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91531,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91538,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91547,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91564,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 91568,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91569,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91685,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91696,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 91735,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 91754,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91755,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91770,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91794,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91906,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91923,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 91952,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92008,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92020,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92065,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92067,
+        "fields": [
+          "detail",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92094,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92100,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92109,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92110,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92345,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92346,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92401,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92422,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92433,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92454,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92456,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 92457,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92459,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92461,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92465,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92489,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92514,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92516,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92517,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92519,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92544,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92592,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92594,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 92598,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92612,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92642,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92645,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92707,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92743,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92745,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92753,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92755,
+        "fields": [
+          "detail",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92812,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92814,
+        "fields": [
+          "detail",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92817,
+        "fields": [
+          "detail",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 92872,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92947,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 92959,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93035,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93037,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93041,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93066,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 93072,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93122,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93125,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93128,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93129,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93162,
+        "fields": [
+          "detail",
+          "progress"
+        ]
+      },
+      {
+        "id": 93163,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 93176,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93197,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93225,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93227,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93269,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93362,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93404,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93406,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93429,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93450,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93461,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93567,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 93572,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 93574,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93585,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93594,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93601,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93663,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93680,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93685,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 93739,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93746,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93747,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93759,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 93773,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 93835,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93949,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93963,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 93971,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 94213,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94214,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94215,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94216,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94218,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94219,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94220,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94222,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94223,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94224,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94225,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94226,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94227,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94228,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94229,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94230,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94231,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94232,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94234,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94235,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94237,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94238,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94240,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94241,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94242,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94243,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94244,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94245,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94246,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94247,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94248,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94249,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94250,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94251,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94252,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94253,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94254,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94255,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94256,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94257,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94258,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94259,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94261,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94262,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94263,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94264,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94265,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94267,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94268,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94269,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94270,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94271,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94272,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94273,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94274,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94275,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94276,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94277,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94278,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94279,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94280,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94281,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94282,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94283,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94284,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94285,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94286,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94287,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94288,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94289,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94290,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94291,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94292,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94293,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94294,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94295,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94296,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94297,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94298,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94299,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94300,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94301,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94302,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94303,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94304,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94305,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94306,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94307,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94309,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94310,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94312,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94313,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94314,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94315,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94317,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94318,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94319,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94320,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94321,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94322,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94323,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94324,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94325,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94326,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94327,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94328,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94329,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94330,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94331,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94332,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94333,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94334,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94335,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94336,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94337,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94338,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94339,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94340,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94341,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94342,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94343,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94344,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94345,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94346,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94347,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94348,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94349,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94350,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94351,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94352,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94353,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94354,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94355,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94356,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94357,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94358,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94359,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94360,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94399,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94411,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94413,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94479,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94483,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94556,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94614,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94638,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94748,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94775,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94776,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94777,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94778,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94779,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94782,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 94789,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94819,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 94820,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94821,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94823,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 94825,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94826,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 94829,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94872,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94873,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94877,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 94895,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 94929,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 94969,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95006,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95026,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95033,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95034,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95064,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95111,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95118,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95119,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95120,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95122,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95125,
+        "fields": [
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 95126,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95141,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95181,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95194,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95196,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95198,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95248,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95261,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95262,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95263,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95264,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95273,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95283,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95284,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95285,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95288,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95309,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95312,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95316,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95317,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95318,
+        "fields": [
+          "detail",
+          "complete"
+        ]
+      },
+      {
+        "id": 95319,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95320,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95378,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95379,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95380,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95385,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95432,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95454,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 95483,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95508,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95534,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95555,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95568,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95569,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95599,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95602,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95603,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95611,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95646,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95647,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95737,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95748,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95751,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95766,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95770,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95772,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95773,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95776,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95787,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95788,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95789,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95791,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95792,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95798,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95799,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95810,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 95816,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95817,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95818,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95819,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95882,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 95924,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 95955,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95981,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 95982,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96020,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96026,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96031,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96044,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96045,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96047,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96050,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96055,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96056,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96057,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96058,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96063,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96067,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96078,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96102,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96131,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96135,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96136,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96138,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96209,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96222,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96243,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 96255,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96259,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96261,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96262,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96264,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96265,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96321,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96322,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96332,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96334,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96335,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96337,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96369,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 96377,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96381,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96390,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96394,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96395,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96435,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96529,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96550,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96561,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96676,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96772,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96774,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96776,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96779,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96781,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96782,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96783,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 96784,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 96785,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96786,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96796,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96821,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96830,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96897,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 96912,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96913,
+        "fields": [
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 96930,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 96986,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 96987,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 96988,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97022,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 97047,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97065,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97066,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97067,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97130,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97196,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97222,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97250,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97265,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97284,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97287,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97328,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97329,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97331,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 97332,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97386,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97538,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97583,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97899,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97900,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97901,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97905,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97906,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97907,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97908,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97915,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97916,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97917,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97918,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97919,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97921,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97922,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97923,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97924,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97925,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97927,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97929,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97930,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 97931,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97932,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97933,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97934,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97935,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97936,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97937,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 97938,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97939,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 97940,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 97941,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 97942,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97943,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97944,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97946,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97948,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97949,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97951,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97953,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97954,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97957,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97958,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97960,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97961,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97964,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97965,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97968,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97970,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97971,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97972,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97973,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97979,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 97985,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98013,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98027,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 98059,
+        "fields": [
+          "objective",
+          "progress"
+        ]
+      },
+      {
+        "id": 98067,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98070,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98071,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98072,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98093,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98094,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98095,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98156,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 98189,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98190,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98191,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98221,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98240,
+        "fields": [
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98251,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98252,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98283,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98284,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98285,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98286,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98287,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98291,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 98293,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98297,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98299,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98300,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98310,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98313,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98319,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98386,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98389,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 98417,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98418,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98463,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 98471,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98517,
+        "fields": [
+          "objective",
+          "complete"
+        ]
+      },
+      {
+        "id": 98731,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98738,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98815,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98824,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98887,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98888,
+        "fields": [
+          "progress",
+          "complete"
+        ]
+      },
+      {
+        "id": 98901,
+        "fields": [
+          "objective"
+        ]
+      },
+      {
+        "id": 98906,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 99108,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 99134,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 99160,
+        "fields": [
+          "progress"
+        ]
+      },
+      {
+        "id": 99197,
+        "fields": [
+          "complete"
+        ]
+      },
+      {
+        "id": 99411,
+        "fields": [
+          "progress"
+        ]
+      }
+    ]
+  },
+  "changedRecordsInMyanmar": [
+    {
+      "id": 490,
+      "fields": [
+        "en",
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ]
+    },
+    {
+      "id": 91208,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 91285,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92109,
+      "fields": [
+        "objective"
+      ]
+    },
+    {
+      "id": 92110,
+      "fields": [
+        "objective"
+      ]
+    },
+    {
+      "id": 92461,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92465,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92514,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92516,
+      "fields": [
+        "progress",
+        "complete"
+      ]
+    },
+    {
+      "id": 92517,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92544,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92598,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92642,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92645,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92745,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92753,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 92947,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 93461,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 93739,
+      "fields": [
+        "progress",
+        "complete"
+      ]
+    },
+    {
+      "id": 93746,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 93835,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 93949,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 93963,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 94411,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 94413,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 94638,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 95508,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 95981,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 96390,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 96821,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 96897,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97915,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97919,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97921,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97924,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97951,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97953,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97954,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97957,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97958,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97960,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97961,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97964,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97965,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97968,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97970,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97971,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97972,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 97973,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98013,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98284,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98285,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98286,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98299,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98319,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98389,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 98517,
+      "fields": [
+        "objective",
+        "complete"
+      ]
+    },
+    {
+      "id": 99108,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 99134,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 99160,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 99411,
+      "fields": [
+        "progress"
+      ]
+    }
+  ],
+  "plannedQuestChecks": [
+    {
+      "id": 990,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Trek to Ashenvale"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 991,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Raene's Cleansing"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1007,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Ancient Statuette"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1008,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Zoram Strand"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1009,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Ruuzel"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1010,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Bathran's Hair"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1016,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Elemental Bracers"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1017,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Mage Summoner"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1020,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Orendil's Cure"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1023,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Raene's Cleansing"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1024,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Raene's Cleansing"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1025,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "An Aggressive Defense"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1033,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Elune's Tear"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1034,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Ruins of Stardust"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1061,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Spirits of Stonetalon"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1062,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Goblin Invaders"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1063,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Elder Crone"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1064,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Forsaken Aid"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1065,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Journey to Tarren Mill"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1066,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Blood of Innocents"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1067,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Return to Thunder Bluff"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1086,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Flying Machine Airport"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1134,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Pridewings of Stonetalon"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5621,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Garments of the Moon"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5622,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "In Favor of Elune"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5624,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Garments of the Light"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5625,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Garments of the Light"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5626,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "In Favor of the Light"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5627,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Stars of Elune"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5628,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5629,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5630,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5631,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5632,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5633,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Returning Home"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5648,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Garments of Spirituality"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5649,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "In Favor of Spirituality"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5652,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hex of Weakness"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5654,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hex of Weakness"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5655,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hex of Weakness"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5656,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hex of Weakness"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 5657,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hex of Weakness"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6401,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Kaya's Alive"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6421,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Boulderslide Ravine"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6461,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Blood Feeders"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6481,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Earthen Arise"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6523,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Protect Kaya"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6548,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Avenge My Village"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6629,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Kill Grundig Darkcloud"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 98574,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Hallowed Memorandum"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    }
+  ],
+  "reviewStatus": "Changed UA text and field gaps are candidates for an English-source recheck.",
+  "chainVerification": "UA membership is checked per planned step. Chain edges require quest metadata and English evidence."
+}

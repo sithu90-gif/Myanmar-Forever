@@ -1,0 +1,139 @@
+{
+  "status": "passed",
+  "validatedAtUTC": "2026-11-13T07:00:01.187375+00:00",
+  "questCount": 15,
+  "enabledFieldCount": 70,
+  "fieldCounts": {
+    "title": 15,
+    "detail": 15,
+    "objective": 15,
+    "progress": 10,
+    "complete": 15
+  },
+  "unavailableFieldCount": 5,
+  "heldFieldCount": 0,
+  "groups": [
+    {
+      "group": "stonetalon-toxin-route",
+      "ids": [
+        1061,
+        1062,
+        1063,
+        1064,
+        1065,
+        1066,
+        1067,
+        1086
+      ],
+      "status": "assisted source/translation review and corrections complete",
+      "reviewedAllAvailableFields": true,
+      "fieldCount": 37,
+      "sourceAuthority": "Fresh Wowhead Forever English compared with 60.tools, installed QuestieDB and pinned UA1.0.0",
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "completedAtUTC": "2026-11-13T06:59:14.514723+00:00"
+    },
+    {
+      "group": "southeast-stonetalon-linked-routes",
+      "ids": [
+        6523,
+        6401,
+        6548,
+        6629,
+        6421,
+        6481,
+        6461
+      ],
+      "status": "assisted source/translation review and corrections complete",
+      "reviewedAllAvailableFields": true,
+      "fieldCount": 33,
+      "sourceAuthority": "Fresh Wowhead Forever English compared with 60.tools, installed QuestieDB and pinned UA1.0.0",
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "completedAtUTC": "2026-11-13T06:59:14.720691+00:00"
+    }
+  ],
+  "checks": {
+    "linguistic_lint.lint": {
+      "issues": 0
+    },
+    "build_release.validate_fields": {
+      "questsPassed": 15,
+      "checks": [
+        "exact five-field schema",
+        "English/Myanmar reviewed hashes",
+        "unavailable states null",
+        "placeholder case and multiplicity",
+        "numeric quantity multiset",
+        "UTF-8 and forbidden scripts"
+      ]
+    },
+    "rawDeepLProvenance": {
+      "fieldsMapped": 70,
+      "batches": [
+        {
+          "file": "raw-deepl-1.json",
+          "fields": 28,
+          "inputCharacters": 4560
+        },
+        {
+          "file": "raw-deepl-2.json",
+          "fields": 31,
+          "inputCharacters": 4432
+        },
+        {
+          "file": "raw-deepl-3.json",
+          "fields": 11,
+          "inputCharacters": 2503
+        }
+      ],
+      "inputTextExact": true,
+      "inputAndRawAndEditedHashesVerified": true
+    },
+    "htmlBoundaries": {
+      "originalReferenceFiles": 30,
+      "bothSourceHashesVerified": true,
+      "missingStatesInspected": true
+    },
+    "uaCountercheck": {
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "allTitleAliasesExact": true,
+      "allAvailableStatesMatch": true,
+      "selectedChangedIDsSincePreviousUA": []
+    },
+    "metadata": {
+      "version": "1.0.12",
+      "tocSHA256": "d605067dcba3ea23f665756fd13d31a01a2bdb7a238dad705ca563da8171aa7f",
+      "decodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+      "questCount": 5233
+    }
+  },
+  "independentAssistedReview": "not performed; root will assign",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "artifactSHA256": {
+    "annotation-exceptions.json": "674396a030c50512b9fbf227794f023b499c1eab33f63d1211b8ebb78ab0a1c5",
+    "comparison-provenance.json": "24d2ba76d8d3351f8641ad90cad00c26b89347fe7a98ac1fa7fc64104d88e851",
+    "edited-unannotated.json": "3a3f3ee2e5ca227e7b0b2981bcd103101010b79857d7e60df89b4af4b50ac1f7",
+    "edited.json": "75cf35b5c160e4e392386e1a9ccbd97a2993301f06397051c8aeeddd06973689",
+    "english-sources.json": "fa21f01975db143fb2e8e61bc776417e1f8f2dcc81128b2d73886d0ea17872d9",
+    "fetched.json": "a7899b2edcb16d7239e15460b88f6c9f9ee685e75b0d410b584eff5903bda255",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "linguistic-lint.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "pronunciation-proposals.json": "37f455d428784e5c86e529cb060a2abf4c39c68f8766b19f207a58bfb3ab8667",
+    "pronunciations.json": "6b1986fa73dddd13c8316132c0dee9dd83adb5480e5d044a40bb7d24da290fdf",
+    "raw-deepl-1.json": "9dedf428ef240d0ca65b06b2028557b364028275303e1c2bce7a0b05216bf0ee",
+    "raw-deepl-2.json": "931207ce61f0092fe78d7bc01cdbdd89aa4fbfe0a58539425a6879dd2cc5a21e",
+    "raw-deepl-3.json": "322f4205f36e9c03db90998041d91499af8e1ca4ac8d27949ed129630778af25",
+    "review-audit.json": "29dcc7007419014c589bed1adf7bc423cf78cd8c44aaa4edada7cea2be923943",
+    "review-groups.json": "9634fa67385d0bd9200e40a390a5897ab944765f5d26adeda7c946a470efb12c",
+    "selection.json": "0750b2288fd60f8e096b16484985cf37fb25376db058b15f999f700d593e5a19",
+    "source-boundaries.json": "43bafdc1629d4504617453279678325a49403c693fa57707be167ceefef564be",
+    "source-discrepancies.json": "36c2f7c30ac586d9319a77e1e3e7537d90397e4388fdae01ab3c3063b38b0208",
+    "unavailable-fields.json": "5fa74bd68294f001c1eebe5c595a16f792a3b105ca75f59b0baa237d8a5e43a1",
+    "upstream-comparison.json": "c17f5c7ac2a4d664bf3cf4066399e3b2fafd372de775dd8297816a2e5015f32a"
+  }
+}

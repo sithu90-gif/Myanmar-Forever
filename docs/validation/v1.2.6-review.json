@@ -1,0 +1,92 @@
+{
+  "version": "1.2.6",
+  "result": "PASS",
+  "kind": "scheduled_afternoon",
+  "localDate": "2026-11-13",
+  "reviewedAtUTC": "2026-11-13T07:26:05.297169+00:00",
+  "newQuestIDs": 50,
+  "newQuestFields": 220,
+  "filledExistingFields": 3,
+  "guardedCorrectedExistingFields": 2,
+  "existingQuestIDsUpdated": 4,
+  "newEnabledFieldsTotal": 223,
+  "newRecordReviewCorrections": 7,
+  "questIDs": 1236,
+  "translatedFields": 5770,
+  "dialogueStates": 3328,
+  "absentOrHeldDialogueStates": 380,
+  "batchSupportedHeldFields": [
+    {
+      "id": 5624,
+      "field": "detail",
+      "reason": "Current English contains unsupported <him/her> gender branch; no reviewed runtime normalization or live capture; retain raw candidate, do not choose gender."
+    },
+    {
+      "id": 5630,
+      "field": "detail",
+      "reason": "Current English contains unsupported <laddy/lassy> address branch; no live branch evidence or supported runtime substitution."
+    },
+    {
+      "id": 5633,
+      "field": "detail",
+      "reason": "Current English contains unsupported <laddy/lass> address branch; no live branch evidence or supported runtime substitution."
+    },
+    {
+      "id": 5656,
+      "field": "complete",
+      "reason": "Current Forever completion absent. Secondary English repeats5652 lesson rather than handoff; conflicts with current UA1.0.0 short training greeting and installed3044→6018 handoff. No replacement invented."
+    },
+    {
+      "id": 5652,
+      "field": "detail",
+      "reason": "Current Forever is completion-only; installed giver=ender6018 has no handoff objective. Secondary legacy offer directs player to Ur'kyo like another handoff step; exact English and raw DeepL preserved as a held proposal."
+    },
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Current primary now supplies the same non-Warrior offer as secondary, but installed eligibility has no class restriction and the alternative Warrior branch remains unverified. Preserve prior hold; source availability is resolved, class-dependent applicability is not. Raw DeepL retained."
+    }
+  ],
+  "activeHeldUniqueFields": 35,
+  "pythonTests": 14,
+  "luaRegressionGroups": 27,
+  "newQuestStateRoutingChecks": 150,
+  "upstreamFillRoutingChecks": 3,
+  "objectiveIdentityContracts": 28,
+  "currentEnglishExistingFieldContracts": 281,
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T06:37:16.027940+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "upstreamAffectedPriorQuestIDs": 61,
+  "upstreamAddedStates": 65,
+  "upstreamChangedPriorPresentFields": 4,
+  "contextFieldsCompared": 315,
+  "verifiedInheritedEnglishFields": 271,
+  "sourceAvailabilityRechecks": [
+    99108,
+    99142,
+    99144
+  ],
+  "retainedCurrentPublicSourceGap": {
+    "id": 97921,
+    "field": "progress",
+    "basis": "Previously sanitized live capture and reviewed source, not invented English"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.6.zip",
+    "bytes": 822634,
+    "sha256": "5da26d036217108fd5e56f8834a408d89f29f0ab627a97732b4408533efeb58b"
+  }
+}

@@ -1,0 +1,1156 @@
+{
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T06:37:16.027940+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640",
+  "metadataReference": {
+    "version": "1.0.12",
+    "tocSHA256": "d605067dcba3ea23f665756fd13d31a01a2bdb7a238dad705ca563da8171aa7f",
+    "decodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "questCount": 5233
+  },
+  "questCount": 15,
+  "quests": {
+    "1061": {
+      "englishTitle": "The Spirits of Stonetalon",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Духи Каміннопазуристих гір",
+          "detail": "Духи Каміннопазуристих гір розгнівані, бо гобліни та їхні слуги розоряють і випалюють землю. Тож земля закричала, і ті, хто здатен її чути... почули.\n\nСірет Камнелом, багатонадійна шаманка Орди, вирушила до Каміннопазуристих гір. Вона повідомляє, що гобліни масово вирубують ліси і просить про допомогу.\n\nЗустрінься з Сірет в Каміннопазуристих горах. Щоб туди дістатися, прямуй від Перехрестя, що в Степах, дорогою на захід. Сірет отаборилася біля Високолісої долини.",
+          "objective": "Поговоріть з Сірет Камнелом в Каміннопазуристих горах.",
+          "progress": null,
+          "complete": "А, {клас}. Дуже добре. Нам знадобиться твоя допомога, щоб розібратися з цими мародерами!",
+          "en": "The Spirits of Stonetalon",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            4047
+          ]
+        ],
+        "3": [
+          [
+            4049
+          ]
+        ],
+        "8": [
+          "Speak with Seereth Stonebreak in the Stonetalon Mountains."
+        ],
+        "26": [
+          [
+            76,
+            25
+          ]
+        ],
+        "S": {
+          "1": "The Spirits of Stonetalon",
+          "4": 13,
+          "5": 17,
+          "6": 8589934770,
+          "17": 406,
+          "22": 1062,
+          "23": 8,
+          "27": 1062,
+          "p": 33554566
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Speak with Seereth Stonebreak in the Stonetalon Mountains."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1062": {
+      "englishTitle": "Goblin Invaders",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Гоблінські загарбники",
+          "detail": "ТзНБ \"Авантюра\", якою керують гобліни, вдерлася в Каміннопазуристі гори. Вони вирубують дерева і спалюють величезні ділянки лісу. Духи цих земель у нестямі від болю та люті. Ми повинні зупинити ТзНБ \"Авантюра\"!\n\nПрямуй на північний захід, за Високолісу долину, до Вітрокосих скель. Ти знайдеш гоблінів та їхніх слуг за роботою — покажи їм, що Орда не дозволить плюндрувати Каміннопазуристі гори. Поясни їм це мовою, яку вони найкраще розуміють...\n\nМовою насильства.",
+          "objective": "Вбийте 15 лісорубів ТзНБ \"Авантюра\", а потім поверніться до Сірет Камнелом на кордон Каміннопазуристих гір та Степів.",
+          "progress": "Високоліса долина лежить на північний захід звідси, {ім'я}. Прямуй туди і всели страх у тих, хто хоче розграбувати ці землі!",
+          "complete": "Це відважний вчинок, {ім'я}.\n\nЗрештою, нам може знадобитися мудрість старійшин тауренів, щоб заспокоїти духів Каміннопазуристих гір, але...\n\nПозбавлення від працівників ТзНБ \"Авантюра\" — гарний перший крок.",
+          "en": "Goblin Invaders",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            4049
+          ]
+        ],
+        "3": [
+          [
+            4049
+          ]
+        ],
+        "8": [
+          "Kill 15 Venture Co. Loggers, then return to Seereth Stonebreak on the border of Stonetalon and the Barrens."
+        ],
+        "10": [
+          [
+            [
+              3989,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            76,
+            100
+          ]
+        ],
+        "28": [
+          1061
+        ],
+        "S": {
+          "1": "Goblin Invaders",
+          "4": 13,
+          "5": 19,
+          "6": 8589934770,
+          "17": 406,
+          "23": 8,
+          "p": 167772806
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Kill 15 Venture Co. Loggers, then return to Seereth Stonebreak on the border of Stonetalon and the Barrens."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1063": {
+      "englishTitle": "The Elder Crone",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Старша відьма",
+          "detail": "Щоб остаточно заспокоїти духів Каміннопазуристих гір, ми маємо порадитися зі старійшинами тауренів.\n\nЯ знаю небагато імен їхніх старійшин, лиш одне: Маґата. Я чула, що вона дуже стара і багато знає. Якщо хтось з тауренів і може допомогти нам з духами, то це вона.\n\nМаґата мешкає в столиці тауренів — Громовому Бескиді, на Верхів'ї Старійшин — північно-східній вершині міста. Поговори з Маґатою і розкажи їй про те, що коїться в Каміннопазуристих горах.",
+          "objective": "Поговоріть з Маґатою в Громовому Бескиді.",
+          "progress": null,
+          "complete": "Вітаю тебе. Ти {стать:прийшов:прийшла} за порадою?",
+          "en": "The Elder Crone",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            4049
+          ]
+        ],
+        "3": [
+          [
+            4046
+          ]
+        ],
+        "8": [
+          "Speak with Magatha in Thunder Bluff."
+        ],
+        "13": [
+          1062
+        ],
+        "S": {
+          "1": "The Elder Crone",
+          "4": 13,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "22": 1064,
+          "23": 8,
+          "p": 4230
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Speak with Magatha in Thunder Bluff."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1064": {
+      "englishTitle": "Forsaken Aid",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Допомога відречених",
+          "detail": "Таурени мають тісний зв'язок із землею, і мені боляче чути про те, що коїться в Каміннопазуристих горах. Але я боюся, що для зцілення цієї землі ми спершу маємо вилікувати її від хвороби.\n\nХіба це не щастя, що відречені — наші союзники? Вони багато знають про хвороби. Я впевнена, що вони зможуть допомогти нам, і цим самим зміцнити довіру між нашими народами.\n\nПоговори з аптекаркою Замою. Вона — вчена і представниця відречених. Ти знайдеш її біля Джерел Видіння під Верхів'ям Духів.",
+          "objective": "Поговоріть з аптекаркою Замою біля Джерел Видіння у Громовому Бескиді.",
+          "progress": null,
+          "complete": "Маґата попередила про твій прихід, {ім'я}. Хоча моє серце більше не б'ється, я все ж відчуваю скорботу за духами Каміннопазуристих гір.\n\nВідречені готові допомогти всім, чим зможуть.",
+          "en": "Forsaken Aid",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            4046
+          ]
+        ],
+        "3": [
+          [
+            3419
+          ]
+        ],
+        "8": [
+          "Speak with Apothecary Zamah in the Pools of Vision in Thunder Bluff."
+        ],
+        "13": [
+          1063
+        ],
+        "26": [
+          [
+            81,
+            25
+          ]
+        ],
+        "S": {
+          "1": "Forsaken Aid",
+          "4": 13,
+          "5": 18,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 1065,
+          "p": 33558662
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Speak with Apothecary Zamah in the Pools of Vision in Thunder Bluff."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1065": {
+      "englishTitle": "Journey to Tarren Mill",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Подорож до Тарренського Млина",
+          "detail": "Нам доведеться вдатися до крайніх заходів, щоб позбавити Каміннопазуристі гори від ТзНБ \"Авантюра\". Крайні, але не кровопролитні.\n\nУ одного мого колеги може знайтися саме те, що нам потрібно. Його звуть Лідон, він мешкає в містечку Тарренський Млин у передгір'ї Гіллзбраду, що у далеких землях Лордерону.\n\nЩоб потрапити до Гіллзбраду, вирушай дирижаблем до нашої столиці, Підмістя. Йди на північ до Тірісфальського перелісся, потім на південний захід до Срібнохвою і тоді на південь до Гіллзбраду.\n\nЗнайди Лідона і передай йому цю записку. Там написано, що нам від нього потрібно.",
+          "objective": "Віднесіть записку Зами аптекарю Лідону в Тарренський Млин.",
+          "progress": "Ага, ти {стать:привів:привела} мені нових піддослідних?",
+          "complete": "Записка від Зами? У неї, мабуть, великі проблеми, якщо вона пише в таку далечінь. Подивимося, що вона хоче...\n\nЧудово! Я знаю, що їй треба!",
+          "en": "Journey to Tarren Mill",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            3419
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring Zamah's Note to Apothecary Lydon in Tarren Mill."
+        ],
+        "13": [
+          1064
+        ],
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Journey to Tarren Mill",
+          "4": 13,
+          "5": 18,
+          "6": 8589934770,
+          "11": 5628,
+          "17": 1638,
+          "22": 1066,
+          "p": 33558662
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Bring Zamah's Note to Apothecary Lydon in Tarren Mill."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1066": {
+      "englishTitle": "Blood of Innocents",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Кров невинних",
+          "detail": "Я створю токсин, який витягне сили з ТзНБ \"Авантюра\", зробить їх слабкими й покірними. Це має вирішити проблеми Орди в Каміннопазуристих горах, так?\n\nАле для створення токсину мені знадобиться кров невинних, а її важко дістати.\n\nНа щастя, Синдикат, група людських розбійників, наймає тіньових магів... а вони збирають кров невинних для своїх власних, нечистих цілей.\n\nТи знайдеш тіньових магів Синдикату у фортеці Дарнгольд на південному сході.",
+          "objective": "Принесіть 5 флаконів крові невинних аптекареві Лідону в Тарренський Млин.",
+          "progress": "Тобі вдалося знайти тіньових магів Синдикату і забрати у них кров?",
+          "complete": "Дуже добре! Сподіваюся, Синдикат не доставив тобі клопоту?\n\nЯк я вже казав, кров невинних дістати нелегко. Нам пощастило, що тіньові маги Синдикату виконали за нас важку роботу.\n\nА тепер почекай, поки я створюю своє зілля...",
+          "en": "Blood of Innocents",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring 5 Vials of Innocent Blood to Apothecary Lydon in Tarren Mill."
+        ],
+        "10": {
+          "3": [
+            [
+              5620,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          1065
+        ],
+        "26": [
+          [
+            68,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Blood of Innocents",
+          "4": 13,
+          "5": 23,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 1067,
+          "23": 8,
+          "p": 33559174
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Bring 5 Vials of Innocent Blood to Apothecary Lydon in Tarren Mill."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1067": {
+      "englishTitle": "Return to Thunder Bluff",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Повернення до Громового Бескиду",
+          "detail": "Ось токсин. Якщо ти застосуєш його проти ТзНБ \"Авантюра\", він повинен дати тобі гарний результат, можливо, навіть заразливий. Маю сказати, це дуже цікаво — бачити, як мою роботу застосовують на практиці!\n\nУтім, спершу віднеси його аптекарці Замі. Вона має розробити ефективний спосіб доставки токсину, щоб його дія була максимальною.",
+          "objective": "Принесіть токсин Лідона аптекарці Замі в Громовий Бескид.",
+          "progress": "Ти {стать:повернувся:повернулась}, {ім'я}. Тобі вдалось отримати допомогу від аптекаря Лідона?",
+          "complete": "Токсин від аптекаря Лідона? Чудово. Якщо я добре знаю Лідона, цей токсин має бути досить ефективним проти ТзНБ \"Авантюра\"...",
+          "en": "Return to Thunder Bluff",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            3419
+          ]
+        ],
+        "8": [
+          "Bring Lydon's Toxin to Apothecary Zamah in Thunder Bluff."
+        ],
+        "13": [
+          1066
+        ],
+        "26": [
+          [
+            68,
+            75
+          ]
+        ],
+        "S": {
+          "1": "Return to Thunder Bluff",
+          "4": 13,
+          "5": 23,
+          "6": 8589934770,
+          "11": 5588,
+          "17": 1638,
+          "22": 1086,
+          "p": 33558662
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Bring Lydon's Toxin to Apothecary Zamah in Thunder Bluff."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "1086": {
+      "englishTitle": "The Flying Machine Airport",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Порт для літальних апаратів",
+          "detail": "Токсин готовий. Залишилося лише доставити його. І саме ти, {ім'я}, це зробиш.\n\nУ ТзНБ \"Авантюра\" має бути засіб для доставки повідомлень і легких вантажів між штаб-квартирою і Каміннопазуристими горами. Ймовірно, це невеликий повітряний порт — недостатньо великий для дирижабля, але, можливо, придатний для літальних апаратів. Ти маєш обшукати підконтрольні ТзНБ \"Авантюра\" території Каміннопазуристих гір і знайти цей повітряний порт, якщо він існує. Як знайдеш його — розмісти там токсин.\n\nРозмісти його і швидко тікай.",
+          "objective": "Віднесіть розсіювач токсичного туману до небопорту ТзНБ \"Авантюра\", після чого поверніться до аптекарки Зами.",
+          "progress": "Ти маєш знайти повітряний порт ТзНБ \"Авантюра\", якщо він існує, {ім'я}.",
+          "complete": "Ти {стать:знайшов:знайшла} порт? Молодець, {ім'я}! Я впевнена, що гоблінам сподобається твій подарунок! Будемо сподіватися, що токсин потрапить до їхньої штаб-квартири.\n\nТи добре {стать:послужив:послужила} своєму народу, тож нехай тебе не мучить совість через отруєння ТзНБ \"Авантюра\". Вони заслуговують значно гіршого.\n\nСоюзникам відречених варто навчитися важливої мудрості:\n\nНе цурайся темних шляхів... якщо вони ведуть до перемоги.",
+          "en": "The Flying Machine Airport",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            3419
+          ]
+        ],
+        "3": [
+          [
+            3419
+          ]
+        ],
+        "8": [
+          "Bring the Toxic Fogger to the Venture Co. sky port, then return to Apothecary Zamah."
+        ],
+        "9": [
+          "Place the Toxic Fogger",
+          {
+            "406": [
+              [
+                66.44,
+                45.46
+              ]
+            ]
+          }
+        ],
+        "10": [
+          null,
+          [
+            [
+              19594,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          1067
+        ],
+        "26": [
+          [
+            68,
+            150
+          ]
+        ],
+        "S": {
+          "1": "The Flying Machine Airport",
+          "4": 13,
+          "5": 23,
+          "6": 8589934770,
+          "11": 5638,
+          "17": 1638,
+          "23": 2,
+          "24": 2,
+          "p": 33559430
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Bring the Toxic Fogger to the Venture Co. sky port, then return to Apothecary Zamah."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6523": {
+      "englishTitle": "Protect Kaya",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Захист Кайї",
+          "detail": "Дякую, що {стать:врятував:врятувала} мене! Треба швидше тікати, поки вони не дізналися, що я на волі. Будь ласка, проведи мене до табору Апарахе. Звідти я вже знаю дорогу.\n\nМій батько, Макаба Пласке Копито, напевно, місця собі не знаходить, не знаючи де я.",
+          "objective": "Проведіть Кайю Плоске Копито до табору Апарахе, потім поверніться до Макаби Плаского Копита на південно-східний край Каміннопазуристих гір.",
+          "progress": null,
+          "complete": "Кайя жива! {ім'я}, дякую, що {стать:врятував:врятувала} її.",
+          "en": "Protect Kaya",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11856
+          ]
+        ],
+        "3": [
+          [
+            11857
+          ]
+        ],
+        "8": [
+          "Escort Kaya Flathoof to Camp Aparaje, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+          ""
+        ],
+        "9": [
+          "Kaya Escorted to Camp Aparaje",
+          {
+            "406": [
+              [
+                77.1,
+                90.85
+              ]
+            ]
+          }
+        ],
+        "S": {
+          "1": "Protect Kaya",
+          "4": 12,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "22": 6401,
+          "23": 2,
+          "24": 2,
+          "p": 390
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Escort Kaya Flathoof to Camp Aparaje, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+        ""
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6401": {
+      "englishTitle": "Kaya's Alive",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Кайя жива!",
+          "detail": "Розкажи Таммрі Перекотиполю, тітці Кайї, яка живе в Сонцескельній криївці, хороші новини! Кайя жива! Ми думали, що вона загинула під час того жахливого нападу на наше селище. Йди стежкою на захід і ти дістанешся до Сонцескельної криївки.",
+          "objective": "Передайте хороші новини Таммрі Перекотиполю, що живе в Сонцескельній криївці.",
+          "progress": null,
+          "complete": "Боже мій, моя племінниця Кайя жива! Це справді хороша новина. Дякую тобі, {ім'я}.",
+          "en": "Kaya's Alive",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11857
+          ]
+        ],
+        "3": [
+          [
+            11864
+          ]
+        ],
+        "8": [
+          "Tell Tammra Windfield in Sun Rock Retreat the good news.",
+          ""
+        ],
+        "13": [
+          6523
+        ],
+        "26": [
+          [
+            81,
+            75
+          ]
+        ],
+        "S": {
+          "1": "Kaya's Alive",
+          "4": 12,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "23": 8,
+          "p": 33558662
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Tell Tammra Windfield in Sun Rock Retreat the good news.",
+        ""
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6548": {
+      "englishTitle": "Avenge My Village",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Помстися за моє селище",
+          "detail": "На моє село напав клан Зловісний Тотем і вбив майже всіх. Я знищив всіх, кого міг, але сам ледве врятував власне життя.\n\n{Ім'я}, все, чого я бажаю зараз, це щоб померло якомога більше цих негідників. Ти знайдеш їх на захід звідси.",
+          "objective": "Вбийте 8 розбійників і 6 найманців Зловісного Тотема, а потім поверніться до Макаби Плаского Копита, що очікує вас на південно-східному кордоні Каміннопазуристих гір.",
+          "progress": "Ти вже {стать:вбив:вбила} їх?",
+          "complete": "{ім'я}, я вдячний тобі... але я ніколи не забуду, що Зловісний Тотем зробив з моїм селищем.",
+          "en": "Avenge My Village",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11857
+          ]
+        ],
+        "3": [
+          [
+            11857
+          ]
+        ],
+        "8": [
+          "Kill 8 Grimtotem Ruffians and 6 Grimtotem Mercenaries, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+          ""
+        ],
+        "10": [
+          [
+            [
+              11910,
+              null,
+              0
+            ],
+            [
+              11911,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Avenge My Village",
+          "4": 12,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "22": 6629,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Kill 8 Grimtotem Ruffians and 6 Grimtotem Mercenaries, and then return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+        ""
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6629": {
+      "englishTitle": "Kill Grundig Darkcloud",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Убити Ґрандіґа Темну Хмару",
+          "detail": "{ім'я:к}, ти добре {стать:попрацював:попрацювала} над негідниками зі Зловісного Тотема. Але Ґрандіґ Темна Хмара і його власна банда громил набагато гірші. Це він очолив жорстокий напад на моє селище.\n\nТи знайдеш його на заставі Зловісного Тотема, трохи далі по дорозі на захід. Вбий його і я завжди буду вдячний тобі.",
+          "objective": "Вбийте Ґрандіґа Темну Хмару та 6 моцаків з племені Зловісний Тотем і поверніться до Макаби Плаского Копита, який чекає на південно-східному краї Каміннопазуристих гір.",
+          "progress": "Ти {стать:вбив:вбила} Ґрандіґа Темну Хмару і його моцаків?",
+          "complete": "Ґрандіґ Темна Хмара мертвий! {ім'я}, я завжди буду вдячний тобі за те, що ти {стать:зробив:зробила} сьогодні.",
+          "en": "Kill Grundig Darkcloud",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11857
+          ]
+        ],
+        "3": [
+          [
+            11857
+          ]
+        ],
+        "8": [
+          "Kill Grundig Darkcloud and 6 Grimtotem Brutes, and return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+          ""
+        ],
+        "10": [
+          [
+            [
+              11858,
+              null,
+              0
+            ],
+            [
+              11912,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          6548
+        ],
+        "S": {
+          "1": "Kill Grundig Darkcloud",
+          "4": 12,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "23": 8,
+          "p": 4742
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Kill Grundig Darkcloud and 6 Grimtotem Brutes, and return to Makaba Flathoof near the southeastern edge of Stonetalon.",
+        ""
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6421": {
+      "englishTitle": "Boulderslide Ravine",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Ущелина Крутих валунів",
+          "detail": "Щось не так тут, у Каміннопазуристих горах. Відчуваєш напругу в повітрі, {ім'я}?\n\nНа південний схід звідси в ущелині Крутих валунів є глибока печера. Там кобольди відчайдушно видобувають рідкісні кристали — резоніт. Я хочу, щоб ти {стать:приніс:принесла} кілька зразків, щоб я міг зрозуміти, що відбувається в тій печері. Також було б добре, якби ти {стать:дослідив:дослідила} глибини тієї печери.\n\nВперед, {стать:юний:юна} {клас:к}, мені вкрай необхідно знати, яке зло ховається під цими горами.",
+          "objective": "Дослідіть глибини печери в ущелині Крутих валунів і принесіть 10 кристалів резоніту Мор'роґалу в Сонцескельну криївку.",
+          "progress": "Які новини ти {стать:дізнався:дізналася} з ущелини Крутих валунів? Я пригадую якусь легенду, пов'язану з резонітом... Але нема за що вхопитися. Можливо, якщо ми дізнаємося, що лежить на дні печери, то зможемо пролити світло на їхні підступні наміри.",
+          "complete": "Оо... Так! Це воно. Кристали резоніту мають сліди земельної магії. Мабуть, кобольди копали глибоко і знайшли земельника.\n\nЛегенда стверджує, що земельники — це істоти, створені титанами. З їхньою допомогою був створений земний ґрунт, по якому ми ходимо. Це, безумовно, загроза, яку не можна ігнорувати.\n\n<Мор'роґал хитає головою.>\n\nМожливо, я зможу зачарувати ці шматки руди, щоб використати їх проти кобольдів.",
+          "en": "Boulderslide Ravine",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11861
+          ]
+        ],
+        "3": [
+          [
+            11861
+          ]
+        ],
+        "8": [
+          "Explore deep into the cave at Boulderslide Ravine and bring back 10 Resonite Crystals for Mor'rogal at Sun Rock Retreat to investigate."
+        ],
+        "9": [
+          "Investigate Cave in Boulderslide Ravine",
+          {
+            "406": [
+              [
+                58.22,
+                89.51
+              ]
+            ]
+          }
+        ],
+        "10": {
+          "3": [
+            [
+              16581,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Boulderslide Ravine",
+          "4": 14,
+          "5": 18,
+          "6": 8589934770,
+          "17": 406,
+          "22": 6481,
+          "23": 12,
+          "24": 2,
+          "p": 33555334
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Explore deep into the cave at Boulderslide Ravine and bring back 10 Resonite Crystals for Mor'rogal at Sun Rock Retreat to investigate."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6481": {
+      "englishTitle": "Earthen Arise",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Пробудження земельника",
+          "detail": "Завдяки тобі, {клас:к}, було виявлено містичну загрозу для землі. У резонітовому контейнері, який ти {стать:знайшов:знайшла} в тій печері, дрімав земельник, на ім'я Ґоґґерок.\n\nЗа допомогою своїх шаманських сил, я змінив вміст кристалів резоніту, які ти {стать:приніс:принесла}. Візьми зачарований кристал резоніту і вдар по резонітовому контейнеру, в якому спить земельник.\n\nПрокинувшись, Ґоґґерок буде ослаблений... Убий його, {ім'я}!",
+          "objective": "Відкрийте резонітовий контейнер за допомогою зачарованого кристала резоніту, а потім вбийте Ґоґґерока. Поверніться до Мор'роґала з новинами та зачарованим кристалом резоніту.",
+          "progress": "Боюся, якщо ми негайно не усунемо цю загрозу, то втратимо Каміннопазуристі гори. Могутність земельника неможливо порівняти ні з чим. Прокинувшись, Ґоґґерок буде ослабленим від довгого сну, ти {стать:повинен:повинна} скористатися цією можливістю... Йди негайно {ім'я}!",
+          "complete": "Ти {стать:приніс:принесла} хороші новини, {клас:к}! Я боявся того, що земельник може зробити з Калімдором.\n\nЗавдання вбити Ґоґґерока {стать:міг виконати тільки такий герой:могла виконати тільки така героїня}, як ти. Ти добре {стать:впорався:впоралася}. Всі Каміннопазуристі гори та Калімдор в боргу перед тобою, {стать:шляхетний:шляхетна} {клас:к}.\n\nПрийми це як почесну винагороду.",
+          "en": "Earthen Arise",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            11861
+          ]
+        ],
+        "3": [
+          [
+            11861
+          ]
+        ],
+        "8": [
+          "Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc. Return to Mor'rogal with the news and Enchanted Resonite Crystal."
+        ],
+        "10": [
+          [
+            [
+              11920,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          6421
+        ],
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Earthen Arise",
+          "4": 14,
+          "5": 20,
+          "6": 8589934770,
+          "11": 16603,
+          "17": 406,
+          "p": 33559174
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Open the Resonite cask with the Enchanted Resonite Crystal, and then slay Goggeroc. Return to Mor'rogal with the news and Enchanted Resonite Crystal."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    },
+    "6461": {
+      "englishTitle": "Blood Feeders",
+      "uaTitleMatch": "exact",
+      "uaVariants": [
+        {
+          "title": "Кровопивці",
+          "detail": "Ми, тролі, тут, в Малака'джині, існуємо завдяки цій землі; Каміннопазуристі гори дають нам можливість полювати, щоб ми могли жити.\n\nТільки от повадилися до нас останнім часом непрохані гості... павуки, що живуть у цих горах, вночі нападають на наші табори, намагаючись вкрасти нашу здобич.\n\nЯкщо ти допоможеш нам винищити цих зловіщих істот, ми, тролі Малака'джина, будемо у тебе в боргу. В Каміннопазуристих горах павуки всюди — просто йди на північ і ти побачиш, що я маю на увазі.",
+          "objective": "Ксен'зілла з Малака'джина хоче, щоб ви вбили 10 густомохових підкрадачів та 7 густомохових ядоплюїв.",
+          "progress": "Агов, {стать:друже:подруго}, ти {стать:вбив:вбила} волохатих кровопивць? Я нікого не боюся тут, у Каміннопазуристих горах, але я не гуляю вночі... якщо ти розумієш, про що я, {стать:друже:подруго}!\n\nПоки я тримаюся якомога далі від їхньої павутини, все буде добре.\n\nУдачі тобі, {клас:к}!",
+          "complete": "Круто! Гарна новина, сподіваюсь, сьогодні ми будемо вечеряти без небажаних гостей.\n\nЩиро дякуємо, {ім'я}. Ми навічно у тебе в боргу.",
+          "en": "Blood Feeders",
+          "faction": "Horde"
+        }
+      ],
+      "currentAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "uaAvailableFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "installedMetadata": {
+        "2": [
+          [
+            12816
+          ]
+        ],
+        "3": [
+          [
+            12816
+          ]
+        ],
+        "8": [
+          "Xen'zilla at Malaka'Jin needs you to kill 10 Deepmoss Creepers and 7 Deepmoss Venomspitters."
+        ],
+        "10": [
+          [
+            [
+              4005,
+              null,
+              0
+            ],
+            [
+              4007,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            530,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Blood Feeders",
+          "4": 13,
+          "5": 19,
+          "6": 8589934770,
+          "17": 406,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "installedTitleMatch": true,
+      "installedObjective": [
+        "Xen'zilla at Malaka'Jin needs you to kill 10 Deepmoss Creepers and 7 Deepmoss Venomspitters."
+      ],
+      "restrictionReview": "UA catalog Horde variant and installed race/chain metadata checked; no additional class restriction inferred. Website evidence is not live acceptability.",
+      "changedUAFieldsSincePreviousRelease": []
+    }
+  },
+  "sameTitleSteps": "No identical English titles among these assigned IDs; toxin transfer, escort and report stages remain distinct IDs.",
+  "unsupportedIDs": [],
+  "conflictingGameplayBranches": [],
+  "uaChangedSelectedIDs": []
+}

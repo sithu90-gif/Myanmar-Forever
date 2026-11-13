@@ -1,0 +1,33 @@
+{
+  "result": "PASS",
+  "filledFields": 3,
+  "guardedCorrectedFields": 2,
+  "affectedExistingIDs": 4,
+  "sourceRecordsReviewed": 63,
+  "contextFieldSlots": 315,
+  "verifiedInheritedFields": 271,
+  "independentFindings": 0,
+  "heldFields": [
+    {
+      "id": 99108,
+      "field": "detail",
+      "reason": "Current primary now supplies the same non-Warrior offer as secondary, but installed eligibility has no class restriction and the alternative Warrior branch remains unverified. Preserve prior hold; source availability is resolved, class-dependent applicability is not. Raw DeepL retained."
+    }
+  ],
+  "sourceAvailabilityRechecks": [
+    99108,
+    99142,
+    99144
+  ],
+  "retainedCapturedSourceState": {
+    "id": 97921,
+    "field": "progress",
+    "evidence": "translations/live-fixes-v1/english-sources.json",
+    "currentLiveVerification": "not performed"
+  },
+  "pronunciationMapCarryForward": {
+    "Apothecary Zamah": "အပေါသီကဲရီ ဇာမာ"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}
