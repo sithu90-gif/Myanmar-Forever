@@ -1,0 +1,292 @@
+{
+  "engine": "DeepL Free MY",
+  "sourceLanguage": "English automatically detected",
+  "glossaryLimitation": "Root checked glossary coverage today and received pro_required. No cloud glossary applied. Maintained local pronunciations applied editorially; new spellings pending native review. Context/custom instructions unsupported on Free and not supplied.",
+  "sourceAuthority": "Current Wowhead Forever English;60.tools secondary; installed QuestieDB1.0.12 for quest ID/title/objective/race/class/chain; pinned UA1.0.0 for identity/field/branch comparison only.",
+  "sourceBoundaryReview": "All five original HTML files inspected. Prose objective bounded before item tables/UI; Description bounded at next heading. Available progress/completion are bounded hidden divs;94449 progress absent. No scripts/item objective tables included. See source-boundaries.json.",
+  "finalSourceFile": "english-sources.json",
+  "finalSourceFileSHA256": "680b306fb18ddfd36dfe324fde1aa2e331c0a16f785c3241a4fa0efd6a68b5a8",
+  "upstream": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "questieMetadata": {
+    "file": "../metadata.json",
+    "version": "1.0.12",
+    "tocSHA256": "d605067dcba3ea23f665756fd13d31a01a2bdb7a238dad705ca563da8171aa7f",
+    "decodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "questCount": 5233
+  },
+  "batchResponses": [
+    {
+      "file": "deepl-response-01.json",
+      "sha256": "a4445794e73812bfca180d895a10e9d0e497f661d740f7016116b598ca3bc40b",
+      "inputFile": "deepl-input-01.json",
+      "inputFileSHA256": "fab52d71853cd12dc8c2a795edd70e501e499f853d976da2feaceab880145993",
+      "fields": 20,
+      "inputCharacters": 4306,
+      "requestSHA256": "7bc366248f96db5946612e934f85af6f44c60b56cbd621683c77c10de337d7cb",
+      "envelopeNote": "Raw structured DeepL result saved once; duplicate stringified content block omitted without editing any translation text."
+    },
+    {
+      "file": "deepl-response-02.json",
+      "sha256": "f24833ee1987177b20d3c777be0089928abb8362344c1b5f59844a63d6e2eaf1",
+      "inputFile": "deepl-input-02.json",
+      "inputFileSHA256": "11715c8c70f982e7b660a7570777cc4896fc14e7c80bf01e9c4780ad6b7ea057",
+      "fields": 4,
+      "inputCharacters": 734,
+      "requestSHA256": "871d302a7927fe4ee7e8be045335a61a212be33c6bd495c8cf29903be36a8c7a",
+      "envelopeNote": "Raw structured DeepL result saved once; duplicate stringified content block omitted without editing any translation text."
+    }
+  ],
+  "fields": {
+    "94449": {
+      "title": {
+        "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+        "rawDeepLSHA256": "67868b27626e39874f064cef47b7bd4ea9ccc0368757a58ae0867f97abb95b6f",
+        "editedSHA256": "8f9244393db5030509fb8ece9c1dd0b00a2a5bd2690e3f8c57a97820d78bba21",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 0,
+        "editedStatus": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "dcc43f511980041cff7429b9957a7fece219b886b075dc8e0507bbaeefbf41a3",
+        "rawDeepLSHA256": "543d86b7f06ef34679d7e0c689ead47da559f64ba8db1c5a13c685120e5d2ae1",
+        "editedSHA256": "5299f2d5637ee3160e20e1b80e71a86c85f23a0aff8465208e0ff40493a0ac0e",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 1,
+        "editedStatus": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "1f327f12c484fef5c8c56193e1eb43a145b39686fa842ff03c8e0f83b01a9420",
+        "rawDeepLSHA256": "679b3c1dec6131a821d5b15809ca4de2f837231eec008a9d236d06aba55c0d1b",
+        "editedSHA256": "c1d723b0ae0b7d2a47b224f59507c29d107686d8b37afda480d0bbca21a292fc",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 2,
+        "editedStatus": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "batchResponse": null,
+        "batchInput": null,
+        "responseIndex": null,
+        "editedStatus": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "e4db1be5176228a996f12ced988de1bd440287353c35e5e81f40a9da15d5d640",
+        "rawDeepLSHA256": "5daa33d598e27f8b175c8d374f09e614b383a3c3a588c019c00e50ae2ecb55ce",
+        "editedSHA256": "14a7f8f060b5bc050ce0d28ced9f8444c26d4fe193eddf5b7a8b162289c78aa0",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 3,
+        "editedStatus": "enabled"
+      }
+    },
+    "94465": {
+      "title": {
+        "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+        "rawDeepLSHA256": "67868b27626e39874f064cef47b7bd4ea9ccc0368757a58ae0867f97abb95b6f",
+        "editedSHA256": "8f9244393db5030509fb8ece9c1dd0b00a2a5bd2690e3f8c57a97820d78bba21",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 4,
+        "editedStatus": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "a851e84b407688e55b2ab4fac112f7316c986466863b5ccfc11ab15c6af4fc97",
+        "rawDeepLSHA256": "2e8bd93b4692bccac02fcb1277709fc958ed805b173ed797e5c64115a5c9aadb",
+        "editedSHA256": "eebad98fea62910a2ba946fcf58ff953d51eb9626a6abf6ac8e966212cdf26e5",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 5,
+        "editedStatus": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "a415413211d3de389dae710390fb042044c5158e3f232a6a5baa345b7cc81acc",
+        "rawDeepLSHA256": "24094edc9c81d58db4a6b107a2b478f6d7bc6eb467177d349efd5b17b1f3c1f1",
+        "editedSHA256": "55e78df312cfffa31853d5e8147a44fbfdd45f9b35ab22092bf2dbee8c5d5716",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 6,
+        "editedStatus": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "04e86aa1328a2f29511036cea3601893e3b989a05a0f82f0d4e7feee11b4a1c2",
+        "rawDeepLSHA256": "bf4917df3fe72198517fa3ebae83435ac8128e13d8734f60d4d265df82d25e40",
+        "editedSHA256": "f98a589b69849337fe848cf1265e5fade9083777626d9b752bef3003e5e33fef",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 7,
+        "editedStatus": "enabled"
+      },
+      "complete": {
+        "englishSHA256": "d5cb84eccc82cacadaa34b1164bae70c8287fe4d9dd6c7f03cbe3081069373d6",
+        "rawDeepLSHA256": "f2f3445620730473222980898cbe1f62717acf4dafd1f3b71f62f9e379d2b9e9",
+        "editedSHA256": "09f4b68a908b85cacc782a47159dc250be7c4d892092250f72fae3831e254cdc",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 8,
+        "editedStatus": "enabled"
+      }
+    },
+    "94466": {
+      "title": {
+        "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+        "rawDeepLSHA256": "67868b27626e39874f064cef47b7bd4ea9ccc0368757a58ae0867f97abb95b6f",
+        "editedSHA256": "8f9244393db5030509fb8ece9c1dd0b00a2a5bd2690e3f8c57a97820d78bba21",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 9,
+        "editedStatus": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "ec3b0564bcf99598f74d62489c818bd7fcb6f59ef1438a231f4b68bbbf11b14b",
+        "rawDeepLSHA256": "bd82ae69cde1b5e1169abc3e4afb8f4f844d4a82301ffa599b572d2b6b5406d8",
+        "editedSHA256": "2bbfbca6f0cfbafaf8de5944802c4e9981531779b295ea8fcc131403d6a8c999",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 10,
+        "editedStatus": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "ad2af47cf67420cc5425a4a09576f49d19e9cd73b45fe6723f0ee0deae917fc9",
+        "rawDeepLSHA256": "a970dcfddac165f2f52babfbfb1a993efa387738f91c22bcd3a799906f4b05bf",
+        "editedSHA256": "d9e5e829f39f8f2ad12378a491e4950417352ecd92d9b07199416cf22a030221",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 11,
+        "editedStatus": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "9a67b4e26d4207926d5dbc65912d09ddcbdb2f0161e12499e48b3c3936b341a9",
+        "rawDeepLSHA256": "30a78d8f4957a207c3c4e31a963da782c4c727780248591b60faca9b0f6e2988",
+        "editedSHA256": "c24172f0e87939e89eb3fefc2fdcd65f0e2b3011616bf5bf77a6ac2dd04f9dcc",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 12,
+        "editedStatus": "enabled"
+      },
+      "complete": {
+        "englishSHA256": "cc5635fa333bf3b0d9f6ad06b7f08e7a840bf6b3154ccc5121b4d22f5d33d499",
+        "rawDeepLSHA256": "658f19e670cf86ad5ed65f0cc0baf587d08a6a91939df5fa358efe5130ed36ac",
+        "editedSHA256": null,
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 13,
+        "editedStatus": "held",
+        "heldProposalFile": "held-proposals.json",
+        "heldProposalSHA256": "55c4287c62740e8da7098d15ba06027f0a92435037b39c71e5353d835082cf28",
+        "holdReason": "Current Wowhead Forever completion ends 'lad';60.tools has no completion, and pinned UA1.0.0 supplies explicit boy/girl address alternatives. No sanitized current live branch evidence. Hold whole completion rather than choose a male-only address or erase gender. Original English, raw DeepL and non-enabled edited proposal retained."
+      }
+    },
+    "94467": {
+      "title": {
+        "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+        "rawDeepLSHA256": "67868b27626e39874f064cef47b7bd4ea9ccc0368757a58ae0867f97abb95b6f",
+        "editedSHA256": "8f9244393db5030509fb8ece9c1dd0b00a2a5bd2690e3f8c57a97820d78bba21",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 14,
+        "editedStatus": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "b4988608f095dfe9a6587c34aed7c95d05fce36e271d2d3357b02402b0703bd7",
+        "rawDeepLSHA256": "371e32945493b80dbc0bfa65bbb8ffd38b854e34fb5ab23ae398e03240998b1a",
+        "editedSHA256": "067410c61a172d4b5e9d62f4de0346a8dd48f4262732a02a8709e3429cdee622",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 15,
+        "editedStatus": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "b2cc88ecb7b0c22aa44d332ba4d9a9a2f36b4d2787e3b11f4047e980569720d2",
+        "rawDeepLSHA256": "bd559d2f8c2fb125bc2b86ac92484bb0938a32748bb5fba0bfd931b5fdd251e3",
+        "editedSHA256": "71a78f001122c9f53e17a6341d2f9217f6cc1b9769ee55993fd24423ad6700b1",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 16,
+        "editedStatus": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "1ec86f7810fb65057da225ab70370ec874fef7268f5c45a0c8f329e295052907",
+        "rawDeepLSHA256": "2e0e0c64120ae73e8d15a5de6c3a5c686f6ea8e535b67ee96c5c5fd2128bd83e",
+        "editedSHA256": "99fcee6f9dec5d49515c94f14d506382eb9345a611aa9ff9d3b8bf4915134fda",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 17,
+        "editedStatus": "enabled"
+      },
+      "complete": {
+        "englishSHA256": "94ac4bbcce4af3e4b20aebc00ccb92b0ce3ff7fc2e929ba2c5b063ca0c888feb",
+        "rawDeepLSHA256": "2842c974dc74ee28a5179d26147c93f35cd9d20c99e225cd3f73088ed6c7393d",
+        "editedSHA256": "a0e1c484f4ee8ee99a4b78badc91e525f77dc8481ba20659f958e19a294d9abb",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 18,
+        "editedStatus": "enabled"
+      }
+    },
+    "94468": {
+      "title": {
+        "englishSHA256": "f4dbeffd741233505dd5bdf4105456aa96eacfb81b20535a9c2d630a73fecdc1",
+        "rawDeepLSHA256": "67868b27626e39874f064cef47b7bd4ea9ccc0368757a58ae0867f97abb95b6f",
+        "editedSHA256": "8f9244393db5030509fb8ece9c1dd0b00a2a5bd2690e3f8c57a97820d78bba21",
+        "batchResponse": "deepl-response-01.json",
+        "batchInput": "deepl-input-01.json",
+        "responseIndex": 19,
+        "editedStatus": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "cfea0da780493fec5e7d623a0c781389226ba801ee5c1940d3b8fe4dd9166ef0",
+        "rawDeepLSHA256": "c4a249d5ca75abbfbb954597a0219718b4339abf3b7aa4bea2333551dea19122",
+        "editedSHA256": "5e134d6567772d09af6664e74a4a4f193519a6ead4ae8912d6a0342288485a90",
+        "batchResponse": "deepl-response-02.json",
+        "batchInput": "deepl-input-02.json",
+        "responseIndex": 0,
+        "editedStatus": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "ec7b8a04da23aafaecf948c2832e40d256dd3756bc46e883ba50561f6d788670",
+        "rawDeepLSHA256": "f9417c6ec749c08a9b98af95a01c5d507db38a6492cc4f3b1223689700c831de",
+        "editedSHA256": "5df9c43a0665720fc4ee96b1726e41c7402a78f3b9f0270d669174d95ccaed89",
+        "batchResponse": "deepl-response-02.json",
+        "batchInput": "deepl-input-02.json",
+        "responseIndex": 1,
+        "editedStatus": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "a5e88a3e8d638eaf681dceeceb534a2a6ec907a982d071e8a4f8bb92e607ecd3",
+        "rawDeepLSHA256": "765a29e283ab6308bfcccc562417c918ff313c6a4891a9b79be79c1b2bc870bb",
+        "editedSHA256": "e45fb8f839488864c3b4c4c2c2d26480514c16078384c8448a4499d6c958bf19",
+        "batchResponse": "deepl-response-02.json",
+        "batchInput": "deepl-input-02.json",
+        "responseIndex": 2,
+        "editedStatus": "enabled"
+      },
+      "complete": {
+        "englishSHA256": "7e6a6bb7ee4384c1070b96801993f30bcbc64fab799abe958287a77233a40539",
+        "rawDeepLSHA256": "cc07a01bb310062f2f231330b1a175c14b7d5a9a5741e301a76c7b613dab8fa1",
+        "editedSHA256": "2ce8eb157b00ff626486a926f6068eddafee46783ff9b82a1b2eb5a844477ff1",
+        "batchResponse": "deepl-response-02.json",
+        "batchInput": "deepl-input-02.json",
+        "responseIndex": 3,
+        "editedStatus": "enabled"
+      }
+    }
+  },
+  "independentAssistedReview": "not performed",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

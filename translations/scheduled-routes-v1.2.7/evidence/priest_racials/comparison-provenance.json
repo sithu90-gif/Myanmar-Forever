@@ -1,0 +1,3313 @@
+{
+  "engine": "DeepL Free MY",
+  "sourceLanguage": "auto-detected EN",
+  "targetLang": "MY",
+  "glossary": "Root fresh check returned pro_required; no cloud glossary applied. Maintained local pronunciations used in editing.",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "installedMetadataReference": {
+    "version": "1.0.12",
+    "tocSHA256": "d605067dcba3ea23f665756fd13d31a01a2bdb7a238dad705ca563da8171aa7f",
+    "decodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "questCount": 5233
+  },
+  "uaChangesSincePreviousRelease": "Root fresh upstream audit reports zero changed quest IDs versus1.2.6 pinned UA1.0.0.",
+  "rawBatches": [
+    {
+      "batch": 1,
+      "reviewGroup": 1,
+      "inputCharacters": 3304,
+      "fieldCount": 23,
+      "requestFile": "deepl-request-01.json",
+      "requestSHA256": "2b41648dacd62365cf02b5c8604aa1fa09e4df62a0b0068184715ba7e752f89a",
+      "responseFile": "deepl-response-01.json",
+      "responseSHA256": "300f3b38a430ca593efe78071c2582fcf0710137405feaa381733b5d376f4ad0",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    },
+    {
+      "batch": 2,
+      "reviewGroup": 1,
+      "inputCharacters": 686,
+      "fieldCount": 5,
+      "requestFile": "deepl-request-02.json",
+      "requestSHA256": "5f8f456344d781efa889c429b989dce896b80578a56e1d94ca7e583b8f6f0729",
+      "responseFile": "deepl-response-02.json",
+      "responseSHA256": "814b3e83c3317a3f0e8f0ba29fe031536c820badc9eccc44aaa7b89f247fb1e9",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    },
+    {
+      "batch": 3,
+      "reviewGroup": 2,
+      "inputCharacters": 3238,
+      "fieldCount": 23,
+      "requestFile": "deepl-request-03.json",
+      "requestSHA256": "f94d3283d112114a858b5231e7cc661f17cd4f951e782fc42f845c057dd6b1fe",
+      "responseFile": "deepl-response-03.json",
+      "responseSHA256": "67cf0558b89a3874ba5aeb63d3965097b9d61a7c8dd54dceb76152360c386785",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    },
+    {
+      "batch": 4,
+      "reviewGroup": 2,
+      "inputCharacters": 303,
+      "fieldCount": 1,
+      "requestFile": "deepl-request-04.json",
+      "requestSHA256": "7a5b91989b181e009a3696f17e5a523ee963e68b44ab5ffb9708a5bcd09d186c",
+      "responseFile": "deepl-response-04.json",
+      "responseSHA256": "54864fa6612ff35715601c3e0aea544e42566ab6fa7e58808ad8c7136c951bc1",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    },
+    {
+      "batch": 5,
+      "reviewGroup": 3,
+      "inputCharacters": 3133,
+      "fieldCount": 19,
+      "requestFile": "deepl-request-05.json",
+      "requestSHA256": "2edc569472a103affc28d85127ce30f15e77aad3b2fed35fc76870d734961874",
+      "responseFile": "deepl-response-05.json",
+      "responseSHA256": "db41a9c7243baede8f82360a9ef006f261669103e05190b50132165381e25563",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    },
+    {
+      "batch": 6,
+      "reviewGroup": 3,
+      "inputCharacters": 1678,
+      "fieldCount": 10,
+      "requestFile": "deepl-request-06.json",
+      "requestSHA256": "719dc265b890643138299da8b009b4690eb313ac6b5323860c81211b0da97c79",
+      "responseFile": "deepl-response-06.json",
+      "responseSHA256": "743937c55853a140d35285cbb76fc059657ebcdcb80b05da9324fcd55e8dbc4e",
+      "responseStorage": "Exact structured DeepL response body, without duplicating MCP content-envelope JSON."
+    }
+  ],
+  "questComparisons": {
+    "5658": {
+      "questID": 5658,
+      "currentEnglishTitle": "Touch of Weakness",
+      "installedTitle": "Touch of Weakness",
+      "uaEnglishTitles": [
+        "Touch of Weakness"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 10,
+      "questLevel": 10,
+      "giverMetadata": [
+        [
+          4606
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Exact Touch of Weakness reward spell2652 retains identifying English; pronunciation is assisted proposal.",
+        "Read bare-heading current completion; young <class>, return, memorable lesson and readiness question retained.",
+        "Installed Undead Priest10 trainer=self ID4606; current primary has no offer/objective/progress. Excluded legacy borrowed referral detail; UA still has all referral fields."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "edf3ccef31d4211c61d928a6f9d755db70f3cc1b98541fe4d236d80a3e4e7ef2",
+          "detail": "84d38a520fbbdafaeb3f74efec28d3184cadd3a10a3adba436d8134ac1071a6a",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "72451577206c6b0add2804c6f3ba74be3e7a531144e85d7fdedeefd991a0d02b"
+        }
+      ]
+    },
+    "5660": {
+      "questID": 5660,
+      "currentEnglishTitle": "Touch of Weakness",
+      "installedTitle": "Touch of Weakness",
+      "uaEnglishTitles": [
+        "Touch of Weakness"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 10,
+      "questLevel": 10,
+      "giverMetadata": [
+        [
+          3706
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Preserved troll speaker, underground home city, Aelthalyste as teacher rather than mother, learning only from her, urgency and zeppelin transport; War Quarter restored as place identity.",
+        "Read aloof undead teacher: time may not matter to speaker but matters urgently to player, worth must be proved before reward.",
+        "Undead Priest10 Tai-jin3706 to Aelthalyste4606; objective current primary agrees installed target."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "edf3ccef31d4211c61d928a6f9d755db70f3cc1b98541fe4d236d80a3e4e7ef2",
+          "detail": "84d38a520fbbdafaeb3f74efec28d3184cadd3a10a3adba436d8134ac1071a6a",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "a5a5d40958548be0f80731dad212320a93a71df45432ce17b95e7ed454ffb5f3"
+        }
+      ]
+    },
+    "5661": {
+      "questID": 5661,
+      "currentEnglishTitle": "Touch of Weakness",
+      "installedTitle": "Touch of Weakness",
+      "uaEnglishTitles": [
+        "Touch of Weakness"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 10,
+      "questLevel": 10,
+      "giverMetadata": [
+        [
+          11407
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Preserved Bloodhoof Village distance, speaker searching own tribe priests while offering player help, hearsay about head priestess spirit, Forsaken and War Quarter; current lowercase <name> controls over legacy <Name>.",
+        "Undead Priest10 NPC11407 to4606; same-title referral is not self trainer5658. Completion checked against current text, identical to5660."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "edf3ccef31d4211c61d928a6f9d755db70f3cc1b98541fe4d236d80a3e4e7ef2",
+          "detail": "cf63825ed2163015df696d282731dce5c081779c7d7427190b683c9930b279c9",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "a5a5d40958548be0f80731dad212320a93a71df45432ce17b95e7ed454ffb5f3"
+        }
+      ]
+    },
+    "5662": {
+      "questID": 5662,
+      "currentEnglishTitle": "Touch of Weakness",
+      "installedTitle": "Touch of Weakness",
+      "uaEnglishTitles": [
+        "Touch of Weakness"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 10,
+      "questLevel": 10,
+      "giverMetadata": [
+        [
+          6018
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Preserved respect for player and race, normally teaching own tribe, lessons must come from Aelthalyste in formerly Lordaeron, distinctive faith abilities, War Quarter/Undercity target. Corrected raw past-tense lessons and mistress-as-beloved errors.",
+        "Undead Priest10 Ur-kyo6018 to4606; current objective and installed agree. Completion identical to5660."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "edf3ccef31d4211c61d928a6f9d755db70f3cc1b98541fe4d236d80a3e4e7ef2",
+          "detail": "7ec28838ce0f48a8999d2dd384780230081a46b63a076c69071889ad8f4f9248",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "a5a5d40958548be0f80731dad212320a93a71df45432ce17b95e7ed454ffb5f3"
+        }
+      ]
+    },
+    "5663": {
+      "questID": 5663,
+      "currentEnglishTitle": "Touch of Weakness",
+      "installedTitle": "Touch of Weakness",
+      "uaEnglishTitles": [
+        "Touch of Weakness"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 10,
+      "questLevel": 10,
+      "giverMetadata": [
+        [
+          3044
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Retained Aelthalyste message to all priests, younger order members, conditional faithful membership and deep Undercity War Quarter; no added quest conditions.",
+        "Undead Priest10 NPC3044 to4606; completion and objective read against current source; no progress state available."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "edf3ccef31d4211c61d928a6f9d755db70f3cc1b98541fe4d236d80a3e4e7ef2",
+          "detail": "a480fcd56b26601924a49d322cf1b32637c4fca8f920dad4d74bd23f7dfef410",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "a5a5d40958548be0f80731dad212320a93a71df45432ce17b95e7ed454ffb5f3"
+        }
+      ]
+    },
+    "5644": {
+      "questID": 5644,
+      "currentEnglishTitle": "Dark Sacrifice",
+      "installedTitle": "Dark Sacrifice",
+      "uaEnglishTitles": [
+        "Devouring Plague"
+      ],
+      "documentedEnglishTitleAliases": [
+        "Devouring Plague"
+      ],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          3044
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Current title Dark Sacrifice matches actual Rewards/You will learn spell1277324. UA old Devouring Plague label documented, not used as current title.",
+        "Retained surprise, only Aelthalyste teaching if worthy, nostalgic young priest memory and divine power without inventing named god; both <name> occurrences retained.",
+        "Current readiness-only completion supersedes legacy Devouring Plague lesson; restored <name> dropped by DeepL, no numerical second invented for not a moment too late.",
+        "Undead Priest20 NPC3044 referral to4606; current primary controls branch and spell label."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "4f16a8974142b20b5f47a6fb6f51531feff4827013ca1ed6914d678ba5257687",
+          "detail": "95112978a5e4660690e8c12f045f12c88b76673316c6c507ed395702fc4f6545",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "fcb88f22f2f98afbfc80133747030e4855b0c3040e006a11b019edbfc7804536"
+        }
+      ]
+    },
+    "5646": {
+      "questID": 5646,
+      "currentEnglishTitle": "Dark Sacrifice",
+      "installedTitle": "Dark Sacrifice",
+      "uaEnglishTitles": [
+        "Devouring Plague"
+      ],
+      "documentedEnglishTitleAliases": [
+        "Devouring Plague"
+      ],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          6018
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Aelthalyste in the Undercity."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Dark Sacrifice reward1277324 confirms current name versus UA Devouring Plague.",
+        "Troll speaker reciprocates Aelthalyste respect, sends player back to her tribe and Undercity War Quarter, urgent no-delay instruction.",
+        "Read current referral completion; restored DeepL-dropped <name>. Legacy already-teaching-Devouring-Plague branch excluded.",
+        "Undead Priest20 Ur-kyo6018 to4606, alternate referral to5644; current completion does not name wrong reward."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "4f16a8974142b20b5f47a6fb6f51531feff4827013ca1ed6914d678ba5257687",
+          "detail": "730301f4ddbfaa61ffd3e374171b57610e769a17273118f2c670ae7b06dd4006",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "fcb88f22f2f98afbfc80133747030e4855b0c3040e006a11b019edbfc7804536"
+        }
+      ]
+    },
+    "5679": {
+      "questID": 5679,
+      "currentEnglishTitle": "Dark Sacrifice",
+      "installedTitle": "Dark Sacrifice",
+      "uaEnglishTitles": [
+        "Devouring Plague"
+      ],
+      "documentedEnglishTitleAliases": [
+        "Devouring Plague"
+      ],
+      "classMask": 16,
+      "raceMask": 16,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          4606
+        ]
+      ],
+      "enderMetadata": [
+        [
+          4606
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Dark Sacrifice matches actual learn reward1277324; retain identifying English.",
+        "HELD: bare-heading completion explicitly says teaching Devouring Plague while actual Rewards/You will learn links Dark Sacrifice1277324. Raw DeepL retained, no silent spell substitution.",
+        "Installed Undead Priest20 trainer=self4606. Current no detail/objective; excluded60.tools borrowed referral text. Requires sanitized live reward/dialogue evidence."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "4f16a8974142b20b5f47a6fb6f51531feff4827013ca1ed6914d678ba5257687",
+          "detail": "730301f4ddbfaa61ffd3e374171b57610e769a17273118f2c670ae7b06dd4006",
+          "objective": "24ed10e55745110784d7f9565dc4fa2b76f0fee6c4101f90a653eb947f4a74cb",
+          "progress": null,
+          "complete": "d2ee8b9127ac713312c8c11af417bab2ca6bdab1884a214c7859201cb2c7416b"
+        }
+      ]
+    },
+    "5642": {
+      "questID": 5642,
+      "currentEnglishTitle": "Shadowguard",
+      "installedTitle": "Shadowguard",
+      "uaEnglishTitles": [
+        "Shadowguard"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 128,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          3044
+        ]
+      ],
+      "enderMetadata": [
+        [
+          6018
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Shadowguard is identifying racial spell training title; preserve English and proposed pronunciation.",
+        "Retained unusual messenger urgency versus normally casual manner, troll priests, Thunder Bluff no-delay and Valley of Spirits return recommendation; corrected raw translation losing the valley identity.",
+        "Retained important rite for <class>, <name>, assurance ready and promise to explain, not the actual trainer spelllesson.",
+        "Troll Priest20 NPC3044 referral to Ur-kyo6018; primary target agrees installed."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "d8fc4e7903c3bd626657c3e940a5cd789ab2cedc7d9b508d140a399482a2ef94",
+          "detail": "b46ce119d6f3c77c17b2a9cb6cb6fe6c7f7eee0a5f0eb89915028fdda2eb80e1",
+          "objective": "0cb25e8476615025d374b52cb822a8cde738ade76dc9789fd3053f83d274d3de",
+          "progress": null,
+          "complete": "7b4fc673398fe9d6543d052e3d5189cbd2d878d345bf3b29a770d4795db8b1ad"
+        }
+      ]
+    },
+    "5643": {
+      "questID": 5643,
+      "currentEnglishTitle": "Shadowguard",
+      "installedTitle": "Shadowguard",
+      "uaEnglishTitles": [
+        "Shadowguard"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 128,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          4606
+        ]
+      ],
+      "enderMetadata": [
+        [
+          6018
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Ur'kyo in Orgrimmar."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Retained comparative priests, own tribe rites often vital for survival, speaker sensing time now, Valley of Spirits in Orgrimmar and Ur-kyo, qualified future importance.",
+        "Current referral completion uses both <class> and <name>; legacy instead borrowed trainer spellteaching completion, excluded.",
+        "Troll Priest20 Aelthalyste4606 to Ur-kyo6018; same-title branch kept distinct from5680."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "d8fc4e7903c3bd626657c3e940a5cd789ab2cedc7d9b508d140a399482a2ef94",
+          "detail": "8f75c1642a8f2b58d51bffff3d12b11cc96a898e281b1c9f9cd57ea92da1de35",
+          "objective": "0cb25e8476615025d374b52cb822a8cde738ade76dc9789fd3053f83d274d3de",
+          "progress": null,
+          "complete": "7b4fc673398fe9d6543d052e3d5189cbd2d878d345bf3b29a770d4795db8b1ad"
+        }
+      ]
+    },
+    "5680": {
+      "questID": 5680,
+      "currentEnglishTitle": "Shadowguard",
+      "installedTitle": "Shadowguard",
+      "uaEnglishTitles": [
+        "Shadowguard"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 128,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          6018
+        ]
+      ],
+      "enderMetadata": [
+        [
+          6018
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Current bare-heading trainer completion says rites will come soon; currently teaches useful battle spell. Do not import referral readiness text.",
+        "Troll Priest20 trainer=self6018; current no offer/objective/progress agrees installed. Excluded60.tools copied referral detail and UA broader state inventory."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "d8fc4e7903c3bd626657c3e940a5cd789ab2cedc7d9b508d140a399482a2ef94",
+          "detail": "8f75c1642a8f2b58d51bffff3d12b11cc96a898e281b1c9f9cd57ea92da1de35",
+          "objective": "0cb25e8476615025d374b52cb822a8cde738ade76dc9789fd3053f83d274d3de",
+          "progress": null,
+          "complete": "cc43c1b1f727eefdb8d0b7551d2c719b700ac590084a89d473a1b83886923dfb"
+        }
+      ]
+    },
+    "5672": {
+      "questID": 5672,
+      "currentEnglishTitle": "Elune's Grace",
+      "installedTitle": "Elune's Grace",
+      "uaEnglishTitles": [
+        "Elune's Grace"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 8,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11401
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11401
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Elunes Grace title exact identifying spell2651 retained with pronunciation.",
+        "Corrected DeepL not all of us to a state not everyone reaches rather than a state nobody reaches; retained devotion, traditional greater abilities and consent question.",
+        "Night Elf Priest20 trainer=self11401. Current no offer/objective/progress; legacy referral detail has unsupported branch and belongs elsewhere, not enabled."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2bfbf522c3dbf14f62adf2d5843c451abb1d3b55a032e9ff297b495c4c431037",
+          "detail": "cac0cf107228e427c993e9d67ed1a17e29dfe59450dde52152f2419d022ca914",
+          "objective": "e23b7d496600801570ea389d59526a2a9555b2967f60b705818ba32d7db13ff5",
+          "progress": null,
+          "complete": "f0134fed8e2aabfaa667c8259971ca578363b66cac554d71a4c406d92ceff2cd"
+        }
+      ]
+    },
+    "5673": {
+      "questID": 5673,
+      "currentEnglishTitle": "Elune's Grace",
+      "installedTitle": "Elune's Grace",
+      "uaEnglishTitles": [
+        "Elune's Grace"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 8,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          376
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11401
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Retained anytime access to all trainers, limitation on passing goddess Elune teachings, special abilities for faithful, uncertainty if not mistaken, Temple of Moon test and return when able.",
+        "Retained blessing, quick return, solemn training phase, journey rest then notify speaker and discuss future continuation; no immediate invented nextobjective.",
+        "Night Elf Priest20 Laurena376 referral to Alathea11401; current objective agrees installed. Current <name> controls over secondary <Name>."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2bfbf522c3dbf14f62adf2d5843c451abb1d3b55a032e9ff297b495c4c431037",
+          "detail": "708b72fac9a799be14eb43d16781619f30c40caf0cd548ae933f3a0ead8d7607",
+          "objective": "e23b7d496600801570ea389d59526a2a9555b2967f60b705818ba32d7db13ff5",
+          "progress": null,
+          "complete": "e1e40166737441ac6c18187cb343b257ddde386a3ef5bbda9ff9121b88b1ccca"
+        }
+      ]
+    },
+    "5674": {
+      "questID": 5674,
+      "currentEnglishTitle": "Elune's Grace",
+      "installedTitle": "Elune's Grace",
+      "uaEnglishTitles": [
+        "Elune's Grace"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 8,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11397
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11401
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "HELD unsupported <priests/priestesses> branch. Raw English and DeepL retained exactly; do not erase or normalize to supported singular <priest/priestess>. Legacy plain priests cannot override current branch.",
+        "Read current quick-return blessing/rest/nexttraining completion, excluded60.tools same-title trainer devotion/acceptance completion.",
+        "Night Elf Priest20 NPC11397 referral to11401; current objective/complete source-supported. No progress available."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2bfbf522c3dbf14f62adf2d5843c451abb1d3b55a032e9ff297b495c4c431037",
+          "detail": "cac0cf107228e427c993e9d67ed1a17e29dfe59450dde52152f2419d022ca914",
+          "objective": "e23b7d496600801570ea389d59526a2a9555b2967f60b705818ba32d7db13ff5",
+          "progress": null,
+          "complete": "b42e54975bcfa476e67b5fed645e4655e21491ede9025f63034c8007400a2e68"
+        }
+      ]
+    },
+    "5675": {
+      "questID": 5675,
+      "currentEnglishTitle": "Elune's Grace",
+      "installedTitle": "Elune's Grace",
+      "uaEnglishTitles": [
+        "Elune's Grace"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 8,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11406
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11401
+        ]
+      ],
+      "installedObjective": [
+        "Speak to Priestess Alathea in Darnassus."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "HELD unsupported <lad/lass> branch. Raw English/DeepL retain branch; legacy lad cannot choose player gender.",
+        "Current quick-return blessing and journey rest before further discussion retained, identical to5673; title and objective independently annotated.",
+        "Night Elf Priest20 Rohan11406 referral to11401; same-title target exact; current no progress."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2bfbf522c3dbf14f62adf2d5843c451abb1d3b55a032e9ff297b495c4c431037",
+          "detail": "17f39ebb2974018c9851d3329121b5ccbfef9c05ba6ce2b711d7a39a2aac2f9d",
+          "objective": "e23b7d496600801570ea389d59526a2a9555b2967f60b705818ba32d7db13ff5",
+          "progress": null,
+          "complete": "b42e54975bcfa476e67b5fed645e4655e21491ede9025f63034c8007400a2e68"
+        }
+      ]
+    },
+    "5641": {
+      "questID": 5641,
+      "currentEnglishTitle": "Chastise",
+      "installedTitle": "A Lack of Fear",
+      "uaEnglishTitles": [
+        "A Lack of Fear"
+      ],
+      "documentedEnglishTitleAliases": [
+        "A Lack of Fear"
+      ],
+      "classMask": 16,
+      "raceMask": 4,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11406
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11406
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Exact current primary h1 Chastise and learn reward1277331; installed/UA A Lack of Fear is exact ID alias. Recovered current page via Chastise URL, canonical/alias page copies byte-identical.",
+        "Read bare-heading trainer completion; corrected raw duplicate <class>, kept one <class>, one <name>, encouragement, battle readiness and qualified perhaps more training.",
+        "Dwarf Priest20 trainer=self Rohan11406. No current offer/objective/progress, exclude legacy copied referral text. Current spell availability still not live verified."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "db066f173274e9dd8f33e9d39055845ec872831adb3729dee1731f0d76440ee2",
+          "detail": "990c9212861e30bca30a64ceb7d1e07101aa6fae0afa49d8bd25862b35e120bc",
+          "objective": "f95354541bcc929cbb30cd6eaecd7075a50b6997c5ffdcf530c4e25b9a90358d",
+          "progress": null,
+          "complete": "2607e04363290ed0c8c436498e4ad77efdc5f1b266714a2eeed2d89115314a7b"
+        }
+      ]
+    },
+    "5645": {
+      "questID": 5645,
+      "currentEnglishTitle": "Chastise",
+      "installedTitle": "A Lack of Fear",
+      "uaEnglishTitles": [
+        "A Lack of Fear"
+      ],
+      "documentedEnglishTitleAliases": [
+        "A Lack of Fear"
+      ],
+      "classMask": 16,
+      "raceMask": 4,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          376
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11406
+        ]
+      ],
+      "installedObjective": [
+        "Speak to High Priest Rohan in Ironforge."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Current Chastise versus installed/UA A Lack of Fear documented exact-ID title alias; actual reward Chastise1277331.",
+        "Preserved request for audience, strong friend, approaching test, speaker cannot witness own-race rites, Light blessing, Rohan still Mystic Ward and waiting. Shortened Rohan shares annotated full identity.",
+        "Current referral completion proud/strong race, inspire same emotion/confidence in others, readiness lad; source literal lad has no unresolved marker. Excluded legacy trainer completion.",
+        "Dwarf Priest20 Laurena376 to Rohan11406; current target agrees installed, primary alias URL recovered after oldslug403."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "db066f173274e9dd8f33e9d39055845ec872831adb3729dee1731f0d76440ee2",
+          "detail": "990c9212861e30bca30a64ceb7d1e07101aa6fae0afa49d8bd25862b35e120bc",
+          "objective": "f95354541bcc929cbb30cd6eaecd7075a50b6997c5ffdcf530c4e25b9a90358d",
+          "progress": null,
+          "complete": "a4b8cf20b1de2f11814553ae1d86b68bfd2d82230ba34f3f0a357ce0993acdf3"
+        }
+      ]
+    },
+    "5647": {
+      "questID": 5647,
+      "currentEnglishTitle": "Chastise",
+      "installedTitle": "A Lack of Fear",
+      "uaEnglishTitles": [
+        "A Lack of Fear"
+      ],
+      "documentedEnglishTitleAliases": [
+        "A Lack of Fear"
+      ],
+      "classMask": 16,
+      "raceMask": 4,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11401
+        ]
+      ],
+      "enderMetadata": [
+        [
+          11406
+        ]
+      ],
+      "installedObjective": [
+        "Speak to High Priest Rohan in Ironforge."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Current Chastise exact-ID alias A Lack of Fear agrees ID/target/race/class despite catalog label.",
+        "Preserved proud allies, daily progress on true origins and confidence in right path, triumphant feeling, recent Ironforge message, Mystic Ward Rohan, no waiting and Elune travel blessing.",
+        "Current referral proud/strong and inspiring confidence completion read; legacy same-title trainer completion excluded.",
+        "Dwarf Priest20 Alathea11401 referral to Rohan11406; no state borrowed from5641."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "db066f173274e9dd8f33e9d39055845ec872831adb3729dee1731f0d76440ee2",
+          "detail": "27c3af8734d537da8930c4543980f7a7157d115e935774de3901cd755b12f355",
+          "objective": "f95354541bcc929cbb30cd6eaecd7075a50b6997c5ffdcf530c4e25b9a90358d",
+          "progress": null,
+          "complete": "a4b8cf20b1de2f11814553ae1d86b68bfd2d82230ba34f3f0a357ce0993acdf3"
+        }
+      ]
+    },
+    "5676": {
+      "questID": 5676,
+      "currentEnglishTitle": "Arcane Feedback",
+      "installedTitle": "Arcane Feedback",
+      "uaEnglishTitles": [
+        "Arcane Feedback"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 1,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          376
+        ]
+      ],
+      "enderMetadata": [
+        [
+          376
+        ]
+      ],
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Arcane Feedback is identifying spell-training composite title, English retained with assisted phonetics; actual learn spell Feedback13896 noted.",
+        "Retained forced need to learn protective magics, arcane as greatest enemy commonly called, self and companions defended against those wielding it. Corrected raw arcane-as-secret wording.",
+        "Human Priest20 trainer=self376; current bare-heading completion only, exclude60.tools copied Alathea referral detail and UA expanded inventory."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2903de937ec6ca253acfda8cd789c8c4679fc78c75ba677301307b1ca489e4e3",
+          "detail": "efde988096b946490b1a2545e037e57dc2ea16c9e4c2c29cbd4b848b7db84bf6",
+          "objective": "b5312cbb0e97b959811673138209ebac305954822775e8d50caf2eba319c292f",
+          "progress": null,
+          "complete": "b0f522df027da044c09a10537238b3ac4e362857070e153d305fcf778412abe6"
+        }
+      ]
+    },
+    "5677": {
+      "questID": 5677,
+      "currentEnglishTitle": "Arcane Feedback",
+      "installedTitle": "Arcane Feedback",
+      "uaEnglishTitles": [
+        "Arcane Feedback"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 1,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11406
+        ]
+      ],
+      "enderMetadata": [
+        [
+          376
+        ]
+      ],
+      "installedObjective": [
+        "Speak to High Priestess Laurena in Stormwind."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Preserved desire but no authority to show own Light teachings, return to own kind for now, explicitly no offense, Cathedral Laurena, race preparing future and distinctive path.",
+        "Retained fortuitous arrival, wondered all messengers successful, counterfactual wager player would still learn threats, readiness clarification and rapidly increasing power.",
+        "Human Priest20 Rohan11406 to Laurena376. Current referral completion supersedes60.tools borrowed trainer arcane-defense completion."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2903de937ec6ca253acfda8cd789c8c4679fc78c75ba677301307b1ca489e4e3",
+          "detail": "e5800e96b277efb6fd47ed6e3b669e33f34e60e699291bae3407726af6618fc8",
+          "objective": "b5312cbb0e97b959811673138209ebac305954822775e8d50caf2eba319c292f",
+          "progress": null,
+          "complete": "cc9a5f58ad0f4a7594c0638c024628fc81a9911598ba427028b9f22164cd1e2a"
+        }
+      ]
+    },
+    "5678": {
+      "questID": 5678,
+      "currentEnglishTitle": "Arcane Feedback",
+      "installedTitle": "Arcane Feedback",
+      "uaEnglishTitles": [
+        "Arcane Feedback"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 1,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11401
+        ]
+      ],
+      "enderMetadata": [
+        [
+          376
+        ]
+      ],
+      "installedObjective": [
+        "Speak to High Priestess Laurena in Stormwind."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Preserved night-elf speaker discomfort about training but fidelity to allied races; corrected raw mistrust of player to explicit mistrust of arcane magics whether divinely inspired or not. Cathedral Light and Laurena retained.",
+        "Current referral messenger/readiness completion read independently; same as5677. No60.tools missingcompletion invented.",
+        "Human Priest20 Alathea11401 to Laurena376; current objective agrees installed; not trainer5676."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "2903de937ec6ca253acfda8cd789c8c4679fc78c75ba677301307b1ca489e4e3",
+          "detail": "efde988096b946490b1a2545e037e57dc2ea16c9e4c2c29cbd4b848b7db84bf6",
+          "objective": "b5312cbb0e97b959811673138209ebac305954822775e8d50caf2eba319c292f",
+          "progress": null,
+          "complete": "cc9a5f58ad0f4a7594c0638c024628fc81a9911598ba427028b9f22164cd1e2a"
+        }
+      ]
+    },
+    "94818": {
+      "questID": 94818,
+      "currentEnglishTitle": "Contingency Plan",
+      "installedTitle": "Contingency Plan",
+      "uaEnglishTitles": [
+        "Contingency Plan"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 64,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": null,
+      "enderMetadata": null,
+      "installedObjective": null,
+      "currentEnglishFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Ordinary Contingency Plan wording translated semantically, not phonetic sentence.",
+        "Retained Light service, future great <class>, exact <name>, vigilance plus dedication and readiness for next service lesson.",
+        "Gnome Priest20 installed class/race supported but giver/ender absent; current primary completion-only and UA completion agree. Current live acceptability unverified."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "e7436100eb8e829b21d1e8c6fc9998778f9dbf452a1876ec463f6b5eac964fef",
+          "detail": null,
+          "objective": null,
+          "progress": null,
+          "complete": "0fb42f9de1316b01b60252aae26ee44939638046cd7e8c2c155aedb594b30535"
+        }
+      ]
+    },
+    "94819": {
+      "questID": 94819,
+      "currentEnglishTitle": "Contingency Plan",
+      "installedTitle": "Contingency Plan",
+      "uaEnglishTitles": [
+        "Contingency Plan"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 64,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          376
+        ]
+      ],
+      "enderMetadata": [
+        [
+          258785
+        ]
+      ],
+      "installedObjective": [
+        "Speak to High Priestess Mims in Ironforge."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Corrected raw High Priestess Mims-as-queen; retained clever friend, audience/test, inability to witness rites, Light blessing and Mystic Ward Mims waiting; shortened Mims shares full-name identity.",
+        "Current primary gives service/vigilance completion; absent secondary completion does not invalidate current evidence.",
+        "Gnome Priest20 Laurena376 to Mims258785, current objective agrees installed. Same-title route kept ID-specific."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "e7436100eb8e829b21d1e8c6fc9998778f9dbf452a1876ec463f6b5eac964fef",
+          "detail": "7ce1085bdc6037fc3590bbd331fd9851c57e672cc7cd4ecfe4c388a577eec588",
+          "objective": "d7a330f5520e9a605034e80d465b88c6f29236df0980a7f3b4fcd71909e5ffd8",
+          "progress": null,
+          "complete": "b636234d5d15b4b48e515cb970604ae89e7e399ff3c18df8c0f0f25f2b45fe14"
+        }
+      ]
+    },
+    "94820": {
+      "questID": 94820,
+      "currentEnglishTitle": "Contingency Plan",
+      "installedTitle": "Contingency Plan",
+      "uaEnglishTitles": [
+        "Contingency Plan"
+      ],
+      "documentedEnglishTitleAliases": [],
+      "classMask": 16,
+      "raceMask": 64,
+      "minimumLevel": 20,
+      "questLevel": 20,
+      "giverMetadata": [
+        [
+          11401
+        ]
+      ],
+      "enderMetadata": null,
+      "installedObjective": [
+        "Speak to High Priestess Mims in Ironforge."
+      ],
+      "currentEnglishFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": false
+      },
+      "uaFields": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "sourceAwareNotes": [
+        "Retained clever race, proud allies, reclaiming city while protecting families in exile, longing for home burden, recent Ironforge message, Mystic Ward Mims, not keeping her waiting and Elune blessing. Kin not conflated with families.",
+        "UNAVAILABLE: no current completion heading/body and no secondary completion; UA completion is not independent English. Remains null, no borrowing94818/94819.",
+        "Gnome Priest20 Alathea11401 referral, installed ender absent but objective Mims/Ironforge agrees current primary. No progress available."
+      ],
+      "uaFieldSHA256": [
+        {
+          "title": "e7436100eb8e829b21d1e8c6fc9998778f9dbf452a1876ec463f6b5eac964fef",
+          "detail": "637439fae517f323ecb8634533c9202de8cb190b06305286e081667dda655770",
+          "objective": "d7a330f5520e9a605034e80d465b88c6f29236df0980a7f3b4fcd71909e5ffd8",
+          "progress": null,
+          "complete": "60e9731e4d57b2a7e3f4d92368bec1e52a6e1e930c9c56fb6b82c8409a945245"
+        }
+      ]
+    }
+  },
+  "fields": {
+    "5658": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "cad8d1e4c35c9a2a5732e248e5dbdb814e7e6ab4ecee6cd35b9fd01d13e63436",
+        "rawDeepLSHA256": "251b41579e359c3979949b51e0d13f9169763a87fcf7b71fac8ae553ce08ef83",
+        "editedSHA256": "60cfc434147a8472c635d6eda93b980efdab68674793a3ad311a6633167464a5",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5658/touch-of-weakness",
+          "pageSHA256": "3d39859c10058d4e59b5122483490a6234aa824fd79527363e5f6c32b9b68283"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "ba312d54368d636a11344833f01bac3bf0b1b5a2fb07b80ca53a683931948dec",
+        "rawDeepLSHA256": "32b0f53697eff80ddcf08a3bad7db3342f3d8bab549cf6ee274bf091c2cffdc1",
+        "editedSHA256": "193ad35434bc069a5f28bd3b41b57651feb41b78c6f012e3b939fa4bda58ddc2",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 1,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 1,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5658/touch-of-weakness",
+          "pageSHA256": "3d39859c10058d4e59b5122483490a6234aa824fd79527363e5f6c32b9b68283"
+        }
+      }
+    },
+    "5660": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "cad8d1e4c35c9a2a5732e248e5dbdb814e7e6ab4ecee6cd35b9fd01d13e63436",
+        "rawDeepLSHA256": "251b41579e359c3979949b51e0d13f9169763a87fcf7b71fac8ae553ce08ef83",
+        "editedSHA256": "60cfc434147a8472c635d6eda93b980efdab68674793a3ad311a6633167464a5",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 2,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 2,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5660/touch-of-weakness",
+          "pageSHA256": "00ba1159598e4e01604aa43c962d4f6bc6679e12f27fd01f5f5e80f061ec36dc"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "f7e45e3b4307589ffb0117eb6f6727082d2d1a6cc5cde071ece999d6f4f0d8bb",
+        "rawDeepLSHA256": "9bccc494f9030871a7c3a35117a56e8a9d2e539e6514df0853bb12f574340470",
+        "editedSHA256": "dbc561b1eca67a1d75aa6cbbe51f9a0f605f38d001a540ad70fc9cdcccee4881",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 3,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 3,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5660/touch-of-weakness",
+          "pageSHA256": "00ba1159598e4e01604aa43c962d4f6bc6679e12f27fd01f5f5e80f061ec36dc"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "2efb8f90614600a1388a679859054dfadaf6b411ad4cdf30e7ca4dba21cacc71",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 4,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 4,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5660/touch-of-weakness",
+          "pageSHA256": "00ba1159598e4e01604aa43c962d4f6bc6679e12f27fd01f5f5e80f061ec36dc"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "d36971456c67b01613c6a0916420857984e26fa251c95c627bc336f677d9a43e",
+        "rawDeepLSHA256": "b95a5420665d650a068a8abc11308d823bb96d04640ab3aaf424af9c3a4c0ba7",
+        "editedSHA256": "b23c1605e08c55776ab9e1d913d8af6537f4142434542731ab612ec4528690fd",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 5,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 5,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5660/touch-of-weakness",
+          "pageSHA256": "00ba1159598e4e01604aa43c962d4f6bc6679e12f27fd01f5f5e80f061ec36dc"
+        }
+      }
+    },
+    "5661": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "cad8d1e4c35c9a2a5732e248e5dbdb814e7e6ab4ecee6cd35b9fd01d13e63436",
+        "rawDeepLSHA256": "251b41579e359c3979949b51e0d13f9169763a87fcf7b71fac8ae553ce08ef83",
+        "editedSHA256": "60cfc434147a8472c635d6eda93b980efdab68674793a3ad311a6633167464a5",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 6,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 6,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5661/touch-of-weakness",
+          "pageSHA256": "4a313098ca0d2331bc52e2284b45957dd419df4b72c5e164f561862c8813b7f1"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "b43b933692ad2e6a4c8a5e4dc39fc9949096f4363f1b7ea314df0aa82a0f74d8",
+        "rawDeepLSHA256": "d5fdbeb53cdc3c3d958256c69bfd297f3e085a4cd7dab98dd8fdbaf89bcc290d",
+        "editedSHA256": "f694038e1011a5a73def548bafaf9d387a2f13e7383a0d9c5df89401b99ba773",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 7,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 7,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5661/touch-of-weakness",
+          "pageSHA256": "4a313098ca0d2331bc52e2284b45957dd419df4b72c5e164f561862c8813b7f1"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "14199d3888fd934b55fee0c071b3c6849e9f26661def162c3845b863ad282c22",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 8,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 8,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5661/touch-of-weakness",
+          "pageSHA256": "4a313098ca0d2331bc52e2284b45957dd419df4b72c5e164f561862c8813b7f1"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "d36971456c67b01613c6a0916420857984e26fa251c95c627bc336f677d9a43e",
+        "rawDeepLSHA256": "ec3b640252f9a5aa6117f3cf98c0b8a4b4f0664dc17c4916ad7b166ceb1b2419",
+        "editedSHA256": "b23c1605e08c55776ab9e1d913d8af6537f4142434542731ab612ec4528690fd",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 9,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 9,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5661/touch-of-weakness",
+          "pageSHA256": "4a313098ca0d2331bc52e2284b45957dd419df4b72c5e164f561862c8813b7f1"
+        }
+      }
+    },
+    "5662": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "cad8d1e4c35c9a2a5732e248e5dbdb814e7e6ab4ecee6cd35b9fd01d13e63436",
+        "rawDeepLSHA256": "251b41579e359c3979949b51e0d13f9169763a87fcf7b71fac8ae553ce08ef83",
+        "editedSHA256": "60cfc434147a8472c635d6eda93b980efdab68674793a3ad311a6633167464a5",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 10,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 10,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5662/touch-of-weakness",
+          "pageSHA256": "9ebb761cbd72abf4967338207959140184aa977df1160177916a81b7e3ac886a"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "d3087e3dd72daeb9c4e8edfc9001e56b2ad562538ae879b22d92e9870f429c14",
+        "rawDeepLSHA256": "135a341b6b08b7bc21384a7007919888f24d3040b3b2a2210ba2ccd12253b128",
+        "editedSHA256": "68b7903489929681e985442608c733d06f77c0b203683cc889310deed2c1b37c",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 11,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 11,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5662/touch-of-weakness",
+          "pageSHA256": "9ebb761cbd72abf4967338207959140184aa977df1160177916a81b7e3ac886a"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "14199d3888fd934b55fee0c071b3c6849e9f26661def162c3845b863ad282c22",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 12,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 12,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5662/touch-of-weakness",
+          "pageSHA256": "9ebb761cbd72abf4967338207959140184aa977df1160177916a81b7e3ac886a"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "d36971456c67b01613c6a0916420857984e26fa251c95c627bc336f677d9a43e",
+        "rawDeepLSHA256": "c219447d58b4b91cf70b842b0fff2ce9bbfe5a657024dcc7be63693bbb567b89",
+        "editedSHA256": "b23c1605e08c55776ab9e1d913d8af6537f4142434542731ab612ec4528690fd",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 13,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 13,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5662/touch-of-weakness",
+          "pageSHA256": "9ebb761cbd72abf4967338207959140184aa977df1160177916a81b7e3ac886a"
+        }
+      }
+    },
+    "5663": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "cad8d1e4c35c9a2a5732e248e5dbdb814e7e6ab4ecee6cd35b9fd01d13e63436",
+        "rawDeepLSHA256": "251b41579e359c3979949b51e0d13f9169763a87fcf7b71fac8ae553ce08ef83",
+        "editedSHA256": "60cfc434147a8472c635d6eda93b980efdab68674793a3ad311a6633167464a5",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 14,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 14,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5663/touch-of-weakness",
+          "pageSHA256": "48a555e59e15e31168991bbd3e9d704c08cb7a55c6a193d04c8dcf31d8f557a5"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "e924af57a695fbd3f5d27129e4dd0208c843d168b2e4054a21a6d95482241f55",
+        "rawDeepLSHA256": "a112daa62c80e20f13258c6d0535bfef0c1343e0267c9873fb5165934a5c335e",
+        "editedSHA256": "3964773ede5344cec79a8171fefd9df5fd2a2b8d740c25d746c2235aaa0f0bc2",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 15,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 15,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5663/touch-of-weakness",
+          "pageSHA256": "48a555e59e15e31168991bbd3e9d704c08cb7a55c6a193d04c8dcf31d8f557a5"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "14199d3888fd934b55fee0c071b3c6849e9f26661def162c3845b863ad282c22",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 16,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 16,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5663/touch-of-weakness",
+          "pageSHA256": "48a555e59e15e31168991bbd3e9d704c08cb7a55c6a193d04c8dcf31d8f557a5"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "d36971456c67b01613c6a0916420857984e26fa251c95c627bc336f677d9a43e",
+        "rawDeepLSHA256": "c5542e6e122791fcb1f021fb66557ddd738f41b079c2f218496b148d134dfb34",
+        "editedSHA256": "b23c1605e08c55776ab9e1d913d8af6537f4142434542731ab612ec4528690fd",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 17,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 17,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5663/touch-of-weakness",
+          "pageSHA256": "48a555e59e15e31168991bbd3e9d704c08cb7a55c6a193d04c8dcf31d8f557a5"
+        }
+      }
+    },
+    "5644": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "4eb086be82c94db3aa90caeb7287f3b2a4789974f09ccbce3da56a581326bb5a",
+        "rawDeepLSHA256": "13b89d79255fc2cbc60e9c7ffb646fe32e697e64a94294e40d0198f3ccfd6f2d",
+        "editedSHA256": "d841a15d7b72b2b4e79508fe616bcfdaa033b0197050ecae8b32c8a11ccc4dc3",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 18,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 18,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5644/dark-sacrifice",
+          "pageSHA256": "56ee282769c523f854b2116538fe5dc32360cd1c04fd763e1731a28a5271cc4d"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "d1d190ca3ade4f8b2892c0f66fbc718f6c5a2908b3bad8323f7087f577e50a63",
+        "rawDeepLSHA256": "9dd675e33a8e4b3c13d2c01c8d3cdce62835a37b496603b178c952b4e3307dc8",
+        "editedSHA256": "a3bf76ad0ae0ece4c9457d0ecb753ba365e24504a6334aabfdccad0241a3b194",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 19,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 19,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5644/dark-sacrifice",
+          "pageSHA256": "56ee282769c523f854b2116538fe5dc32360cd1c04fd763e1731a28a5271cc4d"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "2efb8f90614600a1388a679859054dfadaf6b411ad4cdf30e7ca4dba21cacc71",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 20,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 20,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5644/dark-sacrifice",
+          "pageSHA256": "56ee282769c523f854b2116538fe5dc32360cd1c04fd763e1731a28a5271cc4d"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "e5ee1946b2528fde350925b2f9a71d680926758a214dba8d5192e2b48f2d75a2",
+        "rawDeepLSHA256": "760d6e69ebc2e0393a38852f1eac46e291149af533fcf170b08f60ca2b77f3d0",
+        "editedSHA256": "f9865a1df6187d9ba9d3311e82b9df0e92e0fd6d381e4db23726f40fb673ac7b",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 21,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 21,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5644/dark-sacrifice",
+          "pageSHA256": "56ee282769c523f854b2116538fe5dc32360cd1c04fd763e1731a28a5271cc4d"
+        }
+      }
+    },
+    "5646": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "4eb086be82c94db3aa90caeb7287f3b2a4789974f09ccbce3da56a581326bb5a",
+        "rawDeepLSHA256": "13b89d79255fc2cbc60e9c7ffb646fe32e697e64a94294e40d0198f3ccfd6f2d",
+        "editedSHA256": "d841a15d7b72b2b4e79508fe616bcfdaa033b0197050ecae8b32c8a11ccc4dc3",
+        "rawRequestFile": "deepl-request-01.json",
+        "rawResponseFile": "deepl-response-01.json",
+        "rawOutputIndex": 22,
+        "batchInput": "deepl-request-01.json",
+        "batchResponse": "deepl-response-01.json",
+        "responseIndex": 22,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5646/dark-sacrifice",
+          "pageSHA256": "97b29e28382d79f3731acdc0a33903244dde68b86fb5cd46fb1a8ca4a83d08ae"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "17f6e58f1e617e739ee01fdafa83a484f59b5d231cdb081d2c46f5d24ce32b51",
+        "rawDeepLSHA256": "4e12c94379479672205fa7d42772253883bc27578d610a0cd8eff361db030f3d",
+        "editedSHA256": "e2fa4d84f99e904852f9437da1c3ad0ea39929891820deeeb4e4ad9028edacd3",
+        "rawRequestFile": "deepl-request-02.json",
+        "rawResponseFile": "deepl-response-02.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-02.json",
+        "batchResponse": "deepl-response-02.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5646/dark-sacrifice",
+          "pageSHA256": "97b29e28382d79f3731acdc0a33903244dde68b86fb5cd46fb1a8ca4a83d08ae"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "c7ae9d392154cce48e88e49e1b8ab10e4e7864fd5576289a86afdfc6723f3df3",
+        "rawDeepLSHA256": "2efb8f90614600a1388a679859054dfadaf6b411ad4cdf30e7ca4dba21cacc71",
+        "editedSHA256": "7b3d2437cfc2e774fac59f8fdacf1077f4a99a5143ee68c0a10e74a7a778f427",
+        "rawRequestFile": "deepl-request-02.json",
+        "rawResponseFile": "deepl-response-02.json",
+        "rawOutputIndex": 1,
+        "batchInput": "deepl-request-02.json",
+        "batchResponse": "deepl-response-02.json",
+        "responseIndex": 1,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5646/dark-sacrifice",
+          "pageSHA256": "97b29e28382d79f3731acdc0a33903244dde68b86fb5cd46fb1a8ca4a83d08ae"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "e5ee1946b2528fde350925b2f9a71d680926758a214dba8d5192e2b48f2d75a2",
+        "rawDeepLSHA256": "760d6e69ebc2e0393a38852f1eac46e291149af533fcf170b08f60ca2b77f3d0",
+        "editedSHA256": "f9865a1df6187d9ba9d3311e82b9df0e92e0fd6d381e4db23726f40fb673ac7b",
+        "rawRequestFile": "deepl-request-02.json",
+        "rawResponseFile": "deepl-response-02.json",
+        "rawOutputIndex": 2,
+        "batchInput": "deepl-request-02.json",
+        "batchResponse": "deepl-response-02.json",
+        "responseIndex": 2,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5646/dark-sacrifice",
+          "pageSHA256": "97b29e28382d79f3731acdc0a33903244dde68b86fb5cd46fb1a8ca4a83d08ae"
+        }
+      }
+    },
+    "5679": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "4eb086be82c94db3aa90caeb7287f3b2a4789974f09ccbce3da56a581326bb5a",
+        "rawDeepLSHA256": "13b89d79255fc2cbc60e9c7ffb646fe32e697e64a94294e40d0198f3ccfd6f2d",
+        "editedSHA256": "d841a15d7b72b2b4e79508fe616bcfdaa033b0197050ecae8b32c8a11ccc4dc3",
+        "rawRequestFile": "deepl-request-02.json",
+        "rawResponseFile": "deepl-response-02.json",
+        "rawOutputIndex": 3,
+        "batchInput": "deepl-request-02.json",
+        "batchResponse": "deepl-response-02.json",
+        "responseIndex": 3,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5679/dark-sacrifice",
+          "pageSHA256": "35658f0b6ffcd6546840c978efb5d4e5c7a0baa69a257af5b449f45893e97b25"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "held",
+        "englishSHA256": "8590dc04b568adf4fda6dd6600cf8021e66bf915d8f2eac0317e5a066b991edb",
+        "rawDeepLSHA256": "d8bfe9735f58a425b55c54bf1bb3f1f3fe01209456d6c283cb96cdf81977dff3",
+        "editedSHA256": null,
+        "rawRequestFile": "deepl-request-02.json",
+        "rawResponseFile": "deepl-response-02.json",
+        "rawOutputIndex": 4,
+        "batchInput": "deepl-request-02.json",
+        "batchResponse": "deepl-response-02.json",
+        "responseIndex": 4,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5679/dark-sacrifice",
+          "pageSHA256": "35658f0b6ffcd6546840c978efb5d4e5c7a0baa69a257af5b449f45893e97b25"
+        }
+      }
+    },
+    "5642": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "e9a388c7e9c5c01837db02626890fb8135c26886137b128c1bfcd347299bca77",
+        "rawDeepLSHA256": "52969a9592f053ebb67840434ff25b2c39479d8a791505e83a57b8eb8ce918cc",
+        "editedSHA256": "d8be4fe05b65e973493e771fc6f0e6a85d11602f2ffd3da954d1f2c9b186b2a7",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5642/shadowguard",
+          "pageSHA256": "455cb696b1fcbee511dfa1c67682689fc6f3b9842b9ba070da95835333f31ade"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "0452158eca8f75a60b2b4a99ef468943289f2ae341c0654eb575021883d10fd3",
+        "rawDeepLSHA256": "56d4a9bbefb1ba4c6181b0793f21422922dc67adb858921677092c45270acb94",
+        "editedSHA256": "7a5ff5bd053171869677a6239b8ea58f717473a811de94d019ede2cd3faa4adf",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 1,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 1,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5642/shadowguard",
+          "pageSHA256": "455cb696b1fcbee511dfa1c67682689fc6f3b9842b9ba070da95835333f31ade"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "7ff646905044ba1ad468aad7d1a0d23a8db32103b8cc4e7d2f5e9b7592a11798",
+        "rawDeepLSHA256": "f3940fe89555ba518365e9ff7b4ea3988af5b68939239907bcecdcd809df08db",
+        "editedSHA256": "11d029f0a3847c79d2f21a342f2b7bff52dbf4dd08f396a02a71471b3d4ceca8",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 2,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 2,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5642/shadowguard",
+          "pageSHA256": "455cb696b1fcbee511dfa1c67682689fc6f3b9842b9ba070da95835333f31ade"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "a4b084df7ecbe64b076684e58448e465db60c068eee5e731dfb399efe10dca37",
+        "rawDeepLSHA256": "ab852974e11dc79511e68be3ce98026cbdd2a179e9fb4818247c9f1c78ec87a5",
+        "editedSHA256": "220249a8893546a749805ed25f3aa081773876674638dc470a62b248d051b06e",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 3,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 3,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5642/shadowguard",
+          "pageSHA256": "455cb696b1fcbee511dfa1c67682689fc6f3b9842b9ba070da95835333f31ade"
+        }
+      }
+    },
+    "5643": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "e9a388c7e9c5c01837db02626890fb8135c26886137b128c1bfcd347299bca77",
+        "rawDeepLSHA256": "52969a9592f053ebb67840434ff25b2c39479d8a791505e83a57b8eb8ce918cc",
+        "editedSHA256": "d8be4fe05b65e973493e771fc6f0e6a85d11602f2ffd3da954d1f2c9b186b2a7",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 4,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 4,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5643/shadowguard",
+          "pageSHA256": "27e31a7cbd862fb607b5a5e513a56b8a2cba534770ce330243e9ca19617c7fd1"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "1e1496484511f594c6ac067f68a9ebee20c3cea1d9696c235211692f657e9717",
+        "rawDeepLSHA256": "0ea025b1d7814620bb32f83d8c0dd2d207a9ae461ff0638ba2306728c4bc1a5b",
+        "editedSHA256": "ff64e3c7d8173177b0985efac119969ab2f8c066b8a6dd21dd4c73339778a0d9",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 5,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 5,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5643/shadowguard",
+          "pageSHA256": "27e31a7cbd862fb607b5a5e513a56b8a2cba534770ce330243e9ca19617c7fd1"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "7ff646905044ba1ad468aad7d1a0d23a8db32103b8cc4e7d2f5e9b7592a11798",
+        "rawDeepLSHA256": "f3940fe89555ba518365e9ff7b4ea3988af5b68939239907bcecdcd809df08db",
+        "editedSHA256": "11d029f0a3847c79d2f21a342f2b7bff52dbf4dd08f396a02a71471b3d4ceca8",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 6,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 6,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5643/shadowguard",
+          "pageSHA256": "27e31a7cbd862fb607b5a5e513a56b8a2cba534770ce330243e9ca19617c7fd1"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "a4b084df7ecbe64b076684e58448e465db60c068eee5e731dfb399efe10dca37",
+        "rawDeepLSHA256": "943233020b50944eac201aa0fba939acfe554291a436cb4f9f29a3caf4a99005",
+        "editedSHA256": "220249a8893546a749805ed25f3aa081773876674638dc470a62b248d051b06e",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 7,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 7,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5643/shadowguard",
+          "pageSHA256": "27e31a7cbd862fb607b5a5e513a56b8a2cba534770ce330243e9ca19617c7fd1"
+        }
+      }
+    },
+    "5680": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "e9a388c7e9c5c01837db02626890fb8135c26886137b128c1bfcd347299bca77",
+        "rawDeepLSHA256": "52969a9592f053ebb67840434ff25b2c39479d8a791505e83a57b8eb8ce918cc",
+        "editedSHA256": "d8be4fe05b65e973493e771fc6f0e6a85d11602f2ffd3da954d1f2c9b186b2a7",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 8,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 8,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5680/shadowguard",
+          "pageSHA256": "8daa8c381daa5c3c7f660788ab34c61b80089bf304cbc3779e1665a2384c3379"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "fe1fffa4fcfb1166876bbfd3711174fa1d149044ed279db150319f38de4d390c",
+        "rawDeepLSHA256": "1cc8fcaf0583be4fe517f2719ece35fb059457874237ee4ff87030bdbfb3e0f2",
+        "editedSHA256": "90a098b049c1003494917ad8831fb45596dcb74a07c8a968d474cc32f9066495",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 9,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 9,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5680/shadowguard",
+          "pageSHA256": "8daa8c381daa5c3c7f660788ab34c61b80089bf304cbc3779e1665a2384c3379"
+        }
+      }
+    },
+    "5672": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "b7c9f179af08934fd7d2d7019c78c3a3c16dc704af0798e8d5abbe6a79b96b1f",
+        "rawDeepLSHA256": "521a31e3bd60780217cfb58ad93c8f7597882b5ba8da4d393d2dae2bc4523aa2",
+        "editedSHA256": "54fccbfe205312526559ea50c01d21c980fc066cabf411fa55053c9805dd887b",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 10,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 10,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5672/elunes-grace",
+          "pageSHA256": "cb2889055d7784c0195b262d7e24905030509470566c6cee085bc92e85128d9b"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "4574f1fbd29105cfcc739cc798b097383a5643d38d4c8ecc5692f77de4661161",
+        "rawDeepLSHA256": "9f9b883447af9aa23878d1591db719b49d9cf95ed12d641d7685a16d2d5be8bd",
+        "editedSHA256": "f0f92529e4b939167d9343c10153af688d46dbfdea2e7536f1399c9c432f57ce",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 11,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 11,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5672/elunes-grace",
+          "pageSHA256": "cb2889055d7784c0195b262d7e24905030509470566c6cee085bc92e85128d9b"
+        }
+      }
+    },
+    "5673": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "b7c9f179af08934fd7d2d7019c78c3a3c16dc704af0798e8d5abbe6a79b96b1f",
+        "rawDeepLSHA256": "521a31e3bd60780217cfb58ad93c8f7597882b5ba8da4d393d2dae2bc4523aa2",
+        "editedSHA256": "54fccbfe205312526559ea50c01d21c980fc066cabf411fa55053c9805dd887b",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 12,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 12,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5673/elunes-grace",
+          "pageSHA256": "b3f63c14e57e244c49748d999aba3c32cb993e3fd3d3a3b0e39cbe0a88c2be14"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "5b6f92efb3f87b64f3ac0cf712f4ca3270669cf6c1041d7b8ae269f8d5ce40ad",
+        "rawDeepLSHA256": "9b67b3364d8cc7af2043c272ab174328974eb72832426570afe4f70f6e2dc3e5",
+        "editedSHA256": "82e9c1f4ce94d0bc85def8f44625c9ae9870679b57f3f86b513f82901514f657",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 13,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 13,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5673/elunes-grace",
+          "pageSHA256": "b3f63c14e57e244c49748d999aba3c32cb993e3fd3d3a3b0e39cbe0a88c2be14"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "eae7d2e68bb95e6f6813b3bc0157a4ff3f2c4511e90d9d4ff0e2fe9b4f2700ba",
+        "rawDeepLSHA256": "837b9763c7759d4cd8f46d963dd00916d03445e157e5c280bf65dc9000284ef6",
+        "editedSHA256": "11d7e3949183d44e7bd75bf05698cb91c20b6f9fbc34dbca41f79ef037c60955",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 14,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 14,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5673/elunes-grace",
+          "pageSHA256": "b3f63c14e57e244c49748d999aba3c32cb993e3fd3d3a3b0e39cbe0a88c2be14"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "01d900d6ccbfca1a8a2cf9939dda0e2ea2849f36c5d81f2f7338d262aefd3e3b",
+        "rawDeepLSHA256": "f60c77c24d0abbaafa3a441990719fb2d51c157ca84fab8103181eaf03aa1c6d",
+        "editedSHA256": "bf5f24412391e6478ea9dd9245f05a12dfc1c11ee2a8df33f19ea12a2ba449b6",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 15,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 15,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5673/elunes-grace",
+          "pageSHA256": "b3f63c14e57e244c49748d999aba3c32cb993e3fd3d3a3b0e39cbe0a88c2be14"
+        }
+      }
+    },
+    "5674": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "b7c9f179af08934fd7d2d7019c78c3a3c16dc704af0798e8d5abbe6a79b96b1f",
+        "rawDeepLSHA256": "405c099ba3bf416cc35945f05f91d5259cda95a0a42ac7f55cd43237814460e0",
+        "editedSHA256": "54fccbfe205312526559ea50c01d21c980fc066cabf411fa55053c9805dd887b",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 16,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 16,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5674/elunes-grace",
+          "pageSHA256": "ab93443495c3ca29506a83d5f2d54cdbc416fdbcbd1608cfc29994c4d718deca"
+        }
+      },
+      "detail": {
+        "status": "held",
+        "englishSHA256": "e54b0cd8d44fe5595c1b1278135ffa351b83e640f9f076f6134a62c045943cc5",
+        "rawDeepLSHA256": "955e7c1d21c9b107ce0d1037f10eefcef33b9a5c0e5a659b2eeceb202886cfd3",
+        "editedSHA256": null,
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 17,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 17,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5674/elunes-grace",
+          "pageSHA256": "ab93443495c3ca29506a83d5f2d54cdbc416fdbcbd1608cfc29994c4d718deca"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "eae7d2e68bb95e6f6813b3bc0157a4ff3f2c4511e90d9d4ff0e2fe9b4f2700ba",
+        "rawDeepLSHA256": "d8c0815503ebf04ad8abe7c497c8383d1c3604bb5486a37df3b0f01d0ac58f78",
+        "editedSHA256": "11d7e3949183d44e7bd75bf05698cb91c20b6f9fbc34dbca41f79ef037c60955",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 18,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 18,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5674/elunes-grace",
+          "pageSHA256": "ab93443495c3ca29506a83d5f2d54cdbc416fdbcbd1608cfc29994c4d718deca"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "01d900d6ccbfca1a8a2cf9939dda0e2ea2849f36c5d81f2f7338d262aefd3e3b",
+        "rawDeepLSHA256": "f60c77c24d0abbaafa3a441990719fb2d51c157ca84fab8103181eaf03aa1c6d",
+        "editedSHA256": "bf5f24412391e6478ea9dd9245f05a12dfc1c11ee2a8df33f19ea12a2ba449b6",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 19,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 19,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5674/elunes-grace",
+          "pageSHA256": "ab93443495c3ca29506a83d5f2d54cdbc416fdbcbd1608cfc29994c4d718deca"
+        }
+      }
+    },
+    "5675": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "b7c9f179af08934fd7d2d7019c78c3a3c16dc704af0798e8d5abbe6a79b96b1f",
+        "rawDeepLSHA256": "405c099ba3bf416cc35945f05f91d5259cda95a0a42ac7f55cd43237814460e0",
+        "editedSHA256": "54fccbfe205312526559ea50c01d21c980fc066cabf411fa55053c9805dd887b",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 20,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 20,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5675/elunes-grace",
+          "pageSHA256": "6875f0d75099b9151d1f17996ba3ce013ab12bf318013db0c88a31c229e49a48"
+        }
+      },
+      "detail": {
+        "status": "held",
+        "englishSHA256": "6c3af882cad47cf9503a67b94612dec0c96005e5afe1d76288533e9bbdfe69bd",
+        "rawDeepLSHA256": "33cb9eeb3de5fd51c896ae015c202adbf11957e03b60a343692f54ea0e1098b0",
+        "editedSHA256": null,
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 21,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 21,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5675/elunes-grace",
+          "pageSHA256": "6875f0d75099b9151d1f17996ba3ce013ab12bf318013db0c88a31c229e49a48"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "eae7d2e68bb95e6f6813b3bc0157a4ff3f2c4511e90d9d4ff0e2fe9b4f2700ba",
+        "rawDeepLSHA256": "01a03aa11fdba39cb8cf2fe07a3685a202bfe426e6ee21bbf294a113c3ecb6be",
+        "editedSHA256": "11d7e3949183d44e7bd75bf05698cb91c20b6f9fbc34dbca41f79ef037c60955",
+        "rawRequestFile": "deepl-request-03.json",
+        "rawResponseFile": "deepl-response-03.json",
+        "rawOutputIndex": 22,
+        "batchInput": "deepl-request-03.json",
+        "batchResponse": "deepl-response-03.json",
+        "responseIndex": 22,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5675/elunes-grace",
+          "pageSHA256": "6875f0d75099b9151d1f17996ba3ce013ab12bf318013db0c88a31c229e49a48"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "01d900d6ccbfca1a8a2cf9939dda0e2ea2849f36c5d81f2f7338d262aefd3e3b",
+        "rawDeepLSHA256": "70b7c852e5b959e6502c31c58ded8a8bcfb7ed188735f4c67a53a8db57fca93f",
+        "editedSHA256": "bf5f24412391e6478ea9dd9245f05a12dfc1c11ee2a8df33f19ea12a2ba449b6",
+        "rawRequestFile": "deepl-request-04.json",
+        "rawResponseFile": "deepl-response-04.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-04.json",
+        "batchResponse": "deepl-response-04.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5675/elunes-grace",
+          "pageSHA256": "6875f0d75099b9151d1f17996ba3ce013ab12bf318013db0c88a31c229e49a48"
+        }
+      }
+    },
+    "5641": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "f3cb5812694fe7eff91030082a1c0a2a6bc21cd9c093e91fbe698ef234e5fe34",
+        "rawDeepLSHA256": "e1769428e2d1fd96d3d1eac0122473ee36f99cc6a140f941642b82ace194d58e",
+        "editedSHA256": "febf17437ccb3be84bbeecf175ce095bdf0a1e948213449cb9f81317ef0696c4",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5641/chastise",
+          "pageSHA256": "f0bee8ec63b871d61c16004d15654e60608232c45cb858e3e62e7fcb6371ac9a"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "5f7c2f4ffcf018a6f9506da4c63cafcbb2f1e414021499dbfb492c1029deecdd",
+        "rawDeepLSHA256": "3a9c008fe260d86d96906142c7355e888ed6b81f9f0befdc34f3e3becb924a61",
+        "editedSHA256": "669cf42d82babfd173bdae32261bcc6869aa0e4349cfe473afcc51026d044ec9",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 1,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 1,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5641/chastise",
+          "pageSHA256": "f0bee8ec63b871d61c16004d15654e60608232c45cb858e3e62e7fcb6371ac9a"
+        }
+      }
+    },
+    "5645": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "f3cb5812694fe7eff91030082a1c0a2a6bc21cd9c093e91fbe698ef234e5fe34",
+        "rawDeepLSHA256": "e1769428e2d1fd96d3d1eac0122473ee36f99cc6a140f941642b82ace194d58e",
+        "editedSHA256": "febf17437ccb3be84bbeecf175ce095bdf0a1e948213449cb9f81317ef0696c4",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 2,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 2,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5645/chastise",
+          "pageSHA256": "fdd87f6f1f44d54b3ff56f8af23e437ebb9cd083e9376fa6c2d9bb2e6210e76c"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "9fa4f35862cd14aad6f94b8d43d38a14c3327299f70e068e21f6728e5089956a",
+        "rawDeepLSHA256": "d693e7ef1389a37d5f01a781218d96e6a7176247546fb8d967eddc52c233d415",
+        "editedSHA256": "ce42a4f241f1ad59311672ed10a0bee5ac393a13eced0fa0120602920657b015",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 3,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 3,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5645/chastise",
+          "pageSHA256": "fdd87f6f1f44d54b3ff56f8af23e437ebb9cd083e9376fa6c2d9bb2e6210e76c"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "356d56876f9dc3449fb2ae56552d240b9a89dc45301f1e972dfd3373e7404dc2",
+        "rawDeepLSHA256": "4da25bbc20b2f788704a65e298aebaddb101ecf7f5c4de2b8414c8e72f1a8f29",
+        "editedSHA256": "effa0621b4079d680ad21589d6e5c928bf295822dc39c037771879184aceb534",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 4,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 4,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5645/chastise",
+          "pageSHA256": "fdd87f6f1f44d54b3ff56f8af23e437ebb9cd083e9376fa6c2d9bb2e6210e76c"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "3ff37a0b644319613bc36e11eb296e9c64d9de0e127f784d37887ec5714e4fd4",
+        "rawDeepLSHA256": "810d0d5ca33ab3cd284280f57c5cdf68e7f5cd33fe48b57e03094f8becd31ce4",
+        "editedSHA256": "0fcebb2481a9ff4a3ebfb8b7ea1f3c2494f693f91140e0cdaad6e8471a642841",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 5,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 5,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5645/chastise",
+          "pageSHA256": "fdd87f6f1f44d54b3ff56f8af23e437ebb9cd083e9376fa6c2d9bb2e6210e76c"
+        }
+      }
+    },
+    "5647": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "f3cb5812694fe7eff91030082a1c0a2a6bc21cd9c093e91fbe698ef234e5fe34",
+        "rawDeepLSHA256": "e1769428e2d1fd96d3d1eac0122473ee36f99cc6a140f941642b82ace194d58e",
+        "editedSHA256": "febf17437ccb3be84bbeecf175ce095bdf0a1e948213449cb9f81317ef0696c4",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 6,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 6,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5647/chastise",
+          "pageSHA256": "684e7776e85c5cf8c881b48002784489fceb1dddf8182c2f59d7ade203886e6f"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "9aa0301a3cf21343b66228b7911d102a9f78bb7478f428566abf26cda254d71a",
+        "rawDeepLSHA256": "6130723647fd385719b8a20f48d6aa2d1fbe27dd42c9993d730594de6469cbfa",
+        "editedSHA256": "401ca685b8a2714c341d6b1b3bf202499c459f065cbeb404db7fd065e793a3a0",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 7,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 7,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5647/chastise",
+          "pageSHA256": "684e7776e85c5cf8c881b48002784489fceb1dddf8182c2f59d7ade203886e6f"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "356d56876f9dc3449fb2ae56552d240b9a89dc45301f1e972dfd3373e7404dc2",
+        "rawDeepLSHA256": "b156efba1f19f9d1956ac55757818f856b199d0b8ed38072837bfcd6da4d8458",
+        "editedSHA256": "effa0621b4079d680ad21589d6e5c928bf295822dc39c037771879184aceb534",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 8,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 8,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5647/chastise",
+          "pageSHA256": "684e7776e85c5cf8c881b48002784489fceb1dddf8182c2f59d7ade203886e6f"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "3ff37a0b644319613bc36e11eb296e9c64d9de0e127f784d37887ec5714e4fd4",
+        "rawDeepLSHA256": "810d0d5ca33ab3cd284280f57c5cdf68e7f5cd33fe48b57e03094f8becd31ce4",
+        "editedSHA256": "0fcebb2481a9ff4a3ebfb8b7ea1f3c2494f693f91140e0cdaad6e8471a642841",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 9,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 9,
+        "source": {
+          "reference": "wowhead-alias",
+          "url": "https://www.wowhead.com/forever/quest%3D5647/chastise",
+          "pageSHA256": "684e7776e85c5cf8c881b48002784489fceb1dddf8182c2f59d7ade203886e6f"
+        }
+      }
+    },
+    "5676": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "468909b7c87bea8e5eaf0347ccc1b0eea7b23abd73a902f9291b2c1fae1d3c1d",
+        "rawDeepLSHA256": "7e6659275c76142ca5aeb52652513a32441d5d41b801bf0c385ef3a40468259c",
+        "editedSHA256": "64ebc77c770812eb3fe6abf45a561087af4d3b7440c5bf0f223764c0f39d56ba",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 10,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 10,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5676/arcane-feedback",
+          "pageSHA256": "449698e70498ebdedb4ac678f3a2fe23640ca5dd5d494961fb35f6799a7b3bbd"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "4e9d401ffe0f093815fa26db0923ed90a19d3a784069cefcaf36eb9f885af5f0",
+        "rawDeepLSHA256": "1f6595e8d645678f71f670d116fb646b236d075c5139866dd9df6bf9c6918082",
+        "editedSHA256": "576bcd869214e96e99ae48e06f7ecd4825bd33720992cbcf3bf1f14530c803d6",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 11,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 11,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5676/arcane-feedback",
+          "pageSHA256": "449698e70498ebdedb4ac678f3a2fe23640ca5dd5d494961fb35f6799a7b3bbd"
+        }
+      }
+    },
+    "5677": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "468909b7c87bea8e5eaf0347ccc1b0eea7b23abd73a902f9291b2c1fae1d3c1d",
+        "rawDeepLSHA256": "7e6659275c76142ca5aeb52652513a32441d5d41b801bf0c385ef3a40468259c",
+        "editedSHA256": "64ebc77c770812eb3fe6abf45a561087af4d3b7440c5bf0f223764c0f39d56ba",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 12,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 12,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5677/arcane-feedback",
+          "pageSHA256": "ee1179a399119e7dd07a24deaeb91d653420ac4cf97542c7c9c1bfe96536038e"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "169744fe5e36c8bfa601ef3d4cdbc19d282e42ca7219f6ed0e2ba75e45b59b7c",
+        "rawDeepLSHA256": "17b9283df27bfc9333cda4d44c071cda49b55ffd523e40f520d8a6acfdea6cbf",
+        "editedSHA256": "6a75b72e8d5602edfe600eb22747def223360b9cda10fdbf44d747973046d997",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 13,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 13,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5677/arcane-feedback",
+          "pageSHA256": "ee1179a399119e7dd07a24deaeb91d653420ac4cf97542c7c9c1bfe96536038e"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "3b2254068c5a9e8c02496a49f2210e5dae1010bb8ce7e5c7d9d3a9779e34ef5b",
+        "rawDeepLSHA256": "bc7e61e23e4a3fe2ea0eec0602881def5494797a9d1c4f510f8920f258ad500c",
+        "editedSHA256": "792659be885efea6c2963a1f40a47c5fe57cbc030f6bff5c5886f86ce8ee287c",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 14,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 14,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5677/arcane-feedback",
+          "pageSHA256": "ee1179a399119e7dd07a24deaeb91d653420ac4cf97542c7c9c1bfe96536038e"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "a4b7c3e32325122912aa52dda2e1f5c1879fc10a0909f00dac42b9320d0f60ce",
+        "rawDeepLSHA256": "ba71024b5bd6b9f7f577bb9d3996ff2f9058fb9dcbf5e8bb6a4b4449e817d295",
+        "editedSHA256": "3521fa9a0816448962e7221a5e00144cf007920f70450479e2a4ba53015dc665",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 15,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 15,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5677/arcane-feedback",
+          "pageSHA256": "ee1179a399119e7dd07a24deaeb91d653420ac4cf97542c7c9c1bfe96536038e"
+        }
+      }
+    },
+    "5678": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "468909b7c87bea8e5eaf0347ccc1b0eea7b23abd73a902f9291b2c1fae1d3c1d",
+        "rawDeepLSHA256": "7e6659275c76142ca5aeb52652513a32441d5d41b801bf0c385ef3a40468259c",
+        "editedSHA256": "64ebc77c770812eb3fe6abf45a561087af4d3b7440c5bf0f223764c0f39d56ba",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 16,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 16,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5678/arcane-feedback",
+          "pageSHA256": "fd7807a0a9132afc95a597ea6330d59ae78a1bf6e6d75799243394a112cc7db5"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "adf6677251a031c2764df90b6a12f4d992805547bf45048b88f3450beac94a81",
+        "rawDeepLSHA256": "0be4283ecaa9e059d2e701fecb542256c454670870f81f515bb7d6f515c917bb",
+        "editedSHA256": "7d33d8e094eaf92eb9338f44c2eff51ea476f0e9dbb9453235de160ed7c2b382",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 17,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 17,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5678/arcane-feedback",
+          "pageSHA256": "fd7807a0a9132afc95a597ea6330d59ae78a1bf6e6d75799243394a112cc7db5"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "3b2254068c5a9e8c02496a49f2210e5dae1010bb8ce7e5c7d9d3a9779e34ef5b",
+        "rawDeepLSHA256": "bc7e61e23e4a3fe2ea0eec0602881def5494797a9d1c4f510f8920f258ad500c",
+        "editedSHA256": "792659be885efea6c2963a1f40a47c5fe57cbc030f6bff5c5886f86ce8ee287c",
+        "rawRequestFile": "deepl-request-05.json",
+        "rawResponseFile": "deepl-response-05.json",
+        "rawOutputIndex": 18,
+        "batchInput": "deepl-request-05.json",
+        "batchResponse": "deepl-response-05.json",
+        "responseIndex": 18,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5678/arcane-feedback",
+          "pageSHA256": "fd7807a0a9132afc95a597ea6330d59ae78a1bf6e6d75799243394a112cc7db5"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "a4b7c3e32325122912aa52dda2e1f5c1879fc10a0909f00dac42b9320d0f60ce",
+        "rawDeepLSHA256": "d8d67e574f0dab44568f36542dcb26be8f3f98667accce1925151332795f5dba",
+        "editedSHA256": "3521fa9a0816448962e7221a5e00144cf007920f70450479e2a4ba53015dc665",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 0,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 0,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D5678/arcane-feedback",
+          "pageSHA256": "fd7807a0a9132afc95a597ea6330d59ae78a1bf6e6d75799243394a112cc7db5"
+        }
+      }
+    },
+    "94818": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+        "rawDeepLSHA256": "91e60d8f507d284f769987ae955d13947ce7a4f6e6aea291847a26a17947c781",
+        "editedSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 1,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 1,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94818/contingency-plan",
+          "pageSHA256": "2c6fbfb33dc5f1a0182ba04b5b8f6d87847fba6a72cdabe8f792890b93140b8b"
+        }
+      },
+      "detail": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "objective": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "17b6206de8d6fa9bf41f429f2c45317a7369953b5ad2bd133e234d2ccdcf8560",
+        "rawDeepLSHA256": "0a562596b252912e10b39125b3ce105936f71ccf97ca06996be4634e25e10d22",
+        "editedSHA256": "20fbdc6cbb19598fd91a6de93e0c2ebac0859d16f78bea1c6f6fc0c8a7757bf8",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 2,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 2,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94818/contingency-plan",
+          "pageSHA256": "2c6fbfb33dc5f1a0182ba04b5b8f6d87847fba6a72cdabe8f792890b93140b8b"
+        }
+      }
+    },
+    "94819": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+        "rawDeepLSHA256": "91e60d8f507d284f769987ae955d13947ce7a4f6e6aea291847a26a17947c781",
+        "editedSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 3,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 3,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94819/contingency-plan",
+          "pageSHA256": "d376a2d04927bda47bab6e28e8f0bdf6869ca171d886297f5e7221f2884c5bf3"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "f019c2500e72a010a76d875d260404abf2ed4a05f27b7965a44ec0d03a7b6ae7",
+        "rawDeepLSHA256": "7d0ff63138812860693ed0615870c17f097ad22a51121480a8bff56286ceb89d",
+        "editedSHA256": "a5e3d37765c8c7cd1ac29ae743e42fbcb24b944225afc28c914606d3518e252b",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 4,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 4,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94819/contingency-plan",
+          "pageSHA256": "d376a2d04927bda47bab6e28e8f0bdf6869ca171d886297f5e7221f2884c5bf3"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "6662e2cae72bf3f46ba84a0cadeb5934f283df038e28f17d21bc665e0f05bfb5",
+        "rawDeepLSHA256": "68624347bbff7cb44a4f06eac38667b0dc3bb147ee8701a0c1b9d4ec5d58f45f",
+        "editedSHA256": "05af45838520a5302255acf1a5523ec915513af61d4c512bdcbe40a9e5ab7924",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 5,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 5,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94819/contingency-plan",
+          "pageSHA256": "d376a2d04927bda47bab6e28e8f0bdf6869ca171d886297f5e7221f2884c5bf3"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "source-reviewed",
+        "englishSHA256": "17b6206de8d6fa9bf41f429f2c45317a7369953b5ad2bd133e234d2ccdcf8560",
+        "rawDeepLSHA256": "0a562596b252912e10b39125b3ce105936f71ccf97ca06996be4634e25e10d22",
+        "editedSHA256": "20fbdc6cbb19598fd91a6de93e0c2ebac0859d16f78bea1c6f6fc0c8a7757bf8",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 6,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 6,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94819/contingency-plan",
+          "pageSHA256": "d376a2d04927bda47bab6e28e8f0bdf6869ca171d886297f5e7221f2884c5bf3"
+        }
+      }
+    },
+    "94820": {
+      "title": {
+        "status": "source-reviewed",
+        "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+        "rawDeepLSHA256": "91e60d8f507d284f769987ae955d13947ce7a4f6e6aea291847a26a17947c781",
+        "editedSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 7,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 7,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94820/contingency-plan",
+          "pageSHA256": "a35be52932e29302e3a86fa30c10a0691faba3df4beb3660c33470c62d19364a"
+        }
+      },
+      "detail": {
+        "status": "source-reviewed",
+        "englishSHA256": "a0e890d3a9e130e7802a694ccc1f63badf7c27fe054a6731f74b5da076df7bba",
+        "rawDeepLSHA256": "062936e835ebb3fee436d7c56dd8c547c4d0d7ea11ec0fa0ee7669f3cedcba20",
+        "editedSHA256": "3477ad308a560c2b1893665bdcc6e6f52d5a62b949ee31b1e10994c25a4766a8",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 8,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 8,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94820/contingency-plan",
+          "pageSHA256": "a35be52932e29302e3a86fa30c10a0691faba3df4beb3660c33470c62d19364a"
+        }
+      },
+      "objective": {
+        "status": "source-reviewed",
+        "englishSHA256": "6662e2cae72bf3f46ba84a0cadeb5934f283df038e28f17d21bc665e0f05bfb5",
+        "rawDeepLSHA256": "68624347bbff7cb44a4f06eac38667b0dc3bb147ee8701a0c1b9d4ec5d58f45f",
+        "editedSHA256": "05af45838520a5302255acf1a5523ec915513af61d4c512bdcbe40a9e5ab7924",
+        "rawRequestFile": "deepl-request-06.json",
+        "rawResponseFile": "deepl-response-06.json",
+        "rawOutputIndex": 9,
+        "batchInput": "deepl-request-06.json",
+        "batchResponse": "deepl-response-06.json",
+        "responseIndex": 9,
+        "source": {
+          "reference": "wowhead",
+          "url": "https://www.wowhead.com/forever/quest%3D94820/contingency-plan",
+          "pageSHA256": "a35be52932e29302e3a86fa30c10a0691faba3df4beb3660c33470c62d19364a"
+        }
+      },
+      "progress": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      },
+      "complete": {
+        "status": "unavailable",
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "rawRequestFile": null,
+        "rawResponseFile": null,
+        "rawOutputIndex": null,
+        "batchInput": null,
+        "batchResponse": null,
+        "responseIndex": null,
+        "source": null
+      }
+    }
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

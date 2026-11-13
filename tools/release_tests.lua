@@ -330,3 +330,66 @@ if A.quests[5621] then
   assert(A.quests[1025].progress,'Source-supported Aggressive Defense Progress fallback missing')
   print('PASS:28 Priest/Ashenvale/Stonetalon objective identity contracts, distinct injured targets, heal/buff spell identities, completion-only lessons and reviewed secondary-state fallbacks.')
 end
+
+if A.quests[94449] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({5634,5635,5636,5637,5638,5639,5640,94773,94774,94775,94776,94777,94778,94779,94817,94821,94822,94823,94824,94825,94826,5658,5660,5661,5662,5663,5644,5646,5679,5642,5643,5680,5672,5673,5674,5675,5641,5645,5647,5676,5677,5678,94818,94819,94820,94449,94465,94466,94467,94468}) do
+    assert(A.quests[id],'14 November morning quest missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning dialogue routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost quest ID/title')
+    end
+  end
+  for _,h in ipairs({{5634,"detail"},{5635,"detail"},{5636,"detail"},{5637,"detail"},{5638,"detail"},{94822,"complete"},{5674,"detail"},{5675,"detail"},{5679,"complete"},{94466,"complete"}}) do
+    assert(not A.quests[h[1]][h[2]],'Unresolved source branch was enabled')
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Source hold lost original-language fallback/capture')
+  end
+  for _,id in ipairs({5641,5645,5647}) do
+    assert(A.quests[id].en=='Chastise' and A.quests[id].enAliases,'Exact Dwarf title alias missing')
+    questID=id;titleOverride='A Lack of Fear';fire('QUEST_COMPLETE');flush()
+    assert(A.window:IsShown(),'Documented installed Dwarf title was rejected')
+    titleOverride='A Lack of Fear unrelated';fire('QUEST_COMPLETE');flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[id].states.complete.translationFallback=='title_mismatch','Fuzzy Dwarf title bypassed source identity guard')
+  end
+  for _,id in ipairs({5644,5646,5679}) do
+    assert(A.quests[id].en=='Dark Sacrifice' and not A.quests[id].enAliases,'Obsolete Devouring Plague label became a runtime alias')
+  end
+  for _,id in ipairs({5644,5646}) do
+    questID=id;titleOverride='Devouring Plague';fire('QUEST_DETAIL');flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[id].states.detail.translationFallback=='title_mismatch','Obsolete spell title bypassed current identity guard')
+  end
+  titleOverride=nil;questID=0;fire('QUEST_FINISHED')
+  print('PASS: morning50 across150 dialogue states, source-hold fallback/capture and three exact Dwarf title aliases with wrong-title rejection.')
+end
+
+if A.quests[94449] then
+  local expected={
+    [94449]={'Bruegs Kindleborn','Dun Morogh'},
+    [94465]={'Torch of the Dormant Flame','Braldir Ashmantle','Loch Modan'},
+    [94466]={'Fire Tar','Reagent Pouch','Braldir Ashmantle','Loch Modan'},
+    [94467]={'Minor Manifestation of Fire','Glowing Ember','Shrine of Eternal Flame'},
+    [94468]={'Torch of Eternal Flame','Bruegs Kindleborn','Dun Morogh'},
+    [5658]={},[5660]={'Aelthalyste','Undercity'},[5661]={'Aelthalyste','Undercity'},
+    [5662]={'Aelthalyste','Undercity'},[5663]={'Aelthalyste','Undercity'},
+    [5644]={'Aelthalyste','Undercity'},[5646]={'Aelthalyste','Undercity'},
+    [5645]={'High Priest Rohan','Ironforge'},[5647]={'High Priest Rohan','Ironforge'}}
+  for id,terms in pairs(expected) do
+    if #terms>0 then
+      assert(A.quests[id].objective,'Supported class route objective missing: '..id)
+      for _,term in ipairs(terms) do assert(A.quests[id].objective:lower():find(term:lower(),1,true),'Recipient, reagent or Fire step mixed: '..id..'/'..term) end
+    end
+  end
+  for _,id in ipairs({5658,5679,5680,5672,5676,5641}) do
+    assert(not A.quests[id].detail and not A.quests[id].objective,'Completion-only Priest record invented a referral: '..id)
+  end
+  assert(A.quests[5639].detail,'Source-supported Laurena referral fallback missing')
+  assert(not A.quests[5679].complete,'Conflicting learned-spell identity enabled')
+  assert(not A.quests[94466].complete,'Unresolved Fire gender variant enabled')
+  assert(not A.quests[94822].complete,'Suspicious literal-player-name completion enabled')
+  for _,id in ipairs({5634,5635,5636,5637,5638,5640}) do assert(not A.quests[id].objective,'Conflicting Rohan/Laurena route enabled') end
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS: distinct five-step Fire recipient/reagent/elemental/return contracts, Priest referral identities, completion-only boundaries and unresolved trainer/spell/name branches.')
+end

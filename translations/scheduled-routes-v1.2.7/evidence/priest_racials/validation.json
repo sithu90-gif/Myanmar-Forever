@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "checkedUTC": "2026-11-13T20:56:08.586922+00:00",
+  "questCount": 24,
+  "availableEnglishFieldCount": 81,
+  "rawDeepLFieldCount": 81,
+  "enabledFieldCount": 78,
+  "fieldCounts": {
+    "title": 24,
+    "detail": 15,
+    "objective": 17,
+    "progress": 0,
+    "complete": 22
+  },
+  "heldFieldCount": 3,
+  "unavailableFieldCount": 39,
+  "linguisticLintIssues": [],
+  "validateFields": "passed for all24 quest IDs and all5 states",
+  "exactCurrentPrimaryParserComparison": "passed for all24 downloaded current English pages including3 byte-identical recovered alias copies",
+  "rawInputEnglishIdentityAndHashes": "passed81/81, including3 held proposals",
+  "rawBatchCharacterLimit": "all6 requests below5000",
+  "placeholderCaseAndMultiplicity": "passed enabled fields",
+  "numericMultisets": "passed enabled fields",
+  "sourceReviewAndSeparateAuthorEnglishMyanmarReread": "complete in3 connected groups8/7/9; final reread clarified5672 not-all state,5643 qualified future importance,94819 clever friend",
+  "independentAssistedReview": "not performed; root assigns independent review",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "enabledFieldsWithKnownUnresolvedSourceErrors": 0,
+  "remainingItems": [
+    {
+      "id": 5674,
+      "field": "detail",
+      "reason": "Current English contains unsupported gender branch <priests/priestesses>; preserve raw source and DeepL, wait for supported runtime branch or sanitized live evidence."
+    },
+    {
+      "id": 5675,
+      "field": "detail",
+      "reason": "Current English contains unsupported gender branch <lad/lass>; preserve raw source and DeepL rather than erasing gender alternative."
+    },
+    {
+      "id": 5679,
+      "field": "complete",
+      "reason": "Current completion teaches Devouring Plague, but actual Rewards/You will learn markup teaches Dark Sacrifice spell1277324. Hold conflicting gameplay identity pending sanitized current live capture."
+    },
+    {
+      "id": 94820,
+      "field": "complete",
+      "reason": "Unavailable current English completion"
+    }
+  ],
+  "artifactHashes": {
+    "edited.json": "770baa8cffe14ee5f5cb683172b778dd75939c326415ee12997dff8ae5de84e8",
+    "english-sources.json": "862639dd5cbbcbb442bab57494f701c9f616afb8eac50e7d7bd21e83ae78f46b",
+    "review-audit.json": "eab42721abaf71f5345e81971ca93ef869ccee9b38490563716a2cf70fef668e",
+    "pronunciations.json": "3bb208f549339241ef66dbd5bb344c1f0f6ebe2aa1cccc8265ad96c748d837ea",
+    "annotation-exceptions.json": "dd8bcd3f117382e2f53dd928c25aa98ab5529c7ccd4abdd0be190f7a3ae11bca",
+    "held-fields.json": "700e6d60b97beba5d49908e292f94d0fb098626345a0e18b92fb49b3c03d053c",
+    "comparison-provenance.json": "72228be8986e0c8e51a9019dd8a96e5a96ae8342f3164b1e772b58f9dac85591",
+    "review-groups.json": "731a4a82e05d5dcb76c50c8863f5c5263fc79ef1bc0786510b89b3125ebdca8c"
+  },
+  "publicEvidenceSanitization": "Absolute local home paths in review-groups artifactPaths replaced with same-directory filenames; translation/source/raw response bytes unchanged. Original checkpoint retained privately in project."
+}

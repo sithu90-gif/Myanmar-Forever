@@ -1,0 +1,216 @@
+{
+  "quests": [
+    {
+      "id": 5634,
+      "reviewNotes": [
+        "Read title, completion and the two held primary English fields against the actual HTML. Installed dwarf/class-priest level-10 self-completion is NPC376 to376 with no objective; the current Rohan/Ironforge referral disagrees with that structure and UA's Laurena/Stormwind branch. Retain both holds rather than reconstructing a referral.",
+        "Desperate Prayer remains the identifying spell title. The enabled completion preserves service to Light, the shining example for travelers in these lands and beyond, and the lesson offered in thanks; no player token was invented."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5635,
+      "reviewNotes": [
+        "Read the title and conditional two-paragraph completion, plus held offer/objective. NPC377-to376 and installed Laurena/Stormwind objective match UA, while primary English names Rohan/Ironforge/Hall of Mysteries; both existing referral holds are warranted.",
+        "Completion preserves <name>, the distinction 'more importantly', all servants' lessons, readiness condition and beginning some lessons now. The readiness-subject issue in the English offer is not enabled here."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5636,
+      "reviewNotes": [
+        "Read all four sourced fields and three null states/dispositions. Installed dwarf alternative3600-to376 identifies Laurena, conflicting with the primary Rohan/Hall of Mysteries referral and Rohan/Ironforge objective; retain both holds and the Elune/race evidence.",
+        "Enabled spell title and completion preserve the Light identity, two paragraphs, <name>, the comparative importance and readiness condition; no neighboring offer is substituted."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5637,
+      "reviewNotes": [
+        "The actual primary HTML says Stormwind/Rohan/Hall of Mysteries in detail and Ironforge/Rohan in objective. Installed1226-to376 and UA identify Laurena/Cathedral/Stormwind. Both existing holds correctly preserve this internal and external branch conflict.",
+        "Read the enabled spell title and completion; <name>, 'more importantly', all servants and conditional start of some lessons remain intact. The held casual uncertain voice is retained only as evidence."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5638,
+      "reviewNotes": [
+        "Read title/completion and the two held primary fields. Installed11397-to376 and UA identify Laurena/Cathedral, whereas the primary offer uses Hall of Mysteries and its objective uses Rohan/Ironforge; retain both holds.",
+        "This ID uniquely says 'most importantly' in primary completion. Myanmar correctly uses အရေးအကြီးဆုံး rather than the neighboring comparative phrase, retains <name>, Light and the readiness condition."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5639,
+      "reviewNotes": [
+        "Inspected the original primary HTML: it has no Description or objective and does have the generic completion. Inspected the secondary article: Description explicitly names Stormwind, Laurena and Cathedral of Light, while Objectives explicitly says no objectives recorded. Its11406-to376 endpoint and UA agree with the documented secondary offer fallback.",
+        "Read all three enabled fields. The fallback retains both exact lowercase <name> tokens, city-center location, regards and proof of worthiness. Objective/progress remain null; no English objective is invented from installed metadata or UA. Completion is independently supported by primary English."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5640,
+      "reviewNotes": [
+        "Read the generic Elune/Light and Darnassus offer. It contains no conflicting named trainer, so enabling this field separately from its held Rohan-in-Stormwind objective is justified. Installed11401-to376 and UA disagree with that named objective; retain its hold.",
+        "Myanmar preserves the order comparison, uncertain 'if knowledge serves me', timing after Darnassus business and advice to the player. English High Priests is kept plural rather than silently changed to UA's priestess. Title/completion and all absent states were also checked."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94773,
+      "reviewNotes": [
+        "Actual primary HTML and installed376-to376 human priest metadata identify a completion-only level-10 lesson; UA agrees. Detail/objective/progress correctly remain null, with no referral copied from same-title alternatives.",
+        "Read both enabled fields: Divine Grace is retained as the exact identifying reward-spell title; completion preserves service, shining example, dangerous lands and beyond, and thanks for all the player's work."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94774,
+      "reviewNotes": [
+        "Read all four enabled fields against primary HTML, installed377-to376 human-priest metadata and UA. The primary alone supports the available states despite the secondary request timeout. Stormwind/Cathedral/Laurena and the objective are consistent.",
+        "One detail correction is requested for the readiness clause: the current Myanmar explicitly assigns readiness to the supervisors. Preserve the source's assessment that the player has proved themself and is prepared to advance training. Completion independently retains <name>, comparative importance and conditional start."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "217a8a5834857dab3e99aaea7016cf8f2fb4f338a363c1ef6e22c059da2f49ba",
+          "reviewedMyanmarSHA256": "7176045760e4f8df643d030c19ff41a2caab83b97f9c92a7667bf7144d684a5d",
+          "old": "ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်သည်ဟု သူတို့ယူဆပြီး သင်၏လေ့ကျင့်မှုကို ဆက်လက်မြှင့်တင်ပေးရန် အသင့်ရှိနေကြသည်။",
+          "new": "ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်ကာ လေ့ကျင့်မှုကို ဆက်လက်ခံယူရန် အသင့်ဖြစ်နေပြီဟု သူတို့ယူဆနေကြသည်။",
+          "proposedFullField": "သင်သည် ကျွန်ုပ်တို့၏ အထက်အကြီးအကဲများ၏ အာရုံကို ဆွဲဆောင်နိုင်ခဲ့ပြီ၊ <name>။ သူတို့က သင့်အား Stormwind (စတော်မ်ဝင်းဒ်) ရှိ Cathedral of Light (ကသီဒရယ်လ် အော့ဖ် လိုက်တ်) သို့ အမြန်ဆုံး ခရီးထွက်ရန် တောင်းဆိုထားသည်။ ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်ကာ လေ့ကျင့်မှုကို ဆက်လက်ခံယူရန် အသင့်ဖြစ်နေပြီဟု သူတို့ယူဆနေကြသည်။ ထိုနေရာသို့ ရောက်လျှင် High Priestess Laurena (ဟိုင်း ပရီးစ်တက်စ် လော်ရီနာ) ကို ရှာပါ။ သူမက သင့်အား ဆက်လက်လမ်းညွှန်ပေးနိုင်မည်။ ကံကောင်းပါစေ၊ Light (လိုက်တ်) သင်နှင့်အတူ ရှိပါစေ။",
+          "reason": "The clause 'they feel you've proven yourself already and are prepared to further your training' assesses the player's demonstrated ability and readiness for further training; pinned UA also retains the player as the ready person. Current Myanmar explicitly makes the superiors ready to provide training (သူတို့...အသင့်ရှိနေကြသည်), changing the assessed subject. Keep the apparent/reported assessment and assign both proof and readiness to the player."
+        }
+      ]
+    },
+    {
+      "id": 94775,
+      "reviewNotes": [
+        "Read all four enabled fields. Installed3600-to376 and UA agree on human-priest Laurena/Stormwind/Cathedral. Offer preserves Elune, <race>, the player's Light, recent messenger, urgency and need of the player's people without importing another branch.",
+        "Objective retains full trainer/place identity. Completion keeps <name>, Light, all servants, readiness and some lessons now. The identifying Divine Grace title remains consistent across this group."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94776,
+      "reviewNotes": [
+        "Read the three enabled fields against actual primary HTML. Installed1226-to376/UA and current English agree on Laurena/Cathedral/Stormwind. Myanmar preserves the informal speaker, genuinely uncertain good-or-bad explanation, optimistic guess and prompt departure advice.",
+        "Both English references and UA lack completion; null is correct, with no neighboring training dialogue copied. Objective and spell title retain their independent first-use annotations and <name> remains exact in detail."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94777,
+      "reviewNotes": [
+        "Read the three enabled fields. Installed11397-to376/UA/current English agree on Cathedral/Laurena/Stormwind. Offer retains the conditional report if the speaker sees the player, importance, reassurance, positive demeanor and ellipsis, urgency, both <race> tokens and Elune blessing.",
+        "Actual primary has no Completion or Progress heading; both remain null. Title and objective are correctly specific to Divine Grace and Laurena rather than a neighboring priest racial lesson."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94778,
+      "reviewNotes": [
+        "Read the three enabled fields. Installed metadata lacks giver/ender but its explicit objective, English and UA agree on Laurena/Stormwind. Offer retains next training level, city-center Cathedral, regards, calling and both exact <name> tokens.",
+        "Actual English references and UA have no completion; do not reconstruct it from adjacent same-title steps. Divine Grace title and objective have independent full identity annotations; progress remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94779,
+      "reviewNotes": [
+        "Read all four enabled fields. English explicitly says one of the player's High Priestesses, plural; Myanmar keeps this rather than replacing it with the singular form from the gnome route. Darnassus completion condition and player-directed advice preserve the speaker/addressee.",
+        "Installed human-priest objective and UA agree on Laurena/Stormwind. Elune/Light, uncertain knowledge clause, two orders, <name> and the separately sourced conditional completion are retained; progress is unavailable."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94817,
+      "reviewNotes": [
+        "Actual primary HTML exposes title and completion only, matching installed258785-to258785 gnome-priest self-completion and UA. Detail/objective/progress remain null.",
+        "Read both enabled fields. Confounding Flash is the identifying spell title; completion preserves the mild lateness rebuke, dedicated service to Light as excuse, close-attention request and exact <name>, without adding an offer or advice."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94821,
+      "reviewNotes": [
+        "Read all four enabled fields. Installed376-to258785, current English and UA agree on Mims/Hall of Mysteries/Ironforge. Detail retains young <race>, the recent visitor and his mission, return urgency, trainer explanation and Light/<name> blessing.",
+        "Objective independently annotates full High Priestess Mims and Ironforge. Completion's lowercase <name> is source-supported and preserves the trainer's mild rebuke and excuse; no Progress heading exists."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94822,
+      "reviewNotes": [
+        "Read title/detail/objective and the held primary completion. Installed377-to258785 and UA agree on Mims/Hall of Mysteries/Ironforge. One detail correction is requested: supervisor readiness in current Myanmar should preserve the player's readiness assessment in the source training clause.",
+        "Actual primary completion literally says Cub, while same-trainer primary completions94817/94821/94824 and UA use player-name identity. Its existing hold is warranted; no token or literal player identity should be invented. The raw English and DeepL proposal remain evidence."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "9be26843cfddbe40f24abc13031fa703473cfbf81b4ced96022becbf8ea3f348",
+          "reviewedMyanmarSHA256": "de728bd0718cdfcfef9a4f30eb59d3664d43d0f7faff55f1d9458e2983a14894",
+          "old": "ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်သည်ဟု သူတို့ယူဆပြီး သင်၏လေ့ကျင့်မှုကို ဆက်လက်မြှင့်တင်ပေးရန် အသင့်ရှိနေကြသည်။",
+          "new": "ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်ကာ လေ့ကျင့်မှုကို ဆက်လက်ခံယူရန် အသင့်ဖြစ်နေပြီဟု သူတို့ယူဆနေကြသည်။",
+          "proposedFullField": "သင်သည် ကျွန်ုပ်တို့၏ အထက်အကြီးအကဲများ၏ အာရုံကို ဆွဲဆောင်နိုင်ခဲ့ပြီ၊ <name>။ သူတို့က သင့်အား Ironforge (အိုင်ယန်ဖော့ဂျ်) ရှိ Hall of Mysteries (ဟောလ် အော့ဗ် မစ်စထရီစ်) သို့ အမြန်ဆုံး ခရီးထွက်ရန် တောင်းဆိုထားသည်။ ကြည့်ရသည်မှာ သင်သည် မိမိအရည်အချင်းကို သက်သေပြပြီးဖြစ်ကာ လေ့ကျင့်မှုကို ဆက်လက်ခံယူရန် အသင့်ဖြစ်နေပြီဟု သူတို့ယူဆနေကြသည်။ ထိုနေရာသို့ ရောက်လျှင် High Priestess Mims (ဟိုင်း ပရီးစ်တက်စ် မင်မ်ဇ်) ကို ရှာပါ။ သူမက သင့်အား ဆက်လက်လမ်းညွှန်ပေးနိုင်မည်။ ကံကောင်းပါစေ၊ Light (လိုက်တ်) သင်နှင့်အတူ ရှိပါစေ။",
+          "reason": "The clause 'they feel you've proven yourself already and are prepared to further your training' assesses the player's demonstrated ability and readiness for further training; pinned UA also retains the player as the ready person. Current Myanmar explicitly makes the superiors ready to provide training (သူတို့...အသင့်ရှိနေကြသည်), changing the assessed subject. Keep the apparent/reported assessment and assign both proof and readiness to the player."
+        }
+      ]
+    },
+    {
+      "id": 94823,
+      "reviewNotes": [
+        "Read the three enabled fields against primary HTML and metadata: endNPC258785, objective Mims/Ironforge, Hall of Mysteries offer. Elune/<race>, the player's Light, messenger, urgency and need of the player's people are preserved.",
+        "Actual English has no completion even though UA contains one. The null is appropriate and no UA backtranslation is enabled. Confounding Flash and full trainer/place annotations remain distinct from the Laurena group."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94824,
+      "reviewNotes": [
+        "Read all four enabled fields and compared legacy secondary/UA. The actual current primary changes Stormwind to Ironforge, matching installed1226-to258785, Mims and the objective. Myanmar correctly follows current English Ironforge rather than stale upstream travel wording.",
+        "Detail preserves 'commands you' rather than weakening it to a wish, informal voice, good-or-bad uncertainty, favorable guess and departure advice. Completion retains the supported <name>, lateness rebuke, excuse and attention request."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94825,
+      "reviewNotes": [
+        "Read the three enabled fields. Installed metadata lacks giver/ender but explicitly names Mims/Ironforge in objective; current English/UA agree on Hall of Mysteries and this branch. Detail preserves conditional messenger report, importance and reassurance, positive ellipsis, prompt travel and both <race> tokens.",
+        "Actual primary and UA have no completion; null remains correct. Spell title and objective have independent first-use identity annotations; no progress state was present."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94826,
+      "reviewNotes": [
+        "Read the three enabled fields. English says the player's High Priestess, singular, unlike94779's one-of plural and5640's High Priests. Myanmar preserves this distinction, Elune/Light, the two orders, uncertainty and advice after Darnassus business.",
+        "Installed explicit objective, current English and UA agree on Mims/Ironforge despite no recorded giver/ender. Both English and UA completion are absent; completion/progress remain null without copying another branch."
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "pronunciationMapReconciliation": [],
+  "status": "Independent assisted English/Myanmar review complete; 2 field corrections requested; existing 12 source-conflict holds retained. Root application and revalidation required.",
+  "questCount": 21,
+  "sourcedFieldCount": 73,
+  "enabledFieldsReviewed": 61,
+  "existingHoldsReviewedAndRetained": 12,
+  "requestedCorrectionCount": 2,
+  "reviewEvidence": {
+    "sourceBoundaryReview": "Read actual saved primary HTML for all21 IDs; inspected secondary5639 article and documented field-specific fallback. All primary fields independently reparse identically to English evidence, excluding that explicit fallback. No Progress heading in this partition.",
+    "upstreamVersion": "1.0.0",
+    "upstreamCommit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "upstreamPackageSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "upstreamCatalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640",
+    "upstreamCheck": "Recomputed package/catalog hashes and loaded the actual pinned catalog; all21 comparison entries equal the catalog entries. Fresh latest-release refresh is root evidence, not a new network check by this reviewer.",
+    "installedMetadataVersion": "1.0.12",
+    "installedMetadataSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "installedMetadataCheck": "Recomputed decoded metadata hash and compared every assigned record to the metadata retained in upstream comparison. Human race1, dwarf4 and gnome64 class16 branches checked.",
+    "integrityChecks": "All61 enabled fields preserve exact ordered case-sensitive placeholders and digit multisets. No source quantity, written quantity, direction or stage condition omitted in semantic reading.",
+    "pronunciations": "Retained maintained Mims/Laurena spellings and reviewed per-field full-name/rank, place, spell, Light/Elune and class annotations. Rohan occurs only in held conflicting evidence; no new phonetic reconciliation requested.",
+    "sanitizedLiveEvidence": "Reviewed the batch sanitized-local-capture audit; it covers prior252 states and supplies no current capture resolving these new trainer conflicts. It is not a live test."
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

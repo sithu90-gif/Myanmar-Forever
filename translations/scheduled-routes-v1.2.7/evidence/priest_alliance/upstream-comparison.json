@@ -1,0 +1,978 @@
+{
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "catalogSHA256Verified": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640",
+  "changesSincePreviousPinnedUA": "No changes; root fresh zero-change audit reviewed before selection",
+  "quests": {
+    "5634": {
+      "installedMetadata": {
+        "2": [
+          [
+            376
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "16": [
+          5635,
+          5636,
+          5637,
+          5638,
+          5639,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 4,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32774
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Ти {стать:потрібен:потрібна} у Штормовії, {ім'я}. Верховна жриця Лорена каже, що настав час тобі довести, що ти {стать:готовий:готова} до наступного рівня навчання. Не гай надто багато часу на пошуки шляху до Лорени. Ти знайдеш її у соборі Світла, що в центрі міста. Передай їй мої вітання та доведи, що ти {стать:гідний:гідна} такого покликання. Нехай Світло буде з тобою, {ім'я}.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Ти {стать:зробив:зробила} чудову послугу Світлу, ставши яскравим прикладом для тих, хто мандрує цими небезпечними землями та за їх межами. Будь ласка, прийми цей урок як подяку за все, що ти {стать:зробив:зробила}.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed giver and ender are376, with no objective: this is a dwarf level10 self-completion lesson. Current primary added Rohan/Ironforge referral states conflict with that structure and UA Laurena/Stormwind meaning, so detail and objective are held. Its service-thanks completion agrees with UA.",
+        "The exact reward spell is13908 Desperate Prayer; retain English and a proposed pronunciation in the identifying title."
+      ]
+    },
+    "5635": {
+      "installedMetadata": {
+        "2": [
+          [
+            377
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5636,
+          5637,
+          5638,
+          5639,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Ти {стать:привернув:привернула} увагу нашого вищого духовенства, {ім'я}. Вони просять тебе якнайшвидше прибути до собору Світла, що в Штормовії. Схоже, вони вважають, що ти вже {стать:проявив:проявила} себе і {стать:готовий:готова} продовжити своє навчання. Як прибудеш туди, знайди верховну жрицю Лорену. Вона зможе направити тебе далі. Щасти тобі та нехай Світло буде з тобою.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed human/dwarf alternative starts at377 and ends at376; its objective and UA identify Laurena in Stormwind. Current English instead names Rohan/Ironforge, so detail and objective remain held. The generic completion is supported separately."
+      ]
+    },
+    "5636": {
+      "installedMetadata": {
+        "2": [
+          [
+            3600
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5635,
+          5637,
+          5638,
+          5639,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 4,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Благослови тебе Елуна, {стать:добрий:добра} {раса:к}. Я сподіваюся твоє Світло захищає тебе.\n\nТебе нещодавно розшукував один з твоїх жерців. Він просив передати тобі, що в соборі Світла на тебе чекає верховна жриця Лорена. Схоже, що ти добре {стать:постарався:постаралася}, щоб привернути таку увагу. На твоєму місці я б не гаяла часу — ти {стать:потрібен:потрібна} своєму народові.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed dwarf alternative starts at3600 and ends at376. Current Rohan/Ironforge referral conflicts with installed Laurena and UA; detail and objective are held. Elune/race blessing remains in raw evidence. No replacement is reconstructed from UA."
+      ]
+    },
+    "5637": {
+      "installedMetadata": {
+        "2": [
+          [
+            1226
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5635,
+          5636,
+          5638,
+          5639,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Прийшов час тобі повернутися до Штормовію, {ім'я}. Верховна жрица Лорена хоче поговорити з тобоу в соборі Світла. Си стало щось дуже добре, або щось дуже погане, їкщо верховна жриця хоче бачити тебе особисто. Але я гадау, що так чи інакше се буде корисно для тебе.\n\nНе марнуй часу тут. Відправляйси туди як май швидше.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed human/dwarf alternative starts at1226 and ends at376. Current detail says Stormwind/Rohan/Hall of Mysteries, while its objective says Ironforge/Rohan. Both conflict with installed Laurena and remain held."
+      ]
+    },
+    "5638": {
+      "installedMetadata": {
+        "2": [
+          [
+            11397
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5635,
+          5636,
+          5637,
+          5639,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Зовсім нещодавно один з твоїх жерців був тут та шукав тебе, {раса:к}. Він просив передати тобі, що на тебе чекають у соборі Світла. Сказав, що це дуже важливо. На твоєму місці я б не надто хвилювалася через це. Він виглядав доброзичливо... ніби це були гарні новини. Але певно тобі варто якнайшвидше піти до собору.\n\nХай береже тебе Елуна, {раса:к}.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed human/dwarf alternative starts at11397 and ends at376. Current Hall of Mysteries offer differs from UA Cathedral of Light; current Rohan/Ironforge objective conflicts with installed Laurena. Both are held. Completion preserves the distinct most importantly wording."
+      ]
+    },
+    "5639": {
+      "installedMetadata": {
+        "2": [
+          [
+            11406
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5635,
+          5636,
+          5637,
+          5638,
+          5640
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 16,
+          "17": -262,
+          "23": 8,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Ти {стать:потрібен:потрібна} у Штормовії, {ім'я}. Верховна жриця Лорена каже, що настав час тобі довести, що ти {стать:готовий:готова} до наступного рівня навчання. Не гай надто багато часу на пошуки шляху до Лорени. Ти знайдеш її у соборі Світла, що в центрі міста. Передай їй мої вітання та доведи, що ти {стать:гідний:гідна} такого покликання. Нехай Світло буде з тобою, {ім'я}.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Primary English explicitly removed Description and Objective, leaving generic completion. Secondary60.tools detail names Laurena/Stormwind/Cathedral and agrees with installed11406-to376 and UA, supporting a documented detail fallback. Both English references have null objective; no objective is copied from another step or backtranslated from UA."
+      ]
+    },
+    "5640": {
+      "installedMetadata": {
+        "2": [
+          [
+            11401
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          5634,
+          5635,
+          5636,
+          5637,
+          5638,
+          5639
+        ],
+        "S": {
+          "1": "Desperate Prayer",
+          "4": 10,
+          "5": 10,
+          "6": 5,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Відчайдушна молитва",
+          "detail": "Хвала Елуні та твоєму Світлу, {ім'я}.\n\nНині багато членів нашого ордену вирішили зміцнити свої здібності, що відображають їх віру в Елуну. Наскільки я знаю, те ж саме відбувається і в твоєму ордені.\n\nКоли закінчиш свої справи у Дарнасі, вирушай до своєї верховної жриці для подальшого навчання.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Я рада, що ти {стать:прийшла:прийшов}, {ім'я}. Є багато речей які нам потрібно обговорити, але найважливіше — твоє навчання зі Світлом.\n\nЄ уроки, які повинні засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, ми почнемо один із цих уроків зараз.",
+          "en": "Desperate Prayer",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Installed human/dwarf Darnassus alternative starts at11401 and ends at376. The generic Elune/Darnassus/one-of-your-High-Priests detail lacks a conflicting named target and is enabled; its rank is preserved despite UA using priestess. Current Rohan-in-Stormwind objective conflicts with Laurena376 and is held."
+      ]
+    },
+    "94773": {
+      "installedMetadata": {
+        "2": [
+          [
+            376
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "16": [
+          94774,
+          94775,
+          94776,
+          94777,
+          94778,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32774
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": null,
+          "objective": null,
+          "progress": null,
+          "complete": "Ти {стать:зробив:зробила} велику послугу Світлу, ставши яскравим прикладом для тих, хто мандрує цими небезпечними землями та за їхніми межами. Прийми цей урок на знак подяки за всі твої справи.",
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest self-completion at376: primary English and UA expose only title and service-thanks completion. Offer, objective and progress remain unavailable. Identifying title is exact reward spell1277370 Divine Grace."
+      ]
+    },
+    "94774": {
+      "installedMetadata": {
+        "2": [
+          [
+            377
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94775,
+          94776,
+          94777,
+          94778,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Ви привернули увагу нашого начальства, {ім'я}. Вони попросили вас якомога швидше вирушити до Собору Світла у Штормовії. Очевидно, вони вважають, що ви вже довели свою спроможність і готові продовжити навчання. Коли ви туди потрапите, знайдіть Верховну Жрицю Лорену. Вона зможе направити вас далі. Удачі вам, і нехай Світло буде з вами.",
+          "objective": "Поговоріть з Верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Добре, що ти {стать:прийшов:прийшла}, {ім'я:к}. Нам потрібно багато чого обговорити, але найважливіше — твоє навчання шляхам Світла.\n\nЄ уроки, які мусять засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, почнімо з деяких із них.",
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest referral377-to376 matches installed objective and UA: Stormwind, Cathedral of Light, High Priestess Laurena. Secondary60.tools timed out; current primary supplies every enabled field."
+      ]
+    },
+    "94775": {
+      "installedMetadata": {
+        "2": [
+          [
+            3600
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94774,
+          94776,
+          94777,
+          94778,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Благословляє тебе Елуна, добра {раса}. Сподіваюся, твоє Світло знайде тебе і добре захистить цього дня.\n\nНещодавно тут був один із твоїх жерців, який шукав тебе. Він згадав, що ти маєш якомога швидше повернутися до Собору Світла, щоб поговорити з Верховною Жрицею Лореною. Здається, ти добре вчинила, що привернула таку увагу. Я б не витрачала тут забагато часу — твій народ потребує тебе.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Рада, що ти {стать:прибув:прибула}, {ім'я:к}. Нам багато чого треба обговорити, та найголовніше — твоє навчання шляхів Світла.\n\nЄ уроки, які мають засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, можемо зараз перейти до деяких із них.",
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest referral3600-to376 matches installed and UA. Preserve Elune/race blessing, your Light, urgency, Cathedral/Laurena target and conditional training completion."
+      ]
+    },
+    "94776": {
+      "installedMetadata": {
+        "2": [
+          [
+            1226
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94774,
+          94775,
+          94777,
+          94778,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Тобі час вирушати до Штормовія, {ім'я}. Верховна жриця Лорена з Собору Світла хоче поговорити з тобою. Має бути щось справді хороше чи справді погане, щоб Верховна жриця хотіла тебе там особисто, але, гадаю, ти добре впорався лише для себе, і це добре, що вона хоче поговорити з тобою.\n\nАле не гай забагато часу. Я б вирушив туди якомога швидше.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": null,
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest referral1226-to376 matches Laurena/Stormwind/Cathedral. Preserve the casual good-or-bad uncertainty and speaker guess. Neither English page supplies completion; do not copy neighboring same-title dialogue."
+      ]
+    },
+    "94777": {
+      "installedMetadata": {
+        "2": [
+          [
+            11397
+          ]
+        ],
+        "3": [
+          [
+            376
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94774,
+          94775,
+          94776,
+          94778,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Зовсім недавно один із ваших священиків був тут і шукав вас, {раса}. Він сказав, що якщо я вас побачу, я маю направити вас до Собору Світла. Він сказав, що це дуже важливо, але я б не надто хвилювався на вашому місці. Його поведінка здавалася позитивною... ніби це були гарні новини. Я б не витратив багато часу, щоб дістатися туди, якби був на вашому місці.\n\nХай Елуна буде з вами, добра {раса}.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": null,
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest referral11397-to376 preserves secondhand message, reassurance, positive demeanor and ellipsis, two race markers and Elune blessing. Neither English page has a Completion heading."
+      ]
+    },
+    "94778": {
+      "installedMetadata": {
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94774,
+          94775,
+          94776,
+          94777,
+          94779
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32896
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Ти потрібен у Штормовії, {ім'я}. Верховна жриця, Лорена, каже, що тобі час довести, що ти гідний наступного рівня твого навчання. Не витрачай забагато часу на пошуки туди. Ти можеш знайти її в Соборі Світла в центрі міста. Передай їй від мене вітання та доведи, наскільки ти гідний такого покликання. Хай Світло буде з тобою, {ім'я}.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": null,
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest alternative lacks installed giver/ender, but its objective identifies Laurena/Stormwind. Preserve Cathedral in city center, regards, worthiness and both player-name tokens. No English Completion heading."
+      ]
+    },
+    "94779": {
+      "installedMetadata": {
+        "8": [
+          "Speak to High Priestess Laurena in Stormwind."
+        ],
+        "16": [
+          94773,
+          94774,
+          94775,
+          94776,
+          94777,
+          94778
+        ],
+        "S": {
+          "1": "Divine Grace",
+          "4": 10,
+          "5": 10,
+          "6": 1,
+          "7": 16,
+          "17": -262,
+          "p": 32896
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Божественна благодать",
+          "detail": "Хвала Елюні та твоєму Світлу, {ім'я}.\n\nПриблизно в цей час багато хто з нашого ордену опановує здібності, що відображають їхню віру в Елюну. Якщо знання служать мені, я вважаю, що те саме стосується і твого ордену.\n\nКоли твої справи в Дарнасі будуть завершені, я б розшукав одну з твоїх Верховних Жриць для подальшого навчання.",
+          "objective": "Поговоріть з верховною жрицею Лореною у Штормовії.",
+          "progress": null,
+          "complete": "Рада, що ти {стать:прибув:прибула}, {ім'я:к}. Нам багато чого треба обговорити, та найголовніше — твоє навчання шляхів Світла.\n\nЄ уроки, які мають засвоїти всі слуги Світла. Якщо ти {стать:готовий:готова}, можемо зараз перейти до деяких із них.",
+          "en": "Divine Grace",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Human priest Darnassus alternative has installed Laurena/Stormwind objective. Both English references say one of your High Priestesses. Preserve that plural rank and player-directed conditional advice; the speaker does not undertake the travel."
+      ]
+    },
+    "94817": {
+      "installedMetadata": {
+        "2": [
+          [
+            258785
+          ]
+        ],
+        "3": [
+          [
+            258785
+          ]
+        ],
+        "16": [
+          94821,
+          94822,
+          94823,
+          94824,
+          94825,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32774
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": null,
+          "objective": null,
+          "progress": null,
+          "complete": "Ти не {стать:поспішав:поспішала} сюди, {ім'я:к}. Але твоє віддане служіння Світлу це виправдовує. Будь ласка, уважно слухай цей урок.",
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest self-completion at258785: primary English exposes title and completion only. Preserve mild rebuke, dedicated service, excusal and close attention. Identifying title is exact reward spell1277455 Confounding Flash."
+      ]
+    },
+    "94821": {
+      "installedMetadata": {
+        "2": [
+          [
+            376
+          ]
+        ],
+        "3": [
+          [
+            258785
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94822,
+          94823,
+          94824,
+          94825,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Нещодавно один священик відвідав наші зали, щоб знайти тебе, юний {раса}. Він сказав, що має на меті знайти тебе, і що тобі слід якомога швидше повернутися до Зали Таємниць у Залізогарті. Коли прибудеш, звернися до Верховної Жриці Мімс — вона розповість тобі більше.\n\nНехай Світло буде з тобою, {ім'я}.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": "Ти не {стать:квапився:квапилася} сюди, {ім'я:к}. Але за віддану службу Світлу тобі можна це пробачити. Прошу, будь {стать:дуже уважним:дуже уважною} на цьому уроці.",
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest referral376-to258785 matches Mims/Ironforge/Hall of Mysteries. Preserve young race, recent visitor, his mission, urgency and Light blessing. Completion player marker agrees with UA."
+      ]
+    },
+    "94822": {
+      "installedMetadata": {
+        "2": [
+          [
+            377
+          ]
+        ],
+        "3": [
+          [
+            258785
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94821,
+          94823,
+          94824,
+          94825,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Ви привернули увагу нашого начальства, {ім'я}. Вони попросили вас якомога швидше вирушити до Зали Таємниць у Залізогарті. Очевидно, вони вважають, що ви вже довели свою спроможність і готові продовжити навчання. Коли ви туди потрапите, знайдіть Верховну Жрицю Мімс. Вона зможе направити вас далі. Удачі вам, і нехай Світло буде з вами.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": "Ти не {стать:поспішав:поспішала} сюди, {ім'я:к}. Але твоє віддане служіння Світлу це виправдовує. Будь ласка, уважно слухай цей урок.",
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest referral377-to258785 matches Mims/Ironforge/Hall of Mysteries. Primary completion has literal Cub instead of the player-name identity shown in same-trainer94817/94821/94824 and UA. Hold that field with exact English and raw DeepL; do not invent a player token."
+      ]
+    },
+    "94823": {
+      "installedMetadata": {
+        "3": [
+          [
+            258785
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94821,
+          94822,
+          94824,
+          94825,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32900
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Благословить тебе Елуна, добра {раса}. Сподіваюся, твоє Світло знайде тебе та добре захистить цього дня.\n\nОдин із твоїх жерців нещодавно був тут і шукав тебе. Він згадав, що ти маєш якомога швидше повернутися до Зали Таємниць, щоб поговорити з Верховною Жрицею Мімс. Здається, ти добре вчинила, привернувши таку увагу. Я б не витрачала тут забагато часу — твій народ потребує тебе.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": "Ти не {стать:квапився:квапилася} сюди, {ім'я:к}. Але за віддану службу Світлу тобі можна це пробачити. Прошу, будь {стать:дуже уважним:дуже уважною} на цьому уроці.",
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest alternative has installed ender258785 and no giver. Current offer/objective agree on Mims/Hall of Mysteries/Ironforge. Preserve Elune/race blessing and urgency. Current English lacks completion although UA has it; do not backtranslate that state."
+      ]
+    },
+    "94824": {
+      "installedMetadata": {
+        "2": [
+          [
+            1226
+          ]
+        ],
+        "3": [
+          [
+            258785
+          ]
+        ],
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94821,
+          94822,
+          94823,
+          94825,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32902
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Тобі час вирушати до Штормовія, {ім'я}. Верховна жриця Мімс у Залі Таємниць наказує тобі поговорити з нею. Має бути щось справді хороше чи справді погане, щоб Верховна жриця хотіла, щоб ти там був особисто, але, гадаю, ти зробив добре лише для себе, і це добре, що вона хоче поговорити з тобою.\n\nАле не гай забагато часу. Я б вирушив туди якомога швидше.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": "Ти не {стать:поспішав:поспішала} сюди, {ім'я:к}. Але твоє віддане служіння Світлу це виправдовує. Будь ласка, уважно слухай цей урок.",
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest referral1226-to258785: current primary corrects legacy60.tools/UA Stormwind to Ironforge, agreeing with installed Mims and current objective. Current English controls meaning. Preserve commands-you wording, casual uncertainty and supported completion player marker."
+      ]
+    },
+    "94825": {
+      "installedMetadata": {
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94821,
+          94822,
+          94823,
+          94824,
+          94826
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32896
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Зовсім недавно один із ваших жерців був тут і шукав вас, {раса}. Він сказав, що якщо я вас побачу, я маю направити вас до Зали Таємниць. Він сказав, що це дуже важливо, але я б не надто хвилювався на вашому місці. Його поведінка здавалася позитивною... ніби це були гарні новини. Я б не витратив багато часу, щоб дістатися туди, якби був на вашому місці.\n\nХай Елуна буде з вами, добра {раса}.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": null,
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest alternative lacks installed giver/ender, but objective identifies Mims/Ironforge. Hall of Mysteries offer aligns. Preserve reassurance, positive ellipsis and two race markers. English and UA completion are unavailable."
+      ]
+    },
+    "94826": {
+      "installedMetadata": {
+        "8": [
+          "Speak to High Priestess Mims in Ironforge."
+        ],
+        "16": [
+          94817,
+          94821,
+          94822,
+          94823,
+          94824,
+          94825
+        ],
+        "S": {
+          "1": "Confounding Flash",
+          "4": 10,
+          "5": 10,
+          "6": 64,
+          "7": 16,
+          "17": -262,
+          "p": 32896
+        }
+      },
+      "uaEntries": [
+        {
+          "title": "Спантеличливий спалах",
+          "detail": "Хвала Елюні та твоєму Світлу, {ім'я}.\n\nПриблизно в цей час багато хто з нашого ордену опановує здібності, що відображають їхню віру в Елюну. Якщо знання служать мені, я вважаю, що те саме стосується і твого ордену.\n\nКоли твої справи в Дарнасі будуть завершені, я б звернувся до твоєї Верховної Жриці для подальшого навчання.",
+          "objective": "Поговоріть з Верховною Жрицею Мімс у Залізогарті.",
+          "progress": null,
+          "complete": null,
+          "en": "Confounding Flash",
+          "faction": "Alliance"
+        }
+      ],
+      "comparisonNotes": [
+        "Gnome priest Darnassus alternative has installed Mims/Ironforge objective. Offer says your High Priestess, singular. Preserve Elune, the two orders and player-directed conditional advice. English and UA completion are unavailable."
+      ]
+    }
+  }
+}

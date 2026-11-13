@@ -1,0 +1,65 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "priest_alliance",
+      "id": 94774,
+      "field": "detail",
+      "englishSHA256": "217a8a5834857dab3e99aaea7016cf8f2fb4f338a363c1ef6e22c059da2f49ba",
+      "priorMyanmarSHA256": "7176045760e4f8df643d030c19ff41a2caab83b97f9c92a7667bf7144d684a5d",
+      "correctedMyanmarSHA256": "4fe9359aafb922829467b7d89758ce9eb55ade8c5ebaf2fc2e3e1bf9dff34d58",
+      "reason": "The clause 'they feel you've proven yourself already and are prepared to further your training' assesses the player's demonstrated ability and readiness for further training; pinned UA also retains the player as the ready person. Current Myanmar explicitly makes the superiors ready to provide training (သူတို့...အသင့်ရှိနေကြသည်), changing the assessed subject. Keep the apparent/reported assessment and assign both proof and readiness to the player."
+    },
+    {
+      "partition": "priest_alliance",
+      "id": 94822,
+      "field": "detail",
+      "englishSHA256": "9be26843cfddbe40f24abc13031fa703473cfbf81b4ced96022becbf8ea3f348",
+      "priorMyanmarSHA256": "de728bd0718cdfcfef9a4f30eb59d3664d43d0f7faff55f1d9458e2983a14894",
+      "correctedMyanmarSHA256": "5143884224d8f3747d37d47762923b0adb27d561086b3d6c8a9351a068321814",
+      "reason": "The clause 'they feel you've proven yourself already and are prepared to further your training' assesses the player's demonstrated ability and readiness for further training; pinned UA also retains the player as the ready person. Current Myanmar explicitly makes the superiors ready to provide training (သူတို့...အသင့်ရှိနေကြသည်), changing the assessed subject. Keep the apparent/reported assessment and assign both proof and readiness to the player."
+    },
+    {
+      "partition": "priest_racials",
+      "id": 94818,
+      "field": "title",
+      "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+      "priorMyanmarSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+      "correctedMyanmarSHA256": "4d275ce3b34e5415c2d4af7f93225c1cde8e9e883636714e6fbef5afe8824185",
+      "reason": "Quest94818 original current HTML Rewards/You will learn links /forever/spell=1277462/contingency-plan and labels it Contingency Plan. STYLE-GUIDE Identifying titles and compound pronunciations requires identifying spell titles to retain English plus phonetic annotation. Current semantic-only title removes that identity. New pronunciation is assisted proposal pending native review."
+    },
+    {
+      "partition": "priest_racials",
+      "id": 94819,
+      "field": "title",
+      "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+      "priorMyanmarSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+      "correctedMyanmarSHA256": "4d275ce3b34e5415c2d4af7f93225c1cde8e9e883636714e6fbef5afe8824185",
+      "reason": "Quest94819 original current HTML Rewards/You will learn links /forever/spell=1277462/contingency-plan and labels it Contingency Plan. STYLE-GUIDE Identifying titles and compound pronunciations requires identifying spell titles to retain English plus phonetic annotation. Current semantic-only title removes that identity. New pronunciation is assisted proposal pending native review."
+    },
+    {
+      "partition": "priest_racials",
+      "id": 94820,
+      "field": "title",
+      "englishSHA256": "516b00c75fd47ba4fa84c8717b399820561620fbcb4e5a3beb87e5071edda2e7",
+      "priorMyanmarSHA256": "cbda42a3cf0b1689b0335165dce37f1f4538878f66c6e1e14e38e1e671526095",
+      "correctedMyanmarSHA256": "4d275ce3b34e5415c2d4af7f93225c1cde8e9e883636714e6fbef5afe8824185",
+      "reason": "Quest94820 original current HTML Rewards/You will learn links /forever/spell=1277462/contingency-plan and labels it Contingency Plan. STYLE-GUIDE Identifying titles and compound pronunciations requires identifying spell titles to retain English plus phonetic annotation. Current semantic-only title removes that identity. New pronunciation is assisted proposal pending native review."
+    },
+    {
+      "partition": "shaman",
+      "id": 94467,
+      "field": "detail",
+      "englishSHA256": "b4988608f095dfe9a6587c34aed7c95d05fce36e271d2d3357b02402b0703bd7",
+      "priorMyanmarSHA256": "067410c61a172d4b5e9d62f4de0346a8dd48f4262732a02a8709e3429cdee622",
+      "correctedMyanmarSHA256": "a8c86693600707e88fb6c6f604275045f49d6c0c284fedb58237f61418a736ed",
+      "reason": "The current original HTML in94467-wowhead.html explicitly links glowing embers to /forever/item=6655/glowing-ember. This displayed field translates it only as ordinary glowing coals, omitting the recognizable item identity and first-use pronunciation required by STYLE-GUIDE.md. Use canonical Glowing Ember with the maintained ဂလိုးဝင်း အမ်ဘာ spelling, retaining source plurality through တွေ; the objective's annotation does not supply this field's first occurrence."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Contingency Plan": "ကန်တင်ဂျန်စီ ပလန်"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

@@ -1,0 +1,41 @@
+{
+  "validatedAt": "2026-11-13T20:51:04.831996+00:00",
+  "questCount": 5,
+  "availableEnglishFields": 24,
+  "enabledFields": 23,
+  "heldFields": 1,
+  "unavailableFields": 1,
+  "rawDeepLFieldCount": 24,
+  "rawBatchCharacterCounts": [
+    4306,
+    734
+  ],
+  "allAvailableEnglishPassedThroughDeepL": true,
+  "linguisticLint": {
+    "issues": [],
+    "passed": true
+  },
+  "buildReleaseValidateFields": {
+    "passed": true,
+    "questCount": 5
+  },
+  "exactPlaceholdersAndNumericQuantities": "passed by current build_release.validate_fields",
+  "writtenQuantities": "separate source-aware review:two ingredients,one third height and singular versus plural ember labels retained",
+  "htmlBoundaries": "inspected all five files, source-boundaries.json",
+  "upstreamPackageSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+  "upstreamCatalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640",
+  "upstreamCatalogHashMatchesPin": true,
+  "noIndependentReviewClaim": true,
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "files": {
+    "edited.json": "e876a4c114a001c9f9aec1cbeb6a93939c83cdc95cb4ac2b5b04e9538c7cda47",
+    "english-sources.json": "680b306fb18ddfd36dfe324fde1aa2e331c0a16f785c3241a4fa0efd6a68b5a8",
+    "pronunciations.json": "c08940842cf1f5ed75f178f4a3d823619511c85ee1d13bca4e1f9a37eaac6399",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "held-fields.json": "ef6be1b55116b2b1b085c85f5dd4076620f0641eb8ac5acc5f9013571be3dc46",
+    "review-audit.json": "778798441f943cf78eb28fdfb4f592684d543f0dc67fde618dcc354d941520aa",
+    "comparison-provenance.json": "0f2d8ef408ec7be8f3e467b90b9fc580c2d30cb6b87dd9872b3bf367abffd67e",
+    "review-groups.json": "b5ffcb0c39b49de8fae888ad7e442c7b33103086b756a6ddd60c17d81429de25"
+  }
+}

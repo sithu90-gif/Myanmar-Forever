@@ -1,0 +1,499 @@
+{
+  "94449": {
+    "id": 94449,
+    "en": "Call of Fire",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D94449/call-of-fire",
+    "htmlSHA256": "63291c67801d36dcd6a678bb80f0e9722566cfe24ce4af5a74a32ed511c15857",
+    "fetched": "2026-11-13T20:46:04.494357+00:00",
+    "sourceKind": "current Wowhead Forever English",
+    "english": {
+      "title": "Call of Fire",
+      "detail": "It's been long since ye were last tested, <name>. Ye've shown patience, aye -- but now it's time ye learned of chaos... of destruction. Fire's call is loud, and if ye're ready to pay its price, it'll speak to ye. \n\nSeek out Bruegs Kindleborn, far east in the mountains. He dwells in a cave above South Gate Outpost. He'll know if ye're truly ready.",
+      "objective": "Find Bruegs Kindleborn in Dun Morogh.",
+      "progress": null,
+      "complete": "Hmm... that elder sent ye, eh? Well, a <class>'s word is solid, so I'll not argue. That means ye're ready for the next sapta. The sapta of fire. I see it in yer eyes already -- the burnin', the hunger. Ye've tasted power, and now ye want more. But mind yerself, <name>. Remember what the stone taught ye. Fire's easy to wield, but harder to master. Know when to hold back."
+    },
+    "questieMetadata": {
+      "2": [
+        [
+          258098,
+          258113,
+          257446
+        ]
+      ],
+      "3": [
+        [
+          257597
+        ]
+      ],
+      "8": [
+        "Find Bruegs Kindleborn in Dun Morogh."
+      ],
+      "S": {
+        "1": "Call of Fire",
+        "4": 10,
+        "5": 10,
+        "6": 4294967373,
+        "7": 64,
+        "17": -82,
+        "p": 134
+      }
+    },
+    "comparisonReferences": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/94449-call-of-fire",
+        "sha256": "d2e1299d3bffd39ad4264ad231b3385b2b5740a8840bd0ece61b7ca645954691",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Find Bruegs Kindleborn in Dun Morogh.",
+          "detail": "It's been long since ye were last tested, <Name>. Ye've shown patience, aye -- but now it's time ye learned of chaos... of destruction. Fire's call is loud, and if ye're ready to pay its price, it'll speak to ye. \n\nSeek out Bruegs Kindleborn, far east in the mountains. He dwells in a cave above South Gate Outpost. He'll know if ye're truly ready.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D94449/call-of-fire",
+        "sha256": "63291c67801d36dcd6a678bb80f0e9722566cfe24ce4af5a74a32ed511c15857",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Find Bruegs Kindleborn in Dun Morogh.",
+          "progress": null,
+          "complete": "Hmm... that elder sent ye, eh? Well, a <class>'s word is solid, so I'll not argue. That means ye're ready for the next sapta. The sapta of fire. I see it in yer eyes already -- the burnin', the hunger. Ye've tasted power, and now ye want more. But mind yerself, <name>. Remember what the stone taught ye. Fire's easy to wield, but harder to master. Know when to hold back.",
+          "detail": "It's been long since ye were last tested, <name>. Ye've shown patience, aye -- but now it's time ye learned of chaos... of destruction. Fire's call is loud, and if ye're ready to pay its price, it'll speak to ye. \n\nSeek out Bruegs Kindleborn, far east in the mountains. He dwells in a cave above South Gate Outpost. He'll know if ye're truly ready."
+        }
+      }
+    },
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+      "publishedAtUTC": "2026-11-13T03:27:29Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+      "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+      "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+    },
+    "uaEntries": [
+      {
+        "title": "Поклик вогню",
+        "detail": "Минуло багато часу з того часу, як тебе востаннє випробовували, {ім'я}. Ти проявив терпіння, так -- але тепер настав час тобі навчитися хаосу... руйнування. Поклик вогню гучний, і якщо ти готовий заплатити його ціну, він заговорить з тобою.\n\nЗнайди Брюгса Кіндлборна далеко на сході в горах. Він мешкає в печері над форпостом Південних Воріт. Він знатиме, чи ти справді готовий.",
+        "objective": "Знайдіть Брюггський Кіндлборн у Дун-Морогу.",
+        "progress": null,
+        "complete": "Гм... Тебе послав той старійшина, еге ж? Що ж, слову {клас:р} можна вірити, тож не сперечатимуся. Отже, ти {стать:готовий:готова} до наступної сапти. Сапти вогню. Я вже бачу це у твоїх очах — полум'я, жагу. Ти {стать:скуштував:скуштувала} сили й тепер прагнеш більшого. Та пильнуй себе, {ім'я:к}. Пам'ятай, чого тебе навчив камінь. Користуватися вогнем легко, опанувати його важче. Знай, коли треба стриматись.",
+        "en": "Call of Fire",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceNotes": [
+      "English title/objective and distinct step agree with installed metadata; all available current Wowhead states used.",
+      "60.tools supplies only title/objective/detail; its detail <Name> is upper-case in94449/94466/94467; current Wowhead lowercase <name> controls.",
+      "94466 UA faction label Both differs from installed race mask and other chain labels Alliance; preserve installed eligibility and do not infer live availability.",
+      "No conflicting non-grammatical gender alternative detected for this record."
+    ]
+  },
+  "94465": {
+    "id": 94465,
+    "en": "Call of Fire",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D94465/call-of-fire",
+    "htmlSHA256": "d991b65834ac547c0a666cbdc96e902462bf156ed266dd705d7e78888465c140",
+    "fetched": "2026-11-13T20:46:04.495119+00:00",
+    "sourceKind": "current Wowhead Forever English",
+    "english": {
+      "title": "Call of Fire",
+      "detail": "Aye, ye've the strength to bear the totem o' fire, lad--but strength alone won't make ye ready.\n\nBeyond the Valley o' Kings, in the crags of Loch Modan, lies a hidden path to one o' our sacred peaks. There, Braldir Ashmantle guards the Shrine o' the Dormant Flame. \n\nTake this torch to him--it shows yer intent. Return it burnin' by the shrine's brazier, and I'll see ye earn the totem proper.",
+      "objective": "Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan.",
+      "progress": "Greetin's, <name>. Ye've made it to the Shrine o' the Dormant Flame, eh? Not many do. Only those well-versed in the <class>'s path can grasp the secrets this place holds. \n\nShame ye came all this way just to be turned back--the climb's no stroll through Dun Morogh. But I'm the shrine's keeper, and I won't be lettin' just any foot trod about.",
+      "complete": "Ah, me apologies, <name>. Didn't spot the Torch in yer hand. An honor to meet ye proper.\n\nMany a wanderer climbs these heights chasin' tales of treasure or beasts, only to find naught but stone and silence. But we know better, don't we, <name>?\n\nThis shrine holds truths far deeper than the Alliance can fathom. To us, it's a sacred flame that waits to be awakened."
+    },
+    "questieMetadata": {
+      "2": [
+        [
+          257597
+        ]
+      ],
+      "3": [
+        [
+          257808
+        ]
+      ],
+      "8": [
+        "Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan."
+      ],
+      "S": {
+        "1": "Call of Fire",
+        "4": 10,
+        "5": 11,
+        "6": 4294967373,
+        "7": 64,
+        "11": 6653,
+        "17": -82,
+        "22": 94466,
+        "p": 134
+      }
+    },
+    "comparisonReferences": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/94465-call-of-fire",
+        "sha256": "bdfff8f278b31a22c495f5f9a5fa65246913f13eb3c47588d9733ded1401d837",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan.",
+          "detail": "Aye, ye've the strength to bear the totem o' fire, lad--but strength alone won't make ye ready.\n\nBeyond the Valley o' Kings, in the crags of Loch Modan, lies a hidden path to one o' our sacred peaks. There, Braldir Ashmantle guards the Shrine o' the Dormant Flame. \n\nTake this torch to him--it shows yer intent. Return it burnin' by the shrine's brazier, and I'll see ye earn the totem proper.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D94465/call-of-fire",
+        "sha256": "d991b65834ac547c0a666cbdc96e902462bf156ed266dd705d7e78888465c140",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring the Torch of the Dormant Flame to Braldir Ashmantle in Loch Modan.",
+          "progress": "Greetin's, <name>. Ye've made it to the Shrine o' the Dormant Flame, eh? Not many do. Only those well-versed in the <class>'s path can grasp the secrets this place holds. \n\nShame ye came all this way just to be turned back--the climb's no stroll through Dun Morogh. But I'm the shrine's keeper, and I won't be lettin' just any foot trod about.",
+          "complete": "Ah, me apologies, <name>. Didn't spot the Torch in yer hand. An honor to meet ye proper.\n\nMany a wanderer climbs these heights chasin' tales of treasure or beasts, only to find naught but stone and silence. But we know better, don't we, <name>?\n\nThis shrine holds truths far deeper than the Alliance can fathom. To us, it's a sacred flame that waits to be awakened.",
+          "detail": "Aye, ye've the strength to bear the totem o' fire, lad--but strength alone won't make ye ready.\n\nBeyond the Valley o' Kings, in the crags of Loch Modan, lies a hidden path to one o' our sacred peaks. There, Braldir Ashmantle guards the Shrine o' the Dormant Flame. \n\nTake this torch to him--it shows yer intent. Return it burnin' by the shrine's brazier, and I'll see ye earn the totem proper."
+        }
+      }
+    },
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+      "publishedAtUTC": "2026-11-13T03:27:29Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+      "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+      "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+    },
+    "uaEntries": [
+      {
+        "title": "Поклик вогню",
+        "detail": "Так, у тебе є сила нести тотем вогню, хлопче, але однієї сили ти не підготуєшся.\n\nЗа Долиною Королів, у скелях Лох Модан, лежить прихований шлях до однієї з наших священних вершин. Там Бралдір Попелястий Мантл охороняє Святилище Сплячого Полум'я.\n\nВіднеси йому цей смолоскип — він показує твій намір. Поверни його палаючим біля жаровні святилища, і я простежу, як ти заслужиш справжній тотем.",
+        "objective": "Принесіть Смолоскип Сплячого Полум'я до Бралдіра Попелястого Мантла в Лох-Модан.",
+        "progress": "Вітаю, {ім'я:к}. Дістатися вівтаря Дрімаючого полум'я вдалося, еге ж? Небагатьом це вдається. Лише той, хто добре знає шаманський шлях, здатен осягнути таємниці цього місця.\n\nШкода, що весь цей шлях доведеться долати назад. Підйом сюди — не прогулянка Дун-Морогом. Та я охоронець вівтаря і не дозволю будь-кому тут вештатися.",
+        "complete": "Ох, пробач, {ім'я:к}. Не помітив смолоскипа у твоїй руці. Маю честь нарешті познайомитися як слід.\n\nЧимало мандрівників видираються на ці висоти, женучись за оповідями про скарби чи чудовиськ, а знаходять лише камінь і тишу. Та ми знаємо більше, правда ж, {ім'я:к}?\n\nЦей вівтар зберігає істини, значно глибші за все, що може осягнути Альянс. Для нас це священне полум'я, яке чекає на пробудження.",
+        "en": "Call of Fire",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceNotes": [
+      "English title/objective and distinct step agree with installed metadata; all available current Wowhead states used.",
+      "60.tools supplies only title/objective/detail; its detail <Name> is upper-case in94449/94466/94467; current Wowhead lowercase <name> controls.",
+      "94466 UA faction label Both differs from installed race mask and other chain labels Alliance; preserve installed eligibility and do not infer live availability.",
+      "No conflicting non-grammatical gender alternative detected for this record."
+    ]
+  },
+  "94466": {
+    "id": 94466,
+    "en": "Call of Fire",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D94466/call-of-fire",
+    "htmlSHA256": "cbe253ad736d189578091b9f8d2c5af92c4010cff10cb300f2d77beeb501170d",
+    "fetched": "2026-11-13T20:46:04.495901+00:00",
+    "sourceKind": "current Wowhead Forever English",
+    "english": {
+      "title": "Call of Fire",
+      "detail": "Bah, ye didn't trek all this way for tales, did ye, <name>? Ye seek the Eternal Flame and the fire totem.\n\nFirst, ye'll need a sapta to bind yer spirit to the flame.\n\nI'll craft it--but I'll need two things: fire tar from Tunnel Rat Geomancers in the kobold caves up north, and a reagent pouch from a Stonesplinter Seer lurkin' in the southern hills. Dangerous work, but worthy of the flame.",
+      "objective": "Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan.",
+      "progress": "Aye, I've near all I need for the fire sapta, <name>--just missin' the fire tar and the seer's pouch. The tar's carried by Tunnel Rat Geomancers in the kobold caves up north. The pouch ye'll need to wrest from a Stonesplinter seer in the southern hills. These ingredients are bound to flame, as all true saptas must be. Their elemental ties make our craft strong.",
+      "complete": "These'll do fine, <name>.\n\nFire ain't just fury and ruin--mark me words. It's life, it's forge, it's the breath o' creation. All things are bound in balance. One force tempers the other, gives it meaning. Without shadow, light's but a glare. Without flame, stone's but cold memory.\n\nMasterin' magic means knowin' when to blend, not just burn. That's true wisdom, lad."
+    },
+    "questieMetadata": {
+      "2": [
+        [
+          257808
+        ]
+      ],
+      "3": [
+        [
+          257808
+        ]
+      ],
+      "8": [
+        "Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan."
+      ],
+      "10": {
+        "3": [
+          [
+            5026,
+            null,
+            0
+          ],
+          [
+            6652,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        94465
+      ],
+      "S": {
+        "1": "Call of Fire",
+        "4": 10,
+        "5": 14,
+        "6": 4294967373,
+        "7": 64,
+        "17": -82,
+        "22": 94467,
+        "p": 4742
+      }
+    },
+    "comparisonReferences": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/94466-call-of-fire",
+        "sha256": "6c516b66da6c6377812fcb66728eb280d7fe3109f758ee847dd028d826f6998b",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan.",
+          "detail": "Bah, ye didn't trek all this way for tales, did ye, <Name>? Ye seek the Eternal Flame and the fire totem.\n\nFirst, ye'll need a sapta to bind yer spirit to the flame.\n\nI'll craft it--but I'll need two things: fire tar from Tunnel Rat Geomancers in the kobold caves up north, and a reagent pouch from a Stonesplinter Seer lurkin' in the southern hills. Dangerous work, but worthy of the flame.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D94466/call-of-fire",
+        "sha256": "cbe253ad736d189578091b9f8d2c5af92c4010cff10cb300f2d77beeb501170d",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring 1 Fire Tar and 1 Reagent Pouch to Braldir Ashmantle in Loch Modan.",
+          "progress": "Aye, I've near all I need for the fire sapta, <name>--just missin' the fire tar and the seer's pouch. The tar's carried by Tunnel Rat Geomancers in the kobold caves up north. The pouch ye'll need to wrest from a Stonesplinter seer in the southern hills. These ingredients are bound to flame, as all true saptas must be. Their elemental ties make our craft strong.",
+          "complete": "These'll do fine, <name>.\n\nFire ain't just fury and ruin--mark me words. It's life, it's forge, it's the breath o' creation. All things are bound in balance. One force tempers the other, gives it meaning. Without shadow, light's but a glare. Without flame, stone's but cold memory.\n\nMasterin' magic means knowin' when to blend, not just burn. That's true wisdom, lad.",
+          "detail": "Bah, ye didn't trek all this way for tales, did ye, <name>? Ye seek the Eternal Flame and the fire totem.\n\nFirst, ye'll need a sapta to bind yer spirit to the flame.\n\nI'll craft it--but I'll need two things: fire tar from Tunnel Rat Geomancers in the kobold caves up north, and a reagent pouch from a Stonesplinter Seer lurkin' in the southern hills. Dangerous work, but worthy of the flame."
+        }
+      }
+    },
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+      "publishedAtUTC": "2026-11-13T03:27:29Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+      "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+      "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+    },
+    "uaEntries": [
+      {
+        "title": "Поклик вогню",
+        "detail": "Ба, ти ж не заради історій пройшов весь цей шлях, чи не так, {ім'я}? Ти шукаєш Вічний вогонь і тотем вогню.\n\nПо-перше, тобі знадобиться сапта, щоб зв'язати твій дух з полум'ям.\n\nЯ її виготовлю, але мені знадобляться дві речі: вогняна смола від геомантів-тунельних щурів у печерах кобольдів на півночі та мішечок з реагентом від провидця-каменяруба, що ховається на південних пагорбах. Небезпечна робота, але гідна полум'я.",
+        "objective": "Принесіть 1 вогняний дьоготь та 1 мішечок з реагентами Бралдіру Попелястому Мантлу в Лох-Модан.",
+        "progress": "Так, у мене вже майже все є для вогняної сапти, {ім'я:к}. Бракує лише вогняної смоли й торбинки провидця. Смолу носять тунельні щури-геоманти в кобольдських печерах на півночі. А торбинку доведеться відібрати в провидця Каменедробів на південних пагорбах. Ці складники пов'язані з вогнем, як і належить усім справжнім саптам. Їхній зв'язок зі стихією надає сили нашому ремеслу.",
+        "complete": "Це підійде, {ім'я:к}.\n\nВогонь — це не лише лють і руїна, запам'ятай мої слова. Це життя, горно, подих творення. Усе поєднане рівновагою. Одна сила стримує іншу й надає їй сенсу. Без тіні світло лише сліпить. Без полум'я камінь — лише холодний спогад.\n\nОпанувати магію означає знати, коли поєднувати сили, а коли палити. Оце справжня мудрість, {стать:хлопче:дівчино}.",
+        "en": "Call of Fire",
+        "faction": "Both"
+      }
+    ],
+    "sourceNotes": [
+      "English title/objective and distinct step agree with installed metadata; all available current Wowhead states used.",
+      "60.tools supplies only title/objective/detail; its detail <Name> is upper-case in94449/94466/94467; current Wowhead lowercase <name> controls.",
+      "94466 UA faction label Both differs from installed race mask and other chain labels Alliance; preserve installed eligibility and do not infer live availability.",
+      "94466 completion current English lad vs UA explicit gender alternatives: entire completion held pending sanitized current live branch evidence."
+    ]
+  },
+  "94467": {
+    "id": 94467,
+    "en": "Call of Fire",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D94467/call-of-fire",
+    "htmlSHA256": "c1c407d4969f4a42968d1f9893e4776e268ea243fdac8859b906b3b4fcf4bcb0",
+    "fetched": "2026-11-13T20:46:04.496587+00:00",
+    "sourceKind": "current Wowhead Forever English",
+    "english": {
+      "title": "Call of Fire",
+      "detail": "The fire sapta's ready, <name>. Now ye face the flame. Use it at the shrine, then climb to the peak. There, ye'll see the spirit--he'll not strike 'til ye do, but he'll know ye see him.\n\nStrike fast, lad. The longer ye wait, the stronger he burns. When he falls, take his glowing embers and place 'em in the brazier. Light the torch and earn the fire's favor.",
+      "objective": "Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.",
+      "progress": "The brazier stands about a third your height, with charred inscriptions along its smooth metal rails. The metal shows no signs of wear from the weather, and the bowl seated at the top of it feels cool to the touch. \n\nBlackrock Mountain looms in the distance, in clear view to honor from this sacred place.",
+      "complete": "A white hot flame ignites within the bowl as you place the ember within. You can feel the magical effects of the sapta coursing through your body and the fire dances rhythmically before you.\n\nYou place the top of the torch within the basin, and it immediately catches on fire. The smoke seems to drift towards the peak of the looming mountain."
+    },
+    "questieMetadata": {
+      "2": [
+        [
+          257808
+        ]
+      ],
+      "3": [
+        null,
+        [
+          61934
+        ]
+      ],
+      "8": [
+        "Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame."
+      ],
+      "10": {
+        "3": [
+          [
+            6655,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        94466
+      ],
+      "S": {
+        "1": "Call of Fire",
+        "4": 10,
+        "5": 14,
+        "6": 4294967373,
+        "7": 64,
+        "11": 6653,
+        "17": -82,
+        "22": 94468,
+        "p": 4742
+      }
+    },
+    "comparisonReferences": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/94467-call-of-fire",
+        "sha256": "0f994f19488ab50600bcf0178153c7da2cd787071059ea12484e63e2e9cc9a14",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.",
+          "detail": "The fire sapta's ready, <Name>. Now ye face the flame. Use it at the shrine, then climb to the peak. There, ye'll see the spirit--he'll not strike 'til ye do, but he'll know ye see him.\n\nStrike fast, lad. The longer ye wait, the stronger he burns. When he falls, take his glowing embers and place 'em in the brazier. Light the torch and earn the fire's favor.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D94467/call-of-fire",
+        "sha256": "c1c407d4969f4a42968d1f9893e4776e268ea243fdac8859b906b3b4fcf4bcb0",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Defeat the Minor Manifestation of Fire, and place the Glowing Ember in the brazier atop the Shrine of Eternal Flame.",
+          "progress": "The brazier stands about a third your height, with charred inscriptions along its smooth metal rails. The metal shows no signs of wear from the weather, and the bowl seated at the top of it feels cool to the touch. \n\nBlackrock Mountain looms in the distance, in clear view to honor from this sacred place.",
+          "complete": "A white hot flame ignites within the bowl as you place the ember within. You can feel the magical effects of the sapta coursing through your body and the fire dances rhythmically before you.\n\nYou place the top of the torch within the basin, and it immediately catches on fire. The smoke seems to drift towards the peak of the looming mountain.",
+          "detail": "The fire sapta's ready, <name>. Now ye face the flame. Use it at the shrine, then climb to the peak. There, ye'll see the spirit--he'll not strike 'til ye do, but he'll know ye see him.\n\nStrike fast, lad. The longer ye wait, the stronger he burns. When he falls, take his glowing embers and place 'em in the brazier. Light the torch and earn the fire's favor."
+        }
+      }
+    },
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+      "publishedAtUTC": "2026-11-13T03:27:29Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+      "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+      "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+    },
+    "uaEntries": [
+      {
+        "title": "Поклик вогню",
+        "detail": "Вогняна сапта готова, {ім'я}. Тепер стань обличчям до полум'я. Використай його біля святилища, а потім піднімися на вершину. Там ти побачиш духа — він не вдарить, поки ти не вдариш, але він знатиме, що ти його бачиш.\n\nБий швидко, хлопче. Чим довше чекатимеш, тим сильніше він горить. Коли він впаде, візьми його жарке вугілля та поклади його в жаровню. Запали смолоскип і заслужи прихильність вогню.",
+        "objective": "Перемогти слабке втілення вогню та помістити Розсіяний Вугілля в жаровню на вершині Храму Вічного Полум'я.",
+        "progress": "Жаровня заввишки приблизно з третину твого зросту. Уздовж її гладеньких металевих поручнів тягнуться обвуглені написи. На металі немає слідів негоди, а чаша нагорі прохолодна на дотик.\n\nУдалині височіє Чорноскельна гора, добре видна з цього священного місця, звідки їй можна віддати шану.",
+        "complete": "Щойно ти кладеш жарину в чашу, у ній спалахує сліпучо-біле полум'я. Ти відчуваєш, як магія сапти струмує тілом, а вогонь ритмічно танцює перед тобою.\n\nТи опускаєш верхівку смолоскипа в чашу, і він одразу займається. Здається, дим пливе до вершини гори, що височіє вдалині.",
+        "en": "Call of Fire",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceNotes": [
+      "English title/objective and distinct step agree with installed metadata; all available current Wowhead states used.",
+      "60.tools supplies only title/objective/detail; its detail <Name> is upper-case in94449/94466/94467; current Wowhead lowercase <name> controls.",
+      "94466 UA faction label Both differs from installed race mask and other chain labels Alliance; preserve installed eligibility and do not infer live availability.",
+      "No conflicting non-grammatical gender alternative detected for this record."
+    ]
+  },
+  "94468": {
+    "id": 94468,
+    "en": "Call of Fire",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D94468/call-of-fire",
+    "htmlSHA256": "069ca85b8ecb394dc778dcf0fcc1aaf3580a7de51ca278d6646c5e01ea9931db",
+    "fetched": "2026-11-13T20:46:04.497216+00:00",
+    "sourceKind": "current Wowhead Forever English",
+    "english": {
+      "title": "Call of Fire",
+      "detail": "Torch firmly in hand, you turn away from the brazier and look out over Loch Modan. You feel an excitement tugging at your spirit as the wind picks up and forces the flame to dance violently.\n\nYou start off down the path back to Dun Morogh in search of Bruegs Kindleborn.",
+      "objective": "Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh.",
+      "progress": "Aye, <name>? What do ye have there?",
+      "complete": "By Madoran's beard, yer spirit burns brighter than any torch I've laid eyes on, <name>--and that's somethin' to be proud of.\n\nKeep walkin' this path, and the elements'll bend to yer will. Our kin will come to ye for wisdom and guidance. So let me be the first to offer me hearty congratulations--and present ye with yer newest totem. Ye've earned it, flameborn."
+    },
+    "questieMetadata": {
+      "2": [
+        null,
+        [
+          61934
+        ]
+      ],
+      "3": [
+        [
+          257597
+        ]
+      ],
+      "8": [
+        "Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh."
+      ],
+      "13": [
+        94467
+      ],
+      "S": {
+        "1": "Call of Fire",
+        "4": 10,
+        "5": 14,
+        "6": 4294967373,
+        "7": 64,
+        "11": 6654,
+        "17": -82,
+        "p": 4230
+      }
+    },
+    "comparisonReferences": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/94468-call-of-fire",
+        "sha256": "ae0405f5c805a36eee67a9a2c11dd4fb8f03bf755776f9f72fc3c81c0f19c488",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh.",
+          "detail": "Torch firmly in hand, you turn away from the brazier and look out over Loch Modan. You feel an excitement tugging at your spirit as the wind picks up and forces the flame to dance violently.\n\nYou start off down the path back to Dun Morogh in search of Bruegs Kindleborn.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D94468/call-of-fire",
+        "sha256": "069ca85b8ecb394dc778dcf0fcc1aaf3580a7de51ca278d6646c5e01ea9931db",
+        "english": {
+          "title": "Call of Fire",
+          "objective": "Bring the Torch of Eternal Flame to Bruegs Kindleborn in Dun Morogh.",
+          "progress": "Aye, <name>? What do ye have there?",
+          "complete": "By Madoran's beard, yer spirit burns brighter than any torch I've laid eyes on, <name>--and that's somethin' to be proud of.\n\nKeep walkin' this path, and the elements'll bend to yer will. Our kin will come to ye for wisdom and guidance. So let me be the first to offer me hearty congratulations--and present ye with yer newest totem. Ye've earned it, flameborn.",
+          "detail": "Torch firmly in hand, you turn away from the brazier and look out over Loch Modan. You feel an excitement tugging at your spirit as the wind picks up and forces the flame to dance violently.\n\nYou start off down the path back to Dun Morogh in search of Bruegs Kindleborn."
+        }
+      }
+    },
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.0.0",
+      "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+      "checkedAt": "2026-11-13T20:32:06.924814+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+      "publishedAtUTC": "2026-11-13T03:27:29Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+      "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+      "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+    },
+    "uaEntries": [
+      {
+        "title": "Поклик вогню",
+        "detail": "Міцно тримаючи смолоскип, ви відвертаєтеся від жаровні та дивитеся на озеро Лох-Модан. Ви відчуваєте, як ваше серце охоплює хвилювання, коли вітер посилюється і змушує полум'я шалено танцювати.\n\nВи вирушаєте стежкою назад до Дун-Морога в пошуках Брюгга Кіндлборн.",
+        "objective": "Принесіть Смолоскип Вічного Вогню до Брюгга Кіндлборн у Дун-Морог.",
+        "progress": "Так, {ім'я:к}? Що це в тебе?",
+        "complete": "Бородою Мадорана присягаюся, твій дух палає яскравіше за будь-який смолоскип, що я бачив, {ім'я:к}. І цим варто пишатися.\n\nПродовжуй іти цим шляхом, і стихії коритимуться твоїй волі. Наші родичі приходитимуть до тебе по мудрість і пораду. Тож дозволь мені першим щиро тебе привітати й вручити твій новий тотем. Ти {стать:заслужив:заслужила} його, {стать:вогненароджений:вогненароджена}.",
+        "en": "Call of Fire",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceNotes": [
+      "English title/objective and distinct step agree with installed metadata; all available current Wowhead states used.",
+      "60.tools supplies only title/objective/detail; its detail <Name> is upper-case in94449/94466/94467; current Wowhead lowercase <name> controls.",
+      "94466 UA faction label Both differs from installed race mask and other chain labels Alliance; preserve installed eligibility and do not infer live availability.",
+      "No conflicting non-grammatical gender alternative detected for this record."
+    ]
+  }
+}

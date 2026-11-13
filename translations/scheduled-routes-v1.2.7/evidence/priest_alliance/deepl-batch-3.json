@@ -1,0 +1,177 @@
+{
+  "engine": "DeepL Free",
+  "targetLanguage": "MY",
+  "request": {
+    "targetLangs": [
+      "MY"
+    ],
+    "text": [
+      "You took your time arriving, <name>. But you can be excused given your dedicated service to the Light. Please pay close attention to this lesson.",
+      "Speak to High Priestess Mims in Ironforge.",
+      "A priest recently visited our halls seeking you out, young <race>. He said that he was on a mission to find you and that you should return to the Hall of Mysteries in Ironforge as soon as possible. When you arrive, seek out High Priestess Mims--she will tell you more.\n\nThe Light be with you, <name>.",
+      "You took your time arriving, Cub. But you can be excused given your dedicated service to the Light. Please pay close attention to this lesson.",
+      "You've caught the attention of our superiors, <name>. They've asked you to travel to the Hall of Mysteries in Ironforge as soon as possible. Apparently they feel you've proven yourself already and are prepared to further your training. When you get there, find High Priestess Mims. She will be able to guide you further. Good luck, and may the Light be with you.",
+      "Elune bless you, good <race>. I hope your Light finds you and protects you well this day.\n\nOne of your priests was here not long ago looking for you. He mentioned you returning to the Hall of Mysteries as soon as possible to speak with High Priestess Mims. It seems you've done well to garner such attention. I wouldn't spend too much time here--your people have need of you.",
+      "Time's come for you to head to Ironforge, <name>. High Priestess Mims in the Hall of Mysteries commands you to come speak with her. Gotta be somethin' really good or really bad for the High Priestess to want you there personally, but I'm guessin' you've only done well for yourself and it's a good thing that she wants to speak to ya.\n\nBut don't waste too much time 'round here. I'd head there as soon as you can.",
+      "Praise be to Elune, and to your Light, <name>.\n\nAbout this time, many of our order learn abilities reflecting their faith in Elune. If knowledge serves me, I believe the same holds true for your order also.\n\nWhen your business in Darnassus is complete, I would seek out your High Priestess for further training."
+    ]
+  },
+  "inputs": [
+    {
+      "text": "You took your time arriving, <name>. But you can be excused given your dedicated service to the Light. Please pay close attention to this lesson.",
+      "fields": [
+        {
+          "id": "94817",
+          "field": "complete",
+          "source": "wowhead"
+        },
+        {
+          "id": "94821",
+          "field": "complete",
+          "source": "wowhead"
+        },
+        {
+          "id": "94824",
+          "field": "complete",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "Speak to High Priestess Mims in Ironforge.",
+      "fields": [
+        {
+          "id": "94821",
+          "field": "objective",
+          "source": "wowhead"
+        },
+        {
+          "id": "94822",
+          "field": "objective",
+          "source": "wowhead"
+        },
+        {
+          "id": "94823",
+          "field": "objective",
+          "source": "wowhead"
+        },
+        {
+          "id": "94824",
+          "field": "objective",
+          "source": "wowhead"
+        },
+        {
+          "id": "94825",
+          "field": "objective",
+          "source": "wowhead"
+        },
+        {
+          "id": "94826",
+          "field": "objective",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "A priest recently visited our halls seeking you out, young <race>. He said that he was on a mission to find you and that you should return to the Hall of Mysteries in Ironforge as soon as possible. When you arrive, seek out High Priestess Mims--she will tell you more.\n\nThe Light be with you, <name>.",
+      "fields": [
+        {
+          "id": "94821",
+          "field": "detail",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "You took your time arriving, Cub. But you can be excused given your dedicated service to the Light. Please pay close attention to this lesson.",
+      "fields": [
+        {
+          "id": "94822",
+          "field": "complete",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "You've caught the attention of our superiors, <name>. They've asked you to travel to the Hall of Mysteries in Ironforge as soon as possible. Apparently they feel you've proven yourself already and are prepared to further your training. When you get there, find High Priestess Mims. She will be able to guide you further. Good luck, and may the Light be with you.",
+      "fields": [
+        {
+          "id": "94822",
+          "field": "detail",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "Elune bless you, good <race>. I hope your Light finds you and protects you well this day.\n\nOne of your priests was here not long ago looking for you. He mentioned you returning to the Hall of Mysteries as soon as possible to speak with High Priestess Mims. It seems you've done well to garner such attention. I wouldn't spend too much time here--your people have need of you.",
+      "fields": [
+        {
+          "id": "94823",
+          "field": "detail",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "Time's come for you to head to Ironforge, <name>. High Priestess Mims in the Hall of Mysteries commands you to come speak with her. Gotta be somethin' really good or really bad for the High Priestess to want you there personally, but I'm guessin' you've only done well for yourself and it's a good thing that she wants to speak to ya.\n\nBut don't waste too much time 'round here. I'd head there as soon as you can.",
+      "fields": [
+        {
+          "id": "94824",
+          "field": "detail",
+          "source": "wowhead"
+        }
+      ]
+    },
+    {
+      "text": "Praise be to Elune, and to your Light, <name>.\n\nAbout this time, many of our order learn abilities reflecting their faith in Elune. If knowledge serves me, I believe the same holds true for your order also.\n\nWhen your business in Darnassus is complete, I would seek out your High Priestess for further training.",
+      "fields": [
+        {
+          "id": "94826",
+          "field": "detail",
+          "source": "wowhead"
+        }
+      ]
+    }
+  ],
+  "response": {
+    "translations": [
+      {
+        "targetLang": "MY",
+        "translations": [
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "<name>၊ သင် ရောက်လာရန် အချိန်ယူခဲ့သည်။ သို့သော် အလင်းအတွက် သင်၏ စွမ်းဆောင်မှုကြောင့် ခွင့်လွှတ်ခံနိုင်ပါသည်။ ဤသင်ခန်းစာကို အထူးဂရုစိုက်ပါ။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "Ironforge တွင်ရှိသော အထွတ်အထိပ် ဘုန်းကြီးမ မင်မ်စ်နှင့် စကားပြောပါ။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "မကြာသေးခင်က ဘုန်းကြီးတစ်ဦးသည် လူငယ် <race>၊ သင့်ကို ရှာဖွေရန် ကျွန်ုပ်တို့၏ တိုက်ခန်းများသို့ လာရောက်ခဲ့သည်။ သူက သင့်အား ရှာဖွေရန် တာဝန်တစ်ခုရှိကြောင်းနှင့် သင်သည် အမြန်ဆုံး Ironforge ရှိ လျှို့ဝှက်ခန်းသို့ ပြန်သွားသင့်ကြောင်း ပြောကြားခဲ့သည်။ ရောက်ရှိသောအခါ အထက်တန်း ဘုန်းမကြီး မင်မ်စ်ကို ရှာဖွေလိုက်ပါ—သူမက ပိုမို အသေးစိတ် ပြောပြပါလိမ့်မည်။\n\nအလင်းသည် သင့်နှင့်အတူ ရှိပါစေ၊ <name>။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "ကပ်၊ မင်းရောက်လာဖို့ အချိန်ယူခဲ့တယ်။ ဒါပေမယ့် မင်းက အလင်းအတွက် သစ္စာရှိစွာ ဝန်ဆောင်မှုပေးခဲ့တာကြောင့် ခွင့်လွှတ်ခံနိုင်တယ်။ ဒီသင်ခန်းစာကို ဂရုစိုက်ပြီး နားထောင်ပါ။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "သင်သည် ကျွန်ုပ်တို့၏ အထက်အရာရှိများ၏ အာရုံကို ဆွဲယူထားပါပြီ၊ <name>။ သူတို့က သင့်အား အမြန်ဆုံး Ironforge ရှိ လျှို့ဝှက်ခန်းသို့ ခရီးထွက်ရန် တောင်းဆိုထားကြသည်။ သူတို့ထင်သည်မှာ သင်သည် ယခင်က ကိုယ်တိုင်ကို သက်သေပြပြီးသားဖြစ်ကာ သင့်လေ့ကျင့်မှုကို ဆက်လက်တိုးတက်စေရန် ပြင်ဆင်ထားကြသည်။ သင်ရောက်ရှိသောအခါ High Priestess Mims ကို ရှာပါ။ သူမက သင့်အား နောက်ထပ် လမ်းညွှန်ပေးနိုင်ပါလိမ့်မည်။ ကံကောင်းပါစေ၊ အလင်းသည် သင့်နှင့်အတူရှိပါစေ။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "လမင်း Elune က သင့်အား ကောင်းကျိုးပေးပါစေ၊ ကောင်းမြတ်သော <race>။ သင့်အလင်းက သင့်အား ရှာတွေ့ကာ ယနေ့တွင် ကောင်းစွာ ကာကွယ်စောင့်ရှောက်ပါစေကြောင်း မျှော်လင့်ပါသည်။\n\nမကြာသေးမီက သင့်ဘုန်းကြီးတစ်ဦးက သင့်ကို ရှာဖွေရန် ဒီမှာ ရောက်ရှိခဲ့သည်။ သူက သင်ကို အမြန်ဆုံး လျှို့ဝှက်ခန်းမ (Hall of Mysteries) သို့ ပြန်လာပြီး အထွတ်အထိပ် ဘုန်းကြီးမ မင်မ်စ် (High Priestess Mims) နှင့် တွေ့ဆုံရန် ပြောကြားခဲ့သည်။ သင်က ထိုအာရုံစိုက်မှုကို ရရှိအောင် ကောင်းစွာ လုပ်ဆောင်နိုင်ခဲ့သည်ဟု ထင်ရသည်။ ဒီမှာ အချိန် မများစွာ မဖြုန်းပါနှင့်—သင့်လူမျိုးများက သင့်အား လိုအပ်နေပါသည်။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "အချိန်ရောက်ပြီ၊ <name>၊ Ironforge ကို သွားဖို့။ Hall of Mysteries ထဲက High Priestess Mims က မင်းကို ကိုယ်တိုင်လာပြီး သူမနဲ့ စကားပြောဖို့ အမိန့်ပေးထားတယ်။ High Priestess က မင်းကို ကိုယ်တိုင်လာဖို့ ခေါ်တာဆိုတော့ တကယ်ကောင်းတာတစ်ခုမဟုတ်ရင် တကယ်ဆိုးတာတစ်ခုဖြစ်မယ်ထင်ရပေမယ့် မင်းက အမြဲကောင်းကောင်းလုပ်ခဲ့တာမို့ သူမက မင်းနဲ့ စကားပြောချင်တာက ကောင်းတာပဲ။\n\nဒါပေမယ့် ဒီမှာတော့ အချိန် မပိုမို မဖြုန်းပါနဲ့။ အမြန်ဆုံး Ironforge ကို သွားလိုက်ပါ။"
+          },
+          {
+            "detectedSourceLanguage": "EN",
+            "text": "အဲလူန့်အား ဂုဏ်ပြုပါစေ၊ သင့်အလင်း <name> အားလည်း ဂုဏ်ပြုပါစေ။\n\nဒီအချိန်ခန့်တွင် ကျွန်ုပ်တို့၏ အဖွဲ့ဝင်အများစုသည် အဲလူန့်အပေါ် ယုံကြည်မှုကို ပြသသည့် စွမ်းရည်များကို သင်ယူကြသည်။ ဗဟုသုတက ကျွန်ုပ်အား အကူအညီပေးနိုင်ပါက၊ သင့်အဖွဲ့အတွက်လည်း ထိုအတိုင်းမှန်ကန်မည်ဟု ယုံကြည်ပါသည်။\n\nဒာနတ်ဆတ်စ်တွင် သင့်လုပ်ငန်းများ ပြီးဆုံးသောအခါ၊ နောက်ထပ် သင်တန်းများအတွက် သင့်အဖွဲ့၏ အထွတ်အထိပ် ဘုန်းကြီးမေကြီးကို ရှာဖွေတွေ့ဆုံလိုပါသည်။"
+          }
+        ]
+      }
+    ]
+  }
+}
