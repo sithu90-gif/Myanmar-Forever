@@ -1,0 +1,73 @@
+{
+  "validatedAtUTC": "2026-11-14T20:41:39.476420+00:00",
+  "quests": 10,
+  "enabledFields": 44,
+  "availableSourceFields": 45,
+  "currentPrimaryFields": 44,
+  "heldFields": 1,
+  "unavailableFields": [
+    {
+      "id": 94494,
+      "field": "progress"
+    },
+    {
+      "id": 94495,
+      "field": "progress"
+    },
+    {
+      "id": 94503,
+      "field": "progress"
+    },
+    {
+      "id": 94616,
+      "field": "objective"
+    },
+    {
+      "id": 94616,
+      "field": "progress"
+    }
+  ],
+  "reviewedGroups": [
+    [
+      94494,
+      94495,
+      94497,
+      94499,
+      94500,
+      94501,
+      94502,
+      94503,
+      94505,
+      94616
+    ]
+  ],
+  "linguisticLintIssues": [],
+  "buildReleaseValidateFields": "passed all10quests/all50fieldstates; exact English/Myanmar hashes, placeholders, numeric multisets, encoding, missing states and hold",
+  "rawDeepLMappingValidation": "passed45input/response/index mappings, actual raw file hashes and per-field English/raw/edited hashes;2batches4689+3363inputcharacters;44enabled+1held",
+  "sourceBoundaryValidation": "passed20originalHTMLfilehashes and10primaryreparses with current fixed helper; manual HTML boundary evidence in source-boundaries.json",
+  "upstreamCountercheck": "all10 IDs/English titles/field presence match pinned UA1.0.1; catalog file hash verified. Record-specific differences in source-review.json. Root handles composed-release audit.",
+  "writtenQuantities": "separate manual reread saved in written-quantity-review.json; raw Arabic numeric multisets also passed",
+  "independentAssistedReview": "not performed by worker; root to assign fresh independent review",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "artifactSHA256": {
+    "edited.json": "60e9755aebcbadb7bc0ef4678287a5f331e6425d715bec3d762aff947a2e9d49",
+    "pronunciations.json": "d2fef796e7c6a3323a95a7c61ec193246af059c827cda79cf12abe142e977000",
+    "pronunciation-proposals.json": "f987764929f975800160d2f7648bf11780d2f2241593eb0303df654f450abf54",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "english-sources.json": "872255c02cde7bca0d8dcb9ee223de958b2d7fc4ce741facc8346071223adfb1",
+    "review-audit.json": "a3fc9850cc9861a2f498ac19ea4bf2861f1414db0882faa282ad1bcd3360710b",
+    "comparison-provenance.json": "1fec80d85141d92910e05d1835fa04cca7295c83cd967e0a16102ef508ac4dd1",
+    "held-fields.json": "9ca7a5bfe6f87328a0ff76582617d1bed548c3be3e32cceb7f101ab5822516d7",
+    "held-proposals.json": "7dfd21a8646839a268880b7b6561edfd1076d9da35331c0273b39498daadb131",
+    "review-groups.json": "ae03199cfcffa0ee415148babfbebd9f305b7b73ab6c1f82d851d9840963f4b9",
+    "source-review.json": "498c4391cff551528e460e7fdc53fe0ade7af014e9a6a20e65d1bc30d31f0b40",
+    "source-boundaries.json": "96a38a199df65fcb8c8a6577923cba9de14ff17295f7d3b716a2eeacf245d06e",
+    "written-quantity-review.json": "d6c257442a6a5fee99f11b05f234cfe26777bd9d6e98d65223745c1d17daea16",
+    "fetched.json": "750192644cc1c57ad92eaf171d075eecf301b12d08f51d3175f726048145e5f9",
+    "deepl-input-01.json": "00f1e793ddb1413dab764483766b82754ad10abcd5c0736ec76c57ac27f8e5c8",
+    "deepl-input-02.json": "82b776d859f35d23a62ab7788c8ee249f6d11be4959788025b7e2dbe4df0ddc2",
+    "deepl-raw-01.json": "35fc1caae619e87c49c4b7d3490610511347ce377c511109ec00b152e8d5c7ef",
+    "deepl-raw-02.json": "9c33635bc0c5ef5175fdbf17c67b9e3496b53db2970f19c0df201db1623d51ac"
+  }
+}

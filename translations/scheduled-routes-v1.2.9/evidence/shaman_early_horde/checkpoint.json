@@ -1,0 +1,129 @@
+{
+  "status": "originals frozen; independent assisted review pending",
+  "frozenAt": "2026-11-14T20:44:45.599198+00:00",
+  "worktree": "work/Myanmar-Forever-v1.2.9",
+  "partition": "work/morning-2026-11-15/shaman_early_horde",
+  "selectedQuestIDs": [
+    98581,
+    96243,
+    1523,
+    2983,
+    2984,
+    94473,
+    1528,
+    1529,
+    2985,
+    2986,
+    1530,
+    1535,
+    1536,
+    1534,
+    220,
+    63,
+    100,
+    96,
+    972,
+    1103
+  ],
+  "reviewGroups": [
+    [
+      98581,
+      96243,
+      1523,
+      2983,
+      2984,
+      94473
+    ],
+    [
+      1528,
+      1529,
+      2985,
+      2986,
+      1530,
+      1535,
+      1536
+    ],
+    [
+      1534,
+      220,
+      63,
+      100,
+      96,
+      972,
+      1103
+    ]
+  ],
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.1",
+    "commit": "ab388ca8df990310d96320c88689831587f76e33",
+    "checkedAt": "2026-11-14T20:27:24.778535+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.1",
+    "publishedAtUTC": "2026-11-14T17:05:51Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.1/UA_Forever-1.0.1.zip",
+    "assetSHA256": "a8f3b284c70434c72b6bfc68477facc4dfede1b403ea1ba568a711f2d8770c98",
+    "catalogSHA256": "faf218b2ebf05874b6f048c2ed66d3c462124296c0e9544af275da86039d88d3"
+  },
+  "questCount": 20,
+  "availableEnglishFieldCount": 87,
+  "enabledFieldCount": 83,
+  "heldFieldCount": 4,
+  "heldFields": [
+    {
+      "id": 94473,
+      "field": "detail",
+      "reason": "Current Forever HTML has no Description state; legacy60.tools recovery offer is not independent evidence of a current offer. Held rather than filling absent current state.",
+      "evidence": "94473-wowhead.html / title directly followed by objective, mapper and Completion;94473-sixty.html Description proposal"
+    },
+    {
+      "id": 94473,
+      "field": "complete",
+      "reason": "Current Forever completion hardcodes Ukko rather than a supported player marker. No sanitized live evidence establishes whether this is intended literal text or leaked player substitution. Hold entire field without inventing marker replacement.",
+      "evidence": "94473-wowhead.html#lknlksndgg-completion"
+    },
+    {
+      "id": 972,
+      "field": "detail",
+      "reason": "Current Forever HTML is completion-only: title immediately followed by bare Completion heading. Legacy offer is incompatible with current field layout; do not refill.",
+      "evidence": "972-wowhead.html / heading-size-1 followed by h2 Completion;972-sixty.html Description proposal"
+    },
+    {
+      "id": 1103,
+      "field": "detail",
+      "reason": "Source includes unsupported gender alternative <brotha/sista>; hold whole field pending supported dynamic routing or sanitized live evidence. Do not erase or select alternative.",
+      "evidence": "1103-wowhead.html / Description"
+    }
+  ],
+  "checks": {
+    "linguisticLintIssues": 0,
+    "validateFieldsPassedQuestCount": 20,
+    "provenanceAll87FieldsVerified": true,
+    "maxDeepLInputCharacters": 4742
+  },
+  "artifacts": {
+    "edited.json": "5bb230c29521d71ce70a25ba5b91632837a04d541fb0c7e2d3cdfcf299152c98",
+    "english-sources.json": "5a49c0dbb6c75844adf31c4d8417981b937e15d0b17e687b797efb7d729f9bae",
+    "pronunciations.json": "8e6fba71e8d2d3315757979edc5bb71e8f93ad8798f0c0ad660a86566959040c",
+    "proposed-pronunciations.json": "6b8d279ef3da1321c0cb6378a030caaa8d001210611e71f2e7780a78534d4369",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "held-fields.json": "76448cac2178006143a69aaf97df47aafc0c37c2c8b9fd141b0342df92039254",
+    "held-proposals.json": "43c6fa8f1c23948fc3a49c6e3355fe34bc871c7d2c47677ecb49f620f22d703c",
+    "review-audit.json": "c1ed4312a0ad6448d9fb220b70854ccee9470bbcd9e64eabd7b959b65ea8ab50",
+    "comparison-provenance.json": "cfda519f4ceb98bf3a5a812c33e85d2d82e63224f517c775c0fb666dec10bad5",
+    "review-groups.json": "83c0cf254682e3560101c4a63be6ac56f5d18e8063a6d1c50db6ebc08a93ca22",
+    "validation.json": "8f4a01aa106aa9bb3fa94aa0cbb6e2ff0b172c82a51294b66f0570ae349f609f",
+    "source-boundaries.json": "b352bd6e4228da00658ca14af93ce9839c878106efb76404dc89cfa5d362bd4e",
+    "validate_partition.py": "e42baf2fbc5f9a1e37713e903c0a861101eda01ce593582e2f77d832296757a8",
+    "deepl-input-01.json": "e267f8af1934c501580724f617324a2ae8e8f3eae534d4c4c455fbc787afcf3c",
+    "deepl-raw-01.json": "e8916526d768bbb7bf7c6e5deb56c8e1ceaaa685c6faf2edbff4a2d8b6faec83",
+    "deepl-input-02.json": "5ba91fd3db4a7f55a25fe8e128f6b80fcf4bf47dccd604e5d295bfe6d5048700",
+    "deepl-raw-02.json": "ad55f38be944481d5b5537fddde0b8a2d713a458acba4502bc0a7ce27f747f0d",
+    "deepl-input-03.json": "d9376f661d4c230ebb80cc5177def36bcb5da8e31e18fe1b5ace933c1f70d78f",
+    "deepl-raw-03.json": "e2d1c8f756736734bd6e0f10f4947874691ff900c8439f6df0c1285f60a44364",
+    "deepl-input-04.json": "0f7fece8873afd6f657142cc69383fce2c220c2938d7219c5032aea998c76780",
+    "deepl-raw-04.json": "3e2a61d92cae13bf3e864c119cab807dd34112c74ed074f09e8e5b8ad05ad31e"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "independentAssistedReview": "not performed"
+}

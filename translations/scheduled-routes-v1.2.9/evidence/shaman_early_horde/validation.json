@@ -1,0 +1,123 @@
+{
+  "checkedAt": "2026-11-14T20:44:24.906755+00:00",
+  "questCount": 20,
+  "availableEnglishFieldCount": 87,
+  "enabledFieldCount": 83,
+  "heldFieldCount": 4,
+  "linguisticLint": {
+    "tool": "current v1.2.9 BuildSource.linguistic_lint.lint",
+    "issueCount": 0,
+    "issues": []
+  },
+  "validateFields": {
+    "tool": "current v1.2.9 tools.build_release.validate_fields",
+    "passedQuestCount": 20,
+    "errors": []
+  },
+  "provenanceChecks": {
+    "allAvailableEnglishSentToDeepL": true,
+    "allRawOutputsDirectlyMapped": true,
+    "allRequestResponseFilesSHA256Verified": true,
+    "allInputIdentitiesAndTextHashesMatch": true,
+    "maximumInputCharacters": 4742,
+    "inputResponseFieldCountsMatch": true
+  },
+  "groups": [
+    {
+      "id": "shaman-early-horde-1",
+      "questIDs": [
+        98581,
+        96243,
+        1523,
+        2983,
+        2984,
+        94473
+      ],
+      "status": "assisted English/Myanmar review completed; independent review pending",
+      "checkpointAt": "2026-11-14T20:37:26.804692+00:00",
+      "sourcePins": "../upstream-reference.json",
+      "sourceEvidence": [
+        "english-sources.json",
+        "source-boundaries.json"
+      ],
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "fieldCount": 23,
+      "checks": [
+        "Separate read against current English across all five states",
+        "Corrected DeepL next sapta mistranslated as last sapta",
+        "Corrected Earth as planet and hammer as digging tool; exact identities and first-use phonetics restored",
+        "Preserved Xanis/Swart/Narm alternative starter names and lower-case player markers",
+        "Kept94473 detail and Ukko completion held; all available English including held proposals translated through DeepL"
+      ]
+    },
+    {
+      "id": "shaman-early-horde-2",
+      "questIDs": [
+        1528,
+        1529,
+        2985,
+        2986,
+        1530,
+        1535,
+        1536
+      ],
+      "status": "assisted English/Myanmar review completed; independent review pending",
+      "checkpointAt": "2026-11-14T20:39:12.036222+00:00",
+      "sourcePins": "../upstream-reference.json",
+      "sourceEvidence": [
+        "english-sources.json",
+        "source-boundaries.json"
+      ],
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "fieldCount": 30,
+      "checks": [
+        "Separate English/Myanmar read of all five states and source boundaries",
+        "Restored horizon metaphor instead of defensive line; big shark instead of mistranslated creature",
+        "Restored Brine NPC identity instead of saltwater; exact route south/east and alternatives",
+        "Brown BELOW hut; Red Tarren Mill WELL; return Brine/Barrens distinct from Alliance variants",
+        "Corrected1536<name> as addressee rather than childhood storyteller; preserved both uncertainty statements; fresh spring well and final one-sample count",
+        "Preserved Brine skepticism/quilboar greed/clan-unity rhetorical question without added claims"
+      ]
+    },
+    {
+      "id": "shaman-early-horde-3",
+      "questIDs": [
+        1534,
+        220,
+        63,
+        100,
+        96,
+        972,
+        1103
+      ],
+      "status": "assisted English/Myanmar review completed; independent review pending",
+      "checkpointAt": "2026-11-14T20:40:55.385264+00:00",
+      "sourcePins": "../upstream-reference.json",
+      "sourceEvidence": [
+        "english-sources.json",
+        "source-boundaries.json"
+      ],
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "fieldCount": 30,
+      "checks": [
+        "Separate English/Myanmar read of every available state, including current completion-only and gender-token holds",
+        "Blue Ruins of Stardust and central fountain; north then west beyond Lake Mystral; three samples retained",
+        "220 separates vial creation, sapta and remaining drops;63 bracers AND drops at brazier;100 then96 not premature reward",
+        "Corrected DeepL drops translated as powders; incantation translated as Mandalay; actualWaterTotem identity restored",
+        "972 corrected <name> wrongly made pool owner; live greeting addressee preserved",
+        "1103 corrected waited TOO LONG instead of insufficient wait, HIS components, conditional recovery, accompaniment DOWN shrine",
+        "Actual96 reward HealingStreamTotem5394 plusWaterTotem5177 checked in original current HTML; not added to dialogue"
+      ]
+    }
+  ],
+  "sourceReview": "All5 states and originalHTML boundaries read; current primary controls; conflicting/unavailable fields held. See per-field notes and source-boundaries.json.",
+  "independentAssistedReview": "not performed",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

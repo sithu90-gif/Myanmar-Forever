@@ -410,3 +410,71 @@ if EXPECTED_DISABLED_FIELDS and EXPECTED_DISABLED_FIELDS['5639.detail'] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS: hash-guarded5639 legacy-offer hold retains valid title/completion and original-language fallback/capture.')
 end
+
+if A.quests[94913] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({5923,5924,5925,5926,5927,5928,94911,94912,94913,94914,98340,98393,98405,98394,98342,98396,98739,98731,98362,98397,98581,96243,1523,2983,2984,94473,1528,1529,2985,2986,1530,1535,1536,1534,220,63,100,96,972,1103,94494,94495,94497,94499,94500,94501,94502,94503,94505,94616}) do
+    assert(A.quests[id] and A.quests[id].title,'15 November morning quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'New Druid/Shaman dialogue routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'New quest capture lost ID/title')
+    end
+  end
+  for _,h in ipairs({{94473,"detail"},{94473,"complete"},{972,"detail"},{1103,"detail"},{94616,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'New held source state lost original-language fallback/capture')
+  end
+  assert(EXPECTED_DISABLED_FIELDS['5639.detail'] and not A.quests[5639].detail,'Prior guarded legacy-offer hold was refilled')
+  for _,id in ipairs({972,94616}) do
+    assert(not A.quests[id].detail and not A.quests[id].objective and not A.quests[id].progress and A.quests[id].complete,'Completion-only sapta recovery invented a legacy offer')
+  end
+  assert(not A.quests[94473].complete and A.quests[94473].objective,'Hardcoded Ukko reply enabled or valid recovery goal lost')
+  titleOverride=nil;questID=0;fire('QUEST_FINISHED')
+  print('PASS:15November50 records across150 dialogue states, new source-hold fallback/capture, completion-only sapta boundaries and retained5639 guard.')
+end
+
+if A.quests[94913] then
+  local expected={
+    [94913]={"Teleport: Moonglade","Dendrite Starblaze","Nighthaven"},
+    [94914]={"Teleport: Moonglade","Dendrite Starblaze","Nighthaven"},
+    [98342]={"Relic of the Fang","Relic of the Claw","Relic of the Silent Shadow","Stormrage Barrow Den","Great Cat Spirit"},
+    [98396]={"Relic of the Fang","Relic of the Claw","Relic of the Silent Shadow","Stormrage Barrow Den","Great Cat Spirit"},
+    [98362]={"Thunder Bluff","Turak Runetotem"},
+    [98397]={"Darnassus","Mathrengyl Bearwalker"},
+    [98731]={"Dendrite"},
+    [98739]={"Dendrite"},
+    [98581]={"Archaic Rune","Teo Hammerstorm","Anvilmar"},
+    [96243]={"Teo Hammerstorm","Dun Morogh"},
+    [1523]={"Kranal Fiss","Barrens"},
+    [2983]={"Kranal Fiss","Barrens"},
+    [2984]={"Kranal Fiss","Barrens"},
+    [1530]={"Brine"},
+    [1535]={"Empty Brown Waterskin","Brine"},
+    [1536]={"Empty Red Waterskin","Tarren Mill","Brine"},
+    [1534]={"Empty Blue Waterskin","Ruins of Stardust","Brine"},
+    [220]={"Vial of Purest Water","Islen Waterseer"},
+    [63]={"Corrupt Manifestation of Water","Bracers","Remaining Drops of Purest Water","Brazier of Everfount"},
+    [100]={"Minor Manifestation of Water","Silverpine Forest"},
+    [96]={"Shard of Water","Islen Waterseer"},
+    [1103]={"Water Sapta","Tiev Mordune","Minor Manifestation of Water"},
+    [94494]={"Norric Lochthane","Loch Modan"},
+    [94495]={"Hervdana Saegrund","Wetlands"},
+    [94497]={"Empty Brown Waterskin","Hervdana","Wetlands"},
+    [94499]={"Empty Red Waterskin","Stonewatch Falls","Nightcrawler Murlocs","Hervdana Saegrund"},
+    [94500]={"Unfilled Blue Waterskin","Astranaar","Hervdana Saegrund"},
+    [94501]={"Vial of Purest Water","Norric Lochthane"},
+    [94502]={"Water Sapta","Stendel's Pond","Norric"},
+    [94503]={"Minor Manifestation of Water","Westfall"},
+    [94505]={"Shard of Water","Norric Lochthane"}}
+  for id,terms in pairs(expected) do
+    local objective=assert(A.quests[id].objective,'Supported route objective missing: '..id):lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'Druid relic/teleport or Water color/location/recipient contract failed: '..id..'/'..term) end
+  end
+  assert(A.quests[1523].complete:find('Xanis',1,true) and not A.quests[1523].complete:find('Narm',1,true),'Current Fire referrer replaced by legacy branch')
+  for _,id in ipairs({94913,94914}) do assert(A.quests[id].objective:find('Teleport: Moonglade',1,true),'Teleport spell identity lost') end
+  assert(A.quests[94502].objective:find('Water Sapta',1,true),'Current drink-sapta objective omitted')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:31 current-English Druid/Shaman recipient/item/color/location contracts, distinct relic triples, teleport spell, current Fire referrer and Alliance sapta instruction.')
+end

@@ -1,0 +1,67 @@
+{
+  "result": "PASS; retain existing reviewed text",
+  "id": 140,
+  "change": "UA1.0.1 English label changed from Captain Sanders apostrophe to Captain Sander apostrophe-s, now matching canonical shipped title.",
+  "oldUpstreamEnglishTitle": "Captain Sanders' Hidden Treasure",
+  "newUpstreamEnglishTitle": "Captain Sander's Hidden Treasure",
+  "currentPrimary": {
+    "url": "https://www.wowhead.com/forever/quest%3D140/captain-sanders-hidden-treasure",
+    "sha256": "46b83079809e9c0e298c3aaa7443eed75a7c3d5b0bbd177e1b2ab613bbfacb99",
+    "english": {
+      "title": "Captain Sander's Hidden Treasure",
+      "objective": "Locate Captain Sanders' chest and open it for your reward.",
+      "progress": null,
+      "complete": "The hinges on the old chest are rusty but they still work.  You force the chest open and take the booty.\n\nCongratulations!",
+      "detail": "Sure enough, deep within the Old Jug there is another clue to Sander's treasure.  The ink has run in some places and the paper smells like whiskey but you can make out some of the text:  Now that ye found me ol' whiskey jug, you're almost to the treasure!  Just face West from the bottle and walk down to the shore.  Once ye get to the water, keep going!  Swim straight west till you find the island with me treasure chest!"
+    }
+  },
+  "secondary": {
+    "url": "https://www.60.tools/quests/140-captain-sanders-hidden-treasure",
+    "sha256": "9481bcea9c95a14eaadd905929d150bab41ad0999b08e8d3087e6a1dc676f21f",
+    "english": {
+      "title": "Captain Sander's Hidden Treasure",
+      "objective": "Locate Captain Sanders' chest and open it for your reward.",
+      "detail": "Sure enough, deep within the Old Jug there is another clue to Sander's treasure.  The ink has run in some places and the paper smells like whiskey but you can make out some of the text:  Now that ye found me ol' whiskey jug, you're almost to the treasure!  Just face West from the bottle and walk down to the shore.  Once ye get to the water, keep going!  Swim straight west till you find the island with me treasure chest!",
+      "progress": null,
+      "complete": "The hinges on the old chest are rusty but they still work. You force the chest open and take the booty.\n\nCongratulations!"
+    }
+  },
+  "fieldReview": {
+    "title": {
+      "englishSHA256": "4927889a2b9c9ddd51db5645064b4d21baf15600e56897f8475ea3fd31d29699",
+      "myanmarSHA256": "e7082cc575122a57f037ce6e222c104bfbc45b71bab9b5fc4defc998f71c0261",
+      "decision": "Preserve existing reviewed field; current source meaning/state agrees."
+    },
+    "objective": {
+      "englishSHA256": "bc9e57666c210172c85f652d34ed66db0cde4ddc7be7523f31e55b282bc5a843",
+      "myanmarSHA256": "8852a605ea1fad85247073a822efcf2563e114727d467808ee79221d17f2f77b",
+      "decision": "Preserve existing reviewed field; current source meaning/state agrees."
+    },
+    "progress": {
+      "englishSHA256": null,
+      "myanmarSHA256": null,
+      "decision": "Preserve existing reviewed field; current source meaning/state agrees."
+    },
+    "complete": {
+      "englishSHA256": "ed63a9a042b55f7014d0a09fd68e7081eac9de7c95772f5ae1fda1cb825d4458",
+      "myanmarSHA256": "4ac3dd7bba82116da754a0dcb13d4c77710d4426dfcbe1a997b9d8d95d482105",
+      "decision": "Preserve existing reviewed field; current source meaning/state agrees."
+    },
+    "detail": {
+      "englishSHA256": "311e0f53a625aedc359dc12f43b244fae77049778fdccca903a21e80d2873e51",
+      "myanmarSHA256": "0be45673f00f2de3563c3880a009b3739d2fc2ac887fd0a4c701152cbbaeb487",
+      "decision": "Preserve existing reviewed field; current source meaning/state agrees."
+    }
+  },
+  "sourceAwareReviewNotes": [
+    "Treasure clue remains inside Old Jug; weathered/whiskey-scented paper and pirate voice retained.",
+    "Face west from the bottle, head to the shoreline and continue straight west by swimming to the island/chest; no direction changed.",
+    "Objective still opens Captain Sanders chest; rusty working hinges, force open, take booty and congratulations remain intact.",
+    "Progress absent in primary/secondary and composed Myanmar; no state invented.",
+    "Existing exact former-title alias stays specific; no generic alias added. Canonical English row already matches new upstream spelling."
+  ],
+  "newTranslations": 0,
+  "guardedCorrections": 0,
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

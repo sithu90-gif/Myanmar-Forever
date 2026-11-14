@@ -1,0 +1,277 @@
+{
+  "quests": [
+    {
+      "id": 5923,
+      "reviewNotes": [
+        "Read title, detail, objective and complete against current original HTML. Denatharion 4218 to Mathrengyl Bearwalker 4217 is the Night Elf referral; Darnassus/Cenarion Enclave and second floor of Fandral Staghelm's tree remain exact.",
+        "The ordinary Heeding the Call title is semantic; full/short Mathrengyl share one established identity in detail. Completion explicitly teaches the bear as in current English, keeps <class>, Cenarius and the balance/care instructions. Progress is absent and remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5924,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Theridran 5505 to Mathrengyl Bearwalker 4217 is this separate Night Elf referral, not the Turak branch; Cenarion Enclave/Darnassus and second floor are preserved.",
+        "Current completion includes the bear lesson, bodily/heart strength and Ready yourself; none was replaced with Cat text. <class> and first-use identities match. Progress absent; ordinary title translated semantically."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5925,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Kal 3602 to Mathrengyl Bearwalker 4217 matches the installed Night Elf alternative and same-title source. Second floor, tree owner, enclave and city are preserved.",
+        "Friendly referral and mentor completion retain source tone, Cenarius, care for animals/plants, bear lesson and exact <class>. Progress absent remains null; title has ordinary semantic wording."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5926,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Innkeeper Pala 6746 to Turak Runetotem 3033 is the Tauren alternative. Thunder Bluff, Elder Rise and the Cenarion Circle main tent are preserved; this is not Mathrengyl's tree referral.",
+        "Wise/patient assistant description, personal training, Cenarius and bear lesson match current English; <class> remains exact. First-use pronunciations follow maintained forms. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5927,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Innkeeper Gryshka 6929 to Turak Runetotem 3033 is distinct from 5926/5928 despite identical title/text. Installed Tauren restriction and Elder Rise/main tent destination agree.",
+        "Referral politeness and mentor's nature/balance/bear explanation preserve source voice and instructions; exact <class> retained. Title is ordinary semantic framing; progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 5928,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Gennia Runetotem 3064 to Turak Runetotem 3033 is this Tauren alternative; Cenarion Circle main tent on Thunder Bluff's Elder Rise is correctly distinct from Alliance destination.",
+        "Training, wise/patient characterization, Cenarius and the initial bear lesson remain source-faithful. Exact <class>, first-use names and ordinary title wording checked. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94911,
+      "reviewNotes": [
+        "Read all four enabled fields and original boundaries. Installed Horde Skyborne restriction uses mask 8589934592, with starts 259118/259119 and end Turak 3033; original HTML identifies Muln Earthfury start and does not expose the special Horde race ID in its captured race list. Eligibility is metadata/source evidence, not a live acceptance test.",
+        "Completion actually says high elf while the Alliance alternative says Skyborne. Preserve that current English discrepancy; do not normalize it or infer a missing dialogue branch. The wind blessing, Earthen Ring welcome, druid knowledge and exact <race> remain faithful. Current completion is present in original HTML although secondary 60.tools lacks it.",
+        "Completion needs the Azeroth destination correction below. high elf phonetics match maintained High Elf spelling. Progress absent remains null; Child of Nature is ordinary semantic title framing."
+      ],
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "af09e1a136c151f1803c0ea2c9acf0f7ad9f907572ad95ccd24bd943cb63bfb5",
+          "reviewedMyanmarSHA256": "6a3591f337c503058f1f62d055170e229363a0953195dab0b731846c1cd2c68a",
+          "old": "Azeroth (အက်ဇရော့သ်) မှ",
+          "new": "Azeroth (အက်ဇရော့သ်) သို့",
+          "proposedFullField": "Thunder Bluff (သန်ဒါ ဘလဖ်) မှာ... ကျွန်ုပ်နဲ့ လာစကားပြောနေတဲ့ high elf (ဟိုင်း အယ်လ်ဖ်) တစ်ဦးပါလား။ အံ့ဩစရာတွေက ဆုံးနိုင်ပါဦးမလား?\n\nကဲ၊ လေကို ပုံဖော်သူရေ၊ ကျွန်ုပ်တို့ရဲ့ Earthen Ring (အာသန် ရင်းဂ်) ညီအစ်ကိုမောင်နှမတွေနဲ့အတူ သင့်ကို Azeroth (အက်ဇရော့သ်) သို့ ကြိုဆိုပါရစေ။ သဘာဝရဲ့ သားသမီးရေ၊ Cenarion Circle (ဆနာရီယန် ဆာကယ်လ်) က ကျွန်ုပ်ရဲ့ druid (ဒရူးအစ်ဒ်) မိတ်ဆွေတွေမှာ သင့်ကို မျှဝေပေးဖို့ ဉာဏ်ပညာ အများကြီး ရှိပါတယ်။",
+          "reason": "Current English welcomes the player to Azeroth. Myanmar မှ marks a source/from; သို့ preserves the destination/to without changing the high elf versus Skyborne source wording or tokens."
+        }
+      ]
+    },
+    {
+      "id": 94912,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Starts Archmage Ansirem Runeweaver 2543 / Alfina Nightgaze 270459, ends Sheldras Moontree 5504 in Stormwind. Installed Alliance Skyborne mask 4294967296 and source race 95 distinguish it from Horde Turak referral.",
+        "Druidic-order explanation, night elf trainer, Kalimdor/Moonglade destination and save-your-home condition are retained. Completion explicitly names Skyborne and has two exact <class> markers. Current HTML supplies objective/completion missing in secondary source.",
+        "Completion needs the Azeroth destination correction below; other first-use identities are annotated independently. Progress absent remains null; title is semantic Child of Nature."
+      ],
+      "issues": [
+        {
+          "field": "complete",
+          "englishSHA256": "c8b8962a8421d0e9c253a7e7154a53e8f05cc8f9ef51926ca4f232c398a52b84",
+          "reviewedMyanmarSHA256": "dfdeed2252fb0546deb15e054a9a41bf8da37be3d4b674685109dc226a1ef289",
+          "old": "Azeroth (အက်ဇရော့သ်) မှ",
+          "new": "Azeroth (အက်ဇရော့သ်) သို့",
+          "proposedFullField": "မင်္ဂလာပါ၊ <class> မိတ်ဆွေ။ Skyborne (စကိုင်းဘောန်း) တွေထဲက <class> မိတ်ဆွေတစ်ဦးနဲ့ တွေ့ရတာ ဝမ်းသာပါတယ်။ သင့်ကို Azeroth (အက်ဇရော့သ်) သို့ ပထမဆုံး ကြိုဆိုသူတွေထဲမှာ ပါဝင်ရတာလည်း ဝမ်းသာပါတယ်။\n\nသဘာဝရဲ့ သားသမီးရေ၊ Cenarion Circle (ဆနာရီယန် ဆာကယ်လ်) က ကျွန်ုပ်ရဲ့ druid (ဒရူးအစ်ဒ်) မိတ်ဆွေတွေမှာ သင့်ကို မျှဝေပေးဖို့ ဉာဏ်ပညာ အများကြီးရှိတာ တွေ့ရလိမ့်မယ်လို့ ထင်ပါတယ်။",
+          "reason": "Current English welcomes the player to Azeroth. Myanmar မှ marks a source/from; သို့ preserves the destination/to without changing the high elf versus Skyborne source wording or tokens."
+        }
+      ]
+    },
+    {
+      "id": 94913,
+      "reviewNotes": [
+        "Read all four enabled fields and raw boundaries. Horde Skyborne metadata restricts this Turak 3033 to Dendrite Starblaze 11802 referral; captured source race list omits that special race. Moonglade title retains the identifying place with its maintained phonetics.",
+        "Objective retains the exact Teleport: Moonglade spell identity and arrival-before-speaking order in Nighthaven. Keeper Remulos, hibernating druids, knowledge/solace and Azeroth-first-lesson clauses match English; completion explicitly acknowledges already-mastered Bear form, not a new Bear reward. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94914,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Alliance Skyborne mask 4294967296/source race 95 identifies Sheldras 5504 to Dendrite 11802; this differs from 94913's Turak start. Moonglade title keeps English place identity and maintained phonetics.",
+        "Teleport: Moonglade, Nighthaven arrival, Keeper Remulos and the first Azeroth lesson preserve field-independent identities and sequencing. Original completion says the Bear form was already mastered; no old referral state was added. <class> exact; progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98340,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Turak 3033 to Dendrite 11802 is the Horde trainer-to-Nighthaven introduction; source lists Tauren while installed mask also includes Horde Skyborne (8589934624). Treat Skyborne continuity as requiring live verification rather than widening any middle step.",
+        "The Great Cat Spirit title identifies the NPC and retains English plus phonetics. Detail preserves already-known travel magic, optional immediate departure and training condition. Completion retains Father Cenarius, Dendrite's bracketed quick invisible gesture/slight aura, exact <name>, cat-next-perspective and the learner's responsibility. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98405,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Dendrite 11802 to Great Cat Spirit 11957 is the Tauren spirit-meeting step (mask 32), distinct from trainer referral and relic collection. Southern Moonglade hill overlooking the bridge is preserved.",
+        "NPC-identifying title, Great Bear Spirit comparison, all-druids/eventual-wisdom condition and shape-readiness completion agree with English; per-field identities/phonetics checked. Progress absent remains null. Metadata does not extend this middle step to Skyborne; live route continuity remains untested."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98342,
+      "reviewNotes": [
+        "Read all five enabled fields against original HTML. Great Cat Spirit 11957 starts and ends this Tauren relic trial. The three exact item identities/IDs are Fang 280502, Claw 280679 and Silent Shadow 280680; original objective item rows show one each, while narrative says three relics. No item-table UI text entered objective.",
+        "Cunning/stealth/cornered ferocity, enraged on-sight guards, entrance statue's temporary stealth and return-to-spirit stages match. Proposed detail edit restores proximity in just east of here. Objective needs compound pronunciation reconciliation below; all three English item/place identities and Great Cat Spirit remain intact.",
+        "Progress is genuinely present in the hidden Progress div and asks whether relics were brought; completion's worthiness/blessing and exact <class> are retained. No unsupported gender marker, invented state or legacy refill found."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "879169e15758624712c3b904d5308fe3773b21f4418a1f406e20e42b24046ece",
+          "reviewedMyanmarSHA256": "8f441b7caa3dca843857b55ddb156102da559f7ac019d4065b7870c97220a0d5",
+          "old": "ဒီနေရာရဲ့ အရှေ့ဘက်က Barrow Dens",
+          "new": "ဒီနေရာရဲ့ အရှေ့ဘက်နားက Barrow Dens",
+          "proposedFullField": "ငါ့ဝိညာဉ်ရဲ့ စွမ်းအားကို ဆွဲယူသုံးစွဲဖို့ မင်းမှာ စကားအနည်းငယ်ထက် ပိုလိုအပ်လိမ့်မယ်။ ငါ့အသွင်ကို နားလည်လေးစားဖို့ မင်းဟာ ပါးနပ်လိမ္မာမှု၊ ပုန်းလျှိုးမှုနဲ့ ချောင်ပိတ်မိရင် ပြင်းထန်ကြမ်းကြုတ်မှုတို့ကို လက်တွေ့ဖော်ဆောင်နိုင်ကြောင်း သက်သေပြရမယ်။\n\nဒီနေရာရဲ့ အရှေ့ဘက်နားက Barrow Dens (ဘဲရိုး ဒန်ဇ်) မှာ ငါ့မျက်နှာသာနဲ့ဆိုင်တဲ့ ရှေးဟောင်းအမွေအနှစ် သုံးခု ရှိတယ်။ မင်း အဲဒါတွေကို ရယူရမယ်။ အင်အားကြီးပြီး ဒေါသထွက်နေတဲ့ ဝိညာဉ်တွေက အဲဒါတွေကို စောင့်ကြပ်နေပြီး မင်းကို မြင်တာနဲ့ တိုက်ခိုက်လိမ့်မယ်။ ဝင်ပေါက်က ရုပ်တုတစ်ခုက သူတို့ကို ကျော်သွားနိုင်ဖို့ ယာယီ ပုန်းလျှိုးနိုင်စွမ်းကို မင်းအား ချီးမြှင့်ပေးလိမ့်မယ်။\n\nဒီရှေးဟောင်းအမွေအနှစ်တွေကို ငါ့ဆီ ယူလာခဲ့။ ငါ့အသွင်ကို ယူဖို့ မင်း အသင့်ဖြစ်မဖြစ် ကြည့်ကြမယ်။",
+          "reason": "Original Description says Barrow Dens just east of here. Restore the nearby/proximity component as အရှေ့ဘက်နားက while retaining east, the three relics, guards and temporary-stealth conditions."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "2721122270960575fcbcea60f32105f8dc3adb13c8dcf522d56a0dd19b7e2381",
+          "reviewedMyanmarSHA256": "313c679d7bc9355bf05dd80ccffcd8833960dc7d7a009cbf06edc5a0564706b9",
+          "old": "Stormrage Barrow Den (စတောမ်ရေ့ဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "new": "Stormrage Barrow Den (စတော်မ်ရေးဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ်ခ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ်ခ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ်ခ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "proposedFullField": "Stormrage Barrow Den (စတော်မ်ရေးဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ်ခ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ်ခ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ်ခ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "reason": "Preserve all exact identifying English names while making compound pronunciations consistent with maintained cores: Stormrage from Shan'do Stormrage (စတော်မ်ရေးဂျ်), Relic from Highborne Relic/Mathystra Relic (ရဲလစ်ခ်). Consolidated whole-field replacement covers Stormrage and all three relic names; no source meaning/count change."
+        }
+      ]
+    },
+    {
+      "id": 98739,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Tauren Great Cat Spirit 11957 to Dendrite 11802 is the post-trial blessing referral; source and metadata match, and it does not itself return to Thunder Bluff.",
+        "Title keeps the Great Cat Spirit identity while translating Blessings framing semantically. Detail preserves future reunion and shadow/claw blessing. Completion retains angle-bracketed approaching/another invisible gesture/aura/slight smile, new cunning/ferocity contrasted with the earlier meeting, stealth/speed and call-upon-spirit lesson. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98362,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Dendrite 11802 to Turak 3033 is the Horde final return; destination Thunder Bluff/Elder Rise is exact. Installed mask includes Horde Skyborne plus Tauren; captured source race list shows Tauren. Live Skyborne middle-step availability remains untested.",
+        "Title retains Thunder Bluff with semantic To framing. The worthy-pupil judgment, heed-lessons condition, future reunion, spirit's playful/deadly nature and generation-varying trial remain faithful. Current Rewards explicitly teaches Cat Form and completion says the trainer will now teach cat shape; exact <name> retained. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98393,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Mathrengyl 4217 to Dendrite 11802 is the Alliance trainer introduction. Installed mask 4294967304 and source races 4/95 include Night Elf/Alliance Skyborne, distinct from Horde Turak start.",
+        "Great Cat Spirit title preserves NPC identity and pronunciation. Already-known travel magic/optional immediate departure, Father Cenarius, bracketed quick invisible gesture/slight aura, exact <name>, next cat perspective and self-directed learning match. Progress absent remains null; middle steps are not assumed Skyborne-enabled."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98394,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Dendrite 11802 to Great Cat Spirit 11957 is the Night Elf spirit-meeting step, mask 8/source race 4, separate from the broader Alliance introduction.",
+        "Southern Moonglade hill overlooking bridge, Great Bear Spirit comparison, all-druids eventual wisdom and readiness to take shape match English. Great Cat Spirit independently identifies title and objective with phonetics. Progress absent remains null; Skyborne availability is not inferred for this middle step."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98396,
+      "reviewNotes": [
+        "Read all five enabled fields against original HTML. Great Cat Spirit 11957 both starts/ends this Night Elf relic trial; mask 8/source race 4 separates it from 98342's Tauren trial. Actual items Fang 280502, Claw 280679, Silent Shadow 280680 are one each in source rows; three relics is preserved in detail.",
+        "Cunning/stealth/ferocity-when-cornered, powerful enraged on-sight spirits, entrance statue's temporary stealth and return-to-spirit order are intact. Proposed detail edit restores just-east proximity; objective consolidates maintained Relic/Stormrage phonetic corrections without altering identities.",
+        "Original HTML genuinely contains Progress and Completion; relic-return question, blessing worthiness and exact <class> remain faithful. No unsupported gender marker or unavailable field was created."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "879169e15758624712c3b904d5308fe3773b21f4418a1f406e20e42b24046ece",
+          "reviewedMyanmarSHA256": "8f441b7caa3dca843857b55ddb156102da559f7ac019d4065b7870c97220a0d5",
+          "old": "ဒီနေရာရဲ့ အရှေ့ဘက်က Barrow Dens",
+          "new": "ဒီနေရာရဲ့ အရှေ့ဘက်နားက Barrow Dens",
+          "proposedFullField": "ငါ့ဝိညာဉ်ရဲ့ စွမ်းအားကို ဆွဲယူသုံးစွဲဖို့ မင်းမှာ စကားအနည်းငယ်ထက် ပိုလိုအပ်လိမ့်မယ်။ ငါ့အသွင်ကို နားလည်လေးစားဖို့ မင်းဟာ ပါးနပ်လိမ္မာမှု၊ ပုန်းလျှိုးမှုနဲ့ ချောင်ပိတ်မိရင် ပြင်းထန်ကြမ်းကြုတ်မှုတို့ကို လက်တွေ့ဖော်ဆောင်နိုင်ကြောင်း သက်သေပြရမယ်။\n\nဒီနေရာရဲ့ အရှေ့ဘက်နားက Barrow Dens (ဘဲရိုး ဒန်ဇ်) မှာ ငါ့မျက်နှာသာနဲ့ဆိုင်တဲ့ ရှေးဟောင်းအမွေအနှစ် သုံးခု ရှိတယ်။ မင်း အဲဒါတွေကို ရယူရမယ်။ အင်အားကြီးပြီး ဒေါသထွက်နေတဲ့ ဝိညာဉ်တွေက အဲဒါတွေကို စောင့်ကြပ်နေပြီး မင်းကို မြင်တာနဲ့ တိုက်ခိုက်လိမ့်မယ်။ ဝင်ပေါက်က ရုပ်တုတစ်ခုက သူတို့ကို ကျော်သွားနိုင်ဖို့ ယာယီ ပုန်းလျှိုးနိုင်စွမ်းကို မင်းအား ချီးမြှင့်ပေးလိမ့်မယ်။\n\nဒီရှေးဟောင်းအမွေအနှစ်တွေကို ငါ့ဆီ ယူလာခဲ့။ ငါ့အသွင်ကို ယူဖို့ မင်း အသင့်ဖြစ်မဖြစ် ကြည့်ကြမယ်။",
+          "reason": "Original Description says Barrow Dens just east of here. Restore the nearby/proximity component as အရှေ့ဘက်နားက while retaining east, the three relics, guards and temporary-stealth conditions."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "2721122270960575fcbcea60f32105f8dc3adb13c8dcf522d56a0dd19b7e2381",
+          "reviewedMyanmarSHA256": "313c679d7bc9355bf05dd80ccffcd8833960dc7d7a009cbf06edc5a0564706b9",
+          "old": "Stormrage Barrow Den (စတောမ်ရေ့ဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "new": "Stormrage Barrow Den (စတော်မ်ရေးဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ်ခ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ်ခ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ်ခ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "proposedFullField": "Stormrage Barrow Den (စတော်မ်ရေးဂျ် ဘဲရိုး ဒန်) က Relic of the Fang (ရဲလစ်ခ် အော့ဗ် ဒ ဖန်းဂ်)၊ Relic of the Claw (ရဲလစ်ခ် အော့ဗ် ဒ ကလော) နဲ့ Relic of the Silent Shadow (ရဲလစ်ခ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး) တို့ကို ပြန်ယူပြီး Great Cat Spirit (ဂရိတ်တ် ကက်တ် စပီရစ်တ်) ထံ ပို့ပေးပါ။",
+          "reason": "Preserve all exact identifying English names while making compound pronunciations consistent with maintained cores: Stormrage from Shan'do Stormrage (စတော်မ်ရေးဂျ်), Relic from Highborne Relic/Mathystra Relic (ရဲလစ်ခ်). Consolidated whole-field replacement covers Stormrage and all three relic names; no source meaning/count change."
+        }
+      ]
+    },
+    {
+      "id": 98731,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Night Elf Great Cat Spirit 11957 to Dendrite 11802 is this post-trial blessing step; source/metadata mask 8 excludes any inferred Skyborne continuation.",
+        "Blessings title framing is semantic around retained Great Cat Spirit identity. Reunion wish, shadows/claws blessing and bracketed approach/another gesture/aura/slight smile preserve speaker and stage directions. Completion preserves changed cunning/ferocity, eye-read stealth/speed and spirit-learning sequence. Progress absent remains null."
+      ],
+      "issues": []
+    },
+    {
+      "id": 98397,
+      "reviewNotes": [
+        "Read all four enabled fields against original HTML. Dendrite 11802 to Mathrengyl 4217 is the Alliance final return to Darnassus/Cenarion Enclave, distinct from Horde Elder Rise. Installed mask 4294967304 and source races 4/95 include Night Elf/Alliance Skyborne, while middle steps remain Night Elf-only in available metadata.",
+        "Destination title retains identifying place plus semantic To. Worthy-pupil judgment, heed-lessons condition, future reunion, generation-varying trials and spirit's equally playful/deadly nature match current English. Actual Rewards teaches Cat Form; completion teaches cat shape with exact <name>. Progress absent remains null."
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "pronunciationMapReconciliation": [
+    {
+      "term": "Stormrage Barrow Den",
+      "old": "စတောမ်ရေ့ဂျ် ဘဲရိုး ဒန်",
+      "new": "စတော်မ်ရေးဂျ် ဘဲရိုး ဒန်",
+      "reason": "Match maintained Stormrage core in Shan'do Stormrage = ရှန်ဒိုး စတော်မ်ရေးဂျ် and maintained Barrow Den core; STYLE-GUIDE requires consistent full-name compounds."
+    },
+    {
+      "term": "Relic of the Fang",
+      "old": "ရဲလစ် အော့ဗ် ဒ ဖန်းဂ်",
+      "new": "ရဲလစ်ခ် အော့ဗ် ဒ ဖန်းဂ်",
+      "reason": "Match maintained Relic core ရဲလစ်ခ် in Highborne Relic and Mathystra Relic; Fang remains the established ဖန်းဂ် form used by Moonstalker Fang/Nightsaber Fang."
+    },
+    {
+      "term": "Relic of the Claw",
+      "old": "ရဲလစ် အော့ဗ် ဒ ကလော",
+      "new": "ရဲလစ်ခ် အော့ဗ် ဒ ကလော",
+      "reason": "Match maintained Relic core ရဲလစ်ခ်; Claw core ကလော is already maintained and unchanged."
+    },
+    {
+      "term": "Relic of the Silent Shadow",
+      "old": "ရဲလစ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး",
+      "new": "ရဲလစ်ခ် အော့ဗ် ဒ ဆိုင်လန့် ရှဲဒိုး",
+      "reason": "Match maintained Relic core ရဲလစ်ခ် without changing the exact English item identity. This is an assisted consistency correction, not native-certified phonetics."
+    }
+  ],
+  "status": "Independent assisted review complete for 20 quests / 82 enabled fields in two groups of 10; six corrections proposed across four quest IDs. All 18 source-absent fields remain null. Not approval of native or live gates.",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "evidenceVerification": {
+    "frozenFilesChecked": 69,
+    "frozenHashMismatches": 0,
+    "originalHTMLReferencesChecked": 40,
+    "englishFieldsReparsedFromOriginalWowhead": 100,
+    "reparseMismatches": 0,
+    "installedMetadataRowsChecked": 20,
+    "metadataSelectionMismatches": 0,
+    "enabledProvenanceFieldsChecked": 82,
+    "nullProvenanceFieldsChecked": 18,
+    "rawBatchArtifactsHashChecked": 12,
+    "provenanceErrors": 0,
+    "upstreamVersion": "1.0.1",
+    "upstreamCommit": "ab388ca8df990310d96320c88689831587f76e33",
+    "upstreamPackageSHA256": "a8f3b284c70434c72b6bfc68477facc4dfede1b403ea1ba568a711f2d8770c98",
+    "upstreamCatalogSHA256": "faf218b2ebf05874b6f048c2ed66d3c462124296c0e9544af275da86039d88d3",
+    "selectedUAEntriesChangedFrom1_0_0": 0,
+    "all20UATitlesAndFieldPresenceMatch": true,
+    "originalBoundaryReview": "All original H1/objective, Description, existing Progress/Completion divs and reward/table boundaries inspected; scripts and item UI excluded. No removed-state or self-training conflict found in this partition. Primary current English controls; secondary nulls and token-case differences are not used to invent states.",
+    "scope": "Only this assigned independent-review JSON written. Worker originals, state, repository and Git untouched."
+  }
+}

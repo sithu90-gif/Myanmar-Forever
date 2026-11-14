@@ -1,0 +1,149 @@
+{
+  "quests": [
+    {
+      "id": 94494,
+      "reviewNotes": [
+        "All four enabled fields read against current original HTML. The semantic title ရေခေါ်သံ is appropriate for ordinary Call of Water; progress is absent and remains null.",
+        "The offer retains the lowercase <name> markers, northwestern lake edge, south of Stonewrought Dam, and burrow hut. Norric Lochthane/Loch Modan/Stonewrought Dam have first-use pronunciations in each relevant field.",
+        "Completion preserves the wind/stone/fire imagery, player spirit carrying the journey forward, first step and mountain warning. Installed starter258098 to Norric258043 agrees with the exact step; no live race-eligibility claim."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94495,
+      "reviewNotes": [
+        "All four enabled fields read against original HTML and UA1.0.1. Water as rebirth, pure versus tainted water, southern waterfall cave, and Hervdana Saegrund/Wetlands are preserved; progress is absent.",
+        "Completion preserves <race>, Dark Iron contempt, no guards, the affectionate love address, and the question about the player visiting the home. Current English contains no waterfall-catching gesture; the extra UA stage direction is correctly excluded.",
+        "Current HTML links water sapta to item6637. The maintained sapta core pronunciation and the new water-sapta compound are consistent; no unsupported gender marker is introduced."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94497,
+      "reviewNotes": [
+        "All five enabled fields read. This is the brown estuary-water step below Hervdana's cave, distinct from red Stonewatch and blue Astranaar. Fresh/brackish meeting, marsh warning, sediment/minerals/energies versus highland snowmelt/springwater, tides and clan reflection are preserved.",
+        "Current objective prose says Empty Brown Waterskin; actual provided item265732 is Unfilled Brown Waterskin and the required result265734 is Full Brown Waterskin, quantity1. Keeping the prose alias and excluding the Provided item UI is correct; do not guess a rename.",
+        "Completion retains the sacred offering and vessel-seeking-wisdom metaphor. Per-field English identities have pronunciations; no marker or written-quantity discrepancy found. Installed item and NPC routing agree."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94499,
+      "reviewNotes": [
+        "All five enabled fields read. The red-water step preserves Lake Everstill/Redridge, Stonewatch Falls, Nightcrawler Murlocs, Hervdana return, old fort and corruption hypothesis. Completion correctly reveals pure water and suspected shadowseer magic rather than claiming the water is contaminated.",
+        "Current prose Empty Red Waterskin is a documented alias of provided Unfilled Red Waterskin265747; Full Red Waterskin265748 is required, quantity1. Preserve the current prose and exclude item-table/Provided UI.",
+        "Lakeshire abundance, scarce sword-bearing guard, Everstill protection, exactly one more sample, and Norric are retained. <name> is exact; first-use phonetics and source-specific voice checked."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94500,
+      "reviewNotes": [
+        "All five enabled fields read. This is the blue Astranaar/Ashenvale lake-water step: Unfilled Blue Waterskin265772 to Full Blue Waterskin265773, quantity1. No Empty rename is warranted.",
+        "The offer retains ancient possibly enchanted water, the final liquid before Norric, the Menethil-to-Auberdine boat with Southshore stop, and the watchful-forest warning. Source references are preserved without asserting the travel route was live-tested.",
+        "Completion retains all three samples, one vial, rite of passage, kinship, both <name> occurrences and exact <class>. English identities have first-use pronunciations in each relevant field; progress keeps Kalimdor and caution."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94501,
+      "reviewNotes": [
+        "All five enabled fields read. Vial of Purest Water7810 goes from Hervdana258203 to Norric258043 in Loch Modan. The actual reward Water Sapta6637 is distinct from the later Water Totem5177.",
+        "Offer retains one more task and water-totem rites; completion retains Hervdana's blessing, player collection, the sapta permitting water-spirit sight at Stendel's Pond near Moonbrook, and sacred drops/cork conservation.",
+        "<name> and first-use names/items/place pronunciations are intact. The English vials-to-sapta metaphor is understandable in the edited Myanmar; no stage or reward text was invented."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94502,
+      "reviewNotes": [
+        "All five enabled fields read against original current HTML. Detail and objective explicitly say drink Water Sapta6637 before facing/cleansing corruption; current English controls over UA's omission of drinking.",
+        "Ritual order is preserved: drink, face corruption, take its bracers and the last drops, place them on the shrine, speak with the cleansed spirit, and bring proof. Actual requirements are Corrupt Manifestation's Bracers7812 and Remaining Drops of Purest Water7811, each quantity1.",
+        "Current objective says return to Norric, while installed/current end is Forgotten Shrine619896. Preserve the English objective and keep the following spirit/return stages distinct. Detail credits Hervdana's potion and completion credits Norric's potion; both source attributions are correctly retained.",
+        "Completion preserves placing bracers, pouring remaining drops, the taught incantation and vaporization. One progress correction proposed: former labor animals should not be called wild beasts. No placeholder or first-use phonetic discrepancy found."
+      ],
+      "issues": [
+        {
+          "field": "progress",
+          "englishSHA256": "434056fe999fe7867f05aeb5955dc9730e4e21e8523ca6cf9320df399aeebcc6",
+          "reviewedMyanmarSHA256": "46cc2c98ae1dd08e074c582c3e88e73367b36cced61d4c9472a5edb35028b558",
+          "old": "တစ်ချိန်က အလုပ်ကြမ်းပင်ပန်းထမ်းခဲ့ရတဲ့ သားရဲတွေရဲ့",
+          "new": "တစ်ချိန်က ပင်ပန်းတဲ့အလုပ်တွေ လုပ်ခဲ့ရတဲ့ တိရစ္ဆာန်တွေရဲ့",
+          "proposedFullField": "နတ်ကွန်းက အိုဟောင်းပြီး မေ့လျော့ခံထားရကာ ဖုန်မှုန့်နဲ့ ပင့်ကူမျှင်တွေ လွှမ်းနေတယ်။ ဘေးကရေကန်က ကြောက်စရာကောင်းအောင် ငြိမ်သက်နေပြီး ရေမျက်နှာပြင်ကို လေလည်းမထိ၊ သက်ရှိတွေလည်း မထိကြဘူး။ ကမ်းတစ်လျှောက်မှာ တစ်ချိန်က ပင်ပန်းတဲ့အလုပ်တွေ လုပ်ခဲ့ရတဲ့ တိရစ္ဆာန်တွေရဲ့ အရိုးတွေ ပြန့်ကျဲနေတယ်။ ရေရဲ့ နောက်ကျိတဲ့ အရောင်လက်မှုက စိုးရိမ်စရာ မေးခွန်းတစ်ခု ပေါ်လာစေတယ်။ ပတ်ဝန်းကျင်က မကျန်းမာမှုတွေကြောင့် ဒီရေ အဆိပ်သင့်သွားတာလား၊ ဒါမှမဟုတ် ဒီရေကပဲ အဲဒီမကျန်းမာမှုတွေရဲ့ မူလအရင်းအမြစ်လား။",
+          "reason": "The current original progress says bones of beasts once burdened by labor: former work animals. သားရဲ denotes wild/fierce beasts and adds the wrong animal category. Use neutral တိရစ္ဆာန် while retaining the past hard labor, bones, narrator voice and question about the water."
+        }
+      ]
+    },
+    {
+      "id": 94503,
+      "reviewNotes": [
+        "All four enabled fields read. Current offer is the eruption of light, fading hiss, reeling senses and unraveling corrupt spirits after the final incantation. Objective is specifically conversation with Minor Manifestation of Water5895 in Westfall, not another cleansing or return step.",
+        "Completion preserves the spirit's short, direct gratitude, corruption ebbing while life wanes, and shamans' duty to protect life. shamans and the full NPC identity retain first-use phonetics.",
+        "Progress is absent in original current HTML and remains null. Installed shrine619896-to-spirit5895 routing agrees; no live availability is inferred."
+      ],
+      "issues": []
+    },
+    {
+      "id": 94505,
+      "reviewNotes": [
+        "All five enabled fields read. Exact item Shard of Water7813 is returned from Minor Manifestation of Water5895 to Norric Lochthane258043 in Loch Modan; source objective, item identity and per-field phonetics agree.",
+        "Original reward pane explicitly learns Healing Stream Totem5394 and receives Water Totem5177. The completion names only the water totem, correctly retained, without substituting another healing spell or inventing extra dialogue.",
+        "Completion preserves <name>, proof, first congratulations, wise use, distant next trial and water's gifts beyond wound repair. Progress keeps even small victories significant.",
+        "One consolidated detail correction proposed: shard should be a fragment rather than a generic component, and repeated give-life clauses should convey fostering life rather than the ordinary Myanmar reading of sacrificing one's life. Keep the spirit's clipped, repetitive voice."
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "c93c38c514d0cd3bdf3766177a844643aea9fb77a995d7f363815a36cf42a78f",
+          "reviewedMyanmarSHA256": "50d324f998b443f308c665c7d84f56eedb0f47adf14730c4415c6d35deaa8e59",
+          "old": "အစိတ်အပိုင်းကို ယူ။ အစိတ်အပိုင်းကို ယူပြီး အသက်ပေး။\n\nအသက်ပေးပြီး နားလည်။ ရေဟာ အသက်ဆိုတာ နားလည်... ညစ်ညမ်းမှုက အသက်ကို ရပ်တန့်စေတယ်။\n\nမင်း ရေရဲ့ အစွမ်းနဲ့ ကာကွယ်ပြီး အသက်ပေးတယ်။",
+          "new": "အပိုင်းအစကို ယူ။ အပိုင်းအစကို ယူပြီး အသက်ရှင်သန်စေ။\n\nအသက်ရှင်သန်စေပြီး နားလည်။ ရေဟာ အသက်ဆိုတာ နားလည်... ညစ်ညမ်းမှုက အသက်ကို ရပ်တန့်စေတယ်။\n\nမင်း ရေရဲ့ အစွမ်းနဲ့ ကာကွယ်ပြီး အသက်ရှင်သန်စေတယ်။",
+          "proposedFullField": "အပိုင်းအစကို ယူ။ အပိုင်းအစကို ယူပြီး အသက်ရှင်သန်စေ။\n\nအသက်ရှင်သန်စေပြီး နားလည်။ ရေဟာ အသက်ဆိုတာ နားလည်... ညစ်ညမ်းမှုက အသက်ကို ရပ်တန့်စေတယ်။\n\nမင်း ရေရဲ့ အစွမ်းနဲ့ ကာကွယ်ပြီး အသက်ရှင်သန်စေတယ်။",
+          "reason": "The spirit refers to the Shard of Water7813 and says take shard, give life, and protect/give life with water power. အစိတ်အပိုင်း commonly means component; အပိုင်းအစ preserves shard/fragment. Repeated အသက်ပေး commonly reads as sacrificing/giving one's own life; အသက်ရှင်သန်စေ makes the intended life-giving effect explicit. Preserve the clipped repetition, imperative sequence and final protective-water clause; do not add item UI or extra instructions."
+        }
+      ]
+    },
+    {
+      "id": 94616,
+      "reviewNotes": [
+        "Title and completion read against original current HTML. This page begins h1 immediately followed by bare Completion h2; it has no current objective, Description or Progress. UA1.0.1 also has only title/completion; installed metadata has no objective.",
+        "The one legacy60.tools offer and its saved raw DeepL proposal were reviewed as conflicting held evidence. Keep detail null; do not refill it from legacy metadata. The two genuinely absent objective/progress states remain null.",
+        "Water Sapta is the actual item6637 and appropriately retains English plus phonetic in the independently displayed title; completion separately annotates water sapta and Westfall, preserves <name>, the tainted pond water and faith in the player. No current live state is claimed."
+      ],
+      "issues": []
+    }
+  ],
+  "requestedHolds": [],
+  "pronunciationMapReconciliation": [],
+  "status": "Fresh independent assisted source-aware review complete; two hash-guarded field corrections proposed for root application and repeat checks; existing94616.detail hold preserved.",
+  "reviewedAtUTC": "2026-11-14T20:47:08.089242+00:00",
+  "evidence": {
+    "questCount": 10,
+    "enabledFieldsRead": 44,
+    "sourcedFieldsReadIncludingHeld": 45,
+    "absentSourceStatesRead": 5,
+    "fieldCorrectionsProposed": 2,
+    "newRequestedHolds": 0,
+    "existingHeldField": {
+      "id": 94616,
+      "field": "detail",
+      "disposition": "preserve null; legacy offer conflicts with current completion-only evidence"
+    },
+    "sourceFiles": "../alliance_water/*-wowhead.html and *-sixty.html; every current HTML parsed result independently matched frozen references; original quest-pane boundaries and item/reward panes inspected.",
+    "originalFreezeHashesVerified": true,
+    "editedJSONSHA256": "60e9755aebcbadb7bc0ef4678287a5f331e6425d715bec3d762aff947a2e9d49",
+    "englishSourcesJSONSHA256": "872255c02cde7bca0d8dcb9ee223de958b2d7fc4ce741facc8346071223adfb1",
+    "upstreamVersion": "1.0.1",
+    "upstreamCommit": "ab388ca8df990310d96320c88689831587f76e33",
+    "upstreamPackageSHA256": "a8f3b284c70434c72b6bfc68477facc4dfede1b403ea1ba568a711f2d8770c98",
+    "upstreamCatalogSHA256": "faf218b2ebf05874b6f048c2ed66d3c462124296c0e9544af275da86039d88d3",
+    "installedQuestieDBVersion": "1.0.12",
+    "installedDecodedCatalogSHA256": "1672221a4188a9ac32afe011ec451911514170247e0cdab0618238d5d96d27c6",
+    "eligibility": "Current quest-page class/race restrictions and broader installed race mask4294967373 were kept distinct. Neither static source establishes current live acceptance for all Alliance races.",
+    "pronunciationReview": "All existing keys in this group match maintained pronunciations. New compound/item/NPC spellings are internally consistent assisted proposals, pending native pronunciation review; no map reconciliation requested.",
+    "markerAndQuantityReview": "Exact supported placeholder occurrences preserved throughout enabled fields; one-more sample/task, all three samples, remaining/last drops, directions and stage sequence read semantically. Item-table quantities are evidence, excluded from dialogue.",
+    "reviewBoundary": "Review of frozen saved source captures and metadata, without new source fetching, worker edits, release assembly, native proof or live-client testing."
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}
