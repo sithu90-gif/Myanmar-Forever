@@ -1,0 +1,26 @@
+test_changed_field_and_id_sets (test_audit_coverage.CoverageTests.test_changed_field_and_id_sets) ... ok
+test_disabled_record_not_counted_as_runtime_coverage (test_audit_coverage.CoverageTests.test_disabled_record_not_counted_as_runtime_coverage) ... ok
+test_empty_text_not_translation (test_audit_coverage.CoverageTests.test_empty_text_not_translation) ... ok
+test_lua_loader_preserves_multiline_text_and_faction (test_audit_coverage.CoverageTests.test_lua_loader_preserves_multiline_text_and_faction) ... ok
+test_same_id_in_multiple_faction_tables_counts_once (test_audit_coverage.CoverageTests.test_same_id_in_multiple_faction_tables_counts_once) ... ok
+test_title_alias_requires_documented_alias (test_audit_coverage.CoverageTests.test_title_alias_requires_documented_alias) ... ok
+test_title_only_record_is_not_full_dialogue (test_audit_coverage.CoverageTests.test_title_only_record_is_not_full_dialogue) ... ok
+test_reviewed_fill_resolves_historical_hold_without_hiding_pending_states (test_build_release.SourceHoldReportTests.test_reviewed_fill_resolves_historical_hold_without_hiding_pending_states) ... ok
+test_snapshot_hold_assertion_tracks_the_reviewed_manifest_field (test_build_release.SourceHoldReportTests.test_snapshot_hold_assertion_tracks_the_reviewed_manifest_field) ... ok
+test_term_learning_uses_a_still_held_probe_after_source_resolution (test_build_release.SourceHoldReportTests.test_term_learning_uses_a_still_held_probe_after_source_resolution) ... ok
+test_linked_repeatable_turnin_preserves_text_without_item_table (test_fetch_quest_sources.QuestSourceTests.test_linked_repeatable_turnin_preserves_text_without_item_table) ... ok
+test_provided_item_widget_is_not_objective_dialogue (test_fetch_quest_sources.QuestSourceTests.test_provided_item_widget_is_not_objective_dialogue) ... ok
+test_regular_hidden_reply_and_player_marker (test_fetch_quest_sources.QuestSourceTests.test_regular_hidden_reply_and_player_marker) ... ok
+test_repeatable_device_progress_is_not_lost (test_fetch_quest_sources.QuestSourceTests.test_repeatable_device_progress_is_not_lost) ... ok
+test_already_absent_field_cannot_be_disabled_again (test_guarded_disabling.GuardedDisablingTests.test_already_absent_field_cannot_be_disabled_again) ... ok
+test_disabling_requires_a_nonblank_reason (test_guarded_disabling.GuardedDisablingTests.test_disabling_requires_a_nonblank_reason) ... ok
+test_disabling_without_documented_hold_is_rejected (test_guarded_disabling.GuardedDisablingTests.test_disabling_without_documented_hold_is_rejected) ... ok
+test_documented_exact_hash_disabling_preserves_other_fields_and_snapshot (test_guarded_disabling.GuardedDisablingTests.test_documented_exact_hash_disabling_preserves_other_fields_and_snapshot) ... ok
+test_empty_string_cannot_bypass_the_disabling_contract (test_guarded_disabling.GuardedDisablingTests.test_empty_string_cannot_bypass_the_disabling_contract) ... ok
+test_older_manifest_keeps_the_original_enabled_field (test_guarded_disabling.GuardedDisablingTests.test_older_manifest_keeps_the_original_enabled_field) ... ok
+test_wrong_or_missing_prior_hash_is_rejected (test_guarded_disabling.GuardedDisablingTests.test_wrong_or_missing_prior_hash_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.099s
+
+OK

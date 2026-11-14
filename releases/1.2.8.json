@@ -1,0 +1,91 @@
+{
+  "version": "1.2.8",
+  "date": "2026-11-14",
+  "releaseType": "release",
+  "termsGuide": "releases/1.1.0-TERMS.txt",
+  "packs": [
+    "translations/undead-v0.6.3",
+    "translations/live-fixes-v1",
+    "translations/skyborne-a-v1",
+    "translations/skyborne-b-v1",
+    "translations/skyborne-c-v1",
+    "translations/undead-tirisfal-v1.1.0",
+    "translations/westfall-toxic-soil-v1.1.1",
+    "translations/all-race-routes-v1.2.0",
+    "translations/early-route-followups-v1.2.1",
+    "translations/scheduled-routes-v1.2.2",
+    "translations/scheduled-routes-v1.2.3",
+    "translations/scheduled-routes-v1.2.4",
+    "translations/scheduled-routes-v1.2.5",
+    "translations/upstream-state-refresh-v1.2.5",
+    "translations/scheduled-routes-v1.2.6",
+    "translations/upstream-state-refresh-v1.2.6",
+    "translations/scheduled-routes-v1.2.7",
+    "translations/source-repair-v1.2.8"
+  ],
+  "starterCoverage": [
+    {
+      "zone": "Northshire",
+      "races": [
+        "Human"
+      ]
+    },
+    {
+      "zone": "Coldridge Valley",
+      "races": [
+        "Dwarf",
+        "Gnome"
+      ]
+    },
+    {
+      "zone": "Shadowglen",
+      "races": [
+        "Night Elf"
+      ]
+    },
+    {
+      "zone": "Valley of Trials",
+      "races": [
+        "Orc",
+        "Troll"
+      ]
+    },
+    {
+      "zone": "Red Cloud Mesa",
+      "races": [
+        "Tauren"
+      ]
+    },
+    {
+      "zone": "Deathknell",
+      "races": [
+        "Undead"
+      ]
+    },
+    {
+      "zone": "Zephras Isle",
+      "races": [
+        "Skyborne"
+      ],
+      "factions": [
+        "Alliance",
+        "Horde"
+      ]
+    }
+  ],
+  "routeExtension": {
+    "zone": "Brill and Tirisfal Glades",
+    "races": [
+      "Undead"
+    ],
+    "approximateLevelRange": [
+      5,
+      13
+    ],
+    "scope": "Later Undead route beyond Deathknell through Brill and supported early Tirisfal quests; Silverpine is a later update."
+  },
+  "coverageMeaning": "Selected routes across nine races;1.2.8 repairs one unsupported Desperate Prayer offer without adding quest records. Per-ID/state coverage; source holds and native/live verification remain explicit.",
+  "expectedSkyborneQuestIDs": 151,
+  "expectedNewLiveCaptureQuestIDs": 13,
+  "expectedUndeadTirisfalQuestIDs": 94
+}

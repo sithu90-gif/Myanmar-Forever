@@ -385,11 +385,28 @@ if A.quests[94449] then
   for _,id in ipairs({5658,5679,5680,5672,5676,5641}) do
     assert(not A.quests[id].detail and not A.quests[id].objective,'Completion-only Priest record invented a referral: '..id)
   end
-  assert(A.quests[5639].detail,'Source-supported Laurena referral fallback missing')
+  if EXPECTED_DISABLED_FIELDS and EXPECTED_DISABLED_FIELDS['5639.detail'] then
+    assert(not A.quests[5639].detail,'Reviewed unsupported Laurena referral was enabled')
+  else
+    assert(A.quests[5639].detail,'Source-supported Laurena referral fallback missing')
+  end
   assert(not A.quests[5679].complete,'Conflicting learned-spell identity enabled')
   assert(not A.quests[94466].complete,'Unresolved Fire gender variant enabled')
   assert(not A.quests[94822].complete,'Suspicious literal-player-name completion enabled')
   for _,id in ipairs({5634,5635,5636,5637,5638,5640}) do assert(not A.quests[id].objective,'Conflicting Rohan/Laurena route enabled') end
   questID=0;fire('QUEST_FINISHED')
   print('PASS: distinct five-step Fire recipient/reagent/elemental/return contracts, Priest referral identities, completion-only boundaries and unresolved trainer/spell/name branches.')
+end
+
+if EXPECTED_DISABLED_FIELDS and EXPECTED_DISABLED_FIELDS['5639.detail'] then
+  debugCommand('off');titleOverride=nil;questID=5639
+  assert(A.quests[5639].title and A.quests[5639].complete,'Source hold removed valid title or completion')
+  assert(not A.quests[5639].detail and not A.quests[5639].objective and not A.quests[5639].progress,'Completion-only source invented a referral/objective/progress')
+  fire('QUEST_DETAIL');flush()
+  assert(not A.window:IsShown(),'Unsupported legacy offer still displays Myanmar')
+  assert(MMNorthshireCaptures[5639].states.detail.title==A.quests[5639].en and MMNorthshireCaptures[5639].states.detail.translationFallback~=nil,'Held offer lost English identity/fallback capture')
+  fire('QUEST_COMPLETE');flush()
+  assert(A.window:IsShown() and MMNorthshireCaptures[5639].states.complete.translationFallback==nil,'Valid completion became unavailable after offer hold')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS: hash-guarded5639 legacy-offer hold retains valid title/completion and original-language fallback/capture.')
 end

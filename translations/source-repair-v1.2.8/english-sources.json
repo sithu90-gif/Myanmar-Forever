@@ -1,0 +1,67 @@
+{
+  "5639": {
+    "id": 5639,
+    "en": "Desperate Prayer",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D5639/desperate-prayer",
+    "htmlSHA256": "0c14bc786c6038abe273403a4d55a5e569cabac6b5eeaa14e68cba02853b183d",
+    "fetched": "2026-11-14T06:40:39.907165+00:00",
+    "sourceKind": "current primary context plus explicitly held legacy English proposal",
+    "english": {
+      "title": "Desperate Prayer",
+      "objective": null,
+      "progress": null,
+      "complete": "I'm glad you've arrived, <name>. There are many things we will have to discuss, but more importantly is your training in the ways of the Light.\n\nThere are lessons all servants of the Light must learn. If you are ready, we'll begin discussing some of those now.",
+      "detail": "You're needed in Stormwind, <name>. The High Priestess there, Laurena, says it's time for you to prove you're worthy of the next level of your training. Don't waste too much time finding your way there. You can find her in the Cathedral of Light in the center of the city. Give her my regards, and prove how worthy you are of such a calling. The Light be with you, <name>."
+    },
+    "primaryEnglish": {
+      "title": "Desperate Prayer",
+      "objective": null,
+      "progress": null,
+      "complete": "I'm glad you've arrived, <name>. There are many things we will have to discuss, but more importantly is your training in the ways of the Light.\n\nThere are lessons all servants of the Light must learn. If you are ready, we'll begin discussing some of those now.",
+      "detail": null
+    },
+    "fieldSources": {
+      "detail": {
+        "role": "held legacy proposal only; not current enabled source",
+        "url": "https://www.60.tools/quests/5639-desperate-prayer",
+        "htmlSHA256": "3173b42bc8b3128995c6812d4eb637b7148db70da7c8c09e46f4e2f01cb1f08f",
+        "priorSourcePack": "translations/scheduled-routes-v1.2.7",
+        "priorRawEvidence": {
+          "file": "deepl-batch-2.json",
+          "index": 7,
+          "englishSHA256": "b321be327cef290f6ce8ceeca67a39821e27bb1f7af90b837c07725c214be266",
+          "rawDeepLSHA256": "78a83f752a43e190fe1c70afb6e30b6cd15164ee737db5465ee4a5a5f06d8a87",
+          "editedSHA256": "5afe52ad3b56271f7009cc1dd4db1d6dbae17fba2810911065ee350073dc5312",
+          "source": "sixty"
+        }
+      }
+    },
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/5639-desperate-prayer",
+        "sha256": "3173b42bc8b3128995c6812d4eb637b7148db70da7c8c09e46f4e2f01cb1f08f",
+        "english": {
+          "title": "Desperate Prayer",
+          "objective": null,
+          "detail": "You're needed in Stormwind, <name>. The High Priestess there, Laurena, says it's time for you to prove you're worthy of the next level of your training. Don't waste too much time finding your way there. You can find her in the Cathedral of Light in the center of the city. Give her my regards, and prove how worthy you are of such a calling. The Light be with you, <name>.",
+          "progress": null,
+          "complete": "I'm glad you've arrived, <name>. There are many things we will have to discuss, but more importantly is your training in the ways of the Light.\n\nThere are lessons all servants of the Light must learn. If you are ready, we'll begin discussing some of those now."
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D5639/desperate-prayer",
+        "sha256": "0c14bc786c6038abe273403a4d55a5e569cabac6b5eeaa14e68cba02853b183d",
+        "english": {
+          "title": "Desperate Prayer",
+          "objective": null,
+          "progress": null,
+          "complete": "I'm glad you've arrived, <name>. There are many things we will have to discuss, but more importantly is your training in the ways of the Light.\n\nThere are lessons all servants of the Light must learn. If you are ready, we'll begin discussing some of those now.",
+          "detail": null
+        }
+      }
+    },
+    "sourceNotes": [
+      "Current Forever5639 is completion-only and explicitly marks description/objective removed. The secondary referral to Laurena/Stormwind belongs to inherited older text; installed/UA relations do not independently establish a current live offer. Disable the previously enabled fallback under its exact prior Myanmar hash. Retain original English/raw DeepL/Myanmar as historical held evidence; await sanitized live proof before any re-enable."
+    ]
+  }
+}

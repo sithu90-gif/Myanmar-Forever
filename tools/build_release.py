@@ -2,7 +2,8 @@
 
 The checked-in 0.6.2 folder remains a released snapshot. Release composition is
 explicit: additions cannot replace an existing quest. Overrides fill unavailable
-fields or correct reviewed text whose prior hash matches the pack. Private
+fields, correct reviewed text, or disable an unsupported state under an exact prior
+hash and documented hold. Private
 SavedVariables are never packaged.
 """
 from __future__ import annotations
@@ -102,6 +103,7 @@ def compose(manifest):
         assert set(added)=={str(r['id']) for r in pack['rows']}
         assert set(added)|set(changed)==set(sources)==set(reviews),('Missing source/review record',relative)
         holds={(str(h['id']),h['field']) for h in pack.get('heldFields',[])}
+        hold_reasons={(str(h['id']),h['field']):h.get('reason') for h in pack.get('heldFields',[])}
         for row in pack['rows']:
             assert row['en']==sources[str(row['id'])]['english']['title']
         for qid,q in added.items():
@@ -112,8 +114,14 @@ def compose(manifest):
             assert sources[qid]['english']['title']==next(r['en'] for r in rows if str(r['id'])==qid)
             for field,text in fields.items():
                 assert (qid,field) not in overrides,(qid,field,'Duplicate override')
-                assert field in drafts[qid] and text,(qid,field,'Invalid override field')
+                assert field in drafts[qid],(qid,field,'Invalid override field')
                 previous=drafts[qid][field]
+                if text is None:
+                    assert previous is not None and (qid,field) in holds,(qid,field,'Disabling requires an enabled prior field and documented hold')
+                    reason=hold_reasons.get((qid,field))
+                    assert isinstance(reason,str) and reason.strip(),(qid,field,'Disabling requires a nonblank hold reason')
+                else:
+                    assert text,(qid,field,'Invalid override field')
                 expected_hash=prior_hashes.get(qid,{}).get(field)
                 if previous is None:
                     assert expected_hash is None,(qid,field,'Expected prior translation is missing')
@@ -238,6 +246,7 @@ def verify(addon,drafts,baseline,overrides,manifest,pack_reports,holds):
     lua=LuaRuntime(unpack_returned_tuples=True,register_eval=False,register_builtins=False)
     lua.globals().ADDON_DIR=str(addon)
     lua.globals().EXPECTED_QUESTS=len(drafts);lua.globals().EXPECTED_STATES=states;lua.globals().EXPECTED_MISSING=3*len(drafts)-states
+    lua.globals().EXPECTED_DISABLED_FIELDS=lua.table_from({f'{qid}.{field}':True for (qid,field),text in overrides.items() if text is None})
     bindings=ET.parse(addon/'Bindings.xml').getroot()
     lua.globals().BINDING_ACTIONS=lua.table_from([(b.text or '').strip() for b in bindings])
     logs=[];lua.globals().print=lambda *a:logs.append(' '.join(map(str,a)))

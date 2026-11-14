@@ -1,0 +1,62 @@
+{
+  "version": "1.2.8",
+  "result": "PASS",
+  "kind": "scheduled_afternoon_repair",
+  "localDate": "2026-11-14",
+  "baseVersion": "1.2.7",
+  "newQuestIDs": 0,
+  "newQuestFields": 0,
+  "filledExistingFields": 0,
+  "guardedDisabledFields": [
+    {
+      "id": 5639,
+      "field": "detail",
+      "priorMyanmarSHA256": "5afe52ad3b56271f7009cc1dd4db1d6dbae17fba2810911065ee350073dc5312"
+    }
+  ],
+  "sourceAuditQuestIDs": [
+    5634,
+    5635,
+    5636,
+    5637,
+    5638,
+    5639,
+    5640
+  ],
+  "otherFieldSlotsUnchanged": 6429,
+  "questIDs": 1286,
+  "translatedFields": 5931,
+  "dialogueStates": 3405,
+  "absentOrHeldDialogueStates": 453,
+  "activeHeldUniqueFields": 52,
+  "pythonTests": 21,
+  "luaRegressionGroups": 30,
+  "olderManifestCompatibility": {
+    "version": "1.2.7",
+    "result": "PASS",
+    "questIDs": 1286,
+    "translatedFields": 5932,
+    "luaRegressionGroups": 29
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.0",
+    "commit": "3487d77e9ec21795d31f63ba3941c31efbe4403d",
+    "checkedAt": "2026-11-14T06:35:49.615046+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.0",
+    "publishedAtUTC": "2026-11-13T03:27:29Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.0/UA_Forever-1.0.0.zip",
+    "assetSHA256": "3fde99205c63a8bc1b3b97aa371296745ca81befe5b8b6deba9abaed12acc258",
+    "catalogSHA256": "cb2c040ffbb9fbd43a2ee3efb1249a06a3462d1128e7219497a4849e61b44640"
+  },
+  "newBatchDecision": "Skipped extra50; this follow-up repaired an enabled source eligibility error and reviewed/tested guarded-disabling support. Daily new total remains50.",
+  "dailyNewRecordsAfterCompletion": 50,
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "zip": {
+    "name": "MyanmarForever_v1.2.8.zip",
+    "bytes": 835400,
+    "sha256": "d16c544160273346702df1706a98847b8b25a9e795a83d2bc5eeeed40b3397aa"
+  }
+}

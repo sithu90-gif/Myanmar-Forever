@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "reviewType": "Independent code and release-correction review before build/publication",
+  "worktree": "work/Myanmar-Forever-v1.2.8",
+  "baseCommit": "bc043d0",
+  "issues": [],
+  "resolvedFindings": [
+    {
+      "priority": "P2",
+      "file": "tools/build_release.py",
+      "description": "The initial disabling implementation accepted a hold entry whose reason was missing, empty or whitespace, because it checked only (quest ID, field) membership. This violated the documented-hold guard.",
+      "suggestedFix": "Require a nonblank string reason for every None override and add regressions for missing, empty and whitespace reasons.",
+      "resolution": "Root added hold_reasons lookup and isinstance(reason, str) plus reason.strip() validation. The independent reviewer inspected the final diff and reran the full suite successfully.",
+      "evidence": [
+        "work/afternoon-2026-11-14/hold-reason-before.log: three expected failing subtests before correction",
+        "tools/test_guarded_disabling.py:test_disabling_requires_a_nonblank_reason",
+        "work/afternoon-2026-11-14/python-tests-final.log: 21 tests PASS",
+        "Independent review execution: 21 tests PASS"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "The None override path requires a previously nonnull field, a matching heldFields entry with a nonblank reason, and the exact prior Myanmar text SHA-256. The existing duplicate override guard remains before mutation.",
+    "validate_fields still requires matching source and review record sets, English title identity, exact English and Myanmar field hashes, and a nonempty held English proposal. Missing or stale source/review hashes do not bypass validation.",
+    "The correction pack contains no drafts or rows and changes only 5639.detail to null. The retained legacy English and machine proposal are explicitly held evidence; they do not enable a current source state.",
+    "EXPECTED_DISABLED_FIELDS is constructed exclusively from composed reviewed None overrides and passed to Lua as a table. The 5639 old-release assertion remains active when no reviewed disabling is present. The new real-bridge regression checks held-offer fallback/capture while retaining title and completion.",
+    "Git diff/status inspection found no historical translation pack changes. Final composed rows, including English aliases, are identical between 1.2.7 and 1.2.8.",
+    "The final builder docstring uses an actual line break rather than a literal backslash-n.",
+    "No native proofreading or live-client verification was performed or inferred from this code review. The new 1.2.8 build, package validation and publication remain the root release workflow's next gates."
+  ],
+  "checks": [
+    {
+      "name": "Required workflow and plan",
+      "result": "PASS",
+      "filesRead": [
+        "AGENTS.md",
+        "work/Myanmar-Forever-v1.2.8/AGENTS.md",
+        ".summer/plans/2026-11-14-afternoon-source-repair.md"
+      ]
+    },
+    {
+      "name": "Red-test evidence",
+      "result": "PASS",
+      "detail": "Initial six-test log fails exactly on accepting the documented valid disabling case before implementation. The later nonblank-reason regression fails on all three invalid reasons before its correction."
+    },
+    {
+      "name": "Final Python regression suite",
+      "result": "PASS",
+      "command": "work/venv/Scripts/python.exe -B -X utf8 -m unittest discover -s work/Myanmar-Forever-v1.2.8/tools -p test_*.py -v",
+      "tests": 21,
+      "failures": 0,
+      "errors": 0
+    },
+    {
+      "name": "Independent old/new composition",
+      "result": "PASS",
+      "oldQuestCount": 1286,
+      "newQuestCount": 1286,
+      "oldTranslatedFields": 5932,
+      "newTranslatedFields": 5931,
+      "newQuestRecords": 0,
+      "newlyEnabledFields": 0,
+      "rowsExactEqual": true,
+      "unchangedOtherFieldSlots": 6429,
+      "onlyFieldDifference": {
+        "id": 5639,
+        "field": "detail",
+        "beforeSHA256": "5afe52ad3b56271f7009cc1dd4db1d6dbae17fba2810911065ee350073dc5312",
+        "after": null
+      }
+    },
+    {
+      "name": "Backward-compatible real verification of preserved 1.2.7 build",
+      "result": "PASS",
+      "addon": "work/morning-2026-11-14/build-v1.2.7-r2/Myanmar_Forever_NorthshireTest",
+      "detail": "Invoked final build_release.verify with the actual composed 1.2.7 manifest, baseline, overrides, reports and holds. No files were written.",
+      "questIDs": 1286,
+      "translatedFields": 5932,
+      "dialogueStates": 3406,
+      "luaRegressionGroups": 29,
+      "original5639FallbackAssertion": "PASS"
+    },
+    {
+      "name": "Prior Myanmar and pinned source bytes",
+      "result": "PASS",
+      "prior5639DetailSHA256": "5afe52ad3b56271f7009cc1dd4db1d6dbae17fba2810911065ee350073dc5312",
+      "currentPrimaryHTMLSHA256": "0c14bc786c6038abe273403a4d55a5e569cabac6b5eeaa14e68cba02853b183d",
+      "legacySecondaryHTMLSHA256": "3173b42bc8b3128995c6812d4eb637b7148db70da7c8c09e46f4e2f01cb1f08f",
+      "detail": "Computed the prior field hash from the unchanged scheduled-routes-v1.2.7 pack and both HTML hashes from the saved source captures; all match repair evidence."
+    }
+  ],
+  "reviewedFileSHA256": {
+    "tools/build_release.py": "8422e5b6851d9aad53f17ee125e6e4d53fbf2cfadb679477e52893ba3a4faf45",
+    "tools/release_tests.lua": "32bdd5eebec1e26200ff48e3c6ca631be1e5e40ac8813254fe3a1575564027b4",
+    "tools/test_guarded_disabling.py": "8e66cdd4bdbee7cd6394df648bdc8df1b22b2198e7989aa27f5961f2908beced",
+    "translations/source-repair-v1.2.8/pack.json": "52ac3b0cc15b598e7e45507ebba1c8babf329a63c32e617e47c3839c5b9b37b8",
+    "translations/source-repair-v1.2.8/english-sources.json": "62e934be85d20d9f5499eb4106490ed147bdb4dced91f28598e3a15b6f0067b0",
+    "translations/source-repair-v1.2.8/review-audit.json": "f9aab2db24224c55b3b8e507809a0ddf58443af19c18c45ebfbc421359bb1a10",
+    "releases/1.2.8.json": "06bf35478ad112bc5df41fe70ee00a7df472c2ce79f9d70954b64c386e6a908e"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

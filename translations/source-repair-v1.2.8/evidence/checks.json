@@ -1,0 +1,42 @@
+{
+  "pythonTests": 21,
+  "pythonResult": "PASS",
+  "newLuaRegressionGroups": 30,
+  "olderManifestLuaGroups": 29,
+  "olderManifestFields": 5932,
+  "currentFields": 5931,
+  "sourceReviewQuestIDs": [
+    5634,
+    5635,
+    5636,
+    5637,
+    5638,
+    5639,
+    5640
+  ],
+  "newQuests": 0,
+  "newEnabledFields": 0,
+  "disabledFields": [
+    {
+      "id": 5639,
+      "field": "detail"
+    }
+  ],
+  "redGreenEvidence": {
+    "originalAcceptanceRegressionBefore": {
+      "failures": 1,
+      "logSHA256": "6198eed212fbc4f43334525ecf46a6ed0fdfe15ec4f513e501a12a74af8e0034"
+    },
+    "blankReasonRejectionBefore": {
+      "failingSubtests": 3,
+      "logSHA256": "2f4b51ffdd452e319db2d3cd654435800b22b1428528aff65809d947a7067be5"
+    },
+    "finalSuite": {
+      "tests": 21,
+      "failures": 0,
+      "logSHA256": "38f32f86bc99518602f962f57ed347831d094aa8b85b9e8c7f80b360cbd3fc79"
+    }
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}
