@@ -1,0 +1,182 @@
+{
+  "decisions": [
+    {
+      "id": 96606,
+      "field": "detail",
+      "kind": "secondary variant",
+      "primary": "Greetings, <class>. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\n\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\n\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+      "secondary": "Greetings, <Class>. I can see you've got the look of an adventurer about you. This is good. The world needs more of us restless souls, seeking fortune and glory.\n\nYou'll need to learn to thrive in the wilds to be successful in this line of work. Not sure how your outdoor skills are but I can probably teach you a thing or two, if you'd be apt to learn.\n\nHave a seat near the fire and get comfortable. I'll walk you through it.",
+      "decision": "Exact current primary text/case controls."
+    },
+    {
+      "id": 96634,
+      "field": "detail",
+      "kind": "secondary variant",
+      "primary": "So you want to learn more about camping, huh? Good for you, <class>. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\n\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+      "secondary": "So you want to learn more about camping, huh? Good for you, <Class>. The first step any adventurer needs to take is to become a cook and learn how to make a campfire.\n\nCooking's not just about making tasty foods. It's also the foundation for your camp.",
+      "decision": "Exact current primary text/case controls."
+    },
+    {
+      "id": 96634,
+      "field": "title",
+      "kind": "UA title omits101",
+      "decision": "Current English numeric101 preserved as Myanmar101."
+    },
+    {
+      "id": 97940,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 97942,
+      "field": "detail",
+      "kind": "secondary variant",
+      "primary": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a <class>.\n\nI reckon I know someone that can teach you how to craft a First Aid Kit for your camp. Injuries are a reality in the world of adventuring and offering some much-needed healing at your camp could even save lives.",
+      "secondary": "So you've taken up First Aid? That's an honorable... and pragmatic pursuit as a <Class>.\n\nI reckon I know someone that can teach you how to craft a First Aid Kit for your camp. Injuries are a reality in the world of adventuring and offering some much-needed healing at your camp could even save lives.",
+      "decision": "Exact current primary text/case controls."
+    },
+    {
+      "id": 97943,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 97944,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 97946,
+      "field": "detail",
+      "kind": "secondary variant",
+      "primary": "You've become a leatherworker. Good for you, <class>. I reckon I know someone that can teach you how to make yourself a tent that will keep you cool on hot days, and dry on rainy days.\n\nWith a good tent over your head, you'll ensure that you get all the rest you need to stay sharp on your travels.",
+      "secondary": "You've become a leatherworker. Good for you, <Class>. I reckon I know someone that can teach you how to make yourself a tent that will keep you cool on hot days, and dry on rainy days.\n\nWith a good tent over your head, you'll ensure that you get all the rest you need to stay sharp on your travels.",
+      "decision": "Exact current primary text/case controls."
+    },
+    {
+      "id": 97946,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 97948,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 97948,
+      "field": "title",
+      "kind": "UA title omits101",
+      "decision": "Current English numeric101 preserved as Myanmar101."
+    },
+    {
+      "id": 97949,
+      "field": "progress",
+      "kind": "UA availability differs",
+      "currentPrimaryAvailable": false,
+      "uaAvailable": true,
+      "decision": "Absent current English remains null; do not infer UA Progress."
+    },
+    {
+      "id": 96606,
+      "field": "objective",
+      "kind": "UA adds /sit",
+      "decision": "Current English requires sit and wait for Boosted Rest; no /sit instruction copied."
+    },
+    {
+      "id": 96630,
+      "field": "complete",
+      "kind": "UA gender alternatives absent in current English",
+      "decision": "Translate current gender-neutral English only; no unsupported normalization or player-name branch invented."
+    },
+    {
+      "id": 96634,
+      "field": "complete",
+      "kind": "UA gender alternatives absent in current English",
+      "decision": "Translate current gender-neutral English only."
+    },
+    {
+      "id": 97950,
+      "field": "detail/complete",
+      "kind": "Current English field-specific Faction Banner/Rallying Banner",
+      "decision": "Both exact directly evidenced field names retained with maintained pronunciations; live identity confirmation pending, no merged name."
+    }
+  ],
+  "unavailableFields": [
+    {
+      "id": 97939,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": false
+    },
+    {
+      "id": 97940,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97941,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": false
+    },
+    {
+      "id": 97943,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97944,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97946,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97948,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97949,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": true
+    },
+    {
+      "id": 97950,
+      "field": "progress",
+      "reason": "No current primary reply div or direct-heading state; secondary also absent. UA-only state not used.",
+      "uaAvailable": false
+    }
+  ],
+  "heldSupportedFields": [],
+  "currentLiveFollowup": [
+    "Confirm live availability and trainer/quest state routing for all14; no currentlive claim.",
+    "Confirm97950 Faction Banner offer versus Rallying Banner completion nomenclature."
+  ],
+  "privateCaptureUse": "Parent reported no newly uncovered sanitized live gaps; no private capture data copied."
+}

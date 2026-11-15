@@ -1,0 +1,58 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-15T20:45:53.019715+00:00",
+  "questIDs": 14,
+  "enabledFields": 61,
+  "fieldsByType": {
+    "title": 14,
+    "detail": 14,
+    "objective": 14,
+    "progress": 5,
+    "complete": 14
+  },
+  "dialogueStates": 33,
+  "unavailableFields": 9,
+  "heldFields": 0,
+  "groups": [
+    7,
+    7
+  ],
+  "linguisticLint": {
+    "result": "PASS",
+    "issues": [],
+    "module": "work/Myanmar-Forever-v1.2.11/Myanmar_Forever_NorthshireTest/BuildSource/linguistic_lint.py"
+  },
+  "validateFields": {
+    "result": "PASS",
+    "records": 14,
+    "fieldSlots": 70,
+    "module": "work/Myanmar-Forever-v1.2.11/tools/build_release.py",
+    "checks": [
+      "perfield source/final SHA256",
+      "source availability and null preservation",
+      "exact case-sensitive supported token multiset",
+      "numeric values including Myanmar101",
+      "invalid-script/replacement/private-use characters"
+    ]
+  },
+  "primaryHTMLReparse": "PASS14/14",
+  "DeepLProvenance": {
+    "result": "PASS",
+    "requests": 4,
+    "fields": 61,
+    "inputCharacters": 13369,
+    "rawEnvelopeMatchesStructuredResponse": true,
+    "allRequestArraysUnder5000": true
+  },
+  "pronunciationTerms": 53,
+  "newOrDerivedPronunciationProposals": 16,
+  "sourceSelection": "Current primary English perfield; installedQuestie1.0.12 and pinnedUA1.0.1 counterchecked",
+  "independentAssistedReview": "not performed; parent assigns fresh reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerHardware": "not tested",
+  "editedSHA256": "d07373d5f213fed372f9caad6d8ccf27c82d2773e220c3d851dd5ddec606314e",
+  "englishSourcesSHA256": "4253a9733348f1d7037905b7383da90f540e7ede53bed15628402296d8cb3887",
+  "reviewAuditSHA256": "da38a5ca950eebc43c863057c62bcee2612435c25df2f5651a4625b90cf41668",
+  "reviewGroupsSHA256": "bb8f071a96a76fc2e005fb7d6145c183c5cb35f11db79aabd82ace4d4ca67c11"
+}

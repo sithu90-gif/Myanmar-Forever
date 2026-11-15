@@ -566,3 +566,90 @@ if A.quests[6065] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS:49 current-English Hunter recipient/capital delivery/ritual/dungeon identity contracts, same-title referral alternatives, current player marker cases and unspoiled burned-note clue.')
 end
+
+if A.quests[96628] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({96628,96608,96629,96031,96044,96045,96046,96047,96050,96055,96056,96057,96058,96059,96630,96606,96634,97938,97939,97940,97941,97942,97943,97944,97946,97948,97949,97950,96659,96605,96661,97927,97928,97929,97930,97931,97932,97933,97934,97935,97936,97937,96652,96604,96655,96102,97899,97900,97901,97902}) do
+    assert(A.quests[id] and A.quests[id].title,'16 November camping quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Camping state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Camping capture lost exact questID/title')
+    end
+  end
+  for _,h in ipairs({}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'New camping hold lost original fallback/capture')
+  end
+  assert(EXPECTED_DISABLED_FIELDS['5639.detail'] and not A.quests[5639].detail,'Prior unsupported referral hold refilled')
+  assert(not A.quests[5728].detail and A.quests[5728].complete,'Prior unsupported gender offer hold refilled or valid completion lost')
+  titleOverride=nil;questID=0;fire('QUEST_FINISHED')
+  print('PASS:16NovemberCamping50 records across150 dialogue states, perID same-title capture and preserved source/runtime holds.')
+end
+
+if A.quests[96628] then
+  local expected={
+    [96628]={"Supply Bundle","Eric Brighthammer","Kharanos"},
+    [96608]={"Eric","Basic Campfire","Boosted Rest"},
+    [96629]={"Gremlock Pilsnor","Kharanos"},
+    [96031]={"Gretta Finespindle","Ironforge"},
+    [96044]={"Tognus Flintfire","Kharanos"},
+    [96045]={"Vosur Brakthel","Ironforge"},
+    [96046]={"Yarr Hammerstone","Kharanos"},
+    [96047]={"Thamner Pol","Kharanos"},
+    [96050]={"Paxton Ganter","Iceflow Lake","Dun Morogh"},
+    [96055]={"Reyna Stonebranch","Ironforge"},
+    [96056]={"Balthus Stoneflayer","Ironforge"},
+    [96057]={"Uthrar Threx","Ironforge"},
+    [96058]={"Bronk Guzzlegear","Kharanos"},
+    [96059]={"Thonys Pillarstone","Ironforge"},
+    [96630]={"Lyreena Duskblade","Dolanaar"},
+    [96606]={"Lyreena","Basic Campfire","Boosted Rest"},
+    [96634]={"Zarrin","Dolanaar"},
+    [97938]={"Cyndra Kindwhisper","Dolanaar"},
+    [97939]={"Elisa Steelhand","Auberdine","Darkshore"},
+    [97940]={"Alanna Raveneye","Oracle Glade","Teldrassil"},
+    [97941]={"Jenna Lemkenilli","Auberdine","Darkshore"},
+    [97942]={"Byancie","Dolanaar"},
+    [97943]={"Astaia","Darnassus"},
+    [97944]={"Malorne Bladeleaf","Dolanaar"},
+    [97946]={"Nadyia Maneweaver","Darnassus","Dolanaar"},
+    [97948]={"Kurdram Stonehammer","Auberdine"},
+    [97949]={"Radnaal Maneweaver","Darnassus","Dolanaar"},
+    [97950]={"Trianna","Darnassus"},
+    [96659]={"Supply Bundle","Kaga Wildhoof","Bloodhoof Village"},
+    [96605]={"Kaga","Basic Campfire","Boosted Rest"},
+    [96661]={"Pyall Silentstride","Bloodhoof Village"},
+    [97927]={"Kray","Thunder Bluff"},
+    [97928]={"Thrag Stonehoof","Thunder Bluff"},
+    [97929]={"Mot Dawnstrider","Thunder Bluff"},
+    [97930]={"Twizwick Sprocketgrind","Venture Co. Mine","Mulgore"},
+    [97931]={"Vira Younghoof","Bloodhoof Village"},
+    [97932]={"Uthan Stillwater","Bloodhoof Village"},
+    [97933]={"Komin Winterhoof","Thunder Bluff"},
+    [97934]={"Chaw Stronghide","Bloodhoof Village"},
+    [97935]={"Brek Stonehoof","Thunder Bluff"},
+    [97936]={"Yonn Deepcut","Bloodhoof Village"},
+    [97937]={"Vhan","Thunder Bluff"},
+    [96652]={"Brakk","Razor Hill"},
+    [96604]={"Brakk","Basic Campfire","Boosted Rest"},
+    [96655]={"Cook Torka","Razor Hill"},
+    [96102]={"Snang","Orgrimmar"},
+    [97899]={"Whuut","Orgrimmar"},
+    [97900]={"Dwukk","Razor Hill"},
+    [97901]={"Jhag","Orgrimmar"},
+    [97902]={"Mukdrak","Razor Hill"}}
+  for id,terms in pairs(expected) do
+    local objective=assert(A.quests[id].objective,'Camping objective missing: '..id):lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'Camping recipient/item/buff/city contract failed: '..id..'/'..term) end
+  end
+  for _,id in ipairs({96031,96055,96056,96057,97939,97940,97941,97943,97944,97946,97948,97949,97950,97928,97929,97930,97933,97937,97899,97902}) do assert(not A.quests[id].progress,'Invented current-English-absent camping progress: '..id) end
+  for _,id in ipairs({96608,96606,96605,96604}) do assert(A.quests[id].objective:find('Boosted Rest',1,true),'Camp rest buff identity lost: '..id) end
+  for _,id in ipairs({96057,97950,97937,96102}) do
+    assert(A.quests[id].detail:find('Faction Banner',1,true),'Current tailoring offer banner identity lost: '..id)
+    assert(A.quests[id].complete:find('Rallying Banner',1,true),'Current tailoring completion banner identity lost: '..id)
+  end
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:50 current-English camping supply/journal/recipient/buff/remote-profession contracts, source-absent progress and field-specific tailoring banner identities.')
+end

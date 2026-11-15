@@ -1,0 +1,1574 @@
+{
+  "upstream": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.1",
+    "commit": "ab388ca8df990310d96320c88689831587f76e33",
+    "checkedAt": "2026-11-15T20:32:50.793299+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.1",
+    "publishedAtUTC": "2026-11-14T17:05:51Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.1/UA_Forever-1.0.1.zip",
+    "assetSHA256": "a8f3b284c70434c72b6bfc68477facc4dfede1b403ea1ba568a711f2d8770c98",
+    "catalogSHA256": "faf218b2ebf05874b6f048c2ed66d3c462124296c0e9544af275da86039d88d3"
+  },
+  "quests": [
+    {
+      "id": 96630,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            654846
+          ]
+        ],
+        "3": [
+          [
+            265811
+          ]
+        ],
+        "8": [
+          "Bring the journal to Lyreena Duskblade near Dolanaar."
+        ],
+        "13": [
+          921
+        ],
+        "16": [
+          96627,
+          96628,
+          96638,
+          96652,
+          96656,
+          96659
+        ],
+        "S": {
+          "1": "The Adventurer",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "11": 275022,
+          "17": -666,
+          "22": 96606,
+          "27": 96606,
+          "p": 36998
+        }
+      },
+      "uaVariant": {
+        "title": "Шукач пригод",
+        "detail": "<Щоденник виглядає досить простим, детально описує життя та пригоди когось, про кого ви ніколи не чули.\n\nЄ кілька записів, де згадується кемпінг. Здається, це досить... весело.>",
+        "objective": "Принесіть щоденник Ліріні Сутінковий Клинок біля Доланаара.",
+        "progress": "Ти тут, щоб навчитися облаштовувати табір на природі?",
+        "complete": "Це мій щоденник? Я вже давно його шукаю. Дякую, {клас:к}.\n\nГей, ти й {стать:сам схожий:сама схожа} на шукача пригод. Хочеш дізнатися, як облаштовувати табір?",
+        "en": "The Adventurer",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "4d69bcd61ced13853f9e03ced5040d2267c1e6f244148ad712eed88166ebe582",
+          "uaSHA256": "a0541eab83e3c7a14430108f75351b186a01ba45eac66de58c3663e2e768c217",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "4d69bcd61ced13853f9e03ced5040d2267c1e6f244148ad712eed88166ebe582"
+        },
+        "detail": {
+          "currentEnglishSHA256": "fcc1e387eba14b8bacb3c9c26c9721d7936b1dfbcaa494f1c0f3c5253116de87",
+          "uaSHA256": "9f092e62a8500fd72f0876bf5aef4ba707c10de4ff2f68113bca40751ba2648c",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "fcc1e387eba14b8bacb3c9c26c9721d7936b1dfbcaa494f1c0f3c5253116de87"
+        },
+        "objective": {
+          "currentEnglishSHA256": "2222b1dab3536d7c8278827167aba0ac892fec30042def148c7a4ab11a3adc24",
+          "uaSHA256": "ccc686906ce4ba8a85249432733a08840d47672dc3ce56f683b1d6955b791d3d",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "2222b1dab3536d7c8278827167aba0ac892fec30042def148c7a4ab11a3adc24"
+        },
+        "progress": {
+          "currentEnglishSHA256": "1b22d00687dbc55c107a949e9df0ca0ba4c985f484254046e05e19c8dd07a4e4",
+          "uaSHA256": "c25995622ab6d50ae2e5d1bbd1594c7872e384aca7d2dc97509f6275329dbc91",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "bf632be4c96a676ba478d0b05e5ad054834800542e37006154a449424a291ceb",
+          "uaSHA256": "a12fba7dc8d557878a59e5235011b69bd23fbf6bfc00c0d0d36430cfdcc83e11",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "978fe1d8a17cacbc8787014073b62cab8c60d236d1e54295edd57e2b5ddf3253",
+      "secondaryHTMLSHA256": "0d588eb3e5778d3ade0003d588ca040ed50cb1f97742afcb34ab3048dce2c15d",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">&lt;The journal appears to be quite plain, detailing the life and adventures of someone you&#x27;ve never heard of.\n\nThere a"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 96606,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            265811
+          ]
+        ],
+        "8": [
+          "Sit near Lyreena's Basic Campfire and wait until you receive the Boosted Rest buff."
+        ],
+        "10": [
+          null,
+          [
+            [
+              460003,
+              null,
+              0
+            ],
+            [
+              460003,
+              null,
+              0
+            ]
+          ]
+        ],
+        "16": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96607,
+          96608
+        ],
+        "28": [
+          96630
+        ],
+        "S": {
+          "1": "The Great Outdoors",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "p": 134251142
+        }
+      },
+      "uaVariant": {
+        "title": "На свіжому повітрі",
+        "detail": "Вітаю, {клас}. Бачу, що у вас вигляд шукача пригод. Це добре. Світу потрібно більше нас, неспокійних душ, які прагнуть багатства та слави.\n\nТобі потрібно навчитися процвітати в дикій природі, щоб досягти успіху в цій сфері. Не впевнений, як у тебе справи з навичками активного відпочинку на природі, але я, мабуть, можу тебе дечому навчити, якщо ти схильний до навчання.\n\nСядьте біля вогню та влаштуйтеся зручніше. Я тобі все розповім.",
+        "objective": "Сядьте біля базового багаття Ліріни, набравши /sit у вікні чату, і зачекайте, поки отримаєте посилення відпочинку.",
+        "progress": "Уміння виживати на природі життєво необхідне. Шукач пригод, який добре відпочив і підготувався, має значно більше шансів вижити, обравши таке життя.",
+        "complete": "Тепер, коли ми засвоїли основи, чому б тобі не опанувати якесь ремесло в наставників у сусідньому селі? Вони також навчать тебе створювати табірне спорядження, відповідне до нової професії.",
+        "en": "The Great Outdoors",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "d27e2e8525e1ebcbfaffb9ca4e98e6c5dd123cb37c86581618d22af760ceb60d",
+          "uaSHA256": "2ca5c3f388862181e8deb1cc9c0fd9d77a17a997fd7fdbf3a260d75d6ee216db",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "d27e2e8525e1ebcbfaffb9ca4e98e6c5dd123cb37c86581618d22af760ceb60d"
+        },
+        "detail": {
+          "currentEnglishSHA256": "d42680608232a44fd2bb3a2ac0aab46086aaabdab5fc190ff3e30213486b33c7",
+          "uaSHA256": "19cf0bff4bdb0af4e4f47636f314c539a022e679b271d71a0bb0a72902cfcbe4",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "d8e5881e59f35521ac85e1c80a2b44e23e2890db5aefbd84b3957bcef52718bb"
+        },
+        "objective": {
+          "currentEnglishSHA256": "e62d4f4bf93ec67fd24cb5c8a68111758a8c89dda9bb63bd90b778d9311f2fdb",
+          "uaSHA256": "aa9dc111077a099f5d2068574c9ffbee810e29efd4493e2f29aabec08ef54b08",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "e62d4f4bf93ec67fd24cb5c8a68111758a8c89dda9bb63bd90b778d9311f2fdb"
+        },
+        "progress": {
+          "currentEnglishSHA256": "a1dabbf6d9396f38fd258c32b395f10b1aedfdedfe7355d0bc24ef7cac1831af",
+          "uaSHA256": "09e3d6988b037e3f00dbac7c61323c3d47395b9f9be5e291836b9bfdab361fef",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "e4ca05dea645629fe75046dd405468a388b38e970863635bff85cc457bec609b",
+          "uaSHA256": "90e573706d15ebab9a84644515b246213a2073c98280c2bf38bc8f8ee87f92c0",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "920c4a5bdb008fa35f712e028ae5a143d80997eaa826f2a2a69147582caee5e4",
+      "secondaryHTMLSHA256": "a42f23722952ab694a0dc8bb21860477bc0e3262043cf64aa8f22335474d160e",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Greetings, &lt;Class&gt;. I can see you&#x27;ve got the look of an adventurer about you. This is good. The world needs more "
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 96634,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            6286
+          ]
+        ],
+        "8": [
+          "Speak with Zarrin in Dolanaar to learn to become a cook."
+        ],
+        "10": [
+          [
+            [
+              6286,
+              null,
+              5
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96626,
+          96629,
+          96646,
+          96655,
+          96658,
+          96661
+        ],
+        "S": {
+          "1": "Camping 101: Cooking",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "p": 37510
+        }
+      },
+      "uaVariant": {
+        "title": "Основи таборування: куховарство",
+        "detail": "Отже, ви хочете дізнатися більше про кемпінг, га? Молодець, {клас}. Перший крок, який має зробити будь-який шукач пригод, — це стати кухарем і навчитися розводити багаття.\n\nКулінарія — це не просто приготування смачної їжі. Це також основа вашого табору.",
+        "objective": "Поговоріть із Зарріном у Доланаарі, щоб навчитися бути кухарем.",
+        "progress": "Добре багаття — основа будь-якого доброго табору.",
+        "complete": "Тепер ти зможеш розбивати табір будь-де на природі. Ти {стать:засвоїв:засвоїла} лише основи, тож розмістити навколо багато спорядження поки що не вдасться.\n\nУдосконалюй навички куховарства, і, можливо, навчишся розпалювати ще більші багаття.\n\nЯкщо знаєшся на інших ремеслах, у відповідних наставників також можна навчитися основ облаштування табору.",
+        "en": "Camping 101: Cooking",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "68b26338eaaf0873079acfb8f846fe14665f3b6731ed210cd943ca5af21f9605",
+          "uaSHA256": "e11b3e17f4b1276e28318fe85e25c61673d2c97bac4682b16f1f37ba64870258",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "68b26338eaaf0873079acfb8f846fe14665f3b6731ed210cd943ca5af21f9605"
+        },
+        "detail": {
+          "currentEnglishSHA256": "7176391751e9df90c672427c762c0c565d4ed73d0844f29c6c7037cc728ac1c2",
+          "uaSHA256": "bb5115a76d55d6703216b0ad40b1592279a84e59619137d10e99e79e1383f49a",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "a9316366564122ba4057d0a00c22373f245717c694dd70cb1e641f578a30e2b5"
+        },
+        "objective": {
+          "currentEnglishSHA256": "2de593615cb22f6c0ee30778978e2397c28ae9f2d824dec8bb02c049f6305c9b",
+          "uaSHA256": "3f2254daa21b5dec78573d3e6d1ec4d132629e2c8e75a7cc2d0c26c95c7439f9",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "2de593615cb22f6c0ee30778978e2397c28ae9f2d824dec8bb02c049f6305c9b"
+        },
+        "progress": {
+          "currentEnglishSHA256": "e4fac988000c5b2d45e731c527275a276ad9b16a7690291326e7f745028b656c",
+          "uaSHA256": "3fd2ad797565b7ef3f3baf6fb80790192995c0d5d25491125458b57094643e37",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "9797b84cd3f3db212ffd16c29d20550b3c473e18e3a9043f60c57727dcd91d0f",
+          "uaSHA256": "d1bad3ddfb80617e041d2cd6770a7ca773cd63abba859c51cd22c4ccf8dd6c75",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "397024f969ebef3d1399d94642b6bba237c730fd4c87c36348aece280ab40459",
+      "secondaryHTMLSHA256": "d62a492e55e0003d9fa69c5b7fe3b913b8c664f3fe3783c1718e37b2527eccdb",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">So you want to learn more about camping, huh? Good for you, &lt;Class&gt;. The first step any adventurer needs to take is to"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97938,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            3603
+          ]
+        ],
+        "8": [
+          "Speak with Cyndra Kindwhisper in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              3603,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96045,
+          97899,
+          97915,
+          97927,
+          97951,
+          97963
+        ],
+        "18": [
+          171,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Alchemy",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230564,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Алхімія",
+        "detail": "Отже, ти вирішив варити зілля та напої як Алхімік. Я впевнений, що це стане тобі в пригоді в подорожах.\n\nГадаю, я знаю когось, хто може навчити тебе, як створити Колодязь Мани для твого табору. Збудуй один з них, і всі цілителі та чарівники збігатимуться, щоб насолодитися освіжаючим смаком.",
+        "objective": "Поговоріть із Синдрою Кайндвіспер у Доланаарі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Так, я можу тебе навчити.",
+        "complete": "Ось і все, тепер ти можеш виготовити колодязь мани для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Alchemy",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "7bb663111cc27cb16546cc215aae5f179fd4b42e49192e4ea6d41b0854b54780",
+          "uaSHA256": "ee5569f8680fbfe6798d93b62c4ea09e08f28aeb89ad45db56475dae5c57fa3b",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "7bb663111cc27cb16546cc215aae5f179fd4b42e49192e4ea6d41b0854b54780"
+        },
+        "detail": {
+          "currentEnglishSHA256": "b2e26073d60e98a6cdf23c0c04d637a1122032261f8bed7a13ff72a1017860f0",
+          "uaSHA256": "a3a770244837efe7d2d612954a5c43b1279993c73ad5af318b5d7b22955d2fa4",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "b2e26073d60e98a6cdf23c0c04d637a1122032261f8bed7a13ff72a1017860f0"
+        },
+        "objective": {
+          "currentEnglishSHA256": "27c2841e98794bfea91c4aca49908b2212a4e2ef3fb2b8a5db0a9dd3a6178a30",
+          "uaSHA256": "5a18b6ad4aaf4d8744c1010a2a98e7c34cdc05b9d816ea4d1e927ffcde57f29c",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "progress": {
+          "currentEnglishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+          "uaSHA256": "5bdc42b29481399b14f614d66671160630642860773d7b6b142fa83f652a315f",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "672e6f4a814ed980900f45b107d078f358f95346dd9ddaa0e0f5c84d1679f568",
+          "uaSHA256": "f11310305a9de15da06f0ed6921d52cbe3aebdde4397838744eb946385d13b21",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "6ffe36b381b1f03cfd1658dd4bbf0f82d2b5273e21e4d226ba8605bdc6b7eeb9",
+      "secondaryHTMLSHA256": "a918092e6cf667a92043099c448f74fc8d996bb0d0ace3f976ee5e61d518ff50",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">So, you chose to cook up brews and potions as an Alchemist. I&#x27;m sure that&#x27;ll come in handy in your travels.\n\nI rec"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97939,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            6300
+          ]
+        ],
+        "8": [
+          "Speak with Elisa Steelhand in Auberdine in Darkshore to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              6300,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96044,
+          97900,
+          97916,
+          97928,
+          97952,
+          97964
+        ],
+        "18": [
+          164,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Blacksmithing",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230171,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Ковальська справа",
+        "detail": "Отже, ви стали ковалем. Це чудовий вибір, якщо ви хочете бути впевнені, що ваші клинки ніколи не затупляться.\n\nГадаю, я знаю когось, хто може допомогти вам у цьому, навчивши вас, як виготовити точильне колесо. Принесіть одне з них у свій табір, і всі воїни та розбійники в окрузі вишикуються в чергу, щоб відточити свою зброю.",
+        "objective": "Після підтвердження майстерності у своїй професії поговоріть з Елізою Сталерукою в Аубердіні на Темнобережжі, щоб навчитися виготовляти відповідний табірний предмет.",
+        "progress": null,
+        "complete": "Ось і все, тепер ти можеш виготовити точильний круг для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Blacksmithing",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "a85f465047c82b9ddb930d46365751f7956c7c6f2d648302f22064c488ebc723",
+          "uaSHA256": "9dd750ae16044e6cb585119c6b76a66a3567b80bbfaf31889b2d59a22d7e43e4",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "a85f465047c82b9ddb930d46365751f7956c7c6f2d648302f22064c488ebc723"
+        },
+        "detail": {
+          "currentEnglishSHA256": "ddf44aa3a3434bfd86efde8e714dd625a376231d174f328d94369a96910d5129",
+          "uaSHA256": "0857ddcdacd9b334808262fac33c94bc9127a437f1fd5a32d508f2b7c1ce447c",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "ddf44aa3a3434bfd86efde8e714dd625a376231d174f328d94369a96910d5129"
+        },
+        "objective": {
+          "currentEnglishSHA256": "848c03e47663155ee34f4e6f41aef42eba6161cf6e5435d5d9cd0a5438ad69bf",
+          "uaSHA256": "30ea29f9e18f500023dc467db65db188e974d5a3d8501e9b6fc4023cbb34bd0f",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": null,
+          "currentPrimaryAvailable": false,
+          "uaAvailable": false,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "57010bdd2434e7de10baedf06967babfb1fa1ed38b15f67795781a412672af6c",
+          "uaSHA256": "e5346e5e1ea6aaeb9e57484908038c8bc9f5cccd65de8866365b1112a52b2f08",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "0ac3cf3eecc1be7d0fc5ae8aef2941ef8a1625167511a3e46a1bd85baec7378b",
+      "secondaryHTMLSHA256": "70fd90c9252c90143ddc6e2be5060061081c588714ae4a836dce2f55a8750449",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">So, you&#x27;ve become a Blacksmith. That&#x27;s a great choice if you want to make sure your blades never dull.\n\nI reckon I"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97940,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            3606
+          ]
+        ],
+        "8": [
+          "Speak with Alanna Raveneye in the Oracle Glade in Teldrassil to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              3606,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96059,
+          97901,
+          97917,
+          97929,
+          97953,
+          98284,
+          98286
+        ],
+        "18": [
+          333,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Enchanting",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230643,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Чарівний",
+        "detail": "Чарівники роблять усе кращим і завжди раді бачити їх у будь-якому таборі в дикій природі.\n\nГадаю, я знаю когось, хто може навчити вас, як створити Зачаровану лютню для вашого табору. Так важливо знаходити розваги під час відпочинку, і ця частинка магії може допомогти вам бути готовими до всіляких випробувань, коли ви знову вирушите на стару запилену стежку.",
+        "objective": "Поговоріть з Аланною Рейвенай на Галявині Оракула в Тельдрассілі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Так, я можу тебе навчити.",
+        "complete": "Ось і все, тепер ти можеш виготовити зачаровану лютню для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Enchanting",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "332b78d2ebf3fae3032be19cdb37ae60adde8866a01ab12fb32445df6e29ff93",
+          "uaSHA256": "196bb1c014c12d5e4f3346b518d83ea8d31f532ba9a05c062e13b5d2d96bc0d2",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "332b78d2ebf3fae3032be19cdb37ae60adde8866a01ab12fb32445df6e29ff93"
+        },
+        "detail": {
+          "currentEnglishSHA256": "3e46fd7ec9072ee298840baf61cd571e610713f2afa44869b289ebc1b0d0279b",
+          "uaSHA256": "45da5e70b96e68fa5ce22929eeca36a54f4ccc74ee3d9bac5bd0aeae2b84d224",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "3e46fd7ec9072ee298840baf61cd571e610713f2afa44869b289ebc1b0d0279b"
+        },
+        "objective": {
+          "currentEnglishSHA256": "e389f4af59f30430def5532dcddd2997ae6588ebf461f5ee32276da503ee97f7",
+          "uaSHA256": "55200f3de9ec0b8942c1f62a328c7f1bdeb7362aaf76071cb7b926f1c01d24ac",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "e389f4af59f30430def5532dcddd2997ae6588ebf461f5ee32276da503ee97f7"
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "5bdc42b29481399b14f614d66671160630642860773d7b6b142fa83f652a315f",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "6d99504b6a5397bf3147f8fce6d1e230789d3e70b00ca3db52c2a20faf26bada",
+          "uaSHA256": "5ff83b3b9b9e009d4f6bc69134221cd28468cd5ca75bcbea45826e804791d9b1",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "93f1a2f96d79b08a4d7c47801e902458c844043e898ba657128dc66bb59f889a",
+      "secondaryHTMLSHA256": "177e09d5698f24e8dd58bcaaa625f5b27c5d62a972cfe268256c3532e10334a8",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Enchanters make everything better and are always welcome at any camp out in the wilds.\n\nI reckon I know someone that can tea"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97941,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            11037
+          ]
+        ],
+        "8": [
+          "Speak with Jenna Lemkenilli in Auberdine in Darkshore to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              11037,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96058,
+          97902,
+          97918,
+          97930,
+          97954,
+          98285,
+          98287
+        ],
+        "18": [
+          202,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Engineering",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230656,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Інженерія",
+        "detail": "Такі інженери, як ви, можуть створювати всілякі штуки, ботів та бомби для розваги та прибутку.\n\nГадаю, я знаю когось, хто може навчити вас, як створити Бота-Реагента для вашого табору. Цей корисний автомат може допомогти вам добре постачатися, щоб у вас та ваших союзників ніколи не закінчувалися матеріали, необхідні для підживлення ваших заклинань.",
+        "objective": "Після підтвердження майстерності у своїй професії поговоріть із Дженною Лемкеніллі в Аубердіні на Темнобережжі, щоб навчитися виготовляти відповідний табірний предмет.",
+        "progress": null,
+        "complete": "Ось і все, тепер ти можеш виготовити робота реагентів для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Engineering",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "adf0ca99d09a53c49d7399fbb454b9ead7a533c7fcb511e6c16f7b046ded08c9",
+          "uaSHA256": "aa4181091ae8407b29caa38d5d2970686179a33af124e2e98524f27c6d9acbb5",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "adf0ca99d09a53c49d7399fbb454b9ead7a533c7fcb511e6c16f7b046ded08c9"
+        },
+        "detail": {
+          "currentEnglishSHA256": "c4d66c0b4e897df43a9d072f9d980277fdd40b89b7d46284ed6e5651e4693a9f",
+          "uaSHA256": "d062d86742c625b7e3656a372be9b0885ff4b7899ac85b7fbe799c82a26d0028",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "c4d66c0b4e897df43a9d072f9d980277fdd40b89b7d46284ed6e5651e4693a9f"
+        },
+        "objective": {
+          "currentEnglishSHA256": "11f1a998422ba113fc37cc9dbeab483b2479d6f39604ba5efd422efc648c922e",
+          "uaSHA256": "00a44a1be68514b3b44c93951905b8a9d2c617c18910e7194de3a60046250c88",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": null,
+          "currentPrimaryAvailable": false,
+          "uaAvailable": false,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "dce34fda3bc506cb8207aa0f5d1f496baed071e8537e1fdac2c8b75a4c364145",
+          "uaSHA256": "8bb03c2e3255694953111040d5282140d50e5634e72a131e9a3f787590541362",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "bf826822c65d422a6237beb286515936346c3ab76e791d0a02f3f65d55ffb4c1",
+      "secondaryHTMLSHA256": "bfba24a988caee36489a9a6ab4071ea55d25d84b87f775a9f030459e516a7d7c",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Engineers like yourself can cook up all sorts of bits, bots, and bombs for fun and profit.\n\nI reckon I know someone that can"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97942,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            6094
+          ]
+        ],
+        "8": [
+          "Speak with Byancie in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              6094,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96047,
+          97903,
+          97919,
+          97931,
+          97955,
+          97965
+        ],
+        "18": [
+          129,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: First Aid",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230117,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Перша допомога",
+        "detail": "Отже, ви почали навчатися наданню першої допомоги? Це почесне... і прагматичне прагнення як {клас}.\n\nГадаю, я знаю когось, хто може навчити вас, як створити аптечку першої допомоги для вашого табору. Травми — це реальність у світі пригод, і пропонування так необхідного лікування у вашому таборі може навіть врятувати життя.",
+        "objective": "Поговоріть з Б'янсі в Доланаарі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Я зможу тебе навчити, коли ти здобудеш певну майстерність у своїй професії.",
+        "complete": "Ось і все, тепер ти можеш виготовити набір першої допомоги для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: First Aid",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "240b7f4d286e5f54dde814a1d8040438ca0f740326648667c95fb975a0488d37",
+          "uaSHA256": "8137e4e8fe2acb38c721f90428b9eafe29b78ae248e1962e9f36c392a0f43b3b",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "240b7f4d286e5f54dde814a1d8040438ca0f740326648667c95fb975a0488d37"
+        },
+        "detail": {
+          "currentEnglishSHA256": "b000be442de949b163129ec5739777cd70cc84dfdca6a751294cbba936e98b3a",
+          "uaSHA256": "79f07244eca2b385bae5de6b1a37316b5d80da8370da779b5f1c356ba9942692",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "e6958b421bc3a0130d0d27fa98f4700101420dc09e167fb7554d31fc3c2fc30b"
+        },
+        "objective": {
+          "currentEnglishSHA256": "0c5089e00245234adb6639c08a20f621bed04980841fc78e3a0934868113c38c",
+          "uaSHA256": "5c685f11ea50b3ee64ebbc53728ed324fb7f67a4fc0a62e765b647f28052854c",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "0c5089e00245234adb6639c08a20f621bed04980841fc78e3a0934868113c38c"
+        },
+        "progress": {
+          "currentEnglishSHA256": "d8fdada3521fc485033f1b319f430b2c18dcbc6eaebd0f93ef8518392d42d019",
+          "uaSHA256": "f7efdfd37b2ca81ec4d7a645f1fb7c8892e71f7e52aa60379c95b8a78c681a56",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "d3274857fbb6814292a7e8c196335f6a26a0b980301e5a233a91c59e734f0e7a",
+          "uaSHA256": "493883412712796bc21187cdd03ec3448f1f310211a0ee41b901a502d2f8437e",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "4ce3753933891d184b558832be2433269ccbbd42d70ddcd69b6bc7fb0de5cafe",
+      "secondaryHTMLSHA256": "be12ff3d7663cdb148f1563238eb79db8f6f2eb641f7a09652ed1c95196407bd",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">So you&#x27;ve taken up First Aid? That&#x27;s an honorable... and pragmatic pursuit as a &lt;Class&gt;.\n\nI reckon I know so"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97943,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            4156
+          ]
+        ],
+        "8": [
+          "Speak with Astaia in Darnassus to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              4156,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96050,
+          97904,
+          97920,
+          97932,
+          97956,
+          97967
+        ],
+        "18": [
+          356,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Fishing",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1229745,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Риболовля",
+        "detail": "Можливо, ви так не думаєте, але ваші навички рибалки можуть стати в нагоді в таборі.\n\nГадаю, я знаю когось, хто може навчити вас, як зробити акваріум для вашого табору. Ви можете використовувати цей інструмент, щоб подарувати трохи радості собі та своїм товаришам-шукачам пригод. Щасливий шукач пригод – це сильний шукач пригод, і я впевнений, що ваші бойові здібності це відображатимуть.",
+        "objective": "Поговоріть з Астаєю в Дарнасі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Зможу навчити тебе, коли ти наберешся досвіду в риболовлі.",
+        "complete": "Ось і все, тепер ти можеш виготовити акваріум для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Fishing",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923",
+          "uaSHA256": "89a5cfae905f0b474df10efaa6f2fe202286c7fc3899857717cc09e6885ad6af",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923"
+        },
+        "detail": {
+          "currentEnglishSHA256": "215076866014b003a86d665b965512006eeeadae801452a98cbb293dd61b6c1d",
+          "uaSHA256": "959fc855fcc71814aa2c9ae75ef8f16b60ba6125eb951f9711f9d6556c544bf5",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "215076866014b003a86d665b965512006eeeadae801452a98cbb293dd61b6c1d"
+        },
+        "objective": {
+          "currentEnglishSHA256": "0e7e75f5d39f88c4238355b111ddb155d11a17e224c9ede37fe04867c1885bce",
+          "uaSHA256": "5f68700e9ffb860c226373f92194c3ca9e86f3bda112c67b1a239b015b969d83",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "0e7e75f5d39f88c4238355b111ddb155d11a17e224c9ede37fe04867c1885bce"
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "5aa817c9f919893ca5e63b9b435b967085541188fd2f6d0f0881a5d3ae04f1e7",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "48b860c3616c68986398dace743d6980f08240a4d5d3b6c18c96e6cea8de8600",
+          "uaSHA256": "fdc3c2ee1d8a1c8069aaaa44dcd49415ccaba35608cab7912ec93f6365f5374f",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "c8f2bea166e586e8977f2703e1161b51f40ba77d167b15eba68de1f5e9e8bb66",
+      "secondaryHTMLSHA256": "5f827fc3c00433ba0e2a040967f4dfc54b367d9da2f8b74b1d962173b31e44d9",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">You might not think so, but your skill as a fisherman can actually come in handy at camp.\n\nI reckon I know someone that can "
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97944,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            3604
+          ]
+        ],
+        "8": [
+          "Speak with Malorne Bladeleaf in Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              3604,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96055,
+          97905,
+          97921,
+          97933,
+          97957,
+          97968
+        ],
+        "18": [
+          182,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Herbalism",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1229705,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Трав'ярство",
+        "detail": "Мені здається, ти набув певних навичок у травництві. Збирання квітів — це не просто для розваг, знаєш. Це може бути корисним... і прибутковим.\n\nГадаю, я знаю когось, хто може навчити тебе, як створити ароматичну свічку для твого табору. Піднесений дух — ключовий компонент для підтримки цілителів та заклинателів у бою, а ароматична свічка може дати підкріплення, яке маги точно оцінять.",
+        "objective": "Поговоріть з Малорном Клинолистом у Доланаарі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Так, я можу тебе навчити.",
+        "complete": "Ось і все, тепер ти можеш виготовити ароматичну свічку для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Herbalism",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "b3b123ca3ba8041bf333484501d1377d6824738c34b3584588376f71fa25aae0",
+          "uaSHA256": "781e121ad42bb8448d1c351fc018579f3f39ff317e85c1f4c952ced6f6cc2c01",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "b3b123ca3ba8041bf333484501d1377d6824738c34b3584588376f71fa25aae0"
+        },
+        "detail": {
+          "currentEnglishSHA256": "7714279cf449fb6ce779e1c42a4b4efe036b3ac22817114930a7c4adda500ef9",
+          "uaSHA256": "59a38e3b3ca059cfc3503db84dc3b2bd6ae5f0ab4c01701e71ac64f824abb2ff",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "7714279cf449fb6ce779e1c42a4b4efe036b3ac22817114930a7c4adda500ef9"
+        },
+        "objective": {
+          "currentEnglishSHA256": "2bb13b956c2d94033142f9dd1f3cd988a964cea498051db5d90621de0b62b3bf",
+          "uaSHA256": "0b0e91d4f271be138e4900179f288a0677eb4cf67ec33c3c8634166e3ec2f585",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "2bb13b956c2d94033142f9dd1f3cd988a964cea498051db5d90621de0b62b3bf"
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "5bdc42b29481399b14f614d66671160630642860773d7b6b142fa83f652a315f",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "79f133a1cdeb56f036cb5d9b9b0c1c2b774bbeb4907776d8c8512467d0a5b5b7",
+          "uaSHA256": "243a4924a0553db1bf36251ddd4efea0266cfbb9ee65eae9864bfd6e4717d3cb",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "c3230dfe73421f9f042278871dde095c7a8cb2c70316b4e92850c32c82eebcdb",
+      "secondaryHTMLSHA256": "5969c671127a6122b77340af4405b33e2711cc6ac796916d7360d24e4ccbc05a",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Looks to me like you&#x27;ve gained some skill in herbalism. Picking flowers isn&#x27;t just for dilly-dallying, you know. I"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97946,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            3605
+          ]
+        ],
+        "8": [
+          "Speak with Nadyia Maneweaver on the road to Darnassus from Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              3605,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96031,
+          97906,
+          97922,
+          97934,
+          97958,
+          97969
+        ],
+        "18": [
+          165,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Leatherworking",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1229432,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Шкіряна справа",
+        "detail": "Ти став шкіряником. Молодець, {клас}. Гадаю, я знаю когось, хто може навчити тебе, як зробити собі намет, у якому буде прохолодно в спекотні дні та сухо в дощові.\n\nЗ гарним наметом над головою ти гарантовано отримаєш весь необхідний відпочинок, щоб залишатися бадьорим під час подорожей.",
+        "objective": "Поговоріть з Надією Манівевер дорогою до Дарнасу з Доланаара, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Так, я можу тебе навчити.",
+        "complete": "Ось і все, тепер у тебе є власний табірний намет. Людям зазвичай не подобається, коли намети ставлять посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Leatherworking",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "9f712978bac3e5de3b940a1e9c37567749226def90146c8588b0234bf3f85775",
+          "uaSHA256": "4d4f193f361d23168d5caa16c3346faec30a3ee7bf04cb445e28a6d346d4a225",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "9f712978bac3e5de3b940a1e9c37567749226def90146c8588b0234bf3f85775"
+        },
+        "detail": {
+          "currentEnglishSHA256": "b74bc56e1071acf121fab0e5c919ec7bd72306b695fa964a7f58ae3397e79d6b",
+          "uaSHA256": "a2421d1d212babbc39fb5b1e56c0d4854557cce59c1545ada502e26add769de7",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "fa26faea477f387814d84fc55f10b6b9f3915faf93cab7e552c74578933665fa"
+        },
+        "objective": {
+          "currentEnglishSHA256": "63d2a47d57098e8cca39b35588415e0e1b2ec2cc887e7f13141559f5198856ea",
+          "uaSHA256": "dd5ce6478c75b97502bccfbab84dc12815536afb4f0f7848249ffd66bdec83a1",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "5bdc42b29481399b14f614d66671160630642860773d7b6b142fa83f652a315f",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "87b5471a4549b7b94483fdaf880e98705d63c36b7a065b00a81355f3ad81bf6f",
+          "uaSHA256": "b1f17b991e87ac605197c8c77c6694492f3f63feba6205ef8689925e596ec1dd",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "eb44b00ed98266166add30825b64000924b64f8581764b4cd7ee615fcee5d3e8",
+      "secondaryHTMLSHA256": "b477157945f997f69177624e1616b09ae8463519ab82d44fe67da7ef9a4008c3",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">You&#x27;ve become a leatherworker. Good for you, &lt;Class&gt;. I reckon I know someone that can teach you how to make your"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97948,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            6297
+          ]
+        ],
+        "8": [
+          "Speak with Kurdram Stonehammer in Auberdine to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              6297,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96046,
+          97907,
+          97923,
+          97935,
+          97959,
+          97970
+        ],
+        "18": [
+          186,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Mining",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1230161,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Основи таборування: гірництво",
+        "detail": "Гірничодобувна справа — не найгламурніше, але це гарна чесна робота та чудова професія, яку варто досліджувати.\n\nГадаю, я знаю когось, хто може навчити тебе виготовляти магніт для твого табору. Збудуй один з них, і кожен, хто хоче розмахувати мечем, захоче зібратися навколо твого вогнища та насолодитися його додатковою «силою», щоб підвищити свою бойову майстерність.",
+        "objective": "Поговоріть з Курдрамом Кам'яним Молотом в Обердіні, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Ти {стать:прийшов:прийшла} на навчання?",
+        "complete": "Ось і все, тепер ти можеш виготовити магнітяк для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Mining",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "d2deb7356c1f031c29f998e53b5934544c5b2b8812c873fc3113382654168c27",
+          "uaSHA256": "37f4b7662b067d3cdab02b7055006b74af6a62a33d2bd88695b9705ee2153ba0",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "d2deb7356c1f031c29f998e53b5934544c5b2b8812c873fc3113382654168c27"
+        },
+        "detail": {
+          "currentEnglishSHA256": "b202c999cbd66d926ffd877d0590b1e457f7fb137a18614203ed9b0238036885",
+          "uaSHA256": "dd459a2625d315e90f386368d4238a931fbb658111ca49d6da9d827d872525ba",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "b202c999cbd66d926ffd877d0590b1e457f7fb137a18614203ed9b0238036885"
+        },
+        "objective": {
+          "currentEnglishSHA256": "74d6816f3427e55fc69f93698dd24bc1bde887aa74833f3b70ecb1fc43ab2f24",
+          "uaSHA256": "2e72950c4607e9d8f55f2251cc4cc4727345831225cd540326c0b4b40d993c3e",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "74d6816f3427e55fc69f93698dd24bc1bde887aa74833f3b70ecb1fc43ab2f24"
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "bec7b66eec1f699c908753b25d417759d1ea69170a92941cffd502ff5ea58e06",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "ee7e963a029105fd7aab3cec7508f55068c83a3bbf6bd8693226fc017bcad7f7",
+          "uaSHA256": "803021a5edc95961cb719a8739420778b0802bb85ec4cb44001cb9d14d6e1cac",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "58e99506249170afa097ece23bb3f392988ba1a04ffe4d013e8877fc09b7722f",
+      "secondaryHTMLSHA256": "c19514e3327f4a86dc34723b7289c6eecb8b3292849146097bb930bc36071553",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Mining isn&#x27;t the most glamorous, but it&#x27;s good honest work and a fine profession for you to explore.\n\nI reckon I k"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97949,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            6287
+          ]
+        ],
+        "8": [
+          "Speak with Radnaal Maneweaver on the road to Darnassus from Dolanaar to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              6287,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96056,
+          97908,
+          97924,
+          97936,
+          97960,
+          97971
+        ],
+        "18": [
+          393,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Skinning",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1229517,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Зняття шкури",
+        "detail": "Вміння вміло збирати шкури та шкури полеглих звірів – одна з найцінніших навичок, якими може володіти шукач пригод.\n\nГадаю, я знаю когось, хто може навчити вас, як зробити похідне крісло для вашого табору. Іноді важливо просто розслабитися, і ви можете використати деякі з цих зібраних шкур, щоб зробити зручне крісло. Трохи відпочинку може допомогти вам бути у найкращій формі та вдарити там, де це потрібно, наступного разу, коли ви опинитеся в запиленій хаосі.",
+        "objective": "По дорозі з Доланаара до Дарнасуса поговоріть з Раднаалом Маневрівером, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": "Якщо маєш відповідні навички, я можу тебе навчити.",
+        "complete": "Ось і все, тепер ти можеш виготовити табірний стілець для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Skinning",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "aea6f74fbdc47d42309178dada60c433e589678c3a0a77862fe75500d83de0ec",
+          "uaSHA256": "72ee30ac5832021551c7e84afc8ab0d933dcfd19c496ee47d84d3f36c8df4284",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "aea6f74fbdc47d42309178dada60c433e589678c3a0a77862fe75500d83de0ec"
+        },
+        "detail": {
+          "currentEnglishSHA256": "432e499c7a38f258f771fb407dc382715402defc7beac8cf7ca4255888b9a22e",
+          "uaSHA256": "36a1ed090329d753bcf9768013b26a9efdf7069bc364d0ed6299616bcce13e55",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "432e499c7a38f258f771fb407dc382715402defc7beac8cf7ca4255888b9a22e"
+        },
+        "objective": {
+          "currentEnglishSHA256": "f69f85aae763381f5de2576ff1573e29b90c56348c11c7e812839a5f2ceebf15",
+          "uaSHA256": "5e7076c88ed3b51ea5d556161be91eafbcb06b75fad64d00278aeeab933fcb2f",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "f69f85aae763381f5de2576ff1573e29b90c56348c11c7e812839a5f2ceebf15"
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": "649425c0910898a7afbc64e7d83103d2ee94c689fc56c266a81f35efe9989612",
+          "currentPrimaryAvailable": false,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "85b7966da60ac1166318d7c59d4efd3a575d67bd0d673355bb1c740ac5fb10af",
+          "uaSHA256": "fe59c3d3e46dcf3cba91c397ad7080a37ecc2e3255690a7f3ef36da647cb1c8f",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "fdb9b0f7c2a2d5ecc901cfbcfb7c4653096657ad4d0fcf2b505b60eafee5e6d8",
+      "secondaryHTMLSHA256": "c72adc372c5727e5cc2fcf02ea07d58782b882da318e9d15bf7d826cdb5b319b",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Being able to skillfully harvest the skins and hides of fallen beasts is one of the more valuable skills an adventurer can p"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    },
+    {
+      "id": 97950,
+      "titleMatch": "exact English title and UA en label",
+      "installedRecord": {
+        "2": [
+          [
+            265811
+          ]
+        ],
+        "3": [
+          [
+            11050
+          ]
+        ],
+        "8": [
+          "Speak with Trianna in Darnassus to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+        ],
+        "10": [
+          [
+            [
+              11050,
+              null,
+              3
+            ]
+          ]
+        ],
+        "13": [
+          95998,
+          96101,
+          96604,
+          96605,
+          96606,
+          96607,
+          96608
+        ],
+        "16": [
+          96057,
+          96102,
+          97925,
+          97937,
+          97961,
+          97972,
+          97973
+        ],
+        "18": [
+          197,
+          1
+        ],
+        "S": {
+          "1": "Camping 101: Tailoring",
+          "4": 4,
+          "5": 6,
+          "6": 4294967373,
+          "17": -666,
+          "30": -1263425,
+          "p": 168582
+        }
+      },
+      "uaVariant": {
+        "title": "Кемпінг 101: Кравецька справа",
+        "detail": "Кравецька справа — це напрочуд потужна навичка, в яку варто інвестувати, і я впевнений, що вона вам добре послужить.\n\nЯ знаю людину, яка може навчити вас, як створити прапор фракції для вашого табору, за умови, що у вас є для цього відповідні навички. Натхнення та моральний дух є ключовими складовими успіху на будь-якому полі бою, а натхненний прапор може значною мірою зарядити вас енергією.",
+        "objective": "Поговоріть з Тріанною в Дарнасі, щоб навчитися створювати предмет для кемпінгу для вашої професії, як тільки ви продемонструєте майстерність у своїй навичці.",
+        "progress": null,
+        "complete": "Ось і все, тепер ти можеш виготовити прапор фракції для власного табору. Людям зазвичай не подобається, коли табір розбивають посеред міста, тож випробувати його доведеться на природі.\n\nІ ще пам'ятай, жоден табір не обійдеться без багаття. Перш ніж облаштовувати табір, тобі потрібно його розпалити. Більшість кухарів можуть цього навчити. Якщо ще не вмієш, звернися до наставника з куховарства й опануй основи.",
+        "en": "Camping 101: Tailoring",
+        "faction": "Alliance"
+      },
+      "fieldComparison": {
+        "title": {
+          "currentEnglishSHA256": "8425c22c72c9d93802a11d558013f392113c32031bc5b382cfa29e998c256fef",
+          "uaSHA256": "4fcb4c0a3005ebd8c6e4d9e7c0e64c8cab36c4d71d19ea4b3f23e7d330569539",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "8425c22c72c9d93802a11d558013f392113c32031bc5b382cfa29e998c256fef"
+        },
+        "detail": {
+          "currentEnglishSHA256": "685d2d7703052bc255b19ef5aa968f35ab6136f3da03371767bdc66e98d238fc",
+          "uaSHA256": "f91c44d34ea6548e1cdf6ea85da2b6e56efb22d16c09f63b02682852b401f286",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": "685d2d7703052bc255b19ef5aa968f35ab6136f3da03371767bdc66e98d238fc"
+        },
+        "objective": {
+          "currentEnglishSHA256": "cdbf1285573223992093be5e5b5b1c658b507f113e0e309a3f0c5ede0343d550",
+          "uaSHA256": "b07e37d1e13f525ce27468ee4a106578114acb2d59dc15eae81599be86010561",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        },
+        "progress": {
+          "currentEnglishSHA256": null,
+          "uaSHA256": null,
+          "currentPrimaryAvailable": false,
+          "uaAvailable": false,
+          "secondaryEnglishSHA256": null
+        },
+        "complete": {
+          "currentEnglishSHA256": "2c1c577355d13fed7dee55b7248135e0140a79c8e48fd8fc9bf8c6139d267115",
+          "uaSHA256": "9f6cf635efd99bd70f7c13efb405d73bf4e3e6b7a042f5ec64ca4872132197a5",
+          "currentPrimaryAvailable": true,
+          "uaAvailable": true,
+          "secondaryEnglishSHA256": null
+        }
+      },
+      "primaryHTMLSHA256": "ecfb9cb0464629ace17c530086d4b1f9233bb8cab435c8914bc01c2734b92596",
+      "secondaryHTMLSHA256": "545f99fb46cba85cfa728625f0230bc4c7cf6041c81ff4ee1daad72ee243093d",
+      "secondaryHeadingBoundaries": [
+        {
+          "heading": "Description",
+          "followingHTML": "<p class=\"preserve-lines\">Tailoring is a surprisingly potent tradeskill to invest in, and I&#x27;m sure it&#x27;ll serve you well.\n\nI know someone tha"
+        }
+      ],
+      "metadataNote": "Required level4, quest level6; broad faction mask is not proof of current live racial availability. Profession skill1 metadata is not a numeric recipe threshold."
+    }
+  ]
+}
