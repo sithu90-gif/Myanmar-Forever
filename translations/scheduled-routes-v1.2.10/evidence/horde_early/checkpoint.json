@@ -1,0 +1,187 @@
+{
+  "status": "worker frozen; independent assisted review pending",
+  "frozenAt": "2026-11-15T06:49:05.920075+00:00",
+  "worktree": "work/Myanmar-Forever-v1.2.10",
+  "partition": "work/afternoon-2026-11-15/horde_early",
+  "questIDs": [
+    5726,
+    5727,
+    5728,
+    5729,
+    5730,
+    5722,
+    5723,
+    5724,
+    5725,
+    5761,
+    97242,
+    97246,
+    97249,
+    97275,
+    97326,
+    768,
+    769,
+    97485
+  ],
+  "reviewGroups": [
+    {
+      "id": "horde-early-1",
+      "questIDs": [
+        5726,
+        5727,
+        5728,
+        5729,
+        5730,
+        5722,
+        5723,
+        5724,
+        5725,
+        5761
+      ],
+      "status": "assisted English/Myanmar review completed; independent review pending",
+      "checkpointAt": "2026-11-15T06:40:38.337835+00:00",
+      "sourcePins": "../upstream-reference.json",
+      "sourceEvidence": [
+        "english-sources.json",
+        "source-boundaries.json"
+      ],
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "fieldCount": 46,
+      "checks": [
+        "Separate English/Myanmar read across all five states and original HTML boundaries; five Hidden Enemies IDs retain sequence and speaker/recipient changes.",
+        "5726: Skull Rock east of Orgrimmar and insignia. 5727: deceive Neeru, then return Thrall. 5728: kill Bazzalan/Jergosh, hold gender-marker offer. 5729: covert Neeru contact. 5730: report Thrall, distinct Barrens/Ashenvale references.",
+        "5728/5723: primary HTML has no literal Progress heading/reply div, normal offer/objective/Completion and no removed marker. Exact-ID secondary Progress agrees with UA meaning and installed targets/steps; fieldSources explicitly secondary.",
+        "Corrected next versus last step and aid direction in5729, beast versus refugee in5728. Retained double spy effort and minor-victory understatement.",
+        "5722: body-if-still-existing uncertainty, trogg talk attempt, clubs or fists. 5724: corpse narration versus Rahauro reward and clan member versus ally.",
+        "5723: exact8 Troggs plus8 Shaman. 5725: two spell books, borrowing irony, exactly a hundred other tasks, original Scourge wording. 5761: Taragaman heart returned Neeru; leader assertion remains speaker claim.",
+        "Curated English identities/first-use phonetics, exact current lower-case placeholders; new pronunciations pending native review."
+      ],
+      "finalReviewAt": "2026-11-15T06:48:46.687413+00:00"
+    },
+    {
+      "id": "horde-early-2",
+      "questIDs": [
+        97242,
+        97246,
+        97249,
+        97275,
+        97326,
+        768,
+        769,
+        97485
+      ],
+      "status": "assisted English/Myanmar review completed; independent review pending",
+      "checkpointAt": "2026-11-15T06:43:34.015870+00:00",
+      "sourcePins": "../upstream-reference.json",
+      "sourceEvidence": [
+        "english-sources.json",
+        "source-boundaries.json"
+      ],
+      "independentAssistedReview": "not performed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "fieldCount": 39,
+      "checks": [
+        "Separate English/Myanmar read of every available state and original HTML boundaries; current city progress/completion states control sparse60.tools entries.",
+        "97242: apprentice joke, pride/help conditional, cuttings around Valley of Honor water, Kor'geld/shop return. Azshara spring water and mineral dust, not gas; win back ear means regain attention.",
+        "97275: prodigy without invented age; stirring-rod experience, alchemy, local remedies (not narrowed to herbs), careful handling; exact Yelmak Potion to Whuut. Black Lotus/Mountain Silversage and choose one potion retained.",
+        "97246: father, Borstan, Migi distinct; lunch, behind Grommash Hold, almost-certain whereabouts, no invented female speaker.",
+        "97249: parents plural, variety intended rather than already achieved; smoke-cooked hog belly, crispy glazed topping available daily; child voice and group lunch invitation.",
+        "97326:8 Smooth Boulders to Thra; game figures rather than pictures; smooth seats, flat sides, moving along ground rather than into soil.",
+        "768: leather rather than complexion,12 Light Leather, reward as exchange. 769: identifying bag title, leatherworking condition,4 Light Leather plus4 Coarse Thread; actual reward Pattern: Kodo Hide Bag5083.",
+        "97485: incense rather than soap powder; Nida/Nata/Mahu at mid rise/Naal at upper rise, four items, combine then scatter off south-facing Hunter's Rise cliff. Mat, repeat/repurchase option, current <name> rather than UA race token."
+      ],
+      "finalReviewAt": "2026-11-15T06:48:46.687442+00:00"
+    }
+  ],
+  "sourcePins": "../upstream-reference.json",
+  "availableEnglishFields": 86,
+  "enabledFields": 85,
+  "heldFields": [
+    {
+      "id": 5728,
+      "field": "detail",
+      "reason": "Unsupported current <brothers/sisters> gender marker."
+    }
+  ],
+  "checks": "linguistic_lint.lint zero issues; build_release.validate_fields18 passed; raw request/response text mappings and hashes verified.",
+  "artifacts": {
+    "edited.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/edited.json",
+      "sha256": "5645725b375ee6ac4982b601f1a8057dbb2224aaadc105c9a7a0fe9c175a862c"
+    },
+    "english-sources.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/english-sources.json",
+      "sha256": "c3ae55d598a30566e753939a6c0f981c0e78f1487fae3865c2ac960121f0c9ec"
+    },
+    "pronunciations.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/pronunciations.json",
+      "sha256": "0d3cb2f0c0d5065d2fefbfd96c4c0843623b0841f4f0ed312223dba448791a57"
+    },
+    "annotation-exceptions.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/annotation-exceptions.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+    },
+    "held-fields.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/held-fields.json",
+      "sha256": "9daa4fb33a23fdea06a7d5e0558420e99892ce70d0a5d912005addf2b2136317"
+    },
+    "review-audit.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/review-audit.json",
+      "sha256": "ba7659b2e8bcffeaf9ebb4e6d7cbc23561671229b2a933a09e64d20eab765013"
+    },
+    "comparison-provenance.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/comparison-provenance.json",
+      "sha256": "8a3b7d1cdae424b6e963a0088fa30c0fc24b3ab49bc4cc2e0dbc2521cc7f7954"
+    },
+    "review-groups.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/review-groups.json",
+      "sha256": "88f689700d4304cc06ee4f9e0ef71452e172888398045370fd9fb953d71e5adc"
+    },
+    "validation.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/validation.json",
+      "sha256": "da379c114ab1b1e0a05a9728b2ab18e1f6bf81666151be683c23d4e84b9bd64a"
+    },
+    "source-boundaries.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/source-boundaries.json",
+      "sha256": "5071be34788dc633513b638bdccf22baa9721ac8bd2c0995057ce81dd71b6f59"
+    },
+    "deepl-input-01.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-input-01.json",
+      "sha256": "9c58d270b4f28db3376fb062d01d0f8f215bd1fd551851101d3a1a7285941dce"
+    },
+    "deepl-raw-01.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-raw-01.json",
+      "sha256": "86d8ee952843b9fd2c82d9484bc6acb9c46a59dac72b6496ba669160ca660d8b"
+    },
+    "deepl-input-02.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-input-02.json",
+      "sha256": "1a819e61adcdeacc391ca6b9e3ce757d9dd61abf1ef41f3103ef45f8e4a4964f"
+    },
+    "deepl-raw-02.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-raw-02.json",
+      "sha256": "9c7cf9a0876c8ae8cc089d97525c5c9146f5fbfc737bb61d5b0cb6e5ad94e3ae"
+    },
+    "deepl-input-03.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-input-03.json",
+      "sha256": "269ea0fe86fc33aa778ae77fc0d91fc0eb7a46c738e2976bab4503c9abc18a2f"
+    },
+    "deepl-raw-03.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-raw-03.json",
+      "sha256": "2d13c2931261f358f73d74352224d02003c488a4239db8c6c6f300683a782501"
+    },
+    "deepl-input-04.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-input-04.json",
+      "sha256": "fd9602ad9f28ce06b0256950b9b21ad7d4d4ce1b575ec833bf9c2092ab754d53"
+    },
+    "deepl-raw-04.json": {
+      "path": "work/afternoon-2026-11-15/horde_early/deepl-raw-04.json",
+      "sha256": "9faa9c026e66bfad65ca02c08fc83fbeb603c9f02adcfc79136c6439dc05b9b8"
+    }
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "independentAssistedReview": "not performed"
+}

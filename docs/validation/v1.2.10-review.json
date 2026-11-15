@@ -1,0 +1,51 @@
+{
+  "version": "1.2.10",
+  "result": "PASS",
+  "kind": "scheduled_afternoon",
+  "localDate": "2026-11-15",
+  "newQuestIDs": 50,
+  "newQuestFields": 224,
+  "newEnabledFieldsTotal": 224,
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrections": 1,
+  "questIDs": 1386,
+  "translatedFields": 6364,
+  "dialogueStates": 3640,
+  "absentOrHeldDialogueStates": 518,
+  "batchSupportedHeldFields": [
+    {
+      "id": 5728,
+      "field": "detail",
+      "reason": "Current English contains unsupported <brothers/sisters> gender alternative. Hold full offer until runtime evidence/support resolves it; do not erase/substitute marker.",
+      "evidence": "5728-wowhead.html Description; exact same-title step targets Bazzalan/Jergosh; primary <name> retained in raw proposal."
+    }
+  ],
+  "activeHeldUniqueFields": 58,
+  "pythonTests": 21,
+  "luaRegressionGroups": 34,
+  "newQuestStateRoutingChecks": 150,
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.1",
+    "commit": "ab388ca8df990310d96320c88689831587f76e33",
+    "checkedAt": "2026-11-15T06:30:24.709222+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.1",
+    "publishedAtUTC": "2026-11-14T17:05:51Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.1/UA_Forever-1.0.1.zip",
+    "assetSHA256": "a8f3b284c70434c72b6bfc68477facc4dfede1b403ea1ba568a711f2d8770c98",
+    "catalogSHA256": "faf218b2ebf05874b6f048c2ed66d3c462124296c0e9544af275da86039d88d3"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "olderReviewedFieldsUnchanged": true,
+  "guarded5639Hold": "preserved",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.10.zip",
+    "bytes": 884708,
+    "sha256": "ff038750b9a022d97568a2a71d1283955d9d7b2bb38bb2fa6d57c98982e2f0cb"
+  }
+}

@@ -1,0 +1,1940 @@
+[
+  {
+    "id": 98391,
+    "en": "The Sisterhood of Elune",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D98391/the-sisterhood-of-elune",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          3600
+        ]
+      ],
+      "3": [
+        [
+          7316
+        ]
+      ],
+      "8": [
+        "Speak to Sister Aquinne in Darnassus."
+      ],
+      "26": [
+        [
+          69,
+          10
+        ]
+      ],
+      "S": {
+        "1": "The Sisterhood of Elune",
+        "4": 5,
+        "5": 10,
+        "6": 4294967373,
+        "17": 1657,
+        "22": 2519,
+        "27": 2519,
+        "p": 33554566
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Сестринство Елуни",
+        "detail": "Благословення вам, {клас}. Сестринство Елуни було стовпом суспільства калдорай протягом тисячоліть.\n\nДо Великого Розколу, до Війни Древніх, через Довге Чування, ми вели та зцілювали наш народ крізь темряву. Таке наше завдання, і така вимога незрівнянної Матері Місяця.\n\nЗараз нам потрібна ваша допомога у справі великої важливості. Сестра Аквінна чекає на ваше прибуття до Дарнасу.",
+        "objective": "Поговоріть із сестрою Аквінною в Дарнасі.",
+        "progress": null,
+        "complete": "Добре, що ти {стать:прибув:прибула} так швидко. Сестринству потрібна твоя допомога.",
+        "en": "The Sisterhood of Elune",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "detail": {
+        "secondary": "Blessings to you, <Class>. The Sisterhood of Elune has stood as a pillar of kaldorei society for thousands of years.\n\nBefore the Great Sundering, before the War of the Ancients, through the Long Vigil, we have guided and healed our people through the darkness. Such is our charge, and such is the demand of the peerless Mother Moon.\n\nWe now require your aid in a matter of great importance. Sister Aquinne awaits your arrival in Darnassus.",
+        "current": "Blessings to you, <class>. The Sisterhood of Elune has stood as a pillar of kaldorei society for thousands of years.\n\nBefore the Great Sundering, before the War of the Ancients, through the Long Vigil, we have guided and healed our people through the darkness. Such is our charge, and such is the demand of the peerless Mother Moon.\n\nWe now require your aid in a matter of great importance. Sister Aquinne awaits your arrival in Darnassus.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "I am glad you arrived so quickly. The Sisterhood requires your aid.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Corrected DeepL millions of years to thousands. Preserved the blessings, kaldorei identity, Great Sundering/War of the Ancients/Long Vigil sequence and peerless Mother Moon charge.",
+      "Referral from NPC3600 to Sister Aquinne7316, next2519; required5/quest level10 and Alliance race mask4294967373, with no class restriction in current metadata. Four current states match UA presence and title; progress is absent.",
+      "60.tools uses <Class> and lacks completion; current English lowercase <class> and current completion control."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 2519,
+    "en": "The Temple of the Moon",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D2519/the-temple-of-the-moon",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          7316
+        ]
+      ],
+      "3": [
+        [
+          7313
+        ]
+      ],
+      "8": [
+        "Sister Aquinne wants you to speak with Priestess A'moora in the Temple of the Moon."
+      ],
+      "26": [
+        [
+          69,
+          10
+        ]
+      ],
+      "28": [
+        98391
+      ],
+      "S": {
+        "1": "The Temple of the Moon",
+        "4": 5,
+        "5": 10,
+        "6": 4294967373,
+        "17": 1657,
+        "22": 2518,
+        "23": 8,
+        "27": 2518,
+        "p": 167772294
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Храм Місяця",
+        "detail": "Колись величне створіння лісу потребує нашої допомоги, {раса:к}.\n\nЄ нелегка справа, яку потрібно виконати.\n\nБудь ласка, знайди жрицю А'муру — вона все тобі пояснить. Ти знайдеш її на південний схід звідси, у храмі Місяця.",
+        "objective": "Сестра Аквінна просить вас поговорити зі жрицею А'мурою в храмі Місяця.",
+        "progress": null,
+        "complete": "То тебе прислала сестра Аквінна?",
+        "en": "The Temple of the Moon",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "title": {
+        "secondary": null,
+        "current": "The Temple of the Moon",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "detail": {
+        "secondary": null,
+        "current": "A once great creature of the forest is in need of help, <race>.\n\nThere is a difficult task that must be done.\n\nPlease seek out Priestess A'moora; she will explain things to you. Find her to the southeast of here, inside the Temple of the Moon.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "objective": {
+        "secondary": null,
+        "current": "Sister Aquinne wants you to speak with Priestess A'moora in the Temple of the Moon.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "So, Sister Aquinne sent you?",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "sourceAwareNotes": [
+      "Sister Aquinne7316 sends the player southeast to Priestess A moora7313 inside Temple of the Moon. Follows98391 and leads to2518; required5/level10, Alliance.",
+      "The once-great forest creature needs help, but this referral does not itself tell the player to kill it. Preserved the priestess explanation and absent progress.",
+      "Secondary request timed out after retry; complete current English, installed objective and UA identity agree."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 2518,
+    "en": "Tears of the Moon",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D2518/tears-of-the-moon",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          7313
+        ]
+      ],
+      "3": [
+        [
+          7313
+        ]
+      ],
+      "8": [
+        "Priestess A'moora in the Temple of the Moon at Darnassus wants you to bring her Lady Sathrah's Silvery Spinnerets."
+      ],
+      "10": {
+        "3": [
+          [
+            8344,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          69,
+          150
+        ]
+      ],
+      "28": [
+        2519
+      ],
+      "S": {
+        "1": "Tears of the Moon",
+        "4": 5,
+        "5": 12,
+        "6": 4294967373,
+        "17": 1657,
+        "22": 2520,
+        "23": 8,
+        "p": 167772806
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Сльози місяця",
+        "detail": "Леді Сатра колись була улюбленицею Елуни. Ця благородна і чиста павучиха пряла свої срібні нитки під місячним сяйвом, ловлячи вечірній туман. Його срібляста роса мала велику цілющу силу і зберігалася у цьому храмі.\n\nАле нещодавно Сатру спіткало безумство. Її нащадки теж під загрозою.\n\nЗнайди леді Сатру, {ім'я}, і поклади край її стражданням. Вона мешкає біля північних кордонів Тельдрассіля, біля Джерельного озера. Збери її сріблопавутинні залози та принеси мені.",
+        "objective": "Жриця А'мура з храму Місяця просить вас принести їй сріблопавутинні залози леді Сатри.",
+        "progress": "Я дала тобі це доручення з великим жалем, але леді Сатру вже не врятувати.\n\nМи сподіваємося, що якщо принести сріблопавутинні залози в жертву Елуні, то вона благословить Сатру і та переродитися з миром.",
+        "complete": "Ліс оплакує леді Сатру, але ми мали це зробити.\n\nДякую тобі, {ім'я}.",
+        "en": "Tears of the Moon",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "detail": {
+        "secondary": "Lady Sathrah was once beloved of Elune. Graceful and pure, the spider spun her silver threads through the moonlight, catching the evening mist. The silvery dew had strong healing powers and was kept here in the temple.\n\nBut of late, Sathrah has descended into madness. Her future generations are now threatened as well.\n\nFind Lady Sathrah, <Name>, and end her suffering. She dwells along the northern borders of Teldrassil, near Wellspring Lake. Gather her silvery spinnerets and bring them back to me.",
+        "current": "Lady Sathrah was once beloved of Elune. Graceful and pure, the spider spun her silver threads through the moonlight, catching the evening mist. The silvery dew had strong healing powers and was kept here in the temple.\n\nBut of late, Sathrah has descended into madness. Her future generations are now threatened as well.\n\nFind Lady Sathrah, <name>, and end her suffering. She dwells along the northern borders of Teldrassil, near Wellspring Lake. Gather her silvery spinnerets and bring them back to me.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Corrected raw DeepL worm/drunkenness/sewing-machine errors to spider, madness and silvery spinnerets. Lady Sathrah is near northern Teldrassil and Wellspring Lake; future generations are also threatened.",
+      "Kept Silvery Spinnerets item8344 identifiable in offer/objective. Quantity1 belongs to the objective table and was not added to narrative. Priestess7313 starts/ends; follows2519, next2520; required5/level12, Alliance.",
+      "Elune blessing and peaceful rebirth remain hopes in progress. Grief and reluctant necessity are retained. Current lowercase <name> controls; all five states agree with UA meaning."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 2520,
+    "en": "Sathrah's Sacrifice",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D2520/sathrahs-sacrifice",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          7313
+        ]
+      ],
+      "3": [
+        [
+          7313
+        ]
+      ],
+      "8": [
+        "Priestess A'moora wants you to place Lady Sathrah's silvery spinnerets at the fountain inside the temple, and then return to her."
+      ],
+      "10": [
+        null,
+        [
+          [
+            138498,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        2518
+      ],
+      "26": [
+        [
+          69,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Sathrah's Sacrifice",
+        "4": 5,
+        "5": 12,
+        "6": 4294967373,
+        "11": 8155,
+        "17": 1657,
+        "23": 2,
+        "24": 2,
+        "p": 33559174
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Жертва Сатри",
+        "detail": "Тепер ти маєш закінчити цю справу. Візьми залози та принеси Елуні жертву леді Сатри. Нехай вона спочиває з миром.\n\nУсередині цього храму знайди центральний фонтан. Там ти зможеш залишити жертву. Священні води змиють порчу, яка звела Сатру з розуму.\n\nЯк закінчиш — повертайся до мене.",
+        "objective": "Жриця А'мура просить вас помістити сріблопавутинні залози леді Сатри біля фонтану храму Місяця та повернутись до неї.",
+        "progress": "Ти {стать:залишив:залишила} залози біля фонтану, {ім'я}?",
+        "complete": "Втрата леді Сатри неймовірно засмучує нас, але тільки так вона зможе переродитися з чистим духом.\n\nНехай Елуна прийме цю жертву.",
+        "en": "Sathrah's Sacrifice",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {},
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "This is the offering step after2518, not the spinneret collection. Sathrah s Sacrifice is identifying provided item8155, so its exact English title and phonetic annotation remain.",
+      "Find the central fountain inside the temple, place the offering and return to Priestess7313. Holy waters cleanse the corruption that drove Sathrah mad. Corrected raw fountain/spider/madness errors.",
+      "Installed ritual credit138498 and prior2518 checked. All five dialogue states agree with UA; objective/provided-item UI excluded from the text."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 730,
+    "en": "Trouble In Darkshore?",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D730/trouble-in-darkshore",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          2912
+        ]
+      ],
+      "3": [
+        [
+          2913
+        ]
+      ],
+      "8": [
+        "Travel to Auberdine and look for signs of the dwarven excavation team."
+      ],
+      "26": [
+        [
+          47,
+          50
+        ]
+      ],
+      "S": {
+        "1": "Trouble In Darkshore?",
+        "4": 14,
+        "5": 14,
+        "6": 4294967373,
+        "17": 1657,
+        "22": 729,
+        "23": 8,
+        "27": 729,
+        "p": 33554566
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Негаразди на Темнобережжі?",
+        "detail": "Як приємно бачити {клас:з}, що цікавиться великими археологічними чудесами нашого світу.\n\nНаші друзі з Альянсу часто вважають нашу роботу чимось на зразок хобі. Але багато хто не розуміє, що останні відкриття в Каз-Модані доводять, що велика й могутня сила загрожує всьому Азероту — від Лордерону до Калімдору.\n\nЯ дуже переживаю за свою команду, яку відправив на Темнобережжя. Від них немає звістки вже кілька тижнів.\n\nВирушай в Аубердін і дізнайся, де вони можуть бути.",
+        "objective": "Відправляйтесь на пошуки команди дворфів-археологів в Аубердін.",
+        "progress": null,
+        "complete": "Я дуже рада, що старший археолог Сіровус послав по нас...",
+        "en": "Trouble In Darkshore?",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "detail": {
+        "secondary": "How nice it is to see a <Class> interested in the great archeological wonders of our world.\n\nOftentimes our work is dismissed as mere hobby by our friends in the Alliance. But what many fail to realize is that recent discoveries in Khaz Modan have proven that a great and powerful force threatens all of Azeroth, from Lordaeron to Kalimdor.\n\nI am most worried about my crew that I sent to Darkshore. They haven't sent word in weeks.\n\nTravel to Auberdine and look for a clue as to their whereabouts.",
+        "current": "How nice it is to see a <class> interested in the great archeological wonders of our world.\n\nOftentimes our work is dismissed as mere hobby by our friends in the Alliance. But what many fail to realize is that recent discoveries in Khaz Modan have proven that a great and powerful force threatens all of Azeroth, from Lordaeron to Kalimdor.\n\nI am most worried about my crew that I sent to Darkshore. They haven't sent word in weeks.\n\nTravel to Auberdine and look for a clue as to their whereabouts.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "objective": {
+        "secondary": null,
+        "current": "Travel to Auberdine and look for signs of the dwarven excavation team.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Preserved archaeology, friends in the Alliance dismissing the work as a hobby, the powerful threat from Lordaeron to Kalimdor, and weeks without news. The task is to seek clues, not an invented guaranteed rescue.",
+      "Chief Archeologist Greywhisker2912 sends to Archaeologist Hollee2913 at Auberdine; next729, required14/level14, Alliance. No progress state exists.",
+      "Kept completion sent-for-us wording and trailing ellipsis. 60.tools lacks the objective and uses <Class>; current objective and lowercase <class> control."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 6344,
+    "en": "Nessa Shadowsong",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D6344/nessa-shadowsong",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          4241
+        ]
+      ],
+      "3": [
+        [
+          10118
+        ]
+      ],
+      "8": [
+        "Speak with Nessa Shadowsong."
+      ],
+      "26": [
+        [
+          69,
+          25
+        ]
+      ],
+      "S": {
+        "1": "Nessa Shadowsong",
+        "4": 10,
+        "5": 10,
+        "6": 8,
+        "17": 1657,
+        "22": 6341,
+        "23": 8,
+        "27": 6341,
+        "p": 33554566
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Несса Пісня Тіней",
+        "detail": "Моя подруга, Несса Пісня Тіней, торгує рибальськими припасами в селищі Рут'Теран. Їй потрібно доставити посилку на Темнобережжя, і вона шукає когось, хто міг би їй допомогти.\n\nЯкщо хочеш допомогти Нессі — йди до селища Рут'Теран через портал в Дарнасі. Ти знайдеш його на заході від Прихрамових садів.",
+        "objective": "Поговоріть з Нессою Піснею Тіней.",
+        "progress": null,
+        "complete": "Так, мені потрібен кур'єр, що доставить пакунок на Темнобережжя. Допоможеш мені?",
+        "en": "Nessa Shadowsong",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "objective": {
+        "secondary": null,
+        "current": "Speak with Nessa Shadowsong.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": "Yes, I have need of a courier who will take a package to Darkshore. Will you help me?",
+        "current": "Yes, I have need of a courier who will take a package to Darkshore.  Will you help me?",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Nessa Shadowsong is the identifying NPC title. Kept the fishing-merchant role and corrected the raw fish-only wording; parcel goes to Darkshore.",
+      "To reach Nessa, take the Darnassus portal to Rut theran Village, west of Temple Gardens. No extra route or direct Darkshore travel order added.",
+      "NPC4241->10118, next6341, required10/level10 and Night Elf mask8; no all-race claim. Four current states; progress absent and secondary objective absent."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 98067,
+    "en": "Eyes of the Sentinels",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D98067/eyes-of-the-sentinels",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          8396
+        ]
+      ],
+      "3": [
+        [
+          8396
+        ]
+      ],
+      "8": [
+        "Place Sentinel Owls at the entrance to the Cenarion Hold depths, the Darnassus Bank, the Craftsman's Terrace Inn, and the City Gate for Sentinel Dalia Sunblade in the Temple of the Moon in Darnassus."
+      ],
+      "10": [
+        [
+          [
+            270418,
+            null,
+            3
+          ],
+          [
+            270419,
+            null,
+            3
+          ],
+          [
+            270420,
+            null,
+            3
+          ],
+          [
+            270421,
+            null,
+            3
+          ]
+        ]
+      ],
+      "26": [
+        [
+          47,
+          18.75
+        ],
+        [
+          54,
+          18.75
+        ],
+        [
+          69,
+          75
+        ],
+        [
+          72,
+          18.75
+        ],
+        [
+          469,
+          18.75
+        ]
+      ],
+      "S": {
+        "1": "Eyes of the Sentinels",
+        "4": 1,
+        "5": 11,
+        "6": 4294967373,
+        "11": 279378,
+        "17": 1657,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Очі Вартових",
+        "detail": "Генерал Пернатий Місяць гарантує, що всі вартові мають час помолитися Елуні. Справжня мисливиця володіє не лише мечем, а й дарами богині, щоб перемагати наших ворогів.\n\nВи можете допомогти мені з моїми щоденними обов'язками. Розставте вартових по місту — почніть з тунелів, що ведуть під фортецею Кенаріона на північ, банку в центрі міста, корчми на Терасі Ремісників на північний схід і міських воріт. Вартові можуть вам допомогти.\n\nЩось не так у Тельдрассілі — ми повинні залишатися пильними.",
+        "objective": "Розмістіть Вартових Сов біля входу до глибин Твердині Кенаріона, Банку Дарнасу, таверни «Тераса Ремісника» та Міських Воріт для Вартової Далії Сонячного Клинка у Храмі Місяця в Дарнасі.\n\nНаданий предмет:",
+        "progress": "Ми маємо бути пильними, адже хоч Дарнас добре захищений, наші вороги всюди.",
+        "complete": "Дякую за допомогу. Щоденні ритуали дарують мені спокій, та приємно й просто мати хвилину для роздумів.",
+        "en": "Eyes of the Sentinels",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "We must remain vigilant, for though Darnassus is well-protected our enemies are everywhere.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "I thank you for your aid. Though I find peace in the daily rituals, it is nice to have a moment to reflect instead.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Kept all four owl deployment locations: northern Cenarion Hold tunnels, central bank, northeastern Craftsman s Terrace inn and city gate. Current source says Cenarion Hold; familiar alternative place knowledge did not replace it.",
+      "Corrected raw goddess-as-queen and inn-as-reception-room errors. A proper huntress uses the goddess gifts as well as a blade. Daily prayer and the chance for reflection remain distinct.",
+      "NPC8396 starts/ends; provided item279378 and deployment objects270418-270421 checked; required1/level11, Alliance. All five current states; secondary lacks progress/completion."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 399,
+    "en": "Humble Beginnings",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D399/humble-beginnings",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          1646
+        ]
+      ],
+      "3": [
+        [
+          1646
+        ]
+      ],
+      "8": [
+        "Go to Baros Alexston's house in Westfall and search for his compass, then return it to him in Cathedral Square of Stormwind."
+      ],
+      "10": {
+        "3": [
+          [
+            2998,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          72,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Humble Beginnings",
+        "4": 10,
+        "5": 15,
+        "6": 4294967373,
+        "17": 1519,
+        "23": 8,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Скромні дари минулого",
+        "detail": "Здається, минула вічність, відколи я був хлопчиком і працював на фермі в Західному краї. Кажуть, ти ніколи не зможеш повернутись в минуле, і це правда. У моєму випадку двічі правда, бо дім моєї родини спалили та захопили злодії.\n\nЯ говорив з батьком про долю деяких своїх речей, у тому числі мого першого компаса. Він не зміг їх врятувати, але каже, що їх вдалося сховати на фермі.\n\nТи знайдеш садибу Алекстона на заході від Сторожового пагорба. Можливо, ти {стать:міг би:могла б} піти й забрати його для мене?",
+        "objective": "Йдіть до будинку Бароса Алекстона в Західному краї та знайдіть його компас, а потім поверніть його йому на Соборній площі Штормовію.",
+        "progress": "{ім'я}! Тобі вдалось?",
+        "complete": "О, дякую, {ім'я}! Для мене він має практичної користі, тільки як пам'ять про минуле... Навіть не знаю як тобі віддячити... це певно було непросто, та й шлях до Західного краю неблизький. Візьми це в знак моєї подяки.",
+        "en": "Humble Beginnings",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {},
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Baros Alexston wants his first compass2998 from the old farm west of Sentinel Hill, returned at Cathedral Square, Stormwind. Father thinks the possessions are already hidden; this is not a new instruction to bury them.",
+      "Preserved lost-home nostalgia, thieves, sentimental rather than practical value, and the player s risk/time and gratitude gift.",
+      "NPC1646 starts/ends, required10/level15, Alliance. All five current states agree with UA."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 97220,
+    "en": "Philmor's Favor",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D97220/philmors-favor",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          268511
+        ]
+      ],
+      "3": [
+        [
+          483
+        ]
+      ],
+      "8": [
+        "Bring the Gatehouse Shipment to the stockroom entrance located in Trias' Cheese shop in the Trade District."
+      ],
+      "S": {
+        "1": "Philmor's Favor",
+        "4": 9,
+        "5": 15,
+        "6": 4294967373,
+        "11": 277119,
+        "17": 1519,
+        "22": 97222,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Послуга Філмора",
+        "detail": "Щодня цього тижня нам не вистачало докерів.\n\nХочете полегшити наш графік вантажних перевезень?\n\nВіднесіть цю посилку до входу до складу сторожки. Ви знайдете її в сирній крамниці Тріаса на другому поверсі. Господиня, Елейн, добре знайома з доставкою. До сторожки часто надходять посилки з більшою дискретністю, щоб мати змогу влаштувати урочисті сюрпризи від імені офіцерів варти.",
+        "objective": "Принесіть вантаж з прохідної до входу на склад, розташований у сирній крамниці Тріаса в Торговому районі.",
+        "progress": "Хочеш наповнити ящик головами нашого найкращого витриманого сиру?",
+        "complete": "Ох, лишенько. Думаєш, ми хочемо самі тягти це нагору сходами? Зберегти цінний вантаж — твоя відповідальність аж до самої доставки.",
+        "en": "Philmor's Favor",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "You looking to fill a crate with our finest aged wheels?",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "Oh, dear. You think we want to carry that up the stairs ourselves? Keeping the valuables intact is your responsibility up until the point you drop it off.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "First delivery: Philmor268511->Elaine Trias483, next97222, provided Gatehouse Shipment277119. Stockroom entrance is inside Trias Cheese on the second floor; this step does not replace the later stair/drop-off step.",
+      "Corrected raw favor-as-favorite, aged cheese wheels rather than vehicle wheels, and stairs rather than bridge. Discreet deliveries for officers ceremonial surprises and liability until drop-off remain.",
+      "Required9/level15, Alliance. All five primary states; secondary lacks progress/completion."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 97222,
+    "en": "Gatehouse Goods",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D97222/gatehouse-goods",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          483
+        ]
+      ],
+      "3": [
+        [
+          483
+        ]
+      ],
+      "8": [
+        "Carry the Gatehouse Shipment up the stairs in Trias' shop and leave it outside the door."
+      ],
+      "10": [
+        null,
+        [
+          [
+            460004,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        97220
+      ],
+      "S": {
+        "1": "Gatehouse Goods",
+        "4": 9,
+        "5": 15,
+        "6": 4294967373,
+        "11": 277198,
+        "17": 1519,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Товари для сторожки",
+        "detail": "Так, це лише сходовий проліт, але якщо це таке невелике прохання, то для вас не повинно бути проблемою самостійно завершити доставку!\n\nСир Тріас не входить до складу воріт чи їхнього інвентарю, але наші будівлі мають один поверх.\n\nПоставте ящик біля дверей їхнього складу — охоронець надішле когось за звичайною посилкою. Вони побачать прибуття посилки та занесуть її всередину, коли повернуться на склад.",
+        "objective": "Віднесіть вантаж з сторожки нагору сходами в магазині Тріаса та залиште його за дверима.\n\nНаданий предмет:",
+        "progress": "Тобі варто бодай скуштувати цього витриманого чедера. Від нього неможливо відірватися.",
+        "complete": "Ага. Недарма ті двері відчиняються всередину, щоб люди не завалювали вхід речами, полишеними абиде.\n\nВважай, що ми налагодили ділові стосунки, {клас:к}.\n\nМи поважаємо твою справу й очікуємо поваги до нашої.",
+        "en": "Gatehouse Goods",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "You should at least try some of this aged cheddar. You can't stop eating it.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "Yep. There's a reason that hinge opens inwards towards them, so they don't get the door blocked by people leaving stuff anywhere they please.\n\nConsider us professionally acquainted, <class>. \n\nWe respect your business, and expect you to respect ours.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Follow-up to97220: Elaine483 starts/ends, provided Shipment277198 differs from277119; credit460004. Carry upstairs and place outside the stockroom door.",
+      "Corrected a flight of stairs to a whole flight, not a single stair. Shared floor does not mean shared inventory. Guards regular pickup/return to post and inward-opening hinge are preserved.",
+      "Professional respect and cheese sales pitch retain the speaker voice. Required9/level15, Alliance; all five current states."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 97234,
+    "en": "Reading Room",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D97234/reading-room",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          268568
+        ]
+      ],
+      "3": [
+        [
+          2504
+        ]
+      ],
+      "8": [
+        "Bring the wrapped reading material to the Stormwind library."
+      ],
+      "S": {
+        "1": "Reading Room",
+        "4": 13,
+        "5": 18,
+        "6": 4294967373,
+        "11": 277158,
+        "17": 1519,
+        "22": 97237,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Читальний зал",
+        "detail": "Ви тут, щоб обговорити глибші значення наших легендарних творів? Ні?\n\nДобре, після того, як ви закінчите оглядати, чи можете ви віднести це до бібліотеки для мене? Ми обмінюємо деякі з наших менш популярних творів на більш сучасні. У мене є список томів, які, я впевнений, бібліотекар зможе нам дістати в рамках нашої існуючої домовленості.\n\nБезкоштовні клубні напої від нас, якщо ви нам допоможете.",
+        "objective": "Принесіть загорнуті матеріали для читання до бібліотеки Штормовія.",
+        "progress": "Будь ласка, говори тихіше.",
+        "complete": "Погляньмо. Книжковий клуб Роя, так? Впізнаю цей спосіб загортання.\n\nЩо ж, якщо він каже, що люди хочуть обговорювати саме це, я не заперечую. Нам завжди повертають книжки в такому ж доброму стані, як і брали, тож ми знаємо, що до них ставляться шанобливо, хоч би якими провокативними були їхні слова.",
+        "en": "Reading Room",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "title": {
+        "secondary": null,
+        "current": "Reading Room",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "detail": {
+        "secondary": null,
+        "current": "Are you here to discuss the deeper meanings of our storied legends? No?\n\nWell, after you're done looking around, can you carry this to the library for me? We're exchanging some of our less popular bodies of work for some more modern writing. I have a list of tomes I'm quite sure the librarian will be able to procure for us within our existing arrangement.\n\nComplimentary club refreshments on us, if you help us out.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "objective": {
+        "secondary": null,
+        "current": "Bring the wrapped reading material to the Stormwind library.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "progress": {
+        "secondary": null,
+        "current": "Please keep your voice down.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "Let's see here. Roy's Book Club, isn't it? I recognize this wrap technique. \n\nWell, if he says this is what people want to talk about, it's all fine by me. The material we receive back is always in as good of quality as we loaned it, so we know they're treating it with respect regardless of how provoking the words may be.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "sourceAwareNotes": [
+      "Roy Lewells268568->Donyal Tovald2504, next97237; wrapped reading item277158. Exchange less-popular works for modern writing; refreshments are general, not limited to drinks.",
+      "Removed raw invented bag. Good return condition establishes respect for books regardless of provocative words; no endorsement of their contents added.",
+      "Required13/level18, Alliance. Five complete primary states; secondary timed out after retry."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 97237,
+    "en": "Shelf Picked",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D97237/shelf-picked",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          2504
+        ]
+      ],
+      "3": [
+        [
+          268568
+        ]
+      ],
+      "8": [
+        "Find each of the reading materials located somewhere in the library and then return to Roy Lewells in Stormwind's Park."
+      ],
+      "10": {
+        "3": [
+          [
+            277196,
+            null,
+            0
+          ],
+          [
+            277194,
+            null,
+            0
+          ],
+          [
+            277195,
+            null,
+            0
+          ],
+          [
+            277197,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        97234
+      ],
+      "S": {
+        "1": "Shelf Picked",
+        "4": 13,
+        "5": 18,
+        "6": 4294967373,
+        "17": 1519,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Зібрано з полиці",
+        "detail": "Я перевірив наш інвентар, і всі перелічені містером Льюеллсом вибрані матеріали зараз доступні.\n\nОднак вам потрібно буде самостійно придбати їх з полиць. Частиною наших обов'язків бібліотекаря є пильність, і для цього я відновлю ведення бухгалтерського обліку.\n\nПовернення матеріалів Рою від його імені не означає, що ви несете відповідальність за їх повернення; оскільки за його запискою ви виконуєте обов'язки офіційного кур'єра книжкового клубу. Їхня установа несе цей тягар.\n\nДоброго дня, {ім'я}.",
+        "objective": "Знайдіть кожен з матеріалів для читання десь у бібліотеці, а потім поверніться до Роя Льюеллса в парку Штормовія.",
+        "progress": "Ти {стать:забув:забула}, що треба зробити, щойно {стать:переступив:переступила} поріг, еге ж? З усіма буває.",
+        "complete": "Саме вони! Від деяких навіть віє екзотикою! Чудово, не можу дочекатися жвавих розмов про ці твори.\n\nЗвісно ж, у льосі, після закриття.\n\nДякую, що швидко {стать:впорався:впоралася} з дорученням, {ім'я:к}. Як і обіцяв, за рахунок закладу. Тут слова дотримуються.",
+        "en": "Shelf Picked",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "title": {
+        "secondary": null,
+        "current": "Shelf Picked",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "detail": {
+        "secondary": null,
+        "current": "I've checked our inventory and all of the selections Mr. Lewells has listed are currently available.\n\nYou will, however, need to procure them off the shelves yourself. Part of our librarian duty is vigilance, and for that, I will resume supervisory bookkeeping.\n\nReturning with the material to Roy on his behalf will not mark yourself accountable for their return; as with his note you're serving as the book club's official courier. Their establishment shall carry that burden.\n\nGood day, <name>.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "objective": {
+        "secondary": null,
+        "current": "Find each of the reading materials located somewhere in the library and then return to Roy Lewells in Stormwind's Park.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "progress": {
+        "secondary": null,
+        "current": "You forgot what you had to do the moment you stepped through the door, eh? Happens to everyone.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "These are them! Some of them even smell exotic! Fantastic, I can't wait for us to have lively conversations about these writings.\n\nCellar after hours, of course.\n\nThanks for the quick errand run, <name>. As promised, it's on the house. We keep our word here.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": "<urlopen error _ssl.c:1018: The handshake operation timed out>",
+    "sourceAwareNotes": [
+      "Donyal2504->Roy268568, prior97234. Four book items277196/277194/277195/277197 checked in objective UI and not inserted into narrative.",
+      "Courier is not personally responsible for returning the books; the establishment carries that burden. Restored cellar after hours omitted by raw DeepL, plus free promised refreshments.",
+      "Mr. Lewells is retained as Mr Lewells with whole-phrase pronunciation; only abbreviation punctuation normalized. Required13/level18, Alliance. Five primary states; secondary timed out after retry."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 79007,
+    "en": "... and that note you found",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79007/and-that-note-you-found",
+    "currentSide": "Horde",
+    "installedMetadata": {
+      "2": [
+        null,
+        [
+          415106
+        ]
+      ],
+      "3": [
+        null,
+        [
+          415107,
+          424010
+        ]
+      ],
+      "8": [
+        "Charred remains of the note serve as your only guide."
+      ],
+      "S": {
+        "1": "... and that note you found",
+        "4": 14,
+        "5": 22,
+        "6": 8589934770,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "...і та записка, яку ти знайшов",
+        "detail": "Слабке сяйво темніючих вугілля, ти натикаєшся на залишки нещодавньої пожежі.\nСеред розкиданих провізій ти знаходиш обгорілий записку.\n«Не все, що горить, втрачено. Знайди землю-близнюка, знайди це місце».",
+        "objective": "Обвуглені залишки записки слугуватимуть вам єдиним орієнтиром.",
+        "progress": null,
+        "complete": "Коли ви натикаєтеся на залишки чергового обвугленого трупа, ваш погляд падає на послання, прикріплене до дерев'яної дошки.",
+        "en": "... and that note you found",
+        "faction": "Horde"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "complete": {
+        "secondary": null,
+        "current": "As you stumble upon the remnants of yet another charred corpse, your gaze falls upon a message secured to a wooden plank.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "New Horde counterpart79007 is distinct from existing reviewed Alliance79008 despite the identical English title. Screenshot title alone cannot prove which captured ID was shown; no screenshot-gap repair or live-verification claim is made. Existing79008 was not edited.",
+      "Current HTML explicitly says Side:Horde; installed race mask8589934770 and UA Horde agree. Required14/level22. Mapper start GO415106 includes Barrens46.3/73.9 and Westfall37.5/50.7; ending objects415107/424010 in Westfall. Mapper coordinates do not establish current acceptance eligibility.",
+      "Corrected badge to note and blistered skin to heat-blistered paper. Restored angle-bracket stage direction, darkening ember light, and kept twin-land/place clue enigmatic. Secured to a plank is not narrowed to tied attachment.",
+      "Four current states match UA meaning; progress absent. Source clue is not expanded with destinations, route advice or a reward."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 2039,
+    "en": "Find Bingles",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D2039/find-bingles",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          6569
+        ]
+      ],
+      "3": [
+        [
+          6577
+        ]
+      ],
+      "8": [
+        "Find Bingles Blastenheimer in Loch Modan."
+      ],
+      "26": [
+        [
+          54,
+          25
+        ]
+      ],
+      "S": {
+        "1": "Find Bingles",
+        "4": 12,
+        "5": 15,
+        "6": 4294967373,
+        "17": 1537,
+        "22": 2038,
+        "23": 8,
+        "27": 2038,
+        "p": 33554566
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Знайти Бінґлса",
+        "detail": "Ми втратили зв'язок з Бінґлсом! Його було відправлено в розвідувальний політ над Гномреґаном і він не виходить на зв'язок вже більше ніж тиждень. Я знаю лише що він пішов в розвідку і підірвавсь.\n\nВостаннє його бачили, коли він пролітав над озером Лох. Можливо ти зможеш з'ясувати, що з ним сталось, {ім'я}.",
+        "objective": "Знайдіть Бінґлса Підривайченка в Лох-Модані.",
+        "progress": null,
+        "complete": "Отже, Ґноарн сумнівається в моїх здібностях розвідника? Цікаво, чому це...\n\nНе бери в голову, мені потрібна твоя допомога! Ні! Нашому руху потрібна твоя допомога!",
+        "en": "Find Bingles",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "detail": {
+        "secondary": "We've lost contact with Bingles! He was sent on a reconnaissance mission over Gnomeregan and hasn't reported back in over a week. I just know he's gone and blown himself up.\n\nHe was last seen flying over the Loch. Perhaps you can investigate, <Name>.",
+        "current": "We've lost contact with Bingles! He was sent on a reconnaissance mission over Gnomeregan and hasn't reported back in over a week. I just know he's gone and blown himself up.\n\nHe was last seen flying over the Loch. Perhaps you can investigate, <name>.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Gnoarn6569 sends to Bingles Blastenheimer6577 at Loch Modan, next2038; required12/level15, Alliance. Reconnaissance over Gnomeregan, over a week without a report and last seen flying over the Loch are retained.",
+      "Kept blown-himself-up dark humor and Bingles shift from needing help himself to the movement needing help. No rescue outcome invented.",
+      "Four current states, progress absent; current lowercase <name> takes precedence over secondary <Name>."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 2041,
+    "en": "Speak with Shoni",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D2041/speak-with-shoni",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          6569
+        ]
+      ],
+      "3": [
+        [
+          6579
+        ]
+      ],
+      "8": [
+        "Speak with Shoni the Shilent in Stormwind."
+      ],
+      "26": [
+        [
+          54,
+          25
+        ]
+      ],
+      "S": {
+        "1": "Speak with Shoni",
+        "4": 15,
+        "5": 15,
+        "6": 4294967373,
+        "17": 1537,
+        "22": 2040,
+        "23": 8,
+        "27": 2040,
+        "p": 33554566
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Розмова з Шоні",
+        "detail": "Можливо... Можливо, ти можеш допомогти нам у битві за Гномреґан.\n\nУ Штормовії ти знайдеш командира нашої підземного штурмового загону, Шоні Мовшунку. Їх потрібна допомога з гіробурорийками.\n\nТи знайдеш її серед дворфів у Штормовії.\n\nУдачі, {ім'я}.",
+        "objective": "Поговоріть з Шоні Мовшункою в Штормовії.",
+        "progress": null,
+        "complete": "У тебе є повідомлення від центрального командування?",
+        "en": "Speak with Shoni",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": false,
+        "ua": [
+          false
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "detail": {
+        "secondary": "Perhaps... Perhaps you can help us in the battle for Gnomeregan.\n\nIn Stormwind you will find the commander of our underground assault crew, Shoni the Shilent. Shoni needs assistance with her gyrodrillmatic excavationators.\n\nYou will probably find her amongst the dwarves in Stormwind.\n\nGood luck, <Name>.",
+        "current": "Perhaps... Perhaps you can help us in the battle for Gnomeregan.\n\nIn Stormwind you will find the commander of our underground assault crew, Shoni the Shilent. Shoni needs assistance with her gyrodrillmatic excavationators.\n\nYou will probably find her amongst the dwarves in Stormwind.\n\nGood luck, <name>.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Gnoarn6569->Shoni the Shilent6579, next2040; required15/level15. Current HTML Side:Alliance and installed mask4294967373 agree; UA Both is an obsolete broad faction label, not authorization to claim Horde acceptance.",
+      "Kept exact Shilent spelling, tentative perhaps/probably, Stormwind dwarves and identifiable gyrodrillmatic excavationators. No spelling repair to Silent.",
+      "Four states, progress absent; lowercase <name> preserved."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 96393,
+    "en": "Old Ironforge Incursion",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D96393/old-ironforge-incursion",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          264936
+        ]
+      ],
+      "3": [
+        [
+          2784
+        ]
+      ],
+      "8": [
+        "Enter the Hall of Thanes beneath Old Ironforge and claim the Head of Durgen Dirgehammer."
+      ],
+      "10": {
+        "3": [
+          [
+            274286,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        96391
+      ],
+      "26": [
+        [
+          47,
+          100
+        ],
+        [
+          54,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Old Ironforge Incursion",
+        "4": 9,
+        "5": 16,
+        "6": 4294967373,
+        "17": 16919,
+        "p": 33559174
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Вторгнення до Старого Залізогарта",
+        "detail": "Зберіть союзників і спустіться в печери під Старою Залізогартом. Увійдіть до Зали Танів і пройдіть до нижніх сховищ.\n\nМоє Темне Залізо трохи іржаве, але я можу розібрати ім'я — хтось Дурген Жалобний Молот. Цілком ймовірно, що він командир. Візьміть його голову та доставте її королю Магні Бронзобородому.\n\nО, і коли це зробите, передайте йому, що його старий друг Фарсен передає йому вітання!",
+        "objective": "Увійдіть до Зали Танів під Старою Залізогартом та заберіть Голову Дургена Жалобного Молота.",
+        "progress": "Що тобі потрібно, громадянине?",
+        "complete": "Вторгнення Темного Заліза — просто в нас під ногами? Що ж, я радий чути, що командира Темного Заліза знищено.\n\nВарта спуститься туди й зачистить решту покидьків. Ми запечатаємо проломи й укріпимо нижні рівні, щоб більше жодних вторгнень не сталося.\n\nДякую за службу Залізогарту, {стать:воїне:воїтелько}. Прийми це як невеликий знак моєї вдячності. І якщо знову побачиш того старого каменеобіймача з клану Дикого Молота, Фарсена, скажи йому нарешті завітати до мене як слід.",
+        "en": "Old Ironforge Incursion",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "What do ye need, citizen?",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "A Dark Iron incursion--right beneath our feet? Well, I'm relieved to hear that the Dark Iron commander has been dispatched.\n\nThe guards will head in and clean up the rest of the rabble. We'll see to it that the breaches are sealed and the lower levels reinforced to ensure that no further incursions are possible.\n\nThank ye for yer service to Ironforge, <class>. Take this as a small token of my gratitude. Oh, and if ye see that old Wildhammer rockhugger Farsen again, tell 'em to pay me a proper visit.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Earthseer Farsen264936->King Magni2784, prior96391; required9/level16. Current Side:Alliance and installed Alliance mask agree; UA Both differs.",
+      "Route goes below Old Ironforge through Hall of Thanes to lower vaults. Dark Iron language is rusty; Durgen is only likely the commander. Head item274286 and Farsen regards retained.",
+      "Corrected literal language rust and rabble-as-debris. King promises guards will clean up, seal breaches and reinforce levels; Wildhammer rockhugger joke remains. Five current states."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 96394,
+    "en": "The Restless Dead",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D96394/the-restless-dead",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          264943
+        ]
+      ],
+      "3": [
+        [
+          264943
+        ]
+      ],
+      "8": [
+        "Kill 15 Enraged Apparitions, 10 Tormented Souls and put the spirit of Anvilmar to rest."
+      ],
+      "10": [
+        [
+          [
+            263389,
+            null,
+            0
+          ],
+          [
+            263390,
+            null,
+            0
+          ]
+        ]
+      ],
+      "26": [
+        [
+          47,
+          100
+        ]
+      ],
+      "S": {
+        "1": "The Restless Dead",
+        "4": 10,
+        "5": 15,
+        "6": 4294967373,
+        "17": 16919,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Неспокійні мерці",
+        "detail": "Щось потурбувало гробниці внизу в Залі Танів, і з глибини склепінь чути дивні звуки. Духи померлих сплять легко, і що б там не відбувалося, схоже, їх налякало.\n\nСпускайтеся туди і подивіться, що ви можете для нас зробити. Якщо хтось із померлих не спить — що ж, відпустіть їх назад!",
+        "objective": "Убийте 15 розлючених привидів, 10 змучених душ та заспокоїте дух Анвілмара.",
+        "progress": "У мене немає часу на гулів і привидів. Мені тут унизу ще працювати.",
+        "complete": "О, добре, отже, з цим покінчено. Не можу ж я дозволити іншим доглядачам відмовлятися заходити до зали й виконувати свої обов'язки через «привидів» та «розлючених мерців», чи не так?",
+        "en": "The Restless Dead",
+        "faction": "Alliance"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "I don't have time for ghouls and ghosts. I have a job to do down here.",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "Ah good, it's done then. I can't have the other keepers refusing to enter the hall to do their duties on account of \"ghosts\" and \"angry dead\", can I?",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Afadra Dunwall264943 starts/ends; required10/level15, Alliance. Targets263389/263390 checked. Objective preserves15 Enraged Apparitions,10 Tormented Souls and Anvilmar spirit; the last instruction is not dropped because the table lists two kill targets.",
+      "Corrected raw tomb/festival and light-sleeper errors. Pragmatic keeper voice, put-the-dead-back-down joke and quoted ghosts/angry dead remain.",
+      "All five states source-reviewed; numbers are equivalent Myanmar digits in the objective."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  },
+  {
+    "id": 96403,
+    "en": "Important Heirlooms",
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D96403/important-heirlooms",
+    "currentSide": "Alliance",
+    "installedMetadata": {
+      "2": [
+        [
+          265003
+        ]
+      ],
+      "3": [
+        [
+          265003
+        ]
+      ],
+      "8": [
+        "Collect 8 Dwarven Heirlooms from the Hall of Thanes."
+      ],
+      "10": {
+        "3": [
+          [
+            274289,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          369,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Important Heirlooms",
+        "4": 10,
+        "5": 15,
+        "6": 4294967373,
+        "17": 16919,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Важливі сімейні реліквії",
+        "detail": "Ти там, шукачу пригод... Мені дуже потрібна твоя допомога.\n\nЯ прокрадався... е-е... «патрулював» у сховищах, коли з глибин на машинах-кротах виринув загін дворфів Темного Заліза! Я не знаю, для чого вони тут, але там безцінна здобич... е-е, чи, радше... я маю на увазі, «важливі культурні реліквії»! Будь ласка, знайдіть будь-які такі реліквії, які побачите, і поверніть їх сюди.\n\nЗапевняю вас, що все, що ви знайдете, буде каталогізовано та повернуто на належне почесне місце.",
+        "objective": "Зберіть 8 гномьих реліквій з Чертога Танів.",
+        "progress": "<Том, дивлячись на вас, неуважно потирає руки.>",
+        "complete": "Який ти {стать:хоробрий:хоробра} та {стать:підприємливий:підприємлива}! Я гном слова, тож ти чесно {стать:заслужив:заслужила} свою нагороду!\n\nА тепер дай-но поглянути на здобич... е-е, тобто на врятовані реліквії. Треба якнайшвидше взятися до їхньої оцінки... перепрошую, «каталогізації», щоб повернути все на належні місця.",
+        "en": "Important Heirlooms",
+        "faction": "Both"
+      }
+    ],
+    "englishTitleMatch": true,
+    "uaFieldPresence": {
+      "title": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "detail": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "objective": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "progress": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      },
+      "complete": {
+        "current": true,
+        "ua": [
+          true
+        ]
+      }
+    },
+    "currentSecondaryDifferences": {
+      "progress": {
+        "secondary": null,
+        "current": "<Thom appears to absentmindedly rub his hands together as he looks at you.>",
+        "decision": "current English controls; no legacy recovery used"
+      },
+      "complete": {
+        "secondary": null,
+        "current": "Look at you, as brave as you are enterprising! I'm a gnome of my word, and your reward is well earned! \n\nNow, let me take a look at the haul--uh, I mean... the recovered heirlooms. I need to get started appraising--excuse me, 'cataloging' them so that they can be put back in their proper places as quickly as possible.",
+        "decision": "current English controls; no legacy recovery used"
+      }
+    },
+    "secondaryError": null,
+    "sourceAwareNotes": [
+      "Thom Filch265003 starts/ends; required10/level15. Current Side:Alliance and installed Alliance mask agree; UA Both differs. Collect8 Dwarven Heirlooms item274289.",
+      "Kept sneaking/patrolling, loot/cultural-heirlooms and appraising/cataloging evasions; review does not certify the NPC honest. No additional moral judgment or advice inserted.",
+      "Restored angle-bracket stage direction and Thom identity. Gnome identity and earned reward stay distinct from appraisal. Five current states; quantity8 preserved as Myanmar digit."
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested"
+  }
+]

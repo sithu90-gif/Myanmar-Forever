@@ -1,0 +1,10 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-15T07:02:10.866935+00:00",
+  "failedContract": "2518 objective English possessive phrase",
+  "rootCause": "Source-supported Myanmar grammatical possessive separates annotated Lady Sathrah from named Silvery Spinnerets; identity was preserved, whole-English-string expectation was invalid. All other48 contracts passed static audit.",
+  "fix": "Require both exact source identities independently; all49 objective contracts now pass static checks. Negative wrong-character and wrong-item substitutions are rejected.",
+  "translationChanges": false,
+  "firstFailureEvidence": "build-first-identity-failure.log",
+  "verifiedNegativeCases": 2
+}

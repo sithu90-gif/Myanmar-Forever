@@ -1,0 +1,53 @@
+{
+  "checkedAtUTC": "2026-11-15T06:30:22.948215+00:00",
+  "result": "PASS",
+  "morningVersion": "1.2.9",
+  "morningCommit": "aef73b2c2355388d197376eefb41aa1463702cd0",
+  "sourceAndTranslationReview": "PASS; independent reviews and 15 corrections documented",
+  "checks": {
+    "result": "PASS",
+    "pythonTests": 21,
+    "luaRegressionGroups": 32,
+    "sourceRawMappingsVerified": 214,
+    "independentlyReviewedQuestIDs": 50,
+    "correctedNewFields": 15,
+    "newEnabledFields": 209,
+    "oldQuestRecordsPreserved": 1286,
+    "oldFieldSlotsUnchanged": 6430,
+    "guarded5639HoldPreserved": true,
+    "objectiveIdentityContracts": 31,
+    "newDialogueRoutingCases": 150,
+    "newHeldFields": 5,
+    "activeHeldUniqueFields": 57,
+    "upstreamVersion": "1.0.1",
+    "upstreamChangedExistingQuestIDs": [
+      140
+    ],
+    "undisposedUpstreamTitleMismatches": 0,
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "sixSavedArtifacts": "PASS; exact SHA256",
+  "remoteZip": "PASS; fresh tagged download hash match",
+  "activeBatch": null,
+  "dailyCountBefore": 50,
+  "dailyHeadroom": 50,
+  "nativeProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "reviewEvidenceSHA256": {
+    "work/morning-2026-11-15/raw-source-proof-audit.json": "5e35237cd5f0eaa2343d77e04eee1560c33e1e4d13807527241f303f7bd26cb7",
+    "work/Myanmar-Forever-v1.2.10/translations/scheduled-routes-v1.2.9/evidence/integration-review.json": "1a14ff9b0285cbe3e08776e9a203f5c1d829c86f63c3a223e8806bfd6b7147e5",
+    "work/morning-2026-11-15/REVIEW-REPORT.md": "5d857ff47421a7c5e4c4300a520cad12abbab1647aee710e3f04a6c7f347e992",
+    "work/morning-2026-11-15/checks.json": "cf11af4b26bb978bfc851c7db091a1557e386cc6f1054f80c39a2306267a5e00",
+    "work/morning-2026-11-15/build-v1.2.9/validation.json": "d8445cf55f989ccf3526a2ccb25919222a24610b86f4729d3752ae41d57629a6",
+    "work/morning-2026-11-15/independent-review/alliance_water.json": "639705a39e1586ad14a47bfeaf9023d36cd45dea010563a907b03e6f2f0fa6d0",
+    "work/morning-2026-11-15/independent-review/druid.json": "6fddae0e8d2ac3f6dc9cf95de5d4b03b57149e37d7891732352710c3ef17b1df",
+    "work/morning-2026-11-15/independent-review/shaman_early_horde.json": "7a49a50586476b629c5124966d0ea5ebf89aa7bc1e5e28b69a7860a36e5e3e62"
+  },
+  "all15CorrectionsIntegrated": true,
+  "actualValidationGroups": 32,
+  "actualValidationFields": 6140,
+  "actualValidationResult": "PASS",
+  "knownUnresolvedEnabledFieldErrors": [],
+  "pendingNativeOrLiveStatus": "pending; does not block reviewed candidate"
+}

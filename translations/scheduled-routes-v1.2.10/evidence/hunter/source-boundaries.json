@@ -1,0 +1,456 @@
+{
+  "6065": {
+    "primaryHTMLSHA256": "a09c05ffaa4c36e5bc2710339824937d24ab1376b8c042227960fd2afb46a7cf",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts ",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksn",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, it is time for you to begin your training.</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScaling"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Yaw Sharpmane in Bloodhoof Village. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready...</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Yaw Sharpmane in Bloodhoof Village.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, it is time for you to begin your training.",
+        "secondary": "Yes, I do believe you are ready..."
+      }
+    }
+  },
+  "6066": {
+    "primaryHTMLSHA256": "bdc82b5b47fab02c37bd2e24037757e63f18c5e43f9ff81e0eb6302942aa1058",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts ",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksn",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I do believe that you are ready...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards("
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Yaw Sharpmane in Bloodhoof Village. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready...</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Yaw Sharpmane in Bloodhoof Village.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I do believe that you are ready...",
+        "secondary": "Yes, I do believe you are ready..."
+      }
+    }
+  },
+  "6067": {
+    "primaryHTMLSHA256": "888031d5883c08b819153f52ff78b122780266198b94b4c3bfec1659598640a8",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts ",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3065/yaw-sharpmane\">Yaw Sharpmane</a> in Bloodhoof Village. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksn",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I do believe you are ready...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"min"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Yaw Sharpmane in Bloodhoof Village. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready...</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Yaw Sharpmane in Bloodhoof Village.",
+        "secondary": null
+      }
+    }
+  },
+  "6068": {
+    "primaryHTMLSHA256": "d78346c1e86af190665dd1dc9f38a39d874012c17159cc8157b1f7440f7949dd",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I do believe you are ready, as well....</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRew"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Thotar at Razor Hill. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time for you to begin your training.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Thotar at Razor Hill.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I do believe you are ready, as well....",
+        "secondary": "Yes, it is time for you to begin your training."
+      }
+    }
+  },
+  "6069": {
+    "primaryHTMLSHA256": "026df8342b3b3316246af0a5790b01899d9f6150f659dfaeac87d00481a6f7d7",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I believe you are ready to be trained...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRe"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Thotar at Razor Hill. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time for you to begin your training.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Thotar at Razor Hill.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I believe you are ready to be trained...",
+        "secondary": "Yes, it is time for you to begin your training."
+      }
+    }
+  },
+  "6070": {
+    "primaryHTMLSHA256": "6375f8984bec6299a4b1005805112e61d45061ce6e7cde5783ba2c77f75996b8",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3171/thotar\">Thotar</a> at Razor Hill. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I believe that it is time for me to train you...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupS"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Thotar at Razor Hill. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time for you to begin your training.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Thotar at Razor Hill.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I believe that it is time for me to train you...",
+        "secondary": "Yes, it is time for you to begin your training."
+      }
+    }
+  },
+  "6071": {
+    "primaryHTMLSHA256": "0cb1475aaff8d9c47fa1bf7cdf1f689ac05be9f7a9da7166e69bae70dd05ca7d",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, it is time, &lt;class&gt;.</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minLev"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Dazalar in Dolanaar. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time, &lt;class&gt;.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Dazalar in Dolanaar.",
+        "secondary": null
+      }
+    }
+  },
+  "6072": {
+    "primaryHTMLSHA256": "cc43d7b9dc1824b00099d8c803c0e50d30811e9342e1ca1ede974fff2b0183c1",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I believe that it is time...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minL"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Dazalar in Dolanaar. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time, &lt;class&gt;.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Dazalar in Dolanaar.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I believe that it is time...",
+        "secondary": "Yes, it is time, <class>."
+      }
+    }
+  },
+  "6073": {
+    "primaryHTMLSHA256": "dc126df831a4af9d70f2955c4e25fbebf047f46aeb2605f735ec0f38b14e6b7d",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, it is time to train you...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minLev"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Dazalar in Dolanaar. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time, &lt;class&gt;.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Dazalar in Dolanaar.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, it is time to train you...",
+        "secondary": "Yes, it is time, <class>."
+      }
+    }
+  },
+  "6074": {
+    "primaryHTMLSHA256": "b37fc596b77d86593f3de7bd27fa019257f8b21b2a3c0d6d9a3866efd6f74bb0",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ a",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-com",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I believe that it is time...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minL"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Grif Wildheart in Kharanos. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready, as well....</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Grif Wildheart in Kharanos.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I believe that it is time...",
+        "secondary": "Yes, I do believe you are ready, as well...."
+      }
+    }
+  },
+  "6075": {
+    "primaryHTMLSHA256": "acc32a2dc158d84feb547bea2c880461f2b5e8f5960eeeb103c16937fd3805be",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ a",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-com",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, I believe that it is time for you to be trained...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setu"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Grif Wildheart in Kharanos. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready, as well....</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Grif Wildheart in Kharanos.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, I believe that it is time for you to be trained...",
+        "secondary": "Yes, I do believe you are ready, as well...."
+      }
+    }
+  },
+  "6076": {
+    "primaryHTMLSHA256": "54ef07664434a75ddfb12bf5cf6db56c9b6aca4598942bb1d14e2784a727074e",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ a",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=1231/grif-wildheart\">Grif Wildheart</a> in Kharanos. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-com",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, &lt;class&gt;, it is time...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minL"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Grif Wildheart in Kharanos. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, I do believe you are ready, as well....</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Grif Wildheart in Kharanos.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, <class>, it is time...",
+        "secondary": "Yes, I do believe you are ready, as well...."
+      }
+    }
+  },
+  "6721": {
+    "primaryHTMLSHA256": "947328a96495c64463b6a77c807bbfb7e99fbe3af02434d2b1f6fb5b0ac1e524",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, it is time to train you...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minLev"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Dazalar in Dolanaar. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time, &lt;class&gt;.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Dazalar in Dolanaar.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, it is time to train you...",
+        "secondary": "Yes, it is time, <class>."
+      }
+    }
+  },
+  "6722": {
+    "primaryHTMLSHA256": "eb561cc055d8bed6284ff7fceb3d87a1e1dbc9c903232fd8e61242827186c8c7",
+    "primaryOriginalBoundarySnippets": [
+      "<h1 class=\"heading-size-1\">The Hunter's Path</h1>Speak with <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar.<script type=\"application/json\" id=\"data.mapper.objectiveTerms\">{\"ox\":\"This quest has objectives in $$.\",\"sx\":\"This quest starts in $$.\",\"ex\":\"This quest ends in $$.\",\"sex\":\"This quest starts and ends in $$.\",\"osx\":\"This quest has objectives and starts in $$.\",\"oex\":\"This quest has objectives and ends in $$.\",\"osx_ey\":\"This quest has objectives and starts in $$ and ends in $$.",
+      "<h2 class=\"heading-size-3\">Description</h2>Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.<br /><br />You must see <a href=\"/forever/npc=3601/dazalar\">Dazalar</a> in Dolanaar. He can put you on the path to earning a pet of your own.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style",
+      "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Yes, it is time to train you...</div>\n\n<h2 class=\"heading-size-3\">Gains</h2>Upon completion of this quest you will gain:\n\n<ul>\n<li><div id=\"quest-reward-xp\"></div><div><a class=\"tool-link\" href=\"/forever/experience-calculator?level=10\">Open in Experience Calculator</a></div></li></ul>\n\n<div id=\"quest-reward-slider\" style=\"max-width:300px\"></div><script>WH.Wow.Quest.setupScalingRewards({\"minLev"
+    ],
+    "secondaryOriginalBoundarySnippets": [
+      "<h2>Description</h2><p class=\"preserve-lines\">Hello, young hunter. You look to me like you are skilled enough to handle a beast and train it as your companion.\n\nYou must see Dazalar in Dolanaar. He can put you on the path to earning a pet of your own.</p>",
+      "<h2>Completion</h2><p class=\"preserve-lines\">Yes, it is time, &lt;class&gt;.</p>"
+    ],
+    "inspectedStates": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "absentStates": [
+      "progress"
+    ],
+    "sourceBoundaryDecision": "Objective lies between h1 and objectiveTerms script/next structural heading; scripts excluded. Description stops at Completion h2. Completion extracted from its hidden reply div, ends before Gains. No Progress heading/div or removed-description marker. No rewards or UI prose included.",
+    "legacyDifferences": {
+      "objective": {
+        "primary": "Speak with Dazalar in Dolanaar.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Yes, it is time to train you...",
+        "secondary": "Yes, it is time, <class>."
+      }
+    }
+  }
+}

@@ -478,3 +478,91 @@ if A.quests[94913] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS:31 current-English Druid/Shaman recipient/item/color/location contracts, distinct relic triples, teleport spell, current Fire referrer and Alliance sapta instruction.')
 end
+
+if A.quests[6065] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({6065,6066,6067,6068,6069,6070,6071,6072,6073,6074,6075,6076,6721,6722,98391,2519,2518,2520,730,6344,98067,399,97220,97222,97234,97237,79007,2039,2041,96393,96394,96403,5726,5727,5728,5729,5730,5722,5723,5724,5725,5761,97242,97246,97249,97275,97326,768,769,97485}) do
+    assert(A.quests[id] and A.quests[id].title,'15 November afternoon quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'New Hunter/capital state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost exact questID/title')
+    end
+  end
+  for _,h in ipairs({{5728,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Afternoon held state lost original-language fallback/capture')
+  end
+  assert(not A.quests[5728].detail and A.quests[5728].objective and A.quests[5728].complete,'Hidden Enemies gender branch enabled or independent valid states lost')
+  assert(EXPECTED_DISABLED_FIELDS['5639.detail'] and not A.quests[5639].detail,'Prior unsupported referral hold was refilled')
+  assert(not A.quests[79007].progress and A.quests[79007].detail and A.quests[79007].complete,'Burned-note clue source boundaries changed')
+  titleOverride=nil;questID=0;fire('QUEST_FINISHED')
+  print('PASS:15NovemberAfternoon50 records across150 dialogue states, gender-hold original fallback/capture, burned-note boundaries and preserved5639 guard.')
+end
+
+if A.quests[6065] then
+  local expected={
+    [6065]={"Yaw Sharpmane","Bloodhoof Village"},
+    [6066]={"Yaw Sharpmane","Bloodhoof Village"},
+    [6067]={"Yaw Sharpmane","Bloodhoof Village"},
+    [6068]={"Thotar","Razor Hill"},
+    [6069]={"Thotar","Razor Hill"},
+    [6070]={"Thotar","Razor Hill"},
+    [6071]={"Dazalar","Dolanaar"},
+    [6072]={"Dazalar","Dolanaar"},
+    [6073]={"Dazalar","Dolanaar"},
+    [6721]={"Dazalar","Dolanaar"},
+    [6722]={"Dazalar","Dolanaar"},
+    [6074]={"Grif Wildheart","Kharanos"},
+    [6075]={"Grif Wildheart","Kharanos"},
+    [6076]={"Grif Wildheart","Kharanos"},
+    [98391]={"Sister Aquinne","Darnassus"},
+    [2519]={"Sister Aquinne","Priestess A'moora","Temple of the Moon"},
+    [2518]={"Priestess A'moora","Temple of the Moon","Darnassus","Lady Sathrah","Silvery Spinnerets"},
+    [2520]={"Priestess A'moora","Lady Sathrah"},
+    [730]={"Auberdine"},
+    [6344]={"Nessa Shadowsong"},
+    [98067]={"Sentinel Owls","Cenarion Hold","Darnassus Bank","Craftsman's Terrace Inn","City Gate","Sentinel Dalia Sunblade","Temple of the Moon"},
+    [399]={"Baros Alexston","Westfall","Cathedral Square","Stormwind"},
+    [97220]={"Gatehouse Shipment","Trias' Cheese","Trade District"},
+    [97222]={"Gatehouse Shipment","Trias"},
+    [97234]={"Stormwind"},
+    [97237]={"Roy Lewells","Stormwind"},
+    [2039]={"Bingles Blastenheimer","Loch Modan"},
+    [2041]={"Shoni the Shilent","Stormwind"},
+    [96393]={"Hall of Thanes","Old Ironforge","Head of Durgen Dirgehammer"},
+    [96394]={"Enraged Apparitions","Tormented Souls","Anvilmar"},
+    [96403]={"Dwarven Heirlooms","Hall of Thanes"},
+    [5726]={"Lieutenant's Insignia","Thrall","Orgrimmar"},
+    [5727]={"Lieutenant's Insignia","Neeru Fireblade","Burning Blade","Thrall","Orgrimmar"},
+    [5728]={"Bazzalan","Jergosh the Invoker","Thrall","Orgrimmar"},
+    [5729]={"Neeru Fireblade","Orgrimmar"},
+    [5730]={"Thrall","Orgrimmar"},
+    [5722]={"Ragefire Chasm","Maur Grimtotem"},
+    [5723]={"Orgrimmar","Ragefire Chasm","Ragefire Troggs","Ragefire Shaman","Rahauro","Thunder Bluff"},
+    [5724]={"Grimtotem Satchel","Rahauro","Thunder Bluff"},
+    [5725]={"Spells of Shadow","Incantations from the Nether","Varimathras","Undercity"},
+    [5761]={"Ragefire Chasm","Taragaman the Hungerer","Neeru Fireblade","Orgrimmar"},
+    [97242]={"Cattails","Speargrass","Valley of Honor","Kor'geld","Yelmak's Alchemy and Potions"},
+    [97246]={"Borstan's Firepit","Thatog","Migi"},
+    [97249]={"Migi's Lunch","Grommash Hold"},
+    [97275]={"Yelmak's Potion","Whuut"},
+    [97326]={"Smooth Boulders","Thra","Grommash Hold"},
+    [768]={"Light Leather","Veren Tallstrider","Thunder Bluff"},
+    [769]={"Light Leather","Coarse Thread","Veren Tallstrider","Thunder Bluff"},
+    [97485]={"Bundle of Herbs","Nida","Bundle of Cedar Twigs","Nata","Sinew Thread","Mahu","Ceremonial Flint and Tinder","Naal","Hunter's Rise"}}
+  for id,terms in pairs(expected) do
+    local objective=assert(A.quests[id].objective,'Afternoon objective missing: '..id):lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'Hunter referral/capital ritual/dungeon contract failed: '..id..'/'..term) end
+  end
+  for _,id in ipairs({6065,6066,6067,6068,6069,6070,6071,6072,6073,6074,6075,6076,6721,6722}) do
+    assert(not A.quests[id].progress,'Hunter referral invented a progress state: '..id)
+  end
+  for _,id in ipairs({6071,6076}) do assert(A.quests[id].complete:find('<class>',1,true),'Current Hunter completion placeholder missing: '..id) end
+  assert(A.quests[5726].detail:find('<name>',1,true),'Current lower-case Thrall name marker changed')
+  assert(A.quests[5730].detail:find('<class>',1,true),'Current lower-case Thrall class marker changed')
+  assert(not A.quests[79007].objective:find('Westfall',1,true) and not A.quests[79007].objective:find('Barrens',1,true),'Added unsourced destination to enigmatic note clue')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:49 current-English Hunter recipient/capital delivery/ritual/dungeon identity contracts, same-title referral alternatives, current player marker cases and unspoiled burned-note clue.')
+end

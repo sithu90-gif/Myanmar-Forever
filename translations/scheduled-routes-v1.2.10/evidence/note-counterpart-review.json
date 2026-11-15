@@ -1,0 +1,47 @@
+{
+  "result": "PASS",
+  "reviewedAtUTC": "2026-11-15T06:47:03.587591+00:00",
+  "reviewType": "Root same-title ID/faction and source-aware reread of existing Alliance79008, current English four states against preserved Myanmar",
+  "sameTitleIDs": [
+    {
+      "id": 79007,
+      "faction": "Horde",
+      "status": "new in1.2.10",
+      "currentEnglishSHA256": "c047aa16e8ff0063562204c7cf7de5840db1d326b9e57ce9ec83b87d836900cc"
+    },
+    {
+      "id": 79008,
+      "faction": "Alliance",
+      "status": "already translated in composed1.2.9; unchanged",
+      "currentEnglishSHA256": "7e9342b32a7c998d5f03ae3a1bfd339e33fc1868c0007a3b99e40837a9740518"
+    }
+  ],
+  "currentEnglishFieldsIdenticalAcrossIDs": true,
+  "currentEnglishFields": {
+    "title": "eaf4fac28c63aa842f3695de099035904d856a4d7370d2c5dcd7d917a1fd8f05",
+    "objective": "211126ba6b3831031d92e0a61131f153774fac193e81364f5192f4cf1b1ea334",
+    "progress": null,
+    "complete": "2a626a62c0e3674e9e266b3dd4eef0d23c90914840206efeb0f5f91fe9298071",
+    "detail": "3601bc7efab6779104e0b7eda79c0603d14f856cca743e556f61ef14512c2b30"
+  },
+  "existing79008MyanmarSHA256": {
+    "title": "efde959e5df98959940bc56392baf2e544e66c5a21321625cf2938baa84cd02c",
+    "detail": "f6b7e0f9a295e5bb1885586ef79d1c0ca6ab4a3d16764c3a439d75befe9e36db",
+    "objective": "373d52391e4f756954906f8e690baa1d3fa2cce2d0e25189bff0a0d9003daed3",
+    "progress": null,
+    "complete": "4cbb8f1e9c4eafdca89d9bb60c1e7e25502a5e85786d94ea312c18b7d5908c9d"
+  },
+  "reviewNotes": [
+    "Both current IDs have title/offer/objective/completion and no progress. UA and installed metadata distinguish Horde79007 from Alliance79008.",
+    "Existing79008 Myanmar retains fading embers, recent fire, scattered provisions, blistered note and the quoted twin-land/place mystery; no destination is added.",
+    "Objective retains charred note as only guide. Completion retains another charred corpse and message attached to wooden plank. No prior field correction is required.",
+    "The earlier screenshot title alone cannot distinguish same-title IDs and is not evidence that the new Horde record fixes a missing current Alliance translation. New79007 is supported independently by currentEnglish/installed/UA."
+  ],
+  "existingFieldsChanged": false,
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "currentEnglishURLs": [
+    "https://www.wowhead.com/forever/quest%3D79007/and-that-note-you-found",
+    "https://www.wowhead.com/forever/quest%3D79008/and-that-note-you-found"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "validatedAtUTC": "2026-11-15T06:48:24.530568+00:00",
+  "quests": 18,
+  "enabledFields": 83,
+  "availableSourceFields": 83,
+  "currentPrimaryFields": 83,
+  "heldFields": 0,
+  "unavailableFields": [
+    {
+      "id": 98391,
+      "field": "progress"
+    },
+    {
+      "id": 2519,
+      "field": "progress"
+    },
+    {
+      "id": 730,
+      "field": "progress"
+    },
+    {
+      "id": 6344,
+      "field": "progress"
+    },
+    {
+      "id": 79007,
+      "field": "progress"
+    },
+    {
+      "id": 2039,
+      "field": "progress"
+    },
+    {
+      "id": 2041,
+      "field": "progress"
+    }
+  ],
+  "reviewedGroups": [
+    [
+      98391,
+      2519,
+      2518,
+      2520,
+      730,
+      6344,
+      98067
+    ],
+    [
+      399,
+      97220,
+      97222,
+      97234,
+      97237,
+      79007
+    ],
+    [
+      2039,
+      2041,
+      96393,
+      96394,
+      96403
+    ]
+  ],
+  "linguisticLintIssues": [],
+  "buildReleaseValidateFields": "passed all18 quests/all90 field states: exact English/Myanmar review hashes, placeholder case/count, numeric multisets, encoding and null states",
+  "rawDeepLMappingValidation": "passed83 actual input/output/index/hash mappings in3 requests4688/4812/3485 input characters; no cloud glossary applied",
+  "sourceBoundaryValidation": "passed33 original HTML file hashes,18 primary reparses with current helper; headings and boundaries manually inspected",
+  "upstreamCountercheck": "All18 exact IDs/English titles and current field presence agree with pinned UA1.0.1. UA Both differs from current Alliance on2041/96393/96403;79007 is Horde counterpart to existing79008Alliance. Parent handles composed release countercheck.",
+  "writtenQuantities": "separate source-aware reread in written-quantity-review.json; numeric multisets passed",
+  "sameTitleDistinction": "79007 Horde versus existing79008Alliance; no changes to79008; screenshot title is insufficient to identify capturedID",
+  "independentAssistedReview": "not performed by worker; root assigns fresh independent reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "artifactSHA256": {
+    "edited.json": "f9aab662ea5fbb83f2ffc4bdf2401fc6caf83144202e21535f5e26678511dc32",
+    "english-sources.json": "6ee1a5e0e08be3239896395100b6d33ba07e1664a92165244953d08d92a1f834",
+    "pronunciations.json": "acdb7c60db518bc4184fbf8a0f712305ad5c4ece28913097a13a360b45060f95",
+    "pronunciation-proposals.json": "46400775eb743b19f193de7f6398c3fe158935ad20d837a23e9b9f02d7b1a105",
+    "annotation-exceptions.json": "a229a4f8de9a53e1cea9ccaef7988d270d98e38f6305c5f5dad68711c7abf1c9",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "held-proposals.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "review-audit.json": "a40c71e24d6d934f4d0cd5728724905a341113c5cdc7800bedd600ed982fff33",
+    "comparison-provenance.json": "6414e6e7eeaba39663163a74c9519dcd044fef268bbeb18186f645246c91d13b",
+    "review-groups.json": "420a196cb44d45193e9c03129bc5b34d1102bb327d7df3055814cf400c412657",
+    "source-review.json": "ea7ff27c19ce913a7f8260ad83d9f6fef27f3beea5915be22a26fe4c40742e32",
+    "source-boundaries.json": "91664d08252c3918d8db1fc4a8700ec7fa37631639bb3e0fd4dfe0d9c352af8f",
+    "written-quantity-review.json": "2671820c3947535525992f0ae3e6c50083cc7832d00ace28aa7da85896cb5657",
+    "reread-corrections.json": "e279514590f9822b1fe7740363a12fa70360f8be85247a7713049a515e1c485e",
+    "fetched.json": "c22e918ee17a6617ba2fcae3719fc09b5a762f19ce5e32264c8df3528e8fcc74",
+    "deepl-input-01.json": "09b6c9387184b63c3ac78f786fcb4939a309f952e0323223f07f46e256757636",
+    "deepl-raw-01.json": "36027510530722a458a8f2ab2d199a62be83cfe7c31f9acd107a0a6d5e73a7f1",
+    "deepl-input-02.json": "34c5af7990ecaf18efa21903938c1597da6430970036c6829610c2f346b40fe9",
+    "deepl-raw-02.json": "f4d64476d2c28a74dee446f0cfb7f596029a669b8d5d521599869e664bfc6b73",
+    "deepl-input-03.json": "be5939275755d6b4bdd2ff671773fecb79031b5f3410c257f33866f4ea6a6c66",
+    "deepl-raw-03.json": "18d69ba5c56922dab5f1828f235ea9097d194d77f1bcab7d87fff29948ec340d"
+  }
+}
