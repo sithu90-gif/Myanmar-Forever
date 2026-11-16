@@ -653,3 +653,89 @@ if A.quests[96628] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS:50 current-English camping supply/journal/recipient/buff/remote-profession contracts, source-absent progress and field-specific tailoring banner identities.')
 end
+
+if A.quests[97916] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({97916,97917,97918,97922,97923,97925,97903,97904,97905,97906,97907,97908,97277,384,1578,1618,6661,6662,97263,2178,4161,1581,1582,1579,1580,95065,97914,343,344,345,347,346,1359,1358,97891,480,516,442,95883,95884,95885,1489,1490,914,959,962,1486,1487,1491,866}) do
+    assert(A.quests[id] and A.quests[id].title,'16 November afternoon quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon early-route state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost questID/title')
+    end
+  end
+  for _,h in ipairs({}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'New held state lost original fallback/capture')
+  end
+  assert(EXPECTED_DISABLED_FIELDS['5639.detail'] and not A.quests[5639].detail,'Historical unsupported referral hold refilled')
+  assert(not A.quests[5728].detail and A.quests[5728].complete,'Historical gender offer hold refilled or valid completion lost')
+  titleOverride=nil;questID=0;fire('QUEST_FINISHED')
+  print('PASS:16NovemberAfternoon50 records across150 dialogue states, exactID same-title capture and preserved historical source holds.')
+end
+
+if A.quests[97916] then
+  local expected={
+    [97916]={"Smith Argus","Goldshire"},
+    [97917]={"Betty Quin","Stormwind"},
+    [97918]={"Sprite Jumpsprocket","Stormwind"},
+    [97922]={"Adele Fielder","Goldshire"},
+    [97923]={"Gelman Stonehand","Stormwind"},
+    [97925]={"Eldrin","Eastvale Logging Camp","Elwynn Forest"},
+    [97903]={"Rawrk","Razor Hill"},
+    [97904]={"Lau'Tiki","Sen'jin Village"},
+    [97905]={"Jandi","Orgrimmar"},
+    [97906]={"Karolek","Orgrimmar"},
+    [97907]={"Krunn","Razor Hill"},
+    [97908]={"Thuwd","Orgrimmar"},
+    [97277]={"Grund","Gozwin","Mechanic's Log","Snow Leopard Prowler"},
+    [384]={"Ragnar Thunderbrew","Kharanos","Crag Boar Ribs","Rhapsody Malt"},
+    [1578]={"Copper Axes","Copper Chain Belts","Thorvald","Loch Modan"},
+    [1618]={"Tormus Deepforge","Runed Copper Belts","Heavy Copper Mauls","Verner Osgood","Redridge"},
+    [6661]={"Deeprun Rat","Rat Catcher","Flute","Monty"},
+    [6662]={"Carton of Mystery Meat","Nipsy","Stormwind","Deeprun Tram"},
+    [97263]={"Eldrun"},
+    [2178]={"Strider Meat","Alanndarian Nightsong","Auberdine"},
+    [4161]={"Small Spider Leg","Zarrin","Dolanaar"},
+    [1581]={"Elixirs of Lion's Strength","Elixirs of Minor Defense","Syral Bladeleaf","Dolanaar"},
+    [1582]={"Embossed Leather Glove","Embossed Leather Boots","Embossed Leather Cloaks","Lotherias","Darnassus"},
+    [1579]={"Gaffer Jacks","Wizbang Cranktoggle","Auberdine"},
+    [1580]={"Electropellers","Wizbang Cranktoggle","Auberdine"},
+    [95065]={"Shiny Bauble","Nightcrawlers","Gilbert Gray","Stormwind"},
+    [97914]={"Thundris","Baros Alexston","Stormwind","Auberdine"},
+    [343]={"Royal Library","Stormwind Keep","Milton Sheaf","Brother Kristoff"},
+    [344]={"Brother Paxton","Northshire Abbey"},
+    [345]={"Foreman Oslow","Lakeshire","Rethban Iron Ore"},
+    [347]={"Rethban Ore","Brother Paxton","Northshire Library"},
+    [346]={"Brother Kristoff","Cathedral Square","Stresses of Iron"},
+    [1359]={"Wolf Heart Samples","Apothecary Zinge","Undercity"},
+    [1358]={"Wolf Heart Sample","Apothecary Helbrim","Barrens"},
+    [97891]={"Unstable Potion","Doctor Martin Felben","Apothecarium"},
+    [480]={"Dalaran","Shadow Priest Allister","Sepulcher"},
+    [516]={"Beren's Peril","Ravenclaw Drudgers","Ravenclaw Guardians","Shadow Priest Allister","Sepulcher"},
+    [442]={"Thule's Head","High Executor Hadrec","Sepulcher"},
+    [95883]={"Tortured Soul","Beren's Peril","Silverpine Forest"},
+    [95884]={"Offering Stone","Beren's Peril","Silverpine Forest"},
+    [95885]={"Tortured Soul","Offering Stone","Beren's Peril"},
+    [1489]={"Hamuul Runetotem"},
+    [1490]={"Nara Wildmane"},
+    [914]={"Cobrahn","Anacondra","Pythas","Serpentis","Nara Wildmane","Thunder Bluff"},
+    [959]={"Bigglefuzz","Ratchet","99-Year-Old Port","Mad Magglish","Wailing Caverns"},
+    [962]={"Apothecary Zamah","Thunder Bluff","Serpentbloom"},
+    [1486]={"Nalpak","Wailing Caverns","Deviate Hides"},
+    [1487]={"Ebru","Wailing Caverns","Deviate Ravagers","Deviate Vipers","Deviate Shamblers","Deviate Dreadfangs"},
+    [1491]={"Wailing Essence","Mebok Mizzyrix","Ratchet"},
+    [866]={"Root Samples","Mebok Mizzyrix","Ratchet"}}
+  for id,terms in pairs(expected) do
+    local objective=assert(A.quests[id].objective,'Afternoon supported objective missing: '..id):lower()
+    for _,term in ipairs(terms) do assert(objective:find(term:lower(),1,true),'Camping/craft/library/Silverpine/WailingCaverns objective identity failed: '..id..'/'..term) end
+  end
+  for _,id in ipairs({97918,97923,97925,97905,97906,97908,343,344,345,97891,95884,1489,1490}) do assert(not A.quests[id].progress,'Invented current-English-absent progress: '..id) end
+  assert(not A.quests[1358].objective:find('Wolf Heart Samples',1,true),'Singular sample step replaced by plural samples')
+  assert(A.quests[97925].detail:find('Faction Banner',1,true) and A.quests[97925].complete:find('Rallying Banner',1,true),'Field-specific tailoring source labels normalized')
+  for _,id in ipairs({343,344,345,347,346}) do assert(A.quests[id].title,'Library chain step missing') end
+  for _,id in ipairs({95883,95884,95885}) do assert(A.quests[id].objective,'Offering Stone stage missing') end
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:50 current-English camping trainer/crafting/library/dungeon contracts, singular/plural samples, thirteen absent progress boundaries and distinct OfferingStone stages.')
+end

@@ -1,0 +1,45 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-16T07:23:51.494825+00:00",
+  "version": "1.2.12",
+  "newQuestIDs": 50,
+  "newEnabledFields": 237,
+  "questIDs": 1486,
+  "enabledFields": 6831,
+  "sourceAndTranslationReview": "PASS; separate author bilingual rereads and three independent reports",
+  "rawDeepLFieldMappings": 237,
+  "pythonTests": 21,
+  "pythonSourceHashesReverified": true,
+  "luaRegressionGroups": 38,
+  "newDialogueRoutingCases": 150,
+  "literalCurrentEnglishIdentityContracts": 50,
+  "negativeContractCases": {
+    "result": "PASS",
+    "cases": [
+      {
+        "id": 1359,
+        "removed": "Apothecary Zinge",
+        "rejected": true
+      },
+      {
+        "id": 914,
+        "removed": "Cobrahn",
+        "rejected": true
+      }
+    ],
+    "actualTranslationMutated": false
+  },
+  "newHeldFields": 0,
+  "uniqueActiveHeldFields": 58,
+  "allPriorRecordsAndFieldSlotsUnchanged": true,
+  "fontAndCatalogValidation": "PASS",
+  "zip": {
+    "name": "MyanmarForever_v1.2.12.zip",
+    "bytes": 931672,
+    "sha256": "c0f7f0900ccfd4f28a49da9f49bdbba29367fc0d7f2034c81021b14454485f57"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested"
+}

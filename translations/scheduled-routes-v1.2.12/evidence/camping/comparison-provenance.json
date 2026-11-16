@@ -1,0 +1,931 @@
+{
+  "engine": "DeepL Free MY",
+  "glossary": "Root fresh check returned pro_required; no cloud glossary applied. Maintained pronunciation map applied editorially; new terms are assisted proposals pending native review.",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.2",
+    "commit": "6c4d08cdf1539e1d79d181e8acf6115fd45f8a73",
+    "checkedAt": "2026-11-16T06:30:53.920676+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.2",
+    "publishedAtUTC": "2026-11-16T04:38:17Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.2/UA_Forever-1.0.2.zip",
+    "assetSHA256": "c55b49bdc457987ae432570446da2ffc85fa0e1b94f08b44c5c3dbdfaf31ef3a",
+    "catalogSHA256": "e65527141b266d42f7bb2e71c2bcfbde4d3a045897a5d5a3e37036548a45f14f"
+  },
+  "batchFiles": [
+    {
+      "inputFile": "deepl-request-01.json",
+      "inputSHA256": "48e62d5e69ad266641878c88bfce8ccb074c2b430a5a4b185e3a4b7e6101ca2d",
+      "responseFile": "deepl-response-01.json",
+      "responseSHA256": "0ab666108ceee3159e3d85e011591a3f32e1a5357f816b1cacbc514b75fc2540",
+      "indexFile": "deepl-index-01.json",
+      "indexSHA256": "74d218f5d3b9141b4da3ff3b0db34323076c06e0da5449d2cd049b94a18dfce1",
+      "inputCharacters": 4492,
+      "fieldCount": 22,
+      "responseSerialization": "Original actual structuredContent values; duplicate transport text envelope omitted."
+    },
+    {
+      "inputFile": "deepl-request-02.json",
+      "inputSHA256": "a0266b6fa4e75dbc67088ae2acf5275b15296c0746e065757eef840af8459f42",
+      "responseFile": "deepl-response-02.json",
+      "responseSHA256": "8b1d77bf6d2403ecded1857f828a5f9bc5dbe24b0e3866b0fe843963c05f8a07",
+      "indexFile": "deepl-index-02.json",
+      "indexSHA256": "f4be2e2914d96853b1eb19ba7f2ed3ed045360536870d49310907f76f742b858",
+      "inputCharacters": 4624,
+      "fieldCount": 20,
+      "responseSerialization": "Original actual structuredContent values; duplicate transport text envelope omitted."
+    },
+    {
+      "inputFile": "deepl-request-03.json",
+      "inputSHA256": "c1e504444b7eca298e7be41d700938aeb7406027677e20497411d0fde0feaca8",
+      "responseFile": "deepl-response-03.json",
+      "responseSHA256": "e5be6560c1a55190fac3aefa8f4e511bb2c4c7f60adb4025b11767560ab7acb5",
+      "indexFile": "deepl-index-03.json",
+      "indexSHA256": "29769273c263ecf442fb157c9dbcfbd972d3acc475f1ee78d9db706dcc57cc9e",
+      "inputCharacters": 3079,
+      "fieldCount": 12,
+      "responseSerialization": "Original actual structuredContent values; duplicate transport text envelope omitted."
+    }
+  ],
+  "fields": {
+    "97916": {
+      "title": {
+        "englishSHA256": "a85f465047c82b9ddb930d46365751f7956c7c6f2d648302f22064c488ebc723",
+        "rawDeepLSHA256": "14ebf754306f1c269b24e26f693535a972df6c5c9d3c9f1ba3b774fddb06835c",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 0,
+        "responseTargetIndex": 0,
+        "responseIndex": 0,
+        "requestJSONPointer": "/text/0",
+        "responseJSONPointer": "/translations/0/translations/0/text",
+        "editedSHA256": "88ddfeaea26d2e99443b96a9dcd8f07130c15b415ad93ed2b0f6fb604d37b8ef",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "ddf44aa3a3434bfd86efde8e714dd625a376231d174f328d94369a96910d5129",
+        "rawDeepLSHA256": "22b027e09139ab75eee766b3941421bf1eb483bfdb5e9b462f8347d45f372103",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 1,
+        "responseTargetIndex": 0,
+        "responseIndex": 1,
+        "requestJSONPointer": "/text/1",
+        "responseJSONPointer": "/translations/0/translations/1/text",
+        "editedSHA256": "70ecdfcd382c6fcd72cee4b1d63b81ef4b12d8eb05bc984d41fbe2ae5c40678a",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "147893eabbb353c1eac11244bd2401f7204b7923bcb7fdb3bdc0d08f4d9925ee",
+        "rawDeepLSHA256": "a32d19395dbad41c8e772bce801f65d47320315b0759c93ef262336fe19e0f9a",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 2,
+        "responseTargetIndex": 0,
+        "responseIndex": 2,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "editedSHA256": "a1eee48e41598d3fe0c0a88e8ab02c99c291179cc2abece0adf8b490818d6275",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+        "rawDeepLSHA256": "404f882f2b39604d0f4f8430e87c9e0070217c046c2d728cac12a68e7b738d8f",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 3,
+        "responseTargetIndex": 0,
+        "responseIndex": 3,
+        "requestJSONPointer": "/text/3",
+        "responseJSONPointer": "/translations/0/translations/3/text",
+        "editedSHA256": "21181511f459735c95034b30d4a33fb399cab46d143b4b4ffa544b45a438b445",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "57010bdd2434e7de10baedf06967babfb1fa1ed38b15f67795781a412672af6c",
+        "rawDeepLSHA256": "f357919ebcbfea30f58e00693742752e7f059c3e5cdbab9c24ab26ce98b850fc",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 4,
+        "responseTargetIndex": 0,
+        "responseIndex": 4,
+        "requestJSONPointer": "/text/4",
+        "responseJSONPointer": "/translations/0/translations/4/text",
+        "editedSHA256": "8eca00b57de47a9d59d8cc0c0ed96d315ae08e2e4bb3a6566b9cc1262dead4de",
+        "status": "reviewed"
+      }
+    },
+    "97917": {
+      "title": {
+        "englishSHA256": "332b78d2ebf3fae3032be19cdb37ae60adde8866a01ab12fb32445df6e29ff93",
+        "rawDeepLSHA256": "33ac8b84dccd8750e50f679eda6cf0cf90d816ac306be7b3955e572712b4f12a",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 5,
+        "responseTargetIndex": 0,
+        "responseIndex": 5,
+        "requestJSONPointer": "/text/5",
+        "responseJSONPointer": "/translations/0/translations/5/text",
+        "editedSHA256": "9ef34a1149c3fa807772d1041acde0cd541a74585b90a75e58546c7b4e52f2c6",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "3e46fd7ec9072ee298840baf61cd571e610713f2afa44869b289ebc1b0d0279b",
+        "rawDeepLSHA256": "c84f7a1d1ac983cff5358bb7edd5212e8428b23dc595e65cf76c3af0c85a5231",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 6,
+        "responseTargetIndex": 0,
+        "responseIndex": 6,
+        "requestJSONPointer": "/text/6",
+        "responseJSONPointer": "/translations/0/translations/6/text",
+        "editedSHA256": "c451ee34f3ea022acbea95afe499944a3697bf54cb447583c57ecd6bf73bed66",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "dd68b1dbca58dc060f9de43b829ae9914247f958e658d11f6f21db637a802cd0",
+        "rawDeepLSHA256": "3be4d117ac717b5a72ca93d11b76958a358dcf80f0772799557d40cdbd639406",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 7,
+        "responseTargetIndex": 0,
+        "responseIndex": 7,
+        "requestJSONPointer": "/text/7",
+        "responseJSONPointer": "/translations/0/translations/7/text",
+        "editedSHA256": "f608b689fee31409d9d26504a31f8ad05f393a9c002c7920178b1b69f69ac6b0",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+        "rawDeepLSHA256": "18873972224f2ba0a551ae183cce0dec97eb89c5ba39b4d714c9cba99515c62c",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 8,
+        "responseTargetIndex": 0,
+        "responseIndex": 8,
+        "requestJSONPointer": "/text/8",
+        "responseJSONPointer": "/translations/0/translations/8/text",
+        "editedSHA256": "21181511f459735c95034b30d4a33fb399cab46d143b4b4ffa544b45a438b445",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "6d99504b6a5397bf3147f8fce6d1e230789d3e70b00ca3db52c2a20faf26bada",
+        "rawDeepLSHA256": "0579281208c4187acb9948fcd6b222c44a9786aff583001e20a7f5ad5aa42a9d",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 9,
+        "responseTargetIndex": 0,
+        "responseIndex": 9,
+        "requestJSONPointer": "/text/9",
+        "responseJSONPointer": "/translations/0/translations/9/text",
+        "editedSHA256": "4816db25fbd208ce285addbe278d2ae498b9adc91e5e3ae69645a1e3bf0abbcc",
+        "status": "reviewed"
+      }
+    },
+    "97918": {
+      "title": {
+        "englishSHA256": "adf0ca99d09a53c49d7399fbb454b9ead7a533c7fcb511e6c16f7b046ded08c9",
+        "rawDeepLSHA256": "f5c226f5c702f39f8e3b2a054a39abd9c3e7c8fcd466071b8511cf9da56d986a",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 10,
+        "responseTargetIndex": 0,
+        "responseIndex": 10,
+        "requestJSONPointer": "/text/10",
+        "responseJSONPointer": "/translations/0/translations/10/text",
+        "editedSHA256": "a9af207a12a1030cb2f9152f4fb5d2b75759ffe6a6a53786533e71626623d8d7",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "c4d66c0b4e897df43a9d072f9d980277fdd40b89b7d46284ed6e5651e4693a9f",
+        "rawDeepLSHA256": "75b9f730514727c98e98e9edad855a9795f70d017ef172087274e0d71c27cd41",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 11,
+        "responseTargetIndex": 0,
+        "responseIndex": 11,
+        "requestJSONPointer": "/text/11",
+        "responseJSONPointer": "/translations/0/translations/11/text",
+        "editedSHA256": "929c04b5e47f0497d1f06f454570dc0747833e2d858daa4a13f31bdcf5d93854",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "97786d90b56b30ca31587b4c7f6ab2150cd9881abb72bee9419e2996aa9b114c",
+        "rawDeepLSHA256": "4b6735cd48d8603dcf02caa507259a299960462e4b5c206318414b0423ba8fe5",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 12,
+        "responseTargetIndex": 0,
+        "responseIndex": 12,
+        "requestJSONPointer": "/text/12",
+        "responseJSONPointer": "/translations/0/translations/12/text",
+        "editedSHA256": "01c9a06090fdbbe169968c2a29959367187244a73ab8dbcb2fdc7a7afbe8b1dc",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "dce34fda3bc506cb8207aa0f5d1f496baed071e8537e1fdac2c8b75a4c364145",
+        "rawDeepLSHA256": "3516cb8c7f8608b480ff1b63aac251188408903f08dc4316267837ec92128970",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 13,
+        "responseTargetIndex": 0,
+        "responseIndex": 13,
+        "requestJSONPointer": "/text/13",
+        "responseJSONPointer": "/translations/0/translations/13/text",
+        "editedSHA256": "1e42355ac2feb0287e2995de1462ab5c1a2dd762d83fb82561e933cdd6417a94",
+        "status": "reviewed"
+      }
+    },
+    "97922": {
+      "title": {
+        "englishSHA256": "9f712978bac3e5de3b940a1e9c37567749226def90146c8588b0234bf3f85775",
+        "rawDeepLSHA256": "7fef30c6576cc0412f7ca432776acdcdda54a9248267cff6cb89f9c3387f25ab",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 14,
+        "responseTargetIndex": 0,
+        "responseIndex": 14,
+        "requestJSONPointer": "/text/14",
+        "responseJSONPointer": "/translations/0/translations/14/text",
+        "editedSHA256": "326a80f7c6cde896ac5279b8ec60f66be60806d486aaef9d34dabdc546d9c228",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "b74bc56e1071acf121fab0e5c919ec7bd72306b695fa964a7f58ae3397e79d6b",
+        "rawDeepLSHA256": "610d0b8edeb4b49354aa88e6381ea72fa29cf4de2f147e1b423e3e4a1633fad1",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 15,
+        "responseTargetIndex": 0,
+        "responseIndex": 15,
+        "requestJSONPointer": "/text/15",
+        "responseJSONPointer": "/translations/0/translations/15/text",
+        "editedSHA256": "02959cfd162b6c09c130a14337f2162c7c22b0525ef1c48ed61d58422050f07e",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "e8d1b22a23bb0ac93a07d280f5be3824d8622d6990dfd40ef203936427fb6f3a",
+        "rawDeepLSHA256": "259c42ea46774102f4feedf3da6df09aee4c739b32c55c51f459c20f8c431976",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 16,
+        "responseTargetIndex": 0,
+        "responseIndex": 16,
+        "requestJSONPointer": "/text/16",
+        "responseJSONPointer": "/translations/0/translations/16/text",
+        "editedSHA256": "dcd6dc978d367c5544ed60095ae2a861393e67dcb02c0672a1dc6c6ea4f79f1d",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "a30043e0d1efeade80eb35d6f08217fcdeca46af4bab10645e044bbd28f6127a",
+        "rawDeepLSHA256": "ca90b7a5638495cbcbe92ebc864800e1a6fcff0c574fde8e47888ea144890876",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 17,
+        "responseTargetIndex": 0,
+        "responseIndex": 17,
+        "requestJSONPointer": "/text/17",
+        "responseJSONPointer": "/translations/0/translations/17/text",
+        "editedSHA256": "21181511f459735c95034b30d4a33fb399cab46d143b4b4ffa544b45a438b445",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "87b5471a4549b7b94483fdaf880e98705d63c36b7a065b00a81355f3ad81bf6f",
+        "rawDeepLSHA256": "3b91a37a53a1972935498dd643ae8bb1a74dd78d863b285225fbd0be276a74ea",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 18,
+        "responseTargetIndex": 0,
+        "responseIndex": 18,
+        "requestJSONPointer": "/text/18",
+        "responseJSONPointer": "/translations/0/translations/18/text",
+        "editedSHA256": "a64ab5e26f1676a4df50c0757e183e72f71ef4f4feb6b53cf67af73df91eae48",
+        "status": "reviewed"
+      }
+    },
+    "97923": {
+      "title": {
+        "englishSHA256": "d2deb7356c1f031c29f998e53b5934544c5b2b8812c873fc3113382654168c27",
+        "rawDeepLSHA256": "560ed93b9bb62c3eeedcd1b521ceac7b2111198f25a77d87f9b0aa9dada40caa",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 19,
+        "responseTargetIndex": 0,
+        "responseIndex": 19,
+        "requestJSONPointer": "/text/19",
+        "responseJSONPointer": "/translations/0/translations/19/text",
+        "editedSHA256": "c82093a12bd07beeaf2aaec5c25450938c921ffefebc8274d6a1ff01f39a1595",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "b202c999cbd66d926ffd877d0590b1e457f7fb137a18614203ed9b0238036885",
+        "rawDeepLSHA256": "a1c72341ccb95690523bd8ebe0132a178f2d3a284dd2b8142b9da6e58ebf4efa",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 20,
+        "responseTargetIndex": 0,
+        "responseIndex": 20,
+        "requestJSONPointer": "/text/20",
+        "responseJSONPointer": "/translations/0/translations/20/text",
+        "editedSHA256": "d2bef42a8ef3e5d5fa6b84e2c966994397c5fba5eb99ef51095ba070b0494b64",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "5b38d8e4dce318a1f42c19b3977539d2478fb9c31bed6af3e1d8724b2599deb4",
+        "rawDeepLSHA256": "1ca8df82f08389501e3f56b3453641087f973370d4b6263dae08ab35be87ff9c",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 21,
+        "responseTargetIndex": 0,
+        "responseIndex": 21,
+        "requestJSONPointer": "/text/21",
+        "responseJSONPointer": "/translations/0/translations/21/text",
+        "editedSHA256": "0b8a3a461e9008502bd3ffd592bb36968cd7f47247d380f1da0e200b0b357348",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "ee7e963a029105fd7aab3cec7508f55068c83a3bbf6bd8693226fc017bcad7f7",
+        "rawDeepLSHA256": "ec41651282260ed3e3c67acbf8b01e7190555f3d1e8e4c754b3d7e3992a315eb",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 0,
+        "responseTargetIndex": 0,
+        "responseIndex": 0,
+        "requestJSONPointer": "/text/0",
+        "responseJSONPointer": "/translations/0/translations/0/text",
+        "editedSHA256": "637750c32f127d1acd949cdb2813e2c5a8dc10e69861e51d111736d91087e916",
+        "status": "reviewed"
+      }
+    },
+    "97925": {
+      "title": {
+        "englishSHA256": "8425c22c72c9d93802a11d558013f392113c32031bc5b382cfa29e998c256fef",
+        "rawDeepLSHA256": "9f8c32c784b2019d50856994b9fa3cae103b0bcba8d516967b2e2ce5ddc7bb65",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 1,
+        "responseTargetIndex": 0,
+        "responseIndex": 1,
+        "requestJSONPointer": "/text/1",
+        "responseJSONPointer": "/translations/0/translations/1/text",
+        "editedSHA256": "33fbeafce02ca5c72a5ffb1d8871621f45cc4a290fc0766c7046f882cac1db67",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "685d2d7703052bc255b19ef5aa968f35ab6136f3da03371767bdc66e98d238fc",
+        "rawDeepLSHA256": "8e9151245dd2c8604fd25a5b3122f84519ba80a0b85276c15d489db2aed43b49",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 2,
+        "responseTargetIndex": 0,
+        "responseIndex": 2,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "editedSHA256": "dd4dbf7303ee18118ac817c22f7dfb8fa12f8061fea178c7ac4af45c99390cc4",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "145fe9732e2af01c937c223bc509babec2efafd167e27b371cc085209ba65bb2",
+        "rawDeepLSHA256": "ee5a258c957b25565cb3223d1341993b58b56e6354a89ba5e0f0acb57d29b82a",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 3,
+        "responseTargetIndex": 0,
+        "responseIndex": 3,
+        "requestJSONPointer": "/text/3",
+        "responseJSONPointer": "/translations/0/translations/3/text",
+        "editedSHA256": "cc500c4bece475a7aae9a67eaa7fd35039ec4f7fad0c389b864af940e392740e",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "2c1c577355d13fed7dee55b7248135e0140a79c8e48fd8fc9bf8c6139d267115",
+        "rawDeepLSHA256": "a753b20399c828d97bb31a0a7819cc33c2cd38be3271a9b679cefaefbd691d15",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 4,
+        "responseTargetIndex": 0,
+        "responseIndex": 4,
+        "requestJSONPointer": "/text/4",
+        "responseJSONPointer": "/translations/0/translations/4/text",
+        "editedSHA256": "8763f943b67422828ae6ed16db29dc793b4adc652b23f46ddd3d105cbc7cd8ec",
+        "status": "reviewed"
+      }
+    },
+    "97903": {
+      "title": {
+        "englishSHA256": "240b7f4d286e5f54dde814a1d8040438ca0f740326648667c95fb975a0488d37",
+        "rawDeepLSHA256": "0fc6bc2a70742e29e12c6be6ab2dcdbe5ad33b1c08277498eb4ef3e68a8233ca",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 5,
+        "responseTargetIndex": 0,
+        "responseIndex": 5,
+        "requestJSONPointer": "/text/5",
+        "responseJSONPointer": "/translations/0/translations/5/text",
+        "editedSHA256": "607ff3b92a991b3d017a833eabe8a35a05c32a619519192055418272cf7ccb8e",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "b000be442de949b163129ec5739777cd70cc84dfdca6a751294cbba936e98b3a",
+        "rawDeepLSHA256": "e6d6f15143505c105effe8e6b50d9a2e8c7076d6978ef9b7f85a6448786b3dd5",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 6,
+        "responseTargetIndex": 0,
+        "responseIndex": 6,
+        "requestJSONPointer": "/text/6",
+        "responseJSONPointer": "/translations/0/translations/6/text",
+        "editedSHA256": "5fa37ff6a83ab9071cb6eda2c5f2082fbf2430feca5e65a44f1aa99d6d205bcd",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "11e037e8c67627bbb39b40880202362489185708c3466196f56b1e50f2356174",
+        "rawDeepLSHA256": "1e08235cdfe850a04f5d50864bfc9e22e048ba387eb98b60d80bce1be6285c15",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 7,
+        "responseTargetIndex": 0,
+        "responseIndex": 7,
+        "requestJSONPointer": "/text/7",
+        "responseJSONPointer": "/translations/0/translations/7/text",
+        "editedSHA256": "9799bd313fdc197c9dc1fb816bb0b5c7a08820f72d881ebd5f5f9e618b80b9eb",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "d8fdada3521fc485033f1b319f430b2c18dcbc6eaebd0f93ef8518392d42d019",
+        "rawDeepLSHA256": "a88916c46313e9323442d427de61217fa8d2812df40b54075c94bb4de3b09ba8",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 8,
+        "responseTargetIndex": 0,
+        "responseIndex": 8,
+        "requestJSONPointer": "/text/8",
+        "responseJSONPointer": "/translations/0/translations/8/text",
+        "editedSHA256": "28f5d09ed1c65a017e605a5ca84ebc05731d59a364b426722df0a8a3f9487089",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "d3274857fbb6814292a7e8c196335f6a26a0b980301e5a233a91c59e734f0e7a",
+        "rawDeepLSHA256": "d9a018de2620cd7df9d6abcdbc6547e843f6a1bc48c7f30ed2d1097433db7f97",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 9,
+        "responseTargetIndex": 0,
+        "responseIndex": 9,
+        "requestJSONPointer": "/text/9",
+        "responseJSONPointer": "/translations/0/translations/9/text",
+        "editedSHA256": "67d4b8406321d66ae1e195ce1a7f7170a82d27f8ca92ba1a6f243c94c6957ffc",
+        "status": "reviewed"
+      }
+    },
+    "97904": {
+      "title": {
+        "englishSHA256": "f6f602d61be630c3d98d3b8350d04e65422f2ac4e2125943aa008a1050930923",
+        "rawDeepLSHA256": "9d00fd8d1be41017d5a026431ca5d45877f11cf6f1ab4fdac60d4559b4aaf9e4",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 10,
+        "responseTargetIndex": 0,
+        "responseIndex": 10,
+        "requestJSONPointer": "/text/10",
+        "responseJSONPointer": "/translations/0/translations/10/text",
+        "editedSHA256": "45e6f665e879da7e13e8505dbe4d72eda4e90a52aab699bfec39ed79c4423898",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "215076866014b003a86d665b965512006eeeadae801452a98cbb293dd61b6c1d",
+        "rawDeepLSHA256": "1456cbf3650198ccbd6a4b60684bd85112b53fc2b40453fa0743fd53033096eb",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 11,
+        "responseTargetIndex": 0,
+        "responseIndex": 11,
+        "requestJSONPointer": "/text/11",
+        "responseJSONPointer": "/translations/0/translations/11/text",
+        "editedSHA256": "cb0a777cf44f297731194e51321f946c124f29cf1aba2f637f12b3bda8e93e18",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "22dbb41fe0f47d013aa418a5886b9c3661e9eff140a0f16fb4da1bddf84fcc53",
+        "rawDeepLSHA256": "86d1679781ce0afbab772c463109bcc0532af4c8852ad0721f8002e4750ba42d",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 12,
+        "responseTargetIndex": 0,
+        "responseIndex": 12,
+        "requestJSONPointer": "/text/12",
+        "responseJSONPointer": "/translations/0/translations/12/text",
+        "editedSHA256": "8e43a10e81484c1f125d22474ada851c080bcc65988158746eb1ea621aeb48bd",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "b6f137ad8f8864f1bdf9aa7f25493ab623cbaf01d7b2369f46f52eb40f4a6459",
+        "rawDeepLSHA256": "2dacfb2af2039238178ebeadbba621af163a720b89c11635fb7ca3a807dbda9e",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 13,
+        "responseTargetIndex": 0,
+        "responseIndex": 13,
+        "requestJSONPointer": "/text/13",
+        "responseJSONPointer": "/translations/0/translations/13/text",
+        "editedSHA256": "0733e8fcbf8fe366641107145aa72cd8e7fef8e8fbf237abf5c311a8a14c3bf0",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "70df5ff4665f286a91376d145bbad02c62e7df734fc3b6de0c3df6a98f67555b",
+        "rawDeepLSHA256": "16c17dfce183769fe80955b6ebe61d2855fc5aa21b8e9e4bc50f21cb35110e52",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 14,
+        "responseTargetIndex": 0,
+        "responseIndex": 14,
+        "requestJSONPointer": "/text/14",
+        "responseJSONPointer": "/translations/0/translations/14/text",
+        "editedSHA256": "377c5450cdae6365afe59d608816a3294f217ca0698d2c0917feefb4ee220280",
+        "status": "reviewed"
+      }
+    },
+    "97905": {
+      "title": {
+        "englishSHA256": "b3b123ca3ba8041bf333484501d1377d6824738c34b3584588376f71fa25aae0",
+        "rawDeepLSHA256": "065af0ebba91b6a6f579a179c614a35e45dc0933c36e2bd062ead0e38f23c250",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 15,
+        "responseTargetIndex": 0,
+        "responseIndex": 15,
+        "requestJSONPointer": "/text/15",
+        "responseJSONPointer": "/translations/0/translations/15/text",
+        "editedSHA256": "78579cd70992dda382bb15c552b70eb6055e653d3bd96895191cdff6e89bcc93",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "7714279cf449fb6ce779e1c42a4b4efe036b3ac22817114930a7c4adda500ef9",
+        "rawDeepLSHA256": "919daa2cbde685a0a7f56bd1cf99e7d87edd0084cdcd1477807cbf40bfa933c8",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 16,
+        "responseTargetIndex": 0,
+        "responseIndex": 16,
+        "requestJSONPointer": "/text/16",
+        "responseJSONPointer": "/translations/0/translations/16/text",
+        "editedSHA256": "9a6637b67b18e29f45ef489e2ca4cefe4fb2b8c8d78862cb798b648bb98961dd",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "ce55aa75b1ddb21fa50bc2c7bd003fd316422c576c6e47d610d64993712c7048",
+        "rawDeepLSHA256": "a360e294d14f17a876604afc7264a8705c7253bd87b6462c673dbadd2c6461ac",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 17,
+        "responseTargetIndex": 0,
+        "responseIndex": 17,
+        "requestJSONPointer": "/text/17",
+        "responseJSONPointer": "/translations/0/translations/17/text",
+        "editedSHA256": "0c465107472e75b4cc4f57b13027efc8dcc31ea2fd73cd4209c10e6aae8fcba6",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "43e25ab0e140173a3e7f68b2562e293e1b65dcfa1744ba7518ca78f2108f45f1",
+        "rawDeepLSHA256": "d8604ec6ebbc01e6cf4c145803b70b1f125f2a4627f44e0d6602089f1a5b781a",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 18,
+        "responseTargetIndex": 0,
+        "responseIndex": 18,
+        "requestJSONPointer": "/text/18",
+        "responseJSONPointer": "/translations/0/translations/18/text",
+        "editedSHA256": "8e46c7f664d1aa1432333869fa4334d6fb1c1d2191db3d8632cbae3be62a60e1",
+        "status": "reviewed"
+      }
+    },
+    "97906": {
+      "title": {
+        "englishSHA256": "9f712978bac3e5de3b940a1e9c37567749226def90146c8588b0234bf3f85775",
+        "rawDeepLSHA256": "8379ee1c4efa88f41f2b63fb34685a6c6c3e5d009ea2b7088092bf18e3425af7",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 19,
+        "responseTargetIndex": 0,
+        "responseIndex": 19,
+        "requestJSONPointer": "/text/19",
+        "responseJSONPointer": "/translations/0/translations/19/text",
+        "editedSHA256": "326a80f7c6cde896ac5279b8ec60f66be60806d486aaef9d34dabdc546d9c228",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "b74bc56e1071acf121fab0e5c919ec7bd72306b695fa964a7f58ae3397e79d6b",
+        "rawDeepLSHA256": "610d0b8edeb4b49354aa88e6381ea72fa29cf4de2f147e1b423e3e4a1633fad1",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 0,
+        "responseTargetIndex": 0,
+        "responseIndex": 0,
+        "requestJSONPointer": "/text/0",
+        "responseJSONPointer": "/translations/0/translations/0/text",
+        "editedSHA256": "02959cfd162b6c09c130a14337f2162c7c22b0525ef1c48ed61d58422050f07e",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "5cf8ba3c236dd6b5b59d96064334d07e92600394e426d56cbf77684c1a16ff1d",
+        "rawDeepLSHA256": "c806cc5279177749705fe7ad0f37b53825d26ec126ffeae684788c1ed89dc1f3",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 1,
+        "responseTargetIndex": 0,
+        "responseIndex": 1,
+        "requestJSONPointer": "/text/1",
+        "responseJSONPointer": "/translations/0/translations/1/text",
+        "editedSHA256": "13d6a6ad3be5d1a9f5b0597f98d398e5edd6a5becb23a8bafca53ba8dda76946",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "87b5471a4549b7b94483fdaf880e98705d63c36b7a065b00a81355f3ad81bf6f",
+        "rawDeepLSHA256": "4c3fe1e6bd0c400a80c5411d15bcb4333d73ba7f63aecaecf853f497656701c2",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 2,
+        "responseTargetIndex": 0,
+        "responseIndex": 2,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "editedSHA256": "a64ab5e26f1676a4df50c0757e183e72f71ef4f4feb6b53cf67af73df91eae48",
+        "status": "reviewed"
+      }
+    },
+    "97907": {
+      "title": {
+        "englishSHA256": "d2deb7356c1f031c29f998e53b5934544c5b2b8812c873fc3113382654168c27",
+        "rawDeepLSHA256": "560ed93b9bb62c3eeedcd1b521ceac7b2111198f25a77d87f9b0aa9dada40caa",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 3,
+        "responseTargetIndex": 0,
+        "responseIndex": 3,
+        "requestJSONPointer": "/text/3",
+        "responseJSONPointer": "/translations/0/translations/3/text",
+        "editedSHA256": "c82093a12bd07beeaf2aaec5c25450938c921ffefebc8274d6a1ff01f39a1595",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "b202c999cbd66d926ffd877d0590b1e457f7fb137a18614203ed9b0238036885",
+        "rawDeepLSHA256": "96ddc68766e39d7378a946727f9cc66655771aa2ecaeb500d488813b1264e71c",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 4,
+        "responseTargetIndex": 0,
+        "responseIndex": 4,
+        "requestJSONPointer": "/text/4",
+        "responseJSONPointer": "/translations/0/translations/4/text",
+        "editedSHA256": "d2bef42a8ef3e5d5fa6b84e2c966994397c5fba5eb99ef51095ba070b0494b64",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "183ef7c24f1b0f20e729e996a335673c4ff6603b63c6d9a3e8b00301c83838a2",
+        "rawDeepLSHA256": "71473b82cd5a0cdbbe9c5b57d24bd0f35da48fd3ad563cc3e14bc53660701bae",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 5,
+        "responseTargetIndex": 0,
+        "responseIndex": 5,
+        "requestJSONPointer": "/text/5",
+        "responseJSONPointer": "/translations/0/translations/5/text",
+        "editedSHA256": "b3bb30e79921ccc3b003cd7eac0d667ee1d31f05da7eb2bd87a0839ecb96985e",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "0f2e165e2994860aa52ed7d8be2306b8a25c7066966ab8b37e5e865f55abd59d",
+        "rawDeepLSHA256": "5c34a72217db566a5bf1c85be973e88dee5694a5000cc7c2c787b9f313468375",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 6,
+        "responseTargetIndex": 0,
+        "responseIndex": 6,
+        "requestJSONPointer": "/text/6",
+        "responseJSONPointer": "/translations/0/translations/6/text",
+        "editedSHA256": "ef54ab12cb7cea2a661f2632e24e8f75ddebff6ea98146721371e135363425b2",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "ee7e963a029105fd7aab3cec7508f55068c83a3bbf6bd8693226fc017bcad7f7",
+        "rawDeepLSHA256": "47b57747b58f684521656bb0c9b04790afdc48a13e0b5bc5adac07bab19b011a",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 7,
+        "responseTargetIndex": 0,
+        "responseIndex": 7,
+        "requestJSONPointer": "/text/7",
+        "responseJSONPointer": "/translations/0/translations/7/text",
+        "editedSHA256": "637750c32f127d1acd949cdb2813e2c5a8dc10e69861e51d111736d91087e916",
+        "status": "reviewed"
+      }
+    },
+    "97908": {
+      "title": {
+        "englishSHA256": "aea6f74fbdc47d42309178dada60c433e589678c3a0a77862fe75500d83de0ec",
+        "rawDeepLSHA256": "cf7be4bf558b624ad81514a2b567a397575c8f6db454bfe7ab7fe1d7f8925a9b",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 8,
+        "responseTargetIndex": 0,
+        "responseIndex": 8,
+        "requestJSONPointer": "/text/8",
+        "responseJSONPointer": "/translations/0/translations/8/text",
+        "editedSHA256": "bbd4c8111608fa729fd706915b77b0a621980fc118e8fa3df4fe5e1abdc87988",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "432e499c7a38f258f771fb407dc382715402defc7beac8cf7ca4255888b9a22e",
+        "rawDeepLSHA256": "7aac5303f1d713cabd614f189dd3c1a99703ad029d6456a1644ef4b24ec25675",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 9,
+        "responseTargetIndex": 0,
+        "responseIndex": 9,
+        "requestJSONPointer": "/text/9",
+        "responseJSONPointer": "/translations/0/translations/9/text",
+        "editedSHA256": "09dcdc1cf3fa7ee99f10d3919a2f7cf297e1c8090dcba6aead2122cc336ce89d",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "20ac740a93f5d4783f785c3e7528aeedbe6e003eb511b6337377ca827922d733",
+        "rawDeepLSHA256": "2daf249c19a6194dd66f3beeba9b63325eb41fec0bf0f5e746c93b7b2648492c",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 10,
+        "responseTargetIndex": 0,
+        "responseIndex": 10,
+        "requestJSONPointer": "/text/10",
+        "responseJSONPointer": "/translations/0/translations/10/text",
+        "editedSHA256": "02cd000463be9cca3e06be16cd31ed0f62e131d64d5019d2f07fab107b34fc70",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "rawDeepLSHA256": null,
+        "editedSHA256": null,
+        "status": "unavailable"
+      },
+      "complete": {
+        "englishSHA256": "85b7966da60ac1166318d7c59d4efd3a575d67bd0d673355bb1c740ac5fb10af",
+        "rawDeepLSHA256": "8b43d21f3980e46bc915982d1dbdbab61c30833d604335b049f2a2da2252501c",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 11,
+        "responseTargetIndex": 0,
+        "responseIndex": 11,
+        "requestJSONPointer": "/text/11",
+        "responseJSONPointer": "/translations/0/translations/11/text",
+        "editedSHA256": "d7fa48cc114d602ff9c8be8347945ac3ff22c4e802a7789332b896946e435169",
+        "status": "reviewed"
+      }
+    }
+  },
+  "sourceAvailableFields": 54,
+  "completedRawProvenanceFields": 54,
+  "completedEditedFields": 54,
+  "editorialReuseEvidence": {
+    "file": "editorial-reuse.json",
+    "sha256": "8edc52b8a88b57120dec82bf0d34088909aa64bb2ab0ca5d084ae33feb68f277",
+    "note": "Current actual DeepL inputs/outputs exist independently for all54available fields; prior exact-English states helped maintain reviewed phrasing and were separately reread in each currentgroup."
+  },
+  "sourceEvidenceFiles": {
+    "97916": {
+      "sixty": "b3f6014b4c00cd76004d7c693fea2b584f0eb27dcdff5b71dc73470e6cb1d766",
+      "wowhead": "9837be1b8ed07c48b85980f3a444a24c250f82ebd51753663c6efc48c60728c4"
+    },
+    "97917": {
+      "sixty": "469049eeb0eda1e8d860a35e5a01f0dc4721bcf4d64b17aabd301d178c9bc951",
+      "wowhead": "dd4851469ce14e0a14a0ea69bb102fd02219e8acc370c11eec2cd23f2945a484"
+    },
+    "97918": {
+      "sixty": null,
+      "wowhead": "f257a6221c0abca174ad1818c0b2d137253aebb5db653d5af139625e6a98e714"
+    },
+    "97922": {
+      "sixty": "c15caf71e7999326ef1380e583e4a6a8971b4dd6252203f873838621d5c5a809",
+      "wowhead": "c1058b49e3bf83622706828738cfffe4b205cf7e23f930b7c41447503e8cd94b"
+    },
+    "97923": {
+      "sixty": "189a5dfd7cb3e391c21811d1edf7d800a8c3c90de0d4da50891df061a3192cc7",
+      "wowhead": "e2e3515cad56b7b3ff0877069011564d36a5d42a54efc2f1d069407ad25d3726"
+    },
+    "97925": {
+      "sixty": "f5f0eba9ab7e11e5d9b964b66a4ce11c085319781e187774277036e37bca7fc3",
+      "wowhead": "cb865db7d470ad5e5532ea6a40bcad22055c9ae0bcf4b53431cfe7aa126142bb"
+    },
+    "97903": {
+      "sixty": null,
+      "wowhead": "2c36c3f782664587dcc6369ae3fb947194732043c9b991d6ea9f4bc560b068dd"
+    },
+    "97904": {
+      "sixty": "36a39367765cc62026c34ae903e00fc8e1d2fb8a5c935cbb486a172ebb7baeca",
+      "wowhead": "a17c920bc6cf59a98ce7fcb91e42a9b3d94f63cac8ec152c7969006999c210ce"
+    },
+    "97905": {
+      "sixty": "58ec407cb7a5583ebb9b8c013fb817e07e661b14c393a4dcdcbd5dcba9a158a9",
+      "wowhead": "1b054454c202e1c0e81f21a687c0fb48dba439587d9044ca4e9ae0291a35a5ff"
+    },
+    "97906": {
+      "sixty": "bb794daa61b13d43c3850c3a832f98299fbf1f9d1fcdd413066e3f70f40c9509",
+      "wowhead": "e8d6419569255958ef0062ec5f05ae357feae2dee38afebba303f374c2a4357c"
+    },
+    "97907": {
+      "sixty": "8f513d8e4b0a36fe53b71de0cab3f0e07de8b73010bf0132667c68336775f381",
+      "wowhead": "dc7dad42515b21174d5759b6e14ff17e1339e1593ddde07cbb17321340c93ff6"
+    },
+    "97908": {
+      "sixty": "bb48aef61a740f39309ec51a6bb755d3572375fecc11d9df16cbfb20eec682e6",
+      "wowhead": "586afb0d77fc957cf4100c6371474f37c3b07a66beace91f02ccc683bf9dc675"
+    }
+  },
+  "maintainedPronunciationsSHA256": "e95f48c15f821953b5dcbd75b6577d5ba495186581a484f784afef199d994286",
+  "newPronunciations": {
+    "file": "proposed-pronunciations.json",
+    "status": "10 assisted proposals; native review pending"
+  }
+}

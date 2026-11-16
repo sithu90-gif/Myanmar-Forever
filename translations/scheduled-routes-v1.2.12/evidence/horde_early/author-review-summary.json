@@ -1,0 +1,95 @@
+{
+  "partition": "horde_early",
+  "questIDs": [
+    1359,
+    1358,
+    97891,
+    480,
+    516,
+    442,
+    95883,
+    95884,
+    95885,
+    1489,
+    1490,
+    914,
+    959,
+    962,
+    1486,
+    1487,
+    1491,
+    866
+  ],
+  "quests": 18,
+  "enabledFields": 86,
+  "fieldCounts": {
+    "title": 18,
+    "detail": 18,
+    "objective": 18,
+    "progress": 14,
+    "complete": 18
+  },
+  "groups": [
+    {
+      "group": 1,
+      "quests": 9,
+      "enabledFields": 43,
+      "route": "Undercity samples and timed potion; Silverpine assaults and Offering Stone phases"
+    },
+    {
+      "group": 2,
+      "quests": 9,
+      "enabledFields": 43,
+      "route": "Hamuul/Nara/Fang chain; Wailing Caverns and Ratchet collection/eradication quests"
+    }
+  ],
+  "sourceIssuesResolved": [
+    "1359 plural Wolf Heart Samples item10283 to Zinge versus1358 singular Wolf Heart Sample item6016 to Helbrim.",
+    "Primary lowercase<name> markers control secondary capitalized<Name> on442/914/962/1487.",
+    "1490 completion includes crimes as well as plans;1491 detail includes the current full speculative-cause/drink-trial paragraph absent in UA.",
+    "97891 and95885 original objective boundaries exclude Provided item site UI included by UA.",
+    "Offering phases distinguish collection item271350, starting note271343, stone object645153 and use-phase provided item210713."
+  ],
+  "meaningChecks": [
+    "6 Ravenclaw Drudgers and6 Ravenclaw Guardians, Thule head/staff recipients, four distinct gem owners and seven EACH of four Deviate target types.",
+    "Potion time limit without invented duration, last SIX failed potions, one bottle99-Year-Old Port,10 blooms,20 hides,6 essence portions and8 root samples.",
+    "Unknown/spotty intelligence, may/perhaps/apparently/if conditions, directions, voice, stage brackets and all paragraph breaks retained."
+  ],
+  "deepL": {
+    "engine": "DeepL Free MY",
+    "requests": 3,
+    "availableEnglishFields": 86,
+    "actualTranslatedFields": 86,
+    "maxRequestCharacters": 4698,
+    "glossary": "Fresh parent check Free Pro_required; none applied."
+  },
+  "unavailableFields": [
+    {
+      "id": 97891,
+      "field": "progress",
+      "reason": "No current original primary heading/text, no secondary or UA state. Null retained."
+    },
+    {
+      "id": 95884,
+      "field": "progress",
+      "reason": "No current original primary heading/text, no secondary or UA state. Null retained."
+    },
+    {
+      "id": 1489,
+      "field": "progress",
+      "reason": "No current original primary heading/text, no secondary or UA state. Null retained."
+    },
+    {
+      "id": 1490,
+      "field": "progress",
+      "reason": "No current original primary heading/text, no secondary or UA state. Null retained."
+    }
+  ],
+  "heldFields": [],
+  "checks": "Current linguistic_lint and build_release.validate_fields passed; exact provenance, quantities, placeholder case, stage brackets and paragraph counts verified.",
+  "independentAssistedReview": "not performed",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "52 assisted proposal keys pending native review",
+  "liveClientVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}
