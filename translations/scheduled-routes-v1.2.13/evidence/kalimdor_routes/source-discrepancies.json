@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1057,
+    "field": "objective",
+    "reason": "Current Forever primary objective AND all four embedded target rows say6 EACH; installedQuestieDB andUA1.0.4 say7 EACH.",
+    "disposition": "Use exact currentprimary6 EACH; preserve oldmetadata/UA raw values; explicit liveverification pending.",
+    "sourceHTMLSHA256": "8c733465819abf3ff47905f107b67cd98c03009f0cdf7fc0ea84ff3a3cec168f",
+    "targetBindings": [
+      {
+        "npcID": 4022,
+        "term": "Bloodfury Harpies",
+        "primaryRequired": 6,
+        "installedAndUARequired": 7
+      },
+      {
+        "npcID": 4025,
+        "term": "Bloodfury Ambushers",
+        "primaryRequired": 6,
+        "installedAndUARequired": 7
+      },
+      {
+        "npcID": 4024,
+        "term": "Bloodfury Slayers",
+        "primaryRequired": 6,
+        "installedAndUARequired": 7
+      },
+      {
+        "npcID": 4023,
+        "term": "Bloodfury Roguefeathers",
+        "primaryRequired": 6,
+        "installedAndUARequired": 7
+      }
+    ]
+  },
+  {
+    "id": 6482,
+    "field": "objective",
+    "reason": "Primary spells SpintertreePost; sameprimarydetail andinstalledmetadata spellSplintertreePost.",
+    "disposition": "ExactEnglishretained; finalMyanmarusescanonicalSplintertreePost identity with pronunciation."
+  },
+  {
+    "id": 6482,
+    "field": "progress",
+    "reason": "UAhasprogressbutcurrentoriginalprimaryhasnone.",
+    "disposition": "Null unavailable state, no invented translation."
+  },
+  {
+    "id": 6544,
+    "field": "progress",
+    "reason": "UAhasprogressbutcurrentoriginalprimaryhasnone.",
+    "disposition": "Null unavailable state, no invented translation."
+  },
+  {
+    "id": 1056,
+    "field": "faction",
+    "reason": "UA labels faction Both; current primary quick facts explicitly label Alliance and installed mask is4294967373. NightElf route context is not an exclusive race restriction.",
+    "disposition": "Report Alliance/NightElf route context only; do not infer current live eligibility or race exclusivity."
+  },
+  {
+    "ids": [
+      6545,
+      6546,
+      6547
+    ],
+    "fields": [
+      "progress",
+      "detail",
+      "objective"
+    ],
+    "reason": "RepeatableProgressfollowsheadingdirectly; noDescriptionorobjectiveprose.",
+    "disposition": "Regressionparser directheadingProgressaccepted; detail/objectivenull; supplieditemrowsnotinventedprose."
+  }
+]

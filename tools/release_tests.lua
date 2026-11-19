@@ -739,3 +739,96 @@ if A.quests[97916] then
   questID=0;fire('QUEST_FINISHED')
   print('PASS:50 current-English camping trainer/crafting/library/dungeon contracts, singular/plural samples, thirteen absent progress boundaries and distinct OfferingStone stages.')
 end
+
+if A.quests[166] and A.quests[78124] and A.quests[1057] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({166,214,373,389,391,392,393,350,2745,2746,434,394,395,396,7791,1078,78124,78127,78142,78143,78145,78146,78147,78148,78149,79091,79092,79093,79094,79095,79096,79097,78150,97286,264,235,742,6383,6542,6545,6546,6547,6442,6462,6482,6503,6544,6641,1056,1057}) do
+    assert(A.quests[id] and A.quests[id].title,'19 November quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning source-state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost exact ID/title')
+    end
+  end
+  for _,h in ipairs({{2746,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held gender state lost original fallback/capture')
+  end
+  for _,r in ipairs({{373,"progress"},{373,"complete"},{389,"detail"},{389,"complete"},{214,"detail"},{79092,"progress"},{79092,"complete"},{79093,"progress"},{79093,"complete"},{391,"detail"},{7791,"progress"},{1078,"detail"},{166,"detail"}}) do
+    questID=r[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[r[2]]);flush()
+    assert(A.window:IsShown(),'Previously saved missing state still untranslated: '..r[1]..'/'..r[2])
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:19NovemberMorning50 records across150 dialogue states,13 saved missing states now routed, source-hold original fallback and historical guards.')
+end
+
+if A.quests[166] and A.quests[78124] and A.quests[1057] then
+  local contracts={
+    {166,"objective",{"Edwin VanCleef","Gryan Stoutmantle"}},
+    {214,"objective",{"Scout Riell","Sentinel Hill Tower","Red Silk Bandanas"}},
+    {373,"objective",{"Letter to the City Architect","Baros Alexston","Stormwind"}},
+    {389,"objective",{"Warden Thelwater","Stockade"}},
+    {391,"objective",{"Bazil Thredd","Warden Thelwater","Stockade"}},
+    {392,"objective",{"Sealed Description of Thredd's Visitor","Baros Alexston"}},
+    {393,"objective",{"Sealed Description of Thredd's Visitor","Master Mathias Shaw"}},
+    {350,"objective",{"Elling Trias","Stormwind"}},
+    {2745,"objective",{"Tyrion","Stormwind Castle"}},
+    {2746,"objective",{"Silk Cloth","Clara's Fresh Apples","Tyrion"}},
+    {434,"objective",{"Lord Gregor Lescovar","Marzon the Silent Blade","Elling Trias"}},
+    {394,"objective",{"Mathias Shaw","Stormwind"}},
+    {395,"objective",{"Baros Alexston","Stormwind"}},
+    {396,"objective",{"Baros Alexston","Defias Brotherhood","King Varian Wrynn","Stormwind Keep"}},
+    {1078,"objective",{"Crystalized Scales","Collin Mauren","Stormwind"}},
+    {264,"objective",{"Clarice's Pendant","Yuriv's Tomb","Silverpine"}},
+    {235,"objective",{"Senani Thunderheart","Splintertree Post","Ashenvale"}},
+    {742,"objective",{"Senani Thunderheart","Splintertree Post","Ashenvale"}},
+    {6383,"complete",{"Ursangous","Shadumbra","Sharptalon"}},
+    {6542,"objective",{"Kadrak","Barrens"}},
+    {6545,"complete",{"Kadrak"}},
+    {6546,"complete",{"Kadrak"}},
+    {6547,"complete",{"Kadrak"}},
+    {6442,"objective",{"Wrathtail Heads","Marukai","Zoram Strand"}},
+    {6462,"objective",{"Troll Charms","Mitsuwa","Zoram'gar Outpost"}},
+    {6482,"objective",{"Ruul","Yama Snowhoof"}},
+    {6503,"objective",{"Ashenvale Outrunners","Kuray'bin","Splintertree Outpost"}},
+    {6544,"objective",{"Torek","Silverwing Outpost","Duriel Moonfire","Ertog Ragetusk","Splintertree Post"}},
+    {6641,"objective",{"Muglash","Naga","Zoram'gar Outpost","Warsong Runner","Vorsha the Lasher"}},
+    {1056,"objective",{"Keeper Albagorm","Stonetalon Peak"}},
+    {1057,"objective",{"Keeper Albagorm","Stonetalon Peak","Bloodfury Harpies","Bloodfury Ambushers","Bloodfury Slayers","Bloodfury Roguefeathers"}},
+    {78124,"title",{"Nar'thalas Almanac"}},
+    {78127,"title",{"The Dalaran Digest"}},
+    {78142,"title",{"Bewitchments and Glamours"}},
+    {78143,"title",{"Secrets of the Dreamers"}},
+    {78145,"title",{"Arcanic Systems Manual"}},
+    {78146,"title",{"Goaz Scrolls"}},
+    {78147,"title",{"Crimes Against Anatomy"}},
+    {78148,"title",{"Runes of the Sorcerer-Kings"}},
+    {78149,"title",{"Fury of the Land"}},
+    {79091,"title",{"Archmage Antonidas: The Unabridged Autobiography"}},
+    {79092,"title",{"Archmage Theocritus' Research Journal"}},
+    {79093,"title",{"Rumi of Gnomeregan: The Collected Works"}},
+    {79094,"title",{"The Lessons of Ta'zo"}},
+    {79095,"title",{"The Apothecary's Metaphysical Primer"}},
+    {79096,"title",{"Ataeric: On Arcane Curiosities"}},
+    {79097,"title",{"Baxtan: On Destructive Magics"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source-grounded identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Current source recipient/book/escort/target contract failed: '..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{389,"progress"},{350,"progress"},{2745,"progress"},{434,"progress"},{394,"progress"},{395,"progress"},{7791,"detail"},{78124,"detail"},{78127,"detail"},{78142,"detail"},{78143,"detail"},{78145,"detail"},{78146,"detail"},{78147,"detail"},{78148,"detail"},{78149,"detail"},{79091,"detail"},{79092,"detail"},{79093,"detail"},{79094,"detail"},{79095,"detail"},{79096,"detail"},{79097,"detail"},{78150,"detail"},{78150,"progress"},{97286,"detail"},{97286,"progress"},{235,"progress"},{742,"progress"},{6383,"detail"},{6383,"progress"},{6542,"progress"},{6545,"detail"},{6546,"detail"},{6547,"detail"},{6482,"progress"},{6544,"progress"},{6641,"progress"},{1056,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current-English-absent state: '..r[1]..'/'..r[2]) end
+  assert(not A.quests[7791].detail and not A.quests[7791].objective and A.quests[7791].progress and A.quests[7791].complete,'Donation source boundaries changed')
+  for _,id in ipairs({78150,97286}) do
+    assert(not A.quests[id].detail and not A.quests[id].objective and not A.quests[id].progress and A.quests[id].complete,'Library reward/access completion-only boundary changed')
+    assert(not A.quests[id].complete:find('<name>',1,true),'Copied a book completion into reward/access step')
+  end
+  for id,wrong in pairs({[78148]='Runes of the Sorceror-Kings',[79092]="Archmage Theocritus's Research Journal"}) do
+    questID=id;titleOverride=wrong;fire('QUEST_PROGRESS');flush()
+    assert(not A.window:IsShown(),'Invalid upstream book label enabled as runtime alias')
+    titleOverride=nil;fire('QUEST_PROGRESS');flush()
+    assert(A.window:IsShown(),'Current book title rejected after upstream spelling check')
+  end
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:47 current-English recipient/book/escort/target contracts plus3 donation/access boundaries, exact book-spelling alias rejection and source-absence checks.')
+end

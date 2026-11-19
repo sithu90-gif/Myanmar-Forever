@@ -1,0 +1,109 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "alliance_live",
+      "id": 393,
+      "field": "detail",
+      "englishSHA256": "1333194e23dd58d96db3497f1007db8f951e65c114186268f48d9391a9a40e99",
+      "priorMyanmarSHA256": "8075518180d1af8b552b73836a0fd7602393749e2258d4f2eabf57491d5e7ce4",
+      "correctedMyanmarSHA256": "a9618d86779c876a2a6a43c694903dc16f69858723674f63c9e97b3cd7392b4a",
+      "reason": "Same NPC Mathias Shaw appears as Master Mathias Shaw in393 and Mathias Shaw in394. Maintained dictionary itself contains divergent Mathias cores. Reconcile this release compound to the direct maintained Mathias Shaw core မသိုင်းယက်စ် ရှော, retaining the existing rank prefix; historical texts stay unchanged. Assisted spelling reconciliation, native review pending."
+    },
+    {
+      "partition": "alliance_live",
+      "id": 393,
+      "field": "objective",
+      "englishSHA256": "cc020314c24e35a23bdc18a38baa6aab4f92376c6595deff50347f7fa5feafee",
+      "priorMyanmarSHA256": "acd2936f0a94e2c7f00d6f2d269723e8b18cff71f8091614c0c59f9d4d8a738b",
+      "correctedMyanmarSHA256": "d44a969aa0e6f37408534f9ea7fb342195ba403b71dbe5d90d07b261699793c5",
+      "reason": "Same NPC Mathias Shaw appears as Master Mathias Shaw in393 and Mathias Shaw in394. Maintained dictionary itself contains divergent Mathias cores. Reconcile this release compound to the direct maintained Mathias Shaw core မသိုင်းယက်စ် ရှော, retaining the existing rank prefix; historical texts stay unchanged. Assisted spelling reconciliation, native review pending."
+    },
+    {
+      "partition": "alliance_live",
+      "id": 2746,
+      "field": "title",
+      "englishSHA256": "47203b4bd9caa87114a91f6aea0b8cc7d38f1b3a4604366d4640825323c44aff",
+      "priorMyanmarSHA256": "f25a8b60c48907f4be5a3a9ad63861a77d000512a21e15c4ce34f3bcb010a50f",
+      "correctedMyanmarSHA256": "4d4d68038e97fce00988fa07e78342977fc4e753ad1567508bdde18eaf17b30c",
+      "reason": "English of some consequence describes importance/significance. Current Myanmar အကျိုးဆက်ရှိသည့် describes things having consequences. Translate the ordinary title idiom as important items; UA consequence wording is secondary and does not control English meaning."
+    },
+    {
+      "partition": "alliance_live",
+      "id": 396,
+      "field": "complete",
+      "englishSHA256": "50316dd3c6782d36dcf16d1e5f06dcc64321979cc24a456b9aef0d2b7194a477",
+      "priorMyanmarSHA256": "de4431ce56816590ee17a93bc4632361017477ea861b65dee3502b3f4ed97c98",
+      "correctedMyanmarSHA256": "f7f97723ec79217619123d2443a6f2b785a226ee672e12c4e3d0d97f7b9be52c",
+      "reason": "Myanmar အောင်မြင် is intransitive, so an အကြံအစည်တွေကို object does not fit the current verb. Make successfully carrying out his machinations explicit while preserving hypothetical harm, representative voice, King absence and exact markers."
+    },
+    {
+      "partition": "alliance_live",
+      "id": 1078,
+      "field": "detail",
+      "englishSHA256": "e67645b8eaacdebcacf60b83c530a40ddc07af06fd96230fb8807e1b6673d885",
+      "priorMyanmarSHA256": "abbc67a912d7d15275c68371c92bff6a8bac8b49678ea6bc6e838845c8556121",
+      "correctedMyanmarSHA256": "dedfb548d3139a8695bfb1a3e83abe385635517ca497a8eac5dcab936e516440",
+      "reason": "Charred Vale is the same place referenced in Kalimdor routes. Maintain a consistent Charred core across the release using maintained Charred Oak=ချားဒ် အုတ်ခ်; new compound is ချားဒ် ဗေးလ်. This preserves exact English and is assisted consistency work, not native pronunciation certification."
+    },
+    {
+      "partition": "library",
+      "id": 78149,
+      "field": "title",
+      "englishSHA256": "89f641d6042890872f773a2a104582694d33ee86f9d120c339ca80dca6c642bc",
+      "priorMyanmarSHA256": "fa550c04ceb1b5bc8af4e6b5629a2fb174ed16d04aa39e05363f9a46a11b55d1",
+      "correctedMyanmarSHA256": "4ca132f852f174dd0d50d5054837be6575ff9f6aefe038bfd0d55521e10c45a6",
+      "reason": "The new compound spells Fury as ဖြူရီ, while maintained Southfury, Southfury River, Windfury, Windfury Talons and Windfury Cones consistently use ဖျူရီ. Reconcile this shared core to the maintained spelling; exact English book identity and every other title component stay unchanged. Assisted spelling consistency proposal, pending native review."
+    },
+    {
+      "partition": "kalimdor_routes",
+      "id": 1056,
+      "field": "detail",
+      "englishSHA256": "f1ad805e620d554d9c1d706002cf03924e223e81413775a4b565bac36c83d08d",
+      "priorMyanmarSHA256": "4131e11c3acd4d11fd6dd0a013bc56534f618de4604c5fc501e3df95522d923b",
+      "correctedMyanmarSHA256": "22dac58f1cb399dcd829e796dcd00ca641b14449ad8367a96e081d07010488a6",
+      "reason": "Mystral Lake is the same Ashenvale landmark/core as maintained Lake Mystral; use its existing မစ်စ်ထရယ်လ် core with Lake pronunciation placed in the source name order. Current English identity and route stay unchanged."
+    },
+    {
+      "partition": "kalimdor_routes",
+      "id": 1057,
+      "field": "detail",
+      "englishSHA256": "5ec3c64658494da867256bc69045d4c3c4c9926c489975e27fdaca861e604057",
+      "priorMyanmarSHA256": "e3c312c14556c241ea101455624bae8db13ee78ceb1e21fa6ab78efc7682ea8b",
+      "correctedMyanmarSHA256": "4eaee655d00214bf26fbcad5aafe3560f2a3e42abae15d89275ac154705c2250",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review."
+    },
+    {
+      "partition": "kalimdor_routes",
+      "id": 1057,
+      "field": "objective",
+      "englishSHA256": "eebc045cb9b705bab1a47451456da01a2e0a3ba73f9200a2ab875df6225d63af",
+      "priorMyanmarSHA256": "e85be4bbb12992d9fc3f517228056f56f82eece62131cef6c5b44025f7138284",
+      "correctedMyanmarSHA256": "aad248b2625f70ea68721aed008c6c9cde2a11b47d0f81006e73ac842c9e2703",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review."
+    },
+    {
+      "partition": "kalimdor_routes",
+      "id": 1057,
+      "field": "complete",
+      "englishSHA256": "16193d2db4ce76e2830951a2ab68e9141beef3fa88cdb8d76923e0c102023efa",
+      "priorMyanmarSHA256": "b44c3e4fe2617044114786657dfdc073eab26af67177fb4d3f90a214de21baea",
+      "correctedMyanmarSHA256": "7cea366674782ea3991c6922ab6c6e893b44a2b5dd714283577946565da7f67e",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Master Mathias Shaw": "မာစ်တာ မသိုင်းယက်စ် ရှော",
+    "Charred Vale": "ချားဒ် ဗေးလ်",
+    "Fury of the Land": "ဖျူရီ အော့ဗ် သ လန်းဒ်",
+    "Mystral Lake": "မစ်စ်ထရယ်လ် လိတ်ခ်",
+    "Bloodfuries": "ဘလဒ်ဖျူရီဇ်",
+    "Bloodfury Harpies": "ဘလဒ်ဖျူရီ ဟာပီဇ်",
+    "Bloodfury Ambushers": "ဘလဒ်ဖျူရီ အမ်ဘုရှာဇ်",
+    "Bloodfury Slayers": "ဘလဒ်ဖျူရီ စလေးယာဇ်",
+    "Bloodfury Roguefeathers": "ဘလဒ်ဖျူရီ ရိုးဂ်ဖဲသာဇ်"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

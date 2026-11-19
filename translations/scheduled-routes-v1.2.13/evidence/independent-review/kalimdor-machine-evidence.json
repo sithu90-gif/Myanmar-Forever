@@ -1,0 +1,3145 @@
+{
+  "result": "PASS",
+  "partition": "kalimdor_routes",
+  "checkedAtUTC": "2026-11-19T01:46:30.384664+00:00",
+  "authorAllFilesRead": [
+    "1056-wowhead.html",
+    "1057-wowhead.html",
+    "235-wowhead.html",
+    "264-wowhead.html",
+    "6383-wowhead.html",
+    "6442-wowhead.html",
+    "6462-wowhead.html",
+    "6482-wowhead.html",
+    "6503-wowhead.html",
+    "6542-wowhead.html",
+    "6544-wowhead.html",
+    "6545-wowhead.html",
+    "6546-wowhead.html",
+    "6547-wowhead.html",
+    "6641-wowhead.html",
+    "742-wowhead.html",
+    "annotation-exceptions.json",
+    "author-review-summary.json",
+    "comparison-provenance.json",
+    "deepl-index-01.json",
+    "deepl-index-02.json",
+    "deepl-index-03.json",
+    "deepl-request-01.json",
+    "deepl-request-02.json",
+    "deepl-request-03.json",
+    "deepl-response-01.json",
+    "deepl-response-02.json",
+    "deepl-response-03.json",
+    "edit_group1.py",
+    "edit_group2.py",
+    "edited-group1.json",
+    "edited-group2.json",
+    "edited.json",
+    "english-sources.json",
+    "fetched.json",
+    "finalize.py",
+    "frozen-artifact-hashes.json",
+    "held-fields.json",
+    "metadata-source-inspection.json",
+    "primary-quickfacts.json",
+    "pronunciations.json",
+    "proposed-pronunciations.json",
+    "review-audit.json",
+    "review-groups.json",
+    "semantic-notes.json",
+    "separate-bilingual-review.json",
+    "source-boundaries.json",
+    "source-discrepancies.json",
+    "ua-field-countercheck.json",
+    "validation.json"
+  ],
+  "originalFileHashesBefore": {
+    "1056-wowhead.html": "77b3413fce27f6ea186f6b3e3db2d06b846ac4b6360849c27c545efce7e0314b",
+    "1057-wowhead.html": "8c733465819abf3ff47905f107b67cd98c03009f0cdf7fc0ea84ff3a3cec168f",
+    "235-wowhead.html": "a1ac916629ed0ce1f913a48bec725c6fbd4cbd813e9eb7ea44dcc462e61130e8",
+    "264-wowhead.html": "f157d6ff0a605940fdf7f33df2ecf278a628660e7b473986c63e8db5bc62e408",
+    "6383-wowhead.html": "fc1bc29ce6494a7787dae608c6399fb1bfbefd8290e52f7cde1082e63c7cdb8b",
+    "6442-wowhead.html": "2d362ee3f7ca0bc487e4636efdd63476ec6ffdf69cb5f1fda95b1526ff63bab8",
+    "6462-wowhead.html": "d596b095dbd9c4cc4d0850120069df81ecc78f571ed7ea8fa2fb4911155c964c",
+    "6482-wowhead.html": "3f8b257d109c4a70243853534be4c70421c10af5251434788f6c2474ddb17e81",
+    "6503-wowhead.html": "6166c04982d44d743d06cf3b554f6e66ebfc46bf7e200d1f8467b3330163dd9a",
+    "6542-wowhead.html": "7d055d8742aa4d8ac143f15991a15f3f6ec5ea4c491e72afc62509d8c5051cb2",
+    "6544-wowhead.html": "16f27981ebb0cb033e379dc2536e5be936ae48e4410f8a9e300f39cd55df382f",
+    "6545-wowhead.html": "b582ddf7e33a952ac0738dff697ba67480d01803d1b07539c629cf7bce18b102",
+    "6546-wowhead.html": "4f266e04c25365616a5f74ee17b228e07c78fadc55fc3fdc1b9dd95d86c0d0fd",
+    "6547-wowhead.html": "19a39e491a378510eaac2e92b747566ae403bd54a0b181d3667b4d0a552c9e4c",
+    "6641-wowhead.html": "9c7aac0d792a700b241d6d14daf1dbc69678512f1385552f8d5cb0b9cedb61e3",
+    "742-wowhead.html": "455a375f0c6b62ab7bbc7a021a1cade8f52902294347e3083f4d6398c59b8dcb",
+    "annotation-exceptions.json": "47cf9c259f31d03b339c554ed2946f5e6e4ef0034f2a2831711f5950b1f35de4",
+    "author-review-summary.json": "03d69bebec7a483534552c370a6feeb7a825765ff3288ad9b68759ad40e82ffb",
+    "comparison-provenance.json": "5197b0d0f7469d57fc1308cacc72fd09cca3ff0ab5c6a3cc2c041ff49130111d",
+    "deepl-index-01.json": "d10aabe62bffba88f854b02fcb6f139c37349df033faef7dfdccd88290a981e3",
+    "deepl-index-02.json": "beab8e4b74278c0a687f21ab8e3157aced93bc2ac1b2b505cf09e1536f9ecddb",
+    "deepl-index-03.json": "18548e98e7ffe19ec6c1f4f20205b43dcc11a6408a76ebfd4f582fd2f54309ef",
+    "deepl-request-01.json": "4a665542d0ed50844569fc77f959b0049bd6e792eabac0ccc1c0a9772c0c4e23",
+    "deepl-request-02.json": "dd3f48686c2a37af0559986ed477fcfe08664e31b444cd0c54408847bd9d82e8",
+    "deepl-request-03.json": "121b9f4b800505e5b908e6e217eec6d97c17bba4e50ea316eb02571405b17826",
+    "deepl-response-01.json": "6119c4661cf1f87d04bc6671c19b6d92b6c77fece9830c1a0f539217b21e683d",
+    "deepl-response-02.json": "a71cbb1d3d958c2d9e03430dc69b51202c92603a990d2b85fba2c88352a4fa44",
+    "deepl-response-03.json": "48c0148e40d7ff3b6617e0da87a33cddac4b9d1dccdd23a44bd5dec6f13d638c",
+    "edited-group1.json": "1c4d443ec148d206c653176485c9a90fc993e4d27338020a50a39e3ea5362684",
+    "edited-group2.json": "72b4015e09641605ae05a7d8fc5241075c8dbd0428219649f04244acfb12bf47",
+    "edited.json": "aeb513b2e6b2b842ed2bac3cf791fbeff0c556878267d6e83856efd446e66065",
+    "edit_group1.py": "c11c4ec130425b4f14c183f7b06c6df226273f0f44caf3d2bca7c15f752a4936",
+    "edit_group2.py": "75f31918dd6fbf8d805504cee5a77a0e554fbae9e513207e4184e404d8286ab8",
+    "english-sources.json": "a0d0f83bcefe8f61ee988bc6beb3d6f9924d7716a251ea1b6418c33ad6732715",
+    "fetched.json": "974e5c35f04bd3a6850d7d6ef13c34cf4e6c867e26dc9db6000f28c7296a9598",
+    "finalize.py": "d3b2e1328f3d957f9fb0ea90c8ca17093090b1de3af6574638ebd5add13b74e6",
+    "frozen-artifact-hashes.json": "1c8eaadc3e0cae98ce8dfce64681423a07546717a566e9b79865070954583492",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "7d5c3a055531341048bf200c67499a84dc769c262395b8c68dcd76fb4afbc436",
+    "primary-quickfacts.json": "1209fe5e49eb37ac8b069e3285b9ad5273604b59e7f9b428281e89e74a5014b1",
+    "pronunciations.json": "681a852eed7113212d4cefa8e2bfcd5c689d5b1c36c8b63e5d6444807c0d8f51",
+    "proposed-pronunciations.json": "0d104a7894d3dd8e99067b68a3e6ed0c1a11688203a89d3c2da38c027f8d419a",
+    "review-audit.json": "b324c53caa53a2b3d5c5d894b376f75e19cf847a59f48aec2fdb0a54e725aac6",
+    "review-groups.json": "6a4e7ff76fc54b33d3f48aa5657857339da4b7c008fd5ce5ca40be2614cf9d81",
+    "semantic-notes.json": "81bc8a79c1f3512b0b25929a2a16506616afb3ba317662bc3628f12e629b78e0",
+    "separate-bilingual-review.json": "fec6cb41b8581f67d309858652f756d3ae272905b138dad6293cfbbefc250439",
+    "source-boundaries.json": "6231b99f6c7f2775d5be095303a648c2a7d238d82dc9b123f8de62a3be83df92",
+    "source-discrepancies.json": "6eb1107edbb506d23d7c85b9def2087e8027f72b9508a54c38c091c38f692f15",
+    "ua-field-countercheck.json": "969d86684acbdf58bdef3f0f7e56ac785a3d819d577718ff4bdc37f2f0595f4e",
+    "validation.json": "03e3edb11bbf4ce0a65a137dc416fc5904a1185dfe190ea4b409db2610c25195"
+  },
+  "originalFileHashesAfter": {
+    "1056-wowhead.html": "77b3413fce27f6ea186f6b3e3db2d06b846ac4b6360849c27c545efce7e0314b",
+    "1057-wowhead.html": "8c733465819abf3ff47905f107b67cd98c03009f0cdf7fc0ea84ff3a3cec168f",
+    "235-wowhead.html": "a1ac916629ed0ce1f913a48bec725c6fbd4cbd813e9eb7ea44dcc462e61130e8",
+    "264-wowhead.html": "f157d6ff0a605940fdf7f33df2ecf278a628660e7b473986c63e8db5bc62e408",
+    "6383-wowhead.html": "fc1bc29ce6494a7787dae608c6399fb1bfbefd8290e52f7cde1082e63c7cdb8b",
+    "6442-wowhead.html": "2d362ee3f7ca0bc487e4636efdd63476ec6ffdf69cb5f1fda95b1526ff63bab8",
+    "6462-wowhead.html": "d596b095dbd9c4cc4d0850120069df81ecc78f571ed7ea8fa2fb4911155c964c",
+    "6482-wowhead.html": "3f8b257d109c4a70243853534be4c70421c10af5251434788f6c2474ddb17e81",
+    "6503-wowhead.html": "6166c04982d44d743d06cf3b554f6e66ebfc46bf7e200d1f8467b3330163dd9a",
+    "6542-wowhead.html": "7d055d8742aa4d8ac143f15991a15f3f6ec5ea4c491e72afc62509d8c5051cb2",
+    "6544-wowhead.html": "16f27981ebb0cb033e379dc2536e5be936ae48e4410f8a9e300f39cd55df382f",
+    "6545-wowhead.html": "b582ddf7e33a952ac0738dff697ba67480d01803d1b07539c629cf7bce18b102",
+    "6546-wowhead.html": "4f266e04c25365616a5f74ee17b228e07c78fadc55fc3fdc1b9dd95d86c0d0fd",
+    "6547-wowhead.html": "19a39e491a378510eaac2e92b747566ae403bd54a0b181d3667b4d0a552c9e4c",
+    "6641-wowhead.html": "9c7aac0d792a700b241d6d14daf1dbc69678512f1385552f8d5cb0b9cedb61e3",
+    "742-wowhead.html": "455a375f0c6b62ab7bbc7a021a1cade8f52902294347e3083f4d6398c59b8dcb",
+    "annotation-exceptions.json": "47cf9c259f31d03b339c554ed2946f5e6e4ef0034f2a2831711f5950b1f35de4",
+    "author-review-summary.json": "03d69bebec7a483534552c370a6feeb7a825765ff3288ad9b68759ad40e82ffb",
+    "comparison-provenance.json": "5197b0d0f7469d57fc1308cacc72fd09cca3ff0ab5c6a3cc2c041ff49130111d",
+    "deepl-index-01.json": "d10aabe62bffba88f854b02fcb6f139c37349df033faef7dfdccd88290a981e3",
+    "deepl-index-02.json": "beab8e4b74278c0a687f21ab8e3157aced93bc2ac1b2b505cf09e1536f9ecddb",
+    "deepl-index-03.json": "18548e98e7ffe19ec6c1f4f20205b43dcc11a6408a76ebfd4f582fd2f54309ef",
+    "deepl-request-01.json": "4a665542d0ed50844569fc77f959b0049bd6e792eabac0ccc1c0a9772c0c4e23",
+    "deepl-request-02.json": "dd3f48686c2a37af0559986ed477fcfe08664e31b444cd0c54408847bd9d82e8",
+    "deepl-request-03.json": "121b9f4b800505e5b908e6e217eec6d97c17bba4e50ea316eb02571405b17826",
+    "deepl-response-01.json": "6119c4661cf1f87d04bc6671c19b6d92b6c77fece9830c1a0f539217b21e683d",
+    "deepl-response-02.json": "a71cbb1d3d958c2d9e03430dc69b51202c92603a990d2b85fba2c88352a4fa44",
+    "deepl-response-03.json": "48c0148e40d7ff3b6617e0da87a33cddac4b9d1dccdd23a44bd5dec6f13d638c",
+    "edited-group1.json": "1c4d443ec148d206c653176485c9a90fc993e4d27338020a50a39e3ea5362684",
+    "edited-group2.json": "72b4015e09641605ae05a7d8fc5241075c8dbd0428219649f04244acfb12bf47",
+    "edited.json": "aeb513b2e6b2b842ed2bac3cf791fbeff0c556878267d6e83856efd446e66065",
+    "edit_group1.py": "c11c4ec130425b4f14c183f7b06c6df226273f0f44caf3d2bca7c15f752a4936",
+    "edit_group2.py": "75f31918dd6fbf8d805504cee5a77a0e554fbae9e513207e4184e404d8286ab8",
+    "english-sources.json": "a0d0f83bcefe8f61ee988bc6beb3d6f9924d7716a251ea1b6418c33ad6732715",
+    "fetched.json": "974e5c35f04bd3a6850d7d6ef13c34cf4e6c867e26dc9db6000f28c7296a9598",
+    "finalize.py": "d3b2e1328f3d957f9fb0ea90c8ca17093090b1de3af6574638ebd5add13b74e6",
+    "frozen-artifact-hashes.json": "1c8eaadc3e0cae98ce8dfce64681423a07546717a566e9b79865070954583492",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "7d5c3a055531341048bf200c67499a84dc769c262395b8c68dcd76fb4afbc436",
+    "primary-quickfacts.json": "1209fe5e49eb37ac8b069e3285b9ad5273604b59e7f9b428281e89e74a5014b1",
+    "pronunciations.json": "681a852eed7113212d4cefa8e2bfcd5c689d5b1c36c8b63e5d6444807c0d8f51",
+    "proposed-pronunciations.json": "0d104a7894d3dd8e99067b68a3e6ed0c1a11688203a89d3c2da38c027f8d419a",
+    "review-audit.json": "b324c53caa53a2b3d5c5d894b376f75e19cf847a59f48aec2fdb0a54e725aac6",
+    "review-groups.json": "6a4e7ff76fc54b33d3f48aa5657857339da4b7c008fd5ce5ca40be2614cf9d81",
+    "semantic-notes.json": "81bc8a79c1f3512b0b25929a2a16506616afb3ba317662bc3628f12e629b78e0",
+    "separate-bilingual-review.json": "fec6cb41b8581f67d309858652f756d3ae272905b138dad6293cfbbefc250439",
+    "source-boundaries.json": "6231b99f6c7f2775d5be095303a648c2a7d238d82dc9b123f8de62a3be83df92",
+    "source-discrepancies.json": "6eb1107edbb506d23d7c85b9def2087e8027f72b9508a54c38c091c38f692f15",
+    "ua-field-countercheck.json": "969d86684acbdf58bdef3f0f7e56ac785a3d819d577718ff4bdc37f2f0595f4e",
+    "validation.json": "03e3edb11bbf4ce0a65a137dc416fc5904a1185dfe190ea4b409db2610c25195"
+  },
+  "frozenManifestMatches": true,
+  "authorFilesUnchanged": true,
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.4",
+    "commit": "e759b41bc4948e65b35fcf9a3fd9ae6642d7e5e1",
+    "checkedAt": "2026-11-19T01:20:52.456398+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.4",
+    "publishedAtUTC": "2026-11-18T21:33:58Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.4/UA_Forever-1.0.4.zip",
+    "assetSHA256": "bfa16e9a985ef9d11bd38704d690250e55caa7000704d3d55a7907624d61f0f0",
+    "catalogSHA256": "016ad3340a8e7813957a86b12c2b54aca14dd7244dd0de3219390a1ce70b2b9a"
+  },
+  "officialLiveNetworkEvidence": "kalimdor-network-evidence.json",
+  "upstreamPackageSHA256Verified": "bfa16e9a985ef9d11bd38704d690250e55caa7000704d3d55a7907624d61f0f0",
+  "upstreamCatalogSHA256Verified": "016ad3340a8e7813957a86b12c2b54aca14dd7244dd0de3219390a1ce70b2b9a",
+  "metadataSHA256": "8e44c537a8960544580acecfcd2c4d6e8a76ec137e4f46388b7a8f97b5f9fe69",
+  "maintainedPronunciationsSHA256": "3d4bf5f10107221a61d62b2580f10bbf71fb66f02c59207781591d6a3678e9e9",
+  "styleGuideSHA256": "a609e8b876c6c48fb97d496bef5398e7cf883d27470bb2ecda6e6360eede29ef",
+  "primarySources": {
+    "264": {
+      "sourceHTMLSHA256": "f157d6ff0a605940fdf7f33df2ecf278a628660e7b473986c63e8db5bc62e408",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 264,
+        "name": "Until Death Do Us Part"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Until Death Do Us Part",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 1638,
+        "category2": 1,
+        "id": 264,
+        "level": 15,
+        "name": "Until Death Do Us Part",
+        "reqlevel": 12,
+        "side": 2,
+        "xp": 540,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 15[/li][li]Requires level 12[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5543/clarice-foster]Clarice Foster[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=24776/yurivs-tombstone]Yuriv's Tombstone[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]12[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Until Death Do Us Part",
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Clarice's Pendant (Provided) (1)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6145/clarices-pendant\" class=\"q1\">Clarice's Pendant</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Until Death Do Us Part</h1>Place <a href=\"/forever/item=6145/clarices-pendant\">Clarice's Pendant</a> on Yuriv's Tomb in Silverpine.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6145/clarices-pendant\" class=\"q1\">Clarice's Pendant</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Filthy scum! Leaves me for his damn crusade. Because \"the Light is the most important thing we have against the threats the undead pose.\"<br /><br />Well, what about his children?! What about ME?! Night after night I sat patiently waiting for him... always second to his blasted duty!<br /><br />Well, witness what \"justice\" brings you, &lt;name&gt;! He's dead and I'm bearing the very thing he was trying to stop!<br /><br />Take this piece of junk and put it on his tomb at the Sepulcher. I want nothing to do with it anymore... or him!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">The stone is cold to the touch, &nbsp;but has obviously been abused. Trash litters the area; nicks and gashes decorate the relief atop the coffin; and the foliage around the grave has started to grow over the site.<br /><br />No one cares for whoever is buried here, especially not any victims of the plague.</div>\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You place the worthless pendant on the grave, and the gemstone within the setting seems to dull noticeably.<br /><br />As you stand to leave, you look down at the pendant; it lies lifelessly over the hands of the relief sculpted into the top of the coffin. Your thoughts are interrupted by a stiff, cool breeze passing over the Sepulcher. For a moment everything around you is silent.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            5543
+          ]
+        ],
+        "3": [
+          null,
+          [
+            24776
+          ]
+        ],
+        "8": [
+          "Place Clarice's Pendant on Yuriv's Tomb in Silverpine."
+        ],
+        "S": {
+          "1": "Until Death Do Us Part",
+          "4": 12,
+          "5": 15,
+          "6": 8589934770,
+          "11": 6145,
+          "17": 1638,
+          "p": 134
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Доки смерть не розлучить нас",
+          "detail": "Клятий покидьок! Покинув мене заради свого клятого походу. Тому що \"Світло понад усе, це наш єдиний захист проти невмерлих!\".\n\nА як же діти?! А як же я?! Багато ночей я терпляче чекала на нього... я завжди була на другому місці після його клятого обов'язку!\n\nЩо ж, подивись на плоди \"правосуддя\", {ім'я}! Він мертвий, а стала тим, що він намагався зупинити!\n\nВізьми цей мотлох і поклади на його могилу в Крипті. Мені не потрібне більше це сміття... і він сам теж!",
+          "objective": "Покладіть кулон Клариси на могилу Юріва в Срібнохвої.",
+          "progress": "Кам'яна плита холодна на дотик. Могила була сплюндрована: навколо валяється сміття, з барельєфа вибиті шмати, а могила заросла травою.\n\nНікому немає діла до тих, хто тут похований, особливо якщо це жертва чуми.",
+          "complete": "Ви кладете кулон на могилу, і дорогоцінний камінь у ньому помітно тьмяніє.\n\nПідвівшись, ви дивитесь на кулон. Він лежить на плиті, тьмяний і холодний. Ваші думки перериває різкий, холодний вітер, що проноситься над Криптою. На мить все навколо завмирає.",
+          "en": "Until Death Do Us Part",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "235": {
+      "sourceHTMLSHA256": "a1ac916629ed0ce1f913a48bec725c6fbd4cbd813e9eb7ea44dcc462e61130e8",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 235,
+        "name": "The Ashenvale Hunt"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "The Ashenvale Hunt",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 1637,
+        "category2": 1,
+        "id": 235,
+        "level": 20,
+        "name": "The Ashenvale Hunt",
+        "reprewards": [
+          [
+            81,
+            10
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 2,
+        "xp": 155,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10880/warcaller-gorlach]Warcaller Gorlach[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12696/senani-thunderheart]Senani Thunderheart[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "The Ashenvale Hunt",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">The Ashenvale Hunt</h1>Speak with <a href=\"/forever/npc=12696/senani-thunderheart\">Senani Thunderheart</a> at Splintertree Post, Ashenvale.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Attention, young adventurers!  The wilds of Ashenvale await you!<br /><br />The Horde has established a strong presence in the lands north of the Barrens.  Our two outposts - Splintertree Post and the Zoram Strand Outpost - strive to bring glory to the Horde!  Those who would prove themselves should seek out guidance there.  Of note: <a href=\"/forever/npc=12696/senani-thunderheart\">Senani Thunderheart</a> in Splintertree Post, directly north of the Barrens, seeks adventurers willing to take part in a great hunt of Ashenvale!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Welcome to the new frontier, &lt;name&gt;. &nbsp;Ashenvale is a land of opportunity, one where a young &lt;class&gt; like yourself is able to find boundless chances to prove their mettle. &nbsp;Look around the outpost here, and be sure to travel out to the Zoram Strand, as the Horde has another outpost there as well.<br /><br />Your presence here tells me that you've come to learn more about the hunt. &nbsp;Listen close, and I will gladly share with you what you need to know.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            10880
+          ]
+        ],
+        "3": [
+          [
+            12696
+          ]
+        ],
+        "8": [
+          "Speak with Senani Thunderheart at Splintertree Post, Ashenvale."
+        ],
+        "16": [
+          742,
+          6382
+        ],
+        "26": [
+          [
+            81,
+            10
+          ]
+        ],
+        "S": {
+          "1": "The Ashenvale Hunt",
+          "4": 20,
+          "5": 20,
+          "6": 8589934770,
+          "17": 1637,
+          "22": 6383,
+          "23": 8,
+          "27": 6383,
+          "p": 33587334
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Ясенеділське полювання",
+          "detail": "Увага, юні шукачі пригод! Дикі хащі Ясенедолу чекають на вас!\n\nОрді вдалося закріпитися в землях на північ від Степів. Дві наші застави — при Тріснутому Дереві та на Зорамському узбережжі — б'ються за славу Орди! Ті, хто хоче проявити себе у подвигах, можуть вирушити туди. Зверніть увагу: Сенані Грозове Серце на заставі при Тріснутому Дереві, що на північ від Степів, шукає охочих взяти участь у великому полюванні в Ясенедолі!",
+          "objective": "Поговоріть з Сенані Грозовим Серцем на заставі при Тріснутому Дереві, що в Ясенедолі.",
+          "progress": null,
+          "complete": "Ласкаво просимо на наш новий рубіж, {ім'я}. Ясенеділ — це земля можливостей, де {стать:такому юній:такій юній} {клас:д}, як ти, знайдеться вдосталь шансів довести свою силу. Оглянь цю заставу та обов'язково сходи на Зорамське узбережжя — в Орди й там є застава.\n\nЯк розумію, ти тут для того, щоб дізнатися більше про полювання. Слухай уважно, і я з радістю поділюся з тобою всім, що тобі потрібно знати.",
+          "en": "The Ashenvale Hunt",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "742": {
+      "sourceHTMLSHA256": "455a375f0c6b62ab7bbc7a021a1cade8f52902294347e3083f4d6398c59b8dcb",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 742,
+        "name": "The Ashenvale Hunt"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "The Ashenvale Hunt",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 1638,
+        "category2": 1,
+        "id": 742,
+        "level": 20,
+        "name": "The Ashenvale Hunt",
+        "reprewards": [
+          [
+            81,
+            10
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 2,
+        "xp": 155,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10881/bluff-runner-windstrider]Bluff Runner Windstrider[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12696/senani-thunderheart]Senani Thunderheart[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "The Ashenvale Hunt",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">The Ashenvale Hunt</h1>Speak with <a href=\"/forever/npc=12696/senani-thunderheart\">Senani Thunderheart</a> at Splintertree Post, Ashenvale.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Attention, young adventurers!  The wilds of Ashenvale await you!<br /><br />The Horde has established a strong presence in the lands north of the Barrens.  Our two outposts - Splintertree Post and the Zoram Strand Outpost - strive to bring glory to the Horde!  Those who would prove themselves should seek out guidance there.  Of note: <a href=\"/forever/npc=12696/senani-thunderheart\">Senani Thunderheart</a> in Splintertree Post, directly north of the Barrens, seeks adventurers willing to take part in a great hunt of Ashenvale!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Welcome to the new frontier, &lt;name&gt;. &nbsp;Ashenvale is a land of opportunity, one where a young &lt;class&gt; like yourself is able to find boundless chances to prove their mettle. &nbsp;Look around the outpost here, and be sure to travel out to the Zoram Strand, as the Horde has another outpost there as well.<br /><br />Your presence here tells me that you've come to learn more about the hunt. &nbsp;Listen close, and I will gladly share with you what you need to know.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            10881
+          ]
+        ],
+        "3": [
+          [
+            12696
+          ]
+        ],
+        "8": [
+          "Speak with Senani Thunderheart at Splintertree Post, Ashenvale."
+        ],
+        "16": [
+          235,
+          6382
+        ],
+        "26": [
+          [
+            81,
+            10
+          ]
+        ],
+        "S": {
+          "1": "The Ashenvale Hunt",
+          "4": 20,
+          "5": 20,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 6383,
+          "23": 8,
+          "27": 6383,
+          "p": 33587334
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Ясенеділське полювання",
+          "detail": "Увага, юні шукачі пригод! Дикі хащі Ясенедолу чекають на вас!\n\nОрді вдалося закріпитися в землях на північ від Степів. Дві наші застави — при Тріснутому Дереві та на Зорамському узбережжі — б'ються за славу Орди! Ті, хто хоче проявити себе у подвигах, можуть вирушити туди. Зверніть увагу: Сенані Грозове Серце на заставі при Тріснутому Дереві, що на північ від Степів, шукає охочих взяти участь у великому полюванні в Ясенедолі!",
+          "objective": "Поговоріть з Сенані Грозовим Серцем на заставі при Тріснутому Дереві, що в Ясенедолі.",
+          "progress": null,
+          "complete": "Ласкаво просимо на наш новий рубіж, {ім'я}. Ясенеділ — це земля можливостей, де {стать:такому юній:такій юній} {клас:д}, як ти, знайдеться вдосталь шансів довести свою силу. Оглянь цю заставу та обов'язково сходи на Зорамське узбережжя — в Орди й там є застава.\n\nЯк розумію, ти тут для того, щоб дізнатися більше про полювання. Слухай уважно, і я з радістю поділюся з тобою всім, що тобі потрібно знати.",
+          "en": "The Ashenvale Hunt",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6383": {
+      "sourceHTMLSHA256": "fc1bc29ce6494a7787dae608c6399fb1bfbefd8290e52f7cde1082e63c7cdb8b",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6383,
+        "name": "The Ashenvale Hunt"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "The Ashenvale Hunt",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6383,
+        "level": 20,
+        "name": "The Ashenvale Hunt",
+        "reqlevel": 20,
+        "side": 2,
+        "wflags": 16,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12696/senani-thunderheart]Senani Thunderheart[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12696/senani-thunderheart]Senani Thunderheart[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "[quest=24 icon=false][br][quest=2 icon=false][br][quest=23 icon=false][br]"
+      ],
+      "headings": [
+        "The Ashenvale Hunt",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">The Ashenvale Hunt</h1><h2 classes=\"first\" class=\"heading-size-3\">Completion</h2>There are three legendary creatures that make up the <a href=\"/forever/zone=331/ashenvale\">Ashenvale</a> Hunt; you may seek them and test yourself against their cunning and might. &nbsp;In the process, you will hopefully learn something about yourself. &nbsp;The creatures are: the bear Ursangous, the nightsaber cat Shadumbra, and the hippogryph Sharptalon.<br /><br />The creatures of the <a href=\"/forever/zone=331/ashenvale\">Ashenvale</a> Hunt are powerful, and you may find that you'll need aid in bringing them down. &nbsp;If you should best them, bring me proof of your deed.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<div class=\"pad3\"></div>    <div>\n        See if you've already completed this by typing:<br>\n        <pre class=\"tip completion-macro\">/run print(C_QuestLog.IsQuestFlaggedCompleted(6383))</pre>\n    </div>\n    <div id=\"infobox-alternate-position\"></div>\n    <div class=\"db-page-collection-tracker-cta\"></div>\n    \n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12696
+          ]
+        ],
+        "3": [
+          [
+            12696
+          ]
+        ],
+        "28": [
+          235,
+          742
+        ],
+        "S": {
+          "1": "The Ashenvale Hunt",
+          "4": 20,
+          "5": 20,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 134217734
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Ясенеділське полювання",
+          "detail": null,
+          "objective": null,
+          "progress": null,
+          "complete": "Є три легендарні істоти, які є цілями Ясенедільского полювання. Знайди їх та випробуй себе проти їхньої хитрості та міці. Можливо, в процесі ти дізнаєшся щось про себе. Ці істоти — ведмідь Урсанґо, ночезуб Шадумбра та гіпогриф Гостропазур.\n\nСтворіння Ясенедільского полювання могутні. Можливо, ти потребуватимеш допомоги. Якщо тобі вдасться подолати їх — принеси мені докази своєї звитяги.",
+          "en": "The Ashenvale Hunt",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6542": {
+      "sourceHTMLSHA256": "7d055d8742aa4d8ac143f15991a15f3f6ec5ea4c491e72afc62509d8c5051cb2",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6542,
+        "name": "Report to Kadrak"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Report to Kadrak",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 406,
+        "category2": 1,
+        "id": 6542,
+        "level": 19,
+        "name": "Report to Kadrak",
+        "reqlevel": 17,
+        "side": 2,
+        "xp": 145,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 19[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11821/darn-talongrip]Darn Talongrip[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8582/kadrak]Kadrak[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]17[/color][small] &nbsp;[/small][color=r3]22[/color][small] &nbsp;[/small][color=r4]26[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Report to Kadrak",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Report to Kadrak</h1>Report to <a href=\"/forever/npc=8582/kadrak\">Kadrak</a> at the watch tower in northern Barrens.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Have you ever been to Ashenvale, to the north? The horde has recently set up an outpost on the Zoram Strand there, and we can always use some new recruits to help defend our new fronts.<br /><br />If you think you are up to it, see <a href=\"/forever/npc=8582/kadrak\">Kadrak</a> in the northern Barrens, at the watch tower. He is heading up the Ashenvale campaign and can give you further orders.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Ashenvale is a divided land, but our most recent efforts have been very successful. We not only have an outpost at the Zoram Strand, but another just north of here called Splintertree.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            11821
+          ]
+        ],
+        "3": [
+          [
+            8582
+          ]
+        ],
+        "8": [
+          "Report to Kadrak at the watch tower in northern Barrens."
+        ],
+        "S": {
+          "1": "Report to Kadrak",
+          "4": 17,
+          "5": 19,
+          "6": 8589934770,
+          "17": 406,
+          "22": 6543,
+          "23": 8,
+          "27": 6543,
+          "36": 6541,
+          "p": 134
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Доповідь Кадраку",
+          "detail": "Ти вже {стать:бував:бувала} в Ясенедолі, на півночі? Орда нещодавно організувала там заставу на Зорамському узбережжі, і нам завжди потрібні новобранці для захисту нових кордонів.\n\nЯкщо тобі це до персонажа, зустрінься з Кадраком у північних Степах, на сторожовій вежі. Він керує кампанією в Ясенедолі та може дати тобі доручення.",
+          "objective": "Поговоріть з Кадраком на сторожовій вежі в північних Степах.",
+          "progress": null,
+          "complete": "Ясенеділ — розділений війною край, але наші нещодавні зусилля були дуже плідними. Ми заснували заставу не тільки на Зорамському узбережжі, але й прямо на північ звідси, при Тріснутому Дереві.",
+          "en": "Report to Kadrak",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6545": {
+      "sourceHTMLSHA256": "b582ddf7e33a952ac0738dff697ba67480d01803d1b07539c629cf7bce18b102",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6545,
+        "name": "Warsong Runner Update"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:49-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Warsong Runner Update",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6545,
+        "itemrewards": [
+          [
+            16763,
+            1
+          ]
+        ],
+        "level": 19,
+        "name": "Warsong Runner Update",
+        "reqlevel": 17,
+        "side": 2,
+        "wflags": 17,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 19[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12863/warsong-runner]Warsong Runner[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12863/warsong-runner]Warsong Runner[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=r2]17[/color][small] &nbsp;[/small][color=r3]22[/color][small] &nbsp;[/small][color=r4]26[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "[quest=6543 icon=false][br]"
+      ],
+      "headings": [
+        "Warsong Runner Update",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Warsong Report (1)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Warsong Runner Update</h1><h2 classes=\"first\" class=\"heading-size-3\">Progress</h2>So you're here with my orders? Always good to see a new recruit with an exuberant nature and a strong will.<br /><br />You'd best learn fast if you expect to keep up here. The threat of the naga grows, &lt;name&gt;. I have observed and have taken up defenses against several attacks on this outpost since I arrived here.<br /><br />But if you'd like to pitch in with that effort, speak with one of the others here at the outpost.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Well, my update will explain all of this to Kadrak. You must return this to him as quickly as possible.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12863
+          ]
+        ],
+        "3": [
+          [
+            12863
+          ]
+        ],
+        "10": {
+          "3": [
+            [
+              16746,
+              null,
+              0
+            ]
+          ]
+        },
+        "S": {
+          "1": "Warsong Runner Update",
+          "4": 17,
+          "5": 19,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "24": 1,
+          "25": 6543,
+          "p": 518
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Звіт гінця Пісні Війни",
+          "detail": null,
+          "objective": null,
+          "progress": "То ти тут з моїм наказом? Завжди приємно бачити новобранців з буйним характером і сильною волею.\n\nТобі краще швидко вчитися, якщо не хочеш відставати від інших. Загроза з боку наг зростає, {ім'я}. Відколи я прибув сюди, я бачив кілька нападів та брав участь в обороні.\n\nАле якщо хочеш долучитися, поговори з кимось іншим в аванпості.",
+          "complete": "Що ж, Кадрак дізнається про це все з мого звіту. Віднеси це йому якнайшвидше.",
+          "en": "Warsong Runner Update",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6546": {
+      "sourceHTMLSHA256": "4f266e04c25365616a5f74ee17b228e07c78fadc55fc3fdc1b9dd95d86c0d0fd",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6546,
+        "name": "Warsong Outrider Update"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:48-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Warsong Outrider Update",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6546,
+        "itemrewards": [
+          [
+            16765,
+            1
+          ]
+        ],
+        "level": 25,
+        "name": "Warsong Outrider Update",
+        "reqlevel": 17,
+        "side": 2,
+        "wflags": 17,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 25[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12864/warsong-outrider]Warsong Outrider[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12864/warsong-outrider]Warsong Outrider[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "[quest=6543 icon=false][br]"
+      ],
+      "headings": [
+        "Warsong Outrider Update",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Warsong Report (1)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Warsong Outrider Update</h1><h2 classes=\"first\" class=\"heading-size-3\">Progress</h2>Much danger lies along this path, &lt;name&gt;. You'd do best to remember this while traveling in these lands. The threat of the alliance is quite near.<br /><br />We are faced by enemies on all fronts. The satyr are a formidable and prevalent force in eastern <a href=\"/forever/zone=331/ashenvale\">Ashenvale</a>. &nbsp;I have also discovered that the naga have taken over a large area of the land of Azshara.<br /><br />It's good to see that we are still bolstering our numbers -- be ready for what lies ahead, &lt;name&gt;.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Take my update to Kadrak. Swiftly, &lt;name&gt;.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12864
+          ]
+        ],
+        "3": [
+          [
+            12864
+          ]
+        ],
+        "10": {
+          "3": [
+            [
+              16746,
+              null,
+              0
+            ]
+          ]
+        },
+        "S": {
+          "1": "Warsong Outrider Update",
+          "4": 17,
+          "5": 25,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "24": 1,
+          "25": 6543,
+          "p": 518
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Звіт вершниці Пісні Війни",
+          "detail": null,
+          "objective": null,
+          "progress": "{ім'я}, на цьому шляху на тебе чекає багато небезпечних зустрічей. Май це на увазі, подорожуючи цими землями. Альянс зовсім близько.\n\nМи оточені ворогами з усіх боків. В східному Ясенедолі сатири — грізна сила, що переважає нашу. До того ж я дізналася, що наги захопили значну територію Азшари.\n\nПриємно бачити, що наша чисельність росте. Будь {стать:готовий:готова} до того, що чекає попереду, {ім'я}.",
+          "complete": "Віднеси мій звіт Кадраку. Поквапся, {ім'я}.",
+          "en": "Warsong Outrider Update",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6547": {
+      "sourceHTMLSHA256": "19a39e491a378510eaac2e92b747566ae403bd54a0b181d3667b4d0a552c9e4c",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6547,
+        "name": "Warsong Scout Update"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:49-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Warsong Scout Update",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6547,
+        "itemrewards": [
+          [
+            16764,
+            1
+          ]
+        ],
+        "level": 21,
+        "name": "Warsong Scout Update",
+        "reqlevel": 17,
+        "side": 2,
+        "wflags": 17,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 21[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12862/warsong-scout]Warsong Scout[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12862/warsong-scout]Warsong Scout[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=r1]17[/color][small] &nbsp;[/small][color=r2]19[/color][small] &nbsp;[/small][color=r3]24[/color][small] &nbsp;[/small][color=r4]28[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "[quest=6543 icon=false][br]"
+      ],
+      "headings": [
+        "Warsong Scout Update",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Warsong Report (1)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Warsong Scout Update</h1><h2 classes=\"first\" class=\"heading-size-3\">Progress</h2>Keep an eye out, &lt;race&gt;. The elves are often hiding in the shadows...<br /><br />We must always be watching. We have worked very hard to claim this land, and the elves are looking for a chance to take it from us.<br /><br />I assume you have my next orders from Kadrak?<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16746/warsong-report\" class=\"q1\">Warsong Report</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Let Kadrak know of the success we have had here holding off the night elves. Our plans are going well.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12862
+          ]
+        ],
+        "3": [
+          [
+            12862
+          ]
+        ],
+        "10": {
+          "3": [
+            [
+              16746,
+              null,
+              0
+            ]
+          ]
+        },
+        "S": {
+          "1": "Warsong Scout Update",
+          "4": 17,
+          "5": 21,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "24": 1,
+          "25": 6543,
+          "p": 518
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Звіт розвідниці Пісні Війни",
+          "detail": null,
+          "objective": null,
+          "progress": "Будь {стать:уважний:уважна}, {раса:к}. Ельфи часто ховаються в тінях...\n\nМи завжди повинні бути напоготові. Ми доклали неймовірних зусиль, аби завоювати цю землю, а ельфи шукають можливість забрати її у нас.\n\nГадаю, у тебе є для мене нові накази від Кадрака?",
+          "complete": "Прозвітуй Кадраку про наші успіхи в стримуванні нічних ельфів. Все йде за планом.",
+          "en": "Warsong Scout Update",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6442": {
+      "sourceHTMLSHA256": "2d362ee3f7ca0bc487e4636efdd63476ec6ffdf69cb5f1fda95b1526ff63bab8",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6442,
+        "name": "Naga at the Zoram Strand"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:49-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Naga at the Zoram Strand",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6442,
+        "level": 19,
+        "name": "Naga at the Zoram Strand",
+        "reprewards": [
+          [
+            530,
+            100
+          ]
+        ],
+        "reqlevel": 14,
+        "side": 2,
+        "xp": 1450,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 19[/li][li]Requires level 14[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12719/marukai]Marukai[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12719/marukai]Marukai[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]15[/color][small] &nbsp;[/small][color=r2]17[/color][small] &nbsp;[/small][color=r3]22[/color][small] &nbsp;[/small][color=r4]26[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Naga at the Zoram Strand",
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 20,
+          "body": "Wrathtail Head (20)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=5490/wrathtail-head\" class=\"q1\">Wrathtail Head</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"20\">&nbsp;(<span class=\"icon-list-quantity\">20</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Naga at the Zoram Strand</h1>Bring 20 <a href=\"/forever/item=5490/wrathtail-head\">Wrathtail Heads</a> to <a href=\"/forever/npc=12719/marukai\">Marukai</a> along the Zoram Strand.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"20\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=5490/wrathtail-head\" class=\"q1\">Wrathtail Head</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"20\">&nbsp;(<span class=\"icon-list-quantity\">20</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>There is evil lurking here along the coast, &lt;race&gt;.<br /><br />It is the resting place of the doomed city of Zoram, long destroyed and submerged beneath the seas.  Lost, and nearly forgotten.<br /><br />Now, the naga have returned, and for what reason we do not know.  But reason matters little; we must defend the land we have worked so hard to claim as our own.<br /><br />Return to me with 20 of their heads! Throw the naga back to the depths!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">The naga increase in numbers, &lt;name&gt;. Please complete this task for me.</div>\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">We could use more of your kind around here, &lt;name&gt;. Thank you for your help.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12719
+          ]
+        ],
+        "3": [
+          [
+            12719
+          ]
+        ],
+        "8": [
+          "Bring 20 Wrathtail Heads to Marukai along the Zoram Strand."
+        ],
+        "10": {
+          "3": [
+            [
+              5490,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            530,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Naga at the Zoram Strand",
+          "4": 14,
+          "5": 19,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Наги на Зорамському узбережжі",
+          "detail": "На узбережжі ховається зло, {раса:к}.\n\nЦе місце спочинку приреченого міста Зорам, давно зруйнованого і зануреного під воду. Загубленого і майже забутого.\n\nАле наги повернулися, з невідомої причини. Проте причина не має значення. Ми повинні захистити землю, яку ми так важко здобували.\n\nПовертайся до мене з двадцятьма їхніми головами! Відкинь наг назад до глибин!",
+          "objective": "Принесіть 20 голів гнівохвостих наг до Марукай на Зорамське узбережжя.",
+          "progress": "Кількість наг збільшується, {ім'я}. Будь ласка, заверши це завдання.",
+          "complete": "Нам не вистачає таких, як ти, {ім'я}. Дякую за допомогу.",
+          "en": "Naga at the Zoram Strand",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6462": {
+      "sourceHTMLSHA256": "d596b095dbd9c4cc4d0850120069df81ecc78f571ed7ea8fa2fb4911155c964c",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6462,
+        "name": "Troll Charm"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:49-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Troll Charm",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6462,
+        "level": 24,
+        "money": 1700,
+        "name": "Troll Charm",
+        "reprewards": [
+          [
+            530,
+            100
+          ]
+        ],
+        "reqlevel": 19,
+        "side": 2,
+        "xp": 1950,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 24[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12721/mitsuwa]Mitsuwa[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12721/mitsuwa]Mitsuwa[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Troll Charm",
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 8,
+          "body": "Troll Charm (8)",
+          "html": "<th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16602/troll-charm\" class=\"q1\">Troll Charm</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"8\">&nbsp;(<span class=\"icon-list-quantity\">8</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Troll Charm</h1>Bring 8 <a href=\"/forever/item=16602/troll-charm\">Troll Charms</a> to <a href=\"/forever/npc=12721/mitsuwa\">Mitsuwa</a> at the Zoram'gar Outpost.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"8\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16602/troll-charm\" class=\"q1\">Troll Charm</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"8\">&nbsp;(<span class=\"icon-list-quantity\">8</span>)</span></td></tr>\n</table>\n\n\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>My kinfolk were traveling here with many sacred <a href=\"/forever/item=16602/troll-charm\">troll charms</a>, but the Thistlefur furbolgs attacked and killed them before they reached Zoram'gar!  Those vile Furbolgs!<br /><br />I miss my brothers and sisters who were killed, but we will meet again in the afterlife.  However, their <a href=\"/forever/item=16602/troll-charm\">troll charms</a> hold great value in this world.  It is an outrage that the furbolgs have them!<br /><br />&lt;name&gt;, you must retrieve the charms!  They are in chests in Thistlefur Hold, a cave at the end of Thistlefur Village, north of Astranaar.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Did you find the charms, &lt;name&gt;? &nbsp;Every moment the furbolgs possess those sacred items, my blood boils with rage!</div>\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You found them! &nbsp;Thank you! &nbsp;Thank you, &lt;name&gt;! &nbsp;You do not know how great a thing you have done for me.<br /><br />A troll without his charm is like an orc without his battle scars...<br /><br />Worthless.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12721
+          ]
+        ],
+        "3": [
+          [
+            12721
+          ]
+        ],
+        "8": [
+          "Bring 8 Troll Charms to Mitsuwa at the Zoram'gar Outpost."
+        ],
+        "10": {
+          "3": [
+            [
+              16602,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            530,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Troll Charm",
+          "4": 19,
+          "5": 24,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Трольський оберіг",
+          "detail": "Мої родичі подорожували сюди з купою оберегів, але Колючохутрі хутропузи напали та вбили їх ще до того, як вони дісталися Зорам'ґару! Кляті хутропузи!\n\nЯ сумую за братами та сестрами, яких було вбито, але ми зустрінемося знову на тому боці. Проте їхні обереги все ще мають велику цінність в цьому світі. Те, що вони в руках хутропузів — велика ганьба!\n\n{ім'я}, ти маєш повернути ці обереги. Вони лежать в скринях в печерах Колючохутрих на околиці селища хутропузів, що на північ від Астранаару.",
+          "objective": "Принесіть 8 трольських оберегів Міцуві на форпост Зорам'ґар.",
+          "progress": "{стать:Знайшов:Знайшла} обереги, {ім'я}? Мої нутрощі киплять від люті, поки ці священні речі в їх лапах!",
+          "complete": "Ти {стать:знайшов:знайшла} їх! Дякую, {ім'я}! Ти й гадки не маєш, що це для мене означає.\n\nТроль без оберега як орк без бойових шрамів...\n\nНічого не вартий.",
+          "en": "Troll Charm",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6482": {
+      "sourceHTMLSHA256": "3f8b257d109c4a70243853534be4c70421c10af5251434788f6c2474ddb17e81",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6482,
+        "name": "Freedom to Ruul"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:49-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Freedom to Ruul",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6482,
+        "level": 24,
+        "money": 1700,
+        "name": "Freedom to Ruul",
+        "reprewards": [
+          [
+            81,
+            150
+          ]
+        ],
+        "reqlevel": 19,
+        "side": 2,
+        "xp": 2400,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 24[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12818/ruul-snowhoof]Ruul Snowhoof[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12837/yama-snowhoof]Yama Snowhoof[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Freedom to Ruul",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Escort Ruul from the Thistlefurs. (1)",
+          "html": "<th><p style=\"height:26px\">&nbsp;</p></th><td><span>Escort Ruul from the Thistlefurs.</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Freedom to Ruul</h1>Escort Ruul, then speak with <a href=\"/forever/npc=12837/yama-snowhoof\">Yama Snowhoof</a> in Spintertree Post.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><p style=\"height:26px\">&nbsp;</p></th><td><span>Escort Ruul from the Thistlefurs.</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Eh?  Who are you?<br /><br />&lt;name&gt;?  You're no furbolg.  They are cursed!  They thought I was a bear and captured me, and now they starve me!  My strength is failing...<br /><br />Help me escape, then speak with my sister Yama at the Splintertree Post to the east.<br /><br />&lt;name&gt;! I must escape!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You found my brother! &nbsp;He was captured by the Thistlefurs? &nbsp;That is terrible news to hear, for although many Furbolgs are noble creatures, the Thistlefurs are corrupt.<br /><br />Thank you for rescuing my brother, &lt;name&gt;. &nbsp;I do not want to think of how they treated poor Ruul. &nbsp;He will likely sleep long after this ordeal...</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12818
+          ]
+        ],
+        "3": [
+          [
+            12837
+          ]
+        ],
+        "8": [
+          "Escort Ruul, then speak with Yama Snowhoof in Splintertree Post."
+        ],
+        "9": [
+          "Escort Ruul from the Thistlefurs.",
+          {
+            "331": [
+              [
+                38.53,
+                37.32
+              ]
+            ]
+          }
+        ],
+        "26": [
+          [
+            81,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Freedom to Ruul",
+          "4": 19,
+          "5": 24,
+          "6": 8589934770,
+          "17": 331,
+          "23": 2,
+          "24": 2,
+          "p": 33554822
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Свободу Руулу",
+          "detail": "Що? Ти хто?\n\n{ім'я}? Ти не хутропуз. Кляті потвори! Вони вирішили, що я ведмідь та схопили мене, а тепер вони морять мене голодом! Я втрачаю сили...\n\nДопоможи мені втекти, а потім поговори з моєю сестрою Ямою на заставі при Тріснутому Дереві, що на сході.\n\n{ім'я}! Я маю вибратися звідси!",
+          "objective": "Проведіть Руула в безпечне місце, а потім поговоріть з Ямою Сніжним Копитом на заставі при Тріснутому Дереві.",
+          "progress": "Ти {стать:бачив:бачила} мого брата Руула? Він пішов до лісу кілька днів тому й досі не повернувся...",
+          "complete": "Ти {стать:знайшов:знайшла} мого брата! Його схопили Колючохутрі? Це жахливі новини, бо хоча деякі хутропузи — шляхетні істоти, плем'я Колючохутрих спотворено.\n\nДякую, що {стать:визволив:визволила} мого брата, {ім'я}. Не хочу й думати про те, як вони поводилися з бідолашним Руулом. Скоріше за все, він буде довго висипатися після цього випробування.",
+          "en": "Freedom to Ruul",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6503": {
+      "sourceHTMLSHA256": "6166c04982d44d743d06cf3b554f6e66ebfc46bf7e200d1f8467b3330163dd9a",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6503,
+        "name": "Ashenvale Outrunners"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:50-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Ashenvale Outrunners",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6503,
+        "level": 24,
+        "name": "Ashenvale Outrunners",
+        "reprewards": [
+          [
+            530,
+            100
+          ]
+        ],
+        "reqlevel": 19,
+        "side": 2,
+        "xp": 1950,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 24[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12867/kuraybin]Kuray'bin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12867/kuraybin]Kuray'bin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Ashenvale Outrunners",
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 9,
+          "body": "Ashenvale Outrunner slain (9)",
+          "html": "<th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=12856/ashenvale-outrunner\">Ashenvale Outrunner</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"9\">&nbsp;(<span class=\"icon-list-quantity\">9</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Ashenvale Outrunners</h1>Kill 9 <a href=\"/forever/npc=12856/ashenvale-outrunner\">Ashenvale Outrunners</a>, then return to <a href=\"/forever/npc=12867/kuraybin\">Kuray'bin</a> at Splintertree Outpost.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"9\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=12856/ashenvale-outrunner\">Ashenvale Outrunner</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"9\">&nbsp;(<span class=\"icon-list-quantity\">9</span>)</span></td></tr>\n</table>\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>We received reports that <a href=\"/forever/npc=12856/ashenvale-outrunner\">Ashenvale outrunners</a> left Silverwing Outpost not long ago, and now sneak near our territories in the forest.  We don't want them gathering intelligence on our defenses!<br /><br />Sneak through the forests south of our post here and east of the Alliance outpost of Silverwing.  Find and slay the outrunners, then return to me.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">I await reports of your outrunner kills, &lt;name&gt;.</div>\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Very good, &lt;name&gt;. &nbsp;Your hunting skills are impressive...<br /><br />The loss of those outrunners helps blind the Alliance, and when they lack intelligence they are less likely to launch attacks.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12867
+          ]
+        ],
+        "3": [
+          [
+            12867
+          ]
+        ],
+        "8": [
+          "Kill 9 Ashenvale Outrunners, then return to Kuray'bin at Splintertree Outpost."
+        ],
+        "10": [
+          [
+            [
+              12856,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            530,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Ashenvale Outrunners",
+          "4": 19,
+          "5": 24,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Вісниці Ясенедолу",
+          "detail": "Нам доповіли, що вісниці Ясенедолу нещодавно покинули Срібнокрилу заставу і тепер підкрадаються до наших лісних кордонів. Ми не хочемо, щоб вони збирали відомості про нашу оборону!\n\nСпробуй прокрастись лісами на південь від нашого посту і на схід від Срібнокрилої застави, що належить Альянсу. Знайди й вбий вісниць, а потім повертайся до мене.",
+          "objective": "Вбийте 9 вісниць Ясенедолу та поверніться до Курай'біна на заставу Розщепленого Дерева.",
+          "progress": "Я чекаю на твою доповідь про вбитих вісниць, {ім'я}.",
+          "complete": "Дуже добре, {ім'я}. Твої мисливські навички вражають...\n\nВтрата цих вісниць допоможе осліпити Альянс. Якщо їм бракуватиме розвідданих, ймовірність нападів зменшиться.",
+          "en": "Ashenvale Outrunners",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6544": {
+      "sourceHTMLSHA256": "16f27981ebb0cb033e379dc2536e5be936ae48e4410f8a9e300f39cd55df382f",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6544,
+        "name": "Torek's Assault"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:50-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Torek's Assault",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6544,
+        "itemchoices": [
+          [
+            16889,
+            1
+          ],
+          [
+            16890,
+            1
+          ]
+        ],
+        "level": 24,
+        "money": 1700,
+        "name": "Torek's Assault",
+        "reprewards": [
+          [
+            76,
+            150
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 2,
+        "xp": 2400,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 24[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12858/torek]Torek[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12877/ertog-ragetusk]Ertog Ragetusk[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Torek's Assault",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Take Silverwing Outpost. (1)",
+          "html": "<th><p style=\"height:26px\">&nbsp;</p></th><td><span>Take Silverwing Outpost.</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Torek's Assault</h1>Escort <a href=\"/forever/npc=12858/torek\">Torek</a> on his attack against Silverwing Outpost and Duriel Moonfire, then report to <a href=\"/forever/npc=12877/ertog-ragetusk\">Ertog Ragetusk</a> at Splintertree Post.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><p style=\"height:26px\">&nbsp;</p></th><td><span>Take Silverwing Outpost.</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Hey!  &lt;class&gt;!  Come here!<br /><br />My raiders and I are about to attack the Silverwing Outpost to the west.  Our target is its leader, Duriel Moonfire.  Scouts report the outpost is defended heavily with sentinels and warriors.  The battle will be glorious!<br /><br />Do you want to share in the glory, &lt;name&gt;, and aid us?  If so, then when it's over you can report our success to my superior, <a href=\"/forever/npc=12877/ertog-ragetusk\">Ertog Ragetusk</a> in Splintertree.<br /><br />What do you say.  Are you with us?<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">So <a href=\"/forever/npc=12858/torek\">Torek</a>'s attack was successful! &nbsp;Well done, &lt;name&gt;. &nbsp;Night elves are decent foes. &nbsp;A little skinny, but strong and fierce! &nbsp;I'm sure the battle was something to see...<br /><br />And I hope you gained a scar or two!</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12858
+          ]
+        ],
+        "3": [
+          [
+            12877
+          ]
+        ],
+        "8": [
+          "Escort Torek on his attack against Silverwing Outpost and Duriel Moonfire, then report to Ertog Ragetusk at Splintertree Post."
+        ],
+        "9": [
+          "Take Silverwing Outpost.",
+          {
+            "331": [
+              [
+                64.65,
+                75.35
+              ]
+            ]
+          }
+        ],
+        "26": [
+          [
+            76,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Torek's Assault",
+          "4": 20,
+          "5": 24,
+          "6": 8589934770,
+          "17": 331,
+          "23": 2,
+          "24": 2,
+          "p": 33554822
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Наліт Торека",
+          "detail": "Гей! {Клас:к}! Йди-но сюди!\n\nЯ і мої рейдери збираємося напасти на Срібнокрилу заставу на заході. Наша ціль — їхня командирка, Дюріель Місяцежар. Розвідники доповідають, що заставу добре охороняють вартові та воїни. Битва буде славною!\n\nХочеш розділити цю славу, {ім'я}? Тоді по закінченню звітуй про наш успіх моєму начальнику, Ертоґу Лютоіклу на заставі при Тріснутому Дереві.\n\nТо що скажеш? Ти з нами?",
+          "objective": "Супроводжуйте Торека під час його нападу на Срібнокрилу заставу та Дюріель Місяцежар, а потім звітуйте Ертоґу Лютоіклу на заставі при Тріснутому Дереві.",
+          "progress": "Торек мав завдання напасти на Срібнокрилу заставу. Чи був напад успішним?",
+          "complete": "То напад Торека вдався! Чудова робота, {ім'я}. Нічні ельфи — гідний ворог. Трохи кістляві, але сильні та люті! Впевнений, що битва була видовищною...\n\nСподіваюся, ти {стать:отримав:отримала} кілька шрамів!",
+          "en": "Torek's Assault",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "6641": {
+      "sourceHTMLSHA256": "9c7aac0d792a700b241d6d14daf1dbc69678512f1385552f8d5cb0b9cedb61e3",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 6641,
+        "name": "Vorsha the Lasher"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:50-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Vorsha the Lasher",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 6641,
+        "itemrewards": [
+          [
+            17692,
+            1
+          ]
+        ],
+        "level": 23,
+        "name": "Vorsha the Lasher",
+        "reqlevel": 20,
+        "side": 2,
+        "xp": 2300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12717/muglash]Muglash[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12863/warsong-runner]Warsong Runner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Vorsha the Lasher",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 1,
+          "body": "Defeat Vorsha the Lasher (1)",
+          "html": "<th><p style=\"height:26px\">&nbsp;</p></th><td><span>Defeat Vorsha the Lasher</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Vorsha the Lasher</h1>Keep <a href=\"/forever/npc=12717/muglash\">Muglash</a> safe as he travels to the brazier. Help him by putting the brazier out, then protect him as you fight against the Naga.<br /><br />If you are successful, return to the Zoram'gar Outpost and inform the <a href=\"/forever/npc=12863/warsong-runner\">Warsong Runner</a> of the death of Vorsha the Lasher.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><p style=\"height:26px\">&nbsp;</p></th><td><span>Defeat Vorsha the Lasher</span><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>Vorsha the Lasher... the fiendish hydra that roams the seas...<br /><br />She has attacked our outpost, each time unprovoked, laying waste to anything that falls in her path.<br /><br />But I am ready, &lt;name&gt;. I have prepared to best the hydra and end these attacks on Zoram'gar.<br /><br />The naga honor the wicked nature of this beast with a brazier that remains lit on an island just off the coast. I believe that if we put it out, Vorsha will appear in anger.<br /><br />We will need help, so be sure to bring some strong allies.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">I have witnessed many naga attacks since I arrived here. It puts my mind at ease that Vorsha will no longer roam freely.<br /><br />We are in your debt, &lt;name&gt;.</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            12717
+          ]
+        ],
+        "3": [
+          [
+            12863
+          ]
+        ],
+        "8": [
+          "Keep Muglash safe as he travels to the brazier. Help him by putting the brazier out, then protect him as you fight against the Naga.",
+          "",
+          "If you are successful, return to the Zoram'gar Outpost and inform the Warsong Runner of the death of Vorsha the Lasher."
+        ],
+        "9": [
+          "Defeat Vorsha the Lasher",
+          {
+            "331": [
+              [
+                9.59,
+                27.58
+              ]
+            ]
+          }
+        ],
+        "S": {
+          "1": "Vorsha the Lasher",
+          "4": 20,
+          "5": 23,
+          "6": 8589934770,
+          "17": 331,
+          "23": 2,
+          "24": 2,
+          "p": 390
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Ворша Катівниця",
+          "detail": "Ворша Катівниця... жахлива гідра, що блукає морями...\n\nВона нападала на наш форпост зненацька, знищуючи все на своєму шляху.\n\nАле я готовий, {ім'я}. Я можу подолати гідру та покінчити з цими нападами на Зорам'ґар.\n\nНаги вшановують люту сутність цієї істоти, запалюючи жарівницю на острові неподалік від узбережжя. Думаю, якщо ми її погасимо, то розлючена Ворша з'явиться аби покарати нас.\n\nНам буде потрібна допомога, тож не забудь взяти з собою сильних друзів.",
+          "objective": "Захищайте Муґлаша, поки він прямує до жарівниці. Допоможіть йому погасити жарівницю, а потім захистіть його під час битви з нагами.\n\nПо успішному виконанню завдання, поверніться до форпосту Зорам'ґар та повідомте гінця Пісні Війни про смерть Ворші Катівниці.",
+          "progress": null,
+          "complete": "За час мого перебування в форпості я бачив багато нападів наг. Мене заспокоює думка про те, що Ворша більше не буде вільно блукати морем.\n\nМи твої боржники, {ім'я}.",
+          "en": "Vorsha the Lasher",
+          "faction": "Horde"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "1056": {
+      "sourceHTMLSHA256": "77b3413fce27f6ea186f6b3e3db2d06b846ac4b6360849c27c545efce7e0314b",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 1056,
+        "name": "Journey to Stonetalon Peak"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:50-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Journey to Stonetalon Peak",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 331,
+        "category2": 1,
+        "id": 1056,
+        "level": 18,
+        "name": "Journey to Stonetalon Peak",
+        "reprewards": [
+          [
+            69,
+            50
+          ]
+        ],
+        "reqlevel": 18,
+        "side": 1,
+        "xp": 680,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 18[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3996/faldreas-goethshael]Faldreas Goeth'Shael[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3994/keeper-albagorm]Keeper Albagorm[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]18[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Journey to Stonetalon Peak",
+        "Description",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Journey to Stonetalon Peak</h1>Travel to <a href=\"/forever/npc=3994/keeper-albagorm\">Keeper Albagorm</a> on Stonetalon Peak.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>The forest spirits tell me you are brave and willing to travel.<br /><br />To the south, not far from Mystral Lake, there lies a tunnel named The Talondeep Path. Through this tunnel you will come to an area known as Windshear Crag in the Stonetalon Mountains. Once there, journey to the southwest past Cragpool Lake and then north, up the steep slope until you reach Stonetalon Peak.<br /><br />There awaits <a href=\"/forever/npc=3994/keeper-albagorm\">Keeper Albagorm</a>. Heed his bidding, &lt;race&gt;.<br /><br />The journey will be perilous.<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Finally, you arrive. I see Faldreas has listened to the forest spirits....</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            3996
+          ]
+        ],
+        "3": [
+          [
+            3994
+          ]
+        ],
+        "8": [
+          "Travel to Keeper Albagorm on Stonetalon Peak."
+        ],
+        "26": [
+          [
+            69,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Journey to Stonetalon Peak",
+          "4": 18,
+          "5": 18,
+          "6": 4294967373,
+          "17": 331,
+          "22": 1057,
+          "23": 8,
+          "27": 1057,
+          "p": 33554566
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Подорож до Каміннопазуристого піку",
+          "detail": "Лісові духи кажуть про твою хоробрість і жагу до подорожей.\n\nНа півдні, неподалік від озера Містраль, є Пазуродертий тунель. Через нього ти зможеш дістатися до місцини, що зветься Вітрокосі скелі в Каміннопазуристих горах. Коли ти опинишся там, рушай на південний захід повз Скельнодонне озеро, а потім на північ й вгору крутим схилом, аж поки не дістанешся до Каміннопазуристого піку.\n\nТам на тебе чекатиме хранитель Альбаґорм. Слухайся його наказів, {раса:к}.\n\nПодорож буде небезпечною.",
+          "objective": "Рушайте до хранителя Альбаґорма на Каміннопазуристий пік.",
+          "progress": null,
+          "complete": "Нарешті ти {стать:прибув:прибула}. Бачу, Фалдріс прислухався до лісових духів...",
+          "en": "Journey to Stonetalon Peak",
+          "faction": "Both"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    },
+    "1057": {
+      "sourceHTMLSHA256": "8c733465819abf3ff47905f107b67cd98c03009f0cdf7fc0ea84ff3a3cec168f",
+      "g_pageInfo": {
+        "type": 5,
+        "typeId": 1057,
+        "name": "Reclaiming the Charred Vale"
+      },
+      "pageMetadata": {
+        "environment": 16,
+        "foreverVersion": "1.60.1",
+        "serverTime": "2026-11-18T19:27:50-06:00"
+      },
+      "ownPrimaryQuestRecord": {
+        "name_enus": "Reclaiming the Charred Vale",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "ownPrimaryExtendedRecord": {
+        "category": 406,
+        "category2": 1,
+        "id": 1057,
+        "level": 27,
+        "name": "Reclaiming the Charred Vale",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 2200,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "objectives_changed"
+          ],
+          "lines": [
+            "Objectives: adds Bloodfury Ambusher x6, Bloodfury Harpy x6, Bloodfury Roguefeather x6, and 1 more",
+            "Objectives: no longer Bloodfury Ambusher x7, Bloodfury Harpy x7, Bloodfury Roguefeather x7, and 1 more",
+            "Objective text: 6 instead of 7, 6 instead of 7, 6 instead of 7, and more"
+          ],
+          "notShown": []
+        }
+      },
+      "quickFactsMarkup": [
+        "[ul][li]Level: 27[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3994/keeper-albagorm]Keeper Albagorm[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3994/keeper-albagorm]Keeper Albagorm[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      ],
+      "headings": [
+        "Reclaiming the Charred Vale",
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "primaryItemAndObjectiveRows": [
+        {
+          "quantity": 6,
+          "body": "Bloodfury Harpy slain (6)",
+          "html": "<th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4022/bloodfury-harpy\">Bloodfury Harpy</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td>"
+        },
+        {
+          "quantity": 6,
+          "body": "Bloodfury Ambusher slain (6)",
+          "html": "<th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4025/bloodfury-ambusher\">Bloodfury Ambusher</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td>"
+        },
+        {
+          "quantity": 6,
+          "body": "Bloodfury Slayer slain (6)",
+          "html": "<th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4024/bloodfury-slayer\">Bloodfury Slayer</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td>"
+        },
+        {
+          "quantity": 6,
+          "body": "Bloodfury Roguefeather slain (6)",
+          "html": "<th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4023/bloodfury-roguefeather\">Bloodfury Roguefeather</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td>"
+        }
+      ],
+      "scriptFreeQuestSectionHTML": "<h1 class=\"heading-size-1\">Reclaiming the Charred Vale</h1><a href=\"/forever/npc=3994/keeper-albagorm\">Keeper Albagorm</a> on Stonetalon Peak wants you to slay 6 <a href=\"/forever/npc=4022/bloodfury-harpy\">Bloodfury Harpies</a>, 6 <a href=\"/forever/npc=4025/bloodfury-ambusher\">Bloodfury Ambushers</a>, 6 <a href=\"/forever/npc=4024/bloodfury-slayer\">Bloodfury Slayers</a> and 6 <a href=\"/forever/npc=4023/bloodfury-roguefeather\">Bloodfury Roguefeathers</a>.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"6\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4022/bloodfury-harpy\">Bloodfury Harpy</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"6\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4025/bloodfury-ambusher\">Bloodfury Ambusher</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"6\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4024/bloodfury-slayer\">Bloodfury Slayer</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"6\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4023/bloodfury-roguefeather\">Bloodfury Roguefeather</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"6\">&nbsp;(<span class=\"icon-list-quantity\">6</span>)</span></td></tr>\n</table>\n\n<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n<h2 class=\"heading-size-3\">Description</h2>As a protector of the forest spirits you can undoubtedly guess why I am alarmed.<br /><br />You have traveled through these mountains to reach this peak. Surely you have seen the travesty which has befallen the land. Greed has led to the destruction of these sacred hills.<br /><br />The Charred Vale to the south was set afire by the greedy mechanized army of industrialists. Worse yet, the Bloodfuries that have encroached on the land refuse us passage in to begin regrowth.<br /><br />Drive the wretched harpies out, &lt;name&gt;!<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">There is much work to be done before the Charred Vale can be restored to the lush forest it once was.<br /><br />Clear the area of those foul menaces, &lt;name&gt;! Only then can we begin to reclaim what belongs to nature.</div>\n\n<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Now that the Bloodfuries have suffered such a great loss, perhaps the true work of restoring the land can begin....</div>\n\n",
+      "fullInstalledRecord": {
+        "2": [
+          [
+            3994
+          ]
+        ],
+        "3": [
+          [
+            3994
+          ]
+        ],
+        "8": [
+          "Keeper Albagorm on Stonetalon Peak wants you to slay 7 Bloodfury Harpies, 7 Bloodfury Ambushers, 7 Bloodfury Slayers and 7 Bloodfury Roguefeathers."
+        ],
+        "10": [
+          [
+            [
+              4022,
+              null,
+              0
+            ],
+            [
+              4025,
+              null,
+              0
+            ],
+            [
+              4024,
+              null,
+              0
+            ],
+            [
+              4023,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "28": [
+          1056
+        ],
+        "S": {
+          "1": "Reclaiming the Charred Vale",
+          "4": 20,
+          "5": 27,
+          "6": 4294967373,
+          "17": 406,
+          "22": 1059,
+          "23": 8,
+          "p": 167772806
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Відновлення Обвугленої долини",
+          "detail": "Ти, як {стать:захисник:захисниця} лісових духів, безсумнівно, можеш здогадатися, чому я стривожений.\n\nЩоб попасти на цю вершину, ти {стать:пройшов:пройшла} через гори та, скорше за все, {стать:бачив:бачила}, що сталося з цією землею. Жадібність призвела до знищення священних пагорбів.\n\nОбвуглена долина на півдні була спалена механізованою армією жадібних промисловців. Гірше того, клан Криваволютих гарпій, що зазіхнув на цю землю, не дає нам пройти та розпочати її відродження.\n\nВижени цих нікчемних гарпій, {ім'я}!",
+          "objective": "Хранитель Альбаґорм з Каміннопазуристого піку просить вас вбити 7 криваволютих гарпій, 7 криваволютих душительок, 7 криваволютих вбивць і 7 криваволютих оперених пройдисвіток.",
+          "progress": "Попереду ще багато роботи, перш ніж Обвуглена долина знову стане пишним лісом, яким вона була раніше.\n\nОчисть територію Обвугленої долини від цієї мерзенної загрози, {ім'я}! Тільки тоді ми зможемо розпочати відновлювати те, що належить природі.",
+          "complete": "Тепер, коли клан Криваволютих зазнав великих втрат, можливо, розпочнеться справжня робота по відновленню землі...",
+          "en": "Reclaiming the Charred Vale",
+          "faction": "Alliance"
+        }
+      ],
+      "uaChangedSince1.0.2": false,
+      "fieldAvailability": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "allParsedFieldsEqualFrozenEnglish": true,
+      "runtimeClaim": "Current database source reviewed; live acceptance not tested."
+    }
+  },
+  "rawProvenance": {
+    "result": "PASS",
+    "fields": {
+      "264": {
+        "title": {
+          "englishSHA256": "9538216ff6584b2c2542b5fcc0dddebd678b9f86338da362e123ed9f7c221f4d",
+          "rawDeepLSHA256": "d3233f908dd1833a969d8562ba2cf7c0cdb4e97ebca7ad94683554935faaeddd",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseJSONPointer": "/translations/0/translations/0/text"
+        },
+        "detail": {
+          "englishSHA256": "f57b03ee4cd5796bdc62aa522f5a3faf46f63a23e553e23933453b7676420264",
+          "rawDeepLSHA256": "26c2d2e38d24975c47b225eb298f9bbc6522fec6b6d8241c3fc7189377dfba80",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "responseJSONPointer": "/translations/0/translations/1/text"
+        },
+        "objective": {
+          "englishSHA256": "4abc387e65f37a4c26e84053d6dd3ab8eb63c764f63fbf0d5a7e6e397ebc0f92",
+          "rawDeepLSHA256": "e1548de7daab9302d35f3319692132ef8d0e6fc76d71bc234bdd3278390d13f3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "responseJSONPointer": "/translations/0/translations/2/text"
+        },
+        "progress": {
+          "englishSHA256": "a45bbd9a51efe6b9acbc574fe45ba16a0184d098a0fc2c8cb0542374eadd6732",
+          "rawDeepLSHA256": "8229c5275ff9d80903e130624db7072b2c827ddc923de6b3158792dcc63801f5",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "responseJSONPointer": "/translations/0/translations/3/text"
+        },
+        "complete": {
+          "englishSHA256": "f9a58657d597482b9328d4d1eefd69aae4fe820b453c9d4addaa27605fe641e0",
+          "rawDeepLSHA256": "375cc3d205aef7503c605920c0a5bebff0b4017bd3426eb471c7d56285494bf4",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "responseJSONPointer": "/translations/0/translations/4/text"
+        }
+      },
+      "235": {
+        "title": {
+          "englishSHA256": "ff401e2f66d7575aeaa9697d31feaf498db4155d3646a0511e75dfc24757b444",
+          "rawDeepLSHA256": "319cfa2804bd505f916af8b401779d0204979e3176bd22b1b4e6137be1c41b13",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "responseJSONPointer": "/translations/0/translations/5/text"
+        },
+        "detail": {
+          "englishSHA256": "98778e742130f16cfbe17f9f16bdb7f010aae589cfdb703ba5f1765a5e43db18",
+          "rawDeepLSHA256": "83eba67a33276f36732260710a3b844004e10fbf00aea0f6faf50643552e1857",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "responseJSONPointer": "/translations/0/translations/6/text"
+        },
+        "objective": {
+          "englishSHA256": "ae53025f03f598ef591b322e15bb295dcec84f6d41d746d20a20eacb90b022f8",
+          "rawDeepLSHA256": "d85e99621db89b6e0645cf6af9ad12ff8726fcfc7e3c458a8de37d1393f2cfd0",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "responseJSONPointer": "/translations/0/translations/7/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "468879e03f8e1f7abc6c1dd05be9cd0f760dacccd2c7fe54067312765fa18e9f",
+          "rawDeepLSHA256": "2201179e3a83583f92d29bbf53a877f9d7760062ee55863f5bde1685d47dca6b",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "responseJSONPointer": "/translations/0/translations/8/text"
+        }
+      },
+      "742": {
+        "title": {
+          "englishSHA256": "ff401e2f66d7575aeaa9697d31feaf498db4155d3646a0511e75dfc24757b444",
+          "rawDeepLSHA256": "319cfa2804bd505f916af8b401779d0204979e3176bd22b1b4e6137be1c41b13",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "responseJSONPointer": "/translations/0/translations/9/text"
+        },
+        "detail": {
+          "englishSHA256": "98778e742130f16cfbe17f9f16bdb7f010aae589cfdb703ba5f1765a5e43db18",
+          "rawDeepLSHA256": "d4002f64375423b8a05766141619acff63d655c847de96c4d96559381b7eb4c4",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "responseJSONPointer": "/translations/0/translations/10/text"
+        },
+        "objective": {
+          "englishSHA256": "ae53025f03f598ef591b322e15bb295dcec84f6d41d746d20a20eacb90b022f8",
+          "rawDeepLSHA256": "38883566d4a9b628c443f5f96673088b3d46738c85b265f912242d9239577cd9",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "responseJSONPointer": "/translations/0/translations/11/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "468879e03f8e1f7abc6c1dd05be9cd0f760dacccd2c7fe54067312765fa18e9f",
+          "rawDeepLSHA256": "11c760ece9ea27adf7847e3c25959876e180859dbb3f6fa7a8b0b90af0952a1f",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "responseJSONPointer": "/translations/0/translations/12/text"
+        }
+      },
+      "6383": {
+        "title": {
+          "englishSHA256": "ff401e2f66d7575aeaa9697d31feaf498db4155d3646a0511e75dfc24757b444",
+          "rawDeepLSHA256": "319cfa2804bd505f916af8b401779d0204979e3176bd22b1b4e6137be1c41b13",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "responseJSONPointer": "/translations/0/translations/13/text"
+        },
+        "detail": null,
+        "objective": null,
+        "progress": null,
+        "complete": {
+          "englishSHA256": "ebac32325e93d35ed1464f6e158c7c0d9fc55236c90f483b7dbbf45596abf969",
+          "rawDeepLSHA256": "10bb1920f9ac7bb612e36f4463c7d6dc991312900353a3d25f61df45c4c6818c",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "responseJSONPointer": "/translations/0/translations/14/text"
+        }
+      },
+      "6542": {
+        "title": {
+          "englishSHA256": "3359b8eeeeb4709d5a46fa4afb1771c7dc68e0b2d701d6835693143268b83c52",
+          "rawDeepLSHA256": "c5de4aed1fbef3e46e478f01f7da2804e7146e4e7e4266283ca63a939b59ad35",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "responseJSONPointer": "/translations/0/translations/15/text"
+        },
+        "detail": {
+          "englishSHA256": "8411b9bcdc0b60c4679a43e47cb9cabbbcf65258480e638c67e3c4d44b0b3a34",
+          "rawDeepLSHA256": "b6c2d7c2ee88e80f8805f90934aa90594ae05053014276728141f741f9f279ba",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "responseJSONPointer": "/translations/0/translations/16/text"
+        },
+        "objective": {
+          "englishSHA256": "1ef008a7146f4f6d90710a0e0e4d84fb9cc9ace28cb932baf1947421b1423db5",
+          "rawDeepLSHA256": "5a1e000d153c293057550137d047736082f606e2160a6d8c6ae81a77eea665f7",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "responseJSONPointer": "/translations/0/translations/17/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "383f6b24818d693fa09f1a51dcb53ee7079cb2467da425238fa659ae8df1e3ae",
+          "rawDeepLSHA256": "19621591260c0f9d897ec3d93ab5e74452727e12681986bd46bc8b01a6a06135",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "responseJSONPointer": "/translations/0/translations/18/text"
+        }
+      },
+      "6545": {
+        "title": {
+          "englishSHA256": "2cafc5cedd45e95bef1fa067638bae7c1c29e3558564c8bc8b4ca0e595ffab99",
+          "rawDeepLSHA256": "33fdd2e594153c3c6ad231792fded74b82ee55db7aeee2b9d80b1269ff47f30d",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "responseJSONPointer": "/translations/0/translations/19/text"
+        },
+        "detail": null,
+        "objective": null,
+        "progress": {
+          "englishSHA256": "7038a472556516b379a0977977e39c0a12594843dea713a4bbb97d8603952e58",
+          "rawDeepLSHA256": "8672db23d4c489d139eda2dd7887720d9e56faaa54988b2ca40e2c243938e7dc",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "responseJSONPointer": "/translations/0/translations/20/text"
+        },
+        "complete": {
+          "englishSHA256": "09bffbb6f4f841bbb01ef5ba7a473343808be0b996ad4a36263a9f8ad6bcc800",
+          "rawDeepLSHA256": "db43dc0dd70cc3e21f3910a8bea6b08607662bddca86e38f9b114d58dc8fbde1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseJSONPointer": "/translations/0/translations/0/text"
+        }
+      },
+      "6546": {
+        "title": {
+          "englishSHA256": "d7235fa575bbc9f6576a6f519498a68f4b03e445da40cb9ad04bad3c7abca919",
+          "rawDeepLSHA256": "a66826fa18be7f4f9908fe8de3bce3f5e5063d114f764905235b496bd8ea909a",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "responseJSONPointer": "/translations/0/translations/1/text"
+        },
+        "detail": null,
+        "objective": null,
+        "progress": {
+          "englishSHA256": "955578d38411b70484266ecf1ca66b2be02f2cdd41840681368acd2edc7d6900",
+          "rawDeepLSHA256": "9b0f676b9ed60be99ce906da234620ce840a31730d91cc5c1ab59c6704d39cd0",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "responseJSONPointer": "/translations/0/translations/2/text"
+        },
+        "complete": {
+          "englishSHA256": "5bded0babc742a55ec6fd49d912c8980ca830e310d0badc5dc4856dfd3910bdb",
+          "rawDeepLSHA256": "e36fdb715aaf103e975e279efc2c304f4a3de72992af2991a6b6b6d3c09dfeb4",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "responseJSONPointer": "/translations/0/translations/3/text"
+        }
+      },
+      "6547": {
+        "title": {
+          "englishSHA256": "ae3c8649ed1635b300d01051e1bdfe59334fc4526d22418820dd9fd86d7b63df",
+          "rawDeepLSHA256": "9cace18fa3ec1149defe029416d8735be5dd8eb9a7744abbe87bc4df2b88aa2e",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "responseJSONPointer": "/translations/0/translations/4/text"
+        },
+        "detail": null,
+        "objective": null,
+        "progress": {
+          "englishSHA256": "c5c91500c9a1752fb6667e1e10546065ad393c5b31001714ff440f02c998d22b",
+          "rawDeepLSHA256": "5e063d1c9a5348c49b1e44076cff3969a988280cd6e7e3ea8687930df88f41e9",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "responseJSONPointer": "/translations/0/translations/5/text"
+        },
+        "complete": {
+          "englishSHA256": "848be964acffa8fe52871ab3c7cd43a9def29cfcbe1982a8647e905067d0cdea",
+          "rawDeepLSHA256": "ef4002ec13eee9d85c8043dafca490520ea90a11547e34599124e4b9a5e26c7d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "responseJSONPointer": "/translations/0/translations/6/text"
+        }
+      },
+      "6442": {
+        "title": {
+          "englishSHA256": "ab689b7ea43e48b5347a97e4d785dd1841a8e4e814189a15ddb044985075412c",
+          "rawDeepLSHA256": "08a405712969c3c11b24b901e59ca18aaac4b208f79b86e7c3ac19d075ec334f",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "responseJSONPointer": "/translations/0/translations/7/text"
+        },
+        "detail": {
+          "englishSHA256": "49840d936b7400106d9544a097f96d1c8578b1e0ceb3470cdcc05567798d1865",
+          "rawDeepLSHA256": "2d5ea595389e5f9a89999fae02c7ed05885fea5d7ca7c6f91d2e789b3966e9c1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "responseJSONPointer": "/translations/0/translations/8/text"
+        },
+        "objective": {
+          "englishSHA256": "7d9482c5792f98f4792fb87e92bcbdac6debc4cdb872584a9a74a15501df13d0",
+          "rawDeepLSHA256": "bab857f7931d1e246c2a2229c4ab7fc5a5b0a9582929a69e694b1bbb434acc24",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "responseJSONPointer": "/translations/0/translations/9/text"
+        },
+        "progress": {
+          "englishSHA256": "0ef7b52ba807d567b14063a70597173d0fe6d4b29cfc13d468fdd60fa9f1d89e",
+          "rawDeepLSHA256": "6a2b94287548a87fbcc7564364a47125b07d78d5fb0f4579229e1f805349e74d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "responseJSONPointer": "/translations/0/translations/10/text"
+        },
+        "complete": {
+          "englishSHA256": "098f68333ea412c5062ebf295cded6d1b1e7e65797e5f86b0d7e78c7c345d124",
+          "rawDeepLSHA256": "567431bf786c283a787305157e0a3ff3c82bcff5c107a34a4529edfabf5967a5",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "responseJSONPointer": "/translations/0/translations/11/text"
+        }
+      },
+      "6462": {
+        "title": {
+          "englishSHA256": "fd4293cbf9e99a8c4279ec2ba3b4ab0729f2247accc55a9e11fe9b0880e69cf2",
+          "rawDeepLSHA256": "b6875836500317fc2826997a14155c9c3c44aa666218e9180bcb9f37817fc189",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "responseJSONPointer": "/translations/0/translations/12/text"
+        },
+        "detail": {
+          "englishSHA256": "885ea5873b216cedb7080755290372a134fcbcec4929a57f4e13bfb752982b73",
+          "rawDeepLSHA256": "ec56525b71629c1d3162c76594d9d6a7ef08b603bc5e0b1f9c4f94e60ae75a46",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "responseJSONPointer": "/translations/0/translations/13/text"
+        },
+        "objective": {
+          "englishSHA256": "79ffe94a43a6d6520fecfcd844526d88cad7643539927012713dbf1d186225de",
+          "rawDeepLSHA256": "d6f773902e80a375b81204e3593787cbb938dd2a3bd81f53f8f5580ff885fe5e",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "responseJSONPointer": "/translations/0/translations/14/text"
+        },
+        "progress": {
+          "englishSHA256": "67c249e6c188b337f6a060ae3ebd50841cca7e3525e3504b647f43f34e8ac076",
+          "rawDeepLSHA256": "807e8c05c73fd26389545e4c73d398e6475efe54304ed1f52cf68653116ca8ee",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "responseJSONPointer": "/translations/0/translations/15/text"
+        },
+        "complete": {
+          "englishSHA256": "6a80c3e0e54e06156b834253c42c937698abd63ed89a3bbe881c2afa72cab5e0",
+          "rawDeepLSHA256": "07383b8cbb4ae4ef5433458fd4b6d42ae05300e2b9e9d75940d087b1bc5df32a",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "responseJSONPointer": "/translations/0/translations/16/text"
+        }
+      },
+      "6482": {
+        "title": {
+          "englishSHA256": "f80af0b1583b0b5de3fe11ebdcad0045a0cd3c358ea90c4e209e8dac0a94b5fa",
+          "rawDeepLSHA256": "777126dee794d8993e7f62f0c48bc72348c7feb9ec963154cf1ff86579905e59",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "responseJSONPointer": "/translations/0/translations/17/text"
+        },
+        "detail": {
+          "englishSHA256": "3a7e5ab87164cfc2c93498e1bff0e9cdc31ac548d4956c821ce1a878b065b77c",
+          "rawDeepLSHA256": "03cc2c976126de1d4e79c93945bcded1ed0452a0fbcc6ab65aef6cfd5ab791b1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "responseJSONPointer": "/translations/0/translations/18/text"
+        },
+        "objective": {
+          "englishSHA256": "b93f96ed4e80dff42bc80937ed1e859eb5726accfd48304c330aa6933e82e6f7",
+          "rawDeepLSHA256": "eb39a0bacfa8bb9be7aab0cbc74698d244fabbc6b9f92aafc94b3ccdf6bde46e",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "responseJSONPointer": "/translations/0/translations/19/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "df74d7a2b6d3ae0d6ea87325ead65423d8fb883f8130cf9adb7b3d24ff11d0fa",
+          "rawDeepLSHA256": "58cc99b9bc64dd37e31e25ffd681d15520c43e2312df9862c95698a0d94abf6f",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "responseJSONPointer": "/translations/0/translations/20/text"
+        }
+      },
+      "6503": {
+        "title": {
+          "englishSHA256": "aa64cd2c44169558e98724798c5c3f8002bf8c2d5b2e722180be624011312881",
+          "rawDeepLSHA256": "372f5a49969ffd1a812c13d93bfab813cc1598da5bda3291d81f281e86599ad0",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 21,
+          "responseIndex": 21,
+          "responseJSONPointer": "/translations/0/translations/21/text"
+        },
+        "detail": {
+          "englishSHA256": "436b83de2c880acb7665f9068c21fd39ca0c4ea7a326ebc5b6164befcab13f00",
+          "rawDeepLSHA256": "5a9332d58a7c3e74a50d232eb74423cf2a1b9a728d78c7db7f18f1f1e8c41bd6",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 22,
+          "responseIndex": 22,
+          "responseJSONPointer": "/translations/0/translations/22/text"
+        },
+        "objective": {
+          "englishSHA256": "b3eecfe1e301d9e2ab71d38ca2c440f94477668117a07f6e357cc365fd767d69",
+          "rawDeepLSHA256": "997b0e75ae2fac22b2821f2d3e6349112d314f3d1db50d087ec6b4fd6fc75c68",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 23,
+          "responseIndex": 23,
+          "responseJSONPointer": "/translations/0/translations/23/text"
+        },
+        "progress": {
+          "englishSHA256": "fa83cda85bbffc114706aa1e4e0182a6c573f64ef0c71cc75ccaf3eea6c58a49",
+          "rawDeepLSHA256": "fff54ad9e085b34d41b7fd0bd58812046159c2d79416a910b2110147755e7510",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 24,
+          "responseIndex": 24,
+          "responseJSONPointer": "/translations/0/translations/24/text"
+        },
+        "complete": {
+          "englishSHA256": "c31c16be17e5f3216acaf0f6118769a55dc975c4a68c65de642351b33f34abf3",
+          "rawDeepLSHA256": "a6e8db2408c3ccbce4505b77b58775087159bf1d60633caaaa9604e53eba2136",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 25,
+          "responseIndex": 25,
+          "responseJSONPointer": "/translations/0/translations/25/text"
+        }
+      },
+      "6544": {
+        "title": {
+          "englishSHA256": "948f6d1c95a0495a56e7a6f2faff01ba00eae331810db5f27562aa134b428264",
+          "rawDeepLSHA256": "860f6f361e741e745aed01313a1dde7d61d403c59acf63cf7e4c26d88eb28526",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 26,
+          "responseIndex": 26,
+          "responseJSONPointer": "/translations/0/translations/26/text"
+        },
+        "detail": {
+          "englishSHA256": "13b957c8e59b096c12a39eb33c1c9138b0f2c0798894a4e7bcab4fbf0e976079",
+          "rawDeepLSHA256": "d1d9a36dcecd618e6e6922802ddbf52a80cf232068fe39b7e6ae5fedf37cf492",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 27,
+          "responseIndex": 27,
+          "responseJSONPointer": "/translations/0/translations/27/text"
+        },
+        "objective": {
+          "englishSHA256": "06db96cdacbe6c3a4e6f9e26b73eae4a129ba3c9aab9fe6843a9ae42f8a5f567",
+          "rawDeepLSHA256": "9dcb1dc61835d05ab6ecebae775c15a2adcd561840095dcca90b62c469aa637b",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 28,
+          "responseIndex": 28,
+          "responseJSONPointer": "/translations/0/translations/28/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "37bd3b878ae381a687cf3b0a84e73d69ff14c78b6e9859f02b1819af348a52c0",
+          "rawDeepLSHA256": "4d0ae98dcb3f6fff2c5925f2244b761ad0ae1b7e9aa6dae3d8cc712f143edd7c",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 29,
+          "responseIndex": 29,
+          "responseJSONPointer": "/translations/0/translations/29/text"
+        }
+      },
+      "6641": {
+        "title": {
+          "englishSHA256": "35e375724aa578bf535d016ad121e1911aaf0fa3e78ebe75e6d1e06f1c721bc9",
+          "rawDeepLSHA256": "c1961181b71f1f920aff9d1010b4aca017ba87deafbbc2bea645d0efe169b7c8",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 30,
+          "responseIndex": 30,
+          "responseJSONPointer": "/translations/0/translations/30/text"
+        },
+        "detail": {
+          "englishSHA256": "30624409d3f438158f79d6ba8f53ebbc4a517c8448e6d1684b6fbc391f4b0f3a",
+          "rawDeepLSHA256": "761d6b98f675d9db7381cdb62f2628b61541a63e62790a6f76672b7f69b61aee",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseJSONPointer": "/translations/0/translations/0/text"
+        },
+        "objective": {
+          "englishSHA256": "adc814161a8dce1517bee7bbe0f906e2db053d4df33247c6c013f6ff5e8f0947",
+          "rawDeepLSHA256": "272c425cb35cbeef2af37d2cd145e299ecca86480a7792ea08e7fabbdeb1d35c",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "responseJSONPointer": "/translations/0/translations/1/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "86beb3e9220689b201c51e6e3c5b9adfec9f4d5309e3e2facf7f4d04bb7e1228",
+          "rawDeepLSHA256": "6afa0ed2f639dd8ddc60a79afdf890918f04627a5b2346b0ebcec7725db488de",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "responseJSONPointer": "/translations/0/translations/2/text"
+        }
+      },
+      "1056": {
+        "title": {
+          "englishSHA256": "f3c6b0f2c4b90e46d1bbbab825e453961c5359bbec4110093a2fd2291dfad3a0",
+          "rawDeepLSHA256": "604c05009815f087b1d9269003b333b7a347ddbcd18e7f083b51872a22662215",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "responseJSONPointer": "/translations/0/translations/3/text"
+        },
+        "detail": {
+          "englishSHA256": "f1ad805e620d554d9c1d706002cf03924e223e81413775a4b565bac36c83d08d",
+          "rawDeepLSHA256": "f1f954631b93eb51158cd772af8ab50ccfda358ef7538596dc13c2a542d7afb8",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "responseJSONPointer": "/translations/0/translations/4/text"
+        },
+        "objective": {
+          "englishSHA256": "1accffafddf729eb5add765657308d609bd454569dc26721d9e0d1c751058d7c",
+          "rawDeepLSHA256": "0c7a37e4b1a3aa36f558554eba357fa21028f9fe998a34195f6f6dd4daa7b4d6",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "responseJSONPointer": "/translations/0/translations/5/text"
+        },
+        "progress": null,
+        "complete": {
+          "englishSHA256": "7aec5aac29a7ebc6312e65384162a1d2a87f96763499331beab6dcdb3c48801c",
+          "rawDeepLSHA256": "5eae0e4128b5cbc5a5713267f47b87dd44d43f003bbabb9c1787fdab2559a93b",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "responseJSONPointer": "/translations/0/translations/6/text"
+        }
+      },
+      "1057": {
+        "title": {
+          "englishSHA256": "4afa27bb2558bb5de7acb3de1f0a1033435fc5cde96dd957f93a5de6cdb24543",
+          "rawDeepLSHA256": "dc66926c0a0ef34f04447b6806c70d4a9bafbae684ff5786f32ba1fc9bcc0063",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "responseJSONPointer": "/translations/0/translations/7/text"
+        },
+        "detail": {
+          "englishSHA256": "5ec3c64658494da867256bc69045d4c3c4c9926c489975e27fdaca861e604057",
+          "rawDeepLSHA256": "09faac7ed83f28c8ed67cae31bc5a5dd3f7f6d383547dabd6e0f745c0e248b06",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "responseJSONPointer": "/translations/0/translations/8/text"
+        },
+        "objective": {
+          "englishSHA256": "eebc045cb9b705bab1a47451456da01a2e0a3ba73f9200a2ab875df6225d63af",
+          "rawDeepLSHA256": "f141bd28a6f228e15a55c6dd837575d0896528582ca2690cb886f570709990c2",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "responseJSONPointer": "/translations/0/translations/9/text"
+        },
+        "progress": {
+          "englishSHA256": "fa2ff7c06a9dd5b41d9c4498c11c3ac41c5d25b64c1c7d358c5f4700286be45a",
+          "rawDeepLSHA256": "09689f1e405a2d3a881768ed112b16d6257509b7b98cd3fe3db7b21ec5acf7bd",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "responseJSONPointer": "/translations/0/translations/10/text"
+        },
+        "complete": {
+          "englishSHA256": "16193d2db4ce76e2830951a2ab68e9141beef3fa88cdb8d76923e0c102023efa",
+          "rawDeepLSHA256": "90198b3f2dc5ff190df9ba79113e3b594297083935bfc7370d7a50017f4a4b87",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "responseJSONPointer": "/translations/0/translations/11/text"
+        }
+      }
+    },
+    "batches": [
+      {
+        "inputFile": "deepl-request-01.json",
+        "inputSHA256": "4a665542d0ed50844569fc77f959b0049bd6e792eabac0ccc1c0a9772c0c4e23",
+        "responseFile": "deepl-response-01.json",
+        "responseSHA256": "6119c4661cf1f87d04bc6671c19b6d92b6c77fece9830c1a0f539217b21e683d",
+        "indexFile": "deepl-index-01.json",
+        "indexSHA256": "d10aabe62bffba88f854b02fcb6f139c37349df033faef7dfdccd88290a981e3",
+        "inputCharacters": 4744,
+        "fieldCount": 21,
+        "responseSerialization": "Actual structuredContent values; duplicate transport text envelope omitted.",
+        "independentlyVerified": true,
+        "sourceAutoDetected": "EN",
+        "target": "MY"
+      },
+      {
+        "inputFile": "deepl-request-02.json",
+        "inputSHA256": "dd3f48686c2a37af0559986ed477fcfe08664e31b444cd0c54408847bd9d82e8",
+        "responseFile": "deepl-response-02.json",
+        "responseSHA256": "a71cbb1d3d958c2d9e03430dc69b51202c92603a990d2b85fba2c88352a4fa44",
+        "indexFile": "deepl-index-02.json",
+        "indexSHA256": "beab8e4b74278c0a687f21ab8e3157aced93bc2ac1b2b505cf09e1536f9ecddb",
+        "inputCharacters": 4646,
+        "fieldCount": 31,
+        "responseSerialization": "Actual structuredContent values; duplicate transport text envelope omitted.",
+        "independentlyVerified": true,
+        "sourceAutoDetected": "EN",
+        "target": "MY"
+      },
+      {
+        "inputFile": "deepl-request-03.json",
+        "inputSHA256": "121b9f4b800505e5b908e6e217eec6d97c17bba4e50ea316eb02571405b17826",
+        "responseFile": "deepl-response-03.json",
+        "responseSHA256": "48c0148e40d7ff3b6617e0da87a33cddac4b9d1dccdd23a44bd5dec6f13d638c",
+        "indexFile": "deepl-index-03.json",
+        "indexSHA256": "18548e98e7ffe19ec6c1f4f20205b43dcc11a6408a76ebfd4f582fd2f54309ef",
+        "inputCharacters": 2495,
+        "fieldCount": 12,
+        "responseSerialization": "Actual structuredContent values; duplicate transport text envelope omitted.",
+        "independentlyVerified": true,
+        "sourceAutoDetected": "EN",
+        "target": "MY"
+      }
+    ],
+    "fieldsVerified": 64,
+    "availableFieldsAccountedFor": 64,
+    "historicalGenuinenessLimit": "Actual saved request/structured-response/index content and source/raw/edited/audit hashes independently checked; saved files alone do not re-execute historical API calls. Parent observed actual DeepL calls."
+  },
+  "tests": {
+    "originalLinguisticLintIssues": [],
+    "originalBuildReleaseValidateFields": "PASS for all 16 quests/80 states",
+    "paragraphCounts": [
+      [
+        264,
+        "title",
+        1
+      ],
+      [
+        264,
+        "detail",
+        4
+      ],
+      [
+        264,
+        "objective",
+        1
+      ],
+      [
+        264,
+        "progress",
+        2
+      ],
+      [
+        264,
+        "complete",
+        2
+      ],
+      [
+        235,
+        "title",
+        1
+      ],
+      [
+        235,
+        "detail",
+        2
+      ],
+      [
+        235,
+        "objective",
+        1
+      ],
+      [
+        235,
+        "complete",
+        2
+      ],
+      [
+        742,
+        "title",
+        1
+      ],
+      [
+        742,
+        "detail",
+        2
+      ],
+      [
+        742,
+        "objective",
+        1
+      ],
+      [
+        742,
+        "complete",
+        2
+      ],
+      [
+        6383,
+        "title",
+        1
+      ],
+      [
+        6383,
+        "complete",
+        2
+      ],
+      [
+        6542,
+        "title",
+        1
+      ],
+      [
+        6542,
+        "detail",
+        2
+      ],
+      [
+        6542,
+        "objective",
+        1
+      ],
+      [
+        6542,
+        "complete",
+        1
+      ],
+      [
+        6545,
+        "title",
+        1
+      ],
+      [
+        6545,
+        "progress",
+        3
+      ],
+      [
+        6545,
+        "complete",
+        1
+      ],
+      [
+        6546,
+        "title",
+        1
+      ],
+      [
+        6546,
+        "progress",
+        3
+      ],
+      [
+        6546,
+        "complete",
+        1
+      ],
+      [
+        6547,
+        "title",
+        1
+      ],
+      [
+        6547,
+        "progress",
+        3
+      ],
+      [
+        6547,
+        "complete",
+        1
+      ],
+      [
+        6442,
+        "title",
+        1
+      ],
+      [
+        6442,
+        "detail",
+        4
+      ],
+      [
+        6442,
+        "objective",
+        1
+      ],
+      [
+        6442,
+        "progress",
+        1
+      ],
+      [
+        6442,
+        "complete",
+        1
+      ],
+      [
+        6462,
+        "title",
+        1
+      ],
+      [
+        6462,
+        "detail",
+        3
+      ],
+      [
+        6462,
+        "objective",
+        1
+      ],
+      [
+        6462,
+        "progress",
+        1
+      ],
+      [
+        6462,
+        "complete",
+        3
+      ],
+      [
+        6482,
+        "title",
+        1
+      ],
+      [
+        6482,
+        "detail",
+        4
+      ],
+      [
+        6482,
+        "objective",
+        1
+      ],
+      [
+        6482,
+        "complete",
+        2
+      ],
+      [
+        6503,
+        "title",
+        1
+      ],
+      [
+        6503,
+        "detail",
+        2
+      ],
+      [
+        6503,
+        "objective",
+        1
+      ],
+      [
+        6503,
+        "progress",
+        1
+      ],
+      [
+        6503,
+        "complete",
+        2
+      ],
+      [
+        6544,
+        "title",
+        1
+      ],
+      [
+        6544,
+        "detail",
+        4
+      ],
+      [
+        6544,
+        "objective",
+        1
+      ],
+      [
+        6544,
+        "complete",
+        2
+      ],
+      [
+        6641,
+        "title",
+        1
+      ],
+      [
+        6641,
+        "detail",
+        5
+      ],
+      [
+        6641,
+        "objective",
+        2
+      ],
+      [
+        6641,
+        "complete",
+        2
+      ],
+      [
+        1056,
+        "title",
+        1
+      ],
+      [
+        1056,
+        "detail",
+        4
+      ],
+      [
+        1056,
+        "objective",
+        1
+      ],
+      [
+        1056,
+        "complete",
+        1
+      ],
+      [
+        1057,
+        "title",
+        1
+      ],
+      [
+        1057,
+        "detail",
+        4
+      ],
+      [
+        1057,
+        "objective",
+        1
+      ],
+      [
+        1057,
+        "progress",
+        2
+      ],
+      [
+        1057,
+        "complete",
+        1
+      ]
+    ],
+    "markerCaseAndOrder": "PASS for all 64 available fields",
+    "questPrimaryIdentityEnvironment": "PASS type5/current assigned ID/Forever env16 for all16",
+    "installedRecordsExact": "PASS compared complete installed metadata records, not summary masks",
+    "UAExact": "PASS actual pinned Lua catalog and previous1.0.2 selected record comparison",
+    "inMemoryCandidateLinguisticLintIssues": [],
+    "inMemoryCandidateBuildReleaseValidateFields": "PASS; corrections still require root exact-hash application and independent rereview"
+  },
+  "issues": [
+    {
+      "id": 1056,
+      "field": "detail",
+      "type": "maintained_pronunciation_core_conflict",
+      "reviewedMyanmarSHA256": "4131e11c3acd4d11fd6dd0a013bc56534f618de4604c5fc501e3df95522d923b",
+      "englishSHA256": "f1ad805e620d554d9c1d706002cf03924e223e81413775a4b565bac36c83d08d",
+      "old": "မင်းက သတ္တိရှိပြီး ခရီးသွားလိုစိတ်ရှိတယ်လို့ တောဝိညာဉ်တွေက ငါ့ကို ပြောတယ်။\n\nတောင်ဘက်၊ Mystral Lake (မစ်စထရယ်လ် လိတ်ခ်) နဲ့ မဝေးတဲ့နေရာမှာ The Talondeep Path (သ တဲလန်ဒီပ် ပက်သ်) လို့ခေါ်တဲ့ လိုဏ်ခေါင်းတစ်ခု ရှိတယ်။ ဒီလိုဏ်ခေါင်းကို ဖြတ်သွားရင် Stonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) ရှိ Windshear Crag (ဝင်းဒ်ရှီးယား ခရက်ဂ်) လို့ခေါ်တဲ့ ဒေသကို ရောက်မယ်။ အဲဒီကိုရောက်ရင် အနောက်တောင်ဘက်ကို သွားပြီး Cragpool Lake (ခရက်ဂ်ပူးလ် လိတ်ခ်) ကို ကျော်ပါ။ ပြီးတော့ မြောက်ဘက်ကို လှည့်ပြီး မတ်စောက်တဲ့ တောင်စောင်းအတိုင်း တက်သွားရင် Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ကို ရောက်မယ်။\n\nအဲဒီမှာ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) စောင့်နေတယ်။ သူ့အမိန့်ကို နာခံပါ၊ <race>။\n\nဒီခရီးဟာ အန္တရာယ်များလိမ့်မယ်။",
+      "new": "မင်းက သတ္တိရှိပြီး ခရီးသွားလိုစိတ်ရှိတယ်လို့ တောဝိညာဉ်တွေက ငါ့ကို ပြောတယ်။\n\nတောင်ဘက်၊ Mystral Lake (မစ်စ်ထရယ်လ် လိတ်ခ်) နဲ့ မဝေးတဲ့နေရာမှာ The Talondeep Path (သ တဲလန်ဒီပ် ပက်သ်) လို့ခေါ်တဲ့ လိုဏ်ခေါင်းတစ်ခု ရှိတယ်။ ဒီလိုဏ်ခေါင်းကို ဖြတ်သွားရင် Stonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) ရှိ Windshear Crag (ဝင်းဒ်ရှီးယား ခရက်ဂ်) လို့ခေါ်တဲ့ ဒေသကို ရောက်မယ်။ အဲဒီကိုရောက်ရင် အနောက်တောင်ဘက်ကို သွားပြီး Cragpool Lake (ခရက်ဂ်ပူးလ် လိတ်ခ်) ကို ကျော်ပါ။ ပြီးတော့ မြောက်ဘက်ကို လှည့်ပြီး မတ်စောက်တဲ့ တောင်စောင်းအတိုင်း တက်သွားရင် Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ကို ရောက်မယ်။\n\nအဲဒီမှာ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) စောင့်နေတယ်။ သူ့အမိန့်ကို နာခံပါ၊ <race>။\n\nဒီခရီးဟာ အန္တရာယ်များလိမ့်မယ်။",
+      "proposedFullField": "မင်းက သတ္တိရှိပြီး ခရီးသွားလိုစိတ်ရှိတယ်လို့ တောဝိညာဉ်တွေက ငါ့ကို ပြောတယ်။\n\nတောင်ဘက်၊ Mystral Lake (မစ်စ်ထရယ်လ် လိတ်ခ်) နဲ့ မဝေးတဲ့နေရာမှာ The Talondeep Path (သ တဲလန်ဒီပ် ပက်သ်) လို့ခေါ်တဲ့ လိုဏ်ခေါင်းတစ်ခု ရှိတယ်။ ဒီလိုဏ်ခေါင်းကို ဖြတ်သွားရင် Stonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) ရှိ Windshear Crag (ဝင်းဒ်ရှီးယား ခရက်ဂ်) လို့ခေါ်တဲ့ ဒေသကို ရောက်မယ်။ အဲဒီကိုရောက်ရင် အနောက်တောင်ဘက်ကို သွားပြီး Cragpool Lake (ခရက်ဂ်ပူးလ် လိတ်ခ်) ကို ကျော်ပါ။ ပြီးတော့ မြောက်ဘက်ကို လှည့်ပြီး မတ်စောက်တဲ့ တောင်စောင်းအတိုင်း တက်သွားရင် Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ကို ရောက်မယ်။\n\nအဲဒီမှာ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) စောင့်နေတယ်။ သူ့အမိန့်ကို နာခံပါ၊ <race>။\n\nဒီခရီးဟာ အန္တရာယ်များလိမ့်မယ်။",
+      "proposedMyanmarSHA256": "22dac58f1cb399dcd829e796dcd00ca641b14449ad8367a96e081d07010488a6",
+      "reason": "Mystral Lake is the same Ashenvale landmark/core as maintained Lake Mystral; use its existing မစ်စ်ထရယ်လ် core with Lake pronunciation placed in the source name order. Current English identity and route stay unchanged.",
+      "terms": [
+        "Mystral Lake"
+      ]
+    },
+    {
+      "id": 1057,
+      "field": "detail",
+      "type": "maintained_pronunciation_core_conflict",
+      "reviewedMyanmarSHA256": "e3c312c14556c241ea101455624bae8db13ee78ceb1e21fa6ab78efc7682ea8b",
+      "englishSHA256": "5ec3c64658494da867256bc69045d4c3c4c9926c489975e27fdaca861e604057",
+      "old": "တောဝိညာဉ်တွေကို ကာကွယ်သူတစ်ယောက်အနေနဲ့ ငါ ဘာကြောင့် ထိတ်လန့်နေသလဲဆိုတာ မင်း အလွယ်တကူ ခန့်မှန်းနိုင်မှာပါ။\n\nဒီတောင်ထိပ်ကို ရောက်ဖို့ မင်းဟာ ဒီတောင်တန်းတွေကို ဖြတ်လာခဲ့တာပဲ။ ဒီနယ်မြေမှာ ဖြစ်သွားတဲ့ ဆိုးဝါးတဲ့ အဖြစ်အပျက်ကို မင်းမြင်ခဲ့ရမှာ သေချာတယ်။ လောဘကြောင့် ဒီမြင့်မြတ်တဲ့ တောင်ကုန်းတွေ ပျက်စီးသွားခဲ့ရတယ်။\n\nတောင်ဘက်က Charred Vale (ချားဒ် ဗေးလ်) ကို လောဘကြီးတဲ့ စက်မှုလုပ်ငန်းရှင်တွေရဲ့ စက်ယန္တရားတပ်ဖွဲ့က မီးရှို့ခဲ့တယ်။ ပိုဆိုးတာက ဒီမြေကို ကျူးကျော်ဝင်လာတဲ့ Bloodfuries (ဘလဒ်ဖြူရီဇ်) တွေဟာ ငါတို့ ပြန်လည်စိမ်းလန်းအောင် စတင်လုပ်ဆောင်ဖို့တောင် ဝင်ခွင့်မပေးကြဘူး။\n\nအဲဒီ စက်ဆုပ်စရာ harpies (ဟာပီဇ်) တွေကို မောင်းထုတ်လိုက်၊ <name>!",
+      "new": "တောဝိညာဉ်တွေကို ကာကွယ်သူတစ်ယောက်အနေနဲ့ ငါ ဘာကြောင့် ထိတ်လန့်နေသလဲဆိုတာ မင်း အလွယ်တကူ ခန့်မှန်းနိုင်မှာပါ။\n\nဒီတောင်ထိပ်ကို ရောက်ဖို့ မင်းဟာ ဒီတောင်တန်းတွေကို ဖြတ်လာခဲ့တာပဲ။ ဒီနယ်မြေမှာ ဖြစ်သွားတဲ့ ဆိုးဝါးတဲ့ အဖြစ်အပျက်ကို မင်းမြင်ခဲ့ရမှာ သေချာတယ်။ လောဘကြောင့် ဒီမြင့်မြတ်တဲ့ တောင်ကုန်းတွေ ပျက်စီးသွားခဲ့ရတယ်။\n\nတောင်ဘက်က Charred Vale (ချားဒ် ဗေးလ်) ကို လောဘကြီးတဲ့ စက်မှုလုပ်ငန်းရှင်တွေရဲ့ စက်ယန္တရားတပ်ဖွဲ့က မီးရှို့ခဲ့တယ်။ ပိုဆိုးတာက ဒီမြေကို ကျူးကျော်ဝင်လာတဲ့ Bloodfuries (ဘလဒ်ဖျူရီဇ်) တွေဟာ ငါတို့ ပြန်လည်စိမ်းလန်းအောင် စတင်လုပ်ဆောင်ဖို့တောင် ဝင်ခွင့်မပေးကြဘူး။\n\nအဲဒီ စက်ဆုပ်စရာ harpies (ဟာပီဇ်) တွေကို မောင်းထုတ်လိုက်၊ <name>!",
+      "proposedFullField": "တောဝိညာဉ်တွေကို ကာကွယ်သူတစ်ယောက်အနေနဲ့ ငါ ဘာကြောင့် ထိတ်လန့်နေသလဲဆိုတာ မင်း အလွယ်တကူ ခန့်မှန်းနိုင်မှာပါ။\n\nဒီတောင်ထိပ်ကို ရောက်ဖို့ မင်းဟာ ဒီတောင်တန်းတွေကို ဖြတ်လာခဲ့တာပဲ။ ဒီနယ်မြေမှာ ဖြစ်သွားတဲ့ ဆိုးဝါးတဲ့ အဖြစ်အပျက်ကို မင်းမြင်ခဲ့ရမှာ သေချာတယ်။ လောဘကြောင့် ဒီမြင့်မြတ်တဲ့ တောင်ကုန်းတွေ ပျက်စီးသွားခဲ့ရတယ်။\n\nတောင်ဘက်က Charred Vale (ချားဒ် ဗေးလ်) ကို လောဘကြီးတဲ့ စက်မှုလုပ်ငန်းရှင်တွေရဲ့ စက်ယန္တရားတပ်ဖွဲ့က မီးရှို့ခဲ့တယ်။ ပိုဆိုးတာက ဒီမြေကို ကျူးကျော်ဝင်လာတဲ့ Bloodfuries (ဘလဒ်ဖျူရီဇ်) တွေဟာ ငါတို့ ပြန်လည်စိမ်းလန်းအောင် စတင်လုပ်ဆောင်ဖို့တောင် ဝင်ခွင့်မပေးကြဘူး။\n\nအဲဒီ စက်ဆုပ်စရာ harpies (ဟာပီဇ်) တွေကို မောင်းထုတ်လိုက်၊ <name>!",
+      "proposedMyanmarSHA256": "4eaee655d00214bf26fbcad5aafe3560f2a3e42abae15d89275ac154705c2250",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review.",
+      "terms": [
+        "Bloodfuries"
+      ]
+    },
+    {
+      "id": 1057,
+      "field": "objective",
+      "type": "maintained_pronunciation_core_conflict",
+      "reviewedMyanmarSHA256": "e85be4bbb12992d9fc3f517228056f56f82eece62131cef6c5b44025f7138284",
+      "englishSHA256": "eebc045cb9b705bab1a47451456da01a2e0a3ba73f9200a2ab875df6225d63af",
+      "old": "Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ရှိ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) က Bloodfury Harpies (ဘလဒ်ဖြူရီ ဟာပီဇ်) ၆ ကောင်၊ Bloodfury Ambushers (ဘလဒ်ဖြူရီ အမ်ဘုရှာဇ်) ၆ ကောင်၊ Bloodfury Slayers (ဘလဒ်ဖြူရီ စလေးယာဇ်) ၆ ကောင်နှင့် Bloodfury Roguefeathers (ဘလဒ်ဖြူရီ ရိုးဂ်ဖဲသာဇ်) ၆ ကောင်ကို သတ်ရန် တောင်းဆိုထားသည်။",
+      "new": "Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ရှိ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) က Bloodfury Harpies (ဘလဒ်ဖျူရီ ဟာပီဇ်) ၆ ကောင်၊ Bloodfury Ambushers (ဘလဒ်ဖျူရီ အမ်ဘုရှာဇ်) ၆ ကောင်၊ Bloodfury Slayers (ဘလဒ်ဖျူရီ စလေးယာဇ်) ၆ ကောင်နှင့် Bloodfury Roguefeathers (ဘလဒ်ဖျူရီ ရိုးဂ်ဖဲသာဇ်) ၆ ကောင်ကို သတ်ရန် တောင်းဆိုထားသည်။",
+      "proposedFullField": "Stonetalon Peak (စတုန်းတဲလန် ပီးခ်) ရှိ Keeper Albagorm (ကီးပါ အယ်လ်ဘာဂေါမ်း) က Bloodfury Harpies (ဘလဒ်ဖျူရီ ဟာပီဇ်) ၆ ကောင်၊ Bloodfury Ambushers (ဘလဒ်ဖျူရီ အမ်ဘုရှာဇ်) ၆ ကောင်၊ Bloodfury Slayers (ဘလဒ်ဖျူရီ စလေးယာဇ်) ၆ ကောင်နှင့် Bloodfury Roguefeathers (ဘလဒ်ဖျူရီ ရိုးဂ်ဖဲသာဇ်) ၆ ကောင်ကို သတ်ရန် တောင်းဆိုထားသည်။",
+      "proposedMyanmarSHA256": "aad248b2625f70ea68721aed008c6c9cde2a11b47d0f81006e73ac842c9e2703",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review.",
+      "terms": [
+        "Bloodfury Harpies",
+        "Bloodfury Ambushers",
+        "Bloodfury Slayers",
+        "Bloodfury Roguefeathers"
+      ]
+    },
+    {
+      "id": 1057,
+      "field": "complete",
+      "type": "maintained_pronunciation_core_conflict",
+      "reviewedMyanmarSHA256": "b44c3e4fe2617044114786657dfdc073eab26af67177fb4d3f90a214de21baea",
+      "englishSHA256": "16193d2db4ce76e2830951a2ab68e9141beef3fa88cdb8d76923e0c102023efa",
+      "old": "အခု Bloodfuries (ဘလဒ်ဖြူရီဇ်) တွေ အလွန်အထိနာသွားပြီဆိုတော့ ဒီနယ်မြေကို ပြန်လည်ထူထောင်ဖို့ တကယ့်အလုပ်တွေ စတင်နိုင်တော့မယ် ထင်ပါရဲ့....",
+      "new": "အခု Bloodfuries (ဘလဒ်ဖျူရီဇ်) တွေ အလွန်အထိနာသွားပြီဆိုတော့ ဒီနယ်မြေကို ပြန်လည်ထူထောင်ဖို့ တကယ့်အလုပ်တွေ စတင်နိုင်တော့မယ် ထင်ပါရဲ့....",
+      "proposedFullField": "အခု Bloodfuries (ဘလဒ်ဖျူရီဇ်) တွေ အလွန်အထိနာသွားပြီဆိုတော့ ဒီနယ်မြေကို ပြန်လည်ထူထောင်ဖို့ တကယ့်အလုပ်တွေ စတင်နိုင်တော့မယ် ထင်ပါရဲ့....",
+      "proposedMyanmarSHA256": "7cea366674782ea3991c6922ab6c6e893b44a2b5dd714283577946565da7f67e",
+      "reason": "Reconcile the shared Fury/Furies core with maintained Southfury, Windfury and Windfuries ဖျူရီ/ဖျူရီဇ်. Each new Bloodfury compound/plural retains its full source identity; all surrounding meaning, six-per-target bindings and markers stay unchanged. Assisted editorial consistency, pending native pronunciation review.",
+      "terms": [
+        "Bloodfuries"
+      ]
+    }
+  ],
+  "proposedPronunciations": {
+    "Mystral Lake": "မစ်စ်ထရယ်လ် လိတ်ခ်",
+    "Bloodfuries": "ဘလဒ်ဖျူရီဇ်",
+    "Bloodfury Harpies": "ဘလဒ်ဖျူရီ ဟာပီဇ်",
+    "Bloodfury Ambushers": "ဘလဒ်ဖျူရီ အမ်ဘုရှာဇ်",
+    "Bloodfury Slayers": "ဘလဒ်ဖျူရီ စလေးယာဇ်",
+    "Bloodfury Roguefeathers": "ဘလဒ်ဖျူရီ ရိုးဂ်ဖဲသာဇ်"
+  },
+  "authorExactMaintainedEntryMismatches": {}
+}

@@ -1,0 +1,70 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-19T01:57:37.556743+00:00",
+  "version": "1.2.13",
+  "questIDs": 1536,
+  "translatedFields": 7018,
+  "newQuestIDs": 50,
+  "newEnabledFields": 187,
+  "newAvailableFields": 188,
+  "rawDeepLFieldMappings": 188,
+  "sourceAndTranslationReview": "PASS after10 independently reviewed new-field corrections and9 maintained-core mappings",
+  "pythonTests": 21,
+  "luaRegressionGroups": 40,
+  "newDialogueRoutingCases": 150,
+  "sourceIdentityContracts": 47,
+  "donationAccessBoundaryContracts": 3,
+  "negativeCases": {
+    "result": "PASS",
+    "cases": [
+      {
+        "id": 1057,
+        "field": "objective",
+        "mutation": "one current-source6 replaced by7",
+        "rejectedBy": "quantity validation after hash updated",
+        "rejected": true
+      },
+      {
+        "id": 391,
+        "field": "objective",
+        "mutation": "BazilThredd replaced byEdwinVanCleef",
+        "rejectedBy": "literal current-English identity contract",
+        "rejected": true
+      }
+    ],
+    "actualTranslationMutated": false
+  },
+  "newHeldFields": 1,
+  "activeHeldUniqueFields": 59,
+  "allPriorRecordsAndFieldSlotsUnchanged": true,
+  "fontCatalogRoundtripAndZIP": "PASS",
+  "savedCaptureClassification": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-19T01:57:35.409374+00:00",
+    "catalogVersion": "1.2.13",
+    "capturedStates": 282,
+    "capturedQuestIDs": 120,
+    "statusCounts": {
+      "translated": 282
+    },
+    "initialPrioritizedMissingStatesResolved": 13,
+    "initialPrioritizedMissingQuestIDsResolved": 9,
+    "remainingSavedGaps": [],
+    "sourceHashes": [
+      "a5d58a8ad269fdf4c1e0b551ecab1f4437121de7f3e1dd6cb24518a1b4de56c8"
+    ],
+    "selectionCaptureHashUnchanged": true,
+    "method": "Fresh private saved-file audit and composed-catalog title/state classification; no account/character/substituted dialogue exported.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "zip": {
+    "name": "MyanmarForever_v1.2.13.zip",
+    "bytes": 953241,
+    "sha256": "a005295824f31e77a0a72f2b8ebfb32b9ab97ef85071c9cc33df75127bae349c"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested"
+}

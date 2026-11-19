@@ -1,0 +1,94 @@
+{
+  "version": "1.2.13",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-19",
+  "newQuestIDs": 50,
+  "newQuestFields": 187,
+  "newEnabledFieldsTotal": 187,
+  "newAvailableSourceFields": 188,
+  "newSourceAbsentFields": 62,
+  "newHeldFields": [
+    {
+      "id": 2746,
+      "field": "detail",
+      "reason": "Current primary contains literal unresolved <his/her> gender branch; no supported runtime substitution/branch capture available. Raw DeepL omits this marker. Entire source-supported field held rather than inventing gender normalization.",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D2746/items-of-some-consequence",
+      "sourceFile": "2746-wowhead.html",
+      "sourceSHA256": "f8fb95b7d62a1ff2b0424eca7cd1b4f6e35648d996e727dba6b33fd177d54f92",
+      "sourceEnglish": "Trias wants the timetable pushed up some, huh? Okay, we can do that, but I'm not ready. And know this, I'm doing the hard part, but you're the one that's going to get <his/her> hands dirty, understand? Good.\n\nOkay, I'll need you to get me a few things before I can put my plan into effect. I got the perfect disguise that'll get Spybot past those guards.\n\nBring me some silk and a couple apples. The silk's up to you, but Clara's little farm right outside the city has the perfect sized apples.",
+      "rawDeepLProposal": "Trias က အချိန်ဇယားကို နည်းနည်းရှေ့ဆွဲချင်နေတယ်၊ ဟုတ်လား? အိုကေ၊ ကျွန်တော်တို့လုပ်နိုင်ပါတယ်၊ ဒါပေမယ့် ကျွန်တော်ပြင်ဆင်ပြီးပြီမဟုတ်ဘူး။ ဒီကိုမှတ်ထားပါ၊ ကျွန်တော်က အခက်ဆုံးအပိုင်းကို တာဝန်ယူထားတာပေမယ့် လက်ညစ်ပတ်မှာက မင်းပဲဆိုတာနားလည်ထားပါ၊ နားလည်လား? ကောင်းတယ်။\n\nအိုကေ၊ ငါ့အစီအစဉ်ကို အကောင်အထည်ဖော်ဖို့ မတိုင်ခင် မင်းက ငါ့အတွက် အရာအနည်းငယ် ယူပေးရမယ်။ Spybot ကို ထိုစောင့်တွေကို ကျော်လွှားနိုင်စေမယ့် ပြည့်စုံတဲ့ ဖုံးကွယ်ဝတ်စုံတစ်ခု ငါမှာ ရှိတယ်။\n\nချည်တစ်ချို့နဲ့ ပန်းသီးနှစ်လုံး ယူလာပေးပါ။ ချည်က မင်းကြိုက်တာရွေးလို့ရပေမယ့် မြို့ပြင်အပြင်ရှိ Clara ရဲ့ လယ်ယာငယ်မှာ အရွယ်အစားတိကျတဲ့ ပန်းသီးတွေ ရနိုင်တယ်။",
+      "rawDeepLRequestFile": "deepl-request-03.json",
+      "rawDeepLResponseFile": "deepl-response-03.json",
+      "rawDeepLIndexFile": "deepl-index-03.json",
+      "requestIndex": 5,
+      "responseIndex": 5,
+      "responseTargetIndex": 0,
+      "currentLiveVerification": "pending sanitized branch evidence",
+      "englishSHA256": "147d9acb78ebee38f5ac3279cd076e0a7bac7af0a5c03fa0a5773881ed4401a2",
+      "rawDeepLSHA256": "4dfd7befd517bae52352d7ac45997262824b82d896b66100557a12d74d22cc5f",
+      "editedSHA256": null
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 10,
+  "questIDs": 1536,
+  "translatedFields": 7018,
+  "dialogueStates": 4017,
+  "absentOrHeldDialogueStates": 591,
+  "activeHeldUniqueFields": 59,
+  "pythonTests": 21,
+  "luaRegressionGroups": 40,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 47,
+  "newDonationAndAccessBoundaryContracts": 3,
+  "prioritizedCapturedQuestIDs": 9,
+  "prioritizedSavedDialogueStates": 13,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-19T01:57:35.409374+00:00",
+    "catalogVersion": "1.2.13",
+    "capturedStates": 282,
+    "capturedQuestIDs": 120,
+    "statusCounts": {
+      "translated": 282
+    },
+    "initialPrioritizedMissingStatesResolved": 13,
+    "initialPrioritizedMissingQuestIDsResolved": 9,
+    "remainingSavedGaps": [],
+    "sourceHashes": [
+      "a5d58a8ad269fdf4c1e0b551ecab1f4437121de7f3e1dd6cb24518a1b4de56c8"
+    ],
+    "selectionCaptureHashUnchanged": true,
+    "method": "Fresh private saved-file audit and composed-catalog title/state classification; no account/character/substituted dialogue exported.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.4",
+    "commit": "e759b41bc4948e65b35fcf9a3fd9ae6642d7e5e1",
+    "checkedAt": "2026-11-19T01:20:52.456398+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.4",
+    "publishedAtUTC": "2026-11-18T21:33:58Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.4/UA_Forever-1.0.4.zip",
+    "assetSHA256": "bfa16e9a985ef9d11bd38704d690250e55caa7000704d3d55a7907624d61f0f0",
+    "catalogSHA256": "016ad3340a8e7813957a86b12c2b54aca14dd7244dd0de3219390a1ce70b2b9a"
+  },
+  "upstreamChangedExistingQuestIDs": [
+    398
+  ],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 50,
+  "zip": {
+    "name": "MyanmarForever_v1.2.13.zip",
+    "bytes": 953241,
+    "sha256": "a005295824f31e77a0a72f2b8ebfb32b9ab97ef85071c9cc33df75127bae349c"
+  }
+}

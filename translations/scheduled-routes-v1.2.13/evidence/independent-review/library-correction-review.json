@@ -1,0 +1,1077 @@
+{
+  "result": "PASS",
+  "partition": "library",
+  "reviewedAtUTC": "2026-11-19T01:49:44.532193+00:00",
+  "reviewType": "Fresh independent source-aware assisted rereview of root-accepted correction and complete preservation/provenance checks",
+  "initialReview": {
+    "file": "independent-review/library.json",
+    "sha256": "48f9a16f84057d7c272e73c281557f6d18d364687f14f82bb182dfa409bb7e82",
+    "result": "CHANGES_REQUIRED",
+    "findingCount": 1,
+    "unchanged": true
+  },
+  "acceptedCorrection": {
+    "file": "root-reviewed/library/accepted-correction.json",
+    "sha256": "0ef2c4997c574aae4d441d043f851a66993fd24389f49eb835e59257346a0877",
+    "rootAcceptanceVerified": true,
+    "id": 78149,
+    "field": "title",
+    "english": "Fury of the Land",
+    "englishSHA256": "89f641d6042890872f773a2a104582694d33ee86f9d120c339ca80dca6c642bc",
+    "old": "Fury of the Land (ဖြူရီ အော့ဗ် သ လန်းဒ်)",
+    "oldMyanmarSHA256": "fa550c04ceb1b5bc8af4e6b5629a2fb174ed16d04aa39e05363f9a46a11b55d1",
+    "new": "Fury of the Land (ဖျူရီ အော့ဗ် သ လန်းဒ်)",
+    "newMyanmarSHA256": "4ca132f852f174dd0d50d5054837be6575ff9f6aefe038bfd0d55521e10c45a6",
+    "dictionaryTerm": "Fury of the Land",
+    "oldDictionaryValue": "ဖြူရီ အော့ဗ် သ လန်းဒ်",
+    "newDictionaryValue": "ဖျူရီ အော့ဗ် သ လန်းဒ်",
+    "exactHashProposalApplied": true,
+    "linguisticRereview": "Exact retained English is the identifying title of required item209851. The combined annotation retains the whole phrase and the maintained Fury core ဖျူရီ; the surrounding of/the/Land pronunciation is preserved. No meaning, quantity, marker, item identity or source state changes. One first-use annotation matches the corrected compound dictionary exactly.",
+    "maintainedEvidence": {
+      "Southfury": "ဆောက်သ်ဖျူရီ",
+      "Southfury River": "ဆောက်သ်ဖျူရီ ရစ်ဗာ",
+      "Windfury": "ဝင်းဒ်ဖျူရီ",
+      "Windfury Talons": "ဝင်းဒ်ဖျူရီ တဲလန်ဇ်",
+      "Windfury Cones": "ဝင်းဒ်ဖျူရီ ကိုးန်ဇ်"
+    },
+    "resolution": "Original single pronunciation consistency finding resolved in separate candidate; no unresolved findings.",
+    "nativeApproval": false
+  },
+  "counts": {
+    "quests": 18,
+    "fieldSlots": 90,
+    "supportedFields": 52,
+    "sourceAbsences": 38,
+    "correctedFields": 1,
+    "otherSupportedFieldsPreserved": 51,
+    "sourceAbsencesPreserved": 38,
+    "rawProvenanceFieldsVerified": 52
+  },
+  "issues": [],
+  "unresolvedIssues": [],
+  "pronunciationConflicts": [],
+  "sourceHoldProposals": [],
+  "runtimeHoldProposals": [],
+  "sourceProvenanceChain": {
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D78149/fury-of-the-land",
+    "sourceHTMLSHA256": "9e1ca83974342bdb4d9d8624e2b45f80f3eaa302b693cd6940c4f63d038b31cd",
+    "englishSourcesSHA256": "b78e3476ea2a83054faa76b861789ab6523ae840766339710e63cec0c0c9ae6c",
+    "rawRequestSHA256": "090c8de96db6dda1a074053ace9605a836d552a28666ee9326d8d04182d2546b",
+    "rawResponseSHA256": "ab51464645c2386db51a29863d8a9e55d8da01957792a99862530cf567da0a21",
+    "rawIndexSHA256": "3ed709cd322b3f58a0c9fbb043f1f6edf18e2102352d51844f6da533596eddba",
+    "requestIndex": 24,
+    "rawEnglishSHA256": "89f641d6042890872f773a2a104582694d33ee86f9d120c339ca80dca6c642bc",
+    "rawDeepLSHA256": "42422f69d1a3bfbfb06bed837225cab57b97046e29c683fc9da2ec244f1b29af",
+    "rawEditedHashBeforeCorrection": "fa550c04ceb1b5bc8af4e6b5629a2fb174ed16d04aa39e05363f9a46a11b55d1",
+    "initialReviewIssueSHA256": "fa550c04ceb1b5bc8af4e6b5629a2fb174ed16d04aa39e05363f9a46a11b55d1",
+    "acceptedCandidateHash": "4ca132f852f174dd0d50d5054837be6575ff9f6aefe038bfd0d55521e10c45a6",
+    "candidateReviewAuditSHA256": "48248072470f3c404c6630349924d1bc22b569848c2d1328443ae3673bca7854",
+    "maintainedPronunciationsSHA256": "3d4bf5f10107221a61d62b2580f10bbf71fb66f02c59207781591d6a3678e9e9",
+    "authorComparisonProvenanceSHA256": "e1207c6a079be1147540df00802fd37b01b46698d816eda6bda86d760b80c8be",
+    "fullOriginalReviewEvidenceUnchanged": true
+  },
+  "fieldHashPreservation": {
+    "78124": {
+      "title": {
+        "englishSHA256": "22ac7714500fa2baa9d9e82691f6eccca32fe5e7f19f18893218db71f9ef8a1d",
+        "originalMyanmarSHA256": "b06a8cef6b7e5d72796d83a16e21569a1915d5da9599b28f0bfd6ba35b63960d",
+        "candidateMyanmarSHA256": "b06a8cef6b7e5d72796d83a16e21569a1915d5da9599b28f0bfd6ba35b63960d",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "8c3fc2993b0fc2040e0113e307d66bb9ce1d428754fac1a4fb44f1377bb37884",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ccc9d00d2c1ea0e3cb9f59a27292b2b53fc72906be70e01a2f75900068dd5c63",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78127": {
+      "title": {
+        "englishSHA256": "ad53ea1a0ed1ac8acbd1958c76e8c20dd8fccd30b70a8a9acad615fb5a5a1190",
+        "originalMyanmarSHA256": "d1d3ae2f789c4107e8603fa5681f74a1d684bfba4511fe02b7bc4671f8a34646",
+        "candidateMyanmarSHA256": "d1d3ae2f789c4107e8603fa5681f74a1d684bfba4511fe02b7bc4671f8a34646",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "2e5f2255a1e280aeca64e6a132232f5650e84fc6a718584c242db7b98ea413cc",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "2347d5f8eb42c640d2695d5d4ea2a3fb4ae6a38ebed9c4d63a0fe567466dbaa5",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78142": {
+      "title": {
+        "englishSHA256": "b6e453101b2705a2d9d39067845d9fe361e46f3d50fa9457c595cec51eca75e3",
+        "originalMyanmarSHA256": "4d8398959543a60881279951d4c5e2839a0d26534690c46970a000723933f40f",
+        "candidateMyanmarSHA256": "4d8398959543a60881279951d4c5e2839a0d26534690c46970a000723933f40f",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "acbee444424508fb6dc22cd13222492454ffafb165518f12d23f99512a45db6c",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "4cba690bffa74e7da2807de3d3cc4d1afc56d8a8cd7035da93753817c68224cf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78143": {
+      "title": {
+        "englishSHA256": "de1f3f01e51e0513dacdbc5455b8574cd7a82af4d816a3147234d2a76bd7da36",
+        "originalMyanmarSHA256": "b4dd22a5dcf0a9329e10441de78202425b3dd9f9e2831f1d4e98dc37807f821c",
+        "candidateMyanmarSHA256": "b4dd22a5dcf0a9329e10441de78202425b3dd9f9e2831f1d4e98dc37807f821c",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "65934a54ffcb5434c90a907c15bd4407bb25b6edf2e7edbb6a33afac365ccc24",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "4cba690bffa74e7da2807de3d3cc4d1afc56d8a8cd7035da93753817c68224cf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78145": {
+      "title": {
+        "englishSHA256": "b2ef7cd42e09f6442ab29679aa1fbe60ffc19137f9b5854c240b82480f9c5387",
+        "originalMyanmarSHA256": "1396cdae69a3fb71401447fc81530863ab7a221248ee26168eac55f47b2ecb82",
+        "candidateMyanmarSHA256": "1396cdae69a3fb71401447fc81530863ab7a221248ee26168eac55f47b2ecb82",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "a9925e86ee3f97be5391bed2437bfe8fee3f2a1f335c70c27518cfede4b477ea",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "90be359f28df1b67e61e85592b8ee8ee3d6b6c8b4c746daa12f5c52b84f88632",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78146": {
+      "title": {
+        "englishSHA256": "97b16beb88afe46610079d84bc33a68efbeff6543acebce63fea01c65a2b62a2",
+        "originalMyanmarSHA256": "fc11af2814840f5712f3d14558d70610002788dcb9714cca17b5af6773f1e7a1",
+        "candidateMyanmarSHA256": "fc11af2814840f5712f3d14558d70610002788dcb9714cca17b5af6773f1e7a1",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "82cf67d4a84a5085c9bf2e2685d78d271350a9319a54acbf172ad260dce1b627",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "4cba690bffa74e7da2807de3d3cc4d1afc56d8a8cd7035da93753817c68224cf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78147": {
+      "title": {
+        "englishSHA256": "1ab4bc411c5e7b5c699436762b97cc3c23e15516b86a45bd74b58527c5aaa2bc",
+        "originalMyanmarSHA256": "e0d3b5353493adfbe00ea3d20c88ba49e6813cab8056f20e72f981abc5b6a5ea",
+        "candidateMyanmarSHA256": "e0d3b5353493adfbe00ea3d20c88ba49e6813cab8056f20e72f981abc5b6a5ea",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "76a4c9ac3a60d48c5957d47245d4f41bfb6b99a7b1ba809ef16377a07cd7a6b5",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "4cba690bffa74e7da2807de3d3cc4d1afc56d8a8cd7035da93753817c68224cf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78148": {
+      "title": {
+        "englishSHA256": "3680db7ad76030287972b91d6127c0ec206e17b2215d8714dde96653faebc2d5",
+        "originalMyanmarSHA256": "6f5ecbeb450e24194b4c707793d14b053cae5bf7b9182f183a5b82fe980e8cba",
+        "candidateMyanmarSHA256": "6f5ecbeb450e24194b4c707793d14b053cae5bf7b9182f183a5b82fe980e8cba",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "c3cfb08fae6a1ad74840758de847be9a74bfc1a1eb0bbbc8dc1b05ed10f50fce",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "5250380116ca5787a51804651691b86c2ad384fcd86650e42aa9f73d91e4756d",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78149": {
+      "title": {
+        "englishSHA256": "89f641d6042890872f773a2a104582694d33ee86f9d120c339ca80dca6c642bc",
+        "originalMyanmarSHA256": "fa550c04ceb1b5bc8af4e6b5629a2fb174ed16d04aa39e05363f9a46a11b55d1",
+        "candidateMyanmarSHA256": "4ca132f852f174dd0d50d5054837be6575ff9f6aefe038bfd0d55521e10c45a6",
+        "sourceAvailable": true,
+        "preservedFromOriginal": false,
+        "rawDeepLSHA256": "42422f69d1a3bfbfb06bed837225cab57b97046e29c683fc9da2ec244f1b29af",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "5aa4745b7131f6e3374967cc630e335bb9b8dda5eda11f56018ecd9cc5e63724",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79091": {
+      "title": {
+        "englishSHA256": "40e287f41029d503cf146a0cb87a99ea7e126302d139b551d66bd830b68780aa",
+        "originalMyanmarSHA256": "38ffc3a790cd3037f578e502e08a50052bbb3cac7b070fc4be2d07449daa35cf",
+        "candidateMyanmarSHA256": "38ffc3a790cd3037f578e502e08a50052bbb3cac7b070fc4be2d07449daa35cf",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "81ae58456f0479517a03e36d6d058904315e7574621b1673d7d12d74b89570f3",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "df0f9f597262d2b90270c11c003d3cb6843079ec10c584b714364f54a8a3e993",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "8b67fd0f6d7f16b29452f4fa039848e4cf7ddef4d2a5c1d69c913fd2216820bf",
+        "originalMyanmarSHA256": "5aee752def28288995c82a15af65d73d7448cea289acc4509322c99ece1e0b80",
+        "candidateMyanmarSHA256": "5aee752def28288995c82a15af65d73d7448cea289acc4509322c99ece1e0b80",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "72279714f35d9e9e451e3e5204ce961df015dfa318a3113ccdd498620a2f14aa",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79092": {
+      "title": {
+        "englishSHA256": "c94fc7283ceb229b7302578e3e6bb4eeee7b254a1f77ffe3a852baf991c40120",
+        "originalMyanmarSHA256": "b03c623e4fc3640f187df9c5e359ddb29f2acfb166d55f25b8db0523254628e1",
+        "candidateMyanmarSHA256": "b03c623e4fc3640f187df9c5e359ddb29f2acfb166d55f25b8db0523254628e1",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "59586d04102b331b0c9ad4d262c75a19a264a7a5035656446f3f894be2947666",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "0672877ceb9612086093dd8a102ce667b7fb5daf6b95fe97ff9919d75f69b9cf",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "f1980ecee6e78ec63907f9aefabebac3f69e5be63049dd33b69a17b15cadb5e1",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79093": {
+      "title": {
+        "englishSHA256": "d97cdbab9015565a9911dfa16bca97349729f97745f73465f44fdde72e9a8345",
+        "originalMyanmarSHA256": "f1bf87a4cc06975822d72ffb0b6a51d1a7d73ae12853609092f0f7841cc1c30d",
+        "candidateMyanmarSHA256": "f1bf87a4cc06975822d72ffb0b6a51d1a7d73ae12853609092f0f7841cc1c30d",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "b1c02d40f509a1f84f6cac7571758b6f12d042a5923d70a35291589801fc9e6b",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "80bea84265f4ab8f3452c3456269f35a78d3d240e7fbbf8f908525a0f6d721bf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79094": {
+      "title": {
+        "englishSHA256": "a8fa93cef89b12ac7cba0a939390799ddd27078a910a420622b14ee0ca4b0149",
+        "originalMyanmarSHA256": "308f92dd2e4fb26a0bcd6d88722bb88170568cf0330c9875fd0920c455ad5a5d",
+        "candidateMyanmarSHA256": "308f92dd2e4fb26a0bcd6d88722bb88170568cf0330c9875fd0920c455ad5a5d",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "2f58b5ae57e3bdaad5df9d3d043ddf80ca6362c9ad652fd7f49489fa27908979",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "a62af39806828213bbf17190ccd63d580fc05a55ef87b38c25b31042ff1c3f9a",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79095": {
+      "title": {
+        "englishSHA256": "1984ae9e19e17e479974c7491065ee0aa7e192f99768f2411100f14a2c83d225",
+        "originalMyanmarSHA256": "3eacd821d68584d6613850d4c2e6aa75263d4afdfbb572574615b83cd0496b9c",
+        "candidateMyanmarSHA256": "3eacd821d68584d6613850d4c2e6aa75263d4afdfbb572574615b83cd0496b9c",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "bf5c8f244e88bac1320834fabc084c0acd6fbf0bf0e6586edea5d59bd9764030",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "0672877ceb9612086093dd8a102ce667b7fb5daf6b95fe97ff9919d75f69b9cf",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "52269c42389aadecd656f565c640f6f79769287f582459a4c12d22820457f975",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79096": {
+      "title": {
+        "englishSHA256": "d3c5ef45c468bf5403ee99dfd2ff803c0517603d954bb64486776d0af45659a0",
+        "originalMyanmarSHA256": "e506285babdc01813f165b92d110b3b498ae121fbeed9d1b70428d8775d63b69",
+        "candidateMyanmarSHA256": "e506285babdc01813f165b92d110b3b498ae121fbeed9d1b70428d8775d63b69",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "c3921d282edf040069e20e30d84627d5b54ba3f5862518c216739c0b3bc67de5",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ff8092b2bd2b453ee285a5f1c442be4ee331baa3864b433c7924dbe4a5c120bc",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "4cba690bffa74e7da2807de3d3cc4d1afc56d8a8cd7035da93753817c68224cf",
+        "reviewAuditHashExact": true
+      }
+    },
+    "79097": {
+      "title": {
+        "englishSHA256": "3ef31caaead46e08c369b3c0b81990b03e9acfa268bf7cc13aa08008f0d9fc9f",
+        "originalMyanmarSHA256": "a90fe44fad601aae596aa128bb93cdb82c4c5ef9a9c2490077554129ace3f874",
+        "candidateMyanmarSHA256": "a90fe44fad601aae596aa128bb93cdb82c4c5ef9a9c2490077554129ace3f874",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "ece20a4837291a04bde8587f1376352674765b9be72e87eda5296a2141a9bce4",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": "2a3f9f8d8ca2f67e501e7f36d38a67daae2113e0e958e5df3fd02f2c6512ca2c",
+        "originalMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "candidateMyanmarSHA256": "527f4560c0cf89d93e7ba495d5418266524c614069f62e145f97cef45a684e93",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "08e534cfffde2b83282182dfa6c89a0d2eaaf026405a5fe5638c2664c411ba0d",
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "7eda98b7cc783fae4b486155c37643029c9000d289685cc859e71b2679a57887",
+        "originalMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "candidateMyanmarSHA256": "c71e10e2b8e6513036bbed1012feef004a972c9e11e0896a5f1fde82d8883149",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "52269c42389aadecd656f565c640f6f79769287f582459a4c12d22820457f975",
+        "reviewAuditHashExact": true
+      }
+    },
+    "78150": {
+      "title": {
+        "englishSHA256": "fc3b65a986a6870d7a2c83a9eb02cdd5058f10d28469e1817686bdae5f3b0715",
+        "originalMyanmarSHA256": "442ae8dfcbd490addd9153176ed704996aadcb9d9757396b59e0545494d1d536",
+        "candidateMyanmarSHA256": "442ae8dfcbd490addd9153176ed704996aadcb9d9757396b59e0545494d1d536",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "113b9cb3abe24d0f43b5539a38db56065a3b9a6193d2221fa7eb3b7e36ef6162",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "4e8ad670b79141f36549776777763632e5549dba6a388bd0ab0440c87642b132",
+        "originalMyanmarSHA256": "1f500f62c0b00269abb5402db2aab27fbd9e496e4fe3474ce3c6baa64fb677fc",
+        "candidateMyanmarSHA256": "1f500f62c0b00269abb5402db2aab27fbd9e496e4fe3474ce3c6baa64fb677fc",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "7c2237cab2ae8f7d4329adde129f4beccdd8301402c0cf0bec58375aca3a87b7",
+        "reviewAuditHashExact": true
+      }
+    },
+    "97286": {
+      "title": {
+        "englishSHA256": "4055a7962ba0504be1ae94762ec728273cf7e8c0ce875140685b4efb5e8b9500",
+        "originalMyanmarSHA256": "db8484fc1370d87f399513e13803f964986a3e2b22fa94ba1803b680b2660885",
+        "candidateMyanmarSHA256": "db8484fc1370d87f399513e13803f964986a3e2b22fa94ba1803b680b2660885",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "dd69dbfa59b9950322f3175685afceff6eea4c199f1a9ebedbb04c41eedd2f7b",
+        "reviewAuditHashExact": true
+      },
+      "detail": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "objective": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "progress": {
+        "englishSHA256": null,
+        "originalMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": null,
+        "reviewAuditHashExact": true
+      },
+      "complete": {
+        "englishSHA256": "b9f6d595b1d2f5d073337828562a66d0958c28ee79a5d4ccfd9ea46eb684b18c",
+        "originalMyanmarSHA256": "5148a546beae71713d7ffb67a32a37466e555ee04234ae67aa0b78741101dae1",
+        "candidateMyanmarSHA256": "5148a546beae71713d7ffb67a32a37466e555ee04234ae67aa0b78741101dae1",
+        "sourceAvailable": true,
+        "preservedFromOriginal": true,
+        "rawDeepLSHA256": "38b4e094873038c3fad45714bcc441dd353ececbf4f903dcbe18b0f13b49a466",
+        "reviewAuditHashExact": true
+      }
+    }
+  },
+  "tests": {
+    "linguistic_lint.lint": {
+      "result": "PASS",
+      "quests": 18,
+      "issues": []
+    },
+    "build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 18,
+      "slots": 90
+    },
+    "originalSourceParserExact": {
+      "result": "PASS",
+      "quests": 18
+    },
+    "rawDeepLInputIndexResponseAuditChain": {
+      "result": "PASS",
+      "fields": 52
+    },
+    "onlyIntendedTextAndDictionaryChanged": {
+      "result": "PASS",
+      "textChanges": [
+        [
+          "78149",
+          "title"
+        ]
+      ],
+      "dictionaryChanges": [
+        "Fury of the Land"
+      ]
+    },
+    "originalAuthorBytesUnchanged": true,
+    "candidateBytesUnchangedDuringReview": true,
+    "initialReviewBytesUnchanged": true
+  },
+  "originalFileHashesBefore": {
+    "78124-wowhead.html": "9ac718304fd9faaf4154aefabcbad47c163c5faace9447939ef382bd6badea73",
+    "78127-wowhead.html": "b5976d50a4983d1eb57176761abfaa79f00a6998ba110948ad586340efd52c97",
+    "78142-wowhead.html": "e343deb8da938ba5e5fca38de03cbbe0bb155224a4d3d36510c4e6b2c30d426b",
+    "78143-wowhead.html": "a4a38be9a501ae0cbb95b568008fe6bc68181e3d95c70e10b000f0da0ebd733a",
+    "78145-wowhead.html": "93c9bce4a70bbb38e7154795be31479917a4aa517ef4c1fc792202adc643c9d6",
+    "78146-wowhead.html": "fbad1f8511fca1c0850970b3b76b50f93ea2ae8a7ab6ee62cbd16a0282e1a80c",
+    "78147-wowhead.html": "22417346cc1c53bc5c140b2eb43b3c68ebf1c6412c044c77d148d3022b00477f",
+    "78148-wowhead.html": "8866292819dcf5cb9aab3b4ecf4b7ef2a5bfcf19ad1d63e84559bf20cd340194",
+    "78149-wowhead.html": "9e1ca83974342bdb4d9d8624e2b45f80f3eaa302b693cd6940c4f63d038b31cd",
+    "78150-wowhead.html": "847c4b3de1e075856bae01fbf2e00c1a5b0f4f304c841119e350efdd1d8fba51",
+    "79091-wowhead.html": "f5a83f8707f8f37bea3c21210103de27e967d0b7f40f83061a75250eb59566e6",
+    "79092-wowhead.html": "97531c59dc47e237e520529aa6cfdcea23d8563cb406b929b636abde4119bd2d",
+    "79093-wowhead.html": "b024deefb18fb2593985482b09d88cc354890b7db58fcb33774842727d32ba2b",
+    "79094-wowhead.html": "5921213fb43251b25f82e96e4d4154a3aded17d80825dea95ca178f6e2683b3e",
+    "79095-wowhead.html": "e604eab7bfd252d75bc4bcbcf34c5ae001d892405d851e90aeda5fd5fe7cd5ef",
+    "79096-wowhead.html": "27039265a364dc4f64a623b46756ba4ec8c0811816ef32dbe8fe5a2f60faa777",
+    "79097-wowhead.html": "d2b9311a06f7eb19bfa1f8b81dc0f29c7e48548bd5f00e117d56ead46e41beea",
+    "97286-wowhead.html": "ec39efdd10a0560aa173648b5801244a09f5223f017803d9f9056d1e12c0a257",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "comparison-provenance.json": "e1207c6a079be1147540df00802fd37b01b46698d816eda6bda86d760b80c8be",
+    "deepl-index-01.json": "3ed709cd322b3f58a0c9fbb043f1f6edf18e2102352d51844f6da533596eddba",
+    "deepl-index-02.json": "12df5c9bec4f777a6d17cfe6285aa1ec1f9215df96ba21b10b0a001a5bad260a",
+    "deepl-rejected-index-01.json": "12144e042bc7bf0a6dc19f1831470c99990d6a5a8fc75ab9b7970e37da5d25b2",
+    "deepl-rejected-request-01.json": "da3a09d46a54b23244cc03f58dba05b628337228612b6fb7e551d64d9b842350",
+    "deepl-rejected-response-01.json": "8c0c9de8d3e12a336667b8a51abb3b9c08eb3e313c48c70ae7505b9765156ba1",
+    "deepl-request-01.json": "090c8de96db6dda1a074053ace9605a836d552a28666ee9326d8d04182d2546b",
+    "deepl-request-02.json": "2702083b7d7fe0ed8bc58682c4f0d9bf9bd5f5cb4c5c61e4dbe70e229cfd3c0c",
+    "deepl-response-01.json": "ab51464645c2386db51a29863d8a9e55d8da01957792a99862530cf567da0a21",
+    "deepl-response-02.json": "5ada67e3b4ec4cb40115d3fa8644f26f49691c2f689c38e4466ccc589f43c56c",
+    "draft-group1.json": "d273c16607afee96c099cf7ac4e9f2c5e71f222b0b2f6a636c482cb86665d47e",
+    "draft-group2.json": "776b985a20c73c7200b9caab076a217d706756187f3b4521544d4d50d464eae6",
+    "edited-group1.json": "d273c16607afee96c099cf7ac4e9f2c5e71f222b0b2f6a636c482cb86665d47e",
+    "edited-group2.json": "776b985a20c73c7200b9caab076a217d706756187f3b4521544d4d50d464eae6",
+    "edited.json": "251f8736e092407c172242645f3e36fda2d7f35abb02d3f3ccbdf82930f5cabf",
+    "edit_group1.py": "4d36566747c4945a8fb731b4058eec16964e20be62435518b87ca701a69281ed",
+    "english-sources.json": "b78e3476ea2a83054faa76b861789ab6523ae840766339710e63cec0c0c9ae6c",
+    "fetched.json": "eec292fa73acf61383e7c0a922161cd969b40404a39b5cb7c8f71d42c377b852",
+    "finalize.py": "400bce55b318eacccf565648ee6d371c797409a6e2f01d2e0ac31c072791a72a",
+    "frozen-artifact-hashes.json": "a7229aee7fc744725c7e5a1ed34253c46af996afedb782916195449f7ddac707",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "pronunciations.json": "ac72792519a67c433355612cf5625421b245a07be06b8a308096d0335c5ba089",
+    "proposed-pronunciations.json": "e4b89fe6c1db4709e55bcd6d795adc37a57acbc898fa344c86e3c6fef0bdd80c",
+    "review-audit.json": "f8d55ec1e4f16abf19cd0e118303c3586db919f17ca48d84ad41cd54f2034425",
+    "review-groups.json": "992cf453acecd32152e2ced92c996d31ae58594f754085ddcc4c1dac4cee9273",
+    "semantic-notes.json": "71e9729d9e8dce81c436916be8bdcdf2c116130fcec368b81ef3b32fdbed309b",
+    "source-boundaries.json": "f3903cdefc1a206cac9e1c64e9d06cf830a3e87098fb623cb954a1e3f8df2b94",
+    "source-dispositions.json": "139430ec80ca6a2a29da783e3f70d5457548297dfb56b107cf8e683ddf3f8d19",
+    "ua-field-countercheck.json": "b3fccc58e1c9ea45f973f1fbd30b2366ba23ea450852d2e4f1f5b4404c9446e9",
+    "validation.json": "83fd6a1d089e8f122bef371f7c87e1aae0934d07cbf682c97193ca5793bdb22b",
+    "worker-proof-audit.json": "4e900c4903acb033c956904cf73b4e30aa509e871de690db8e73abf989c3498b"
+  },
+  "originalFileHashesAfter": {
+    "78124-wowhead.html": "9ac718304fd9faaf4154aefabcbad47c163c5faace9447939ef382bd6badea73",
+    "78127-wowhead.html": "b5976d50a4983d1eb57176761abfaa79f00a6998ba110948ad586340efd52c97",
+    "78142-wowhead.html": "e343deb8da938ba5e5fca38de03cbbe0bb155224a4d3d36510c4e6b2c30d426b",
+    "78143-wowhead.html": "a4a38be9a501ae0cbb95b568008fe6bc68181e3d95c70e10b000f0da0ebd733a",
+    "78145-wowhead.html": "93c9bce4a70bbb38e7154795be31479917a4aa517ef4c1fc792202adc643c9d6",
+    "78146-wowhead.html": "fbad1f8511fca1c0850970b3b76b50f93ea2ae8a7ab6ee62cbd16a0282e1a80c",
+    "78147-wowhead.html": "22417346cc1c53bc5c140b2eb43b3c68ebf1c6412c044c77d148d3022b00477f",
+    "78148-wowhead.html": "8866292819dcf5cb9aab3b4ecf4b7ef2a5bfcf19ad1d63e84559bf20cd340194",
+    "78149-wowhead.html": "9e1ca83974342bdb4d9d8624e2b45f80f3eaa302b693cd6940c4f63d038b31cd",
+    "78150-wowhead.html": "847c4b3de1e075856bae01fbf2e00c1a5b0f4f304c841119e350efdd1d8fba51",
+    "79091-wowhead.html": "f5a83f8707f8f37bea3c21210103de27e967d0b7f40f83061a75250eb59566e6",
+    "79092-wowhead.html": "97531c59dc47e237e520529aa6cfdcea23d8563cb406b929b636abde4119bd2d",
+    "79093-wowhead.html": "b024deefb18fb2593985482b09d88cc354890b7db58fcb33774842727d32ba2b",
+    "79094-wowhead.html": "5921213fb43251b25f82e96e4d4154a3aded17d80825dea95ca178f6e2683b3e",
+    "79095-wowhead.html": "e604eab7bfd252d75bc4bcbcf34c5ae001d892405d851e90aeda5fd5fe7cd5ef",
+    "79096-wowhead.html": "27039265a364dc4f64a623b46756ba4ec8c0811816ef32dbe8fe5a2f60faa777",
+    "79097-wowhead.html": "d2b9311a06f7eb19bfa1f8b81dc0f29c7e48548bd5f00e117d56ead46e41beea",
+    "97286-wowhead.html": "ec39efdd10a0560aa173648b5801244a09f5223f017803d9f9056d1e12c0a257",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "comparison-provenance.json": "e1207c6a079be1147540df00802fd37b01b46698d816eda6bda86d760b80c8be",
+    "deepl-index-01.json": "3ed709cd322b3f58a0c9fbb043f1f6edf18e2102352d51844f6da533596eddba",
+    "deepl-index-02.json": "12df5c9bec4f777a6d17cfe6285aa1ec1f9215df96ba21b10b0a001a5bad260a",
+    "deepl-rejected-index-01.json": "12144e042bc7bf0a6dc19f1831470c99990d6a5a8fc75ab9b7970e37da5d25b2",
+    "deepl-rejected-request-01.json": "da3a09d46a54b23244cc03f58dba05b628337228612b6fb7e551d64d9b842350",
+    "deepl-rejected-response-01.json": "8c0c9de8d3e12a336667b8a51abb3b9c08eb3e313c48c70ae7505b9765156ba1",
+    "deepl-request-01.json": "090c8de96db6dda1a074053ace9605a836d552a28666ee9326d8d04182d2546b",
+    "deepl-request-02.json": "2702083b7d7fe0ed8bc58682c4f0d9bf9bd5f5cb4c5c61e4dbe70e229cfd3c0c",
+    "deepl-response-01.json": "ab51464645c2386db51a29863d8a9e55d8da01957792a99862530cf567da0a21",
+    "deepl-response-02.json": "5ada67e3b4ec4cb40115d3fa8644f26f49691c2f689c38e4466ccc589f43c56c",
+    "draft-group1.json": "d273c16607afee96c099cf7ac4e9f2c5e71f222b0b2f6a636c482cb86665d47e",
+    "draft-group2.json": "776b985a20c73c7200b9caab076a217d706756187f3b4521544d4d50d464eae6",
+    "edited-group1.json": "d273c16607afee96c099cf7ac4e9f2c5e71f222b0b2f6a636c482cb86665d47e",
+    "edited-group2.json": "776b985a20c73c7200b9caab076a217d706756187f3b4521544d4d50d464eae6",
+    "edited.json": "251f8736e092407c172242645f3e36fda2d7f35abb02d3f3ccbdf82930f5cabf",
+    "edit_group1.py": "4d36566747c4945a8fb731b4058eec16964e20be62435518b87ca701a69281ed",
+    "english-sources.json": "b78e3476ea2a83054faa76b861789ab6523ae840766339710e63cec0c0c9ae6c",
+    "fetched.json": "eec292fa73acf61383e7c0a922161cd969b40404a39b5cb7c8f71d42c377b852",
+    "finalize.py": "400bce55b318eacccf565648ee6d371c797409a6e2f01d2e0ac31c072791a72a",
+    "frozen-artifact-hashes.json": "a7229aee7fc744725c7e5a1ed34253c46af996afedb782916195449f7ddac707",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "pronunciations.json": "ac72792519a67c433355612cf5625421b245a07be06b8a308096d0335c5ba089",
+    "proposed-pronunciations.json": "e4b89fe6c1db4709e55bcd6d795adc37a57acbc898fa344c86e3c6fef0bdd80c",
+    "review-audit.json": "f8d55ec1e4f16abf19cd0e118303c3586db919f17ca48d84ad41cd54f2034425",
+    "review-groups.json": "992cf453acecd32152e2ced92c996d31ae58594f754085ddcc4c1dac4cee9273",
+    "semantic-notes.json": "71e9729d9e8dce81c436916be8bdcdf2c116130fcec368b81ef3b32fdbed309b",
+    "source-boundaries.json": "f3903cdefc1a206cac9e1c64e9d06cf830a3e87098fb623cb954a1e3f8df2b94",
+    "source-dispositions.json": "139430ec80ca6a2a29da783e3f70d5457548297dfb56b107cf8e683ddf3f8d19",
+    "ua-field-countercheck.json": "b3fccc58e1c9ea45f973f1fbd30b2366ba23ea450852d2e4f1f5b4404c9446e9",
+    "validation.json": "83fd6a1d089e8f122bef371f7c87e1aae0934d07cbf682c97193ca5793bdb22b",
+    "worker-proof-audit.json": "4e900c4903acb033c956904cf73b4e30aa509e871de690db8e73abf989c3498b"
+  },
+  "candidateFileHashesBefore": {
+    "accepted-correction.json": "0ef2c4997c574aae4d441d043f851a66993fd24389f49eb835e59257346a0877",
+    "edited.json": "2f34d3afab48b3397edeaedfee0551ef3803de8e1c794f8d74f9ddd973406e75",
+    "pronunciations.json": "4eb81a872f45e52349a7fd36f0ac0d8d9f9f22d336d2a07511eb2453bdd2c33e",
+    "review-audit.json": "48248072470f3c404c6630349924d1bc22b569848c2d1328443ae3673bca7854"
+  },
+  "candidateFileHashesAfter": {
+    "accepted-correction.json": "0ef2c4997c574aae4d441d043f851a66993fd24389f49eb835e59257346a0877",
+    "edited.json": "2f34d3afab48b3397edeaedfee0551ef3803de8e1c794f8d74f9ddd973406e75",
+    "pronunciations.json": "4eb81a872f45e52349a7fd36f0ac0d8d9f9f22d336d2a07511eb2453bdd2c33e",
+    "review-audit.json": "48248072470f3c404c6630349924d1bc22b569848c2d1328443ae3673bca7854"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending native review; maintained-core consistency only resolved",
+  "currentLiveForeverVerification": "not performed",
+  "controllerHardwareVerification": "not performed",
+  "conclusion": "PASS for independent assisted library review when this correction receipt is read with the complete initial review. No native proofreading or current live verification claimed."
+}

@@ -1,0 +1,1607 @@
+{
+  "checkedAt": "2026-11-19T01:20:52.456398+00:00",
+  "myanmarVersion": "1.2.12",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.0.4",
+    "commit": "e759b41bc4948e65b35fcf9a3fd9ae6642d7e5e1",
+    "checkedAt": "2026-11-19T01:20:52.456398+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.0.4",
+    "publishedAtUTC": "2026-11-18T21:33:58Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.0.4/UA_Forever-1.0.4.zip",
+    "assetSHA256": "bfa16e9a985ef9d11bd38704d690250e55caa7000704d3d55a7907624d61f0f0",
+    "catalogSHA256": "016ad3340a8e7813957a86b12c2b54aca14dd7244dd0de3219390a1ce70b2b9a"
+  },
+  "manifestSHA256": "6b427b5c7312931cfe1eaf9f1ebdb64304602d9eb4be4518c70eca4da3032a20",
+  "upstreamFactionEntries": {
+    "Alliance": 1587,
+    "Horde": 1529,
+    "Both": 3846
+  },
+  "coverage": {
+    "myanmarQuestIDs": 1486,
+    "translatedFields": {
+      "title": 1486,
+      "detail": 1422,
+      "objective": 1438,
+      "progress": 1021,
+      "complete": 1464
+    },
+    "translatedFieldTotal": 6831,
+    "availableDialogueStates": 3907,
+    "absentOrHeldDialogueStates": 551,
+    "uaUniqueQuestIDs": 6962,
+    "overlapQuestIDs": 1486,
+    "uaQuestIDsMissingFromMyanmar": 5476,
+    "myanmarQuestIDsAbsentFromUA": [],
+    "shareOfUAQuestIDsPercent": 21.34,
+    "titleMatches": {
+      "case_only": 5,
+      "documented_alias": 5,
+      "exact": 1473,
+      "mismatch": 3
+    },
+    "uaPresentMyanmarMissingFields": [
+      {
+        "id": 745,
+        "en": "Sharing the Land",
+        "field": "objective",
+        "documentedHold": "Public prose objective requires 5 Palemane Poachers, but the structured objective list omits them. Hold the goal text until current live counters are captured."
+      },
+      {
+        "id": 842,
+        "en": "Crossroads Conscription",
+        "field": "complete",
+        "documentedHold": "Public reference concatenates male and female replies."
+      },
+      {
+        "id": 1103,
+        "en": "Call of Water",
+        "field": "detail",
+        "documentedHold": "Source includes unsupported gender alternative <brotha/sista>; hold whole field pending supported dynamic routing or sanitized live evidence. Do not erase or select alternative."
+      },
+      {
+        "id": 1485,
+        "en": "Vile Familiars",
+        "field": "progress",
+        "documentedHold": "Both English references say would risk after few enough interested, producing contradictory/ambiguous safety intent. Do not silently change would to would not. Entire progress held until clearer English or sanitized current live evidence resolves intent. Literal English and raw DeepL retained."
+      },
+      {
+        "id": 1638,
+        "en": "A Warrior's Training",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion addresses lad;60.tools instead has <name>;pinned UA has gender alternatives. No current sanitized live capture resolves the address branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 1639,
+        "en": "Bartleby the Drunk",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion says fancy boy;60.tools says fancy boy/girl;pinned UA has gender alternatives. No current sanitized live capture resolves the branch. Hold completion without guessing or gender-neutralizing it."
+      },
+      {
+        "id": 1685,
+        "en": "Gakin's Summons",
+        "field": "complete",
+        "documentedHold": "Material source conflict: Wowhead Forever stern Remen/class/head-on-shoulders completion versus 60.tools concerned name/fear-worst/training-only completion. Current live or other conclusive evidence required before enabling. Both literal versions, raw DeepL and non-enabled edited candidate retained."
+      },
+      {
+        "id": 1780,
+        "en": "The Tome of Divinity",
+        "field": "detail",
+        "documentedHold": "CurrentForever contains unsupported <men/women> branch;60.tools supplies male-only wording and <Class> instead of current<class>. No sanitized live gender capture. Hold entire detail; rawDeepL preserved."
+      },
+      {
+        "id": 1783,
+        "en": "The Tome of Divinity",
+        "field": "complete",
+        "documentedHold": "CurrentForever default brother conflictswith60.tools brother/sister. No sanitized live genderbranch evidence. Hold entire completion; no male-only address enabled for all players. RawDeepL retained."
+      },
+      {
+        "id": 1786,
+        "en": "The Tome of Divinity",
+        "field": "complete",
+        "documentedHold": "CurrentForever default displays brother;60.tools displays brother/sister. No sanitized live gender branch evidence. Hold full completion rather than enabling male-only address for all players; rawDeepL saved."
+      },
+      {
+        "id": 2205,
+        "en": "Seek out SI: 7",
+        "field": "detail",
+        "documentedHold": "Current Wowhead source includes unresolved <boy/girl> gender branch, while60.tools gives fixed boy. Runtime marker support/gender selection and live evidence unavailable; field held after raw DeepL rather than inventing gender variant."
+      },
+      {
+        "id": 2998,
+        "en": "Tome of Divinity",
+        "field": "detail",
+        "documentedHold": "CurrentForever<brother/sister> isunsupportedgenderbranch;60.tools hasliteralbrother/sister. No sanitizedlivecapture resolvesbranchrouting. Holdentiredetail; allEnglishstillpassedDeepL."
+      },
+      {
+        "id": 3083,
+        "en": "Encrypted Tablet",
+        "field": "progress",
+        "documentedHold": "Fixed player name Rangrang in the public reference; live substitution unverified."
+      },
+      {
+        "id": 3099,
+        "en": "Tainted Scroll",
+        "field": "progress",
+        "documentedHold": "English reference contains literal brother/sister gender alternatives; no verified current live branch captured. Leave native fallback rather than select an unverified branch."
+      },
+      {
+        "id": 3118,
+        "en": "Encrypted Sigil",
+        "field": "progress",
+        "documentedHold": "Fixed player name Ferlis in the public reference; live substitution unverified."
+      },
+      {
+        "id": 5624,
+        "en": "Garments of the Light",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported <him/her> gender branch; no reviewed runtime normalization or live capture; retain raw candidate, do not choose gender."
+      },
+      {
+        "id": 5630,
+        "en": "Returning Home",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported <laddy/lassy> address branch; no live branch evidence or supported runtime substitution."
+      },
+      {
+        "id": 5633,
+        "en": "Returning Home",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported <laddy/lass> address branch; no live branch evidence or supported runtime substitution."
+      },
+      {
+        "id": 5634,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "Installed5634 giver=ender376 and noobjective identify a completion-only lesson; currentEnglish Rohan/Ironforge referral conflicts with this self-completion and UA Laurena/Stormwind referral."
+      },
+      {
+        "id": 5634,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "Installed5634 giver=ender376 and noobjective identify a completion-only lesson; currentEnglish Rohan/Ironforge referral conflicts with this self-completion and UA Laurena/Stormwind referral."
+      },
+      {
+        "id": 5635,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5635,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5636,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5636,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5637,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch. Currentdetail itself says Stormwind while currentobjective says Ironforge."
+      },
+      {
+        "id": 5637,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5638,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5638,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "CurrentEnglish refers to Rohan/Hall of Mysteries/Ironforge, whereas installed endNPC376 and objective identify Laurena/Cathedral of Light/Stormwind, agreeing with UA. Do not invent a corrected referral or silently select a different branch."
+      },
+      {
+        "id": 5639,
+        "en": "Desperate Prayer",
+        "field": "detail",
+        "documentedHold": "Current Forever5639 is completion-only and explicitly marks description/objective removed. The secondary referral to Laurena/Stormwind belongs to inherited older text; installed/UA relations do not independently establish a current live offer. Disable the previously enabled fallback under its exact prior Myanmar hash. Retain original English/raw DeepL/Myanmar as historical held evidence; await sanitized live proof before any re-enable."
+      },
+      {
+        "id": 5639,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5640,
+        "en": "Desperate Prayer",
+        "field": "objective",
+        "documentedHold": "CurrentEnglish names High Priest Rohan in Stormwind, conflicting with installed endNPC376/High Priestess Laurena and UA. Generic Darnassus/highpriests offer has no conflicting named target and is enabled separately."
+      },
+      {
+        "id": 5641,
+        "en": "Chastise",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5641,
+        "en": "Chastise",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5652,
+        "en": "Hex of Weakness",
+        "field": "detail",
+        "documentedHold": "Current Forever is completion-only; installed giver=ender6018 has no handoff objective. Secondary legacy offer directs player to Ur'kyo like another handoff step; exact English and raw DeepL preserved as a held proposal."
+      },
+      {
+        "id": 5652,
+        "en": "Hex of Weakness",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5656,
+        "en": "Hex of Weakness",
+        "field": "complete",
+        "documentedHold": "Current Forever completion absent. Secondary English repeats5652 lesson rather than handoff; conflicts with current UA1.0.0 short training greeting and installed3044→6018 handoff. No replacement invented."
+      },
+      {
+        "id": 5658,
+        "en": "Touch of Weakness",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5658,
+        "en": "Touch of Weakness",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5672,
+        "en": "Elune's Grace",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5672,
+        "en": "Elune's Grace",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5674,
+        "en": "Elune's Grace",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported gender branch <priests/priestesses>; preserve raw source and DeepL, wait for supported runtime branch or sanitized live evidence."
+      },
+      {
+        "id": 5675,
+        "en": "Elune's Grace",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported gender branch <lad/lass>; preserve raw source and DeepL rather than erasing gender alternative."
+      },
+      {
+        "id": 5676,
+        "en": "Arcane Feedback",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5676,
+        "en": "Arcane Feedback",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5679,
+        "en": "Dark Sacrifice",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5679,
+        "en": "Dark Sacrifice",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5679,
+        "en": "Dark Sacrifice",
+        "field": "complete",
+        "documentedHold": "Current completion teaches Devouring Plague, but actual Rewards/You will learn markup teaches Dark Sacrifice spell1277324. Hold conflicting gameplay identity pending sanitized current live capture."
+      },
+      {
+        "id": 5680,
+        "en": "Shadowguard",
+        "field": "detail",
+        "documentedHold": null
+      },
+      {
+        "id": 5680,
+        "en": "Shadowguard",
+        "field": "objective",
+        "documentedHold": null
+      },
+      {
+        "id": 5728,
+        "en": "Hidden Enemies",
+        "field": "detail",
+        "documentedHold": "Current English contains unsupported <brothers/sisters> gender alternative. Hold full offer until runtime evidence/support resolves it; do not erase/substitute marker."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6064,
+        "en": "Taming the Beast",
+        "field": "progress",
+        "documentedHold": "Preserved primary Progress explicitly says lad, while preserved60.tools Progress explicitly says lad/lass. Enabled မောင်ရင် hardcodes a male address. No current sanitized live evidence resolves whether this field varies by player gender. Under the user instruction to hold fields with conflicting evidence, preserve the English/raw translations but hold this field until the branch is resolved; do not guess or remove the gender address to hide the discrepancy."
+      },
+      {
+        "id": 6086,
+        "en": "Training the Beast",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English includes unsupported unresolved <lad/lass> gender branch;60.tools supplies only lad. No current sanitized live capture resolves the alternatives. Complete offer held; other supported fields enabled. English and raw DeepL retained; not a quest-ID exclusion."
+      },
+      {
+        "id": 6125,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 6130,
+        "en": "Power over Poison",
+        "field": "detail",
+        "documentedHold": "Current Wowhead Forever English contains unsupported gender alternative <him/her>;60.tools renders him/her alternatives. No sanitized live gender branch capture available. Held rather than guessing or dropping the branch. Raw DeepL response retained."
+      },
+      {
+        "id": 92461,
+        "en": "Harmony in Balance",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92514,
+        "en": "Welcome to Shen'dar Village",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92517,
+        "en": "The Criminal Element",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92598,
+        "en": "The Gift of Skysight",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92642,
+        "en": "Disrupting Logistics",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92645,
+        "en": "Breaking the Breaker",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 92753,
+        "en": "Destruction in Deadmines",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93161,
+        "en": "The Ancient Hilt",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93161,
+        "en": "The Ancient Hilt",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 93461,
+        "en": "Welcome to Shen'dar Village",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93739,
+        "en": "Exploring the Horde",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93746,
+        "en": "A Firm Response",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93835,
+        "en": "Confront Lorthuna",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93928,
+        "en": "Of Mice and Milk",
+        "field": "complete",
+        "documentedHold": "Current primary explicitly shows development placeholder(PH)Thanks. Hold completion pending finished current dialogue or sanitized live evidence; do not ship translated placeholder. Raw DeepL retained."
+      },
+      {
+        "id": 93949,
+        "en": "Bugged",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 93963,
+        "en": "Exploring the Alliance",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 94413,
+        "en": "A Magical Affront",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 94466,
+        "en": "Call of Fire",
+        "field": "complete",
+        "documentedHold": "Current Wowhead Forever completion ends 'lad';60.tools has no completion, and pinned UA1.0.0 supplies explicit boy/girl address alternatives. No sanitized current live branch evidence. Hold whole completion rather than choose a male-only address or erase gender. Original English, raw DeepL and non-enabled edited proposal retained."
+      },
+      {
+        "id": 94473,
+        "en": "Fire Sapta",
+        "field": "complete",
+        "documentedHold": "Current Forever completion hardcodes Ukko rather than a supported player marker. No sanitized live evidence establishes whether this is intended literal text or leaked player substitution. Hold entire field without inventing marker replacement."
+      },
+      {
+        "id": 94820,
+        "en": "Contingency Plan",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 94822,
+        "en": "Confounding Flash",
+        "field": "complete",
+        "documentedHold": "Currentprimary completion uses literal Cub while same-trainer94817/94821/94824 use <name> and UA94822 retains player-name identity. Ambiguous capture/branch artifact; do not invent a token or ship Cub as the player identity."
+      },
+      {
+        "id": 94823,
+        "en": "Confounding Flash",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 95213,
+        "en": "Stolen Blasting Powder",
+        "field": "complete",
+        "documentedHold": "Race marker describes the NPC, while the reader expands player race."
+      },
+      {
+        "id": 95508,
+        "en": "Unwelcome Guests",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 95981,
+        "en": "Watching the Roads",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96031,
+        "en": "Camping 101: Leatherworking",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96055,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96056,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96057,
+        "en": "Camping 101: Tailoring",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 96821,
+        "en": "Legging It",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97899,
+        "en": "Camping 101: Alchemy",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97905,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97906,
+        "en": "Camping 101: Leatherworking",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97908,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97918,
+        "en": "Camping 101: Engineering",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97923,
+        "en": "Camping 101: Mining",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97924,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97925,
+        "en": "Camping 101: Tailoring",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97929,
+        "en": "Camping 101: Enchanting",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97933,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97940,
+        "en": "Camping 101: Enchanting",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97943,
+        "en": "Camping 101: Fishing",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97944,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97946,
+        "en": "Camping 101: Leatherworking",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97948,
+        "en": "Camping 101: Mining",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97949,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97954,
+        "en": "Camping 101: Engineering",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97957,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97958,
+        "en": "Camping 101: Leatherworking",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97964,
+        "en": "Camping 101: Blacksmithing",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97968,
+        "en": "Camping 101: Herbalism",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97971,
+        "en": "Camping 101: Skinning",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 97972,
+        "en": "Camping 101: Tailoring",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98013,
+        "en": "Swelling Forces",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98284,
+        "en": "Camping 101: Enchanting",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98285,
+        "en": "Camping 101: Engineering",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98299,
+        "en": "Stop the Spread",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98322,
+        "en": "Secure the Mountain",
+        "field": "progress",
+        "documentedHold": null
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "detail",
+        "documentedHold": "Current English source omits the player-name placeholder present in the prior source and pinned UA offer; live version unresolved."
+      },
+      {
+        "id": 98387,
+        "en": "Blackrock Blockade",
+        "field": "objective",
+        "documentedHold": "Prior source and pinned UA require 10 Battleworn Axes; refreshed 60.tools and Wowhead require 8 Stolen Weapons plus 10 Blackrock Supplies. Live version unresolved."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "detail",
+        "documentedHold": "Prior hold retained: current primary task tracker says Cleanse the Wildmane Well while offer/prose objective and installed metadata say deliver ThunderhornsReport. Current live goal remains uncaptured; conflicting offer held. Raw DeepL retained."
+      },
+      {
+        "id": 98435,
+        "en": "Thunderhorn's Report",
+        "field": "objective",
+        "documentedHold": "Prior hold retained: current primary task tracker conflicts with report-delivery prose objective. Do not choose a live goal without sanitized current capture. Raw DeepL retained."
+      },
+      {
+        "id": 98517,
+        "en": "Call of Fire",
+        "field": "complete",
+        "documentedHold": null
+      },
+      {
+        "id": 99108,
+        "en": "Sparring Match",
+        "field": "detail",
+        "documentedHold": "Current primary now supplies the same non-Warrior offer as secondary, but installed eligibility has no class restriction and the alternative Warrior branch remains unverified. Preserve prior hold; source availability is resolved, class-dependent applicability is not. Raw DeepL retained."
+      }
+    ],
+    "regionCounts": {
+      "Alliance capitals and Horde note counterpart": 18,
+      "Alliance class routes": 15,
+      "Alliance early craft city and library routes": 20,
+      "Alliance_Water class routes": 10,
+      "Bloodhoof Thunder Bluff Razor Hill and Orgrimmar camping": 22,
+      "Brill / Tirisfal Glades": 94,
+      "Captured Human follow-up": 1,
+      "Coldridge Valley": 12,
+      "Coldridge class introductions": 9,
+      "Darkshore": 70,
+      "Deathknell → Brill": 24,
+      "Dolanaar Darnassus and Darkshore camping": 14,
+      "Druid class routes": 46,
+      "Dun Morogh": 45,
+      "Durotar": 46,
+      "Duskwood": 77,
+      "Elwynn Forest": 59,
+      "Elwynn Forest / Camping": 4,
+      "Elwynn Forest → Stormwind → Loch Modan": 1,
+      "Horde capitals and Ragefire Chasm": 18,
+      "Horde class routes": 15,
+      "Human and Razor Hill camping referrals": 12,
+      "Hunter class routes": 16,
+      "Hunter level10 referrals": 14,
+      "Kharanos and Ironforge camping": 14,
+      "Loch Modan": 41,
+      "Mage class routes": 14,
+      "Mulgore": 37,
+      "Mulgore / Thunder Bluff": 3,
+      "Northshire": 37,
+      "Orc/Troll class introductions": 11,
+      "Paladin class routes": 24,
+      "Priest class routes": 20,
+      "Priest_Alliance class routes": 21,
+      "Priest_Racials class routes": 24,
+      "Red Cloud Mesa": 16,
+      "Redridge Mountains": 40,
+      "Rogue class routes": 16,
+      "Shadowglen": 14,
+      "Shadowglen class introductions": 5,
+      "Shaman class routes": 21,
+      "Shaman_Early_Horde class routes": 20,
+      "Silverpine Forest": 44,
+      "Stormwind": 3,
+      "Stormwind / Deadmines": 3,
+      "Teldrassil": 46,
+      "The Barrens": 83,
+      "Thunder Bluff": 1,
+      "Undercity Silverpine and shared Wailing Caverns routes": 18,
+      "Valley of Trials": 13,
+      "Warlock class routes": 10,
+      "Warrior class routes": 20,
+      "Westfall": 48,
+      "Westfall / Stormwind / Deadmines": 6,
+      "Zephras Isle": 101,
+      "Zephras Isle → faction departure": 50
+    }
+  },
+  "titleMismatches": [
+    {
+      "id": 5644,
+      "en": "Dark Sacrifice"
+    },
+    {
+      "id": 5646,
+      "en": "Dark Sacrifice"
+    },
+    {
+      "id": 5679,
+      "en": "Dark Sacrifice"
+    }
+  ],
+  "changesSincePreviousCatalog": {
+    "addedQuestIDs": [],
+    "removedQuestIDs": [],
+    "changedQuestRecords": [
+      {
+        "id": 398,
+        "fields": [
+          "en"
+        ]
+      }
+    ]
+  },
+  "changedRecordsInMyanmar": [
+    {
+      "id": 398,
+      "fields": [
+        "en"
+      ]
+    }
+  ],
+  "plannedQuestChecks": [
+    {
+      "id": 166,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Defias Brotherhood"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 214,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Red Silk Bandanas"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 235,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Ashenvale Hunt"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 264,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Until Death Do Us Part"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 350,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Look to an Old Friend"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 373,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Unsent Letter"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 389,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Bazil Thredd"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 391,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Stockade Riots"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 392,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Curious Visitor"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 393,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Shadow of the Past"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 394,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Head of the Beast"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 395,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Brotherhood's End"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 396,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "An Audience with the King"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 434,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Attack!"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 742,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Ashenvale Hunt"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1056,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Journey to Stonetalon Peak"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1057,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Reclaiming the Charred Vale"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 1078,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Retrieval for Mauren"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 2745,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Infiltrating the Castle"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 2746,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Items of Some Consequence"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6383,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Ashenvale Hunt"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6442,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Naga at the Zoram Strand"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6462,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Troll Charm"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6482,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Freedom to Ruul"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6503,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Ashenvale Outrunners"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6542,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Report to Kadrak"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6544,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Torek's Assault"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6545,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Warsong Runner Update"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6546,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Warsong Outrider Update"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6547,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Warsong Scout Update"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 6641,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Vorsha the Lasher"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 7791,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "A Donation of Wool"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78124,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Nar'thalas Almanac"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78127,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Dalaran Digest"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78142,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Bewitchments and Glamours"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78143,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Secrets of the Dreamers"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78145,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Arcanic Systems Manual"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78146,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Goaz Scrolls"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78147,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Crimes Against Anatomy"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78148,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Runes of the Sorceror-Kings"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78149,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Fury of the Land"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 78150,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Friend of the Library"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79091,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Archmage Antonidas: The Unabridged Autobiography"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79092,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Archmage Theocritus's Research Journal"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79093,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Rumi of Gnomeregan: The Collected Works"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79094,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Lessons of Ta'zo"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79095,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "The Apothecary's Metaphysical Primer"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79096,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Ataeric: On Arcane Curiosities"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 79097,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Baxtan: On Destructive Magics"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": true,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    },
+    {
+      "id": 97286,
+      "uaPresent": true,
+      "uaEnglishTitles": [
+        "Research Access"
+      ],
+      "uaFieldsPresent": {
+        "title": true,
+        "detail": false,
+        "objective": false,
+        "progress": false,
+        "complete": true
+      },
+      "alreadyInMyanmar": false
+    }
+  ],
+  "reviewStatus": "Changed UA text and field gaps are candidates for an English-source recheck.",
+  "chainVerification": "UA membership is checked per planned step. Chain edges require quest metadata and English evidence."
+}
