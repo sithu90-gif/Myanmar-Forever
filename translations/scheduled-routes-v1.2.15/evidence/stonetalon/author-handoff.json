@@ -1,0 +1,82 @@
+{
+  "status": "author partition frozen; ready for fresh independent assisted review",
+  "versionTarget": "1.2.15",
+  "partition": "stonetalon",
+  "completedAtUTC": "2026-11-21T06:48:39.983227+00:00",
+  "counts": {
+    "quests": 20,
+    "enabledFields": 94,
+    "sourceAbsentFields": 6,
+    "heldFields": 0,
+    "actualDeepLFields": 94
+  },
+  "groups": [
+    [
+      1070,
+      1085,
+      1071,
+      1072,
+      1073,
+      1074,
+      1075,
+      1076,
+      1077
+    ],
+    [
+      1079,
+      1080,
+      1091,
+      1083,
+      1082,
+      1081
+    ],
+    [
+      1090,
+      1092,
+      1058,
+      1068,
+      86574
+    ]
+  ],
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-21T06:30:27.284541+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "checks": {
+    "actualDeepLRequestResponseIndexAndHashes": "passed all94",
+    "groupSourceAwareRereads": "complete3",
+    "linguisticLint": "passed0issues",
+    "validateFields": "passed20"
+  },
+  "coveredRoutes": [
+    "Alliance Stonetalon Kaela/Gaxim handoff, Ironforge alchemy and Stormwind/Westfall scroll branches",
+    "Distinct Alpha engineering plans and Beta letters operations through Kaela, Tara Thenysil and Tyrande",
+    "Both-faction Piznik mining defence and ore delivery to Ziz; Horde Jin'Zil and XT:4/XT:9; Alliance Stonetalon Supply Run"
+  ],
+  "sourceFindings": [
+    "Both English references fetched for all20 after timeout retry; primary original HTML/scriptIDs match allquests, no removed/unusedflags.",
+    "Current primary resolves Tara versus secondaryThenysil1070complete; title duplicate steps individually reviewed.",
+    "Secondary parser lacks some objectives and1090progress/86574progress+complete; current primary states retained with explicit provenance.",
+    "Current primary side Alliance exceptBoth1090/1092 andHorde1058/1068; broad metadata/UA masks do not prove live eligibility.",
+    "UA1.1.0 all variants/full metadata preserved in source-review.json; English controls meaning."
+  ],
+  "holds": [],
+  "remaining": [
+    "Fresh independent assisted review of frozenauthorartifacts",
+    "Native Myanmar proofreading, including new pronunciation proposals",
+    "Current live Forever capture/acceptance/dialogue verification",
+    "Controller hardware verification"
+  ],
+  "claimsExcluded": [
+    "No native proofreading claim",
+    "No current live playtest claim",
+    "No release/package publication performed by partition author"
+  ]
+}

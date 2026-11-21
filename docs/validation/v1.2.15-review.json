@@ -1,0 +1,100 @@
+{
+  "version": "1.2.15",
+  "result": "PASS",
+  "kind": "scheduled_afternoon",
+  "localDate": "2026-11-21",
+  "newQuestIDs": 50,
+  "newQuestFields": 233,
+  "newEnabledFieldsTotal": 233,
+  "newAvailableSourceFields": 234,
+  "newSourceAbsentFields": 16,
+  "newHeldFields": [
+    {
+      "id": 95250,
+      "field": "detail",
+      "reason": "Current primary and secondary supply a generic <race> offer. A specific public community report says Human dialogue is unique, but provides no actual alternate text. The current runtime cannot route this generic offer separately for Human/non-Human players. Root instructed hold pending current sanitized live/source branch evidence; alternate wording is not confirmed or invented.",
+      "status": "held pending current supported Human/non-Human branch evidence and routing decision",
+      "editedProposal": "ဘာလိုချင်တာလဲ၊ <race>။ အနိုင်တိုက်ရမယ့် စစ်ပွဲရှိနေတာ မမြင်ဘူးလား။\n\nငါ့သခင်က တိုက်ပွဲထဲ ဝင်သွားနှင့်ပြီ။ ငါ့ကိုတော့ ကိုယ့်တာဝန်ကျနေရာမှာပဲ စောင့်နေဖို့ အမိန့်ပေးထားတယ်။ ဒါပေမယ့် အချိန်က အတော်ကြာနေပြီ။\n\nမင်း တိုက်ပွဲထဲမှာ ဆယ်မိနစ်တောင် အသက်ရှင်ခံမယ် မထင်ဘူး။ ဒါပေမယ့် မင်းရဲ့ ဉာဏ်တိမ်တိမ်ကို အလုပ်တစ်ခုခု ပေးထားနိုင်မယ်ဆိုရင် Grand Marshal (ဂရန်းဒ် မာရှယ်) ကို သွားရှာပါလား။ သူက မင်း တစ်သက်တာ မြင်ဖူးသမျှထဲမှာ အရပ်အမြင့်ဆုံး၊ ရုပ်တုလို ခန့်ညားဆုံး သူရဲကောင်းပဲ။ တွေ့တာနဲ့ မင်း သိမှာပါ။",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "englishSHA256": "6133b43fa97d0ea6b563c1b76da63ddcc26ec0dfe5e0f6b428435ba2d9f72f6a",
+      "rawDeepLSHA256": "58338a39dba334dde2b5117208ce17cd47f63677360866ae9fbd9a1e2ece7dd4",
+      "rawDeepLRequestFile": "deepl-request-03.json",
+      "rawDeepLResponseFile": "deepl-response-03.json",
+      "rawDeepLIndexFile": "deepl-index-03.json",
+      "requestIndex": 1,
+      "responseIndex": 1,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/1",
+      "responseJSONPointer": "/translations/0/translations/1/text",
+      "sourceEnglish": "What do you want, <race>? Can't you see there is a war to be won?\n\nMy master has already charged into the fray and has ordered me to maintain my post. It has been quite some time, however.\n\nI doubt you'll survive ten minutes in combat, but if it keeps your simple mind busy, why don't you seek out the Grand Marshal. He is the tallest, most statuesque hero you've ever laid eyes on. You'll know him when you see him.",
+      "rawDeepLProposal": "မင်းဘာလိုချင်တာလဲ၊ <race>? အနိုင်ရဖို့ စစ်ပွဲတစ်ခုရှိတယ်ဆိုတာ မမြင်ဘူးလား?\n\nကျွန်ုပ်၏ရှင်သည် ယခုတိုက်ပွဲထဲသို့ ဝင်ရောက်ပြီးသားဖြစ်ကာ ကျွန်ုပ်အား တာဝန်ကို ထိန်းသိမ်းရန် အမိန့်ပေးထားပါသည်။ သို့သော် အချိန်အတော်ကြာပြီဖြစ်သည်။\n\nမင်းက တိုက်ပွဲထဲမှာ မိနစ်ဆယ်တောင် မခံနိုင်ဘူးလို့ ငါထင်တယ်၊ ဒါပေမယ့် မင်းရဲ့ ရိုးရှင်းတဲ့ စိတ်ကို အလုပ်များစေမယ်ဆိုရင် ဂရန်မာရှယ်ကို ရှာကြည့်ပါ။ သူက မင်းမြင်ဖူးတဲ့ သူရဲကောင်းတွေထဲမှာ အမြင့်ဆုံး၊ အလှဆုံးဖြစ်သူပါ။ တွေ့လိုက်တာနဲ့ မင်းသိမှာပါ။",
+      "editedSHA256": null,
+      "editedProposalSHA256": "a782608b7e2d2ad7255ab56e8bc26cb91011c26b1712c2e9c091b253ac46c0ff",
+      "proposalMachineIntegrity": "passed markers, digits, paragraphs, annotation lint; proposal remains disabled",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/lordaeron.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 2,
+  "newRecordReviewCorrectionOperations": 17,
+  "questIDs": 1636,
+  "translatedFields": 7477,
+  "dialogueStates": 4278,
+  "absentOrHeldDialogueStates": 630,
+  "activeHeldUniqueFields": 65,
+  "pythonTests": 24,
+  "luaRegressionGroups": 44,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "reviewedConnectedGroups": 7,
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-21T07:07:16.944747+00:00",
+    "catalogVersion": "1.2.15",
+    "capturedStates": 300,
+    "capturedQuestIDs": 128,
+    "statusCounts": {
+      "translated": 300
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "29589093506466dfe0afedeecd322a8d6d5fca225509aadff2e005d2c42e6cc2",
+        "savedAtUTC": "2026-11-20T11:07:16.063264+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-21T06:30:27.284541+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "upstreamEnabledExistingChangesRequired": false,
+  "guardedExistingSemanticRepairs": 2,
+  "unresolvedEnabledFieldErrors": [],
+  "olderReviewedFieldsUnchangedExceptTwoGuardedDetails": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.15.zip",
+    "bytes": 1011209,
+    "sha256": "6a07fdc016d5aac73c7e23192077e104b024267ab358d1b5af10fdf551315b46"
+  }
+}

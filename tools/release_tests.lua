@@ -931,3 +931,101 @@ if A.quests[2] and A.quests[98283] and A.quests[2480] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-English identity contracts, same-title stage separation, source absences, quantities and executable command order.')
 end
+
+if A.quests[1070] and A.quests[95216] and A.quests[970] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({1070,1071,1072,1073,1074,1075,1076,1077,1085,1079,1080,1081,1082,1083,1091,1058,1068,1090,1092,86574,95216,92401,92421,97288,97289,97290,97291,97292,95250,95189,95204,95195,92415,95161,92422,970,973,1140,1167,976,943,994,1026,1027,1028,1055,1029,1030,1045,1046}) do
+    assert(A.quests[id] and A.quests[id].title,'21November afternoon quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon source-state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost exact ID/title')
+    end
+  end
+  for _,h in ipairs({{95250,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held source branch lost fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:21NovemberAfternoon50 records across150 dialogue cases, held source fallback/capture and historical guards.')
+end
+
+if A.quests[1070] and A.quests[95216] and A.quests[970] then
+  local contracts={
+    {1070,"objective",{"Kaela Shadowspear","Windshear Crag","Stonetalon Mountains"}},
+    {1085,"objective",{"Gaxim"}},
+    {1071,"objective",{"Venture Co. Loggers","Venture Co. Deforesters","Gaxim Rustfizzle"}},
+    {1072,"objective",{"Lomac Gearstrip","Ironforge"}},
+    {1073,"objective",{"Minor Mana Potions","Elixirs of Minor Fortitude","Lomac Gearstrip"}},
+    {1074,"objective",{"Nitromirglyceronium","Gaxim Rustfizzle"}},
+    {1075,"objective",{"Collin Mauren","Stormwind"}},
+    {1076,"objective",{"Dust Devil Debris","Collin Mauren"}},
+    {1077,"objective",{"Scroll of Messaging","Gaxim Rustfizzle"}},
+    {1079,"objective",{"Venture Co.'s Engineering Plans","Windshear Crag"}},
+    {1080,"objective",{"Venture Co. Letters","Windshear Mine","Windshear Crag"}},
+    {1091,"objective",{"Venture Co. Letters","Kaela Shadowspear"}},
+    {1083,"objective",{"Smoldering Embers","Charred Vale","Kaela Shadowspear"}},
+    {1082,"objective",{"Sentinel Thenysil","Ashenvale"}},
+    {1081,"objective",{"Tyrande Whisperwind","Darnassus"}},
+    {1090,"objective",{"Piznik"}},
+    {1092,"objective",{"Unidentified Ore","Ziz Fizziks"}},
+    {1058,"objective",{"Witch Doctor Jin'Zil","Malaka'jin","Stonetalon Sap","Twilight Whiskers","Courser Eyes","Fey Dragon Scale"}},
+    {1068,"objective",{"XT:4","XT:9","Seereth Stonebreak","Stonetalon Mountains","Barrens"}},
+    {86574,"objective",{"Stonetalon Supplies","Pridewing Wyverns","Innkeeper Faralia"}},
+    {95216,"objective",{"Highly Toxic Strain","Witherfang","Ruins of Lordaeron","Theodore Griffs","Undercity"}},
+    {92401,"objective",{"Edward Heartweaver","Ruins of Lordaeron"}},
+    {92421,"objective",{"Intact Limbs","Ruins of Lordaeron","Morbin Lightbane","Undercity"}},
+    {97288,"objective",{"Abominable Head","Master Apothecary Faranell","Undercity"}},
+    {97289,"objective",{"Head of the Baron","Othmar","Undercity"}},
+    {97290,"objective",{"Master Apothecary Faranell","Undercity"}},
+    {97291,"objective",{"Toxic Skullcap","Tawny Grisette","Trade Quarter","Blisterweed","Herbalism Trainer","Essence of Agony","Rogues' Quarter","Master Apothecary Faranell"}},
+    {97292,"objective",{"Hissing Serum","Othmar","Master Apothecary Faranell"}},
+    {95250,"objective",{"Head of the Baron","Ruins of Lordaeron","Captain Truman"}},
+    {95189,"objective",{"Crest of Lordaeron","Lady Dena Kennedy","Stormwind City"}},
+    {95204,"objective",{"Crest of Lordaeron","Oran Snakewrithe","Undercity"}},
+    {95195,"objective",{"Bloodied Insignias","General Marcus Jonathan","Stormwind City"}},
+    {92415,"objective",{"Blood-Stained Letter","Orphan Matron Nightingale","Stormwind City"}},
+    {95161,"objective",{"Blood-Stained Letter","Avette Fellwood","Duskwood"}},
+    {92422,"objective",{"Rath'mael","Ruins of Lordaeron","Deathguard Kristof","Brill"}},
+    {970,"objective",{"Glowing Soul Gem","Delgren the Purifier","Maestra's Post"}},
+    {973,"objective",{"Ilkrud Magthrull's Tome","Delgren the Purifier"}},
+    {1140,"objective",{"Highborne","Night Run","Satyrnaar","Delgren the Purifier"}},
+    {1167,"objective",{"Balthule Shadowstrike","Tower of Althalaxx"}},
+    {976,"objective",{"Delgren the Purifier","Maestra's Post","Feero","Ashenvale Forest"}},
+    {943,"objective",{"Archaeologist Flagongut","Menethil Harbor","Stone of Relu","Flagongut's Fossil"}},
+    {994,"objective",{"Volcor","Terenthis","Auberdine"}},
+    {1026,"objective",{"Wooden Key","Dartol's Rod","Shael'dryn"}},
+    {1027,"objective",{"Dartol's Rod","Shael'dryn"}},
+    {1028,"objective",{"Dartol's Rod"}},
+    {1055,"objective",{"Shael'dryn"}},
+    {1029,"objective",{"Raene Wolfrunner","Astranaar"}},
+    {1030,"objective",{"Dartol's Rod of Transformation"}},
+    {1045,"objective",{"Bloodtooth Guards","Ran Bloodtooth's Skull","Krolg","Lake Mystral"}},
+    {1046,"objective",{"Ran Bloodtooth's Skull","Dartol's Rod of Transformation","Raene Wolfrunner","Astranaar"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source-grounded identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Current source recipient/target/item contract failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{1070,"progress"},{1085,"progress"},{1072,"progress"},{1075,"progress"},{1082,"progress"},{1081,"progress"},{92401,"progress"},{97290,"progress"},{95250,"progress"},{95250,"complete"},{92422,"progress"},{1167,"progress"},{994,"progress"},{1055,"progress"},{1029,"progress"},{1030,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current-English-absent state:'..r[1]..'/'..r[2]) end
+  for _,c in ipairs({
+    {976,"objective",{"Feero","Delgren the Purifier"}},
+    {994,"objective",{"Volcor","Terenthis"}},
+    {1026,"objective",{"Wooden Key","Dartol's Rod","Shael'dryn"}},
+    {1027,"objective",{"Dartol's Rod","Shael'dryn"}},
+    {1046,"objective",{"Ran Bloodtooth's Skull","Dartol's Rod of Transformation","Raene Wolfrunner"}},
+    {97291,"objective",{"Trade Quarter","Tawny Grisette","Toxic Skullcap","Herbalism Trainer","Blisterweed","Rogues' Quarter","Essence of Agony"}}}) do
+    local value=assert(A.quests[c[1]][c[2]]);local pos=1
+    for _,term in ipairs(c[3]) do local a,b=value:find(term,pos,true);assert(a,'Current source ordered task failed:'..c[1]..'/'..term);pos=b+1 end
+  end
+  for _,chain in ipairs({{1070,1085},{1073,1074},{1090,1092},{97288,97289,97290,97291,97292},{95189,95204},{92415,95161},{1026,1027,1028,1055,1029,1030,1045,1046}}) do
+    for i=2,#chain do
+      local a,b=A.quests[chain[i-1]],A.quests[chain[i]]
+      assert(a.en==b.en and a.objective~=b.objective,'Distinct same-title tasks collapsed:'..chain[i])
+    end
+  end
+  assert(not A.quests[95250].detail and not A.quests[95250].progress and not A.quests[95250].complete and A.quests[95250].objective,'Unresolved Human branch or absent replies invented')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 afternoon source identity contracts, eight same-title Raene stages, Torment/faction deliveries, source absences and ordered tasks.')
+end

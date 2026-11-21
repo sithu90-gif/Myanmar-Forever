@@ -1,0 +1,2583 @@
+{
+  "result": "PASS",
+  "partition": "stonetalon",
+  "versionTarget": "1.2.15",
+  "reviewedAtUTC": "2026-11-21T06:59:37.789021+00:00",
+  "reviewType": "Fresh independent correction review of root-reviewed copy; immutable original evidence preserved",
+  "counts": {
+    "quests": 20,
+    "fieldSlots": 100,
+    "enabledFields": 94,
+    "sourceAbsentFields": 6,
+    "heldFields": 0,
+    "acceptedFieldCorrections": 5,
+    "dictionaryChanges": 3,
+    "sourceRawFinalChainsReverified": 94
+  },
+  "initialIndependentReview": {
+    "file": "work/afternoon-2026-11-21/independent-review/stonetalon.json",
+    "result": "CHANGES_REQUIRED",
+    "sha256Before": "e0b338949a05a353e28d5fa007d4802a036a346f273a6da2c498dd233a0822b0",
+    "sha256After": "e0b338949a05a353e28d5fa007d4802a036a346f273a6da2c498dd233a0822b0",
+    "unchanged": true,
+    "disposition": "All five exact proposals accepted by root and resolved in candidate; original remains historical evidence."
+  },
+  "affectedFieldReviews": [
+    {
+      "id": 1079,
+      "field": "title",
+      "status": "reviewed",
+      "englishSHA256": "1d60551886bcfb2fbf9c89976cecae8c76e83cdc3666a82797766a9baf7a36fa",
+      "rawDeepLSHA256": "4eb5f218f7b0d9d30aab1d470d1e5aa4b931e8ecf458781ed93a67eeb506d26f",
+      "candidateMyanmarSHA256": "d062b48260c7f2b1e1d16a63b613de5e46fb13c21dc8d64bbc1e1bfa9ef16a0d",
+      "sourceRawFinalChain": {
+        "requestFile": "deepl-request-02.json",
+        "responseFile": "deepl-response-02.json",
+        "indexFile": "deepl-index-02.json",
+        "requestIndex": 15,
+        "responseIndex": 15,
+        "responseTargetIndex": 0,
+        "englishSHA256": "1d60551886bcfb2fbf9c89976cecae8c76e83cdc3666a82797766a9baf7a36fa",
+        "rawDeepLSHA256": "4eb5f218f7b0d9d30aab1d470d1e5aa4b931e8ecf458781ed93a67eeb506d26f",
+        "originalFinalSHA256": "5848567783690a299ff46c8dfb238596f82e92a1c94f462d9c46aa0913d69b4c",
+        "candidateFinalSHA256": "d062b48260c7f2b1e1d16a63b613de5e46fb13c21dc8d64bbc1e1bfa9ef16a0d",
+        "chainVerified": true
+      },
+      "changed": true,
+      "notes": "Fresh reread confirms semantic covert-operation framing with Alpha canonical အဲလ်ဖာ, matching maintained Alpha/alpha. No other title content changed."
+    },
+    {
+      "id": 1079,
+      "field": "detail",
+      "status": "reviewed",
+      "englishSHA256": "ff4f6760431850692850e0526b1011313aeff94bf5eaaabe69c3ae0fa1fe8655",
+      "rawDeepLSHA256": "9ee4043d674e83aa10443422056d1a6237995ab4f316cb5ae0ecea310acdec56",
+      "candidateMyanmarSHA256": "fb16e2aceeb46f673801c6299ee264ad7e61bb154fb3715d501c11c992361664",
+      "sourceRawFinalChain": {
+        "requestFile": "deepl-request-02.json",
+        "responseFile": "deepl-response-02.json",
+        "indexFile": "deepl-index-02.json",
+        "requestIndex": 16,
+        "responseIndex": 16,
+        "responseTargetIndex": 0,
+        "englishSHA256": "ff4f6760431850692850e0526b1011313aeff94bf5eaaabe69c3ae0fa1fe8655",
+        "rawDeepLSHA256": "9ee4043d674e83aa10443422056d1a6237995ab4f316cb5ae0ecea310acdec56",
+        "originalFinalSHA256": "a15ad0092b7e5583d563f031357a9555ff4aa78f086e69e54b1a022c7976bcba",
+        "candidateFinalSHA256": "fb16e2aceeb46f673801c6299ee264ad7e61bb154fb3715d501c11c992361664",
+        "chainVerified": true
+      },
+      "changed": true,
+      "notes": "Fresh current-primary reread confirms Plan Alpha compound now uses maintained အဲလ်ဖာ. Ready devices, pages explaining detonators/explosives and placement, retrieval rather than destruction, Engineering Plans, and lumber mill SOUTH of Cragpool Lake all retained. Exact <name> and three paragraphs retained; no added timers."
+    },
+    {
+      "id": 1080,
+      "field": "detail",
+      "status": "reviewed",
+      "englishSHA256": "2012b25ee226b53b38ddc54ba259df9eac0f706943ebaf62068423306d4625f5",
+      "rawDeepLSHA256": "3e07e1f98efb53630717f7c97bf44a193bb67760c1e9275d5df629f13824d085",
+      "candidateMyanmarSHA256": "d94463ad17366850602947dbd9f7f1f8de677aa153044bf2929cda9d7ce98b22",
+      "sourceRawFinalChain": {
+        "requestFile": "deepl-request-02.json",
+        "responseFile": "deepl-response-02.json",
+        "indexFile": "deepl-index-02.json",
+        "requestIndex": 21,
+        "responseIndex": 21,
+        "responseTargetIndex": 0,
+        "englishSHA256": "2012b25ee226b53b38ddc54ba259df9eac0f706943ebaf62068423306d4625f5",
+        "rawDeepLSHA256": "3e07e1f98efb53630717f7c97bf44a193bb67760c1e9275d5df629f13824d085",
+        "originalFinalSHA256": "542bd84fcedc76407fdf9897584db8f8b33d9229db019151872a085bfce0f256",
+        "candidateFinalSHA256": "d94463ad17366850602947dbd9f7f1f8de677aa153044bf2929cda9d7ce98b22",
+        "chainVerified": true
+      },
+      "changed": true,
+      "notes": "Fresh reread confirms Plan Alpha now matches corrected1079 and maintained core. Plan Beta comparison, distraction, precious letters as key, previously provided placement pages, return ALIVE and WITH letters all retained. Exact <name> and four paragraphs preserved."
+    },
+    {
+      "id": 1058,
+      "field": "progress",
+      "status": "reviewed",
+      "englishSHA256": "aa59af183de291db8f1b4800bf42960079de0e7a275bbe287ff43d1d5ccae6bd",
+      "rawDeepLSHA256": "8ffda018e3ce2edfe386c6eb25567c0d582d0ee01a1f2d3a37b88bcc428b5fdc",
+      "candidateMyanmarSHA256": "5eec5bd310a23b123261b5de4c866c77c01bfb1a12c9ccb4042b248c571c18b4",
+      "sourceRawFinalChain": {
+        "requestFile": "deepl-request-03.json",
+        "responseFile": "deepl-response-03.json",
+        "indexFile": "deepl-index-03.json",
+        "requestIndex": 21,
+        "responseIndex": 21,
+        "responseTargetIndex": 0,
+        "englishSHA256": "aa59af183de291db8f1b4800bf42960079de0e7a275bbe287ff43d1d5ccae6bd",
+        "rawDeepLSHA256": "8ffda018e3ce2edfe386c6eb25567c0d582d0ee01a1f2d3a37b88bcc428b5fdc",
+        "originalFinalSHA256": "d71e48a8081e230865056286ec715c8d950f274f95a63bc840e0899232c912f5",
+        "candidateFinalSHA256": "5eec5bd310a23b123261b5de4c866c77c01bfb1a12c9ccb4042b248c571c18b4",
+        "chainVerified": true
+      },
+      "changed": true,
+      "notes": "Fresh reread confirms whole lowercase fey dragon scale item identity is now retained and pronounced once, with same compound as Fey Dragon Scale objective. Caged elves mock sympathy, sap/whiskers from twilight runners, doubtful question, and eyes-heavy fierce brew retain Jin'Zil voice. Three paragraphs remain."
+    },
+    {
+      "id": 86574,
+      "field": "complete",
+      "status": "reviewed",
+      "englishSHA256": "e21439cbd094870178ee40ca8c1c40eafb5a16eaab010a6f1bd9e7cd1f3bfead",
+      "rawDeepLSHA256": "e05f10e24cb5f53eadc38f1ec265bbfa1800be9c0a8037ef29837f25a777746b",
+      "candidateMyanmarSHA256": "308c7543378b209279a7cffb2d68252a941bf21fdfd90c33a4892ca5a03f01b0",
+      "sourceRawFinalChain": {
+        "requestFile": "deepl-request-04.json",
+        "responseFile": "deepl-response-04.json",
+        "indexFile": "deepl-index-04.json",
+        "requestIndex": 7,
+        "responseIndex": 7,
+        "responseTargetIndex": 0,
+        "englishSHA256": "e21439cbd094870178ee40ca8c1c40eafb5a16eaab010a6f1bd9e7cd1f3bfead",
+        "rawDeepLSHA256": "e05f10e24cb5f53eadc38f1ec265bbfa1800be9c0a8037ef29837f25a777746b",
+        "originalFinalSHA256": "db4553bfcece143f96e998decf7246beda9e2bdc35c8f43f231347f628532521",
+        "candidateFinalSHA256": "308c7543378b209279a7cffb2d68252a941bf21fdfd90c33a4892ca5a03f01b0",
+        "chainVerified": true
+      },
+      "changed": true,
+      "notes": "Fresh reread confirms သူမ အသက်ဆုံးရှုံးခဲ့ရတာ explicitly means the courier lost her life. Current primary body in detail plus tragic failure-to-arrive and UA complete death corroborate this reading. Found-shipment question, shocked uncertainty, gratitude through good use of supplies and all three paragraphs remain."
+    }
+  ],
+  "dictionaryReview": {
+    "result": "PASS",
+    "changes": {
+      "Alpha": {
+        "before": "အယ်လ်ဖာ",
+        "after": "အဲလ်ဖာ"
+      },
+      "fey dragon scale": {
+        "before": null,
+        "after": "ဖေး ဒရက်ဂန် စကေးလ်"
+      },
+      "Plan Alpha": {
+        "before": "ပလန် အယ်လ်ဖာ",
+        "after": "ပလန် အဲလ်ဖာ"
+      }
+    },
+    "noOtherDictionaryChanges": true,
+    "canonicalAlphaAndCompoundConsistent": true,
+    "newLowercaseFeyDragonScaleAnnotationOnlyInReviewedField": true,
+    "newPronunciationsNativeStatus": "pending"
+  },
+  "quests": [
+    {
+      "id": 1070,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "949dcdd6deadc0cd3021f5b969162853f12db19d48a80cb7e88d1240168084d5",
+          "rawDeepLSHA256": "d340193757ccb56e1bf1314e6584c23428b59f198fc4d3f9f5c42a0bcf61b5ea",
+          "candidateMyanmarSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "949dcdd6deadc0cd3021f5b969162853f12db19d48a80cb7e88d1240168084d5",
+            "rawDeepLSHA256": "d340193757ccb56e1bf1314e6584c23428b59f198fc4d3f9f5c42a0bcf61b5ea",
+            "originalFinalSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+            "candidateFinalSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "8b2e3048e7cd39b061d404ab618a62218a5ee0eb8258cacd2ba3c2d259f4082f",
+          "rawDeepLSHA256": "af73f4bf4316c02608ac4c955bafb1f1e89ca8efd67c1013776939fbdda3a046",
+          "candidateMyanmarSHA256": "e09e362896a054df902c3daa9c1d17f7eb26e9c1ff4dad7e90d484b26e1d04e1",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8b2e3048e7cd39b061d404ab618a62218a5ee0eb8258cacd2ba3c2d259f4082f",
+            "rawDeepLSHA256": "af73f4bf4316c02608ac4c955bafb1f1e89ca8efd67c1013776939fbdda3a046",
+            "originalFinalSHA256": "e09e362896a054df902c3daa9c1d17f7eb26e9c1ff4dad7e90d484b26e1d04e1",
+            "candidateFinalSHA256": "e09e362896a054df902c3daa9c1d17f7eb26e9c1ff4dad7e90d484b26e1d04e1",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "01ea17be7eb294afab7fce66ed678e78e8030121f8e3119d59cb0092862bcb80",
+          "rawDeepLSHA256": "4c5e594522303e7b0cf5378c38175a09a87ae596da8720a37d8b0059b033f165",
+          "candidateMyanmarSHA256": "76ff7d4c05bc51450cc0964c96f8a8e52076e6b40bf69e4a945df42262099b40",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "01ea17be7eb294afab7fce66ed678e78e8030121f8e3119d59cb0092862bcb80",
+            "rawDeepLSHA256": "4c5e594522303e7b0cf5378c38175a09a87ae596da8720a37d8b0059b033f165",
+            "originalFinalSHA256": "76ff7d4c05bc51450cc0964c96f8a8e52076e6b40bf69e4a945df42262099b40",
+            "candidateFinalSHA256": "76ff7d4c05bc51450cc0964c96f8a8e52076e6b40bf69e4a945df42262099b40",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "898f005e7e59b3f682c0c10c9e6a8f9871bd313f0dd46df3c9b718026f06c75a",
+          "rawDeepLSHA256": "f3a5b9dd125b96a22813c94e5e9d559a3b5e039607d63459efb5865c773f6cc6",
+          "candidateMyanmarSHA256": "b865dd069d0122f76009c85fcade5c0deabbfbccda7932a3b46a57a7c4ef7fbc",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "898f005e7e59b3f682c0c10c9e6a8f9871bd313f0dd46df3c9b718026f06c75a",
+            "rawDeepLSHA256": "f3a5b9dd125b96a22813c94e5e9d559a3b5e039607d63459efb5865c773f6cc6",
+            "originalFinalSHA256": "b865dd069d0122f76009c85fcade5c0deabbfbccda7932a3b46a57a7c4ef7fbc",
+            "candidateFinalSHA256": "b865dd069d0122f76009c85fcade5c0deabbfbccda7932a3b46a57a7c4ef7fbc",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1085,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "949dcdd6deadc0cd3021f5b969162853f12db19d48a80cb7e88d1240168084d5",
+          "rawDeepLSHA256": "d340193757ccb56e1bf1314e6584c23428b59f198fc4d3f9f5c42a0bcf61b5ea",
+          "candidateMyanmarSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "949dcdd6deadc0cd3021f5b969162853f12db19d48a80cb7e88d1240168084d5",
+            "rawDeepLSHA256": "d340193757ccb56e1bf1314e6584c23428b59f198fc4d3f9f5c42a0bcf61b5ea",
+            "originalFinalSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+            "candidateFinalSHA256": "c503f026222fc0720efb63734eb7e2baba116e6a815b6250eff5cba73808cae8",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "717879cbcfe20d7e980e36d0a8c01df18b12a549ed4f61a132bcc54ebbb4e2ea",
+          "rawDeepLSHA256": "d13076f92240c759c5ffa7b2dbf19ee5cc717287bcfa6cff684b6d77144edc5f",
+          "candidateMyanmarSHA256": "f9f51c3165a7aec5ef33c8867eb9f8d8583886d32f679c9f23d61af7a76bbc59",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "717879cbcfe20d7e980e36d0a8c01df18b12a549ed4f61a132bcc54ebbb4e2ea",
+            "rawDeepLSHA256": "d13076f92240c759c5ffa7b2dbf19ee5cc717287bcfa6cff684b6d77144edc5f",
+            "originalFinalSHA256": "f9f51c3165a7aec5ef33c8867eb9f8d8583886d32f679c9f23d61af7a76bbc59",
+            "candidateFinalSHA256": "f9f51c3165a7aec5ef33c8867eb9f8d8583886d32f679c9f23d61af7a76bbc59",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d485a90b052eb9f4accb67764252cb73cd5f13d9397ea23bea27cd0eb000fb56",
+          "rawDeepLSHA256": "d2338941eeeefee192f2db1082637871cfd55f4c23cc40fde42cad8cacbc0d46",
+          "candidateMyanmarSHA256": "90454d4dc0dcb7131512c9ce4b0201b0552fe8ade323a27978577854c9212036",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d485a90b052eb9f4accb67764252cb73cd5f13d9397ea23bea27cd0eb000fb56",
+            "rawDeepLSHA256": "d2338941eeeefee192f2db1082637871cfd55f4c23cc40fde42cad8cacbc0d46",
+            "originalFinalSHA256": "90454d4dc0dcb7131512c9ce4b0201b0552fe8ade323a27978577854c9212036",
+            "candidateFinalSHA256": "90454d4dc0dcb7131512c9ce4b0201b0552fe8ade323a27978577854c9212036",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "7c19dacc76530a70a1a8ad18d502b6dcbedb258ee07cfcba4d79324be29437cf",
+          "rawDeepLSHA256": "bc1b3a2799a6833d9ffffd84616f0ebc3b1f40ba6571155d918a8ebd34487596",
+          "candidateMyanmarSHA256": "8ca8be77f7e482475a1d51ce7b4bb0dc1b3cd4fd65066049d95857662c932f9d",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7c19dacc76530a70a1a8ad18d502b6dcbedb258ee07cfcba4d79324be29437cf",
+            "rawDeepLSHA256": "bc1b3a2799a6833d9ffffd84616f0ebc3b1f40ba6571155d918a8ebd34487596",
+            "originalFinalSHA256": "8ca8be77f7e482475a1d51ce7b4bb0dc1b3cd4fd65066049d95857662c932f9d",
+            "candidateFinalSHA256": "8ca8be77f7e482475a1d51ce7b4bb0dc1b3cd4fd65066049d95857662c932f9d",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1071,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "516bcf15c210cd2492ed9be651f13340a3bb62d6597a2cc5e8ae4a5d5b3f55d4",
+          "rawDeepLSHA256": "3ac8ba02f8e38c8e10803a866e51fcb60e72f62501051a6ebc6a9461f54dfca9",
+          "candidateMyanmarSHA256": "adf353e218c58db79dd7c0e19d78b5b596c86ff36b8c7c5d08f1b3351eaed7a8",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 8,
+            "responseIndex": 8,
+            "responseTargetIndex": 0,
+            "englishSHA256": "516bcf15c210cd2492ed9be651f13340a3bb62d6597a2cc5e8ae4a5d5b3f55d4",
+            "rawDeepLSHA256": "3ac8ba02f8e38c8e10803a866e51fcb60e72f62501051a6ebc6a9461f54dfca9",
+            "originalFinalSHA256": "adf353e218c58db79dd7c0e19d78b5b596c86ff36b8c7c5d08f1b3351eaed7a8",
+            "candidateFinalSHA256": "adf353e218c58db79dd7c0e19d78b5b596c86ff36b8c7c5d08f1b3351eaed7a8",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "5d32fa1eb37a6c10745b2c55e22005d51927a9166f76859d369c7bb582ed4032",
+          "rawDeepLSHA256": "5997ac3430f37995c7cd8322abb2ba60b880846b8d48c1191cf232c234d3b866",
+          "candidateMyanmarSHA256": "efb7cabcf4c97b7d37420ff44cc4912b9ee6e156e958517c509091b34f96aca7",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 9,
+            "responseIndex": 9,
+            "responseTargetIndex": 0,
+            "englishSHA256": "5d32fa1eb37a6c10745b2c55e22005d51927a9166f76859d369c7bb582ed4032",
+            "rawDeepLSHA256": "5997ac3430f37995c7cd8322abb2ba60b880846b8d48c1191cf232c234d3b866",
+            "originalFinalSHA256": "efb7cabcf4c97b7d37420ff44cc4912b9ee6e156e958517c509091b34f96aca7",
+            "candidateFinalSHA256": "efb7cabcf4c97b7d37420ff44cc4912b9ee6e156e958517c509091b34f96aca7",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "2f0ac3481ccf44fe7edb778031a3fb7264656b036c4a732d053fe009bf9e3db3",
+          "rawDeepLSHA256": "b69fd8da3c3eea7a6c3a0311c98bc4293c30b36bc8836ba2428b88767e745b45",
+          "candidateMyanmarSHA256": "ab05713532c0370b1a4395630acb269b0c3422ef4a4ada63263bb75e272c04d3",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 10,
+            "responseIndex": 10,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2f0ac3481ccf44fe7edb778031a3fb7264656b036c4a732d053fe009bf9e3db3",
+            "rawDeepLSHA256": "b69fd8da3c3eea7a6c3a0311c98bc4293c30b36bc8836ba2428b88767e745b45",
+            "originalFinalSHA256": "ab05713532c0370b1a4395630acb269b0c3422ef4a4ada63263bb75e272c04d3",
+            "candidateFinalSHA256": "ab05713532c0370b1a4395630acb269b0c3422ef4a4ada63263bb75e272c04d3",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "f8b5ac6a26468df1bbc2cdf279d2c49b4241827056e835e2a5d7af14836f41c5",
+          "rawDeepLSHA256": "16b498731175a78337887cd9d82f35d4acb2d17a9c9a6dbcadb6b70efd19bed2",
+          "candidateMyanmarSHA256": "c70d5157783dcb11272baaa9f97706a7e744e299046414c94a1a2a5b56f5939f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 11,
+            "responseIndex": 11,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f8b5ac6a26468df1bbc2cdf279d2c49b4241827056e835e2a5d7af14836f41c5",
+            "rawDeepLSHA256": "16b498731175a78337887cd9d82f35d4acb2d17a9c9a6dbcadb6b70efd19bed2",
+            "originalFinalSHA256": "c70d5157783dcb11272baaa9f97706a7e744e299046414c94a1a2a5b56f5939f",
+            "candidateFinalSHA256": "c70d5157783dcb11272baaa9f97706a7e744e299046414c94a1a2a5b56f5939f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "d65479e0f0c9e8f1a4559d4bc4ef4c3a18aa1299b4dc865bef4c5a7875cf9936",
+          "rawDeepLSHA256": "699b4f56f50b2e5e906a204f29e20baa72ee25de3da009cc95403de4a47c5216",
+          "candidateMyanmarSHA256": "0a924702a6bd7bdf274ea8a175bc3e35b909eed67f01ae2895f472e46f89538e",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 12,
+            "responseIndex": 12,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d65479e0f0c9e8f1a4559d4bc4ef4c3a18aa1299b4dc865bef4c5a7875cf9936",
+            "rawDeepLSHA256": "699b4f56f50b2e5e906a204f29e20baa72ee25de3da009cc95403de4a47c5216",
+            "originalFinalSHA256": "0a924702a6bd7bdf274ea8a175bc3e35b909eed67f01ae2895f472e46f89538e",
+            "candidateFinalSHA256": "0a924702a6bd7bdf274ea8a175bc3e35b909eed67f01ae2895f472e46f89538e",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1072,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3ca607e66eea8c9418e440ef83513953fb6fc1838963a705731c4b8745045c5e",
+          "rawDeepLSHA256": "cf012b7390654d4c284842606452cdf9ee1dd572647839b8cfa48e4f75ac2ff9",
+          "candidateMyanmarSHA256": "335d7af99377f2bdaacd4ceab4b7b853dbed446a3db675b4857bd7596a7be654",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 13,
+            "responseIndex": 13,
+            "responseTargetIndex": 0,
+            "englishSHA256": "3ca607e66eea8c9418e440ef83513953fb6fc1838963a705731c4b8745045c5e",
+            "rawDeepLSHA256": "cf012b7390654d4c284842606452cdf9ee1dd572647839b8cfa48e4f75ac2ff9",
+            "originalFinalSHA256": "335d7af99377f2bdaacd4ceab4b7b853dbed446a3db675b4857bd7596a7be654",
+            "candidateFinalSHA256": "335d7af99377f2bdaacd4ceab4b7b853dbed446a3db675b4857bd7596a7be654",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "b4a660f025b8ed565d4220139ea0b3084b0f6374fd979018d71930fff8721c7c",
+          "rawDeepLSHA256": "4f58110c09797e465b423aa559067cd2d594fd993ecf28bea6644e779037d6b8",
+          "candidateMyanmarSHA256": "ef9b977def8de0c3a325794cfe7dcda54006ce45a00aa1c494bc26aa6f6a40e4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 14,
+            "responseIndex": 14,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b4a660f025b8ed565d4220139ea0b3084b0f6374fd979018d71930fff8721c7c",
+            "rawDeepLSHA256": "4f58110c09797e465b423aa559067cd2d594fd993ecf28bea6644e779037d6b8",
+            "originalFinalSHA256": "ef9b977def8de0c3a325794cfe7dcda54006ce45a00aa1c494bc26aa6f6a40e4",
+            "candidateFinalSHA256": "ef9b977def8de0c3a325794cfe7dcda54006ce45a00aa1c494bc26aa6f6a40e4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "0267292f92186a95743d7decf7c32a40a843cb9779bdb7bc85b781447273012b",
+          "rawDeepLSHA256": "0069dca5b944707a98738b051d47defdcaeb32a053e653b383ee0d237b98f9c4",
+          "candidateMyanmarSHA256": "c2cf66ae4c370ffff0dd55965e22cc020ee1a866388db8b982406548cc310abc",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0267292f92186a95743d7decf7c32a40a843cb9779bdb7bc85b781447273012b",
+            "rawDeepLSHA256": "0069dca5b944707a98738b051d47defdcaeb32a053e653b383ee0d237b98f9c4",
+            "originalFinalSHA256": "c2cf66ae4c370ffff0dd55965e22cc020ee1a866388db8b982406548cc310abc",
+            "candidateFinalSHA256": "c2cf66ae4c370ffff0dd55965e22cc020ee1a866388db8b982406548cc310abc",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "08046913a66695f3abce436d11d1e11585d03611884c1ef0db0437a5e688a275",
+          "rawDeepLSHA256": "fa5677afa5590626409d0575727b298ac89298f5cd77bbc7f49376eb96a8283e",
+          "candidateMyanmarSHA256": "209abeb721178de7a7cb610e5c9bce154c0912f26dbf83e77356d0f9bb6cdbd4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 16,
+            "responseIndex": 16,
+            "responseTargetIndex": 0,
+            "englishSHA256": "08046913a66695f3abce436d11d1e11585d03611884c1ef0db0437a5e688a275",
+            "rawDeepLSHA256": "fa5677afa5590626409d0575727b298ac89298f5cd77bbc7f49376eb96a8283e",
+            "originalFinalSHA256": "209abeb721178de7a7cb610e5c9bce154c0912f26dbf83e77356d0f9bb6cdbd4",
+            "candidateFinalSHA256": "209abeb721178de7a7cb610e5c9bce154c0912f26dbf83e77356d0f9bb6cdbd4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1073,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "a1fc91f049c27107349f1b03bcc0aa48d6c22ff5a8ee9e21fc893c3e99a2586c",
+          "rawDeepLSHA256": "85432f94f2f2189f65c24473f1bd9dc2462afaf69aa8ff40b7655add64fd1593",
+          "candidateMyanmarSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 17,
+            "responseIndex": 17,
+            "responseTargetIndex": 0,
+            "englishSHA256": "a1fc91f049c27107349f1b03bcc0aa48d6c22ff5a8ee9e21fc893c3e99a2586c",
+            "rawDeepLSHA256": "85432f94f2f2189f65c24473f1bd9dc2462afaf69aa8ff40b7655add64fd1593",
+            "originalFinalSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+            "candidateFinalSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "7542172d35fddb186f4299c100132fb15d6f202dd14a18005e2d0ccd1cef5273",
+          "rawDeepLSHA256": "c986347754549413f39fe344eb23b41f1e362253c0f25cfefdce0dcb4a05f9ad",
+          "candidateMyanmarSHA256": "9a228d32ce69513a63cb27cc88a8d73daff87d77a82c21f84ae63b2e2e9e959b",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 18,
+            "responseIndex": 18,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7542172d35fddb186f4299c100132fb15d6f202dd14a18005e2d0ccd1cef5273",
+            "rawDeepLSHA256": "c986347754549413f39fe344eb23b41f1e362253c0f25cfefdce0dcb4a05f9ad",
+            "originalFinalSHA256": "9a228d32ce69513a63cb27cc88a8d73daff87d77a82c21f84ae63b2e2e9e959b",
+            "candidateFinalSHA256": "9a228d32ce69513a63cb27cc88a8d73daff87d77a82c21f84ae63b2e2e9e959b",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "25cbc067f3f75858596e9138cd58984335051238f454ede411e7a80d2bd2d20d",
+          "rawDeepLSHA256": "4380e376129c2bbb0b0c66c20c9f1a23f479f351eb212559ece285e5cd32c976",
+          "candidateMyanmarSHA256": "5dc724268699336fd9c905362455659a1f3b19a12dfa2c63b96b014d7e636625",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 19,
+            "responseIndex": 19,
+            "responseTargetIndex": 0,
+            "englishSHA256": "25cbc067f3f75858596e9138cd58984335051238f454ede411e7a80d2bd2d20d",
+            "rawDeepLSHA256": "4380e376129c2bbb0b0c66c20c9f1a23f479f351eb212559ece285e5cd32c976",
+            "originalFinalSHA256": "5dc724268699336fd9c905362455659a1f3b19a12dfa2c63b96b014d7e636625",
+            "candidateFinalSHA256": "5dc724268699336fd9c905362455659a1f3b19a12dfa2c63b96b014d7e636625",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "cac78816b42972786fafa97197da0d07d66acefcafce505453d7d04bfeb689e0",
+          "rawDeepLSHA256": "bdc38b66ad30a2cc614bbd6d80ded43ff8d582b580b60ede703882748c354070",
+          "candidateMyanmarSHA256": "495cace356751bb5716b41cd8cc203a2855a65151e1eddd87fc781955b04c12c",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 20,
+            "responseIndex": 20,
+            "responseTargetIndex": 0,
+            "englishSHA256": "cac78816b42972786fafa97197da0d07d66acefcafce505453d7d04bfeb689e0",
+            "rawDeepLSHA256": "bdc38b66ad30a2cc614bbd6d80ded43ff8d582b580b60ede703882748c354070",
+            "originalFinalSHA256": "495cace356751bb5716b41cd8cc203a2855a65151e1eddd87fc781955b04c12c",
+            "candidateFinalSHA256": "495cace356751bb5716b41cd8cc203a2855a65151e1eddd87fc781955b04c12c",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "21fb439fb9f2faf9a67e9a247cf596f946ad990af97c6719c8ca3b6cdf007c23",
+          "rawDeepLSHA256": "1d783424064f91a765e11d608b5d10d05ab8c1e559e7ff888731e8fa8b0d4055",
+          "candidateMyanmarSHA256": "e62984366f97fd1fc1fff0528412d338596213c8836d49ca0876cc7895c46633",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 21,
+            "responseIndex": 21,
+            "responseTargetIndex": 0,
+            "englishSHA256": "21fb439fb9f2faf9a67e9a247cf596f946ad990af97c6719c8ca3b6cdf007c23",
+            "rawDeepLSHA256": "1d783424064f91a765e11d608b5d10d05ab8c1e559e7ff888731e8fa8b0d4055",
+            "originalFinalSHA256": "e62984366f97fd1fc1fff0528412d338596213c8836d49ca0876cc7895c46633",
+            "candidateFinalSHA256": "e62984366f97fd1fc1fff0528412d338596213c8836d49ca0876cc7895c46633",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1074,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "a1fc91f049c27107349f1b03bcc0aa48d6c22ff5a8ee9e21fc893c3e99a2586c",
+          "rawDeepLSHA256": "85432f94f2f2189f65c24473f1bd9dc2462afaf69aa8ff40b7655add64fd1593",
+          "candidateMyanmarSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 22,
+            "responseIndex": 22,
+            "responseTargetIndex": 0,
+            "englishSHA256": "a1fc91f049c27107349f1b03bcc0aa48d6c22ff5a8ee9e21fc893c3e99a2586c",
+            "rawDeepLSHA256": "85432f94f2f2189f65c24473f1bd9dc2462afaf69aa8ff40b7655add64fd1593",
+            "originalFinalSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+            "candidateFinalSHA256": "0056154b1dbbbd5ef1baea92f0ad683e5c3d83046f8303b9d227e690a80b9335",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "cea264f8d954192c7d25b38fcc9c9ef1468784d964bed0770a7373737fbcdfb5",
+          "rawDeepLSHA256": "08a49ee997595420b28e6c7983e9662895e4d6473f72bf8abdf592095fcf06f3",
+          "candidateMyanmarSHA256": "3a8fd27bf212da377138c6171c3d0301077e998eeee7aa55b83ec2cdefc445b2",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 23,
+            "responseIndex": 23,
+            "responseTargetIndex": 0,
+            "englishSHA256": "cea264f8d954192c7d25b38fcc9c9ef1468784d964bed0770a7373737fbcdfb5",
+            "rawDeepLSHA256": "08a49ee997595420b28e6c7983e9662895e4d6473f72bf8abdf592095fcf06f3",
+            "originalFinalSHA256": "3a8fd27bf212da377138c6171c3d0301077e998eeee7aa55b83ec2cdefc445b2",
+            "candidateFinalSHA256": "3a8fd27bf212da377138c6171c3d0301077e998eeee7aa55b83ec2cdefc445b2",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "23ba3c11242992d3424956561d9cdde73310be1a0b33973f0f708d280f83d80d",
+          "rawDeepLSHA256": "5e3d7178f9382b4b8687556503d681cb7b8adb9545622773d81abaa307014ba6",
+          "candidateMyanmarSHA256": "1ebdf387caa4a3287b4fe6a33f0ff3d8f90d79764bfde579b13d84eed3d6c30b",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 24,
+            "responseIndex": 24,
+            "responseTargetIndex": 0,
+            "englishSHA256": "23ba3c11242992d3424956561d9cdde73310be1a0b33973f0f708d280f83d80d",
+            "rawDeepLSHA256": "5e3d7178f9382b4b8687556503d681cb7b8adb9545622773d81abaa307014ba6",
+            "originalFinalSHA256": "1ebdf387caa4a3287b4fe6a33f0ff3d8f90d79764bfde579b13d84eed3d6c30b",
+            "candidateFinalSHA256": "1ebdf387caa4a3287b4fe6a33f0ff3d8f90d79764bfde579b13d84eed3d6c30b",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "fc22001e3a48941db8619615df5d615fecc1745f5e02be4d3e2b47db1bd073e0",
+          "rawDeepLSHA256": "b3341ec83854fa35e6696f233dcde07f3a74123662f06fc64680acc9a2afa97b",
+          "candidateMyanmarSHA256": "69c0d3e92852c843c09b056d617574fd32f268feea8d19993777d9bdc4b19495",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-01.json",
+            "responseFile": "deepl-response-01.json",
+            "indexFile": "deepl-index-01.json",
+            "requestIndex": 25,
+            "responseIndex": 25,
+            "responseTargetIndex": 0,
+            "englishSHA256": "fc22001e3a48941db8619615df5d615fecc1745f5e02be4d3e2b47db1bd073e0",
+            "rawDeepLSHA256": "b3341ec83854fa35e6696f233dcde07f3a74123662f06fc64680acc9a2afa97b",
+            "originalFinalSHA256": "69c0d3e92852c843c09b056d617574fd32f268feea8d19993777d9bdc4b19495",
+            "candidateFinalSHA256": "69c0d3e92852c843c09b056d617574fd32f268feea8d19993777d9bdc4b19495",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "f4627fdcd012e169226c0aae44b48b3d277865b298f50faa4dc83ee2d2b182fb",
+          "rawDeepLSHA256": "978e66e7f829f3f02c969e8ea9c0732aa71793e61381ab99d3cc8aa63b2ea3f1",
+          "candidateMyanmarSHA256": "f792aa01c6ddd46432903a9a2ee4bac3d66111a84c4a7a6b388afedab0606273",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f4627fdcd012e169226c0aae44b48b3d277865b298f50faa4dc83ee2d2b182fb",
+            "rawDeepLSHA256": "978e66e7f829f3f02c969e8ea9c0732aa71793e61381ab99d3cc8aa63b2ea3f1",
+            "originalFinalSHA256": "f792aa01c6ddd46432903a9a2ee4bac3d66111a84c4a7a6b388afedab0606273",
+            "candidateFinalSHA256": "f792aa01c6ddd46432903a9a2ee4bac3d66111a84c4a7a6b388afedab0606273",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1075,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "2085650eb0b0b9a492dcb58c677ee341e94bd68ce04afb86f2890040858d8ac7",
+          "rawDeepLSHA256": "811761e7b108c8d8b1630ab8510a594d1c0868189a756974b0131ca24805a202",
+          "candidateMyanmarSHA256": "5367aa646869a2bb313c8cca9cf8d17b31bf403f8fc0e963bdcd69ab4a384397",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2085650eb0b0b9a492dcb58c677ee341e94bd68ce04afb86f2890040858d8ac7",
+            "rawDeepLSHA256": "811761e7b108c8d8b1630ab8510a594d1c0868189a756974b0131ca24805a202",
+            "originalFinalSHA256": "5367aa646869a2bb313c8cca9cf8d17b31bf403f8fc0e963bdcd69ab4a384397",
+            "candidateFinalSHA256": "5367aa646869a2bb313c8cca9cf8d17b31bf403f8fc0e963bdcd69ab4a384397",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "8f7587f18424b2b5409af7816da39b7400104b56cc325d77e2f6c0adfcfbeac9",
+          "rawDeepLSHA256": "3af2e71f0c3ee5dd41555b726623064ae6a8bc8cbe8bb60ddeb532f23ef9279f",
+          "candidateMyanmarSHA256": "7052896a1615e1be4eeea66110ee0a98928df7adb6e2b5f5bb43b2a5cc63a371",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8f7587f18424b2b5409af7816da39b7400104b56cc325d77e2f6c0adfcfbeac9",
+            "rawDeepLSHA256": "3af2e71f0c3ee5dd41555b726623064ae6a8bc8cbe8bb60ddeb532f23ef9279f",
+            "originalFinalSHA256": "7052896a1615e1be4eeea66110ee0a98928df7adb6e2b5f5bb43b2a5cc63a371",
+            "candidateFinalSHA256": "7052896a1615e1be4eeea66110ee0a98928df7adb6e2b5f5bb43b2a5cc63a371",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "2e66d88900522b2cf8baabfd45d9e06bde8fee8153c11b5cf11a67e506208442",
+          "rawDeepLSHA256": "04190d79f0e064151a8614aa84154e35127d868923f43fb86f46974bac65b638",
+          "candidateMyanmarSHA256": "65c5701a9b12cc8acd496d6cefd51341336b226e74cf98fec76b9b27667e7064",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2e66d88900522b2cf8baabfd45d9e06bde8fee8153c11b5cf11a67e506208442",
+            "rawDeepLSHA256": "04190d79f0e064151a8614aa84154e35127d868923f43fb86f46974bac65b638",
+            "originalFinalSHA256": "65c5701a9b12cc8acd496d6cefd51341336b226e74cf98fec76b9b27667e7064",
+            "candidateFinalSHA256": "65c5701a9b12cc8acd496d6cefd51341336b226e74cf98fec76b9b27667e7064",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "77e0c92081d6d3fd782d1ca3b99e32cddb6a6ccfdd7c7bbafaf3f0070afe0383",
+          "rawDeepLSHA256": "79a4f37ed523df46c0c031f53c76c2244a01087f19eb738c90c782372f2dc672",
+          "candidateMyanmarSHA256": "f384bb169ed4ed312272478c3f11029d93077b359ae70a8a1e87e320698d1d74",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "77e0c92081d6d3fd782d1ca3b99e32cddb6a6ccfdd7c7bbafaf3f0070afe0383",
+            "rawDeepLSHA256": "79a4f37ed523df46c0c031f53c76c2244a01087f19eb738c90c782372f2dc672",
+            "originalFinalSHA256": "f384bb169ed4ed312272478c3f11029d93077b359ae70a8a1e87e320698d1d74",
+            "candidateFinalSHA256": "f384bb169ed4ed312272478c3f11029d93077b359ae70a8a1e87e320698d1d74",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1076,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "059a34cff0bd907877ef6e1ec7381d5c0ef6c0160cb8d709530f023259758137",
+          "rawDeepLSHA256": "70d0cd3e2bdcd502b629bd45336a8206d4c5b23122b5ea9b82b153eb38d85e61",
+          "candidateMyanmarSHA256": "bf483000f2a7eaa91f37cd4eefe29c604c8e285ed5a470380950dbbb0de27f98",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "059a34cff0bd907877ef6e1ec7381d5c0ef6c0160cb8d709530f023259758137",
+            "rawDeepLSHA256": "70d0cd3e2bdcd502b629bd45336a8206d4c5b23122b5ea9b82b153eb38d85e61",
+            "originalFinalSHA256": "bf483000f2a7eaa91f37cd4eefe29c604c8e285ed5a470380950dbbb0de27f98",
+            "candidateFinalSHA256": "bf483000f2a7eaa91f37cd4eefe29c604c8e285ed5a470380950dbbb0de27f98",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "cf1f034c10e052cc61a849ede7bef69b8c6975c39a82ad1f1a56ac7411daf02a",
+          "rawDeepLSHA256": "8961e0fe70ddd02728faadbfe30f721066ac46468c71dd8396a32161846c4642",
+          "candidateMyanmarSHA256": "67591c5302d626c4b2444d10a5af218d11be16bdb64b8407a918e0281fe38097",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "cf1f034c10e052cc61a849ede7bef69b8c6975c39a82ad1f1a56ac7411daf02a",
+            "rawDeepLSHA256": "8961e0fe70ddd02728faadbfe30f721066ac46468c71dd8396a32161846c4642",
+            "originalFinalSHA256": "67591c5302d626c4b2444d10a5af218d11be16bdb64b8407a918e0281fe38097",
+            "candidateFinalSHA256": "67591c5302d626c4b2444d10a5af218d11be16bdb64b8407a918e0281fe38097",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "ca042f6ada9c88ddb716d9cc71a4434184db83fe5710c60fe85b0ca47ed6b317",
+          "rawDeepLSHA256": "3626ab2f7861d43d26f2d16c041bcc1bec418468f1f7548f5ff9ef27a59da3f1",
+          "candidateMyanmarSHA256": "887de075ce2856ff20cc8fc1a6b8ce5ecfea466b63f6c56bd276a27e1965cfdb",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "ca042f6ada9c88ddb716d9cc71a4434184db83fe5710c60fe85b0ca47ed6b317",
+            "rawDeepLSHA256": "3626ab2f7861d43d26f2d16c041bcc1bec418468f1f7548f5ff9ef27a59da3f1",
+            "originalFinalSHA256": "887de075ce2856ff20cc8fc1a6b8ce5ecfea466b63f6c56bd276a27e1965cfdb",
+            "candidateFinalSHA256": "887de075ce2856ff20cc8fc1a6b8ce5ecfea466b63f6c56bd276a27e1965cfdb",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "57ffe22c6e45f4b121ef208bade92cf54cee69ff03c717510559c77977a14e29",
+          "rawDeepLSHA256": "e057b73d50b8570f7827bb8d642e9d116a48f9c4c8bebdb6c3b560f1f063b5c7",
+          "candidateMyanmarSHA256": "dd6cc0abe3d1689356b6676ec9429d61eec154b2279aad2a5d3ca10f3571556f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 8,
+            "responseIndex": 8,
+            "responseTargetIndex": 0,
+            "englishSHA256": "57ffe22c6e45f4b121ef208bade92cf54cee69ff03c717510559c77977a14e29",
+            "rawDeepLSHA256": "e057b73d50b8570f7827bb8d642e9d116a48f9c4c8bebdb6c3b560f1f063b5c7",
+            "originalFinalSHA256": "dd6cc0abe3d1689356b6676ec9429d61eec154b2279aad2a5d3ca10f3571556f",
+            "candidateFinalSHA256": "dd6cc0abe3d1689356b6676ec9429d61eec154b2279aad2a5d3ca10f3571556f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1afbf9492843d6b2e9b3238fe9c8ebd4627a6bb5c17ee44c9054b95940b54cde",
+          "rawDeepLSHA256": "3c916450be8d85e4e682a4d3dc1f06134b07f3c08d43e68d636bc9de5f2be7cf",
+          "candidateMyanmarSHA256": "5fee81bcdb9b5c56b0b61d6a03bc4e3d62ac910ed924c88aa8173ccd5962d6d2",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 9,
+            "responseIndex": 9,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1afbf9492843d6b2e9b3238fe9c8ebd4627a6bb5c17ee44c9054b95940b54cde",
+            "rawDeepLSHA256": "3c916450be8d85e4e682a4d3dc1f06134b07f3c08d43e68d636bc9de5f2be7cf",
+            "originalFinalSHA256": "5fee81bcdb9b5c56b0b61d6a03bc4e3d62ac910ed924c88aa8173ccd5962d6d2",
+            "candidateFinalSHA256": "5fee81bcdb9b5c56b0b61d6a03bc4e3d62ac910ed924c88aa8173ccd5962d6d2",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1077,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f12fcaaa7f2fcf39edb87c2c8049f840180548e78528ea5b0353fb1865d650fc",
+          "rawDeepLSHA256": "1a2884771983513049ba9cac02ec9d66da13d663de678615fa63f50aba55159e",
+          "candidateMyanmarSHA256": "417dc35ce3500795965a3c845d76a790f4b2dd61ec5bcc2903ab231600a849f4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 10,
+            "responseIndex": 10,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f12fcaaa7f2fcf39edb87c2c8049f840180548e78528ea5b0353fb1865d650fc",
+            "rawDeepLSHA256": "1a2884771983513049ba9cac02ec9d66da13d663de678615fa63f50aba55159e",
+            "originalFinalSHA256": "417dc35ce3500795965a3c845d76a790f4b2dd61ec5bcc2903ab231600a849f4",
+            "candidateFinalSHA256": "417dc35ce3500795965a3c845d76a790f4b2dd61ec5bcc2903ab231600a849f4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "809873c5dc3bf4d8d5282d6e3639c98839fe48c4c0de5209f930d25e0bf1377a",
+          "rawDeepLSHA256": "295f45dbb993f7e182244552f4f0a25b42b201ce30744b69e25f4e4211823df0",
+          "candidateMyanmarSHA256": "3f0a9f74ac0a3cd8328867eaa017eca9c633cd1ea8a702558848eea410c7d7e4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 11,
+            "responseIndex": 11,
+            "responseTargetIndex": 0,
+            "englishSHA256": "809873c5dc3bf4d8d5282d6e3639c98839fe48c4c0de5209f930d25e0bf1377a",
+            "rawDeepLSHA256": "295f45dbb993f7e182244552f4f0a25b42b201ce30744b69e25f4e4211823df0",
+            "originalFinalSHA256": "3f0a9f74ac0a3cd8328867eaa017eca9c633cd1ea8a702558848eea410c7d7e4",
+            "candidateFinalSHA256": "3f0a9f74ac0a3cd8328867eaa017eca9c633cd1ea8a702558848eea410c7d7e4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d9ba97f44801ec6b2f0acbde43318af29c4549bcad226b27cd25ed62a3dba4c1",
+          "rawDeepLSHA256": "ce219da42be3c84ca3db65bd8bf73f7d2b59f482f5e06535638cd2de95e18d2f",
+          "candidateMyanmarSHA256": "cbaffdd3f3457cca6adb811463dbbd833490cb30b969d728709b4cc936f83876",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 12,
+            "responseIndex": 12,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d9ba97f44801ec6b2f0acbde43318af29c4549bcad226b27cd25ed62a3dba4c1",
+            "rawDeepLSHA256": "ce219da42be3c84ca3db65bd8bf73f7d2b59f482f5e06535638cd2de95e18d2f",
+            "originalFinalSHA256": "cbaffdd3f3457cca6adb811463dbbd833490cb30b969d728709b4cc936f83876",
+            "candidateFinalSHA256": "cbaffdd3f3457cca6adb811463dbbd833490cb30b969d728709b4cc936f83876",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "2934e57657acc37ca95277bcebeace8d1ad0e5c27f551c544eff4e9ae4f442ca",
+          "rawDeepLSHA256": "ea011806497f36d1eb7330beb884245e80f6bf22a94d7effdac015e8311532e3",
+          "candidateMyanmarSHA256": "2bb611f65ee7d706d7812a9b90d23f529d3ee4786850a6dbe3eba12529718608",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 13,
+            "responseIndex": 13,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2934e57657acc37ca95277bcebeace8d1ad0e5c27f551c544eff4e9ae4f442ca",
+            "rawDeepLSHA256": "ea011806497f36d1eb7330beb884245e80f6bf22a94d7effdac015e8311532e3",
+            "originalFinalSHA256": "2bb611f65ee7d706d7812a9b90d23f529d3ee4786850a6dbe3eba12529718608",
+            "candidateFinalSHA256": "2bb611f65ee7d706d7812a9b90d23f529d3ee4786850a6dbe3eba12529718608",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "71187f023d1b039955adb6a853330270f9dc328e428f4636644add9500d7f7a9",
+          "rawDeepLSHA256": "9999713d22bbf1bd449997dcc5e8e9abcd131ba01fa3cfbd38133d298d7ca10d",
+          "candidateMyanmarSHA256": "a9324e34497b2cabb604703c53000032aef4cbafa07c2ed1a9950dad06fa7a90",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 14,
+            "responseIndex": 14,
+            "responseTargetIndex": 0,
+            "englishSHA256": "71187f023d1b039955adb6a853330270f9dc328e428f4636644add9500d7f7a9",
+            "rawDeepLSHA256": "9999713d22bbf1bd449997dcc5e8e9abcd131ba01fa3cfbd38133d298d7ca10d",
+            "originalFinalSHA256": "a9324e34497b2cabb604703c53000032aef4cbafa07c2ed1a9950dad06fa7a90",
+            "candidateFinalSHA256": "a9324e34497b2cabb604703c53000032aef4cbafa07c2ed1a9950dad06fa7a90",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1079,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "1d60551886bcfb2fbf9c89976cecae8c76e83cdc3666a82797766a9baf7a36fa",
+          "rawDeepLSHA256": "4eb5f218f7b0d9d30aab1d470d1e5aa4b931e8ecf458781ed93a67eeb506d26f",
+          "candidateMyanmarSHA256": "d062b48260c7f2b1e1d16a63b613de5e46fb13c21dc8d64bbc1e1bfa9ef16a0d",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1d60551886bcfb2fbf9c89976cecae8c76e83cdc3666a82797766a9baf7a36fa",
+            "rawDeepLSHA256": "4eb5f218f7b0d9d30aab1d470d1e5aa4b931e8ecf458781ed93a67eeb506d26f",
+            "originalFinalSHA256": "5848567783690a299ff46c8dfb238596f82e92a1c94f462d9c46aa0913d69b4c",
+            "candidateFinalSHA256": "d062b48260c7f2b1e1d16a63b613de5e46fb13c21dc8d64bbc1e1bfa9ef16a0d",
+            "chainVerified": true
+          },
+          "changed": true,
+          "notes": "Fresh reread confirms semantic covert-operation framing with Alpha canonical အဲလ်ဖာ, matching maintained Alpha/alpha. No other title content changed."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "ff4f6760431850692850e0526b1011313aeff94bf5eaaabe69c3ae0fa1fe8655",
+          "rawDeepLSHA256": "9ee4043d674e83aa10443422056d1a6237995ab4f316cb5ae0ecea310acdec56",
+          "candidateMyanmarSHA256": "fb16e2aceeb46f673801c6299ee264ad7e61bb154fb3715d501c11c992361664",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 16,
+            "responseIndex": 16,
+            "responseTargetIndex": 0,
+            "englishSHA256": "ff4f6760431850692850e0526b1011313aeff94bf5eaaabe69c3ae0fa1fe8655",
+            "rawDeepLSHA256": "9ee4043d674e83aa10443422056d1a6237995ab4f316cb5ae0ecea310acdec56",
+            "originalFinalSHA256": "a15ad0092b7e5583d563f031357a9555ff4aa78f086e69e54b1a022c7976bcba",
+            "candidateFinalSHA256": "fb16e2aceeb46f673801c6299ee264ad7e61bb154fb3715d501c11c992361664",
+            "chainVerified": true
+          },
+          "changed": true,
+          "notes": "Fresh current-primary reread confirms Plan Alpha compound now uses maintained အဲလ်ဖာ. Ready devices, pages explaining detonators/explosives and placement, retrieval rather than destruction, Engineering Plans, and lumber mill SOUTH of Cragpool Lake all retained. Exact <name> and three paragraphs retained; no added timers."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "0e1c26828bafedde24fd7c3ea90b27f12c536ab73831e507e9d03bcfe7fee16f",
+          "rawDeepLSHA256": "877599d7778998192a9927fb409d70a69b39223da82d4e00d6a35979a1287649",
+          "candidateMyanmarSHA256": "c8642d2df02da273b8ec17679032d7a37ded4c6fc51114f6adb2abbb648dccb0",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 17,
+            "responseIndex": 17,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0e1c26828bafedde24fd7c3ea90b27f12c536ab73831e507e9d03bcfe7fee16f",
+            "rawDeepLSHA256": "877599d7778998192a9927fb409d70a69b39223da82d4e00d6a35979a1287649",
+            "originalFinalSHA256": "c8642d2df02da273b8ec17679032d7a37ded4c6fc51114f6adb2abbb648dccb0",
+            "candidateFinalSHA256": "c8642d2df02da273b8ec17679032d7a37ded4c6fc51114f6adb2abbb648dccb0",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "0ad378d760ffa44f8f593906cc7ffe7d9f9ca639ec3f0c8dd6bbc532932fad96",
+          "rawDeepLSHA256": "d2cedfa70997d98e09c26a6d7471c8713bb4b684fc0df5fe50a595f6e70f58cc",
+          "candidateMyanmarSHA256": "055082655afd0da92ff6dbc3175fc52173ac5126ec3f6da0122aff9116e7ad03",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 18,
+            "responseIndex": 18,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0ad378d760ffa44f8f593906cc7ffe7d9f9ca639ec3f0c8dd6bbc532932fad96",
+            "rawDeepLSHA256": "d2cedfa70997d98e09c26a6d7471c8713bb4b684fc0df5fe50a595f6e70f58cc",
+            "originalFinalSHA256": "055082655afd0da92ff6dbc3175fc52173ac5126ec3f6da0122aff9116e7ad03",
+            "candidateFinalSHA256": "055082655afd0da92ff6dbc3175fc52173ac5126ec3f6da0122aff9116e7ad03",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "48245da5c01bec60010bf3fa72ebdf4d0928ad0ffa56ffb3bcc07c6183dcbb46",
+          "rawDeepLSHA256": "df9e6a14d68aad486a7be283761f36ce538b6054af871eb38738d760a209c59d",
+          "candidateMyanmarSHA256": "195a66f824743c5b0c2cb507bbcdd64e3d371b3b226973fbb558f5349d99e603",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 19,
+            "responseIndex": 19,
+            "responseTargetIndex": 0,
+            "englishSHA256": "48245da5c01bec60010bf3fa72ebdf4d0928ad0ffa56ffb3bcc07c6183dcbb46",
+            "rawDeepLSHA256": "df9e6a14d68aad486a7be283761f36ce538b6054af871eb38738d760a209c59d",
+            "originalFinalSHA256": "195a66f824743c5b0c2cb507bbcdd64e3d371b3b226973fbb558f5349d99e603",
+            "candidateFinalSHA256": "195a66f824743c5b0c2cb507bbcdd64e3d371b3b226973fbb558f5349d99e603",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1080,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "945afd854764030e43168ee236ea9cf3e32c10e9c5f6d3524711c53e8f684b4e",
+          "rawDeepLSHA256": "8569e047468c45ad24dddf680c23901df4f757eb0fe4f854c410af5fb348ef58",
+          "candidateMyanmarSHA256": "da6085b2e88e5d18bf058da5a8dd0bb9688a6843c4ba487d6f9b0e2c0d1da34c",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 20,
+            "responseIndex": 20,
+            "responseTargetIndex": 0,
+            "englishSHA256": "945afd854764030e43168ee236ea9cf3e32c10e9c5f6d3524711c53e8f684b4e",
+            "rawDeepLSHA256": "8569e047468c45ad24dddf680c23901df4f757eb0fe4f854c410af5fb348ef58",
+            "originalFinalSHA256": "da6085b2e88e5d18bf058da5a8dd0bb9688a6843c4ba487d6f9b0e2c0d1da34c",
+            "candidateFinalSHA256": "da6085b2e88e5d18bf058da5a8dd0bb9688a6843c4ba487d6f9b0e2c0d1da34c",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "2012b25ee226b53b38ddc54ba259df9eac0f706943ebaf62068423306d4625f5",
+          "rawDeepLSHA256": "3e07e1f98efb53630717f7c97bf44a193bb67760c1e9275d5df629f13824d085",
+          "candidateMyanmarSHA256": "d94463ad17366850602947dbd9f7f1f8de677aa153044bf2929cda9d7ce98b22",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 21,
+            "responseIndex": 21,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2012b25ee226b53b38ddc54ba259df9eac0f706943ebaf62068423306d4625f5",
+            "rawDeepLSHA256": "3e07e1f98efb53630717f7c97bf44a193bb67760c1e9275d5df629f13824d085",
+            "originalFinalSHA256": "542bd84fcedc76407fdf9897584db8f8b33d9229db019151872a085bfce0f256",
+            "candidateFinalSHA256": "d94463ad17366850602947dbd9f7f1f8de677aa153044bf2929cda9d7ce98b22",
+            "chainVerified": true
+          },
+          "changed": true,
+          "notes": "Fresh reread confirms Plan Alpha now matches corrected1079 and maintained core. Plan Beta comparison, distraction, precious letters as key, previously provided placement pages, return ALIVE and WITH letters all retained. Exact <name> and four paragraphs preserved."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d7abdb7349ec1f817539e0e4e2a2c62ae44cc8ada8a74c640506bdd3c4c1b273",
+          "rawDeepLSHA256": "a5d2b52802da6728be6a981d0c469df8d8d48700ad5fb20faf9e1d72053cd7b9",
+          "candidateMyanmarSHA256": "3fcbdd6debc2dcb9e11a7782b04655180aa006cd2c5f41962c56181462b04515",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 22,
+            "responseIndex": 22,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d7abdb7349ec1f817539e0e4e2a2c62ae44cc8ada8a74c640506bdd3c4c1b273",
+            "rawDeepLSHA256": "a5d2b52802da6728be6a981d0c469df8d8d48700ad5fb20faf9e1d72053cd7b9",
+            "originalFinalSHA256": "3fcbdd6debc2dcb9e11a7782b04655180aa006cd2c5f41962c56181462b04515",
+            "candidateFinalSHA256": "3fcbdd6debc2dcb9e11a7782b04655180aa006cd2c5f41962c56181462b04515",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "d23823da51df06508cedb8845bad362928d38de248954cc07213e9efd45303fc",
+          "rawDeepLSHA256": "dabb9c2ba7fe8d2b3601714ac332dfb398691af4a51f98706ad1795f36155b56",
+          "candidateMyanmarSHA256": "d3e8692f473c1a62c4184531612e3993ee67e366f01f30f8b5be7860fe628d2f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 23,
+            "responseIndex": 23,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d23823da51df06508cedb8845bad362928d38de248954cc07213e9efd45303fc",
+            "rawDeepLSHA256": "dabb9c2ba7fe8d2b3601714ac332dfb398691af4a51f98706ad1795f36155b56",
+            "originalFinalSHA256": "d3e8692f473c1a62c4184531612e3993ee67e366f01f30f8b5be7860fe628d2f",
+            "candidateFinalSHA256": "d3e8692f473c1a62c4184531612e3993ee67e366f01f30f8b5be7860fe628d2f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "ce04fadae10d282aafc871a6418d95a3af185f805723773e087d6f21d9e24f13",
+          "rawDeepLSHA256": "5376b450398e8aa5f5eb21df2203f980fc7f4027f5d76d0ef5a55dad13b46f8b",
+          "candidateMyanmarSHA256": "56591240045273851d465d623e9736f34f835e5b13ad62f08c7dcf1aea04ef01",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 24,
+            "responseIndex": 24,
+            "responseTargetIndex": 0,
+            "englishSHA256": "ce04fadae10d282aafc871a6418d95a3af185f805723773e087d6f21d9e24f13",
+            "rawDeepLSHA256": "5376b450398e8aa5f5eb21df2203f980fc7f4027f5d76d0ef5a55dad13b46f8b",
+            "originalFinalSHA256": "56591240045273851d465d623e9736f34f835e5b13ad62f08c7dcf1aea04ef01",
+            "candidateFinalSHA256": "56591240045273851d465d623e9736f34f835e5b13ad62f08c7dcf1aea04ef01",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1091,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "b0a29269d07261bf427d8af83ca496f851932e59e8b9b1288e0a444b9f315979",
+          "rawDeepLSHA256": "de63beb57152528fa7897cf5d66ed94d43378904f05d36306e02e79f70d74424",
+          "candidateMyanmarSHA256": "3c12722370550c2385cd64dfc943f53c711bea7113022665327d43b373f74e07",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 25,
+            "responseIndex": 25,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b0a29269d07261bf427d8af83ca496f851932e59e8b9b1288e0a444b9f315979",
+            "rawDeepLSHA256": "de63beb57152528fa7897cf5d66ed94d43378904f05d36306e02e79f70d74424",
+            "originalFinalSHA256": "3c12722370550c2385cd64dfc943f53c711bea7113022665327d43b373f74e07",
+            "candidateFinalSHA256": "3c12722370550c2385cd64dfc943f53c711bea7113022665327d43b373f74e07",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "fba00f268ab1d1b69d1d362d68872195d7a5b1cd2dec8551e45d8991f265a380",
+          "rawDeepLSHA256": "7f31552fc04e4490b56df555ad75c73a3a077027ddb877d253a7964f0b70bb54",
+          "candidateMyanmarSHA256": "beeb62130f6b7d6efc24a939025cceb7c9cbe44726c0afdf898ee46db3542aa3",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 26,
+            "responseIndex": 26,
+            "responseTargetIndex": 0,
+            "englishSHA256": "fba00f268ab1d1b69d1d362d68872195d7a5b1cd2dec8551e45d8991f265a380",
+            "rawDeepLSHA256": "7f31552fc04e4490b56df555ad75c73a3a077027ddb877d253a7964f0b70bb54",
+            "originalFinalSHA256": "beeb62130f6b7d6efc24a939025cceb7c9cbe44726c0afdf898ee46db3542aa3",
+            "candidateFinalSHA256": "beeb62130f6b7d6efc24a939025cceb7c9cbe44726c0afdf898ee46db3542aa3",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "f918f75c343b8697addb45e1da4d3816d7b4d9944b7ceef33384093d97622627",
+          "rawDeepLSHA256": "0fd9b91ac4a88e3b6f51997beb461d8a9bbc2752336d7eb97607a363cbc88fa0",
+          "candidateMyanmarSHA256": "b0d32f220497cb94c0e7b1f3f112042f02b9b8488de1a32d080c0e87d52312bc",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 27,
+            "responseIndex": 27,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f918f75c343b8697addb45e1da4d3816d7b4d9944b7ceef33384093d97622627",
+            "rawDeepLSHA256": "0fd9b91ac4a88e3b6f51997beb461d8a9bbc2752336d7eb97607a363cbc88fa0",
+            "originalFinalSHA256": "b0d32f220497cb94c0e7b1f3f112042f02b9b8488de1a32d080c0e87d52312bc",
+            "candidateFinalSHA256": "b0d32f220497cb94c0e7b1f3f112042f02b9b8488de1a32d080c0e87d52312bc",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "206b373753e18b401db7303b9cc87a4ed5c315950bcbab30ac8afd272378ed93",
+          "rawDeepLSHA256": "efd6e455db387a342d3c87f9d4af35dc985cb150edae49183d3a128bbba60398",
+          "candidateMyanmarSHA256": "0d9cc3b2bdcd9ab39404958c149cf0a686dba1f405157473a049244a5b303c62",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 28,
+            "responseIndex": 28,
+            "responseTargetIndex": 0,
+            "englishSHA256": "206b373753e18b401db7303b9cc87a4ed5c315950bcbab30ac8afd272378ed93",
+            "rawDeepLSHA256": "efd6e455db387a342d3c87f9d4af35dc985cb150edae49183d3a128bbba60398",
+            "originalFinalSHA256": "0d9cc3b2bdcd9ab39404958c149cf0a686dba1f405157473a049244a5b303c62",
+            "candidateFinalSHA256": "0d9cc3b2bdcd9ab39404958c149cf0a686dba1f405157473a049244a5b303c62",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "1bf7e7d4096e538a4a71a4cbcf84642972d11eabddb359a3df5793c9fd30bbe4",
+          "rawDeepLSHA256": "683b8a9759165b4866fadce1472d0bd056f5dc33b32cd934c8d91a4d78a03842",
+          "candidateMyanmarSHA256": "062bbd9821c6a615752b3370c4206aa686882a7149638c95ba8af24e8be7d784",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 29,
+            "responseIndex": 29,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1bf7e7d4096e538a4a71a4cbcf84642972d11eabddb359a3df5793c9fd30bbe4",
+            "rawDeepLSHA256": "683b8a9759165b4866fadce1472d0bd056f5dc33b32cd934c8d91a4d78a03842",
+            "originalFinalSHA256": "062bbd9821c6a615752b3370c4206aa686882a7149638c95ba8af24e8be7d784",
+            "candidateFinalSHA256": "062bbd9821c6a615752b3370c4206aa686882a7149638c95ba8af24e8be7d784",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1083,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "5735e189f40733126649e9fe1f0273f462b758189d22d4ce32474805e0662ade",
+          "rawDeepLSHA256": "264863ffcf993b327c329a9a0370aefe52d60a7a08aed30f9bc68ceaddf2a234",
+          "candidateMyanmarSHA256": "f548c419a34c2605317707bfcb2d036b0e09844af811cb4acd8c222899cf30b5",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 30,
+            "responseIndex": 30,
+            "responseTargetIndex": 0,
+            "englishSHA256": "5735e189f40733126649e9fe1f0273f462b758189d22d4ce32474805e0662ade",
+            "rawDeepLSHA256": "264863ffcf993b327c329a9a0370aefe52d60a7a08aed30f9bc68ceaddf2a234",
+            "originalFinalSHA256": "f548c419a34c2605317707bfcb2d036b0e09844af811cb4acd8c222899cf30b5",
+            "candidateFinalSHA256": "f548c419a34c2605317707bfcb2d036b0e09844af811cb4acd8c222899cf30b5",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "073afdd827aad5d9f83291a2c1f8eeefb88b2a789c7cb424f558ae5523873b6a",
+          "rawDeepLSHA256": "3fca7b6418ccdbab04e822c5345938498c7f3f1014aa588e6f99db3bd8acdf3f",
+          "candidateMyanmarSHA256": "63b6f44eb2fd63815f90f40910a91505b31b72503622ebc65e6d6841496c579c",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 31,
+            "responseIndex": 31,
+            "responseTargetIndex": 0,
+            "englishSHA256": "073afdd827aad5d9f83291a2c1f8eeefb88b2a789c7cb424f558ae5523873b6a",
+            "rawDeepLSHA256": "3fca7b6418ccdbab04e822c5345938498c7f3f1014aa588e6f99db3bd8acdf3f",
+            "originalFinalSHA256": "63b6f44eb2fd63815f90f40910a91505b31b72503622ebc65e6d6841496c579c",
+            "candidateFinalSHA256": "63b6f44eb2fd63815f90f40910a91505b31b72503622ebc65e6d6841496c579c",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "89ef31f775da2b70c2bcf3feefcfd7af34750179771c88429f4ae59fe10da899",
+          "rawDeepLSHA256": "d0e2150e01b277e3df4bc084e984107158c701a8d7ce380cab8bb9d3fa276632",
+          "candidateMyanmarSHA256": "86e2d8d9f1baff4cc20a31327ea1277b8adebc847fdc444a319d1eddf07f0b05",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 32,
+            "responseIndex": 32,
+            "responseTargetIndex": 0,
+            "englishSHA256": "89ef31f775da2b70c2bcf3feefcfd7af34750179771c88429f4ae59fe10da899",
+            "rawDeepLSHA256": "d0e2150e01b277e3df4bc084e984107158c701a8d7ce380cab8bb9d3fa276632",
+            "originalFinalSHA256": "86e2d8d9f1baff4cc20a31327ea1277b8adebc847fdc444a319d1eddf07f0b05",
+            "candidateFinalSHA256": "86e2d8d9f1baff4cc20a31327ea1277b8adebc847fdc444a319d1eddf07f0b05",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "528b3762f33fffbf30d1356fda9ae431c9e4a4b04507cd7dedb8ffb8d7b4eb1e",
+          "rawDeepLSHA256": "2eafb1e993116069d02ee851ccffd8ee4de2b15f35d4d02d8a007706a69b4f34",
+          "candidateMyanmarSHA256": "d82dc96ca5305268e2d40db4b4792ee6d25f14e9dbdfd0ec3fe334eb90b66241",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 33,
+            "responseIndex": 33,
+            "responseTargetIndex": 0,
+            "englishSHA256": "528b3762f33fffbf30d1356fda9ae431c9e4a4b04507cd7dedb8ffb8d7b4eb1e",
+            "rawDeepLSHA256": "2eafb1e993116069d02ee851ccffd8ee4de2b15f35d4d02d8a007706a69b4f34",
+            "originalFinalSHA256": "d82dc96ca5305268e2d40db4b4792ee6d25f14e9dbdfd0ec3fe334eb90b66241",
+            "candidateFinalSHA256": "d82dc96ca5305268e2d40db4b4792ee6d25f14e9dbdfd0ec3fe334eb90b66241",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "40f6923d859ab36ef78118776e316fe7e8c3ee45dd9de4b8d383cb296f22d30b",
+          "rawDeepLSHA256": "b308a369ad1fa77576659e6eeadd8ca618b10cb0e7dde8c5308bd2a4c7a6636b",
+          "candidateMyanmarSHA256": "f81c14a88d23801860936001205fe7b509bdd224d0db337cd45603c8cec3d83a",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-02.json",
+            "responseFile": "deepl-response-02.json",
+            "indexFile": "deepl-index-02.json",
+            "requestIndex": 34,
+            "responseIndex": 34,
+            "responseTargetIndex": 0,
+            "englishSHA256": "40f6923d859ab36ef78118776e316fe7e8c3ee45dd9de4b8d383cb296f22d30b",
+            "rawDeepLSHA256": "b308a369ad1fa77576659e6eeadd8ca618b10cb0e7dde8c5308bd2a4c7a6636b",
+            "originalFinalSHA256": "f81c14a88d23801860936001205fe7b509bdd224d0db337cd45603c8cec3d83a",
+            "candidateFinalSHA256": "f81c14a88d23801860936001205fe7b509bdd224d0db337cd45603c8cec3d83a",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1082,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "3099d265fbb7fee1df09ef2398adeee956120118d1af4d455e228ad68906f130",
+          "rawDeepLSHA256": "003f4898bc8fbc8d37498d3c7bad66ef6399367fb3a5f24e1187df211dbee3b8",
+          "candidateMyanmarSHA256": "bdad4f5b7539a7970466894006b38f4748af7cd945fae9cce6030c3f19a70ca8",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "3099d265fbb7fee1df09ef2398adeee956120118d1af4d455e228ad68906f130",
+            "rawDeepLSHA256": "003f4898bc8fbc8d37498d3c7bad66ef6399367fb3a5f24e1187df211dbee3b8",
+            "originalFinalSHA256": "bdad4f5b7539a7970466894006b38f4748af7cd945fae9cce6030c3f19a70ca8",
+            "candidateFinalSHA256": "bdad4f5b7539a7970466894006b38f4748af7cd945fae9cce6030c3f19a70ca8",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "ded2fcc50679035767cc771acff3f77946d61bad8519079664709a29f12e887b",
+          "rawDeepLSHA256": "9746e9e633c0680abe2eeb6d8755517a6fac5a23ce2f7b047616020558060d87",
+          "candidateMyanmarSHA256": "96da4dccf878426f0dd06821f15eb86e98de102efad2b96ba706aba03f8632ee",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "ded2fcc50679035767cc771acff3f77946d61bad8519079664709a29f12e887b",
+            "rawDeepLSHA256": "9746e9e633c0680abe2eeb6d8755517a6fac5a23ce2f7b047616020558060d87",
+            "originalFinalSHA256": "96da4dccf878426f0dd06821f15eb86e98de102efad2b96ba706aba03f8632ee",
+            "candidateFinalSHA256": "96da4dccf878426f0dd06821f15eb86e98de102efad2b96ba706aba03f8632ee",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "1af6641999a780017ba3f54b94d934a12b75e1c73beae0c49f03b1ca1b9c78f3",
+          "rawDeepLSHA256": "3e9c32eeca783d0392569a1aeae712d707f8aa100c330313e8e223bbb7ea89ba",
+          "candidateMyanmarSHA256": "9f78be8a31fcac635b9e0b099624c5d426b7731aa0f760bdd414e8e33e02477a",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1af6641999a780017ba3f54b94d934a12b75e1c73beae0c49f03b1ca1b9c78f3",
+            "rawDeepLSHA256": "3e9c32eeca783d0392569a1aeae712d707f8aa100c330313e8e223bbb7ea89ba",
+            "originalFinalSHA256": "9f78be8a31fcac635b9e0b099624c5d426b7731aa0f760bdd414e8e33e02477a",
+            "candidateFinalSHA256": "9f78be8a31fcac635b9e0b099624c5d426b7731aa0f760bdd414e8e33e02477a",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "23975774518c2c01564b5adab28017a5a54bd24dedb45eb743cd61c01588a1b1",
+          "rawDeepLSHA256": "c2899f31ed0d8a01e5373e22144499dd8ef0a46f678194f751e78919346e6c1c",
+          "candidateMyanmarSHA256": "6483b3009094aab900394460afc1ad5bcb34e25ab32f3d0d5e56950c90ad1b81",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "23975774518c2c01564b5adab28017a5a54bd24dedb45eb743cd61c01588a1b1",
+            "rawDeepLSHA256": "c2899f31ed0d8a01e5373e22144499dd8ef0a46f678194f751e78919346e6c1c",
+            "originalFinalSHA256": "6483b3009094aab900394460afc1ad5bcb34e25ab32f3d0d5e56950c90ad1b81",
+            "candidateFinalSHA256": "6483b3009094aab900394460afc1ad5bcb34e25ab32f3d0d5e56950c90ad1b81",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1081,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "86e3e723981db6dea1ff0fdb69f8570186f295757d8945ebe6fbdd93698d1227",
+          "rawDeepLSHA256": "be4694f864da8bac66adb94a390f29547d09efb8f0054bb5a7bf907369b1a648",
+          "candidateMyanmarSHA256": "d1f0011a12d5d69721436288bd72ed6b6c8d797f5ed5601ad10cdce9e7a1f09e",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "86e3e723981db6dea1ff0fdb69f8570186f295757d8945ebe6fbdd93698d1227",
+            "rawDeepLSHA256": "be4694f864da8bac66adb94a390f29547d09efb8f0054bb5a7bf907369b1a648",
+            "originalFinalSHA256": "d1f0011a12d5d69721436288bd72ed6b6c8d797f5ed5601ad10cdce9e7a1f09e",
+            "candidateFinalSHA256": "d1f0011a12d5d69721436288bd72ed6b6c8d797f5ed5601ad10cdce9e7a1f09e",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "08b08563a339ca17dc84f2f913de80157339c6517c4ef10326cbe9b8631c85c9",
+          "rawDeepLSHA256": "49bb167866fe2f493ae8a42a497ea53da565b0ae7c465f5a14e95d331ae46793",
+          "candidateMyanmarSHA256": "d346abfe3f70729ed0df0db84f5e4ee715625546e4211b064b2feeeb2e1f3794",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "08b08563a339ca17dc84f2f913de80157339c6517c4ef10326cbe9b8631c85c9",
+            "rawDeepLSHA256": "49bb167866fe2f493ae8a42a497ea53da565b0ae7c465f5a14e95d331ae46793",
+            "originalFinalSHA256": "d346abfe3f70729ed0df0db84f5e4ee715625546e4211b064b2feeeb2e1f3794",
+            "candidateFinalSHA256": "d346abfe3f70729ed0df0db84f5e4ee715625546e4211b064b2feeeb2e1f3794",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "af95024d0e19761329a9d331a3c0cbb6a24bdeea1cc9db1fd0cf15e433b8363c",
+          "rawDeepLSHA256": "01f300c9e2b54cd81e362f29b02a3a43e64aa35c04718516279a03644ec58fa6",
+          "candidateMyanmarSHA256": "57f925f6661f646c90a7098225e646b9936fa0ae10092822af878e6340fe7e2f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "af95024d0e19761329a9d331a3c0cbb6a24bdeea1cc9db1fd0cf15e433b8363c",
+            "rawDeepLSHA256": "01f300c9e2b54cd81e362f29b02a3a43e64aa35c04718516279a03644ec58fa6",
+            "originalFinalSHA256": "57f925f6661f646c90a7098225e646b9936fa0ae10092822af878e6340fe7e2f",
+            "candidateFinalSHA256": "57f925f6661f646c90a7098225e646b9936fa0ae10092822af878e6340fe7e2f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "source_absent",
+          "englishSHA256": null,
+          "rawDeepLSHA256": null,
+          "candidateMyanmarSHA256": null,
+          "sourceRawFinalChain": null,
+          "changed": false,
+          "notes": "Original source absence conserved as null."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "5149cde90816f2718c1de3ea5c98cf6e019ed1b8aefcb23f1259e71c8ab24324",
+          "rawDeepLSHA256": "ec1296365bc078a0bb261b0ff46f89c3afd1c2fcf597f0f472eb1ea96606b467",
+          "candidateMyanmarSHA256": "ca13640acbc0fb2779dda8caa1a37bcb8c8b094ac0c42c764b81a967ba9e57d4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "5149cde90816f2718c1de3ea5c98cf6e019ed1b8aefcb23f1259e71c8ab24324",
+            "rawDeepLSHA256": "ec1296365bc078a0bb261b0ff46f89c3afd1c2fcf597f0f472eb1ea96606b467",
+            "originalFinalSHA256": "ca13640acbc0fb2779dda8caa1a37bcb8c8b094ac0c42c764b81a967ba9e57d4",
+            "candidateFinalSHA256": "ca13640acbc0fb2779dda8caa1a37bcb8c8b094ac0c42c764b81a967ba9e57d4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1090,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "a4f16e34033cc913a6cc827c572c66c8b4c94a26f6880eee109575c553ea97dd",
+          "rawDeepLSHA256": "845aace4fbed8382e7bafa7d6a87485f287cc524cbd3495ff067655796347582",
+          "candidateMyanmarSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 8,
+            "responseIndex": 8,
+            "responseTargetIndex": 0,
+            "englishSHA256": "a4f16e34033cc913a6cc827c572c66c8b4c94a26f6880eee109575c553ea97dd",
+            "rawDeepLSHA256": "845aace4fbed8382e7bafa7d6a87485f287cc524cbd3495ff067655796347582",
+            "originalFinalSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+            "candidateFinalSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "5a07b3dacd4f8cc900aad4a13eeb3deb43e5560d88965662a24569522bfa676d",
+          "rawDeepLSHA256": "f3513e806fedd5a2ff58afbd6a43be3bede9f487ad2000b15396ad2144d98cd3",
+          "candidateMyanmarSHA256": "b6efefedff4ca50febf3bf791c378a13125290589aaee11ed1477c70e8bd36e4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 9,
+            "responseIndex": 9,
+            "responseTargetIndex": 0,
+            "englishSHA256": "5a07b3dacd4f8cc900aad4a13eeb3deb43e5560d88965662a24569522bfa676d",
+            "rawDeepLSHA256": "f3513e806fedd5a2ff58afbd6a43be3bede9f487ad2000b15396ad2144d98cd3",
+            "originalFinalSHA256": "b6efefedff4ca50febf3bf791c378a13125290589aaee11ed1477c70e8bd36e4",
+            "candidateFinalSHA256": "b6efefedff4ca50febf3bf791c378a13125290589aaee11ed1477c70e8bd36e4",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "2df6c322f0e87d8365804f21904cbffca872b8fc6f3c654a1a3b5be3be88ada1",
+          "rawDeepLSHA256": "5dd8f6612a7eb355a3daaaa3528810b1da138bf769640d41fd5c02cdc5f23838",
+          "candidateMyanmarSHA256": "9b3e5c542bcc37beab474bc5b25c110a1ccdb5fc225d999e05f67f6167cc567b",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 10,
+            "responseIndex": 10,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2df6c322f0e87d8365804f21904cbffca872b8fc6f3c654a1a3b5be3be88ada1",
+            "rawDeepLSHA256": "5dd8f6612a7eb355a3daaaa3528810b1da138bf769640d41fd5c02cdc5f23838",
+            "originalFinalSHA256": "9b3e5c542bcc37beab474bc5b25c110a1ccdb5fc225d999e05f67f6167cc567b",
+            "candidateFinalSHA256": "9b3e5c542bcc37beab474bc5b25c110a1ccdb5fc225d999e05f67f6167cc567b",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "03741c587c9e9a224501fd29639c5c53fd273ae5a535c9bf7115db9c095a9b1d",
+          "rawDeepLSHA256": "ca4dde6e81b26169fe46c734fd86b98f142e9223e1aa374fd19330d747c970b7",
+          "candidateMyanmarSHA256": "371e4b5831af54ad627d9e81b582828f864bedea97a231b2733c4dee35e30f43",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 11,
+            "responseIndex": 11,
+            "responseTargetIndex": 0,
+            "englishSHA256": "03741c587c9e9a224501fd29639c5c53fd273ae5a535c9bf7115db9c095a9b1d",
+            "rawDeepLSHA256": "ca4dde6e81b26169fe46c734fd86b98f142e9223e1aa374fd19330d747c970b7",
+            "originalFinalSHA256": "371e4b5831af54ad627d9e81b582828f864bedea97a231b2733c4dee35e30f43",
+            "candidateFinalSHA256": "371e4b5831af54ad627d9e81b582828f864bedea97a231b2733c4dee35e30f43",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "e7560d3f0cf251544089f072ed975c16696792bb424f259e1f137a4fc30dbfcb",
+          "rawDeepLSHA256": "c560679d33259fae46da4ca497a0d86d7c0bad47675714639db29a00ca9fb622",
+          "candidateMyanmarSHA256": "6f73d1c73eb49346ffe837cfa6ef8a59484dfe7184bebf3763c72dec5855476b",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 12,
+            "responseIndex": 12,
+            "responseTargetIndex": 0,
+            "englishSHA256": "e7560d3f0cf251544089f072ed975c16696792bb424f259e1f137a4fc30dbfcb",
+            "rawDeepLSHA256": "c560679d33259fae46da4ca497a0d86d7c0bad47675714639db29a00ca9fb622",
+            "originalFinalSHA256": "6f73d1c73eb49346ffe837cfa6ef8a59484dfe7184bebf3763c72dec5855476b",
+            "candidateFinalSHA256": "6f73d1c73eb49346ffe837cfa6ef8a59484dfe7184bebf3763c72dec5855476b",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1092,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "a4f16e34033cc913a6cc827c572c66c8b4c94a26f6880eee109575c553ea97dd",
+          "rawDeepLSHA256": "845aace4fbed8382e7bafa7d6a87485f287cc524cbd3495ff067655796347582",
+          "candidateMyanmarSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 13,
+            "responseIndex": 13,
+            "responseTargetIndex": 0,
+            "englishSHA256": "a4f16e34033cc913a6cc827c572c66c8b4c94a26f6880eee109575c553ea97dd",
+            "rawDeepLSHA256": "845aace4fbed8382e7bafa7d6a87485f287cc524cbd3495ff067655796347582",
+            "originalFinalSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+            "candidateFinalSHA256": "6ad7ea79ff23989550c59358d04ac80a74f54f3d094655ff80fa349a4e3e3b55",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "0387109736ebc41045ff814f34593c90188eb674ff7ea13bc475b6d45410c873",
+          "rawDeepLSHA256": "5c574eebc19a4f964784dd27c69afc4e64ca7889c5e54399a324ecef6ad2d1fd",
+          "candidateMyanmarSHA256": "876666df835805be59090d2c51a2ceed655d32842ce63f79e1ef606bff68f75d",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 14,
+            "responseIndex": 14,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0387109736ebc41045ff814f34593c90188eb674ff7ea13bc475b6d45410c873",
+            "rawDeepLSHA256": "5c574eebc19a4f964784dd27c69afc4e64ca7889c5e54399a324ecef6ad2d1fd",
+            "originalFinalSHA256": "876666df835805be59090d2c51a2ceed655d32842ce63f79e1ef606bff68f75d",
+            "candidateFinalSHA256": "876666df835805be59090d2c51a2ceed655d32842ce63f79e1ef606bff68f75d",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "aebe95297d1cb6f52a0d1fc231ca5b29e56f4bd4b24f5988233f7fa715f58525",
+          "rawDeepLSHA256": "f4b8003bb6783ee9c07ff7d5b65be19d49a0f9e0604ed31ba34ddf4764370300",
+          "candidateMyanmarSHA256": "30a10283713d4d28e58023555cb6d1ccad93368b10614ce0913631cbace10dfd",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "englishSHA256": "aebe95297d1cb6f52a0d1fc231ca5b29e56f4bd4b24f5988233f7fa715f58525",
+            "rawDeepLSHA256": "f4b8003bb6783ee9c07ff7d5b65be19d49a0f9e0604ed31ba34ddf4764370300",
+            "originalFinalSHA256": "30a10283713d4d28e58023555cb6d1ccad93368b10614ce0913631cbace10dfd",
+            "candidateFinalSHA256": "30a10283713d4d28e58023555cb6d1ccad93368b10614ce0913631cbace10dfd",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "8d52fb10348d90c78feba6c90f5aa849b624919d764baf8c07c1ed4c47d00c38",
+          "rawDeepLSHA256": "0c18d3a76587263360513d84a3c02f72d08b04fbc3213ac087db640050a17b7c",
+          "candidateMyanmarSHA256": "838346f44ba6db161edc55d0d847114b268c21d5b8e9dfd5efe23c2c69dfa143",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 16,
+            "responseIndex": 16,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8d52fb10348d90c78feba6c90f5aa849b624919d764baf8c07c1ed4c47d00c38",
+            "rawDeepLSHA256": "0c18d3a76587263360513d84a3c02f72d08b04fbc3213ac087db640050a17b7c",
+            "originalFinalSHA256": "838346f44ba6db161edc55d0d847114b268c21d5b8e9dfd5efe23c2c69dfa143",
+            "candidateFinalSHA256": "838346f44ba6db161edc55d0d847114b268c21d5b8e9dfd5efe23c2c69dfa143",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "b0a5bea56da5b0f0d291f2a5fe4b02bf2285a5510d0d670d35a661b469ad974e",
+          "rawDeepLSHA256": "0722e32c24c7fa29ddbfbf74ec065e3e1755798a46398a8b8b777211c5045ba2",
+          "candidateMyanmarSHA256": "542261eb1065bcb8433c1953d731b10aa2bd115547fef2151b8ac8d5eebb90dc",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 17,
+            "responseIndex": 17,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b0a5bea56da5b0f0d291f2a5fe4b02bf2285a5510d0d670d35a661b469ad974e",
+            "rawDeepLSHA256": "0722e32c24c7fa29ddbfbf74ec065e3e1755798a46398a8b8b777211c5045ba2",
+            "originalFinalSHA256": "542261eb1065bcb8433c1953d731b10aa2bd115547fef2151b8ac8d5eebb90dc",
+            "candidateFinalSHA256": "542261eb1065bcb8433c1953d731b10aa2bd115547fef2151b8ac8d5eebb90dc",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1058,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "2d4d2550ad1aa1ded5fed3b90751a45a54cf1fb9e2d36d475278a8cc88e3e8ae",
+          "rawDeepLSHA256": "0f8f03c8d394eb7266e3a7e1e053bb318769093adb212e82a0f827eb8a0bafa7",
+          "candidateMyanmarSHA256": "3518c3323610750546644d438d197194e5d42b9d93edc373521670571a0b22f0",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 18,
+            "responseIndex": 18,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2d4d2550ad1aa1ded5fed3b90751a45a54cf1fb9e2d36d475278a8cc88e3e8ae",
+            "rawDeepLSHA256": "0f8f03c8d394eb7266e3a7e1e053bb318769093adb212e82a0f827eb8a0bafa7",
+            "originalFinalSHA256": "3518c3323610750546644d438d197194e5d42b9d93edc373521670571a0b22f0",
+            "candidateFinalSHA256": "3518c3323610750546644d438d197194e5d42b9d93edc373521670571a0b22f0",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "8cfe13f6f3333f68d3e8706f5909e786cbc37bc8f454e7784e6b028725991bf8",
+          "rawDeepLSHA256": "b5de4669894ffe98599fcb317bc6d7596eacced29f9046cf0d803cb6162c7637",
+          "candidateMyanmarSHA256": "dce6fe7ef5ac10e70c90ef2589d1313ffc006c478cecbc36ba052ebd450ada8f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 19,
+            "responseIndex": 19,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8cfe13f6f3333f68d3e8706f5909e786cbc37bc8f454e7784e6b028725991bf8",
+            "rawDeepLSHA256": "b5de4669894ffe98599fcb317bc6d7596eacced29f9046cf0d803cb6162c7637",
+            "originalFinalSHA256": "dce6fe7ef5ac10e70c90ef2589d1313ffc006c478cecbc36ba052ebd450ada8f",
+            "candidateFinalSHA256": "dce6fe7ef5ac10e70c90ef2589d1313ffc006c478cecbc36ba052ebd450ada8f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "11f193e02398ff14f706330ad0d26f74e5b2347b9a43476099d2ecf64e17e0be",
+          "rawDeepLSHA256": "bf680c8fce2b71a737b4e84c568c4fb6a4e479ed139d1a3ba61a256eb0a09578",
+          "candidateMyanmarSHA256": "51cb8c879a69004106249f8db6216cf560f0dc78a0fe38dbf7bc7e6c6eb893bf",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 20,
+            "responseIndex": 20,
+            "responseTargetIndex": 0,
+            "englishSHA256": "11f193e02398ff14f706330ad0d26f74e5b2347b9a43476099d2ecf64e17e0be",
+            "rawDeepLSHA256": "bf680c8fce2b71a737b4e84c568c4fb6a4e479ed139d1a3ba61a256eb0a09578",
+            "originalFinalSHA256": "51cb8c879a69004106249f8db6216cf560f0dc78a0fe38dbf7bc7e6c6eb893bf",
+            "candidateFinalSHA256": "51cb8c879a69004106249f8db6216cf560f0dc78a0fe38dbf7bc7e6c6eb893bf",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "aa59af183de291db8f1b4800bf42960079de0e7a275bbe287ff43d1d5ccae6bd",
+          "rawDeepLSHA256": "8ffda018e3ce2edfe386c6eb25567c0d582d0ee01a1f2d3a37b88bcc428b5fdc",
+          "candidateMyanmarSHA256": "5eec5bd310a23b123261b5de4c866c77c01bfb1a12c9ccb4042b248c571c18b4",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 21,
+            "responseIndex": 21,
+            "responseTargetIndex": 0,
+            "englishSHA256": "aa59af183de291db8f1b4800bf42960079de0e7a275bbe287ff43d1d5ccae6bd",
+            "rawDeepLSHA256": "8ffda018e3ce2edfe386c6eb25567c0d582d0ee01a1f2d3a37b88bcc428b5fdc",
+            "originalFinalSHA256": "d71e48a8081e230865056286ec715c8d950f274f95a63bc840e0899232c912f5",
+            "candidateFinalSHA256": "5eec5bd310a23b123261b5de4c866c77c01bfb1a12c9ccb4042b248c571c18b4",
+            "chainVerified": true
+          },
+          "changed": true,
+          "notes": "Fresh reread confirms whole lowercase fey dragon scale item identity is now retained and pronounced once, with same compound as Fey Dragon Scale objective. Caged elves mock sympathy, sap/whiskers from twilight runners, doubtful question, and eyes-heavy fierce brew retain Jin'Zil voice. Three paragraphs remain."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "502a7a85a8d5e437d677a99633307a6fcd3a31de5f92e9242b3eaca7f6d13907",
+          "rawDeepLSHA256": "c9db16b5d643dc65a547d2bde16e60006dcf441a8f64ae0d538a83b1643249fc",
+          "candidateMyanmarSHA256": "2a99467bd5e229712e46c3b6e4636a3de8360f78c137c6d1895512609ad28089",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 22,
+            "responseIndex": 22,
+            "responseTargetIndex": 0,
+            "englishSHA256": "502a7a85a8d5e437d677a99633307a6fcd3a31de5f92e9242b3eaca7f6d13907",
+            "rawDeepLSHA256": "c9db16b5d643dc65a547d2bde16e60006dcf441a8f64ae0d538a83b1643249fc",
+            "originalFinalSHA256": "2a99467bd5e229712e46c3b6e4636a3de8360f78c137c6d1895512609ad28089",
+            "candidateFinalSHA256": "2a99467bd5e229712e46c3b6e4636a3de8360f78c137c6d1895512609ad28089",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 1068,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "0bacb6e4d9253720247de03af8bcaefa6aadeb5a1c75580f1fe8a43ab8a0d18f",
+          "rawDeepLSHA256": "c9ba68aa0bb5491cc6fd1de905768678a3e8814b6108fffc8317829d382414a8",
+          "candidateMyanmarSHA256": "482633d2b206d7e2899a12e64f64bc62e69021d6cb334b67536458b2216ba7bd",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 23,
+            "responseIndex": 23,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0bacb6e4d9253720247de03af8bcaefa6aadeb5a1c75580f1fe8a43ab8a0d18f",
+            "rawDeepLSHA256": "c9ba68aa0bb5491cc6fd1de905768678a3e8814b6108fffc8317829d382414a8",
+            "originalFinalSHA256": "482633d2b206d7e2899a12e64f64bc62e69021d6cb334b67536458b2216ba7bd",
+            "candidateFinalSHA256": "482633d2b206d7e2899a12e64f64bc62e69021d6cb334b67536458b2216ba7bd",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "9e42a11216a2527a40f07c30eaacfff4dd4e51cb1a0b6c70545eb8dda8b4c846",
+          "rawDeepLSHA256": "afb71107abce91b3427fe934d3cd337469eb10e6fd8545bf2afe780c3f953147",
+          "candidateMyanmarSHA256": "38d70010dd66fd33628d1973db87971223b9dfaaf4e15806f7b76779c47bcfda",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-03.json",
+            "responseFile": "deepl-response-03.json",
+            "indexFile": "deepl-index-03.json",
+            "requestIndex": 24,
+            "responseIndex": 24,
+            "responseTargetIndex": 0,
+            "englishSHA256": "9e42a11216a2527a40f07c30eaacfff4dd4e51cb1a0b6c70545eb8dda8b4c846",
+            "rawDeepLSHA256": "afb71107abce91b3427fe934d3cd337469eb10e6fd8545bf2afe780c3f953147",
+            "originalFinalSHA256": "38d70010dd66fd33628d1973db87971223b9dfaaf4e15806f7b76779c47bcfda",
+            "candidateFinalSHA256": "38d70010dd66fd33628d1973db87971223b9dfaaf4e15806f7b76779c47bcfda",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "d1baf1f56cb5df7a430d752c0c7c1ebb06e69b1233b76c1816b1e8e513614bbe",
+          "rawDeepLSHA256": "72b2e0117408892987a555e7ca90ad4b3eddaaf12592f84d901b1a8b179e21a1",
+          "candidateMyanmarSHA256": "7085704071318f2f5ffb5ef23842bca935ca449437c73f4b2befe7afa1b6c33f",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d1baf1f56cb5df7a430d752c0c7c1ebb06e69b1233b76c1816b1e8e513614bbe",
+            "rawDeepLSHA256": "72b2e0117408892987a555e7ca90ad4b3eddaaf12592f84d901b1a8b179e21a1",
+            "originalFinalSHA256": "7085704071318f2f5ffb5ef23842bca935ca449437c73f4b2befe7afa1b6c33f",
+            "candidateFinalSHA256": "7085704071318f2f5ffb5ef23842bca935ca449437c73f4b2befe7afa1b6c33f",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "6ba016e1b8ca921f0656b2ffe8e3e7d284db9e1ab57c72976986301fec0315f1",
+          "rawDeepLSHA256": "70e5afc9022878009bbfbde10047d82a9f0d322d481a46262c16876aacd28713",
+          "candidateMyanmarSHA256": "5be7d83130931621db522f6e36a848bb85c10edf5e2247f76a08ed72aab7b7ac",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "6ba016e1b8ca921f0656b2ffe8e3e7d284db9e1ab57c72976986301fec0315f1",
+            "rawDeepLSHA256": "70e5afc9022878009bbfbde10047d82a9f0d322d481a46262c16876aacd28713",
+            "originalFinalSHA256": "5be7d83130931621db522f6e36a848bb85c10edf5e2247f76a08ed72aab7b7ac",
+            "candidateFinalSHA256": "5be7d83130931621db522f6e36a848bb85c10edf5e2247f76a08ed72aab7b7ac",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "c26fcd4b869ebbf3dd72c1ba85b8c5a41c04d4bbdfacb89888547d94781124e0",
+          "rawDeepLSHA256": "477cb690d7537ae86d785152978909922d229de1e4b6153501b2099502deca7c",
+          "candidateMyanmarSHA256": "d643935643ff54175cf6ae9df36a6652b045fd724e7989ad065c488167d62765",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "c26fcd4b869ebbf3dd72c1ba85b8c5a41c04d4bbdfacb89888547d94781124e0",
+            "rawDeepLSHA256": "477cb690d7537ae86d785152978909922d229de1e4b6153501b2099502deca7c",
+            "originalFinalSHA256": "d643935643ff54175cf6ae9df36a6652b045fd724e7989ad065c488167d62765",
+            "candidateFinalSHA256": "d643935643ff54175cf6ae9df36a6652b045fd724e7989ad065c488167d62765",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        }
+      }
+    },
+    {
+      "id": 86574,
+      "result": "PASS",
+      "issues": [],
+      "fields": {
+        "title": {
+          "status": "reviewed",
+          "englishSHA256": "f85d510cd393caf0a824d3e508befe89487f5ef0f1d59357360e8af94e6999eb",
+          "rawDeepLSHA256": "47a4b78acf7bc43894b37898c44c6098ae4b934131ee539267580debb4d34a95",
+          "candidateMyanmarSHA256": "7624c24c7653ee223c0a6e6b6578cbe7aa0c6cc049f0a60ac7d6ffaf20009821",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f85d510cd393caf0a824d3e508befe89487f5ef0f1d59357360e8af94e6999eb",
+            "rawDeepLSHA256": "47a4b78acf7bc43894b37898c44c6098ae4b934131ee539267580debb4d34a95",
+            "originalFinalSHA256": "7624c24c7653ee223c0a6e6b6578cbe7aa0c6cc049f0a60ac7d6ffaf20009821",
+            "candidateFinalSHA256": "7624c24c7653ee223c0a6e6b6578cbe7aa0c6cc049f0a60ac7d6ffaf20009821",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "detail": {
+          "status": "reviewed",
+          "englishSHA256": "7a8b001b6a4be18c9d97a8b4f8e9ef1faaf474ccf7652014c21192bdb4987530",
+          "rawDeepLSHA256": "0e5d3bd22024adcae1dc592dc15995394762c29184a2092dec913d6ed7e9e2f1",
+          "candidateMyanmarSHA256": "8d4792c39a6b6175dd310b80a6e59632209c217e8b326386a31d3635b1b18dc8",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7a8b001b6a4be18c9d97a8b4f8e9ef1faaf474ccf7652014c21192bdb4987530",
+            "rawDeepLSHA256": "0e5d3bd22024adcae1dc592dc15995394762c29184a2092dec913d6ed7e9e2f1",
+            "originalFinalSHA256": "8d4792c39a6b6175dd310b80a6e59632209c217e8b326386a31d3635b1b18dc8",
+            "candidateFinalSHA256": "8d4792c39a6b6175dd310b80a6e59632209c217e8b326386a31d3635b1b18dc8",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "objective": {
+          "status": "reviewed",
+          "englishSHA256": "03ec6d7da90e0da4882ab8d10e81c4da169cdb09829ca8dd2d7ae4202f0ca818",
+          "rawDeepLSHA256": "bcda22663616bd553e5c6f927b7d546a01a00d610ea417b62547dbce99d6dc9c",
+          "candidateMyanmarSHA256": "9c54470f6f59c30b7b0b715e1107297e0f4ac5fe7203a89f98787ce9a4df0e81",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "03ec6d7da90e0da4882ab8d10e81c4da169cdb09829ca8dd2d7ae4202f0ca818",
+            "rawDeepLSHA256": "bcda22663616bd553e5c6f927b7d546a01a00d610ea417b62547dbce99d6dc9c",
+            "originalFinalSHA256": "9c54470f6f59c30b7b0b715e1107297e0f4ac5fe7203a89f98787ce9a4df0e81",
+            "candidateFinalSHA256": "9c54470f6f59c30b7b0b715e1107297e0f4ac5fe7203a89f98787ce9a4df0e81",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "progress": {
+          "status": "reviewed",
+          "englishSHA256": "7ba017a20f88d5e63724f161a8993ef1ca4f6c6bf6469d57a148a010035430a4",
+          "rawDeepLSHA256": "90b22e5e4ad1010694add138bd16508de8588e601cf8541e4957178d662194b6",
+          "candidateMyanmarSHA256": "259841b04ee1ad745a9e827afc47cfda8df6e1be3099d6b418fd2b14aaf3ffb3",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7ba017a20f88d5e63724f161a8993ef1ca4f6c6bf6469d57a148a010035430a4",
+            "rawDeepLSHA256": "90b22e5e4ad1010694add138bd16508de8588e601cf8541e4957178d662194b6",
+            "originalFinalSHA256": "259841b04ee1ad745a9e827afc47cfda8df6e1be3099d6b418fd2b14aaf3ffb3",
+            "candidateFinalSHA256": "259841b04ee1ad745a9e827afc47cfda8df6e1be3099d6b418fd2b14aaf3ffb3",
+            "chainVerified": true
+          },
+          "changed": false,
+          "notes": "Unchanged from independently source-reviewed original; exact content/source/raw/final conservation verified."
+        },
+        "complete": {
+          "status": "reviewed",
+          "englishSHA256": "e21439cbd094870178ee40ca8c1c40eafb5a16eaab010a6f1bd9e7cd1f3bfead",
+          "rawDeepLSHA256": "e05f10e24cb5f53eadc38f1ec265bbfa1800be9c0a8037ef29837f25a777746b",
+          "candidateMyanmarSHA256": "308c7543378b209279a7cffb2d68252a941bf21fdfd90c33a4892ca5a03f01b0",
+          "sourceRawFinalChain": {
+            "requestFile": "deepl-request-04.json",
+            "responseFile": "deepl-response-04.json",
+            "indexFile": "deepl-index-04.json",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "e21439cbd094870178ee40ca8c1c40eafb5a16eaab010a6f1bd9e7cd1f3bfead",
+            "rawDeepLSHA256": "e05f10e24cb5f53eadc38f1ec265bbfa1800be9c0a8037ef29837f25a777746b",
+            "originalFinalSHA256": "db4553bfcece143f96e998decf7246beda9e2bdc35c8f43f231347f628532521",
+            "candidateFinalSHA256": "308c7543378b209279a7cffb2d68252a941bf21fdfd90c33a4892ca5a03f01b0",
+            "chainVerified": true
+          },
+          "changed": true,
+          "notes": "Fresh reread confirms သူမ အသက်ဆုံးရှုံးခဲ့ရတာ explicitly means the courier lost her life. Current primary body in detail plus tragic failure-to-arrive and UA complete death corroborate this reading. Found-shipment question, shocked uncertainty, gratitude through good use of supplies and all three paragraphs remain."
+        }
+      }
+    }
+  ],
+  "issues": [],
+  "sourceHoldProposals": [],
+  "sourceConservation": {
+    "all20PrimaryHTMLReparsed": true,
+    "all20EnglishSourcesMatchOriginal": true,
+    "all100SlotsConserved": true,
+    "allSixSourceAbsentStatesStillNull": true,
+    "onlyFiveAcceptedMyanmarFieldsChanged": true,
+    "rawEnglishAndProviderEvidenceUnchanged": true,
+    "all94CandidateReviewSourceRawFinalHashesMatch": true,
+    "allCandidateEnglishTitlesMatchPrimaryAndInitialMetadataReview": true,
+    "sourceAndEligibilityDisposition": "Original independent current-primary, secondary, UA1.1.0 and fullmetadata findings remain conserved;16Alliance/2Horde/2Both, no live acceptance claim.",
+    "batches": [
+      {
+        "batch": 1,
+        "fields": 26,
+        "inputCharacters": 4589,
+        "requestSHA256": "0535ed8bd98a2a07f2e7e5861c02def3d242301f010991998383ccecee9880b0",
+        "responseSHA256": "17b79e3bd3e55554c717a9b6c4e951f3994a896f3673b8e38801b0185e8b88e5",
+        "indexSHA256": "3d33029defa351c8beec78500f8839a10734e52da6b4ccdd4883b74e0e812768"
+      },
+      {
+        "batch": 2,
+        "fields": 35,
+        "inputCharacters": 4598,
+        "requestSHA256": "baee09048c5aa6c54c0a3a0bac712e74874927c4362d66e997fe9b5ec8087224",
+        "responseSHA256": "8033e9d8fc854144835025e8c98530a39ab9dbc918f109c5da8acf4e710d799b",
+        "indexSHA256": "85ada52f31240a5a7047a556d2356f0d446c83dfb0f664a1f540b3417a22aac1"
+      },
+      {
+        "batch": 3,
+        "fields": 25,
+        "inputCharacters": 4590,
+        "requestSHA256": "2f5823c7b73d58bf29d1dc67977ca3b064d700ff78ac672413bab4425aaf707b",
+        "responseSHA256": "822e7b518091c79b63d08f663498c6354eb55a430788e21bb05ebe1901f08228",
+        "indexSHA256": "c9b7f8838acee2ed93aff39b260f804e194921ca3322768606381c4d04fa142c"
+      },
+      {
+        "batch": 4,
+        "fields": 8,
+        "inputCharacters": 1295,
+        "requestSHA256": "3ce5c26c389873b346c9df2cfe91d35cbf8faa9a6843eda44a45c7f4240e3010",
+        "responseSHA256": "1cd910ff3e2b9f4d4f514028fafcd57ee1cf4e9ec2e6ac43611db5f744c014c8",
+        "indexSHA256": "a97f4604f4b2d77ba21d266fdf0d9d6b780aa8dc6690004fa239a1336ed05a95"
+      }
+    ]
+  },
+  "tests": {
+    "linguistic_lintCandidateTerms": {
+      "passed": true,
+      "issues": []
+    },
+    "linguistic_lintMaintainedCanonicalPriority": {
+      "passed": true,
+      "issues": []
+    },
+    "build_release.validate_fields": {
+      "passed": true,
+      "questCount": 20
+    },
+    "exactMarkerCaseNumericQuantitiesParagraphConservation": {
+      "passed": true,
+      "fieldSlots": 100
+    },
+    "writtenQuantitiesAndDirections": "Affected fields reread; all unchanged fields identical to initial independently reviewed text."
+  },
+  "immutability": {
+    "authorFilesBefore": {
+      "1058-sixty.html": "9d4764470f994487134716d4dac2d6b4f248983302e9ec53c1616d4a0210b083",
+      "1058-wowhead.html": "aaaa0583f1c04a50a7b8e81200e10624eaf777d9ba7c28266231a7f29f3b4f10",
+      "1068-sixty.html": "dddd69573eeb7a708177424820b25f818d8c4de2c952ef468c700cebfa8a4692",
+      "1068-wowhead.html": "e017b0c2903e4af11e81a6e42363d55fedf349b20971702f594478579dd1d1a0",
+      "1070-sixty.html": "50b4d5cfe51fb57af84272725b9c7ecd06e1659bb4bdcbe22282b7cd94a66e57",
+      "1070-wowhead.html": "34004ee0f3cb695b4299eeab5fb41123f9152fd2cbdf6db16ac3a20dd8e45481",
+      "1071-sixty.html": "b635bfc05b25f82dac3d3de7b54634278b25545b35a3915ad802187df85c50e5",
+      "1071-wowhead.html": "87d7429604d09f086ebfc3735808f199a7a13f0376c65e402e95d888ad1f0dc6",
+      "1072-sixty.html": "7d4597d42015ec04744416d9b95b884cf7e60d5183f5e5581583d6900b3deb0d",
+      "1072-wowhead.html": "181ea34a174a49f6e8953e34a778d4df2bd56214164cb923075cf96ecaf84c5a",
+      "1073-sixty.html": "1f76683429dab0837fd440116e0c9de1a82b5725fd3445ba1f5bac0793905063",
+      "1073-wowhead.html": "0846806cad3d433f90b5be8e98784c95aad6759041a6532f6b5f5c8a599ebadb",
+      "1074-sixty.html": "a1b0d06a04add3110ce64bc110c9215a7b1871384262fe1233de7c99ccaaeb05",
+      "1074-wowhead.html": "db5f3dc8b9e630a4bf769de29144b7e405721a0c2d5b180cd96b898f6a245a9f",
+      "1075-sixty.html": "568f5952a865775110ba4bc7223eb9e64c9b9efe1f6cc8140d07306e361fde59",
+      "1075-wowhead.html": "8e1cf995dcb3059786d1b4100a2d790c609230f35766811a3b1f9094f6941936",
+      "1076-sixty.html": "9659d0ff825917cd8b01ed1ca81acb8f000176c4b677c162afd52793950ca2bd",
+      "1076-wowhead.html": "8cd343b39c148da5e2b232867e07f474daa7d70e135bd1bcb9139dec737e64b2",
+      "1077-sixty.html": "ba91ac752310167be898c6bea33d0c3495ae3e198e378fa15d6db625db795c44",
+      "1077-wowhead.html": "1f8481f3e0d4e5f30c862aa7afedcd214d8a93a686a67daa517eb993af155e21",
+      "1079-sixty.html": "a5ef3e167b00f84709f7a7e4b4521c33a43b954c9f879a02257963107de56efe",
+      "1079-wowhead.html": "3f5cb6314e8427ed81526dabdb77144adc5b3334f960f5f10e234f2741ebfcf2",
+      "1080-sixty.html": "e1c7300007568929888ee774e99d69ea16c9a9e7b168341df1915b00caafc503",
+      "1080-wowhead.html": "e0a591d4677f0a3969ab38fdc5ebb511db8f46e2b7fad2ca6e24526f186c8f0a",
+      "1081-sixty.html": "28da1e448e838cd283d7c7b97662ea64dffdb27e83ec810d14694cce217b4135",
+      "1081-wowhead.html": "0d0a92775c0e946c168aef99d1495618ad024356c1798d8056e0e98798728d39",
+      "1082-sixty.html": "e51056b22cda8be881ea8e1ba5c6cb7eaed5af01f525f07fa1c93e37b50bfcbe",
+      "1082-wowhead.html": "4b1ee8ab968b936319311024f43dd57661179e7b0f6074a55d3249397fd748a5",
+      "1083-sixty.html": "faa435adf82cfb133f60c296eb0969a9107184ff2130b3752805f60a08d965c5",
+      "1083-wowhead.html": "4ab438fdd72ffda96a321a5d2cdfd638635a64994c2b36f975cdf6c932a91b16",
+      "1085-sixty.html": "16ff017396b7a33d264de7134fdbb3c94092579974c3cd0e683c1a83f60f2a14",
+      "1085-wowhead.html": "4d99b2ab3575406f49c27189744124274beb2153eaa2245778929d1b0ca40808",
+      "1090-sixty.html": "a75ae624a7cd17511137251ede0692e39a6d241ec232d669738f27a31bf6002f",
+      "1090-wowhead.html": "33ccb89bc9decf88766e0cf92c658a08fc52a4bdd5d25a405145bfc36713c43d",
+      "1091-sixty.html": "780cc8e55957e3ed237305fdbdac18fb3ddcde85b5262a2e6de7de6cefac7ffd",
+      "1091-wowhead.html": "fe313aafab29d8fe2692e9b8a0db0a505064243186f6085bbae2e6c1f874fcf0",
+      "1092-sixty.html": "e5d81967fb8c567bb516fe00e52510ea657a6975bb57aeeeee639a088ded76f1",
+      "1092-wowhead.html": "15f04b7d273358f9b7660000083bf68dc38ef3e2f77c09b7b43abebf5b03fc26",
+      "86574-sixty.html": "b4d55435277bf700d7376bc4d61240c8b8605a2fde3799523091b1377c6c0b3a",
+      "86574-wowhead.html": "76e69a75305dea207affb8a24e1f189d41a2d7ed20feeb839110060cf54bdd7b",
+      "annotation-exceptions.json": "a74a5188900d6e05f3d953e59036055470a00603154c7a20b3cae43f519ce14e",
+      "author-handoff.json": "80922d56a395c78c62ca2ab39248e6bd12159e0adf8bc330f879fb08255ec8c8",
+      "checkpoint.py": "a2405a8d53b0144403fc4815a83d29bc1291521cdb3c9981782e202ee7a68164",
+      "comparison-provenance.json": "af2ba8d32fcdda8105b8722d1b0163617c1910afaa3f9921c2918081321a46f1",
+      "deepl-index-01.json": "3d33029defa351c8beec78500f8839a10734e52da6b4ccdd4883b74e0e812768",
+      "deepl-index-02.json": "85ada52f31240a5a7047a556d2356f0d446c83dfb0f664a1f540b3417a22aac1",
+      "deepl-index-03.json": "c9b7f8838acee2ed93aff39b260f804e194921ca3322768606381c4d04fa142c",
+      "deepl-index-04.json": "a97f4604f4b2d77ba21d266fdf0d9d6b780aa8dc6690004fa239a1336ed05a95",
+      "deepl-request-01.json": "0535ed8bd98a2a07f2e7e5861c02def3d242301f010991998383ccecee9880b0",
+      "deepl-request-02.json": "baee09048c5aa6c54c0a3a0bac712e74874927c4362d66e997fe9b5ec8087224",
+      "deepl-request-03.json": "2f5823c7b73d58bf29d1dc67977ca3b064d700ff78ac672413bab4425aaf707b",
+      "deepl-request-04.json": "3ce5c26c389873b346c9df2cfe91d35cbf8faa9a6843eda44a45c7f4240e3010",
+      "deepl-response-01.json": "17b79e3bd3e55554c717a9b6c4e951f3994a896f3673b8e38801b0185e8b88e5",
+      "deepl-response-02.json": "8033e9d8fc854144835025e8c98530a39ab9dbc918f109c5da8acf4e710d799b",
+      "deepl-response-03.json": "822e7b518091c79b63d08f663498c6354eb55a430788e21bb05ebe1901f08228",
+      "deepl-response-04.json": "1cd910ff3e2b9f4d4f514028fafcd57ee1cf4e9ec2e6ac43611db5f744c014c8",
+      "edited.json": "7df43617a47f26085f6265175877646016d26e404985df15f65ff814ddabdec5",
+      "editor.py": "759c805d6cf82256c34e9f4d5e63f4a38c8d9126f39adcb6cd225d68fb10e1a4",
+      "editorial-group-1.json": "3eabf466ee89f54cb7e6b6e2eeefcea67216e16da51f8e059c5b1d316cf34afe",
+      "editorial-group-2.json": "70fc9652156551d9480c70ca3fb2f28f5254af86bca1675bbf7883cd40ccfc1a",
+      "editorial-group-3.json": "cd9fd07e3245a22e02df4666a55bfb1b3a6e627422f92f7867ce2db0a1f3adfd",
+      "english-sources.json": "6d7da6e9826fd684c0600b98f5e49334996e4650f650360c37996be7569d1dea",
+      "fetched.json": "5d6a5dca97b5245be612dcdd86c02ce7e7ac0bb837cb52fdcd691af22298296a",
+      "frozen-artifact-hashes.json": "cf0ae908bb4b186285f0b21699db39418647c26bf46141a2117897cf2bdfa911",
+      "held-fields.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "linguistic-lint.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "pronunciations.json": "452d6424b375c0385fca6912fe5afcda2faf1b3af77e147f127f693fc14cfcba",
+      "proposed-pronunciations.json": "a954a76ae596c303a57524b8f6e90900cd90e9969d6b341a85bba736a0713d6c",
+      "raw-deepl.json": "ce9a2c9d1d0449eaf19550095adb1eebc931e76ab03427979b55fbb0354e5062",
+      "review-audit.json": "df5052662305f77d19a29138ee9539a82b6d033827a458f681b2e6d74ae8e67c",
+      "review-groups.json": "c8579a1cc365c590701cb3bbc56d20fc9dc7f84973c5ef40057d38bbe6e58521",
+      "review-notes-1.json": "8761ead7bead1410fc5594d9d5007a205805644fe0a8e1f0e714133b5f9d9e01",
+      "review-notes-2.json": "6d4c35048856efc2a3f81f6187a1c384fb3f89decabf4280d428cc4b9804ad87",
+      "review-notes-3.json": "a7b008cd56b746bdf2311880375772a6a7efba6c4e15ef1951f07d2eb7b8aa05",
+      "source-discrepancies.json": "13bd973ae56bd0d28fc93c2ebcc1ae958bf0c25a5e7a58f517db8f1e433cc7fc",
+      "source-review.json": "6111edcb31275b4c7404adbc46f6d5e1b7812f2ce3fef5771fc5bdcb996b52eb",
+      "source-upstream-reference.json": "14433d01754fe8147c33d39be2a7c0a89e82ca411302012fecde4fd67a38e870",
+      "validation.json": "066415861f35424cf2d13e2929f013a2694425d5b1a682b4a7b3e29e8e3a8408"
+    },
+    "authorFilesAfter": {
+      "1058-sixty.html": "9d4764470f994487134716d4dac2d6b4f248983302e9ec53c1616d4a0210b083",
+      "1058-wowhead.html": "aaaa0583f1c04a50a7b8e81200e10624eaf777d9ba7c28266231a7f29f3b4f10",
+      "1068-sixty.html": "dddd69573eeb7a708177424820b25f818d8c4de2c952ef468c700cebfa8a4692",
+      "1068-wowhead.html": "e017b0c2903e4af11e81a6e42363d55fedf349b20971702f594478579dd1d1a0",
+      "1070-sixty.html": "50b4d5cfe51fb57af84272725b9c7ecd06e1659bb4bdcbe22282b7cd94a66e57",
+      "1070-wowhead.html": "34004ee0f3cb695b4299eeab5fb41123f9152fd2cbdf6db16ac3a20dd8e45481",
+      "1071-sixty.html": "b635bfc05b25f82dac3d3de7b54634278b25545b35a3915ad802187df85c50e5",
+      "1071-wowhead.html": "87d7429604d09f086ebfc3735808f199a7a13f0376c65e402e95d888ad1f0dc6",
+      "1072-sixty.html": "7d4597d42015ec04744416d9b95b884cf7e60d5183f5e5581583d6900b3deb0d",
+      "1072-wowhead.html": "181ea34a174a49f6e8953e34a778d4df2bd56214164cb923075cf96ecaf84c5a",
+      "1073-sixty.html": "1f76683429dab0837fd440116e0c9de1a82b5725fd3445ba1f5bac0793905063",
+      "1073-wowhead.html": "0846806cad3d433f90b5be8e98784c95aad6759041a6532f6b5f5c8a599ebadb",
+      "1074-sixty.html": "a1b0d06a04add3110ce64bc110c9215a7b1871384262fe1233de7c99ccaaeb05",
+      "1074-wowhead.html": "db5f3dc8b9e630a4bf769de29144b7e405721a0c2d5b180cd96b898f6a245a9f",
+      "1075-sixty.html": "568f5952a865775110ba4bc7223eb9e64c9b9efe1f6cc8140d07306e361fde59",
+      "1075-wowhead.html": "8e1cf995dcb3059786d1b4100a2d790c609230f35766811a3b1f9094f6941936",
+      "1076-sixty.html": "9659d0ff825917cd8b01ed1ca81acb8f000176c4b677c162afd52793950ca2bd",
+      "1076-wowhead.html": "8cd343b39c148da5e2b232867e07f474daa7d70e135bd1bcb9139dec737e64b2",
+      "1077-sixty.html": "ba91ac752310167be898c6bea33d0c3495ae3e198e378fa15d6db625db795c44",
+      "1077-wowhead.html": "1f8481f3e0d4e5f30c862aa7afedcd214d8a93a686a67daa517eb993af155e21",
+      "1079-sixty.html": "a5ef3e167b00f84709f7a7e4b4521c33a43b954c9f879a02257963107de56efe",
+      "1079-wowhead.html": "3f5cb6314e8427ed81526dabdb77144adc5b3334f960f5f10e234f2741ebfcf2",
+      "1080-sixty.html": "e1c7300007568929888ee774e99d69ea16c9a9e7b168341df1915b00caafc503",
+      "1080-wowhead.html": "e0a591d4677f0a3969ab38fdc5ebb511db8f46e2b7fad2ca6e24526f186c8f0a",
+      "1081-sixty.html": "28da1e448e838cd283d7c7b97662ea64dffdb27e83ec810d14694cce217b4135",
+      "1081-wowhead.html": "0d0a92775c0e946c168aef99d1495618ad024356c1798d8056e0e98798728d39",
+      "1082-sixty.html": "e51056b22cda8be881ea8e1ba5c6cb7eaed5af01f525f07fa1c93e37b50bfcbe",
+      "1082-wowhead.html": "4b1ee8ab968b936319311024f43dd57661179e7b0f6074a55d3249397fd748a5",
+      "1083-sixty.html": "faa435adf82cfb133f60c296eb0969a9107184ff2130b3752805f60a08d965c5",
+      "1083-wowhead.html": "4ab438fdd72ffda96a321a5d2cdfd638635a64994c2b36f975cdf6c932a91b16",
+      "1085-sixty.html": "16ff017396b7a33d264de7134fdbb3c94092579974c3cd0e683c1a83f60f2a14",
+      "1085-wowhead.html": "4d99b2ab3575406f49c27189744124274beb2153eaa2245778929d1b0ca40808",
+      "1090-sixty.html": "a75ae624a7cd17511137251ede0692e39a6d241ec232d669738f27a31bf6002f",
+      "1090-wowhead.html": "33ccb89bc9decf88766e0cf92c658a08fc52a4bdd5d25a405145bfc36713c43d",
+      "1091-sixty.html": "780cc8e55957e3ed237305fdbdac18fb3ddcde85b5262a2e6de7de6cefac7ffd",
+      "1091-wowhead.html": "fe313aafab29d8fe2692e9b8a0db0a505064243186f6085bbae2e6c1f874fcf0",
+      "1092-sixty.html": "e5d81967fb8c567bb516fe00e52510ea657a6975bb57aeeeee639a088ded76f1",
+      "1092-wowhead.html": "15f04b7d273358f9b7660000083bf68dc38ef3e2f77c09b7b43abebf5b03fc26",
+      "86574-sixty.html": "b4d55435277bf700d7376bc4d61240c8b8605a2fde3799523091b1377c6c0b3a",
+      "86574-wowhead.html": "76e69a75305dea207affb8a24e1f189d41a2d7ed20feeb839110060cf54bdd7b",
+      "annotation-exceptions.json": "a74a5188900d6e05f3d953e59036055470a00603154c7a20b3cae43f519ce14e",
+      "author-handoff.json": "80922d56a395c78c62ca2ab39248e6bd12159e0adf8bc330f879fb08255ec8c8",
+      "checkpoint.py": "a2405a8d53b0144403fc4815a83d29bc1291521cdb3c9981782e202ee7a68164",
+      "comparison-provenance.json": "af2ba8d32fcdda8105b8722d1b0163617c1910afaa3f9921c2918081321a46f1",
+      "deepl-index-01.json": "3d33029defa351c8beec78500f8839a10734e52da6b4ccdd4883b74e0e812768",
+      "deepl-index-02.json": "85ada52f31240a5a7047a556d2356f0d446c83dfb0f664a1f540b3417a22aac1",
+      "deepl-index-03.json": "c9b7f8838acee2ed93aff39b260f804e194921ca3322768606381c4d04fa142c",
+      "deepl-index-04.json": "a97f4604f4b2d77ba21d266fdf0d9d6b780aa8dc6690004fa239a1336ed05a95",
+      "deepl-request-01.json": "0535ed8bd98a2a07f2e7e5861c02def3d242301f010991998383ccecee9880b0",
+      "deepl-request-02.json": "baee09048c5aa6c54c0a3a0bac712e74874927c4362d66e997fe9b5ec8087224",
+      "deepl-request-03.json": "2f5823c7b73d58bf29d1dc67977ca3b064d700ff78ac672413bab4425aaf707b",
+      "deepl-request-04.json": "3ce5c26c389873b346c9df2cfe91d35cbf8faa9a6843eda44a45c7f4240e3010",
+      "deepl-response-01.json": "17b79e3bd3e55554c717a9b6c4e951f3994a896f3673b8e38801b0185e8b88e5",
+      "deepl-response-02.json": "8033e9d8fc854144835025e8c98530a39ab9dbc918f109c5da8acf4e710d799b",
+      "deepl-response-03.json": "822e7b518091c79b63d08f663498c6354eb55a430788e21bb05ebe1901f08228",
+      "deepl-response-04.json": "1cd910ff3e2b9f4d4f514028fafcd57ee1cf4e9ec2e6ac43611db5f744c014c8",
+      "edited.json": "7df43617a47f26085f6265175877646016d26e404985df15f65ff814ddabdec5",
+      "editor.py": "759c805d6cf82256c34e9f4d5e63f4a38c8d9126f39adcb6cd225d68fb10e1a4",
+      "editorial-group-1.json": "3eabf466ee89f54cb7e6b6e2eeefcea67216e16da51f8e059c5b1d316cf34afe",
+      "editorial-group-2.json": "70fc9652156551d9480c70ca3fb2f28f5254af86bca1675bbf7883cd40ccfc1a",
+      "editorial-group-3.json": "cd9fd07e3245a22e02df4666a55bfb1b3a6e627422f92f7867ce2db0a1f3adfd",
+      "english-sources.json": "6d7da6e9826fd684c0600b98f5e49334996e4650f650360c37996be7569d1dea",
+      "fetched.json": "5d6a5dca97b5245be612dcdd86c02ce7e7ac0bb837cb52fdcd691af22298296a",
+      "frozen-artifact-hashes.json": "cf0ae908bb4b186285f0b21699db39418647c26bf46141a2117897cf2bdfa911",
+      "held-fields.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "linguistic-lint.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+      "pronunciations.json": "452d6424b375c0385fca6912fe5afcda2faf1b3af77e147f127f693fc14cfcba",
+      "proposed-pronunciations.json": "a954a76ae596c303a57524b8f6e90900cd90e9969d6b341a85bba736a0713d6c",
+      "raw-deepl.json": "ce9a2c9d1d0449eaf19550095adb1eebc931e76ab03427979b55fbb0354e5062",
+      "review-audit.json": "df5052662305f77d19a29138ee9539a82b6d033827a458f681b2e6d74ae8e67c",
+      "review-groups.json": "c8579a1cc365c590701cb3bbc56d20fc9dc7f84973c5ef40057d38bbe6e58521",
+      "review-notes-1.json": "8761ead7bead1410fc5594d9d5007a205805644fe0a8e1f0e714133b5f9d9e01",
+      "review-notes-2.json": "6d4c35048856efc2a3f81f6187a1c384fb3f89decabf4280d428cc4b9804ad87",
+      "review-notes-3.json": "a7b008cd56b746bdf2311880375772a6a7efba6c4e15ef1951f07d2eb7b8aa05",
+      "source-discrepancies.json": "13bd973ae56bd0d28fc93c2ebcc1ae958bf0c25a5e7a58f517db8f1e433cc7fc",
+      "source-review.json": "6111edcb31275b4c7404adbc46f6d5e1b7812f2ce3fef5771fc5bdcb996b52eb",
+      "source-upstream-reference.json": "14433d01754fe8147c33d39be2a7c0a89e82ca411302012fecde4fd67a38e870",
+      "validation.json": "066415861f35424cf2d13e2929f013a2694425d5b1a682b4a7b3e29e8e3a8408"
+    },
+    "all78AuthorFilesIncluding77FrozenUnchanged": true,
+    "initialReportUnchanged": true,
+    "candidateFilesUnchangedDuringReview": true
+  },
+  "candidateDirectory": "work/afternoon-2026-11-21/root-reviewed/stonetalon",
+  "candidateHashesBefore": {
+    "accepted-corrections.json": "6b3c3f938a00f0ca0f7bd3a284e151d8e29b134a5491f59d59379965c3d8b2b0",
+    "edited.json": "398e4608bdbc50bb576fd85fea8ab419ce6b7e166fa50dca12e15bc47cf2af2a",
+    "pronunciations.json": "7290a8af68f5a67b03127b47b12db90d5ddcfb58ad5c2de3d5cbfc0a3ead1279",
+    "review-audit.json": "673c71953ff04de9944888e516e904f7c00729f5b7095a60061a5b61eb17b511"
+  },
+  "candidateHashesAfter": {
+    "accepted-corrections.json": "6b3c3f938a00f0ca0f7bd3a284e151d8e29b134a5491f59d59379965c3d8b2b0",
+    "edited.json": "398e4608bdbc50bb576fd85fea8ab419ce6b7e166fa50dca12e15bc47cf2af2a",
+    "pronunciations.json": "7290a8af68f5a67b03127b47b12db90d5ddcfb58ad5c2de3d5cbfc0a3ead1279",
+    "review-audit.json": "673c71953ff04de9944888e516e904f7c00729f5b7095a60061a5b61eb17b511"
+  },
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending, including new pronunciation proposals",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  },
+  "reviewBoundary": "PASS applies to assisted source/meaning/integrity review of these exact candidate hashes. Native pronunciation/proofreading, current live Forever and controller verification are separate pending statuses."
+}

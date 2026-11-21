@@ -1,0 +1,2567 @@
+{
+  "result": "PASS",
+  "partition": "lordaeron",
+  "batch": "2026-11-21-afternoon",
+  "targetVersion": "1.2.15",
+  "reviewType": "Independent affected-field English/Myanmar reread and complete candidate source/provenance conservation recheck",
+  "reviewedAtUTC": "2026-11-21T06:59:34.842857+00:00",
+  "candidateDirectory": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-21\\root-reviewed\\lordaeron",
+  "candidateHashesBefore": {
+    "accepted-corrections.json": "473ef5189bab51e69121504a03ec487f654a191b5f2f082f2eb7983551f41d66",
+    "edited.json": "62fad30438da3e4fc76eaacdeb7696ccb5c902dc6b3ad4390f651048a4c25347",
+    "pronunciations.json": "34bf35caaf28de5894717fc0c715b5b662be674c9832fc198acf3943d88ccfe7",
+    "review-audit.json": "000b59c83e0e833cfeafcc9912c30304fb1aefe209b22bb6b7ff22b238c474bd"
+  },
+  "candidateHashesAfter": {
+    "accepted-corrections.json": "473ef5189bab51e69121504a03ec487f654a191b5f2f082f2eb7983551f41d66",
+    "edited.json": "62fad30438da3e4fc76eaacdeb7696ccb5c902dc6b3ad4390f651048a4c25347",
+    "pronunciations.json": "34bf35caaf28de5894717fc0c715b5b662be674c9832fc198acf3943d88ccfe7",
+    "review-audit.json": "000b59c83e0e833cfeafcc9912c30304fb1aefe209b22bb6b7ff22b238c474bd"
+  },
+  "candidateUnchangedDuringReview": true,
+  "counts": {
+    "quests": 15,
+    "fieldSlots": 75,
+    "sourceAvailable": 70,
+    "enabledFields": 69,
+    "heldFields": 1,
+    "sourceAbsences": 5,
+    "actualRawFieldsAudited": 70,
+    "changedTextFields": 1,
+    "pronunciationChanges": 0,
+    "remainingFindings": 0
+  },
+  "issues": [],
+  "pronunciationConflicts": [],
+  "resolvedFindings": [
+    {
+      "id": 92421,
+      "field": "detail",
+      "englishSHA256": "aba56c4dff1b7a3fef6ff305f9c12ccfc15f49d8ca6766b6c4a585ac077e8b86",
+      "reviewedOriginalMyanmarSHA256": "fa87d93330150a44eb3ebaf0ea0b55a2b502ce1fa99ab3d0c222e40c64d75267",
+      "reviewedCorrectedMyanmarSHA256": "fe754f6ecb2422e7f181553bf1a8e249600f5784778db7da63771424978f4c06",
+      "old": "တပ်အင်အားက နည်းနည်းလာတယ်။",
+      "new": "တပ်အင်အားက နည်းပါးလာတယ်။",
+      "result": "PASS",
+      "independentReread": "Read all three English/Myanmar paragraphs again. နည်းပါးလာတယ် now naturally conveys forces dwindling while reclaiming their land. Forsaken paladin duty, Dark Lady will, both opportunity goals, Scourge above Undercity, irreplaceable decayed flesh, captain Garek Bandarion full identity and rallying cry remain faithful. Speaker voice, named identities/phonetics, written quantities and paragraph breaks preserved. No added action or source uncertainty."
+    }
+  ],
+  "changes": [
+    {
+      "id": 92421,
+      "field": "detail",
+      "englishSHA256": "aba56c4dff1b7a3fef6ff305f9c12ccfc15f49d8ca6766b6c4a585ac077e8b86",
+      "originalMyanmarSHA256": "fa87d93330150a44eb3ebaf0ea0b55a2b502ce1fa99ab3d0c222e40c64d75267",
+      "correctedMyanmarSHA256": "fe754f6ecb2422e7f181553bf1a8e249600f5784778db7da63771424978f4c06"
+    }
+  ],
+  "onlyRequestedTextFieldChanged": true,
+  "auditChangeConservation": "Candidate review-audit equals frozen author audit after replacing only92421.detail.myanmarSHA256 with corrected field hash. All English/raw hashes and other audit content conserved.",
+  "pronunciationsByteIdentical": true,
+  "existingHoldPreserved": {
+    "id": 95250,
+    "field": "detail",
+    "candidateMyanmarSHA256": null,
+    "heldProposalSHA256": "a782608b7e2d2ad7255ab56e8bc26cb91011c26b1712c2e9c091b253ac46c0ff",
+    "reason": "Existing generic offer remains disabled. Public Human-dialogue comment still supplies no alternate text; no claim of official or live alternate wording.",
+    "sourceEnglishSHA256": "6133b43fa97d0ea6b563c1b76da63ddcc26ec0dfe5e0f6b428435ba2d9f72f6a",
+    "newBranchRoutingAdded": false
+  },
+  "sourceAbsences": [
+    {
+      "id": 92401,
+      "field": "progress"
+    },
+    {
+      "id": 97290,
+      "field": "progress"
+    },
+    {
+      "id": 95250,
+      "field": "progress"
+    },
+    {
+      "id": 95250,
+      "field": "complete"
+    },
+    {
+      "id": 92422,
+      "field": "progress"
+    }
+  ],
+  "all75FieldChains": [
+    {
+      "id": 95216,
+      "field": "title",
+      "englishSHA256": "2d4637de449c7e151f3495a5b66d62aaca45947788e662bc840d5c3120a93362",
+      "originalMyanmarSHA256": "9eebc82427a887c5a156feafe8148e3887c7887020d5ebbe0c3d4da7830e00a9",
+      "candidateMyanmarSHA256": "9eebc82427a887c5a156feafe8148e3887c7887020d5ebbe0c3d4da7830e00a9",
+      "status": "available",
+      "sourceHTMLSHA256": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+      "secondaryHTMLSHA256": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+      "rawDeepLSHA256": "18962d99d40ee0f475259a1dc86bbfefc31e06edb7875235863a065e7c152232",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 0,
+      "responseIndex": 0,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95216,
+      "field": "detail",
+      "englishSHA256": "0e9de5ba969afd810e756fddf2248c31ab143f510ba6f63bce682c90136ce46c",
+      "originalMyanmarSHA256": "988561a304d1e7add4f832f73e0e26fa506e953a93da67588cf34b28d1f82505",
+      "candidateMyanmarSHA256": "988561a304d1e7add4f832f73e0e26fa506e953a93da67588cf34b28d1f82505",
+      "status": "available",
+      "sourceHTMLSHA256": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+      "secondaryHTMLSHA256": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+      "rawDeepLSHA256": "35a2fd335b581bb38d0691b85f743ce11c9920a70f961d73cd6776f4ca5db644",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 1,
+      "responseIndex": 1,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 0,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Apothecarium",
+          "at": 64,
+          "annotation": "အပေါသီကဲရီယမ်"
+        },
+        {
+          "term": "Azeroth",
+          "at": 113,
+          "annotation": "အက်ဇရော့သ်"
+        },
+        {
+          "term": "undead",
+          "at": 445,
+          "annotation": "အန်ဒက်ဒ်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95216,
+      "field": "objective",
+      "englishSHA256": "8d5ada06b46dd84e6c13fed4f8ea2a12fa0d674d052c7eb7d277bc6bea03a64f",
+      "originalMyanmarSHA256": "25fe47817a0c4211b3836005b30df39608c5db9b6336bd564eb7a7e084bbfc6a",
+      "candidateMyanmarSHA256": "25fe47817a0c4211b3836005b30df39608c5db9b6336bd564eb7a7e084bbfc6a",
+      "status": "available",
+      "sourceHTMLSHA256": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+      "secondaryHTMLSHA256": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+      "rawDeepLSHA256": "1a4273bfc3c69b7c3d188001ebdc7c1c1a169ff6a66df2fd9bcb0195a8c8332e",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 2,
+      "responseIndex": 2,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 0,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Theodore Griffs",
+          "at": 28,
+          "annotation": "သီအိုဒေါ ဂရစ်ဖ်စ်"
+        },
+        {
+          "term": "Ruins of Lordaeron",
+          "at": 70,
+          "annotation": "ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Witherfang",
+          "at": 122,
+          "annotation": "ဝစ်သာဖန်းဂ်"
+        },
+        {
+          "term": "Highly Toxic Strain",
+          "at": 152,
+          "annotation": "ဟိုင်းလီ တော့ခ်ဆစ်ခ် စထရိန်း"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95216,
+      "field": "progress",
+      "englishSHA256": "e72e8e614d8c8c4bfd9416a04428f427b0e9e9b034cd98a36ccd2a3b547d6f35",
+      "originalMyanmarSHA256": "b830978420ce87b05bec3a4fd29e2ae9372b7a73900d09b10cecd2fdbfad3927",
+      "candidateMyanmarSHA256": "b830978420ce87b05bec3a4fd29e2ae9372b7a73900d09b10cecd2fdbfad3927",
+      "status": "available",
+      "sourceHTMLSHA256": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+      "secondaryHTMLSHA256": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+      "rawDeepLSHA256": "5e31c62000032c23c1bc81830099775c673c60eb926e1e5b75d55665927a3015",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 3,
+      "responseIndex": 3,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95216,
+      "field": "complete",
+      "englishSHA256": "0b996563c99daddb497c428df72f9f7797c2f905a9da117aa993c57033c6935c",
+      "originalMyanmarSHA256": "b3f6b802e21e032560bdd8d4761d4a74eba190024d2e486bba84887de8502b3c",
+      "candidateMyanmarSHA256": "b3f6b802e21e032560bdd8d4761d4a74eba190024d2e486bba84887de8502b3c",
+      "status": "available",
+      "sourceHTMLSHA256": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+      "secondaryHTMLSHA256": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+      "rawDeepLSHA256": "04a24bc5224a7c714eb761eac0f14d54511f28b40998eb204b563ae42dee90c9",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 4,
+      "responseIndex": 4,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Royal Apothecary Society",
+          "at": 158,
+          "annotation": "ရွိုင်ရယ်လ် အပေါသီကဲရီ ဆိုဆိုက်ယတီ"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92401,
+      "field": "title",
+      "englishSHA256": "a4deafb6119c3f845a73237f2bd54d3b787be9c45970ee3a27e3f5299c8eafef",
+      "originalMyanmarSHA256": "2db0097b071355895b763a96ec318c7f05cfd028118c604a571eca9951681288",
+      "candidateMyanmarSHA256": "2db0097b071355895b763a96ec318c7f05cfd028118c604a571eca9951681288",
+      "status": "available",
+      "sourceHTMLSHA256": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+      "secondaryHTMLSHA256": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+      "rawDeepLSHA256": "1a6982d1feb6bc62f142d6a9c0d7b2ca2bd51ffb6a73937495cd269b570744ba",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 5,
+      "responseIndex": 5,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92401,
+      "field": "detail",
+      "englishSHA256": "117c1127e76c5ee2bb73b54fb033fd2eb64533b088c41c6734fd64e2fee7e84d",
+      "originalMyanmarSHA256": "ed7e8adee3915588b563337d268d00110a44d7dc042835627cfb8e3defa80a0f",
+      "candidateMyanmarSHA256": "ed7e8adee3915588b563337d268d00110a44d7dc042835627cfb8e3defa80a0f",
+      "status": "available",
+      "sourceHTMLSHA256": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+      "secondaryHTMLSHA256": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+      "rawDeepLSHA256": "d42b902f2cd111cc1fe9406192d5d23ce926cfcc665ed77918f677584294f419",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 6,
+      "responseIndex": 6,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Edward",
+          "at": 15,
+          "annotation": "အက်ဒ်ဝါဒ်"
+        },
+        {
+          "term": "Lordaeron",
+          "at": 47,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Arthas",
+          "at": 143,
+          "annotation": "အာသက်စ်"
+        },
+        {
+          "term": "Edward",
+          "at": 257,
+          "annotation": null
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92401,
+      "field": "objective",
+      "englishSHA256": "374da45f5c17151d82dfc845a2336db8c2db90c601e2755252467fc8736b5424",
+      "originalMyanmarSHA256": "822cab5bcf58e944be549f35dbd6b2d69faadb9de1aece5c2445fbbf12a9bed9",
+      "candidateMyanmarSHA256": "822cab5bcf58e944be549f35dbd6b2d69faadb9de1aece5c2445fbbf12a9bed9",
+      "status": "available",
+      "sourceHTMLSHA256": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+      "secondaryHTMLSHA256": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+      "rawDeepLSHA256": "e08167027a6607be5a9492ee66f9af9e6ca6a9ece794ca8a8f510f58d93084c2",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 7,
+      "responseIndex": 7,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Ruins of Lordaeron",
+          "at": 0,
+          "annotation": "ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Edward Heartweaver",
+          "at": 55,
+          "annotation": "အက်ဒ်ဝါဒ် ဟာ့တ်ဝီးဗာ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92401,
+      "field": "progress",
+      "englishSHA256": null,
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "absent",
+      "sourceHTMLSHA256": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+      "secondaryHTMLSHA256": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552"
+    },
+    {
+      "id": 92401,
+      "field": "complete",
+      "englishSHA256": "8c105987772e8c90faf1d692544aff58dfe63de86076752c79812b2c647103a5",
+      "originalMyanmarSHA256": "cdfdfd9302252bc8ac2c88a29aecd756ba0939f8b2436b5f3f4ee664688cd6a0",
+      "candidateMyanmarSHA256": "cdfdfd9302252bc8ac2c88a29aecd756ba0939f8b2436b5f3f4ee664688cd6a0",
+      "status": "available",
+      "sourceHTMLSHA256": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+      "secondaryHTMLSHA256": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+      "rawDeepLSHA256": "d8aaf3f0e3f0aeefd9f4f2517cd401d1eaf750268cbf08fe7946472b386c0275",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 8,
+      "responseIndex": 8,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92421,
+      "field": "title",
+      "englishSHA256": "17ff47f19c3ace0a3784ee8e809e46e7aeee1354e0f03d16ffe13bd9ed3d6897",
+      "originalMyanmarSHA256": "3ba12cedfc196243e209d012c06f861c3c595066d28a48ef0492fd9bcc5e3140",
+      "candidateMyanmarSHA256": "3ba12cedfc196243e209d012c06f861c3c595066d28a48ef0492fd9bcc5e3140",
+      "status": "available",
+      "sourceHTMLSHA256": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+      "secondaryHTMLSHA256": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+      "rawDeepLSHA256": "71ee99d391473fa9e7e4a2a98891c489af06a49f2a2bea7134dde6a6e4e7c78f",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 9,
+      "responseIndex": 9,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Light",
+          "at": 0,
+          "annotation": "လိုက်တ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92421,
+      "field": "detail",
+      "englishSHA256": "aba56c4dff1b7a3fef6ff305f9c12ccfc15f49d8ca6766b6c4a585ac077e8b86",
+      "originalMyanmarSHA256": "fa87d93330150a44eb3ebaf0ea0b55a2b502ce1fa99ab3d0c222e40c64d75267",
+      "candidateMyanmarSHA256": "fe754f6ecb2422e7f181553bf1a8e249600f5784778db7da63771424978f4c06",
+      "status": "available",
+      "sourceHTMLSHA256": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+      "secondaryHTMLSHA256": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+      "rawDeepLSHA256": "2c4430ca769b0c348c9b64e823f9ee64c988025e81585ace20c0ef83ec20b6c5",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 10,
+      "responseIndex": 10,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Forsaken",
+          "at": 0,
+          "annotation": "ဖော်ဆေကန်"
+        },
+        {
+          "term": "paladin",
+          "at": 25,
+          "annotation": "ပယ်လဒင်"
+        },
+        {
+          "term": "Dark Lady",
+          "at": 122,
+          "annotation": "ဒါ့ခ် လေဒီ"
+        },
+        {
+          "term": "Undercity",
+          "at": 244,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Scourge",
+          "at": 277,
+          "annotation": "စကာ့ဂျ်"
+        },
+        {
+          "term": "captain Garek Bandarion",
+          "at": 510,
+          "annotation": "ကက်ပ်တင် ဂဲရက် ဘန်ဒါရီယွန်"
+        },
+        {
+          "term": "Lordaeron",
+          "at": 698,
+          "annotation": "လော်ဒဲရွန်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92421,
+      "field": "objective",
+      "englishSHA256": "2ee53dca2349bf4ab10f3dfc12869039bcc9da1acc677450bcb16a6628ac9054",
+      "originalMyanmarSHA256": "b84e87060a811ca290da3f623cee57007705c9d677230f8d2169e3eaa928f737",
+      "candidateMyanmarSHA256": "b84e87060a811ca290da3f623cee57007705c9d677230f8d2169e3eaa928f737",
+      "status": "available",
+      "sourceHTMLSHA256": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+      "secondaryHTMLSHA256": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+      "rawDeepLSHA256": "a8b9b4dc35a4a9ae5da739300443431d8a037b3b48e57321a43cba9620808550",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 11,
+      "responseIndex": 11,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 0,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Morbin Lightbane",
+          "at": 28,
+          "annotation": "မော်ဘင် လိုက်တ်ဘိန်း"
+        },
+        {
+          "term": "The Ruins of Lordaeron",
+          "at": 74,
+          "annotation": "သ ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Intact Limbs",
+          "at": 137,
+          "annotation": "အင်တက်တ် လင်းမ်ဇ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": [
+        "25"
+      ]
+    },
+    {
+      "id": 92421,
+      "field": "progress",
+      "englishSHA256": "654d56337bbc88852b15ef77396913b668eebd573fa895f60de1dc097fba4b7d",
+      "originalMyanmarSHA256": "e1b9c25c8e9003c8e5bbeb6b68b9d005bb95c860f308c54f89d77b7fdc153fe4",
+      "candidateMyanmarSHA256": "e1b9c25c8e9003c8e5bbeb6b68b9d005bb95c860f308c54f89d77b7fdc153fe4",
+      "status": "available",
+      "sourceHTMLSHA256": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+      "secondaryHTMLSHA256": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+      "rawDeepLSHA256": "871f5c4b6047ef2d0bc2e0bea8f75593d28c41dde4889bd53d2fecd1696114d6",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 12,
+      "responseIndex": 12,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Scourge",
+          "at": 15,
+          "annotation": "စကာ့ဂျ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92421,
+      "field": "complete",
+      "englishSHA256": "3b9d82003f21b131fa8aabd036f753fee8c5edefaad0d3e49f72ad9c7791c76e",
+      "originalMyanmarSHA256": "861222a20ef8c9494ee7e80f98090ff2d0f41db032f4e12257645339299c3581",
+      "candidateMyanmarSHA256": "861222a20ef8c9494ee7e80f98090ff2d0f41db032f4e12257645339299c3581",
+      "status": "available",
+      "sourceHTMLSHA256": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+      "secondaryHTMLSHA256": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+      "rawDeepLSHA256": "7f1b6fbb86f88c8c3b00ce0493ec5e08c22cd15e280087800fe5a4bb7fc01b33",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 13,
+      "responseIndex": 13,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Banshee Queen",
+          "at": 0,
+          "annotation": "ဘန်ရှီး ကွီးန်"
+        },
+        {
+          "term": "Captain Bandarion",
+          "at": 218,
+          "annotation": "ကက်ပ်တင် ဘန်ဒါရီယွန်"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97288,
+      "field": "title",
+      "englishSHA256": "14c23e02a0da88180df2a5ac74977b38ce4f8f60dcc502de3ce85fc6a9dd9eb4",
+      "originalMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "candidateMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "status": "available",
+      "sourceHTMLSHA256": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+      "secondaryHTMLSHA256": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+      "rawDeepLSHA256": "b3ab9facce936fcecc0984072489b6dbe0009b8ca4a61d227fe864687b9adf26",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 14,
+      "responseIndex": 14,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97288,
+      "field": "detail",
+      "englishSHA256": "4978b2343400bf109c9239d956236872efd8b1fbe4e7a2c017d76960ced860b8",
+      "originalMyanmarSHA256": "cca406bd0eeef1b24f279670fa9cd61e27c601843512b48dd88d90b997424f52",
+      "candidateMyanmarSHA256": "cca406bd0eeef1b24f279670fa9cd61e27c601843512b48dd88d90b997424f52",
+      "status": "available",
+      "sourceHTMLSHA256": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+      "secondaryHTMLSHA256": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+      "rawDeepLSHA256": "e8f8cfd8b5f406439a772d492926c86933974e90525141a9e6224d7ed4165121",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 15,
+      "responseIndex": 15,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 145,
+          "annotation": "အန်ဒါစီးတီး"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97288,
+      "field": "objective",
+      "englishSHA256": "d90e18ec28d45ef1eb97553e8c5f1161b715d1dc9bfcff10790e2a5bbdeb77f3",
+      "originalMyanmarSHA256": "b15b08309f303b8abd2a87ecd75dbad6e091d65d32b97edc295ddf9e6e9db1bb",
+      "candidateMyanmarSHA256": "b15b08309f303b8abd2a87ecd75dbad6e091d65d32b97edc295ddf9e6e9db1bb",
+      "status": "available",
+      "sourceHTMLSHA256": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+      "secondaryHTMLSHA256": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+      "rawDeepLSHA256": "9e3cf4c6ed37a855aaab0c3a7dc39a8bcd22040b24ed4f10e61363f33abe3874",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 16,
+      "responseIndex": 16,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Abominable Head",
+          "at": 0,
+          "annotation": "အဘော်မီနဘယ်လ် ဟက်ဒ်"
+        },
+        {
+          "term": "Undercity",
+          "at": 42,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Master Apothecary Faranell",
+          "at": 76,
+          "annotation": "မာစတာ အပေါသီကဲရီ ဖာရာနဲလ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97288,
+      "field": "progress",
+      "englishSHA256": "658994e1855cbefa42f5e082b9df7128ebed21903fc214c70ad6ca47732ca4c0",
+      "originalMyanmarSHA256": "ac5b96300b1a8ef6a9c9f60122c6eb5648f91752eb576b8411253adc5aa722fe",
+      "candidateMyanmarSHA256": "ac5b96300b1a8ef6a9c9f60122c6eb5648f91752eb576b8411253adc5aa722fe",
+      "status": "available",
+      "sourceHTMLSHA256": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+      "secondaryHTMLSHA256": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+      "rawDeepLSHA256": "72269814bdfadd319a7322a4272c21ed0b957f479d17176825e5e38908de41e3",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 17,
+      "responseIndex": 17,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97288,
+      "field": "complete",
+      "englishSHA256": "c3459042673fc1aa33e108ce9ec4734e2c67a999d03bd04f213d30b6b009c563",
+      "originalMyanmarSHA256": "591c195bed386c748cb4388eff57ef0b449d2e38ea1f5b9ae5aeed5ece267f16",
+      "candidateMyanmarSHA256": "591c195bed386c748cb4388eff57ef0b449d2e38ea1f5b9ae5aeed5ece267f16",
+      "status": "available",
+      "sourceHTMLSHA256": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+      "secondaryHTMLSHA256": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+      "rawDeepLSHA256": "9116f0bb2dae12ede58483ee2c4f77211ca2732b3c1d7c530a098702988bc389",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 18,
+      "responseIndex": 18,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Dark Lady",
+          "at": 44,
+          "annotation": "ဒါ့ခ် လေဒီ"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97289,
+      "field": "title",
+      "englishSHA256": "14c23e02a0da88180df2a5ac74977b38ce4f8f60dcc502de3ce85fc6a9dd9eb4",
+      "originalMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "candidateMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "status": "available",
+      "sourceHTMLSHA256": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+      "secondaryHTMLSHA256": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+      "rawDeepLSHA256": "0aab6f00df70685228e1dfa3bbf91fbeb8f4360fa0b5d257aa2881af6b0e9480",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 19,
+      "responseIndex": 19,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97289,
+      "field": "detail",
+      "englishSHA256": "11831244267ca1487453c60c3e49dab579060a58bc2cf3810d0cd63e11a975cf",
+      "originalMyanmarSHA256": "c5dbca3a16f64e369c69f60e588a9f3226bf46cbd49d5503aa1bcd798a369424",
+      "candidateMyanmarSHA256": "c5dbca3a16f64e369c69f60e588a9f3226bf46cbd49d5503aa1bcd798a369424",
+      "status": "available",
+      "sourceHTMLSHA256": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+      "secondaryHTMLSHA256": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+      "rawDeepLSHA256": "9ab4fec426d589351d125761d40435c2772c102532c501dd65819a0c6a54563a",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 20,
+      "responseIndex": 20,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Alliance",
+          "at": 96,
+          "annotation": "အလိုင်းယန့်စ်"
+        },
+        {
+          "term": "Grand Marshal",
+          "at": 125,
+          "annotation": "ဂရန်းဒ် မာရှယ်"
+        },
+        {
+          "term": "Othmar",
+          "at": 229,
+          "annotation": "အော့သ်မာ"
+        },
+        {
+          "term": "Dark Lady",
+          "at": 263,
+          "annotation": "ဒါ့ခ် လေဒီ"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97289,
+      "field": "objective",
+      "englishSHA256": "803a90b7c687c85327526411069b37ae6d0209f8682703bcd1c1612daec105bd",
+      "originalMyanmarSHA256": "c2395ebcb33536ad5e6fbfd5d93b48084445e62677c6f4a23f6677dee5811ae7",
+      "candidateMyanmarSHA256": "c2395ebcb33536ad5e6fbfd5d93b48084445e62677c6f4a23f6677dee5811ae7",
+      "status": "available",
+      "sourceHTMLSHA256": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+      "secondaryHTMLSHA256": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+      "rawDeepLSHA256": "0a6ec480e2c5c8deb5e67fdf2d322d0c394b4045d1a69e4c25ee6b64e10d998e",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 21,
+      "responseIndex": 21,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Head of the Baron",
+          "at": 0,
+          "annotation": "ဟက်ဒ် အော့ဗ် သ ဘယ်ရွန်"
+        },
+        {
+          "term": "Undercity",
+          "at": 47,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Othmar",
+          "at": 75,
+          "annotation": "အော့သ်မာ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97289,
+      "field": "progress",
+      "englishSHA256": "6be3eff1358bfdf0e619a3d0364c917fd7aa2d0232d3f207b8f5a6be5eafbc70",
+      "originalMyanmarSHA256": "b2215b6dd5f8dd6bc787e0a13aa13051999dba2287eeaae302e76a4005d95165",
+      "candidateMyanmarSHA256": "b2215b6dd5f8dd6bc787e0a13aa13051999dba2287eeaae302e76a4005d95165",
+      "status": "available",
+      "sourceHTMLSHA256": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+      "secondaryHTMLSHA256": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+      "rawDeepLSHA256": "cab55d2d4a721afcde00fac795ac881f2b73b642e9ed22e60cf197bade126718",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 22,
+      "responseIndex": 22,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97289,
+      "field": "complete",
+      "englishSHA256": "e0133023336bfc775039865d6f9305d24e70b812d9900f3709d8cbc8ce40890a",
+      "originalMyanmarSHA256": "f01c31ed8e2080b93940e2ef652bc5bcd7f3f0bae820557b0e9b7d11ffa39c34",
+      "candidateMyanmarSHA256": "f01c31ed8e2080b93940e2ef652bc5bcd7f3f0bae820557b0e9b7d11ffa39c34",
+      "status": "available",
+      "sourceHTMLSHA256": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+      "secondaryHTMLSHA256": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+      "rawDeepLSHA256": "5f8b785ac6ee6437086b688ff18e12b3a14a2abf060e6ebcb76ee50e25e8711b",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 23,
+      "responseIndex": 23,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97290,
+      "field": "title",
+      "englishSHA256": "14c23e02a0da88180df2a5ac74977b38ce4f8f60dcc502de3ce85fc6a9dd9eb4",
+      "originalMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "candidateMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "status": "available",
+      "sourceHTMLSHA256": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+      "secondaryHTMLSHA256": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+      "rawDeepLSHA256": "b3ab9facce936fcecc0984072489b6dbe0009b8ca4a61d227fe864687b9adf26",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 24,
+      "responseIndex": 24,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97290,
+      "field": "detail",
+      "englishSHA256": "964f97f030519b374a6821e2580c6eacff264627d6a23f1c793953e3ed620f4d",
+      "originalMyanmarSHA256": "4e3e9ca6c46ae7dfcb7ed1e8b24ec2acc3d9670b607c5a693d19ffc907fb38f3",
+      "candidateMyanmarSHA256": "4e3e9ca6c46ae7dfcb7ed1e8b24ec2acc3d9670b607c5a693d19ffc907fb38f3",
+      "status": "available",
+      "sourceHTMLSHA256": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+      "secondaryHTMLSHA256": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+      "rawDeepLSHA256": "3940f18fc5afcc019e4659f73c78a0a2345812aaa7f4387cc0dee94265cb767f",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 25,
+      "responseIndex": 25,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97290,
+      "field": "objective",
+      "englishSHA256": "3f1fbf96b4028a6b15151c566e219f7d11da6a977bcf2d16999fcb6acd8cc615",
+      "originalMyanmarSHA256": "3f2f0f4ac1283141f6bce64819e3c3489c17df9c19821a542a76e8d63cbbe122",
+      "candidateMyanmarSHA256": "3f2f0f4ac1283141f6bce64819e3c3489c17df9c19821a542a76e8d63cbbe122",
+      "status": "available",
+      "sourceHTMLSHA256": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+      "secondaryHTMLSHA256": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+      "rawDeepLSHA256": "537f3686c7d70b07bbb59520acbf604bd8445dfafc4a563fbd31a40a9dba6ec3",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 26,
+      "responseIndex": 26,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 23,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Master Apothecary Faranell",
+          "at": 51,
+          "annotation": "မာစတာ အပေါသီကဲရီ ဖာရာနဲလ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97290,
+      "field": "progress",
+      "englishSHA256": null,
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "absent",
+      "sourceHTMLSHA256": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+      "secondaryHTMLSHA256": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e"
+    },
+    {
+      "id": 97290,
+      "field": "complete",
+      "englishSHA256": "a218c86ef04a3dde4f3d828bb4bea2f0cfd0c69cf337ceec5a25a8846b32f50e",
+      "originalMyanmarSHA256": "3101d32a37271c7f8512aa33ae9b285072c234e2f11a37bb2ef37d22960cd391",
+      "candidateMyanmarSHA256": "3101d32a37271c7f8512aa33ae9b285072c234e2f11a37bb2ef37d22960cd391",
+      "status": "available",
+      "sourceHTMLSHA256": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+      "secondaryHTMLSHA256": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+      "rawDeepLSHA256": "66e021ff38ba5c0a9a757cd32070f744ea66b640fc3ec6494faf3c1a7fa1e836",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 27,
+      "responseIndex": 27,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97291,
+      "field": "title",
+      "englishSHA256": "14c23e02a0da88180df2a5ac74977b38ce4f8f60dcc502de3ce85fc6a9dd9eb4",
+      "originalMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "candidateMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "status": "available",
+      "sourceHTMLSHA256": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+      "secondaryHTMLSHA256": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+      "rawDeepLSHA256": "0aab6f00df70685228e1dfa3bbf91fbeb8f4360fa0b5d257aa2881af6b0e9480",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 28,
+      "responseIndex": 28,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97291,
+      "field": "detail",
+      "englishSHA256": "a0f224cc0f88d86e613d0f2ba5aa0fe749dce90972616759f8fc03bcc5c623b2",
+      "originalMyanmarSHA256": "e02a5afde1b04a1c4ffa92407d2d53d7112b87223714bc948eeb0c4650e0dc7e",
+      "candidateMyanmarSHA256": "e02a5afde1b04a1c4ffa92407d2d53d7112b87223714bc948eeb0c4650e0dc7e",
+      "status": "available",
+      "sourceHTMLSHA256": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+      "secondaryHTMLSHA256": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+      "rawDeepLSHA256": "288a2d108a63a363dff6c1e5b081ca68d8e8d5acb4247039427c17d5889265ed",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 29,
+      "responseIndex": 29,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Dark Lady",
+          "at": 69,
+          "annotation": "ဒါ့ခ် လေဒီ"
+        },
+        {
+          "term": "Trade Quarter",
+          "at": 276,
+          "annotation": "ထရိတ်ဒ် ကွာတာ"
+        },
+        {
+          "term": "Miss Grisette",
+          "at": 308,
+          "annotation": "မစ်စ် ဂရစ်ဇက်တ်"
+        },
+        {
+          "term": "Toxic Skullcap",
+          "at": 344,
+          "annotation": "တော့ခ်ဆစ်ခ် စကယ်လ်ကပ်"
+        },
+        {
+          "term": "Alliestars",
+          "at": 452,
+          "annotation": "အယ်လီစတားဇ်"
+        },
+        {
+          "term": "Blisterweed",
+          "at": 484,
+          "annotation": "ဘလစ်စတာဝိဒ်"
+        },
+        {
+          "term": "Essence of Agony",
+          "at": 591,
+          "annotation": "အက်ဆန့်စ် အော့ဗ် အဂနီ"
+        }
+      ],
+      "paragraphs": 4,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97291,
+      "field": "objective",
+      "englishSHA256": "3d0386a64398b55bd52b2e0f3e00b37a133a80a0d13339e4b44f60a40f4ac04b",
+      "originalMyanmarSHA256": "057b9e641c813d2d450686f0de1b285b524c511b4e73e4265ac1e42d36f84111",
+      "candidateMyanmarSHA256": "057b9e641c813d2d450686f0de1b285b524c511b4e73e4265ac1e42d36f84111",
+      "status": "available",
+      "sourceHTMLSHA256": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+      "secondaryHTMLSHA256": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+      "rawDeepLSHA256": "6257f73480bf339c8a70e32635db4550a31e2db01dab151d85bd350e9f60d5d5",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 30,
+      "responseIndex": 30,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Undercity",
+          "at": 0,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Master Apothecary Faranell",
+          "at": 28,
+          "annotation": "မာစတာ အပေါသီကဲရီ ဖာရာနဲလ်"
+        },
+        {
+          "term": "Trade Quarter",
+          "at": 89,
+          "annotation": "ထရိတ်ဒ် ကွာတာ"
+        },
+        {
+          "term": "Tawny Grisette",
+          "at": 121,
+          "annotation": "တော့နီ ဂရစ်ဇက်တ်"
+        },
+        {
+          "term": "Toxic Skullcap",
+          "at": 160,
+          "annotation": "တော့ခ်ဆစ်ခ် စကယ်လ်ကပ်"
+        },
+        {
+          "term": "Herbalism Trainer",
+          "at": 206,
+          "annotation": "ဟာဘယ်လစ်ဇမ် ထရိန်းနာ"
+        },
+        {
+          "term": "Blisterweed",
+          "at": 254,
+          "annotation": "ဘလစ်စတာဝိဒ်"
+        },
+        {
+          "term": "Rogues' Quarter",
+          "at": 286,
+          "annotation": "ရိုးဂ်ဇ် ကွာတာ"
+        },
+        {
+          "term": "Essence of Agony",
+          "at": 341,
+          "annotation": "အက်ဆန့်စ် အော့ဗ် အဂနီ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97291,
+      "field": "progress",
+      "englishSHA256": "9ac46b28e22d6895f06cd951250a7427143d691ba86df77b9c641e7cdf312906",
+      "originalMyanmarSHA256": "1f607ae0bf9f4f4873d385118f67a2fad6029b000a0a5f009a3da2a0ba88603d",
+      "candidateMyanmarSHA256": "1f607ae0bf9f4f4873d385118f67a2fad6029b000a0a5f009a3da2a0ba88603d",
+      "status": "available",
+      "sourceHTMLSHA256": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+      "secondaryHTMLSHA256": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+      "rawDeepLSHA256": "3ac17cc235605c1c649ab9cdd5969a4bc5be9d480761aa682786d0352abb4c12",
+      "rawRequest": "deepl-request-01.json",
+      "rawResponse": "deepl-response-01.json",
+      "rawIndex": "deepl-index-01.json",
+      "requestIndex": 31,
+      "responseIndex": 31,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97291,
+      "field": "complete",
+      "englishSHA256": "bd0fb01e6434e0c22059a80651b7e25ee78609c0a2b696bb155c4448785b9fab",
+      "originalMyanmarSHA256": "5432ad51599af309f20dfa5908f4b44e0d0fa4426d751236b17d505f99ae9e06",
+      "candidateMyanmarSHA256": "5432ad51599af309f20dfa5908f4b44e0d0fa4426d751236b17d505f99ae9e06",
+      "status": "available",
+      "sourceHTMLSHA256": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+      "secondaryHTMLSHA256": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+      "rawDeepLSHA256": "fa54c61219fa717752d191dd6c329b8c049945d7bf8e3417a8dcdc0b42cd41af",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 0,
+      "responseIndex": 0,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97292,
+      "field": "title",
+      "englishSHA256": "14c23e02a0da88180df2a5ac74977b38ce4f8f60dcc502de3ce85fc6a9dd9eb4",
+      "originalMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "candidateMyanmarSHA256": "2b8d0b131131c770c635469fb0d767fa0d73aa28b96afa50633fd1ca6d302aef",
+      "status": "available",
+      "sourceHTMLSHA256": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+      "secondaryHTMLSHA256": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+      "rawDeepLSHA256": "e7686b68b44c7c6f74637e752ac55404f6c4016807302992a6486ab2ea5ce6a1",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 1,
+      "responseIndex": 1,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97292,
+      "field": "detail",
+      "englishSHA256": "1b490f1789ce3ea5dccd09ed3d70f98431166af5990a0fc8ceda09db81a1f57a",
+      "originalMyanmarSHA256": "b0862baa1edb374da452594bff0fc1db9ce60d8ed0e8305f53c36f90e3de8531",
+      "candidateMyanmarSHA256": "b0862baa1edb374da452594bff0fc1db9ce60d8ed0e8305f53c36f90e3de8531",
+      "status": "available",
+      "sourceHTMLSHA256": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+      "secondaryHTMLSHA256": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+      "rawDeepLSHA256": "82f978cb757c25e8878f9c59bb44e072eb56c55e6e51f4736839703f55967fa7",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 2,
+      "responseIndex": 2,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97292,
+      "field": "objective",
+      "englishSHA256": "a8ffda1e0840afa77acbb2fd489036be6933f364436880cd49d15d2bb819c893",
+      "originalMyanmarSHA256": "1050139eeea93a9de5cbecd1dafed9465e591f788fab5d7b71107f5b4e8cd06f",
+      "candidateMyanmarSHA256": "1050139eeea93a9de5cbecd1dafed9465e591f788fab5d7b71107f5b4e8cd06f",
+      "status": "available",
+      "sourceHTMLSHA256": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+      "secondaryHTMLSHA256": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+      "rawDeepLSHA256": "005ce9e3e68defb4832b236a9876448818e9dfbb656cb69866d8148ba2f4c605",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 3,
+      "responseIndex": 3,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Master Apothecary Faranell",
+          "at": 0,
+          "annotation": "မာစတာ အပေါသီကဲရီ ဖာရာနဲလ်"
+        },
+        {
+          "term": "Hissing Serum",
+          "at": 61,
+          "annotation": "ဟစ်စင်း စီရမ်"
+        },
+        {
+          "term": "Othmar",
+          "at": 95,
+          "annotation": "အော့သ်မာ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97292,
+      "field": "progress",
+      "englishSHA256": "bd00acc863e550a36e9f68159c7dec56cfbe71eea2568e0875007e4fac1c2ca4",
+      "originalMyanmarSHA256": "3fd3a935a7bb48a7cf6a66349f0f34b4c9b33d3d1a9dd2f06db9754f9155a120",
+      "candidateMyanmarSHA256": "3fd3a935a7bb48a7cf6a66349f0f34b4c9b33d3d1a9dd2f06db9754f9155a120",
+      "status": "available",
+      "sourceHTMLSHA256": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+      "secondaryHTMLSHA256": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+      "rawDeepLSHA256": "94f9663038b2818231ea1b63dd6e7dbfd166e848011f3a3b107b54e9d7fe3381",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 4,
+      "responseIndex": 4,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Dark Lady",
+          "at": 0,
+          "annotation": "ဒါ့ခ် လေဒီ"
+        },
+        {
+          "term": "Othmar",
+          "at": 29,
+          "annotation": "အော့သ်မာ"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 97292,
+      "field": "complete",
+      "englishSHA256": "361bdf8b817b87c72f12d6129e6b6edebdcd85afcd89b59b3a94cb7977b44372",
+      "originalMyanmarSHA256": "ce64cfd7600d8d33bd9eeca171cb0c92fe737d8a7a21eafc24908fb1671fe2d4",
+      "candidateMyanmarSHA256": "ce64cfd7600d8d33bd9eeca171cb0c92fe737d8a7a21eafc24908fb1671fe2d4",
+      "status": "available",
+      "sourceHTMLSHA256": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+      "secondaryHTMLSHA256": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+      "rawDeepLSHA256": "24fcd3ef224902a7c976cebd10bcb394af9486a147ef301c52dfb8d2c6ceb634",
+      "rawRequest": "deepl-request-02.json",
+      "rawResponse": "deepl-response-02.json",
+      "rawIndex": "deepl-index-02.json",
+      "requestIndex": 5,
+      "responseIndex": 5,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Othmar",
+          "at": 213,
+          "annotation": "အော့သ်မာ"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95250,
+      "field": "title",
+      "englishSHA256": "e35c45125f58357e23d381dcf3191ee1ad8de15c434a1797f172218592ceda96",
+      "originalMyanmarSHA256": "301d99e5ee4036f888a72d4c6880eed74e4f10ddd38b98ed3bc91f2d8b21ccb6",
+      "candidateMyanmarSHA256": "301d99e5ee4036f888a72d4c6880eed74e4f10ddd38b98ed3bc91f2d8b21ccb6",
+      "status": "available",
+      "sourceHTMLSHA256": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+      "secondaryHTMLSHA256": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343",
+      "rawDeepLSHA256": "043b4fa2105a7cf01497a33a0edb382a6115c45c34eb3a9f0e341baa75a5f3a4",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 0,
+      "responseIndex": 0,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95250,
+      "field": "detail",
+      "englishSHA256": "6133b43fa97d0ea6b563c1b76da63ddcc26ec0dfe5e0f6b428435ba2d9f72f6a",
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "held",
+      "sourceHTMLSHA256": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+      "secondaryHTMLSHA256": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343",
+      "rawDeepLSHA256": "58338a39dba334dde2b5117208ce17cd47f63677360866ae9fbd9a1e2ece7dd4",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 1,
+      "responseIndex": 1,
+      "targetIndex": 0,
+      "heldProposalSHA256": "a782608b7e2d2ad7255ab56e8bc26cb91011c26b1712c2e9c091b253ac46c0ff",
+      "identities": [
+        {
+          "term": "Grand Marshal",
+          "at": 325,
+          "annotation": "ဂရန်းဒ် မာရှယ်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [
+        "<race>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 95250,
+      "field": "objective",
+      "englishSHA256": "8f6b57d9c1c755f1930c9e2ff02011b8b8edfab5981c8e9eb7b227b69de1cd16",
+      "originalMyanmarSHA256": "b11f2a7b08bca631a0beae4ec33ba307dd06dd5c3426a54468ef7aea9f40ce2a",
+      "candidateMyanmarSHA256": "b11f2a7b08bca631a0beae4ec33ba307dd06dd5c3426a54468ef7aea9f40ce2a",
+      "status": "available",
+      "sourceHTMLSHA256": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+      "secondaryHTMLSHA256": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343",
+      "rawDeepLSHA256": "d1bdf59867f7ae091dd08aeaf2c44bf9bfc00f3a5efdfae2f40b75a390cab8b5",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 2,
+      "responseIndex": 2,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Ruins of Lordaeron",
+          "at": 0,
+          "annotation": "ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Head of the Baron",
+          "at": 53,
+          "annotation": "ဟက်ဒ် အော့ဗ် သ ဘယ်ရွန်"
+        },
+        {
+          "term": "Captain Truman",
+          "at": 108,
+          "annotation": "ကက်ပ်တင် ထရူးမန်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95250,
+      "field": "progress",
+      "englishSHA256": null,
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "absent",
+      "sourceHTMLSHA256": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+      "secondaryHTMLSHA256": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343"
+    },
+    {
+      "id": 95250,
+      "field": "complete",
+      "englishSHA256": null,
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "absent",
+      "sourceHTMLSHA256": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+      "secondaryHTMLSHA256": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343"
+    },
+    {
+      "id": 95189,
+      "field": "title",
+      "englishSHA256": "fddb753777dbab38df4c52014072b686d763bdef7af01c51fa3ebad5c2249ae6",
+      "originalMyanmarSHA256": "9c4f4afaa28b6fa489d855e8c4d3052ce0eed2d0fab4caa12bc57d28615d1342",
+      "candidateMyanmarSHA256": "9c4f4afaa28b6fa489d855e8c4d3052ce0eed2d0fab4caa12bc57d28615d1342",
+      "status": "available",
+      "sourceHTMLSHA256": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+      "secondaryHTMLSHA256": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+      "rawDeepLSHA256": "451cbf3024af3a0fb9a8ff63dc13207b96a65fba14cbc419f16a28dee50ba2f8",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 3,
+      "responseIndex": 3,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Crest of Lordaeron",
+          "at": 0,
+          "annotation": "ခရက်စ်တ် အော့ဗ် လော်ဒဲရွန်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95189,
+      "field": "detail",
+      "englishSHA256": "d8621c514acbaff9530329ea2ea6ea4628f401b836bb1a2fd70ceb2d5e3db83e",
+      "originalMyanmarSHA256": "8fcdab536c302ee963b4751b1e43683554684e5cacd8f6782db2630ea655acfb",
+      "candidateMyanmarSHA256": "8fcdab536c302ee963b4751b1e43683554684e5cacd8f6782db2630ea655acfb",
+      "status": "available",
+      "sourceHTMLSHA256": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+      "secondaryHTMLSHA256": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+      "rawDeepLSHA256": "7539f6b38fccd8405dfa71d912c23ce703af8a9da678be673afe89e46bc6ba80",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 4,
+      "responseIndex": 4,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Lordaeron",
+          "at": 1,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Stormwind",
+          "at": 150,
+          "annotation": "စတော်မ်ဝင်းဒ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95189,
+      "field": "objective",
+      "englishSHA256": "ba083d29e41e7c34223bbb4d060564a668f97635189da8476240fb2d5de4aaa9",
+      "originalMyanmarSHA256": "08de348f914d9a12c497fe59613e1b89fd3266abab9ba8da473bb38095270994",
+      "candidateMyanmarSHA256": "08de348f914d9a12c497fe59613e1b89fd3266abab9ba8da473bb38095270994",
+      "status": "available",
+      "sourceHTMLSHA256": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+      "secondaryHTMLSHA256": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+      "rawDeepLSHA256": "2620c90866a78d58920a5e7c16f235dc06fa0a9ec38db0706a3ecc34f1988a45",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 5,
+      "responseIndex": 5,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Crest of Lordaeron",
+          "at": 0,
+          "annotation": "ခရက်စ်တ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Stormwind City",
+          "at": 52,
+          "annotation": "စတော်မ်ဝင်းဒ် စီးတီး"
+        },
+        {
+          "term": "Lady Dena Kennedy",
+          "at": 94,
+          "annotation": "လေဒီ ဒီနာ ကဲနဒီ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95189,
+      "field": "progress",
+      "englishSHA256": "7a90c57efb8b7e948a10fd680d8274627ae8bfaec057f3fb389619a9ec878f45",
+      "originalMyanmarSHA256": "e89e5bc7ec67937cd488b2c23890286acd40ea2393a5f77e40fd4203a2129555",
+      "candidateMyanmarSHA256": "e89e5bc7ec67937cd488b2c23890286acd40ea2393a5f77e40fd4203a2129555",
+      "status": "available",
+      "sourceHTMLSHA256": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+      "secondaryHTMLSHA256": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+      "rawDeepLSHA256": "71c99c45a615e2b605585834bc9387db4d7c42d72d7c9c67deb44038f39ab2f2",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 6,
+      "responseIndex": 6,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95189,
+      "field": "complete",
+      "englishSHA256": "9d611dda8b33ffffbe4dd343c5c99e3c0efe1d60e04e1cc0e9a96ea7b376701e",
+      "originalMyanmarSHA256": "9716350ff40fe941d28baa399b55ca2c31514ac8c3004f5af6a1c2be16f95ffb",
+      "candidateMyanmarSHA256": "9716350ff40fe941d28baa399b55ca2c31514ac8c3004f5af6a1c2be16f95ffb",
+      "status": "available",
+      "sourceHTMLSHA256": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+      "secondaryHTMLSHA256": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+      "rawDeepLSHA256": "ce8568d0894978a19d3e56e520a60526fcb57e6308e8ef499250e077d166f071",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 7,
+      "responseIndex": 7,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Alliance",
+          "at": 116,
+          "annotation": "အလိုင်းယန့်စ်"
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [
+        "<class>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 95204,
+      "field": "title",
+      "englishSHA256": "fddb753777dbab38df4c52014072b686d763bdef7af01c51fa3ebad5c2249ae6",
+      "originalMyanmarSHA256": "9c4f4afaa28b6fa489d855e8c4d3052ce0eed2d0fab4caa12bc57d28615d1342",
+      "candidateMyanmarSHA256": "9c4f4afaa28b6fa489d855e8c4d3052ce0eed2d0fab4caa12bc57d28615d1342",
+      "status": "available",
+      "sourceHTMLSHA256": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+      "secondaryHTMLSHA256": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+      "rawDeepLSHA256": "451cbf3024af3a0fb9a8ff63dc13207b96a65fba14cbc419f16a28dee50ba2f8",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 8,
+      "responseIndex": 8,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Crest of Lordaeron",
+          "at": 0,
+          "annotation": "ခရက်စ်တ် အော့ဗ် လော်ဒဲရွန်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95204,
+      "field": "detail",
+      "englishSHA256": "95458f8cde28826fc1f0ba8c617b83557fe1bce733533461e15fb67ea81d96cb",
+      "originalMyanmarSHA256": "26a3bd52ed720fe476c0621c6889ca208426683e0e3ec128e5a8dc491cc83f67",
+      "candidateMyanmarSHA256": "26a3bd52ed720fe476c0621c6889ca208426683e0e3ec128e5a8dc491cc83f67",
+      "status": "available",
+      "sourceHTMLSHA256": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+      "secondaryHTMLSHA256": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+      "rawDeepLSHA256": "9ae006ae0238aaa3e452123fd0d9eab78570450736be6732e4d3032771ad8426",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 9,
+      "responseIndex": 9,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Lordaeron",
+          "at": 1,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Undercity",
+          "at": 150,
+          "annotation": "အန်ဒါစီးတီး"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95204,
+      "field": "objective",
+      "englishSHA256": "dffbedc40159f3e47de6756b8895e0b78617f14831d500e3aa624ecf1af8985c",
+      "originalMyanmarSHA256": "8844df28ee86ebc99f7a2a5dffde5fd9563b7b68b4fe8f37152d82a341c805c3",
+      "candidateMyanmarSHA256": "8844df28ee86ebc99f7a2a5dffde5fd9563b7b68b4fe8f37152d82a341c805c3",
+      "status": "available",
+      "sourceHTMLSHA256": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+      "secondaryHTMLSHA256": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+      "rawDeepLSHA256": "b8fdb3b530e6b5ab544f80ded76c68e8659907c0c6a122648c67b1ade5dea5b2",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 10,
+      "responseIndex": 10,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Crest of Lordaeron",
+          "at": 0,
+          "annotation": "ခရက်စ်တ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Undercity",
+          "at": 52,
+          "annotation": "အန်ဒါစီးတီး"
+        },
+        {
+          "term": "Oran Snakewrithe",
+          "at": 80,
+          "annotation": "အော်ရန် စနိတ်ခ်ရိုက်သ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95204,
+      "field": "progress",
+      "englishSHA256": "16a89d1168455d6c0aee42711e5607f9f263acef9f8b254bb3463131ccc0148c",
+      "originalMyanmarSHA256": "a8da890088605152b5e5c6aa9825ac3d6b032e1a050dd4f6a9d3db7092bdef63",
+      "candidateMyanmarSHA256": "a8da890088605152b5e5c6aa9825ac3d6b032e1a050dd4f6a9d3db7092bdef63",
+      "status": "available",
+      "sourceHTMLSHA256": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+      "secondaryHTMLSHA256": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+      "rawDeepLSHA256": "f7b5623c7ac2af5820686a76d75216b926ef4e6fddffb86b7a2481c0752354e5",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 11,
+      "responseIndex": 11,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [
+        "<class>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 95204,
+      "field": "complete",
+      "englishSHA256": "5d9e45bcee11108732c565ebdf2b6cd34e39f70683df46b50b85785519e606c2",
+      "originalMyanmarSHA256": "dc2741502edbadd3d4843aaa29df2a8e38b65c818b5b95dc6f7356618dde02ea",
+      "candidateMyanmarSHA256": "dc2741502edbadd3d4843aaa29df2a8e38b65c818b5b95dc6f7356618dde02ea",
+      "status": "available",
+      "sourceHTMLSHA256": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+      "secondaryHTMLSHA256": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+      "rawDeepLSHA256": "dc378d23caf0764e4eee68166c1ca148c36d25340ff1f6d62c0756b57bfc3e25",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 12,
+      "responseIndex": 12,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Oran",
+          "at": 32,
+          "annotation": "အော်ရန်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [
+        "<class>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 95195,
+      "field": "title",
+      "englishSHA256": "f6898896fe6ab3796fe9099f2cfebe89b9afce5a46dfbdbf3bb605e7851753fa",
+      "originalMyanmarSHA256": "c594d80ae2a0bae64bf91ebd31caec6dd78fef1a8b563668a7ae8f5de0a34a2a",
+      "candidateMyanmarSHA256": "c594d80ae2a0bae64bf91ebd31caec6dd78fef1a8b563668a7ae8f5de0a34a2a",
+      "status": "available",
+      "sourceHTMLSHA256": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+      "secondaryHTMLSHA256": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+      "rawDeepLSHA256": "2d10150c5da43ed80509dbb1c652a6802a504f048183b48c5856df2fdc467823",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 13,
+      "responseIndex": 13,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Bloodied Insignia",
+          "at": 0,
+          "annotation": "ဘလဒီးဒ် အင်ဆစ်ဂ်နီယာ"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95195,
+      "field": "detail",
+      "englishSHA256": "c14eab21cd9febb9def052c6b65d0b2603e0b5e9746e35860e836242d345eef8",
+      "originalMyanmarSHA256": "73012f12c6653b6f76dec374c76b5997831ed233545fb6b3ed7f814bc2d9526a",
+      "candidateMyanmarSHA256": "73012f12c6653b6f76dec374c76b5997831ed233545fb6b3ed7f814bc2d9526a",
+      "status": "available",
+      "sourceHTMLSHA256": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+      "secondaryHTMLSHA256": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+      "rawDeepLSHA256": "2a8e45580e90c3470e273c3ef0a0828035fe04438980b0c63e95f69dc10a126c",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 14,
+      "responseIndex": 14,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Alliance",
+          "at": 4,
+          "annotation": "အလိုင်းယန့်စ်"
+        },
+        {
+          "term": "Lordaeron",
+          "at": 43,
+          "annotation": "လော်ဒဲရွန်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95195,
+      "field": "objective",
+      "englishSHA256": "44e1960980481308a7069d51adcfbfca9b811d66e724da18f3819402f3337f14",
+      "originalMyanmarSHA256": "3d1a2caef1bb5cd126893579c9f3b080d5bab6e76577696aba7d64bf70cf206b",
+      "candidateMyanmarSHA256": "3d1a2caef1bb5cd126893579c9f3b080d5bab6e76577696aba7d64bf70cf206b",
+      "status": "available",
+      "sourceHTMLSHA256": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+      "secondaryHTMLSHA256": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+      "rawDeepLSHA256": "d432300c05165a36fd4597f30e429d9b4bbbc8c8c1955bfff498a1c57788bfc6",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 15,
+      "responseIndex": 15,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Bloodied Insignias",
+          "at": 0,
+          "annotation": "ဘလဒီးဒ် အင်ဆစ်ဂ်နီယာဇ်"
+        },
+        {
+          "term": "Stormwind City",
+          "at": 66,
+          "annotation": "စတော်မ်ဝင်းဒ် စီးတီး"
+        },
+        {
+          "term": "General Marcus Jonathan",
+          "at": 108,
+          "annotation": "ဂျင်နရယ်လ် မားကပ်စ် ဂျိုနသန်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": [
+        "10"
+      ]
+    },
+    {
+      "id": 95195,
+      "field": "progress",
+      "englishSHA256": "416c99437595b680fece3a31d551e35803f1a8046e20cbaed437483ebada0e3a",
+      "originalMyanmarSHA256": "176b48b7e96518a8bbdf601c9032e173663f11512ddb0218e8ab2159b1228fce",
+      "candidateMyanmarSHA256": "176b48b7e96518a8bbdf601c9032e173663f11512ddb0218e8ab2159b1228fce",
+      "status": "available",
+      "sourceHTMLSHA256": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+      "secondaryHTMLSHA256": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+      "rawDeepLSHA256": "4470a58df53a7b722a7ec6bc9401ef84ac8a427f52e594a3e982da50530cc185",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 16,
+      "responseIndex": 16,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [
+        "<name>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 95195,
+      "field": "complete",
+      "englishSHA256": "8c1394ff4a213adb44a8508ff18a4e5ffe2dbbe213e1c4d1e48211d6dce8707d",
+      "originalMyanmarSHA256": "ab887d11eaab4f97dbb29445d6496c0804532c79f4fb3f14dff0b6a7c2f1172f",
+      "candidateMyanmarSHA256": "ab887d11eaab4f97dbb29445d6496c0804532c79f4fb3f14dff0b6a7c2f1172f",
+      "status": "available",
+      "sourceHTMLSHA256": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+      "secondaryHTMLSHA256": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+      "rawDeepLSHA256": "e326e0b0e4aad250e126cf8c95df7dd23a8f42f25a5c773d54c182e846158319",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 17,
+      "responseIndex": 17,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Lordaeron",
+          "at": 62,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Scourge",
+          "at": 88,
+          "annotation": "စကာ့ဂျ်"
+        },
+        {
+          "term": "Stormwind",
+          "at": 148,
+          "annotation": "စတော်မ်ဝင်းဒ်"
+        },
+        {
+          "term": "Stormwind",
+          "at": 278,
+          "annotation": null
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [
+        "<name>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 92415,
+      "field": "title",
+      "englishSHA256": "f582665b31c8b352a537d91a0a29177a3beabadc339471845a959215bda1d748",
+      "originalMyanmarSHA256": "5b878663163d9a5c402792998e81b4b9f6d64f1fdb87d25a1eb6eb29ec8f9290",
+      "candidateMyanmarSHA256": "5b878663163d9a5c402792998e81b4b9f6d64f1fdb87d25a1eb6eb29ec8f9290",
+      "status": "available",
+      "sourceHTMLSHA256": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+      "secondaryHTMLSHA256": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+      "rawDeepLSHA256": "3e8047fb4f929162bdb0fa45aa29efea5d92fc27d3798db0e3f09305e2b3290d",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 18,
+      "responseIndex": 18,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92415,
+      "field": "detail",
+      "englishSHA256": "a4e6e3fc412458432f4a3887dd50ed9842fa08ad824d873300421693972bb950",
+      "originalMyanmarSHA256": "d97c6dfd47ea9ca260d721437121d34568f60d5c80e50d5211e7de03a307c596",
+      "candidateMyanmarSHA256": "d97c6dfd47ea9ca260d721437121d34568f60d5c80e50d5211e7de03a307c596",
+      "status": "available",
+      "sourceHTMLSHA256": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+      "secondaryHTMLSHA256": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+      "rawDeepLSHA256": "8acf53e4314a16229e119b7071924d3c925db65f74f42a78b11cae20d2af0d21",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 19,
+      "responseIndex": 19,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "undead",
+          "at": 49,
+          "annotation": "အန်ဒက်ဒ်"
+        },
+        {
+          "term": "Heartweaver",
+          "at": 153,
+          "annotation": "ဟာ့တ်ဝီးဗာ"
+        },
+        {
+          "term": "Stormwind City",
+          "at": 230,
+          "annotation": "စတော်မ်ဝင်းဒ် စီးတီး"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92415,
+      "field": "objective",
+      "englishSHA256": "ae1819804a013bc95a749ac794c827e73fc22abcd38ae9eeb779c9a8e5806379",
+      "originalMyanmarSHA256": "cac0d55d12854c4f7c7acfea7d3450b9dc78327dd7ac80025ce69d39d5cfcdcc",
+      "candidateMyanmarSHA256": "cac0d55d12854c4f7c7acfea7d3450b9dc78327dd7ac80025ce69d39d5cfcdcc",
+      "status": "available",
+      "sourceHTMLSHA256": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+      "secondaryHTMLSHA256": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+      "rawDeepLSHA256": "acae940fb414a3dc9574cca6d387e4e59a1c3c0ce12b3c6fd93de1fd8bcc812c",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 20,
+      "responseIndex": 20,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Blood-Stained Letter",
+          "at": 0,
+          "annotation": "ဘလဒ် စတိန်းဒ် လက်တာ"
+        },
+        {
+          "term": "Stormwind City",
+          "at": 47,
+          "annotation": "စတော်မ်ဝင်းဒ် စီးတီး"
+        },
+        {
+          "term": "Orphan Matron Nightingale",
+          "at": 89,
+          "annotation": "အော်ဖန် မေးထရန် နိုက်တင်ဂေးလ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92415,
+      "field": "progress",
+      "englishSHA256": "a9480a89c96ff8d4ae2e93c66d5df5d4b791511959358a5a83c7b761e84f2bd5",
+      "originalMyanmarSHA256": "3d2990e20f700fe75c297e2c8dabe1497cebac1376be9626c8b336fb96983b4e",
+      "candidateMyanmarSHA256": "3d2990e20f700fe75c297e2c8dabe1497cebac1376be9626c8b336fb96983b4e",
+      "status": "available",
+      "sourceHTMLSHA256": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+      "secondaryHTMLSHA256": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+      "rawDeepLSHA256": "109fef995a6106f8f646fc1bca8c5b0b15754999da897214f8836dd720ed16f2",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 21,
+      "responseIndex": 21,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [
+        "<name>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 92415,
+      "field": "complete",
+      "englishSHA256": "7a9e950c348e109a26b3367268e32b1d9965dfda6ca77af1776389232ba73f71",
+      "originalMyanmarSHA256": "a8e87a219b90452d204330bf651285f29624075a92f4d9823b9904c0bb396231",
+      "candidateMyanmarSHA256": "a8e87a219b90452d204330bf651285f29624075a92f4d9823b9904c0bb396231",
+      "status": "available",
+      "sourceHTMLSHA256": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+      "secondaryHTMLSHA256": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+      "rawDeepLSHA256": "48f21ea78bda5c07d8d6810f552351bbaaf810e1382cff0906f6e750140605c7",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 22,
+      "responseIndex": 22,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Heartweaver",
+          "at": 0,
+          "annotation": "ဟာ့တ်ဝီးဗာ"
+        },
+        {
+          "term": "Heartweaver",
+          "at": 30,
+          "annotation": null
+        },
+        {
+          "term": "Jeremy Heartweaver",
+          "at": 52,
+          "annotation": "ဂျဲရမီ ဟာ့တ်ဝီးဗာ"
+        },
+        {
+          "term": "Lordaeron",
+          "at": 96,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Duskwood",
+          "at": 286,
+          "annotation": "ဒတ်စ်ခ်ဝုဒ်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95161,
+      "field": "title",
+      "englishSHA256": "f582665b31c8b352a537d91a0a29177a3beabadc339471845a959215bda1d748",
+      "originalMyanmarSHA256": "5b878663163d9a5c402792998e81b4b9f6d64f1fdb87d25a1eb6eb29ec8f9290",
+      "candidateMyanmarSHA256": "5b878663163d9a5c402792998e81b4b9f6d64f1fdb87d25a1eb6eb29ec8f9290",
+      "status": "available",
+      "sourceHTMLSHA256": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+      "secondaryHTMLSHA256": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+      "rawDeepLSHA256": "3e8047fb4f929162bdb0fa45aa29efea5d92fc27d3798db0e3f09305e2b3290d",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 23,
+      "responseIndex": 23,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95161,
+      "field": "detail",
+      "englishSHA256": "1623173c74d634a7a5e44732b02d0da9b9460b1ad07e952b8672e2ed87105a5a",
+      "originalMyanmarSHA256": "e46d689998f0ed0c7100b40423913008d82eea94f024ea570579225533d5de82",
+      "candidateMyanmarSHA256": "e46d689998f0ed0c7100b40423913008d82eea94f024ea570579225533d5de82",
+      "status": "available",
+      "sourceHTMLSHA256": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+      "secondaryHTMLSHA256": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+      "rawDeepLSHA256": "4733c7268730e7e1a2c9827cf9613529a5c32b5e65f971824472d9e595f022d9",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 24,
+      "responseIndex": 24,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Jeremy Heartweaver",
+          "at": 0,
+          "annotation": "ဂျဲရမီ ဟာ့တ်ဝီးဗာ"
+        },
+        {
+          "term": "Duskwood",
+          "at": 57,
+          "annotation": "ဒတ်စ်ခ်ဝုဒ်"
+        },
+        {
+          "term": "Avette Fellwood",
+          "at": 123,
+          "annotation": "အဗက်တ် ဖဲလ်ဝုဒ်"
+        },
+        {
+          "term": "Jeremy",
+          "at": 336,
+          "annotation": null
+        }
+      ],
+      "paragraphs": 2,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95161,
+      "field": "objective",
+      "englishSHA256": "f620d5db2e7d3121c485641a6e910dfeefb411fc8250c41d8ace0e43b1a172dd",
+      "originalMyanmarSHA256": "b3272a392d83ebc5a6d18d9d5da5dbf59a91753b151460ce7a83a6f9d5d9405d",
+      "candidateMyanmarSHA256": "b3272a392d83ebc5a6d18d9d5da5dbf59a91753b151460ce7a83a6f9d5d9405d",
+      "status": "available",
+      "sourceHTMLSHA256": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+      "secondaryHTMLSHA256": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+      "rawDeepLSHA256": "2a59a0208c979e707e9052e2c91a49f8802e7fcf982a66f784d7d6b2dd23657f",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 25,
+      "responseIndex": 25,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Blood-Stained Letter",
+          "at": 0,
+          "annotation": "ဘလဒ် စတိန်းဒ် လက်တာ"
+        },
+        {
+          "term": "Duskwood",
+          "at": 47,
+          "annotation": "ဒတ်စ်ခ်ဝုဒ်"
+        },
+        {
+          "term": "Avette Fellwood",
+          "at": 74,
+          "annotation": "အဗက်တ် ဖဲလ်ဝုဒ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95161,
+      "field": "progress",
+      "englishSHA256": "ab952185a99446ed2f091a6615112466a0a743a6d901d109fdf510809a226a6e",
+      "originalMyanmarSHA256": "95707973d4d3f1f809f131ddfdeeef38add1e16d3070d541b945a271b3eca8d4",
+      "candidateMyanmarSHA256": "95707973d4d3f1f809f131ddfdeeef38add1e16d3070d541b945a271b3eca8d4",
+      "status": "available",
+      "sourceHTMLSHA256": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+      "secondaryHTMLSHA256": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+      "rawDeepLSHA256": "aa65174e2c75aecb02b5cc1f7b6db60a91c0410c90cf89c85ada0628b94992f5",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 26,
+      "responseIndex": 26,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 95161,
+      "field": "complete",
+      "englishSHA256": "ac2ea411daa2aefda11e094d16808fc9a7fd026232d1bc7f9656a310c5aa24a0",
+      "originalMyanmarSHA256": "8f9b67a2e24b0b1e5ecc679159d70bc711e11120078ce6cf463069c98e5210f8",
+      "candidateMyanmarSHA256": "8f9b67a2e24b0b1e5ecc679159d70bc711e11120078ce6cf463069c98e5210f8",
+      "status": "available",
+      "sourceHTMLSHA256": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+      "secondaryHTMLSHA256": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+      "rawDeepLSHA256": "58e7a2793d961fe73fc96e131d7e09efa7dc715387e5f5548b08952d2f4e1c94",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 27,
+      "responseIndex": 27,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Jeremy",
+          "at": 60,
+          "annotation": "ဂျဲရမီ"
+        },
+        {
+          "term": "Matron Nightingale",
+          "at": 120,
+          "annotation": "မေးထရန် နိုက်တင်ဂေးလ်"
+        },
+        {
+          "term": "Lordaeron",
+          "at": 174,
+          "annotation": "လော်ဒဲရွန်"
+        },
+        {
+          "term": "Jeremy",
+          "at": 227,
+          "annotation": null
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92422,
+      "field": "title",
+      "englishSHA256": "616178bef4f410eb01afa18f64970e5f978c40b81c98ad52f827a37b28628613",
+      "originalMyanmarSHA256": "4009569f4e4bcadc8408fbdcba464ae28323be53794711557b292f4dbfd4e19c",
+      "candidateMyanmarSHA256": "4009569f4e4bcadc8408fbdcba464ae28323be53794711557b292f4dbfd4e19c",
+      "status": "available",
+      "sourceHTMLSHA256": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+      "secondaryHTMLSHA256": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+      "rawDeepLSHA256": "5bc90ca6d087f76fa9bd8e5aaf9080972df7c5ba935b2f62d345450e531b2d0c",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 28,
+      "responseIndex": 28,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Rath'mael",
+          "at": 0,
+          "annotation": "ရသ်မေးလ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92422,
+      "field": "detail",
+      "englishSHA256": "ac4333894f455c99409e1184f5f38ea2ab6eba3f79d9b3a5a44c2d58c731dd13",
+      "originalMyanmarSHA256": "359cb3a34b6e3ce962f3cd9385fc75784f063e888da3e1fddcc3986fbbe7f4ea",
+      "candidateMyanmarSHA256": "359cb3a34b6e3ce962f3cd9385fc75784f063e888da3e1fddcc3986fbbe7f4ea",
+      "status": "available",
+      "sourceHTMLSHA256": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+      "secondaryHTMLSHA256": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+      "rawDeepLSHA256": "514ff82babf6ba2dc50ea5f9b3ceafd4f2271c5975f8eaa4b45723a2d61d1020",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 29,
+      "responseIndex": 29,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Ruins of Lordaeron",
+          "at": 0,
+          "annotation": "ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Lordamere Overlook",
+          "at": 66,
+          "annotation": "လော်ဒါမီယာ အိုဗာလွတ်ခ်"
+        },
+        {
+          "term": "Scourge",
+          "at": 207,
+          "annotation": "စကာ့ဂျ်"
+        },
+        {
+          "term": "Rath'mael",
+          "at": 336,
+          "annotation": "ရသ်မေးလ်"
+        },
+        {
+          "term": "necromancer",
+          "at": 364,
+          "annotation": "နက်ခရိုမန်ဆာ"
+        },
+        {
+          "term": "Forsaken",
+          "at": 537,
+          "annotation": "ဖော်ဆေကန်"
+        }
+      ],
+      "paragraphs": 3,
+      "exactMarkers": [
+        "<name>"
+      ],
+      "numericQuantities": []
+    },
+    {
+      "id": 92422,
+      "field": "objective",
+      "englishSHA256": "3a2ca4dd2c062deec2c5d0afdfa1d542e0b55aed44b791ad70c5ead64507eeae",
+      "originalMyanmarSHA256": "c551c5754aae708b0b81752f6a8f2591b3e82296ddefbd7c9236b5ac068a94f1",
+      "candidateMyanmarSHA256": "c551c5754aae708b0b81752f6a8f2591b3e82296ddefbd7c9236b5ac068a94f1",
+      "status": "available",
+      "sourceHTMLSHA256": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+      "secondaryHTMLSHA256": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+      "rawDeepLSHA256": "06eace6c4c58d3dc6969c81076215114a34e22917847efda1d8b1a61c03b8484",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 30,
+      "responseIndex": 30,
+      "targetIndex": 0,
+      "identities": [
+        {
+          "term": "Brill",
+          "at": 0,
+          "annotation": "ဘရစ်လ်"
+        },
+        {
+          "term": "Deathguard Kristof",
+          "at": 19,
+          "annotation": "ဒက်သ်ဂါ့ဒ် ခရစ်စ်တော့ဖ်"
+        },
+        {
+          "term": "Ruins of Lordaeron",
+          "at": 70,
+          "annotation": "ရူးအင်ဇ် အော့ဗ် လော်ဒဲရွန်"
+        },
+        {
+          "term": "Rath'mael",
+          "at": 122,
+          "annotation": "ရသ်မေးလ်"
+        }
+      ],
+      "paragraphs": 1,
+      "exactMarkers": [],
+      "numericQuantities": []
+    },
+    {
+      "id": 92422,
+      "field": "progress",
+      "englishSHA256": null,
+      "originalMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "status": "absent",
+      "sourceHTMLSHA256": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+      "secondaryHTMLSHA256": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36"
+    },
+    {
+      "id": 92422,
+      "field": "complete",
+      "englishSHA256": "2e47c9e0e0185dd4e09b82aaf17fa6376b8f4a56594c8a79e17e5caffedd6caa",
+      "originalMyanmarSHA256": "a4bd3b959a327640d8ff72cd300e7eec08c743ad9e10a21bbc88fa9a25163427",
+      "candidateMyanmarSHA256": "a4bd3b959a327640d8ff72cd300e7eec08c743ad9e10a21bbc88fa9a25163427",
+      "status": "available",
+      "sourceHTMLSHA256": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+      "secondaryHTMLSHA256": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+      "rawDeepLSHA256": "c67924ae727236b5d471cee84fed05ca7b1cb30f507e8d2779f054d30a826f56",
+      "rawRequest": "deepl-request-03.json",
+      "rawResponse": "deepl-response-03.json",
+      "rawIndex": "deepl-index-03.json",
+      "requestIndex": 31,
+      "responseIndex": 31,
+      "targetIndex": 0,
+      "identities": [],
+      "paragraphs": 2,
+      "exactMarkers": [
+        "<name>"
+      ],
+      "numericQuantities": []
+    }
+  ],
+  "rawBatches": [
+    {
+      "request": "deepl-request-01.json",
+      "requestSHA256": "59df4153084656d972ef516aa14d2c8125009851d85645387865ebea6cd2ebd2",
+      "response": "deepl-response-01.json",
+      "responseSHA256": "8ec81db53b67c2b9597429ff8cb098a084cf46aa288c929e4e320e9a92ef88eb",
+      "index": "deepl-index-01.json",
+      "indexSHA256": "89fdd93b6528e235d46d7c8b37f09a789c7e26c754a7fcbf18a6a730250f583b",
+      "texts": 32,
+      "inputCharacters": 4784
+    },
+    {
+      "request": "deepl-request-02.json",
+      "requestSHA256": "8809271a4a35c8dd38a68a56c2b1f259390e974dac01aca3dfebcdbf6fde37e9",
+      "response": "deepl-response-02.json",
+      "responseSHA256": "b0a3c3b16aa11358ee253e51a2c971b1084f867ce0801b6b8ec07ba3142ff4ad",
+      "index": "deepl-index-02.json",
+      "indexSHA256": "3b31eb1639aa06ff0a51e523c5a333a737ccb6038bc363d715fc26a6218da8be",
+      "texts": 6,
+      "inputCharacters": 850
+    },
+    {
+      "request": "deepl-request-03.json",
+      "requestSHA256": "f5020bf6500004da9b8901042063e7130c5a27af27b2f195b1ced3eceb156586",
+      "response": "deepl-response-03.json",
+      "responseSHA256": "ea3d4ac92a214d166cff64595c4c34a5d8d2d47f5b1792012a198036ccd80688",
+      "index": "deepl-index-03.json",
+      "indexSHA256": "407455e7f220a7450664cef10c18984feaad9c94b3a220f335bf49e5e655c299",
+      "texts": 32,
+      "inputCharacters": 4490
+    }
+  ],
+  "tests": {
+    "linguistic_lint.lint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 15,
+      "fieldSlots": 75
+    },
+    "heldProposalLint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "originalPrimaryAndSecondaryReparse": {
+      "result": "PASS",
+      "primaryPages": 15,
+      "secondaryPages": 15
+    },
+    "rawRequestResponseIndexAndFinalHashes": {
+      "result": "PASS",
+      "fields": 70
+    },
+    "upstreamPackageAndCatalogHashes": {
+      "result": "PASS",
+      "reference": {
+        "repository": "sysrover/UA_Forever",
+        "version": "1.1.0",
+        "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+        "checkedAt": "2026-11-21T06:30:27.284541+00:00",
+        "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+        "publishedAtUTC": "2026-11-21T04:16:33Z",
+        "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+        "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+        "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+      }
+    },
+    "installedFullMetadataAndAllUAFields": {
+      "result": "PASS",
+      "quests": 15
+    },
+    "exactCaseMarkersNumericQuantitiesParagraphs": {
+      "result": "PASS",
+      "availableFields": 70
+    },
+    "originalAuthorImmutability": {
+      "result": "PASS",
+      "files": 72
+    },
+    "candidateImmutabilityDuringReview": {
+      "result": "PASS",
+      "files": 4
+    }
+  },
+  "initialReviewReport": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-21\\independent-review\\lordaeron.json",
+  "initialReviewReportSHA256": "943419b34319f90482f8a852ada67efaa715ffda212a527a87ef11fbe773585b",
+  "initialReviewReportUnchanged": true,
+  "originalAuthorFilesBefore": {
+    "92401-sixty.html": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+    "92401-wowhead.html": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+    "92415-sixty.html": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+    "92415-wowhead.html": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+    "92421-sixty.html": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+    "92421-wowhead.html": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+    "92422-sixty.html": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+    "92422-wowhead.html": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+    "95161-sixty.html": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+    "95161-wowhead.html": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+    "95189-sixty.html": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+    "95189-wowhead.html": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+    "95195-sixty.html": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+    "95195-wowhead.html": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+    "95204-sixty.html": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+    "95204-wowhead.html": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+    "95216-sixty.html": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+    "95216-wowhead.html": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+    "95250-sixty.html": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343",
+    "95250-wowhead.html": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+    "97288-sixty.html": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+    "97288-wowhead.html": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+    "97289-sixty.html": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+    "97289-wowhead.html": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+    "97290-sixty.html": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+    "97290-wowhead.html": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+    "97291-sixty.html": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+    "97291-wowhead.html": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+    "97292-sixty.html": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+    "97292-wowhead.html": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+    "annotation-exceptions.json": "efbf4755a519399c36bd11e53fd1a07955c1c41f811ecceec615529175ad7803",
+    "batch-plan.json": "9cf9d41bf1b420b9f72d6ad3865b51d60f1a768309e70528ce8cf04962a2f6e0",
+    "comparison-provenance.json": "cfb09ceda7f1f158bb34906338cb1ffc906c17d4ce58df0001f505f42ce4abf2",
+    "deepl-index-01.json": "89fdd93b6528e235d46d7c8b37f09a789c7e26c754a7fcbf18a6a730250f583b",
+    "deepl-index-02.json": "3b31eb1639aa06ff0a51e523c5a333a737ccb6038bc363d715fc26a6218da8be",
+    "deepl-index-03.json": "407455e7f220a7450664cef10c18984feaad9c94b3a220f335bf49e5e655c299",
+    "deepl-request-01.json": "59df4153084656d972ef516aa14d2c8125009851d85645387865ebea6cd2ebd2",
+    "deepl-request-02.json": "8809271a4a35c8dd38a68a56c2b1f259390e974dac01aca3dfebcdbf6fde37e9",
+    "deepl-request-03.json": "f5020bf6500004da9b8901042063e7130c5a27af27b2f195b1ced3eceb156586",
+    "deepl-response-01.json": "8ec81db53b67c2b9597429ff8cb098a084cf46aa288c929e4e320e9a92ef88eb",
+    "deepl-response-02.json": "b0a3c3b16aa11358ee253e51a2c971b1084f867ce0801b6b8ec07ba3142ff4ad",
+    "deepl-response-03.json": "ea3d4ac92a214d166cff64595c4c34a5d8d2d47f5b1792012a198036ccd80688",
+    "edit-group1.py": "41f763148d25fb6ef0a48bd12a2df821c25206755dbbc7a531919c73786ad742",
+    "edit-group2.py": "4a48b96c703575d02512928e0676bd93eadfc2d37e2dd572b75c4b7ae976923e",
+    "edited-group1.json": "c8303e56157c6d34d8929273664402e66a90625372dd480ce6caab0a4dcb244b",
+    "edited-group2.json": "b0a3bf920edd26cc09ec894cf4a09bf03abbd15dac53e2319a043b4336e6b0c5",
+    "edited.json": "2c9cdb9f32618e42d24a2a9873e8a1752afd83d4a66a514ba6bc9a7712f74d47",
+    "english-sources.json": "b2bfa725f13a782a47d1c0ec11691a8dc7080db915d3e1c63b20646f96ddfc33",
+    "fetch-history.json": "54445c2d20d5f6db1946e5ffffc7dd126f04acaace94788555e6b53365b0471c",
+    "fetched.json": "8bb6e0dccd4c56ca8d5d7f5643ddafa881085db02cd31e9ec7e99fca3a81cb39",
+    "finalize.py": "a09bcb153010c351a4d3aed1958f693439919efe7bac8394f5c158f194c6a445",
+    "frozen-artifact-hashes.json": "60c6f251ee4baa09396d351d66255b06aba3bcccf57826e53bfa66fbb1c60a53",
+    "held-editorial-proposals.json": "23451f30ce0dfd0b0de877e8d085962d4c5da36e6f9e35073b94a78e6e485757",
+    "held-fields.json": "f006a071723b2ff7da6190969fea0a948227b3e51d4a41fddfa9421b0a720c67",
+    "lint-issues.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "new-pronunciations.json": "4c463a622101eb43fc560637b39b6f3e59653f325983443b27fb2cb4ddfe9e95",
+    "pronunciation-review-status.json": "f855699a895b24e0be63c5a6957ea6e311bb605f872d2c320af280874d52488c",
+    "pronunciations.json": "34bf35caaf28de5894717fc0c715b5b662be674c9832fc198acf3943d88ccfe7",
+    "proposed-pronunciations.json": "4c463a622101eb43fc560637b39b6f3e59653f325983443b27fb2cb4ddfe9e95",
+    "review-audit-group1.json": "3a47f5d0060eaabb2d5ba001c676f0eaf2abd88d9f99cf1f5b6816e4b10ad487",
+    "review-audit-group2.json": "d3a1763901887290dd35f7cc039c43b7e70ed9222066b896f600d8ebfa30e67c",
+    "review-audit.json": "2e186e75928a349733b2e955027f46ae4c57b1c66c0c8e378317e8fc6d77ff70",
+    "review-groups.json": "75f9a74183d9ba3bf843d04ab1f59c51b9ba9bf97b6a864448e39c49ee810494",
+    "semantic-notes-group1.json": "1dfe270e3b23ad902f2fd4e396516fbbaf0b89fe0120b1774c643e52f2807983",
+    "semantic-notes-group2.json": "bbfb2fed4d65a501b72814c7674c16b35ad40ba04cfa7fe998f67e28ad725b80",
+    "semantic-notes.json": "032d4de9cbc225c0f10dae883cabe30c912b7610ba8734c2282f1a244c1f13a6",
+    "separate-bilingual-review.json": "71b94dfdb4039f4c2b0c1e55bb30a065f73b88791a5161934eb87cbe19747dbf",
+    "source-boundaries.json": "fe3a1cd82ccd614755e73a3e29c208d342d5db46ec847efe57508ff87b56bf43",
+    "source-holds.json": "af0de8bda0e94c93057966860b744c6433c8c56f39a15ca2d2fbb0ef3472aa87",
+    "ua-field-countercheck.json": "7f86ad1cd43a3705dc00ac00a653819d7d10a583e78dc432efb3529ee40e2698",
+    "validate-partition.py": "38ac80e96df9cf81d31504a954cdefc7332edf72cafeca8e2fc276587af9fd96",
+    "validation.json": "57e8d5657101628813abedf1823eda788dc47f7390ae171420b20f80190c072c"
+  },
+  "originalAuthorFilesAfter": {
+    "92401-sixty.html": "f48611248a064af4840f6e11228a8f4e828bba4ba0f7542238d0d06987d15552",
+    "92401-wowhead.html": "00d689544469fb3dbc0d483cf2939f2cb696e60a1618f3df8a9b8a7999eb66dd",
+    "92415-sixty.html": "d1f13440c0302bf77648944c676fe08385ad518dd3eb34b88c7b49da7415f1da",
+    "92415-wowhead.html": "8e472614b00694af6d8441f5c3f514139a28d27efb0ad0416c5fc1600cfba8da",
+    "92421-sixty.html": "045d4698e6a57e46fdd3d2915c96388ba263654c0e62bd9ac249c40ff7bcb312",
+    "92421-wowhead.html": "1d7a9207af79b1f3c41e87909eee951db3661a7f718886b59bba4f1eb7309dad",
+    "92422-sixty.html": "1cac566c0b72a0ab08e60cf84cf1915d3c418c657b82f44980bd0bdc6a0d3f36",
+    "92422-wowhead.html": "c4d42da9fb6e1505524e4ce7c123bf780d00b68f45cc6fb9c891b5fd1f936a51",
+    "95161-sixty.html": "886dacf16799c3d907cf206c36b981fa123ccb046bd6e5be0e36d03c08939cb8",
+    "95161-wowhead.html": "07c037f7cd591c5d6ccca63338ea2f96a1709bbd5b5e09b2bb03cd55aa623e03",
+    "95189-sixty.html": "84999d89a2c6f9be16de14792dc25a60a6f578b6e6b3f62584c499aa8c7d3382",
+    "95189-wowhead.html": "d86166dd879fe944a183d51591036b1f0fd9add5ed6cd866d8a32299bca690de",
+    "95195-sixty.html": "75e0476e9a21a5ff27ba92e54ec39f51df0bce0c46144d4b2b20865259de802a",
+    "95195-wowhead.html": "8a18c0ce6ee154284c85b7b295cdd8850dfbef73612bcc0babc9a32b55ce6875",
+    "95204-sixty.html": "dcf2136dc86649c4f7672c52bfbb4a74c93909b71803dc2843b09fe045947ee9",
+    "95204-wowhead.html": "a331f43b4d364446ffddd91d083d2612c42bad8878bd641c4f936cee5e9156fb",
+    "95216-sixty.html": "79111f569e510cf57f87cf41b487a98dd937cfba005c8660f633a0811e5f729a",
+    "95216-wowhead.html": "dc8308e74f8b7d1bb86a401cd0422e9a7ac66bcefab56a4cdb27aa5445e953a7",
+    "95250-sixty.html": "655a83d7b3b414dd2846d68c438b33c50938c98a1f0416bc63770e5225ec3343",
+    "95250-wowhead.html": "cf9f5108f956eb5e04370deccdac6c2e87765bce334b77499fe20291ab6e1a4d",
+    "97288-sixty.html": "c0eea8824b3aaed6ea0660afde4cc895f5d81f9774974f227ea354d879b57f75",
+    "97288-wowhead.html": "5049577ad2d5951c85c1a76a8e8c205d634f1f1076278d40e591af4ce490e650",
+    "97289-sixty.html": "ed001fa9df885113ec0eb8266be9205c0b85a6171b51a5facda3d61dd374e49d",
+    "97289-wowhead.html": "83b8b8c2cb07ce9a81d8cfc835071a1d9bd5e242a9da5b21532a12554fbe09e0",
+    "97290-sixty.html": "cddffff39ef7db03cc7e56f0a065136da5660b28d6c88308375c4ac7b70c822e",
+    "97290-wowhead.html": "bbe76bad1b2cdd089cef12ea51550dfc62254654caeb1c7645e01fc58b66a65a",
+    "97291-sixty.html": "7903dabe631edef4b8cfe1e49756c9e704746b33f1aa680e189b0e87ece1ade3",
+    "97291-wowhead.html": "c5c6dc40b0a34bcafa7bdd72b6861131b063e7925e17144915dda09a366fc733",
+    "97292-sixty.html": "ced4298c57ddcdc4079eddb0e73a0b6ccf66685121a9d825fb772b8a4709a571",
+    "97292-wowhead.html": "1a87d0be455abfad496a1ebb69c8bcfb8ffb82732a13ccf804bd7d435e982f8a",
+    "annotation-exceptions.json": "efbf4755a519399c36bd11e53fd1a07955c1c41f811ecceec615529175ad7803",
+    "batch-plan.json": "9cf9d41bf1b420b9f72d6ad3865b51d60f1a768309e70528ce8cf04962a2f6e0",
+    "comparison-provenance.json": "cfb09ceda7f1f158bb34906338cb1ffc906c17d4ce58df0001f505f42ce4abf2",
+    "deepl-index-01.json": "89fdd93b6528e235d46d7c8b37f09a789c7e26c754a7fcbf18a6a730250f583b",
+    "deepl-index-02.json": "3b31eb1639aa06ff0a51e523c5a333a737ccb6038bc363d715fc26a6218da8be",
+    "deepl-index-03.json": "407455e7f220a7450664cef10c18984feaad9c94b3a220f335bf49e5e655c299",
+    "deepl-request-01.json": "59df4153084656d972ef516aa14d2c8125009851d85645387865ebea6cd2ebd2",
+    "deepl-request-02.json": "8809271a4a35c8dd38a68a56c2b1f259390e974dac01aca3dfebcdbf6fde37e9",
+    "deepl-request-03.json": "f5020bf6500004da9b8901042063e7130c5a27af27b2f195b1ced3eceb156586",
+    "deepl-response-01.json": "8ec81db53b67c2b9597429ff8cb098a084cf46aa288c929e4e320e9a92ef88eb",
+    "deepl-response-02.json": "b0a3c3b16aa11358ee253e51a2c971b1084f867ce0801b6b8ec07ba3142ff4ad",
+    "deepl-response-03.json": "ea3d4ac92a214d166cff64595c4c34a5d8d2d47f5b1792012a198036ccd80688",
+    "edit-group1.py": "41f763148d25fb6ef0a48bd12a2df821c25206755dbbc7a531919c73786ad742",
+    "edit-group2.py": "4a48b96c703575d02512928e0676bd93eadfc2d37e2dd572b75c4b7ae976923e",
+    "edited-group1.json": "c8303e56157c6d34d8929273664402e66a90625372dd480ce6caab0a4dcb244b",
+    "edited-group2.json": "b0a3bf920edd26cc09ec894cf4a09bf03abbd15dac53e2319a043b4336e6b0c5",
+    "edited.json": "2c9cdb9f32618e42d24a2a9873e8a1752afd83d4a66a514ba6bc9a7712f74d47",
+    "english-sources.json": "b2bfa725f13a782a47d1c0ec11691a8dc7080db915d3e1c63b20646f96ddfc33",
+    "fetch-history.json": "54445c2d20d5f6db1946e5ffffc7dd126f04acaace94788555e6b53365b0471c",
+    "fetched.json": "8bb6e0dccd4c56ca8d5d7f5643ddafa881085db02cd31e9ec7e99fca3a81cb39",
+    "finalize.py": "a09bcb153010c351a4d3aed1958f693439919efe7bac8394f5c158f194c6a445",
+    "frozen-artifact-hashes.json": "60c6f251ee4baa09396d351d66255b06aba3bcccf57826e53bfa66fbb1c60a53",
+    "held-editorial-proposals.json": "23451f30ce0dfd0b0de877e8d085962d4c5da36e6f9e35073b94a78e6e485757",
+    "held-fields.json": "f006a071723b2ff7da6190969fea0a948227b3e51d4a41fddfa9421b0a720c67",
+    "lint-issues.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "new-pronunciations.json": "4c463a622101eb43fc560637b39b6f3e59653f325983443b27fb2cb4ddfe9e95",
+    "pronunciation-review-status.json": "f855699a895b24e0be63c5a6957ea6e311bb605f872d2c320af280874d52488c",
+    "pronunciations.json": "34bf35caaf28de5894717fc0c715b5b662be674c9832fc198acf3943d88ccfe7",
+    "proposed-pronunciations.json": "4c463a622101eb43fc560637b39b6f3e59653f325983443b27fb2cb4ddfe9e95",
+    "review-audit-group1.json": "3a47f5d0060eaabb2d5ba001c676f0eaf2abd88d9f99cf1f5b6816e4b10ad487",
+    "review-audit-group2.json": "d3a1763901887290dd35f7cc039c43b7e70ed9222066b896f600d8ebfa30e67c",
+    "review-audit.json": "2e186e75928a349733b2e955027f46ae4c57b1c66c0c8e378317e8fc6d77ff70",
+    "review-groups.json": "75f9a74183d9ba3bf843d04ab1f59c51b9ba9bf97b6a864448e39c49ee810494",
+    "semantic-notes-group1.json": "1dfe270e3b23ad902f2fd4e396516fbbaf0b89fe0120b1774c643e52f2807983",
+    "semantic-notes-group2.json": "bbfb2fed4d65a501b72814c7674c16b35ad40ba04cfa7fe998f67e28ad725b80",
+    "semantic-notes.json": "032d4de9cbc225c0f10dae883cabe30c912b7610ba8734c2282f1a244c1f13a6",
+    "separate-bilingual-review.json": "71b94dfdb4039f4c2b0c1e55bb30a065f73b88791a5161934eb87cbe19747dbf",
+    "source-boundaries.json": "fe3a1cd82ccd614755e73a3e29c208d342d5db46ec847efe57508ff87b56bf43",
+    "source-holds.json": "af0de8bda0e94c93057966860b744c6433c8c56f39a15ca2d2fbb0ef3472aa87",
+    "ua-field-countercheck.json": "7f86ad1cd43a3705dc00ac00a653819d7d10a583e78dc432efb3529ee40e2698",
+    "validate-partition.py": "38ac80e96df9cf81d31504a954cdefc7332edf72cafeca8e2fc276587af9fd96",
+    "validation.json": "57e8d5657101628813abedf1823eda788dc47f7390ae171420b20f80190c072c"
+  },
+  "allAuthorFilesUnchanged": true,
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationReview": "pending native review",
+    "currentLiveForeverVerification": "not performed",
+    "HumanDialogueBranch95250": "unresolved; existing hold remains",
+    "controllerHardware": "not tested"
+  },
+  "provenanceLimit": "Saved actual DeepL payloads, indexes and source/raw/original/final hash chains independently rechecked locally; no fresh DeepL call or remote-log attestation."
+}
