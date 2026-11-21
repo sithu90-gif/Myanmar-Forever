@@ -1,0 +1,120 @@
+{
+  "activeHolds": [
+    {
+      "id": 2608,
+      "field": "detail",
+      "reason": "Current original primary contains literal <sir/miss>; secondary flattens it to sir/miss. QuestBridge/TermIntroductions supports only name/class/race/priest/priestess, with no sir/miss branch or sanitized live resolution. Raw DeepL also destroys /lay and changes written fifty to numeric50. Hold full field; do not normalize branch or invent runtime.",
+      "sourceEnglish": "Oh my, you look like death. Correction - I've seen death, you look worse than death. You, <sir/miss>, would be what death coughed up at his last physical.\n\nHah! You hear that Noarm? Write that one down!\n\n*Cough* Hrm yes, in order for me to help you, I'll need to draw some blood. Don't worry, it only hurts the first few... fifty times or so... /lay down when you're ready for the treatment, <name>.",
+      "rawDeepLProposal": "ဟေ့၊ မင်းက သေခြင်းတရားလိုပဲ ကြည့်ရတယ်။ ပြန်ပြင်ပြောရရင် - ငါ သေခြင်းတရားကို မြင်ဖူးတယ်၊ မင်းက သေခြင်းတရားထက်ပိုဆိုးတယ်။ မင်းကတော့ <sir/miss>၊ သေခြင်းတရားက သူ့နောက်ဆုံး ကျန်းမာရေး စစ်ဆေးမှုမှာ ချောင်းဆိုးထုတ်လိုက်တာပဲ ဖြစ်မယ်။\n\nဟား! ကြားလား Noarm? အဲဒါကို မှတ်ထားလိုက်!\n\n*ချောင်းဆိုး* ဟမ်၊ ဟုတ်ကဲ့၊ မင်းကို ကူညီဖို့အတွက် သွေးနည်းငယ်ယူရမယ်။ စိတ်မပူပါနဲ့၊ ပထမဆုံးအကြိမ်တွေမှာပဲ နာတာ... ၅၀ ကြိမ်ခန့်ပဲ... /ကုသမှုအတွက် ပြင်ဆင်ပြီးရင် အိပ်ယာပေါ်မှာ လျှော့လျှော့နေပါ၊ <name>။",
+      "editedValue": null,
+      "englishSHA256": "160bd6a6394f3ba8446970a7add09338904257931877c6e677632781e85c27b1",
+      "rawDeepLSHA256": "4155a20b66ef5a4020fdd4eb3dda136b79a57d1f5c5a29ab22efcaa157558b6a",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 14,
+      "responseIndex": 14,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/14",
+      "responseJSONPointer": "/translations/0/translations/14/text",
+      "editedSHA256": null,
+      "status": "held pending supported runtime/current sanitized live evidence"
+    },
+    {
+      "id": 2609,
+      "field": "objective",
+      "reason": "Installed metadata and current primary contain literal <fella/lady>; secondary strips brackets to fella/lady. No supported runtime or sanitized live evidence resolves this branch; actual raw DeepL omits it. Hold full field with source and raw proposal rather than invent normalization.",
+      "sourceEnglish": "Bring Doc Mixilpixil one bundle of Simple Wildflowers, one Leaded Vial, one Bronze Tube, and one Spool of Light Chartreuse Silk Thread. The 'itis' doesn't cure itself, young <fella/lady>.",
+      "rawDeepLProposal": "Doc Mixilpixil ဆီသို့ ရိုးရှင်းသော တောပန်းတစ်ထုပ်၊ သံဓာတ်ထည့်ထားသော ဗူးတစ်လုံး၊ သံမဏိတူးဘ်တစ်လုံးနှင့် အလင်းလိမ္မော်စိမ်းရောင် စီလ်ချည်ပတ်တစ်ပတ် ယူဆောင်သွားပါ။ 'itis' ဆိုတဲ့ ရောဂါဟာ ကိုယ်တိုင် မကုသနိုင်ဘူး၊ လူငယ်မောင်နှမရေ။",
+      "editedValue": null,
+      "englishSHA256": "858342b1ddeaeb89b7d3d8b315919622c2d7f22039efdb07880a103b8bb8a9e4",
+      "rawDeepLSHA256": "f5f9ea8a770ee88001731891351f693c18a1ff47a37dd75842d59b5901c3604b",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 20,
+      "responseIndex": 20,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/20",
+      "responseJSONPointer": "/translations/0/translations/20/text",
+      "editedSHA256": null,
+      "status": "held pending supported runtime/current sanitized live evidence"
+    }
+  ],
+  "genuinelyUnavailable": [
+    {
+      "id": 2378,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2380,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2379,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2382,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2360,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2607,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2458,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    },
+    {
+      "id": 2480,
+      "field": "progress",
+      "reason": "No corresponding primary heading/state and secondary/UA absent. Source null preserved; no text invented."
+    }
+  ],
+  "sourceDifferences": [
+    {
+      "id": 2381,
+      "field": "complete",
+      "decision": "Primary fixed luckiest man alive, secondary man/woman. Plain Myanmar person idiom retained without invented gender branch."
+    },
+    {
+      "id": 2608,
+      "field": "detail",
+      "decision": "Primary <sir/miss> unsupported; secondary strips brackets; raw and source retained, field held."
+    },
+    {
+      "id": 2609,
+      "field": "objective",
+      "decision": "Installed and primary literal <fella/lady>, secondary strips brackets; raw omits branch; field held."
+    },
+    {
+      "id": 2460,
+      "field": "progress",
+      "decision": "Primary Practice! and UA Progress present; secondary omits it. Current primary state translated."
+    },
+    {
+      "id": 2458,
+      "field": "objective",
+      "decision": "Primary and installed /Salute uppercase; UA /salute lowercase. Current exact command retained."
+    }
+  ],
+  "runtimeBranchEvidence": {
+    "QuestBridge.lua": "identities name/class/race/priest only; no new branch implementation authorized",
+    "TermIntroductions.lua": "Prepare handles only name/class/race/priest/priestess",
+    "decision": "No source branch normalized; two fields held."
+  },
+  "eligibilityStatus": "10 current primary Horde Rogue,5Alliance Rogue; per-ID restrictions only, alternative2378/2380 referrals not serial. Installed broad race masks/UA Both labels do not prove current live eligibility.",
+  "liveEvidence": "Parent audited existing sanitized300states/128IDs allcovered. No new selected-quest live capture or current live playtest claimed."
+}

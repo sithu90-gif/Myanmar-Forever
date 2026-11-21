@@ -1,0 +1,28 @@
+{
+  "result": "PASS",
+  "rootCause": "Historical starter snapshot explicitly excluded current reviewed Stonegear quests466/467. The composed release must adapt only that copied exclusion probe, like existing reviewed-held-state adapters.",
+  "red": "route-exclusion-red.log; actual full build build.log failed on this exact Lua exclusion",
+  "green": "python-tests.log:24 tests pass, including3 new route boundary regressions",
+  "preservedSnapshotTestsSHA256": "930cc7f6778d830d98dd2df80b65ae930309902f7777dcf33225b8703d86bdd7",
+  "adaptedOnlyReviewedIDs": [
+    467,
+    466
+  ],
+  "otherExclusionsRetained": [
+    5841,
+    7673,
+    7674,
+    7675,
+    7676,
+    86776,
+    256,
+    2500,
+    2501,
+    3182
+  ],
+  "runtimeIdentityChecks": [
+    "467=Stonegear's Search",
+    "466=Search for Incendicite"
+  ],
+  "fullBuildRepeat": "PASS:42Lua groups,7244fields/font roundtrip,all other exclusions preserved"
+}

@@ -1,0 +1,3078 @@
+{
+  "result": "PASS",
+  "partition": "wetlands",
+  "reviewType": "fresh independent actual-source and actual-raw provenance audit; human-language conclusions separate",
+  "checkedAtUTC": "2026-11-21T03:22:22.800436+00:00",
+  "counts": {
+    "quests": 15,
+    "fieldSlots": 75,
+    "sourceAvailable": 70,
+    "enabled": 68,
+    "held": 2,
+    "sourceAbsent": 5
+  },
+  "checks": [
+    "Reparsed original primary HTML all five fields and script quest identity/title/reqlevel/Alliance side",
+    "Independently parsed accessible sixty HTML all five fields; absence explicitly recorded",
+    "Compared selected full installed metadata byte-equivalent values to refreshed metadata; all UA fields retained for bilingual review",
+    "Actual DeepL requests/responses/indexes and every source/raw/edited/review hash verified; source auto-detection and no cloud glossary/context/custom instructions",
+    "Actual linguistic_lint.lint returned no issues",
+    "Actual build_release.validate_fields passed all 15 quests",
+    "Exact marker case/order and all digit values verified; written quantities reviewed separately",
+    "All author JSON decoded; all frozen artifact hashes match; all author HTML and JSON before/after hashes equal"
+  ],
+  "batchChecks": [
+    {
+      "inputFile": "deepl-request-01.json",
+      "inputSHA256": "eb57d3290d35f7a294e65277bdbd90618da29b386e7acf44609a81d50bc7ca38",
+      "responseFile": "deepl-response-01.json",
+      "responseSHA256": "c42e4512af4fdd338098fe95bc0580d05560c9d6b24557809e0e0e46b3911e63",
+      "indexFile": "deepl-index-01.json",
+      "indexSHA256": "cf4e17e2eae356e03b47348f2636fa345c8d168b0300e7ef44b717df31327406",
+      "textCount": 33,
+      "totalInputCharacters": 4693,
+      "result": "PASS"
+    },
+    {
+      "inputFile": "deepl-request-02.json",
+      "inputSHA256": "91384fee5a9de16a108837bb0bc116f58ecb09b97216edf286dc72d3b8f52a36",
+      "responseFile": "deepl-response-02.json",
+      "responseSHA256": "dfe0aa5d4da0725c9be3deab4f023ab80aa5aaa4c9880b71e8650aea4285bfea",
+      "indexFile": "deepl-index-02.json",
+      "indexSHA256": "5c79c6c6a648eb57216ddc30768ffe86fe550e27cbb39b75373a3a1735136bf1",
+      "textCount": 36,
+      "totalInputCharacters": 4771,
+      "result": "PASS"
+    },
+    {
+      "inputFile": "deepl-request-03.json",
+      "inputSHA256": "36ed1a6cdf2135d4b9069320b5eaa55711f2c016d49e1cdaa4c211d4685613c3",
+      "responseFile": "deepl-response-03.json",
+      "responseSHA256": "527a144975b9a4c3b4e1f628fa385e82dbd5229f4de8abc64d96182b8b6bc0f6",
+      "indexFile": "deepl-index-03.json",
+      "indexSHA256": "8c8af554bc7b210f712ccf96c33436ca29c1c592a942afd59165631727753088",
+      "textCount": 1,
+      "totalInputCharacters": 485,
+      "result": "PASS"
+    }
+  ],
+  "authorFileHashesBefore": {
+    "275-sixty.html": "e0b99b4aee5bdf86763600d9b461741cb753fe3556cdb97042dbfc9ecaddc953",
+    "275-wowhead.html": "48bfb815142fde0dde5bb9198ab488b9e965cc9f64d445b2ef3be244deab1ce9",
+    "276-sixty.html": "9d731d2d38cb1110d1cf7ed07cf5a30ee5a3520a33869a14481d0e53a3f94964",
+    "276-wowhead.html": "80148ca465864a856dbe7cf17940879a59b54ed1576ffc8a0d1767b617e7ac4e",
+    "277-sixty.html": "914a7bd38333fdbfe0670bb54d530c846cdc62a9d03f08c19c0d08b81f3637f0",
+    "277-wowhead.html": "2f2aa17842d50e209c51bc8601884fbf402ec585a04ec48b71568c9cfa5ea410",
+    "279-sixty.html": "4a8af8e5bc472c6dd4a09da4197f5ae68746f72ebfc5b576183cd5745d2d882e",
+    "279-wowhead.html": "c551a1a502387dcddd490faee0988d1da676ad514736de58af8d4b8041016797",
+    "281-sixty.html": "38d6afe1f0bd9959823723227d377707f3c74f6e1c749f341b8b5f0061fa025f",
+    "281-wowhead.html": "a5d0671a3793a4519b1a4c43e7234a139183ae1dc1675496651e890b311ca26d",
+    "284-sixty.html": "70b06096dbdf9135b8cecefc399213c8e8369e4ca0eace1dab21af846cb3dc5c",
+    "284-wowhead.html": "6de6498c948c9d4e104c745dffdc9a60c67bed14ea1be4d64c6c0b05f1c39dc0",
+    "285-sixty.html": "803c232ca19fcd835859e39f14dcf2f1c87dbb2c7155d69b3afa5b9cbbb7c766",
+    "285-wowhead.html": "81af19445171d8c4def4884a1948a142d3954666d8820cc6d81fe66277b9a1ce",
+    "286-sixty.html": "2c411d8bddfb9ff136d08bec3543b8ecd956b5cfdaaf17a5f65a45c542b9ddec",
+    "286-wowhead.html": "9d05b72326fe6b817c2cb8fb111ffd629b08b367adccbe8da2fe7aecd7ffbfbb",
+    "463-sixty.html": "b2b06406ba8c3aff53dd066749822c51ddd0eb4db11fca30e22b0074e0f45457",
+    "463-wowhead.html": "17dfb7b5c56bb1726238ac6e46e83f11c30e9a7e0980486309b888fafa492ace",
+    "466-sixty.html": "807d90d92a1ff25e3465abc2a0ce04ed5f0e79934e9416494224e332862664bf",
+    "466-wowhead.html": "b840fc8cd11c085500324081669882aa3fac614aa7ef99a3bea1db1bdfd74aaf",
+    "467-sixty.html": "ab20dc463bfc8ef4b72e980d477d3323313b3c98f43c145f959a2399ae16772d",
+    "467-wowhead.html": "ca1801e07ebbbedb0c118a5904dceca1ef7bc6db124dbc918b2aa306e3af38f7",
+    "98189-sixty.html": "8783e0d528594e1c351eff9d1f85aee27f73a988090340332a5dc3e01595130a",
+    "98189-wowhead.html": "3a898981c445ff68942dd15f6cc81950199b19905f9d125840dcd3bae757da1f",
+    "98190-sixty.html": "944f5d9550c4d2bd4e6fba09ed49f21d90d49fd4da1a8c6701b22082b8769352",
+    "98190-wowhead.html": "2d75d369ba32510a782ac9fd6d6681463549e18670adee8db48fd286fdf3890f",
+    "98191-sixty.html": "4dfdeeef400b20ab8b1ea86fd1e7d42845ac90e298bcf6a1e2543259b4b91741",
+    "98191-wowhead.html": "ad86e6e4cca6e0561b741ecea5ed4af7b7768480b3dcac114b58a69edfbc47ec",
+    "98283-sixty.html": "fd19a61feb9df536a64a229103bd7bef7f41518bbadd01f7864adf46a0e7630d",
+    "98283-wowhead.html": "313d266dd70f9b286d22470583a252d6c5251ff68d8992582dc7946417537f2a",
+    "annotation-exceptions.json": "7037103e0f54faa3ccfa545211ec4ebab62a069455cbea6d7f0dac67c1a12e61",
+    "comparison-provenance.json": "3c5bb59359e6f3d113a1cf161f8ffe181400a544d75d3e963b86ccc29dd4ff6d",
+    "deepl-index-01.json": "cf4e17e2eae356e03b47348f2636fa345c8d168b0300e7ef44b717df31327406",
+    "deepl-index-02.json": "5c79c6c6a648eb57216ddc30768ffe86fe550e27cbb39b75373a3a1735136bf1",
+    "deepl-index-03.json": "8c8af554bc7b210f712ccf96c33436ca29c1c592a942afd59165631727753088",
+    "deepl-request-01.json": "eb57d3290d35f7a294e65277bdbd90618da29b386e7acf44609a81d50bc7ca38",
+    "deepl-request-02.json": "91384fee5a9de16a108837bb0bc116f58ecb09b97216edf286dc72d3b8f52a36",
+    "deepl-request-03.json": "36ed1a6cdf2135d4b9069320b5eaa55711f2c016d49e1cdaa4c211d4685613c3",
+    "deepl-response-01.json": "c42e4512af4fdd338098fe95bc0580d05560c9d6b24557809e0e0e46b3911e63",
+    "deepl-response-02.json": "dfe0aa5d4da0725c9be3deab4f023ab80aa5aaa4c9880b71e8650aea4285bfea",
+    "deepl-response-03.json": "527a144975b9a4c3b4e1f628fa385e82dbd5229f4de8abc64d96182b8b6bc0f6",
+    "edited-group1.json": "58e2405ee09c7b856a5c8fa4eebbade39fa8255ce6879bc5bb020cfdbb568789",
+    "edited-group2.json": "fb1d614e994909d309da2528adc531924bb2a3353966896993354765b94e7913",
+    "edited.json": "8c7f9fd50b2e71e23aa9d83b5f7bd9bef7c35a8e97edd99b313ea9f6ae701c3a",
+    "english-sources.json": "ded9dec44a44773d59583b48ace6e361d1775a2bc0141278822c5b7cb60a79d8",
+    "fetched.json": "9b1d4dea205db48bd76a59d6e17e30b688b88466099c525b381d5dd8d3bdc50e",
+    "frozen-artifact-hashes.json": "3b75e0d89329bb77c2c3b213a5bbdb22046965741f38e2285e6752d32fe1b684",
+    "held-fields.json": "472e8993fbf8a4d837aa2887a5bbfcdf5d307ae7223fd8b64bf9c0362b9e8ca0",
+    "pronunciation-proposals.json": "c5501be87df40af1988c1d5920db99c53dd71ff494aebce18978e3ea79e3e10e",
+    "pronunciations.json": "58d2d8349782173873a4040c9e1cbecedb50f88740897f324958aa8f5ef8e76f",
+    "review-audit-group1.json": "f4132b4739843d16be3bd826df06e5127ec4836df677682486c432688f67266a",
+    "review-audit-group2.json": "0f793dd81a2d0a3221b777bdfbf55fa0dc2b846f2dd42e247299ee848b061726",
+    "review-audit.json": "b8d8d7d064ee43906106d5f055e9bdc1b9d15a7c0d3e0ff5045fe5f008414f87",
+    "review-groups.json": "e07e2e9c88ab94bcef345d6c10f71b3086993d9ba5817b77a888362d45ffeabc",
+    "semantic-notes-group1.json": "64cc09c305980b94a6467cc15c947f44c9d41fa0d5c83a677321b3f0e9f2a41f",
+    "semantic-notes-group2.json": "01f947bd0a376810c01af9ce9d120a1119a19e64edce869b021a72a001ba71b1",
+    "source-inspection.json": "2ab44d5215d6a75d1835f7bead086ee7f3deed46a6bfe7e3f5ea0dc69e03f285",
+    "source-title-aliases.json": "eaf887375b4bc22f7df36660ea407fa2a96d07b77865454fe8362da798236664",
+    "validation.json": "3e22df89f9ea2359bcd4621cd1159a209c0f80c0e0df6784438d2c259aa5f306"
+  },
+  "authorFileHashesAfter": {
+    "275-sixty.html": "e0b99b4aee5bdf86763600d9b461741cb753fe3556cdb97042dbfc9ecaddc953",
+    "275-wowhead.html": "48bfb815142fde0dde5bb9198ab488b9e965cc9f64d445b2ef3be244deab1ce9",
+    "276-sixty.html": "9d731d2d38cb1110d1cf7ed07cf5a30ee5a3520a33869a14481d0e53a3f94964",
+    "276-wowhead.html": "80148ca465864a856dbe7cf17940879a59b54ed1576ffc8a0d1767b617e7ac4e",
+    "277-sixty.html": "914a7bd38333fdbfe0670bb54d530c846cdc62a9d03f08c19c0d08b81f3637f0",
+    "277-wowhead.html": "2f2aa17842d50e209c51bc8601884fbf402ec585a04ec48b71568c9cfa5ea410",
+    "279-sixty.html": "4a8af8e5bc472c6dd4a09da4197f5ae68746f72ebfc5b576183cd5745d2d882e",
+    "279-wowhead.html": "c551a1a502387dcddd490faee0988d1da676ad514736de58af8d4b8041016797",
+    "281-sixty.html": "38d6afe1f0bd9959823723227d377707f3c74f6e1c749f341b8b5f0061fa025f",
+    "281-wowhead.html": "a5d0671a3793a4519b1a4c43e7234a139183ae1dc1675496651e890b311ca26d",
+    "284-sixty.html": "70b06096dbdf9135b8cecefc399213c8e8369e4ca0eace1dab21af846cb3dc5c",
+    "284-wowhead.html": "6de6498c948c9d4e104c745dffdc9a60c67bed14ea1be4d64c6c0b05f1c39dc0",
+    "285-sixty.html": "803c232ca19fcd835859e39f14dcf2f1c87dbb2c7155d69b3afa5b9cbbb7c766",
+    "285-wowhead.html": "81af19445171d8c4def4884a1948a142d3954666d8820cc6d81fe66277b9a1ce",
+    "286-sixty.html": "2c411d8bddfb9ff136d08bec3543b8ecd956b5cfdaaf17a5f65a45c542b9ddec",
+    "286-wowhead.html": "9d05b72326fe6b817c2cb8fb111ffd629b08b367adccbe8da2fe7aecd7ffbfbb",
+    "463-sixty.html": "b2b06406ba8c3aff53dd066749822c51ddd0eb4db11fca30e22b0074e0f45457",
+    "463-wowhead.html": "17dfb7b5c56bb1726238ac6e46e83f11c30e9a7e0980486309b888fafa492ace",
+    "466-sixty.html": "807d90d92a1ff25e3465abc2a0ce04ed5f0e79934e9416494224e332862664bf",
+    "466-wowhead.html": "b840fc8cd11c085500324081669882aa3fac614aa7ef99a3bea1db1bdfd74aaf",
+    "467-sixty.html": "ab20dc463bfc8ef4b72e980d477d3323313b3c98f43c145f959a2399ae16772d",
+    "467-wowhead.html": "ca1801e07ebbbedb0c118a5904dceca1ef7bc6db124dbc918b2aa306e3af38f7",
+    "98189-sixty.html": "8783e0d528594e1c351eff9d1f85aee27f73a988090340332a5dc3e01595130a",
+    "98189-wowhead.html": "3a898981c445ff68942dd15f6cc81950199b19905f9d125840dcd3bae757da1f",
+    "98190-sixty.html": "944f5d9550c4d2bd4e6fba09ed49f21d90d49fd4da1a8c6701b22082b8769352",
+    "98190-wowhead.html": "2d75d369ba32510a782ac9fd6d6681463549e18670adee8db48fd286fdf3890f",
+    "98191-sixty.html": "4dfdeeef400b20ab8b1ea86fd1e7d42845ac90e298bcf6a1e2543259b4b91741",
+    "98191-wowhead.html": "ad86e6e4cca6e0561b741ecea5ed4af7b7768480b3dcac114b58a69edfbc47ec",
+    "98283-sixty.html": "fd19a61feb9df536a64a229103bd7bef7f41518bbadd01f7864adf46a0e7630d",
+    "98283-wowhead.html": "313d266dd70f9b286d22470583a252d6c5251ff68d8992582dc7946417537f2a",
+    "annotation-exceptions.json": "7037103e0f54faa3ccfa545211ec4ebab62a069455cbea6d7f0dac67c1a12e61",
+    "comparison-provenance.json": "3c5bb59359e6f3d113a1cf161f8ffe181400a544d75d3e963b86ccc29dd4ff6d",
+    "deepl-index-01.json": "cf4e17e2eae356e03b47348f2636fa345c8d168b0300e7ef44b717df31327406",
+    "deepl-index-02.json": "5c79c6c6a648eb57216ddc30768ffe86fe550e27cbb39b75373a3a1735136bf1",
+    "deepl-index-03.json": "8c8af554bc7b210f712ccf96c33436ca29c1c592a942afd59165631727753088",
+    "deepl-request-01.json": "eb57d3290d35f7a294e65277bdbd90618da29b386e7acf44609a81d50bc7ca38",
+    "deepl-request-02.json": "91384fee5a9de16a108837bb0bc116f58ecb09b97216edf286dc72d3b8f52a36",
+    "deepl-request-03.json": "36ed1a6cdf2135d4b9069320b5eaa55711f2c016d49e1cdaa4c211d4685613c3",
+    "deepl-response-01.json": "c42e4512af4fdd338098fe95bc0580d05560c9d6b24557809e0e0e46b3911e63",
+    "deepl-response-02.json": "dfe0aa5d4da0725c9be3deab4f023ab80aa5aaa4c9880b71e8650aea4285bfea",
+    "deepl-response-03.json": "527a144975b9a4c3b4e1f628fa385e82dbd5229f4de8abc64d96182b8b6bc0f6",
+    "edited-group1.json": "58e2405ee09c7b856a5c8fa4eebbade39fa8255ce6879bc5bb020cfdbb568789",
+    "edited-group2.json": "fb1d614e994909d309da2528adc531924bb2a3353966896993354765b94e7913",
+    "edited.json": "8c7f9fd50b2e71e23aa9d83b5f7bd9bef7c35a8e97edd99b313ea9f6ae701c3a",
+    "english-sources.json": "ded9dec44a44773d59583b48ace6e361d1775a2bc0141278822c5b7cb60a79d8",
+    "fetched.json": "9b1d4dea205db48bd76a59d6e17e30b688b88466099c525b381d5dd8d3bdc50e",
+    "frozen-artifact-hashes.json": "3b75e0d89329bb77c2c3b213a5bbdb22046965741f38e2285e6752d32fe1b684",
+    "held-fields.json": "472e8993fbf8a4d837aa2887a5bbfcdf5d307ae7223fd8b64bf9c0362b9e8ca0",
+    "pronunciation-proposals.json": "c5501be87df40af1988c1d5920db99c53dd71ff494aebce18978e3ea79e3e10e",
+    "pronunciations.json": "58d2d8349782173873a4040c9e1cbecedb50f88740897f324958aa8f5ef8e76f",
+    "review-audit-group1.json": "f4132b4739843d16be3bd826df06e5127ec4836df677682486c432688f67266a",
+    "review-audit-group2.json": "0f793dd81a2d0a3221b777bdfbf55fa0dc2b846f2dd42e247299ee848b061726",
+    "review-audit.json": "b8d8d7d064ee43906106d5f055e9bdc1b9d15a7c0d3e0ff5045fe5f008414f87",
+    "review-groups.json": "e07e2e9c88ab94bcef345d6c10f71b3086993d9ba5817b77a888362d45ffeabc",
+    "semantic-notes-group1.json": "64cc09c305980b94a6467cc15c947f44c9d41fa0d5c83a677321b3f0e9f2a41f",
+    "semantic-notes-group2.json": "01f947bd0a376810c01af9ce9d120a1119a19e64edce869b021a72a001ba71b1",
+    "source-inspection.json": "2ab44d5215d6a75d1835f7bead086ee7f3deed46a6bfe7e3f5ea0dc69e03f285",
+    "source-title-aliases.json": "eaf887375b4bc22f7df36660ea407fa2a96d07b77865454fe8362da798236664",
+    "validation.json": "3e22df89f9ea2359bcd4621cd1159a209c0f80c0e0df6784438d2c259aa5f306"
+  },
+  "authorFilesUnchanged": true,
+  "quests": [
+    {
+      "id": 467,
+      "primaryFile": "467-wowhead.html",
+      "primarySHA256": "ca1801e07ebbbedb0c118a5904dceca1ef7bc6db124dbc918b2aa306e3af38f7",
+      "primaryQuestScript": {
+        "category": 1,
+        "category2": 0,
+        "id": 467,
+        "level": 23,
+        "name": "Stonegear's Search",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 460,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "<a href=\"/forever/npc=1377/pilot-stonegear\">Pilot Stonegear</a> loves his siege engine, as every pilot should!  And he's always eager to find new ways to improve his tank's firepower!<br /><br />He heard rumors of a rare ore and is looking for someone to hunt it down for him.  If your boots are starting to itch, then find Stonegear at Steelgrill's Depot in <a href=\"/forever/zone=1/dun-morogh\">Dun Morogh</a> and see what he wants.",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">Hello &lt;name&gt;. &nbsp;You're here about the task I have, eh? &nbsp;It's good to see a young &lt;race&gt; like yourself whose blood burns at the prospect of adventure!</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Stonegear's Search",
+        "objective": "Speak with Pilot Stonegear.",
+        "progress": null,
+        "complete": "Hello <name>.  You're here about the task I have, eh?  It's good to see a young <race> like yourself whose blood burns at the prospect of adventure!",
+        "detail": "Pilot Stonegear loves his siege engine, as every pilot should!  And he's always eager to find new ways to improve his tank's firepower!\n\nHe heard rumors of a rare ore and is looking for someone to hunt it down for him.  If your boots are starting to itch, then find Stonegear at Steelgrill's Depot in Dun Morogh and see what he wants."
+      },
+      "sixtyFile": "467-sixty.html",
+      "sixtySHA256": "ab20dc463bfc8ef4b72e980d477d3323313b3c98f43c145f959a2399ae16772d",
+      "sixtyEnglish": {
+        "title": "Stonegear's Search",
+        "objective": "Speak with Pilot Stonegear.",
+        "detail": "Pilot Stonegear loves his siege engine, as every pilot should!  And he's always eager to find new ways to improve his tank's firepower!\n\nHe heard rumors of a rare ore and is looking for someone to hunt it down for him.  If your boots are starting to itch, then find Stonegear at Steelgrill's Depot in Dun Morogh and see what he wants.",
+        "progress": null,
+        "complete": "Hello <name>. You're here about the task I have, eh? It's good to see a young <race> like yourself whose blood burns at the prospect of adventure!"
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1340,
+            2092
+          ]
+        ],
+        "3": [
+          [
+            1377
+          ]
+        ],
+        "8": [
+          "Speak with Pilot Stonegear."
+        ],
+        "S": {
+          "1": "Stonegear's Search",
+          "4": 20,
+          "5": 23,
+          "6": 4294967373,
+          "17": 1,
+          "22": 466,
+          "23": 8,
+          "27": 466,
+          "p": 134
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "В пошуках Камнеладу",
+          "detail": "Пілот Камнелад обожнює свою облогову машину, як і кожен інший пілот! І він завжди радий знайти новий спосіб підсилити вогневу міць своєї машини.\n\nДо нього дійшли чутки про рідкісну руду і він шукає того, хто добуде її для нього. Якщо тобі не терпиться допомогти, знайди Камнелада у Сховищі Сталешквара в Дун-Морозі й дізнайся, чого він хоче.",
+          "objective": "Поговоріть з пілотом Камнеладом.",
+          "progress": null,
+          "complete": "Привіт, {ім'я}. Ти тут за моїм завданням, еге ж? Приємно бачити {стать:юного:юну} {раса:з} в жилах {стать:якого:якої} кипить жага до пригод!",
+          "en": "Stonegear's Search",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "5fa89db7c2218d27d3795015a435d1fc226b9b1668f70403812c0d55fcf2579d",
+          "reviewedMyanmarSHA256": "17537b2562005a7200928e398cb6c3f50acaf5a5ace5eb8255f74d435f1a5186",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "bfeb110b8a33bb8bbf44d019abc811a4bc2e46eb13e32b5d1829a962939b2ee3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "870b2afb43718d79748af40f9bc49871717b56b668fd857c1ca04d1339738662",
+          "reviewedMyanmarSHA256": "935373f9588716144de751d6f273dc2b69f35afb3cb14a041ddb92f7f85924b6",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "5ee3b333832163f16d014f2c98db548ab656f481d71f131ad41457e5b4bf50d2",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "ce3e2e6623bc09ee799cdfad0d901ddd24a99c8f9efcb5a284f5ddc33645a814",
+          "reviewedMyanmarSHA256": "8751b1c34218d84ef2ab660a71df1f0f13f365aa7b0ea9d60409419b76ae0d43",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "0934e42176fec1a9b86352683a54d984c47ca842f84ade6b9aa0b27ca982b395",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": false,
+          "enabled": false,
+          "held": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            false
+          ]
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "12eeb9ffdbcebdd1786a99c1c12141f8c1c4a828f1e0d1931b44defbc5dc9c21",
+          "reviewedMyanmarSHA256": "7f47e9425aa2974e32da2a7f988dfdb271128bf4db81f8a64788cf6da21da142",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "9aa2b6233d8cfdc5758c692037f5f2b30f36b4f21675fb5e714beb1482d59552",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 466,
+      "primaryFile": "466-wowhead.html",
+      "primarySHA256": "b840fc8cd11c085500324081669882aa3fac614aa7ef99a3bea1db1bdfd74aaf",
+      "primaryQuestScript": {
+        "category": 1,
+        "category2": 0,
+        "id": 466,
+        "itemrewards": [
+          [
+            3565,
+            1
+          ]
+        ],
+        "level": 22,
+        "name": "Search for Incendicite",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "I heard that a rare ore, incendicite, was found in the Wetlands, in a cave northwest of Algaz Gate.  Incendicite is volatile stuff and hard to use without blowing yourself up, but I'm sure if it's smelted the right way it could make cannon shells that pack a mighty punch!<br /><br />Get me <a href=\"/forever/item=3340/incendicite-ore\">incendicite ore</a> and I'll find someone brave enough to experiment with it.<br /><br />Oh, and to extract that ore from a vein you'll need skill in mining.  If you don't have it, then ... bring a friend who does to that cave!",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Where is that ore, &lt;name&gt;?!</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">You got the ore! &nbsp;Well done, &lt;name&gt;! &nbsp;I'll get someone to work with this right away. &nbsp;Let's hope he doesn't blow himself up!</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Search for Incendicite",
+        "objective": "Bring 6 loads of Incendicite Ore to Pilot Stonegear in Dun Morogh.",
+        "progress": "Where is that ore, <name>?!",
+        "complete": "You got the ore!  Well done, <name>!  I'll get someone to work with this right away.  Let's hope he doesn't blow himself up!",
+        "detail": "I heard that a rare ore, incendicite, was found in the Wetlands, in a cave northwest of Algaz Gate.  Incendicite is volatile stuff and hard to use without blowing yourself up, but I'm sure if it's smelted the right way it could make cannon shells that pack a mighty punch!\n\nGet me incendicite ore and I'll find someone brave enough to experiment with it.\n\nOh, and to extract that ore from a vein you'll need skill in mining.  If you don't have it, then ... bring a friend who does to that cave!"
+      },
+      "sixtyFile": "466-sixty.html",
+      "sixtySHA256": "807d90d92a1ff25e3465abc2a0ce04ed5f0e79934e9416494224e332862664bf",
+      "sixtyEnglish": {
+        "title": "Search for Incendicite",
+        "objective": "Bring 6 loads of Incendicite Ore to Pilot Stonegear in Dun Morogh.",
+        "detail": "I heard that a rare ore, incendicite, was found in the Wetlands, in a cave northwest of Algaz Gate.  Incendicite is volatile stuff and hard to use without blowing yourself up, but I'm sure if it's smelted the right way it could make cannon shells that pack a mighty punch!\n\nGet me incendicite ore and I'll find someone brave enough to experiment with it.\n\nOh, and to extract that ore from a vein you'll need skill in mining.  If you don't have it, then ... bring a friend who does to that cave!",
+        "progress": "Where is that ore, <name>?!",
+        "complete": "You got the ore! Well done, <name>! I'll get someone to work with this right away. Let's hope he doesn't blow himself up!"
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1377
+          ]
+        ],
+        "3": [
+          [
+            1377
+          ]
+        ],
+        "8": [
+          "Bring 6 loads of Incendicite Ore to Pilot Stonegear in Dun Morogh."
+        ],
+        "10": {
+          "3": [
+            [
+              3340,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            47,
+            100
+          ]
+        ],
+        "28": [
+          467
+        ],
+        "S": {
+          "1": "Search for Incendicite",
+          "4": 20,
+          "5": 22,
+          "6": 4294967373,
+          "17": 1,
+          "23": 8,
+          "p": 167772806
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Пошук спалахіту",
+          "detail": "Я чув про рідкісну руду — спалахіт, яка знайдена у Заболотті, в печері на північний захід від тунелю Альґаз. Вона дуже нестійка, нею складно користуватись не підірвавши себе у повітря. Однак, я впевнений, що якщо виплавити її належним чином, то можна зробити потужні снаряди для гармат!\n\nЗдобудь мені спалахітову руду, а я поки пошукаю когось вельми сміливого задля цього досліду.\n\nІ ще, щоб видобути ту руду, тобі потрібні навички у гірництві. Якщо в тебе немає необхідних знань, то... відправ до шахти друга, який зможе це зробити!",
+          "objective": "Принесіть 6 партій спалахітової руди пілотові Камнеладу у Дун-Морог.",
+          "progress": "І де ця руда, {ім'я}?!",
+          "complete": "Ти {стать:здобув:здобула} руду! Молодець, {ім'я}! Я одразу відправлю когось попрацювати з нею. Будемо сподіватися, що він не підірве себе!",
+          "en": "Search for Incendicite",
+          "faction": "Both"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "b25abd5f2aa6dbac4378819d44b32c3f5881abaff60fabce5e40af889438c9df",
+          "reviewedMyanmarSHA256": "8e753832ce13f7cb5642d1433847cb1b5637309aec1d1bf769874f04d77c284e",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "bd43fa4220d80099d6ce9477afc6a6f9b73a0d5f6e028316172e12e0344047aa",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "d1a64ac6235168e3ee2f8751b87f28a4d5b85508d226bad75e89257e3a35d6ad",
+          "reviewedMyanmarSHA256": "fa1ac4872a3c4d21ffb158a14f57c50163d436bdf3ba8dbf410d5b423f75a431",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "5c5ce0983e5c1580ce2a683a89aae1af83f8949e6f1ae879ea735a344ed41a63",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "ca3d2b1a603662ccb630e0933990d645a217a6ee68bf295f01d2a3231c4f7d9c",
+          "reviewedMyanmarSHA256": "e516c8c6fda8f1679c9032d1ec5488a491a90a3af5a1a4893dc25807f96a0345",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "73083877f19c300052cb12f982a32fd65aa4c74d378d897b1407dbeab0932e56",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "e9251a4994a6a165752e21f3278cb6ef7f0fda4effbd39500bc679bb571798c7",
+          "reviewedMyanmarSHA256": "741ae162779661cdd81af74b0dc1d1361d4c4bb5a91bf1b890b7ab2d75f78c1c",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "060c6a440827fd37a90d791b5d6925ba2fb12fac3f0104ffb79c820fd93d4f32",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "8362f52b5bfca8e0c70d4557907c4af4bdec89febe63a5ca11e7f4878e722109",
+          "reviewedMyanmarSHA256": "e43ff792c9a287d35a595eee75762e8c73a76e5cf72304de0d9f72f69371e7f7",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "74b3993912f83eea51d2be8368e585c3ebf180ad7d7ccdbbc90b7bb47dfec403",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 463,
+      "primaryFile": "463-wowhead.html",
+      "primarySHA256": "17dfb7b5c56bb1726238ac6e46e83f11c30e9a7e0980486309b888fafa492ace",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 463,
+        "level": 21,
+        "name": "The Greenwarden",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 830,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from &lt;his/her&gt; death?<br /><br />If you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!<br /><br />And leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">The roots and ferns speak well of you, small one. &nbsp;Although I have many names, I answer to only a few. &nbsp;But you may call me Rethiel.<br /><br />And you must harken...for these lands weep from festered wounds, and I would charge you to heal them.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "The Greenwarden",
+        "objective": "Find the Greenwarden.",
+        "progress": null,
+        "complete": "The roots and ferns speak well of you, small one.  Although I have many names, I answer to only a few.  But you may call me Rethiel.\n\nAnd you must harken...for these lands weep from festered wounds, and I would charge you to heal them.",
+        "detail": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from <his/her> death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?"
+      },
+      "sixtyFile": "463-sixty.html",
+      "sixtySHA256": "b2b06406ba8c3aff53dd066749822c51ddd0eb4db11fca30e22b0074e0f45457",
+      "sixtyEnglish": {
+        "title": "The Greenwarden",
+        "objective": "Find the Greenwarden.",
+        "detail": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from his/her death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+        "progress": null,
+        "complete": "The roots and ferns speak well of you, small one. Although I have many names, I answer to only a few. But you may call me Rethiel.\n\nAnd you must harken...for these lands weep from festered wounds, and I would charge you to heal them."
+      },
+      "primarySecondaryDifferences": {
+        "detail": {
+          "primary": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from <his/her> death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+          "sixty": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from his/her death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?"
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            1239
+          ]
+        ],
+        "3": [
+          [
+            1244
+          ]
+        ],
+        "8": [
+          "Find the Greenwarden."
+        ],
+        "S": {
+          "1": "The Greenwarden",
+          "4": 20,
+          "5": 21,
+          "6": 4294967373,
+          "17": 11,
+          "22": 276,
+          "23": 8,
+          "27": 276,
+          "p": 134
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Вартовий Природи",
+          "detail": "{стать:Чув:Чула} про Вартового Природи? Ти ж не шукаєш його, правда? Це було б безглуздо, та хто я такий, щоб зупиняти когось йти на гибель?\n\nЯкщо все ж хочеш знайти це чудовисько, то я чув, що він десь на болотах на схід від повороту на Дун-Модр. Бродить десь там з кроколісками та іншою нечистю.\n\nМожеш залишити свої пожитки мені, все одно вони тобі вже не знадобляться. Ти ж не хочеш, щоб цей зелений монстр подавивсь твоїм гаманцем?",
+          "objective": "Знайдіть Вартового Природи.",
+          "progress": null,
+          "complete": "Коріння і лози кажуть добре про тебе, малявко. Я маю багато імен, та відкликаюсь тільки на декілька. Можеш звати мене Ретіль.\n\nПрислухайся... ці землі страждають від важких ран. Я попрошу тебе допомогти мені зцілити їх.",
+          "en": "The Greenwarden",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "1d314409a80108b46c06e050c9ff73a9ce91160f63ad873125eedee9a8cce3be",
+          "reviewedMyanmarSHA256": "6856a084b1e2a52a83728fe9c3f8f2ecbb21c52fb8a48423157728c6927853b8",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "8270ce4fb81e728aa5056c15567d6af7857e4187506ef3947babb86289736d9f",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": false,
+          "held": true,
+          "englishSHA256": "2f71905d882bc9ccb4b72a647b7843a5732151217b472f6b705c504f0223d907",
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "b495e9453042dd04e27d1b41eca2046de0622bff9330eb1a839be859f044b861",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "f4c23ba7de818d1458341b1abf78f39e60a81f449882c22bd53e91d185cd62e1",
+          "reviewedMyanmarSHA256": "1d4cf4ca01a19d8564f5b53ecb7f2001712b48d4b7df6c4ec16cf2656fcdaf4a",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "ae30ebf27d2358e07cdfed37e3435691f007751a8fe4e266f1542db4b8436d4f",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": false,
+          "enabled": false,
+          "held": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            false
+          ]
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "9b61d43c012f78129c7415c51ad4d95c980c55674ed701e46251871e90ba9332",
+          "reviewedMyanmarSHA256": "cf9d2fa4100d09bdeaa19303438ce6179c28e9ac0f8a4c8e088e16955d054994",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "4a6c0c1e1d34996cfb62634175cf41244366d89a788804e37af94c3842d8ab1a",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 276,
+      "primaryFile": "276-wowhead.html",
+      "primarySHA256": "80148ca465864a856dbe7cf17940879a59b54ed1576ffc8a0d1767b617e7ac4e",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 276,
+        "level": 21,
+        "name": "Tramping Paws",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1250,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "The <a href=\"/forever/npc=1007/mosshide-gnoll\">Mosshide Gnolls</a> have lived in the <a href=\"/forever/zone=11/wetlands\">Wetlands</a> peacefully for many years, but now grow in numbers. Their feet stamp flat the fen's bushes and flowers, and their foul axes cut too much wood to fuel their fires.<br /><br />They are no longer in balance with the land. For the <a href=\"/forever/zone=11/wetlands\">Wetlands</a> to survive, the Gnolls must be reduced.<br /><br />Kill 15 <a href=\"/forever/npc=1007/mosshide-gnoll\">Mosshide Gnolls</a> and 10 <a href=\"/forever/npc=1008/mosshide-mongrel\">Mosshide Mongrels</a>. Hunt them to the south, near the Dwarven gate of Algaz. After you do this, return to me.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Your task is still at hand, young &lt;class&gt;.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">By reducing the Gnolls' number, you have tended to the health of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>. &nbsp;Although my faith in your people has been taxed in the past, &lt;race&gt;, it may yet be restored.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Tramping Paws",
+        "objective": "Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.",
+        "progress": "Your task is still at hand, young <class>.",
+        "complete": "By reducing the Gnolls' number, you have tended to the health of the Wetlands.  Although my faith in your people has been taxed in the past, <race>, it may yet be restored.",
+        "detail": "The Mosshide Gnolls have lived in the Wetlands peacefully for many years, but now grow in numbers. Their feet stamp flat the fen's bushes and flowers, and their foul axes cut too much wood to fuel their fires.\n\nThey are no longer in balance with the land. For the Wetlands to survive, the Gnolls must be reduced.\n\nKill 15 Mosshide Gnolls and 10 Mosshide Mongrels. Hunt them to the south, near the Dwarven gate of Algaz. After you do this, return to me."
+      },
+      "sixtyFile": "276-sixty.html",
+      "sixtySHA256": "9d731d2d38cb1110d1cf7ed07cf5a30ee5a3520a33869a14481d0e53a3f94964",
+      "sixtyEnglish": {
+        "title": "Tramping Paws",
+        "objective": "Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands.",
+        "detail": "The Mosshide Gnolls have lived in the Wetlands peacefully for many years, but now grow in numbers. Their feet stamp flat the fen's bushes and flowers, and their foul axes cut too much wood to fuel their fires.\n\nThey are no longer in balance with the land. For the Wetlands to survive, the Gnolls must be reduced.\n\nKill 15 Mosshide Gnolls and 10 Mosshide Mongrels. Hunt them to the south, near the Dwarven gate of Algaz. After you do this, return to me.",
+        "progress": "Your task is still at hand, young <class>.",
+        "complete": "By reducing the Gnolls' number, you have tended to the health of the Wetlands. Although my faith in your people has been taxed in the past, <race>, it may yet be restored."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1244
+          ]
+        ],
+        "3": [
+          [
+            1244
+          ]
+        ],
+        "8": [
+          "Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands."
+        ],
+        "10": [
+          [
+            [
+              1007,
+              null,
+              0
+            ],
+            [
+              1008,
+              null,
+              0
+            ]
+          ]
+        ],
+        "28": [
+          463
+        ],
+        "S": {
+          "1": "Tramping Paws",
+          "4": 20,
+          "5": 21,
+          "6": 4294967373,
+          "17": 11,
+          "22": 277,
+          "23": 8,
+          "p": 134218374
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Бродячі лапи",
+          "detail": "Мохошкурі гноли багато років жили мирно в Заболотті, але тепер вони розплодились. Вони витолочують своїми лапами луги, а мерзенними сокирами - вирубують надто багато дерев, щоб палити вогнища.\n\nВони більше не в гармонії з природою. Гнолів має бути менше, щоб Заболоття вижило.\n\nВбий 15 мохошкурих гнолів та 10 мохошкурих дворняг. Вони водяться на півдні, біля дворфійських воріт Альґазу. Як зробиш це - повертайся до мене.",
+          "objective": "Вбийте 15 мохошкурих гнолів та 10 мохошкурих дворняг, після чого поверніться до Ретіля Вартового Природи в Заболоття.",
+          "progress": "Ти ще не {стать:виконав:виконала} своє завдання, {клас:к}.",
+          "complete": "Зменшивши поголів'я гнолів, ти {стать:подарував:подарувала} Заболоттю надію на зцілення. Хай я зневірився в тобі подібних раніше, {раса:к}, але ще не все втрачено.",
+          "en": "Tramping Paws",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "0a5f7530cf20a9efae90d33fa58ef10139ec5f121bcaceade5911bdfad2927c2",
+          "reviewedMyanmarSHA256": "8c9331178cc4d92712fd6084d0d8fa9204ae0f0bbc1c9d82614667082d8083c8",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "306964d4eebe70b5455f6f070457a85ddf788fc363a7101a61f69c431ae8577a",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "67e68fdc10670fdc1b70e0f4c8896d3f7859c6821887d3095578f91dd56aa40c",
+          "reviewedMyanmarSHA256": "29a975d5f4f534229ab95087fb8e2e22b7e850fa295833054b29217c9e4fe49d",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "890a3443d34cc158bbf720055b28cf335fd731c943acc872e07000ad3b204e82",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "1556633e839eab0a37a1aad633071f8affeda109c3e8d3a3dd756ed69e75ba8e",
+          "reviewedMyanmarSHA256": "5b4a572458cab3240621482fc220671295af2e5cd7379a3efa594608c5525d39",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "0b4cf289ab57f3b3787ca5ef51d6f8b3c944e3b316d97b71f8e9ca97269d24d9",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "9d6d9aeb75e0ad75d9435b748d7b92e9802dde18a82e8e3ae0ebef89b2af040e",
+          "reviewedMyanmarSHA256": "409c20055550a3062573eaf1193ce088485dda4200961cb512a6a8baa32c597a",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "c8effa1c55537507afccb413f5fe9a37d31e1bb0e98f6e5e73e7531cafb6c3f3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "2cf6347f931c66a4aecf22dc02d25c9b33400ce11d9b650338a0b2381568fbcb",
+          "reviewedMyanmarSHA256": "f3db15f41fdc681e544d841d48a89c59161a98af8ff9e85fbe3f7e81e345dea0",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "a6c6fbb02da5884b66ec961c4a4f024b689c33c9e980af4eab138269fd65f473",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 277,
+      "primaryFile": "277-wowhead.html",
+      "primarySHA256": "2f2aa17842d50e209c51bc8601884fbf402ec585a04ec48b71568c9cfa5ea410",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 277,
+        "itemrewards": [
+          [
+            4606,
+            10
+          ]
+        ],
+        "level": 23,
+        "name": "Fire Taboo",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1850,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "The Mosshides are cutting the trees of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>, using the trees' flesh to warm themselves with fire. I will suffer this pain no longer!<br /><br />Rid the Mosshides of their <a href=\"/forever/item=2611/crude-flint\">crude flints</a>, the tools they use to make fire. The flints are borne by all Mosshides except the smaller Mosshide gnolls and Mosshide mongrels.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Do you have the Gnolls' tools for fire?</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">... thank you. &nbsp;I will smash these flints and cast them into the sea, so that they may never again be used to burn living wood.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Fire Taboo",
+        "objective": "Bring Rethiel the Greenwarden 9 Crude Flints.",
+        "progress": "Do you have the Gnolls' tools for fire?",
+        "complete": "... thank you.  I will smash these flints and cast them into the sea, so that they may never again be used to burn living wood.",
+        "detail": "The Mosshides are cutting the trees of the Wetlands, using the trees' flesh to warm themselves with fire. I will suffer this pain no longer!\n\nRid the Mosshides of their crude flints, the tools they use to make fire. The flints are borne by all Mosshides except the smaller Mosshide gnolls and Mosshide mongrels."
+      },
+      "sixtyFile": "277-sixty.html",
+      "sixtySHA256": "914a7bd38333fdbfe0670bb54d530c846cdc62a9d03f08c19c0d08b81f3637f0",
+      "sixtyEnglish": {
+        "title": "Fire Taboo",
+        "objective": "Bring Rethiel the Greenwarden 9 Crude Flints.",
+        "detail": "The Mosshides are cutting the trees of the Wetlands, using the trees' flesh to warm themselves with fire. I will suffer this pain no longer!\n\nRid the Mosshides of their crude flints, the tools they use to make fire. The flints are borne by all Mosshides except the smaller Mosshide gnolls and Mosshide mongrels.",
+        "progress": "Do you have the Gnolls' tools for fire?",
+        "complete": "... thank you. I will smash these flints and cast them into the sea, so that they may never again be used to burn living wood."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1244
+          ]
+        ],
+        "3": [
+          [
+            1244
+          ]
+        ],
+        "8": [
+          "Bring Rethiel the Greenwarden 9 Crude Flints."
+        ],
+        "10": {
+          "3": [
+            [
+              2611,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          276
+        ],
+        "S": {
+          "1": "Fire Taboo",
+          "4": 20,
+          "5": 23,
+          "6": 4294967373,
+          "17": 11,
+          "22": 275,
+          "23": 8,
+          "p": 4742
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Вогняне табу",
+          "detail": "Мохошкурі рубають дерева Заболоття і використовують плоть дерев для вогнища, щоб зігрітись. Я не можу більше терпіти цей біль!\n\nПозбудь Мохошкурих грубого кременю, їх інструменту для створення вогню. Кремінь носять усі Мохошкурі, окрім менших мохошкурих гнолів та мохошкурих дворняг.",
+          "objective": "Принесіть Ретілю Вартовому Природи 9 грубих кременів.",
+          "progress": "В тебе є інструменти гнолів для розведення вогню?",
+          "complete": "... дякую. Я розіб'ю ці кремені та кину їх в море, так вони більше ніколи не використовуватимуться для спалювання живих дерев.",
+          "en": "Fire Taboo",
+          "faction": "Both"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "a5772b54c91eb3978f8bc1449c4e2378515a66eda87696818ad1e95aa1ca903e",
+          "reviewedMyanmarSHA256": "526433453b651ecb26c11278db5fbe1d871781153feba2f5ea422a05a4431fb2",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "fe9c771113a39eaf2505b76c7940aa1d5edd0b08f7495cd3ffa468567f6ab3b7",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "dfd9fcc63606142cbc5a1417276f6b367c70a3b0cb07ab41552e1871ec7f64cc",
+          "reviewedMyanmarSHA256": "c3391c844da01896dfcab33d7a4f41ad24dc8c698a49d9c6a27e38b64e301b43",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "663948a319ade9d5642babb56674a78874e69dd4828185a2c946bc4d0a227692",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "092f7ed0b395abb75125c95719c536fbad07e0a755c8bc11ced25863b52b106d",
+          "reviewedMyanmarSHA256": "cb31efddae9ce77cf25a10575cadaf1bb658c3b43fb007462b5696f50601f881",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "b26e9faf1858abdfbab10fe7960fbe4c6aa34b3d3ff4b534c6e00c6962fc56c3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "5c98330ff9a3fc5bb0d427e4847dbe2773663b9da8f54c9c41ad760bd233ff34",
+          "reviewedMyanmarSHA256": "3239d1b99bf1f1aa5e62cc7ec6f01a6313f51384034c9d415949f5b426962add",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "a756706ac43bead052cf8c3a9d4a0d6aa3ee57a6c79e464544808a14e8180be3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 21,
+          "responseIndex": 21,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "8bb169e21f20e6b9b3ad27c2b3bc1724179157928a9f06a1c5fbd821f7ea4de2",
+          "reviewedMyanmarSHA256": "b24bdbe26389ad1271d3d28541e45eb822aecffdc4d7709473a194f914081d42",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "c1ed85ca778994ff9530cb0933d50b7cae519b7197a1e9e2a2b84ce6191470d9",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 22,
+          "responseIndex": 22,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 275,
+      "primaryFile": "275-wowhead.html",
+      "primarySHA256": "48bfb815142fde0dde5bb9198ab488b9e965cc9f64d445b2ef3be244deab1ce9",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 275,
+        "itemchoices": [
+          [
+            3558,
+            1
+          ],
+          [
+            1273,
+            1
+          ],
+          [
+            2263,
+            1
+          ]
+        ],
+        "level": 26,
+        "name": "Blisters on the Land",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 2650,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "renamed"
+          ],
+          "lines": [
+            "Renamed from Blisters on The Land"
+          ],
+          "notShown": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "I do not know why, but a festering grows within the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>. <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> have risen. They are diseased, fevered blisters on the land, and for the fever to break they must be dispatched and allowed to settle back into the marshes.<br /><br />The <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> shamble amidst the waterways of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">The <a href=\"/forever/zone=11/wetlands\">Wetlands</a> still weep, and the <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> still rage. &nbsp;Return to me when your task is done.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">This land is soothed by your efforts, and for this I will grant you a boon.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Blisters on the Land",
+        "objective": "Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.",
+        "progress": "The Wetlands still weep, and the Fen Creepers still rage.  Return to me when your task is done.",
+        "complete": "This land is soothed by your efforts, and for this I will grant you a boon.",
+        "detail": "I do not know why, but a festering grows within the Wetlands. Fen Creepers have risen. They are diseased, fevered blisters on the land, and for the fever to break they must be dispatched and allowed to settle back into the marshes.\n\nThe Fen Creepers shamble amidst the waterways of the Wetlands."
+      },
+      "sixtyFile": "275-sixty.html",
+      "sixtySHA256": "e0b99b4aee5bdf86763600d9b461741cb753fe3556cdb97042dbfc9ecaddc953",
+      "sixtyEnglish": {
+        "title": "Blisters on the Land",
+        "objective": "Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands.",
+        "detail": "I do not know why, but a festering grows within the Wetlands. Fen Creepers have risen. They are diseased, fevered blisters on the land, and for the fever to break they must be dispatched and allowed to settle back into the marshes.\n\nThe Fen Creepers shamble amidst the waterways of the Wetlands.",
+        "progress": "The Wetlands still weep, and the Fen Creepers still rage. Return to me when your task is done.",
+        "complete": "This land is soothed by your efforts, and for this I will grant you a boon."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1244
+          ]
+        ],
+        "3": [
+          [
+            1244
+          ]
+        ],
+        "8": [
+          "Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands."
+        ],
+        "10": [
+          [
+            [
+              1040,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          277
+        ],
+        "S": {
+          "1": "Blisters on The Land",
+          "4": 20,
+          "5": 26,
+          "6": 4294967373,
+          "17": 11,
+          "22": 98283,
+          "23": 8,
+          "p": 4742
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Пухирі на землі",
+          "detail": "Я не знаю чому, але гниль повзе Заболоттям. Піднялися драговинні плазуни. Це хворобливі, гнійні пухирі на землі, і щоб зцілити її, необхідно загнати плазунів назад в болота, звідки вони прийшли.\n\nДраговинні плазуни водяться біля водойм Заболоття.",
+          "objective": "Убийте 12 драговинних плазунів та поверніться до Ретіля Вартового Природи у Заболоття.",
+          "progress": "Заболоття все ще плаче, а драговинні плазуни все ще лютують. Повернися до мене одразу, як виконаєш своє завдання.",
+          "complete": "Ця земля заспокоюється завдяки твоїм зусиллям, і за це я вручаю тобі дар.",
+          "en": "Blisters on the Land",
+          "faction": "Both"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "ef97bc01f01354ce752702810d7bb922a39281eee125afacc17268588bb005a5",
+          "reviewedMyanmarSHA256": "45a671728845d6908a24651723da8a7c8807ed2117f93698423a293e7f01c5a7",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "62270b31646417b8deb915c049d2c7bf4b8aa256342d9957e3a0ceba8a203bff",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 23,
+          "responseIndex": 23,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "4dd0f73f1be5196d87c51b7e7e64dfb6ff460bfe2e7e72fdd9e8ac40c4f0b376",
+          "reviewedMyanmarSHA256": "2fc434939076c773c79899c021bb4ef78e90da4789d509dbcf4d035ce61a21e6",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "19e9b5d4d66045a0edcbd3708078e849ffdca5de1292d5d9da100c4fe392642a",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 24,
+          "responseIndex": 24,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "b0eff6a8c3a8871227a6cb4d433ee56b0641b992bf948c676619b74a889ec2d1",
+          "reviewedMyanmarSHA256": "da2b1c3d25ea610db14f5511fc73cbca09153cbcba5f624b45e4e6b924b2e84a",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "4845681a04bb0726611dcc22866167de2c9a51a17f8e4af1adbbc15049c30b54",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 25,
+          "responseIndex": 25,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "826ef5875c414584f217209bfc3a9840dc7a41fa2b20a3ebc61499fd6d4a526b",
+          "reviewedMyanmarSHA256": "65cae9521cec2593de4dd9c556c69b43fe606c5363a0b3fda7c45058135e8cb6",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "90dc40dd5d60d2f7942e0c706a8c0b1479f02d7dec9526053aaf09e55046a07e",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 26,
+          "responseIndex": 26,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "c24ff3781cf56855cf783ee5cfcf368f29f411689ef2efca21af0c3848a238be",
+          "reviewedMyanmarSHA256": "e914974ab6603357ae19eb06309e666998091857d18f8309167cf259ad51c277",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "19a5f70359e1869ed74d6db7ec047744a249a3dcd21703183c6d3fbdb227aebe",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 27,
+          "responseIndex": 27,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 98283,
+      "primaryFile": "98283-wowhead.html",
+      "primarySHA256": "313d266dd70f9b286d22470583a252d6c5251ff68d8992582dc7946417537f2a",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 98283,
+        "itemchoices": [
+          [
+            281309,
+            1
+          ],
+          [
+            281310,
+            1
+          ]
+        ],
+        "level": 30,
+        "name": "Carnage",
+        "reqlevel": 22,
+        "side": 1,
+        "type": 1,
+        "xp": 3050,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "The natural order of this land is breaking. Once it was that the Razormaw raptors kept the land from overgrowth. They now live in fear of their alpha, named only for the carnage it leaves behind.\n\nI fear the beast has been driven mad by the sickness that we have yet to fully excise.\n\nIt will respond to the malignant flesh of the diseased bears below Raptor Ridge, to the northeast. Leave their entrails in its cave lair.\n\nCarnage will come. Bring me its head.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">The Rotclaw came down from their homes in Loch Modan, now driven mad.<br /><br />Such a waste of life's boon.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">Carnage's death will bring balance to his pack. Perhaps it will buy enough time for the greater ecosystem they support.<br /><br />We shall see, but I thank you for the effort regardless.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Carnage",
+        "objective": "Bring Carnage's Head to Rethiel the Greenwarden in The Green Belt.",
+        "progress": "The Rotclaw came down from their homes in Loch Modan, now driven mad.\n\nSuch a waste of life's boon.",
+        "complete": "Carnage's death will bring balance to his pack. Perhaps it will buy enough time for the greater ecosystem they support.\n\nWe shall see, but I thank you for the effort regardless.",
+        "detail": "The natural order of this land is breaking. Once it was that the Razormaw raptors kept the land from overgrowth. They now live in fear of their alpha, named only for the carnage it leaves behind.\n\nI fear the beast has been driven mad by the sickness that we have yet to fully excise.\n\nIt will respond to the malignant flesh of the diseased bears below Raptor Ridge, to the northeast. Leave their entrails in its cave lair.\n\nCarnage will come. Bring me its head."
+      },
+      "sixtyFile": "98283-sixty.html",
+      "sixtySHA256": "fd19a61feb9df536a64a229103bd7bef7f41518bbadd01f7864adf46a0e7630d",
+      "sixtyEnglish": {
+        "title": "Carnage",
+        "objective": "Bring Carnage's Head to Rethiel the Greenwarden in The Green Belt.",
+        "detail": "The natural order of this land is breaking. Once it was that the Razormaw raptors kept the land from overgrowth. They now live in fear of their alpha, named only for the carnage it leaves behind.\n\nI fear the beast has been driven mad by the sickness that we have yet to fully excise.\n\nIt will respond to the malignant flesh of the diseased bears below Raptor Ridge, to the northeast. Leave their entrails in its cave lair.\n\nCarnage will come. Bring me its head.",
+        "progress": null,
+        "complete": null
+      },
+      "primarySecondaryDifferences": {
+        "progress": {
+          "primary": "The Rotclaw came down from their homes in Loch Modan, now driven mad.\n\nSuch a waste of life's boon.",
+          "sixty": null
+        },
+        "complete": {
+          "primary": "Carnage's death will bring balance to his pack. Perhaps it will buy enough time for the greater ecosystem they support.\n\nWe shall see, but I thank you for the effort regardless.",
+          "sixty": null
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            1244
+          ]
+        ],
+        "3": [
+          [
+            1244
+          ]
+        ],
+        "8": [
+          "Bring Carnage's Head to Rethiel the Greenwarden in The Green Belt."
+        ],
+        "10": {
+          "3": [
+            [
+              280331,
+              null,
+              0
+            ],
+            [
+              280330,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          275
+        ],
+        "S": {
+          "1": "Carnage",
+          "4": 22,
+          "5": 30,
+          "6": 4294967373,
+          "17": 11,
+          "p": 4742
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Кривава різанина",
+          "detail": "Природний лад цих земель руйнується. Колись гостропащі раптори стримували надмірне розростання рослин. Тепер вони живуть у страху перед своїм ватажком, названим лише за криваві сліди, які він залишає.\n\nБоюся, хвороба, якої ми ще не позбулися остаточно, звела звіра з розуму.\n\nЙого привабить заражене м'ясо хворих ведмедів під хребтом Рапторів на північному сході. Залиш їхні нутрощі в його печерному лігві.\n\nРізанина прийде. Принеси мені його голову.",
+          "objective": "Принесіть голову Різанини Ретілю Вартовому Природи в Зеленому Поясі.",
+          "progress": "Гнилокігті спустилися зі своїх домівок у Лох-Модані, охоплені божевіллям.\n\nЯке марнотратство дару життя.",
+          "complete": "Смерть Різанини поверне рівновагу його зграї. Можливо, це дасть достатньо часу й ширшій екосистемі, яку вона підтримує.\n\nПобачимо. Та хай там як, дякую за твої зусилля.",
+          "en": "Carnage",
+          "faction": "Both"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "c43bcc84d852bc2db98f7ca4337980c5372646b03834180ac9ed29fc3254facc",
+          "reviewedMyanmarSHA256": "7c8b4cc856331e29e83b14749772e040364653b392edcdf59164bec42970cc06",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "2d8374c33c2018af677ba2bc08c67c1fc3cd186ed7cfcdea69cd4dd105443ff3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 28,
+          "responseIndex": 28,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "00b474a7ff53daa8ddb94e6c152e3b1c58a1332ae56e2785773e4c6c5a7b6092",
+          "reviewedMyanmarSHA256": "5ce55f1640983a783834de1c199e6a517e4d37ae2044bc0dace561148f55af1f",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "ed11dbff4ae1bf8dd31a0837a3d71e9cbfccd3a9040ab772ac69f070dfd83a6d",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 29,
+          "responseIndex": 29,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "69a9962d30b8b39d95f95594267945c86e0409ef111e8aadb0c7154aae084156",
+          "reviewedMyanmarSHA256": "b9b68a200a2607ff61b96758a2d75d9cd89f08252198d7d12670c3fee9a9eb5e",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "cd63f250f79914eeb7bb314c4f464ebf78e4415eab02c8701f087a1be3d723cc",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 30,
+          "responseIndex": 30,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "5e0bb134ccc1d1c45a0d390219ab526e2aefc947e6554c6b56c5985c7127d1e6",
+          "reviewedMyanmarSHA256": "8e569861ee4c63d8b484872ea673c3941c88b7007b161c37376a09f6e166261f",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "166ef25a349aa51effd12a3c201edc1e133c2e6b263694c63f7ca184c992a84f",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 31,
+          "responseIndex": 31,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "fcb02021af99114009035b7a4b41f8e300808021c1842c44602cd5abb201f59f",
+          "reviewedMyanmarSHA256": "c30df99a2d50b866c8581a1677de34ca239e73b0abae21ab19dc2465319f3a42",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "88eccd260302620b51c55a778c2f6d1bb4107a5b5e30c1447b5ddafa1b6e3887",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 32,
+          "responseIndex": 32,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 279,
+      "primaryFile": "279-wowhead.html",
+      "primarySHA256": "c551a1a502387dcddd490faee0988d1da676ad514736de58af8d4b8041016797",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 279,
+        "level": 22,
+        "money": 1400,
+        "name": "Claws from the Deep",
+        "reprewards": [
+          [
+            72,
+            100
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "Murlocs are crawling out from the deep waters and building their villages on the coastline.  They are harassing our fishers and merchants and must be stopped.<br /><br />One of these Murlocs, Gobbler, skulks with other <a href=\"/forever/npc=1024/bluegill-murloc\">Bluegill Murlocs</a> and harries merchants along the road, always then retreating to the safety of the nearby Murloc hovels.  Our merchants are in jeopardy, and we will pay to secure them.<br /><br />Gobbler prowls the river inlet north of here.  Find him, slay his kin, and bring me his head.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Our merchants will not be safe until we are rid of Gobbler and those Murlocs.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">Ah, well done &lt;name&gt;.<br /><br />Accept this as payment for fulfillment of your contract with the Merchant Marines.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Claws from the Deep",
+        "objective": "Kill 12 Bluegill Murlocs.\n\nSlay Gobbler and take his head.\n\nBring Gobbler's Head to Karl Boran in Menethil Harbor.",
+        "progress": "Our merchants will not be safe until we are rid of Gobbler and those Murlocs.",
+        "complete": "Ah, well done <name>.\n\nAccept this as payment for fulfillment of your contract with the Merchant Marines.",
+        "detail": "Murlocs are crawling out from the deep waters and building their villages on the coastline.  They are harassing our fishers and merchants and must be stopped.\n\nOne of these Murlocs, Gobbler, skulks with other Bluegill Murlocs and harries merchants along the road, always then retreating to the safety of the nearby Murloc hovels.  Our merchants are in jeopardy, and we will pay to secure them.\n\nGobbler prowls the river inlet north of here.  Find him, slay his kin, and bring me his head."
+      },
+      "sixtyFile": "279-sixty.html",
+      "sixtySHA256": "4a8af8e5bc472c6dd4a09da4197f5ae68746f72ebfc5b576183cd5745d2d882e",
+      "sixtyEnglish": {
+        "title": "Claws from the Deep",
+        "objective": "Kill 12 Bluegill Murlocs.\n\nSlay Gobbler and take his head.\n\nBring Gobbler's Head to Karl Boran in Menethil Harbor.",
+        "detail": "Murlocs are crawling out from the deep waters and building their villages on the coastline.  They are harassing our fishers and merchants and must be stopped.\n\nOne of these Murlocs, Gobbler, skulks with other Bluegill Murlocs and harries merchants along the road, always then retreating to the safety of the nearby Murloc hovels.  Our merchants are in jeopardy, and we will pay to secure them.\n\nGobbler prowls the river inlet north of here.  Find him, slay his kin, and bring me his head.",
+        "progress": "Our merchants will not be safe until we are rid of Gobbler and those Murlocs.",
+        "complete": "Ah, well done <name>.\n\nAccept this as payment for fulfillment of your contract with the Merchant Marines."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          [
+            1242
+          ]
+        ],
+        "3": [
+          [
+            1242
+          ]
+        ],
+        "8": [
+          "Kill 12 Bluegill Murlocs.",
+          "",
+          "Slay Gobbler and take his head.",
+          "",
+          "Bring Gobbler's Head to Karl Boran in Menethil Harbor."
+        ],
+        "10": [
+          [
+            [
+              1024,
+              null,
+              0
+            ]
+          ],
+          null,
+          [
+            [
+              3618,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            72,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Claws from the Deep",
+          "4": 20,
+          "5": 22,
+          "6": 4294967373,
+          "17": 11,
+          "22": 281,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Загроза з глибин",
+          "detail": "Мурлоки лізуть з морських глибин і будують свої поселення на узбережжі. Вони нападають на наших рибалок і торговців, ми маємо це зупинити.\n\nОдин з них, Жерун, прокрадається з іншими синьожабрими мурлоками до дороги і влаштовує засідки на наших торговців. І кожного разу вони втікають до своїх хиж, де ми їм нічого не можемо зробити. Наші торговці в небезпеці і ми готові заплатити за їх захист.\n\nЖерун бродить в затоці річки на північ звідси. Знайти його, знищи його плем'я і принеси мені його голову.",
+          "objective": "Вбийте 12 синьожабрих мурлоків.\n\nУбийте Жеруна та заберіть його голову.\n\nПринесіть голову Жеруна Карлу Борану в гавань Менетілів.",
+          "progress": "Наші торговці будуть в небезпеці, поки ми не позбавимось Жеруна і цих мурлоків.",
+          "complete": "Ах, чудово {ім'я}.\n\nПрийми цю оплату за виконання угоди з торговим флотом.",
+          "en": "Claws from the Deep",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "0d4b335b952d374d1ca5168bd0e03f42e3b035622cb479a4d0d9bc448db5a927",
+          "reviewedMyanmarSHA256": "513d36c4487fa705faaccb0f1afa379acc3ad9b510c6c3d1c525c276220a18f1",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "b0cd01bf45365372fa3a2e9eb5fe7e52e25c07f51e8e4b117a3e0cfc3f27bc75",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "0dcbe7703dedcbea4c461a1e2af62e2abf81925d13511389336a0ddc9accff12",
+          "reviewedMyanmarSHA256": "e4ca7df5216acfb774e5abc2a697c9000493a441d0d8539c1dfad4e776cb7d94",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "cb7291bb353acf0e6fa3136d18901a038d969febe62ec08a1c1113291a056a35",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "eddbfb68854a02a0784ac928c05d3a7337c05abff9b4baa884239d9aa72db234",
+          "reviewedMyanmarSHA256": "ec80e42f91a35e3303afd14ca09e13f9f71965879ca71f872b58d3321e37be80",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "e1c549fb98af6d20c93100d3f878cd0bedc66ce953138ffcde2ab1f68caea68a",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "177f63c77dd66da5a9c14292f57853384ae609374c3b77930ec777e655acd856",
+          "reviewedMyanmarSHA256": "a4a66026a1d994ff830790e49bd6e8825a3dd902323eab8db1790ea77c1c0e14",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "ab1e2942590380954ed7aae58759cd7b2d73135952cf381a8cedc620dccda11b",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "4fa03d7b7be9a97a4b5e4d43a6e64af714289d4fcc0912f62fa88f8e2b5eaa32",
+          "reviewedMyanmarSHA256": "969b7cb1c96ee3a40c86daaf4c8723453c7ea2f6669d2c29e0fdac5064698ea2",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "3de15542b901d2f3d73d07b4018f283e6842a4018d214f401e5b45cc63351d34",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 281,
+      "primaryFile": "281-wowhead.html",
+      "primarySHA256": "a5d0671a3793a4519b1a4c43e7234a139183ae1dc1675496651e890b311ca26d",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 281,
+        "itemrewards": [
+          [
+            929,
+            5
+          ]
+        ],
+        "level": 25,
+        "name": "Reclaiming Goods",
+        "reprewards": [
+          [
+            72,
+            25
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 510,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "Not long ago a merchant vessel, the Blind Princess, was raided by Murlocs.  Although the ship escaped intact, much of its cargo was dragged overboard by the creatures, including a very valuable statuette of Terenas Menethil.  We want that statuette recovered.<br /><br />Search the coastal Murloc hovels for crates, barrels and other evidence of lost cargo.  Find the Menethil Statuette and return it to me.",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">This crate is covered with clawed scratches, and the marks of water damage. &nbsp;Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate. &nbsp;You search through the straw...<br /><br />...and find an armload of red-colored bottles.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Reclaiming Goods",
+        "objective": "Search the crates and barrels at the coastal Murloc camps.",
+        "progress": null,
+        "complete": "This crate is covered with clawed scratches, and the marks of water damage.  Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate.  You search through the straw...\n\n...and find an armload of red-colored bottles.",
+        "detail": "Not long ago a merchant vessel, the Blind Princess, was raided by Murlocs.  Although the ship escaped intact, much of its cargo was dragged overboard by the creatures, including a very valuable statuette of Terenas Menethil.  We want that statuette recovered.\n\nSearch the coastal Murloc hovels for crates, barrels and other evidence of lost cargo.  Find the Menethil Statuette and return it to me."
+      },
+      "sixtyFile": "281-sixty.html",
+      "sixtySHA256": "38d6afe1f0bd9959823723227d377707f3c74f6e1c749f341b8b5f0061fa025f",
+      "sixtyEnglish": {
+        "title": "Reclaiming Goods",
+        "objective": "Search the crates and barrels at the coastal Murloc camps.",
+        "detail": "Not long ago a merchant vessel, the Blind Princess, was raided by Murlocs.  Although the ship escaped intact, much of its cargo was dragged overboard by the creatures, including a very valuable statuette of Terenas Menethil.  We want that statuette recovered.\n\nSearch the coastal Murloc hovels for crates, barrels and other evidence of lost cargo.  Find the Menethil Statuette and return it to me.",
+        "progress": null,
+        "complete": "This crate is covered with clawed scratches, and the marks of water damage. Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate. You search through the straw...\n\n...and find a an armload of red-colored bottles."
+      },
+      "primarySecondaryDifferences": {
+        "complete": {
+          "primary": "This crate is covered with clawed scratches, and the marks of water damage.  Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate.  You search through the straw...\n\n...and find an armload of red-colored bottles.",
+          "sixty": "This crate is covered with clawed scratches, and the marks of water damage. Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate. You search through the straw...\n\n...and find a an armload of red-colored bottles."
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            1242
+          ]
+        ],
+        "3": [
+          null,
+          [
+            261
+          ]
+        ],
+        "8": [
+          "Search the crates and barrels at the coastal Murloc camps."
+        ],
+        "13": [
+          279
+        ],
+        "26": [
+          [
+            72,
+            25
+          ]
+        ],
+        "S": {
+          "1": "Reclaiming Goods",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "17": 11,
+          "22": 284,
+          "23": 8,
+          "p": 33558662
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Повернення товарів",
+          "detail": "Нещодавно мурлоки напали на торгове судно \"Сліпа принцеса\". Хоч корабель і не постраждав, ці потвори стягнули велику частину вантажу, зокрема дуже цінну статуетку Теренаса Менетіла. Ми маємо повернути її.\n\nОбшукай прибережні поселення мурлоків. Ящики, бочки - все, що схоже на вкрадений вантаж. Знайди статуетку Менетіла і поверни її мені.",
+          "objective": "Обшукайте ящики та бочки в прибережних таборах мурлоків.",
+          "progress": null,
+          "complete": "Цей ящик звогчів, він весь вкритий слідами від кігтів. Відкривши його, всередині ви бачите розмоклу гнилу солому, що може означати, що всередині лежить щось цінне. Ви розгрібаєте солому...\n\n...і знаходите кілька червоних пляшечок.",
+          "en": "Reclaiming Goods",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "5c3818b455c6462c547948b89d42574b929c9cdf9b9404607fa1f1363ac6e6f0",
+          "reviewedMyanmarSHA256": "54d67d2b7eba3864983aca6a4cbab68bffd0aa2327668f50dd30b69621600551",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "00b00f21a2c53b16d29308d7078280dc26bfb3998c61b42e2f9db13205a22b6b",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "7b222f22d86343f9a213a340f44c8c689f125fbee7e8f8c598b5734c8c1f0556",
+          "reviewedMyanmarSHA256": "24b2be2f3faa5d56b28ec5244a7dc230fba2eea6cd20ad44a6fd2ee96810c979",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "67b4004ab056de729d64687c432f041ab93f60af3f683f78107d014454dd4e09",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "52a34425311679bdfc27394f87693b24141bdb6354f83b6f7001915de47c2c81",
+          "reviewedMyanmarSHA256": "3fb050ef2502d2466351f37bcb9b7ed75e7b8a76b3b1072ca2cc2cb041a8fbf2",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "91261850dc300434f2df3553d1a8e0c6da3b0734154f2294a3accc00ba1a0944",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": false,
+          "enabled": false,
+          "held": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            false
+          ]
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "4f009317acd62d6e0187f0dfdfe268125903cc6f5e1519f9dd26652ea1a36e64",
+          "reviewedMyanmarSHA256": "1d93d5800b1787d6b0535ea4ffe5ee351bd70b81211871aee41dc2652903da05",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "1586b79d10b5df567b93ab366992bba08deb8674e36beb96a2640440e4c8681c",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 284,
+      "primaryFile": "284-wowhead.html",
+      "primarySHA256": "6de6498c948c9d4e104c745dffdc9a60c67bed14ea1be4d64c6c0b05f1c39dc0",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 284,
+        "itemrewards": [
+          [
+            422,
+            10
+          ]
+        ],
+        "level": 25,
+        "name": "The Search Continues",
+        "reprewards": [
+          [
+            72,
+            25
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 510,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "You thoroughly search this cluster of Murloc hovels, and find no trace of the Menethil Statuette.<br /><br />Perhaps one of the two nearby hovels to the north and northeast will have more clues.",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">This barrel is largely untouched. &nbsp;Prying it open...<br /><br />...you are assaulted by the pungent odor of cheese. &nbsp;It's a little wet, but still tasty!</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "The Search Continues",
+        "objective": "Search for the Menethil Statuette.",
+        "progress": null,
+        "complete": "This barrel is largely untouched.  Prying it open...\n\n...you are assaulted by the pungent odor of cheese.  It's a little wet, but still tasty!",
+        "detail": "You thoroughly search this cluster of Murloc hovels, and find no trace of the Menethil Statuette.\n\nPerhaps one of the two nearby hovels to the north and northeast will have more clues."
+      },
+      "sixtyFile": "284-sixty.html",
+      "sixtySHA256": "70b06096dbdf9135b8cecefc399213c8e8369e4ca0eace1dab21af846cb3dc5c",
+      "sixtyEnglish": {
+        "title": "The Search Continues",
+        "objective": "Search for the Menethil Statuette.",
+        "detail": "You thoroughly search this cluster of Murloc hovels, and find no trace of the Menethil Statuette.\n\nPerhaps one of the two nearby hovels to the north and northeast will have more clues.",
+        "progress": null,
+        "complete": "This barrel is largely untouched. Prying it open...\n\n...you are assaulted by the pungent odor of cheese. It's a little wet, but still tasty!"
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          null,
+          [
+            261
+          ]
+        ],
+        "3": [
+          null,
+          [
+            142151
+          ]
+        ],
+        "8": [
+          "Search for the Menethil Statuette."
+        ],
+        "13": [
+          281
+        ],
+        "26": [
+          [
+            72,
+            25
+          ]
+        ],
+        "S": {
+          "1": "The Search Continues",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "17": 11,
+          "22": 285,
+          "23": 8,
+          "p": 33558662
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Пошуки продовжуються",
+          "detail": "Ви ретельно обшукуєте поселення мурлоків, і не знаходите жодного сліду статуетки Менетіла.\n\nМожливо, варто пошукати в поселеннях на півночі та північному заході.",
+          "objective": "Пошукайте статуетку Менетіла.",
+          "progress": null,
+          "complete": "Схоже, цю бочку не чіпали. Ви її відкриваєте...\n\n...і відчуваєте різкий запах сиру. Трохи промоклий, але все ще смачний!",
+          "en": "The Search Continues",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "1ca55b3285c4ca1c161890a47a9f35625c8ed1bc784b4ba26c0eec33e70b9a64",
+          "reviewedMyanmarSHA256": "492e1ab37959fee247b5fe7375f6fa272084798c6a2f499ce360e2284860887b",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "83b9eba97734cbb17a4057aa56f595ca1a259376ad5d1194b22b7eb75520d88b",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "c042539f52a332c900dd4149c01f8fead29141d040ca9d3c92bb8b8829fbf0f4",
+          "reviewedMyanmarSHA256": "355a560682fdc62b14510fbb514ff28c8e4e7d725cde9071c31c59208627b445",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "067b0d2b84c0f5ade24c4e61bb45a55e86c2b5a010ec3abac362beff1cb5d11d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "1d0d97356eadb0d089b6ac166c6b814feb4521ca4b3e7fde82a420afc2acfe01",
+          "reviewedMyanmarSHA256": "95260f5c844680037fcc35607bc65f3dde88f62ea9e0f14bd9df19008600958a",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "6577adc715abc7f6c70541413d29e6ccad9c935241ef81be75faa5f4ca6b1375",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": false,
+          "enabled": false,
+          "held": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            false
+          ]
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "18ed25b21ee1fd92e4013c38303207ff050203beaa4fc55c2c622186812c125e",
+          "reviewedMyanmarSHA256": "ee34d651ec428fb0715b0a485373210288b634afcc38b3759123da3dd29e0dfc",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "30b3bc250969522480cdc5cdb55e78848ecde0b98c5ad20c60bfcaaaa4f43c99",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 285,
+      "primaryFile": "285-wowhead.html",
+      "primarySHA256": "81af19445171d8c4def4884a1948a142d3954666d8820cc6d81fe66277b9a1ce",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 285,
+        "level": 25,
+        "name": "Search More Hovels",
+        "reprewards": [
+          [
+            72,
+            50
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1000,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "This grouping of Murloc hovels, after a thorough inspection, reveals nothing.<br /><br />...but you're certain that the next clue you find will be fruitful.<br /><br />One of the hovels to the north must have the Menethil Statuette!",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">This barrel is halfway buried amidst the mud and grass ...</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Search More Hovels",
+        "objective": "Continue searching the Murloc hovels for the Menethil Statuette.",
+        "progress": null,
+        "complete": "This barrel is halfway buried amidst the mud and grass ...",
+        "detail": "This grouping of Murloc hovels, after a thorough inspection, reveals nothing.\n\n...but you're certain that the next clue you find will be fruitful.\n\nOne of the hovels to the north must have the Menethil Statuette!"
+      },
+      "sixtyFile": "285-sixty.html",
+      "sixtySHA256": "803c232ca19fcd835859e39f14dcf2f1c87dbb2c7155d69b3afa5b9cbbb7c766",
+      "sixtyEnglish": {
+        "title": "Search More Hovels",
+        "objective": "Continue searching the Murloc hovels for the Menethil Statuette.",
+        "detail": "This grouping of Murloc hovels, after a thorough inspection, reveals nothing.\n\n...but you're certain that the next clue you find will be fruitful.\n\nOne of the hovels to the north must have the Menethil Statuette!",
+        "progress": null,
+        "complete": "This barrel is halfway buried amidst the mud and grass ..."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          null,
+          [
+            142151
+          ]
+        ],
+        "3": [
+          null,
+          [
+            259
+          ]
+        ],
+        "8": [
+          "Continue searching the Murloc hovels for the Menethil Statuette."
+        ],
+        "13": [
+          284
+        ],
+        "26": [
+          [
+            72,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Search More Hovels",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "17": 11,
+          "22": 286,
+          "23": 8,
+          "p": 33558662
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Обшукати більше хатин",
+          "detail": "Ви обшукали це поселення мурлоків, але нічого не знайшли.\n\n...але ви впевнені, що ціль вже близько.\n\nСтатуетка Менетіла має бути в одному з поселень на півночі!",
+          "objective": "Продовжуйте шукати статуетку Менетіла в поселеннях мурлоків.",
+          "progress": null,
+          "complete": "Ця бочка наполовину зарита в багнюку й траву...",
+          "en": "Search More Hovels",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "d3540208d99d2c9fb35d734bc3f4e578ea7755d2153bdf2f348dabfb5a0211ee",
+          "reviewedMyanmarSHA256": "0233c9d4e2d5dc7ad5e2f63e16558622e25540f9351e3c5b05dc4d5ef3d510a0",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "5a7a5c408536ad2c4080b2adce28d22e6083848480f9d66cf13814eb63b497b8",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "b1d28aa08374e8b2063fabc4982ef87b7313f11e73aea191e1f3d97e4ebf8d41",
+          "reviewedMyanmarSHA256": "4e1bbd4944958ad8ed4c0542024370245a2ae6bb64bca7388d7793ed2019e933",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "ca48894b6ee68f8c6601e48d42e1b98d016a4078619eb7618e8cd2f023b9f110",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "b12f48f9238e13a0bf7fb5369c38ff10532b6b2c2890a72eeafa09bf458ece3d",
+          "reviewedMyanmarSHA256": "842fbd9d5618ae41a8d53b444cdbd509163e2f3db3d6b2064f39ed8e3c360afa",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "51b8dcae844b7ce25f8ef638a991ff208a52c4eb02ca21ded83d375111bc08e8",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": false,
+          "enabled": false,
+          "held": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            false
+          ]
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "00534f1ced58c92562e15a0f7addeff6af92f51a3a5138c07b6b01848c9d8f46",
+          "reviewedMyanmarSHA256": "7a198f4e84385b16ba79a26f4204099d99c79b5e435b9545b171c713792da6f9",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "ddbbefa37fe4f1ecee20995dc4a7d000fad834e2cc0d9e55399e87e1c50a51e1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 286,
+      "primaryFile": "286-wowhead.html",
+      "primarySHA256": "9d05b72326fe6b817c2cb8fb111ffd629b08b367adccbe8da2fe7aecd7ffbfbb",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 286,
+        "itemchoices": [
+          [
+            2950,
+            1
+          ],
+          [
+            2949,
+            1
+          ]
+        ],
+        "level": 25,
+        "name": "Return the Statuette",
+        "reprewards": [
+          [
+            72,
+            75
+          ]
+        ],
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 1500,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "After pulling the barrel free from the muck and opening it, a silvery figurine is found packed in fine straw.  It depicts a young, long-haired Paladin with hammer upraised.<br /><br />This must be the <a href=\"/forever/item=2625/menethil-statuette\">Menethil Statuette</a>!  You must now return it to <a href=\"/forever/npc=1242/karl-boran\">Karl Boran</a> in Menethil Harbor.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Do you have the statuette?</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">The captain of the Blind Princess will be relieved to hear this precious cargo has been recovered. &nbsp;You have well earned this payment for services rendered.<br /><br />It is good to see dependable folk like you, especially in trying times such as these.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Return the Statuette",
+        "objective": "Bring Karl Boran the Menethil Statuette.",
+        "progress": "Do you have the statuette?",
+        "complete": "The captain of the Blind Princess will be relieved to hear this precious cargo has been recovered.  You have well earned this payment for services rendered.\n\nIt is good to see dependable folk like you, especially in trying times such as these.",
+        "detail": "After pulling the barrel free from the muck and opening it, a silvery figurine is found packed in fine straw.  It depicts a young, long-haired Paladin with hammer upraised.\n\nThis must be the Menethil Statuette!  You must now return it to Karl Boran in Menethil Harbor."
+      },
+      "sixtyFile": "286-sixty.html",
+      "sixtySHA256": "2c411d8bddfb9ff136d08bec3543b8ecd956b5cfdaaf17a5f65a45c542b9ddec",
+      "sixtyEnglish": {
+        "title": "Return the Statuette",
+        "objective": "Bring Karl Boran the Menethil Statuette.",
+        "detail": "After pulling the barrel free from the muck and opening it, a silvery figurine is found packed in fine straw.  It depicts a young, long-haired Paladin with hammer upraised.\n\nThis must be the Menethil Statuette!  You must now return it to Karl Boran in Menethil Harbor.",
+        "progress": "Do you have the statuette?",
+        "complete": "The captain of the Blind Princess will be relieved to hear this precious cargo has been recovered. You have well earned this payment for services rendered.\n\nIt is good to see dependable folk like you, especially in trying times such as these."
+      },
+      "primarySecondaryDifferences": {},
+      "installedFullMetadata": {
+        "2": [
+          null,
+          [
+            259
+          ]
+        ],
+        "3": [
+          [
+            1242
+          ]
+        ],
+        "8": [
+          "Bring Karl Boran the Menethil Statuette."
+        ],
+        "13": [
+          285
+        ],
+        "26": [
+          [
+            72,
+            75
+          ]
+        ],
+        "S": {
+          "1": "Return the Statuette",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "11": 2625,
+          "17": 11,
+          "22": 98189,
+          "p": 33558662
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Повернення статуетки",
+          "detail": "Витягнувши бочку з багнюки та відкривши її, ви знаходите серез соломи срібну статуетку. Вона зображує молодого, довговолосого паладина, з піднятим над головою молотом.\n\nПевно, це статуетка Менетіла! Тепер її варто повернути Карлу Борану в гавань Менетілів.",
+          "objective": "Принесіть Карлу Борану статуетку Менетіла.",
+          "progress": "Ти {стать:приніс:принесла} статуетку?",
+          "complete": "Капітан \"Сліпої принцеси\" неабияк зрадіє, коли дізнається про повернення такого цінного вантажу. Ти заслуговуєш на гідну винагороду за свою допомогу.\n\nПриємно знати, що є такі надійні люди, на яких можна покластись. Особливо, в такі важкі часи.",
+          "en": "Return the Statuette",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "ecef4ff548293d074cb73b403ae15f032c5d9aa0a7144a8b6d37ae27d5409d13",
+          "reviewedMyanmarSHA256": "6b25dbb3a30cfceafab56e5c7693cafd53272fd618f488bd6ac37b8952e99995",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "6cd23e8c17c60d2fe1c9119ec3162e69cd2912fd8ec56eafddd1ee97fb6cb6ad",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "81ab4bc3d7b7af2eb23fd76c729c46fdb15b594a8fa1807957ec827a64ccfb30",
+          "reviewedMyanmarSHA256": "4be4ed49b61461d73ca8da58b53e9c9b26b76092eb26b0b72a72f27c51cf8ebe",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "3d99e1b2b0f4088b30fd88889fdfec824d4af28a306b8b69a62d6e30ff27a901",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "8e18b636718013806f19769a3edb1976dc9c420a7e38d84004647d715a036651",
+          "reviewedMyanmarSHA256": "6215bd97293e45e06d3bd662ec2f92d67021ea5ad6163a1bc8aa3309208ac2a7",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "608bbf9e99e6d356873b2f096890278bfbaa4351e1a7c6feb31a56415df1be67",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "cfc8256e99195502cdd87d7b09773fe92097ca5d3dd23b2a76f0db43d3faa73e",
+          "reviewedMyanmarSHA256": "444b8adf215704c6b068848df712e9a4fc994377f18f85d8b263b6bc2c410d8d",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "f3c6124bc6bc83298fa9950fbbee9edd24638897223011676a1de81311a6ae3a",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "7c5cb2b151f1e8c26036aaf02253c280607ecfe7c6afeb0828606570487779f1",
+          "reviewedMyanmarSHA256": "6f54707e5d517fdcab4aa62be798302c0f4bfbdf0f4dbec00f09910fdda8ed5b",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "e74cd857c8e493b8a2fbdc0d0d80e574dd76e2a98ed56b1eb6694d11cfa8faf1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 21,
+          "responseIndex": 21,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 98189,
+      "primaryFile": "98189-wowhead.html",
+      "primarySHA256": "3a898981c445ff68942dd15f6cc81950199b19905f9d125840dcd3bae757da1f",
+      "primaryQuestScript": {
+        "category": 11,
+        "category2": 0,
+        "id": 98189,
+        "level": 25,
+        "name": "Return the Statuette",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 200,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "My goodness, it's--it's beautiful!\n\nThe Blind Princess was to deliver this to Menethil Harbor before tragedy struck. We were so close!\n\nI believe it was to be signed for by <a href=\"/forever/npc=2104/captain-stoutfist\">Captain Stoutfist</a> in Menethil Keep just behind us. Why don't you do the honors of finishing the job?",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">What's that you've got there? Let me take a look.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "Return the Statuette",
+        "objective": "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.",
+        "progress": "What's that you've got there? Let me take a look.",
+        "complete": "You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.",
+        "detail": "My goodness, it's--it's beautiful!\n\nThe Blind Princess was to deliver this to Menethil Harbor before tragedy struck. We were so close!\n\nI believe it was to be signed for by Captain Stoutfist in Menethil Keep just behind us. Why don't you do the honors of finishing the job?"
+      },
+      "sixtyFile": "98189-sixty.html",
+      "sixtySHA256": "8783e0d528594e1c351eff9d1f85aee27f73a988090340332a5dc3e01595130a",
+      "sixtyEnglish": {
+        "title": "Return the Statuette",
+        "objective": "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep.",
+        "detail": "My goodness, it's--it's beautiful!\n\nThe Blind Princess was to deliver this to Menethil Harbor before tragedy struck. We were so close!\n\nI believe it was to be signed for by Captain Stoutfist in Menethil Keep just behind us. Why don't you do the honors of finishing the job?",
+        "progress": null,
+        "complete": null
+      },
+      "primarySecondaryDifferences": {
+        "progress": {
+          "primary": "What's that you've got there? Let me take a look.",
+          "sixty": null
+        },
+        "complete": {
+          "primary": "You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.",
+          "sixty": null
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            1242
+          ]
+        ],
+        "3": [
+          [
+            2104
+          ]
+        ],
+        "8": [
+          "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep."
+        ],
+        "13": [
+          286
+        ],
+        "S": {
+          "1": "Return the Statuette",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "11": 279589,
+          "17": 11,
+          "22": 98190,
+          "p": 4230
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Повернення статуетки",
+          "detail": "Боже мій, це ж... це ж чудово!\n\n\"Сліпа Принцеса\" мала доставити це до гавані Менетіл, перш ніж сталася трагедія. Ми були так близько!\n\nГадаю, це мав підписати капітан Стаутфіст у фортеці Менетіл, одразу за нами. Чому б тобі не взяти на себе честь завершити цю роботу?",
+          "objective": "Принесіть статуетку Менетіла капітану Стоутфісту у фортецю Менетілів.",
+          "progress": "Що це в тебе? Дай поглянути.",
+          "complete": "Тобі вдалося забрати її в тих потвор! Не так багато реліквій покійного короля лишилося.",
+          "en": "Return the Statuette",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "ecef4ff548293d074cb73b403ae15f032c5d9aa0a7144a8b6d37ae27d5409d13",
+          "reviewedMyanmarSHA256": "6b25dbb3a30cfceafab56e5c7693cafd53272fd618f488bd6ac37b8952e99995",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "6cd23e8c17c60d2fe1c9119ec3162e69cd2912fd8ec56eafddd1ee97fb6cb6ad",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 22,
+          "responseIndex": 22,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "b58e5d140de3052c74dcc88f925206022f785309d648bba989b1032e9a21bb0c",
+          "reviewedMyanmarSHA256": "41314b2ef527ab00abf25b327c69800a0a61ca746fac35d0dba6dce3282832c8",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "3dec24cc48b03ab60671e6e26e3481c203b39cdc8aab045df4705a4ff5706d59",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 23,
+          "responseIndex": 23,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "c3fa8891853c8f8d0cd9e69dae1381f00496c3e277ad2ca0f476765897144def",
+          "reviewedMyanmarSHA256": "d8982aa2d530b8fb1ea6d7c2e9af0ddbcdb828ef53b1d0384aaf9458a5eb5149",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "a151cf108c57630febc0d15500fce46452afdb67640231fafd91a367317660dc",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 24,
+          "responseIndex": 24,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "a0115294c1cd6bcc7228a4d393f22befbd92d2137e4c2a52f0f1073b4fa3c992",
+          "reviewedMyanmarSHA256": "fae3b7e411d3d88e9384db741c4f28c854fb070eedebe9043e122973eee65c45",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "f21747e0e65ec42a5b1b180299c68f44fc39d2af107392d69d8b7a6b52becf70",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 25,
+          "responseIndex": 25,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "f2f5b55b7bedab1db82353265f5fbc5c361ff62dcdf906b99f0cbb7523b8412b",
+          "reviewedMyanmarSHA256": "071edab310a9c103fa047621ea6d11bc6f0cbceeb8c70c03356d1987a8913280",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "f617f9a29a863128965898e7d7dfde51f3f76b92c1517053273640863abb5495",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 26,
+          "responseIndex": 26,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 98190,
+      "primaryFile": "98190-wowhead.html",
+      "primarySHA256": "2d75d369ba32510a782ac9fd6d6681463549e18670adee8db48fd286fdf3890f",
+      "primaryQuestScript": {
+        "category": 1519,
+        "category2": 0,
+        "id": 98190,
+        "level": 25,
+        "name": "A Friend of the Family",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 200,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, &lt;lad/lass&gt;. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Let us speak, &lt;class&gt;. I can feel you carry something of the Light.</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "A Friend of the Family",
+        "objective": "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.",
+        "progress": "Let us speak, <class>. I can feel you carry something of the Light.",
+        "complete": "You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.",
+        "detail": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, <lad/lass>. Go straight to Highlord Fordragon with this. He'll know where it will be best kept."
+      },
+      "sixtyFile": "98190-sixty.html",
+      "sixtySHA256": "944f5d9550c4d2bd4e6fba09ed49f21d90d49fd4da1a8c6701b22082b8769352",
+      "sixtyEnglish": {
+        "title": "A Friend of the Family",
+        "objective": "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep.",
+        "detail": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, lad/lass. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+        "progress": null,
+        "complete": null
+      },
+      "primarySecondaryDifferences": {
+        "progress": {
+          "primary": "Let us speak, <class>. I can feel you carry something of the Light.",
+          "sixty": null
+        },
+        "complete": {
+          "primary": "You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.",
+          "sixty": null
+        },
+        "detail": {
+          "primary": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, <lad/lass>. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+          "sixty": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, lad/lass. Go straight to Highlord Fordragon with this. He'll know where it will be best kept."
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            2104
+          ]
+        ],
+        "3": [
+          [
+            1748
+          ]
+        ],
+        "8": [
+          "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep."
+        ],
+        "13": [
+          98189
+        ],
+        "S": {
+          "1": "A Friend of the Family",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "11": 279595,
+          "17": 1519,
+          "22": 98191,
+          "p": 4230
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Друг родини",
+          "detail": "Тобі варто негайно віднести це до Штормовія. Хоч я й пишаюся тим, що ця фортеця та гавань носять ім'я короля Теренаса Менетіла II, ми — тиха гавань у дуже лютій бурі ворогів. Тут просто небезпечно.\n\nЗокрема, Драконяча Паща пожертвувала б багатьом, щоб пограбувати щось подібне... і мені страшно подумати, що вони з цим зроблять.\n\nНе турбуйся підніматися по ланцюжку командування з цього приводу, <хлопець/дівчина>. Іди з цим прямо до Верховного лорда Фордрагона. Він знатиме, де це найкраще зберігати.",
+          "objective": "Принесіть статуетку Менетіла верховному лорду Болвару Фордраґону у фортецю Штормовія.",
+          "progress": "Поговорімо, {клас:к}. Я відчуваю, що ти несеш щось, пов'язане зі Світлом.",
+          "complete": "Дякую, що {стать:повернув:повернула} це. Добре, що воно не потрапило до лихих рук.",
+          "en": "A Friend of the Family",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "cc287c0de5a9fbc1ad6f865c29baa1dcb37fe3e4d6d90f8f7143c15323c5ac6c",
+          "reviewedMyanmarSHA256": "1982b0f683437647a9232079b81e85f5e22dcdecbc4c89450095781b09cd8789",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "0769fc950883bb948afda74a777da5afc1535c58a1c93f81654f5c48e95a93c5",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 27,
+          "responseIndex": 27,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": false,
+          "held": true,
+          "englishSHA256": "1e1fdd66b5606c01c50f2f5c2dc1eeb740d7ba34d57fc5a2e965bd6e2134c1dd",
+          "reviewedMyanmarSHA256": null,
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "cf83b66049cba384fe0d4071aa632afcb7ee1ad05b7387b6cffae021ddb6836d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 28,
+          "responseIndex": 28,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "c9acd45fbab86fa02016fee14c5fcfb339316802bb1fdec38ea3d3304a58644d",
+          "reviewedMyanmarSHA256": "b71fb089261d16c9eb6ce21107f838b35c679727fc249d336b957ce516601259",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "3b3a9fbc40e4822dd71e5e86c9eaa588ac855f106038a7ed2955aa2c99d2387c",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 29,
+          "responseIndex": 29,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "3abd35923df894f721324176445c5eccd722680f6ece284d5e378567469ad5ad",
+          "reviewedMyanmarSHA256": "56cc80e0a78ef74fc4875cab0cd149ac780f891fc0a1fb1d5a87813a93323cfa",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "fe65d06ccdc4f4803597192f68abf7a07a805716e6c3ce8200a05231932ff64c",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 30,
+          "responseIndex": 30,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "cfdf40123ad9c7892568d152f27856814f75d229686da33a9881f1f8f289686b",
+          "reviewedMyanmarSHA256": "9957ec45cfa45c03bc5ec424e9febeed1682af3f289e4216f5654ff9fadc5a1c",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "0f0a3bf98798a7e39b3e612552176c723c91d702b17aaf8e71434a37f0240cab",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 31,
+          "responseIndex": 31,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    },
+    {
+      "id": 98191,
+      "primaryFile": "98191-wowhead.html",
+      "primarySHA256": "ad86e6e4cca6e0561b741ecea5ed4af7b7768480b3dcac114b58a69edfbc47ec",
+      "primaryQuestScript": {
+        "category": 1519,
+        "category2": 0,
+        "id": 98191,
+        "itemchoices": [
+          [
+            281296,
+            1
+          ],
+          [
+            281297,
+            1
+          ]
+        ],
+        "level": 25,
+        "name": "A Friend of the Family",
+        "reqlevel": 20,
+        "side": 1,
+        "xp": 2000,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "boundaryHTML": {
+        "Description": "King Terenas was a good man. A devout man. Beloved by his people, and truly the reason we have this Alliance at all.\n\nThe irony is he was humble--he hated these sorts of memorials, and so precious few exist. And of those, few survived Lordaeron's fall.\n\nIt seems the Light has coalesced in this statuette. It would be best kept in the Cathedral of the Light in Cathedral Square, in the center of the city. Bring it to <a href=\"/forever/npc=928/lord-grayson-shadowbreaker\">Lord Grayson Shadowbreaker</a> for safekeeping.",
+        "Progress": "<div id=\"lknlksndgg-progress\" style=\"display: none\">Light be with you, &lt;class&gt;. You are clearly not here for small talk--what is it?</div>\n\n",
+        "Completion": "<div id=\"lknlksndgg-completion\" style=\"display: none\">By the Light... it looks just like his boy...<br /><br />&lt;<a href=\"/forever/npc=928/lord-grayson-shadowbreaker\">Lord Grayson Shadowbreaker</a> pauses for a moment.&gt;<br /><br />This statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.<br /><br />It is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.<br /><br />Thank you, &lt;class&gt;. Light bless you.</div>\n\n"
+      },
+      "primaryEnglish": {
+        "title": "A Friend of the Family",
+        "objective": "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.",
+        "progress": "Light be with you, <class>. You are clearly not here for small talk--what is it?",
+        "complete": "By the Light... it looks just like his boy...\n\n<Lord Grayson Shadowbreaker pauses for a moment.>\n\nThis statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.\n\nIt is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.\n\nThank you, <class>. Light bless you.",
+        "detail": "King Terenas was a good man. A devout man. Beloved by his people, and truly the reason we have this Alliance at all.\n\nThe irony is he was humble--he hated these sorts of memorials, and so precious few exist. And of those, few survived Lordaeron's fall.\n\nIt seems the Light has coalesced in this statuette. It would be best kept in the Cathedral of the Light in Cathedral Square, in the center of the city. Bring it to Lord Grayson Shadowbreaker for safekeeping."
+      },
+      "sixtyFile": "98191-sixty.html",
+      "sixtySHA256": "4dfdeeef400b20ab8b1ea86fd1e7d42845ac90e298bcf6a1e2543259b4b91741",
+      "sixtyEnglish": {
+        "title": "A Friend of the Family",
+        "objective": "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light.",
+        "detail": "King Terenas was a good man. A devout man. Beloved by his people, and truly the reason we have this Alliance at all.\n\nThe irony is he was humble--he hated these sorts of memorials, and so precious few exist. And of those, few survived Lordaeron's fall.\n\nIt seems the Light has coalesced in this statuette. It would be best kept in the Cathedral of the Light in Cathedral Square, in the center of the city. Bring it to Lord Grayson Shadowbreaker for safekeeping.",
+        "progress": null,
+        "complete": null
+      },
+      "primarySecondaryDifferences": {
+        "progress": {
+          "primary": "Light be with you, <class>. You are clearly not here for small talk--what is it?",
+          "sixty": null
+        },
+        "complete": {
+          "primary": "By the Light... it looks just like his boy...\n\n<Lord Grayson Shadowbreaker pauses for a moment.>\n\nThis statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.\n\nIt is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.\n\nThank you, <class>. Light bless you.",
+          "sixty": null
+        }
+      },
+      "installedFullMetadata": {
+        "2": [
+          [
+            1748
+          ]
+        ],
+        "3": [
+          [
+            928
+          ]
+        ],
+        "8": [
+          "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light."
+        ],
+        "13": [
+          98190
+        ],
+        "S": {
+          "1": "A Friend of the Family",
+          "4": 20,
+          "5": 25,
+          "6": 4294967373,
+          "11": 279598,
+          "17": 1519,
+          "p": 4230
+        }
+      },
+      "uaVariants": [
+        {
+          "title": "Друг родини",
+          "detail": "Король Теренас був доброю людиною. Побожною людиною. Улюбленим своїм народом, і саме тому ми взагалі маємо цей Альянс.\n\nІронія полягає в тому, що він був скромним — він ненавидів такі пам'ятки, і їх так мало. І з них мало хто пережив падіння Лордерона.\n\nЗдається, Світло об'єдналося в цій статуетці. Найкраще її зберігати в Соборі Світла на Соборній площі, в центрі міста. Віднесіть її лорду Грейсону, Тіньолому, для безпечного зберігання.",
+          "objective": "Принесіть статуетку Менетіла лорду Сивенку Тінелому в Собор Світла.",
+          "progress": "Нехай Світло буде з тобою, {клас:к}. Ти явно тут не заради балачок. Що сталося?",
+          "complete": "Світло милостиве... Він так схожий на свого сина...\n\n<Лорд Сивенко Тінелом на мить замовкає.>\n\nЦя статуетка справді благословенна. Її зв'язок із Теренасом, те, що вона пережила вчинок тієї потвори... Для тих, хто вірить у її силу, вона має велику міць.\n\nПоки що найкраще залишити її тут, під охороною ордену паладинів. Ми медитуватимемо над нею, щоб більше дізнатися про її дари. Можливо, вона допоможе нам у темні часи, що насуваються.\n\nДякую, {клас:к}. Нехай Світло благословить тебе.",
+          "en": "A Friend of the Family",
+          "faction": "Alliance"
+        }
+      ],
+      "fields": {
+        "title": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "cc287c0de5a9fbc1ad6f865c29baa1dcb37fe3e4d6d90f8f7143c15323c5ac6c",
+          "reviewedMyanmarSHA256": "1982b0f683437647a9232079b81e85f5e22dcdecbc4c89450095781b09cd8789",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "0769fc950883bb948afda74a777da5afc1535c58a1c93f81654f5c48e95a93c5",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 32,
+          "responseIndex": 32,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "detail": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "34f30107a290e47dd4135ebeaddbdd2ef6e8d4183d4a540541f3337c865db883",
+          "reviewedMyanmarSHA256": "ae76e09f237fa62a0bbea0a6fda6a52900af35372f7cc68483603da272b987b6",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "2a00a319e62ee47372893b2f6a23318bf7bb3651f4db6772fa6f28128fc2cb0d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 33,
+          "responseIndex": 33,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "objective": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "3a4df55f8bb03699f0dcb7947d0b39b2fe75e9ae8b7704a670cce94969a8bfa2",
+          "reviewedMyanmarSHA256": "2f6bf3999f19865082a170824fe6d0758bd43cabf179222580cf6be561285605",
+          "sixtyAvailable": true,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "6c0491424e480c4d417f4e9586bac33af4791d5226fbd3762e065fd02efaaf5d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 34,
+          "responseIndex": 34,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "progress": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "250981e12f4ad617eb7521fbfce54c3dc0723d2803d2f0a54e1d54d1e7eaeecc",
+          "reviewedMyanmarSHA256": "de985ce5266694d8481facd7a663e889a6a6dd5b13b22f2288c33eadb227c8d0",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "5c7816fc3f5ae92d6699bd00de508a433ef4efb82190c9cb42390c94a53e828f",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 35,
+          "responseIndex": 35,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        },
+        "complete": {
+          "sourceAvailable": true,
+          "enabled": true,
+          "held": false,
+          "englishSHA256": "9986a460fe12cae45a5c784fee0e3f1afdcbb3bdbdc709d3921fbb2b8af6ff5a",
+          "reviewedMyanmarSHA256": "04cbcd561c98d96b92b0989468612a3d0508e5e407c9071aac496d22a6804fd2",
+          "sixtyAvailable": false,
+          "uaFieldAvailable": [
+            true
+          ],
+          "rawDeepLSHA256": "f66be1b57db945211942d3754399bb2f4eabec174427b3fc7851220fb8e71f5f",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "responseTargetIndex": 0,
+          "actualRawChain": "PASS"
+        }
+      }
+    }
+  ]
+}

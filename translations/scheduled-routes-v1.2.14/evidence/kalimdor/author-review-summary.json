@@ -1,0 +1,61 @@
+{
+  "status": "Authoring and separate author bilingual review complete; frozen for independent review",
+  "completedAtUTC": "2026-11-21T03:22:28.535176+00:00",
+  "quests": 20,
+  "enabledFields": 93,
+  "fieldCounts": {
+    "title": 20,
+    "detail": 19,
+    "objective": 19,
+    "progress": 15,
+    "complete": 20
+  },
+  "sourceAvailableFields": 94,
+  "rawDeepLRequests": 5,
+  "rawDeepLRequestCharacters": [
+    4330,
+    4239,
+    4392,
+    4255,
+    1005
+  ],
+  "trueSourceAbsences": 6,
+  "heldFields": [
+    {
+      "id": 6283,
+      "field": "progress",
+      "reason": "Both current English sources omit referent in with out...; UA supplies her without current live support. Full raw/editorial proposal and provenance in held-fields.json."
+    }
+  ],
+  "routes": [
+    "Ashenvale Hunt trophies2/23/24 and all-three reward247",
+    "Alliance1059 Charred Vale travel after1057",
+    "Both-faction Windshear/Ratchet Ziz/Sputtervalve1483->1093->1094->1095->1096",
+    "Horde Braelyn1087->1088->1089",
+    "Horde Sun Rock/Charred Vale6282->6283,86576,6301->6381,6393,6284"
+  ],
+  "checks": {
+    "status": "passed for completed groups",
+    "quests": 20,
+    "enabledFields": 93,
+    "unavailableFields": 6,
+    "nullFields": 7,
+    "heldFields": 1,
+    "heldProposalIntegrity": "lint, exact placeholders/numbers, paragraph counts and raw provenance passed",
+    "rawProvenanceFieldsVerified": 94,
+    "linguisticLintIssues": [],
+    "build_release.validate_fields": "passed",
+    "paragraphCounts": "passed 93fields",
+    "rawRequestResponseIndexHashes": "verified against actual files and exact input/output strings",
+    "nativeMyanmarProofreading": "pending",
+    "liveClientVerification": "not tested",
+    "independentAssistedReview": "not performed"
+  },
+  "sourceDiscrepancies": "See source-discrepancies.json. Current Forever primary controls exact markers and available replies; fresh60.tools actually accessible. No secondary/UA-only extra emote/reward text grafted.6284two-foot current English retained over UA two-meter.",
+  "newPronunciationStatus": "Assisted editorial proposals built from maintained cores, pending native review.",
+  "independentAssistedReview": "not performed; fresh reviewer follows",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "publication": "No Git/package/publication edits by partition author."
+}

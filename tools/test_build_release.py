@@ -41,5 +41,42 @@ class SourceHoldReportTests(unittest.TestCase):
             reviewed_term_test_source('Changed historical probe',resolved)
 
 
+
+class ReviewedRouteExclusionTests(unittest.TestCase):
+    def exclusion_probe(self):
+        import re
+        original=(BASE/'BuildSource/tests.lua').read_text(encoding='utf8')
+        pattern=r"for _,id in ipairs\(\{[^\n]+\}\) do\n  assert\(not A\.quests\[id\],'Out-of-scope/placeholder quest released'\)\nend"
+        return re.search(pattern,original).group()
+
+    def reviewed(self):
+        return {q:{f:'Reviewed source text' for f in ('title','detail','objective','complete')} for q in ('467','466')}
+
+    def run_probe(self,source,extra=False):
+        from lupa.lua51 import LuaRuntime
+        lua=LuaRuntime(register_eval=False,register_builtins=False)
+        lua.execute("A={quests={[467]={en=\"Stonegear's Search\"},[466]={en='Search for Incendicite'}}}")
+        if extra:lua.execute("A.quests[5841]={en='Unreviewed placeholder'}")
+        lua.execute(source)
+
+    def test_reviewed_stonegear_routes_leave_only_their_historical_exclusions(self):
+        from lupa.lua51 import LuaError
+        original=self.exclusion_probe()
+        with self.assertRaises(LuaError):self.run_probe(original)
+        current=reviewed_hold_test_source(original,self.reviewed())
+        self.run_probe(current)
+        with self.assertRaises(LuaError):self.run_probe(current,extra=True)
+        self.assertEqual(reviewed_hold_test_source(original,{}),original)
+        self.assertIn('467,466',(BASE/'BuildSource/tests.lua').read_text(encoding='utf8'))
+
+    def test_title_only_placeholder_cannot_remove_route_exclusion(self):
+        with self.assertRaises(AssertionError):
+            reviewed_hold_test_source(self.exclusion_probe(),{'467':{'title':'Unreviewed title only'}})
+
+    def test_changed_snapshot_exclusion_anchor_requires_explicit_review(self):
+        with self.assertRaises(AssertionError):
+            reviewed_hold_test_source('Changed historical exclusion',self.reviewed())
+
+
 if __name__=='__main__':
     unittest.main()

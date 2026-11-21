@@ -190,6 +190,22 @@ def reviewed_hold_test_source(source_text, drafts):
             source_text=source_text.replace(old,new)
     if drafts.get('98021',{}).get('complete'):
         source_text=source_text.replace('unverified elf branch and placeholder held.','reviewed source holds and placeholder protections.')
+    # The preserved starter snapshot excluded these travel quests from its
+    # original scope. A composed, field-reviewed later route may include them.
+    # Adapt only the build copy and retain all other placeholder exclusions.
+    reviewed_routes={'467':"Stonegear's Search",'466':'Search for Incendicite'}
+    released={qid:title for qid,title in reviewed_routes.items() if drafts.get(qid)}
+    if released:
+        for qid in released:
+            assert all(drafts[qid].get(f) for f in ('title','detail','objective','complete')), 'Reviewed route requires its sourced dialogue fields'
+        excluded=[5841,7673,7674,7675,7676,467,466,86776,256,2500,2501,3182]
+        old="for _,id in ipairs({"+','.join(map(str,excluded))+"}) do\n  assert(not A.quests[id],'Out-of-scope/placeholder quest released')\nend"
+        assert source_text.count(old)==1, 'Historical route-exclusion assertion changed; review the test update'
+        remaining=[qid for qid in excluded if str(qid) not in released]
+        new="for _,id in ipairs({"+','.join(map(str,remaining))+"}) do\n  assert(not A.quests[id],'Out-of-scope/placeholder quest released')\nend"
+        for qid,title in released.items():
+            new+="\nassert(A.quests["+qid+"] and A.quests["+qid+"].en=="+json.dumps(title)+",'Source-reviewed route English identity changed')"
+        source_text=source_text.replace(old,new)
     return source_text
 
 

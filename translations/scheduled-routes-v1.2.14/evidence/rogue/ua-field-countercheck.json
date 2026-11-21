@@ -1,0 +1,782 @@
+[
+  {
+    "id": 2378,
+    "primaryEnglishTitle": "Find the Shattered Hand",
+    "uaEnglishTitles": [
+      "Find the Shattered Hand"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Пошуки Розтрощеної Руки",
+        "detail": "Ти добре {стать:послужив:послужила} Смертоловам, {ім'я}, але схоже, що настав тобі час рухатися далі. У тебе гарні здібності у непомітності та обмані, але тобі все ще потрібно багато тренуватися.\n\nУ Смертоловів є союзники серед Розтрощеної Руки. Йди до тих, хто зможе допомогти нам — знайди Шентула в Орґріммарі.",
+        "objective": "Доберіться до Оргріммару та поговоріть з Шентулом в Розколині Тіні.",
+        "progress": null,
+        "complete": "Так ось кого могутні союзники прислали Шентулу? Якось не вражає...",
+        "en": "Find the Shattered Hand",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "ee50bc7d7152f2b7168c1c5561a068e11712269f64732ddd2f898cc93975f91e"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "eda5318be9e2274742c8a9d047f4c90299c4b2b4149ddfaddee60d7e6f766439"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "b32192529df0f5a269e8d215c147d49bc19cdb07c9d6763e168fc3432df25fd5"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "88b38bdc442eff489983e482d888d08f95b84c1887a0e817d647f2a41a373542"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2380,
+    "primaryEnglishTitle": "To Orgrimmar!",
+    "uaEnglishTitles": [
+      "To Orgrimmar!"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "До Орґріммару!",
+        "detail": "Ти, звісно, далеко ще не фахівець з непомітності та обману, проте все це може змінитися. Принаймні, начальство явно звернуло на тебе увагу, оскільки сам Шентул запам'ятав твоє ім'я.\n\nРушай звідси на північ, до Орґріммару, та поговори з Шентулом в Розколині Тіні.",
+        "objective": "Поговоріть з Шентулом в Розколині Тіні в Орґріммарі.",
+        "progress": null,
+        "complete": "Дуже важливо, щоб Розтрощена Рука зберігала пильність перед обличчям змін, які Тралл має намір запровадити в Орді. Нашої чисельності буде недостатньо, щоб змагатися з його владою — ми маємо покладатись на непомітність та хитрість.",
+        "en": "To Orgrimmar!",
+        "faction": "Horde"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "4d14ba2a7b1731434a08251173aaebc4617b11cb7d3f4d6c9f8dc2a4557285e6"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6b4dbf23ef1a642d0d6b26d3d2239d2fe27c3983460359905b787d30f87f4e0f"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "d9ed4992e007306a5fbf5ed9fd4a476be537decaaa1ecc1284b230ded2ae4014"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "a62e71380242240a9f17b33f5efa8de182d10cb79daa15cc84f2981a39c39658"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Horde"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2379,
+    "primaryEnglishTitle": "Zando'zan",
+    "uaEnglishTitles": [
+      "Zando'zan"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Зандо'зан",
+        "detail": "Однієї твоєї рішучості не вистачить, щоб подолати всі перешкоди, які чекають на нас.\n\nПоговори із Зандо'заном, щоб почати навчання як агент Розтрощеної Руки.\n\nТільки тоді, коли ти опануєш навички непомітності та злодійства, ти зможеш зробити наступний крок назустріч своєї долі.",
+        "objective": "Поговоріть із Зандо'заном в Розколині Тіні.",
+        "progress": null,
+        "complete": "Можливо, Зандо'зан помилився. Зандо'зан просить вибачення.",
+        "en": "Zando'zan",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "18910a43f8d7de2c4df05c9da81c79f67f9a8739c840413dff44eacf3f40c678"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "fd1a3d97180e0356162a5bbf1b5713541647892bb8902ad6bf038028b1c5fc8c"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6204694346c67a37d03fb805f4c5c5f00a8a150a18b61d9be8c089ed17581df1"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "67a8ca9fe8e6b0696000ba5d528e26c49939da60bc3f04664180d217c4d7944d"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2382,
+    "primaryEnglishTitle": "Wrenix of Ratchet",
+    "uaEnglishTitles": [
+      "Wrenix of Ratchet"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Ренікс з Брашпиля",
+        "detail": "Зандо'зан бачив це! Так, день близький! Смерть Тралла... кинджал у його спині, отрута в його венах... Зандо'зан сказав занадто багато.\n\n{ім'я}! У Зандо'зана є завдання для тебе! {ім'я} має вирушати до Брашпиля, на схід від Перехрестя, та поговорити з Реніксом Жалюгідним. Йди!",
+        "objective": "Відправляйтеся до Брашпиля та поговоріть з Реніксом Жалюгідним.",
+        "progress": null,
+        "complete": "Ще {стать:один:одна}? Останні п'ятеро, яких прислав мені цей божевільний троль, пішли на корм акулам. Сподіваймося, що ти протримаєшся краще, ге?",
+        "en": "Wrenix of Ratchet",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "58f07cef2fcdf5c252b3ac6af9ef76c0bffedf9eb78b5587f43e8c5ab7d29803"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "ec280e16d4206ef4c90879f373d452cf0e8d8b4de7e59e18f25338ad95cfe853"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "2f94e03e30d055af406abf27ed2f95fd590eb844d4f2bcdf7c8e896698a4f9f4"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6755174d228556e7ebe2f4d1a33506d4417386516ce4e14253a0a07d35e9ad00"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2381,
+    "primaryEnglishTitle": "Plundering the Plunderers",
+    "uaEnglishTitles": [
+      "Plundering the Plunderers"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Пограбувати грабіжників",
+        "detail": "Не хочу лякати тебе, {ім'я}, але останні п'ять крадіїв, яких я відправив викрасти скарб Південних морів, повернулися до мене по частинах!\n\nНа південь вздовж узбережжя, ти знайдеш корабель флібустьєри Південних морів — \"Припливну Бритву\". В його трюмі лежить скарб Південних морів. На другій палубі цього корабля знаходиться піратське лігво, де вони тренують своїх крадіїв.\n\nПроникни на цей корабель, викради скарб та принеси його мені. Якщо тобі знадобиться потренувати твої навички злому — скористайся піратським лігвом, але будь {стать:обережний:обережна}!",
+        "objective": "Принесіть скарб Південних морів Реніксу Жалюгідному в Брашпиль. Не забудьте взяти В.Х.М.К та інструменти зломника з гізмотронного апарату Ренікса. Вам знадобляться ці предмети для виконання завдання.\n\nЯкщо на вас нападуть вороже налаштовані папуги — скористайтеся В.Х.М.К.!",
+        "progress": "Що ж, принаймні у тебе всі кінцівки на місці. Тобі вдалося знайти скарб?",
+        "complete": "Неймовірно! Прекрасно! Просто дивовижно! У тебе є талант, {ім'я}, або ж тобі неймовірно щастить!\n\nОсь твоя частка. Думаю, ти знайдеш їй краще застосування, ніж я.",
+        "en": "Plundering the Plunderers",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "2613a5d2233e12f75b280815387c715f2c1fa811831eabab9176523250bb7230"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "b6fd78cc1ff1dd3de48f0e6603be11c955674ddb660eca70393f1c261875c02a"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "25a0ea46724f1a7a6c91735646070e852bb99fc14951ca1fd6669b259ca1c430"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "9c49642a1926a31e792ab713a2fd90ab3eb2530b44c73908c229c3f26f8ac1f1"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "09f504c35c8cac56ba88ff1705fadeffe982b441c67616a7ca6bf8545fcd0baa"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2360,
+    "primaryEnglishTitle": "Mathias and the Defias",
+    "uaEnglishTitles": [
+      "Mathias and the Defias"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Матіас та Непокірні",
+        "detail": "Ти ледь не {стать:запізнився:запізнилася}, {ім'я}. Розвідка ШУР звітує про незвичну активність Непокірних в Західному краї.\n\nСхоже, що вони захопили покинуту сторожову вежу Альянсу на південний схід від Сторожового пагорба і використовують її для контрабанди товарів з Багрянокряжжя.\n\nВідправляйся до Західного краю та зв'яжися з агентом Кірнен для доповіді. Ти знайдеш її поруч з вежею.\n\n...і, {ім'я}, якщо тебе викриють — ШУР заперечуватиме будь-який зв'язок з тобою.",
+        "objective": "Знайдіть агента Кірнен в Західному краї та поговоріть з нею.",
+        "progress": null,
+        "complete": "Матіас нарешті відправив ще одного агента мені на допомогу, ге? Що ж, я сподіваюся, він готовий почути погані новини.",
+        "en": "Mathias and the Defias",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "02a56228281c7a9609ce4d3de409296a686fb3d699425d6810b47131dbe1def5"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "a828d22723d3dff6ca79a345818614b271e19eae3cc8515b40e8ed3d49fbbec8"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "821b74d48f68c0b41156afaa083f0c59465926dcf22af26259e518279865c0ef"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "66bb0476a7787ddba2677a7693279666c1908e505dd0bc90db539824f50869e6"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Alliance",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2359,
+    "primaryEnglishTitle": "Klaven's Tower",
+    "uaEnglishTitles": [
+      "Klaven's Tower"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Вежа Клейвена",
+        "detail": "Я вже кілька тижнів стежу за цією вежею, {ім'я}. Нещодавно сюди прийшов великий вантаж зі Смерколісся, а разом з ним і ці охоронці.\n\nХто вони такі? Ми можемо тільки здогадуватись. Можу сказати лиш одне — це не люди.\n\nТак чи інакше, у вантажі була скриня, яку, як я вважаю, ці потвори й охороняють. У зомбі з шипами є ключ, який нам потрібний.\n\nЗабери цей ключ, проберися у вежу та з'ясуй, що лежить у цій скрині. Віднеси свої знахідки Матіасу.",
+        "objective": "Викрадіть ключ від вежі Непокірних, проникніть туди та дізнайтеся, що лежить в скрині Смерколісся. Отримайте будь-яку інформацію та поверніться до Матіаса Гича в Штормовій. Прочитайте записи Кірнен, щоб дізнатися більше про вежу.",
+        "progress": "Є новини від Кірнен?",
+        "complete": "Це пояснює присутність мерців Непокірних, яких ви з Кірнен бачили біля вежі, {ім'я}. Це також може пояснити причетність ТзНБ \"Авантюра\" і ці дивні вантажі зі Смерколісся.\n\nЗгідно з цією книгою, в Тернистій долині тролі Занзіла знайшли спосіб воскрешати мертвих завдяки зіллю... а точніше, отруті.\n\nВід тебе не буде користі в ШУР без знань про отрути, {ім'я}, особливо коли формула воскресіння мертвих майже в наших руках.",
+        "en": "Klaven's Tower",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "a6b4019671ae90e40f6ae8f44d705e7628664a1655799dcaf25b2e3cd8db7a2a"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "7bb52c8aaa0ce88ebcb8c43b2bbaeea48478b4209f6eaaafd0644760fb12b7a5"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "1eb4ac8d301b5e86316c29f1f389bc5358eb751f69591d6f9b17335f93f9cdef"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "ddd4bb7e9a3a1c6dd033914bf335ef7ca2825ccccc3588fbd993dbb06bf13bbf"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "1abf8abdbcc593cbf998e83c0f2b8fa4615c9ba76d1a3c32a5f01e8da0cc2c80"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Alliance",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2607,
+    "primaryEnglishTitle": "The Touch of Zanzil",
+    "uaEnglishTitles": [
+      "The Touch of Zanzil"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Дотик Занзіла",
+        "detail": "Схоже, що ти {стать:приніс:принесла} більше інформації, ніж я очікував. Це справді дивний поворот подій, {ім'я}.\n\nЛіки? Хм-м... спускайся до підвалу та поговори з Доком Міксільпіксіль — він зможе допомогти.",
+        "objective": "Поговоріть з Доком Міксільпіксіль в підвалі бараків.",
+        "progress": null,
+        "complete": "Ти саме вчасно! Поклади сир на стіл та котися звідси. Осборн на виході заплатить тобі.",
+        "en": "The Touch of Zanzil",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6f97c2a82ae788729b5ca85ac7a2b1d7298866a98b3af7bbef235b79c2c58214"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "18044ec7a2060ebbe48d6f659481fb6efa56b9993071f1edbd2f0d5136e2a352"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "f689b3ef3cfed23a2548883dfbf05572a2045c8d03a5ca729d5e55d1c51a0ecf"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "397f3d8e3a5b4f300ad0a14af0ccfa1eec2e4288cafdf6a106593d2699938e2d"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Alliance",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2608,
+    "primaryEnglishTitle": "The Touch of Zanzil",
+    "uaEnglishTitles": [
+      "The Touch of Zanzil"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Дотик Занзіла",
+        "detail": "Йой, ти виглядаєш як мрець. Поправка — мерців я бачив, ти виглядаєш гірше. Ви, {стать:пане:панно} були б тим, що виплюнула смерть.\n\nХа! Ти чув, Безрук? Запиши це!\n\n*Кхе-кхе* Хм, так, щоб я зміг тобі допомогти, мені потрібно взяти твою кров. Не бійся, буде боляче лише перші... п'ятдесят разів... лягай (/lay), як будеш {стать:готовий:готова} до процедури, {ім'я}.",
+        "objective": "Ляжте (/lay), щоб Док Міксільпіксіль оглянув вас. Як він знайде ліки, якщо не знатиме від чого?",
+        "progress": "Як будеш {стать:готовий:готова} до обстеження — лягай (/lay) на підлогу і я почну флеботомію.",
+        "complete": "Дай мені час, щоб порадитися зі своїми колегами, {ім'я}. Докторе Монтгомері, пане Безрук, консиліум!",
+        "en": "The Touch of Zanzil",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6f97c2a82ae788729b5ca85ac7a2b1d7298866a98b3af7bbef235b79c2c58214"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "160bd6a6394f3ba8446970a7add09338904257931877c6e677632781e85c27b1"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "f04f4444709b7cc3b4127fc1b5e2e3bcd5ecff0081015771f1de823610e39830"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "ecb356dabda8134bbdebda7cbeccd7761dfeea7a6c3430cdc92a4790568b7fba"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "4203fcb69e8fe788ce384a201389ddc91e96c5be9f50fb1c675ed08c71463653"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Alliance",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2609,
+    "primaryEnglishTitle": "The Touch of Zanzil",
+    "uaEnglishTitles": [
+      "The Touch of Zanzil"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Дотик Занзіла",
+        "detail": "Це очевидно, {ім'я}. У тебе цетит.\n\nНа щастя, у мене є ліки проти цетиту.\n\nОсь, що мені потрібно: один пучок простих польових квітів, один свинцевий флакон, одна бронзова трубка та останнє, та не менш важливе, одна котушка світло-оливкових шовкових ниток. Старенька Емма залишила котушку для мене в \"Найтоншій пряжі\". Ти знайдеш цю крамницю вздовж каналів.\n\nХутчіше, {ім'я}, і постарайся нікого не торкатися, поки не вилікуєшся. А, і доктор Монтгомері каже, що тобі потрібен душ. Це його слова, не мої.",
+        "objective": "Принесіть Доку Міксільпіксіль один пучок простих польових квітів, один свинцевий флакон, одну бронзову трубку та одну котушку світло-оливкових шовкових ниток. Цетит сам себе не вилікує, {стать:юначе:юначко}.",
+        "progress": "Якщо ти хочеш вилікуватися від цетиту, тобі доведеться докласти більше зусиль, {ім'я}. Де реагенти для ліків?",
+        "complete": "Що я роблю? А на що це схоже? Я роблю ліки проти твого цетиту! Не відволікай мене, {ім'я}!\n\nЩе кілька секунд. Ось! Просто попшикай на себе, цим... ем... чудовим лікарським засобом, і будеш як {стать:новенький:новенька}!",
+        "en": "The Touch of Zanzil",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "6f97c2a82ae788729b5ca85ac7a2b1d7298866a98b3af7bbef235b79c2c58214"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "4d68a06135da5ac20c2ecaac438e672718dec6d4c183a6dfb6ce52b4ffe1ff3e"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "858342b1ddeaeb89b7d3d8b315919622c2d7f22039efdb07880a103b8bb8a9e4"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "bbfd3a285a21f40bf5faf88fdea72f8d536d4b07073a178fc6e040e09de4db53"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "e4b072a8e5f200bbc5968caa671d8e8a500a6a3cd6d52b51e01c6f3eadd21114"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Alliance",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2460,
+    "primaryEnglishTitle": "The Shattered Salute",
+    "uaEnglishTitles": [
+      "The Shattered Salute"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Вітання Розтрощеної Руки",
+        "detail": "Тепер, коли ти {клас} Розтрощеної Руки, тобі слід вивчити вітання Розтрощеної Руки. Це єдиний спосіб ідентифікувати члена Руки.\n\nДивись, вчись, повторюй.",
+        "objective": "Повторіть вітання Розтрощеної Руки за Шентулом.",
+        "progress": "Повтори!",
+        "complete": "Молодець, {ім'я}. Тепер ми можемо продовжувати.",
+        "en": "The Shattered Salute",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "1eb67f327372cc066bad5e33c8858285d7de46e4cf09cf9204a9610f14c2cf29"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "38ff73ed07d0dab42135a2d4521cbaae2443247b4c7d10b388c7367ba0206a32"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "1c72e3abd6a986132d7e9fab67453d1b6b2a860987f239c48f284d7405b025e2"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "a5bee4b16e4d61c8b0cce5a86cb5bcb61d97f4bd887e65a3542bb9fdc9702b99"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "cfccdf218c726ba3d7f81b4ad8ef792897212b6390720390e69b66e2013034b9"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2458,
+    "primaryEnglishTitle": "Deep Cover",
+    "uaEnglishTitles": [
+      "Deep Cover"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Надійне прикриття",
+        "detail": "ТзНБ \"Авантюра\"... Можливо, ти {стать:чув:чула} про них?\n\nПротягом року ми працювали над тим, щоб один з наших агентів втерся їм у довіру. І завдяки наполегливій праці та ретельному плануванню нам це вдалося.\n\nНещодавно ми отримали звістку, що ТзНБ \"Авантюра\" планує щось масштабне. Вирушай до вежі ТзНБ \"Авантюра\", що на півночі від Драговини шламу, та зв'яжися з нашим таємним агентом, орударем Фіззулом.\n\nКоли знайдеш вежу, скористайтеся цим сигнальним пістолетом, а потім підійди до Фіззула та покажи йому вітання Розтрощеної Руки.",
+        "objective": "Відправтеся до вежі ТзНБ \"Авантюра\" північніше Драговини шламу та зв'яжіться з таємним оперативником Розтрощеної Руки, орударем Фіззулом.\n\nКоли вежа буде в полі зору, скористайтеся сигнальним пістолетом, щоб повідомити орударю Фіззулу про своє прибуття. Випустіть ДВІ сигнальні ракети, після чого підійдіть до орударя Фіззула та продемонструйте вітання (/salute) Розтрощеної Руки.\n\nЦі дії повинні бути виконані в правильному порядку, оскільки Фіззул буде нападати на всіх незнайомців.",
+        "progress": null,
+        "complete": "Приємно бачити ще одного агента Розтрощеної Руки в цих краях, проте сигнальний пістолет — це вже занадто!\n\nНаступного разу, як захочеш поговорити зі мною, дмухни у цей свисток двічі, і я зрозумію що ти союзник.",
+        "en": "Deep Cover",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "0af9b7fd4fb359cf75b332ef5d01a7b63dd2f282f63a11f2a0b690fb3c275112"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "0563aa8dd32bbefe06c526998fa89c9bda6b2049fd90b6cb5ddc4b5759682ef6"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "20e0367a16d6e7b27705053c1a1346b7b20a4bdec386b051fd39001b35b6a626"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "7ccd6530bdcf61fbf1814583d82f399fa956146492e394313f3d1c3bd7de5a9c"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2478,
+    "primaryEnglishTitle": "Mission: Possible But Not Probable",
+    "uaEnglishTitles": [
+      "Mission: Possible But Not Probable"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Місія здійсненна, але малоймовірно",
+        "detail": "Тобі доведеться вкрасти ключ від вежі у штейгера Силіксиза, {ім'я}. Як ви отримаєте ключ, збережи його — він мені ще знадобиться.\n\nПам'ятай, отрута послабила всіх у цій вежі. Скористайся своїми здібностями, щоб принести хаос і руйнування її мешканцям. Вбий їх всіх, ніякого милосердя!\n\nКоли все всередині перетвориться на криваву баню, зламай скриню Ґаллівікса та викради з неї запас зміненої суміші Занзіла. Принеси голову та суміш Шентулу в Орґріммар.",
+        "objective": "Викрадіть ключ від вежі Силіксиза у штейгера Силіксиза, а потім вбийте двох мутованих мерців, двох патрульних та двох спостерігачів ТзНБ \"Авантюра\".\n\nВбийте старшого штейгера Ґаллівікса та заберіть його голову, потім зламайте замок на скрині Ґаллівікса та викрадіть запас зміненої суміші Занзіла. Принесіть запас суміші та голову Ґаллівікса Шентулу в Орґріммар для отримання подальших вказівок.",
+        "progress": "У тебе є що доповісти, {ім'я}?",
+        "complete": "Бідний Фіззул, він був гарним агентом — одним з кращих. На жаль, це ціна, яку ми платимо, {ім'я}. Бути польовим агентом Розтрощеної Руки — це небезпечна робота.\n\nТи чудово {стать:впорався:впоралася} зі своїм завданням, {клас:к}. Добре, що тобі вдалося вижити, адже ти можеш служити нам далі.",
+        "en": "Mission: Possible But Not Probable",
+        "faction": "Horde"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "690699fc4f35d4edb06870d05a0c1a4051a350973ff223f79cfd3129bc9516ae"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "3ff8a4be3001a2e1b5ff886143b0c6a115a4c9a086ade0cd997b10fbd6a9b2fb"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "abf552aae3b5563496282e1abf00d01f5157248925e72b58e468400b106f79d7"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "28b15e8e59fe4c4032ca28ed151b36ca3fb6bbdf367e2a494020c2cf585ec1f3"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "01edc2d0f4fc08fb66e63a34106d2c5b726eb279b598939d0f7d0b9d3706d59d"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Horde"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2479,
+    "primaryEnglishTitle": "Hinott's Assistance",
+    "uaEnglishTitles": [
+      "Hinott's Assistance"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Допомога Гінотта",
+        "detail": "Віднеси зразок суміші Сержу Гінотту в Тарренський Млин.\n\nЯкщо хтось може вилікувати тебе — це Серж. Він тебе навчить усього, що пов'язано з отрутами... якщо ти, звісно, виживеш.",
+        "objective": "Відправтеся до Тарренського Млина в передгір'я Гіллзбраду та доставте зразок суміші Занзіла Сержу Гінотту.\n\nЩоб дістатися Тарренського Млина, сядьте на дирижабль та відправтеся до Підмістя, йдіть південною стежкою через Срібнохвой в напрямку Гіллзбраду. Слідкуйте за знаками!",
+        "progress": "Що це???",
+        "complete": "Ти {стать:такий блідий:така бліда}, виглядаєш дуже апетитно, {клас:к}. І що це за неприємний запах іде від тебе?? Я мушу знати!",
+        "en": "Hinott's Assistance",
+        "faction": "Both"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "125d581876f9ea9251e0dfc9e4d694e9588ead9f5c5d9499de8546f06468d53b"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "acac432bda7aaf2fe8b716d92f95919a1757209e8aa126e305c636c2ec5d2836"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "78da8d29d3333713aeed2080b560bc1ee73036e1e02702e24589896ea6c0878d"
+      },
+      "progress": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "0f7d17e6c56e5e4fddc6a2df69384270b5688a4f302be43f451c2378b38a27ad"
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "0acdf8a0d5db5e9ed78dee2ca797d2d35edae2d168c6d626d0adeaf044248104"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Both"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  },
+  {
+    "id": 2480,
+    "primaryEnglishTitle": "Hinott's Assistance",
+    "uaEnglishTitles": [
+      "Hinott's Assistance"
+    ],
+    "uaTitleAliasStatus": "exact match",
+    "uaVariants": [
+      {
+        "title": "Допомога Гінотта",
+        "detail": "Я ніколи не бачив такого дивовижного ефекту від отрути! Занзіл, кажеш? Ніколи не чув про нього, проте, маю віддати йому належне за створення такої чудової суміші.\n\nНу що ж, я вилікую тебе, а потім навчу користуватися отрутою.\n\nДай мені кілька хвилин, {ім'я}, я маю вивчити токсин.",
+        "objective": "Дочекайтеся, доки Серж Гінотт завершить ліки.",
+        "progress": null,
+        "complete": "Ліки готові! Випий цю протиотруту і це повзуче божевілля зупиниться. Проте, я нічого не зможу зробити з цим запахом.",
+        "en": "Hinott's Assistance",
+        "faction": "Horde"
+      }
+    ],
+    "fields": {
+      "title": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "125d581876f9ea9251e0dfc9e4d694e9588ead9f5c5d9499de8546f06468d53b"
+      },
+      "detail": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "25a341975803310aede7e0e1954be6411297f97cb5064da69c17566a2145bc6c"
+      },
+      "objective": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "7ad8f445a9dd762e0bb847b0f46ee744770c4f4af617de468d07093eaf74e1c8"
+      },
+      "progress": {
+        "primaryAvailable": false,
+        "uaAvailable": false,
+        "primarySHA256": null
+      },
+      "complete": {
+        "primaryAvailable": true,
+        "uaAvailable": true,
+        "primarySHA256": "e5d0d2c067e8197ad21db9a42fdf23ed297cdbfae48e67ce9b907c6dc69ac87a"
+      }
+    },
+    "upstreamChangedExistingState": "UA1.0.5 catalog byte-identical to pinned1.0.4 per parent verified sourcepin; no changed upstream fields",
+    "primarySide": "Horde",
+    "uaFactionLabels": [
+      "Horde"
+    ],
+    "eligibilityDecision": "Use current per-ID primary side and Rogue class, not broad UA Both label or installed race mask."
+  }
+]

@@ -832,3 +832,102 @@ if A.quests[166] and A.quests[78124] and A.quests[1057] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:47 current-English recipient/book/escort/target contracts plus3 donation/access boundaries, exact book-spelling alias rejection and source-absence checks.')
 end
+
+if A.quests[2] and A.quests[98283] and A.quests[2480] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({2,23,24,247,1059,1483,1093,1094,1095,1096,1087,1088,1089,6282,6283,86576,6301,6381,6393,6284,467,466,463,276,277,275,98283,279,281,284,285,286,98189,98190,98191,2378,2379,2380,2381,2382,2359,2360,2607,2608,2609,2458,2460,2478,2479,2480}) do
+    assert(A.quests[id] and A.quests[id].title,'21 November quest/title missing: '..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning source-state routing failed: '..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost exact ID/title')
+    end
+  end
+  for _,h in ipairs({{6283,"progress"},{463,"detail"},{98190,"detail"},{2608,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held branch lost original fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:21NovemberMorning50 records across150 dialogue states, held branch original fallback/capture and historical guards.')
+end
+
+if A.quests[2] and A.quests[98283] and A.quests[2480] then
+  local contracts={
+    {2,"objective",{"Sharptalon's Claw","Senani Thunderheart","Splintertree Post","Ashenvale"}},
+    {23,"objective",{"Ursangous's Paw","Senani Thunderheart","Splintertree Post"}},
+    {24,"objective",{"Shadumbra's Head","Senani Thunderheart"}},
+    {247,"complete",{"Ashenvale Hunt","Horde"}},
+    {1059,"objective",{"Falfindel Waywarder","Thousand Needles","Feralas"}},
+    {1483,"objective",{"Ziz Fizziks","Windshear Crag"}},
+    {1093,"objective",{"Super Reaper 6000 Blueprints","Ziz Fizziks","Stonetalon Mountains"}},
+    {1094,"objective",{"Sealed Envelope","Sputtervalve","Barrens"}},
+    {1095,"objective",{"Ziz Fizziks","Stonetalon Mountains"}},
+    {1096,"objective",{"Gerenzo Wrenchwhistle's Mechanical Arm","Ziz Fizziks"}},
+    {1087,"objective",{"Sons of Cenarius","Daughters of Cenarius","Cenarion Botanists","Braelyn Firehand","Sun Rock Retreat"}},
+    {1088,"objective",{"Ordanus","Braelyn Firehand"}},
+    {1089,"objective",{"Stonetalon Peak","Gatekeeper's Key","Talon Den Hoard"}},
+    {6282,"objective",{"Maggran Earthbinder","Sun Rock Retreat","Bloodfury Harpies","Bloodfury Ambushers","Bloodfury Slayers","Bloodfury Roguefeathers"}},
+    {6283,"objective",{"Maggran","Bloodfury Ripper"}},
+    {86576,"objective",{"Glittering Sunstones","Mor'rogal"}},
+    {6301,"objective",{"Tammra Windfield","Gaea Seeds"}},
+    {6381,"objective",{"Gaea Seeds","Gaea Dirt Mounds","Enchanted Gaea Seeds","Tammra"}},
+    {6393,"objective",{"Incendrites","Tsunaman"}},
+    {6284,"objective",{"Besseleth","Besseleth's Fang","Maggran"}},
+    {467,"objective",{"Pilot Stonegear"}},
+    {466,"objective",{"Incendicite Ore","Pilot Stonegear","Dun Morogh"}},
+    {463,"objective",{"Greenwarden"}},
+    {276,"objective",{"Mosshide Gnolls","Mosshide Mongrels","Rethiel the Greenwarden","Wetlands"}},
+    {277,"objective",{"Rethiel the Greenwarden","Crude Flints"}},
+    {275,"objective",{"Fen Creepers","Rethiel the Greenwarden"}},
+    {98283,"objective",{"Carnage's Head","Rethiel the Greenwarden","The Green Belt"}},
+    {279,"objective",{"Bluegill Murlocs","Gobbler","Gobbler's Head","Karl Boran","Menethil Harbor"}},
+    {281,"objective",{"Murloc"}},
+    {284,"objective",{"Menethil Statuette"}},
+    {285,"objective",{"Murloc","Menethil Statuette"}},
+    {286,"objective",{"Karl Boran","Menethil Statuette"}},
+    {98189,"objective",{"Menethil Statuette","Captain Stoutfist","Menethil Keep"}},
+    {98190,"objective",{"Menethil Statuette","Highlord Bolvar Fordragon","Stormwind Keep"}},
+    {98191,"objective",{"Menethil Statuette","Lord Grayson Shadowbreaker","Cathedral of Light"}},
+    {2378,"objective",{"Orgrimmar","Shenthul","Cleft of Shadow"}},
+    {2380,"objective",{"Shenthul","Cleft of Shadow","Orgrimmar"}},
+    {2379,"objective",{"Zando'zan","Cleft of Shadow"}},
+    {2382,"objective",{"Ratchet","Wrenix the Wretched"}},
+    {2381,"objective",{"Southsea Treasure","Wrenix the Wretched","Ratchet","E.C.A.C.","Thieves' Tools","Wrenix's Gizmotronic Apparatus"}},
+    {2360,"objective",{"Westfall","Agent Kearnen"}},
+    {2359,"objective",{"Defias Tower Key","Defias Tower","Duskwood Chest","Mathias Shaw","Stormwind","Kearnen's Journal"}},
+    {2607,"objective",{"Doc Mixilpixil","Barracks"}},
+    {2608,"objective",{"/Lay","Doc Mixilpixil"}},
+    {2609,"detail",{"The Finest Thread","Dr. Montgomery"}},
+    {2460,"objective",{"Shenthul"}},
+    {2458,"objective",{"Venture Co. Tower","Sludge Fen","Shattered Hand","Taskmaster Fizzule","Flare Gun","/Salute"}},
+    {2478,"objective",{"Silixiz's Tower Key","Foreman Silixiz","Mutated Venture Co. Drones","Venture Co. Patrollers","Venture Co. Lookouts","Grand Foreman Gallywix","Cache of Zanzil's Altered Mixture","Gallywix's Head","Shenthul","Orgrimmar"}},
+    {2479,"objective",{"Tarren Mill","Hillsbrad Foothills","Sample of Zanzil's Mixture","Serge Hinott","Zeppelin","Undercity","Silverpine","Hillsbrad"}},
+    {2480,"objective",{"Serge Hinott"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source-grounded identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Current source recipient/target/item contract failed: '..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{247,"detail"},{247,"progress"},{1059,"progress"},{1483,"progress"},{1095,"progress"},{467,"progress"},{463,"progress"},{281,"progress"},{284,"progress"},{285,"progress"},{2378,"progress"},{2380,"progress"},{2379,"progress"},{2382,"progress"},{2360,"progress"},{2607,"progress"},{2458,"progress"},{2480,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current-English-absent state: '..r[1]..'/'..r[2]) end
+  for _,c in ipairs({
+    {1089,"objective",{"Gatekeeper's Key","Talon Den Hoard"}},
+    {2381,"objective",{"Wrenix's Gizmotronic Apparatus","E.C.A.C.","Thieves' Tools","E.C.A.C."}},
+    {2458,"objective",{"Flare Gun","Taskmaster Fizzule","/Salute"}},
+    {2478,"objective",{"Silixiz's Tower Key","Mutated Venture Co. Drones","Venture Co. Patrollers","Venture Co. Lookouts","Grand Foreman Gallywix","Gallywix's lockbox","Cache of Zanzil's Altered Mixture","Gallywix's Head","Shenthul"}},
+    {2479,"objective",{"Zeppelin","Undercity","Silverpine","Hillsbrad"}}}) do
+    local value=assert(A.quests[c[1]][c[2]])
+    local pos=1
+    for _,term in ipairs(c[3]) do
+      local a,b=value:find(term,pos,true);assert(a,'Current source command/quantity/stage order contract failed: '..c[1]..'/'..term);pos=b+1
+    end
+  end
+  assert(A.quests[1094].en==A.quests[1095].en and A.quests[1094].objective~=A.quests[1095].objective,'Further Instructions distinct recipients collapsed')
+  assert(A.quests[286].en==A.quests[98189].en and A.quests[286].objective~=A.quests[98189].objective,'Statuette distinct recipients collapsed')
+  assert(A.quests[98190].en==A.quests[98191].en and A.quests[98190].objective~=A.quests[98191].objective,'Family Friend stages collapsed')
+  assert(A.quests[2607].en==A.quests[2608].en and A.quests[2608].en==A.quests[2609].en and A.quests[2607].objective~=A.quests[2608].objective,'Zanzil referral/exam/cure stages collapsed')
+  assert(not A.quests[247].detail and not A.quests[247].objective and not A.quests[247].progress and A.quests[247].complete,'Hunt reward-only boundary changed')
+  assert(not A.quests[2609].objective and A.quests[2609].detail,'Held cure objective disabled supported offer or was refilled')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-English identity contracts, same-title stage separation, source absences, quantities and executable command order.')
+end

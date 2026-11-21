@@ -1,0 +1,1346 @@
+{
+  "467": {
+    "primaryHTMLFile": "467-wowhead.html",
+    "primaryHTMLSHA256": "ca1801e07ebbbedb0c118a5904dceca1ef7bc6db124dbc918b2aa306e3af38f7",
+    "primaryQuestScript": {
+      "category": 1,
+      "category2": 0,
+      "id": 467,
+      "level": 23,
+      "name": "Stonegear's Search",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 460,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2><a href=\"/forever/npc=1377/pilot-stonegear\">Pilot Stonegear</a> loves his siege engine, as every pilot should!  And he's always eager to find new ways to improve his tank's firepower!<br /><br />He heard rumors of a rare ore and is looking for someone to hunt it down for him.  If your boots are starting to itch, then find Stonegear at Steelgrill's Depot in <a href=\"/forever/zone=1/dun-morogh\">Dun Morogh</a> and see what he wants.",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Hello &lt;name&gt;. &nbsp;You're here about the task I have, eh? &nbsp;It's good to see a young &lt;race&gt; like yourself whose blood burns at the prospect of adventure!</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "absent",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1340,
+          2092
+        ]
+      ],
+      "3": [
+        [
+          1377
+        ]
+      ],
+      "8": [
+        "Speak with Pilot Stonegear."
+      ],
+      "S": {
+        "1": "Stonegear's Search",
+        "4": 20,
+        "5": 23,
+        "6": 4294967373,
+        "17": 1,
+        "22": 466,
+        "23": 8,
+        "27": 466,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "В пошуках Камнеладу",
+        "detail": "Пілот Камнелад обожнює свою облогову машину, як і кожен інший пілот! І він завжди радий знайти новий спосіб підсилити вогневу міць своєї машини.\n\nДо нього дійшли чутки про рідкісну руду і він шукає того, хто добуде її для нього. Якщо тобі не терпиться допомогти, знайди Камнелада у Сховищі Сталешквара в Дун-Морозі й дізнайся, чого він хоче.",
+        "objective": "Поговоріть з пілотом Камнеладом.",
+        "progress": null,
+        "complete": "Привіт, {ім'я}. Ти тут за моїм завданням, еге ж? Приємно бачити {стать:юного:юну} {раса:з} в жилах {стать:якого:якої} кипить жага до пригод!",
+        "en": "Stonegear's Search",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "466": {
+    "primaryHTMLFile": "466-wowhead.html",
+    "primaryHTMLSHA256": "b840fc8cd11c085500324081669882aa3fac614aa7ef99a3bea1db1bdfd74aaf",
+    "primaryQuestScript": {
+      "category": 1,
+      "category2": 0,
+      "id": 466,
+      "itemrewards": [
+        [
+          3565,
+          1
+        ]
+      ],
+      "level": 22,
+      "name": "Search for Incendicite",
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1750,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>I heard that a rare ore, incendicite, was found in the Wetlands, in a cave northwest of Algaz Gate.  Incendicite is volatile stuff and hard to use without blowing yourself up, but I'm sure if it's smelted the right way it could make cannon shells that pack a mighty punch!<br /><br />Get me <a href=\"/forever/item=3340/incendicite-ore\">incendicite ore</a> and I'll find someone brave enough to experiment with it.<br /><br />Oh, and to extract that ore from a vein you'll need skill in mining.  If you don't have it, then ... bring a friend who does to that cave!",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Where is that ore, &lt;name&gt;?!</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You got the ore! &nbsp;Well done, &lt;name&gt;! &nbsp;I'll get someone to work with this right away. &nbsp;Let's hope he doesn't blow himself up!</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1377
+        ]
+      ],
+      "3": [
+        [
+          1377
+        ]
+      ],
+      "8": [
+        "Bring 6 loads of Incendicite Ore to Pilot Stonegear in Dun Morogh."
+      ],
+      "10": {
+        "3": [
+          [
+            3340,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          47,
+          100
+        ]
+      ],
+      "28": [
+        467
+      ],
+      "S": {
+        "1": "Search for Incendicite",
+        "4": 20,
+        "5": 22,
+        "6": 4294967373,
+        "17": 1,
+        "23": 8,
+        "p": 167772806
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пошук спалахіту",
+        "detail": "Я чув про рідкісну руду — спалахіт, яка знайдена у Заболотті, в печері на північний захід від тунелю Альґаз. Вона дуже нестійка, нею складно користуватись не підірвавши себе у повітря. Однак, я впевнений, що якщо виплавити її належним чином, то можна зробити потужні снаряди для гармат!\n\nЗдобудь мені спалахітову руду, а я поки пошукаю когось вельми сміливого задля цього досліду.\n\nІ ще, щоб видобути ту руду, тобі потрібні навички у гірництві. Якщо в тебе немає необхідних знань, то... відправ до шахти друга, який зможе це зробити!",
+        "objective": "Принесіть 6 партій спалахітової руди пілотові Камнеладу у Дун-Морог.",
+        "progress": "І де ця руда, {ім'я}?!",
+        "complete": "Ти {стать:здобув:здобула} руду! Молодець, {ім'я}! Я одразу відправлю когось попрацювати з нею. Будемо сподіватися, що він не підірве себе!",
+        "en": "Search for Incendicite",
+        "faction": "Both"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "463": {
+    "primaryHTMLFile": "463-wowhead.html",
+    "primaryHTMLSHA256": "17dfb7b5c56bb1726238ac6e46e83f11c30e9a7e0980486309b888fafa492ace",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 463,
+      "level": 21,
+      "name": "The Greenwarden",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 830,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from &lt;his/her&gt; death?<br /><br />If you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!<br /><br />And leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">The roots and ferns speak well of you, small one. &nbsp;Although I have many names, I answer to only a few. &nbsp;But you may call me Rethiel.<br /><br />And you must harken...for these lands weep from festered wounds, and I would charge you to heal them.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "absent",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "detail": {
+        "primary": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from <his/her> death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?",
+        "secondary": "You've heard of the Greenwarden? You're not looking for him, are you? Well I say you're crazy if you are, but who am I to keep a fool from his/her death?\n\nIf you are seeking that beast, then I hear he is in the marsh, east of the road where it forks to Dun Modr. He's lurking there among the crocs...and worse!\n\nAnd leave your money here. You won't need it where you're going...and you don't want to chip ol' Greenie's tooth on your gold when he bites you in half, do you?"
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          1239
+        ]
+      ],
+      "3": [
+        [
+          1244
+        ]
+      ],
+      "8": [
+        "Find the Greenwarden."
+      ],
+      "S": {
+        "1": "The Greenwarden",
+        "4": 20,
+        "5": 21,
+        "6": 4294967373,
+        "17": 11,
+        "22": 276,
+        "23": 8,
+        "27": 276,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Вартовий Природи",
+        "detail": "{стать:Чув:Чула} про Вартового Природи? Ти ж не шукаєш його, правда? Це було б безглуздо, та хто я такий, щоб зупиняти когось йти на гибель?\n\nЯкщо все ж хочеш знайти це чудовисько, то я чув, що він десь на болотах на схід від повороту на Дун-Модр. Бродить десь там з кроколісками та іншою нечистю.\n\nМожеш залишити свої пожитки мені, все одно вони тобі вже не знадобляться. Ти ж не хочеш, щоб цей зелений монстр подавивсь твоїм гаманцем?",
+        "objective": "Знайдіть Вартового Природи.",
+        "progress": null,
+        "complete": "Коріння і лози кажуть добре про тебе, малявко. Я маю багато імен, та відкликаюсь тільки на декілька. Можеш звати мене Ретіль.\n\nПрислухайся... ці землі страждають від важких ран. Я попрошу тебе допомогти мені зцілити їх.",
+        "en": "The Greenwarden",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "276": {
+    "primaryHTMLFile": "276-wowhead.html",
+    "primaryHTMLSHA256": "80148ca465864a856dbe7cf17940879a59b54ed1576ffc8a0d1767b617e7ac4e",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 276,
+      "level": 21,
+      "name": "Tramping Paws",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1250,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>The <a href=\"/forever/npc=1007/mosshide-gnoll\">Mosshide Gnolls</a> have lived in the <a href=\"/forever/zone=11/wetlands\">Wetlands</a> peacefully for many years, but now grow in numbers. Their feet stamp flat the fen's bushes and flowers, and their foul axes cut too much wood to fuel their fires.<br /><br />They are no longer in balance with the land. For the <a href=\"/forever/zone=11/wetlands\">Wetlands</a> to survive, the Gnolls must be reduced.<br /><br />Kill 15 <a href=\"/forever/npc=1007/mosshide-gnoll\">Mosshide Gnolls</a> and 10 <a href=\"/forever/npc=1008/mosshide-mongrel\">Mosshide Mongrels</a>. Hunt them to the south, near the Dwarven gate of Algaz. After you do this, return to me.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Your task is still at hand, young &lt;class&gt;.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">By reducing the Gnolls' number, you have tended to the health of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>. &nbsp;Although my faith in your people has been taxed in the past, &lt;race&gt;, it may yet be restored.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1244
+        ]
+      ],
+      "3": [
+        [
+          1244
+        ]
+      ],
+      "8": [
+        "Kill 15 Mosshide Gnolls and 10 Mosshide Mongrels, then return to Rethiel the Greenwarden in the Wetlands."
+      ],
+      "10": [
+        [
+          [
+            1007,
+            null,
+            0
+          ],
+          [
+            1008,
+            null,
+            0
+          ]
+        ]
+      ],
+      "28": [
+        463
+      ],
+      "S": {
+        "1": "Tramping Paws",
+        "4": 20,
+        "5": 21,
+        "6": 4294967373,
+        "17": 11,
+        "22": 277,
+        "23": 8,
+        "p": 134218374
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Бродячі лапи",
+        "detail": "Мохошкурі гноли багато років жили мирно в Заболотті, але тепер вони розплодились. Вони витолочують своїми лапами луги, а мерзенними сокирами - вирубують надто багато дерев, щоб палити вогнища.\n\nВони більше не в гармонії з природою. Гнолів має бути менше, щоб Заболоття вижило.\n\nВбий 15 мохошкурих гнолів та 10 мохошкурих дворняг. Вони водяться на півдні, біля дворфійських воріт Альґазу. Як зробиш це - повертайся до мене.",
+        "objective": "Вбийте 15 мохошкурих гнолів та 10 мохошкурих дворняг, після чого поверніться до Ретіля Вартового Природи в Заболоття.",
+        "progress": "Ти ще не {стать:виконав:виконала} своє завдання, {клас:к}.",
+        "complete": "Зменшивши поголів'я гнолів, ти {стать:подарував:подарувала} Заболоттю надію на зцілення. Хай я зневірився в тобі подібних раніше, {раса:к}, але ще не все втрачено.",
+        "en": "Tramping Paws",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "277": {
+    "primaryHTMLFile": "277-wowhead.html",
+    "primaryHTMLSHA256": "2f2aa17842d50e209c51bc8601884fbf402ec585a04ec48b71568c9cfa5ea410",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 277,
+      "itemrewards": [
+        [
+          4606,
+          10
+        ]
+      ],
+      "level": 23,
+      "name": "Fire Taboo",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1850,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>The Mosshides are cutting the trees of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>, using the trees' flesh to warm themselves with fire. I will suffer this pain no longer!<br /><br />Rid the Mosshides of their <a href=\"/forever/item=2611/crude-flint\">crude flints</a>, the tools they use to make fire. The flints are borne by all Mosshides except the smaller Mosshide gnolls and Mosshide mongrels.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Do you have the Gnolls' tools for fire?</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">... thank you. &nbsp;I will smash these flints and cast them into the sea, so that they may never again be used to burn living wood.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1244
+        ]
+      ],
+      "3": [
+        [
+          1244
+        ]
+      ],
+      "8": [
+        "Bring Rethiel the Greenwarden 9 Crude Flints."
+      ],
+      "10": {
+        "3": [
+          [
+            2611,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        276
+      ],
+      "S": {
+        "1": "Fire Taboo",
+        "4": 20,
+        "5": 23,
+        "6": 4294967373,
+        "17": 11,
+        "22": 275,
+        "23": 8,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Вогняне табу",
+        "detail": "Мохошкурі рубають дерева Заболоття і використовують плоть дерев для вогнища, щоб зігрітись. Я не можу більше терпіти цей біль!\n\nПозбудь Мохошкурих грубого кременю, їх інструменту для створення вогню. Кремінь носять усі Мохошкурі, окрім менших мохошкурих гнолів та мохошкурих дворняг.",
+        "objective": "Принесіть Ретілю Вартовому Природи 9 грубих кременів.",
+        "progress": "В тебе є інструменти гнолів для розведення вогню?",
+        "complete": "... дякую. Я розіб'ю ці кремені та кину їх в море, так вони більше ніколи не використовуватимуться для спалювання живих дерев.",
+        "en": "Fire Taboo",
+        "faction": "Both"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "275": {
+    "primaryHTMLFile": "275-wowhead.html",
+    "primaryHTMLSHA256": "48bfb815142fde0dde5bb9198ab488b9e965cc9f64d445b2ef3be244deab1ce9",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 275,
+      "itemchoices": [
+        [
+          3558,
+          1
+        ],
+        [
+          1273,
+          1
+        ],
+        [
+          2263,
+          1
+        ]
+      ],
+      "level": 26,
+      "name": "Blisters on the Land",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 2650,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Blisters on The Land"
+        ],
+        "notShown": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>I do not know why, but a festering grows within the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>. <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> have risen. They are diseased, fevered blisters on the land, and for the fever to break they must be dispatched and allowed to settle back into the marshes.<br /><br />The <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> shamble amidst the waterways of the <a href=\"/forever/zone=11/wetlands\">Wetlands</a>.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">The <a href=\"/forever/zone=11/wetlands\">Wetlands</a> still weep, and the <a href=\"/forever/npc=1040/fen-creeper\">Fen Creepers</a> still rage. &nbsp;Return to me when your task is done.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">This land is soothed by your efforts, and for this I will grant you a boon.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1244
+        ]
+      ],
+      "3": [
+        [
+          1244
+        ]
+      ],
+      "8": [
+        "Kill 12 Fen Creepers, then return to Rethiel the Greenwarden in the Wetlands."
+      ],
+      "10": [
+        [
+          [
+            1040,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        277
+      ],
+      "S": {
+        "1": "Blisters on The Land",
+        "4": 20,
+        "5": 26,
+        "6": 4294967373,
+        "17": 11,
+        "22": 98283,
+        "23": 8,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пухирі на землі",
+        "detail": "Я не знаю чому, але гниль повзе Заболоттям. Піднялися драговинні плазуни. Це хворобливі, гнійні пухирі на землі, і щоб зцілити її, необхідно загнати плазунів назад в болота, звідки вони прийшли.\n\nДраговинні плазуни водяться біля водойм Заболоття.",
+        "objective": "Убийте 12 драговинних плазунів та поверніться до Ретіля Вартового Природи у Заболоття.",
+        "progress": "Заболоття все ще плаче, а драговинні плазуни все ще лютують. Повернися до мене одразу, як виконаєш своє завдання.",
+        "complete": "Ця земля заспокоюється завдяки твоїм зусиллям, і за це я вручаю тобі дар.",
+        "en": "Blisters on the Land",
+        "faction": "Both"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "98283": {
+    "primaryHTMLFile": "98283-wowhead.html",
+    "primaryHTMLSHA256": "313d266dd70f9b286d22470583a252d6c5251ff68d8992582dc7946417537f2a",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 98283,
+      "itemchoices": [
+        [
+          281309,
+          1
+        ],
+        [
+          281310,
+          1
+        ]
+      ],
+      "level": 30,
+      "name": "Carnage",
+      "reqlevel": 22,
+      "side": 1,
+      "type": 1,
+      "xp": 3050,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>The natural order of this land is breaking. Once it was that the Razormaw raptors kept the land from overgrowth. They now live in fear of their alpha, named only for the carnage it leaves behind.\n\nI fear the beast has been driven mad by the sickness that we have yet to fully excise.\n\nIt will respond to the malignant flesh of the diseased bears below Raptor Ridge, to the northeast. Leave their entrails in its cave lair.\n\nCarnage will come. Bring me its head.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">The Rotclaw came down from their homes in Loch Modan, now driven mad.<br /><br />Such a waste of life's boon.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Carnage's death will bring balance to his pack. Perhaps it will buy enough time for the greater ecosystem they support.<br /><br />We shall see, but I thank you for the effort regardless.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "progress": {
+        "primary": "The Rotclaw came down from their homes in Loch Modan, now driven mad.\n\nSuch a waste of life's boon.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Carnage's death will bring balance to his pack. Perhaps it will buy enough time for the greater ecosystem they support.\n\nWe shall see, but I thank you for the effort regardless.",
+        "secondary": null
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          1244
+        ]
+      ],
+      "3": [
+        [
+          1244
+        ]
+      ],
+      "8": [
+        "Bring Carnage's Head to Rethiel the Greenwarden in The Green Belt."
+      ],
+      "10": {
+        "3": [
+          [
+            280331,
+            null,
+            0
+          ],
+          [
+            280330,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        275
+      ],
+      "S": {
+        "1": "Carnage",
+        "4": 22,
+        "5": 30,
+        "6": 4294967373,
+        "17": 11,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Кривава різанина",
+        "detail": "Природний лад цих земель руйнується. Колись гостропащі раптори стримували надмірне розростання рослин. Тепер вони живуть у страху перед своїм ватажком, названим лише за криваві сліди, які він залишає.\n\nБоюся, хвороба, якої ми ще не позбулися остаточно, звела звіра з розуму.\n\nЙого привабить заражене м'ясо хворих ведмедів під хребтом Рапторів на північному сході. Залиш їхні нутрощі в його печерному лігві.\n\nРізанина прийде. Принеси мені його голову.",
+        "objective": "Принесіть голову Різанини Ретілю Вартовому Природи в Зеленому Поясі.",
+        "progress": "Гнилокігті спустилися зі своїх домівок у Лох-Модані, охоплені божевіллям.\n\nЯке марнотратство дару життя.",
+        "complete": "Смерть Різанини поверне рівновагу його зграї. Можливо, це дасть достатньо часу й ширшій екосистемі, яку вона підтримує.\n\nПобачимо. Та хай там як, дякую за твої зусилля.",
+        "en": "Carnage",
+        "faction": "Both"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "279": {
+    "primaryHTMLFile": "279-wowhead.html",
+    "primaryHTMLSHA256": "c551a1a502387dcddd490faee0988d1da676ad514736de58af8d4b8041016797",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 279,
+      "level": 22,
+      "money": 1400,
+      "name": "Claws from the Deep",
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1750,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>Murlocs are crawling out from the deep waters and building their villages on the coastline.  They are harassing our fishers and merchants and must be stopped.<br /><br />One of these Murlocs, Gobbler, skulks with other <a href=\"/forever/npc=1024/bluegill-murloc\">Bluegill Murlocs</a> and harries merchants along the road, always then retreating to the safety of the nearby Murloc hovels.  Our merchants are in jeopardy, and we will pay to secure them.<br /><br />Gobbler prowls the river inlet north of here.  Find him, slay his kin, and bring me his head.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Our merchants will not be safe until we are rid of Gobbler and those Murlocs.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">Ah, well done &lt;name&gt;.<br /><br />Accept this as payment for fulfillment of your contract with the Merchant Marines.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        [
+          1242
+        ]
+      ],
+      "3": [
+        [
+          1242
+        ]
+      ],
+      "8": [
+        "Kill 12 Bluegill Murlocs.",
+        "",
+        "Slay Gobbler and take his head.",
+        "",
+        "Bring Gobbler's Head to Karl Boran in Menethil Harbor."
+      ],
+      "10": [
+        [
+          [
+            1024,
+            null,
+            0
+          ]
+        ],
+        null,
+        [
+          [
+            3618,
+            null,
+            0
+          ]
+        ]
+      ],
+      "26": [
+        [
+          72,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Claws from the Deep",
+        "4": 20,
+        "5": 22,
+        "6": 4294967373,
+        "17": 11,
+        "22": 281,
+        "23": 8,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Загроза з глибин",
+        "detail": "Мурлоки лізуть з морських глибин і будують свої поселення на узбережжі. Вони нападають на наших рибалок і торговців, ми маємо це зупинити.\n\nОдин з них, Жерун, прокрадається з іншими синьожабрими мурлоками до дороги і влаштовує засідки на наших торговців. І кожного разу вони втікають до своїх хиж, де ми їм нічого не можемо зробити. Наші торговці в небезпеці і ми готові заплатити за їх захист.\n\nЖерун бродить в затоці річки на північ звідси. Знайти його, знищи його плем'я і принеси мені його голову.",
+        "objective": "Вбийте 12 синьожабрих мурлоків.\n\nУбийте Жеруна та заберіть його голову.\n\nПринесіть голову Жеруна Карлу Борану в гавань Менетілів.",
+        "progress": "Наші торговці будуть в небезпеці, поки ми не позбавимось Жеруна і цих мурлоків.",
+        "complete": "Ах, чудово {ім'я}.\n\nПрийми цю оплату за виконання угоди з торговим флотом.",
+        "en": "Claws from the Deep",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "281": {
+    "primaryHTMLFile": "281-wowhead.html",
+    "primaryHTMLSHA256": "a5d0671a3793a4519b1a4c43e7234a139183ae1dc1675496651e890b311ca26d",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 281,
+      "itemrewards": [
+        [
+          929,
+          5
+        ]
+      ],
+      "level": 25,
+      "name": "Reclaiming Goods",
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 510,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>Not long ago a merchant vessel, the Blind Princess, was raided by Murlocs.  Although the ship escaped intact, much of its cargo was dragged overboard by the creatures, including a very valuable statuette of Terenas Menethil.  We want that statuette recovered.<br /><br />Search the coastal Murloc hovels for crates, barrels and other evidence of lost cargo.  Find the Menethil Statuette and return it to me.",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">This crate is covered with clawed scratches, and the marks of water damage. &nbsp;Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate. &nbsp;You search through the straw...<br /><br />...and find an armload of red-colored bottles.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "absent",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "complete": {
+        "primary": "This crate is covered with clawed scratches, and the marks of water damage.  Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate.  You search through the straw...\n\n...and find an armload of red-colored bottles.",
+        "secondary": "This crate is covered with clawed scratches, and the marks of water damage. Prying it open reveals soggy and rotted straw, as if something of value was stored in the crate. You search through the straw...\n\n...and find a an armload of red-colored bottles."
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          1242
+        ]
+      ],
+      "3": [
+        null,
+        [
+          261
+        ]
+      ],
+      "8": [
+        "Search the crates and barrels at the coastal Murloc camps."
+      ],
+      "13": [
+        279
+      ],
+      "26": [
+        [
+          72,
+          25
+        ]
+      ],
+      "S": {
+        "1": "Reclaiming Goods",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "17": 11,
+        "22": 284,
+        "23": 8,
+        "p": 33558662
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Повернення товарів",
+        "detail": "Нещодавно мурлоки напали на торгове судно \"Сліпа принцеса\". Хоч корабель і не постраждав, ці потвори стягнули велику частину вантажу, зокрема дуже цінну статуетку Теренаса Менетіла. Ми маємо повернути її.\n\nОбшукай прибережні поселення мурлоків. Ящики, бочки - все, що схоже на вкрадений вантаж. Знайди статуетку Менетіла і поверни її мені.",
+        "objective": "Обшукайте ящики та бочки в прибережних таборах мурлоків.",
+        "progress": null,
+        "complete": "Цей ящик звогчів, він весь вкритий слідами від кігтів. Відкривши його, всередині ви бачите розмоклу гнилу солому, що може означати, що всередині лежить щось цінне. Ви розгрібаєте солому...\n\n...і знаходите кілька червоних пляшечок.",
+        "en": "Reclaiming Goods",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "284": {
+    "primaryHTMLFile": "284-wowhead.html",
+    "primaryHTMLSHA256": "6de6498c948c9d4e104c745dffdc9a60c67bed14ea1be4d64c6c0b05f1c39dc0",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 284,
+      "itemrewards": [
+        [
+          422,
+          10
+        ]
+      ],
+      "level": 25,
+      "name": "The Search Continues",
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 510,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>You thoroughly search this cluster of Murloc hovels, and find no trace of the Menethil Statuette.<br /><br />Perhaps one of the two nearby hovels to the north and northeast will have more clues.",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">This barrel is largely untouched. &nbsp;Prying it open...<br /><br />...you are assaulted by the pungent odor of cheese. &nbsp;It's a little wet, but still tasty!</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "absent",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          261
+        ]
+      ],
+      "3": [
+        null,
+        [
+          142151
+        ]
+      ],
+      "8": [
+        "Search for the Menethil Statuette."
+      ],
+      "13": [
+        281
+      ],
+      "26": [
+        [
+          72,
+          25
+        ]
+      ],
+      "S": {
+        "1": "The Search Continues",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "17": 11,
+        "22": 285,
+        "23": 8,
+        "p": 33558662
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пошуки продовжуються",
+        "detail": "Ви ретельно обшукуєте поселення мурлоків, і не знаходите жодного сліду статуетки Менетіла.\n\nМожливо, варто пошукати в поселеннях на півночі та північному заході.",
+        "objective": "Пошукайте статуетку Менетіла.",
+        "progress": null,
+        "complete": "Схоже, цю бочку не чіпали. Ви її відкриваєте...\n\n...і відчуваєте різкий запах сиру. Трохи промоклий, але все ще смачний!",
+        "en": "The Search Continues",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "285": {
+    "primaryHTMLFile": "285-wowhead.html",
+    "primaryHTMLSHA256": "81af19445171d8c4def4884a1948a142d3954666d8820cc6d81fe66277b9a1ce",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 285,
+      "level": 25,
+      "name": "Search More Hovels",
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1000,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>This grouping of Murloc hovels, after a thorough inspection, reveals nothing.<br /><br />...but you're certain that the next clue you find will be fruitful.<br /><br />One of the hovels to the north must have the Menethil Statuette!",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">This barrel is halfway buried amidst the mud and grass ...</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "absent",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          142151
+        ]
+      ],
+      "3": [
+        null,
+        [
+          259
+        ]
+      ],
+      "8": [
+        "Continue searching the Murloc hovels for the Menethil Statuette."
+      ],
+      "13": [
+        284
+      ],
+      "26": [
+        [
+          72,
+          50
+        ]
+      ],
+      "S": {
+        "1": "Search More Hovels",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "17": 11,
+        "22": 286,
+        "23": 8,
+        "p": 33558662
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Обшукати більше хатин",
+        "detail": "Ви обшукали це поселення мурлоків, але нічого не знайшли.\n\n...але ви впевнені, що ціль вже близько.\n\nСтатуетка Менетіла має бути в одному з поселень на півночі!",
+        "objective": "Продовжуйте шукати статуетку Менетіла в поселеннях мурлоків.",
+        "progress": null,
+        "complete": "Ця бочка наполовину зарита в багнюку й траву...",
+        "en": "Search More Hovels",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "286": {
+    "primaryHTMLFile": "286-wowhead.html",
+    "primaryHTMLSHA256": "9d05b72326fe6b817c2cb8fb111ffd629b08b367adccbe8da2fe7aecd7ffbfbb",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 286,
+      "itemchoices": [
+        [
+          2950,
+          1
+        ],
+        [
+          2949,
+          1
+        ]
+      ],
+      "level": 25,
+      "name": "Return the Statuette",
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 1500,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>After pulling the barrel free from the muck and opening it, a silvery figurine is found packed in fine straw.  It depicts a young, long-haired Paladin with hammer upraised.<br /><br />This must be the <a href=\"/forever/item=2625/menethil-statuette\">Menethil Statuette</a>!  You must now return it to <a href=\"/forever/npc=1242/karl-boran\">Karl Boran</a> in Menethil Harbor.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Do you have the statuette?</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">The captain of the Blind Princess will be relieved to hear this precious cargo has been recovered. &nbsp;You have well earned this payment for services rendered.<br /><br />It is good to see dependable folk like you, especially in trying times such as these.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {},
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          259
+        ]
+      ],
+      "3": [
+        [
+          1242
+        ]
+      ],
+      "8": [
+        "Bring Karl Boran the Menethil Statuette."
+      ],
+      "13": [
+        285
+      ],
+      "26": [
+        [
+          72,
+          75
+        ]
+      ],
+      "S": {
+        "1": "Return the Statuette",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "11": 2625,
+        "17": 11,
+        "22": 98189,
+        "p": 33558662
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Повернення статуетки",
+        "detail": "Витягнувши бочку з багнюки та відкривши її, ви знаходите серез соломи срібну статуетку. Вона зображує молодого, довговолосого паладина, з піднятим над головою молотом.\n\nПевно, це статуетка Менетіла! Тепер її варто повернути Карлу Борану в гавань Менетілів.",
+        "objective": "Принесіть Карлу Борану статуетку Менетіла.",
+        "progress": "Ти {стать:приніс:принесла} статуетку?",
+        "complete": "Капітан \"Сліпої принцеси\" неабияк зрадіє, коли дізнається про повернення такого цінного вантажу. Ти заслуговуєш на гідну винагороду за свою допомогу.\n\nПриємно знати, що є такі надійні люди, на яких можна покластись. Особливо, в такі важкі часи.",
+        "en": "Return the Statuette",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "98189": {
+    "primaryHTMLFile": "98189-wowhead.html",
+    "primaryHTMLSHA256": "3a898981c445ff68942dd15f6cc81950199b19905f9d125840dcd3bae757da1f",
+    "primaryQuestScript": {
+      "category": 11,
+      "category2": 0,
+      "id": 98189,
+      "level": 25,
+      "name": "Return the Statuette",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 200,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>My goodness, it's--it's beautiful!\n\nThe Blind Princess was to deliver this to Menethil Harbor before tragedy struck. We were so close!\n\nI believe it was to be signed for by <a href=\"/forever/npc=2104/captain-stoutfist\">Captain Stoutfist</a> in Menethil Keep just behind us. Why don't you do the honors of finishing the job?",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">What's that you've got there? Let me take a look.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "progress": {
+        "primary": "What's that you've got there? Let me take a look.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "You managed to get it back from those monsters! There aren't too many artifacts of the late king left now.",
+        "secondary": null
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          1242
+        ]
+      ],
+      "3": [
+        [
+          2104
+        ]
+      ],
+      "8": [
+        "Bring the Menethil Statuette to Captain Stoutfist in Menethil Keep."
+      ],
+      "13": [
+        286
+      ],
+      "S": {
+        "1": "Return the Statuette",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "11": 279589,
+        "17": 11,
+        "22": 98190,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Повернення статуетки",
+        "detail": "Боже мій, це ж... це ж чудово!\n\n\"Сліпа Принцеса\" мала доставити це до гавані Менетіл, перш ніж сталася трагедія. Ми були так близько!\n\nГадаю, це мав підписати капітан Стаутфіст у фортеці Менетіл, одразу за нами. Чому б тобі не взяти на себе честь завершити цю роботу?",
+        "objective": "Принесіть статуетку Менетіла капітану Стоутфісту у фортецю Менетілів.",
+        "progress": "Що це в тебе? Дай поглянути.",
+        "complete": "Тобі вдалося забрати її в тих потвор! Не так багато реліквій покійного короля лишилося.",
+        "en": "Return the Statuette",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "98190": {
+    "primaryHTMLFile": "98190-wowhead.html",
+    "primaryHTMLSHA256": "2d75d369ba32510a782ac9fd6d6681463549e18670adee8db48fd286fdf3890f",
+    "primaryQuestScript": {
+      "category": 1519,
+      "category2": 0,
+      "id": 98190,
+      "level": 25,
+      "name": "A Friend of the Family",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 200,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, &lt;lad/lass&gt;. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Let us speak, &lt;class&gt;. I can feel you carry something of the Light.</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "detail": {
+        "primary": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, <lad/lass>. Go straight to Highlord Fordragon with this. He'll know where it will be best kept.",
+        "secondary": "You'll want to take this to Stormwind right away. Proud as I am that this keep and harbor bears King Terenas Menethil II's name, we are a calm harbor in a very nasty storm of enemies. It's just not safe here.\n\nThe Dragonmaw in particular would sacrifice much to loot something like this... and I shudder to think of what they'd do with it.\n\nDon't bother going up the chain of command on this one, lad/lass. Go straight to Highlord Fordragon with this. He'll know where it will be best kept."
+      },
+      "progress": {
+        "primary": "Let us speak, <class>. I can feel you carry something of the Light.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "You have my gratitude for recovering this. I am relieved it did not fall into the wrong hands.",
+        "secondary": null
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          2104
+        ]
+      ],
+      "3": [
+        [
+          1748
+        ]
+      ],
+      "8": [
+        "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep."
+      ],
+      "13": [
+        98189
+      ],
+      "S": {
+        "1": "A Friend of the Family",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "11": 279595,
+        "17": 1519,
+        "22": 98191,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Друг родини",
+        "detail": "Тобі варто негайно віднести це до Штормовія. Хоч я й пишаюся тим, що ця фортеця та гавань носять ім'я короля Теренаса Менетіла II, ми — тиха гавань у дуже лютій бурі ворогів. Тут просто небезпечно.\n\nЗокрема, Драконяча Паща пожертвувала б багатьом, щоб пограбувати щось подібне... і мені страшно подумати, що вони з цим зроблять.\n\nНе турбуйся підніматися по ланцюжку командування з цього приводу, <хлопець/дівчина>. Іди з цим прямо до Верховного лорда Фордрагона. Він знатиме, де це найкраще зберігати.",
+        "objective": "Принесіть статуетку Менетіла верховному лорду Болвару Фордраґону у фортецю Штормовія.",
+        "progress": "Поговорімо, {клас:к}. Я відчуваю, що ти несеш щось, пов'язане зі Світлом.",
+        "complete": "Дякую, що {стать:повернув:повернула} це. Добре, що воно не потрапило до лихих рук.",
+        "en": "A Friend of the Family",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  },
+  "98191": {
+    "primaryHTMLFile": "98191-wowhead.html",
+    "primaryHTMLSHA256": "ad86e6e4cca6e0561b741ecea5ed4af7b7768480b3dcac114b58a69edfbc47ec",
+    "primaryQuestScript": {
+      "category": 1519,
+      "category2": 0,
+      "id": 98191,
+      "itemchoices": [
+        [
+          281296,
+          1
+        ],
+        [
+          281297,
+          1
+        ]
+      ],
+      "level": 25,
+      "name": "A Friend of the Family",
+      "reqlevel": 20,
+      "side": 1,
+      "xp": 2000,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "boundaryHTML": {
+      "Description": "<h2 class=\"heading-size-3\">Description</h2>King Terenas was a good man. A devout man. Beloved by his people, and truly the reason we have this Alliance at all.\n\nThe irony is he was humble--he hated these sorts of memorials, and so precious few exist. And of those, few survived Lordaeron's fall.\n\nIt seems the Light has coalesced in this statuette. It would be best kept in the Cathedral of the Light in Cathedral Square, in the center of the city. Bring it to <a href=\"/forever/npc=928/lord-grayson-shadowbreaker\">Lord Grayson Shadowbreaker</a> for safekeeping.",
+      "Progress": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-progress'), this)\">Progress</a></h2><div id=\"lknlksndgg-progress\" style=\"display: none\">Light be with you, &lt;class&gt;. You are clearly not here for small talk--what is it?</div>\n\n",
+      "Completion": "<h2 class=\"heading-size-3\"><a href=\"javascript:\" class=\"disclosure-off\" onclick=\"return WH.disclose(WH.ge('lknlksndgg-completion'), this)\">Completion</a></h2><div id=\"lknlksndgg-completion\" style=\"display: none\">By the Light... it looks just like his boy...<br /><br />&lt;<a href=\"/forever/npc=928/lord-grayson-shadowbreaker\">Lord Grayson Shadowbreaker</a> pauses for a moment.&gt;<br /><br />This statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.<br /><br />It is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.<br /><br />Thank you, &lt;class&gt;. Light bless you.</div>\n\n"
+    },
+    "sourceStates": {
+      "title": "available",
+      "detail": "available",
+      "objective": "available",
+      "progress": "available",
+      "complete": "available"
+    },
+    "sourceAgreementDifferences": {
+      "progress": {
+        "primary": "Light be with you, <class>. You are clearly not here for small talk--what is it?",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "By the Light... it looks just like his boy...\n\n<Lord Grayson Shadowbreaker pauses for a moment.>\n\nThis statuette has indeed been blessed. Its connection to Terenas, its survival of what that monster did to him... this carries great power for those who believe in its strength.\n\nIt is best kept here for now, under guard of the paladin order. We will meditate on it further to learn more of its gifts, and perhaps it may aid us in dark times ahead.\n\nThank you, <class>. Light bless you.",
+        "secondary": null
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          1748
+        ]
+      ],
+      "3": [
+        [
+          928
+        ]
+      ],
+      "8": [
+        "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light."
+      ],
+      "13": [
+        98190
+      ],
+      "S": {
+        "1": "A Friend of the Family",
+        "4": 20,
+        "5": 25,
+        "6": 4294967373,
+        "11": 279598,
+        "17": 1519,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Друг родини",
+        "detail": "Король Теренас був доброю людиною. Побожною людиною. Улюбленим своїм народом, і саме тому ми взагалі маємо цей Альянс.\n\nІронія полягає в тому, що він був скромним — він ненавидів такі пам'ятки, і їх так мало. І з них мало хто пережив падіння Лордерона.\n\nЗдається, Світло об'єдналося в цій статуетці. Найкраще її зберігати в Соборі Світла на Соборній площі, в центрі міста. Віднесіть її лорду Грейсону, Тіньолому, для безпечного зберігання.",
+        "objective": "Принесіть статуетку Менетіла лорду Сивенку Тінелому в Собор Світла.",
+        "progress": "Нехай Світло буде з тобою, {клас:к}. Ти явно тут не заради балачок. Що сталося?",
+        "complete": "Світло милостиве... Він так схожий на свого сина...\n\n<Лорд Сивенко Тінелом на мить замовкає.>\n\nЦя статуетка справді благословенна. Її зв'язок із Теренасом, те, що вона пережила вчинок тієї потвори... Для тих, хто вірить у її силу, вона має велику міць.\n\nПоки що найкраще залишити її тут, під охороною ордену паладинів. Ми медитуватимемо над нею, щоб більше дізнатися про її дари. Можливо, вона допоможе нам у темні часи, що насуваються.\n\nДякую, {клас:к}. Нехай Світло благословить тебе.",
+        "en": "A Friend of the Family",
+        "faction": "Alliance"
+      }
+    ],
+    "sourceReview": "Author inspected all current English states, missing-state boundaries, installed full record and all pinned UA1.0.5 variants. Primary side1 Alliance; installed broad masks not live eligibility. No new live capture claimed."
+  }
+}

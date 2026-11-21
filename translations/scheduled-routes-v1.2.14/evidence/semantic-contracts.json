@@ -1,0 +1,257 @@
+{
+  "basis": "Root current English/Myanmar source-aware reading, separate from author generation; Burmese quantity bindings checked directly before shaping.",
+  "numeric": [
+    {
+      "id": 1087,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Sons of Cenarius",
+          "quantity": 4
+        },
+        {
+          "term": "Daughters of Cenarius",
+          "quantity": 4
+        },
+        {
+          "term": "Cenarion Botanists",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": 6282,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Bloodfury Harpies",
+          "quantity": 7
+        },
+        {
+          "term": "Bloodfury Ambushers",
+          "quantity": 7
+        },
+        {
+          "term": "Bloodfury Slayers",
+          "quantity": 7
+        },
+        {
+          "term": "Bloodfury Roguefeathers",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": 276,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mosshide Gnolls",
+          "quantity": 15
+        },
+        {
+          "term": "Mosshide Mongrels",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 277,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Crude Flints",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "id": 275,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Fen Creepers",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Incendicite Ore",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": 279,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Bluegill Murlocs",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": 6301,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Gaea Seeds",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 6381,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Gaea Seeds",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 86576,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Glittering Sunstones",
+          "quantity": 15
+        }
+      ]
+    },
+    {
+      "id": 6393,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Incendrites",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "written": [
+    {
+      "id": 2478,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mutated Venture Co. Drones",
+          "quantityWord": "နှစ်ဦး"
+        },
+        {
+          "term": "Venture Co. Patrollers",
+          "quantityWord": "နှစ်ဦး"
+        },
+        {
+          "term": "Venture Co. Lookouts",
+          "quantityWord": "နှစ်ဦး"
+        }
+      ]
+    },
+    {
+      "id": 2609,
+      "field": "detail",
+      "bindings": [
+        {
+          "term": "Simple Wildflowers",
+          "quantityWord": "တစ်စည်း"
+        },
+        {
+          "term": "Leaded Vial",
+          "quantityWord": "တစ်လုံး"
+        },
+        {
+          "term": "Bronze Tube",
+          "quantityWord": "တစ်ချောင်း"
+        },
+        {
+          "term": "Spool of Light Chartreuse Silk Thread",
+          "quantityWord": "တစ်လိပ်"
+        }
+      ]
+    }
+  ],
+  "ordered": [
+    {
+      "id": 1089,
+      "field": "objective",
+      "orderedTerms": [
+        "Gatekeeper's Key",
+        "Talon Den Hoard"
+      ],
+      "sourceBasis": "Obtain key, obtain cached items, use them to open hoard; task semantics separately read."
+    },
+    {
+      "id": 2381,
+      "field": "objective",
+      "orderedTerms": [
+        "Wrenix's Gizmotronic Apparatus",
+        "E.C.A.C.",
+        "Thieves' Tools",
+        "E.C.A.C."
+      ],
+      "sourceBasis": "Both tools acquired from apparatus; subsequent E.C.A.C. used conditionally on hostile parrots."
+    },
+    {
+      "id": 2458,
+      "field": "objective",
+      "orderedTerms": [
+        "Flare Gun",
+        "Taskmaster Fizzule",
+        "/Salute"
+      ],
+      "sourceBasis": "Flare signal, approach Fizzule, then execute salute."
+    },
+    {
+      "id": 2478,
+      "field": "objective",
+      "orderedTerms": [
+        "Silixiz's Tower Key",
+        "Mutated Venture Co. Drones",
+        "Venture Co. Patrollers",
+        "Venture Co. Lookouts",
+        "Grand Foreman Gallywix",
+        "Gallywix's lockbox",
+        "Cache of Zanzil's Altered Mixture",
+        "Gallywix's Head",
+        "Shenthul"
+      ],
+      "sourceBasis": "Key theft, three two-target kills, assassination/head, pick lockbox/cache, return both to Shenthul."
+    },
+    {
+      "id": 2479,
+      "field": "objective",
+      "orderedTerms": [
+        "Zeppelin",
+        "Undercity",
+        "Silverpine",
+        "Hillsbrad"
+      ],
+      "sourceBasis": "Travel second paragraph preserves Zeppelin to Undercity, road south through Silverpine toward Hillsbrad."
+    }
+  ],
+  "commandCases": [
+    {
+      "id": 2608,
+      "field": "objective",
+      "command": "/Lay"
+    },
+    {
+      "id": 2608,
+      "field": "progress",
+      "command": "/lay"
+    },
+    {
+      "id": 2458,
+      "field": "objective",
+      "command": "/Salute"
+    }
+  ]
+}
