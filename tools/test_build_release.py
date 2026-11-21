@@ -69,6 +69,26 @@ class ReviewedRouteExclusionTests(unittest.TestCase):
         self.assertEqual(reviewed_hold_test_source(original,{}),original)
         self.assertIn('467,466',(BASE/'BuildSource/tests.lua').read_text(encoding='utf8'))
 
+    def test_current_choksul_route_requires_review_and_preserves_other_placeholders(self):
+        from lupa.lua51 import LuaRuntime, LuaError
+        original=self.exclusion_probe()
+        drafts={'256':{f:'Reviewed current source' for f in ('title','detail','objective','progress','complete')}}
+        def run(source,title="WANTED: Chok'sul",placeholder=False):
+            lua=LuaRuntime(register_eval=False,register_builtins=False)
+            lua.globals().quest_title=title
+            lua.execute('A={quests={[256]={en=quest_title}}}')
+            if placeholder:lua.execute("A.quests[5841]={en='Unreviewed placeholder'}")
+            lua.execute(source)
+        with self.assertRaises(LuaError):run(original)
+        current=reviewed_hold_test_source(original,drafts)
+        run(current)
+        with self.assertRaises(LuaError):run(current,title='Wrong same-title quest')
+        with self.assertRaises(LuaError):run(current,placeholder=True)
+        with self.assertRaises(AssertionError):
+            reviewed_hold_test_source(original,{'256':{'title':'Unreviewed title'}})
+        with self.assertRaises(AssertionError):reviewed_hold_test_source('Changed historical exclusion',drafts)
+        self.assertIn('86776,256,2500',(BASE/'BuildSource/tests.lua').read_text(encoding='utf8'))
+
     def test_title_only_placeholder_cannot_remove_route_exclusion(self):
         with self.assertRaises(AssertionError):
             reviewed_hold_test_source(self.exclusion_probe(),{'467':{'title':'Unreviewed title only'}})

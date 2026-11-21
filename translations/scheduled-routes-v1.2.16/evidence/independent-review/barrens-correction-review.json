@@ -1,0 +1,396 @@
+{
+  "result": "PASS",
+  "partition": "barrens",
+  "reviewType": "independent affected-field source-aware bilingual repeat review",
+  "reviewedAtUTC": "2026-11-21T21:01:36.171341+00:00",
+  "originalIndependentReviewFile": "barrens.json",
+  "originalIndependentReviewSHA256": "200e270a279379864eb2e79261d24679b7593c74553a7386ad3ddea30ea5fafb",
+  "candidateDirectory": "../root-reviewed/barrens",
+  "counts": {
+    "quests": 20,
+    "allFieldSlots": 100,
+    "changedFields": 6,
+    "unchangedSlots": 94,
+    "sourceAvailableFields": 99,
+    "enabledFields": 98,
+    "retainedSourceHolds": 1,
+    "trueSourceAbsentFields": 1
+  },
+  "remainingIssues": [],
+  "affectedFields": [
+    {
+      "id": 5052,
+      "field": "detail",
+      "result": "PASS",
+      "englishSHA256": "4352b7fa80ab5b3ee9c42e5cddff38fa91cb9923856f2b94846fa3ed926303e6",
+      "priorMyanmarSHA256": "f9d7ea973e4a210208797b17d6f4074804cf7ebe9ae23a03fe9c04a1a04bd68f",
+      "correctedMyanmarSHA256": "315f8c38bd70efa39fb6cff8ff837ed8049f7fdba342169bd077eb652283a9e1",
+      "english": "Along with the thorns, the blood affected <snort> other aspects of the earth: blood red stones mixed in with other minerals. The Bristleback dig up these shards and carry them as totems <snort> for strength in battle and as totems for their magics. <snort>\n\nI know the secrets of that magic.\n\nBring Mangletooth one of these blood shards to show you understand. Bring Mangletooth many of the shards, and he will bless you with quilboar magic--the magic of Agamaggan! <snort>",
+      "correctedMyanmar": "ဆူးပင်တွေတင်မကဘူး၊ သွေးက <နှာမှုတ်သံ> မြေကြီးရဲ့ တခြားအရာတွေကိုလည်း ပြောင်းလဲစေခဲ့တယ်။ တခြားသတ္တုဓာတ်တွေနဲ့ ရောနှောနေတဲ့ သွေးနီရောင်ကျောက်တုံးတွေပေါ့။ Bristleback (ဘရစ်ဆယ်လ်ဘက်ခ်) တွေက အဲဒီကျောက်အပိုင်းအစတွေကို တူးဖော်ပြီး စစ်တိုက်ရာမှာ ခွန်အားရဖို့ <နှာမှုတ်သံ>၊ သူတို့ရဲ့ မှော်အတွက် အဆောင်တွေလို ဆောင်ထားကြတယ်။ <နှာမှုတ်သံ>\n\nအဲဒီမှော်ရဲ့ လျှို့ဝှက်ချက်တွေကို ငါသိတယ်။\n\nမင်း နားလည်တယ်ဆိုတာ ပြဖို့ ဒီ Blood Shards (ဘလဒ် ရှာ့ဒ်စ်) တွေထဲက တစ်ခုကို Mangletooth (မန်ဂယ်လ်တူးသ်) ဆီ ယူလာပါ။ အများကြီး ယူလာရင် Mangletooth က မင်းကို quilboar (ကွီလ်ဘော) မှော်နဲ့၊ Agamaggan (အဂါမဂန်) ရဲ့ မှော်နဲ့ ကောင်းချီးပေးမယ်။ <နှာမှုတ်သံ>",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    },
+    {
+      "id": 868,
+      "field": "detail",
+      "result": "PASS",
+      "englishSHA256": "25c19ed2d33ad465c71b8e82c3a723bb239dac14f4d5279099b7fefc6cc0be21",
+      "priorMyanmarSHA256": "f81c30c12ce9c60504116e175a919241654e86741492896f7987dddd014765d2",
+      "correctedMyanmarSHA256": "39a3fa0d3c98a3697600ea90f8354e9eab0022ae68f53543046c7779c371cd16",
+      "english": "Hey, <name>. I been sent to the Crossroads to watch over the land and take note of its happenings for my masters in Orgrimmar.\n\nOne object of my studies are the insect-like creatures found to the south in the Field of Giants. We know little of the creatures, so I be makin' it a point to discover more. They seem to have intelligence to them, more so than any normal animal.\n\nTake this digging claw and collect some of the creatures' eggs from their mounds, but be careful: if alerted, they will attack you.",
+      "correctedMyanmar": "ဟေ့၊ <name>။ Orgrimmar (အော်ဂရင်မာ) က ငါ့သခင်တွေအတွက် ဒီမြေကို စောင့်ကြည့်ပြီး ဖြစ်ပျက်တာတွေ မှတ်သားဖို့ ငါ့ကို Crossroads (ခရော့စ်ရိုးဒ်စ်) ဆီ လွှတ်လိုက်တာ။\n\nငါလေ့လာနေတဲ့အရာတစ်ခုက တောင်ဘက် Field of Giants (ဖီးလ်ဒ် အော့ဗ် ဂျိုင်းယန့်စ်) မှာ တွေ့ရတဲ့ အင်းဆက်နဲ့တူတဲ့ သတ္တဝါတွေပဲ။ သူတို့အကြောင်း ငါတို့ သိပ်မသိတော့ ပိုသိလာဖို့ ငါ သေချာကြိုးစားနေတယ်။ သာမန်တိရစ္ဆာန်တွေထက် ဉာဏ်ရည် ပိုရှိကြပုံရတယ်။\n\nဒီ Digging Claw (ဒစ်ဂင်း ကလော) ကို ယူပြီး သူတို့ကုန်းပို့တွေထဲက ဥတွေ စုလာပါ။ ဒါပေမယ့် သတိထားနော်။ သူတို့ သတိပြုမိသွားရင် မင်းကို တိုက်ခိုက်လိမ့်မယ်။",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    },
+    {
+      "id": 885,
+      "field": "complete",
+      "result": "PASS",
+      "englishSHA256": "d520e731d1dae8fa53911f28055f34486fe02a8124ff54732b996035e13f13fb",
+      "priorMyanmarSHA256": "aba09d2d2aad7c87b97f9b190a0b277dbb350d926e95164287acd4e9c69277ea",
+      "correctedMyanmarSHA256": "2587ce4e50b7e05913bd9734f15339557831dc371a66707ab7ea69bed364ef45",
+      "english": "The thunderhawk is a rare beast of the Barrens, and its death can portend great fortune, or great doom.\n\nBut Washte Pawne, called \"Spirit Biter\" in Taurahe, can bring neither... or both.\n\nThe pain you felt from hunting Spirit Biter is the pang all feel who make great gains at great costs.  The sting you felt is the pain of regret.\n\nBut I can see you have conquered this.  You have learned that regret turns to wisdom, and that through pain one gains strength.\n\nYou have learned much, <name>.",
+      "correctedMyanmar": "thunderhawk (သန်ဒါဟော့ခ်) ဟာ Barrens (ဘဲရန်းစ်) က ရှားပါးတဲ့ သားရဲတစ်မျိုးပဲ။ သူ့သေခြင်းက ကြီးမားတဲ့ ကံကောင်းခြင်း ဒါမှမဟုတ် ကြီးမားတဲ့ ဘေးဆိုးကို နိမိတ်ပြနိုင်တယ်။\n\nဒါပေမယ့် Taurahe (တော်ရာဟီ) ဘာသာနဲ့ \"Spirit Biter (စပရစ် ဘိုက်တာ)\" လို့ခေါ်တဲ့ Washte Pawne (ဝါရှ်တေး ပေါနီ) ကတော့ တစ်မျိုးမှ မယူလာနိုင်ဘူး... ဒါမှမဟုတ် နှစ်မျိုးစလုံးကို ယူလာနိုင်တယ်။\n\nSpirit Biter ကို အမဲလိုက်ရင်း မင်းခံစားခဲ့ရတဲ့နာကျင်မှုဟာ ကြီးမားတဲ့တန်ဖိုးပေးပြီး ကြီးမားတဲ့အကျိုးကို ရယူသူတိုင်း ခံစားရတဲ့ ဝေဒနာပဲ။ မင်းခံစားခဲ့ရတဲ့ စူးနစ်မှုဟာ နောင်တရဲ့ နာကျင်မှုပဲ။\n\nဒါပေမယ့် မင်း အဲဒါကို ကျော်လွှားနိုင်ပြီဆိုတာ ငါ မြင်တယ်။ နောင်တဟာ ဉာဏ်ပညာဖြစ်လာတတ်ပြီး နာကျင်မှုကတစ်ဆင့် ခွန်အားရတတ်တယ်ဆိုတာ မင်း သင်ယူခဲ့ပြီ။\n\nမင်း အများကြီး သင်ယူခဲ့ပြီ၊ <name>။",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    },
+    {
+      "id": 822,
+      "field": "detail",
+      "result": "PASS",
+      "englishSHA256": "809ca57f9bf54d4c37f8c087f75208e189f27365ff6bf86c03ce2217131dc523",
+      "priorMyanmarSHA256": "d2c0d0bd6b4130e72f179a432b8e9e19f2d0e6dcbf7c6c899816dfaf1732fc17",
+      "correctedMyanmarSHA256": "72312c33730853954056e8dfd471e61be997590c5ca360450e0be012df09294d",
+      "english": "Good stuff, that stormstout, huh?\n\nI have another recipe that I learned from Chen. Would you be interested? It won't take long to make, and it might be useful if you plan on adventuring some more.\n\nBring me 5 lightning glands from any stormhide, 1 thunderhawk saliva gland from greater thunderhawks, and a kodo liver from any of the Barrens' kodos.\n\nLike I said, this stuff has kick; it's the trogg brew that I mentioned to you before.",
+      "correctedMyanmar": "အဲဒီ Stormstout (စတော်မ်စတောက်တ်) က ကောင်းတယ် မဟုတ်လား။\n\nChen (ချန်) ဆီက သင်ထားတဲ့ နောက်ထပ် ဖျော်စပ်နည်းတစ်ခု ငါ့မှာ ရှိတယ်။ စိတ်ဝင်စားမလား။ လုပ်ရတာ မကြာဘူး။ နောက်ထပ် စွန့်စားခရီးထွက်ဖို့ စိတ်ကူးထားရင် အသုံးဝင်ကောင်း ဝင်လိမ့်မယ်။\n\nဘယ် Stormhide (စတော်မ်ဟိုက်ဒ်) ဆီကမဆို Lightning Glands (လိုက်တ်နင်း ဂလန်းဒ်စ်) 5 ခု၊ Greater Thunderhawks (ဂရိတ်တာ သန်ဒါဟော့ခ်စ်) ဆီက Thunderhawk Saliva Gland (သန်ဒါဟော့ခ် ဆလိုင်ဗာ ဂလန်းဒ်) 1 ခုနဲ့ Barrens (ဘဲရန်းစ်) က ဘယ် kodo (ကိုးဒိုး) ဆီကမဆို Kodo Liver (ကိုးဒိုး လစ်ဗာ) တစ်ခု ယူလာပါ။\n\nပြောခဲ့သလိုပဲ၊ ဒါက သောက်ရင် အရှိန်ပြင်းတယ်။ မင်းကို ငါ အရင်ပြောခဲ့တဲ့ Trogg Brew (ထရော့ဂ် ဘရူး) ပဲ။",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    },
+    {
+      "id": 6981,
+      "field": "objective",
+      "result": "PASS",
+      "englishSHA256": "0b92dc5d149d4ff65bddca8c9aa995b6850eb12119a0582994157bff30b3cbd3",
+      "priorMyanmarSHA256": "bb51ef06829c13a683c291c3a5e5bc4359e11c58cf879ef1dca013c05c2a70c4",
+      "correctedMyanmarSHA256": "141fc829fd8edc79aafb922abe82d9a9fd1df72301c52fde90df80b7f96bcfb3",
+      "english": "Travel to Ratchet to find someone that can tell you more about the glowing shard.\n\nThen, deliver the shard as you are directed.",
+      "correctedMyanmar": "Glowing Shard (ဂလိုးဝင်း ရှာ့ဒ်) အကြောင်း ပိုပြောပြနိုင်မယ့်သူကို ရှာဖို့ Ratchet (ရက်ချက်တ်) ဆီ သွားပါ။\n\nပြီးရင် ညွှန်ကြားတဲ့အတိုင်း အဲဒီကျောက်အပိုင်းအစကို ပို့ပေးပါ။",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    },
+    {
+      "id": 97003,
+      "field": "progress",
+      "result": "PASS",
+      "englishSHA256": "0684f61c7753dfbddadef125e3b1c4719cb419f61c3803f200734191650a0a6b",
+      "priorMyanmarSHA256": "8544af7762903b7ff46d025245ec1c63d73180fa464a43cfc3dafef52bfc338b",
+      "correctedMyanmarSHA256": "017bb8703da3bbf360ce2c546b688809f9cc8668d450f7020ad5bdc98b6973e8",
+      "english": "It took the strength of six skilled fighters to defeat one of these creatures, and it still managed to fell four of us before we could put it down.\n\nIf these monstrous beasts were to appear in greater numbers, the damage that the quilboar could inflict upon the land could be catastrophic.",
+      "correctedMyanmar": "ဒီလိုသတ္တဝါတစ်ကောင်ကို အနိုင်ယူဖို့ ကျွမ်းကျင်တိုက်ခိုက်သူ ခြောက်ဦးရဲ့ ခွန်အားကို လိုခဲ့တယ်။ ဒါတောင် ငါတို့ သူ့ကို အပြီးသတ်နိုင်မတိုင်ခင် ငါတို့ထဲက လေးဦးကို သူ လှဲချနိုင်ခဲ့တယ်။\n\nဒီကြောက်မက်ဖွယ် သားရဲမျိုးတွေ ပိုများလာမယ်ဆိုရင် quilboar (ကွီလ်ဘော) တွေ ဒီမြေကို ဖြစ်စေနိုင်တဲ့ ပျက်စီးမှုဟာ အကြီးအကျယ်ဖြစ်နိုင်တယ်။",
+      "exactApprovedFullFieldApplied": true,
+      "markersDigitsParagraphs": "PASS"
+    }
+  ],
+  "linkedItemIdentityReview": [
+    {
+      "id": 5052,
+      "field": "detail",
+      "linkedItemID": 5075,
+      "originalPrimaryLinkedLabels": [
+        "Blood Shard",
+        "Blood Shards",
+        "blood shards"
+      ],
+      "identity": "Blood Shards",
+      "phonetic": "ဘလဒ် ရှာ့ဒ်စ်",
+      "result": "PASS"
+    },
+    {
+      "id": 868,
+      "field": "detail",
+      "linkedItemID": 5059,
+      "originalPrimaryLinkedLabels": [
+        "Digging Claw",
+        "digging claw"
+      ],
+      "identity": "Digging Claw",
+      "phonetic": "ဒစ်ဂင်း ကလော",
+      "result": "PASS"
+    },
+    {
+      "id": 822,
+      "field": "detail",
+      "linkedItemID": 4953,
+      "originalPrimaryLinkedLabels": [
+        "trogg brew",
+        "Trogg Brew"
+      ],
+      "identity": "Trogg Brew",
+      "phonetic": "ထရော့ဂ် ဘရူး",
+      "result": "PASS"
+    },
+    {
+      "id": 6981,
+      "field": "objective",
+      "linkedItemID": 10441,
+      "originalPrimaryLinkedLabels": [
+        "Glowing Shard",
+        "Glowing Shard",
+        "glowing shard"
+      ],
+      "identity": "Glowing Shard",
+      "phonetic": "ဂလိုးဝင်း ရှာ့ဒ်",
+      "result": "PASS"
+    }
+  ],
+  "semanticRereview": [
+    {
+      "id": 5052,
+      "field": "detail",
+      "finding": "Blood Shards now has field-local identity+existing plural phonetics; one of these and optional many preserved, no totem/magic/snort change."
+    },
+    {
+      "id": 868,
+      "field": "detail",
+      "finding": "Given Digging Claw now identifiable; egg/mound collection, Field of Giants direction, possible intelligence and alert attack warning unchanged."
+    },
+    {
+      "id": 822,
+      "field": "detail",
+      "finding": "Whole Trogg Brew identity with single combined phonetics now retained; Stormstout callback, final5/1/one ingredients, maybe usefulness and kick idiom preserved. New compound follows maintained Trogg/Brew cores; native approval pending."
+    },
+    {
+      "id": 6981,
+      "field": "objective",
+      "finding": "Glowing Shard now identifiable; Ratchet lookup then directed delivery remain separate steps, no recipient invented."
+    },
+    {
+      "id": 885,
+      "field": "complete",
+      "finding": "တစ်မျိုးမှ clearly excludes each fortune/doom alternative; ellipsis and or both possibility retain uncertainty. Pain/regret/wisdom monologue otherwise unchanged."
+    },
+    {
+      "id": 97003,
+      "field": "progress",
+      "finding": "လှဲချ preserves fell without asserting fighter deaths. Written six skilled fighters/four struck down remain bound correctly; creature-finishing clause preserved. Conditional catastrophic damage and Horde voice unchanged; distinct97005explicit kills/all but self and one other not imported."
+    }
+  ],
+  "tests": {
+    "exactApprovedProposals": {
+      "result": "PASS",
+      "count": 6
+    },
+    "unaffectedSlots": {
+      "result": "PASS",
+      "count": 94
+    },
+    "actualOriginalPrimaryReparse": {
+      "result": "PASS",
+      "quests": 20,
+      "allFiveEnglishFieldsUnchanged": true,
+      "sourceFields": 99,
+      "originalPrimaryHTMLHashes": {
+        "878": "164fb89eb5c7e1aeffe1116db854dda923d403b2605d39ede99db490ea408f25",
+        "5052": "e68c8f63866e0bd3fe2190ac0d0886d5f971e5c5384fc0aadd8f2a2d95c59336",
+        "879": "7d0fab3494854a16fde23d7c152ca9dc6d1b29b9257a88a2d312cb0cd9dc9542",
+        "906": "e6e39645be9d25fb612b33ca80854e6259439cca6a22c287645b837db95579cf",
+        "843": "ff1cbe65e3a5cd262d0bb058bd5fec77d1c6069b892ee42ef62a264e78c59054",
+        "846": "071f12d0e377191093d193966b3dfb79e8d68b4cf639f513e7a1c8bd385d4fc9",
+        "849": "cfee2a581614607a4cd129cf929a12d035151448f2b6ca6a51bcaccd6bcb15ae",
+        "874": "14708897ad65167f344981c4acda02ca044ca6ad89cd2533550700d4f83b1cf0",
+        "873": "c67af28be896babf991a219a851a3de08ebf2132d6c1a9dfbe7273ec4c25f48e",
+        "868": "9388bdf941fa0ec2f166833bce3505e2a1cf6c5c8bf9c49c346645a149403264",
+        "883": "ed679472ec3544cf1c6878c03bdd1db96a1e1e67c209d86707f0de813602cec7",
+        "884": "3ab79bb19b2d5a9f0bc2b8bf8eaa15eccfbce394805f907568f837de9757ff42",
+        "885": "3de681c3209e3d5225a2b635e0b29fc4ec51ff721809c2cdb8e915e7ddb86b78",
+        "822": "de8193625faca2eb98018f97702580a948a9e2bfe12171d5dd2d1a5212c4202e",
+        "893": "4ca4d43460d42f0042af0246ac67291ef639a4ec54eae997a78ea0c173583032",
+        "6981": "cc7fb38ac0c5a6c0709ae22428fd4ee09d26cce1e264ab717215fadcd5c2f777",
+        "3369": "64c21c7a14216cc51550fb0d8c1415c974d244757c7bb171b8036ce1bcd63b81",
+        "3370": "8a085a7a8f37dd78567f7cdfb3334cca8e820d4fe4f0fbc6324b00cae83356c2",
+        "97003": "4aec51720a0e0f184caf471a170c99ae3321b74fe0338fabedb162a9bc889f35",
+        "97005": "d06f3919d50b72cc76c81c864c02b30a0bab3494f44a5ff69d6bd4ae97e71b35"
+      }
+    },
+    "linguistic_lint.lint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 20
+    },
+    "supportedMarkersExactCaseAndCounts": {
+      "result": "PASS",
+      "enabledFields": 98
+    },
+    "numericCountersAndParagraphCounts": {
+      "result": "PASS",
+      "enabledFields": 98
+    },
+    "reviewAuditEnglishRawFinalHashes": {
+      "result": "PASS",
+      "slots": 100
+    },
+    "sourceHoldsAndAbsences": {
+      "result": "PASS",
+      "held": "874.detail null for unsupported source him/her; source and held evidence unchanged",
+      "absent": "874.progress genuinely source-absent, remains null"
+    },
+    "pronunciationDiff": {
+      "result": "PASS",
+      "onlyAdded": {
+        "Trogg Brew": "ထရော့ဂ် ဘရူး"
+      },
+      "existingTermsUnchanged": true
+    }
+  },
+  "sourceLayoutEvidenceDisposition": {
+    "result": "PASS",
+    "file": "../source-evidence-dispositions.json",
+    "fileSHA256": "7e441d63cac7e7e115b026a580ed1d1f2323aadf212ac95ebd0b50cf53e55ab5",
+    "actualPrimaryBoundary": "822 Progress hidden lknlksndgg-progress reply div, directly rechecked",
+    "exactPointerGuardsVerified": 10,
+    "authoredFileAndOldValueHashesVerified": true,
+    "frozenAuthorBytesPreserved": true,
+    "englishAndMyanmarProgressUnchanged": true,
+    "canonicalReviewNotes": {
+      "summary": "Final Chen recipe after821; current saved primary Progress uses a hidden reply div, not a direct-heading body. English and Myanmar source-state text remain unchanged.",
+      "progress": "Actual hidden reply div Progress fetched and checked; asks about diligent ingredient searching."
+    },
+    "scope": "Root overlay explicitly supersedes ten incorrect historical directheading descriptions. Canonical corrected strings agree with actual HTML. Final integrated guarded application remains part of root package validation, not a new source/text issue."
+  },
+  "candidateHashesBefore": {
+    "edited.json": "88a048ed4fd378a47ccb09aa5f3465c1d62048739d9e5285dd7aba6859e8ecf1",
+    "pronunciations.json": "1f7ad19dcfb2c1acfdbb58947a37c960ac52fce3690c878b2cb71f101efb0f29",
+    "review-audit.json": "8aee324a4028e685d6635ef0e4b443275fcdd1b473dda76d6d55ada6d4b2cd02",
+    "accepted-corrections.json": "bcc8c824122602abd3a521037ab54298497265a9e602508d1534088dfe843123"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "88a048ed4fd378a47ccb09aa5f3465c1d62048739d9e5285dd7aba6859e8ecf1",
+    "pronunciations.json": "1f7ad19dcfb2c1acfdbb58947a37c960ac52fce3690c878b2cb71f101efb0f29",
+    "review-audit.json": "8aee324a4028e685d6635ef0e4b443275fcdd1b473dda76d6d55ada6d4b2cd02",
+    "accepted-corrections.json": "bcc8c824122602abd3a521037ab54298497265a9e602508d1534088dfe843123"
+  },
+  "candidateFilesUnchanged": true,
+  "authorOriginalUnchangedReceipt": {
+    "result": "PASS",
+    "receiptFile": "barrens-before-hashes.json",
+    "receiptSHA256": "27344cb1269028e80e4b5e4b07543b82274e45253de042cda5faf19198505ff7",
+    "originalFileCount": 92,
+    "allAuthorFilesUnchanged": true,
+    "authorJSONHashesBefore": {
+      "annotation-exceptions.json": "d73b004e899d599a49210202e16a51143db3b2a761dc64ba3db26d68f6bc5c31",
+      "author-review-summary.json": "9c44fc6d584de978adb8816e630ba5088276275860f16ec36abee15310e3d2bb",
+      "comparison-provenance.json": "35f7ddd1554b670e1587bdf5380a8b5baa916a36121de420fc666a725456b281",
+      "deepl-index-01.json": "ced6075ee17c732bcbc439353652875ff758caf7822bb617f58e552f438a35b0",
+      "deepl-index-02.json": "72176b2e73e36ea4f087bac1aede5168c56eb58bd869af3484ca7366518d7b7c",
+      "deepl-index-03.json": "994c1e26ffb39c5bce8dfefda92b2d2ac8589f8d18067b8c94129b300a96f939",
+      "deepl-index-04.json": "0fe6dad7ed9d9d4b30105b97537aafe2dd9fc8d638c3eda96b92578dec9ca939",
+      "deepl-index-05.json": "292f02cef58dcca8120a0a045dc3d81fb114e9bcdea787fea6f1d238ed13ddd5",
+      "deepl-request-01.json": "6ae83cccefcdd39d18e49cc1c2f6e2edb20722621fad6eb849c1220a3764fc49",
+      "deepl-request-02.json": "2bfa7e0c9d9231b686d170cab17b701a89bb4faf9bc287932789ed880854234c",
+      "deepl-request-03.json": "19756c38964e18801bac27d46ea38414bb00881b8422eb6fed13f0fe294313bf",
+      "deepl-request-04.json": "443cfd6d461642df84f348ccd915fc63c2423d303079376302b4194efb4abd2e",
+      "deepl-request-05.json": "f4c24498124f12c03d8874f63d0784d52227ecfcd86ca03ffb794418bb7dbeb1",
+      "deepl-response-01.json": "59d6c6b2861430fa596ba7ec1975bab108351228a9727e396ee6fc6adb3e0b89",
+      "deepl-response-02.json": "ee109343c94e9d25fee84a68b7b6ab2f37f47e70bf5098f9d8d3dbc2a85efbf1",
+      "deepl-response-03.json": "866015c169f7a41a93bb12c21ea3674276625f8f465597285188ecddd8109cc4",
+      "deepl-response-04.json": "b29af4d5756a0c3a3286438096fad8237fbf99820a9549d3867945750ab9c2e7",
+      "deepl-response-05.json": "c1dd3ae4517fbe0896704b8e487eeed1fd0140b2ab67e119f52f49c2bc0ee236",
+      "edited-group1.json": "18b5500d6d057ab30eb8fc7641d426b514de6f2cb4c339951318c68263f697a5",
+      "edited-group2.json": "ee7ab1d5d143629c8ec53439f2fc0022189b2a4544960788ee193e683bbb551e",
+      "edited-group3.json": "fa8ad9de40b16be5af78358b9033d5cafd0f7ea8d3a7e574a3f19b621d5c1f80",
+      "edited.json": "341e6621badbea50e565301cd8b505eff494203855fdf5de8f19ea0e24669280",
+      "eligibility-review.json": "409d666f4c20198c4b97b6facd119b4a1b426b55da4cc6488af5b42efe64786f",
+      "english-sources.json": "b5d58983b0a34b18b4ab6e9bc70447d6db0ecd8259a126fbdad19f7582a794b2",
+      "fetched.json": "fcbd33e22d271776f6e458358d6fa63f63c7aed8262588f47cfa625f0426bbff",
+      "frozen-artifact-hashes.json": "e30b156a4a4400c4d53bbec3a78f1625abf7f486b89026a3294abf406ea097b4",
+      "frozen-group1-hashes.json": "5c5c40b366f3364c61a7ede59f051ce5f4e3a99106ee7c2b9bc46cf6ae6bf2fb",
+      "frozen-group2-hashes.json": "78652c52ee40d24186d334ebfd33c08b5e46edb1fdddaccf6db998e9a83bb497",
+      "frozen-group3-hashes.json": "406464902818a93845e4790be145a1aa9352c4794a7f2622564bfa9a67880862",
+      "held-fields.json": "e8661c759cb1168ce54a9c54e50caf02b67df92266342f26604d00b74eae4c2f",
+      "metadata-source-inspection.json": "beb8ce7510460013bd6765d619dc7a9a544c28d1d72111e9fa1ecb20b40f31d1",
+      "primary-quickfacts.json": "ef5a39203686ba6c0480166867e65142932b8d34d006f0547956d3bba6d9b943",
+      "pronunciations.json": "f1fe32dc235bd46155577dd4b9a3842848a58d0ced3305dbf82afaba1f53ec3f",
+      "proposed-pronunciations.json": "891db57dd08d24e29779f696290abe2395ba7b6e5aff3b35c276ee60d4f56cfa",
+      "provenance-group1.json": "5a50d5c154d91b5410831b4a6d9dfb623eb8b5b0c1f727e7381de79c43ca6992",
+      "provenance-group2.json": "df8e8bd917d9d085c3159a70289e98886aee18e88711412163089a9714dddcac",
+      "provenance-group3.json": "c3eee7589824473eae3e2daddc7b07c9ceef005b2b4a3db2dea37424b61f69d5",
+      "review-audit.json": "78711c61e38b1438f5d0b9318c683ff564fe4b368c88d12b79466521e56f8065",
+      "review-group1.json": "c8f93c7abf1c415b621bbf130558a05b2ca5732e97d82fe5e5cabe64db58ea3b",
+      "review-group2.json": "b43b06f46866484d4520e1f0655bfa1f14c27d9ea496ad590791713860e8422d",
+      "review-group3.json": "9f633817f686465b901443011a845c20bc363d94ff26e2d75a0fc29bce4139dc",
+      "review-groups.json": "6f7601517e21bcd571274640fdf4bdf77c88e86b42ef35746691c4b4eacb765e",
+      "semantic-notes.json": "68dcd40f18e804df8d091573967d624f023aea95b1e98c851d7a01a627936abc",
+      "separate-bilingual-review.json": "deddad7fb02a389934a1136dce8139cb2ff4e98090d508783bd6e9a85d920d3d",
+      "source-boundaries-supplement.json": "a421287dcfe40b9f3ae11a80fd260a4b27c5bd96093dc5cfb0bf2b8edf5c2381",
+      "source-boundaries.json": "3bac11ae86fd098adb50ecb4aeb948d3b10f18fa3baed8ed7a8215e0b7b3361b",
+      "source-discrepancies.json": "60fa8d74b0546de41b5718d64ed2274f42acd526e52a274e324f7302534864ea",
+      "source-review-summary.json": "62ba1cb9d9fc3d1fce75bc859f518fd4e5cd7d30bc4710eae8bb1a942a97b196",
+      "ua-field-countercheck.json": "692c810a447a26d6fdc87e1012a045fda495b37003da1321be9524df587b69a7",
+      "validation.json": "c318666db8b1f9b757335127e6c119b4136f571e9bb9a8bb14c355cdf6297725"
+    },
+    "authorJSONHashesAfter": {
+      "annotation-exceptions.json": "d73b004e899d599a49210202e16a51143db3b2a761dc64ba3db26d68f6bc5c31",
+      "author-review-summary.json": "9c44fc6d584de978adb8816e630ba5088276275860f16ec36abee15310e3d2bb",
+      "comparison-provenance.json": "35f7ddd1554b670e1587bdf5380a8b5baa916a36121de420fc666a725456b281",
+      "deepl-index-01.json": "ced6075ee17c732bcbc439353652875ff758caf7822bb617f58e552f438a35b0",
+      "deepl-index-02.json": "72176b2e73e36ea4f087bac1aede5168c56eb58bd869af3484ca7366518d7b7c",
+      "deepl-index-03.json": "994c1e26ffb39c5bce8dfefda92b2d2ac8589f8d18067b8c94129b300a96f939",
+      "deepl-index-04.json": "0fe6dad7ed9d9d4b30105b97537aafe2dd9fc8d638c3eda96b92578dec9ca939",
+      "deepl-index-05.json": "292f02cef58dcca8120a0a045dc3d81fb114e9bcdea787fea6f1d238ed13ddd5",
+      "deepl-request-01.json": "6ae83cccefcdd39d18e49cc1c2f6e2edb20722621fad6eb849c1220a3764fc49",
+      "deepl-request-02.json": "2bfa7e0c9d9231b686d170cab17b701a89bb4faf9bc287932789ed880854234c",
+      "deepl-request-03.json": "19756c38964e18801bac27d46ea38414bb00881b8422eb6fed13f0fe294313bf",
+      "deepl-request-04.json": "443cfd6d461642df84f348ccd915fc63c2423d303079376302b4194efb4abd2e",
+      "deepl-request-05.json": "f4c24498124f12c03d8874f63d0784d52227ecfcd86ca03ffb794418bb7dbeb1",
+      "deepl-response-01.json": "59d6c6b2861430fa596ba7ec1975bab108351228a9727e396ee6fc6adb3e0b89",
+      "deepl-response-02.json": "ee109343c94e9d25fee84a68b7b6ab2f37f47e70bf5098f9d8d3dbc2a85efbf1",
+      "deepl-response-03.json": "866015c169f7a41a93bb12c21ea3674276625f8f465597285188ecddd8109cc4",
+      "deepl-response-04.json": "b29af4d5756a0c3a3286438096fad8237fbf99820a9549d3867945750ab9c2e7",
+      "deepl-response-05.json": "c1dd3ae4517fbe0896704b8e487eeed1fd0140b2ab67e119f52f49c2bc0ee236",
+      "edited-group1.json": "18b5500d6d057ab30eb8fc7641d426b514de6f2cb4c339951318c68263f697a5",
+      "edited-group2.json": "ee7ab1d5d143629c8ec53439f2fc0022189b2a4544960788ee193e683bbb551e",
+      "edited-group3.json": "fa8ad9de40b16be5af78358b9033d5cafd0f7ea8d3a7e574a3f19b621d5c1f80",
+      "edited.json": "341e6621badbea50e565301cd8b505eff494203855fdf5de8f19ea0e24669280",
+      "eligibility-review.json": "409d666f4c20198c4b97b6facd119b4a1b426b55da4cc6488af5b42efe64786f",
+      "english-sources.json": "b5d58983b0a34b18b4ab6e9bc70447d6db0ecd8259a126fbdad19f7582a794b2",
+      "fetched.json": "fcbd33e22d271776f6e458358d6fa63f63c7aed8262588f47cfa625f0426bbff",
+      "frozen-artifact-hashes.json": "e30b156a4a4400c4d53bbec3a78f1625abf7f486b89026a3294abf406ea097b4",
+      "frozen-group1-hashes.json": "5c5c40b366f3364c61a7ede59f051ce5f4e3a99106ee7c2b9bc46cf6ae6bf2fb",
+      "frozen-group2-hashes.json": "78652c52ee40d24186d334ebfd33c08b5e46edb1fdddaccf6db998e9a83bb497",
+      "frozen-group3-hashes.json": "406464902818a93845e4790be145a1aa9352c4794a7f2622564bfa9a67880862",
+      "held-fields.json": "e8661c759cb1168ce54a9c54e50caf02b67df92266342f26604d00b74eae4c2f",
+      "metadata-source-inspection.json": "beb8ce7510460013bd6765d619dc7a9a544c28d1d72111e9fa1ecb20b40f31d1",
+      "primary-quickfacts.json": "ef5a39203686ba6c0480166867e65142932b8d34d006f0547956d3bba6d9b943",
+      "pronunciations.json": "f1fe32dc235bd46155577dd4b9a3842848a58d0ced3305dbf82afaba1f53ec3f",
+      "proposed-pronunciations.json": "891db57dd08d24e29779f696290abe2395ba7b6e5aff3b35c276ee60d4f56cfa",
+      "provenance-group1.json": "5a50d5c154d91b5410831b4a6d9dfb623eb8b5b0c1f727e7381de79c43ca6992",
+      "provenance-group2.json": "df8e8bd917d9d085c3159a70289e98886aee18e88711412163089a9714dddcac",
+      "provenance-group3.json": "c3eee7589824473eae3e2daddc7b07c9ceef005b2b4a3db2dea37424b61f69d5",
+      "review-audit.json": "78711c61e38b1438f5d0b9318c683ff564fe4b368c88d12b79466521e56f8065",
+      "review-group1.json": "c8f93c7abf1c415b621bbf130558a05b2ca5732e97d82fe5e5cabe64db58ea3b",
+      "review-group2.json": "b43b06f46866484d4520e1f0655bfa1f14c27d9ea496ad590791713860e8422d",
+      "review-group3.json": "9f633817f686465b901443011a845c20bc363d94ff26e2d75a0fc29bce4139dc",
+      "review-groups.json": "6f7601517e21bcd571274640fdf4bdf77c88e86b42ef35746691c4b4eacb765e",
+      "semantic-notes.json": "68dcd40f18e804df8d091573967d624f023aea95b1e98c851d7a01a627936abc",
+      "separate-bilingual-review.json": "deddad7fb02a389934a1136dce8139cb2ff4e98090d508783bd6e9a85d920d3d",
+      "source-boundaries-supplement.json": "a421287dcfe40b9f3ae11a80fd260a4b27c5bd96093dc5cfb0bf2b8edf5c2381",
+      "source-boundaries.json": "3bac11ae86fd098adb50ecb4aeb948d3b10f18fa3baed8ed7a8215e0b7b3361b",
+      "source-discrepancies.json": "60fa8d74b0546de41b5718d64ed2274f42acd526e52a274e324f7302534864ea",
+      "source-review-summary.json": "62ba1cb9d9fc3d1fce75bc859f518fd4e5cd7d30bc4710eae8bb1a942a97b196",
+      "ua-field-countercheck.json": "692c810a447a26d6fdc87e1012a045fda495b37003da1321be9524df587b69a7",
+      "validation.json": "c318666db8b1f9b757335127e6c119b4136f571e9bb9a8bb14c355cdf6297725"
+    }
+  },
+  "originalIndependentReportUnchanged": true,
+  "sourceDispositionFileUnchanged": true,
+  "pending": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending native review",
+    "currentForeverLiveVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  },
+  "claimLimit": "This PASS covers six resolved field findings plus candidate/source integrity. It is independent assisted review, not native proofreading, current live acceptance/playtest, controller testing or completed package validation."
+}

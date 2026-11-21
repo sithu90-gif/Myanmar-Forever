@@ -1,0 +1,62 @@
+{
+  "activeHolds": [
+    {
+      "id": 541,
+      "field": "objective",
+      "reason": "Current original primary, 60.tools secondary and pinned UA1.1.0 all require10Mountaineers/8Riflemen/4Priests plus Captain Ironhill, but refreshed installed QuestieDB1.1.3 objective requires8Mountaineers/4Riflemen/2Priests plus Captain Ironhill. No current sanitized live capture resolves the counts. Hold full objective; retain source and actual raw DeepL proposal without selecting a variant.",
+      "sourceEnglish": "Travel to Dun Garok and kill 10 Mountaineers, 8 Riflemen, 4 Priests and Captain Ironhill and report back to Darthalia in Tarren Mill.",
+      "installedEnglish": "Travel to Dun Garok and kill 8 Mountaineers, 4 Riflemen, 2 Priests and Captain Ironhill and report back to Darthalia in Tarren Mill.",
+      "rawDeepLProposal": "ဒန်ဂါရော့သို့ သွား၍ တောင်တက်သမား ၁၀ ဦး၊ သေနတ်သမား ၈ ဦး၊ ဘုန်းကြီး ၄ ဦးနှင့် ကပတိန် အိုင်ရွန်ဟီးလ်ကို သတ်ပြီး တားရင်မီးလ်ရှိ ဒတ်စ်အာလီးယားထံ ပြန်လည်အစီရင်ခံပါ။",
+      "editedValue": null,
+      "englishSHA256": "2f043be0f0987d0c5f90ace83da55a17d31fe0c48515adf412fa86b368a3a608",
+      "rawDeepLSHA256": "25c76d4281f929878697d9dc3844559adb9b49d9a05a4875ddc19626af7e8a57",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 11,
+      "responseIndex": 11,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/11",
+      "responseJSONPointer": "/translations/0/translations/11/text",
+      "editedSHA256": null,
+      "status": "held pending current sanitized live quantity evidence"
+    }
+  ],
+  "genuinelyUnavailable": [
+    {
+      "id": 494,
+      "field": "progress",
+      "reason": "No primary Progress heading/state; secondary and UA absent. True source null retained."
+    }
+  ],
+  "sourceDifferences": [
+    {
+      "id": 541,
+      "field": "objective",
+      "decision": "Current primary+secondary+UA10Mountaineers/8Riflemen/4Priests conflict with installed8/4/2; objective held, all raw proposal/source evidence retained."
+    },
+    {
+      "ids": [
+        98094,
+        98095
+      ],
+      "fields": [
+        "progress",
+        "complete"
+      ],
+      "decision": "Current primary original headings and UA states present; secondary lacks both states. Primary-supported fields translated."
+    },
+    {
+      "id": 98095,
+      "field": "detail",
+      "decision": "Current primary+secondary source typo Dunholde Keep retained as English alias. Phonetic matches maintained Durnholde Keep core; no source or runtime alias rewrite."
+    },
+    {
+      "id": 499,
+      "field": "progress",
+      "decision": "Actual DeepL auto-detected Ribbit as MS; exact English request/source/raw output retained. Natural short frog vocalization edited; native review pending."
+    }
+  ],
+  "eligibilityStatus": "All15 current primary Horde; no class/race restriction in selected identity script. Installed broad race masks are not current live eligibility proof. Quest550level32/min19;541elitelevel30/min19;546min20. Follow-ups533min29/566min35 deferred.",
+  "liveEvidence": "Parent audited300sanitizedstates/128IDs allcovered; no current selected-quest live capture or live playtest claimed."
+}

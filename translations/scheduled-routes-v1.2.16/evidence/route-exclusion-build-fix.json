@@ -1,0 +1,12 @@
+{
+  "result": "PASS",
+  "id": 256,
+  "currentEnglishTitle": "WANTED: Chok'sul",
+  "source": "current primary ownID/currenttitle/all5states and installedmetadata verified before translation",
+  "fix": "adapt copied legacy probe only after composed title/detail/objective/complete are enabled; exact English identity asserted; every other exclusion protected",
+  "redEvidence": "route-exclusion-red.log",
+  "greenEvidence": "python-tests.log",
+  "newRegressionCases": "valid fully reviewed256 accepted; wrong English identity, title-only draft, unrelated placeholder and changed historical anchor rejected",
+  "snapshotUnmodified": true,
+  "checkedAtUTC": "2026-11-21T20:41:50.527434+00:00"
+}

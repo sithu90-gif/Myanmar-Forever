@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "quests": 15,
+  "enabledFields": 73,
+  "unavailableFields": 1,
+  "heldFields": 1,
+  "rawProvenanceFieldsVerified": 74,
+  "linguisticLintIssues": [],
+  "build_release.validate_fields": "passed",
+  "currentPrimaryReparse": "all completed IDs exact",
+  "paragraphCounts": "exact source counts in all enabled fields",
+  "reviewGroups": 2,
+  "independentAssistedReview": "not performed; fresh reviewer follows",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending native review",
+  "liveClientVerification": "not tested",
+  "controllerVerification": "not tested",
+  "sourceCounts": {
+    "availableFields": 74,
+    "enabledFields": 73,
+    "heldFields": 1,
+    "genuinelyUnavailableFields": 1
+  },
+  "allRequestedInputFieldsAccountedExactlyOnce": true,
+  "allActualRawHashesVerified": true,
+  "allPrimarySecondaryOriginalHTMLHashesVerified": true,
+  "selectedQuestIDs": [
+    494,
+    527,
+    528,
+    98094,
+    98095,
+    529,
+    532,
+    539,
+    541,
+    550,
+    496,
+    499,
+    498,
+    546,
+    549
+  ],
+  "actualRequestResponseIndexHashes": "all3 actualMY arrays30/19/25fields and4896/3606/3870inputchars verified",
+  "sourceQuantityConflicts": [
+    {
+      "id": 541,
+      "field": "objective",
+      "primarySecondaryUA": [
+        10,
+        8,
+        4
+      ],
+      "installed": [
+        8,
+        4,
+        2
+      ],
+      "status": "held"
+    }
+  ],
+  "immutableInitialAndCorrectedGroupSnapshotsVerified": true,
+  "reviewedSourcePinsSHA256": {
+    "upstream-reference.json": "c4de72374ff8b1158a6c2c22c5cbac9f9130c33ff8d7f3470934e4a2a79a38ef",
+    "selection.json": "b5aab58b80889a3ed732eeb76bc1c96f5a772cf878b191d8ef32353b7bd68894",
+    "metadata-reference.json": "253041d977b00d8465e97deb6ff3be193561e2a365a996ef95df0f46cd826468",
+    "metadata.json": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "maintained-pronunciations.json": "1d22d27155e3e8615d1e25d3ce16b54d65ff5d9ebf207483585ed4abfb1bddf8"
+  },
+  "checkedAtUTC": "2026-11-21T20:49:08.499202+00:00"
+}

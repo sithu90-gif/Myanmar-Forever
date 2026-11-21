@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "quests": 9,
+  "enabledFields": 40,
+  "sourceAvailableFields": 43,
+  "heldFields": 3,
+  "unavailableFields": 2,
+  "linguisticLintIssues": [],
+  "build_release.validate_fields": "passed all9quests/all45slots after holds",
+  "primaryReparse": "all9 exact with raw boundary inspection",
+  "rawProvenanceFieldsVerified": 43,
+  "sourceCountDiscrepancies": [
+    "484 primary6 vs installed4 held",
+    "98072 primary8 installed8 vs UA10"
+  ],
+  "frozenHashes": {
+    "edited-group1.json": "a68e59c4dc406c912d8f8a0cef822cefec122f624ef54db4833eaa9b41ac27b4",
+    "semantic-notes-group1.json": "56f5f706c7770edbf41a7a22d2559a20c2fe992f0380f57793ea823f4788af49",
+    "review-audit-group1.json": "df56cce32d61728ded779faba6b8a2521349e242fd29e3bdc53de53e30171217",
+    "comparison-provenance-group1.json": "6f0df0981c3b5a66c48a34e00ab9160092e5764423ad854fae7982219bb597e9",
+    "held-fields-group1.json": "bc4744cf29a966727720b0187ff87d5f4a576fdfeebf90a10ac6c6f384c67901",
+    "english-sources.json": "baf2e4cad8219f9c2bc2c0d99767f4943f33abbea031f9562030acbcaf44b65b",
+    "source-boundary-audit.json": "1897d33d5d2bb37312257c47ba0244b22b464c6d84e5c78a7fda04f319683e7b",
+    "deepl-request-01.json": "a8710c6186a2dafad3094d9be290118a0ab9fb33d3c899137095a27a76746477",
+    "deepl-response-01.json": "8482d7f69839be5d82aaf0a8cd77041999bece93875116d342af476afa70e9b7",
+    "deepl-index-01.json": "b3a72726e6ea399e7541ef798f836e15b6e7359fa1038881aa1595086954216d",
+    "deepl-request-02.json": "9cf0fc617e08d64973ddfcefdf8023c8e1f95c025d6aa9784475e49debf9e452",
+    "deepl-response-02.json": "3b142a37e65b176b2717c96550686e87bfbb0aba82b32dd1268022537b074fb7",
+    "deepl-index-02.json": "ce32be6793d45d52fe3e779edaa18ce79bd031accadd607a11f375db9b423de7",
+    "deepl-request-05.json": "5e6de0414e358857421d041666c18dcbb31b03c1a3e812fd87610baade473c4a",
+    "deepl-response-05.json": "f60a3077e9214b9b256c16c5d9e5d5e7d95850b2718c3898a2ca99bc3c5eda41",
+    "deepl-index-05.json": "82c8cd7b24132b8cd2d411b0c876338e31005cac2a5debaf701f2f2ea9819753"
+  }
+}

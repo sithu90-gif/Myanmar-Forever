@@ -1,0 +1,55 @@
+{
+  "primarySuccess": 20,
+  "secondarySuccess": 20,
+  "quests": 20,
+  "availablePrimaryFields": 99,
+  "upstreamVersion": "1.1.0",
+  "upstreamCommit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+  "upstreamReferenceFile": "../upstream-reference.json",
+  "upstreamReferenceSHA256": "c4de72374ff8b1158a6c2c22c5cbac9f9130c33ff8d7f3470934e4a2a79a38ef",
+  "englishTitleMatch": "20 exact; no generic same-title aliases added",
+  "upstreamFields": "Every title/detail/objective/progress/complete variant compared perID; current primary controls English meaning and markers. UA gender grammar is not transplanted.",
+  "currentEnglishIssues": [
+    {
+      "id": 874,
+      "field": "detail",
+      "decision": "Held whole offer for unsupported literal <him/her>;secondary slash text and UA neutralization do not resolve live branch."
+    },
+    {
+      "ids": [
+        97003,
+        97005
+      ],
+      "fields": [
+        "progress",
+        "complete"
+      ],
+      "decision": "Primary present;secondary absent, originalreplyboundaries checked, do not invent absence."
+    },
+    {
+      "ids": [
+        3369,
+        3370
+      ],
+      "decision": "Currentprimarymin10 versusinstalled15; do not claim acceptance belowinstalled or silentlychange metadata."
+    },
+    {
+      "id": 3370,
+      "decision": "UA faction Both versuscurrentprimaryAlliance andinstalledAlliance mask; currentprimaryrecipientMathrengyl andAlliance narrative retained; no Hordealias."
+    },
+    {
+      "id": 5052,
+      "field": "complete",
+      "decision": "Primary literal lose you upon them interpreted as contextually clear unleash/send against abandoning tribe, supported by primary nearby action and UA; no fabricatedquesttask. Reviewer should assess documented spellingtypo decision."
+    }
+  ],
+  "oldUpstreamChanges": "Root supplied fresh exactcatalog comparison unchanged, no oldenabledrecords changed.",
+  "currentLiveCaptureReview": "Parent sanitized300states/128IDs allpreviouslycovered, no newgap/currentplaytest claim.",
+  "notCompleted": [
+    "nativeMyanmarproofreading",
+    "newpronunciationapproval",
+    "currentForeverliveplaytest",
+    "controllerhardwareverification",
+    "independentassistedreview"
+  ]
+}

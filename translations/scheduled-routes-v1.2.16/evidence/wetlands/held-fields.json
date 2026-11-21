@@ -1,0 +1,100 @@
+[
+  {
+    "id": 455,
+    "field": "progress",
+    "reason": "Current primary has no Progress heading/div; secondary and UA include one. Secondary-only English proposal held pending live state evidence.",
+    "sourceEnglish": "You're coming from Loch Modan? How is the orc situation at Algaz Gate?",
+    "rawDeepLProposal": "သင် Loch Modan ကနေလာတာလား? Algaz Gate မှာ orc အခြေအနေ ဘယ်လိုရှိနေလဲ?",
+    "editedProposal": "မင်းက Loch Modan (လော့ခ် မိုဒန်) ကနေ လာတာလား။ Algaz Gate (အယ်လ်ဂက်ဇ် ဂိတ်) မှာ orc (အော်ခ်) တွေရဲ့အခြေအနေ ဘယ်လိုရှိလဲ။",
+    "provenance": {
+      "englishSHA256": "4c81455e6b1d1fe043ec8f737b7a03deac6b64b1860a9075fd2f15245c8bdead",
+      "rawDeepLSHA256": "39f4476769ee663c1b9fb7800f166b6e45ee9dcb275fb9d7933b13951b5a4466",
+      "editedSHA256": null,
+      "status": "held",
+      "rawDeepLRequestFile": "deepl-request-01.json",
+      "rawDeepLResponseFile": "deepl-response-01.json",
+      "rawDeepLIndexFile": "deepl-index-01.json",
+      "requestIndex": 12,
+      "responseIndex": 12,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/12",
+      "responseJSONPointer": "/translations/0/translations/12/text"
+    },
+    "sourceReferences": {
+      "reference": "sixty",
+      "url": "https://www.60.tools/quests/455-the-algaz-gauntlet",
+      "HTMLFile": "455-sixty.html",
+      "HTMLSHA256": "e95f204d587b0c920353472dfab1c7b2a96565d48ef829ba369fa5822011d8f2",
+      "availability": "secondary-only; current primary missing; held"
+    },
+    "editedProposalSHA256": "308f077b9ca05beede17718753fbe7ef882e70cad92435950bf6bae0bf9e94f2",
+    "rawDeepLProposalSHA256": "39f4476769ee663c1b9fb7800f166b6e45ee9dcb275fb9d7933b13951b5a4466"
+  },
+  {
+    "id": 470,
+    "field": "complete",
+    "reason": "Current primary Completion omits the entire bag-emptying stage with four literal BRs; secondary includes stage. Both actual raw proposals retained; field held pending current live evidence.",
+    "sourceEnglish": "Oh, thank you, <name>! I was afraid that it was lost for good!\n\n\n\nHm, I don't have much use for this anymore, but wash it off and I'm sure you could make use of it.",
+    "rawDeepLProposal": "အို၊ ကျေးဇူးတင်ပါတယ်၊ <name>! အမြဲတမ်းပျောက်ဆုံးသွားပြီလို့ ကြောက်နေခဲ့တာပါ!\n\n\n\nဟမ်၊ ငါဒီဟာကိုတော့ အခုတော့ မသုံးတော့ဘူး၊ ဒါပေမယ့် ရေဖြင့်ဆေးပြီး သုံးရင် မင်းအတွက် အသုံးဝင်မယ်လို့ ယုံကြည်ပါတယ်။",
+    "editedProposal": "အို၊ ကျေးဇူးတင်ပါတယ်၊ <name>! အပြီးပျောက်သွားပြီလို့ စိုးရိမ်နေခဲ့တာ!\n\n\n\nအင်း၊ ဒါကို ငါအသုံးသိပ်မလိုတော့ဘူး။ ဒါပေမယ့် ဆေးကြောလိုက်ရင် မင်းအသုံးချလို့ ရမှာ သေချာတယ်။",
+    "provenance": {
+      "englishSHA256": "748acd899f752f6173d7a673e98f510fe1f62b87724abe9918af0d64516a04f9",
+      "rawDeepLSHA256": "cf98ab485fe1c86ab39c78f03872bd802a25487e485f2cfc3268b4fdba0cb012",
+      "editedSHA256": null,
+      "status": "held",
+      "rawDeepLRequestFile": "deepl-request-01.json",
+      "rawDeepLResponseFile": "deepl-response-01.json",
+      "rawDeepLIndexFile": "deepl-index-01.json",
+      "requestIndex": 27,
+      "responseIndex": 27,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/27",
+      "responseJSONPointer": "/translations/0/translations/27/text"
+    },
+    "sourceReferences": {
+      "reference": "wowhead",
+      "url": "https://www.wowhead.com/forever/quest%3D470/digging-through-the-ooze",
+      "HTMLFile": "470-wowhead.html",
+      "HTMLSHA256": "0f1ea64ad2fad4cd353ec040fe5587803b6c929ae397a8fd54bc817829a64c28",
+      "availability": "current primary omits stage present in secondary; both variants preserved; held"
+    },
+    "alternateSecondarySourceEnglish": "Oh, thank you, <name>! I was afraid that it was lost for good!\n\n<She quickly empties the contents of the ooze-covered bag onto the ground, before scooping them up.>\n\nHm, I don't have much use for this anymore, but wash it off and I'm sure you could make use of it.",
+    "alternateRawDeepLProposal": "အို၊ ကျေးဇူးတင်ပါတယ်၊ <name>! အမြဲတမ်းဆုံးရှုံးသွားပြီလို့ ထင်နေခဲ့တာပဲ!\n\n<သူမက အမြန်ဆုံး အရည်ညစ်ညမ်းနေတဲ့ အိတ်ထဲက ပစ္စည်းတွေကို မြေပြင်ပေါ်သို့ ထုတ်ပြီး ပြန်လက်ထဲထည့်လိုက်သည်။>\n\nဟမ်၊ ငါ့အတွက်တော့ ဒီဟာကို မလိုတော့ဘူး၊ ဒါပေမယ့် ရေဖြင့်ဆေးပြီး သုံးရင် မင်းအတွက် အသုံးဝင်မှာ သေချာတယ်။",
+    "alternateRawRequestFile": "deepl-request-05.json",
+    "alternateRawResponseFile": "deepl-response-05.json",
+    "alternateRawIndexFile": "deepl-index-05.json",
+    "editedProposalSHA256": "e90da2f24a182aa8ae711c7e10029b84f52b775893f7b423352439085d823b18",
+    "rawDeepLProposalSHA256": "cf98ab485fe1c86ab39c78f03872bd802a25487e485f2cfc3268b4fdba0cb012"
+  },
+  {
+    "id": 484,
+    "field": "objective",
+    "reason": "Current primary and secondary plus UA require6 Young Crocolisk Skins; refreshed installed Questie objective says4. Primary envChange explicitly says6 replaces4, but current live quantity not observed. Hold objective pending capture; no other dialogue field binds count.",
+    "sourceEnglish": "Obtain 6 Young Crocolisk Skins for James Halloran in Menethil Harbor.",
+    "rawDeepLProposal": "မေနသီလ်ဆိပ်ကမ်းရှိ ဂျိမ်းစ် ဟယ်လိုရန်အတွက် လူငယ်ကရိုကိုလစ်စ် အရေခွံ ၆ ခု ရယူပါ။",
+    "editedProposal": "Menethil Harbor (မဲနသီလ် ဟာဘာ) ရှိ James Halloran (ဂျိမ်းစ် ဟယ်လိုရန်) အတွက် Young Crocolisk Skins (ယန်း ခရိုကိုလစ်စ်ခ် စကင်ဇ်) 6 ခု ရယူပါ။",
+    "provenance": {
+      "englishSHA256": "b38f9c74d67eb7dcf70010a1715be87b364ec83d1afb9ccb00c7db475ce80be6",
+      "rawDeepLSHA256": "cc5b4b23d13dc290f7aa6cd967a3914f13bc751a9bfb46e17c31e8831f6785dc",
+      "editedSHA256": null,
+      "status": "held",
+      "rawDeepLRequestFile": "deepl-request-01.json",
+      "rawDeepLResponseFile": "deepl-response-01.json",
+      "rawDeepLIndexFile": "deepl-index-01.json",
+      "requestIndex": 30,
+      "responseIndex": 30,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/30",
+      "responseJSONPointer": "/translations/0/translations/30/text"
+    },
+    "sourceReferences": {
+      "reference": "wowhead",
+      "url": "https://www.wowhead.com/forever/quest%3D484/young-crocolisk-skins",
+      "HTMLFile": "484-wowhead.html",
+      "HTMLSHA256": "2120f54964b204a57c231c31500635c51abf998fc14234e5c48334fee3b14d30",
+      "availability": "primary6 and UA6 conflict installed4; held for current live count"
+    },
+    "editedProposalSHA256": "61ff8cb99ebccdf69046d52c90ae53f79932ad26908388400587cbf34c26d3cf",
+    "rawDeepLProposalSHA256": "cc5b4b23d13dc290f7aa6cd967a3914f13bc751a9bfb46e17c31e8831f6785dc"
+  }
+]

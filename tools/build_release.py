@@ -193,7 +193,7 @@ def reviewed_hold_test_source(source_text, drafts):
     # The preserved starter snapshot excluded these travel quests from its
     # original scope. A composed, field-reviewed later route may include them.
     # Adapt only the build copy and retain all other placeholder exclusions.
-    reviewed_routes={'467':"Stonegear's Search",'466':'Search for Incendicite'}
+    reviewed_routes={'467':"Stonegear's Search",'466':'Search for Incendicite','256':"WANTED: Chok'sul"}
     released={qid:title for qid,title in reviewed_routes.items() if drafts.get(qid)}
     if released:
         for qid in released:

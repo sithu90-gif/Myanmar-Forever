@@ -1,0 +1,933 @@
+{
+  "result": "PASS",
+  "partition": "hillsbrad",
+  "reviewedAtUTC": "2026-11-21T20:58:06.611762+00:00",
+  "reviewType": "Independent affected-field correction reread after root approved exact-hash application",
+  "remainingIssues": [],
+  "counts": {
+    "quests": 15,
+    "totalFieldSlots": 75,
+    "changedFields": 4,
+    "unchangedFieldSlots": 71,
+    "availableEnglishFields": 74,
+    "enabledMyanmarFields": 73,
+    "sourceAbsentFields": 1,
+    "heldFields": 1
+  },
+  "checkedFields": [
+    {
+      "id": 496,
+      "field": "progress",
+      "sourceEnglish": "I see you are back.  I hope you were able to gather the agents I need.  Another deathless day will put me in such a gloomy mood.",
+      "priorMyanmarSHA256": "f6693fc9ef8e70492cc6278241a71f087d1361ed0af5b4c825470da8a396683f",
+      "reviewedMyanmarSHA256": "cf10af068fe559270ba033d265a915fa4adb0ec1f717d86d6e2616043210c39e",
+      "englishSHA256": "d5765a7eddb826f579869930c4894a5ee5f8639a8a5592b1e240912a47bec4ca",
+      "old": "မသေရဘဲ နောက်တစ်နေ့ ထပ်ကြာရပြန်ရင်",
+      "new": "သေဆုံးမှုမရှိတဲ့ နောက်တစ်နေ့ ထပ်ကြုံရပြန်ရင်",
+      "correctedFullField": "မင်းပြန်လာပြီပဲ။ ငါလိုအပ်တဲ့ ဆေးဖော်ပစ္စည်းတွေ စုယူလာနိုင်ခဲ့မယ်လို့ မျှော်လင့်တယ်။ သေဆုံးမှုမရှိတဲ့ နောက်တစ်နေ့ ထပ်ကြုံရပြန်ရင် ငါ အတော်စိတ်ညစ်နေတော့မှာ။",
+      "matchesAcceptedHash": true,
+      "matchesExactIndependentProposal": true,
+      "resolution": "Impersonal deathless-day sentence no longer assigns dying/not dying to Lydon; return/hope and future gloom remain intact.",
+      "result": "PASS"
+    },
+    {
+      "id": 532,
+      "field": "detail",
+      "sourceEnglish": "The town of Hillsbrad is in disarray and we believe it will soon fall.  We must, however, persist in our ruthlessness until the human scum are wiped from the foothills for eternity.\n\nDespite their overwhelming losses, the humans rally around their leadership and keep fighting.  We must eliminate their leader, Magistrate Burnside, as well as the town council.  Destroy their revered political document as well, the Hillsbrad Proclamation.  And while you're at it, steal the town registry.",
+      "priorMyanmarSHA256": "ba8db3daea6c7ce1d1c2a109a1feb4d83547fe0ab2a1093ce1423241b9bc20f4",
+      "reviewedMyanmarSHA256": "5e8a92a4e5b9c7cbbeb22e1681fdebc84ee4b23302183ca441cb205b0bb53ddd",
+      "englishSHA256": "ebec42c9e0840c63ef367bdffdd5580d4b24edaa301e3ff63cd24750192594bf",
+      "old": "ဟီလ်ဇ်ဘရက်ဒ် တောင်း ရက်ဂျစ်စထရီ",
+      "new": "ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ",
+      "correctedFullField": "Hillsbrad (ဟီလ်ဇ်ဘရက်ဒ်) မြို့ ဖရိုဖရဲဖြစ်နေပြီး မကြာခင် ကျဆုံးတော့မယ်လို့ ငါတို့ယုံကြည်တယ်။ ဒါပေမယ့် လူသားအမှိုက်တွေကို တောင်ခြေကနေ အပြီးတိုင် သုတ်သင်ပစ်နိုင်တဲ့အထိ ငါတို့ ရက်ရက်စက်စက် ဆက်လုပ်ရမယ်။\n\nအကြီးအကျယ် ဆုံးရှုံးနေရပေမယ့် လူသားတွေက သူတို့ခေါင်းဆောင်တွေအောက်မှာ ပြန်စုရုံးပြီး ဆက်တိုက်နေတယ်။ သူတို့ခေါင်းဆောင် Magistrate Burnside (မဲဂျစ်စ်ထရိတ် ဘန်းဆိုက်ဒ်) နဲ့ မြို့ကောင်စီကို ငါတို့ရှင်းပစ်ရမယ်။ သူတို့အမြတ်တနိုးထားတဲ့ နိုင်ငံရေးစာတမ်း Hillsbrad Proclamation (ဟီလ်ဇ်ဘရက်ဒ် ပရော်ကလမေးရှင်း) ကိုလည်း ဖျက်ဆီးပစ်။ အဲဒီကိုရောက်တုန်း Hillsbrad Town Registry (ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ) ကိုလည်း ခိုးယူခဲ့။",
+      "matchesAcceptedHash": true,
+      "matchesExactIndependentProposal": true,
+      "resolution": "Whole item annotation now uses maintained Town core တောင်းန် consistently; English identity, narrative meaning and task action remain intact.",
+      "result": "PASS"
+    },
+    {
+      "id": 532,
+      "field": "objective",
+      "sourceEnglish": "Kill Magistrate Burnside and 5 Hillsbrad Councilmen.  Destroy the Hillsbrad Proclamation.  Steal the Hillsbrad Town Registry.  Report back to Darthalia in Tarren Mill afterwards.",
+      "priorMyanmarSHA256": "484885733003294b2ddeb775a7556bd577a109b9db02430bf5a8cdfd36fe7361",
+      "reviewedMyanmarSHA256": "135cfe9f698b8c6fa21f1cd5c2841f9e68acc5eaa5a704d945a806a44c709df4",
+      "englishSHA256": "fb38a546db08998d213a2ca41a1c36290c06c93d0dc822db10b25071745f9048",
+      "old": "ဟီလ်ဇ်ဘရက်ဒ် တောင်း ရက်ဂျစ်စထရီ",
+      "new": "ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ",
+      "correctedFullField": "Magistrate Burnside (မဲဂျစ်စ်ထရိတ် ဘန်းဆိုက်ဒ်) နဲ့ Hillsbrad Councilmen (ဟီလ်ဇ်ဘရက်ဒ် ကောင်ဆယ်လ်မန်) 5 ဦးကို သတ်ပါ။ Hillsbrad Proclamation (ဟီလ်ဇ်ဘရက်ဒ် ပရော်ကလမေးရှင်း) ကို ဖျက်ဆီးပါ။ Hillsbrad Town Registry (ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ) ကို ခိုးယူပါ။ ပြီးနောက် Tarren Mill (တာရင် မီလ်) က Darthalia (ဒါသာလီယာ) ထံ ပြန်အစီရင်ခံပါ။",
+      "matchesAcceptedHash": true,
+      "matchesExactIndependentProposal": true,
+      "resolution": "Whole item annotation now uses maintained Town core တောင်းန် consistently; English identity, narrative meaning and task action remain intact.",
+      "result": "PASS"
+    },
+    {
+      "id": 539,
+      "field": "detail",
+      "sourceEnglish": "The Hillsbrad Town Registry indicates that the Azureload Mine is under Alliance control.  Furthermore, the mine is a prime source of iron ore for the Alliance armories.\n\nEven though we've struck a decisive blow to the town of Hillsbrad, the Alliance still supports and protects the Azureload Mine fervently.\n\nThe mine lies due south of Hillsbrad.  Go there and slay the foreman, a human by the name of Bonds.  Kill his miners as well.  That should send a clear message to the Alliance.",
+      "priorMyanmarSHA256": "6abc6e41e5e137e54c2eaa1d303cb9d82c748c1da13058289cc156ea8e41e631",
+      "reviewedMyanmarSHA256": "0f20116325e15c5ba4f2c69297c479d09815b0cb5cf23650353a9cea73e118da",
+      "englishSHA256": "760901c87bb86b714dbbd5d0694eae25bcd87e8b074ad0ab51f8dc3d7a5e090a",
+      "old": "ဟီလ်ဇ်ဘရက်ဒ် တောင်း ရက်ဂျစ်စထရီ",
+      "new": "ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ",
+      "correctedFullField": "Hillsbrad Town Registry (ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ) အရ Azureload Mine (အက်ဇာလိုဒ် မိုင်း) ကို Alliance (အလိုင်းယန့်စ်) က ထိန်းချုပ်ထားတယ်။ ဒါ့အပြင် ဒီသတ္တုတွင်းက Alliance လက်နက်တိုက်တွေအတွက် သံရိုင်းရဲ့အဓိကအရင်းအမြစ်လည်း ဖြစ်တယ်။\n\nHillsbrad (ဟီလ်ဇ်ဘရက်ဒ်) မြို့ကို ငါတို့ အဆုံးအဖြတ်ပေးနိုင်တဲ့ ထိုးနှက်ချက်ပေးပြီးပြီဆိုပေမယ့် Alliance က Azureload Mine ကို တက်တက်ကြွကြွ ဆက်ပြီး ထောက်ပံ့ကာကွယ်နေတုန်းပဲ။\n\nသတ္တုတွင်းက Hillsbrad ရဲ့တောင်ဘက်တည့်တည့်မှာ ရှိတယ်။ အဲဒီကိုသွားပြီး Foreman Bonds (ဖောမန် ဘွန်းဒ်ဇ်) လို့ခေါ်တဲ့ လူသားအလုပ်ကြပ်ကို သတ်။ သူ့သတ္တုတွင်းလုပ်သားတွေကိုလည်း သတ်။ ဒါဆို Alliance ကို ရှင်းရှင်းလင်းလင်း သတိပေးပြီးသား ဖြစ်လိမ့်မယ်။",
+      "matchesAcceptedHash": true,
+      "matchesExactIndependentProposal": true,
+      "resolution": "Whole item annotation now uses maintained Town core တောင်းန် consistently; English identity, narrative meaning and task action remain intact.",
+      "result": "PASS"
+    }
+  ],
+  "allCandidateFieldDiffs": [
+    {
+      "id": 494,
+      "field": "title",
+      "englishSHA256": "0905f16fe5eb8f8691406be42bf6c698a5f7be5e915fd649a023f3668f48bc0b",
+      "myanmarSHA256": "4227f4bda4432a318231e4a940c78cecada136810774a1d6d474efca87f1a624",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 494,
+      "field": "detail",
+      "englishSHA256": "9bdde6907d30f3763a7a648dac9522b3d43fc967fd26d8aa009f803c0c8ce97f",
+      "myanmarSHA256": "d21f1cc6d1b9cd51c67dcd8c8c4b3c1103f70a5f8409f027a4234dcd720e261a",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 494,
+      "field": "objective",
+      "englishSHA256": "95176fbfd5388801ef7f10eb313608a6c56103e7429809a1fb906e8842a0fbb0",
+      "myanmarSHA256": "ec8e1d0d71d4de0102d956f0d9e38a0884b25930523e463bab2ab8f2045a0a7c",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 494,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null,
+      "changed": false,
+      "status": "source absent",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 494,
+      "field": "complete",
+      "englishSHA256": "0f95a63b8672ff5e922f4764d83033555440eac205e4d3004070c968334cde06",
+      "myanmarSHA256": "a7aee145ce7ae4203e6af35e3b788aaaba39b38ee9cac809a9d632b662d0e3e6",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 527,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 527,
+      "field": "detail",
+      "englishSHA256": "9799d029d615a63066bd50027a8f26be4c7dce1101c056b4a0262813a30d73c8",
+      "myanmarSHA256": "30c21f9788f9781629695719722fe2134a70fd573d5abe4292c515d4e0a1113e",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 527,
+      "field": "objective",
+      "englishSHA256": "e2c35add93ce1d310be881bbbf9477ba2a44bc694474b10c8b71af13a5038d7a",
+      "myanmarSHA256": "fa2fe4bd92452fa714b9d4e105118abd8c4e2baa2752532758b22eda2e9df616",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 527,
+      "field": "progress",
+      "englishSHA256": "454aee7b1a127773fc73e64279605cecdca67e13f2b2f1794a65bcae8b3298c8",
+      "myanmarSHA256": "706614abfeeefbf6031861dddf57051676acfe68beb78d6b3338d9e7bc8d2b01",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 527,
+      "field": "complete",
+      "englishSHA256": "10939f6f0b6263ff98403ce12754cebe920ae91f0e165745a30433b502e828ad",
+      "myanmarSHA256": "6fe25f6c0806d2b8e027546457743e4b11b39044ecec84741d644cc9154382a4",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 528,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 528,
+      "field": "detail",
+      "englishSHA256": "8ef6e6729191655536dfa26e2ffab8912b413c5f6a5002d5db715f670994d7e8",
+      "myanmarSHA256": "b8e8e2bc400c12a659039d95a9b7c066f66ef3f50dd6c44fd85ddb45d9795f05",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 528,
+      "field": "objective",
+      "englishSHA256": "e1a964a3ad495922d03e983a253c4c4fd73e729feec228e0879c0f9fc1513269",
+      "myanmarSHA256": "816b5b58675e305dde9d19fddc69069ef9eefdd28eb30cc75ce7e955abd4e940",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 528,
+      "field": "progress",
+      "englishSHA256": "9dc6f2698752afe632711d58b63a33d200d9430ad7d39cd4df96e03a88acf87b",
+      "myanmarSHA256": "0a2cdb7ec95b15485af7873cce3758ca23a2adee59593c07576f7690111dea00",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 528,
+      "field": "complete",
+      "englishSHA256": "e057cda03d189cd6c8d8968a69f78d9d4e1bd433848008fb3febf5002affdeed",
+      "myanmarSHA256": "28968649a74d303259c51819d7de19e3a1702ee80c25fb19caf69680c34401c0",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98094,
+      "field": "title",
+      "englishSHA256": "a7120de9deabf99f95db4f7a39e87c3c621241a6835a37ada2d4436bdb0cc182",
+      "myanmarSHA256": "1b03b81d04e29d0d363f940edd4e0c914a3536958496a8e682cb0eed2cda1c00",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98094,
+      "field": "detail",
+      "englishSHA256": "707b5fabc7b45a33fc1ed008d3eafc8185b914050675d95da291a8e6c5fce016",
+      "myanmarSHA256": "af5e89b3ac93562ffb3f6c2e237671be8e87d76541598d5e3a77b646de464005",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98094,
+      "field": "objective",
+      "englishSHA256": "0dd7d29c5a727049926ad6d8363785723953e1ad4acccb7f464bc86cd30ef746",
+      "myanmarSHA256": "e0a50aa7233144abb946d18a4ae5b466b5ff0216394639c26cccea29a6a0e7ac",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98094,
+      "field": "progress",
+      "englishSHA256": "ed0b56d0bbeb4cadbbe528fa21dcb7f3827ee72a5e1c756a78dec42124a5f797",
+      "myanmarSHA256": "0b51f9dea8e702d102fba8545308c5669ea83fe282d4544a223740fe77f0465e",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98094,
+      "field": "complete",
+      "englishSHA256": "1f87f82e996eac026bd11c6af3586454595a8cff9e63dcd526a704836e25149b",
+      "myanmarSHA256": "2b1e0df40114664d2b4995e012375b48510f0243fa20d655dd8564095ac32db8",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98095,
+      "field": "title",
+      "englishSHA256": "02d971935016a6425383d99e600291549363b15bff4b85db8d045646e77facca",
+      "myanmarSHA256": "2b39cac14a74a75d8b588d918b1e9e42236e3b82f0774715d86ea3aadcfd7737",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98095,
+      "field": "detail",
+      "englishSHA256": "39292a5c53bc6d24d7ba3e751eb7296707462c2b4c252073fa8f7e3c5bb46e1b",
+      "myanmarSHA256": "515c3947472390ae17540d69bc6ebfef1650f7d54afb92a9e74741d0d81798d2",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98095,
+      "field": "objective",
+      "englishSHA256": "5cc849ecdc63d798f57924d86197e2cc2ad40fdda0c59a5a4985c5931c9776c6",
+      "myanmarSHA256": "45f2ac1fbc4ffd6ac04f3327ef856d1dd50e78b006b2d8287cab6ce1d7c2d728",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98095,
+      "field": "progress",
+      "englishSHA256": "2ce007ebd2c85091e7381637cb09b2feac66cb84a14987d9727e3bb041611024",
+      "myanmarSHA256": "724849e26705f7c5d1d618b60cf1ede47132227de0a312c0b5d92d89d9af2832",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 98095,
+      "field": "complete",
+      "englishSHA256": "256f37d027bcb42f7f5c684c2cef980f4c998787e938566a02d4d1be9e0f8b57",
+      "myanmarSHA256": "bc60971d4821ec50c0866653ac71f4aa223807feb0fa2c6925cae78be3756066",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 529,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 529,
+      "field": "detail",
+      "englishSHA256": "1ff90135d17d21019fd610e7aed0a16e6865e01206527979ff33a9b52d9b77b9",
+      "myanmarSHA256": "604493a791d30e1adbce0dd3e5c954f0fd913caffd8ef0f636828c1339ab85d2",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 529,
+      "field": "objective",
+      "englishSHA256": "eba20a7bc803a1bd7a0c84f7e812008916c994bf2f26ae373213155bdd3facff",
+      "myanmarSHA256": "297d03b08d365138e86e815865afb0d7a45c7bd4d645a9cb491964bd4eeebcca",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 529,
+      "field": "progress",
+      "englishSHA256": "9da7f4f4ba10a805ae7895b4e20904dff4c0ebb91e5561cbc3afe92da79e64b2",
+      "myanmarSHA256": "2ddde37d60a8646b74d82e1156f6ce497cea5bee6d3fd92b48622e086117faa2",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 529,
+      "field": "complete",
+      "englishSHA256": "a76b5b2bc7cea748969ae1e0c5d23aa60659ff27c631003260b8afb314e7b098",
+      "myanmarSHA256": "01cd2ba3e9e2c0608ec9ec9406a4ef42f3a4f7487005bf9af5cb1cb55725f023",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 532,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 532,
+      "field": "detail",
+      "englishSHA256": "ebec42c9e0840c63ef367bdffdd5580d4b24edaa301e3ff63cd24750192594bf",
+      "myanmarSHA256": "5e8a92a4e5b9c7cbbeb22e1681fdebc84ee4b23302183ca441cb205b0bb53ddd",
+      "changed": true,
+      "status": "enabled",
+      "matchesImmutableAuthor": false
+    },
+    {
+      "id": 532,
+      "field": "objective",
+      "englishSHA256": "fb38a546db08998d213a2ca41a1c36290c06c93d0dc822db10b25071745f9048",
+      "myanmarSHA256": "135cfe9f698b8c6fa21f1cd5c2841f9e68acc5eaa5a704d945a806a44c709df4",
+      "changed": true,
+      "status": "enabled",
+      "matchesImmutableAuthor": false
+    },
+    {
+      "id": 532,
+      "field": "progress",
+      "englishSHA256": "de41828b48046476f167a899701e1db827875c68cb0caf784d2d8b79bf597078",
+      "myanmarSHA256": "edc2af03375756b97dd5b0d1e6782340cdbef56cb9db6a66c5330ec450fe881c",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 532,
+      "field": "complete",
+      "englishSHA256": "f8faf2b3a60e4473e352c1a7804b4f8046ca54d4cd79e56048ddc95d242eaf80",
+      "myanmarSHA256": "20043732e493416a7376e9adf77c9b9b9a7f447e78ae0d0dcb0c3a7e98c62c1d",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 539,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 539,
+      "field": "detail",
+      "englishSHA256": "760901c87bb86b714dbbd5d0694eae25bcd87e8b074ad0ab51f8dc3d7a5e090a",
+      "myanmarSHA256": "0f20116325e15c5ba4f2c69297c479d09815b0cb5cf23650353a9cea73e118da",
+      "changed": true,
+      "status": "enabled",
+      "matchesImmutableAuthor": false
+    },
+    {
+      "id": 539,
+      "field": "objective",
+      "englishSHA256": "6f1907fb8236e9a8f543482bd46d409d0a6f69fb4eacb1a9a76f8289b31df468",
+      "myanmarSHA256": "65224b7338490361fb36e11624e9458f843e99aa1ed1bb1fec893a247b0d7e6b",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 539,
+      "field": "progress",
+      "englishSHA256": "2631eaed08ed4d0a5bcf793bd57f41bb22f4d4d85b0295e6b4743cd4e66ded1f",
+      "myanmarSHA256": "ec8a0292fb2bdcd64b914287ea5deecddbc616095e866e6f0858d52434ec788e",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 539,
+      "field": "complete",
+      "englishSHA256": "e9b535d86e864297b2bc9b189d944b49268198968f2fe26de54936e53c1771df",
+      "myanmarSHA256": "26802c7be3b91c0d45e090528cc2e130de5ea239098c1c6f702381013dcc2442",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 541,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 541,
+      "field": "detail",
+      "englishSHA256": "4c08d415f7fc59059de7bb73a7ef99176246c6020810816fa689ae31b70b1d8a",
+      "myanmarSHA256": "c95d0781faec4fc91f686ee3ff004081dd78b09b7b87acfa2fa8f36f8806f11c",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 541,
+      "field": "objective",
+      "englishSHA256": "2f043be0f0987d0c5f90ace83da55a17d31fe0c48515adf412fa86b368a3a608",
+      "myanmarSHA256": null,
+      "changed": false,
+      "status": "held",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 541,
+      "field": "progress",
+      "englishSHA256": "d657a04af168a746434bec95478ca665bbfb557cf54fa648527d38bcaf978135",
+      "myanmarSHA256": "5fc9a161c46c2c6bb7ae8e7ac68ba682e094e9a053c3bb1788259a9c6fec6acc",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 541,
+      "field": "complete",
+      "englishSHA256": "9f5f1620091ea3ea9aa879f961b1daddf208f299ccfaeba3d9529092e239dfd2",
+      "myanmarSHA256": "ef56dafec617bff53c4abee16741c561fde7276f3a7a197ecea8f93a136f9704",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 550,
+      "field": "title",
+      "englishSHA256": "c00d5448babb80109ed9fdf6dd4aab9531178cc04c7cae8830fb7ba095a9c368",
+      "myanmarSHA256": "6a490451653ffbedcc8dcde1bef17a10b88bb6fbf75f5c8e3be715d9b0445ba3",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 550,
+      "field": "detail",
+      "englishSHA256": "03a20b022dd72301bcbe451bb2cfb6b3ed6442acd7860e8179a3501f21cd779a",
+      "myanmarSHA256": "c548612e27055804db67d29ffd7ee7e5bc4a6769a428b84956a809ebe78addca",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 550,
+      "field": "objective",
+      "englishSHA256": "ff24a2f0d04b335704cdb01b1af3a9acd63e412e03196f805aa1d6ce23abc00c",
+      "myanmarSHA256": "5b8ed8f984295bc1374f9a4d64f3c29a0f5650a8efb527deae8d60c19335aa28",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 550,
+      "field": "progress",
+      "englishSHA256": "8fef16b3856d9f31d8d26779c0fb32ec23cccdbff753feea85c5b42c44cfc84a",
+      "myanmarSHA256": "09e5621f7a8b88dcb0106e224a5a8fb81ac5ebf4a160c1092cfef22f4c850222",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 550,
+      "field": "complete",
+      "englishSHA256": "4b24817f8ffc6e8b21d4472b3476ce716301ca3acbc68f89e5a46d213b7d37f0",
+      "myanmarSHA256": "716b9ed1c9e6dcb8f0bbafff137372adacb4faa0696bf55224292558672bdd68",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 496,
+      "field": "title",
+      "englishSHA256": "f9958c141daf93fb3583727fb7cbd903030693a444834973dd3a367d150f0c4a",
+      "myanmarSHA256": "794108bfb4e74697f0597bfb11632aca74fd49847d5d6aa155d430f0477f095b",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 496,
+      "field": "detail",
+      "englishSHA256": "9d5df60bbd645ed5d10ff77236fb4bde112354b886f3aa139e041b6aac25f6aa",
+      "myanmarSHA256": "7f203ef04b653df576b68e6c6b2fd7bd77d4cb74d2df0e1d966812a6cfed5880",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 496,
+      "field": "objective",
+      "englishSHA256": "de8d41b7068a299775dcfad16c53db7fb05997e2d0170207b0c0616e8eb8f471",
+      "myanmarSHA256": "7dd0b07ae8e6aa3263dc4b2d31f145a1ec64512aa43bc0c7409e532ea964feac",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 496,
+      "field": "progress",
+      "englishSHA256": "d5765a7eddb826f579869930c4894a5ee5f8639a8a5592b1e240912a47bec4ca",
+      "myanmarSHA256": "cf10af068fe559270ba033d265a915fa4adb0ec1f717d86d6e2616043210c39e",
+      "changed": true,
+      "status": "enabled",
+      "matchesImmutableAuthor": false
+    },
+    {
+      "id": 496,
+      "field": "complete",
+      "englishSHA256": "67e6a72691a4ccc166601a54b339818daceaf2cfd6b659b0bd2ff2e5b49a56d9",
+      "myanmarSHA256": "a85583b95a9c0ca359f87b1d1153164d875240d1436f1d75c3ee5ddfb7f9935b",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 499,
+      "field": "title",
+      "englishSHA256": "f9958c141daf93fb3583727fb7cbd903030693a444834973dd3a367d150f0c4a",
+      "myanmarSHA256": "794108bfb4e74697f0597bfb11632aca74fd49847d5d6aa155d430f0477f095b",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 499,
+      "field": "detail",
+      "englishSHA256": "4bedaeb845d484e7c80d0e7abf38f29c7745bbe2b9a8782ffbd5cf1c3d2a2f5f",
+      "myanmarSHA256": "b10a0ffea56eed3ad596f2426c4201f8a86c79cdee3b12db0de90f7dd095bd53",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 499,
+      "field": "objective",
+      "englishSHA256": "d02101e6d35056eff012d991964c15c0d20fda84803c10feed6512a44066001f",
+      "myanmarSHA256": "6a0616400cb20ee49edcce4320ad6c5573a97f3822872502ed2944eacf222b16",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 499,
+      "field": "progress",
+      "englishSHA256": "c948ec53f1edf46a7e52ac74176569eaaf090007322237ff3f1d2b471aa2724c",
+      "myanmarSHA256": "03d7ddbe4b93d176ce0f2ea7b7cbca82754c1513ab118999562fe4fc4660ee99",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 499,
+      "field": "complete",
+      "englishSHA256": "b6630a1d4f3f465ac8b34771e12701adbe3b374fa31c10ca6bf961b11ddde63f",
+      "myanmarSHA256": "3ed762ea6c84292b172c78e0bee73cdeb7dfb003c0494433087a356e325fe8ce",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 498,
+      "field": "title",
+      "englishSHA256": "50fb231a1bc2e4b53d3ef3ec952b03fa01b6e0c61b76d7c98f22dd92ddd7203f",
+      "myanmarSHA256": "ae753092febba5e5c631f75be76d5910e1a4fbb190431970bcf21d76d387594b",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 498,
+      "field": "detail",
+      "englishSHA256": "62eaa649852bff776e2cc61d9341c4e041cda42ee14e44742bbda956b9db3453",
+      "myanmarSHA256": "2b013180d332f7d2cac8b98281de2ab05e98950e98af7ba8287c66aee544b6ee",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 498,
+      "field": "objective",
+      "englishSHA256": "18e9e40372bf79f617cad95754aa0183bbd1301044071a191c49f0fa2ff0ec33",
+      "myanmarSHA256": "76b61376894e4d59d8b7bdb99712094836fb0c21dd4d369cc2a11e0d236731cb",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 498,
+      "field": "progress",
+      "englishSHA256": "45da348cfef90648fa5ed5c4f66b934e7ec5f3c043d5be298c72d6aef40791bc",
+      "myanmarSHA256": "2f2f887f1953dd28b62ab868dc4a5f945b6eeed3796810ea7700ae5d40827508",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 498,
+      "field": "complete",
+      "englishSHA256": "4a8e1be1b5981e7941c5fc9163e3ae093e26956ca721763be6f9b7f0ece33a41",
+      "myanmarSHA256": "7a5a4456e094bdf1086580148d5b6aacaca589ce780b93c328e549f883056f9a",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 546,
+      "field": "title",
+      "englishSHA256": "6e580e66ecdeeaa9e73481425ed2e1f995b383ed3416089a14ee991588eafbcf",
+      "myanmarSHA256": "9976d372dd52018a307c2a83de76cb7a3e85155b3a538e2a4d8af1a643488c48",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 546,
+      "field": "detail",
+      "englishSHA256": "02edd4034eccb984a0ee3316aba113f4a13c66450fb4c948e050f2a2c003e75a",
+      "myanmarSHA256": "2fc74796bdaf7a6f39247a1665f9ff9f993b74374a01bc869098b295b32ba574",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 546,
+      "field": "objective",
+      "englishSHA256": "e47e73c213aa83d542d40684b755ac2a8aefeaf066acc995ac7d26a2e25465a4",
+      "myanmarSHA256": "467c99d4250ac7c29319d0654da43e3d278e2f9e99270c77743454d670ba0e13",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 546,
+      "field": "progress",
+      "englishSHA256": "acd10c0a8dd8ecfdee0de653f13c1a8212ac7dc8d9e5139f6460e03f6416d6f2",
+      "myanmarSHA256": "3c7db560481cf3c32dda7b575cfa5bfe14d302eaa13ec8b78019c1bdc1ab8951",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 546,
+      "field": "complete",
+      "englishSHA256": "f87ae2663ec7e443ef5fcb7a83af10bc22753ad531362d96f47c66dd1643d5df",
+      "myanmarSHA256": "f93e9481218e69d8334119a7fe1de53e9a7ef7b909b4a18cd0f3a252a8cb888e",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 549,
+      "field": "title",
+      "englishSHA256": "6c3c7f3b27ff3239b0bf06b0f4a97cf613a4f6dd0c9c727b6d47d737f1e550f9",
+      "myanmarSHA256": "7490c3072c3a42bfcb8e4acc8205c85f38586b7aa2ae99008454509ee4f6d0b9",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 549,
+      "field": "detail",
+      "englishSHA256": "aab05ef30a9a4803a6762e71943a775aa2110c107be30b07a04d171b212a7761",
+      "myanmarSHA256": "61aedbc8c1c6610217e6de8c46dfed1da778f0573ce79a43765dffda447f505a",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 549,
+      "field": "objective",
+      "englishSHA256": "e4d0c229b7cb3318ecb28220ef8314f48104d80d15ad7932d46c7dfe7a6a5c76",
+      "myanmarSHA256": "324d85970fa3c890cdc620a74be653eb54fc7a31c1d961f23aff290d9d8489eb",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 549,
+      "field": "progress",
+      "englishSHA256": "e99cfedcec4681e0c5a4ac98467dadd8748410004e4b2dc83fdc57f4ea0f51df",
+      "myanmarSHA256": "40db9394c0d3105068ecf13a1f7dfa6606b497ab624afa43a517b1b8de49b3c6",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    },
+    {
+      "id": 549,
+      "field": "complete",
+      "englishSHA256": "006804de2658d640b9561c083d63512c9306c812e8e83d6048f42fa761792043",
+      "myanmarSHA256": "43ed9a108bc78b40194c33c60711dc225cfcd807847bcb4cecc541b3d3067feb",
+      "changed": false,
+      "status": "enabled",
+      "matchesImmutableAuthor": true
+    }
+  ],
+  "exactAcceptedFieldSetVerified": true,
+  "unaffectedFieldsUnchanged": true,
+  "pronunciationCorrection": {
+    "identity": "Hillsbrad Town Registry",
+    "prior": "ဟီလ်ဇ်ဘရက်ဒ် တောင်း ရက်ဂျစ်စထရီ",
+    "reviewed": "ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ",
+    "soleDictionaryChange": true,
+    "maintainedTownEvidence": {
+      "Darkshire Town Hall": "ဒါ့ခ်ရှိုင်းယား တောင်းန် ဟောလ်",
+      "Lakeshire Town Hall": "လိတ်ခ်ရှိုင်းယား တောင်းန် ဟောလ်",
+      "Old Town": "အိုးလ်ဒ် တောင်းန်",
+      "Town Hall": "တောင်းန် ဟောလ်",
+      "Tinker Town": "တင်ကာ တောင်းန်"
+    },
+    "allThreeReferencingFieldsConsistent": true,
+    "nativeApproval": "pending"
+  },
+  "tests": {
+    "linguistic_lint.lint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 15,
+      "fieldSlots": 75
+    },
+    "originalPrimaryReparse": {
+      "result": "PASS",
+      "quests": 15
+    },
+    "allEnabledExactMarkerCaseMultiplicityDigitsParagraphs": {
+      "result": "PASS",
+      "fields": 73
+    },
+    "relevantNumericAndWrittenQuantityTargetBindings": {
+      "result": "PASS",
+      "notes": "6/6 Farmhands/Farmers,15 Peasants,4 Apprentices,5 Councilmen,10 Miners,10 Tongues,some Ichor,30 skulls,hopeful hundreds,10/10 Syndicate targets; three vials/locations and final Headland location retained. Neutral rod and all seven distinct Battle stages preserved."
+    }
+  },
+  "sourceHolds": [
+    {
+      "id": 541,
+      "field": "objective",
+      "status": "unchanged held",
+      "reason": "Current primary/secondary/UA10Mountaineers8Riflemen4Priests versus installed8/4/2; live quantity resolution pending.",
+      "englishSHA256": "2f043be0f0987d0c5f90ace83da55a17d31fe0c48515adf412fa86b368a3a608",
+      "reviewedMyanmarSHA256": null
+    }
+  ],
+  "sourceAbsences": [
+    {
+      "id": 494,
+      "field": "progress",
+      "status": "unchanged true null"
+    }
+  ],
+  "candidateHashesBefore": {
+    "edited.json": "5f5cd84e7421d81f0eebd42489fc18c7a633eccd55d23c59acb83090f7cad1b9",
+    "pronunciations.json": "e3c15d4f97797d05b701fd0b79dfb561614573f78c9b889b8b072ce809de53a9",
+    "review-audit.json": "eeffe4dd90a1895f2d4e56ed07937d36c8b6cc2f3d3f7168706d67236e6f79bf",
+    "accepted-corrections.json": "10aa289e7059ac6dc994922546596dfc8f35bd4f457a0f76c2e5d589de31a475"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "5f5cd84e7421d81f0eebd42489fc18c7a633eccd55d23c59acb83090f7cad1b9",
+    "pronunciations.json": "e3c15d4f97797d05b701fd0b79dfb561614573f78c9b889b8b072ce809de53a9",
+    "review-audit.json": "eeffe4dd90a1895f2d4e56ed07937d36c8b6cc2f3d3f7168706d67236e6f79bf",
+    "accepted-corrections.json": "10aa289e7059ac6dc994922546596dfc8f35bd4f457a0f76c2e5d589de31a475"
+  },
+  "candidateFilesUnchanged": true,
+  "originalAuthorHashesBefore": {
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "batch-plan.json": "c114cbfd46c66cd70f78c1bc0d5ecb3b5c6b8c7fe5ac2f7a03e7abaa3e3b457f",
+    "comparison-provenance.json": "e2929170625a7eca71d41dcff315777b62375502fb8fdb45117d0f62a69b0836",
+    "deepl-index-01.json": "2bd0c707726420946ffb7e13f721d203a6ee40d410e91a44c13f562175fde16c",
+    "deepl-index-02.json": "26e5f7ef0eaff07d021b77cebfc235643831036d789c3233c740e32341837945",
+    "deepl-index-03.json": "1aa475a0e88fb518a17177664d3eb9b8b92a8f24fe725008fdd45c41dfd094df",
+    "deepl-request-01.json": "cf67ccfc1d55fac12226ce2290001dee2dbb05d49ae6d6014c33f3764e9bf766",
+    "deepl-request-02.json": "5626a39426694e0541a8d995874e9f8b70400a215b05bed0d17844d4714a81d5",
+    "deepl-request-03.json": "fe07bbb63688c704ed1eccf369c5746fdecf9061b3a4a53173468342ccbbc4b1",
+    "deepl-response-01.json": "5a286799bba26daf1ca5de892b782366579a6f3dc44f49f02647647f085f5de3",
+    "deepl-response-02.json": "b19bbc3a7a636aff4b7a5345145d5c834f3ae07a1ffc52d7a921b0fc1b824b98",
+    "deepl-response-03.json": "3b679f8805c72c2714f6a401940c39797dd78e8efd9d68c5c26827b944867d8d",
+    "draft-input-group1-corrected.json": "7229444b766ed28a787a34cddd70abe788c40ef7a89d08734186fd03c5a8ea06",
+    "draft-input-group1.json": "db072fd70aa83d38e9c6aada160d2ad620a27c6edbd032a5a41b9b7af78e5250",
+    "draft-input-group2-corrected.json": "0c4056b91e9bbad370e2f877d386d424f782ff63fd052af12308276fe6835ba0",
+    "draft-input-group2.json": "f38cb63d5bedf5b7886928c3ef3379aad06fede86f616cc326562e39a9699ed5",
+    "edited-group1-corrected.json": "70b65bacad7c5d7f613995ffed417e10c9610cecd340ccc86f2458772586481c",
+    "edited-group1-initial.json": "2eac25aa7a044948d5c5fdca46b059f9bf6e8d4b1681e2c7ea2a4fa4e7ba320b",
+    "edited-group1.json": "70b65bacad7c5d7f613995ffed417e10c9610cecd340ccc86f2458772586481c",
+    "edited-group2-corrected.json": "5eec4058f7841a7d8065ad541d51c1532da9b71100b4bf0e3f19403aadd7e99c",
+    "edited-group2-initial.json": "d868ea09be2dd45e2f610d81482308329938240d5f23148ccb2a1112013b97b7",
+    "edited-group2.json": "5eec4058f7841a7d8065ad541d51c1532da9b71100b4bf0e3f19403aadd7e99c",
+    "edited.json": "b8bb63f860913e15379666fd638dc233df6b7aaeeed27245485f794c757169af",
+    "english-sources.json": "0c5ec238919eaa37254143d0cd1afbbaca7129c90fb31b89628ffffca81421ae",
+    "fetched.json": "eab08755c0473407ddc2c14dc76b6f4124a273a0befd4280a921c0b66db08bf8",
+    "frozen-artifact-hashes.json": "667a75861ea82e2fa68df2e6c1a577c809cb06c8a9fd08159910927bf1e91079",
+    "group1-corrections.json": "cca37adb4dc6cfc2b5fa5fd0eee7acc9e2ae563d49113065d1286913323b49aa",
+    "group2-corrections.json": "c2c34e172f7f8df065452f4854a17c0b18206395e80b5179d8197573b8632aab",
+    "held-fields.json": "57fea5f3b9456cf56a1d42005d004c71a454c7a490daff6dc5608bf2c906a52e",
+    "new-pronunciations.json": "80d6225bdf874c8a697febecf9e68804af964eaff721a3c9423ae6a43ddd1d8c",
+    "pronunciation-review-status.json": "a01c3483480499650610fb5e592f00636beae9093ce2d680287cf4b63ce86587",
+    "pronunciations.json": "822e771f39d68ea4e9210dd5f0ace3951ece32d8b06a2d1bfbe12fcbe1d0ad87",
+    "proposed-pronunciations.json": "80d6225bdf874c8a697febecf9e68804af964eaff721a3c9423ae6a43ddd1d8c",
+    "quantity-source-comparison.json": "7663a2515acb1769ab507d88cbc0894edd7095441645bfd3182ac005a2a9b05d",
+    "review-audit-group1.json": "e28ece98bcc94517668d988eee27894e88258e04c1852c9275ef5211996ecdaa",
+    "review-audit-group2.json": "bb98ad0e3ac3447cce357f5f1bc1ced93a60a4514223a0b1fd82f1eefe5bf06f",
+    "review-audit.json": "2eedcd2335cba83cb22a4f7a557af85d662f0c99fc231cec5e98dbeea57fc252",
+    "review-groups.json": "ab81c0ea2067eb55548605032425640c732c9fa7d6634f8e5dacc5c0e8ab363c",
+    "semantic-notes-group1.json": "d55835a8aaf0d82201e2e4acd453e5833d2a14d18447bb3bab462dde33ad14ee",
+    "semantic-notes-group2.json": "379f7ef13fb2076224e84ca5baf53951ef245664a5788292182c376e9a94404f",
+    "semantic-notes.json": "a0952e8295dc1c3acb2622df4b4ecfbe88f9deb83c80a2358e24863720f745eb",
+    "separate-bilingual-review.json": "a47d9dfc7396f7fb6d96e58403f31fd633d00f3aac3638ee8a9ccaabf421b7fd",
+    "source-boundaries.json": "7b6291a86ae6e059ced8d8a1c5f4740cb36e9cadfb00caf54cd51a444c1f6f4e",
+    "source-holds.json": "37a552df036b7b945ad5cd38fc7c96f6b054d02cf028441a4d057932554c320a",
+    "ua-field-countercheck.json": "5a5dcb54d8f164f490ba820eab17b4b3d8b8cabc6fbf4b24e75c0e5ad0b920a5",
+    "validation.json": "dbcb202d42771688eee3633b3b614ed238874a09c40448d12115454abe6cb1b5"
+  },
+  "originalAuthorHashesAfter": {
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "batch-plan.json": "c114cbfd46c66cd70f78c1bc0d5ecb3b5c6b8c7fe5ac2f7a03e7abaa3e3b457f",
+    "comparison-provenance.json": "e2929170625a7eca71d41dcff315777b62375502fb8fdb45117d0f62a69b0836",
+    "deepl-index-01.json": "2bd0c707726420946ffb7e13f721d203a6ee40d410e91a44c13f562175fde16c",
+    "deepl-index-02.json": "26e5f7ef0eaff07d021b77cebfc235643831036d789c3233c740e32341837945",
+    "deepl-index-03.json": "1aa475a0e88fb518a17177664d3eb9b8b92a8f24fe725008fdd45c41dfd094df",
+    "deepl-request-01.json": "cf67ccfc1d55fac12226ce2290001dee2dbb05d49ae6d6014c33f3764e9bf766",
+    "deepl-request-02.json": "5626a39426694e0541a8d995874e9f8b70400a215b05bed0d17844d4714a81d5",
+    "deepl-request-03.json": "fe07bbb63688c704ed1eccf369c5746fdecf9061b3a4a53173468342ccbbc4b1",
+    "deepl-response-01.json": "5a286799bba26daf1ca5de892b782366579a6f3dc44f49f02647647f085f5de3",
+    "deepl-response-02.json": "b19bbc3a7a636aff4b7a5345145d5c834f3ae07a1ffc52d7a921b0fc1b824b98",
+    "deepl-response-03.json": "3b679f8805c72c2714f6a401940c39797dd78e8efd9d68c5c26827b944867d8d",
+    "draft-input-group1-corrected.json": "7229444b766ed28a787a34cddd70abe788c40ef7a89d08734186fd03c5a8ea06",
+    "draft-input-group1.json": "db072fd70aa83d38e9c6aada160d2ad620a27c6edbd032a5a41b9b7af78e5250",
+    "draft-input-group2-corrected.json": "0c4056b91e9bbad370e2f877d386d424f782ff63fd052af12308276fe6835ba0",
+    "draft-input-group2.json": "f38cb63d5bedf5b7886928c3ef3379aad06fede86f616cc326562e39a9699ed5",
+    "edited-group1-corrected.json": "70b65bacad7c5d7f613995ffed417e10c9610cecd340ccc86f2458772586481c",
+    "edited-group1-initial.json": "2eac25aa7a044948d5c5fdca46b059f9bf6e8d4b1681e2c7ea2a4fa4e7ba320b",
+    "edited-group1.json": "70b65bacad7c5d7f613995ffed417e10c9610cecd340ccc86f2458772586481c",
+    "edited-group2-corrected.json": "5eec4058f7841a7d8065ad541d51c1532da9b71100b4bf0e3f19403aadd7e99c",
+    "edited-group2-initial.json": "d868ea09be2dd45e2f610d81482308329938240d5f23148ccb2a1112013b97b7",
+    "edited-group2.json": "5eec4058f7841a7d8065ad541d51c1532da9b71100b4bf0e3f19403aadd7e99c",
+    "edited.json": "b8bb63f860913e15379666fd638dc233df6b7aaeeed27245485f794c757169af",
+    "english-sources.json": "0c5ec238919eaa37254143d0cd1afbbaca7129c90fb31b89628ffffca81421ae",
+    "fetched.json": "eab08755c0473407ddc2c14dc76b6f4124a273a0befd4280a921c0b66db08bf8",
+    "frozen-artifact-hashes.json": "667a75861ea82e2fa68df2e6c1a577c809cb06c8a9fd08159910927bf1e91079",
+    "group1-corrections.json": "cca37adb4dc6cfc2b5fa5fd0eee7acc9e2ae563d49113065d1286913323b49aa",
+    "group2-corrections.json": "c2c34e172f7f8df065452f4854a17c0b18206395e80b5179d8197573b8632aab",
+    "held-fields.json": "57fea5f3b9456cf56a1d42005d004c71a454c7a490daff6dc5608bf2c906a52e",
+    "new-pronunciations.json": "80d6225bdf874c8a697febecf9e68804af964eaff721a3c9423ae6a43ddd1d8c",
+    "pronunciation-review-status.json": "a01c3483480499650610fb5e592f00636beae9093ce2d680287cf4b63ce86587",
+    "pronunciations.json": "822e771f39d68ea4e9210dd5f0ace3951ece32d8b06a2d1bfbe12fcbe1d0ad87",
+    "proposed-pronunciations.json": "80d6225bdf874c8a697febecf9e68804af964eaff721a3c9423ae6a43ddd1d8c",
+    "quantity-source-comparison.json": "7663a2515acb1769ab507d88cbc0894edd7095441645bfd3182ac005a2a9b05d",
+    "review-audit-group1.json": "e28ece98bcc94517668d988eee27894e88258e04c1852c9275ef5211996ecdaa",
+    "review-audit-group2.json": "bb98ad0e3ac3447cce357f5f1bc1ced93a60a4514223a0b1fd82f1eefe5bf06f",
+    "review-audit.json": "2eedcd2335cba83cb22a4f7a557af85d662f0c99fc231cec5e98dbeea57fc252",
+    "review-groups.json": "ab81c0ea2067eb55548605032425640c732c9fa7d6634f8e5dacc5c0e8ab363c",
+    "semantic-notes-group1.json": "d55835a8aaf0d82201e2e4acd453e5833d2a14d18447bb3bab462dde33ad14ee",
+    "semantic-notes-group2.json": "379f7ef13fb2076224e84ca5baf53951ef245664a5788292182c376e9a94404f",
+    "semantic-notes.json": "a0952e8295dc1c3acb2622df4b4ecfbe88f9deb83c80a2358e24863720f745eb",
+    "separate-bilingual-review.json": "a47d9dfc7396f7fb6d96e58403f31fd633d00f3aac3638ee8a9ccaabf421b7fd",
+    "source-boundaries.json": "7b6291a86ae6e059ced8d8a1c5f4740cb36e9cadfb00caf54cd51a444c1f6f4e",
+    "source-holds.json": "37a552df036b7b945ad5cd38fc7c96f6b054d02cf028441a4d057932554c320a",
+    "ua-field-countercheck.json": "5a5dcb54d8f164f490ba820eab17b4b3d8b8cabc6fbf4b24e75c0e5ad0b920a5",
+    "validation.json": "dbcb202d42771688eee3633b3b614ed238874a09c40448d12115454abe6cb1b5"
+  },
+  "originalAuthorUnchanged": true,
+  "originalReviewReportSHA256Before": "6a967f9a70535dd06e73cf1d9c0a331ed554ea637f3e66c4302e66e31707a969",
+  "originalReviewReportSHA256After": "6a967f9a70535dd06e73cf1d9c0a331ed554ea637f3e66c4302e66e31707a969",
+  "originalReviewReportUnchanged": true,
+  "pendingStatuses": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending native review",
+    "currentLiveForeverVerification": "not performed; pending",
+    "controllerHardwareVerification": "not performed; pending"
+  },
+  "reportFrozen": true
+}

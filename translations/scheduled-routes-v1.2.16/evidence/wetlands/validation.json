@@ -1,0 +1,138 @@
+{
+  "status": "passed",
+  "quests": 15,
+  "enabledFields": 70,
+  "sourceAvailableFields": 73,
+  "heldFields": 3,
+  "unavailableFields": 2,
+  "rawProvenanceFieldsVerified": 73,
+  "alternateRawProposals": 1,
+  "linguisticLintIssues": [],
+  "build_release.validate_fields": "passed all15quests/all75slots",
+  "reviewGroups": 2,
+  "independentAssistedReview": "not performed",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending native review",
+  "liveClientVerification": "not tested",
+  "controllerVerification": "not tested",
+  "currentPrimaryReparse": "all15 exact; original script identity and all5 field boundaries inspected",
+  "allRequestedInputFieldsAccountedOnce": true,
+  "allActualRawHashesVerified": true,
+  "selectedQuestIDs": [
+    256,
+    468,
+    455,
+    473,
+    469,
+    470,
+    484,
+    471,
+    98072,
+    98240,
+    98245,
+    98197,
+    98282,
+    98459,
+    98461
+  ],
+  "checkedAtUTC": "2026-11-21T20:48:12.423091+00:00",
+  "sourceCounts": {
+    "availableFields": 73,
+    "enabledFields": 70,
+    "heldFields": 3,
+    "absentFields": 2
+  },
+  "actualRequestResponseIndexHashes": [
+    {
+      "batch": 1,
+      "group": 1,
+      "inputFile": "deepl-request-01.json",
+      "inputSHA256": "a8710c6186a2dafad3094d9be290118a0ab9fb33d3c899137095a27a76746477",
+      "responseFile": "deepl-response-01.json",
+      "responseSHA256": "8482d7f69839be5d82aaf0a8cd77041999bece93875116d342af476afa70e9b7",
+      "indexFile": "deepl-index-01.json",
+      "indexSHA256": "b3a72726e6ea399e7541ef798f836e15b6e7359fa1038881aa1595086954216d",
+      "inputCharacters": 4885,
+      "fieldCount": 32,
+      "responseSerialization": "Actual tool structuredContent unchanged values; duplicate transport content omitted."
+    },
+    {
+      "batch": 2,
+      "group": 1,
+      "inputFile": "deepl-request-02.json",
+      "inputSHA256": "9cf0fc617e08d64973ddfcefdf8023c8e1f95c025d6aa9784475e49debf9e452",
+      "responseFile": "deepl-response-02.json",
+      "responseSHA256": "3b142a37e65b176b2717c96550686e87bfbb0aba82b32dd1268022537b074fb7",
+      "indexFile": "deepl-index-02.json",
+      "indexSHA256": "ce32be6793d45d52fe3e779edaa18ce79bd031accadd607a11f375db9b423de7",
+      "inputCharacters": 2110,
+      "fieldCount": 11,
+      "responseSerialization": "Actual tool structuredContent unchanged values; duplicate transport content omitted."
+    },
+    {
+      "batch": 3,
+      "group": 2,
+      "inputFile": "deepl-request-03.json",
+      "inputSHA256": "b7d0ff6af4e85edce6bbda09c1e9e5dc2ef384110c296043a31dbb0aff90f4d2",
+      "responseFile": "deepl-response-03.json",
+      "responseSHA256": "d85b6ce07c128c7a435a672404ba85c044c61ef1668daf1d11cdceca38f7d7b7",
+      "indexFile": "deepl-index-03.json",
+      "indexSHA256": "d8619097ebbe78498140b2dfd7f42cdcfee27032f8fd06e6d366a37778e0ecd3",
+      "inputCharacters": 4733,
+      "fieldCount": 29,
+      "responseSerialization": "Actual tool structuredContent unchanged values; duplicate transport content omitted."
+    },
+    {
+      "batch": 4,
+      "group": 2,
+      "inputFile": "deepl-request-04.json",
+      "inputSHA256": "234a6d58bd6de1f8175bd994b6228555dbbf54d9759d868de1181e68b2d46ebb",
+      "responseFile": "deepl-response-04.json",
+      "responseSHA256": "02d21770ad2e470c2196d1ddc003f4bbd7673c5fc211b6f2ef5727697adb56fe",
+      "indexFile": "deepl-index-04.json",
+      "indexSHA256": "557e108780886380a2ba8d39ef61391d399a5618e2688b1fab9724e595c8f7e3",
+      "inputCharacters": 364,
+      "fieldCount": 1,
+      "responseSerialization": "Actual tool structuredContent unchanged values; duplicate transport content omitted."
+    },
+    {
+      "batch": 5,
+      "group": 1,
+      "inputFile": "deepl-request-05.json",
+      "inputSHA256": "5e6de0414e358857421d041666c18dcbb31b03c1a3e812fd87610baade473c4a",
+      "responseFile": "deepl-response-05.json",
+      "responseSHA256": "f60a3077e9214b9b256c16c5d9e5d5e7d95850b2718c3898a2ca99bc3c5eda41",
+      "indexFile": "deepl-index-05.json",
+      "indexSHA256": "82c8cd7b24132b8cd2d411b0c876338e31005cac2a5debaf701f2f2ea9819753",
+      "inputCharacters": 264,
+      "fieldCount": 1,
+      "responseSerialization": "Actual tool structuredContent unchanged values; duplicate transport content omitted."
+    }
+  ],
+  "authorGroup1FrozenHashesUnchanged": true,
+  "sourceDiscrepancies": [
+    "256 current English NE vs UA NW; NE retained",
+    "455 primaryProgress absent, secondary+UA available: held",
+    "455/473/98240 primary<name> vs secondary<Name>: exact primary lowercase retained",
+    "470 completion stage absent primary vs secondary: whole field held; both actual DeepL variants retained",
+    "484 primary+secondary+UA6 vs installed4: objective held pending current live quantity",
+    "98072 primary8 agrees installed8 vs UA10:8 retained",
+    "98072 primaryrequired19 vs installed missing: separately recorded, no invented metadata"
+  ],
+  "routeMinimums": {
+    "473": 23,
+    "98245": 21,
+    "98072": {
+      "currentPrimary": 19,
+      "installed": null
+    }
+  },
+  "remainingItems": [
+    "fresh independent assisted review",
+    "native Myanmar proofreading",
+    "new pronunciation review",
+    "current live Forever field/eligibility and three holds verification",
+    "controller hardware verification"
+  ],
+  "freezePolicy": "Original group snapshots and final author files frozen. Any later corrections must be new corrected files/history, preserving these bytes."
+}

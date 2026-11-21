@@ -1,0 +1,1675 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "barrens",
+  "reviewType": "fresh independent source-aware English/Myanmar assisted review",
+  "reviewedAtUTC": "2026-11-21T20:57:17.534924+00:00",
+  "counts": {
+    "quests": 20,
+    "allFiveSlotsReviewed": 100,
+    "sourceAvailableFields": 99,
+    "enabledFields": 98,
+    "heldFields": 1,
+    "sourceAbsentFields": 1,
+    "groups": [
+      7,
+      6,
+      7
+    ],
+    "textIssues": 6,
+    "affectedQuests": 6,
+    "rawRequests": 5,
+    "rawTextPairsAudited": 99,
+    "exactMaintainedTerms": 41,
+    "authorTerms": 110,
+    "pronunciationConflicts": 0
+  },
+  "scopeAndMethod": "Both AGENTS, worker/selection, original primary and accessible alternate HTML, all99 English/Myanmar proposals including held874detail, actual pinned UA catalog all5states, full installed metadata, local maintained terms, original actual DeepL request/response/index and all source/raw/final/review hashes independently inspected. Author output stayed immutable. Code/JSON/HTML author files all fingerprinted; every author JSON parsed. No new translation or source selection was performed.",
+  "sourceReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-21T20:30:24.952770+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "sourceHashes": {
+    "upstreamPackageSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "upstreamCatalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72",
+    "sourceAuditFile": "barrens-source-audit.json",
+    "sourceAuditSHA256": "ba97298d556fd33e6ff8de7d0e26398a593d8982b03fcf0e6a7147869381e0d5"
+  },
+  "quests": [
+    {
+      "id": 878,
+      "title": "Tribes at War",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ec89361606e0ccbc0760cd14c7039fb63be995c6d44a2728f7884b4214dfbc04",
+          "reviewedMyanmarSHA256": "fcb9b0db2f2bf33c65a82e31d80fab861af56a57ba0a16dff3950912c4a0edc3",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Ordinary war title; no named-item title lost."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b20871726a463781f393b0868a7753f886195e7a3974bfbdbba2a0b5bfd9fb0c",
+          "reviewedMyanmarSHA256": "524d386000118051de0ea4042e65313e30e09e3c9898241b831223388e090629",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Mangletooth self-reference, two tribes, earth power, three primary snorts and northward spiritual-leader attack preserved."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "be621a036adffe3547958fc8832922b39ac618a23cdc7bbe3c4a6e59ed2d6f47",
+          "reviewedMyanmarSHA256": "210e88c894d0fda82b48e9d9f4c9a3ed88e4fd8568b4d851ad285189d8e94ee9",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "6 Water Seekers,12 Thornweavers,12 Geomancers individually bound; return Mangletooth/Camp Taurajo/Barrens."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "487f90ddb138741f75ff55e1cb517ee59b988bea4175539fb43006d5125aa96a",
+          "reviewedMyanmarSHA256": "7b44b0a9938aad1e558888f95ab754da2d657b572b084951909960cd6b5b2001",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Conditional information after killing wise ones; exact lowercase race and primary snort count; not secondary extra snort."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ae2e3f395a726524ea9a811c8fa0a3f8e339e10388a0799ba7da30fa7c3d1109",
+          "reviewedMyanmarSHA256": "9b278e191842c5b0ed07158d2fb81958a0bde355b01417e6ad26e606be84b528",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Abandonment despite imprisoned help, no rescue invented; primary one snort, player honor versus caged Mangletooth grief."
+        }
+      },
+      "primaryHTMLSHA256": "164fb89eb5c7e1aeffe1116db854dda923d403b2605d39ede99db490ea408f25",
+      "secondaryHTMLSHA256": "5a979834dc267813fc4f4e179f456265d1aa749517b7496b4880e6710f9695a3",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/0",
+      "issues": []
+    },
+    {
+      "id": 5052,
+      "title": "Blood Shards of Agamaggan",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "70e625ac66100c5dcaf804c15a033d77973fac32416e785714260229a2e4d2f3",
+          "reviewedMyanmarSHA256": "08c878c7c7fa626badd08d9d6553cf8a03d923628666401bf63c10166e6a2cd9",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Full Blood Shards of Agamaggan identifying title retained."
+        },
+        "detail": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "4352b7fa80ab5b3ee9c42e5cddff38fa91cb9923856f2b94846fa3ed926303e6",
+          "reviewedMyanmarSHA256": "f9d7ea973e4a210208797b17d6f4074804cf7ebe9ae23a03fe9c04a1a04bd68f",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "One linked blood-shard item needs field-local English identity; totems for battle and magic, thorns/blood/minerals and optional-many blessing otherwise preserved."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "0a78bc8c66971b02c5677f3f9ed76da21fc5173c38c090768416ab9ac111475c",
+          "reviewedMyanmarSHA256": "1416f01fb0dcf4c4d2b82ab455fe18a4c7d071e2972d4f0ff9e865c52411b65a",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "One Blood Shard then optional more Blood Shards; no required-many invention."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "1f5a691fb9728057a7fd7d9eeca9974d3fe96109b51494e1804c991cc9471d7a",
+          "reviewedMyanmarSHA256": "f71f0de5a8d5c12054afe92a2218d99c79aac07bf0bab8c267741d0efeacaf64",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Razorfen body, especially Downs maw, swallowing/chewing/spitting, reciprocal spirit/protection and all primary snorts retained."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "9a866d1c8e7e3af1139b8f63461b2e4cb6a1f64066191c0c76a36e28ffcb031e",
+          "reviewedMyanmarSHA256": "e62f55c3f9eaef0c1187e03a54c47d0211d3777aed5051256538421351bfc359",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Actual primary and secondary typo lose you upon them independently assessed as loose/unleash from immediate betrayal context; UA напущу and following revenge quest confirm setting the player against tribe. Existing send-and-attack meaning adds no new target or task and is acceptable; do not add secondary extra snorts."
+        }
+      },
+      "primaryHTMLSHA256": "e68c8f63866e0bd3fe2190ac0d0886d5f971e5c5384fc0aadd8f2a2d95c59336",
+      "secondaryHTMLSHA256": "8541d1d8b5c6fbe541749f7819024ef7397de5c0e7e40c12626ac7e1c0a6985b",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/1",
+      "issues": [
+        {
+          "field": "detail",
+          "category": "retained_item_identity",
+          "reviewedMyanmarSHA256": "f9d7ea973e4a210208797b17d6f4074804cf7ebe9ae23a03fe9c04a1a04bd68f",
+          "englishSHA256": "4352b7fa80ab5b3ee9c42e5cddff38fa91cb9923856f2b94846fa3ed926303e6",
+          "old": "ဒီသွေးကျောက်အပိုင်းအစ တစ်ခုကို",
+          "new": "ဒီ Blood Shards (ဘလဒ် ရှာ့ဒ်စ်) တွေထဲက တစ်ခုကို",
+          "proposedFullField": "ဆူးပင်တွေတင်မကဘူး၊ သွေးက <နှာမှုတ်သံ> မြေကြီးရဲ့ တခြားအရာတွေကိုလည်း ပြောင်းလဲစေခဲ့တယ်။ တခြားသတ္တုဓာတ်တွေနဲ့ ရောနှောနေတဲ့ သွေးနီရောင်ကျောက်တုံးတွေပေါ့။ Bristleback (ဘရစ်ဆယ်လ်ဘက်ခ်) တွေက အဲဒီကျောက်အပိုင်းအစတွေကို တူးဖော်ပြီး စစ်တိုက်ရာမှာ ခွန်အားရဖို့ <နှာမှုတ်သံ>၊ သူတို့ရဲ့ မှော်အတွက် အဆောင်တွေလို ဆောင်ထားကြတယ်။ <နှာမှုတ်သံ>\n\nအဲဒီမှော်ရဲ့ လျှို့ဝှက်ချက်တွေကို ငါသိတယ်။\n\nမင်း နားလည်တယ်ဆိုတာ ပြဖို့ ဒီ Blood Shards (ဘလဒ် ရှာ့ဒ်စ်) တွေထဲက တစ်ခုကို Mangletooth (မန်ဂယ်လ်တူးသ်) ဆီ ယူလာပါ။ အများကြီး ယူလာရင် Mangletooth က မင်းကို quilboar (ကွီလ်ဘော) မှော်နဲ့၊ Agamaggan (အဂါမဂန်) ရဲ့ မှော်နဲ့ ကောင်းချီးပေးမယ်။ <နှာမှုတ်သံ>",
+          "proposedMyanmarSHA256": "315f8c38bd70efa39fb6cff8ff837ed8049f7fdba342169bd077eb652283a9e1",
+          "reason": "The original primary explicitly links lowercase blood shards to item5075. The first important item occurrence in this displayed field needs its recognizable English identity and phonetic annotation; its title/objective annotation does not satisfy detail. Preserve one of these shards and the subsequent optional many. Existing Blood Shards pronunciation is used.",
+          "sourceEvidence": "5052-wowhead.html Description: <a href=\"/forever/item=5075/blood-shard\">blood shards</a>; same item ID in installed objective and current UA equivalent."
+        }
+      ]
+    },
+    {
+      "id": 879,
+      "title": "Betrayal from Within",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "8f88503d0a2af2da5ed3d331051b155a1d0199952bc3a277d824869890e6ad74",
+          "reviewedMyanmarSHA256": "7e74aa6bd8e9d72a16bf3b77002afc80cbe888b6fc1f830f8246f40b14c8e4c5",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Same ordinary title as906; records remain distinct."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "a424fda5d6fc3eeec5fdeb9b4bdd082818f7bb47f8920f4153022dc60e7c6ed2",
+          "reviewedMyanmarSHA256": "53efa89707cde69ee89dde9e13f503744ebf481ca884bd5dbaa4f77fe2ec911e",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Three leaders from Kraul, far south; Nak/Kuz/Lok Orcbane, spellcaster/tracker/warrior; peace at least from Razormane; two race markers exact."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "15117e3c4aafbd71ac61dd638b84a0d1c2c26cd6fd41362ebe65087196752b93",
+          "reviewedMyanmarSHA256": "a49eb090408f7d4c126fbca139643f3a142d2cd5d69c84e197bae51702298f09",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Three named kills and their skulls to Mangletooth, separate from906 single skull to Thork."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "e3b06c30d56157d817d30e2a61f166baf9c1884898e07f6d983e1f3dca05d216",
+          "reviewedMyanmarSHA256": "e34fda449c9ce9ed13f1126b5403a2b83a667e623eec596d6cad4b00f2b4af5d",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Thork mistaken; conditional success, Mangletooth inevitable death/no regret."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "4bebe5b40fbb974f3c8d1df943039228ac14cd43007df56bf4ed902b96d36e1c",
+          "reviewedMyanmarSHA256": "f75cae1ac2f5140dabfd6f66585e1924212fb429cc9333b8549e37ba7c0cdadd",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Three primary snorts; abandoned caged survivor condemns tribe; one task left."
+        }
+      },
+      "primaryHTMLSHA256": "7d0fab3494854a16fde23d7c152ca9dc6d1b29b9257a88a2d312cb0cd9dc9542",
+      "secondaryHTMLSHA256": "1ff3f19b9777866a6acff89f80644a88ee2835255277952a1b9c5977217d4188",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/2",
+      "issues": []
+    },
+    {
+      "id": 906,
+      "title": "Betrayal from Within",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "8f88503d0a2af2da5ed3d331051b155a1d0199952bc3a277d824869890e6ad74",
+          "reviewedMyanmarSHA256": "7e74aa6bd8e9d72a16bf3b77002afc80cbe888b6fc1f830f8246f40b14c8e4c5",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Same title distinct single-skull handoff."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b2a45ad52cedaacbf130a6bcccd6eed3836254608d5ddc20e04bf4797cb43d2a",
+          "reviewedMyanmarSHA256": "0b18fad30bee8f4853fe88acc6d7f07b4e701a3f1381edb052882198fb6a24c1",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Lok head to Thork/Crossroads, words unnecessary, disbelief Mangletooth helped, reward certainty belongs source; blessing while caged and farewell."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d2cdf1c111640385cb140fee2ddeecf04d48958672099f7084120520ab5a079c",
+          "reviewedMyanmarSHA256": "feac16d3b364671f595bdda25abb176c48e1f661079f4abec38c298034a1063f",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Lok's Skull single item to Thork/Crossroads/Barrens."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+          "reviewedMyanmarSHA256": "9f5dc1a72f626431085a3ad6ae55b8fc688ab82a4a80d0bf4af8666d8d6bd940",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Thork brief direct inquiry."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b35c1bc0879d0d3ff6a9cbafd2e45e5c1674f9633dd2412e14dbc021ccac8aed",
+          "reviewedMyanmarSHA256": "87af426d41862e80a1efc7dc1ad0179fe4b53f8959e3fedaf36da86d52e0ffb8",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Thork surprised at personal kill, grateful respect, admits another quilboar suspected; name markers exact."
+        }
+      },
+      "primaryHTMLSHA256": "e6e39645be9d25fb612b33ca80854e6259439cca6a22c287645b837db95579cf",
+      "secondaryHTMLSHA256": "5b73f66b7ec28e9871b438baa89009f56f5a9bf0f92088f380f498464f524eb3",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/3",
+      "issues": []
+    },
+    {
+      "id": 843,
+      "title": "Gann's Reclamation",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "1e1b2ca4662465e2cb89a7214f4273ba788c73d512ae815384b79b1085a73fbf",
+          "reviewedMyanmarSHA256": "ece9fb8650e172360baadd92d355f25bc210f107f16e065eb07b72a21b2cddf2",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Gann name plus semantic reclamation."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "de55becc02cdc43f11ba91f4ffeac31583e5be2593d07c8bd509ade6af149a0c",
+          "reviewedMyanmarSHA256": "8de412ef0cf156e36f1fb5b2741ea37ce3ef9bc74a944156c6d6a6e2d8d28c54",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Solitary road speaker, failed diplomacy, dwarven blasting and dispossession; forced expulsion/journal of Prospector Khazgorm."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "74925a71d427a75876d66b89d976b2355c4eca62a40359152262f85671253de4",
+          "reviewedMyanmarSHA256": "6e2542788baf739e27107fac21b55b6cabccf96db6d554155a7515488bfddbb2",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "15 Excavators/5 Foremen and Khazgorm Journal to Gann; two paragraph tasks."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ad59012ea4c85e1f842b53006ec9e705b45ba3cd958511b70077e5f3c11dda09",
+          "reviewedMyanmarSHA256": "cf0326ac2df9c803e090dff07a765f24315142d096009bf91d2ca2c9599a14a9",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Innocent Tauren deaths or forced ancestral exile; reclaim land."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6b65c1a051744ea770016aa00e6e6cb09d07516a54dc8e113870acc9fa92b89e",
+          "reviewedMyanmarSHA256": "06fde61d3303e099e3d5b3bb97838c49065a2d27b5f0e44191d8c93131a79911",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Remorseless fate and infidel stance, warning to disruptors, pause to study dwarf journal."
+        }
+      },
+      "primaryHTMLSHA256": "ff1cbe65e3a5cd262d0bb058bd5fec77d1c6069b892ee42ef62a264e78c59054",
+      "secondaryHTMLSHA256": "3730e59c8e8336727f6fd512cab972ac4cb973c4c9d1b03ed57f626e4f1d5b17",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/4",
+      "issues": []
+    },
+    {
+      "id": 846,
+      "title": "Revenge of Gann",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6fbfb0bf8b372acdad046a7ce9c1b0a4c470e800df64cbd9148929d0a744a176",
+          "reviewedMyanmarSHA256": "9101f0db0901f6941c3d2af211b43edfcaad073512494e59c2d7c8d390b16064",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Gann revenge ordinary wording; no collapse with849."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "c36076a077f7db47468efd7f1a7caaf121586ffedb51d86826b68ef5da271fb0",
+          "reviewedMyanmarSHA256": "56f865818411fa0e4dd48614c0c7b26d3e98e9a57206fa566de2afa85d0a789d",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Explosives/vehicles, expected new foreman, own-medicine idiom; three materials from riflemen/soldiers/officers in Keep."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "5d473e3323a9f3a36f7ac61e72e97fd39ceb494daa6fed8f3e999b1f7ea090cc",
+          "reviewedMyanmarSHA256": "c7119b615f6288cb0af6f8996182825cb7ed016ce0f5d0516d7a7553c04dde3f",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "6 vials Nitroglycerin/6 bundles Wood Pulp/6 samples Sodium Nitrate, individual units."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "f4d9890a762e11db7bd88045f060b31273199f569a5d37c464c872cd41685b6f",
+          "reviewedMyanmarSHA256": "94206f0e3e4e7d1481843eb3b6161a90a5fc52e50a0778992e25fe6abd0c398b",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Khazgorm death delays but cannot stop destruction; Keep defense to offensive threat, if ingredients then charge."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6f6f2df50a4d16d61ebcbf142535990efe1ed7c756cda30d604f42cf9613ff03",
+          "reviewedMyanmarSHA256": "d29b0eedc8fb7e19a993afa0374992eacbd242140b49a064ad39801fdcc76ead",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Industrious class compliment and fitting surprise; certainty follows no doubt."
+        }
+      },
+      "primaryHTMLSHA256": "071f12d0e377191093d193966b3dfb79e8d68b4cf639f513e7a1c8bd385d4fc9",
+      "secondaryHTMLSHA256": "25a289d3057f3a100b30161d7477fb2652a097d4d0637bc1ba2c87c2070f916d",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/5",
+      "issues": []
+    },
+    {
+      "id": 849,
+      "title": "Revenge of Gann",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6fbfb0bf8b372acdad046a7ce9c1b0a4c470e800df64cbd9148929d0a744a176",
+          "reviewedMyanmarSHA256": "9101f0db0901f6941c3d2af211b43edfcaad073512494e59c2d7c8d390b16064",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Distinct second Revenge stage."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "64745ca05bdf2fdb6bfb502db6d6dd91a6acb0f7d278e8c5ee0ea1efafba1fee",
+          "reviewedMyanmarSHA256": "d2752d4be1cf2548b23c43108e5155cc5d792341c83d04881e76780055851337",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Khazgorm plans, crafting pause, given neutral explosive stick; flying machine infrastructure/weapon/power icon and tribal insult; reward."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "aea44cb83f90f93d7eb286c9835722423084670b2dfd238398e8f8691d9ea8c7",
+          "reviewedMyanmarSHA256": "1021d7cb03647c6414d5a0b8f967bdd7a546ffad2046ca7c41c24206571a133e",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Destroy Bael Modan flying machine and return Gann; no materials copied from846."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "9826d4172045e21dd7639c3a1b11c5ff09a66b0f3eab75f7960a5570010c8d12",
+          "reviewedMyanmarSHA256": "3e70fb0b6f92c9b262c2e80868a56a49aef60e12bab9f1b67dd03034c3fce62d",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Sweet revenge conditional on destruction."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "86269ea8623c3439916a145833b25cd4379d4d25ab48f436fd6abc632a7fecb4",
+          "reviewedMyanmarSHA256": "7316cb140237a7e83e97fa3b1d890bcdafa2d4afcdca537a93a7997efeb27a6b",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Thunder Bluff esteem as sacred Tauren land defender and lost-tribe champion; name exact."
+        }
+      },
+      "primaryHTMLSHA256": "cfee2a581614607a4cd129cf929a12d035151448f2b6ca6a51bcaccd6bcb15ae",
+      "secondaryHTMLSHA256": "03e7b58ca3294fd52eb7b036b430a588916d6137b8fb69b7e06e772eb94a6eb5",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/6",
+      "issues": []
+    },
+    {
+      "id": 874,
+      "title": "Mahren Skyseer",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "019907103e6f0ad0e2db1e33cf7719c7ddbb9957fcca30153f4314d100ab94af",
+          "reviewedMyanmarSHA256": "f9337bc38960cae81f0aa2b5e7c704b00acc256f16ae2f188afe11653bd2665d",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Mahren full NPC title with one combined annotation."
+        },
+        "detail": {
+          "status": "HELD_SOURCE",
+          "sourceAvailability": "present",
+          "enabled": false,
+          "englishSHA256": "96455a9c552df7a86b662ea3119c73c843ac18d79ef362333a98ca1e66bcb1ad",
+          "reviewedMyanmarSHA256": null,
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Held null: literal unsupported him/her in original primary; proposal preserves branch, sea/mountains/swamps, sister and human-held coast. No source normalization authorized."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "f5ec8bad2342995fb7b46e680fdeade8e66cab5dc371bbc9a462a57be3bb7812",
+          "reviewedMyanmarSHA256": "e7acb52205a6832f6e28a868a3f8c2b1444ca829b7aaea93cd2fa5c1c2132b4b",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Speak Mahren Skyseer only."
+        },
+        "progress": {
+          "status": "SOURCE_ABSENT",
+          "sourceAvailability": "absent",
+          "enabled": false,
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryBoundary": "absent",
+          "rawProvenanceVerified": false,
+          "notes": "True absent: neither original primary Progress heading/reply nor secondary field nor UA has Progress; null correct."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6a31d91fdcafd9ff5cee02c2f88c4b062d99790999d425bbc2cf9da7ea8e09bb",
+          "reviewedMyanmarSHA256": "67354899e8a1cec5af7c488ee91e0b916c14c346897ad0e988f061485de77889",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Brother Jorn proven respect, readiness for hunter path; Mahren voice no invented family/gender details."
+        }
+      },
+      "primaryHTMLSHA256": "14708897ad65167f344981c4acda02ca044ca6ad89cd2533550700d4f83b1cf0",
+      "secondaryHTMLSHA256": "7bccebd0799508937ea675e3b3865ec35856e1959f11236bd5dc1c674384bfa3",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/7",
+      "issues": []
+    },
+    {
+      "id": 873,
+      "title": "Isha Awak",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "904513433306527a87f7ace24b165b8e582d84065bcd97551d5fb141d14a3e63",
+          "reviewedMyanmarSHA256": "6eb10baa9e9662defd28087af9276bc87dcd819cf4f25f15c47016863be440a1",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Isha Awak identifying creature title retained."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "f2751ca6fd5496d71c517b6bde779d40c477cb90eb46454093bb9515ec586fdf",
+          "reviewedMyanmarSHA256": "0feae9585b3c38e29cffff5ebb4bbb0d95c6b114432f32cc105b80c76a4e13b5",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Lord waters, solemn pride/human victims, NPC gratitude and lack of fear; worthy quarry, swim/search Deep Doom and heart/fate aphorism."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "54a86c71636eef663132fcd093b8849ff80cd781f93e92a67f74c629f50358be",
+          "reviewedMyanmarSHA256": "30b8b7db3351f22d914be2104713f707b8ecbeb91f7bb1e53de9484524e61ca8",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Heart of Isha Awak to Mahren."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "45ea2c3ab1f20f17575972b4c7f457852277748852256d215f00780e93a6693f",
+          "reviewedMyanmarSHA256": "6791ef3876ea9f192758bfd81f629e427c547084cd3ac7924e878ef54c951f58",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Fear not waters race-address exact."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "f486d07fa40a55c139b669ee6a0072b0cc128fd03d16f899866fd496ae38fe2a",
+          "reviewedMyanmarSHA256": "c71ef92eeea5412d66d8fe9224a92a2418dcb573d5cbe7c371d76021639b0a3e",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Spirit joins player/lurks eyes, eyes one day learn to see; uncertainty and ellipsis preserved."
+        }
+      },
+      "primaryHTMLSHA256": "c67af28be896babf991a219a851a3de08ebf2132d6c1a9dfbe7273ec4c25f48e",
+      "secondaryHTMLSHA256": "a2911d4c2011b8cb70409dfb2246359e83f4e79722581170346a5a65908fbac2",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/8",
+      "issues": []
+    },
+    {
+      "id": 868,
+      "title": "Egg Hunt",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "1c4385903b3c758cb23f579587dde09d0f9277cd70cab08572b2d7baa70f6ce2",
+          "reviewedMyanmarSHA256": "76eeeec4578eaca5ea729d9c84593e58cad69827c038844f592c70e9fafea379",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Ordinary egg-hunt title semantic."
+        },
+        "detail": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "25c19ed2d33ad465c71b8e82c3a723bb239dac14f4d5279099b7fefc6cc0be21",
+          "reviewedMyanmarSHA256": "f81c30c12ce9c60504116e175a919241654e86741492896f7987dddd014765d2",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Orgrimmar masters/Crossroads watch, south in Field of Giants, intelligence only seems; linked given Digging Claw missing identity proposed."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "c58f7d4963a2cb3861c0c7bb9db44e1ccc7fb614c0beb14ceaa0c62785e9bcc7",
+          "reviewedMyanmarSHA256": "612a14d626ee0867715d3ac3ded5a5e55ec41aa7370b661ae4a109ca6e29ed5c",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "12 Silithid Eggs plus return Digging Claw to Korran; both targets retained."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ba1fa50bdfa6692d683d7a637bc47ebe8c4d43905f1d594b29d694f1e00b2160",
+          "reviewedMyanmarSHA256": "67cf6b8beec7b8ac9157bd3356bd6bd4e4c574b694719fd8fe94fd5123dbf2c1",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Broken eggs useless; no hatch condition added."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "75b74f57bf5b9bb5913f4cd3f35195980499cbee95b9e7d1bb56de6bb725a87b",
+          "reviewedMyanmarSHA256": "d62f909852c3217ee8bb37f39a6645f6368a56df14132f6a6f7f9a76108f389e",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Eggs and tool both acknowledged; pleased practical speaker, reward trailing phrase."
+        }
+      },
+      "primaryHTMLSHA256": "9388bdf941fa0ec2f166833bce3505e2a1cf6c5c8bf9c49c346645a149403264",
+      "secondaryHTMLSHA256": "3d2e722743b9c4ba49c81be0bb37ec0538baf5dc4dfc23cc6d7ed6e8a5ab5b9e",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/9",
+      "issues": [
+        {
+          "field": "detail",
+          "category": "retained_item_identity",
+          "reviewedMyanmarSHA256": "f81c30c12ce9c60504116e175a919241654e86741492896f7987dddd014765d2",
+          "englishSHA256": "25c19ed2d33ad465c71b8e82c3a723bb239dac14f4d5279099b7fefc6cc0be21",
+          "old": "ဒီတူးတဲ့လက်သည်းကို",
+          "new": "ဒီ Digging Claw (ဒစ်ဂင်း ကလော) ကို",
+          "proposedFullField": "ဟေ့၊ <name>။ Orgrimmar (အော်ဂရင်မာ) က ငါ့သခင်တွေအတွက် ဒီမြေကို စောင့်ကြည့်ပြီး ဖြစ်ပျက်တာတွေ မှတ်သားဖို့ ငါ့ကို Crossroads (ခရော့စ်ရိုးဒ်စ်) ဆီ လွှတ်လိုက်တာ။\n\nငါလေ့လာနေတဲ့အရာတစ်ခုက တောင်ဘက် Field of Giants (ဖီးလ်ဒ် အော့ဗ် ဂျိုင်းယန့်စ်) မှာ တွေ့ရတဲ့ အင်းဆက်နဲ့တူတဲ့ သတ္တဝါတွေပဲ။ သူတို့အကြောင်း ငါတို့ သိပ်မသိတော့ ပိုသိလာဖို့ ငါ သေချာကြိုးစားနေတယ်။ သာမန်တိရစ္ဆာန်တွေထက် ဉာဏ်ရည် ပိုရှိကြပုံရတယ်။\n\nဒီ Digging Claw (ဒစ်ဂင်း ကလော) ကို ယူပြီး သူတို့ကုန်းပို့တွေထဲက ဥတွေ စုလာပါ။ ဒါပေမယ့် သတိထားနော်။ သူတို့ သတိပြုမိသွားရင် မင်းကို တိုက်ခိုက်လိမ့်မယ်။",
+          "proposedMyanmarSHA256": "39a3fa0d3c98a3697600ea90f8354e9eab0022ae68f53543046c7779c371cd16",
+          "reason": "The original primary links digging claw to given item5059; the semantic-only phrase loses its recognizable item identity and first-use pronunciation within detail. Use the existing author phonetic from objective; keep the egg/mound/alert warning unchanged.",
+          "sourceEvidence": "868-wowhead.html Description: <a href=\"/forever/item=5059/digging-claw\">digging claw</a>; installed S11=5059 and objective returns Digging Claw."
+        }
+      ]
+    },
+    {
+      "id": 883,
+      "title": "Lakota'mani",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "fe7ea59401650ff75a9b139d0e3918e5f8d0d14638680cf38eeddeb0856f7638",
+          "reviewedMyanmarSHA256": "77c4db120982390f1fb23a57d1998fc0b0631972dcbb52356b36108c8419a62c",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Lakota'mani creature title."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "3eb933a244d3a70b2ebbe2f9603537357eb959b8385aa88b5bc8733addd15ed8",
+          "reviewedMyanmarSHA256": "d158e9d5d6401116ab4297085cfafe95a54f17399d5eeecd5a08d59e844ec0f9",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Hoof of Lakota'mani, symbol of great kodo strength."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ca3c7fe58e13eaa0f93e72da57972ab50c47843bf180aa6c6906c692f249cccb",
+          "reviewedMyanmarSHA256": "1653bb5c8fc29324e59cb769eeadb1ea6cbc4877c306288f17a8fae3fa189df3",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Hoof to Jorn/Camp Taurajo, distinct tailspike/feather proofs not copied."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "0e2f5ac8fee66c6813f427afb6df36185d4d74d547b0b03f1a81649f2683eaee",
+          "reviewedMyanmarSHA256": "aa91024477a3d4058fc5ea3e255ad7ffbbea5ed1e81cd6c1d33e7ed093ac91ed",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "New stride power and spirit-meeting question."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ebb35775a886146eb70c9b0de194e190066592b97010537d427137b112ba4654",
+          "reviewedMyanmarSHA256": "8ee4462270bcdb97c0e02bc1ec50a74167406bc1c50281aed1d8dc263f210e6d",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Earthshaker proper alias, thunder steps/courage shared; tall-walking paired addresses preserved."
+        }
+      },
+      "primaryHTMLSHA256": "ed679472ec3544cf1c6878c03bdd1db96a1e1e67c209d86707f0de813602cec7",
+      "secondaryHTMLSHA256": "65269c18c792cd4dfbefe2c1a5bd56375f545f05809af39d1236ad474d230db5",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/10",
+      "issues": []
+    },
+    {
+      "id": 884,
+      "title": "Owatanka",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d7b3b1b24281e32d8b00ab137545099dba5414fcff9497ccf14637789b8c8be1",
+          "reviewedMyanmarSHA256": "b5a443503bd6ece14bf10dcc4077edc15abf33dced3886e2ed9ccdf1fa0bab47",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Owatanka creature title."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "59932087521b735787220083fdcfdf6162a7e7d3b37bbf8c0a9a9a0841fe81e7",
+          "reviewedMyanmarSHA256": "c8feb79672e8c4b834d821a2769e0585712c51199bd18f4e2c26b8de91895329",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Touching tailspike emits sparks; descriptive wording not formal linked item phrase here."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "11ecef3411e156186af1c566123d06f41ffa281d15e64e8f85afce38480ebdcb",
+          "reviewedMyanmarSHA256": "aa10991578624c141ac5b5fb49f304e154d19e6170607decb9813af28b5b17a3",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Owatanka's Tailspike to Jorn/Camp Taurajo."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "2be0e8f1f3671504435a345ac901bea867de67e97e7d6530762009505ffe689a",
+          "reviewedMyanmarSHA256": "a94ba631236f12644f1b792dcf048977b29def227f5ec452e59ba0d125306a33",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Power behind eyes; mighty Owatanka meeting question."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "9bc26515140409a5050707992339a61b3103db9145de408fde07d22a589932e1",
+          "reviewedMyanmarSHA256": "deacd376e551ba4afb6fd7bf58ccaaf776ef062215d0063a1d30eb5a00b878df",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Thunder lizard, Bluebolt alias, speed despite size; said-to-be lightning origin remains hearsay, unlimited energy and pace blessing."
+        }
+      },
+      "primaryHTMLSHA256": "3ab79bb19b2d5a9f0bc2b8bf8eaa15eccfbce394805f907568f837de9757ff42",
+      "secondaryHTMLSHA256": "b8ba6d5663ec9ba2f41bca247bcdd9a41b06daf18ecdf01ef1678b78681c50cc",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/11",
+      "issues": []
+    },
+    {
+      "id": 885,
+      "title": "Washte Pawne",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "753e2ac56bd5590deba7ecc40ff67af0fb6784b7c9ee20a3c7abd0db2112e162",
+          "reviewedMyanmarSHA256": "c9f5fd7302333c2f43918448c1063c690984351d21c01004b801800e61f07367",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Washte Pawne identifying title."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b536509e72592e4e3287ffefaab8a9732d37c197f6f6315016605df8bff6fcb0",
+          "reviewedMyanmarSHA256": "eab709c65fd341669d1945ce4402654e631daad41bcb50db10b18daa6b0c219c",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Painful feather touch only; descriptive wording not formal linked item phrase here."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ce25656b7575bbe42539ffc8b258aac0471e0137c4edcb4c2c01b3b42aa304d9",
+          "reviewedMyanmarSHA256": "a1b9f0324942c1346647d5c8b935587821961bc20fcc7f766e4953b9bc65e7cf",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Washte Pawne's Feather to full Jorn Skyseer/Camp Taurajo."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "24759e7c157d09aef7688fa5c61438e0584913d342dc766922e426df9fcb0061",
+          "reviewedMyanmarSHA256": "443ced66b13169b7b0ec352973701c32546eda41c36f8387b2e0d3047b69f371",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "New resolve born of pain; death burden asked, not assumed."
+        },
+        "complete": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d520e731d1dae8fa53911f28055f34486fe02a8124ff54732b996035e13f13fb",
+          "reviewedMyanmarSHA256": "aba09d2d2aad7c87b97f9b190a0b277dbb350d926e95164287acd4e9c69277ea",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Neither-or-both scope clarification proposed. Rare thunderhawk death fortune/doom possibilities, Spirit Biter/Taurahe, costly gain/regret/wisdom/strength and final praise otherwise retained."
+        }
+      },
+      "primaryHTMLSHA256": "3de681c3209e3d5225a2b635e0b29fc4ec51ff721809c2cdb8e915e7ddb86b78",
+      "secondaryHTMLSHA256": "1d8fad7b2d4838056ba4e9a735b0e0685ebd8273be42649bba1b3374e0938dd8",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/12",
+      "issues": [
+        {
+          "field": "complete",
+          "category": "negative_scope_clarity",
+          "reviewedMyanmarSHA256": "aba09d2d2aad7c87b97f9b190a0b277dbb350d926e95164287acd4e9c69277ea",
+          "englishSHA256": "d520e731d1dae8fa53911f28055f34486fe02a8124ff54732b996035e13f13fb",
+          "old": "နှစ်မျိုးစလုံး မယူလာနိုင်ဘူး...",
+          "new": "တစ်မျိုးမှ မယူလာနိုင်ဘူး...",
+          "proposedFullField": "thunderhawk (သန်ဒါဟော့ခ်) ဟာ Barrens (ဘဲရန်းစ်) က ရှားပါးတဲ့ သားရဲတစ်မျိုးပဲ။ သူ့သေခြင်းက ကြီးမားတဲ့ ကံကောင်းခြင်း ဒါမှမဟုတ် ကြီးမားတဲ့ ဘေးဆိုးကို နိမိတ်ပြနိုင်တယ်။\n\nဒါပေမယ့် Taurahe (တော်ရာဟီ) ဘာသာနဲ့ \"Spirit Biter (စပရစ် ဘိုက်တာ)\" လို့ခေါ်တဲ့ Washte Pawne (ဝါရှ်တေး ပေါနီ) ကတော့ တစ်မျိုးမှ မယူလာနိုင်ဘူး... ဒါမှမဟုတ် နှစ်မျိုးစလုံးကို ယူလာနိုင်တယ်။\n\nSpirit Biter ကို အမဲလိုက်ရင်း မင်းခံစားခဲ့ရတဲ့နာကျင်မှုဟာ ကြီးမားတဲ့တန်ဖိုးပေးပြီး ကြီးမားတဲ့အကျိုးကို ရယူသူတိုင်း ခံစားရတဲ့ ဝေဒနာပဲ။ မင်းခံစားခဲ့ရတဲ့ စူးနစ်မှုဟာ နောင်တရဲ့ နာကျင်မှုပဲ။\n\nဒါပေမယ့် မင်း အဲဒါကို ကျော်လွှားနိုင်ပြီဆိုတာ ငါ မြင်တယ်။ နောင်တဟာ ဉာဏ်ပညာဖြစ်လာတတ်ပြီး နာကျင်မှုကတစ်ဆင့် ခွန်အားရတတ်တယ်ဆိုတာ မင်း သင်ယူခဲ့ပြီ။\n\nမင်း အများကြီး သင်ယူခဲ့ပြီ၊ <name>။",
+          "proposedMyanmarSHA256": "2587ce4e50b7e05913bd9734f15339557831dc371a66707ab7ea69bed364ef45",
+          "reason": "Neither must exclude both fortune and doom individually. The current negative both phrase permits a not-both reading. One-of-neither wording makes the intended scope explicit while preserving the source paradox and the alternative or both; no outcome is asserted as certain.",
+          "sourceEvidence": "Current primary: can bring neither... or both. Accessible secondary and UA both preserve neither/either excluded versus both alternative."
+        }
+      ]
+    },
+    {
+      "id": 822,
+      "title": "Chen's Empty Keg",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "146b793203ef48f328543c61271508ed2d866e5961229627fc7d266ebfd8bc41",
+          "reviewedMyanmarSHA256": "d2d40c8c18de77066b325e37499bbc8da07614b989b0bbaa7546bffa3e1e5c4c",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Full Chen's Empty Keg title; final step after821."
+        },
+        "detail": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "809ca57f9bf54d4c37f8c087f75208e189f27365ff6bf86c03ce2217131dc523",
+          "reviewedMyanmarSHA256": "d2c0d0bd6b4130e72f179a432b8e9e19f2d0e6dcbf7c6c899816dfaf1732fc17",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Stormstout callback, new Chen recipe maybe useful; any Stormhide5 Lightning Glands/Greater Thunderhawks1 Saliva Gland/any Barrens kodo1 liver. Trogg Brew linked item needs whole identity."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "6eedd422b29f7bfc0912889e8e5ca6a1418694767c07a0d020fd284501a4f405",
+          "reviewedMyanmarSHA256": "9de20348ed91cc9255062cdd4eef0c6018df0e89b605c9a4f982118d4931e733",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "5/1/1 final ingredients and Brewmaster Drohn/Ratchet; prior step ingredients not reused."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "e785ec7cbbf64905e02de446cf23cefdfdd32e2d2d06f5b11ff1cb328b249bb9",
+          "reviewedMyanmarSHA256": "9e96461d221c7020b2f5a6ae874cdb1119d780a28fd4ffee28a62d37689ef76b",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Actual saved primary uses hidden lknlksndgg-progress reply, with ingredient-search question. Author prose calling direct-heading is evidence-label error; parser and stored English correct."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "394a172f84099ca0e7a945f646ee8ebf350514380f8be902d784b79e2aec09eb",
+          "reviewedMyanmarSHA256": "92d7a5d69529d0a63bcfda5d644a6fdf49a47be7fc66b9fe13b5d88572e23573",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Repeatable return anytime with same ingredients and hearty laugh; no earlier recipe quantities."
+        }
+      },
+      "primaryHTMLSHA256": "de8193625faca2eb98018f97702580a948a9e2bfe12171d5dd2d1a5212c4202e",
+      "secondaryHTMLSHA256": "505d6a79324996ca88724034721d3bf53b5c6a19aa05f92d33b55ef4283b6680",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/13",
+      "issues": [
+        {
+          "field": "detail",
+          "category": "retained_item_identity",
+          "reviewedMyanmarSHA256": "d2c0d0bd6b4130e72f179a432b8e9e19f2d0e6dcbf7c6c899816dfaf1732fc17",
+          "englishSHA256": "809ca57f9bf54d4c37f8c087f75208e189f27365ff6bf86c03ce2217131dc523",
+          "old": "Trogg (ထရော့ဂ်) အဖျော်ပဲ။",
+          "new": "Trogg Brew (ထရော့ဂ် ဘရူး) ပဲ။",
+          "proposedFullField": "အဲဒီ Stormstout (စတော်မ်စတောက်တ်) က ကောင်းတယ် မဟုတ်လား။\n\nChen (ချန်) ဆီက သင်ထားတဲ့ နောက်ထပ် ဖျော်စပ်နည်းတစ်ခု ငါ့မှာ ရှိတယ်။ စိတ်ဝင်စားမလား။ လုပ်ရတာ မကြာဘူး။ နောက်ထပ် စွန့်စားခရီးထွက်ဖို့ စိတ်ကူးထားရင် အသုံးဝင်ကောင်း ဝင်လိမ့်မယ်။\n\nဘယ် Stormhide (စတော်မ်ဟိုက်ဒ်) ဆီကမဆို Lightning Glands (လိုက်တ်နင်း ဂလန်းဒ်စ်) 5 ခု၊ Greater Thunderhawks (ဂရိတ်တာ သန်ဒါဟော့ခ်စ်) ဆီက Thunderhawk Saliva Gland (သန်ဒါဟော့ခ် ဆလိုင်ဗာ ဂလန်းဒ်) 1 ခုနဲ့ Barrens (ဘဲရန်းစ်) က ဘယ် kodo (ကိုးဒိုး) ဆီကမဆို Kodo Liver (ကိုးဒိုး လစ်ဗာ) တစ်ခု ယူလာပါ။\n\nပြောခဲ့သလိုပဲ၊ ဒါက သောက်ရင် အရှိန်ပြင်းတယ်။ မင်းကို ငါ အရင်ပြောခဲ့တဲ့ Trogg Brew (ထရော့ဂ် ဘရူး) ပဲ။",
+          "proposedMyanmarSHA256": "72312c33730853954056e8dfd471e61be997590c5ca360450e0be012df09294d",
+          "reason": "The original primary links the whole trogg brew phrase to item4953. Retaining only the Trogg race followed by a semantic brew description loses the identifying item phrase. Use one compound English+phonetic annotation. The new compound draws Trogg from maintained Trogg and Brew from maintained Zraedus's Brew/Thunderbrew spellings; pending native review.",
+          "sourceEvidence": "822-wowhead.html Description: <a href=\"/forever/item=4953/trogg-brew\">trogg brew</a>; written dialogue identifies the final recipe as this brew, not the preceding Stormstout."
+        }
+      ]
+    },
+    {
+      "id": 893,
+      "title": "Weapons of Choice",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d96cb014474dbd00116939338f3497abbd151d3481e7eb3d46e071d75f7d0ec7",
+          "reviewedMyanmarSHA256": "06a3a38f9d7da53744f21d4c96abc914345e4ea545548dbf4e6f13785911c934",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Ordinary Weapons of Choice semantic."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "a7244d53b352d9a2bc126ddbd382477acd518bc19847b360da77bfc2bb167123",
+          "reviewedMyanmarSHA256": "2d0bf1a0b01562ee0e3078d5fb319843f6eca4fa789ecbc6e5190ac04e44a4f2",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "South beyond Field of Giants, heard no smiths yet apparently sturdier weapons, learn if possible; stalker dagger/seer wand/warfrenzy shield."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "e555f1326e3a5d89b6227e08cbdb7dd4dd29fc105b1a5956d5936a4d5c601e7b",
+          "reviewedMyanmarSHA256": "f06205ccffcd35bfd964ccdeca301a4423b69944319f072ec49160c69bc0f0c2",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Three singular named weapons and Tatternack Steelforge/Camp Taurajo/Barrens."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "1edc458e7b13c0180699572db8c6a66426c8fada7aa3cd82f82982cba61d3c8e",
+          "reviewedMyanmarSHA256": "cd0aae7139acd318653a0cac570a616c7607c21c0e0d4e3564db516644e180e1",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Quilboar contempt, doubtful skill, Warchief duty, menial work willingly for Orcs."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "00a2bd336de203fc7a650492c1f662aa5068492b6d40364f127551b0f4698c2f",
+          "reviewedMyanmarSHA256": "0ff8cf5a5abc57e1d3aa133bb9b00e308b2f77e70815a3677094af2a129fc32f",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Unexpected progress; blunt reward/get out of way, closer weapon review, may have underestimated enemy."
+        }
+      },
+      "primaryHTMLSHA256": "4ca4d43460d42f0042af0246ac67291ef639a4ec54eae997a78ea0c173583032",
+      "secondaryHTMLSHA256": "d54fdf1d27ba0e10f477f6f67777fb1a7529120b1dc795028158972fb74f8c78",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/14",
+      "issues": []
+    },
+    {
+      "id": 6981,
+      "title": "The Glowing Shard",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "26483d18e286a1a972628f5001234bbf762b96abbb4b6e672243121a988b4afd",
+          "reviewedMyanmarSHA256": "7d022b6021bbf442b47b059f5bdbd8a2dda5b85e71b3ea4448a180f4da3b1b65",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Glowing Shard named-item title retained."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "03abf566fe394ad200174d0d4c4844a0ad601e5626792d0dc3997ef239ecfbea",
+          "reviewedMyanmarSHA256": "cc958f8ddb243440b6a4edc427794d86572c22828ee9ea597bf79ff933a63edf",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Brilliant green solid crystal with smoke-like depth, compelled gaze and simultaneous disturbance; maybe Ratchet inquiry."
+        },
+        "objective": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "0b92dc5d149d4ff65bddca8c9aa995b6850eb12119a0582994157bff30b3cbd3",
+          "reviewedMyanmarSHA256": "bb51ef06829c13a683c291c3a5e5bc4359e11c58cf879ef1dca013c05c2a70c4",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Linked Glowing Shard identity missing; two stages Ratchet person then delivery as directed otherwise intact, no named recipient invented."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "82cb9e064d0bb74f5e112f66bcf51214aa1256390cd09a6ec386583c0c01b778",
+          "reviewedMyanmarSHA256": "59be14aac822fd5e9010523be8dbc945cb823321100bfacd6d7ad82f6537414a",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Polite race-address inquiry."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "1d575dd0546aa4d2ec27acf0f3ec61a7c83572775cc49aa66f00f74b0a68d243",
+          "reviewedMyanmarSHA256": "a7ac81b53ebad4402b857c3d46b4a2fabec89ae0fa3b7e5669b01b6b0dc31b79",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Hesitant unseen-before fragment, no explanatory lore added."
+        }
+      },
+      "primaryHTMLSHA256": "cc7fb38ac0c5a6c0709ae22428fd4ee09d26cce1e264ab717215fadcd5c2f777",
+      "secondaryHTMLSHA256": "700f54d37bdead20777d4a004c995f67c3095bc7814864540377e01f6e5b4940",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/15",
+      "issues": [
+        {
+          "field": "objective",
+          "category": "retained_item_identity",
+          "reviewedMyanmarSHA256": "bb51ef06829c13a683c291c3a5e5bc4359e11c58cf879ef1dca013c05c2a70c4",
+          "englishSHA256": "0b92dc5d149d4ff65bddca8c9aa995b6850eb12119a0582994157bff30b3cbd3",
+          "old": "တောက်ပနေတဲ့ကျောက်အပိုင်းအစအကြောင်း",
+          "new": "Glowing Shard (ဂလိုးဝင်း ရှာ့ဒ်) အကြောင်း",
+          "proposedFullField": "Glowing Shard (ဂလိုးဝင်း ရှာ့ဒ်) အကြောင်း ပိုပြောပြနိုင်မယ့်သူကို ရှာဖို့ Ratchet (ရက်ချက်တ်) ဆီ သွားပါ။\n\nပြီးရင် ညွှန်ကြားတဲ့အတိုင်း အဲဒီကျောက်အပိုင်းအစကို ပို့ပေးပါ။",
+          "proposedMyanmarSHA256": "141fc829fd8edc79aafb922abe82d9a9fd1df72301c52fde90df80b7f96bcfb3",
+          "reason": "The primary objective explicitly links lowercase glowing shard to item10441, so this is the named quest item rather than only ordinary descriptive wording. Retain the item identity and existing pronunciation on its first occurrence in this independently displayed objective, keeping Ratchet and the two-stage delivery instruction.",
+          "sourceEvidence": "6981-wowhead.html objective: <a href=\"/forever/item=10441/glowing-shard\">glowing shard</a>; installed startitem S11=10441; title already uses Glowing Shard."
+        }
+      ]
+    },
+    {
+      "id": 3369,
+      "title": "In Nightmares",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "a95d5d17d094b54ea1f3b78e1978780d710a40dc8051ff5ae00de92db2031911",
+          "reviewedMyanmarSHA256": "edfbcb902eac8f9753cf06d769721b19ccbb46dc397359c8e44084d6e0fc863a",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Ordinary nightmare title distinct Horde recipient."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "ea2f64218bcf5bd7de55fe8475bf4ab35fbb3c7edf5dd1293f620c03d8e45734",
+          "reviewedMyanmarSHA256": "8e8245f2ebdfad0a662afd2342089e0477b1936717c7b20414bfdd1512137d42",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Emerald Dream essence/nightmare vision, wise Druid urgent but speaker thinks best; Hamuul/Elder Rise/Thunder Bluff."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "0a3c1499ee9372033dc2e9a247add8f9bb874de7fd40a6cb6a029d6738fb71db",
+          "reviewedMyanmarSHA256": "912bcf5c3c743955835122759b61472e5119edef2fb7e88c29fdd510a2b803df",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Nightmare Shard to Hamuul Runetotem/Elder Rise; no Alliance recipient."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "286d001e6143197a7b24b5362f1e80b96483334e96961f1b6c08dba408812991",
+          "reviewedMyanmarSHA256": "a039247591e464f45d3834594181a737993ecaa2297b0799b8021f833c4acd83",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Brief help offer."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "fbb65818822269cc5bbb9ea12673e808f758f9478a1a9a21e9ca8bd7c077007d",
+          "reviewedMyanmarSHA256": "42a98cc8b5f9bd938966770b8d7f55beb1c645422db15b7accd1227674e2fe47",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Falla hesitation, Hamuul stage direction, broken reaction, caution player not concerned; Dream contrary expectations and possible future meeting."
+        }
+      },
+      "primaryHTMLSHA256": "64c21c7a14216cc51550fb0d8c1415c974d244757c7bb171b8036ce1bcd63b81",
+      "secondaryHTMLSHA256": "6fc86f0ad43769197fceb998c745b0852ade7df6855fe23a2483f6b8594db6b7",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/16",
+      "issues": []
+    },
+    {
+      "id": 3370,
+      "title": "In Nightmares",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "a95d5d17d094b54ea1f3b78e1978780d710a40dc8051ff5ae00de92db2031911",
+          "reviewedMyanmarSHA256": "edfbcb902eac8f9753cf06d769721b19ccbb46dc397359c8e44084d6e0fc863a",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Same ordinary title distinct Alliance record."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "89848ed6c223358d8f1e40c937c79218a61024f8e28db7b845b5a2c553d8444c",
+          "reviewedMyanmarSHA256": "fe6d38c03e062b71073ee5416055913f9a552b355abf11271adc6ced7e87e4c3",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Same nightmare premise but Mathrengyl Bearwalker/Cenarion Circle/Darnassus; primary ellipsis and limited disclosure."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "3cdc42990be03ac218df9bd8ce0cd9f28d7f016d72351c2a38e61e2a8d33c1a2",
+          "reviewedMyanmarSHA256": "403e4e26912cafb5d0805e2d679aa2084c288c753de0333b08351eb1d03701d3",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Nightmare Shard to Mathrengyl/Darnassus."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "286d001e6143197a7b24b5362f1e80b96483334e96961f1b6c08dba408812991",
+          "reviewedMyanmarSHA256": "a039247591e464f45d3834594181a737993ecaa2297b0799b8021f833c4acd83",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Brief help offer."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b153fa1046291dabda8346e40939793c3b171a077d87e8a7d668bf78d95ce980",
+          "reviewedMyanmarSHA256": "55c5aef7ceaf9a1babf2a899f89359abf444587bf40f33aeceef9b52bafb9615",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Falla/Mathrengyl peers, broken reaction; exclusive Cenarion druids duty rather than Horde player-not-concerned clause; possible future paths."
+        }
+      },
+      "primaryHTMLSHA256": "8a085a7a8f37dd78567f7cdfb3334cca8e820d4fe4f0fbc6324b00cae83356c2",
+      "secondaryHTMLSHA256": "a3b60e430ee51936137c8d773d3ae47ce0a069523987a59cdaf78941290e8e5e",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/17",
+      "issues": []
+    },
+    {
+      "id": 97003,
+      "title": "Chol'aruk the Ravener",
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "eb1de5a83c2e08cd2b174d854a067bf611b00c464c8e58c1b2861a119c6695f2",
+          "reviewedMyanmarSHA256": "891a2fcb49e5f07d2041660649a29e7d3cb103c4c6df1a9ad46158f6a7a7ecc2",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Whole Chol'aruk the Ravener identifying title; no ID alias merge."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d50e3ab126c9ed8652b06ce8d31e66f9dcd83f1786a35a3f29f187f5a411c1d1",
+          "reviewedMyanmarSHA256": "e3dac733cf3f8620808f278c968beff57333705bd6992812d076cff974bb3dc8",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Gur'ak Horde offer: northeast Thorn Hill deep cave, supposedly five times normal quilboar; most doubt but speaker fought like it, prepare/do not go alone, class twice."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "b90e88758a68438171760e8234b25a79a38f1ca81b48188d41ef52365f0eb930",
+          "reviewedMyanmarSHA256": "be6fa42c2bbc2e651b73bfefc99bd62988c9aea11edabf16430200857a662a70",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Head of Chol'aruk to Gur'ak/Barrens, singular proof."
+        },
+        "progress": {
+          "status": "CHANGES_REQUIRED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "0684f61c7753dfbddadef125e3b1c4719cb419f61c3803f200734191650a0a6b",
+          "reviewedMyanmarSHA256": "8544af7762903b7ff46d025245ec1c63d73180fa464a43cfc3dafef52bfc338b",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Six skilled fighters/four fell written counts; explicit death over-narrows fell, proposed struck down. If greater numbers could be catastrophic, no certainty of infestation."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "d965d4b5eba4c3e37460ec0f09a0bb575b3b947e9d3c4de5d25f89fcbb52eca4",
+          "reviewedMyanmarSHA256": "166f293873801adb07812e1d0adc66e75aaab68092dd4399d060ff40dabbe1f4",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Grim proof to Orgrimmar, player's glory and vocal praise; Lok-tar identity retained; actual hidden primary reply despite secondary absence."
+        }
+      },
+      "primaryHTMLSHA256": "4aec51720a0e0f184caf471a170c99ae3321b74fe0338fabedb162a9bc889f35",
+      "secondaryHTMLSHA256": "f5874b80c131cb8669f3047cd13d49055fa843596b20006a714a18cf66dc77de",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/18",
+      "issues": [
+        {
+          "field": "progress",
+          "category": "source_uncertainty",
+          "reviewedMyanmarSHA256": "8544af7762903b7ff46d025245ec1c63d73180fa464a43cfc3dafef52bfc338b",
+          "englishSHA256": "0684f61c7753dfbddadef125e3b1c4719cb419f61c3803f200734191650a0a6b",
+          "old": "လေးဦးကို သူ သတ်နိုင်ခဲ့တယ်။",
+          "new": "လေးဦးကို သူ လှဲချနိုင်ခဲ့တယ်။",
+          "proposedFullField": "ဒီလိုသတ္တဝါတစ်ကောင်ကို အနိုင်ယူဖို့ ကျွမ်းကျင်တိုက်ခိုက်သူ ခြောက်ဦးရဲ့ ခွန်အားကို လိုခဲ့တယ်။ ဒါတောင် ငါတို့ သူ့ကို အပြီးသတ်နိုင်မတိုင်ခင် ငါတို့ထဲက လေးဦးကို သူ လှဲချနိုင်ခဲ့တယ်။\n\nဒီကြောက်မက်ဖွယ် သားရဲမျိုးတွေ ပိုများလာမယ်ဆိုရင် quilboar (ကွီလ်ဘော) တွေ ဒီမြေကို ဖြစ်စေနိုင်တဲ့ ပျက်စီးမှုဟာ အကြီးအကျယ်ဖြစ်နိုင်တယ်။",
+          "proposedMyanmarSHA256": "017bb8703da3bbf360ce2c546b688809f9cc8668d450f7020ad5bdc98b6973e8",
+          "reason": "Horde English says fell four, which allows struck down or killed. Explicit သတ် narrows it to death. Preserve the felling wording without importing the paired Alliance record's explicit kill all but myself and one other. Six skilled fighters and four felled remain written, separately bound quantities.",
+          "sourceEvidence": "97003 primary Progress: fell four of us before we could put it down; UA poklasty similarly struck down.97005 instead explicitly kill all but myself and one other.60.tools omits both progress states and cannot resolve the distinction."
+        }
+      ]
+    },
+    {
+      "id": 97005,
+      "title": "Chol'aruk the Ravener",
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "eb1de5a83c2e08cd2b174d854a067bf611b00c464c8e58c1b2861a119c6695f2",
+          "reviewedMyanmarSHA256": "891a2fcb49e5f07d2041660649a29e7d3cb103c4c6df1a9ad46158f6a7a7ecc2",
+          "primaryBoundary": "h1",
+          "rawProvenanceVerified": true,
+          "notes": "Same creature title with separate Alliance ID/NPC."
+        },
+        "detail": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "157af5468e97268ec0361ff5a5cd9f6eb32623a84e9932ee1a2cf0de3b5f983e",
+          "reviewedMyanmarSHA256": "b51b50ea5641068509a29a448987be3c5b856465d54a2e2164139b8131c9052b",
+          "primaryBoundary": "direct heading",
+          "rawProvenanceVerified": true,
+          "notes": "Bainham offer northwest Thorn Hill plateau, others say swallow whole Orc, few believe, lost allies honor; gather strong allies."
+        },
+        "objective": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "c5a065a75dab0c2bb3fb5525fbc5467acb828453baf736794d34d69cabf9a0bb",
+          "reviewedMyanmarSHA256": "0da7178234cffa0b85c9847774e74148701d8e971a15ad85fc1b022b3f370f6f",
+          "primaryBoundary": "h1 body",
+          "rawProvenanceVerified": true,
+          "notes": "Chol'aruk's Head item to Bainham/Barrens."
+        },
+        "progress": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "2d01fabe01500119881c66ad61d9b8a79d316132948ff5200b6680ba1d9e7c2d",
+          "reviewedMyanmarSHA256": "768386e2a22832aa4496cf0d175a07d2336b43930a808c7aa7b3eb248d260cf7",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Six fighters, all killed except self and one other; no rewriting as Horde four-fell. Alliance-distance/Light and Tauren/Orc contempt, fallen brothers demand action."
+        },
+        "complete": {
+          "status": "REVIEWED",
+          "sourceAvailability": "present",
+          "enabled": true,
+          "englishSHA256": "8346f7a824f38fd1b28700a7e551f51d2ce806a7603fd42384158a3acedce132",
+          "reviewedMyanmarSHA256": "4c1c2348b510e75c0ebed9f2c5e54d0be2cd69b86512c28229c8835d073aeda9",
+          "primaryBoundary": "hidden reply",
+          "rawProvenanceVerified": true,
+          "notes": "Dead men rest easier, one fewer monster, steadfast Alliance defender and honor-name farewell; actual primary reply despite secondary absence."
+        }
+      },
+      "primaryHTMLSHA256": "d06f3919d50b72cc76c81c864c02b30a0bab3494f44a5ff69d6bd4ae97e71b35",
+      "secondaryHTMLSHA256": "b253f7fa4e79722399537cf46df446a98c2ce890745ee7a18820c6eac011a274",
+      "fullSourceEvidence": "barrens-source-audit.json#/quests/19",
+      "issues": []
+    }
+  ],
+  "pronunciationConflicts": [],
+  "pronunciationOverrides": {
+    "Trogg Brew": "ထရော့ဂ် ဘရူး"
+  },
+  "pronunciationOverrideEvidence": [
+    {
+      "term": "Trogg Brew",
+      "proposedPronunciation": "ထရော့ဂ် ဘရူး",
+      "reason": "Original primary item4953 identifies the whole phrase; maintained Trogg=ထရော့ဂ် plus maintained Brew core in Zraedus's Brew=ဇရေးဒပ်စ်စ် ဘရူး and Thunderbrew=သန်ဒါဘရူး. New compound spelling is an assisted proposal pending native approval.",
+      "nativeMyanmarApproval": "pending"
+    }
+  ],
+  "additionalHoldProposals": [],
+  "existingHeldFieldReview": [
+    {
+      "id": 874,
+      "field": "detail",
+      "englishSHA256": "96455a9c552df7a86b662ea3119c73c843ac18d79ef362333a98ca1e66bcb1ad",
+      "reviewedMyanmarSHA256": null,
+      "heldProposalSHA256": "adc72066d93d7771c84700d71d647cab89a9784f55f595adb818351b17786123",
+      "decision": "retain whole field hold",
+      "reason": "Literal unsupported <him/her> primary branch unresolved by secondary slash wording or UA neutralization; do not erase or choose branch. Full held English/raw/editorial reviewed; source missing progress is a separate genuine absence."
+    }
+  ],
+  "sourceAndEligibilityFindings": [
+    {
+      "ids": [
+        3369,
+        3370
+      ],
+      "finding": "Primary requires10 but installed required15. Current primary display/script/recipient correct; retain installed metadata difference and make no current live acceptance claim below15."
+    },
+    {
+      "id": 3370,
+      "finding": "UA says Both; current primary Alliance side1 and installed Alliance mask4294967373, Mathrengyl/Darnassus recipient. No Horde alias or merged recipient."
+    },
+    {
+      "ids": [
+        97003,
+        97005
+      ],
+      "finding": "Primary Progress and Completion genuinely present hidden replies; secondary omits both fields. Current primary controls; Horde/Alliance objectiveitem same276070 but IDs,NPCs,directions and statements differ."
+    },
+    {
+      "id": 822,
+      "field": "progress",
+      "finding": "Saved original primary uses hidden lknlksndgg-progress reply. Author semantic-notes/review prose says directheading; source-boundaries-supplement correctly says hidden. Translation and parser are correct; final review evidence should state actual hidden boundary rather than repeating inaccurate direct-heading label."
+    },
+    {
+      "id": 5052,
+      "field": "complete",
+      "finding": "Both English references literally print lose you upon them; immediate betrayed-tribe context, following explicit revenge step and UA unleash verb support typo for loose. Existing send against/attack rendering acceptable; no new task, quantity or target introduced."
+    }
+  ],
+  "numericAndMarkerReview": {
+    "result": "PASS except semantic narrowing issue97003progress recorded",
+    "details": "Digits and supported marker case/count verified by actual validate_fields for all20. Manually reviewed written counts separately:879three leaders;5052one thenoptional many;8225/1/one;893oneofeach;97003five-times/sixfighters/fourfelled versus97005six/allbutselfandoneother. Directions878north,879farsouth,868southinFieldGiants,893southbeyondFieldGiants,97003northeast,97005northwest kept distinct. NPC voice, uncertainty, stage actions and paragraph transitions read for each field."
+  },
+  "terminologyReview": {
+    "result": "CHANGES_REQUIRED",
+    "maintainedExact": 41,
+    "maintainedConflicts": [],
+    "firstUseFindings": "Four linked-item identities omitted in their independently displayed fields; exact proposals recorded per quest. All remaining retained English runs match author terms/first-use annotations and source identities. New compound/creature phonetics remain pending native review.",
+    "annotationExceptions": "Only874detail him/her unsupported source branch, held and not enabled; no blanket bypasses."
+  },
+  "rawProvenanceReview": {
+    "result": "PASS",
+    "pairs": 99,
+    "requests": [
+      {
+        "request": "deepl-request-01.json",
+        "requestSHA256": "6ae83cccefcdd39d18e49cc1c2f6e2edb20722621fad6eb849c1220a3764fc49",
+        "response": "deepl-response-01.json",
+        "responseSHA256": "59d6c6b2861430fa596ba7ec1975bab108351228a9727e396ee6fc6adb3e0b89",
+        "index": "deepl-index-01.json",
+        "indexSHA256": "ced6075ee17c732bcbc439353652875ff758caf7822bb617f58e552f438a35b0",
+        "characters": 4428,
+        "texts": 19,
+        "allInputIndicesAccounted": true
+      },
+      {
+        "request": "deepl-request-02.json",
+        "requestSHA256": "2bfa7e0c9d9231b686d170cab17b701a89bb4faf9bc287932789ed880854234c",
+        "response": "deepl-response-02.json",
+        "responseSHA256": "ee109343c94e9d25fee84a68b7b6ab2f37f47e70bf5098f9d8d3dbc2a85efbf1",
+        "index": "deepl-index-02.json",
+        "indexSHA256": "72176b2e73e36ea4f087bac1aede5168c56eb58bd869af3484ca7366518d7b7c",
+        "characters": 4496,
+        "texts": 23,
+        "allInputIndicesAccounted": true
+      },
+      {
+        "request": "deepl-request-03.json",
+        "requestSHA256": "19756c38964e18801bac27d46ea38414bb00881b8422eb6fed13f0fe294313bf",
+        "response": "deepl-response-03.json",
+        "responseSHA256": "866015c169f7a41a93bb12c21ea3674276625f8f465597285188ecddd8109cc4",
+        "index": "deepl-index-03.json",
+        "indexSHA256": "994c1e26ffb39c5bce8dfefda92b2d2ac8589f8d18067b8c94129b300a96f939",
+        "characters": 4346,
+        "texts": 31,
+        "allInputIndicesAccounted": true
+      },
+      {
+        "request": "deepl-request-04.json",
+        "requestSHA256": "443cfd6d461642df84f348ccd915fc63c2423d303079376302b4194efb4abd2e",
+        "response": "deepl-response-04.json",
+        "responseSHA256": "b29af4d5756a0c3a3286438096fad8237fbf99820a9549d3867945750ab9c2e7",
+        "index": "deepl-index-04.json",
+        "indexSHA256": "0fe6dad7ed9d9d4b30105b97537aafe2dd9fc8d638c3eda96b92578dec9ca939",
+        "characters": 4470,
+        "texts": 24,
+        "allInputIndicesAccounted": true
+      },
+      {
+        "request": "deepl-request-05.json",
+        "requestSHA256": "f4c24498124f12c03d8874f63d0784d52227ecfcd86ca03ffb794418bb7dbeb1",
+        "response": "deepl-response-05.json",
+        "responseSHA256": "c1dd3ae4517fbe0896704b8e487eeed1fd0140b2ab67e119f52f49c2bc0ee236",
+        "index": "deepl-index-05.json",
+        "indexSHA256": "292f02cef58dcca8120a0a045dc3d81fb114e9bcdea787fea6f1d238ed13ddd5",
+        "characters": 548,
+        "texts": 2,
+        "allInputIndicesAccounted": true
+      }
+    ],
+    "method": "Actual inputEnglish, targetMY, perfield identity/index, actual response text/rawSHA, sourceSHA, finalSHA, review english/myanmar/raw hashes all verified. All actual input indices accounted once, including held874detail. Each request <=50texts and <5000totalchars; no invented outputs."
+  },
+  "tests": {
+    "currentAuthorLinguisticLint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "currentAuthorValidateFields": {
+      "result": "PASS",
+      "questCount": 20
+    },
+    "proposedInMemoryLinguisticLint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "proposedInMemoryValidateFields": {
+      "result": "PASS",
+      "questCount": 20
+    },
+    "authorImmutableManifest": {
+      "result": "PASS",
+      "beforeHashes": {
+        "annotation-exceptions.json": "d73b004e899d599a49210202e16a51143db3b2a761dc64ba3db26d68f6bc5c31",
+        "author-review-summary.json": "9c44fc6d584de978adb8816e630ba5088276275860f16ec36abee15310e3d2bb",
+        "comparison-provenance.json": "35f7ddd1554b670e1587bdf5380a8b5baa916a36121de420fc666a725456b281",
+        "deepl-index-01.json": "ced6075ee17c732bcbc439353652875ff758caf7822bb617f58e552f438a35b0",
+        "deepl-index-02.json": "72176b2e73e36ea4f087bac1aede5168c56eb58bd869af3484ca7366518d7b7c",
+        "deepl-index-03.json": "994c1e26ffb39c5bce8dfefda92b2d2ac8589f8d18067b8c94129b300a96f939",
+        "deepl-index-04.json": "0fe6dad7ed9d9d4b30105b97537aafe2dd9fc8d638c3eda96b92578dec9ca939",
+        "deepl-index-05.json": "292f02cef58dcca8120a0a045dc3d81fb114e9bcdea787fea6f1d238ed13ddd5",
+        "deepl-request-01.json": "6ae83cccefcdd39d18e49cc1c2f6e2edb20722621fad6eb849c1220a3764fc49",
+        "deepl-request-02.json": "2bfa7e0c9d9231b686d170cab17b701a89bb4faf9bc287932789ed880854234c",
+        "deepl-request-03.json": "19756c38964e18801bac27d46ea38414bb00881b8422eb6fed13f0fe294313bf",
+        "deepl-request-04.json": "443cfd6d461642df84f348ccd915fc63c2423d303079376302b4194efb4abd2e",
+        "deepl-request-05.json": "f4c24498124f12c03d8874f63d0784d52227ecfcd86ca03ffb794418bb7dbeb1",
+        "deepl-response-01.json": "59d6c6b2861430fa596ba7ec1975bab108351228a9727e396ee6fc6adb3e0b89",
+        "deepl-response-02.json": "ee109343c94e9d25fee84a68b7b6ab2f37f47e70bf5098f9d8d3dbc2a85efbf1",
+        "deepl-response-03.json": "866015c169f7a41a93bb12c21ea3674276625f8f465597285188ecddd8109cc4",
+        "deepl-response-04.json": "b29af4d5756a0c3a3286438096fad8237fbf99820a9549d3867945750ab9c2e7",
+        "deepl-response-05.json": "c1dd3ae4517fbe0896704b8e487eeed1fd0140b2ab67e119f52f49c2bc0ee236",
+        "edited-group1.json": "18b5500d6d057ab30eb8fc7641d426b514de6f2cb4c339951318c68263f697a5",
+        "edited-group2.json": "ee7ab1d5d143629c8ec53439f2fc0022189b2a4544960788ee193e683bbb551e",
+        "edited-group3.json": "fa8ad9de40b16be5af78358b9033d5cafd0f7ea8d3a7e574a3f19b621d5c1f80",
+        "edited.json": "341e6621badbea50e565301cd8b505eff494203855fdf5de8f19ea0e24669280",
+        "eligibility-review.json": "409d666f4c20198c4b97b6facd119b4a1b426b55da4cc6488af5b42efe64786f",
+        "english-sources.json": "b5d58983b0a34b18b4ab6e9bc70447d6db0ecd8259a126fbdad19f7582a794b2",
+        "fetched.json": "fcbd33e22d271776f6e458358d6fa63f63c7aed8262588f47cfa625f0426bbff",
+        "frozen-artifact-hashes.json": "e30b156a4a4400c4d53bbec3a78f1625abf7f486b89026a3294abf406ea097b4",
+        "frozen-group1-hashes.json": "5c5c40b366f3364c61a7ede59f051ce5f4e3a99106ee7c2b9bc46cf6ae6bf2fb",
+        "frozen-group2-hashes.json": "78652c52ee40d24186d334ebfd33c08b5e46edb1fdddaccf6db998e9a83bb497",
+        "frozen-group3-hashes.json": "406464902818a93845e4790be145a1aa9352c4794a7f2622564bfa9a67880862",
+        "held-fields.json": "e8661c759cb1168ce54a9c54e50caf02b67df92266342f26604d00b74eae4c2f",
+        "metadata-source-inspection.json": "beb8ce7510460013bd6765d619dc7a9a544c28d1d72111e9fa1ecb20b40f31d1",
+        "primary-quickfacts.json": "ef5a39203686ba6c0480166867e65142932b8d34d006f0547956d3bba6d9b943",
+        "pronunciations.json": "f1fe32dc235bd46155577dd4b9a3842848a58d0ced3305dbf82afaba1f53ec3f",
+        "proposed-pronunciations.json": "891db57dd08d24e29779f696290abe2395ba7b6e5aff3b35c276ee60d4f56cfa",
+        "provenance-group1.json": "5a50d5c154d91b5410831b4a6d9dfb623eb8b5b0c1f727e7381de79c43ca6992",
+        "provenance-group2.json": "df8e8bd917d9d085c3159a70289e98886aee18e88711412163089a9714dddcac",
+        "provenance-group3.json": "c3eee7589824473eae3e2daddc7b07c9ceef005b2b4a3db2dea37424b61f69d5",
+        "review-audit.json": "78711c61e38b1438f5d0b9318c683ff564fe4b368c88d12b79466521e56f8065",
+        "review-group1.json": "c8f93c7abf1c415b621bbf130558a05b2ca5732e97d82fe5e5cabe64db58ea3b",
+        "review-group2.json": "b43b06f46866484d4520e1f0655bfa1f14c27d9ea496ad590791713860e8422d",
+        "review-group3.json": "9f633817f686465b901443011a845c20bc363d94ff26e2d75a0fc29bce4139dc",
+        "review-groups.json": "6f7601517e21bcd571274640fdf4bdf77c88e86b42ef35746691c4b4eacb765e",
+        "semantic-notes.json": "68dcd40f18e804df8d091573967d624f023aea95b1e98c851d7a01a627936abc",
+        "separate-bilingual-review.json": "deddad7fb02a389934a1136dce8139cb2ff4e98090d508783bd6e9a85d920d3d",
+        "source-boundaries-supplement.json": "a421287dcfe40b9f3ae11a80fd260a4b27c5bd96093dc5cfb0bf2b8edf5c2381",
+        "source-boundaries.json": "3bac11ae86fd098adb50ecb4aeb948d3b10f18fa3baed8ed7a8215e0b7b3361b",
+        "source-discrepancies.json": "60fa8d74b0546de41b5718d64ed2274f42acd526e52a274e324f7302534864ea",
+        "source-review-summary.json": "62ba1cb9d9fc3d1fce75bc859f518fd4e5cd7d30bc4710eae8bb1a942a97b196",
+        "ua-field-countercheck.json": "692c810a447a26d6fdc87e1012a045fda495b37003da1321be9524df587b69a7",
+        "validation.json": "c318666db8b1f9b757335127e6c119b4136f571e9bb9a8bb14c355cdf6297725"
+      },
+      "afterHashes": {
+        "annotation-exceptions.json": "d73b004e899d599a49210202e16a51143db3b2a761dc64ba3db26d68f6bc5c31",
+        "author-review-summary.json": "9c44fc6d584de978adb8816e630ba5088276275860f16ec36abee15310e3d2bb",
+        "comparison-provenance.json": "35f7ddd1554b670e1587bdf5380a8b5baa916a36121de420fc666a725456b281",
+        "deepl-index-01.json": "ced6075ee17c732bcbc439353652875ff758caf7822bb617f58e552f438a35b0",
+        "deepl-index-02.json": "72176b2e73e36ea4f087bac1aede5168c56eb58bd869af3484ca7366518d7b7c",
+        "deepl-index-03.json": "994c1e26ffb39c5bce8dfefda92b2d2ac8589f8d18067b8c94129b300a96f939",
+        "deepl-index-04.json": "0fe6dad7ed9d9d4b30105b97537aafe2dd9fc8d638c3eda96b92578dec9ca939",
+        "deepl-index-05.json": "292f02cef58dcca8120a0a045dc3d81fb114e9bcdea787fea6f1d238ed13ddd5",
+        "deepl-request-01.json": "6ae83cccefcdd39d18e49cc1c2f6e2edb20722621fad6eb849c1220a3764fc49",
+        "deepl-request-02.json": "2bfa7e0c9d9231b686d170cab17b701a89bb4faf9bc287932789ed880854234c",
+        "deepl-request-03.json": "19756c38964e18801bac27d46ea38414bb00881b8422eb6fed13f0fe294313bf",
+        "deepl-request-04.json": "443cfd6d461642df84f348ccd915fc63c2423d303079376302b4194efb4abd2e",
+        "deepl-request-05.json": "f4c24498124f12c03d8874f63d0784d52227ecfcd86ca03ffb794418bb7dbeb1",
+        "deepl-response-01.json": "59d6c6b2861430fa596ba7ec1975bab108351228a9727e396ee6fc6adb3e0b89",
+        "deepl-response-02.json": "ee109343c94e9d25fee84a68b7b6ab2f37f47e70bf5098f9d8d3dbc2a85efbf1",
+        "deepl-response-03.json": "866015c169f7a41a93bb12c21ea3674276625f8f465597285188ecddd8109cc4",
+        "deepl-response-04.json": "b29af4d5756a0c3a3286438096fad8237fbf99820a9549d3867945750ab9c2e7",
+        "deepl-response-05.json": "c1dd3ae4517fbe0896704b8e487eeed1fd0140b2ab67e119f52f49c2bc0ee236",
+        "edited-group1.json": "18b5500d6d057ab30eb8fc7641d426b514de6f2cb4c339951318c68263f697a5",
+        "edited-group2.json": "ee7ab1d5d143629c8ec53439f2fc0022189b2a4544960788ee193e683bbb551e",
+        "edited-group3.json": "fa8ad9de40b16be5af78358b9033d5cafd0f7ea8d3a7e574a3f19b621d5c1f80",
+        "edited.json": "341e6621badbea50e565301cd8b505eff494203855fdf5de8f19ea0e24669280",
+        "eligibility-review.json": "409d666f4c20198c4b97b6facd119b4a1b426b55da4cc6488af5b42efe64786f",
+        "english-sources.json": "b5d58983b0a34b18b4ab6e9bc70447d6db0ecd8259a126fbdad19f7582a794b2",
+        "fetched.json": "fcbd33e22d271776f6e458358d6fa63f63c7aed8262588f47cfa625f0426bbff",
+        "frozen-artifact-hashes.json": "e30b156a4a4400c4d53bbec3a78f1625abf7f486b89026a3294abf406ea097b4",
+        "frozen-group1-hashes.json": "5c5c40b366f3364c61a7ede59f051ce5f4e3a99106ee7c2b9bc46cf6ae6bf2fb",
+        "frozen-group2-hashes.json": "78652c52ee40d24186d334ebfd33c08b5e46edb1fdddaccf6db998e9a83bb497",
+        "frozen-group3-hashes.json": "406464902818a93845e4790be145a1aa9352c4794a7f2622564bfa9a67880862",
+        "held-fields.json": "e8661c759cb1168ce54a9c54e50caf02b67df92266342f26604d00b74eae4c2f",
+        "metadata-source-inspection.json": "beb8ce7510460013bd6765d619dc7a9a544c28d1d72111e9fa1ecb20b40f31d1",
+        "primary-quickfacts.json": "ef5a39203686ba6c0480166867e65142932b8d34d006f0547956d3bba6d9b943",
+        "pronunciations.json": "f1fe32dc235bd46155577dd4b9a3842848a58d0ced3305dbf82afaba1f53ec3f",
+        "proposed-pronunciations.json": "891db57dd08d24e29779f696290abe2395ba7b6e5aff3b35c276ee60d4f56cfa",
+        "provenance-group1.json": "5a50d5c154d91b5410831b4a6d9dfb623eb8b5b0c1f727e7381de79c43ca6992",
+        "provenance-group2.json": "df8e8bd917d9d085c3159a70289e98886aee18e88711412163089a9714dddcac",
+        "provenance-group3.json": "c3eee7589824473eae3e2daddc7b07c9ceef005b2b4a3db2dea37424b61f69d5",
+        "review-audit.json": "78711c61e38b1438f5d0b9318c683ff564fe4b368c88d12b79466521e56f8065",
+        "review-group1.json": "c8f93c7abf1c415b621bbf130558a05b2ca5732e97d82fe5e5cabe64db58ea3b",
+        "review-group2.json": "b43b06f46866484d4520e1f0655bfa1f14c27d9ea496ad590791713860e8422d",
+        "review-group3.json": "9f633817f686465b901443011a845c20bc363d94ff26e2d75a0fc29bce4139dc",
+        "review-groups.json": "6f7601517e21bcd571274640fdf4bdf77c88e86b42ef35746691c4b4eacb765e",
+        "semantic-notes.json": "68dcd40f18e804df8d091573967d624f023aea95b1e98c851d7a01a627936abc",
+        "separate-bilingual-review.json": "deddad7fb02a389934a1136dce8139cb2ff4e98090d508783bd6e9a85d920d3d",
+        "source-boundaries-supplement.json": "a421287dcfe40b9f3ae11a80fd260a4b27c5bd96093dc5cfb0bf2b8edf5c2381",
+        "source-boundaries.json": "3bac11ae86fd098adb50ecb4aeb948d3b10f18fa3baed8ed7a8215e0b7b3361b",
+        "source-discrepancies.json": "60fa8d74b0546de41b5718d64ed2274f42acd526e52a274e324f7302534864ea",
+        "source-review-summary.json": "62ba1cb9d9fc3d1fce75bc859f518fd4e5cd7d30bc4710eae8bb1a942a97b196",
+        "ua-field-countercheck.json": "692c810a447a26d6fdc87e1012a045fda495b37003da1321be9524df587b69a7",
+        "validation.json": "c318666db8b1f9b757335127e6c119b4136f571e9bb9a8bb14c355cdf6297725"
+      },
+      "allAuthorFilesUnchanged": true
+    },
+    "metadataCatalogHash": {
+      "result": "PASS",
+      "sha256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "sourceReference": "../metadata-reference.json"
+    },
+    "upstreamPackageMemberEqualsPinnedCatalog": {
+      "result": "PASS",
+      "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+    }
+  },
+  "pending": {
+    "nativeMyanmarProofreading": "pending; independent assisted review is not native proofreading",
+    "newPronunciationApproval": "pending native approval",
+    "currentForeverLiveVerification": "not tested; source and prior sanitized title evidence are not current live playtest",
+    "controllerHardwareVerification": "not tested"
+  },
+  "disposition": "Do not mark partition/release PASS. Root must apply approved exact-hash proposals, update affected review/provenance/term evidence, correct822progress boundary label in final evidence, and request separate affected-field rereview.",
+  "evidenceCorrections": [
+    {
+      "file": "work/morning-2026-11-22/barrens/review-audit.json",
+      "jsonPointer": "/13/notes/0",
+      "authoredText": "FinalChenrecipe after821; repeatable source directheading progress retained, notearlyingredients.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/review-audit.json",
+      "jsonPointer": "/13/fields/progress/notes",
+      "authoredText": "ActualdirectheadingProgress body fetched and checked; asks diligent ingredientsearch.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/review-group3.json",
+      "jsonPointer": "/quests/0/notes/0",
+      "authoredText": "FinalChenrecipe after821; repeatable source directheading progress retained, notearlyingredients.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/review-group3.json",
+      "jsonPointer": "/quests/0/fields/progress/notes",
+      "authoredText": "ActualdirectheadingProgress body fetched and checked; asks diligent ingredientsearch.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/review-groups.json",
+      "jsonPointer": "/2/quests/0/notes/0",
+      "authoredText": "FinalChenrecipe after821; repeatable source directheading progress retained, notearlyingredients.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/review-groups.json",
+      "jsonPointer": "/2/quests/0/fields/progress/notes",
+      "authoredText": "ActualdirectheadingProgress body fetched and checked; asks diligent ingredientsearch.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/semantic-notes.json",
+      "jsonPointer": "/822/summary",
+      "authoredText": "FinalChenrecipe after821; repeatable source directheading progress retained, notearlyingredients.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/semantic-notes.json",
+      "jsonPointer": "/822/progress",
+      "authoredText": "ActualdirectheadingProgress body fetched and checked; asks diligent ingredientsearch.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/separate-bilingual-review.json",
+      "jsonPointer": "/2/reviewedFields/0/fields/summary",
+      "authoredText": "FinalChenrecipe after821; repeatable source directheading progress retained, notearlyingredients.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    },
+    {
+      "file": "work/morning-2026-11-22/barrens/separate-bilingual-review.json",
+      "jsonPointer": "/2/reviewedFields/0/fields/progress",
+      "authoredText": "ActualdirectheadingProgress body fetched and checked; asks diligent ingredientsearch.",
+      "correctedDisposition": "Original saved822 primary Progress is hidden <div id=\"lknlksndgg-progress\">You working hard at finding those ingredients, &lt;name&gt;?</div>. English and translation remain valid; only author layout description is inaccurate. Retain frozen author bytes and record this correction in integrated source/review evidence."
+    }
+  ]
+}

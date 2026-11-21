@@ -1029,3 +1029,93 @@ if A.quests[1070] and A.quests[95216] and A.quests[970] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 afternoon source identity contracts, eight same-title Raene stages, Torment/faction deliveries, source absences and ordered tasks.')
 end
+
+if A.quests[256] and A.quests[98095] and A.quests[822] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({878,5052,879,906,843,846,849,874,873,868,883,884,885,822,893,6981,3369,3370,97003,97005,256,468,455,473,469,470,484,471,98072,98240,98245,98197,98282,98459,98461,494,527,528,98094,98095,529,532,539,541,550,496,499,498,546,549}) do
+    assert(A.quests[id] and A.quests[id].title,'22November quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost ID/title')
+    end
+  end
+  for _,h in ipairs({{874,"detail"},{455,"progress"},{470,"complete"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held branch lost English fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:22NovemberMorning50 records and150 dialogue routing/capture cases; English fallback for held states.')
+end
+
+if A.quests[256] and A.quests[98095] and A.quests[822] then
+  local contracts={
+    {878,"objective",{"Bristleback Water Seekers","Bristleback Thornweavers","Bristleback Geomancers","Mangletooth"}},
+    {5052,"objective",{"Blood Shard","Mangletooth","Camp Taurajo"}},
+    {879,"objective",{"Nak","Kuz","Lok Orcbane","Mangletooth"}},
+    {906,"objective",{"Lok's Skull","Thork","Crossroads"}},
+    {843,"objective",{"Bael'dun Excavators","Bael'dun Foremen","Khazgorm's Journal","Gann Stonespire"}},
+    {846,"objective",{"Nitroglycerin","Wood Pulp","Sodium Nitrate","Gann Stonespire"}},
+    {849,"objective",{"Bael Modan","Gann Stonespire"}},
+    {874,"objective",{"Mahren Skyseer"}},
+    {873,"objective",{"Heart of Isha Awak","Mahren Skyseer"}},
+    {868,"objective",{"Silithid Eggs","Digging Claw","Korran"}},
+    {883,"objective",{"Hoof of Lakota'mani","Jorn"}},
+    {884,"objective",{"Owatanka's Tailspike","Jorn"}},
+    {885,"objective",{"Washte Pawne's Feather","Jorn Skyseer"}},
+    {822,"objective",{"Lightning Glands","Thunderhawk Saliva Gland","Kodo Liver","Brewmaster Drohn"}},
+    {893,"objective",{"Razormane Backstabber","Charred Razormane Wand","Razormane War Shield","Tatternack Steelforge"}},
+    {6981,"objective",{"Ratchet"}},
+    {3369,"objective",{"Nightmare Shard","Hamuul Runetotem","Elder Rise"}},
+    {3370,"objective",{"Nightmare Shard","Mathrengyl Bearwalker","Darnassus"}},
+    {97003,"objective",{"Chol'aruk","Gur'ak"}},
+    {97005,"objective",{"Chol'aruk's Head","Bainham"}},
+    {256,"objective",{"Chok'sul","Magistrate Bluntnose","Thelsamar"}},
+    {468,"objective",{"Mountaineer Rockgar"}},
+    {455,"objective",{"Dun Algaz","Dragonmaw Scouts","Dragonmaw Grunts","Valstag Ironjaw","Menethil Harbor"}},
+    {473,"objective",{"Captain Stoutfist"}},
+    {469,"objective",{"Bundle of Crocolisk Skins","James Halloran","Menethil Harbor"}},
+    {470,"objective",{"Ironbeard's Tomb","Sida","Menethil Harbor"}},
+    {484,"detail",{"James Halloran","Einar"}},
+    {471,"objective",{"Giant Crocolisk Skins","James Halloran"}},
+    {98072,"objective",{"Pristine Crimson Scales","James Halloran"}},
+    {98240,"objective",{"Crimson Crate","Howin Kindfeather","Menethil Harbor"}},
+    {98245,"objective",{"Razormaw Incisors","Howin Kindfeather"}},
+    {98197,"objective",{"Khaz Modan Timber","Khaz Modan Iron","Valstag Ironjaw"}},
+    {98282,"objective",{"Unruptured Stalker Gland","Thelgen Rock","Caitlin Grassman"}},
+    {98459,"objective",{"Tom's Gift","Bart Tidewater"}},
+    {98461,"objective",{"Hollee's Note","Tarrel Rockweaver"}},
+    {494,"objective",{"Tarren Mill","Deathstalker Lesh","High Executor Darthalia"}},
+    {527,"objective",{"Hillsbrad Farmhands","Hillsbrad Farmers","Farmer Ray","Farmer Getz","Darthalia"}},
+    {528,"objective",{"Hillsbrad Peasants","Darthalia"}},
+    {98094,"objective",{"High Executor Darthalia","Deathstalker Masoj","Tarren Mill","Dun Garok"}},
+    {98095,"objective",{"Deathstalker Masoj","Apothecary Vials","Hillsbrad Foothills"}},
+    {529,"objective",{"Blacksmith Verringtan","Hillsbrad Apprentice Blacksmiths","Darthalia"}},
+    {532,"objective",{"Magistrate Burnside","Hillsbrad Councilmen","Hillsbrad Proclamation","Hillsbrad Town Registry"}},
+    {539,"objective",{"Foreman Bonds","Hillsbrad Miners","Darthalia"}},
+    {541,"detail",{"Dun Garok"}},
+    {550,"objective",{"Darthalia's Sealed Commendation","Varimathras","Undercity"}},
+    {496,"objective",{"Apothecary Lydon","Gray Bear Tongues","Creeper Ichor"}},
+    {499,"objective",{"Umpi","Elixir of Suffering"}},
+    {498,"objective",{"Krusk","Drull","Tog'thar","Durnholde Keep"}},
+    {546,"objective",{"Deathguard Samsa","Hillsbrad Human Skulls"}},
+    {549,"objective",{"Syndicate Rogues","Syndicate Watchmen","High Executor Darthalia"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source target/recipient/item identity failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{874,"progress"},{468,"progress"},{473,"progress"},{494,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented absent primary state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({{874,"detail"},{455,"progress"},{470,"complete"},{484,"objective"},{541,"objective"}}) do assert(not A.quests[h[1]][h[2]],'Source-conflicting state refilled:'..h[1]..'/'..h[2]) end
+  for _,chain in ipairs({{879,906},{846,849},{3369,3370},{97003,97005},{527,528,529,532,539},{496,499}}) do
+    for i=2,#chain do
+      local a,b=A.quests[chain[i-1]],A.quests[chain[i]]
+      assert(a.en==b.en and a.objective~=b.objective,'Distinct same-title task collapsed:'..chain[i])
+    end
+  end
+  assert(A.quests[541].en==A.quests[550].en and not A.quests[541].objective and A.quests[541].detail and A.quests[550].objective,'Hillsbrad disputed numbers or final commendation boundary failed')
+  assert(A.quests[821].en==A.quests[822].en and A.quests[821].objective~=A.quests[822].objective,'Final Chen recipe collapsed into earlier recipe')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-English identity contracts, same-title steps, absent states and explicit source holds.')
+end

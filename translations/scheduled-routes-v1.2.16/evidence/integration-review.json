@@ -1,0 +1,104 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "barrens",
+      "id": 5052,
+      "field": "detail",
+      "englishSHA256": "4352b7fa80ab5b3ee9c42e5cddff38fa91cb9923856f2b94846fa3ed926303e6",
+      "priorMyanmarSHA256": "f9d7ea973e4a210208797b17d6f4074804cf7ebe9ae23a03fe9c04a1a04bd68f",
+      "correctedMyanmarSHA256": "315f8c38bd70efa39fb6cff8ff837ed8049f7fdba342169bd077eb652283a9e1",
+      "reason": "The original primary explicitly links lowercase blood shards to item5075. The first important item occurrence in this displayed field needs its recognizable English identity and phonetic annotation; its title/objective annotation does not satisfy detail. Preserve one of these shards and the subsequent optional many. Existing Blood Shards pronunciation is used."
+    },
+    {
+      "partition": "barrens",
+      "id": 868,
+      "field": "detail",
+      "englishSHA256": "25c19ed2d33ad465c71b8e82c3a723bb239dac14f4d5279099b7fefc6cc0be21",
+      "priorMyanmarSHA256": "f81c30c12ce9c60504116e175a919241654e86741492896f7987dddd014765d2",
+      "correctedMyanmarSHA256": "39a3fa0d3c98a3697600ea90f8354e9eab0022ae68f53543046c7779c371cd16",
+      "reason": "The original primary links digging claw to given item5059; the semantic-only phrase loses its recognizable item identity and first-use pronunciation within detail. Use the existing author phonetic from objective; keep the egg/mound/alert warning unchanged."
+    },
+    {
+      "partition": "barrens",
+      "id": 885,
+      "field": "complete",
+      "englishSHA256": "d520e731d1dae8fa53911f28055f34486fe02a8124ff54732b996035e13f13fb",
+      "priorMyanmarSHA256": "aba09d2d2aad7c87b97f9b190a0b277dbb350d926e95164287acd4e9c69277ea",
+      "correctedMyanmarSHA256": "2587ce4e50b7e05913bd9734f15339557831dc371a66707ab7ea69bed364ef45",
+      "reason": "Neither must exclude both fortune and doom individually. The current negative both phrase permits a not-both reading. One-of-neither wording makes the intended scope explicit while preserving the source paradox and the alternative or both; no outcome is asserted as certain."
+    },
+    {
+      "partition": "barrens",
+      "id": 822,
+      "field": "detail",
+      "englishSHA256": "809ca57f9bf54d4c37f8c087f75208e189f27365ff6bf86c03ce2217131dc523",
+      "priorMyanmarSHA256": "d2c0d0bd6b4130e72f179a432b8e9e19f2d0e6dcbf7c6c899816dfaf1732fc17",
+      "correctedMyanmarSHA256": "72312c33730853954056e8dfd471e61be997590c5ca360450e0be012df09294d",
+      "reason": "The original primary links the whole trogg brew phrase to item4953. Retaining only the Trogg race followed by a semantic brew description loses the identifying item phrase. Use one compound English+phonetic annotation. The new compound draws Trogg from maintained Trogg and Brew from maintained Zraedus's Brew/Thunderbrew spellings; pending native review."
+    },
+    {
+      "partition": "barrens",
+      "id": 6981,
+      "field": "objective",
+      "englishSHA256": "0b92dc5d149d4ff65bddca8c9aa995b6850eb12119a0582994157bff30b3cbd3",
+      "priorMyanmarSHA256": "bb51ef06829c13a683c291c3a5e5bc4359e11c58cf879ef1dca013c05c2a70c4",
+      "correctedMyanmarSHA256": "141fc829fd8edc79aafb922abe82d9a9fd1df72301c52fde90df80b7f96bcfb3",
+      "reason": "The primary objective explicitly links lowercase glowing shard to item10441, so this is the named quest item rather than only ordinary descriptive wording. Retain the item identity and existing pronunciation on its first occurrence in this independently displayed objective, keeping Ratchet and the two-stage delivery instruction."
+    },
+    {
+      "partition": "barrens",
+      "id": 97003,
+      "field": "progress",
+      "englishSHA256": "0684f61c7753dfbddadef125e3b1c4719cb419f61c3803f200734191650a0a6b",
+      "priorMyanmarSHA256": "8544af7762903b7ff46d025245ec1c63d73180fa464a43cfc3dafef52bfc338b",
+      "correctedMyanmarSHA256": "017bb8703da3bbf360ce2c546b688809f9cc8668d450f7020ad5bdc98b6973e8",
+      "reason": "Horde English says fell four, which allows struck down or killed. Explicit သတ် narrows it to death. Preserve the felling wording without importing the paired Alliance record's explicit kill all but myself and one other. Six skilled fighters and four felled remain written, separately bound quantities."
+    },
+    {
+      "partition": "hillsbrad",
+      "id": 532,
+      "field": "detail",
+      "englishSHA256": "ebec42c9e0840c63ef367bdffdd5580d4b24edaa301e3ff63cd24750192594bf",
+      "priorMyanmarSHA256": "ba8db3daea6c7ce1d1c2a109a1feb4d83547fe0ab2a1093ce1423241b9bc20f4",
+      "correctedMyanmarSHA256": "5e8a92a4e5b9c7cbbeb22e1681fdebc84ee4b23302183ca441cb205b0bb53ddd",
+      "reason": "The new Hillsbrad Town Registry compound drops the established Town core. Maintained Darkshire Town Hall, Lakeshire Town Hall, Old Town, Town Hall and Tinker Town all use တောင်းန်. Use that existing core consistently in every first-use annotation of this same item; the English identity and field meaning stay unchanged. This is an assisted consistency correction, pending native pronunciation review."
+    },
+    {
+      "partition": "hillsbrad",
+      "id": 532,
+      "field": "objective",
+      "englishSHA256": "fb38a546db08998d213a2ca41a1c36290c06c93d0dc822db10b25071745f9048",
+      "priorMyanmarSHA256": "484885733003294b2ddeb775a7556bd577a109b9db02430bf5a8cdfd36fe7361",
+      "correctedMyanmarSHA256": "135cfe9f698b8c6fa21f1cd5c2841f9e68acc5eaa5a704d945a806a44c709df4",
+      "reason": "The new Hillsbrad Town Registry compound drops the established Town core. Maintained Darkshire Town Hall, Lakeshire Town Hall, Old Town, Town Hall and Tinker Town all use တောင်းန်. Use that existing core consistently in every first-use annotation of this same item; the English identity and field meaning stay unchanged. This is an assisted consistency correction, pending native pronunciation review."
+    },
+    {
+      "partition": "hillsbrad",
+      "id": 539,
+      "field": "detail",
+      "englishSHA256": "760901c87bb86b714dbbd5d0694eae25bcd87e8b074ad0ab51f8dc3d7a5e090a",
+      "priorMyanmarSHA256": "6abc6e41e5e137e54c2eaa1d303cb9d82c748c1da13058289cc156ea8e41e631",
+      "correctedMyanmarSHA256": "0f20116325e15c5ba4f2c69297c479d09815b0cb5cf23650353a9cea73e118da",
+      "reason": "The new Hillsbrad Town Registry compound drops the established Town core. Maintained Darkshire Town Hall, Lakeshire Town Hall, Old Town, Town Hall and Tinker Town all use တောင်းန်. Use that existing core consistently in every first-use annotation of this same item; the English identity and field meaning stay unchanged. This is an assisted consistency correction, pending native pronunciation review."
+    },
+    {
+      "partition": "hillsbrad",
+      "id": 496,
+      "field": "progress",
+      "englishSHA256": "d5765a7eddb826f579869930c4894a5ee5f8639a8a5592b1e240912a47bec4ca",
+      "priorMyanmarSHA256": "f6693fc9ef8e70492cc6278241a71f087d1361ed0af5b4c825470da8a396683f",
+      "correctedMyanmarSHA256": "cf10af068fe559270ba033d265a915fa4adb0ec1f717d86d6e2616043210c39e",
+      "reason": "English says “Another deathless day” without specifying that the speaker survives another day. The current မသေရဘဲ follows the speaker and can read as Lydon himself going another day without dying. Keep the deathless-day joke impersonal and retain the following gloomy mood, rather than assign the omitted subject."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Hillsbrad Town Registry": "ဟီလ်ဇ်ဘရက်ဒ် တောင်းန် ရက်ဂျစ်စထရီ",
+    "Trogg Brew": "ထရော့ဂ် ဘရူး"
+  },
+  "sourceEvidenceCorrectionCount": 10,
+  "sourceEvidenceCorrectionReceipt": "evidence/source-evidence-dispositions.json",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}
