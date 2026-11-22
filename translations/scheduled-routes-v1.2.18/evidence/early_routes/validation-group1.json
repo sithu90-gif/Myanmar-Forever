@@ -1,0 +1,76 @@
+{
+  "result": "PASS",
+  "group": 1,
+  "questCount": 10,
+  "reviewedFieldSlots": 50,
+  "availableEnglishFields": 39,
+  "enabledFields": 38,
+  "heldEnglishFields": 1,
+  "linguisticLint": [],
+  "validateFields": "PASS actual build_release.validate_fields allfields",
+  "originalPrimaryReparse": "PASS all primary fields; explicit1464secondary-onlydetail hold",
+  "actualDeepL": [
+    {
+      "batch": 1,
+      "groups": [
+        1
+      ],
+      "inputFile": "deepl-request-01.json",
+      "inputSHA256": "25295261baac5fbb44bce4c6c34eef96b7107cfb1891fb2dfb4a4db840f60e94",
+      "responseFile": "deepl-response-01.json",
+      "responseSHA256": "7ffbc24caa7385bfa281db49935e57e59b92d7e0633b586e21cf366b7ef2ec82",
+      "indexFile": "deepl-index-01.json",
+      "indexSHA256": "213b32e8de6447e9344cf40fc6ede8e0cb4494656a1599d6de676f23c6720250",
+      "inputCharacters": 4695,
+      "fieldCount": 22,
+      "responseSerialization": "Actual DeepL structuredContent unchanged values; duplicate transport text omitted."
+    },
+    {
+      "batch": 2,
+      "groups": [
+        1
+      ],
+      "inputFile": "deepl-request-02.json",
+      "inputSHA256": "fad92967608b2d57b471515003214b5a4fb586b11456f8e2d77fedc5013bd8d0",
+      "responseFile": "deepl-response-02.json",
+      "responseSHA256": "0274eacbe3dd6cd098332d2228c063759077f7d08b7813ff763965e3c279e80e",
+      "indexFile": "deepl-index-02.json",
+      "indexSHA256": "463c682487dc9438938418cdb3789fd4245b8fd2c5e528e46a2edf38f9c3ac7f",
+      "inputCharacters": 4221,
+      "fieldCount": 17,
+      "responseSerialization": "Actual DeepL structuredContent unchanged values; duplicate transport text omitted."
+    },
+    {
+      "batch": 3,
+      "groups": [
+        2
+      ],
+      "inputFile": "deepl-request-03.json",
+      "inputSHA256": "4febb74e68c92497324d2e5b551d36841399598ea24f4e54ffb5117e539d20df",
+      "responseFile": "deepl-response-03.json",
+      "responseSHA256": "f09d61d863df44804c99ebf01a8f50953675454cef27fce8dcbe8da0600f2dbd",
+      "indexFile": "deepl-index-03.json",
+      "indexSHA256": "470cc89b28c50c68c515f79324a8e38a0d5f83aff86b3fe68cbb365f2ce3a6e1",
+      "inputCharacters": 4861,
+      "fieldCount": 28,
+      "responseSerialization": "Actual DeepL structuredContent unchanged values; duplicate transport text omitted."
+    },
+    {
+      "batch": 4,
+      "groups": [
+        3
+      ],
+      "inputFile": "deepl-request-04.json",
+      "inputSHA256": "1545b17c98b8f0ee4a2780cca4188c552b3e4221209bba5468f3611cafed931c",
+      "responseFile": "deepl-response-04.json",
+      "responseSHA256": "660fa35495d7cea98704fdb0523b9138d0c3ed27a34c3a71b1ba9e899e3ecdd0",
+      "indexFile": "deepl-index-04.json",
+      "indexSHA256": "ff9a710939c0416fdd218ba49f6523a9fafd1b5a8856607f112c6e6e63691f72",
+      "inputCharacters": 3356,
+      "fieldCount": 23,
+      "responseSerialization": "Actual DeepL structuredContent unchanged values; duplicate transport text omitted."
+    }
+  ],
+  "authorReread": "Separate source/Myanmar review completed; not independent/native/live",
+  "checkedAtUTC": "2026-11-22T20:50:33.787414+00:00"
+}

@@ -1,0 +1,424 @@
+{
+  "result": "PASS",
+  "numericTargetBindings": 12,
+  "writtenTargetBindings": 5,
+  "orderedTaskContracts": 2,
+  "actionContracts": 4,
+  "exactCommands": 1,
+  "linkedNPCFirstUseContracts": 4,
+  "negativeCases": [
+    {
+      "case": "Swap20Bloodand1Rockkeepingdigittotal",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap15Ingotsand10Azurite",
+      "result": "rejected"
+    },
+    {
+      "case": "Require2hornsnot1",
+      "result": "rejected"
+    },
+    {
+      "case": "Timelimit2hoursnot1",
+      "result": "rejected"
+    },
+    {
+      "case": "Halfdozenchangedtooneandhalf",
+      "result": "rejected"
+    },
+    {
+      "case": "Get2relicsnot3",
+      "result": "rejected"
+    },
+    {
+      "case": "Permanentstealthnottemporary",
+      "result": "rejected"
+    },
+    {
+      "case": "FeedBEFOREcheerconditionreversed",
+      "result": "rejected"
+    },
+    {
+      "case": "Changeexecutablecheercase",
+      "result": "rejected"
+    },
+    {
+      "case": "LoseChickenNPCidentityonly",
+      "result": "rejected"
+    },
+    {
+      "case": "DropShadowmeldrequirement",
+      "result": "rejected"
+    },
+    {
+      "case": "KillnotdefendDaphnescope",
+      "result": "rejected"
+    },
+    {
+      "case": "AlwaysdancenotIFtired",
+      "result": "rejected"
+    },
+    {
+      "case": "Refillheldnorthwestdirectionoffer",
+      "result": "rejected"
+    },
+    {
+      "case": "InventUA-onlyprogress",
+      "result": "rejected"
+    }
+  ],
+  "guardedFields": {
+    "1698": {
+      "title": "fb160946e784796f2c6d7ec70cb7da5c94fed2d22783448fd6ec28ea72d8a857",
+      "detail": "beb382b6c835b68ef1a3ef90a049f9c0aeb52626e4c07e58527b532b4a1f1581",
+      "objective": "8dfeb549e959ef099d7a9f6ec3b505cf1fd183d495391686affcb393a5a4d62e",
+      "progress": null,
+      "complete": "c53bb88596a5ddc3e42b30f32a028dbf2bc33a4f8c7afee3a4aa3c99e321eadd"
+    },
+    "1699": {
+      "title": "a4507f34ad519ca6b96985fbc645ea861ee0f32f5bb0412feb8310a271cfe481",
+      "detail": "40c606fef44fa4c6668260bc72da9970e5dbc39da21db398a53fb50b39851697",
+      "objective": "d7fb2067ff0daa325b4c143b8a67c09bd0a37051d6ff05ab08f74e0c705f0a0e",
+      "progress": "1974b94f2ae62b4633553ef346c340f116fc0816f26f484bd68bff6db2498c56",
+      "complete": "d153a65e5082d8940cb5229fd12457edee14d8855f74e08c85b61a0ee3b15ec4"
+    },
+    "1702": {
+      "title": "d96d22e5f8c894b70093045d3a2bb5106ae375cde41aeb84615b28ca81add9ec",
+      "detail": "fcaec7e7570719af8788d2de0df828732426fbb2c8edffaf8149b069a432c774",
+      "objective": "716448f5750481e95d3485d6f2d27b9fd2f56f2de6ffac3e11a6974417d5bed7",
+      "progress": "955993e3b41f69cf1985ed03ec298e62f128bbc9a2f5f46f859d42a09c11a5b9",
+      "complete": "3e3d038f7b4e55051a1945e1f32bf1d6541d98b42309932dae6f2f44f3fad22a"
+    },
+    "1701": {
+      "title": "150fa50e6421c242265d2dfb667048a38ba6365f47461131eba7b9c5cb8896dd",
+      "detail": "7daabe867c24ccdd4f0e4b7b3a6439374cfd752959ceb865e32a9a998090bb91",
+      "objective": "155442bb428131657fa2ad291a35a4eb672c2b69aa86a386ec7dcd2fa119a6d7",
+      "progress": "e87abac897f9918efc0c9771178c5c5c465bf9ce05dbe302d53ba1608a81a051",
+      "complete": "d68d36d16cf070dca76e965477f9b930147df5a4369303b9e638ebcf935320e2"
+    },
+    "1782": {
+      "title": "178eae31966038d404e57400e4a2a797a455dd7d3c2cbca0a9a96b552281bedf",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "c8078ada88c7849a43b05c81bbc42e783b90c6c42312267cf8ad3145bc1262b7"
+    },
+    "1700": {
+      "title": "499ed9ba17b3d37f62379fe494a1ca8c2c7394d1061d896aa943710d39db4526",
+      "detail": "4ef591b32e717b6df2d2e94a5277bca40c0c8e4e8a267a4175fbc2cfeb47bd8a",
+      "objective": "c9323db47a5d9676f32689ece2502bbd908c6cc5b4802efc2f03a62743e7b8ac",
+      "progress": "269bc3a7e101678f5c3014f30ea175f26195041c43b034c58dcaeedfdbf97bc5",
+      "complete": "5284aad57197747c25355bf2d388fbd52f79f91c1511f2489a2a184fca8866c2"
+    },
+    "1705": {
+      "title": "f69be042d67c5ed61ff74ea275dee14dcaaa3c2b777091a5f06e9b85c9651a93",
+      "detail": "c0ec0d585975726ee9444538fcd8323df1042e0765c0e436bb63eafe858a3a6a",
+      "objective": "aa2636abf4755a8d15a6fcf5cf4856b0955c101101f448133e75175e5ae106fc",
+      "progress": "d87948c7e2e238402ecc7850ac8d48fd06246753d85a15565a790fd91d2d168f",
+      "complete": "0933c75c18cd7fcbe67aeb1f19f321b549cbb8d30a06268c774e0a287f4e3f25"
+    },
+    "1706": {
+      "title": "e8191f82530587f8f721768998374a58ebd1ffe543d471dbb51c81b0c1732aa1",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "739dd45e70979c39cc9b1ed28723dc9668b3374b6f6a38ad00788c031012597e"
+    },
+    "1703": {
+      "title": "17b1bcda09c2e9380f2467647cf475a52881e27fd9055c1dca07145f20eb0bae",
+      "detail": "2884da69b4cb501d6e59a3b56a8677ff6df750a40f0c09e9b172a2615a1a7293",
+      "objective": "499b0f8990a9d2650a8f75f2b11bc1159368cc223a3a11e860bbb6599647fc0a",
+      "progress": "284e8b58d60eb7ff9e26fb136208fb141e262a7b05a0335d258263f478bb8907",
+      "complete": "6f5eff38888f96292b7867896c68989d9d71c5145db1e4fee203cebe9216f1df"
+    },
+    "1710": {
+      "title": "23cf4a3b86a7ca7bfc8855a5a8b57e764d6dba7ee2451a30b7b4eed4e9f96c15",
+      "detail": "7e84ea567c058215a4d2c503c72e29d67b152b61e7ddae5fed76a2d67333dbbc",
+      "objective": "29192df6f0adb2da890a4b4d7eab2a31dc79db4cd1bf29c120ee9387d525bab0",
+      "progress": "aa8c35573c3988298d928af9165b5c6f8994355e9b1533cf841407d15eedef11",
+      "complete": "0e43f3fe506fa9e0fa7f573c25177070d8b56317a804d92bd830be319d03ac11"
+    },
+    "1711": {
+      "title": "84d3a662b7181c15b17201f59335ce1523a414d44ff31b4d96950235cdf23490",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "7340bfd97a1cf5b5edacc80162456dc5ad4df669fe5190db67d5fc53985068a2"
+    },
+    "1704": {
+      "title": "e2abffd0b948d70ae7c5574261fae7ee15435b8c853f90ca68a0f516fc5a6171",
+      "detail": "7609ecd4dd1f7f01f9bdc3588d056b5057ece4057c61033f73019658d7b05624",
+      "objective": "708d733b6abee0ead0b160d1577f5c7cdb694fe1bf8701e5ed102584a9c6f064",
+      "progress": "c1a520511c449b8fde093b34b5cb0ae74884fdace0c7887490480c35eee48a19",
+      "complete": "8ba0639fa247e8d2acc2854a8ac4951f83217dbc7b6283bdb67f933e5ee4fa84"
+    },
+    "1708": {
+      "title": "745eb6f9223d00f04f8c3c9cd9153a53cf938dcb465efd70f9db2aba6a1509e0",
+      "detail": "14451763b8b91c9ace8ef6ce573598cc80f4cf0d0c9947ec1d38ec6c1501b8b8",
+      "objective": "92bdf232b53937cb33ff2986f4ab5e60a32ac7cfe288cd353fb418e516b2a3c7",
+      "progress": "14ef728629299781704b95903e0e73ddcd52e6a452c46e6989fe6792baba89e4",
+      "complete": "86bf9498f3fdec7fe07e94013f1a641bb59e84a4d404f8f634f3330a2a621d1b"
+    },
+    "1709": {
+      "title": "3b715dd01aea75aa0498281f527dfd75557b39ef3d5435373b41ec3c8cf4415f",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "428b35f49dbb98fd4c99d4dd1dc656a65a764fbc96f3b61e57987aa1698f46ad"
+    },
+    "1823": {
+      "title": "58501e40bd2fd733f21dc1c7019eb898dad27f2f7a525f1216017de173d1da42",
+      "detail": "aba9158a07afe821cc8c586003b3cbcee0364bd6f89c60af8da4ca6cc0f61e82",
+      "objective": "89c1d8d3e53c7fbae07e05bdf4ef91e35b521faf33c07a69b04e7c30ddd7ace3",
+      "progress": null,
+      "complete": "d2860b7440b01bcdee1b0f20b64126577767041be301761b0ab2a8d051045b4a"
+    },
+    "1824": {
+      "title": "de27f3ce1393b981d615d2ccc405ffc69771d55256985c4a16288e3d1e591670",
+      "detail": "b3d96fd13021a343ec84dd25c73fbdba9700e5b46ffb6fad658985f9058beca4",
+      "objective": "59f892dfdd57751469cd1f5801a590e04c9b250e269ccab947622b1a36fa28f5",
+      "progress": "993d1670fb8cb46f69dbd464b6cd7cd9f18d3fa42f38ce574e78db57a1e41942",
+      "complete": "97f3586e4042a7978ff8325c4cba084c6a7c020ef41503052054dee57a1789e3"
+    },
+    "1825": {
+      "title": "1d19d45a0ccc024c52b4f6d217ddd05eacc353e3312f5de8f68fe209ab859de8",
+      "detail": "7fd1be7f5796ae2cb735267ed7d47f369ee6e0ffd8d2f22f777e8346ba3fd7fd",
+      "objective": "fa33a125e30d57c0f6890e5c5c30b9ebffb3e64c4df3dbfe1dd7a4de5873846b",
+      "progress": null,
+      "complete": "ca8b504f015b6feb3a0b9cf422d3453e81c25b921771e74afade1280ead75947"
+    },
+    "1838": {
+      "title": "cdcb9f214c92991ada70744052f9b89c747743a986209ac432c1b03422277a7f",
+      "detail": "50628a3c16e724a4e49b02143c97f198f49a73a645d0fb3241ce9cf800f1563d",
+      "objective": "a904a5e277be08fcf7da3c7a6a06a8eabff66e49bc6835df18277a3333a2eff9",
+      "progress": "f3d97b1a097c2f8f5c5c70f3f362776ab7570ce8a9dd6acf5a400852125f8e52",
+      "complete": "2b6f6c0a396af0bec6e8ff0bd8ca2e160bd3bf6b33c593f21e534fa39006d1bd"
+    },
+    "1848": {
+      "title": "b15f7cdeef9cb3275f79116d5481f6f668302aaa7c5b4412073f8062eb73f735",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "8d67e45ad8b65356cf6aa2099beb4553862e2ce28a24049fbbf22bf36765fa50"
+    },
+    "1839": {
+      "title": "ce52230e32112003ef2be712d879eedb409b20bc68c0855e7a3da4527ceba2e6",
+      "detail": "0474ccc8cefaeeca01f0af8d0b1e746084772ea3c352702676aa93cc98a970be",
+      "objective": "c3c9ef0a7c83a3bf4cb44bcd0e32e9de3bea625db2cce52c5767edf6b7c5e6d6",
+      "progress": null,
+      "complete": "e0d020af6affcecd77e77a325f395e1ea1a4ff71e0ba98319b9b1d4bbe5bde5b"
+    },
+    "1842": {
+      "title": "33a30656e62b082c5936dabe429d113431e644b80f2c32dc634ddfb323f1459d",
+      "detail": "acf826291aff9645fa6288d5a12afa2b39d610a674133e439ee21b975f9185fa",
+      "objective": "c98c5fe1981a9d2d79024f59baa17b950bdccff44ab2b870caadd87d8ab00443",
+      "progress": "d3f4f797e5ee6182a92cc5e49f1e6b0e57937f42bd96697e6fc5e00093463c5f",
+      "complete": "fa3861165c7374307b062291799d3141c430794508887f54a1e513e98c0983cc"
+    },
+    "1843": {
+      "title": "7333280f0631496874aec367d6eab8d82905030a0dd73849095e679c57c2a68b",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "970e13ee6b8b0d5589a1f93a5a506ee0e6dda3dcb608add49d89a5f827e23c86"
+    },
+    "1840": {
+      "title": "dd2b74cc1b9467c197aee600a9e2bc049fa98be891f2fffbb82ba7f7efa800b3",
+      "detail": "b6e24eb550c3f623f9c768c7de34b15398f3c881526f75519325d4eaff38d407",
+      "objective": "43ca674fb5bbf653d653cde9c6e617dbed793d6fff518f6f5086cc3d5bb1d68a",
+      "progress": null,
+      "complete": "9201d57eb5a603aeff3750df474c7a2e8553ae6cc105f4d94bf2b9cc7177fe66"
+    },
+    "1844": {
+      "title": "962bf2a555650e5757d1a508f2f5fba6c9cbc8aeed2954d48d8f82a37b0b19e5",
+      "detail": null,
+      "objective": "3a42b3dcda3c117c1bd9e9ca6bac3dd8ab2932393124a0c079c9f67982ab55c9",
+      "progress": "7dc8bdc5b8c70221dcf4c7319892703be281d78fa39088d1a9ddd374b55134d7",
+      "complete": "8bb190cbcc6639ce5e526164518cd5a0fcf8fafa391b80b61388bd10cb89d806"
+    },
+    "1845": {
+      "title": "c7a1d249810b455a8513ba046587209245c80a1f7b1e430bd8bc998f9d34b3be",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "2197ff2eee8826652c3aa576996393bc58369ee2bf417ece4e03e2fac0ab1b2c"
+    },
+    "1841": {
+      "title": "fbb944e6bb98f3ce1d4245dc6f9102af3b8aedb0ea1a38c6fd5997e950cbfa74",
+      "detail": "a4daa15ba852b5b74a15535d709f4c75d3db6102d21c5ecd982bc74b3d587315",
+      "objective": "40b7abaa7160c20e13134b4128d1a381c949e3097530a7176f681a98d6b2187f",
+      "progress": null,
+      "complete": "21ccd2713f93e6e628360382732abbd41c13739518b5e55a738d0e4663bc30a2"
+    },
+    "1846": {
+      "title": "3bc9c02e9d025b0e80b62b757d31572b36da841cce9f0dde97cd18f623a7bf0f",
+      "detail": null,
+      "objective": "600d0e611b7d575ec3efafe19a79d7fbd17282d65e76d167a02fe3bc4aca29fc",
+      "progress": "580579592dec916fe95ff0ab794f849d913392b87417c906b3cc936a4f952b75",
+      "complete": "ef0467c710ac6c63f7992faf746cb23ae3f688b19b1003a0e7a733d0796ed80f"
+    },
+    "1847": {
+      "title": "f5f0553ffa5dca3eaa50f15e689f03685e3b5f5dbbf9cfe7c1578df2eb922e04",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "75acdf23099f9ba6bd98f119a04da5d32aed3459afd9ff4e994283dc43ac0af3"
+    },
+    "1793": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "ab052dd99cc398bb88b377eb7ffa9b1939dd509a9fa6c3d2c15f6ae5b02443f7"
+    },
+    "1794": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "ab052dd99cc398bb88b377eb7ffa9b1939dd509a9fa6c3d2c15f6ae5b02443f7"
+    },
+    "1649": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": "069c089d5f13a2501dc449c36a3e9d1565ce441cf8f1e0ca5c3fbd3944ec977e",
+      "objective": "77fe186653d48365ec122f4b7716530b68c43b061ed2503f3472f44582823fc6",
+      "progress": null,
+      "complete": "002a13eb1c09845fbaab81aae29a1f6fd83b821bc92588485c7e4b759da5356c"
+    },
+    "1650": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": "3cb4a4181ad99c521905c942e34cfe2de65c5e00208809e25bc3a0baad6e9775",
+      "objective": "10613a2c7d320d7f65d1b096f85567f0eddcfab75cb874c9029a6e1f16f02c24",
+      "progress": null,
+      "complete": "071cdf91aae58306cec60ede96d5b727fd0e974da27cdc35c7bbc988cb6de619"
+    },
+    "1651": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": "802fc684b133b233e8e3ee8b1e3e526e68e88bf1b6a5996ca366c994680a01d9",
+      "objective": "6ff25c2a8514a32b6ba376101d5e84991877f4827eac16b21303ab854766947a",
+      "progress": "797f0e598809ad43a396272d9a66d7203d6148b21e694b1da78d27a3cc8b86b3",
+      "complete": "47757c9e4a9c7d4efc4381376e3717d3b0a088b1e0a1a4e4ff762e996357cde9"
+    },
+    "1652": {
+      "title": "8faf34f1ffea93e43777d859f901ce6bc1472034dbbdb2166a822b68b5894a21",
+      "detail": "fe30b4b30c352178a8db962a9655fdd4190fb4451133e9fbf959c3c834bce4a1",
+      "objective": "77fe186653d48365ec122f4b7716530b68c43b061ed2503f3472f44582823fc6",
+      "progress": null,
+      "complete": "e501d613bac83deb679f3cee9cea9f52a4cf61055bff0ffe710bb6a6e42099a7"
+    },
+    "1653": {
+      "title": "a96e59f7ca618f8546b0104fbee9444dc7f606815e0b212da5d7da0ccc5e55cd",
+      "detail": "9c9631a18d37770b33bc78d6f178df3b7c501a4b85117f49f067cabba790c18c",
+      "objective": "61ebc53a60f6d274d2895a7677f632bc6d564d4f8e5b8a2d17e7d35c57a51fcf",
+      "progress": null,
+      "complete": "d6ac817f173931f4f9296c344f4edc53d04a342401f140a96548edf9336167bd"
+    },
+    "1654": {
+      "title": "a96e59f7ca618f8546b0104fbee9444dc7f606815e0b212da5d7da0ccc5e55cd",
+      "detail": "ff9667a832351d9a1129a518a099025a4ce59fc496a1917e21a17dd867fa62be",
+      "objective": "b2b2811b7acba90a258ecc4fca6d197de422ee7b125759ad1bc13fe2fc54193b",
+      "progress": "9e3e4bd138b5a5bdd1ec647ce6f1564a6234e26aaa8ba3b3511e3f5ef1b452a5",
+      "complete": "fb4a30e99dcb00e1c33ee6b4bcbce007200297830ba2f198f668e71c432d56f3"
+    },
+    "1655": {
+      "title": "c950451570a194ea39132afdc0369c8afd82776ee019439a14dce80f465a6136",
+      "detail": null,
+      "objective": "112cfc1d7310a3cebca8f65665cf9c198908daa28b8ff00e7d063f703a5bd6c9",
+      "progress": "491398fa99fc959c7f700ac83b334482bf746a2f34d044c0ac6e8a77b3e22205",
+      "complete": "4d0172470fd15438caa1d99945718c7ce8c1a226cda22d73c2dc1ab86d4c0e8f"
+    },
+    "1806": {
+      "title": "a96e59f7ca618f8546b0104fbee9444dc7f606815e0b212da5d7da0ccc5e55cd",
+      "detail": "ea952e9e9dc7acbb216412cd616c92466d623f5032e30357988e6be038c25b74",
+      "objective": "8230c6be685e563b7f37b79b60dadfc420e3405d1b89a3e45ed839c28ed1b1d0",
+      "progress": null,
+      "complete": "ccfe2cd4cc3eb9423821eca7cb0c2f1c806ddb4861c06505cde19ec0b92e3e42"
+    },
+    "98575": {
+      "title": "5319e623b50ec9ec5cd4f483e37a3de4c62c9e3d131840e761161fbbdf71b481",
+      "detail": "ff4888e5fb9e0c4880a9c28a4e86ae8589ee6bbf679cf64308d49af168ad41fc",
+      "objective": "7c0b79c6081aa2ca0e5a39a8291c4cb3df3166b7019921005b16625e9adaaeb7",
+      "progress": "f44dc3e635c8fce1a727145dfd47282a5cc4eda4c50b80432570e273eabf3bf7",
+      "complete": "1f768122ad6a2c750cf1f0c8125da2f7ce7ed2944b24d9e89c2a1bfaeee5e86f"
+    },
+    "94472": {
+      "title": "8e93c072751ed989d362505a901dc8951bed5d5384d7727c3fb127194f7cc548",
+      "detail": null,
+      "objective": "e74c447a3625791fefb38dcba4cdd5015aaacd07613c3f7e5eb5c43779ef2983",
+      "progress": null,
+      "complete": "9673c037501f4ecc1a5f238f4712df650d6f536606a879b206b881de38adea9b"
+    },
+    "1464": {
+      "title": "8393d9766f9eb46091649a9020c0f547e76fe9eff5636c575a1daf60516768ae",
+      "detail": null,
+      "objective": "337051ada9cefb7e17c7de3e800485e30005b0b3422f86211bfef849e901840b",
+      "progress": null,
+      "complete": "c881956ee7ed7ef3302de55f136e9e1f529d152a0f875d86d5a8d380681fbd10"
+    },
+    "98287": {
+      "title": "13bbea35103891c7d610d8e124b6567f86312b6064b510a95bc6a4e900e27cc8",
+      "detail": "579e41cf4375bd2d93781a79936bf7a3334c6fc55617400b8320d49d60720d63",
+      "objective": "4f8296c69d8fdaf825c61d95ae3d39bd7101e2aea1569ed12f3e22b16cc0c29a",
+      "progress": null,
+      "complete": null
+    },
+    "98341": {
+      "title": "feffbdb47ef63c3c5529e38b460594b00c32f2e59b27f180f5c9959a25d58a36",
+      "detail": "552afb7f9e09a1b4011dd862934e87c76a3fadc624ff34a3b56a1c1fd87032a0",
+      "objective": "9a0f099fef41ebac2604cd4f9d0b3371a90494bb9d3ea4346adf9dc278aaa4c9",
+      "progress": null,
+      "complete": "88b058d04266d603f68b704e987933d366679f1630a8da704e9f86f9310a9ba8"
+    },
+    "98404": {
+      "title": "feffbdb47ef63c3c5529e38b460594b00c32f2e59b27f180f5c9959a25d58a36",
+      "detail": "c276acbb57911603879fb1655317dfa78f9a3af0240a11a59edd8d8a9163cb84",
+      "objective": "f84de5a3546e51c9e7201dd627435a9eeb5d5a8ade343a942d2ac12eb960feb5",
+      "progress": "656b0f8bbae9d02fab962db75759418142db81abe6e0e797abe5a6210344101e",
+      "complete": "831e60cfe4bec19a6c1f30a62aaf407dfbc193f1b83354e1f4cfbcdcb49626e6"
+    },
+    "98738": {
+      "title": "46d68bd9ae2baf72ad690f44e600c30c549b7f89a3b3bd7c5b2e5e2976369777",
+      "detail": "a0a4914e9120de44b3ff680bf0f8d7da68afad5cfaddc9d6da5e9e77693b1682",
+      "objective": "a12761e5589e6057755bb52850c609ad3a5d537717ab6b41731053476455f699",
+      "progress": null,
+      "complete": "40ff15617c877931c4663be061d1992ec6bd618c0f2c8715b2cb161f502188e5"
+    },
+    "97979": {
+      "title": "9c135f8811cbbfe3466cdd10fb05332894ce878c192474ea085aa2dffb504b3f",
+      "detail": "4bc8550226387cc1cfe7071ed79f9fd1ced5a06f55735540318bf818a8e01c33",
+      "objective": "e5d22295ec5dc8f31c85791741734bac10e1ab0a66061cba6513bc46589ab4e7",
+      "progress": "050f0658800cdba57c9a36c115420333531c679a47a3336d287fb0190b23c426",
+      "complete": "d38f708475643c5b04ac58a9ad053a7563e010aced7b968ad89deba433331c38"
+    },
+    "98386": {
+      "title": "62e24045220db52bbd800f47bac516d39385a6e78702545e6c46a8c1eeeefdb2",
+      "detail": "5f51df0cc808a829d194f746be4a435dc187d55d566333ea65b0606cd2428f6e",
+      "objective": "b4b8bfe0e61b4153c58549b13a99958e076ae3f8dd586fd7c56ff032ccce43cf",
+      "progress": "55336d20711d94aba018ed20c43fdab789ee9258e5abae4d0a2bcfea9c6ad05d",
+      "complete": "86d4434b9ba0b60069744714d28ee3387c28da6f10cdb0af2b497c65bd5bcd02"
+    },
+    "96395": {
+      "title": "fb0af8340bfd365570c2ad19346c08d417270252a5c7eee0b2b6229ccc709e99",
+      "detail": "c8b50ac74f8b10163bfe9611c421dbac6957dbe7db155a9425dc8496daa5213e",
+      "objective": "484ecd420555c01f9703e6936556e7b5c59a93bd6a160d232edc1c604e8aa912",
+      "progress": null,
+      "complete": null
+    },
+    "3861": {
+      "title": "cf04804e629e05fd509fd14df2c5e953f194afad71a66d6dcc05ba6452604b05",
+      "detail": "3d4684a2aa1f93fce8537b2e5e1b161aba5febce75a23044280f4aa4ed065af7",
+      "objective": "0f66537c2076769ceb22c0c0e9a552162e1bcc6a97ae40fda8f82248c4421acb",
+      "progress": "26052481855e3db963553ba52c8f7b38b69c21a72e5b2b3e311320be15af7aad",
+      "complete": "8ce836823f3fcfa72be7d3a351cbda99c53029ef8846741b4fe68630edefcaf8"
+    },
+    "97583": {
+      "title": "cc0551f02074db9338051259c9b928b2ad84c8bb4628d294a96d5c6c0b39852b",
+      "detail": "a61bb8610707bb0964b9bd76f6c38de3f224f5e1303989021340451b6e469024",
+      "objective": "eae3d335d3fcc6b769cf1720cfad3791ca52e459a220fa881f9151c0032806ea",
+      "progress": "c0e7b653ed8d254d8047c50bbe75bd1cb01706e8c9e69f7e7167ac8c16c0413b",
+      "complete": "936f0e2992af2aadd97c7f6db43863809c97de70e87bd1f8b2dbaab5eec19d9d"
+    }
+  },
+  "claim": "Source-groundedcontentcontracts; notnativeproofreading/currentliveverification."
+}

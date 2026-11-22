@@ -1,0 +1,76 @@
+[
+  {
+    "id": 96395,
+    "field": "progress",
+    "status": "UA-only; current English unavailable, not proven live absent",
+    "reason": "Both current English references lack this state. UA supplies Ukrainian but no English is reconstructed or backtranslated.",
+    "uaText": "<Примарна постать порожнім поглядом дивиться крізь вас. Її рот рухається, але чути лише тихе нерозбірливе хрипіння.>"
+  },
+  {
+    "id": 96395,
+    "field": "complete",
+    "status": "UA-only; current English unavailable, not proven live absent",
+    "reason": "Both current English references lack this state. UA supplies Ukrainian but no English is reconstructed or backtranslated.",
+    "uaText": "Мій... тан... він... спочиває... так... спочинок.\n\nДякую... тобі...\n\nЯ... спочину..."
+  },
+  {
+    "id": 1650,
+    "field": "complete",
+    "status": "English controls",
+    "reason": "Current primary half dozen; UA says dozen. Final keeps တစ်ဒါဇင်ဝက်, without added numeric glyphs."
+  },
+  {
+    "id": 1652,
+    "field": "complete",
+    "status": "English controls",
+    "reason": "Current primary+secondary Jordan; UA Jonathan. Final retains Jordan."
+  },
+  {
+    "id": 1654,
+    "field": "objective",
+    "status": "current source prose aliases retained",
+    "reason": "Primary+installed prose Bailor's Refined Ore Shipment/Kor Gem vs source target item6993Jordan's Refined Ore Shipment/item7083Purified Kor Gem. Required itemIDs and eachone checked; no generic runtime titlealias created."
+  },
+  {
+    "id": 98287,
+    "status": "source-reviewed candidate; activation/current live unverified",
+    "reason": "No primary start/end, Sprite NPC403; ownID+matching English/profession202rank1/type3interaction11026/priorcamp metadata coherent. Root retained after evidence report. Primary requirement engineering20 recorded without adding number to objective prose."
+  },
+  {
+    "id": 96395,
+    "status": "source-reviewed candidate; activation/current live unverified",
+    "reason": "Current primary sideNone and missing start/end vs installedGhostly265002; NPC fetch403. OwnID, English objective and matching60.tools coherent; root retained. No all-race pickup claim."
+  },
+  {
+    "ids": [
+      98341,
+      98404,
+      98738
+    ],
+    "status": "current primary restrictions control reporting",
+    "reason": "Skyborne95 Druid FORM/SPIRIT route: _side3,reqclass1024,reqrace4294967296; installedrace12884901888 broader. Shared IDs counted once, no mount or entireSkybornecompletion claim."
+  },
+  {
+    "ids": [
+      1793,
+      1794,
+      94472,
+      1464,
+      3861
+    ],
+    "status": "current primary eligibility controls",
+    "reason": "Primary1793/1794Alliance reqclass2 reqrace0 (installed5),94472AllianceShaman64,1464HordeShaman64,3861Alliance repeatable; broadUA Both labels do not prove crossfaction availability."
+  },
+  {
+    "id": 98575,
+    "field": "detail",
+    "status": "primary marker controls",
+    "reason": "Primary<name> vs secondary<Name>; final preserves primarylowercase."
+  },
+  {
+    "id": 1654,
+    "field": "detail",
+    "status": "primary marker controls",
+    "reason": "Primary<class> vs secondary<Class>; final preserves primarylowercase."
+  }
+]

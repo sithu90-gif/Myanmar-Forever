@@ -1,0 +1,181 @@
+{
+  "version": "1.2.18",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-23",
+  "newQuestIDs": 50,
+  "newQuestFields": 196,
+  "newEnabledFieldsTotal": 196,
+  "newAvailableSourceFields": 200,
+  "newSourceAbsentFields": 50,
+  "newHeldFields": [
+    {
+      "id": 1844,
+      "field": "detail",
+      "reason": "Current primary and secondary English say northwestern reaches of Stonetalon Mountains for Charred Vale; pinned UA1.1.0 says southwest. No sanitized current map/live source resolves the conflicting direction. Hold full field with unchanged English and genuine raw MY proposal; do not choose a direction from generic WoW knowledge.",
+      "sourceEnglish": "I will make you the helm, but you must show me you are worthy of it.\n\nNestled in the northwestern reaches of the Stonetalon Mountains there lies the Charred Vale.  It was once a verdant place, but is now defiled and ashen, and what creatures remain there are mad with pain and despair.\n\nThat place is where I send you, <name>.\n\nYou must go to the Charred Vale and find a chimaera matriarch.  Slay her, free her of her misery.  Bring me her galvanized horn as proof, and I shall make for you the helm.",
+      "rawDeepLProposal": "ငါ မင်းအတွက် ဦးထုပ်ကို ပြုလုပ်ပေးမယ်၊ ဒါပေမယ့် မင်းက ထိုဦးထုပ်ကို ရယူဖို့ တန်တယ်ဆိုတာကို ပြသရမယ်။\n\nစတိုနေတာလန် တောင်တန်းများ၏ မြောက်အနောက်ပိုင်းတွင် မီးလောင်ကျွန်း (Chared Vale) တည်ရှိသည်။ တစ်ခါက အစိမ်းလန်းခဲ့ပေမယ့် ယခုတော့ မီးခဲမှုန့်ကဲ့သို့ ညစ်ပတ်ပြီး အဲဒီမှာ ကျန်ရှိသေးတဲ့ သတ္တဝါတွေက နာကျင်မှုနဲ့ စိတ်ဓာတ်ကျမှုကြောင့် မူးယစ်နေကြသည်။\n\nအဲဒီနေရာကို ငါ မင်းကို ပို့တာပါ၊ <name>။\n\nသင်သည် Charred Vale သို့ သွားရောက်ကာ ခီမဲရာ မက်ထရစ်ခ် တစ်ကောင်ကို ရှာဖွေရမည်။  ၎င်းကို သတ်၍ သူမ၏ ဒုက္ခမှ လွတ်မြောက်စေပါ။  သူမ၏ galvanized horn ကို သက်သေအဖြစ် ယူဆောင်လာပါက ငါသည် သင့်အတွက် ခေါင်းလောင်းကို ပြုလုပ်ပေးမည်။",
+      "editedValue": null,
+      "englishSHA256": "0ecafc87d6f55e2e07180c9a18c65cb3615c57683b10cfab43b3a5e934b51766",
+      "rawDeepLSHA256": "b789a4579c7fb56dbfee35eb93306f43cacb89c243555127b221e02a87460cf7",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 7,
+      "responseIndex": 7,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/7",
+      "responseJSONPointer": "/translations/0/translations/7/text",
+      "editedSHA256": null,
+      "status": "held pending reliable current source/live resolution",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/horde_warrior.json"
+    },
+    {
+      "id": 1846,
+      "field": "detail",
+      "reason": "Both current English references say a brace of sturdy shinbones, meaning a written pair, while the objective/current installed item7134 requirement is8 Sturdy Dragonmaw Shinbones. UA detail omits brace and UA objective also8. No current live evidence resolves written pair versus8; hold full field rather than normalize the quantity.",
+      "sourceEnglish": "To make the brutal leg guards, I need a brace of sturdy shinbones.  The Dragonmaw orcs of the Wetlands have nice, thick shinbones.  I'll need theirs.\n\nBut they must be sturdy.  Be sure to test the shinbones as you collect them.  If you can break them with your bare hands, then they won't be sturdy enough to work with.",
+      "rawDeepLProposal": "ကြမ်းတမ်းတဲ့ ခြေထောက်ကာကွယ်ပစ္စည်းတွေ ပြုလုပ်ဖို့ ခိုင်ခံ့တဲ့ ခြေချောင်းအရိုးနှစ်ချောင်း လိုအပ်တယ်။  Wetlands မှာရှိတဲ့ Dragonmaw orcs တွေမှာ အထူကောင်းပြီး ခိုင်ခံ့တဲ့ ခြေချောင်းအရိုးတွေ ရှိတယ်။  ငါ့အတွက် သူတို့ရဲ့ ခြေချောင်းအရိုးတွေ လိုအပ်မယ်။\n\nဒါပေမယ့် အရမ်းခိုင်ခံ့ရမယ်။  ခြေချောင်းအရိုးတွေ စုဆောင်းတဲ့အခါ လက်ဖြင့် ဖိစမ်းပြီး စစ်ဆေးပါ။  လက်ဖြင့် ချိုးနိုင်လောက်ရင် အလုပ်လုပ်ဖို့ လုံလောက်အောင် ခိုင်ခံ့မဖြစ်ပါဘူး။",
+      "editedValue": null,
+      "englishSHA256": "78005793bb9b5e218e0433caf94ae23c55c28708a7ad8603e00405fb416c12b2",
+      "rawDeepLSHA256": "e55de507af2df9c048adeec882a0650b98db2b876360b57e7df773610b573946",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 18,
+      "responseIndex": 18,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/18",
+      "responseJSONPointer": "/translations/0/translations/18/text",
+      "editedSHA256": null,
+      "status": "held pending reliable current source/live resolution",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/horde_warrior.json"
+    },
+    {
+      "id": 1655,
+      "field": "detail",
+      "reason": "Current primary literal <man/woman> is an unsupported player gender branch. Secondary strips brackets; runtime supports name/class/race/priest/priestess only. No sanitized live capture resolves it; no invented neutralization.",
+      "sourceEnglish": "Ach, ya startled me, <man/woman>! Can't ya see I was lost in thought?\n\nWhat's that? Jordan's shipment... fer Ironforge. Ahhh, yeah, I know whatcha speak of. Mo'grosh ogres... dat's who took me ol' friend's ore shipment. Caravan was headin' here from the Wetlands and was ambushed. The guard who survived their attack just passed away a few days ago--healer couldn't get to 'em fast enough.\n\nIf you want the shipment, you'll have to head northeast across the Loch. It's got to be there somewhere.",
+      "rawProposal": "ဟေ့၊ <man/woman>၊ မင်းက ငါ့ကို အံ့ဩစေလိုက်တာပဲ! ငါ စဉ်းစားထဲမှာ ပျောက်နေခဲ့တာ မမြင်ဘူးလား?\n\nဘာလဲ? ဂျော်ဒန်ရဲ့ ပစ္စည်းပို့ဆောင်မှု... အိုင်ရွန်ဖော့်ဂျ်အတွက်လား။ အာ၊ ဟုတ်ကဲ့၊ မင်းပြောတာ နားလည်ပြီ။ Mo'grosh ogres တွေ... သူတို့ပဲ ကျွန်တော့်ဟောင်းသူငယ်ချင်းရဲ့ သတ္တုတင်ပို့ကုန်ကို ခိုးယူသွားတာပါ။ ကုန်တင်ယာဉ်တန်းဟာ Wetlands ကနေ ဒီကို လာစဉ်မှာ တိုက်ခိုက်ခံခဲ့ရတယ်။ တိုက်ခိုက်မှုကနေ ကယ်တင်ခံခဲ့တဲ့ ထိန်းသူက မကြာသေးခင်ကပဲ ကွယ်လွန်သွားပြီ—ကုသသူတွေ မလျင်မြန်စွာ မရောက်နိုင်ခဲ့ကြဘူး။\n\nပို့ကုန်ကို ပြန်ယူချင်ရင် Loch ကို ဖြတ်ပြီး မြောက်အရှေ့ဘက်ကို သွားရမယ်။ ဘယ်နေရာမှာမဆို အဲဒီမှာပဲ ရှိနေမှာပါ။",
+      "provenance": {
+        "englishSHA256": "6084ededfb1ac65942529a773cf6bcbbdbb8f7ba884b747e753e1bf11304c323",
+        "rawDeepLSHA256": "29b9553f07cc57e2b74550a746aac8c3604dc3bf0a7a5d5578ff8fc6912a16b0",
+        "rawDeepLRequestFile": "deepl-request-02.json",
+        "rawDeepLResponseFile": "deepl-response-02.json",
+        "rawDeepLIndexFile": "deepl-index-02.json",
+        "requestIndex": 9,
+        "responseIndex": 9,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/9",
+        "responseJSONPointer": "/translations/0/translations/9/text",
+        "detectedSourceLanguage": "EN"
+      },
+      "status": "held; not enabled",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 1464,
+      "field": "detail",
+      "reason": "Secondary-only Description conditional on losing to manifestation; current primary has no Description heading. Cannot establish current live availability or exact trigger; held pending sanitized live English evidence.",
+      "sourceEnglish": "If you have lost in battle to the manifestation, then speak to me and I shall give you another sapta in which to see the spirits at the shrine above.",
+      "rawProposal": "သင်သည် မာယာပြသမှုနှင့် တိုက်ပွဲတွင် ရှုံးနိမ့်ခဲ့ပါက ကျွန်ုပ်ထံ ဆက်သွယ်ပါ၊ ထိုအခါ ကျွန်ုပ်သည် အထက်ရှိ ဘုရားကျောင်း၌ ဝိညာဉ်များကို ကြည့်ရှုနိုင်ရန် သင်အား နောက်ထပ် ဆပတာတစ်ခု ပေးမည်။",
+      "provenance": {
+        "englishSHA256": "2d41966dff96d442370ab1e78fbb313b9abdb4a4544908c62068c2566f0a6958",
+        "rawDeepLSHA256": "9d321ec378c3372d1cec164cdbb3166214ebf615f3ab87d65fdf9bb740067c3e",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 9,
+        "responseIndex": 9,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/9",
+        "responseJSONPointer": "/translations/0/translations/9/text",
+        "detectedSourceLanguage": "EN"
+      },
+      "status": "held; not enabled",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 7,
+  "questIDs": 1786,
+  "translatedFields": 8149,
+  "dialogueStates": 4662,
+  "absentOrHeldDialogueStates": 696,
+  "activeHeldUniqueFields": 75,
+  "pythonTests": 25,
+  "luaRegressionGroups": 50,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "reviewedConnectedGroups": 7,
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-22T21:24:15.199373+00:00",
+    "catalogVersion": "1.2.18",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-22T20:36:43.926591+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 50,
+  "zip": {
+    "name": "MyanmarForever_v1.2.18.zip",
+    "bytes": 1097274,
+    "sha256": "3599602e6518c964c94e5d67f15828f55717e47d0e7234ad9bc7a98df7a95537"
+  },
+  "canonicalMetadataHashAliasRepairs": 4,
+  "unconfirmedUAOnlyStates": [
+    {
+      "id": 96395,
+      "field": "progress",
+      "reason": "UA has a state, but current English unavailable in fetched primary/secondary references; no backtranslation or live absence claim."
+    },
+    {
+      "id": 96395,
+      "field": "complete",
+      "reason": "UA has a state, but current English unavailable in fetched primary/secondary references; no backtranslation or live absence claim."
+    }
+  ],
+  "newUnavailableCurrentEnglishStates": 50,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}

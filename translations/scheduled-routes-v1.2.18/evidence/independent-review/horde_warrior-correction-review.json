@@ -1,0 +1,814 @@
+{
+  "result": "PASS",
+  "partition": "horde_warrior",
+  "reviewType": "Independent affected-field repeat after root exact-hash approved correction; frozen author and candidate files preserved",
+  "reviewedAtUTC": "2026-11-22T20:58:58.439038+00:00",
+  "remainingIssues": [],
+  "resolvedIssues": [
+    {
+      "id": 1842,
+      "field": "objective",
+      "englishSHA256": "ed4240279854e2bd938e16d86609df8939bc5612cd4f558501bffe1342448287",
+      "priorMyanmarSHA256": "bd766398dcaa696012efd86104749e7a766afb7f7ce136c06dec428b25373a37",
+      "correctedMyanmarSHA256": "c98c5fe1981a9d2d79024f59baa17b950bdccff44ab2b870caadd87d8ab00443",
+      "old": "အန်ကလိုဗန်",
+      "new": "အန်ခလိုဗန်",
+      "reviewedFullField": "Uncloven Satyr Hooves (အန်ခလိုဗန် စေးတာ ဟူးဗ်ဇ်) 7 ခုကို Durotar (ဒူရိုတာ) ရှိ Sen'jin Village (ဆန်ဂျင် ဗီလစ်ဂျ်) က Ula'elek (အူးလာအဲလက်ခ်) ထံ ယူလာပါ။",
+      "decision": "PASS: exact approved proposal applied once. Whole first occurrence retains Uncloven Satyr Hooves and corrected maintained cloven core; negative Un/အန် prefix preserved. Quantity7, item7128 identity, Ula'elek and Sen'jin Village/Durotar route unchanged.",
+      "maintainedEvidence": {
+        "term": "Cloven Hoof",
+        "pronunciation": "ခလိုဗန် ဟူးဖ်",
+        "maintainedFileSHA256": "a907528e1a80df0088c28654ff184b1be4cb7aee1d5af1bf87257a48dd6113c7"
+      },
+      "pronunciationReview": "Assisted editorial consistency only; native approval pending."
+    }
+  ],
+  "counts": {
+    "quests": 14,
+    "slotsCompared": 70,
+    "changedMyanmarFields": 1,
+    "unchangedMyanmarSlots": 69,
+    "unchangedEnglishSlots": 70,
+    "enabledMyanmarFields": 51,
+    "sourceAbsentNulls": 17,
+    "heldFields": 2,
+    "remainingIssues": 0
+  },
+  "fieldEvidence": [
+    {
+      "id": 1823,
+      "field": "title",
+      "englishSHA256": "04f38fcc007d10ee929786f39c45f11ef06c8415e8d223e8def03ccbd1b38c86",
+      "candidateMyanmarSHA256": "58501e40bd2fd733f21dc1c7019eb898dad27f2f7a525f1216017de173d1da42",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1823,
+      "field": "detail",
+      "englishSHA256": "8611d75dd51681960a943bef4b45741245702f37b6491fd99f1e5202e9396024",
+      "candidateMyanmarSHA256": "aba9158a07afe821cc8c586003b3cbcee0364bd6f89c60af8da4ca6cc0f61e82",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1823,
+      "field": "objective",
+      "englishSHA256": "dbf55b6802e31fa3d27d178b99ba6db009a056c0110e4bfb8f0bbf7ab7e29181",
+      "candidateMyanmarSHA256": "89c1d8d3e53c7fbae07e05bdf4ef91e35b521faf33c07a69b04e7c30ddd7ace3",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1823,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1823,
+      "field": "complete",
+      "englishSHA256": "8a431985bf23ec7782bdf25975d3c2d3d26ae10bb659993254f574062679f3dc",
+      "candidateMyanmarSHA256": "d2860b7440b01bcdee1b0f20b64126577767041be301761b0ab2a8d051045b4a",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1824,
+      "field": "title",
+      "englishSHA256": "98349daab077daaa2eb29bb825689f5d8d4c378f6beb637a43c6128a78669447",
+      "candidateMyanmarSHA256": "de27f3ce1393b981d615d2ccc405ffc69771d55256985c4a16288e3d1e591670",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1824,
+      "field": "detail",
+      "englishSHA256": "b17c22053e6a67c8f164f105e572d929549dd23aa1098a5ad56e708cbf3c8914",
+      "candidateMyanmarSHA256": "b3d96fd13021a343ec84dd25c73fbdba9700e5b46ffb6fad658985f9058beca4",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1824,
+      "field": "objective",
+      "englishSHA256": "9c0e21d64b21fe5e5b767673762faf84409f5f781e9c7fd0be81a7fb4e99e843",
+      "candidateMyanmarSHA256": "59f892dfdd57751469cd1f5801a590e04c9b250e269ccab947622b1a36fa28f5",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1824,
+      "field": "progress",
+      "englishSHA256": "199674840c4140f4d80b74463bd8b3bfdb4c4ad47db17863cad1cc96a26e9548",
+      "candidateMyanmarSHA256": "993d1670fb8cb46f69dbd464b6cd7cd9f18d3fa42f38ce574e78db57a1e41942",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1824,
+      "field": "complete",
+      "englishSHA256": "87c960f0a1ade5e8f4835ac0035071d8b9e3f9ce78f9ba981800305aab3313ef",
+      "candidateMyanmarSHA256": "97f3586e4042a7978ff8325c4cba084c6a7c020ef41503052054dee57a1789e3",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1825,
+      "field": "title",
+      "englishSHA256": "7cb73fb2b80a612bc65ada68eaa16918af4cea68ed4908acf774f0d9072fb733",
+      "candidateMyanmarSHA256": "1d19d45a0ccc024c52b4f6d217ddd05eacc353e3312f5de8f68fe209ab859de8",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1825,
+      "field": "detail",
+      "englishSHA256": "63b49ca2b2a7da3c74782e69ca80bba314966b0887873ec908738cf6de5a4b87",
+      "candidateMyanmarSHA256": "7fd1be7f5796ae2cb735267ed7d47f369ee6e0ffd8d2f22f777e8346ba3fd7fd",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1825,
+      "field": "objective",
+      "englishSHA256": "ff1589b225204b6116aa0e177f946f9cc803951308874f39d1141cc7d831ccb2",
+      "candidateMyanmarSHA256": "fa33a125e30d57c0f6890e5c5c30b9ebffb3e64c4df3dbfe1dd7a4de5873846b",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1825,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1825,
+      "field": "complete",
+      "englishSHA256": "83e43a4bce865dfe47eebf09b0bb8d2db8b41db68ce1ee9dc04bcb89db29e130",
+      "candidateMyanmarSHA256": "ca8b504f015b6feb3a0b9cf422d3453e81c25b921771e74afade1280ead75947",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1838,
+      "field": "title",
+      "englishSHA256": "a89551a2db3b331949d9e4ea9542ba4d679a40810bf3a7a14e75f3d42cde9560",
+      "candidateMyanmarSHA256": "cdcb9f214c92991ada70744052f9b89c747743a986209ac432c1b03422277a7f",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1838,
+      "field": "detail",
+      "englishSHA256": "3d589dfbd8491bfa8f961e597cfdea26a9ff85a2f3012a591edc7648345d30c2",
+      "candidateMyanmarSHA256": "50628a3c16e724a4e49b02143c97f198f49a73a645d0fb3241ce9cf800f1563d",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1838,
+      "field": "objective",
+      "englishSHA256": "9caa69d1b048451c1d602b4d8b8d2691e9d1bac5dfc5356063b4ce1495870564",
+      "candidateMyanmarSHA256": "a904a5e277be08fcf7da3c7a6a06a8eabff66e49bc6835df18277a3333a2eff9",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1838,
+      "field": "progress",
+      "englishSHA256": "c333f1230ace9a89e8e50be2a1e6940688c93d92dfc52850e54bb6fde04e3f77",
+      "candidateMyanmarSHA256": "f3d97b1a097c2f8f5c5c70f3f362776ab7570ce8a9dd6acf5a400852125f8e52",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1838,
+      "field": "complete",
+      "englishSHA256": "3f84134fc3262d7e5cc8fc90bb9a35ada2f0fe226ab2d4850af4e2580791e63e",
+      "candidateMyanmarSHA256": "2b6f6c0a396af0bec6e8ff0bd8ca2e160bd3bf6b33c593f21e534fa39006d1bd",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1848,
+      "field": "title",
+      "englishSHA256": "f05c0d58e4f829341c6658e3fc274ad019cea8a8404b8b5bdd59a015c7f1c4ab",
+      "candidateMyanmarSHA256": "b15f7cdeef9cb3275f79116d5481f6f668302aaa7c5b4412073f8062eb73f735",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1848,
+      "field": "detail",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1848,
+      "field": "objective",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1848,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1848,
+      "field": "complete",
+      "englishSHA256": "e184ce48c41ac37328f067873ad5be053c75fd915b6c1b91f6e4df6178caf864",
+      "candidateMyanmarSHA256": "8d67e45ad8b65356cf6aa2099beb4553862e2ce28a24049fbbf22bf36765fa50",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1839,
+      "field": "title",
+      "englishSHA256": "8f6354f476320cca81b718233119c8fb4269f7a24b3cd7f7e70727a368c1f732",
+      "candidateMyanmarSHA256": "ce52230e32112003ef2be712d879eedb409b20bc68c0855e7a3da4527ceba2e6",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1839,
+      "field": "detail",
+      "englishSHA256": "dd173d9be4547e4d24921aaafaae88d9b21046125f56d4a5f2e2c6135ebb2419",
+      "candidateMyanmarSHA256": "0474ccc8cefaeeca01f0af8d0b1e746084772ea3c352702676aa93cc98a970be",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1839,
+      "field": "objective",
+      "englishSHA256": "d8216f0c6c2635d6e9972ae3b49a72393de6bb688eafb653683cea365fbf712f",
+      "candidateMyanmarSHA256": "c3c9ef0a7c83a3bf4cb44bcd0e32e9de3bea625db2cce52c5767edf6b7c5e6d6",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1839,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1839,
+      "field": "complete",
+      "englishSHA256": "68aab993382efa7c20c0c0c43ecf3f004648a10ea04232a37d3306f6bc2487c5",
+      "candidateMyanmarSHA256": "e0d020af6affcecd77e77a325f395e1ea1a4ff71e0ba98319b9b1d4bbe5bde5b",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1842,
+      "field": "title",
+      "englishSHA256": "c7e05347abfc62bde2e7c13707ce2c83b9ba725861e241fb26998c0cc00832b2",
+      "candidateMyanmarSHA256": "33a30656e62b082c5936dabe429d113431e644b80f2c32dc634ddfb323f1459d",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1842,
+      "field": "detail",
+      "englishSHA256": "f2e0c765be42643b9772bf9a87703fdba0a7f7fc6e5c07e77ccd0bcb7ef131c5",
+      "candidateMyanmarSHA256": "acf826291aff9645fa6288d5a12afa2b39d610a674133e439ee21b975f9185fa",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1842,
+      "field": "objective",
+      "englishSHA256": "ed4240279854e2bd938e16d86609df8939bc5612cd4f558501bffe1342448287",
+      "candidateMyanmarSHA256": "c98c5fe1981a9d2d79024f59baa17b950bdccff44ab2b870caadd87d8ab00443",
+      "changed": true,
+      "status": "PASS"
+    },
+    {
+      "id": 1842,
+      "field": "progress",
+      "englishSHA256": "62aac313e383bc916be74bc2e81324b79da7332ff150ffce28e632ae31ae594d",
+      "candidateMyanmarSHA256": "d3f4f797e5ee6182a92cc5e49f1e6b0e57937f42bd96697e6fc5e00093463c5f",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1842,
+      "field": "complete",
+      "englishSHA256": "1df3663678b8da6d79ac8e5456f80ab73d8e0a776f2545e7d14beb3ff85ec7fc",
+      "candidateMyanmarSHA256": "fa3861165c7374307b062291799d3141c430794508887f54a1e513e98c0983cc",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1843,
+      "field": "title",
+      "englishSHA256": "c1265711cbf5dbbc7ada96b364a9af0ce8ab5e958ce0a5e0704a0d5fe2ff60e4",
+      "candidateMyanmarSHA256": "7333280f0631496874aec367d6eab8d82905030a0dd73849095e679c57c2a68b",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1843,
+      "field": "detail",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1843,
+      "field": "objective",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1843,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1843,
+      "field": "complete",
+      "englishSHA256": "f0ea66ebcf5708a7eab57d0b8c5802bfc7285a1961105827ec7ebacadb7cfb23",
+      "candidateMyanmarSHA256": "970e13ee6b8b0d5589a1f93a5a506ee0e6dda3dcb608add49d89a5f827e23c86",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1840,
+      "field": "title",
+      "englishSHA256": "a10cfbbe5d63e0779c0214de68c0d554c5193e0cbcf6a73ff2dd0fb8ca3157d0",
+      "candidateMyanmarSHA256": "dd2b74cc1b9467c197aee600a9e2bc049fa98be891f2fffbb82ba7f7efa800b3",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1840,
+      "field": "detail",
+      "englishSHA256": "fb5df1bc3873c5727cb93347d901f006403383b876e73406d9d46f44b17693b4",
+      "candidateMyanmarSHA256": "b6e24eb550c3f623f9c768c7de34b15398f3c881526f75519325d4eaff38d407",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1840,
+      "field": "objective",
+      "englishSHA256": "f8b5e551047aff28448dce083fba1044fde0ffb5204398e0635b1ac1c6b36ee1",
+      "candidateMyanmarSHA256": "43ca674fb5bbf653d653cde9c6e617dbed793d6fff518f6f5086cc3d5bb1d68a",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1840,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1840,
+      "field": "complete",
+      "englishSHA256": "fe1c51fd2981e0cd4925d9eb808fc4c2f6f976a596bedd2137a9e49c5e6b271c",
+      "candidateMyanmarSHA256": "9201d57eb5a603aeff3750df474c7a2e8553ae6cc105f4d94bf2b9cc7177fe66",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1844,
+      "field": "title",
+      "englishSHA256": "b966231a84a9010af6b6fa17e6bb5d0c588be806344a4e9db9d137e66179abd6",
+      "candidateMyanmarSHA256": "962bf2a555650e5757d1a508f2f5fba6c9cbc8aeed2954d48d8f82a37b0b19e5",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1844,
+      "field": "detail",
+      "englishSHA256": "0ecafc87d6f55e2e07180c9a18c65cb3615c57683b10cfab43b3a5e934b51766",
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "HELD"
+    },
+    {
+      "id": 1844,
+      "field": "objective",
+      "englishSHA256": "81b696517e554ba553c814d4759223257d23750a78b1c8f32d3076e47836bb33",
+      "candidateMyanmarSHA256": "3a42b3dcda3c117c1bd9e9ca6bac3dd8ab2932393124a0c079c9f67982ab55c9",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1844,
+      "field": "progress",
+      "englishSHA256": "5bf0de14d238e5510057a8e529af94112573a3067cec453efa995712b1daab35",
+      "candidateMyanmarSHA256": "7dc8bdc5b8c70221dcf4c7319892703be281d78fa39088d1a9ddd374b55134d7",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1844,
+      "field": "complete",
+      "englishSHA256": "bb991f700dd066993a11787ab9ee7250a8034e9493604d640b7a537da823be17",
+      "candidateMyanmarSHA256": "8bb190cbcc6639ce5e526164518cd5a0fcf8fafa391b80b61388bd10cb89d806",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1845,
+      "field": "title",
+      "englishSHA256": "99e3c36584b90fa30a03ad816bc588328a7391cd9a200ade8fe9036f8cd0b4ba",
+      "candidateMyanmarSHA256": "c7a1d249810b455a8513ba046587209245c80a1f7b1e430bd8bc998f9d34b3be",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1845,
+      "field": "detail",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1845,
+      "field": "objective",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1845,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1845,
+      "field": "complete",
+      "englishSHA256": "365ae592ac2c1c98e8e3a505ef6b173d4a917e2f592bbb613c24578962b2d348",
+      "candidateMyanmarSHA256": "2197ff2eee8826652c3aa576996393bc58369ee2bf417ece4e03e2fac0ab1b2c",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1841,
+      "field": "title",
+      "englishSHA256": "7f0ba267c0018d8e263b68e879ea08baacde5e1dccea586ea91f811bc3b9ad6f",
+      "candidateMyanmarSHA256": "fbb944e6bb98f3ce1d4245dc6f9102af3b8aedb0ea1a38c6fd5997e950cbfa74",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1841,
+      "field": "detail",
+      "englishSHA256": "aefe01d54317ab79093ff382e861afa090d0b5bc6cd10ff4bd7c53bf5c070e65",
+      "candidateMyanmarSHA256": "a4daa15ba852b5b74a15535d709f4c75d3db6102d21c5ecd982bc74b3d587315",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1841,
+      "field": "objective",
+      "englishSHA256": "ab0de0775886ce8e33048ad6d22e16fcdc63faa711c3829bf64f008b285be8d5",
+      "candidateMyanmarSHA256": "40b7abaa7160c20e13134b4128d1a381c949e3097530a7176f681a98d6b2187f",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1841,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1841,
+      "field": "complete",
+      "englishSHA256": "2b1a5a445e066b60796df0fe4a5116289362ce0465e0a32416caf3ea8695f58b",
+      "candidateMyanmarSHA256": "21ccd2713f93e6e628360382732abbd41c13739518b5e55a738d0e4663bc30a2",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1846,
+      "field": "title",
+      "englishSHA256": "ec197d86d8250e6df4f4c93a1bbbd9d9fdea0dc1f0bbd4d71295275882010efb",
+      "candidateMyanmarSHA256": "3bc9c02e9d025b0e80b62b757d31572b36da841cce9f0dde97cd18f623a7bf0f",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1846,
+      "field": "detail",
+      "englishSHA256": "78005793bb9b5e218e0433caf94ae23c55c28708a7ad8603e00405fb416c12b2",
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "HELD"
+    },
+    {
+      "id": 1846,
+      "field": "objective",
+      "englishSHA256": "c0f1a525a5089d713608961ff1f4f2d2903294a8ebb4eed8f82b9f1e81e7cce3",
+      "candidateMyanmarSHA256": "600d0e611b7d575ec3efafe19a79d7fbd17282d65e76d167a02fe3bc4aca29fc",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1846,
+      "field": "progress",
+      "englishSHA256": "419aedf047defa824ea1f6b33c7458ddb0634aedcd07d67825f8ee822f25f84e",
+      "candidateMyanmarSHA256": "580579592dec916fe95ff0ab794f849d913392b87417c906b3cc936a4f952b75",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1846,
+      "field": "complete",
+      "englishSHA256": "89b99306c65b5723538488d4244294e0396067b4167c5ee4139b03fd0e0f026f",
+      "candidateMyanmarSHA256": "ef0467c710ac6c63f7992faf746cb23ae3f688b19b1003a0e7a733d0796ed80f",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1847,
+      "field": "title",
+      "englishSHA256": "da6666ce87b2a13512da8a41db35bc2c5d9c32e1c3a505b8916076fd0aa29fdd",
+      "candidateMyanmarSHA256": "f5f0553ffa5dca3eaa50f15e689f03685e3b5f5dbbf9cfe7c1578df2eb922e04",
+      "changed": false,
+      "status": "PASS"
+    },
+    {
+      "id": 1847,
+      "field": "detail",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1847,
+      "field": "objective",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1847,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "SOURCE_ABSENT"
+    },
+    {
+      "id": 1847,
+      "field": "complete",
+      "englishSHA256": "55530de938f3d4c6fe91eed09d3d97900f830212a8d7d7aab396442f015ca041",
+      "candidateMyanmarSHA256": "75acdf23099f9ba6bd98f119a04da5d32aed3459afd9ff4e994283dc43ac0af3",
+      "changed": false,
+      "status": "PASS"
+    }
+  ],
+  "pronunciationDictionaryDiff": {
+    "Uncloven Satyr Hooves": {
+      "old": "အန်ကလိုဗန် စေးတာ ဟူးဗ်ဇ်",
+      "new": "အန်ခလိုဗန် စေးတာ ဟူးဗ်ဇ်"
+    }
+  },
+  "tests": {
+    "actual_linguistic_lint.lint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "actual_build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 14
+    },
+    "all70EnglishHashesAgainstFrozenPriorReportAndSource": {
+      "result": "PASS"
+    },
+    "primaryOriginalHTMLReparse": {
+      "result": "PASS",
+      "questCount": 14
+    },
+    "markersDigitsCommandsParagraphs": {
+      "result": "PASS",
+      "enabledFields": 51
+    },
+    "acceptedCorrectionExactHashes": {
+      "result": "PASS",
+      "changes": 1
+    },
+    "exactChangedFieldAnd69UnchangedSlots": {
+      "result": "PASS"
+    },
+    "authorAndPriorReportAndAllFourCandidateFilesUnchanged": {
+      "result": "PASS"
+    }
+  },
+  "existingHolds": [
+    {
+      "id": 1844,
+      "field": "detail",
+      "decision": "Retain null: primary+secondary northwestern Charred Vale vs UA southwest; no current live resolution claimed.",
+      "englishSHA256": "0ecafc87d6f55e2e07180c9a18c65cb3615c57683b10cfab43b3a5e934b51766",
+      "candidateMyanmarSHA256": null
+    },
+    {
+      "id": 1846,
+      "field": "detail",
+      "decision": "Retain null: English brace/pair vs objective8; no normalized count or invented gameplay guidance.",
+      "englishSHA256": "78005793bb9b5e218e0433caf94ae23c55c28708a7ad8603e00405fb416c12b2",
+      "candidateMyanmarSHA256": null
+    }
+  ],
+  "candidateHashesBefore": {
+    "edited.json": "9cc2691983d6fc6a5752fa14b4b721866ea38748c752aee45fab8f5b7d61d27e",
+    "pronunciations.json": "4bb7d9a1c41cb6a0457c3def9366dc2a0f0cf86c3ef0269a88954ca70f0889dd",
+    "review-audit.json": "f1a347037dfec3dc76cb985467255a14c7a3aed9900cc6fde015d8dcddf4785d",
+    "accepted-corrections.json": "8b676b494c0a306aadbe20234ba42053bb3ff5dcabd59294748cd7d4e1fa0b0c"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "9cc2691983d6fc6a5752fa14b4b721866ea38748c752aee45fab8f5b7d61d27e",
+    "pronunciations.json": "4bb7d9a1c41cb6a0457c3def9366dc2a0f0cf86c3ef0269a88954ca70f0889dd",
+    "review-audit.json": "f1a347037dfec3dc76cb985467255a14c7a3aed9900cc6fde015d8dcddf4785d",
+    "accepted-corrections.json": "8b676b494c0a306aadbe20234ba42053bb3ff5dcabd59294748cd7d4e1fa0b0c"
+  },
+  "originalAuthorHashesBefore": {
+    "1823-sixty.html": "ddbc9ffd03325246f818e05f09ba6894376ec3def89261714450f70bd48d12a1",
+    "1823-wowhead.html": "0d1e9e49496f0a29e0827ff3a79ca644ce03edd39344366eac6606b143497d8c",
+    "1824-sixty.html": "3dec8271fffbf5016b04d69b5ddde3dff7caf4c3c5274dffbdce04396fb26803",
+    "1824-wowhead.html": "fac69871ac26791a12649a34ef9ef3e0d70c8b1b4e69256e705df53e884aadf7",
+    "1825-sixty.html": "7d2ca821b4e9761b89725092af4bd65da0168efff8f3ba637e495bc3390582d2",
+    "1825-wowhead.html": "aee445d5b6991223ecbbff99eb6194439d093f19339433b5aaee7b2e2487928a",
+    "1838-sixty.html": "c18993a41da7c0b07455f0558ee639c3dba88cd815897f9ea3f4177af0d21cdb",
+    "1838-wowhead.html": "d715df45129087d65369752e2eebd9435310ad638e9e8929e0b0ed1fc874f487",
+    "1839-sixty.html": "70062bc637836c7a993326829ed9bb0029429ad419f22f9d341a8af4db09dba8",
+    "1839-wowhead.html": "626aef4a2f260d7bae2a70e4d7923f9258b4838743a50dc4ac68579383c5108e",
+    "1840-sixty.html": "9f441238d3e51a3201f90f9d354e339a24f40302237574810ace1aa495e45c65",
+    "1840-wowhead.html": "6895bf22c9194a13486011f058ff46675ba4d7955f7ac1ab55785feeb2437ba2",
+    "1841-sixty.html": "78490e6113adda98f0e698f9807e40e9eee74e97a6805d7d09a4d5b0a5ab0cac",
+    "1841-wowhead.html": "1a690f879a06db6186c854dfa1a765a87cd911e05293f89d1be09a7744013b19",
+    "1842-sixty.html": "53740af477a41ee8142b5daab3fd12bce3e9dbba3cde000114d33132ab31093b",
+    "1842-wowhead.html": "9efd314a31aa3d1f9d40ee7e804790aad9b2acdc8e032eb968b4bfd578bb103e",
+    "1843-sixty.html": "231b7cf6f743c31d8ecb32864f2db356a6f614f222cdadfc7c6ee2282694e6e1",
+    "1843-wowhead.html": "4642d6a97b45b7992ee673e1f785e9d50ecfb6f367d676238448588e78a74c87",
+    "1844-sixty.html": "d3934258e9a366245d5c07b46d991545d99accacb59ea735156d792368719ec5",
+    "1844-wowhead.html": "85ddae43d5342f6c8df8f83ad21a6401fc56a68abdf53e54b2ca2bf9bf95362f",
+    "1845-sixty.html": "465cb624dedca4d6baaf9ffc907e35e8323e1726a5638c8fa880dec980ebdd6c",
+    "1845-wowhead.html": "858a682eb9b285d289f5243c3298f6d7d269e2344b9d52c5b390cc6a8b949f46",
+    "1846-sixty.html": "f8d4848133045a8ce9b267f54af1a294f721f6a0d2e2b6187d3a722fe863a9c9",
+    "1846-wowhead.html": "0bab5775aac7ab5a3c5a09f4ca11fa8971539eb0cffa63fdebf60f8d9a21bcd2",
+    "1847-sixty.html": "badcda200b69a04688d432b4625a350c46d21f6f59db51ff70a0b6ada6936ee8",
+    "1847-wowhead.html": "3a8ef79d1efdb7f0d0586d0ab69f6e94ca30ffd50b9819dd2e7f6df233925687",
+    "1848-sixty.html": "64bb743e3d3b267c6691fc42003612796aa5a418b02da3b4e127480d8b63d965",
+    "1848-wowhead.html": "406b11043f3a098b8803f65b06434dbe636e06d9b5bca4e137ecb197fbb3fbca",
+    "annotation-exceptions.json": "e3abfdf26ac8608ccc8da134b6cc0af8beddbf1ef22fee95a820d582c3f2a1aa",
+    "batch-plan.json": "01868813912d587a7a818ccb6c2cc7a92c0661302d8e9290f799aa40bfeee52f",
+    "comparison-provenance.json": "de41f19e59a52322142da2faa4974f33675541296f45f758af875ebe5c41237e",
+    "deepl-index-01.json": "00ad2256e5d61856b94ca08ddb56d23ac6064d22b2b203ffc019039f4b5455be",
+    "deepl-index-02.json": "351a18f0026e7789fa3a4da5f60d8b4f6dd7ec41540ff3319e34998f86210e49",
+    "deepl-request-01.json": "42489b214f33ff90fe8aa42baa8f7ee4228372a1afd3df03a4c1a4b73c68732c",
+    "deepl-request-02.json": "ab25b0c81d6346a57d891048abea936272414bf7ef6e048b8275d1f38c914e0f",
+    "deepl-response-01.json": "5abac8f1237d2b320989faba6eb07d2fce32a93106319ce92f2178424e115fce",
+    "deepl-response-02.json": "5a14ad1d90f81ca30615693744ea7281b668eb38b9c873da6e02fe712082bd95",
+    "edited-group1.json": "d8626685c42e186f2229ddf086bae3ca31af3f392cc3c633ea94649efa86f057",
+    "edited-group2.json": "cef8e048278366c8a7e32bacc2f79eeafa5edd00cf078a3c6b458e94bde10a20",
+    "edited.json": "2d2263ff8ede164467b121c0dcbc16a260eb6959ac58b7ff0bcb164524e1d3f0",
+    "english-sources.json": "edef6623ea9a8302ba0d6e327f7df03039ba4fa3a97e143b34af86f3d04a68b8",
+    "fetched.json": "0a5c9ffc0c7ac998e6633bb3a3cda3078c92b7eb54834f3484163820bef2bcaf",
+    "finalize.py": "ef230c092d87afc4097838d291bab81f8fa8c0bfa690e6d9dc6881de87e6b0ae",
+    "frozen-artifact-hashes.json": "bb969bf5e960c039160b1082d1f12a30b9e16ed6e55df70271bc6f088032f9a3",
+    "held-fields.json": "645eccd6260407ed20f30446153715f45cff12c69b6fb8368a79eefbfd2b8ed4",
+    "item-label-evidence.json": "86d2c9d154987b7ad5285f84b350b3c0ff7a569ea831f36b341b6582cf93f7e5",
+    "new-pronunciations.json": "31a6f888fcb64d1e4504281238e84fc8a9eb8907e8f7ad4aa6eff1a93a647c19",
+    "pronunciation-review-status.json": "2461114180612631c123062876a83b74c35a8d8abb2d8bc846c333e53791fdfd",
+    "pronunciations.json": "c4310cef6bfd4a57a50a9098682721b30ce997bb1c86307be8fac39d9e0df1b2",
+    "proposed-pronunciations.json": "bd6340bc84da1ff99ffbbba7ba49b9015c27b5de27f59db7f192320a2fb7fa7f",
+    "review-audit-group1.json": "66217e8b95916030c084cd98e2abb04ecca4294556e9a0ce056972013bf0d108",
+    "review-audit-group2.json": "1f130c926f559535cd0c1228a06dd7118e662e87c4386fcacfa6dadf540ecc5a",
+    "review-audit.json": "27e352cb05fa72031d172555e786f8be8e15aa4bece352fa9aae7d07481413ec",
+    "review-groups.json": "bbad99a36766107528766f259b4fdff129bf482582a3bdfedd0cdd68b2476663",
+    "semantic-notes-group1.json": "86d5fc61dbca41e301151b93c4f341899f9e53bf47bfe5ba3be3ac85b711b06b",
+    "semantic-notes-group2.json": "5d83996d337af17b35374af068502ac630c5fe80c0f705c7d2d8ff92aac0cc27",
+    "semantic-notes.json": "3dd6372cbc961838340834f794bf613ff96d6097032abf196a2de18da9eec625",
+    "separate-bilingual-review.json": "7d1cb00f63c8f06d72afaa59399816b6948b070f42f4c092ab6d6de779ec0fea",
+    "source-boundaries.json": "40a4819eed75bafbfff2ca35a0fb8388bee59304fd655890e2d848b11b41223a",
+    "source-fetch-attempts.json": "e2003536764df145a66574057542aa143514c38ea201a9dda4c144485fed7e81",
+    "source-holds.json": "85ced34efb78578489b23dcfff010cd0fff9560548fc7a5bd5c7bfc6d9598aa0",
+    "ua-field-countercheck.json": "b7d535c781c643b946941d1f70a370235ede21d9c5a430bf8e391e3e56b36b09",
+    "validation-attempt-01.json": "42451aa6a57d3e72d65541e5bbd522d2e2078e06c26649b171686326647de93b",
+    "validation.json": "72b936192474c3ddc20374b348318b0fe400c9aa6dc10cb21b23c6846f190ed1"
+  },
+  "originalAuthorHashesAfter": {
+    "1823-sixty.html": "ddbc9ffd03325246f818e05f09ba6894376ec3def89261714450f70bd48d12a1",
+    "1823-wowhead.html": "0d1e9e49496f0a29e0827ff3a79ca644ce03edd39344366eac6606b143497d8c",
+    "1824-sixty.html": "3dec8271fffbf5016b04d69b5ddde3dff7caf4c3c5274dffbdce04396fb26803",
+    "1824-wowhead.html": "fac69871ac26791a12649a34ef9ef3e0d70c8b1b4e69256e705df53e884aadf7",
+    "1825-sixty.html": "7d2ca821b4e9761b89725092af4bd65da0168efff8f3ba637e495bc3390582d2",
+    "1825-wowhead.html": "aee445d5b6991223ecbbff99eb6194439d093f19339433b5aaee7b2e2487928a",
+    "1838-sixty.html": "c18993a41da7c0b07455f0558ee639c3dba88cd815897f9ea3f4177af0d21cdb",
+    "1838-wowhead.html": "d715df45129087d65369752e2eebd9435310ad638e9e8929e0b0ed1fc874f487",
+    "1839-sixty.html": "70062bc637836c7a993326829ed9bb0029429ad419f22f9d341a8af4db09dba8",
+    "1839-wowhead.html": "626aef4a2f260d7bae2a70e4d7923f9258b4838743a50dc4ac68579383c5108e",
+    "1840-sixty.html": "9f441238d3e51a3201f90f9d354e339a24f40302237574810ace1aa495e45c65",
+    "1840-wowhead.html": "6895bf22c9194a13486011f058ff46675ba4d7955f7ac1ab55785feeb2437ba2",
+    "1841-sixty.html": "78490e6113adda98f0e698f9807e40e9eee74e97a6805d7d09a4d5b0a5ab0cac",
+    "1841-wowhead.html": "1a690f879a06db6186c854dfa1a765a87cd911e05293f89d1be09a7744013b19",
+    "1842-sixty.html": "53740af477a41ee8142b5daab3fd12bce3e9dbba3cde000114d33132ab31093b",
+    "1842-wowhead.html": "9efd314a31aa3d1f9d40ee7e804790aad9b2acdc8e032eb968b4bfd578bb103e",
+    "1843-sixty.html": "231b7cf6f743c31d8ecb32864f2db356a6f614f222cdadfc7c6ee2282694e6e1",
+    "1843-wowhead.html": "4642d6a97b45b7992ee673e1f785e9d50ecfb6f367d676238448588e78a74c87",
+    "1844-sixty.html": "d3934258e9a366245d5c07b46d991545d99accacb59ea735156d792368719ec5",
+    "1844-wowhead.html": "85ddae43d5342f6c8df8f83ad21a6401fc56a68abdf53e54b2ca2bf9bf95362f",
+    "1845-sixty.html": "465cb624dedca4d6baaf9ffc907e35e8323e1726a5638c8fa880dec980ebdd6c",
+    "1845-wowhead.html": "858a682eb9b285d289f5243c3298f6d7d269e2344b9d52c5b390cc6a8b949f46",
+    "1846-sixty.html": "f8d4848133045a8ce9b267f54af1a294f721f6a0d2e2b6187d3a722fe863a9c9",
+    "1846-wowhead.html": "0bab5775aac7ab5a3c5a09f4ca11fa8971539eb0cffa63fdebf60f8d9a21bcd2",
+    "1847-sixty.html": "badcda200b69a04688d432b4625a350c46d21f6f59db51ff70a0b6ada6936ee8",
+    "1847-wowhead.html": "3a8ef79d1efdb7f0d0586d0ab69f6e94ca30ffd50b9819dd2e7f6df233925687",
+    "1848-sixty.html": "64bb743e3d3b267c6691fc42003612796aa5a418b02da3b4e127480d8b63d965",
+    "1848-wowhead.html": "406b11043f3a098b8803f65b06434dbe636e06d9b5bca4e137ecb197fbb3fbca",
+    "annotation-exceptions.json": "e3abfdf26ac8608ccc8da134b6cc0af8beddbf1ef22fee95a820d582c3f2a1aa",
+    "batch-plan.json": "01868813912d587a7a818ccb6c2cc7a92c0661302d8e9290f799aa40bfeee52f",
+    "comparison-provenance.json": "de41f19e59a52322142da2faa4974f33675541296f45f758af875ebe5c41237e",
+    "deepl-index-01.json": "00ad2256e5d61856b94ca08ddb56d23ac6064d22b2b203ffc019039f4b5455be",
+    "deepl-index-02.json": "351a18f0026e7789fa3a4da5f60d8b4f6dd7ec41540ff3319e34998f86210e49",
+    "deepl-request-01.json": "42489b214f33ff90fe8aa42baa8f7ee4228372a1afd3df03a4c1a4b73c68732c",
+    "deepl-request-02.json": "ab25b0c81d6346a57d891048abea936272414bf7ef6e048b8275d1f38c914e0f",
+    "deepl-response-01.json": "5abac8f1237d2b320989faba6eb07d2fce32a93106319ce92f2178424e115fce",
+    "deepl-response-02.json": "5a14ad1d90f81ca30615693744ea7281b668eb38b9c873da6e02fe712082bd95",
+    "edited-group1.json": "d8626685c42e186f2229ddf086bae3ca31af3f392cc3c633ea94649efa86f057",
+    "edited-group2.json": "cef8e048278366c8a7e32bacc2f79eeafa5edd00cf078a3c6b458e94bde10a20",
+    "edited.json": "2d2263ff8ede164467b121c0dcbc16a260eb6959ac58b7ff0bcb164524e1d3f0",
+    "english-sources.json": "edef6623ea9a8302ba0d6e327f7df03039ba4fa3a97e143b34af86f3d04a68b8",
+    "fetched.json": "0a5c9ffc0c7ac998e6633bb3a3cda3078c92b7eb54834f3484163820bef2bcaf",
+    "finalize.py": "ef230c092d87afc4097838d291bab81f8fa8c0bfa690e6d9dc6881de87e6b0ae",
+    "frozen-artifact-hashes.json": "bb969bf5e960c039160b1082d1f12a30b9e16ed6e55df70271bc6f088032f9a3",
+    "held-fields.json": "645eccd6260407ed20f30446153715f45cff12c69b6fb8368a79eefbfd2b8ed4",
+    "item-label-evidence.json": "86d2c9d154987b7ad5285f84b350b3c0ff7a569ea831f36b341b6582cf93f7e5",
+    "new-pronunciations.json": "31a6f888fcb64d1e4504281238e84fc8a9eb8907e8f7ad4aa6eff1a93a647c19",
+    "pronunciation-review-status.json": "2461114180612631c123062876a83b74c35a8d8abb2d8bc846c333e53791fdfd",
+    "pronunciations.json": "c4310cef6bfd4a57a50a9098682721b30ce997bb1c86307be8fac39d9e0df1b2",
+    "proposed-pronunciations.json": "bd6340bc84da1ff99ffbbba7ba49b9015c27b5de27f59db7f192320a2fb7fa7f",
+    "review-audit-group1.json": "66217e8b95916030c084cd98e2abb04ecca4294556e9a0ce056972013bf0d108",
+    "review-audit-group2.json": "1f130c926f559535cd0c1228a06dd7118e662e87c4386fcacfa6dadf540ecc5a",
+    "review-audit.json": "27e352cb05fa72031d172555e786f8be8e15aa4bece352fa9aae7d07481413ec",
+    "review-groups.json": "bbad99a36766107528766f259b4fdff129bf482582a3bdfedd0cdd68b2476663",
+    "semantic-notes-group1.json": "86d5fc61dbca41e301151b93c4f341899f9e53bf47bfe5ba3be3ac85b711b06b",
+    "semantic-notes-group2.json": "5d83996d337af17b35374af068502ac630c5fe80c0f705c7d2d8ff92aac0cc27",
+    "semantic-notes.json": "3dd6372cbc961838340834f794bf613ff96d6097032abf196a2de18da9eec625",
+    "separate-bilingual-review.json": "7d1cb00f63c8f06d72afaa59399816b6948b070f42f4c092ab6d6de779ec0fea",
+    "source-boundaries.json": "40a4819eed75bafbfff2ca35a0fb8388bee59304fd655890e2d848b11b41223a",
+    "source-fetch-attempts.json": "e2003536764df145a66574057542aa143514c38ea201a9dda4c144485fed7e81",
+    "source-holds.json": "85ced34efb78578489b23dcfff010cd0fff9560548fc7a5bd5c7bfc6d9598aa0",
+    "ua-field-countercheck.json": "b7d535c781c643b946941d1f70a370235ede21d9c5a430bf8e391e3e56b36b09",
+    "validation-attempt-01.json": "42451aa6a57d3e72d65541e5bbd522d2e2078e06c26649b171686326647de93b",
+    "validation.json": "72b936192474c3ddc20374b348318b0fe400c9aa6dc10cb21b23c6846f190ed1"
+  },
+  "priorReport": {
+    "path": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\morning-2026-11-23\\independent-review\\horde_warrior.json",
+    "SHA256Before": "1dfd9ab15fbebf22a60541b202b74ff821c2df26ace2b892692ba9b18f0fa303",
+    "SHA256After": "1dfd9ab15fbebf22a60541b202b74ff821c2df26ace2b892692ba9b18f0fa303",
+    "unchanged": true
+  },
+  "sourceInputHashes": {
+    "english-sources.json": "edef6623ea9a8302ba0d6e327f7df03039ba4fa3a97e143b34af86f3d04a68b8",
+    "held-fields.json": "645eccd6260407ed20f30446153715f45cff12c69b6fb8368a79eefbfd2b8ed4",
+    "maintained-pronunciations.json": "a907528e1a80df0088c28654ff184b1be4cb7aee1d5af1bf87257a48dd6113c7"
+  },
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationNativeApproval": "pending",
+    "currentLiveForeverVerification": "not performed",
+    "controllerHardwareVerification": "not performed"
+  },
+  "frozen": true
+}

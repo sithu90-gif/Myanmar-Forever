@@ -1,0 +1,19 @@
+{
+  "status": "failed",
+  "tool": "actual linguistic_lint.lint during finalize.py",
+  "issues": [
+    {
+      "id": "1823",
+      "field": "detail",
+      "term": "Ruga",
+      "problem": "first_occurrence_without_annotation"
+    },
+    {
+      "id": "1825",
+      "field": "detail",
+      "term": "Thun'grim",
+      "problem": "first_occurrence_without_annotation"
+    }
+  ],
+  "resolution": "Reviewed field-specific shortened-reference exceptions: first full NPC identity already annotated in same field; subsequent shortened reference shares that identity. No semantic text or canonical pronunciation changed."
+}

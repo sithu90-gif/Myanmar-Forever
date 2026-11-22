@@ -1,0 +1,59 @@
+{
+  "result": "PASS",
+  "questCount": 22,
+  "fieldSlots": 110,
+  "availableEnglishFields": 90,
+  "actualDeepLFields": 90,
+  "enabledFields": 88,
+  "formalHeldEnglishFields": 2,
+  "unavailableEnglishSlots": 20,
+  "uaOnlyUnavailableEnglishSlots": [
+    {
+      "id": 96395,
+      "field": "progress"
+    },
+    {
+      "id": 96395,
+      "field": "complete"
+    }
+  ],
+  "actualChecks": {
+    "linguistic_lint.lint": "PASS all22 finaledited records",
+    "build_release.validate_fields": "PASS all110slots",
+    "rawProvenance": "PASS all90 request/index/output/final field hash chains",
+    "originalPrimaryReparse": "PASS allfields except explicit1464secondary-onlydetail",
+    "paragraphBoundaries": "PASS everyenabledfield",
+    "literalEmoteCommands": "PASS exact/cheer sourcecase",
+    "immutableAuthorGroupSnapshots": "PASS all checkpoint artifact hashes",
+    "DeepLBounds": [
+      {
+        "batch": 1,
+        "texts": 22,
+        "inputCharacters": 4695
+      },
+      {
+        "batch": 2,
+        "texts": 17,
+        "inputCharacters": 4221
+      },
+      {
+        "batch": 3,
+        "texts": 28,
+        "inputCharacters": 4861
+      },
+      {
+        "batch": 4,
+        "texts": 23,
+        "inputCharacters": 3356
+      }
+    ]
+  },
+  "assistedAuthorReview": "all3separateEnglish/Myanmarrereads complete; affected9field pronunciation reread repeated",
+  "authorCorrectionsCount": 9,
+  "independentAssistedReview": "pending fresh separate reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciations": "assisted editorial proposals; native approval pending",
+  "currentLiveVerification": "not tested;98287/96395activation unverified",
+  "controllerHardwareVerification": "not tested",
+  "checkedAtUTC": "2026-11-22T20:56:47.890515+00:00"
+}
