@@ -1,0 +1,39 @@
+{
+  "95140.complete": {
+    "sourceHTMLFile": "95140-wowhead.html",
+    "sourceHTMLSHA256": "a59aeffac8152fa3acd5ea44d58a7c955dfe8e7c26c16d41c638e452152d42c8",
+    "actualScriptStrippedCompletionHTML": "Thank you, &lt;name&gt;. Banon may now rest in peace.<br /><br />If you would be willing to allow it, I believe that I can impart some magic upon your freshly blooded blade to infuse it with a small measure of the magic of my people.<br /><br /><br /><br />It is done. It's a small thing, and I could scarcely improve such a magnificent blade. Regardless, I will pray to the winds that it serves you well, &lt;class&gt;.",
+    "gapHTML": "<br /><br /><br /><br />",
+    "gapAssessment": "Literal4linebreaks, no encoded unparsed stage/chant; onlyencoded angle placeholders name/class.60.tools lacksCompletion state entirely; UA has same3spokenparagraphs and2linebreaknormal gap without extra stage. Retain primary4newlinegap. No chant invented; not evidence of runtime or live action.",
+    "english": "Thank you, <name>. Banon may now rest in peace.\n\nIf you would be willing to allow it, I believe that I can impart some magic upon your freshly blooded blade to infuse it with a small measure of the magic of my people.\n\n\n\nIt is done. It's a small thing, and I could scarcely improve such a magnificent blade. Regardless, I will pray to the winds that it serves you well, <class>.",
+    "secondaryState": null,
+    "ua": "Дякую, {ім'я:к}. Тепер Банон може спочивати з миром.\n\nЯкщо дозволиш, я міг би зачарувати твій щойно окроплений кров'ю клинок, наділивши його дещицею магії мого народу.\n\nГотово. Це дрібниця, навряд чи я міг істотно поліпшити такий чудовий клинок. Утім, молитимуся вітрам, щоб він добре служив тобі, {клас:к}."
+  },
+  "95036.objectiveTable": {
+    "bodyNotExtended": true,
+    "sourceHTMLFile": "95036-wowhead.html",
+    "items": [
+      {
+        "id": 267454,
+        "en": "Trevan's Weapon Notes",
+        "quantity": 1
+      },
+      {
+        "id": 6994,
+        "en": "Whitestone Oak Lumber",
+        "quantity": 1
+      },
+      {
+        "id": 267361,
+        "en": "Enchanted Silver Ingot",
+        "quantity": 1
+      },
+      {
+        "id": 272448,
+        "en": "Purified Kor Gem",
+        "quantity": 1
+      }
+    ],
+    "note": "Separate objective-table counts, not inserted into English source body or translated objective. InstalledFullRecord10 matches4itemIDs withamount0 unspecified; tableprovidesquantity1each."
+  }
+}

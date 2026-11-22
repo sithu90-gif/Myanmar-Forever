@@ -1,0 +1,1960 @@
+{
+  "reviewedUTC": "2026-11-22T06:54:26.107786+00:00",
+  "reviewerRole": "author source-aware assisted check; not independent/native/live verification",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-22T06:36:58.533957+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "metadataReference": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "quests": [
+    {
+      "id": 98576,
+      "primaryOwnIDTitle": {
+        "id": 98576,
+        "title": "Glyphic Parchment",
+        "data": [
+          {
+            "name_enus": "Glyphic Parchment",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 128,
+            "reqrace": 2
+          }
+        ],
+        "HTMLSHA256": "6c074be4e119168738068ea76fe2d1c5b997567a3c1f578e7cf4e0c9eef4e18b"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "f082932eb613e869b973111dd7791208bd185b60289021d30351a56a06c1fcfe"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3143
+          ]
+        ],
+        "3": [
+          [
+            5884
+          ]
+        ],
+        "8": [
+          "Read the Glyphic Parchment and speak with Mai'ah near the entrance to the Den in the Valley of Trials."
+        ],
+        "13": [
+          788
+        ],
+        "26": [
+          [
+            76,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Glyphic Parchment",
+          "4": 1,
+          "5": 1,
+          "6": 2,
+          "7": 128,
+          "11": 282380,
+          "17": -161,
+          "p": 33558662
+        }
+      },
+      "installedSummary": {
+        "1": "Glyphic Parchment",
+        "4": 1,
+        "5": 1,
+        "6": 2,
+        "7": 128,
+        "11": 282380,
+        "17": -161,
+        "p": 33558662
+      },
+      "allUAFields": [
+        {
+          "title": "Гліфічний пергамент",
+          "detail": "А, поки тебе не було, тобі прийшов пергамент, {ім'я}.\n\nПрочитай його, коли матимеш час. Якщо я не помиляюся, він від тренерки магів Майї. Вона поговорить з тобою, коли ти будеш готовий.",
+          "objective": "Прочитайте Гліфічний пергамент і поговоріть з Май'ах біля входу до Лігва в Долині Випробувань.",
+          "progress": "Ти {стать:прийшов:прийшла} до Май'а з готовністю вчитися. Це добре. Маєш силу торкатися ниток космосу, але й досить мудрості, щоб розуміти, що тобі потрібен наставник. Я навчу тебе перших кроків у володінні цією силою.",
+          "complete": "Магія, що тече крізь тебе, — найбільша сила у всесвіті, але треба мати терпіння. Чекай слушної миті для удару. Обирай правильну відповідь на виклик перед тобою. Якщо діятимеш розумно й уважно стежитимеш, зможеш усе.\n\nКоли відчуєш готовність до навчання, повертайся до Май'а. Вона без проблем навчить тебе того, до чого ти вже {стать:готовий:готова}.",
+          "en": "Glyphic Parchment",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 1,
+      "minimumLevel": 1,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Current primary Orc race2/Mage class8(reqclass128), Gornek3143→Mai'ah5884. Own questData envChange.status=new and no obsolete/removed quest flag. Installed full prerequisite13=[788]; primary itself exposes no prereq788, so live acceptance/chain remains pending.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 897,
+      "primaryOwnIDTitle": {
+        "id": 897,
+        "title": "The Harvester",
+        "data": [
+          {
+            "name_enus": "The Harvester",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "bed0ca2546440fa7956b689c0e38f2c67896c9548dc79d06dc16b721a4f7e23f"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "3d133949839636edc27e9c4d52a58567a721b13007f3fd66ced7f513320d53f9"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": {
+          "3": [
+            5138
+          ]
+        },
+        "3": [
+          [
+            3387
+          ]
+        ],
+        "8": [
+          "Bring the Harvester's Head to Jorn Skyseer."
+        ],
+        "26": [
+          [
+            81,
+            150
+          ]
+        ],
+        "S": {
+          "1": "The Harvester",
+          "4": 10,
+          "5": 24,
+          "6": 8589934770,
+          "11": 5138,
+          "17": 17,
+          "p": 33554566
+        }
+      },
+      "installedSummary": {
+        "1": "The Harvester",
+        "4": 10,
+        "5": 24,
+        "6": 8589934770,
+        "11": 5138,
+        "17": 17,
+        "p": 33554566
+      },
+      "allUAFields": [
+        {
+          "title": "Жнець",
+          "detail": "Ця дивна, комахоподібна істота виглядає неприродно для Степів.",
+          "objective": "Принесіть Джорнові Небесному Провидцю голову женця.",
+          "progress": "Тебе щось турбує, {ім'я}. Як проходить твоє навчання в Степах? Що тебе так схвилювало?",
+          "complete": "Я нічого не можу сказати про природу цього звіра, бо його духу не залишилось. Але, як ти вже {стать:здогадався:здогадалась}, йому не місце в Степах. Боюся, він може бути вісником похмурого майбутнього для нашого народу...\n\nА поки що готуйся до найгіршого і будемо сподіватися, що з часом ми розгадаємо таємницю цієї істоти.",
+          "en": "The Harvester",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 24,
+      "minimumLevel": 10,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 862,
+      "primaryOwnIDTitle": {
+        "id": 862,
+        "title": "Dig Rat Stew",
+        "data": [
+          {
+            "name_enus": "Dig Rat Stew",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "12085a7d48d83508dbe07d1b6ad819721433fb694754f4757e35d187db381a27"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "38918614591126ae46611c64b829ee39e016caa6335f50a9f33a34583c4535c4"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3443
+          ]
+        ],
+        "3": [
+          [
+            3443
+          ]
+        ],
+        "8": [
+          "Bring 8 Dig Rats to Grub east of the Crossroads."
+        ],
+        "10": {
+          "3": [
+            [
+              5051,
+              null,
+              0
+            ]
+          ]
+        },
+        "18": [
+          185,
+          15
+        ],
+        "26": [
+          [
+            76,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Dig Rat Stew",
+          "4": 15,
+          "5": 23,
+          "6": 8589934770,
+          "17": -304,
+          "23": 8,
+          "p": 33686150
+        }
+      },
+      "installedSummary": {
+        "1": "Dig Rat Stew",
+        "4": 15,
+        "5": 23,
+        "6": 8589934770,
+        "17": -304,
+        "23": 8,
+        "p": 33686150
+      },
+      "allUAFields": [
+        {
+          "title": "Рагу з печерних щурів",
+          "detail": "{стать:Такий:Така} {клас}, як ти, певно, любить добре попоїсти. Я от постійно хочу їсти.\n\nЯ приготую тобі смачний гуляш. Тільки мені потрібні печерні щури.\n\nІ схоже, що у брудних дворфів в Бель-Модані водиться купа цих смаколиків. Тож йди на південь до Бель-Модана і принеси мені кількох печерних щурів.\n\nТи не станеш {стать:досвідченим пригодником:досвідченою пригодницею}, доки не наб'єш руку на щурах! Ха!",
+          "objective": "Принесіть 8 печерних щурів Бубону на сході від Перехрестя.",
+          "progress": "Ти вже {стать:набив:набила} вдосталь щурів, {ім'я}?",
+          "complete": "Зазвичай я не їм цих гризунів, коли вони такі... такі... свіжі. Їм треба полежати кілька тижнів, щоб вони розкрили сіій смак. Але ти виглядаєш {стать:таким голодним:такою голодною}.\n\nДавай-но я зварю для тебе рагу. Ось.\n\nСкуштуй!",
+          "en": "Dig Rat Stew",
+          "faction": "Both"
+        }
+      ],
+      "questLevel": 23,
+      "minimumLevel": 15,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Current primary Horde/cooking, Grub3443; installed cooking185/rank15. UA factionBoth differs; do not infer either live availability from UAorwideinstalledmask.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 97250,
+      "primaryOwnIDTitle": {
+        "id": 97250,
+        "title": "Wrongly Blamed, Justly Corrected",
+        "data": [
+          {
+            "name_enus": "Wrongly Blamed, Justly Corrected",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "4fdca40b2db988fe717ece96cdef403436bcdf72936f728c9eb885a484d2db3d"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "f3faffebb78cd6a9173099fe71831d71e8ddccaee8771b562ae0db1b9dd0b43c"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "not supplied in current primary",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            5911
+          ]
+        ],
+        "3": [
+          [
+            5911
+          ]
+        ],
+        "8": [
+          "Slay Alliance soldiers encroaching into the Barrens at the border to Dustwallow Marsh, then return to Grunt Logmar at Camp Taurajo."
+        ],
+        "10": [
+          [
+            [
+              268622,
+              null,
+              0
+            ],
+            [
+              268623,
+              null,
+              0
+            ]
+          ]
+        ],
+        "S": {
+          "1": "Wrongly Blamed, Justly Corrected",
+          "4": 18,
+          "5": 23,
+          "6": 8589934770,
+          "17": 17,
+          "p": 646
+        }
+      },
+      "installedSummary": {
+        "1": "Wrongly Blamed, Justly Corrected",
+        "4": 18,
+        "5": 23,
+        "6": 8589934770,
+        "17": 17,
+        "p": 646
+      },
+      "allUAFields": [
+        {
+          "title": "Неправильно звинувачений, справедливо виправлений",
+          "detail": "Мандрівнику, ти плануєш вирушити до Пилових Болот? Я чув чутки, що кілька людських солдатів зайняли позиції на його кордоні та руйнують орієнтири, залишені нашими тауренами-слідопитами.\n\nХодять чутки, що улюблена таверна згоріла дотла, і, як це типово для Альянсу, вони одразу ж звинувачують Орду! Я не знаю, чи є в їхньому твердженні якась правда, але їхнє вторгнення на НАШУ землю не повинно мати місця.\n\nСпочатку вбий, потім розслідуй!",
+          "objective": "Знищте солдатів Альянсу, які вторгаються в Степу на кордоні з Пиловими болотами, а потім поверніться до Грунта Логмара в табір Таураджо.",
+          "progress": "Є новини з кордону?",
+          "complete": "Отже, чутки правдиві! Я так і думав, напруження вздовж східного узбережжя вже певний час зростало. Було зрозуміло, що рано чи пізно конфлікт дістанеться й наших земель.\n\nОднак я сумніваюся, що ми причетні до знищення таверни. Забагато мирних мешканців Орди покладаються на цей шлях у торгівлі й мандрах. Можливо, за нагоди ти зможеш дослідити це далі.\n\nУ будь-якому разі сьогоднішня справа — перемога Орди й суворе попередження Альянсу!",
+          "en": "Wrongly Blamed, Justly Corrected",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 23,
+      "minimumLevel": 18,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested",
+      "objectiveTrackerSupportingMetadata": {
+        "targets": [
+          {
+            "id": 268622,
+            "English": "Encroaching Soldier",
+            "count": 2
+          },
+          {
+            "id": 268623,
+            "English": "Outraged Pillager",
+            "count": 1
+          }
+        ],
+        "primaryHTMLSHA256": "4fdca40b2db988fe717ece96cdef403436bcdf72936f728c9eb885a484d2db3d",
+        "disposition": "Original separate tracker table retained; fetched five-field objective body and translation do not add tracker numbers or targets."
+      }
+    },
+    {
+      "id": 98093,
+      "primaryOwnIDTitle": {
+        "id": 98093,
+        "title": "Field to Clear",
+        "data": [
+          {
+            "name_enus": "Field to Clear",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "1417f01209816e698fb85996531530c4b65300d771d5b09ed11179eeec6eaa79"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "bd96c4fbfb8d23edef9cc2ae39ab1673ce4f4792608db7c3e3b73a2b5e18b5e4"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            14242
+          ]
+        ],
+        "3": [
+          [
+            14242
+          ]
+        ],
+        "8": [
+          "Sulhasa in southern Barrens wants you to clear out 7 Stormhide lizards and 7 Hecklefang Stalkers in the area so she can leave the tree safely."
+        ],
+        "10": [
+          [
+            [
+              4128,
+              null,
+              0
+            ],
+            [
+              3238,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            67,
+            37.5
+          ],
+          [
+            68,
+            37.5
+          ],
+          [
+            76,
+            37.5
+          ],
+          [
+            81,
+            150
+          ],
+          [
+            530,
+            37.5
+          ]
+        ],
+        "S": {
+          "1": "Field to Clear",
+          "4": 18,
+          "5": 23,
+          "6": 8589934770,
+          "17": 17,
+          "p": 33555078
+        }
+      },
+      "installedSummary": {
+        "1": "Field to Clear",
+        "4": 18,
+        "5": 23,
+        "6": 8589934770,
+        "17": 17,
+        "p": 33555078
+      },
+      "allUAFields": [
+        {
+          "title": "Поле для очищення",
+          "detail": "Я так рада, що ти мене побачив!\n\nСьогодні вранці погода була чудова, тому я пішов з табору Таураджо золотою дорогою. Коли настав час повертатися назад, я не зміг — зграя гієн почала кружляти навколо, а ящірки Бурехливої Шкіри заблокували мій єдиний шлях до порятунку.\n\nЯ видерся на це дерево, і тепер навколо о цій порі забагато ворогів, щоб я міг бігти додому через поля.\n\nНе міг би ти позбутися цих переслідувачів Бурехливої Шкіри та Хекльфанга?",
+          "objective": "Сульхаса з південного Степу хоче, щоб ви знищили 7 ящірок Бурехливих та 7 переслідувачів-Чарівників у цьому районі, щоб вона могла безпечно покинути дерево.",
+          "progress": "Можливо, скоро випаде нагода спуститися так, щоб вони мене не помітили...",
+          "complete": "Дякую за допомогу, {ім'я:к}. Повідомлю до табору Таурахо, що тобі вдалося мене врятувати. Як же пощастило, що ти {стать:допоміг:допомогла}! Я міг би просидіти там увесь день!\n\nЦе все, чим я можу поділитися, та сподіваюся, воно тобі стане в пригоді.\n\nЩойно обережно спущуся, відразу піду звідси.",
+          "en": "Field to Clear",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 23,
+      "minimumLevel": 18,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 3513,
+      "primaryOwnIDTitle": {
+        "id": 3513,
+        "title": "The Runed Scroll",
+        "data": [
+          {
+            "name_enus": "The Runed Scroll",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "a7213ca98bc9d983ca64fc3b006707a15a6e583a35c8fa6ae6b964d79458af6c"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "29669982140c7f1c3f568fbd6b81d705b4c3c60144de06ae7636697a6d5456a2"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": {
+          "3": [
+            10621
+          ]
+        },
+        "3": [
+          [
+            8582
+          ]
+        ],
+        "8": [
+          "Take the Runed Scroll to the northern guard tower in the Barrens."
+        ],
+        "26": [
+          [
+            76,
+            150
+          ]
+        ],
+        "S": {
+          "1": "The Runed Scroll",
+          "4": 15,
+          "5": 25,
+          "6": 8589934770,
+          "11": 10621,
+          "17": 17,
+          "22": 3514,
+          "p": 33554566
+        }
+      },
+      "installedSummary": {
+        "1": "The Runed Scroll",
+        "4": 15,
+        "5": 25,
+        "6": 8589934770,
+        "11": 10621,
+        "17": 17,
+        "22": 3514,
+        "p": 33554566
+      },
+      "allUAFields": [
+        {
+          "title": "Сувій з рунами",
+          "detail": "Сувій виглядає дуже по-офіційному, щільно обмотаний сріблястою стрічкою. Ви впевнені, що комусь його буде цікаво побачити, але кому?\n\nНа північному кордоні з Ясенеділом стоїть форпост. Якщо інформація в цьому згортку стосується нічних ельфів, то саме туди його і варто віднести.",
+          "objective": "Віднесіть сувій з рунами до північної вартової вежі Степів.",
+          "progress": "Шо це таке?!",
+          "complete": "Ну гаразд... де ти це {стать:знайшов:знайшла}?",
+          "en": "The Runed Scroll",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 25,
+      "minimumLevel": 15,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 3514,
+      "primaryOwnIDTitle": {
+        "id": 3514,
+        "title": "Horde Presence",
+        "data": [
+          {
+            "name_enus": "Horde Presence",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "237e735e81d1f25b0defe67ed36005618c2947252437c973880a20f0805eb3d1"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "e2452f1053c02f0ce761febb76746bdf414a28af8b0b74f5da2ad1d6a330f227"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "not supplied in current primary",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            8582
+          ]
+        ],
+        "3": [
+          [
+            8582
+          ]
+        ],
+        "8": [
+          "Kill the leader of the Talon Den, Rynthariel the Keymaster."
+        ],
+        "10": [
+          [
+            [
+              8518,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          3513
+        ],
+        "26": [
+          [
+            76,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Horde Presence",
+          "4": 15,
+          "5": 29,
+          "6": 8589934770,
+          "11": 10622,
+          "17": 17,
+          "p": 33559174
+        }
+      },
+      "installedSummary": {
+        "1": "Horde Presence",
+        "4": 15,
+        "5": 29,
+        "6": 8589934770,
+        "11": 10622,
+        "17": 17,
+        "p": 33559174
+      },
+      "allUAFields": [
+        {
+          "title": "Присутність Орди",
+          "detail": "Цей сувій від тієї підступної дріади Ринтаріель, ключниці лігва Кігтя на Каміннопазуристому піку.\n\nЩо ж, більше вона не зустрінеться з вістовим, у якого ти це {стать:забрав:забрала}, але ми повинні відстояти своє. Орда не потерпить такого нахабства!\n\n{ім'я}, вирушай до лігва Кігтя. Вбий Ринтаріель і встанови там знак, щоб видно було звідусіль. Візьми цей стяг Орди, {ім'я}. Розмісти його в самому лігві Кігтя, щоб наступного разу вони двічі подумали, перш ніж відправити посланця через нашу територію.",
+          "objective": "Убийте ватажка лігва Кігтя, ключницю Ринтаріель.",
+          "progress": "Ми не можемо дозволити Альянсу шастати по нашій території, {ім'я}. Провчи їх як слід!",
+          "complete": "Ну ти {стать:крутий:крута}! Спекатися Ринтаріель в лігві Кігтя - це важливий крок, {ім'я}. Поки вони помалу перегруповуватимуться, по Степах бігатиме менше шпигунів Альянсу. Пройде час, перш ніж вони наважаться відправити наступного.\n\nДякую.",
+          "en": "Horde Presence",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 29,
+      "minimumLevel": 15,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 97538,
+      "primaryOwnIDTitle": {
+        "id": 97538,
+        "title": "Pigments for Paints",
+        "data": [
+          {
+            "name_enus": "Pigments for Paints",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "769ea79e9619c5c49f77ed7a57c00378765645c2eca282c452e0db839ebf413f"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "05efb0f0befe805016944715c9fc130d259fb5e0d8e70398a5fdd64e38840717"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3024
+          ]
+        ],
+        "3": [
+          [
+            3024
+          ]
+        ],
+        "8": [
+          "Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake."
+        ],
+        "10": {
+          "3": [
+            [
+              278201,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            67,
+            25
+          ],
+          [
+            68,
+            25
+          ],
+          [
+            76,
+            25
+          ],
+          [
+            81,
+            100
+          ],
+          [
+            530,
+            25
+          ]
+        ],
+        "S": {
+          "1": "Pigments for Paints",
+          "4": 20,
+          "5": 26,
+          "6": 8589934770,
+          "17": 406,
+          "p": 33555078
+        }
+      },
+      "installedSummary": {
+        "1": "Pigments for Paints",
+        "4": 20,
+        "5": 26,
+        "6": 8589934770,
+        "17": 406,
+        "p": 33555078
+      },
+      "allUAFields": [
+        {
+          "title": "Пігменти для фарб",
+          "detail": "Вітаю, друже. Чи можу я попросити тебе про послугу? У мене щойно закінчився червоний пігмент для фарб, і я шукаю когось із молодшими копитами, щоб здійснити довгу подорож у Кігті-Гори замість мене.\n\nПосеред гірського перевалу розташоване велике кругле озеро, озеро Миркфаллон, у водах якого росте унікальна рослина. Стручки цієї рослини, зворушки, стають яскраво-червоними після висихання. Збери стручки цієї рослини для мене, і я щедро винагороджу тебе за твої зусилля.",
+          "objective": "Та Зимове Копито у Громовій Утесі хоче 30 стручків Лихоросу з озера Лихопаллон.",
+          "progress": "Ти {стать:повернувся:повернулася}! Вдалося знайти стручки лихоцвіту в Хмуромутному озері?\n\nМи, таурени, поколіннями використовуємо пігмент цієї рослини у фарбах, тож будемо вдячні за будь-яку кількість. Хоча червоний пігмент можна добути багатьма способами, з усіх відомих мені саме лихоцвіт дає найнасиченіший і найяскравіший відтінок.",
+          "complete": "А, дякую, {ім'я:к}.\n\nДля мене багато означає, що ти {стать:вирушив:вирушила} аж туди заради того, що, мабуть, здається тобі дрібною примхою старого таурена. Завдяки твоїй доброті мені вистачить пігменту до кінця сезону.\n\nДякую за підтримку мого ремесла. Я постараюся створити щось величне з принесених тобою пігментів.",
+          "en": "Pigments for Paints",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 26,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 98251,
+      "primaryOwnIDTitle": {
+        "id": 98251,
+        "title": "Never Coming Back",
+        "data": [
+          {
+            "name_enus": "Never Coming Back",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          },
+          {
+            "name_enus": "Never Coming Back",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "d435b93270f551bc886562f91c0a7baa2b366922ced46758ec7fc15ce9c939cb"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "236579edb1d6c22157b0070b4a57283ffe158cb846e7bd0999afce2cdbbbaf45"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            267214
+          ]
+        ],
+        "3": [
+          [
+            267214
+          ]
+        ],
+        "8": [
+          "Kill 6 Shadowhorn Stag and 6 Ashenvale Bear and return to Va'xug Firefure northwest of Fallen Sky Lake."
+        ],
+        "10": [
+          [
+            [
+              3817,
+              null,
+              0
+            ],
+            [
+              3809,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            67,
+            2.5
+          ],
+          [
+            68,
+            2.5
+          ],
+          [
+            76,
+            2.5
+          ],
+          [
+            81,
+            10
+          ],
+          [
+            530,
+            2.5
+          ]
+        ],
+        "S": {
+          "1": "Never Coming Back",
+          "4": 18,
+          "5": 23,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 98252,
+          "p": 33555078
+        }
+      },
+      "installedSummary": {
+        "1": "Never Coming Back",
+        "4": 18,
+        "5": 23,
+        "6": 8589934770,
+        "17": 1638,
+        "22": 98252,
+        "p": 33555078
+      },
+      "allUAFields": [
+        {
+          "title": "Ніколи не повернуся",
+          "detail": "Ааа!\n\nЯ такий злий. Казали, що в Ясенедолі легко стежити. Кому легко? Звірам? Птахам?\n\nОдну мить я збирав траву, а наступної — у пастці в цьому яру. Невже мені справді потрібно обійти півлісу, щоб дістатися туди, де я стояв лише кілька хвилин тому?\n\nКоли я такий, мої чари стають нестабільними та поводяться... інакше.\n\nЧи міг би ти прорідити диких тварин поблизу? Навіть їхні дурні копита ріжуть мене. Я зневажливо ставлюся до цього проклятого лісу.",
+          "objective": "Убийте 6 оленів Тіньового Рогу та 6 ведмедів Ясенеділу та поверніться до Ва'ксугської Вогняної Люті на північний захід від Озера Падшого Неба.",
+          "progress": "Щойно виберуся звідси, більше сюди не повернуся.",
+          "complete": "Ха! Ось так, потвори!\n\nДякую. Здається, це вже допомогло.",
+          "en": "Never Coming Back",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 23,
+      "minimumLevel": 18,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 98252,
+      "primaryOwnIDTitle": {
+        "id": 98252,
+        "title": "A Void Path",
+        "data": [
+          {
+            "name_enus": "A Void Path",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          },
+          {
+            "name_enus": "A Void Path",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "de1bac9a0f3c4017ee7a615aa2e53ff663d7e4d74a2c90fc1cbf9cce52458fc4"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "36d3f73b45ce5c3a04584ca0a064133ad80f8ca3c4929b7d9bcdfd4a445215ab"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "not supplied in current primary",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            267214
+          ]
+        ],
+        "3": [
+          [
+            271181
+          ]
+        ],
+        "8": [
+          "Show Va'xug's Eye of Kilrogg the way back to the main Ashenvale road."
+        ],
+        "9": [
+          "Eye of Kilrogg guided to the road",
+          {
+            "331": [
+              [
+                44.37,
+                56.48
+              ]
+            ]
+          }
+        ],
+        "13": [
+          98251
+        ],
+        "26": [
+          [
+            67,
+            2.5
+          ],
+          [
+            68,
+            2.5
+          ],
+          [
+            76,
+            2.5
+          ],
+          [
+            81,
+            10
+          ],
+          [
+            530,
+            2.5
+          ]
+        ],
+        "S": {
+          "1": "A Void Path",
+          "4": 18,
+          "5": 23,
+          "6": 8589934770,
+          "17": 16169,
+          "p": 33558918
+        }
+      },
+      "installedSummary": {
+        "1": "A Void Path",
+        "4": 18,
+        "5": 23,
+        "6": 8589934770,
+        "17": 16169,
+        "p": 33558918
+      },
+      "allUAFields": [
+        {
+          "title": "Порожній шлях",
+          "detail": "Покажи моєму Оку Кілрогга вихід з цього яру назад до дороги до Ясенеділу. Тримай його, а я піду за тобою, щойно побачу вільний шлях.\n\nЯ залишуся тут — один із нас має тримати курс. Якщо ти заблукаєш, я можу провести тебе назад через око. Я не дозволю нам обом блукати наосліп у цьому зловісному лісі.\n\nЯ можу утримувати канал чотири хвилини. Не довше. Доберися до дороги, перш ніж зникне видіння, або повернися до мене, і ми спробуємо ще раз.",
+          "objective": "Покажіть Оку Кілроґґа Ва’ксуґа шлях назад до головної дороги Ясенедолу.",
+          "progress": null,
+          "complete": "<Із летючого ока долинає відлуння голосу Ва'ксуґа.>\n\n«Невже це було так просто? Байдуже. Це видіння допоможе спрямувати мого неслухняного пустотника правильним шляхом, коли я знову його прикличу. Дякую, {стать:мандрівнику:мандрівнице}. Впевнено крокуй цим лісом».\n\n<Око Кілроґґа починає розвіюватися.>",
+          "en": "A Void Path",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 23,
+      "minimumLevel": 18,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1195,
+      "primaryOwnIDTitle": {
+        "id": 1195,
+        "title": "The Sacred Flame",
+        "data": [
+          {
+            "name_enus": "The Sacred Flame",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "2aa29496ec0cb34080a668c0e7a8e24aa1d3141cc4d28d0ee23dc65b5064f2c9"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "a860806cee7dfd6da8f57e657f4b235c77489b043455162d2ddb051232405bc5"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            4721
+          ]
+        ],
+        "3": [
+          [
+            4721
+          ]
+        ],
+        "8": [
+          "Return a Filled Etched Phial to Zangen Stonehoof in Thunder Bluff."
+        ],
+        "10": {
+          "3": [
+            [
+              5868,
+              null,
+              0
+            ]
+          ]
+        },
+        "21": [
+          5867
+        ],
+        "26": [
+          [
+            81,
+            150
+          ]
+        ],
+        "S": {
+          "1": "The Sacred Flame",
+          "4": 20,
+          "5": 25,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 1196,
+          "23": 8,
+          "p": 34603654
+        }
+      },
+      "installedSummary": {
+        "1": "The Sacred Flame",
+        "4": 20,
+        "5": 25,
+        "6": 8589934770,
+        "17": 1638,
+        "22": 1196,
+        "23": 8,
+        "p": 34603654
+      },
+      "allUAFields": [
+        {
+          "title": "Священне полум'я",
+          "detail": "Кентаври племені Ґалак у Тисячі Шипів охороняють артефакт, що зберігся ще з часів створення кентаврів.\n\nМи хотіли б отримати його, але для цього нам знадобиться флакон води з одного з місячних колодязів нічних ельфів.\n\nЩоб набрати води, тобі спочатку потрібно отримати один з флаконів дріад, що мешкають поблизу прихистку Незайманого лісу в самому серці Ясенедолу. Біля західного берега Далекоплинної річки, на південь від головної дороги, є місячний колодязь, де ти зможеш наповнити флакон.",
+          "objective": "Принесіть наповнений гравійований флакон Занґену Кам'яному Копиту в Громовий Бескид.",
+          "progress": "Щойно в нас буде наповнений флакон, ми надішлемо його моєму помічникові, Рау, в Тисячу Шипів. Саме він і просив флакон цієї води і йому краще знати, що з нею робити далі.",
+          "complete": "Дуже добре. Це те, що потрібно Рау. Зможеш передати йому це? Тобі може сподобатися в Шипах.",
+          "en": "The Sacred Flame",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 25,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1196,
+      "primaryOwnIDTitle": {
+        "id": 1196,
+        "title": "The Sacred Flame",
+        "data": [
+          {
+            "name_enus": "The Sacred Flame",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "3f2d5c3c7afbae804a99ce85419c6354ef5efad5f52194bf995477c832c4ab6f"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "821bc4608dc0aeb8169f4a733cc7a6a64d1ed776b5667cb98c1829e627a3cae3"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            4721
+          ]
+        ],
+        "3": [
+          [
+            4722
+          ]
+        ],
+        "8": [
+          "Deliver the Filled Etched Phial to Rau Cliffrunner at the Freewind Post."
+        ],
+        "13": [
+          1195
+        ],
+        "26": [
+          [
+            81,
+            25
+          ]
+        ],
+        "S": {
+          "1": "The Sacred Flame",
+          "4": 20,
+          "5": 29,
+          "6": 8589934770,
+          "11": 5868,
+          "17": 1638,
+          "22": 1197,
+          "p": 33558662
+        }
+      },
+      "installedSummary": {
+        "1": "The Sacred Flame",
+        "4": 20,
+        "5": 29,
+        "6": 8589934770,
+        "11": 5868,
+        "17": 1638,
+        "22": 1197,
+        "p": 33558662
+      },
+      "allUAFields": [
+        {
+          "title": "Священне полум'я",
+          "detail": "Віднеси цей наповнений флакон Рау Скелеброду на заставу Розкутого Вітру, що на південному сході Тисячі Шипів. Ти зможеш дістатись туди, скориставшись Великим підйомником на південному краю Степів.\n\nДумаю, ти й надалі зможеш допомагати нам.",
+          "objective": "Передайте наповнений гравійований флакон Рау Скелеброду на заставу Розкутого Вітру.",
+          "progress": "Невже тебе прислав Занґен, гм?",
+          "complete": "Так, цей флакон гарно послужить нашим цілям. Завдяки спільному походженню дріад і кентаврів, вода з місячних колодязів дозволить нам подолати захист вічного полум'я, що оточує реліквію кентаврів.",
+          "en": "The Sacred Flame",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 29,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1197,
+      "primaryOwnIDTitle": {
+        "id": 1197,
+        "title": "The Sacred Flame",
+        "data": [
+          {
+            "name_enus": "The Sacred Flame",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "ad95cf4392ce69775787784c7d8ea9e254dfe955b0fe1859c791b17ccb003dda"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "c3750ef6f13170155302cbe816250128799207882cd805a56d5dce455cb06700"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            4722
+          ]
+        ],
+        "3": [
+          [
+            4722
+          ]
+        ],
+        "8": [
+          "Retrieve the Cloven Hoof for Rau Cliffrunner at the Freewind Post."
+        ],
+        "10": {
+          "3": [
+            [
+              5869,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          1196
+        ],
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "S": {
+          "1": "The Sacred Flame",
+          "4": 20,
+          "5": 29,
+          "6": 8589934770,
+          "11": 5868,
+          "17": 1638,
+          "p": 33559174
+        }
+      },
+      "installedSummary": {
+        "1": "The Sacred Flame",
+        "4": 20,
+        "5": 29,
+        "6": 8589934770,
+        "11": 5868,
+        "17": 1638,
+        "p": 33559174
+      },
+      "allUAFields": [
+        {
+          "title": "Священне полум'я",
+          "detail": "За допомогою цієї води ти зможеш загасити полум'я, що охороняє реліквію кентаврів. Однак воно згасне ненадовго, тому тобі доведеться діяти швидко.\n\nНа північ звідси знаходяться скелі Розщепленого Копита — фортеця кентаврів. Полум'я зберігається в укріпленні Розщепленого Копита, частині скелі, що ретельно охороняється.\n\nОднак будь {стать:обережний:обережна}, кентаврів племені Ґалак там дуже багато, і вони неохоче віддадуть таку цінну річ.",
+          "objective": "Принесіть роздвоєне копито Рау Скелеброду на заставу Розкутого Вітру.",
+          "progress": "Не можу дочекатись, коли нарешті доторкнутись до роздвоєного копита. Ти вже {стать:дістав:дістала} його?",
+          "complete": "Я відчуваю дивну енергію в цьому копиті... Не сумніваюся, що вивчивши його детальніше, ми дізнаємося багато нового про кентаврів.\n\nЯ вдячний тобі, {ім'я}. А тепер я маю почати вивчення таємниць цієї реліквії.",
+          "en": "The Sacred Flame",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 29,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1130,
+      "primaryOwnIDTitle": {
+        "id": 1130,
+        "title": "Melor Sends Word",
+        "data": [
+          {
+            "name_enus": "Melor Sends Word",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "467476c5c33a9b0431e2df2656cccb8c0c5c7cecd70d0bac510cda9169a42845"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "40384d2126a3e3d556078572bb32a50988d400a139adb099910f10ce96dc7c7a"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "not supplied in current primary",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3387
+          ]
+        ],
+        "3": [
+          [
+            3441
+          ]
+        ],
+        "8": [
+          "Speak with Melor Stonehoof in Thunder Bluff."
+        ],
+        "S": {
+          "1": "Melor Sends Word",
+          "4": 20,
+          "5": 30,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 1131,
+          "23": 8,
+          "27": 1131,
+          "p": 134
+        }
+      },
+      "installedSummary": {
+        "1": "Melor Sends Word",
+        "4": 20,
+        "5": 30,
+        "6": 8589934770,
+        "17": 1638,
+        "22": 1131,
+        "23": 8,
+        "27": 1131,
+        "p": 134
+      },
+      "allUAFields": [
+        {
+          "title": "Звістка від Мелора",
+          "detail": "{ім'я}, Мелор Кам'яне Копито дізнався про твої подвиги і намітив для тебе шлях.\n\nЯкщо ти хочеш пройти його — вирушай до Громового Бескиду і поговори з Мелором. Ти знайдеш його на Верхів'ї Мисливців.",
+          "objective": "Поговоріть з Мелором Кам'яним Копитом у Громовому Бескиді.",
+          "progress": null,
+          "complete": "Отже, ти {стать:прийшов:прийшла}, {ім'я}. Чи {стать:готовий:готова} ти до подорожі далекими землями?\n\nЯкщо так, {стать:юний:юна} {клас:к}, то слухай...",
+          "en": "Melor Sends Word",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 30,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1131,
+      "primaryOwnIDTitle": {
+        "id": 1131,
+        "title": "Steelsnap",
+        "data": [
+          {
+            "name_enus": "Steelsnap",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "7ee2a9fa8cc72929576c225cfcc8b488c1dc046b0a8f514316800e1d6c164b20"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "7640189ff8db8deed3b7bef619612a688131b00316b568d63dd776368d8fe877"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3441
+          ]
+        ],
+        "3": [
+          [
+            3441
+          ]
+        ],
+        "8": [
+          "Bring Steelsnap's Rib to Melor Stonehoof in Thunder Bluff."
+        ],
+        "10": {
+          "3": [
+            [
+              5837,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            81,
+            100
+          ]
+        ],
+        "28": [
+          1130
+        ],
+        "S": {
+          "1": "Steelsnap",
+          "4": 20,
+          "5": 30,
+          "6": 8589934770,
+          "17": 1638,
+          "22": 1136,
+          "23": 8,
+          "p": 167772806
+        }
+      },
+      "installedSummary": {
+        "1": "Steelsnap",
+        "4": 20,
+        "5": 30,
+        "6": 8589934770,
+        "17": 1638,
+        "22": 1136,
+        "23": 8,
+        "p": 167772806
+      },
+      "allUAFields": [
+        {
+          "title": "Сталекус",
+          "detail": "Іноді ми полюємо заради їжі. Іноді — заради честі. А іноді ми полюємо, щоб засвоїти вчення Матері-Землі.\n\nАле полювання, яке чекає на тебе, не має з цими речами нічого спільного. Ти маєш вбити істоту, яка не має благословення Матері-Землі.\n\nГієна на прізвисько Сталекус блукає Тисячею Шипів, що на південь від Степів. До нього прибиваються інші гієни і разом вони сіють страх серед інших, більш мирних звірів.\n\nЗнайди Сталекуса, {ім'я}. Знайди його і вбий.",
+          "objective": "Принесіть ребро Сталекуса Мелору Кам'яному Копиту в Громовий Бескид.",
+          "progress": "Тобі вдалося здолати Сталекуса, {ім'я}?",
+          "complete": "Перемігши Сталекуса, ти {стать:очистив:очистила} Тисячу Шипів від жахливої напасті.\n\nІ це, {ім'я}, твій сьогоднішній урок.",
+          "en": "Steelsnap",
+          "faction": "Horde"
+        }
+      ],
+      "questLevel": 30,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 98028,
+      "primaryOwnIDTitle": {
+        "id": 98028,
+        "title": "Baron Marinous",
+        "data": [
+          {
+            "name_enus": "Baron Marinous",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "222cd2e533755ff0e57b1d45239fc1b7f23f4d1b91fb62deb5628264cd74a6f1"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "614b2a285737fb71797b602ed14f8d6c3c82990d283da93ff338f23aa1680803"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": {
+          "3": [
+            279275
+          ]
+        },
+        "3": [
+          [
+            3616
+          ]
+        ],
+        "8": [
+          "Bring the Clouded Water Globe to Onu at the Grove of the Ancients in Darkshore."
+        ],
+        "26": [
+          [
+            47,
+            37.5
+          ],
+          [
+            54,
+            37.5
+          ],
+          [
+            69,
+            150
+          ],
+          [
+            72,
+            37.5
+          ],
+          [
+            469,
+            37.5
+          ]
+        ],
+        "S": {
+          "1": "Baron Marinous",
+          "4": 17,
+          "5": 21,
+          "6": 4294967373,
+          "11": 279275,
+          "17": 148,
+          "p": 33554566
+        }
+      },
+      "installedSummary": {
+        "1": "Baron Marinous",
+        "4": 17,
+        "5": 21,
+        "6": 4294967373,
+        "11": 279275,
+        "17": 148,
+        "p": 33554566
+      },
+      "allUAFields": [
+        {
+          "title": "Барон Марінуус",
+          "detail": "Все, що залишилося від могутнього елементаля, це куля з чогось, що здається чистою водою, затуманена якоюсь невідомою речовиною. Краї сфери здаються прозорими, поки ви її не повернете — ніби хмара активно заважає вам зазирнути всередину.\n\nЩо б не сталося з нею — і з руїнами, які вона охороняла — вона все ще якимось чином активна.\n\nТільки Ону, Стародавній Знань у Гаю Стародавніх на далекому півдні, мав би шанс дізнатися більше.",
+          "objective": "Принесіть Захмарену Водяну Кулю Ону в Гай Стародавніх на Темному Березі.",
+          "progress": "Я відчуваю поряд із собою щось набагато давніше за тебе, {раса:к}... Що ти мені {стать:приніс:принесла}?",
+          "complete": "<Ону виглядає здивованим — настільки, наскільки взагалі може здивуватися древній.>\n\nСходи вниз у Матистрі? Невже?\n\n<Ону хитає головою.>\n\nМушу порадитися з іншими. А поки знай, добре, що ти {стать:виявив:виявила} це раніше за наг... чи їхніх союзників-культистів.\n\nПрийми це на знак подяки за свої зусилля. Здолати стихійного охоронця — неабияке досягнення.",
+          "en": "Baron Marinous",
+          "faction": "Alliance"
+        }
+      ],
+      "questLevel": 21,
+      "minimumLevel": 17,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1054,
+      "primaryOwnIDTitle": {
+        "id": 1054,
+        "title": "Culling the Threat",
+        "data": [
+          {
+            "name_enus": "Culling the Threat",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "5245736b0964cd5342c90c1055ee4ca3d69db1b1e4eeeedae76b474b96479f7f"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "9412bbb32f997ebc8c5d524bf452fc4a7ce91ff921bf723cbda16f23c56c193b"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3691
+          ]
+        ],
+        "3": [
+          [
+            3691
+          ]
+        ],
+        "8": [
+          "Bring Dal Bloodclaw's Skull to Raene Wolfrunner in Astranaar."
+        ],
+        "10": {
+          "3": [
+            [
+              5544,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Culling the Threat",
+          "4": 18,
+          "5": 25,
+          "6": 4294967373,
+          "17": 331,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "installedSummary": {
+        "1": "Culling the Threat",
+        "4": 18,
+        "5": 25,
+        "6": 4294967373,
+        "17": 331,
+        "23": 8,
+        "p": 33555078
+      },
+      "allUAFields": [
+        {
+          "title": "Усунути загрозу",
+          "detail": "Прямо на північ від Астранаару живе плем'я Колючохутрих хутропузів. Мої розвідники повідомляють, що за останні кілька місяців їхня чисельність значно зросла. Якщо їх стане занадто багато, вони можуть набратися сміливості й напасти на Астранаар.\n\nВбий якомога більше хутропузів та принеси мені череп їхнього вождя як доказ того, що їхні зусилля марні... поки що.\n\nЯ залишуся тут, в Астранаарі, і чекатиму на звістку. Хай буде з тобою Елуна.",
+          "objective": "Принесіть череп Дала Кровопазура до Рене Вовкогін в Астранаар.",
+          "progress": "Спотворення хутропузів призвело до того, що Ясенеділ став тінню колишньої величі.",
+          "complete": "Молодець, {ім'я}.\n\nМи під постійною загрозою хутропузів. Сподіваймося, що це триматиме їх на відстані ще деякий час.",
+          "en": "Culling the Threat",
+          "faction": "Alliance"
+        }
+      ],
+      "questLevel": 25,
+      "minimumLevel": 18,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Primary Horde forfirst15/Allianceforlast5; broad installed masks are notcurrentliveeligibility.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1035,
+      "primaryOwnIDTitle": {
+        "id": 1035,
+        "title": "Fallen Sky Lake",
+        "data": [
+          {
+            "name_enus": "Fallen Sky Lake",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "bce2865f1327e16cc5aa1d71dcf72907bc53e97f4fbeab3aefbb26d1a51dd3a5"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "915f7ff7d6e384259b233bb7aebcc3235955493a7860f5c2e1c341dbc60c67eb"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3894
+          ]
+        ],
+        "3": [
+          [
+            3894
+          ]
+        ],
+        "8": [
+          "Retrieve a Fallen Moonstone from the Shadethicket Oracle, then bring it to Pelturas in Astranaar."
+        ],
+        "10": {
+          "3": [
+            [
+              5508,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          1034
+        ],
+        "26": [
+          [
+            69,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Fallen Sky Lake",
+          "4": 20,
+          "5": 30,
+          "6": 4294967373,
+          "17": 331,
+          "23": 8,
+          "p": 33559174
+        }
+      },
+      "installedSummary": {
+        "1": "Fallen Sky Lake",
+        "4": 20,
+        "5": 30,
+        "6": 4294967373,
+        "17": 331,
+        "23": 8,
+        "p": 33559174
+      },
+      "allUAFields": [
+        {
+          "title": "Озеро Впалого Неба",
+          "detail": "Релару більше не лихоманить, але вона досі дуже слабка. Я не думаю, що час поверне їй втрачені сили. Для цього знадобиться сила місячного каменя.\n\nМи збирали місячне каміння біля озера Впалого Неба на південному сході... доки не прийшли створіння Тінезарості.\n\nЇхній вождь, оракул Тінезарості, зібрав усі впалі місячні камені та зберігає їх у скарбниці. Тепер ти маєш забрати місячний камінь в оракула.\n\nБоюся, що для цього тобі доведеться його вбити.",
+          "objective": "Заберіть впалий місячний камінь в оракула Тінезарості та принесіть його Пельтурасу в Астранаар.",
+          "progress": "Ти {стать:здолав:здолала} оракула Тінезарості, {ім'я}? Якщо так, будь ласка, віддай мені місячний камінь. У Релари залишилося сил лише на кілька подихів!",
+          "complete": "{ім'я}, ти {стать:врятував:врятувала} мою дочку! Я знаю, що сила місячного каменю поверне їй сили!\n\nЯ ніколи не зможу повністю віддячити тобі за допомогу, але... будь ласка, візьми це. Крім Релари, це найдорожче, що в мене є.",
+          "en": "Fallen Sky Lake",
+          "faction": "Both"
+        }
+      ],
+      "questLevel": 30,
+      "minimumLevel": 20,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Current primary Alliance, UA factionBoth; installedAlliance masks. Currentliveacceptance nottested.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 1143,
+      "primaryOwnIDTitle": {
+        "id": 1143,
+        "title": "The Tower of Althalaxx",
+        "data": [
+          {
+            "name_enus": "The Tower of Althalaxx",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "9ae1835de6fad9f2778031889f1c97aea591b3e8edeeed490230809274dce809"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "23be574ef92a09b0e7b524069694e6c3b12d1a59ee8e255ada066fa3c15ae968"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "present",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3661
+          ]
+        ],
+        "3": [
+          [
+            3661
+          ]
+        ],
+        "8": [
+          "Kill Athrikus Narassin and bring his head to Balthule Shadowstrike near the Tower of Althalaxx."
+        ],
+        "10": {
+          "3": [
+            [
+              5383,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          1167
+        ],
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "The Tower of Althalaxx",
+          "4": 13,
+          "5": 31,
+          "6": 4294967373,
+          "17": 148,
+          "22": 981,
+          "23": 8,
+          "p": 33559174
+        }
+      },
+      "installedSummary": {
+        "1": "The Tower of Althalaxx",
+        "4": 13,
+        "5": 31,
+        "6": 4294967373,
+        "17": 148,
+        "22": 981,
+        "23": 8,
+        "p": 33559174
+      },
+      "allUAFields": [
+        {
+          "title": "Вежа Алталакса",
+          "detail": "Ясно. Що ж, якщо те, що ти кажеш — правда, то зараз саме час для атаки. Я думаю, що Атрікус мешкає на вершині вежі. Але будь {стать:обережний:обережна} - його оточують могутні чорнокнижники, набагато небезпечніші за тих, що траплялись тобі раніше.",
+          "objective": "Вбийте Атріка Нарассіна і принесіть його голову Балтулу Тіневдару біля вежі Алталакса.",
+          "progress": "Атрік Нарассін — древній і могутній чорнокнижник. Можливо, нам варто дочекатися допомоги Делґрена, але він, вочевидь, дуже сильно вірить в тебе, якщо послав тільки тебе.",
+          "complete": "Сподіваюся, що зі смертю Атріка демонічні сили відступлять. Я не сумніваюся, що вони перегрупуються і повернуться, але тоді ми будемо краще підготовлені до битви з ними.",
+          "en": "The Tower of Althalaxx",
+          "faction": "Both"
+        }
+      ],
+      "questLevel": 31,
+      "minimumLevel": 13,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Current primary Alliance, UA factionBoth; installedAlliance masks. Currentliveacceptance nottested.",
+      "liveClientVerification": "not tested"
+    },
+    {
+      "id": 981,
+      "primaryOwnIDTitle": {
+        "id": 981,
+        "title": "The Tower of Althalaxx",
+        "data": [
+          {
+            "name_enus": "The Tower of Althalaxx",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        ],
+        "HTMLSHA256": "27fe3c88359eeaa3a23b470d39e678edaada0c97ecc676b677665284a06ff38a"
+      },
+      "secondaryOwnIDTitle": {
+        "status": "own quest ID/title inspected in saved response",
+        "HTMLSHA256": "fc3341c4728235082b4f3c7dfa7e8f2c59bc5a93b47e863d632aeeecb682392d"
+      },
+      "currentPrimaryAvailability": {
+        "title": "present",
+        "detail": "present",
+        "objective": "present",
+        "progress": "not supplied in current primary",
+        "complete": "present"
+      },
+      "installedFullRecord": {
+        "2": [
+          [
+            3661
+          ]
+        ],
+        "3": [
+          [
+            3663
+          ]
+        ],
+        "8": [
+          "Talk to Delgren the Purifier at Maestra's Post."
+        ],
+        "13": [
+          1143
+        ],
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "The Tower of Althalaxx",
+          "4": 13,
+          "5": 31,
+          "6": 4294967373,
+          "17": 148,
+          "23": 8,
+          "p": 33558662
+        }
+      },
+      "installedSummary": {
+        "1": "The Tower of Althalaxx",
+        "4": 13,
+        "5": 31,
+        "6": 4294967373,
+        "17": 148,
+        "23": 8,
+        "p": 33558662
+      },
+      "allUAFields": [
+        {
+          "title": "Вежа Алталакса",
+          "detail": "За всю виконану роботу ти заслуговуєш на гідну винагороду. Повертайся до Дельґрена і скажи йому, що Атрік Нарассін поліг від твоєї руки, а культ Темного Пасма розтрощений і знищений.",
+          "objective": "Поговоріть з Дельґреном Очистителем на заставі Маєстри.",
+          "progress": null,
+          "complete": "Я знав, що ти впораєшся із завданням, {ім'я}.\n\nЯ відчуваю, що на тебе чекають великі справи, і що ти виправиш багато зла, заподіяного нашим землям. Прийми моє благословення, {ім'я}, а також цей дар.",
+          "en": "The Tower of Althalaxx",
+          "faction": "Both"
+        }
+      ],
+      "questLevel": 31,
+      "minimumLevel": 13,
+      "sourcePriority": "Current Forever English controls meaning; UA secondary inventory; installed masks/links not a live acceptance test.",
+      "eligibility": "Current primary Alliance, UA factionBoth; installedAlliance masks. Currentliveacceptance nottested.",
+      "liveClientVerification": "not tested"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "attempt": "initial source fetch",
+    "result": "argparse rejected comma-separated --ids; no source was fetched by failedcall",
+    "correction": "re-ran required repository fetch parser with exact15space-separated IDs, explicitoutput/metadata, succeeded all15primary+secondary"
+  },
+  {
+    "attempt": "source evidence preparation infobox excerpt",
+    "result": "initial regex excerpt stopped at escaped quote and JSONdecode failed before outputs",
+    "correction": "correctedscript to decode completeoriginalquotedinfobox with JSONDecoder.raw_decode; current source-review contains exactcompleteinfobox for all15"
+  },
+  {
+    "attempt": "originalHTML keywordinspection",
+    "result": "broadregexslow; interrupted before writinganyfiles",
+    "correction": "used boundedsubstring/ownIDJSONdecodingandactualscript-strippedstateboundary reads instead"
+  }
+]

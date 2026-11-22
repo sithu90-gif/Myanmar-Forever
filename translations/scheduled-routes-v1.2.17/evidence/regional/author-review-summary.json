@@ -1,0 +1,80 @@
+{
+  "status": "author assisted source/English-Myanmar reread and machinechecks complete; awaiting fresh independentreview",
+  "quests": 20,
+  "fieldSlots": 100,
+  "enabledFields": 95,
+  "heldFields": 1,
+  "sourceUnavailableFields": 4,
+  "actualDeepLFields": 96,
+  "groups": [
+    {
+      "group": 1,
+      "ids": [
+        98576,
+        897,
+        862,
+        97250,
+        98093,
+        3513,
+        3514
+      ]
+    },
+    {
+      "group": 2,
+      "ids": [
+        97538,
+        98251,
+        98252,
+        1195,
+        1196,
+        1197,
+        1130,
+        1131
+      ]
+    },
+    {
+      "group": 3,
+      "ids": [
+        98028,
+        1054,
+        1035,
+        1143,
+        981
+      ]
+    }
+  ],
+  "criticalDispositions": [
+    {
+      "id": 97250,
+      "field": "progress",
+      "primaryEnglish": null,
+      "secondaryEnglish": null,
+      "upstreamHasState": true,
+      "enabled": false,
+      "formalHeldFieldsEntry": false,
+      "disposition": "Unavailable current English with a UA-only state discrepancy. This is NOT confirmed genuine live absence. No backtranslation or invented English/Myanmar is supplied. Await sanitized current live English capture to resolve.",
+      "primaryHTMLSHA256": "4fdca40b2db988fe717ece96cdef403436bcdf72936f728c9eb885a484d2db3d",
+      "secondaryHTMLSHA256": "f3faffebb78cd6a9173099fe71831d71e8ddccaee8771b562ae0db1b9dd0b43c",
+      "frozenBoundaryArtifact": "source-boundaries.json",
+      "interpretationOfFrozenBoundary": "source absent means not supplied by current English reference; it does not certify no live-client state."
+    },
+    {
+      "id": 3514,
+      "field": "progress",
+      "primaryEnglish": null,
+      "secondaryEnglish": "We cannot allow the Alliance on our land, <name>. Make this known.",
+      "upstreamHasState": true,
+      "enabled": false,
+      "formalHeldFieldsEntry": true,
+      "disposition": "Secondary-only English has actual DeepL raw and editorial proposal; primary HTML omitsProgress. Runtime remains null pending current live state evidence."
+    }
+  ],
+  "knownLimits": [
+    "NativeMyanmarproofreadingpending",
+    "Newpronunciationapprovalpending",
+    "CurrentliveForeververificationnotperformed",
+    "Controllerhardwarenottested"
+  ],
+  "frozenGroupSnapshots": "Allthree groups remain byteidentical to their recorded frozen-groupN-hashes.json; supplement clarifies currentEnglishabsence doesnotprove liveabsence.",
+  "newPronunciationsStatus": "Assisted editorial proposals using maintainedcores; no native/userapproval claim."
+}

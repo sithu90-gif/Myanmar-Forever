@@ -1,0 +1,106 @@
+{
+  "version": "1.2.17",
+  "result": "PASS",
+  "kind": "scheduled_afternoon",
+  "localDate": "2026-11-22",
+  "newQuestIDs": 50,
+  "newQuestFields": 235,
+  "newEnabledFieldsTotal": 235,
+  "newAvailableSourceFields": 236,
+  "newSourceAbsentFields": 14,
+  "newHeldFields": [
+    {
+      "id": 3514,
+      "field": "progress",
+      "reason": "Current primary Forever HTML has no Progress heading/state; current60.tools English andUA have corresponding progress. Retain actual secondary English and DeepL/editorial proposals, keep runtime null pending current live state evidence.",
+      "sourceEnglish": "We cannot allow the Alliance on our land, <name>. Make this known.",
+      "editorialProposal": "ငါတို့မြေပေါ်မှာ Alliance (အလိုင်းယန့်စ်) ကို ခွင့်မပြုနိုင်ဘူး၊ <name>။ ဒါကို သူတို့သိအောင်လုပ်လိုက်။",
+      "sourceURL": "https://www.60.tools/quests/3514-horde-presence",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "nativeMyanmarProofreading": "pending",
+      "liveClientVerification": "not tested",
+      "englishSHA256": "accb1147c1e485fe37dab836c88ca32733d9717042ef8046adeeb2cd7dca0e29",
+      "rawDeepLSHA256": "11a19d249be1a7a24c4dfac4a20e0d03f718ac425955d7df0925201207689d68",
+      "rawDeepLRequestFile": "deepl-request-02.json",
+      "rawDeepLResponseFile": "deepl-response-02.json",
+      "rawDeepLIndexFile": "deepl-index-02.json",
+      "requestIndex": 7,
+      "responseIndex": 7,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/7",
+      "responseJSONPointer": "/translations/0/translations/7/text",
+      "rawDeepLProposal": "ကျွန်ုပ်တို့သည် မိမိတို့မြေ၌ မဟာမိတ်များအား ခွင့်မပြုနိုင်ပါ၊ <name>။ ဤအချက်ကို လူသိရှင်ကြစေ။",
+      "editedSHA256": null,
+      "proposalSHA256": "fb022c4e939087f6f5f9bed6663d382e98c6f6e7e08e5029633889b53f67d1b7",
+      "independentReviewEvidence": "evidence/independent-review/regional.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 15,
+  "questIDs": 1736,
+  "translatedFields": 7953,
+  "dialogueStates": 4556,
+  "absentOrHeldDialogueStates": 652,
+  "activeHeldUniqueFields": 71,
+  "pythonTests": 25,
+  "luaRegressionGroups": 48,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "reviewedConnectedGroups": 7,
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-22T07:12:25.558635+00:00",
+    "catalogVersion": "1.2.17",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.0",
+    "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+    "checkedAt": "2026-11-22T06:36:58.533957+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+    "publishedAtUTC": "2026-11-21T04:16:33Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+    "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+    "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.17.zip",
+    "bytes": 1074370,
+    "sha256": "4a90b0aaa0ab359dd686473cc51fa9a1ae6c9502bd0200fc6c1c22972a91a663"
+  },
+  "unconfirmedUAOnlyStates": [
+    {
+      "id": 97250,
+      "field": "progress",
+      "reason": "No current English; UAonly; notconfirmedliveabsence"
+    }
+  ],
+  "newUnavailableCurrentEnglishStates": 14,
+  "sourceAvailabilityMeaning": "Fourteenstates lackcurrentEnglish;13alsoabsentUA,97250progressUAonly. No backtranslation; formalhold3514progresssecondaryonly."
+}

@@ -1,0 +1,2509 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "dungeons",
+  "reviewVersion": "1.2.17",
+  "reviewType": "fresh independent assisted source-aware English/Myanmar review",
+  "reviewedAtUTC": "2026-11-22T07:01:17.043303+00:00",
+  "counts": {
+    "questRecords": 15,
+    "fieldSlots": 75,
+    "availableEnglishFields": 71,
+    "enabledMyanmarFields": 71,
+    "sourceAbsentFields": 4,
+    "heldFields": 0,
+    "rawChains": 71,
+    "readAuthorJSONFiles": 42,
+    "reviewedGroups": 2,
+    "textIssues": 1,
+    "sourceRuntimeHoldsProposed": 0
+  },
+  "reviewGroups": [
+    {
+      "group": 1,
+      "ids": [
+        6562,
+        6563,
+        6564,
+        6565,
+        971,
+        1198,
+        1199,
+        1200,
+        6561,
+        1275
+      ],
+      "status": "independently reviewed; no text changes required"
+    },
+    {
+      "group": 2,
+      "ids": [
+        3765,
+        1740,
+        1098,
+        1013,
+        1014
+      ],
+      "status": "independently reviewed; one1098 offer pronunciation reconciliation required"
+    }
+  ],
+  "quests": [
+    {
+      "id": 6562,
+      "en": "Trouble in the Deeps",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D6562/trouble-in-the-deeps",
+      "primaryHTMLSHA256": "1251667dba94e4cd0527b44ff1900384dca10fef92abf42e20b12e76ea228eb7",
+      "secondaryHTMLSHA256": "4e727928e8ec48de009daf03310f71a9c38bd37b4ea2a175d045d1aa63a03800",
+      "currentPrimaryEligibility": {
+        "name_enus": "Trouble in the Deeps",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 22[/li][li]Requires level 17[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11862/tsunaman]Tsunaman[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "1a59574bce7c057e852a396908802f8c8a50fafd10cad89808207df4bae08386",
+      "allUAFieldHashes": {
+        "title": [
+          "e7039c68588afa0eaaa500db783f9066b471a46b1be56ae6a858ce0961bc68b2"
+        ],
+        "detail": [
+          "2b627792959ccf981cb4644aa4dc7816e11b309a402abc9f4186428e1b210a7c"
+        ],
+        "objective": [
+          "32b677e1ac82a2525114975d987bb60a4cdc19eb7e39020e08ae2c4ff578af78"
+        ],
+        "progress": [
+          null
+        ],
+        "complete": [
+          "458b77df5d9f6261163bbbd4ffdf78d924bb9b8b323d036f639f56959dea9e4e"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "711e5032a1255a2ab5804a664b20f1b55c86c2598bd0cc30d59faec6f3a98919",
+          "reviewedMyanmarSHA256": "50342c611926c74b94379625c1fb985a2535b07ee62a7809d239a397c6d65eaa",
+          "rawDeepLSHA256": "cac86b52cba08bbee7e24780dc4d6ae8cdd37893ba37bec07969d68481ac6152",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Ordinary Trouble/Deeps title rendered semantically; no invented identifying item."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "bca4300620bdb594b57c698ab51db34f0e94ce2a77b7050c6fe0fbe72b817fd4",
+          "reviewedMyanmarSHA256": "9b92ac1a0bc49a19004d1d02648401471e9d6a359c5685d7e4d5124cfbb36148",
+          "rawDeepLSHA256": "ff20734a1773472e095c2defb8ffbb75a5b759acec0a960f6936a4adb05c9cc2",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=12736/jeneu-sancrea",
+              "label": "Je'neu Sancrea"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Je'neu needs help at Zoram'gar Outpost in Ashenvale. Forest NORTH of Stonetalon mountains; Windshear Crag OR north through Barrens; Zoram Strand FAR WEST; warning/name preserved. Each named identity has field-local pronunciation."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "761f1ed511d1d531093c053de766f4cadcf568b0a360d5f0af0430fee62534fd",
+          "reviewedMyanmarSHA256": "e57f8b70d3acd445b1ba356a4f6dd55519ecd17721ddf0f668c6e364e6adc3bb",
+          "rawDeepLSHA256": "2444ad6d56572aa987128ce3a2516af390b678bb453dec3406495580c856ded3",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=12736/jeneu-sancrea",
+              "label": "Je'neu Sancrea"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Speak with Je'neu Sancrea in Ashenvale; both full identities annotated again in this field."
+        },
+        "progress": {
+          "review": "source absence verified; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "sourceAvailable": false,
+          "sourceBoundaryType": "absent heading and hidden state",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 0,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "No primary or secondary Progress state and UA null; Myanmar null is supported."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "9ad412e75193d41b3d6346501d51dcb6f5834d18bb24e4cff7297f39713b7716",
+          "reviewedMyanmarSHA256": "b3ccc83e8e10f343d48a4628e7f51e0cac1f37a16bfffc47e608250d486de1e6",
+          "rawDeepLSHA256": "ec6d1aa6045df9a3a42c860ffa2e282e8718fe1c5c6f1ef30350bbc930c34e5f",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=11862/tsunaman",
+              "label": "Tsunaman"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Tsunaman sent-you question, satisfaction, and matters to discuss retained in direct speaker voice."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6563,
+      "en": "The Essence of Aku'Mai",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D6563/the-essence-of-akumai",
+      "primaryHTMLSHA256": "d65789cb688779a09528a1d152b15146a3e961d072b5a5b5c13311f3bd31e2dc",
+      "secondaryHTMLSHA256": "8f50d6e88dd58d9290585ea309ee41fb990f482d79e3bdbb12e065c7a762863d",
+      "currentPrimaryEligibility": {
+        "name_enus": "The Essence of Aku'Mai",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 22[/li][li]Requires level 17[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "ae5a1253eeb2c73bee78cc1b7cbad48fa23103e873c5644a14a04a12b089384e",
+      "allUAFieldHashes": {
+        "title": [
+          "7a6c7a1d2e845e88dcca33cdb22c1c9341cefa4cf77e746b55d5afc97b407ac1"
+        ],
+        "detail": [
+          "e792e68c5b42473799ceb4e7fd456bddfe8ff333c8a4be0884b1c8c1f8d6c4c1"
+        ],
+        "objective": [
+          "9c998f2f7eb66f67a06b107f7904397eb7f943278532a30e82ac4cb74203ee76"
+        ],
+        "progress": [
+          "a4cfb39b92db0aa4b1ae7e910f340a0c9da448fa152dbd3e1daf407e885dcdfb"
+        ],
+        "complete": [
+          "8278faf823fed917d606d24c1809c20bb1c76482a1597ddc2cbe9f16719113fa"
+        ]
+      },
+      "UAfactions": [
+        "Horde"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "ca197971640b045d569ead29eadf70bffe3eadcb251ff5874fe1ce176f9322b3",
+          "reviewedMyanmarSHA256": "715156e3e592dc53d029b545f059fc10dc4898ceb3e340ebea76e852888ac81a",
+          "rawDeepLSHA256": "fd15286bb98e33b3ba52e414e3b2bc64ac9cb2361899fb4f6086f596d3ec6b0d",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Aku'Mai retained and annotated; ordinary essence framing translated rather than inventing an Essence item."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "a1745dedfc38974961e39587ce117c1f4eeec892d5d975028e49ff8f33bf1afd",
+          "reviewedMyanmarSHA256": "74e770866d5d12e6b5537fc239083f094c688f02b1bf4e67c737cfdd75d2a96d",
+          "rawDeepLSHA256": "8fcc79104942acbc80adb156a77f5c354fa187df59c7c27629482fe146257fed",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Entry tunnels and cave walls, large sapphire clusters, naga collecting them, unknown reason, elemental power and possible arcane misuse retained. Blackfathom Deeps north of outpost along Zoram Strand."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "1cfa74aeeb938b86a7677ef84b7982795c86c2bd56fbbad55dd6db0205243602",
+          "reviewedMyanmarSHA256": "5a14bfe9244e7036e43490b3640209cec04aa55ac2fd0002bbb1ad251ca9ea0c",
+          "rawDeepLSHA256": "b3d66f0b82e70d763c3f1882176d4cb6527ff1d33d8a5683134f5ee5d35bb423",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=16784/sapphire-of-akumai",
+              "label": "Sapphires of Aku'Mai"
+            },
+            {
+              "href": "/forever/npc=12736/jeneu-sancrea",
+              "label": "Je'neu Sancrea"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [
+            "20"
+          ],
+          "markers": [],
+          "notes": "20 Sapphires of Aku'Mai to Je'neu Sancrea in Ashenvale. Original primary item16784 link uses this plural alias; full alias and phonetic retained."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "06257768aba23d6e838ecb3ebffdb607dce91e28e10e15aa3c74dafa89cc9918",
+          "reviewedMyanmarSHA256": "b6520ce8761a6a7e8abf7a8db44b277cc72e835035b074cf095acbeaaf007b63",
+          "rawDeepLSHA256": "d77f56dabae8658832e9965418c7d68daca5dc0bb721a48720281aa8974b98aa",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Questions about search and personally witnessing naga harvesting; prayer to ancestors to discover reason. Unknown motive remains unknown."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "498362d63376f7fcdf06b9b163cb6ba4ddf433d856c364eeeca518911648f3e0",
+          "reviewedMyanmarSHA256": "f6d8914561e42cf5802110274cce158e9a6bf45890ecffd3e160589d980dd944",
+          "rawDeepLSHA256": "9fefedb286bdf1c66917b1d9d254ff9d3f8bb6adb84f68a34b6df39ad8377508",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Praise, intriguing crystals, sensed power, water spirits clinging, naga intended use unknown, and relief that crystals are out of their hands retained."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6564,
+      "en": "Allegiance to the Old Gods",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D6564/allegiance-to-the-old-gods",
+      "primaryHTMLSHA256": "fc3ded4aaf358efdda5f8a34364d6ac09cd7db5ff3cf3ca841c323e3afc3a388",
+      "secondaryHTMLSHA256": "16e1afdd39b2da00b1b34f497d3643fa24c3a2d00b2419a04971d9469aa47890",
+      "currentPrimaryEligibility": {
+        "name_enus": "Allegiance to the Old Gods",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 22[/li][li]Requires level 17[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "122775941f7833f5f13948404599aebab0eaacbba9c4df33eeca53fa01c1568d",
+      "allUAFieldHashes": {
+        "title": [
+          "e8b91722a7c7086b16c13e00ffb4c468ab5d7b103c36b6f8bde6e0f3f8999386"
+        ],
+        "detail": [
+          "be234830d650134f0ba37d8262b69fa343037d65482dcaa9d685ef945c9d4699"
+        ],
+        "objective": [
+          "22a39fc66381e6ec51ab1eee53dd42e95cdc29dd9e7ff9c73025edb4c11decb6"
+        ],
+        "progress": [
+          "4406279240ea507e402f8b31f53d99b1fa28d8c7c46c7c0693c321d2c700c581"
+        ],
+        "complete": [
+          "d1a7959e6e73f76df83aa5e0a3f32ba7321c5ec5f828431dde9fa26cbc1aa7c6"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "47e9492edef817ffa799e119a9eb4d4f4911f32781fab064a789a3432f5cdac0",
+          "reviewedMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+          "rawDeepLSHA256": "8fcc73e49c6cd5947989dc3ee98f2365a3d40a0bb61a59ecb1732e496f930ded",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Same ordinary allegiance title as6565, with Old Gods as retained named lore identity."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "92ab49ea84db5adddf633ca9a271b558f735899d30f0a561958d36a8b2768eff",
+          "reviewedMyanmarSHA256": "d2f7b85240c8eaf192ecf3ff6b7e4e578b6e1f36bac8267db57a4dfb50f023e2",
+          "rawDeepLSHA256": "49af2fcdc3b1bb9146601543604d1536cea23ee4a16cb15d10ca39166d2ced64",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Crumpled note and poor scrawled handwriting retained as narration, followed by quoted cult instructions. All priestesses bring crystals; water elemental spirits help aquamancers' summonings; appease and later bring Aku'Mai back; era ruled by Old Gods."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "0d0346fb9448cef247df00a683096b8942f11f21bd99006f17f38e4dc2786bfe",
+          "reviewedMyanmarSHA256": "642ab1f310241fe3320bf09c9142389ceb001488a4fb197eadd14e3d2a3d54dc",
+          "rawDeepLSHA256": "1e18b4eff22725c4041e7f7f00e64e289911271df898e1291deced351b1cc3e6",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=16790/damp-note",
+              "label": "Damp Note"
+            },
+            {
+              "href": "/forever/npc=12736/jeneu-sancrea",
+              "label": "Je'neu Sancrea"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Damp Note16790 delivery to Je'neu Sancrea in Ashenvale; distinct from next same-title kill quest."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "8ccb6e4ef41d678e4af5b57b3d601f2db7f1be9c5cbf85966cd255f03cbd6efc",
+          "reviewedMyanmarSHA256": "dc6f052b687f6b7c9c4833ca5b771cd8cd515602ccf37d64c9724141059b98f9",
+          "rawDeepLSHA256": "df2541cc7ff7ae72c9d5a19a6cbd68f25f021ec4eb995318948417aff6107c17",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Asks what player needs and still much to learn about naga crystals; no invented requirement."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "d3994ccd5e162344b673ff2bf07de59bda5ce59dc0ea8721c5036abd27076e81",
+          "reviewedMyanmarSHA256": "e601f5fe87ac0a08074e834ab9c1e886073d2286553c7d7075cf280d65cc0b91",
+          "rawDeepLSHA256": "884c579062b3782a9c0fcc3cd5a504b9fcbd22ce37043bbd766a9d8777aa0583",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Interest and glad to be informed; Lorgus Jett full identity introduced as named source of trouble."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6565,
+      "en": "Allegiance to the Old Gods",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D6565/allegiance-to-the-old-gods",
+      "primaryHTMLSHA256": "fb13a5fadd4e2ce197623a7e63c1534a3878777fbea9816b12d34bd0f06ac042",
+      "secondaryHTMLSHA256": "323be9cd1b8ba78a3724ed4f202e8c3be2b4c5c8f34f21e1917571555f3ea4f5",
+      "currentPrimaryEligibility": {
+        "name_enus": "Allegiance to the Old Gods",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 26[/li][li]Requires level 17[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12736/jeneu-sancrea]Je'neu Sancrea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]22[/color][small] &nbsp;[/small][color=r2]24[/color][small] &nbsp;[/small][color=r3]29[/color][small] &nbsp;[/small][color=r4]34[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "ab7db1b77d3db47475e072c8747704a3adb8e9d790225418a74eec98bc5280c0",
+      "allUAFieldHashes": {
+        "title": [
+          "e8b91722a7c7086b16c13e00ffb4c468ab5d7b103c36b6f8bde6e0f3f8999386"
+        ],
+        "detail": [
+          "09a745dbc238ded52834b47c2f12e7ebeee82608a0a56502128454e8deeb65d6"
+        ],
+        "objective": [
+          "5c20e5d833e1a46b22d159cf9e59f6831c379c4e08c0e9ec42d07dcacff6e883"
+        ],
+        "progress": [
+          "2ca6c58c625d8bb102a8d3a02913202a17ebd822d9d45daf863012105bd6ebca"
+        ],
+        "complete": [
+          "686cbdfa0048ec138e79512c76096befd5d62cd69017c3a9cbb2f1840ffb8875"
+        ]
+      },
+      "UAfactions": [
+        "Horde"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "47e9492edef817ffa799e119a9eb4d4f4911f32781fab064a789a3432f5cdac0",
+          "reviewedMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+          "rawDeepLSHA256": "8fcc73e49c6cd5947989dc3ee98f2365a3d40a0bb61a59ecb1732e496f930ded",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Identical title retained for correct separate quest ID; Old Gods annotated."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "c5ffda9315e05457003029ca2c12f48c0e6d20d0a1371ec1e15b5090336f01ee",
+          "reviewedMyanmarSHA256": "59de369bacb82e34e0f525e99756c5948ba27824a8a33fab6b514aae5c3a85a4",
+          "rawDeepLSHA256": "d0f5c3dd96a10ae1536dcdd3f627912c188fcc5bdeed80911c9e4da2497ca2c6",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Twilight's Hammer misunderstands nature spirits; defeated chaotic/destructive Old Gods. Speaker too weak to stop Lorgus himself. Enter Blackfathom, find AND kill him, then return here to Zoram'gar."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "87d1bff23c0dcc16ba91d52652e9250b406d90783a20014139dba3887cc62dbb",
+          "reviewedMyanmarSHA256": "366fbc10f8024934c0d0014012f82b9e8fd5e39ae77991bc64c4360f20d47cfc",
+          "rawDeepLSHA256": "6918ca12c22ddda171e0e2a6451ec6084e5b9197eb0a6d82ac8c03b8302a3ed4",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=12902/lorgus-jett",
+              "label": "Lorgus Jett"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            },
+            {
+              "href": "/forever/npc=12736/jeneu-sancrea",
+              "label": "Je'neu Sancrea"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Kill Lorgus Jett12902 in Blackfathom Deeps, THEN return Je'neu in Ashenvale. No note-delivery mix-up."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "81fbd72dfb0646200814ce850f07ffdc9114b567f382dea1c158268a18b19d0a",
+          "reviewedMyanmarSHA256": "ea5c2f5f31c18f5492e3467efdb08e6547fb5fec397bdf3d1026a3d0f77bd061",
+          "rawDeepLSHA256": "e6bcab767ce2387b52fd1caca9658e74f40f7f964ec1d32edeb11a20dfc52f9d",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Found-him-yet question and imperative that Lorgus must be stopped preserved."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "5c8dba8b94bfb9d7dc18de5b6f5d4528eeeeb86f215a521fdb920b3f12eca844",
+          "reviewedMyanmarSHA256": "068f6f7e49cee975fea8d0a8127afbb34431fa6ffed1ce3dc4e783a1ddad1e82",
+          "rawDeepLSHA256": "e74b0a0e56d5ba7ca9e1bddba95b5fe24021149816fb55e21815ce477dca1bc6",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Qualified success: Hammer not completely stopped, another Old-Gods return plan thwarted, unknown further plans, rest for now."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 971,
+      "en": "Knowledge in the Deeps",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D971/knowledge-in-the-deeps",
+      "primaryHTMLSHA256": "30ed22c0ea8c4120c9b84dad67d5c5de11be80f5ce93f1fcfaf614ed6709a243",
+      "secondaryHTMLSHA256": "8f2b896b365fd797bcdca6ce6bbdbaa7bb316730c0e7f0c7ec23d12aaf8f402c",
+      "currentPrimaryEligibility": {
+        "name_enus": "Knowledge in the Deeps",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 23[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2786/gerrig-bonegrip]Gerrig Bonegrip[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2786/gerrig-bonegrip]Gerrig Bonegrip[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "1682f8ff284f017690f4959134781462af53cd30ee3a2f85dfa69f5ca7855147",
+      "allUAFieldHashes": {
+        "title": [
+          "90e9aab81a8d9bbe5f0e33652f315ad30440267854db8abdcb94423d89ebb313"
+        ],
+        "detail": [
+          "e93b27b4795a94f0479837b9129c8028d98847fbbd89f2be59f3cd91c793275d"
+        ],
+        "objective": [
+          "14e26a94b6a04d06cf6c1cef15b12e0d00fe82178e5c65570c57f0acb6df75aa"
+        ],
+        "progress": [
+          "db088776eba5f7c4fc22aebbca28b730def50a53a180ff3f7a1b997fe0c6a14b"
+        ],
+        "complete": [
+          "a295db5c4774baf2f38c943558d55444f8381f37bcdcfaff571820e9e1b74703"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "6b0dc4f35d55928def395275502e15118fdff40b62189345b96ce587e7db148e",
+          "reviewedMyanmarSHA256": "861dec6519e0cb767a0363b7803374b9497d208cc3811d437d04041a7f528297",
+          "rawDeepLSHA256": "368d8066e069a509e5673cd88f7b0845180ed51ddd9f1c830ab10362a6d15ef1",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Ordinary knowledge/deeps title translated semantically."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "020649b711aef30eb0af568596ebc2141e3f993e8b1a400d570e10866cdebad2",
+          "reviewedMyanmarSHA256": "10a614c286ecacd3951b0f1d8e93cea1e5376f7b4546c2bedc335cd133264ef7",
+          "rawDeepLSHA256": "f4cd48a7d58d5f00d734c7465926b1a877dea9e9492f68e6f8f5cd26c1a9c0b4",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=5359/lorgalis-manuscript",
+              "label": "Lorgalis Manuscript"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Old/powerful lore, opening doorways and awakening Those Who Sleep; RUMORS of Lorgalis Manuscript at bottom of Blackfathom in Ashenvale. Long-dead elves' former dwelling and city ruin; ominous promise beyond end days. Full manuscript identity retained in this field."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "1c432957e6ad6f34c3bbc947201b52f9380bc4279f05d8f61325b666e0115480",
+          "reviewedMyanmarSHA256": "3a2359db01fea3372edb940393b884f0ee704aa8ff7eefe647964022eea81747",
+          "rawDeepLSHA256": "95d62af4e6f726bfd35801592a1f3236cdb65fb16e27d7dce3a1bd99b155739f",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=5359/lorgalis-manuscript",
+              "label": "Lorgalis Manuscript"
+            },
+            {
+              "href": "/forever/npc=2786/gerrig-bonegrip",
+              "label": "Gerrig Bonegrip"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Lorgalis Manuscript5359 to Gerrig Bonegrip, Forlorn Cavern, Ironforge; all independently annotated."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "eae08fccd50e1e26641da9b57eb2618345ce3bf6ac6af5b5a1242666bde52b8c",
+          "reviewedMyanmarSHA256": "289b07bb0457636c5141002aa237cdb01c65100b821781c00aa83b33b278ef32",
+          "rawDeepLSHA256": "04fb3e7cc63613eae438705ceca1b52da557b49413c9de21004a508fa955e5ac",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Long journey and difficult task; IF manuscript brought THEN great reward. Name and conditional preserved."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "27fc2194107f9722305de147e75db62e98e44f1fae3ae0f9969e806ed5f11674",
+          "reviewedMyanmarSHA256": "c962b94c4050f289c12ddc9fb7a49605e9304d27cdfa598203b01faf2c2fff8c",
+          "rawDeepLSHA256": "2fc405f0d7887485307b2c48cb2293c76b6473f1561979c2d6e0c95f9b7261ef",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Joy; copies made AND distributed; Lorgalis knowledge to brothers AND sisters, service exceeds what player knows, gratitude gift to allies."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1198,
+      "en": "In Search of Thaelrid",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1198/in-search-of-thaelrid",
+      "primaryHTMLSHA256": "61e6fa913aca902eef91a7aa387f4c9bbb26efe797a54775ba08e207c35a1599",
+      "secondaryHTMLSHA256": "c6523c92d28856a9d462bc3063c59611846cb7942282ee190fb53a09130f63c7",
+      "currentPrimaryEligibility": {
+        "name_enus": "In Search of Thaelrid",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 24[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4786/dawnwatcher-shaedlass]Dawnwatcher Shaedlass[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4787/argent-guard-thaelrid]Argent Guard Thaelrid[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "c823df7e1c3e958e7a61a5dc2bef13ba299511be16694f0d7c736812c02b56bd",
+      "allUAFieldHashes": {
+        "title": [
+          "cd6d7ee6bae80ac8d918f0f4b977c483d5d282ce33ba099b14a6d0063096937f"
+        ],
+        "detail": [
+          "057f5d40589a1983710350fcc41cf23535b4541cd388cccfcdac88857e59baea"
+        ],
+        "objective": [
+          "0c213fa2694b1c9dc809cf4bb39623b3b8a8e7989af4019d4048bece80fea357"
+        ],
+        "progress": [
+          null
+        ],
+        "complete": [
+          "8ee56ae03f5ed580078899ba15e09ff7c86d17c197c8c25c9fdce6b957f9a8ae"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "5ed113c3780affaf11683eee6bcda9dd8329dd4fe8687e8e228a5e456286f230",
+          "reviewedMyanmarSHA256": "62d7574b369280afb41590f61e8af6c53dedab50261d32553d73f6ea21fee622",
+          "rawDeepLSHA256": "9dd4de8df7f0715394640f9b2e9daab8d70bebbe72def134336f2fddb7e3128c",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Search framing semantic with Thaelrid identity retained."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "4f63aa69e1b9f996caba8ec80c0f98ca3dc672205723abb48000338eb5cfbc93",
+          "reviewedMyanmarSHA256": "c5a8deb9374e1e9739f06c83b3943bee86a8e3409767a59cf457e938e8d56ac0",
+          "rawDeepLSHA256": "d52bd36cd886273da683ab5a4b0bf28fc3cfbc72c584bfe85b1942fbdf8b884f",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            },
+            {
+              "href": "/forever/npc=4787/argent-guard-thaelrid",
+              "label": "Argent Guard Thaelrid"
+            }
+          ],
+          "paragraphs": 5,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Rumored Hammer+naga union in coastal Blackfathom, Argent Dawn information gathering for WHEN/WHERE help needed. WEEKS since scout sent; full Argent Guard Thaelrid not reported back; other scouts busy urgent matters; seek AND aid. Short final Thaelrid refers to already established full rank/name in this field."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "cf5f66213f5594c662a587225647784338c2dca76980e591d4c1144dc7d09cff",
+          "reviewedMyanmarSHA256": "b96adb30aa0197e3c759a3a72576e209c2f1ad86d0e69e50f76a4a19c017def5",
+          "rawDeepLSHA256": "e81f283b1d8b7538af2bbe31f6ab2b079b453216e0a50858ae5e8b6ed97660ab",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=4787/argent-guard-thaelrid",
+              "label": "Argent Guard Thaelrid"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Seek Argent Guard Thaelrid4787 in Blackfathom; full rank/name one annotation."
+        },
+        "progress": {
+          "review": "source absence verified; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "sourceAvailable": false,
+          "sourceBoundaryType": "absent heading and hidden state",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 0,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "No source Progress state in both saved references or UA; null retained."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "ad339d3a1309b74f091cd880ca1a9a3b2883b8350c6e2c95adfe5611646bef87",
+          "reviewedMyanmarSHA256": "2c3c4ac89fc5e8f51c5a2f8747096e52b0d7c3d475cd6e0374f6d99d48540556",
+          "rawDeepLSHA256": "d9cc946c8f9e8b977a16d93ee7adbda7ad52891f29a947f44a320a67ad74a220",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=4786/dawnwatcher-shaedlass",
+              "label": "Dawnwatcher Shaedlass"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Dawnwatcher Shaedlass full rank/name, good that he sent player, wicked plot indeed underway here."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1199,
+      "en": "Twilight Falls",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1199/twilight-falls",
+      "primaryHTMLSHA256": "5b67ae1d4c839694b8e65ac80d9fcb27441d5aded050cd65b67549bdbcffb98d",
+      "secondaryHTMLSHA256": "e3564b4178e6a535af9ae01bce3b5309112e192471027624c9f2f1e7e62eefe8",
+      "currentPrimaryEligibility": {
+        "name_enus": "Twilight Falls",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4784/argent-guard-manados]Argent Guard Manados[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4784/argent-guard-manados]Argent Guard Manados[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "2dcc9ee7862a7c4f9439faae09e517d1753be5b89308df821adecb6602ec2e73",
+      "allUAFieldHashes": {
+        "title": [
+          "116b899c47ed4fa87c02e66152afd57fa6ee0ed02d137224bc47e96458844644"
+        ],
+        "detail": [
+          "ab1c1bb3fd12e443edb7059c3ce6fb2ae2c00ab746e7b505127ac99138bf84af"
+        ],
+        "objective": [
+          "4287b933b7d088e42578f59162b66a4d85e8b6244f3024b7be64661e91b5a7fd"
+        ],
+        "progress": [
+          "b39a342ec5d74679f1cdbc945fdb5726816b57ffb3f737c022b38d95bd049fd8"
+        ],
+        "complete": [
+          "54967d9a7f85c0b91ff1df5745fbefd5e84c7dddc90adfbb151d74e1070baabb"
+        ]
+      },
+      "UAfactions": [
+        "Alliance"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "e6aa55af7fe948a866c2b1ece5ca192d727dd0f071e6c13c0557fee65920e3d1",
+          "reviewedMyanmarSHA256": "ae7c46d91366dde5e6a585269e3e9e938fa8d41b164b5a4f86415158b865d163",
+          "rawDeepLSHA256": "a70a006265b9a6f4768fa6298408e1f09297abc300924a19263ce5727302f499",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Twilight Falls ordinary title translated as dusk falling; no spurious named item."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "25619a8a4070a12c2c52a1e5a349f7d88802e47bb38757b43b3cf70ff6a31774",
+          "reviewedMyanmarSHA256": "03af2dc96ebb70103411b1f72ed500fc687d4508054bfbae81bfb7080dd6a8e2",
+          "rawDeepLSHA256": "55b5211b30d95eefb95f483dacdae033a18e40a280a1d5d4373f009e87f0dcd3",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 4,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Old God rites empower Hammer to restore dark patrons and spread death/terror. BELIEF in naga alliance and gathering Blackfathom/Ashenvale; any evil temple plan must be stopped. Wage war and bring PROOF, handsome reward. Hammer shorthand follows full faction in same field."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "3530c1a4ddb0281e5557643629ffd497709c7dc1984e7e2e72e0c108d632827c",
+          "reviewedMyanmarSHA256": "11793ead0cedc91c9f4974201617e8926234456fab989328cd7d963b965e36a2",
+          "rawDeepLSHA256": "83713628f33f4e6ea930eaa5ff7081463e1246e1d9fe4d073f3a709e6d967ffd",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=5879/twilight-pendant",
+              "label": "Twilight Pendants"
+            },
+            {
+              "href": "/forever/npc=4784/argent-guard-manados",
+              "label": "Argent Guard Manados"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [
+            "10"
+          ],
+          "markers": [],
+          "notes": "10 Twilight Pendants5879 to Argent Guard Manados4784 in Darnassus; whole rank/name and item annotated."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "3789ed1ab6ed84094437184fa0c7086711b9772714f1d7905208a9813282e237",
+          "reviewedMyanmarSHA256": "779b138f5efa838b6e6f013f961b42d2ecf529c57a002792c31fdd613990217d",
+          "rawDeepLSHA256": "f7afb478cf67f8b45c81336101ccdb006981a0cc4283d377ae0b59be1ee23538",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Ancient night elf temple once held powerful moonwell; present evil unknown and asks progress driving them away. No ghost/race substitution."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "5a7e2a62f6764479ee3f1ab6e044d1176f5a3366a99abe385bc8c4450ed93e26",
+          "reviewedMyanmarSHA256": "fc92db45b0322a6f3d37e9daca85015dc8a4a3a346d5dfe5520168d0fbb18aa7",
+          "rawDeepLSHA256": "f1ee4fd6b297338cbbf08508f949e2d2535b8ea4fcbfa3527e50cf5d97f048f0",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Brave/noble blood praise and Argent Dawn commendation against evil; no invented royalty."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1200,
+      "en": "Blackfathom Villainy",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1200/blackfathom-villainy",
+      "primaryHTMLSHA256": "40b76869692b002e3c9c4082b2a87c1236a66678cd1604ea6a14a6fa175e0058",
+      "secondaryHTMLSHA256": "3fa538e8652ba73592e6f5d690187a6f2a3b8e13443c81fa3a557314e842b85a",
+      "currentPrimaryEligibility": {
+        "name_enus": "Blackfathom Villainy",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 27[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4787/argent-guard-thaelrid]Argent Guard Thaelrid[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4783/dawnwatcher-selgorm]Dawnwatcher Selgorm[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "886b733a3215ed986d33a4a40efd6830cfeb2b258422dcc8dd59b1a76e77a93b",
+      "allUAFieldHashes": {
+        "title": [
+          "add6c7b5ea87989272f12bf9021083fecf3477fbd2e6bcf6769715497a79f184"
+        ],
+        "detail": [
+          "173f135e3536540070fcdd1bd576ff95a4dd134913d311f7c00309ed4c1f3036"
+        ],
+        "objective": [
+          "2dee52198906ee22e6c2a69cab2e7bdc435f73c01a84860383a257c8d797a3a2"
+        ],
+        "progress": [
+          "687d0a776d4eadac94e6f5c314d209751190968e2ab93a2312445fc6a3dbb155"
+        ],
+        "complete": [
+          "37ed70ab10f63f0d884dae0966d49683c828fc8a3d749bdf99c5639349c6ea5a"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "3b05fc5d7115340c5ef26a9358bfb445c4a90962fb63f4b3df5b54dbf9c12fd2",
+          "reviewedMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+          "rawDeepLSHA256": "9982651147330be5506fe7a64dd2f859650b69d7b5aa53019c1dbe2d94fcc2ff",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Blackfathom named place retained with semantic villainy framing; ID-specific Alliance turn-in."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "d2acf671714bce76d9050820ccf9b39ac526c557d005d5dc62a2b3a8f7c139a9",
+          "reviewedMyanmarSHA256": "95d21955365f8209fdcddaab7ccc982709e771e2f387f94be8c71919f645dea5",
+          "rawDeepLSHA256": "f0a261ce991de3b2252efba335a90554ba2c614e58d02bdf9e73d4882d9bcc7d",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 5,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Weak Thaelrid asks help. Elune temple, ONE Old God corruption seeping UP from BELOW earth taints Moon Well; servant Aku'Mai rises from water; cultists ally naga and sacrifice innocents FOR POWER. Kill Kelris and bring HEAD to Selgorm in DARNASSUS."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "38a698b0364d8c4e133b0831725a413272a4b5ee92544abd9b52c020545190bb",
+          "reviewedMyanmarSHA256": "f97aebb0d55fa679e283146c0c0618d46901fa11411764648fd90d63839438b2",
+          "rawDeepLSHA256": "b68754082f9095f34c361ed1bba83190cf80dfa0efbcc8ec582ae352e8111eae",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=4783/dawnwatcher-selgorm",
+              "label": "Dawnwatcher Selgorm"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Twilight Lord Kelris5881-head source target to Dawnwatcher Selgorm4783 Darnassus, separate from Horde6561 endpoint. Full rank/name labels retained."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "c5c9d533f9a44f4f5a53bf737dc8ad93b4947e663a1116c873210db4779e1040",
+          "reviewedMyanmarSHA256": "34e907aa616e5b95d0e4218112d9bf220700d3bb3f224e62417c25ec610c1770",
+          "rawDeepLSHA256": "29fb830e999d6278bfb5342615a61545890091f1c62a8bfe69f9fe4e7c74dbbb",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [
+            "<class>"
+          ],
+          "notes": "Brusque time-is-precious address to exact <class>; Darnassus/Argent Dawn role and thwart Kalimdor encroachment; speak quickly OR leave."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "498d043ea78f5541a18bc18ce744d395e5821664863dcef4a29f3a79b7f02289",
+          "reviewedMyanmarSHA256": "324507514fd9cdcfc5aac708e097a3ae7e61496f6cde4024d7eabbba5c65ef3d",
+          "rawDeepLSHA256": "b828fb2e7ec7a2e58923754256e06bdc8c899eab0160bfe2e0b9857133268f6e",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 5,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Kelris elusive and apparently involved whenever evil arose; considered dead OR missing, lives spared; horror at sacrifice to Old God's servant for PERSONAL gain; salute on behalf of Argent Dawn."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6561,
+      "en": "Blackfathom Villainy",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D6561/blackfathom-villainy",
+      "primaryHTMLSHA256": "187b9b644108a5ee468663c4bd0c16573ffa249bd181d48b77d6b5cb267e922a",
+      "secondaryHTMLSHA256": "924890836c29953a1ec7c563506b316ce031d382c409020a75e3c8004787e091",
+      "currentPrimaryEligibility": {
+        "name_enus": "Blackfathom Villainy",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 27[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4787/argent-guard-thaelrid]Argent Guard Thaelrid[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9087/bashana-runetotem]Bashana Runetotem[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "df3b5e6fe9c340a326fa511ed952254e82ff4e30aa5e0bde3d5ac5d41f0a22b4",
+      "allUAFieldHashes": {
+        "title": [
+          "add6c7b5ea87989272f12bf9021083fecf3477fbd2e6bcf6769715497a79f184"
+        ],
+        "detail": [
+          "096129eec62634a4ce5a9bf40f59d3f96d460cb7df43c7bb4184c47514eae71a"
+        ],
+        "objective": [
+          "7481926797874c188df01555644dd3f1554f5529cae2539c819882f45cbd43fb"
+        ],
+        "progress": [
+          "7fadf3d0a99f021773b71a20a02a9907d6479c305113b4372678c6b9473acec0"
+        ],
+        "complete": [
+          "f4fc69dc0730dd7a6c05e111e0064c2ccf6513ded119a8de7b306ad4369da172"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "3b05fc5d7115340c5ef26a9358bfb445c4a90962fb63f4b3df5b54dbf9c12fd2",
+          "reviewedMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+          "rawDeepLSHA256": "9982651147330be5506fe7a64dd2f859650b69d7b5aa53019c1dbe2d94fcc2ff",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Same Blackfathom Villainy title, correct distinct Horde ID retained."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "94aba354319bd85be7ad96187f14109d46de0eb052b3e541fb6523af23431db1",
+          "reviewedMyanmarSHA256": "1f70179063a0d1c8c723a40912e801eebedf190ed49968e681727844ba14faf0",
+          "rawDeepLSHA256": "036786cf64dd5e25e1294e48648c9b2e16c3822e3c9600644cde58bfae1674c4",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 5,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Offer shares exhausted Thaelrid's temple/corruption/servant/sacrifice narrative with1200 but explicitly routes HEAD to BASHANA in THUNDER BLUFF. ONE Old God, upward seepage, innocence and cultists gaining power preserved."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "6f87c20e63d7f26b78ac3fe0c1a25babd184bed09144727f944b0a315ea17861",
+          "reviewedMyanmarSHA256": "acd6bf6dd4a49a38ab8896fdb26b3937bcbbe3ca3ed1944f34913963c6e40f30",
+          "rawDeepLSHA256": "d0b076c19eec0ff16c10f57c01327a65e9a9fb5b8bbe85aa1b4755853b0caf11",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=9087/bashana-runetotem",
+              "label": "Bashana Runetotem"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Head of full Twilight Lord Kelris to full Bashana Runetotem9087, Thunder Bluff. No Selgorm/Darnassus substitution."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "38e7ef120a4b68fbc6d936717514be76e89d221810485026a44e941cbcaf49a2",
+          "reviewedMyanmarSHA256": "9a96d9cbde0f0713ea9aa4bc0ab39df7bc09584861ca9cbefb055e98b44b6406",
+          "rawDeepLSHA256": "45925a28adb95265e010fa9f18810c7c6fbca787673c25199be10df5b14ec553",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Earthmother blessing/name; peace between earth and ALL her people SHOULD be goal, grand nature plan and everybody's role."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "834020af23d10afe8b04d6614b31caac56d18044014c9f97f7e8f115d9b3cadb",
+          "reviewedMyanmarSHA256": "ff8e63d973ce252b26a8f99b680cc738b4ec91c29bada0a30bee998f64495be4",
+          "rawDeepLSHA256": "38bc9625579523bdcfb18db3e517836f772dd6362555d63e716f3f2547cd0d4e",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 5,
+          "numericQuantities": [],
+          "markers": [
+            "<name>",
+            "<name>"
+          ],
+          "notes": "Argent Dawn considered Kelris dead OR missing; innocent lives spared. Earthmother praise and disgust at personal-gain sacrifice. Kelris sought chaos by Old Gods worship; both name occurrences preserved."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1275,
+      "en": "Researching the Corruption",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1275/researching-the-corruption",
+      "primaryHTMLSHA256": "ed97ca5a6c4437cd7ee0cf1609ceb658e1e14d2c0f57239e2d77d88bd322d7fb",
+      "secondaryHTMLSHA256": "a5ce223d702701287857c654c7c6baaa899eb1cf77f9d2ab10665e7408548636",
+      "currentPrimaryEligibility": {
+        "name_enus": "Researching the Corruption",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 24[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8997/gershala-nightwhisper]Gershala Nightwhisper[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8997/gershala-nightwhisper]Gershala Nightwhisper[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "b590ff2677fcae23403709becba3db1a1635e1d2cb5d70a5ae8f751e1e3e8d2d",
+      "allUAFieldHashes": {
+        "title": [
+          "4b97bdec6ccce8eec3708e476fe234ec2f5bd035b7ca0f68194af3295725874f"
+        ],
+        "detail": [
+          "1a3ae79feb06099813f8994363ee4e9d382d9c0d71444926667f0c2c9761c9cb"
+        ],
+        "objective": [
+          "33350e04fa078442af4e360fec925559f71e3e801d7cf24929c1e92454dd3065"
+        ],
+        "progress": [
+          "39f51f446e63da8c8e08488d122ad0a4d840cc00ed2937b26e5d3af41beedb98"
+        ],
+        "complete": [
+          "cdaf0f33c67f542297122e36208377e2bcdbf1d2416da891201daf4c8bc92222"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "d330ab0aaa73f5481554aad6459bb96caa590437916e2fb10d2eda312998f46d",
+          "reviewedMyanmarSHA256": "4aaabed6e67296f98e3667965d339b4757ac71f3783abeefa661897e5c8cfe4e",
+          "rawDeepLSHA256": "ac6b0f62c5c277a348fa1ae069fa6e43d2ab3e75aa9924255237cada3f7f2271",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Corruption research wording covers the magical/physical corruption described, no invented item title."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "7d446dea8fbad5dfe78fefc39062c1cfed5256969ff475498074991e2ebbab0e",
+          "reviewedMyanmarSHA256": "d4887fe5eaf5f552fe5872388046836cdda45fb3440f075b5aa0f0c228befffa",
+          "rawDeepLSHA256": "4f7cba2c616d479b2441119f084af19eb4e9a64f85503142f9a7bd1dd7f8d3cd",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 4,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Foolish blood elves with demonic magic; rhetorical question on naga/satyr Kalimdor fate; fear similar deformation and another monster race in Azeroth. Brain-stem study to DEDUCE elves' fate. BOTH naga and satyr in coastal Blackfathom/Ashenvale; long journey."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "ca531419c2eaf330ef7a8aede40e2dabfe4211a42603f482f1616adac7d4ae63",
+          "reviewedMyanmarSHA256": "7485311ad97346fb24b476ffb87031bf2750da3aff7b4ac17dc31906173d76b6",
+          "rawDeepLSHA256": "4528e4e92ffa32d77839959d32d34e5fd92f43f761eef2b4f91212bb7ca452d9",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=8997/gershala-nightwhisper",
+              "label": "Gershala Nightwhisper"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [
+            "8"
+          ],
+          "markers": [],
+          "notes": "8 Corrupt Brain stems to Gershala Nightwhisper in Auberdine. This exact summary wording maps to item5952 Corrupted Brain Stem through full metadata; it is a documented source alias, not a changed quantity or item."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "939c932a2e3c222c1f2914aabf64f9093a95011c3f667db02cd6911ca3693b9b",
+          "reviewedMyanmarSHA256": "62bdece57c204210031228c6c777d00178c2238dcd9d882b8a4fad32781d41c6",
+          "rawDeepLSHA256": "0012adb31d1776c24c73812d5befc01efa650fb610bd03e06e2d2a61f8865fbb",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=5952/corrupted-brain-stem",
+              "label": "corrupted brain stems"
+            },
+            {
+              "href": "/forever/zone=719/blackfathom-deeps",
+              "label": "Blackfathom Deeps"
+            }
+          ],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Enough samples BEFORE work begins; stems from BOTH naga/satyr Blackfathom to TRY correlation; PERHAPS knowledge may prevent deeper deformity AND evil. Original lower-case linked corrupted brain stems points to item5952 and full English alias plus pronunciation retained independently here."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "e3874173db0859b01acea511921a30f70cc43eb24e4eaf0ddef14246b5926274",
+          "reviewedMyanmarSHA256": "4a62674ff670e15fd49b549ab8ef17ee7be28dcb48d67ae7b2a443adbbafe915",
+          "rawDeepLSHA256": "951932f1681ac912c0db498393970f6353029661fb7aaf48fce84ef6e09700d3",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Far travel and undoubted peril, selfless service for ALL Azeroth, thanks/name, then excuse for much work. Three paragraph flow retained."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 3765,
+      "en": "The Corruption Abroad",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D3765/the-corruption-abroad",
+      "primaryHTMLSHA256": "910a52f36c8cfb50623d3ce4f9fc4dacaa9cecc3c70c5f8ebc70fcc93e26990d",
+      "secondaryHTMLSHA256": "84ea51f0472d5273ee21c5d88ad84f9b9acba9d80478676358bbbbce927b8acc",
+      "currentPrimaryEligibility": {
+        "name_enus": "The Corruption Abroad",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 24[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4984/argos-nightwhisper]Argos Nightwhisper[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8997/gershala-nightwhisper]Gershala Nightwhisper[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "3d05fe1b4eabe6ecf606d36657b67bf67e95db874116228b9b4efb019a203115",
+      "allUAFieldHashes": {
+        "title": [
+          "d8cb4aa404abc02a850ece93c0194825d83f7557b43d5ee8951f2e3e8313fd42"
+        ],
+        "detail": [
+          "c1682754484bccd105a6da19352842bdd68908592be05fb0fb1e4b2dedf260b2"
+        ],
+        "objective": [
+          "0fbd4234588ba478515c65b527b146416d86ea745beff4ddaa5cf464e5cecc66"
+        ],
+        "progress": [
+          null
+        ],
+        "complete": [
+          "c0ec9554853394124d0f9a510c5c7c243a157b586d1c1c8b88bda75a53232ad8"
+        ]
+      },
+      "UAfactions": [
+        "Alliance"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "852fa2d331282c3b535d5813bc56be10109088184c460ad15844285638949c34",
+          "reviewedMyanmarSHA256": "9f3368c2ec680c2cd664f325e17df9790fd4f9f0968f69c4ded5e64549a23e37",
+          "rawDeepLSHA256": "ff1470da4e1be68becda52ba1c803d5c490f985ee5b2d8bec6d7e45a68aadae8",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Ordinary abroad/corruption title translated semantically."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "b35832b08e96bcefc8842b66d96547bc829cdab28cac2e2909cabd3274a1fe45",
+          "reviewedMyanmarSHA256": "4396241025563d1cfa34d4343d2a308356154217fdcafdb73063c6b5100e934e",
+          "rawDeepLSHA256": "34974b6804b9aa4e0d4ca101912ef008420e0a334a0e0f7241cbf7ed6d116712",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 4,
+          "numericQuantities": [],
+          "markers": [
+            "<class>"
+          ],
+          "notes": "Busy Stormwind opening, travel from afar seeking brave adventurers, brother Gershala needs help Darkshore seaside Auberdine; long epic journey justifies asking seasoned exact <class>. No collection objective imported from1275."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "b98fa3336de7694212cdaed5116bd7fc623ed2630361741da62c43141684a05e",
+          "reviewedMyanmarSHA256": "4667f13f7dcec5c60b1a7c4f2adec586c2cd425e357dc23024684024ae032ed6",
+          "rawDeepLSHA256": "c208808d6942ff0c9d4b2639ff17d3e810cf38b1a4fc0beab8d1c12d4a258903",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=8997/gershala-nightwhisper",
+              "label": "Gershala Nightwhisper"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Travel to Gershala Nightwhisper8997 in Auberdine; distinct referral from Argos4984 to1275."
+        },
+        "progress": {
+          "review": "source absence verified; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "sourceAvailable": false,
+          "sourceBoundaryType": "absent heading and hidden state",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 0,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Primary/secondary/UA Progress absent, so null."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "f6637496efe01f1a912bc3d5df86c1ef058566e47fef484eed3fa423e9b7f433",
+          "reviewedMyanmarSHA256": "2b3c2068fa0a221a8f54287c7e5c9bb31751431a39b8a67372375983383db9b1",
+          "rawDeepLSHA256": "4698b8d15e2282ba38f420bd0dfa0671fb8c607de7ab01a265cb6e329c7ee08a",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Gershala asks whether brother Argos sent player, acknowledges travel fatigue and much to discuss."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1740,
+      "en": "The Orb of Soran'ruk",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1740/the-orb-of-soranruk",
+      "primaryHTMLSHA256": "b000c643d837c9adb51456ba1edca347d19373fe093b42dc3fba90b71db0aad7",
+      "secondaryHTMLSHA256": "e5a915fb5974abdb6e35da626f3fd6941a50df67f8774a467a8b4291e0dcb356",
+      "currentPrimaryEligibility": {
+        "name_enus": "The Orb of Soran'ruk",
+        "icon": "quest-start",
+        "_side": 3,
+        "reqclass": 256,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=6247/doan-karhan]Doan Karhan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6247/doan-karhan]Doan Karhan[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "700ea3265dc00ef5e4a9f2c80e958111283e08e281386b6e2496963203be7cfd",
+      "allUAFieldHashes": {
+        "title": [
+          "806b08bfc4314f147dab5c10114cdaedb80eda4480076642951026a57d41c3ff"
+        ],
+        "detail": [
+          "a58924ef5b7151bfa17b8f736ae1bf9debae63fce44fc0b154d530ff992f0540"
+        ],
+        "objective": [
+          "a47ee725fd7c222a756ff382eca6787d363d52d76d638cbfddc0aec76283d9ee"
+        ],
+        "progress": [
+          "6665a1930ec213958eba6d924ccb4143f914aa3a2b6df8161161aae9132a1afa"
+        ],
+        "complete": [
+          "4dc19fb31e59524e3c80c4dda41d88994f552fa9f038105cc8399beebb1ea058"
+        ]
+      },
+      "UAfactions": [
+        "Both"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "b4bbb0459bc352475dd424051e11c87f007b68eb240bce8b405c9e4e7490ff59",
+          "reviewedMyanmarSHA256": "63ea0b9d57e128e35894746dd110d9586e9098b33e618e1793ba73bf060de7c4",
+          "rawDeepLSHA256": "70085dc6b0fb8d102a9a22a3cf5a03cfc8738530864503dfb697fc242cd23fdf",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Identifying item title retains full Orb of Soran'ruk, matching item6898 primary link identity."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "4550dc0f7b8e082de821f83562babfe012fabb2021e6e9853023c207a352c3c3",
+          "reviewedMyanmarSHA256": "c7fb8391eb634afbfecace6cc45c70169ad23b85921e2785f9fc8908fa25c24e",
+          "rawDeepLSHA256": "e0ce3bbbe76902f0e556defc9a5a6dcae866375a90cf8624ac7f652e7b0b8153",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=6898/orb-of-soranruk",
+              "label": "orb of Soran'ruk"
+            }
+          ],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Legion demons out of favor imprisoned in orbs distributed to mages/warlocks, servants carried orbs Azeroth, fragments retain power. TWO main pieces, ONE further broken for Twilight's Hammer acolytes in Blackfathom; OTHER LARGER piece with wizard Shadowfang Keep. This field does not invent the objective's exact3 subdivision. Whole linked Orb of Soran'ruk retained."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "9a10aac6e1887bc1152eb441cf7e1658da571491addcbb4306dac39251a98774",
+          "reviewedMyanmarSHA256": "a39f60e79fc82bab0eb2ff5725ec65b27449c660cf3db4518115b95468cdd52b",
+          "rawDeepLSHA256": "03c79e78f3d5b3434b10add2f1ed8cfe5c1e1fbefb5bdfedb50f5f3a78e76d15",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=6914/soranruk-fragment",
+              "label": "Soran'ruk Fragments"
+            },
+            {
+              "href": "/forever/item=6915/large-soranruk-fragment",
+              "label": "Large Soran'ruk Fragment"
+            },
+            {
+              "href": "/forever/npc=6247/doan-karhan",
+              "label": "Doan Karhan"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [
+            "3",
+            "1"
+          ],
+          "markers": [],
+          "notes": "3 Soran'ruk Fragments6914 PLUS1 Large Soran'ruk Fragment6915, return Doan Karhan6247 in Barrens; different sizes/targets/dungeons preserved by offer and distinct item identities."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "7179796e60bd9892773b27eb83efe460e0b7db026f1bd2a68e189b9a9e0a20d1",
+          "reviewedMyanmarSHA256": "cd25c8d2ab93d88a6429dba4aa448d52f5799157dd8f4d6c56702427569f8d10",
+          "rawDeepLSHA256": "a4ea29a9cadf943a7071e23ec6eb1eeae5cb286239675286bc7bdf0739429d23",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=6898/orb-of-soranruk",
+              "label": "orb of Soran'ruk"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Many years for orb of Zargain, served speaker well; certainty Orb of Soran'ruk will serve player. Both orb identities annotated in this field."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "a7b5c14b900aa7c5ae86174bdb4c75991bd5b2ad4236a122d23fe1364b3cdfba",
+          "reviewedMyanmarSHA256": "323e07b08a02d434ccd80f58e9a1bb3f996b454dad24a2d883bc678a77015b13",
+          "rawDeepLSHA256": "45c9cffb6fd6f9058db354f20d3670f221f24383ac3ed37c6582deecb8069d3d",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Not greatly fragmented and ALMOST all pieces, easy recreation to make Soran'ruk whole, life dedicated Burning Legion orb study/recreation, favor in collecting, return FULLY reconstructed in PLAYER'S choice of form."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1098,
+      "en": "Deathstalkers in Shadowfang",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1098/deathstalkers-in-shadowfang",
+      "primaryHTMLSHA256": "9af7ae17234e41dcf60486c83c57a91115cc31e460b27225dbc82120528442fb",
+      "secondaryHTMLSHA256": "6ea109d304c36c5caef07e9365253956cf06519e1a75f928f07bf2f6059fb9f4",
+      "currentPrimaryEligibility": {
+        "name_enus": "Deathstalkers in Shadowfang",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 25[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1952/high-executor-hadrec]High Executor Hadrec[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4444/deathstalker-vincent]Deathstalker Vincent[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "f9de1d4ca0f37e32f2836f9316570b63f1d0b1a1217daea5df1b206aee247e2e",
+      "allUAFieldHashes": {
+        "title": [
+          "f6539e2c199751748fb9620a67c5ce6ef29411d73b2aee155bd78ff9a34e0255"
+        ],
+        "detail": [
+          "3e42bd5b8609732bd6736088f427d497939e04472524270693269ad12efb4876"
+        ],
+        "objective": [
+          "425c667bf9d8dc0e8be8bb0b4356e6f2993e3e3dd5f67a471891fa88e7ed0563"
+        ],
+        "progress": [
+          null
+        ],
+        "complete": [
+          "90f9c76b03bd37b77941da4e2b8642130c2c762111620446af3a52269331e7e2"
+        ]
+      },
+      "UAfactions": [
+        "Horde"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "ba615541f2f4f33d90f27fe1c117f4dd8fd4aa188181fa91c98d7654cb2a5eb9",
+          "reviewedMyanmarSHA256": "b6bf7fdd4f712d1697c90c53155e1975ff72401b6acd9dac6a045426699114b1",
+          "rawDeepLSHA256": "e629fea479a8b6613d2e37ac58ce5c1b096470e917e51c1ae789b9bace49276b",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Deathstalkers and Shadowfang identities preserved; title uses maintained plural pronunciation ending ဇ်."
+        },
+        "detail": {
+          "review": "correction requested",
+          "englishSHA256": "eb7ffce175574c615644c3caa9714d454917ea016bce7b6d0ed91d33b634cda5",
+          "reviewedMyanmarSHA256": "9d027b2d9668751b2270ee6097faac898d5441418d25d90760ee04de0de34676",
+          "rawDeepLSHA256": "5b480dd387de7455112050b1366e6016ca9e22cfaf021732a6acbaece4a14b16",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=209/shadowfang-keep",
+              "label": "Shadowfang Keep"
+            }
+          ],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [
+            "<name>",
+            "<name>"
+          ],
+          "notes": "TWO deathstalkers sent for intelligence, many days missing; reports needed for hope of successful assault. SOUTH Shadowfang Keep; Adamant AND Vincent, conditional aid IF needed, dangerous AND critical, do not fail. One case-only inherited pronunciation conflict requires reconciliation."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "f0ee3d08509b491f6335fae22ee40bf7f389819725ac2f81f9e55376d1364d47",
+          "reviewedMyanmarSHA256": "c8edeff6e228dc331929a6a5f1688a274b20e1af1ad65f0d9aa447eab0a36de8",
+          "rawDeepLSHA256": "af2f4f381160f7f9daa03503130a3eda5e1f220de52581c84e8e392ea25517d0",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=4444/deathstalker-vincent",
+              "label": "Deathstalker Vincent"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Find BOTH Deathstalker Adamant and Deathstalker Vincent4444; complete rank+name annotations distinct."
+        },
+        "progress": {
+          "review": "source absence verified; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "sourceAvailable": false,
+          "sourceBoundaryType": "absent heading and hidden state",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 0,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "No primary/secondary/UA Progress state; null retained."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "37a201cd6c4bd3a092c87049b12486f8084a43ba913b65ca436658ec88afa688",
+          "reviewedMyanmarSHA256": "31da22611cacfa89318c9dbd7f64cdcbc372786d784cb8839ba6eec4ee8a3498",
+          "rawDeepLSHA256": "aeddd13aabd9e3318a5c59fc218c43bfb45e325dfdee8169a5622dfeb1f68fc1",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Broken still Vincent body; Adamant WILL send report Hadrec while Vincent's extra intelligence remains with him, and small trinket clutched in hand. Does not replace uncertainty/narration with invented instructions."
+        }
+      },
+      "issues": [
+        {
+          "field": "detail",
+          "reviewedMyanmarSHA256": "9d027b2d9668751b2270ee6097faac898d5441418d25d90760ee04de0de34676",
+          "englishSHA256": "eb7ffce175574c615644c3caa9714d454917ea016bce7b6d0ed91d33b634cda5",
+          "old": "deathstalkers (ဒက်သ်စတောကာစ်)",
+          "new": "deathstalkers (ဒက်သ်စတောကာဇ်)",
+          "proposedFullField": "Shadowfang (ရှဲဒိုးဖန်း) ကို တိုက်ခိုက်ဖို့ ပြင်ဆင်ရာမှာ သတင်းစုဆောင်းဖို့ deathstalkers (ဒက်သ်စတောကာဇ်) နှစ်ယောက်ကို ရဲတိုက်ဆီ လွှတ်ခဲ့တယ်။ ရက်တွေ အများကြီး ကြာပြီ၊ သူတို့ မပြန်လာကြသေးဘူး၊ ဒါပေမယ့် တိုက်ခိုက်မှု အောင်မြင်ဖို့ မျှော်လင့်ချက် ရှိချင်ရင် သူတို့ရဲ့ အစီရင်ခံစာကို ငါတို့ ရရမယ်!\n\nဒါကြောင့် မင်းတာဝန်က ဒါပဲ၊ <name>။ တောင်ဘက်က Shadowfang Keep (ရှဲဒိုးဖန်း ကီးပ်) ကို သွားပြီး Deathstalker Adamant (ဒက်သ်စတောကာ အဒမန့်တ်) နဲ့ Deathstalker Vincent (ဒက်သ်စတောကာ ဗင်ဆင့်တ်) ကို ရှာလိုက်။ သူတို့ကို ရှာပြီး အကူအညီလိုနေရင် ကူညီပေးလိုက်။\n\nဒီစစ်ဆင်ရေးက အရေးကြီးသလောက် အန္တရာယ်လည်း ကြီးတယ်၊ <name>။ မပျက်ကွက်စေနဲ့။",
+          "reason": "The title Deathstalkers and offer lowercase deathstalkers name the same two agents in original1098 English, so capitalization does not establish a different spoken identity. Maintained dictionary contains competing plural spellings: Deathstalkers ဒက်သ်စတောကာဇ် and deathstalkers ဒက်သ်စတောကာစ်. Reconcile this NEW offer to the already maintained capitalized plural used in its title. This is assisted consistency editing, not a native pronunciation judgment; preserve historical released fields. Set explicit local deathstalkers pronunciation override to ဒက်သ်စတောကာဇ်."
+        }
+      ]
+    },
+    {
+      "id": 1013,
+      "en": "The Book of Ur",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1013/the-book-of-ur",
+      "primaryHTMLSHA256": "d0a484737aa9522f4068b96b0d018e3b3d8bc3045d1878073cd1883c6e2033fc",
+      "secondaryHTMLSHA256": "fa3cfce8398b85557346fc38f31f83edbece9604d0d01463ea7d00e919f3c301",
+      "currentPrimaryEligibility": {
+        "name_enus": "The Book of Ur",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 26[/li][li]Requires level 16[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2934/keeper-beldugur]Keeper Bel'dugur[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2934/keeper-beldugur]Keeper Bel'dugur[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]22[/color][small] &nbsp;[/small][color=r2]24[/color][small] &nbsp;[/small][color=r3]29[/color][small] &nbsp;[/small][color=r4]34[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "acaa9b183a94c1aad59af48b7d1bfaf25234187a94e68e98a667a616cd8ab117",
+      "allUAFieldHashes": {
+        "title": [
+          "55b38e1fab39f496965c2bee221843e333696808f77700fc93c4eb5c28359980"
+        ],
+        "detail": [
+          "49bd0f67eab70048b4fccf3c3f3126f2c2bed78857921b3ee050e2961eac7cea"
+        ],
+        "objective": [
+          "8ed85be43d290316d9c44dacf11ada6da03f6feca7740ed98a94bbedd3ab02e9"
+        ],
+        "progress": [
+          "9ad686983b4559fca394b1336a63a72d8550acd59d2c038934814b16d2ed955c"
+        ],
+        "complete": [
+          "6b82b43d8301c17d2efdf36dd707e0075ca9aefb06c001a288177f7b89b5457f"
+        ]
+      },
+      "UAfactions": [
+        "Horde"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "178e403ce982632dd432a413c36f9a18b4cd01888e5bb8aaf615e065ff1dbf06",
+          "reviewedMyanmarSHA256": "c06771cb6d7c7463c07851d8aa5b5455f13b49d063b7d539fa111d2c0bc72682",
+          "rawDeepLSHA256": "c0ab905593417eae39f6070d58a8712b8fc8ff65d47e56204252fba0504749db",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Identifying The Book of Ur title6283 fully retained and annotated."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "2b3113984ca1bf88807078dcc313faf6146d4fc713029d2ea19d8c9d2c70b8a1",
+          "reviewedMyanmarSHA256": "ce8732bb6d08b24d58b5a1d429b73e68b15b68113fce35f64040892ea2767089",
+          "rawDeepLSHA256": "b9cde15309c53a4f490f8bda1af260fceb506b7c6d53178e5e7d781efc5aeea1",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=209/shadowfang-keep",
+              "label": "Shadowfang Keep"
+            },
+            {
+              "href": "/forever/item=6283/the-book-of-ur",
+              "label": "the Book of Ur"
+            },
+            {
+              "href": "/forever/zone=209/shadowfang-keep",
+              "label": "Shadowfang Keep"
+            }
+          ],
+          "paragraphs": 2,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Book within Shadowfang, prized collection; Ur great Dalaran mage before Scourge and studies valued by ...certain Forsaken parties. Enter/fetch book, then speaker reports player service to Dark Lady. Pauses and whole book identity retained."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "43663fee6fc65a31789bce50459b1a97c497ceefb715cb61d74853a4b29674cf",
+          "reviewedMyanmarSHA256": "1c55bdc98082dd2c2fe06eda0f937944eafdf487aaefedcb278165bbd7348e93",
+          "rawDeepLSHA256": "ce731041f07684ee6ffdf1fe482976d8974d9b7cf56d28b41a9af8cddda21781",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/item=6283/the-book-of-ur",
+              "label": "the Book of Ur"
+            },
+            {
+              "href": "/forever/npc=2934/keeper-beldugur",
+              "label": "Keeper Bel'dugur"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Full book6283 to full Keeper Bel'dugur2934 at Apothecarium, Undercity; independent perfield identity annotation."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "1fa1ba02a42482aa40e0a2b091e3adf395581d783461d2370da88ab913be92af",
+          "reviewedMyanmarSHA256": "03ea1c9920c93c97233913c1f3e8ec4582cb472cefdede0a34e0451d08917a79",
+          "rawDeepLSHA256": "283b2c957bb6d329fb37e461339b3f5e1a72ccc9004f7ff3fa278136ea038d71",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Find-book question with exact name placeholder; no invented item count."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "10fb5b4b954c8fa732af3d078e159ebb2204923f890172afb2e418e7979c7707",
+          "reviewedMyanmarSHA256": "3a7c7332caca3091f872f4c2c9335acaa0842454b36ae0b6c89ac2035dbb131c",
+          "rawDeepLSHA256": "b3e030607ee0f0f4113bb3559a2b091a02e1625199659f2ede48abf75c3bcb0a",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Ur knowledge great but conscience withheld true power, failed when Scourge tested him. Forsaken cannot afford weakness to SURVIVE...then explicit final ...CONQUER paragraph. Original current primary and UA both include conquest; secondary omission correctly rejected."
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1014,
+      "en": "Arugal Must Die",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1014/arugal-must-die",
+      "primaryHTMLSHA256": "703e897c099d8f70ed1fbea4d8529efa812cbf95d8120ac3590aaa07c57bf26a",
+      "secondaryHTMLSHA256": "877375f6bd56ec084632bdc5fd25918a7eadfdae654d3096408e20917ff60a6e",
+      "currentPrimaryEligibility": {
+        "name_enus": "Arugal Must Die",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "quickFacts": "[ul][li]Level: 27[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "fullInstalledMetadataSHA256": "6c6a7e60a72dcd4956e0e1b8e1e9ad2b08b20c8673d8a1c456cb4b6a0f836b23",
+      "allUAFieldHashes": {
+        "title": [
+          "153e0b2b0fc9ece5b7536ec6ad1955d4c874eb7c5c0621f84d4b7b47bc9fd16e"
+        ],
+        "detail": [
+          "929970f0d1c8ad68983143de9cd5239ba97740ff17bce9e92a7aba488ce0d6bb"
+        ],
+        "objective": [
+          "958f8fc44a0511557ee5dc94dd53ea843bd936f0ead7215fcb9e4e935f73cb43"
+        ],
+        "progress": [
+          "0a29cc8255c71cdba1b82f6aa4e092216837833385aa343f6f8634e0f2d1b656"
+        ],
+        "complete": [
+          "cc6b74d34955109239cfb233768839b646e9300f23722797ffd93ac9797368de"
+        ]
+      },
+      "UAfactions": [
+        "Horde"
+      ],
+      "fields": {
+        "title": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "de7560ba81a18f4e484e23bab92c43b19a1777c2e1a378b5444a6993650bb0cd",
+          "reviewedMyanmarSHA256": "d39839a987c11fa0e40bccbadfde8066fcbb3b216f7aca73fb766032946b2ef2",
+          "rawDeepLSHA256": "02ce1fba42332dcf2b9d0e5a63e7e751b17882752285634be96b803c73062885",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Arugal named target and blunt must-die framing preserved."
+        },
+        "detail": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "faa77e2fbce47dd9f799ff4d00b0fcbbb33746de2dff0b1f4ac66ca3b0014de2",
+          "reviewedMyanmarSHA256": "ce23d36a9b40c2498e71c360859b5e857df34c8479f78078fee9b907f0320e89",
+          "rawDeepLSHA256": "8e87acb836a65ae573490378b507eef066bed1b6c73fa1057341bbf3d1099de4",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/zone=209/shadowfang-keep",
+              "label": "Shadowfang Keep"
+            },
+            {
+              "href": "/forever/zone=209/shadowfang-keep",
+              "label": "Shadowfang Keep"
+            }
+          ],
+          "paragraphs": 3,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Arugal still Shadowfang; Silverpine strategic stronghold for Dark Lady blocked UNTIL slain. Speaker ensures magic eradication, player ensures deserved death; travel, permanently end foul spells, bring wizard HEAD."
+        },
+        "objective": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "4a77b22d4dd443289a8cec62225bf5f6647efbed08f436ad1ee89e39959ebd61",
+          "reviewedMyanmarSHA256": "6fd2e52cb8ab348f8d63d965bfa39d1dc90a15a456540b7868ff5fd89b625058",
+          "rawDeepLSHA256": "72dba97ebe3d2e6e6379022116043dcea5888abdf48f9d7c9ff045eeb1ead475",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "heading",
+          "sourceLinkedIdentities": [
+            {
+              "href": "/forever/npc=1938/dalar-dawnweaver",
+              "label": "Dalar Dawnweaver"
+            }
+          ],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Kill Arugal and HEAD to Dalar Dawnweaver1938 at Sepulcher. Existing short maintained Sepulcher core ဆက်ပါလ်ကာ already matches crosspartition agreed new compound core."
+        },
+        "progress": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "5e9dd7dcc2a890ba5b5599bc4498a12421c5ea611051ea9442df52ddfecca4d1",
+          "reviewedMyanmarSHA256": "42465bfe57f400f73c313ec8bd0ea59b91de34eb3d60b2680e002187dbd7e0e4",
+          "rawDeepLSHA256": "9d1f811be5fad331134bc0e25fd3a23b33d56cafe15c2de67d867a5d22df54cf",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [],
+          "notes": "Arugal death stands to increase Dark Lady control on Lordaeron; conditional opportunity preserved."
+        },
+        "complete": {
+          "review": "assisted English/Myanmar reviewed",
+          "englishSHA256": "6bb4c5a8b11a831f786bccf87d672df3682667ab23695e45624aabbf1d9ef746",
+          "reviewedMyanmarSHA256": "bbe61991ee8f71806de90de6f2d92715713da053c1a771e9e618fa0760e1304e",
+          "rawDeepLSHA256": "66c7ef53450fc2125cf90935ff557462f5e65519118a40a4b0308ac8d54d4840",
+          "sourceAvailable": true,
+          "sourceBoundaryType": "hidden reply div",
+          "sourceLinkedIdentities": [],
+          "paragraphs": 1,
+          "numericQuantities": [],
+          "markers": [
+            "<name>"
+          ],
+          "notes": "Silverpine Forest freed from vile Arugal grip, great service Dark Lady, exact name and reward for tenacity."
+        }
+      },
+      "issues": []
+    }
+  ],
+  "sourceFieldAvailability": {
+    "6562": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "6563": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "6564": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "6565": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "971": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "1198": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "1199": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "1200": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "6561": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "1275": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "3765": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "1740": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "1098": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": false,
+      "complete": true
+    },
+    "1013": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    },
+    "1014": {
+      "title": true,
+      "detail": true,
+      "objective": true,
+      "progress": true,
+      "complete": true
+    }
+  },
+  "sourceAbsences": [
+    {
+      "id": 6562,
+      "field": "progress"
+    },
+    {
+      "id": 1198,
+      "field": "progress"
+    },
+    {
+      "id": 3765,
+      "field": "progress"
+    },
+    {
+      "id": 1098,
+      "field": "progress"
+    }
+  ],
+  "sourceRuntimeHoldProposals": [],
+  "pronunciationConflicts": [
+    {
+      "identity": "Deathstalkers / deathstalkers",
+      "maintainedEntries": {
+        "Deathstalkers": "ဒက်သ်စတောကာဇ်",
+        "deathstalkers": "ဒက်သ်စတောကာစ်"
+      },
+      "sourceEvidence": "Quest1098 title and first offer sentence refer to the same two agents Adamant and Vincent. English case alone is not a different identity.",
+      "proposedCanonical": "ဒက်သ်စတောကာဇ်",
+      "affectedNewFields": [
+        {
+          "id": 1098,
+          "field": "detail"
+        }
+      ],
+      "pronunciationOverride": {
+        "deathstalkers": "ဒက်သ်စတောကာဇ်"
+      },
+      "status": "correction required; native pending"
+    },
+    {
+      "identity": "Sepulcher / The Sepulcher",
+      "maintainedEntries": {
+        "Sepulcher": "ဆက်ပါလ်ကာ",
+        "The Sepulcher": "သ ဆက်ပယ်လ်ကာ"
+      },
+      "proposedCore": "ဆက်ပါလ်ကာ",
+      "proposedCompound": "သ ဆက်ပါလ်ကာ",
+      "sourceEvidence": "Quest1014 objective source says the Sepulcher; dungeon uses short retained Sepulcher with existing maintained ဆက်ပါလ်ကာ. Paladin reviewer agreed to this existing short core with article သ in new compound. No dungeon field edit required.",
+      "affectedNewFields": [],
+      "status": "crosspartition reconciliation agreed; native pending"
+    }
+  ],
+  "pronunciationOverrides": {
+    "deathstalkers": "ဒက်သ်စတောကာဇ်"
+  },
+  "terminologyReview": {
+    "exactMaintainedMatches": "All currently used exact terms match frozen maintained or source-backed new proposed dictionary; capitalization/crosscompound conflicts separately identified above.",
+    "sharedBlackfathomDeeps": "ဘလက်ခ်ဖက်သမ် ဒီပ်စ် consistent across all new dungeon fields; assisted, pending native.",
+    "wholeLinkedItems": "971 Lorgalis Manuscript;6563 Sapphires of Aku'Mai;6564 Damp Note;1199 Twilight Pendants;1275 lowercase linked corrupted brain stems item5952;1740 lower-case linked orb of Soran'ruk and distinct small/large fragment items;1013 lower-case linked the Book of Ur: every first field occurrence retains recognizable whole English identity and phonetic.",
+    "shortReferenceExceptions": {
+      "1198.detail.Thaelrid": "Source-shortened reference after full Argent Guard Thaelrid in same field.",
+      "1199.detail.Hammer": "Source-shortened faction reference after full Twilight's Hammer in same field."
+    },
+    "sameTitleChecks": "6564 note delivery vs6565 Lorgus kill;1200 Alliance Selgorm/Darnassus vs6561 Horde Bashana/Thunder Bluff;1198 scout search independently retained.",
+    "countsAndConditions": "20 sapphires;10 pendants;8 brain stems;1098 TWO agents/conditional aid;1740 narrative TWO major pieces with ONE further broken versus objective3small+1large. Numeric and written counts separately read, correctly bound to targets."
+  },
+  "sourceReview": {
+    "originalPrimaryReparsedAll75Slots": true,
+    "originalHTMLAndOwnQuestScriptsInspected": true,
+    "allSelectedMetadataAndEveryUAFieldCompared": true,
+    "currentTitleMatches": 15,
+    "availableSecondaryReferences": 15,
+    "secondaryUnavailable": [],
+    "secondaryDifferences": [
+      {
+        "id": 6562,
+        "field": "detail",
+        "englishSHA256": "bca4300620bdb594b57c698ab51db34f0e94ce2a77b7050c6fe0fbe72b817fd4",
+        "secondaryEnglishSHA256": "d636df379dbb862ad944e42137814fa7411e8dde80ec4d728f8d9c72f9bb2f6b",
+        "primary": "Je'neu Sancrea is in need of aid. He is at the Zoram'gar Outpost in Ashenvale. The Night elf forest is to the north of the Stonetalon mountains. You can reach it by traveling through Windshear Crag or by heading north through Barrens. Zoram Strand is far to the west of the forest. Be careful, <name>. There are forces there that will not take to your presence kindly.",
+        "secondary": "Je'neu Sancrea is in need of aid. He is at the Zoram'gar Outpost in Ashenvale. The Night elf forest is to the north of the Stonetalon mountains. You can reach it by traveling through Windshear Crag or by heading north through Barrens. Zoram Strand is far to the west of the forest. Be careful, <Name>. There are forces there that will not take to your presence kindly.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 6563,
+        "field": "detail",
+        "englishSHA256": "a1745dedfc38974961e39587ce117c1f4eeec892d5d975028e49ff8f33bf1afd",
+        "secondaryEnglishSHA256": "a748b2a701a5088ae93324fa8df1f9f79f119237507896a5898b30aa27392483",
+        "primary": "Within the beginning tunnels of Blackfathom Deeps, large sapphire clusters can be found along the cave walls. Recently it was noted that the naga were harvesting the crystals. Until it can be discerned why, I sense we should stop the naga from succeeding. The crystals have great elemental power and if used inappropriately, could make for a powerful arcane component.\n\nWill you help me, <name>? Blackfathom Deeps can be found along Zoram Strand to the north of our outpost.",
+        "secondary": "Within the beginning tunnels of Blackfathom Deeps, large sapphire clusters can be found along the cave walls. Recently it was noted that the naga were harvesting the crystals. Until it can be discerned why, I sense we should stop the naga from succeeding. The crystals have great elemental power and if used inappropriately, could make for a powerful arcane component.\n\nWill you help me, <Name>? Blackfathom Deeps can be found along Zoram Strand to the north of our outpost.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 6565,
+        "field": "detail",
+        "englishSHA256": "c5ffda9315e05457003029ca2c12f48c0e6d20d0a1371ec1e15b5090336f01ee",
+        "secondaryEnglishSHA256": "a4f306e0b923299c70dab6807eea09117e75e3886641f46235c59981fd428a38",
+        "primary": "This Twilight's Hammer follower cannot be allowed to complete his plan. The Twilight's Hammer do not understand the spirits of nature. They believe in the Old Gods--creatures of chaos and destruction that were long ago defeated. This Lorgus cannot be allowed to succeed. You must stop him, <name>. I cannot do it myself--I am too weak.\n\nGo into Blackfathom Deeps, find him, and kill him. Return to me here at Zoram'gar when it's done.",
+        "secondary": "This Twilight's Hammer follower cannot be allowed to complete his plan. The Twilight's Hammer do not understand the spirits of nature. They believe in the Old Gods--creatures of chaos and destruction that were long ago defeated. This Lorgus cannot be allowed to succeed. You must stop him, <Name>. I cannot do it myself--I am too weak.\n\nGo into Blackfathom Deeps, find him, and kill him. Return to me here at Zoram'gar when it's done.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 971,
+        "field": "progress",
+        "englishSHA256": "eae08fccd50e1e26641da9b57eb2618345ce3bf6ac6af5b5a1242666bde52b8c",
+        "secondaryEnglishSHA256": "b26ad5b15dc55b9508a13eb8b579fd22bc665c5f7029b59c15eb843ebd4c0e9a",
+        "primary": "The journey to Ashenvale is long, and your task is not easy.  But if you get me the manuscript, <name>...then your reward will be great.",
+        "secondary": "The journey to Ashenvale is long, and your task is not easy. But if you get me the manuscript, <name>...then your reward will be great.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 971,
+        "field": "complete",
+        "englishSHA256": "27fc2194107f9722305de147e75db62e98e44f1fae3ae0f9969e806ed5f11674",
+        "secondaryEnglishSHA256": "470c28abb737a8678295991fc0e9d69fdcddfadc65409f661a0f94c4b560d762",
+        "primary": "You found the manuscript!  What a joyous day this is!  Copies will be made and distributed, and the ancient knowledge of Lorgalis will finally be known to my brothers and sisters!\n\nYour service to us is more than you know, <name>.  But I hope that this gift shows you the gratitude we extend to our allies.",
+        "secondary": "You found the manuscript! What a joyous day this is! Copies will be made and distributed, and the ancient knowledge of Lorgalis will finally be known to my brothers and sisters!\n\nYour service to us is more than you know, <name>. But I hope that this gift shows you the gratitude we extend to our allies.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1198,
+        "field": "detail",
+        "englishSHA256": "4f63aa69e1b9f996caba8ec80c0f98ca3dc672205723abb48000338eb5cfbc93",
+        "secondaryEnglishSHA256": "96858f019be6081427dd59de87de905f484731588d5e145c176c981e48991b86",
+        "primary": "Many rumors circulate these days about the union of the Twilight's Hammer and the naga in Blackfathom Deeps on the coasts of Ashenvale.\n\nMy role here with the Argent Dawn is to collect as much information as I can, so we know when and where help is needed.\n\nIt has been weeks now since I sent a scout to check on the activity at Blackfathom Deeps. Argent Guard Thaelrid has not yet reported back.\n\nMy other scouts are preoccupied with pressing matters.\n\nSeek out and aid Thaelrid for me, <name>.",
+        "secondary": "Many rumors circulate these days about the union of the Twilight's Hammer and the naga in Blackfathom Deeps on the coasts of Ashenvale.\n\nMy role here with the Argent Dawn is to collect as much information as I can, so we know when and where help is needed.\n\nIt has been weeks now since I sent a scout to check on the activity at Blackfathom Deeps. Argent Guard Thaelrid has not yet reported back.\n\nMy other scouts are preoccupied with pressing matters.\n\nSeek out and aid Thaelrid for me, <Name>.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1200,
+        "field": "detail",
+        "englishSHA256": "d2acf671714bce76d9050820ccf9b39ac526c557d005d5dc62a2b3a8f7c139a9",
+        "secondaryEnglishSHA256": "34f8b9d75aba44fd2bbced226e8cdfcd0e882c9e7df78b5cb250e93196222d93",
+        "primary": "Strength has left me. Your help is needed!\n\nLong ago this site was a great temple of Elune. But misfortune led to ruin when the corruption of an Old God seeped up from beneath the earth and tainted the sacred Moon Well.\n\nAku'Mai, servant of the Old God, rose from the waters.\n\nThe Twilight's Hammer cultists have allied with the naga to occupy these grounds. The cultists, led by Kelris, sacrifice innocents to Aku'Mai for power.\n\nSlay Kelris and bring his head to Selgorm in Darnassus, <name>, please.",
+        "secondary": "Strength has left me. Your help is needed!\n\nLong ago this site was a great temple of Elune. But misfortune led to ruin when the corruption of an Old God seeped up from beneath the earth and tainted the sacred Moon Well.\n\nAku'Mai, servant of the Old God, rose from the waters.\n\nThe Twilight's Hammer cultists have allied with the naga to occupy these grounds. The cultists, led by Kelris, sacrifice innocents to Aku'Mai for power.\n\nSlay Kelris and bring his head to Selgorm in Darnassus, <Name>, please.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 6561,
+        "field": "detail",
+        "englishSHA256": "94aba354319bd85be7ad96187f14109d46de0eb052b3e541fb6523af23431db1",
+        "secondaryEnglishSHA256": "58dd329ba87c9b99a6b1176232fc22d594e81df05a236be358de8ad680016bda",
+        "primary": "Strength has left me. Your help is needed!\n\nLong ago this site was a great temple of Elune. But misfortune led to ruin when the corruption of an Old God seeped up from beneath the earth and tainted the sacred Moon Well.\n\nAku'Mai, servant of the Old God, rose from the waters.\n\nThe Twilight's Hammer cultists have allied with the naga to occupy these grounds. The cultists, led by Kelris, sacrifice innocents to Aku'Mai for power.\n\nSlay Kelris and bring his head to Bashana in Thunder Bluff, <name>, please.",
+        "secondary": "Strength has left me. Your help is needed!\n\nLong ago this site was a great temple of Elune. But misfortune led to ruin when the corruption of an Old God seeped up from beneath the earth and tainted the sacred Moon Well.\n\nAku'Mai, servant of the Old God, rose from the waters.\n\nThe Twilight's Hammer cultists have allied with the naga to occupy these grounds. The cultists, led by Kelris, sacrifice innocents to Aku'Mai for power.\n\nSlay Kelris and bring his head to Bashana in Thunder Bluff, <Name>, please.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1275,
+        "field": "detail",
+        "englishSHA256": "7d446dea8fbad5dfe78fefc39062c1cfed5256969ff475498074991e2ebbab0e",
+        "secondaryEnglishSHA256": "b367f32c16d301db26452bbbaae7e77b59fbc850831fd74696f49c03b3f7dd3e",
+        "primary": "Foolish blood elves toil with demonic magic. Have they not witnessed what happened with the naga and with the satyrs of Kalimdor?\n\nI fear that the blood elves will meet a similar deformation. Azeroth cannot afford to give birth to another vile race of monsters.\n\nI wish to study the brain stems of the satyr and naga so that I might deduce what fate the elves are headed toward. In Blackfathom Deeps, on the coast of Ashenvale, you will find both satyr and naga.\n\n'Tis a long journey, <name>.",
+        "secondary": "Foolish blood elves toil with demonic magic. Have they not witnessed what happened with the naga and with the satyrs of Kalimdor?\n\nI fear that the blood elves will meet a similar deformation. Azeroth cannot afford to give birth to another vile race of monsters.\n\nI wish to study the brain stems of the satyr and naga so that I might deduce what fate the elves are headed toward. In Blackfathom Deeps, on the coast of Ashenvale, you will find both satyr and naga.\n\n'Tis a long journey, <Name>.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 3765,
+        "field": "detail",
+        "englishSHA256": "b35832b08e96bcefc8842b66d96547bc829cdab28cac2e2909cabd3274a1fe45",
+        "secondaryEnglishSHA256": "0aa9b255f19573de4fb9feecf6c164bf6973dae3749c7688ae54c96782575de7",
+        "primary": "Stormwind -- such a bustling hub of activity.\n\nI have traveled from afar to seek help. Often it is heard that brave adventurers roam these city streets.\n\nMy brother, Gershala, requires assistance in Darkshore. He resides in the seaside town of Auberdine.\n\nThe journey is a long and epic one. It is for this reason that I ask the help of a seasoned <class> such as yourself.",
+        "secondary": "Stormwind -- such a bustling hub of activity.\n\nI have traveled from afar to seek help. Often it is heard that brave adventurers roam these city streets.\n\nMy brother, Gershala, requires assistance in Darkshore. He resides in the seaside town of Auberdine.\n\nThe journey is a long and epic one. It is for this reason that I ask the help of a seasoned <Class> such as yourself.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1740,
+        "field": "complete",
+        "englishSHA256": "a7b5c14b900aa7c5ae86174bdb4c75991bd5b2ad4236a122d23fe1364b3cdfba",
+        "secondaryEnglishSHA256": "003dee4a59d4f1b361f60f11515ec479d305a2f7ac7846ac1476494fe5505c4e",
+        "primary": "Yes... The orb was not greatly fragmented, and almost all of the pieces are here. It is a simple thing to recreate them, to make Soran'ruk whole again.\n\nI have dedicated my life to the study of the Burning Legion's orbs and their recreation. You have done me a favor collecting these pieces to study, and I will give you them back--fully reconstructed--in a form of your choosing.",
+        "secondary": "Yes... The orb was not greatly fragmented, and almost all of the pieces are here. It is a simple thing to recreate them, to make Soran'ruk whole again.\n\nI have dedicated my life to the study of the Burning Legion's orbs and their recreation. You have done me a favor collecting these pieces to study, and I will give you them back - fully reconstructed - in a form of your choosing.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1098,
+        "field": "detail",
+        "englishSHA256": "eb7ffce175574c615644c3caa9714d454917ea016bce7b6d0ed91d33b634cda5",
+        "secondaryEnglishSHA256": "7d7b27aa42c415723d331b52e592f35ad533d6564396ce2d619a3211e6e49a94",
+        "primary": "In preparation for an assault on Shadowfang, two deathstalkers were sent to the keep to gather intelligence.  It has been many days and they have not returned, but we must receive their report if we're to have any hope of a successful attack!\n\nSo here is your task, <name>.  Go to Shadowfang Keep to the south and find the Deathstalkers Adamant and Vincent.  Find them, and if they require aid then give it.\n\nThis mission is as dangerous as is it critical, <name>.  Do not fail.",
+        "secondary": "In preparation for an assault on Shadowfang, two deathstalkers were sent to the keep to gather intelligence.  It has been many days and they have not returned, but we must receive their report if we're to have any hope of a successful attack!\n\nSo here is your task, <Name>.  Go to Shadowfang Keep to the south and find the Deathstalkers Adamant and Vincent.  Find them, and if they require aid then give it.\n\nThis mission is as dangerous as is it critical, <Name>.  Do not fail.",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1013,
+        "field": "detail",
+        "englishSHA256": "2b3113984ca1bf88807078dcc313faf6146d4fc713029d2ea19d8c9d2c70b8a1",
+        "secondaryEnglishSHA256": "d042b29b2bca992216064fbf22d70ed11a4e3da65a37a2cc6a0e2578b1344171",
+        "primary": "<name>, Shadowfang Keep holds a book, the Book of Ur, which would be much prized in my collection.  Ur was a great mage of Dalaran before the coming of the Scourge, his studies in other worlds are of much value to ... certain parties among the Forsaken.\n\nEnter Shadowfang Keep and find the book.  Bring it to me, and I will report your service to our Dark Lady...",
+        "secondary": "<Name>, Shadowfang Keep holds a book, the Book of Ur, which would be much prized in my collection.  Ur was a great mage of Dalaran before the coming of the Scourge, his studies in other worlds are of much value to ... certain parties among the Forsaken.\n\nEnter Shadowfang Keep and find the book.  Bring it to me, and I will report your service to our Dark Lady...",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1013,
+        "field": "complete",
+        "englishSHA256": "10fb5b4b954c8fa732af3d078e159ebb2204923f890172afb2e418e7979c7707",
+        "secondaryEnglishSHA256": "2356591124266dd16dec941044c7ff8d94bd425b7e1ad4b0328ca61d83bb1fb2",
+        "primary": "Very good.  This book will add nicely to my collections of the workings of Ur.  His knowledge was great, but his conscience held him from true power.  And so when the Scourge came and his strength was tested, it failed.\n\nWe of the Forsaken cannot afford such weakness, if we are to survive...\n\n...If we are to conquer.",
+        "secondary": "Very good. This book will add nicely to my collections of the workings of Ur. His knowledge was great, but his conscience held him from true power. And so when the Scourge came and his strength was tested, it failed.\n\nWe of the Forsaken cannot afford such weakness, if we are to survive...",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      },
+      {
+        "id": 1014,
+        "field": "detail",
+        "englishSHA256": "faa77e2fbce47dd9f799ff4d00b0fcbbb33746de2dff0b1f4ac66ca3b0014de2",
+        "secondaryEnglishSHA256": "335ce551b365d0e7783324e42e80b62bce0928e165e7ea0896b9fef7c795186c",
+        "primary": "Arugal still resides in Shadowfang Keep. We cannot claim Silverpine as a strategic stronghold for the Dark Lady until Arugal is slain.\n\nI shall see to it that his magic is eradicated, <name>. But I leave it in your hands to see that Arugal meets the death he so deserves.\n\nTravel to Shadowfang Keep and put an end to Arugal's foul spells once and for all. Bring to me the vile wizard's head!",
+        "secondary": "Arugal still resides in Shadowfang Keep. We cannot claim Silverpine as a strategic stronghold for the Dark Lady until Arugal is slain.\n\nI shall see to it that his magic is eradicated, <Name>. But I leave it in your hands to see that Arugal meets the death he so deserves.\n\nTravel to Shadowfang Keep and put an end to Arugal's foul spells once and for all. Bring to me the vile wizard's head!",
+        "resolution": "Retain current primary English, including supported marker case and1013 final conquest paragraph."
+      }
+    ],
+    "availability": "No actual unused/removed/unavailable warning or unsupported player branch in selected original main quest content; comment English/removal boilerplate excluded. No current live eligibility claim.",
+    "eligibility": "Primary own-ID flags control faction; broad installed race masks and UA Both labels do not establish acceptance.1740 own reqclass256/Warlock, side3/Both, min20/quest25, NPC6247 Barrens, distinct dungeons. Other quest mins16-20/levels22-27;3765 referral not dungeon collection.",
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.0",
+      "commit": "f34f1227d5837a05e18f1d5554d8aff6544b2515",
+      "checkedAt": "2026-11-22T06:36:58.533957+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.0",
+      "publishedAtUTC": "2026-11-21T04:16:33Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.0/UA_Forever-1.1.0.zip",
+      "assetSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+      "catalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72",
+      "actualPackageSHA256": "d77f29ce18fc7a3461ae7c4b6ffe62e5a0f8442edc1d7d025b0864311a5e5de1",
+      "actualCatalogSHA256": "c576a32ee8e6f82b9beb60ad4777a9baf57290b115752de0ef6b6eec179e2a72",
+      "tables": {
+        "Alliance": 1587,
+        "Horde": 1529,
+        "Both": 3846
+      },
+      "selectedAllUAVariantsMatchActualCatalog": true
+    },
+    "metadata": {
+      "actualSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "selectedFullRecordsMatch": true
+    },
+    "liveTitleEvidence": "selected-live-title-review reports no new captured gap/title conflict; these quests have no new current live playtest claim."
+  },
+  "rawProvenanceVerification": {
+    "result": "PASS",
+    "fields": 71,
+    "allActualRequestIndexResponseSourceRawFinalAuditHashesVerified": true,
+    "batches": [
+      {
+        "requestFile": "deepl-request-01.json",
+        "requestSHA256": "b55a11dbaf51bdd9030c958c375fb9e089b790181074e51111649dd8720c5eef",
+        "responseFile": "deepl-response-01.json",
+        "responseSHA256": "c2148d3996f520bdb4084fcacb5a64f2f5897d5bdb6194f76bd8b32e3d19ed6d",
+        "indexFile": "deepl-index-01.json",
+        "indexSHA256": "5ecbd6e0bb61d2a7968109f28b33e08894a40278ae7d67bbdf1aaa6568732080",
+        "fields": 25,
+        "inputCharacters": 4123,
+        "target": "MY",
+        "source": "auto-detected EN",
+        "noCloudGlossary": true
+      },
+      {
+        "requestFile": "deepl-request-02.json",
+        "requestSHA256": "6c3c64cfed6aee00222529eb6ceede8f9916382abe522dc4cca153c09dcb741e",
+        "responseFile": "deepl-response-02.json",
+        "responseSHA256": "c968336fc10ea03f110d14ff17d276be6cede251138eaa38f08c6811c5804456",
+        "indexFile": "deepl-index-02.json",
+        "indexSHA256": "74b27b5d23dc1a099c1798cb711a24560f7b132d3bf59ab87f11887cb3f20719",
+        "fields": 19,
+        "inputCharacters": 4159,
+        "target": "MY",
+        "source": "auto-detected EN",
+        "noCloudGlossary": true
+      },
+      {
+        "requestFile": "deepl-request-03.json",
+        "requestSHA256": "a892dda58d18cf78d453db62fe4dc8bd1a14a3fbe5387961a6831bcb84e200a7",
+        "responseFile": "deepl-response-03.json",
+        "responseSHA256": "b08cc2d6f703e194d3ea99a84aa6799ca4abe94b8efdbe547aa345357e80c21f",
+        "indexFile": "deepl-index-03.json",
+        "indexSHA256": "45e603065223f9de33d3f18ce98c4d7a898b558848e3f18e4750d8b72268b25b",
+        "fields": 4,
+        "inputCharacters": 1120,
+        "target": "MY",
+        "source": "auto-detected EN",
+        "noCloudGlossary": true
+      },
+      {
+        "requestFile": "deepl-request-04.json",
+        "requestSHA256": "384f1fdc9081160a055a29df1b727c671c83fbcd9531484a6cb575e5095eb35e",
+        "responseFile": "deepl-response-04.json",
+        "responseSHA256": "f5e8c58f9aa1a33e466d4981e7ae1200bd72e8461fb0196178852d4f99fa609f",
+        "indexFile": "deepl-index-04.json",
+        "indexSHA256": "f6aee59854196cc3b8a4b5026ca78b4d69bee4c9f80a594c1ec7147c4650658c",
+        "fields": 23,
+        "inputCharacters": 3995,
+        "target": "MY",
+        "source": "auto-detected EN",
+        "noCloudGlossary": true
+      }
+    ],
+    "noDuplicateOrMissingFields": true,
+    "maximumInputCharacters": 4159,
+    "limit": "All actual calls <5000 total input characters and <=50 texts, MY target, auto-detected EN; no cloud glossary/context/custom instructions.",
+    "supplement": "dungeons-checks.json contains every exact perfield chain and reparsed original markup."
+  },
+  "tests": {
+    "parse_wowheadAll75Slots": "PASS",
+    "ownQuestScriptIDTitleAndEligibility": "PASS",
+    "fullMetadataAndEveryUAField": "PASS",
+    "noUnsupportedPlayerBranches": "PASS",
+    "actualLinguisticLint": [],
+    "actualBuildReleaseValidateFields": "PASS15quests",
+    "exactMarkerCaseAndCounts": "PASS71fields",
+    "numericCounts": "PASS71fields",
+    "paragraphCounts": "PASS71fields",
+    "frozenArtifactHashes": "PASS",
+    "allAuthorFilesUnchanged": true
+  },
+  "originalFilesBefore": {
+    "1013-sixty.html": "fa3cfce8398b85557346fc38f31f83edbece9604d0d01463ea7d00e919f3c301",
+    "1013-wowhead.html": "d0a484737aa9522f4068b96b0d018e3b3d8bc3045d1878073cd1883c6e2033fc",
+    "1014-sixty.html": "877375f6bd56ec084632bdc5fd25918a7eadfdae654d3096408e20917ff60a6e",
+    "1014-wowhead.html": "703e897c099d8f70ed1fbea4d8529efa812cbf95d8120ac3590aaa07c57bf26a",
+    "1098-sixty.html": "6ea109d304c36c5caef07e9365253956cf06519e1a75f928f07bf2f6059fb9f4",
+    "1098-wowhead.html": "9af7ae17234e41dcf60486c83c57a91115cc31e460b27225dbc82120528442fb",
+    "1198-sixty.html": "c6523c92d28856a9d462bc3063c59611846cb7942282ee190fb53a09130f63c7",
+    "1198-wowhead.html": "61e6fa913aca902eef91a7aa387f4c9bbb26efe797a54775ba08e207c35a1599",
+    "1199-sixty.html": "e3564b4178e6a535af9ae01bce3b5309112e192471027624c9f2f1e7e62eefe8",
+    "1199-wowhead.html": "5b67ae1d4c839694b8e65ac80d9fcb27441d5aded050cd65b67549bdbcffb98d",
+    "1200-sixty.html": "3fa538e8652ba73592e6f5d690187a6f2a3b8e13443c81fa3a557314e842b85a",
+    "1200-wowhead.html": "40b76869692b002e3c9c4082b2a87c1236a66678cd1604ea6a14a6fa175e0058",
+    "1275-sixty.html": "a5ce223d702701287857c654c7c6baaa899eb1cf77f9d2ab10665e7408548636",
+    "1275-wowhead.html": "ed97ca5a6c4437cd7ee0cf1609ceb658e1e14d2c0f57239e2d77d88bd322d7fb",
+    "1740-sixty.html": "e5a915fb5974abdb6e35da626f3fd6941a50df67f8774a467a8b4291e0dcb356",
+    "1740-wowhead.html": "b000c643d837c9adb51456ba1edca347d19373fe093b42dc3fba90b71db0aad7",
+    "3765-sixty.html": "84ea51f0472d5273ee21c5d88ad84f9b9acba9d80478676358bbbbce927b8acc",
+    "3765-wowhead.html": "910a52f36c8cfb50623d3ce4f9fc4dacaa9cecc3c70c5f8ebc70fcc93e26990d",
+    "6561-sixty.html": "924890836c29953a1ec7c563506b316ce031d382c409020a75e3c8004787e091",
+    "6561-wowhead.html": "187b9b644108a5ee468663c4bd0c16573ffa249bd181d48b77d6b5cb267e922a",
+    "6562-sixty.html": "4e727928e8ec48de009daf03310f71a9c38bd37b4ea2a175d045d1aa63a03800",
+    "6562-wowhead.html": "1251667dba94e4cd0527b44ff1900384dca10fef92abf42e20b12e76ea228eb7",
+    "6563-sixty.html": "8f50d6e88dd58d9290585ea309ee41fb990f482d79e3bdbb12e065c7a762863d",
+    "6563-wowhead.html": "d65789cb688779a09528a1d152b15146a3e961d072b5a5b5c13311f3bd31e2dc",
+    "6564-sixty.html": "16e1afdd39b2da00b1b34f497d3643fa24c3a2d00b2419a04971d9469aa47890",
+    "6564-wowhead.html": "fc3ded4aaf358efdda5f8a34364d6ac09cd7db5ff3cf3ca841c323e3afc3a388",
+    "6565-sixty.html": "323be9cd1b8ba78a3724ed4f202e8c3be2b4c5c8f34f21e1917571555f3ea4f5",
+    "6565-wowhead.html": "fb13a5fadd4e2ce197623a7e63c1534a3878777fbea9816b12d34bd0f06ac042",
+    "971-sixty.html": "8f2b896b365fd797bcdca6ce6bbdbaa7bb316730c0e7f0c7ec23d12aaf8f402c",
+    "971-wowhead.html": "30ed22c0ea8c4120c9b84dad67d5c5de11be80f5ce93f1fcfaf614ed6709a243",
+    "annotation-exceptions.json": "aa6c053e3ed017ad901dca2a83c0e70e8d633783c5957692b9203137bf4b79b6",
+    "author-review-corrections.json": "956748dde9929ab39bc97a11256af7eb960246e52ddd5781e45fe1cc8d7a8e48",
+    "author-review-summary.json": "a2541b5a5cd0084f6ef5f58917997f6bf5d57c699b1b5d975e04000fd0fcc0c6",
+    "comparison-provenance.json": "e46b5b351d750f890997c94882252eb12ed0dffd9978fbd1e9596972c883ac7d",
+    "deepl-index-01.json": "5ecbd6e0bb61d2a7968109f28b33e08894a40278ae7d67bbdf1aaa6568732080",
+    "deepl-index-02.json": "74b27b5d23dc1a099c1798cb711a24560f7b132d3bf59ab87f11887cb3f20719",
+    "deepl-index-03.json": "45e603065223f9de33d3f18ce98c4d7a898b558848e3f18e4750d8b72268b25b",
+    "deepl-index-04.json": "f6aee59854196cc3b8a4b5026ca78b4d69bee4c9f80a594c1ec7147c4650658c",
+    "deepl-request-01.json": "b55a11dbaf51bdd9030c958c375fb9e089b790181074e51111649dd8720c5eef",
+    "deepl-request-02.json": "6c3c64cfed6aee00222529eb6ceede8f9916382abe522dc4cca153c09dcb741e",
+    "deepl-request-03.json": "a892dda58d18cf78d453db62fe4dc8bd1a14a3fbe5387961a6831bcb84e200a7",
+    "deepl-request-04.json": "384f1fdc9081160a055a29df1b727c671c83fbcd9531484a6cb575e5095eb35e",
+    "deepl-response-01.json": "c2148d3996f520bdb4084fcacb5a64f2f5897d5bdb6194f76bd8b32e3d19ed6d",
+    "deepl-response-02.json": "c968336fc10ea03f110d14ff17d276be6cede251138eaa38f08c6811c5804456",
+    "deepl-response-03.json": "b08cc2d6f703e194d3ea99a84aa6799ca4abe94b8efdbe547aa345357e80c21f",
+    "deepl-response-04.json": "f5e8c58f9aa1a33e466d4981e7ae1200bd72e8461fb0196178852d4f99fa609f",
+    "edited-group1.json": "9184a081b036b5e3aaef89c5090c60201e28c7ebf7913eaf231d480100bfc7ff",
+    "edited-group2.json": "889e96e1bbcddd7b0911bb589439e24a6c483639d0c0918025ea8d1c56a4af13",
+    "edited.json": "22071c0ec64f816aa2721fe7e5bad31ad94d7c722d3f29436e017999cb517271",
+    "edit_group1.py": "93d503eb86a49402985bddbfe430fa11d3d919149bf6807e2b0f3bbe912c2f79",
+    "edit_group2.py": "e30b55e9b458ec62cd7a285ecbbb22caff92aa632ad0409b7e8475b9a4cb1a7b",
+    "english-sources.json": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+    "fetched.json": "e8c818976b2004d7de547a40a24cb41a3b50fcb58ce971c99b5a7f902cb728ac",
+    "finalize.py": "8925d4bdd02fa54d430567ae017f39a5ae5a8f5f6bf06a9854dc840b9c369d82",
+    "frozen-artifact-hashes.json": "a27362346e72a3b5a6d480ade8701c6c364d48faee5e07fa4e819dac2c1d0083",
+    "frozen-group1-hashes.json": "ecfcda0055bee43148418832b5342ffd3b9ff9d5cf8c89f9ee50297dce0acd73",
+    "frozen-group2-hashes.json": "d683b2bcc0ca19f74bd574e8ad3294031941035477634fb7a69f612c8fa9475f",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "5f6c01075d17bd5cb5cedf4bd09172e96130997b422c24d6405ca7f2244d539d",
+    "prepare.py": "6eb6c64a5e4e03adfd81fcf1df9a90e14e5c7b80c9d1cbdb3ffdbef5d00e409f",
+    "primary-quickfacts.json": "7538066bc4418d65cd716719f515d9bd088713e1ec879f8cf67bfa724fe25a48",
+    "pronunciations.json": "200222dfc6732cdf4b14e828c68f89dbd7e06a4f86539337e07b6ebb17016cbe",
+    "proposed-pronunciations.json": "6dbaca5ac8aa5d4a3cac294b7f1554e82d8dc1de21e38a50a1f2aff9c735ab34",
+    "provenance-group1.json": "488edd87eebba1e67a6e4468775c4e0f8daedfe68bf6369bdfa4947a0cde066b",
+    "provenance-group2.json": "1c3862b380ad0e992092999a8f54ef1c261da34f51a8b5afa30bede1a9069b14",
+    "review-audit.json": "6324518f356c11be580bdae2953bfacc8b056fc2178e79f4124d8adaeb4b42ed",
+    "review-group1.json": "101825ef6874641439279a8a8e8ecc9530f17f7b760e0a6aa698ed3109b5ffa4",
+    "review-group2.json": "6076970fc28fc5e5c09c56aa1e6501092bc199a38a22260f24174df76ab501a2",
+    "review-groups.json": "680cdcf8abee8070ecc0311bcfa435144040d2da4b25568e7ceb420295558f00",
+    "review_group1.py": "c2a7610b18c9e72b539bbf0cbce969db7e9e47928a6993f6cfb8d4a02b05db08",
+    "review_group2.py": "8ed75b3ccefb299178dbcc718dbc4fd7140048d3ee330b5a53c3f41e5c1bb866",
+    "semantic-notes.json": "efe8dc17a9703d583fbd4d2e89f5b64d5133234f3edb41a056de5d4957e3efe9",
+    "separate-bilingual-review.json": "c72d2f847cddcd8cd800940275961fe24eb9487c4a11376beec5d13a54cfa206",
+    "source-boundaries.json": "132860b81659535136cc1ad4809b3ec27581ad5a84913af292f71ad3995d1584",
+    "source-discrepancies.json": "ef8e76940f229ec8ffeb1b4945c3a4bef028989c28ddfe56cac1829db459dea0",
+    "source-review-notes.json": "942fd8d1af25794a9a259b57045890fa5fcc5b4af75029289097893c903a8105",
+    "ua-field-countercheck.json": "fa0ed87df6f6b1637111bff3b6d91fb112820516aa70075579978bf6b32eff45",
+    "validation.json": "67009e455f071111d2828af8150db1754738ed9f7e1ef57c6f6842d8e920a622"
+  },
+  "originalFilesAfter": {
+    "1013-sixty.html": "fa3cfce8398b85557346fc38f31f83edbece9604d0d01463ea7d00e919f3c301",
+    "1013-wowhead.html": "d0a484737aa9522f4068b96b0d018e3b3d8bc3045d1878073cd1883c6e2033fc",
+    "1014-sixty.html": "877375f6bd56ec084632bdc5fd25918a7eadfdae654d3096408e20917ff60a6e",
+    "1014-wowhead.html": "703e897c099d8f70ed1fbea4d8529efa812cbf95d8120ac3590aaa07c57bf26a",
+    "1098-sixty.html": "6ea109d304c36c5caef07e9365253956cf06519e1a75f928f07bf2f6059fb9f4",
+    "1098-wowhead.html": "9af7ae17234e41dcf60486c83c57a91115cc31e460b27225dbc82120528442fb",
+    "1198-sixty.html": "c6523c92d28856a9d462bc3063c59611846cb7942282ee190fb53a09130f63c7",
+    "1198-wowhead.html": "61e6fa913aca902eef91a7aa387f4c9bbb26efe797a54775ba08e207c35a1599",
+    "1199-sixty.html": "e3564b4178e6a535af9ae01bce3b5309112e192471027624c9f2f1e7e62eefe8",
+    "1199-wowhead.html": "5b67ae1d4c839694b8e65ac80d9fcb27441d5aded050cd65b67549bdbcffb98d",
+    "1200-sixty.html": "3fa538e8652ba73592e6f5d690187a6f2a3b8e13443c81fa3a557314e842b85a",
+    "1200-wowhead.html": "40b76869692b002e3c9c4082b2a87c1236a66678cd1604ea6a14a6fa175e0058",
+    "1275-sixty.html": "a5ce223d702701287857c654c7c6baaa899eb1cf77f9d2ab10665e7408548636",
+    "1275-wowhead.html": "ed97ca5a6c4437cd7ee0cf1609ceb658e1e14d2c0f57239e2d77d88bd322d7fb",
+    "1740-sixty.html": "e5a915fb5974abdb6e35da626f3fd6941a50df67f8774a467a8b4291e0dcb356",
+    "1740-wowhead.html": "b000c643d837c9adb51456ba1edca347d19373fe093b42dc3fba90b71db0aad7",
+    "3765-sixty.html": "84ea51f0472d5273ee21c5d88ad84f9b9acba9d80478676358bbbbce927b8acc",
+    "3765-wowhead.html": "910a52f36c8cfb50623d3ce4f9fc4dacaa9cecc3c70c5f8ebc70fcc93e26990d",
+    "6561-sixty.html": "924890836c29953a1ec7c563506b316ce031d382c409020a75e3c8004787e091",
+    "6561-wowhead.html": "187b9b644108a5ee468663c4bd0c16573ffa249bd181d48b77d6b5cb267e922a",
+    "6562-sixty.html": "4e727928e8ec48de009daf03310f71a9c38bd37b4ea2a175d045d1aa63a03800",
+    "6562-wowhead.html": "1251667dba94e4cd0527b44ff1900384dca10fef92abf42e20b12e76ea228eb7",
+    "6563-sixty.html": "8f50d6e88dd58d9290585ea309ee41fb990f482d79e3bdbb12e065c7a762863d",
+    "6563-wowhead.html": "d65789cb688779a09528a1d152b15146a3e961d072b5a5b5c13311f3bd31e2dc",
+    "6564-sixty.html": "16e1afdd39b2da00b1b34f497d3643fa24c3a2d00b2419a04971d9469aa47890",
+    "6564-wowhead.html": "fc3ded4aaf358efdda5f8a34364d6ac09cd7db5ff3cf3ca841c323e3afc3a388",
+    "6565-sixty.html": "323be9cd1b8ba78a3724ed4f202e8c3be2b4c5c8f34f21e1917571555f3ea4f5",
+    "6565-wowhead.html": "fb13a5fadd4e2ce197623a7e63c1534a3878777fbea9816b12d34bd0f06ac042",
+    "971-sixty.html": "8f2b896b365fd797bcdca6ce6bbdbaa7bb316730c0e7f0c7ec23d12aaf8f402c",
+    "971-wowhead.html": "30ed22c0ea8c4120c9b84dad67d5c5de11be80f5ce93f1fcfaf614ed6709a243",
+    "annotation-exceptions.json": "aa6c053e3ed017ad901dca2a83c0e70e8d633783c5957692b9203137bf4b79b6",
+    "author-review-corrections.json": "956748dde9929ab39bc97a11256af7eb960246e52ddd5781e45fe1cc8d7a8e48",
+    "author-review-summary.json": "a2541b5a5cd0084f6ef5f58917997f6bf5d57c699b1b5d975e04000fd0fcc0c6",
+    "comparison-provenance.json": "e46b5b351d750f890997c94882252eb12ed0dffd9978fbd1e9596972c883ac7d",
+    "deepl-index-01.json": "5ecbd6e0bb61d2a7968109f28b33e08894a40278ae7d67bbdf1aaa6568732080",
+    "deepl-index-02.json": "74b27b5d23dc1a099c1798cb711a24560f7b132d3bf59ab87f11887cb3f20719",
+    "deepl-index-03.json": "45e603065223f9de33d3f18ce98c4d7a898b558848e3f18e4750d8b72268b25b",
+    "deepl-index-04.json": "f6aee59854196cc3b8a4b5026ca78b4d69bee4c9f80a594c1ec7147c4650658c",
+    "deepl-request-01.json": "b55a11dbaf51bdd9030c958c375fb9e089b790181074e51111649dd8720c5eef",
+    "deepl-request-02.json": "6c3c64cfed6aee00222529eb6ceede8f9916382abe522dc4cca153c09dcb741e",
+    "deepl-request-03.json": "a892dda58d18cf78d453db62fe4dc8bd1a14a3fbe5387961a6831bcb84e200a7",
+    "deepl-request-04.json": "384f1fdc9081160a055a29df1b727c671c83fbcd9531484a6cb575e5095eb35e",
+    "deepl-response-01.json": "c2148d3996f520bdb4084fcacb5a64f2f5897d5bdb6194f76bd8b32e3d19ed6d",
+    "deepl-response-02.json": "c968336fc10ea03f110d14ff17d276be6cede251138eaa38f08c6811c5804456",
+    "deepl-response-03.json": "b08cc2d6f703e194d3ea99a84aa6799ca4abe94b8efdbe547aa345357e80c21f",
+    "deepl-response-04.json": "f5e8c58f9aa1a33e466d4981e7ae1200bd72e8461fb0196178852d4f99fa609f",
+    "edited-group1.json": "9184a081b036b5e3aaef89c5090c60201e28c7ebf7913eaf231d480100bfc7ff",
+    "edited-group2.json": "889e96e1bbcddd7b0911bb589439e24a6c483639d0c0918025ea8d1c56a4af13",
+    "edited.json": "22071c0ec64f816aa2721fe7e5bad31ad94d7c722d3f29436e017999cb517271",
+    "edit_group1.py": "93d503eb86a49402985bddbfe430fa11d3d919149bf6807e2b0f3bbe912c2f79",
+    "edit_group2.py": "e30b55e9b458ec62cd7a285ecbbb22caff92aa632ad0409b7e8475b9a4cb1a7b",
+    "english-sources.json": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+    "fetched.json": "e8c818976b2004d7de547a40a24cb41a3b50fcb58ce971c99b5a7f902cb728ac",
+    "finalize.py": "8925d4bdd02fa54d430567ae017f39a5ae5a8f5f6bf06a9854dc840b9c369d82",
+    "frozen-artifact-hashes.json": "a27362346e72a3b5a6d480ade8701c6c364d48faee5e07fa4e819dac2c1d0083",
+    "frozen-group1-hashes.json": "ecfcda0055bee43148418832b5342ffd3b9ff9d5cf8c89f9ee50297dce0acd73",
+    "frozen-group2-hashes.json": "d683b2bcc0ca19f74bd574e8ad3294031941035477634fb7a69f612c8fa9475f",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "5f6c01075d17bd5cb5cedf4bd09172e96130997b422c24d6405ca7f2244d539d",
+    "prepare.py": "6eb6c64a5e4e03adfd81fcf1df9a90e14e5c7b80c9d1cbdb3ffdbef5d00e409f",
+    "primary-quickfacts.json": "7538066bc4418d65cd716719f515d9bd088713e1ec879f8cf67bfa724fe25a48",
+    "pronunciations.json": "200222dfc6732cdf4b14e828c68f89dbd7e06a4f86539337e07b6ebb17016cbe",
+    "proposed-pronunciations.json": "6dbaca5ac8aa5d4a3cac294b7f1554e82d8dc1de21e38a50a1f2aff9c735ab34",
+    "provenance-group1.json": "488edd87eebba1e67a6e4468775c4e0f8daedfe68bf6369bdfa4947a0cde066b",
+    "provenance-group2.json": "1c3862b380ad0e992092999a8f54ef1c261da34f51a8b5afa30bede1a9069b14",
+    "review-audit.json": "6324518f356c11be580bdae2953bfacc8b056fc2178e79f4124d8adaeb4b42ed",
+    "review-group1.json": "101825ef6874641439279a8a8e8ecc9530f17f7b760e0a6aa698ed3109b5ffa4",
+    "review-group2.json": "6076970fc28fc5e5c09c56aa1e6501092bc199a38a22260f24174df76ab501a2",
+    "review-groups.json": "680cdcf8abee8070ecc0311bcfa435144040d2da4b25568e7ceb420295558f00",
+    "review_group1.py": "c2a7610b18c9e72b539bbf0cbce969db7e9e47928a6993f6cfb8d4a02b05db08",
+    "review_group2.py": "8ed75b3ccefb299178dbcc718dbc4fd7140048d3ee330b5a53c3f41e5c1bb866",
+    "semantic-notes.json": "efe8dc17a9703d583fbd4d2e89f5b64d5133234f3edb41a056de5d4957e3efe9",
+    "separate-bilingual-review.json": "c72d2f847cddcd8cd800940275961fe24eb9487c4a11376beec5d13a54cfa206",
+    "source-boundaries.json": "132860b81659535136cc1ad4809b3ec27581ad5a84913af292f71ad3995d1584",
+    "source-discrepancies.json": "ef8e76940f229ec8ffeb1b4945c3a4bef028989c28ddfe56cac1829db459dea0",
+    "source-review-notes.json": "942fd8d1af25794a9a259b57045890fa5fcc5b4af75029289097893c903a8105",
+    "ua-field-countercheck.json": "fa0ed87df6f6b1637111bff3b6d91fb112820516aa70075579978bf6b32eff45",
+    "validation.json": "67009e455f071111d2828af8150db1754738ed9f7e1ef57c6f6842d8e920a622"
+  },
+  "supplementalEvidence": {
+    "file": "dungeons-checks.json",
+    "sha256": "0b31dbfeb0a28efe4d47e321e02aa0adf0079f2ad28a502c7230215c118507cf",
+    "script": "dungeons-checks.py",
+    "scriptSHA256": "96d896237c1b38c900406a510b448cd40d308acb3eaf8a86b4064282d35dc366"
+  },
+  "requiredNextStep": "Root applies exact-hash1098.detail correction and explicit deathstalkers dictionary override to separate root-reviewed copy, then fresh affected-field/source/lint/validate and candidate hashes repeated. Author files stay frozen.",
+  "statuses": {
+    "independentAssistedEnglishMyanmarReview": "completed with one change request",
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciations": "assisted proposals pending native review",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  }
+}

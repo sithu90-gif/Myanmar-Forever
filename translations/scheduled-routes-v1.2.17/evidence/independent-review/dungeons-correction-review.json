@@ -1,0 +1,911 @@
+{
+  "result": "PASS",
+  "partition": "dungeons",
+  "reviewVersion": "1.2.17",
+  "reviewType": "independent affected-field repeat after root exact-hash application",
+  "checkedAtUTC": "2026-11-22T07:04:04.881736+00:00",
+  "remainingIssues": [],
+  "counts": {
+    "quests": 15,
+    "fieldSlots": 75,
+    "correctedFieldSlots": 1,
+    "unchangedFieldSlots": 74,
+    "enabledFields": 71,
+    "sourceAbsentFields": 4,
+    "heldFields": 0,
+    "pronunciationDictionaryChanges": 1
+  },
+  "resolvedIssues": [
+    {
+      "id": 1098,
+      "field": "detail",
+      "englishSHA256": "eb7ffce175574c615644c3caa9714d454917ea016bce7b6d0ed91d33b634cda5",
+      "priorMyanmarSHA256": "9d027b2d9668751b2270ee6097faac898d5441418d25d90760ee04de0de34676",
+      "correctedMyanmarSHA256": "56a46a35939ef8135fb28e47b3d8adead68840b89c87814c9ed7b3b93f2f121d",
+      "old": "deathstalkers (ဒက်သ်စတောကာစ်)",
+      "new": "deathstalkers (ဒက်သ်စတောကာဇ်)",
+      "proposedFullFieldMatchedExactly": true,
+      "reason": "Original title Deathstalkers and offer lowercase deathstalkers denote the same TWO agents Adamant and Vincent. Corrected lowercase plural now shares maintained capitalized plural pronunciation ဒက်သ်စတောကာဇ်. Exact new-field editorial reconciliation preserves source meaning and historical released fields.",
+      "semanticReread": "Full corrected offer reread against original current English and HTML: two agents sent to gather intelligence, many days absent, reports required for hope of successful attack, SOUTH Shadowfang Keep, Adamant AND Vincent, aid only IF required, dangerous AND critical, do not fail. Two lowercase name markers and all three paragraphs preserved.",
+      "sourceBoundaryMarkup": "In preparation for an assault on Shadowfang, two deathstalkers were sent to the keep to gather intelligence.  It has been many days and they have not returned, but we must receive their report if we're to have any hope of a successful attack!<br /><br />So here is your task, &lt;name&gt;.  Go to <a href=\"/forever/zone=209/shadowfang-keep\">Shadowfang Keep</a> to the south and find the Deathstalkers Adamant and Vincent.  Find them, and if they require aid then give it.<br /><br />This mission is as dangerous as is it critical, &lt;name&gt;.  Do not fail.",
+      "primaryOwnQuestScriptRecord": {
+        "name_enus": "Deathstalkers in Shadowfang",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    }
+  ],
+  "pronunciationReview": {
+    "deathstalkers": {
+      "before": "ဒက်သ်စတောကာစ်",
+      "after": "ဒက်သ်စတောကာဇ်",
+      "titleCanonical": "ဒက်သ်စတောကာဇ်",
+      "explicitApprovedOverride": "ဒက်သ်စတောကာဇ်",
+      "status": "reconciled for new field; not native-certified"
+    },
+    "Sepulcher": {
+      "dungeon1014ObjectiveUnchanged": true,
+      "shortCore": "ဆက်ပါလ်ကာ",
+      "globalTheSepulcherCompound": "သ ဆက်ပါလ်ကာ",
+      "status": "compatible with crosspartition agreed assisted core; no dungeon change"
+    },
+    "otherPronunciationEntries": "unchanged"
+  },
+  "sourceAbsences": [
+    {
+      "id": 6562,
+      "field": "progress"
+    },
+    {
+      "id": 1198,
+      "field": "progress"
+    },
+    {
+      "id": 3765,
+      "field": "progress"
+    },
+    {
+      "id": 1098,
+      "field": "progress"
+    }
+  ],
+  "fields": {
+    "6562": {
+      "title": {
+        "englishSHA256": "711e5032a1255a2ab5804a664b20f1b55c86c2598bd0cc30d59faec6f3a98919",
+        "authorMyanmarSHA256": "50342c611926c74b94379625c1fb985a2535b07ee62a7809d239a397c6d65eaa",
+        "candidateMyanmarSHA256": "50342c611926c74b94379625c1fb985a2535b07ee62a7809d239a397c6d65eaa",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "bca4300620bdb594b57c698ab51db34f0e94ce2a77b7050c6fe0fbe72b817fd4",
+        "authorMyanmarSHA256": "9b92ac1a0bc49a19004d1d02648401471e9d6a359c5685d7e4d5124cfbb36148",
+        "candidateMyanmarSHA256": "9b92ac1a0bc49a19004d1d02648401471e9d6a359c5685d7e4d5124cfbb36148",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "761f1ed511d1d531093c053de766f4cadcf568b0a360d5f0af0430fee62534fd",
+        "authorMyanmarSHA256": "e57f8b70d3acd445b1ba356a4f6dd55519ecd17721ddf0f668c6e364e6adc3bb",
+        "candidateMyanmarSHA256": "e57f8b70d3acd445b1ba356a4f6dd55519ecd17721ddf0f668c6e364e6adc3bb",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "9ad412e75193d41b3d6346501d51dcb6f5834d18bb24e4cff7297f39713b7716",
+        "authorMyanmarSHA256": "b3ccc83e8e10f343d48a4628e7f51e0cac1f37a16bfffc47e608250d486de1e6",
+        "candidateMyanmarSHA256": "b3ccc83e8e10f343d48a4628e7f51e0cac1f37a16bfffc47e608250d486de1e6",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "6563": {
+      "title": {
+        "englishSHA256": "ca197971640b045d569ead29eadf70bffe3eadcb251ff5874fe1ce176f9322b3",
+        "authorMyanmarSHA256": "715156e3e592dc53d029b545f059fc10dc4898ceb3e340ebea76e852888ac81a",
+        "candidateMyanmarSHA256": "715156e3e592dc53d029b545f059fc10dc4898ceb3e340ebea76e852888ac81a",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "a1745dedfc38974961e39587ce117c1f4eeec892d5d975028e49ff8f33bf1afd",
+        "authorMyanmarSHA256": "74e770866d5d12e6b5537fc239083f094c688f02b1bf4e67c737cfdd75d2a96d",
+        "candidateMyanmarSHA256": "74e770866d5d12e6b5537fc239083f094c688f02b1bf4e67c737cfdd75d2a96d",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "1cfa74aeeb938b86a7677ef84b7982795c86c2bd56fbbad55dd6db0205243602",
+        "authorMyanmarSHA256": "5a14bfe9244e7036e43490b3640209cec04aa55ac2fd0002bbb1ad251ca9ea0c",
+        "candidateMyanmarSHA256": "5a14bfe9244e7036e43490b3640209cec04aa55ac2fd0002bbb1ad251ca9ea0c",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "06257768aba23d6e838ecb3ebffdb607dce91e28e10e15aa3c74dafa89cc9918",
+        "authorMyanmarSHA256": "b6520ce8761a6a7e8abf7a8db44b277cc72e835035b074cf095acbeaaf007b63",
+        "candidateMyanmarSHA256": "b6520ce8761a6a7e8abf7a8db44b277cc72e835035b074cf095acbeaaf007b63",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "498362d63376f7fcdf06b9b163cb6ba4ddf433d856c364eeeca518911648f3e0",
+        "authorMyanmarSHA256": "f6d8914561e42cf5802110274cce158e9a6bf45890ecffd3e160589d980dd944",
+        "candidateMyanmarSHA256": "f6d8914561e42cf5802110274cce158e9a6bf45890ecffd3e160589d980dd944",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "6564": {
+      "title": {
+        "englishSHA256": "47e9492edef817ffa799e119a9eb4d4f4911f32781fab064a789a3432f5cdac0",
+        "authorMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+        "candidateMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "92ab49ea84db5adddf633ca9a271b558f735899d30f0a561958d36a8b2768eff",
+        "authorMyanmarSHA256": "d2f7b85240c8eaf192ecf3ff6b7e4e578b6e1f36bac8267db57a4dfb50f023e2",
+        "candidateMyanmarSHA256": "d2f7b85240c8eaf192ecf3ff6b7e4e578b6e1f36bac8267db57a4dfb50f023e2",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "0d0346fb9448cef247df00a683096b8942f11f21bd99006f17f38e4dc2786bfe",
+        "authorMyanmarSHA256": "642ab1f310241fe3320bf09c9142389ceb001488a4fb197eadd14e3d2a3d54dc",
+        "candidateMyanmarSHA256": "642ab1f310241fe3320bf09c9142389ceb001488a4fb197eadd14e3d2a3d54dc",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "8ccb6e4ef41d678e4af5b57b3d601f2db7f1be9c5cbf85966cd255f03cbd6efc",
+        "authorMyanmarSHA256": "dc6f052b687f6b7c9c4833ca5b771cd8cd515602ccf37d64c9724141059b98f9",
+        "candidateMyanmarSHA256": "dc6f052b687f6b7c9c4833ca5b771cd8cd515602ccf37d64c9724141059b98f9",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "d3994ccd5e162344b673ff2bf07de59bda5ce59dc0ea8721c5036abd27076e81",
+        "authorMyanmarSHA256": "e601f5fe87ac0a08074e834ab9c1e886073d2286553c7d7075cf280d65cc0b91",
+        "candidateMyanmarSHA256": "e601f5fe87ac0a08074e834ab9c1e886073d2286553c7d7075cf280d65cc0b91",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "6565": {
+      "title": {
+        "englishSHA256": "47e9492edef817ffa799e119a9eb4d4f4911f32781fab064a789a3432f5cdac0",
+        "authorMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+        "candidateMyanmarSHA256": "537855eb776ba5697e4f74d639267be92cb19d2e9230881369ab87ff63e70e9c",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "c5ffda9315e05457003029ca2c12f48c0e6d20d0a1371ec1e15b5090336f01ee",
+        "authorMyanmarSHA256": "59de369bacb82e34e0f525e99756c5948ba27824a8a33fab6b514aae5c3a85a4",
+        "candidateMyanmarSHA256": "59de369bacb82e34e0f525e99756c5948ba27824a8a33fab6b514aae5c3a85a4",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "87d1bff23c0dcc16ba91d52652e9250b406d90783a20014139dba3887cc62dbb",
+        "authorMyanmarSHA256": "366fbc10f8024934c0d0014012f82b9e8fd5e39ae77991bc64c4360f20d47cfc",
+        "candidateMyanmarSHA256": "366fbc10f8024934c0d0014012f82b9e8fd5e39ae77991bc64c4360f20d47cfc",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "81fbd72dfb0646200814ce850f07ffdc9114b567f382dea1c158268a18b19d0a",
+        "authorMyanmarSHA256": "ea5c2f5f31c18f5492e3467efdb08e6547fb5fec397bdf3d1026a3d0f77bd061",
+        "candidateMyanmarSHA256": "ea5c2f5f31c18f5492e3467efdb08e6547fb5fec397bdf3d1026a3d0f77bd061",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "5c8dba8b94bfb9d7dc18de5b6f5d4528eeeeb86f215a521fdb920b3f12eca844",
+        "authorMyanmarSHA256": "068f6f7e49cee975fea8d0a8127afbb34431fa6ffed1ce3dc4e783a1ddad1e82",
+        "candidateMyanmarSHA256": "068f6f7e49cee975fea8d0a8127afbb34431fa6ffed1ce3dc4e783a1ddad1e82",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "971": {
+      "title": {
+        "englishSHA256": "6b0dc4f35d55928def395275502e15118fdff40b62189345b96ce587e7db148e",
+        "authorMyanmarSHA256": "861dec6519e0cb767a0363b7803374b9497d208cc3811d437d04041a7f528297",
+        "candidateMyanmarSHA256": "861dec6519e0cb767a0363b7803374b9497d208cc3811d437d04041a7f528297",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "020649b711aef30eb0af568596ebc2141e3f993e8b1a400d570e10866cdebad2",
+        "authorMyanmarSHA256": "10a614c286ecacd3951b0f1d8e93cea1e5376f7b4546c2bedc335cd133264ef7",
+        "candidateMyanmarSHA256": "10a614c286ecacd3951b0f1d8e93cea1e5376f7b4546c2bedc335cd133264ef7",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "1c432957e6ad6f34c3bbc947201b52f9380bc4279f05d8f61325b666e0115480",
+        "authorMyanmarSHA256": "3a2359db01fea3372edb940393b884f0ee704aa8ff7eefe647964022eea81747",
+        "candidateMyanmarSHA256": "3a2359db01fea3372edb940393b884f0ee704aa8ff7eefe647964022eea81747",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "eae08fccd50e1e26641da9b57eb2618345ce3bf6ac6af5b5a1242666bde52b8c",
+        "authorMyanmarSHA256": "289b07bb0457636c5141002aa237cdb01c65100b821781c00aa83b33b278ef32",
+        "candidateMyanmarSHA256": "289b07bb0457636c5141002aa237cdb01c65100b821781c00aa83b33b278ef32",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "27fc2194107f9722305de147e75db62e98e44f1fae3ae0f9969e806ed5f11674",
+        "authorMyanmarSHA256": "c962b94c4050f289c12ddc9fb7a49605e9304d27cdfa598203b01faf2c2fff8c",
+        "candidateMyanmarSHA256": "c962b94c4050f289c12ddc9fb7a49605e9304d27cdfa598203b01faf2c2fff8c",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1198": {
+      "title": {
+        "englishSHA256": "5ed113c3780affaf11683eee6bcda9dd8329dd4fe8687e8e228a5e456286f230",
+        "authorMyanmarSHA256": "62d7574b369280afb41590f61e8af6c53dedab50261d32553d73f6ea21fee622",
+        "candidateMyanmarSHA256": "62d7574b369280afb41590f61e8af6c53dedab50261d32553d73f6ea21fee622",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "4f63aa69e1b9f996caba8ec80c0f98ca3dc672205723abb48000338eb5cfbc93",
+        "authorMyanmarSHA256": "c5a8deb9374e1e9739f06c83b3943bee86a8e3409767a59cf457e938e8d56ac0",
+        "candidateMyanmarSHA256": "c5a8deb9374e1e9739f06c83b3943bee86a8e3409767a59cf457e938e8d56ac0",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "cf5f66213f5594c662a587225647784338c2dca76980e591d4c1144dc7d09cff",
+        "authorMyanmarSHA256": "b96adb30aa0197e3c759a3a72576e209c2f1ad86d0e69e50f76a4a19c017def5",
+        "candidateMyanmarSHA256": "b96adb30aa0197e3c759a3a72576e209c2f1ad86d0e69e50f76a4a19c017def5",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "ad339d3a1309b74f091cd880ca1a9a3b2883b8350c6e2c95adfe5611646bef87",
+        "authorMyanmarSHA256": "2c3c4ac89fc5e8f51c5a2f8747096e52b0d7c3d475cd6e0374f6d99d48540556",
+        "candidateMyanmarSHA256": "2c3c4ac89fc5e8f51c5a2f8747096e52b0d7c3d475cd6e0374f6d99d48540556",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1199": {
+      "title": {
+        "englishSHA256": "e6aa55af7fe948a866c2b1ece5ca192d727dd0f071e6c13c0557fee65920e3d1",
+        "authorMyanmarSHA256": "ae7c46d91366dde5e6a585269e3e9e938fa8d41b164b5a4f86415158b865d163",
+        "candidateMyanmarSHA256": "ae7c46d91366dde5e6a585269e3e9e938fa8d41b164b5a4f86415158b865d163",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "25619a8a4070a12c2c52a1e5a349f7d88802e47bb38757b43b3cf70ff6a31774",
+        "authorMyanmarSHA256": "03af2dc96ebb70103411b1f72ed500fc687d4508054bfbae81bfb7080dd6a8e2",
+        "candidateMyanmarSHA256": "03af2dc96ebb70103411b1f72ed500fc687d4508054bfbae81bfb7080dd6a8e2",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "3530c1a4ddb0281e5557643629ffd497709c7dc1984e7e2e72e0c108d632827c",
+        "authorMyanmarSHA256": "11793ead0cedc91c9f4974201617e8926234456fab989328cd7d963b965e36a2",
+        "candidateMyanmarSHA256": "11793ead0cedc91c9f4974201617e8926234456fab989328cd7d963b965e36a2",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "3789ed1ab6ed84094437184fa0c7086711b9772714f1d7905208a9813282e237",
+        "authorMyanmarSHA256": "779b138f5efa838b6e6f013f961b42d2ecf529c57a002792c31fdd613990217d",
+        "candidateMyanmarSHA256": "779b138f5efa838b6e6f013f961b42d2ecf529c57a002792c31fdd613990217d",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "5a7e2a62f6764479ee3f1ab6e044d1176f5a3366a99abe385bc8c4450ed93e26",
+        "authorMyanmarSHA256": "fc92db45b0322a6f3d37e9daca85015dc8a4a3a346d5dfe5520168d0fbb18aa7",
+        "candidateMyanmarSHA256": "fc92db45b0322a6f3d37e9daca85015dc8a4a3a346d5dfe5520168d0fbb18aa7",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1200": {
+      "title": {
+        "englishSHA256": "3b05fc5d7115340c5ef26a9358bfb445c4a90962fb63f4b3df5b54dbf9c12fd2",
+        "authorMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+        "candidateMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "d2acf671714bce76d9050820ccf9b39ac526c557d005d5dc62a2b3a8f7c139a9",
+        "authorMyanmarSHA256": "95d21955365f8209fdcddaab7ccc982709e771e2f387f94be8c71919f645dea5",
+        "candidateMyanmarSHA256": "95d21955365f8209fdcddaab7ccc982709e771e2f387f94be8c71919f645dea5",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "38a698b0364d8c4e133b0831725a413272a4b5ee92544abd9b52c020545190bb",
+        "authorMyanmarSHA256": "f97aebb0d55fa679e283146c0c0618d46901fa11411764648fd90d63839438b2",
+        "candidateMyanmarSHA256": "f97aebb0d55fa679e283146c0c0618d46901fa11411764648fd90d63839438b2",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "c5c9d533f9a44f4f5a53bf737dc8ad93b4947e663a1116c873210db4779e1040",
+        "authorMyanmarSHA256": "34e907aa616e5b95d0e4218112d9bf220700d3bb3f224e62417c25ec610c1770",
+        "candidateMyanmarSHA256": "34e907aa616e5b95d0e4218112d9bf220700d3bb3f224e62417c25ec610c1770",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "498d043ea78f5541a18bc18ce744d395e5821664863dcef4a29f3a79b7f02289",
+        "authorMyanmarSHA256": "324507514fd9cdcfc5aac708e097a3ae7e61496f6cde4024d7eabbba5c65ef3d",
+        "candidateMyanmarSHA256": "324507514fd9cdcfc5aac708e097a3ae7e61496f6cde4024d7eabbba5c65ef3d",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "6561": {
+      "title": {
+        "englishSHA256": "3b05fc5d7115340c5ef26a9358bfb445c4a90962fb63f4b3df5b54dbf9c12fd2",
+        "authorMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+        "candidateMyanmarSHA256": "d80b8584e19bb2278f27441d439667d29514c496f26c1b911d08ed4ab0cab5aa",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "94aba354319bd85be7ad96187f14109d46de0eb052b3e541fb6523af23431db1",
+        "authorMyanmarSHA256": "1f70179063a0d1c8c723a40912e801eebedf190ed49968e681727844ba14faf0",
+        "candidateMyanmarSHA256": "1f70179063a0d1c8c723a40912e801eebedf190ed49968e681727844ba14faf0",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "6f87c20e63d7f26b78ac3fe0c1a25babd184bed09144727f944b0a315ea17861",
+        "authorMyanmarSHA256": "acd6bf6dd4a49a38ab8896fdb26b3937bcbbe3ca3ed1944f34913963c6e40f30",
+        "candidateMyanmarSHA256": "acd6bf6dd4a49a38ab8896fdb26b3937bcbbe3ca3ed1944f34913963c6e40f30",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "38e7ef120a4b68fbc6d936717514be76e89d221810485026a44e941cbcaf49a2",
+        "authorMyanmarSHA256": "9a96d9cbde0f0713ea9aa4bc0ab39df7bc09584861ca9cbefb055e98b44b6406",
+        "candidateMyanmarSHA256": "9a96d9cbde0f0713ea9aa4bc0ab39df7bc09584861ca9cbefb055e98b44b6406",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "834020af23d10afe8b04d6614b31caac56d18044014c9f97f7e8f115d9b3cadb",
+        "authorMyanmarSHA256": "ff8e63d973ce252b26a8f99b680cc738b4ec91c29bada0a30bee998f64495be4",
+        "candidateMyanmarSHA256": "ff8e63d973ce252b26a8f99b680cc738b4ec91c29bada0a30bee998f64495be4",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1275": {
+      "title": {
+        "englishSHA256": "d330ab0aaa73f5481554aad6459bb96caa590437916e2fb10d2eda312998f46d",
+        "authorMyanmarSHA256": "4aaabed6e67296f98e3667965d339b4757ac71f3783abeefa661897e5c8cfe4e",
+        "candidateMyanmarSHA256": "4aaabed6e67296f98e3667965d339b4757ac71f3783abeefa661897e5c8cfe4e",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "7d446dea8fbad5dfe78fefc39062c1cfed5256969ff475498074991e2ebbab0e",
+        "authorMyanmarSHA256": "d4887fe5eaf5f552fe5872388046836cdda45fb3440f075b5aa0f0c228befffa",
+        "candidateMyanmarSHA256": "d4887fe5eaf5f552fe5872388046836cdda45fb3440f075b5aa0f0c228befffa",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "ca531419c2eaf330ef7a8aede40e2dabfe4211a42603f482f1616adac7d4ae63",
+        "authorMyanmarSHA256": "7485311ad97346fb24b476ffb87031bf2750da3aff7b4ac17dc31906173d76b6",
+        "candidateMyanmarSHA256": "7485311ad97346fb24b476ffb87031bf2750da3aff7b4ac17dc31906173d76b6",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "939c932a2e3c222c1f2914aabf64f9093a95011c3f667db02cd6911ca3693b9b",
+        "authorMyanmarSHA256": "62bdece57c204210031228c6c777d00178c2238dcd9d882b8a4fad32781d41c6",
+        "candidateMyanmarSHA256": "62bdece57c204210031228c6c777d00178c2238dcd9d882b8a4fad32781d41c6",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "e3874173db0859b01acea511921a30f70cc43eb24e4eaf0ddef14246b5926274",
+        "authorMyanmarSHA256": "4a62674ff670e15fd49b549ab8ef17ee7be28dcb48d67ae7b2a443adbbafe915",
+        "candidateMyanmarSHA256": "4a62674ff670e15fd49b549ab8ef17ee7be28dcb48d67ae7b2a443adbbafe915",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "3765": {
+      "title": {
+        "englishSHA256": "852fa2d331282c3b535d5813bc56be10109088184c460ad15844285638949c34",
+        "authorMyanmarSHA256": "9f3368c2ec680c2cd664f325e17df9790fd4f9f0968f69c4ded5e64549a23e37",
+        "candidateMyanmarSHA256": "9f3368c2ec680c2cd664f325e17df9790fd4f9f0968f69c4ded5e64549a23e37",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "b35832b08e96bcefc8842b66d96547bc829cdab28cac2e2909cabd3274a1fe45",
+        "authorMyanmarSHA256": "4396241025563d1cfa34d4343d2a308356154217fdcafdb73063c6b5100e934e",
+        "candidateMyanmarSHA256": "4396241025563d1cfa34d4343d2a308356154217fdcafdb73063c6b5100e934e",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "b98fa3336de7694212cdaed5116bd7fc623ed2630361741da62c43141684a05e",
+        "authorMyanmarSHA256": "4667f13f7dcec5c60b1a7c4f2adec586c2cd425e357dc23024684024ae032ed6",
+        "candidateMyanmarSHA256": "4667f13f7dcec5c60b1a7c4f2adec586c2cd425e357dc23024684024ae032ed6",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "f6637496efe01f1a912bc3d5df86c1ef058566e47fef484eed3fa423e9b7f433",
+        "authorMyanmarSHA256": "2b3c2068fa0a221a8f54287c7e5c9bb31751431a39b8a67372375983383db9b1",
+        "candidateMyanmarSHA256": "2b3c2068fa0a221a8f54287c7e5c9bb31751431a39b8a67372375983383db9b1",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1740": {
+      "title": {
+        "englishSHA256": "b4bbb0459bc352475dd424051e11c87f007b68eb240bce8b405c9e4e7490ff59",
+        "authorMyanmarSHA256": "63ea0b9d57e128e35894746dd110d9586e9098b33e618e1793ba73bf060de7c4",
+        "candidateMyanmarSHA256": "63ea0b9d57e128e35894746dd110d9586e9098b33e618e1793ba73bf060de7c4",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "4550dc0f7b8e082de821f83562babfe012fabb2021e6e9853023c207a352c3c3",
+        "authorMyanmarSHA256": "c7fb8391eb634afbfecace6cc45c70169ad23b85921e2785f9fc8908fa25c24e",
+        "candidateMyanmarSHA256": "c7fb8391eb634afbfecace6cc45c70169ad23b85921e2785f9fc8908fa25c24e",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "9a10aac6e1887bc1152eb441cf7e1658da571491addcbb4306dac39251a98774",
+        "authorMyanmarSHA256": "a39f60e79fc82bab0eb2ff5725ec65b27449c660cf3db4518115b95468cdd52b",
+        "candidateMyanmarSHA256": "a39f60e79fc82bab0eb2ff5725ec65b27449c660cf3db4518115b95468cdd52b",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "7179796e60bd9892773b27eb83efe460e0b7db026f1bd2a68e189b9a9e0a20d1",
+        "authorMyanmarSHA256": "cd25c8d2ab93d88a6429dba4aa448d52f5799157dd8f4d6c56702427569f8d10",
+        "candidateMyanmarSHA256": "cd25c8d2ab93d88a6429dba4aa448d52f5799157dd8f4d6c56702427569f8d10",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "a7b5c14b900aa7c5ae86174bdb4c75991bd5b2ad4236a122d23fe1364b3cdfba",
+        "authorMyanmarSHA256": "323e07b08a02d434ccd80f58e9a1bb3f996b454dad24a2d883bc678a77015b13",
+        "candidateMyanmarSHA256": "323e07b08a02d434ccd80f58e9a1bb3f996b454dad24a2d883bc678a77015b13",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1098": {
+      "title": {
+        "englishSHA256": "ba615541f2f4f33d90f27fe1c117f4dd8fd4aa188181fa91c98d7654cb2a5eb9",
+        "authorMyanmarSHA256": "b6bf7fdd4f712d1697c90c53155e1975ff72401b6acd9dac6a045426699114b1",
+        "candidateMyanmarSHA256": "b6bf7fdd4f712d1697c90c53155e1975ff72401b6acd9dac6a045426699114b1",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "eb7ffce175574c615644c3caa9714d454917ea016bce7b6d0ed91d33b634cda5",
+        "authorMyanmarSHA256": "9d027b2d9668751b2270ee6097faac898d5441418d25d90760ee04de0de34676",
+        "candidateMyanmarSHA256": "56a46a35939ef8135fb28e47b3d8adead68840b89c87814c9ed7b3b93f2f121d",
+        "sourceAvailable": true,
+        "changed": true,
+        "status": "approved pronunciation correction independently re-reviewed"
+      },
+      "objective": {
+        "englishSHA256": "f0ee3d08509b491f6335fae22ee40bf7f389819725ac2f81f9e55376d1364d47",
+        "authorMyanmarSHA256": "c8edeff6e228dc331929a6a5f1688a274b20e1af1ad65f0d9aa447eab0a36de8",
+        "candidateMyanmarSHA256": "c8edeff6e228dc331929a6a5f1688a274b20e1af1ad65f0d9aa447eab0a36de8",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "candidateMyanmarSHA256": null,
+        "sourceAvailable": false,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "37a201cd6c4bd3a092c87049b12486f8084a43ba913b65ca436658ec88afa688",
+        "authorMyanmarSHA256": "31da22611cacfa89318c9dbd7f64cdcbc372786d784cb8839ba6eec4ee8a3498",
+        "candidateMyanmarSHA256": "31da22611cacfa89318c9dbd7f64cdcbc372786d784cb8839ba6eec4ee8a3498",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1013": {
+      "title": {
+        "englishSHA256": "178e403ce982632dd432a413c36f9a18b4cd01888e5bb8aaf615e065ff1dbf06",
+        "authorMyanmarSHA256": "c06771cb6d7c7463c07851d8aa5b5455f13b49d063b7d539fa111d2c0bc72682",
+        "candidateMyanmarSHA256": "c06771cb6d7c7463c07851d8aa5b5455f13b49d063b7d539fa111d2c0bc72682",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "2b3113984ca1bf88807078dcc313faf6146d4fc713029d2ea19d8c9d2c70b8a1",
+        "authorMyanmarSHA256": "ce8732bb6d08b24d58b5a1d429b73e68b15b68113fce35f64040892ea2767089",
+        "candidateMyanmarSHA256": "ce8732bb6d08b24d58b5a1d429b73e68b15b68113fce35f64040892ea2767089",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "43663fee6fc65a31789bce50459b1a97c497ceefb715cb61d74853a4b29674cf",
+        "authorMyanmarSHA256": "1c55bdc98082dd2c2fe06eda0f937944eafdf487aaefedcb278165bbd7348e93",
+        "candidateMyanmarSHA256": "1c55bdc98082dd2c2fe06eda0f937944eafdf487aaefedcb278165bbd7348e93",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "1fa1ba02a42482aa40e0a2b091e3adf395581d783461d2370da88ab913be92af",
+        "authorMyanmarSHA256": "03ea1c9920c93c97233913c1f3e8ec4582cb472cefdede0a34e0451d08917a79",
+        "candidateMyanmarSHA256": "03ea1c9920c93c97233913c1f3e8ec4582cb472cefdede0a34e0451d08917a79",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "10fb5b4b954c8fa732af3d078e159ebb2204923f890172afb2e418e7979c7707",
+        "authorMyanmarSHA256": "3a7c7332caca3091f872f4c2c9335acaa0842454b36ae0b6c89ac2035dbb131c",
+        "candidateMyanmarSHA256": "3a7c7332caca3091f872f4c2c9335acaa0842454b36ae0b6c89ac2035dbb131c",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    },
+    "1014": {
+      "title": {
+        "englishSHA256": "de7560ba81a18f4e484e23bab92c43b19a1777c2e1a378b5444a6993650bb0cd",
+        "authorMyanmarSHA256": "d39839a987c11fa0e40bccbadfde8066fcbb3b216f7aca73fb766032946b2ef2",
+        "candidateMyanmarSHA256": "d39839a987c11fa0e40bccbadfde8066fcbb3b216f7aca73fb766032946b2ef2",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "detail": {
+        "englishSHA256": "faa77e2fbce47dd9f799ff4d00b0fcbbb33746de2dff0b1f4ac66ca3b0014de2",
+        "authorMyanmarSHA256": "ce23d36a9b40c2498e71c360859b5e857df34c8479f78078fee9b907f0320e89",
+        "candidateMyanmarSHA256": "ce23d36a9b40c2498e71c360859b5e857df34c8479f78078fee9b907f0320e89",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "objective": {
+        "englishSHA256": "4a77b22d4dd443289a8cec62225bf5f6647efbed08f436ad1ee89e39959ebd61",
+        "authorMyanmarSHA256": "6fd2e52cb8ab348f8d63d965bfa39d1dc90a15a456540b7868ff5fd89b625058",
+        "candidateMyanmarSHA256": "6fd2e52cb8ab348f8d63d965bfa39d1dc90a15a456540b7868ff5fd89b625058",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "progress": {
+        "englishSHA256": "5e9dd7dcc2a890ba5b5599bc4498a12421c5ea611051ea9442df52ddfecca4d1",
+        "authorMyanmarSHA256": "42465bfe57f400f73c313ec8bd0ea59b91de34eb3d60b2680e002187dbd7e0e4",
+        "candidateMyanmarSHA256": "42465bfe57f400f73c313ec8bd0ea59b91de34eb3d60b2680e002187dbd7e0e4",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      },
+      "complete": {
+        "englishSHA256": "6bb4c5a8b11a831f786bccf87d672df3682667ab23695e45624aabbf1d9ef746",
+        "authorMyanmarSHA256": "bbe61991ee8f71806de90de6f2d92715713da053c1a771e9e618fa0760e1304e",
+        "candidateMyanmarSHA256": "bbe61991ee8f71806de90de6f2d92715713da053c1a771e9e618fa0760e1304e",
+        "sourceAvailable": true,
+        "changed": false,
+        "status": "unchanged frozen field revalidated"
+      }
+    }
+  },
+  "tests": {
+    "exactOriginalProposalAndAcceptedCorrectionChain": "PASS",
+    "exactlyOneFieldChangedAnd74SlotsUnchanged": "PASS",
+    "allEnglishUnchangedAndReparsedFrom15OriginalHTMLFiles": "PASS75slots",
+    "actualLinguisticLint": [],
+    "actualBuildReleaseValidateFields": "PASS15quests",
+    "exactMarkerCaseAndCounts": "PASS71enabledFields",
+    "numericQuantitiesAndWrittenTwoAgents": "PASS",
+    "paragraphCounts": "PASS71enabledFields",
+    "original1098DescriptionBoundary": "PASS",
+    "original1098ProgressAbsence": "PASS",
+    "allFourSourceAbsencesRetained": "PASS",
+    "auditOnlyApprovedMyanmarHashChanged": "PASS",
+    "dictionaryOnlyExplicitDeathstalkersOverrideChanged": "PASS",
+    "rootAcceptedCorrectionHashChain": "PASS",
+    "authorFilesAndPriorReportFrozen": "PASS",
+    "candidateBytesUnchangedDuringReview": "PASS"
+  },
+  "candidateHashesBefore": {
+    "edited.json": "767b2a2fa6d09b094be17c8047da85d3d1d0d56b7ad43be4f1d6f867c2dbc283",
+    "pronunciations.json": "3fe5d35cf74aa6c51a5e4a9a8528953e91f3aba1e2e01aa4226cb65188118287",
+    "review-audit.json": "771e3c5e0e5ae6d0bf2765c66af3e168162755df8e53e32d1d8cca88771f2a81",
+    "accepted-corrections.json": "93015e742c15751859071369178e2778840fa9d52a52f3a45a9d0b378d66157c"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "767b2a2fa6d09b094be17c8047da85d3d1d0d56b7ad43be4f1d6f867c2dbc283",
+    "pronunciations.json": "3fe5d35cf74aa6c51a5e4a9a8528953e91f3aba1e2e01aa4226cb65188118287",
+    "review-audit.json": "771e3c5e0e5ae6d0bf2765c66af3e168162755df8e53e32d1d8cca88771f2a81",
+    "accepted-corrections.json": "93015e742c15751859071369178e2778840fa9d52a52f3a45a9d0b378d66157c"
+  },
+  "candidateDirectory": "work/afternoon-2026-11-22/root-reviewed/dungeons",
+  "originalAuthorHashesBefore": {
+    "1013-sixty.html": "fa3cfce8398b85557346fc38f31f83edbece9604d0d01463ea7d00e919f3c301",
+    "1013-wowhead.html": "d0a484737aa9522f4068b96b0d018e3b3d8bc3045d1878073cd1883c6e2033fc",
+    "1014-sixty.html": "877375f6bd56ec084632bdc5fd25918a7eadfdae654d3096408e20917ff60a6e",
+    "1014-wowhead.html": "703e897c099d8f70ed1fbea4d8529efa812cbf95d8120ac3590aaa07c57bf26a",
+    "1098-sixty.html": "6ea109d304c36c5caef07e9365253956cf06519e1a75f928f07bf2f6059fb9f4",
+    "1098-wowhead.html": "9af7ae17234e41dcf60486c83c57a91115cc31e460b27225dbc82120528442fb",
+    "1198-sixty.html": "c6523c92d28856a9d462bc3063c59611846cb7942282ee190fb53a09130f63c7",
+    "1198-wowhead.html": "61e6fa913aca902eef91a7aa387f4c9bbb26efe797a54775ba08e207c35a1599",
+    "1199-sixty.html": "e3564b4178e6a535af9ae01bce3b5309112e192471027624c9f2f1e7e62eefe8",
+    "1199-wowhead.html": "5b67ae1d4c839694b8e65ac80d9fcb27441d5aded050cd65b67549bdbcffb98d",
+    "1200-sixty.html": "3fa538e8652ba73592e6f5d690187a6f2a3b8e13443c81fa3a557314e842b85a",
+    "1200-wowhead.html": "40b76869692b002e3c9c4082b2a87c1236a66678cd1604ea6a14a6fa175e0058",
+    "1275-sixty.html": "a5ce223d702701287857c654c7c6baaa899eb1cf77f9d2ab10665e7408548636",
+    "1275-wowhead.html": "ed97ca5a6c4437cd7ee0cf1609ceb658e1e14d2c0f57239e2d77d88bd322d7fb",
+    "1740-sixty.html": "e5a915fb5974abdb6e35da626f3fd6941a50df67f8774a467a8b4291e0dcb356",
+    "1740-wowhead.html": "b000c643d837c9adb51456ba1edca347d19373fe093b42dc3fba90b71db0aad7",
+    "3765-sixty.html": "84ea51f0472d5273ee21c5d88ad84f9b9acba9d80478676358bbbbce927b8acc",
+    "3765-wowhead.html": "910a52f36c8cfb50623d3ce4f9fc4dacaa9cecc3c70c5f8ebc70fcc93e26990d",
+    "6561-sixty.html": "924890836c29953a1ec7c563506b316ce031d382c409020a75e3c8004787e091",
+    "6561-wowhead.html": "187b9b644108a5ee468663c4bd0c16573ffa249bd181d48b77d6b5cb267e922a",
+    "6562-sixty.html": "4e727928e8ec48de009daf03310f71a9c38bd37b4ea2a175d045d1aa63a03800",
+    "6562-wowhead.html": "1251667dba94e4cd0527b44ff1900384dca10fef92abf42e20b12e76ea228eb7",
+    "6563-sixty.html": "8f50d6e88dd58d9290585ea309ee41fb990f482d79e3bdbb12e065c7a762863d",
+    "6563-wowhead.html": "d65789cb688779a09528a1d152b15146a3e961d072b5a5b5c13311f3bd31e2dc",
+    "6564-sixty.html": "16e1afdd39b2da00b1b34f497d3643fa24c3a2d00b2419a04971d9469aa47890",
+    "6564-wowhead.html": "fc3ded4aaf358efdda5f8a34364d6ac09cd7db5ff3cf3ca841c323e3afc3a388",
+    "6565-sixty.html": "323be9cd1b8ba78a3724ed4f202e8c3be2b4c5c8f34f21e1917571555f3ea4f5",
+    "6565-wowhead.html": "fb13a5fadd4e2ce197623a7e63c1534a3878777fbea9816b12d34bd0f06ac042",
+    "971-sixty.html": "8f2b896b365fd797bcdca6ce6bbdbaa7bb316730c0e7f0c7ec23d12aaf8f402c",
+    "971-wowhead.html": "30ed22c0ea8c4120c9b84dad67d5c5de11be80f5ce93f1fcfaf614ed6709a243",
+    "annotation-exceptions.json": "aa6c053e3ed017ad901dca2a83c0e70e8d633783c5957692b9203137bf4b79b6",
+    "author-review-corrections.json": "956748dde9929ab39bc97a11256af7eb960246e52ddd5781e45fe1cc8d7a8e48",
+    "author-review-summary.json": "a2541b5a5cd0084f6ef5f58917997f6bf5d57c699b1b5d975e04000fd0fcc0c6",
+    "comparison-provenance.json": "e46b5b351d750f890997c94882252eb12ed0dffd9978fbd1e9596972c883ac7d",
+    "deepl-index-01.json": "5ecbd6e0bb61d2a7968109f28b33e08894a40278ae7d67bbdf1aaa6568732080",
+    "deepl-index-02.json": "74b27b5d23dc1a099c1798cb711a24560f7b132d3bf59ab87f11887cb3f20719",
+    "deepl-index-03.json": "45e603065223f9de33d3f18ce98c4d7a898b558848e3f18e4750d8b72268b25b",
+    "deepl-index-04.json": "f6aee59854196cc3b8a4b5026ca78b4d69bee4c9f80a594c1ec7147c4650658c",
+    "deepl-request-01.json": "b55a11dbaf51bdd9030c958c375fb9e089b790181074e51111649dd8720c5eef",
+    "deepl-request-02.json": "6c3c64cfed6aee00222529eb6ceede8f9916382abe522dc4cca153c09dcb741e",
+    "deepl-request-03.json": "a892dda58d18cf78d453db62fe4dc8bd1a14a3fbe5387961a6831bcb84e200a7",
+    "deepl-request-04.json": "384f1fdc9081160a055a29df1b727c671c83fbcd9531484a6cb575e5095eb35e",
+    "deepl-response-01.json": "c2148d3996f520bdb4084fcacb5a64f2f5897d5bdb6194f76bd8b32e3d19ed6d",
+    "deepl-response-02.json": "c968336fc10ea03f110d14ff17d276be6cede251138eaa38f08c6811c5804456",
+    "deepl-response-03.json": "b08cc2d6f703e194d3ea99a84aa6799ca4abe94b8efdbe547aa345357e80c21f",
+    "deepl-response-04.json": "f5e8c58f9aa1a33e466d4981e7ae1200bd72e8461fb0196178852d4f99fa609f",
+    "edited-group1.json": "9184a081b036b5e3aaef89c5090c60201e28c7ebf7913eaf231d480100bfc7ff",
+    "edited-group2.json": "889e96e1bbcddd7b0911bb589439e24a6c483639d0c0918025ea8d1c56a4af13",
+    "edited.json": "22071c0ec64f816aa2721fe7e5bad31ad94d7c722d3f29436e017999cb517271",
+    "edit_group1.py": "93d503eb86a49402985bddbfe430fa11d3d919149bf6807e2b0f3bbe912c2f79",
+    "edit_group2.py": "e30b55e9b458ec62cd7a285ecbbb22caff92aa632ad0409b7e8475b9a4cb1a7b",
+    "english-sources.json": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+    "fetched.json": "e8c818976b2004d7de547a40a24cb41a3b50fcb58ce971c99b5a7f902cb728ac",
+    "finalize.py": "8925d4bdd02fa54d430567ae017f39a5ae5a8f5f6bf06a9854dc840b9c369d82",
+    "frozen-artifact-hashes.json": "a27362346e72a3b5a6d480ade8701c6c364d48faee5e07fa4e819dac2c1d0083",
+    "frozen-group1-hashes.json": "ecfcda0055bee43148418832b5342ffd3b9ff9d5cf8c89f9ee50297dce0acd73",
+    "frozen-group2-hashes.json": "d683b2bcc0ca19f74bd574e8ad3294031941035477634fb7a69f612c8fa9475f",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "5f6c01075d17bd5cb5cedf4bd09172e96130997b422c24d6405ca7f2244d539d",
+    "prepare.py": "6eb6c64a5e4e03adfd81fcf1df9a90e14e5c7b80c9d1cbdb3ffdbef5d00e409f",
+    "primary-quickfacts.json": "7538066bc4418d65cd716719f515d9bd088713e1ec879f8cf67bfa724fe25a48",
+    "pronunciations.json": "200222dfc6732cdf4b14e828c68f89dbd7e06a4f86539337e07b6ebb17016cbe",
+    "proposed-pronunciations.json": "6dbaca5ac8aa5d4a3cac294b7f1554e82d8dc1de21e38a50a1f2aff9c735ab34",
+    "provenance-group1.json": "488edd87eebba1e67a6e4468775c4e0f8daedfe68bf6369bdfa4947a0cde066b",
+    "provenance-group2.json": "1c3862b380ad0e992092999a8f54ef1c261da34f51a8b5afa30bede1a9069b14",
+    "review-audit.json": "6324518f356c11be580bdae2953bfacc8b056fc2178e79f4124d8adaeb4b42ed",
+    "review-group1.json": "101825ef6874641439279a8a8e8ecc9530f17f7b760e0a6aa698ed3109b5ffa4",
+    "review-group2.json": "6076970fc28fc5e5c09c56aa1e6501092bc199a38a22260f24174df76ab501a2",
+    "review-groups.json": "680cdcf8abee8070ecc0311bcfa435144040d2da4b25568e7ceb420295558f00",
+    "review_group1.py": "c2a7610b18c9e72b539bbf0cbce969db7e9e47928a6993f6cfb8d4a02b05db08",
+    "review_group2.py": "8ed75b3ccefb299178dbcc718dbc4fd7140048d3ee330b5a53c3f41e5c1bb866",
+    "semantic-notes.json": "efe8dc17a9703d583fbd4d2e89f5b64d5133234f3edb41a056de5d4957e3efe9",
+    "separate-bilingual-review.json": "c72d2f847cddcd8cd800940275961fe24eb9487c4a11376beec5d13a54cfa206",
+    "source-boundaries.json": "132860b81659535136cc1ad4809b3ec27581ad5a84913af292f71ad3995d1584",
+    "source-discrepancies.json": "ef8e76940f229ec8ffeb1b4945c3a4bef028989c28ddfe56cac1829db459dea0",
+    "source-review-notes.json": "942fd8d1af25794a9a259b57045890fa5fcc5b4af75029289097893c903a8105",
+    "ua-field-countercheck.json": "fa0ed87df6f6b1637111bff3b6d91fb112820516aa70075579978bf6b32eff45",
+    "validation.json": "67009e455f071111d2828af8150db1754738ed9f7e1ef57c6f6842d8e920a622"
+  },
+  "originalAuthorHashesAfter": {
+    "1013-sixty.html": "fa3cfce8398b85557346fc38f31f83edbece9604d0d01463ea7d00e919f3c301",
+    "1013-wowhead.html": "d0a484737aa9522f4068b96b0d018e3b3d8bc3045d1878073cd1883c6e2033fc",
+    "1014-sixty.html": "877375f6bd56ec084632bdc5fd25918a7eadfdae654d3096408e20917ff60a6e",
+    "1014-wowhead.html": "703e897c099d8f70ed1fbea4d8529efa812cbf95d8120ac3590aaa07c57bf26a",
+    "1098-sixty.html": "6ea109d304c36c5caef07e9365253956cf06519e1a75f928f07bf2f6059fb9f4",
+    "1098-wowhead.html": "9af7ae17234e41dcf60486c83c57a91115cc31e460b27225dbc82120528442fb",
+    "1198-sixty.html": "c6523c92d28856a9d462bc3063c59611846cb7942282ee190fb53a09130f63c7",
+    "1198-wowhead.html": "61e6fa913aca902eef91a7aa387f4c9bbb26efe797a54775ba08e207c35a1599",
+    "1199-sixty.html": "e3564b4178e6a535af9ae01bce3b5309112e192471027624c9f2f1e7e62eefe8",
+    "1199-wowhead.html": "5b67ae1d4c839694b8e65ac80d9fcb27441d5aded050cd65b67549bdbcffb98d",
+    "1200-sixty.html": "3fa538e8652ba73592e6f5d690187a6f2a3b8e13443c81fa3a557314e842b85a",
+    "1200-wowhead.html": "40b76869692b002e3c9c4082b2a87c1236a66678cd1604ea6a14a6fa175e0058",
+    "1275-sixty.html": "a5ce223d702701287857c654c7c6baaa899eb1cf77f9d2ab10665e7408548636",
+    "1275-wowhead.html": "ed97ca5a6c4437cd7ee0cf1609ceb658e1e14d2c0f57239e2d77d88bd322d7fb",
+    "1740-sixty.html": "e5a915fb5974abdb6e35da626f3fd6941a50df67f8774a467a8b4291e0dcb356",
+    "1740-wowhead.html": "b000c643d837c9adb51456ba1edca347d19373fe093b42dc3fba90b71db0aad7",
+    "3765-sixty.html": "84ea51f0472d5273ee21c5d88ad84f9b9acba9d80478676358bbbbce927b8acc",
+    "3765-wowhead.html": "910a52f36c8cfb50623d3ce4f9fc4dacaa9cecc3c70c5f8ebc70fcc93e26990d",
+    "6561-sixty.html": "924890836c29953a1ec7c563506b316ce031d382c409020a75e3c8004787e091",
+    "6561-wowhead.html": "187b9b644108a5ee468663c4bd0c16573ffa249bd181d48b77d6b5cb267e922a",
+    "6562-sixty.html": "4e727928e8ec48de009daf03310f71a9c38bd37b4ea2a175d045d1aa63a03800",
+    "6562-wowhead.html": "1251667dba94e4cd0527b44ff1900384dca10fef92abf42e20b12e76ea228eb7",
+    "6563-sixty.html": "8f50d6e88dd58d9290585ea309ee41fb990f482d79e3bdbb12e065c7a762863d",
+    "6563-wowhead.html": "d65789cb688779a09528a1d152b15146a3e961d072b5a5b5c13311f3bd31e2dc",
+    "6564-sixty.html": "16e1afdd39b2da00b1b34f497d3643fa24c3a2d00b2419a04971d9469aa47890",
+    "6564-wowhead.html": "fc3ded4aaf358efdda5f8a34364d6ac09cd7db5ff3cf3ca841c323e3afc3a388",
+    "6565-sixty.html": "323be9cd1b8ba78a3724ed4f202e8c3be2b4c5c8f34f21e1917571555f3ea4f5",
+    "6565-wowhead.html": "fb13a5fadd4e2ce197623a7e63c1534a3878777fbea9816b12d34bd0f06ac042",
+    "971-sixty.html": "8f2b896b365fd797bcdca6ce6bbdbaa7bb316730c0e7f0c7ec23d12aaf8f402c",
+    "971-wowhead.html": "30ed22c0ea8c4120c9b84dad67d5c5de11be80f5ce93f1fcfaf614ed6709a243",
+    "annotation-exceptions.json": "aa6c053e3ed017ad901dca2a83c0e70e8d633783c5957692b9203137bf4b79b6",
+    "author-review-corrections.json": "956748dde9929ab39bc97a11256af7eb960246e52ddd5781e45fe1cc8d7a8e48",
+    "author-review-summary.json": "a2541b5a5cd0084f6ef5f58917997f6bf5d57c699b1b5d975e04000fd0fcc0c6",
+    "comparison-provenance.json": "e46b5b351d750f890997c94882252eb12ed0dffd9978fbd1e9596972c883ac7d",
+    "deepl-index-01.json": "5ecbd6e0bb61d2a7968109f28b33e08894a40278ae7d67bbdf1aaa6568732080",
+    "deepl-index-02.json": "74b27b5d23dc1a099c1798cb711a24560f7b132d3bf59ab87f11887cb3f20719",
+    "deepl-index-03.json": "45e603065223f9de33d3f18ce98c4d7a898b558848e3f18e4750d8b72268b25b",
+    "deepl-index-04.json": "f6aee59854196cc3b8a4b5026ca78b4d69bee4c9f80a594c1ec7147c4650658c",
+    "deepl-request-01.json": "b55a11dbaf51bdd9030c958c375fb9e089b790181074e51111649dd8720c5eef",
+    "deepl-request-02.json": "6c3c64cfed6aee00222529eb6ceede8f9916382abe522dc4cca153c09dcb741e",
+    "deepl-request-03.json": "a892dda58d18cf78d453db62fe4dc8bd1a14a3fbe5387961a6831bcb84e200a7",
+    "deepl-request-04.json": "384f1fdc9081160a055a29df1b727c671c83fbcd9531484a6cb575e5095eb35e",
+    "deepl-response-01.json": "c2148d3996f520bdb4084fcacb5a64f2f5897d5bdb6194f76bd8b32e3d19ed6d",
+    "deepl-response-02.json": "c968336fc10ea03f110d14ff17d276be6cede251138eaa38f08c6811c5804456",
+    "deepl-response-03.json": "b08cc2d6f703e194d3ea99a84aa6799ca4abe94b8efdbe547aa345357e80c21f",
+    "deepl-response-04.json": "f5e8c58f9aa1a33e466d4981e7ae1200bd72e8461fb0196178852d4f99fa609f",
+    "edited-group1.json": "9184a081b036b5e3aaef89c5090c60201e28c7ebf7913eaf231d480100bfc7ff",
+    "edited-group2.json": "889e96e1bbcddd7b0911bb589439e24a6c483639d0c0918025ea8d1c56a4af13",
+    "edited.json": "22071c0ec64f816aa2721fe7e5bad31ad94d7c722d3f29436e017999cb517271",
+    "edit_group1.py": "93d503eb86a49402985bddbfe430fa11d3d919149bf6807e2b0f3bbe912c2f79",
+    "edit_group2.py": "e30b55e9b458ec62cd7a285ecbbb22caff92aa632ad0409b7e8475b9a4cb1a7b",
+    "english-sources.json": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+    "fetched.json": "e8c818976b2004d7de547a40a24cb41a3b50fcb58ce971c99b5a7f902cb728ac",
+    "finalize.py": "8925d4bdd02fa54d430567ae017f39a5ae5a8f5f6bf06a9854dc840b9c369d82",
+    "frozen-artifact-hashes.json": "a27362346e72a3b5a6d480ade8701c6c364d48faee5e07fa4e819dac2c1d0083",
+    "frozen-group1-hashes.json": "ecfcda0055bee43148418832b5342ffd3b9ff9d5cf8c89f9ee50297dce0acd73",
+    "frozen-group2-hashes.json": "d683b2bcc0ca19f74bd574e8ad3294031941035477634fb7a69f612c8fa9475f",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "metadata-source-inspection.json": "5f6c01075d17bd5cb5cedf4bd09172e96130997b422c24d6405ca7f2244d539d",
+    "prepare.py": "6eb6c64a5e4e03adfd81fcf1df9a90e14e5c7b80c9d1cbdb3ffdbef5d00e409f",
+    "primary-quickfacts.json": "7538066bc4418d65cd716719f515d9bd088713e1ec879f8cf67bfa724fe25a48",
+    "pronunciations.json": "200222dfc6732cdf4b14e828c68f89dbd7e06a4f86539337e07b6ebb17016cbe",
+    "proposed-pronunciations.json": "6dbaca5ac8aa5d4a3cac294b7f1554e82d8dc1de21e38a50a1f2aff9c735ab34",
+    "provenance-group1.json": "488edd87eebba1e67a6e4468775c4e0f8daedfe68bf6369bdfa4947a0cde066b",
+    "provenance-group2.json": "1c3862b380ad0e992092999a8f54ef1c261da34f51a8b5afa30bede1a9069b14",
+    "review-audit.json": "6324518f356c11be580bdae2953bfacc8b056fc2178e79f4124d8adaeb4b42ed",
+    "review-group1.json": "101825ef6874641439279a8a8e8ecc9530f17f7b760e0a6aa698ed3109b5ffa4",
+    "review-group2.json": "6076970fc28fc5e5c09c56aa1e6501092bc199a38a22260f24174df76ab501a2",
+    "review-groups.json": "680cdcf8abee8070ecc0311bcfa435144040d2da4b25568e7ceb420295558f00",
+    "review_group1.py": "c2a7610b18c9e72b539bbf0cbce969db7e9e47928a6993f6cfb8d4a02b05db08",
+    "review_group2.py": "8ed75b3ccefb299178dbcc718dbc4fd7140048d3ee330b5a53c3f41e5c1bb866",
+    "semantic-notes.json": "efe8dc17a9703d583fbd4d2e89f5b64d5133234f3edb41a056de5d4957e3efe9",
+    "separate-bilingual-review.json": "c72d2f847cddcd8cd800940275961fe24eb9487c4a11376beec5d13a54cfa206",
+    "source-boundaries.json": "132860b81659535136cc1ad4809b3ec27581ad5a84913af292f71ad3995d1584",
+    "source-discrepancies.json": "ef8e76940f229ec8ffeb1b4945c3a4bef028989c28ddfe56cac1829db459dea0",
+    "source-review-notes.json": "942fd8d1af25794a9a259b57045890fa5fcc5b4af75029289097893c903a8105",
+    "ua-field-countercheck.json": "fa0ed87df6f6b1637111bff3b6d91fb112820516aa70075579978bf6b32eff45",
+    "validation.json": "67009e455f071111d2828af8150db1754738ed9f7e1ef57c6f6842d8e920a622"
+  },
+  "originalAuthorUnchanged": true,
+  "sourceEnglishHashBefore": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+  "sourceEnglishHashAfter": "c0cd7bab3641d73fb2d06bffff76543e1923007397d007f623a779c80ae8ae19",
+  "priorReportSHA256Before": "fb27239fb887b2421db26595e2ac6b1b91843596e9cf32c9a41bbbb54be91b60",
+  "priorReportSHA256After": "fb27239fb887b2421db26595e2ac6b1b91843596e9cf32c9a41bbbb54be91b60",
+  "priorReportFrozen": true,
+  "priorMechanicalEvidenceSHA256": "0b31dbfeb0a28efe4d47e321e02aa0adf0079f2ad28a502c7230215c118507cf",
+  "scopeLimitations": {
+    "independentAssistedReview": "initial full review plus affected correction reread complete",
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciations": "assisted editorial proposals pending native review",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  }
+}

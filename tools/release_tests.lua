@@ -1119,3 +1119,92 @@ if A.quests[256] and A.quests[98095] and A.quests[822] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-English identity contracts, same-title steps, absent states and explicit source holds.')
 end
+
+if A.quests[98576] and A.quests[91858] and A.quests[6562] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({98576,897,862,97250,98093,3513,3514,97538,98251,98252,1195,1196,1197,1130,1131,98028,1054,1035,1143,981,3681,91858,91859,91860,91861,91862,96204,95034,95036,95111,95125,95126,95140,1442,95042,6562,6563,6564,6565,971,1198,1199,1200,6561,1275,3765,1740,1098,1013,1014}) do
+    assert(A.quests[id] and A.quests[id].title,'22November quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost ID/title')
+    end
+  end
+  for _,h in ipairs({{3514,"progress"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held branch lost English fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:22NovemberAfternoon50 records and150 dialogue routing/capture cases; English fallback for held states.')
+end
+
+if A.quests[98576] and A.quests[91858] and A.quests[6562] then
+  local contracts={
+    {98576,"objective",{"Glyphic Parchment","Mai'ah","Valley of Trials"}},
+    {897,"objective",{"Harvester's Head","Jorn Skyseer"}},
+    {862,"objective",{"Dig Rats","Grub","Crossroads"}},
+    {97250,"objective",{"Alliance","Barrens","Dustwallow Marsh","Grunt Logmar","Camp Taurajo"}},
+    {98093,"objective",{"Sulhasa","Stormhide","Hecklefang Stalkers"}},
+    {3513,"objective",{"Runed Scroll","Barrens"}},
+    {3514,"objective",{"Talon Den","Rynthariel the Keymaster"}},
+    {97538,"objective",{"Tah Winterhoof","Thunder Bluff","Mirkweed Pods","Mirkfallon Lake"}},
+    {98251,"objective",{"Shadowhorn Stag","Ashenvale Bear","Va'xug","Fallen Sky Lake"}},
+    {98252,"objective",{"Va'xug","Eye of Kilrogg","Ashenvale"}},
+    {1195,"objective",{"Filled Etched Phial","Zangen Stonehoof","Thunder Bluff"}},
+    {1196,"objective",{"Filled Etched Phial","Rau Cliffrunner","Freewind Post"}},
+    {1197,"objective",{"Cloven Hoof","Rau Cliffrunner","Freewind Post"}},
+    {1130,"objective",{"Melor Stonehoof","Thunder Bluff"}},
+    {1131,"objective",{"Steelsnap's Rib","Melor Stonehoof","Thunder Bluff"}},
+    {98028,"objective",{"Clouded Water Globe","Onu","Grove of the Ancients","Darkshore"}},
+    {1054,"objective",{"Dal Bloodclaw's Skull","Raene Wolfrunner","Astranaar"}},
+    {1035,"objective",{"Fallen Moonstone","Shadethicket Oracle","Pelturas","Astranaar"}},
+    {1143,"objective",{"Athrikus Narassin","Balthule Shadowstrike","Tower of Althalaxx"}},
+    {981,"objective",{"Delgren the Purifier","Maestra's Post"}},
+    {3681,"objective",{"Duthorian Rall","Stormwind"}},
+    {91858,"objective",{"Sepulcher","Silverpine Forest","Trevan Rol","Earthen Ring"}},
+    {91859,"objective",{"Deathguard Baldren","Earthen Ring","Sepulcher"}},
+    {91860,"objective",{"Fenris Isle","Earthen Ring"}},
+    {91861,"objective",{"Fenris Keep","Earthen Ring"}},
+    {91862,"objective",{"Fenris Isle Key","Rot Hide Gnolls","Lumina Windsinger"}},
+    {96204,"objective",{"Lumina Windsinger","Fenris Keep"}},
+    {95034,"objective",{"Lumina Windsinger","Sepulcher"}},
+    {95036,"objective",{"Trevan Rol","Sepulcher"}},
+    {95111,"objective",{"Ott"}},
+    {95125,"objective",{"Ott"}},
+    {95126,"objective",{"Ott's Masterwork","Trevan Rol","Silverpine Forest"}},
+    {95140,"objective",{"Moonsilver Blade","Old Fire-Eye","Silverpine Forest"}},
+    {1442,"objective",{"Kor Gem","Thundris Windweaver","Darkshore"}},
+    {95042,"objective",{"Kor Gem","Ulric Frostveil","Ashenvale"}},
+    {6562,"objective",{"Je'neu Sancrea","Ashenvale"}},
+    {6563,"objective",{"Sapphires of Aku'Mai","Je'neu Sancrea"}},
+    {6564,"objective",{"Damp Note","Je'neu Sancrea"}},
+    {6565,"objective",{"Lorgus Jett","Blackfathom Deeps","Je'neu Sancrea"}},
+    {971,"objective",{"Lorgalis Manuscript","Gerrig Bonegrip","Forlorn Cavern","Ironforge"}},
+    {1198,"objective",{"Argent Guard Thaelrid","Blackfathom Deeps"}},
+    {1199,"objective",{"Twilight Pendants","Argent Guard Manados","Darnassus"}},
+    {1200,"objective",{"Twilight Lord Kelris","Dawnwatcher Selgorm","Darnassus"}},
+    {6561,"objective",{"Twilight Lord Kelris","Bashana Runetotem","Thunder Bluff"}},
+    {1275,"objective",{"Gershala Nightwhisper","Auberdine","Corrupt Brain stems"}},
+    {3765,"objective",{"Gershala Nightwhisper","Auberdine"}},
+    {1740,"objective",{"Soran'ruk Fragments","Large Soran'ruk Fragment","Doan Karhan","Barrens"}},
+    {1098,"objective",{"Deathstalker Adamant","Deathstalker Vincent"}},
+    {1013,"objective",{"Book of Ur","Keeper Bel'dugur","Apothecarium","Undercity"}},
+    {1014,"objective",{"Arugal","Dalar Dawnweaver","Sepulcher"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source target/recipient/item identity failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{97250,"progress"},{98252,"progress"},{1130,"progress"},{981,"progress"},{3681,"progress"},{91858,"progress"},{91859,"progress"},{91860,"progress"},{91861,"progress"},{96204,"progress"},{6562,"progress"},{1198,"progress"},{3765,"progress"},{1098,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented absent primary state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({{3514,"progress"}}) do assert(not A.quests[h[1]][h[2]],'Source-conflicting state refilled:'..h[1]..'/'..h[2]) end
+  for _,chain in ipairs({{1195,1196,1197},{1143,981},{1442,95042},{6564,6565},{1200,6561}}) do
+    for i=2,#chain do
+      local a,b=A.quests[chain[i-1]],A.quests[chain[i]]
+      assert(a.en==b.en and a.objective~=b.objective,'Distinct same-title tasks collapsed:'..chain[i])
+    end
+  end
+  assert(A.quests[91862].objective~=A.quests[96204].objective and A.quests[95111].objective~=A.quests[95125].objective and A.quests[95126].objective~=A.quests[95140].objective,'Paladin key/free/escort/forge/watch/return/use stages collapsed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-English identity contracts, same-title steps, absent states and explicit source holds.')
+end
