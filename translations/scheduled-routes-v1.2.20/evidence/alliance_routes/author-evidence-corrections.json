@@ -1,0 +1,18 @@
+{
+  "corrections": [
+    {
+      "field": "1022 objective hold reason only",
+      "historicalGroupFile": "held-fields-group1.json",
+      "historicalReason": "Currentprimary+secondary+UA return Melyria at Shrine of Aessina while refreshed installed objective says Forest Song. Hold this return-location field until sanitized currentlive English resolves recipient location; remainingfields contain no conflicting return location.",
+      "correctedFinalReason": "Current primary English and UA objective return Melyria at Shrine of Aessina; secondary objective is absent. Refreshed installed objective says Forest Song. Hold this return-location field until sanitized current live English resolves recipient location. No conflicting return location in the other four fields.",
+      "reason": "Secondary reparse proves its objective absent; primary and UA provide Shrine of Aessina. Immutable author group checkpoints retained; final ledger corrected.",
+      "changedEnabledText": false
+    },
+    {
+      "field": "Additional unretained DeepL attempt outcome",
+      "previousClassification": "Assumed fifth success",
+      "correctedClassification": "Four verified retained successes; one additional uninspected and unretained Promise result with unknown provider outcome",
+      "reason": "The allSettled array was not stored; status of its second result was never inspected before first persistence hit CreateProcess206. No output or provider status is invented."
+    }
+  ]
+}

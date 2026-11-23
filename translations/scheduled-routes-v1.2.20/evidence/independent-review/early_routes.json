@@ -1,0 +1,3578 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "early_routes",
+  "reviewType": "Fresh independent source-aware assisted English/Myanmar review; author, source and raw files immutable",
+  "checkedAtUTC": "2026-11-23T20:49:37.461886+00:00",
+  "counts": {
+    "quests": 12,
+    "groups": [
+      7,
+      5
+    ],
+    "fieldSlots": 60,
+    "availableEnglishFields": 50,
+    "enabledFields": 45,
+    "formalHeldFields": 5,
+    "unavailableEnglishSlots": 10,
+    "originalPrimaryHTML": 12,
+    "availableSecondaryHTML": 12,
+    "sourceFilesReparsed": 24,
+    "rawDeepLFieldsVerified": 50,
+    "actualRawInputFields": 50,
+    "actualDeepLCalls": 2,
+    "actualDeepLInputCharacters": [
+      3649,
+      3561
+    ],
+    "annotatedOccurrencesExamined": 95,
+    "textIssues": 5,
+    "affectedQuestIDs": [
+      78261,
+      78307
+    ]
+  },
+  "quests": [
+    {
+      "id": 579,
+      "englishTitle": "Stormwind Library",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "aec97ea01ff637f0db433ca935c9e06a948a2e0fcac58e7b9e96f73a816a1ecc",
+          "reviewedMyanmarSHA256": "8a6eb77a04a2a5dd5ee66c8fb5e85a34b30c2d9e84748550ba0ad54bfa22cbd1",
+          "primaryEnglishSHA256": "aec97ea01ff637f0db433ca935c9e06a948a2e0fcac58e7b9e96f73a816a1ecc",
+          "secondaryEnglishSHA256": "aec97ea01ff637f0db433ca935c9e06a948a2e0fcac58e7b9e96f73a816a1ecc",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "aec97ea01ff637f0db433ca935c9e06a948a2e0fcac58e7b9e96f73a816a1ecc",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "aec97ea01ff637f0db433ca935c9e06a948a2e0fcac58e7b9e96f73a816a1ecc",
+            "rawDeepLSHA256": "3dd995d7a99ae0a62b458777c242218a59cc68d7239f01f00d59c725dc4917a0",
+            "editedSHA256": "8a6eb77a04a2a5dd5ee66c8fb5e85a34b30c2d9e84748550ba0ad54bfa22cbd1",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "links": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+          "reviewedMyanmarSHA256": "63865e8a928e285ce22c244d4b6871ee975aa250ee08c462bd3dd170c30fa2d9",
+          "primaryEnglishSHA256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+          "secondaryEnglishSHA256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "direct heading",
+            "rawDialogueHTMLSHA256": "9cadf74ce88fc717d47d316b3eda65208947d94aa443ee47d2a3f4aa12cbf02e",
+            "links": [
+              [
+                "/forever/item=3898/library-scrip",
+                "library scrip"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "c28459b03479b66bb985c2fad5f2466d75d6c11a440b8c4956b93e2ea56945ff",
+            "rawDeepLSHA256": "fc708a4c748ab5fa986b3a444572b0e3d9df75498ccd94c671eafd99d8a52a21",
+            "editedSHA256": "63865e8a928e285ce22c244d4b6871ee975aa250ee08c462bd3dd170c30fa2d9",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "2752274f90ba3df80be52e200f69756a40dc9e0dd3636e22bd782994739a154a",
+          "reviewedMyanmarSHA256": "efd49238dd986908404193f03da399edb3cb1df15c60278413a4824c273c771d",
+          "primaryEnglishSHA256": "2752274f90ba3df80be52e200f69756a40dc9e0dd3636e22bd782994739a154a",
+          "secondaryEnglishSHA256": "2752274f90ba3df80be52e200f69756a40dc9e0dd3636e22bd782994739a154a",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "9aa115bb1209d3ad96cd70b45c2f0badb86e4b2b03f5bedd480ee817b4ed3af8",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "2752274f90ba3df80be52e200f69756a40dc9e0dd3636e22bd782994739a154a",
+            "rawDeepLSHA256": "5920c7596de33d32e1916c2a74ff4412b5d9634abdce60ec7effb9416aaee860",
+            "editedSHA256": "efd49238dd986908404193f03da399edb3cb1df15c60278413a4824c273c771d",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Repeatable library exchange reads naturally: King Anduin funds public book copies, one library scrip yields one available book copy; completion asks about book titles. Own-ID level1 and Donyal Tovald/item3898 retained. Title/Progress/Completion only, with actual direct-heading Progress confirmed. Live helper activation is unknown.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/579-wowhead.html",
+        "sourceHTMLSHA256": "cb491a42c62fc451e881a12c161039a131f4643851242f52eedbe8b0c1e30532",
+        "ownQuest": {
+          "id": 579,
+          "name": "Stormwind Library",
+          "level": 1,
+          "reqlevel": 1,
+          "side": 1,
+          "wflags": 16,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Stormwind Library",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "819beb2a8f22cb5751e458a957d1b51d7743f0fab6a25647d47bdc09e352e92e",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Stormwind Library"
+      ],
+      "documentedTitleAliases": [
+        "Stormwind Library"
+      ]
+    },
+    {
+      "id": 960,
+      "englishTitle": "Onu is Meditating",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "reviewedMyanmarSHA256": "621a5e4811e1075cfe39bf8d2ceaec804e3a2ce9b935f5c2dc3b83b1f2752086",
+          "primaryEnglishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "secondaryEnglishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+            "rawDeepLSHA256": "39fd50d4b9a856d551996f0a9d22ad174c3ab87530bffaa677a372f345511479",
+            "editedSHA256": "621a5e4811e1075cfe39bf8d2ceaec804e3a2ce9b935f5c2dc3b83b1f2752086",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "links": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "02b58daebc2d8f1c21eb15dd823d807cab24a4f449b3b462ac6e31a3220b8309",
+          "reviewedMyanmarSHA256": "65bdae2b84630a28141299dcad346d98ef9083219de10c18882d989867848313",
+          "primaryEnglishSHA256": "02b58daebc2d8f1c21eb15dd823d807cab24a4f449b3b462ac6e31a3220b8309",
+          "secondaryEnglishSHA256": "02b58daebc2d8f1c21eb15dd823d807cab24a4f449b3b462ac6e31a3220b8309",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "direct heading",
+            "rawDialogueHTMLSHA256": "1eb90fc4bb6c0ca3fc570dabc3f0e49895cfa36f567a0bc1238f40c3f814231c",
+            "links": [
+              [
+                "/forever/item=5251/phial-of-scrying",
+                "phial of scrying"
+              ],
+              [
+                "/forever/item=5251/phial-of-scrying",
+                "phial of scrying"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "02b58daebc2d8f1c21eb15dd823d807cab24a4f449b3b462ac6e31a3220b8309",
+            "rawDeepLSHA256": "cd8097b5cc4c859212333354e5701331a9588df4239e8c50cc2a9ee3fbd6c6d7",
+            "editedSHA256": "65bdae2b84630a28141299dcad346d98ef9083219de10c18882d989867848313",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 3,
+            "myanmar": 3
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "First Onu helper follows944 and leads949. Completion preserves meditation on the player task and Twilight Hammer/naga presence, ready-then-phial-create-bowl-then-contact sequence, and replacement only if phial lost. Three paragraphs and literal <name> retained; no invented offer/objective/progress.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/960-wowhead.html",
+        "sourceHTMLSHA256": "3d755c7366d7b6ff171d4aa77d8a5ef73f5816bbcaef801f2bc5094b4bfbc87c",
+        "ownQuest": {
+          "id": 960,
+          "name": "Onu is Meditating",
+          "level": 1,
+          "reqlevel": 1,
+          "side": 1,
+          "wflags": 16,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "renamed"
+            ],
+            "lines": [
+              "Renamed from Onu is meditating"
+            ],
+            "notShown": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Onu is Meditating",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "3f392b245bad2976b4716f781feeb7bb5f6e67149ce294ea390b5fea0ccee541",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Onu is meditating"
+      ],
+      "documentedTitleAliases": [
+        "Onu is meditating",
+        "Onu is Meditating"
+      ]
+    },
+    {
+      "id": 961,
+      "englishTitle": "Onu is Meditating",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "reviewedMyanmarSHA256": "621a5e4811e1075cfe39bf8d2ceaec804e3a2ce9b935f5c2dc3b83b1f2752086",
+          "primaryEnglishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "secondaryEnglishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b25374fa7a75bc21a719248afa8fd079cd47d4c2453e87392502d828c858529b",
+            "rawDeepLSHA256": "39fd50d4b9a856d551996f0a9d22ad174c3ab87530bffaa677a372f345511479",
+            "editedSHA256": "621a5e4811e1075cfe39bf8d2ceaec804e3a2ce9b935f5c2dc3b83b1f2752086",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "links": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "3afeea88db8a9583507daba4193f0503c689cb9b6bdf613e619fae17d14103d9",
+          "reviewedMyanmarSHA256": "2f369f67a2739e6f4acf5dc539c478bdd245042d4c06835aaaf95c43c04608ab",
+          "primaryEnglishSHA256": "3afeea88db8a9583507daba4193f0503c689cb9b6bdf613e619fae17d14103d9",
+          "secondaryEnglishSHA256": "3afeea88db8a9583507daba4193f0503c689cb9b6bdf613e619fae17d14103d9",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "direct heading",
+            "rawDialogueHTMLSHA256": "bb327624622b25b71deb8fb94d5d5f51a395a834e111afdd3534ddfee4c53dcc",
+            "links": [
+              [
+                "/forever/item=5251/phial-of-scrying",
+                "phial of scrying"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "3afeea88db8a9583507daba4193f0503c689cb9b6bdf613e619fae17d14103d9",
+            "rawDeepLSHA256": "3ed1acfb09ecfee485fa8dda7273df6354a998ebff65deeaad7483ddaf3166ed",
+            "editedSHA256": "2f369f67a2739e6f4acf5dc539c478bdd245042d4c06835aaaf95c43c04608ab",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Separate same-title Onu helper follows949 and leads950. Cultist discovery and intentions, more-information condition, bowl communication and replacement phial when needed retained. Two paragraphs; no borrowed <name> or earlier helper task.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/961-wowhead.html",
+        "sourceHTMLSHA256": "7fd16bf4ca74991bc6e4a30a146945b894a8aa061127402dee5a339f26f19b49",
+        "ownQuest": {
+          "id": 961,
+          "name": "Onu is Meditating",
+          "level": 1,
+          "reqlevel": 1,
+          "side": 1,
+          "wflags": 16,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "renamed"
+            ],
+            "lines": [
+              "Renamed from Onu is meditating"
+            ],
+            "notShown": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Onu is Meditating",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "d162cac9bd19206d3bb44c1ac326c722e6e70a3c833577e35ad1681fff89e617",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Onu is meditating"
+      ],
+      "documentedTitleAliases": [
+        "Onu is meditating",
+        "Onu is Meditating"
+      ]
+    },
+    {
+      "id": 79362,
+      "englishTitle": "Grant's Shield",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "20e74eb780794f3fb56844b5173af0f000bbaae266dbd1a42e5258f3e795f005",
+          "reviewedMyanmarSHA256": "30a07abcdda5e99bfdfd6b371d5398ed17178f4a0689b82f4ca62f44163d6c7c",
+          "primaryEnglishSHA256": "20e74eb780794f3fb56844b5173af0f000bbaae266dbd1a42e5258f3e795f005",
+          "secondaryEnglishSHA256": "20e74eb780794f3fb56844b5173af0f000bbaae266dbd1a42e5258f3e795f005",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "20e74eb780794f3fb56844b5173af0f000bbaae266dbd1a42e5258f3e795f005",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "20e74eb780794f3fb56844b5173af0f000bbaae266dbd1a42e5258f3e795f005",
+            "rawDeepLSHA256": "823e987a977dd31736b86e1135884a5fcb68ae98d02d0194162c4979a84b97b8",
+            "editedSHA256": "30a07abcdda5e99bfdfd6b371d5398ed17178f4a0689b82f4ca62f44163d6c7c",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "51dc0759065548d40e3b9456ab89f3e941d57a8b02cce9824bc91e7458704b13",
+          "reviewedMyanmarSHA256": "5dc77953e4362d68197bfcdc38c19cfbeec1ad2b1a98e13418b4bbde31b9872b",
+          "primaryEnglishSHA256": "51dc0759065548d40e3b9456ab89f3e941d57a8b02cce9824bc91e7458704b13",
+          "secondaryEnglishSHA256": "51dc0759065548d40e3b9456ab89f3e941d57a8b02cce9824bc91e7458704b13",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "51dc0759065548d40e3b9456ab89f3e941d57a8b02cce9824bc91e7458704b13",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 8,
+            "responseIndex": 8,
+            "responseTargetIndex": 0,
+            "englishSHA256": "51dc0759065548d40e3b9456ab89f3e941d57a8b02cce9824bc91e7458704b13",
+            "rawDeepLSHA256": "78689e2596378a80645c088ebf442fe5a275a57f8755a1bcba9f4914e5f71637",
+            "editedSHA256": "5dc77953e4362d68197bfcdc38c19cfbeec1ad2b1a98e13418b4bbde31b9872b",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "7ec1e236c10c8eb0d9f346b32d00af7c61aa2a48a7529bcf95dd204cfb9d666d",
+          "reviewedMyanmarSHA256": "42196822f2d2016affa7e367195316e75e7e653d0aae388a4c2c7120ef5a54ea",
+          "primaryEnglishSHA256": "7ec1e236c10c8eb0d9f346b32d00af7c61aa2a48a7529bcf95dd204cfb9d666d",
+          "secondaryEnglishSHA256": "7ec1e236c10c8eb0d9f346b32d00af7c61aa2a48a7529bcf95dd204cfb9d666d",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "250dbfbf351c9d49f00c43c6ab6b7e45e7d3dc7ff9ad5c48ee311a9cd26b07bd",
+            "links": [
+              [
+                "/forever/item=281146/grants-mace",
+                "Grant's Mace"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 9,
+            "responseIndex": 9,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7ec1e236c10c8eb0d9f346b32d00af7c61aa2a48a7529bcf95dd204cfb9d666d",
+            "rawDeepLSHA256": "ebf48dfb479a1d06a3989605d8a2cb22cdb7544d2fc38e492e5a3b119161c927",
+            "editedSHA256": "42196822f2d2016affa7e367195316e75e7e653d0aae388a4c2c7120ef5a54ea",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "4e7f2fc494858e553ff1e61634b0c94fd78c5f50daee0d6bc3a4939ecb82b023",
+          "reviewedMyanmarSHA256": "5d7f60f39e4b22ab9a23f31c8b36b38bbdbe07bc56d895b6133e9886acf2e906",
+          "primaryEnglishSHA256": "4e7f2fc494858e553ff1e61634b0c94fd78c5f50daee0d6bc3a4939ecb82b023",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "4e7f2fc494858e553ff1e61634b0c94fd78c5f50daee0d6bc3a4939ecb82b023",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 10,
+            "responseIndex": 10,
+            "responseTargetIndex": 0,
+            "englishSHA256": "4e7f2fc494858e553ff1e61634b0c94fd78c5f50daee0d6bc3a4939ecb82b023",
+            "rawDeepLSHA256": "acf49255823f0fe3c8cc63f7bf68b866747be4d83e628e30981ca109bb22a273",
+            "editedSHA256": "5d7f60f39e4b22ab9a23f31c8b36b38bbdbe07bc56d895b6133e9886acf2e906",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "8195e92e3ed07302a372b1d07e621ff0c81d7adc1b7475619e76920f7b4ce95d",
+          "reviewedMyanmarSHA256": "8dde2dcc1482cfe207ef13087960e172e1b1f4f34edfecafd9b8556d3da60270",
+          "primaryEnglishSHA256": "8195e92e3ed07302a372b1d07e621ff0c81d7adc1b7475619e76920f7b4ce95d",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "168e9e71dcef3e1cc505ce229ad7baae6c3be3b21c6e4c3bf5cb609ff2ba645d",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 11,
+            "responseIndex": 11,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8195e92e3ed07302a372b1d07e621ff0c81d7adc1b7475619e76920f7b4ce95d",
+            "rawDeepLSHA256": "5e8e030e0078a795f2666b4206653dae6c6d7df9ae614d04aa6dfefcaef52aef",
+            "editedSHA256": "8dde2dcc1482cfe207ef13087960e172e1b1f4f34edfecafd9b8556d3da60270",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Provided Shield281147 and requested Mace281146 are intentionally distinct. Grant is the Valor father/hero; ongoing undead fighting, speculative unfinished business and mace embedded in the injuring creature retain uncertainty and correct subject. Skeleton/Cemetery/Sirra268/Darkshire destination exact; proud man/battle horror/lifelong disability and time-to-study tone retained. Current own-ID side3/class64/race162 plus installed restriction remain unresolved eligibility evidence, not inferred Alliance/all-class availability.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/79362-wowhead.html",
+        "sourceHTMLSHA256": "bb56dfeae18fda4c3b1e43615c8a27dfddb44e3cbf59ef530fd1ce338ac7b0da",
+        "ownQuest": {
+          "id": 79362,
+          "name": "Grant's Shield",
+          "level": 25,
+          "reqlevel": 18,
+          "side": 3,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "level_changed",
+              "required_level_changed",
+              "rewards_changed",
+              "objectives_changed",
+              "faction_changed",
+              "quest_giver_changed",
+              "renamed",
+              "reworded"
+            ],
+            "lines": [
+              "Renamed from Power of da Earth",
+              "Level 25 instead of 38",
+              "Requires level 18 instead of 30",
+              "Side none instead of Horde",
+              "Quest givers: adds Ends at Sirra Von'Indi",
+              "Objectives: adds Grant's Mace, Grant's Shield",
+              "Objectives: no longer Rumbling Essence x5",
+              "Objective text changed",
+              "Description reworded",
+              "Progress text reworded",
+              "Completion text reworded",
+              "Experience 2000 instead of none"
+            ],
+            "notShown": [
+              "Side none instead of Horde",
+              "Quest givers: adds Ends at Sirra Von'Indi",
+              "Description reworded",
+              "Progress text reworded",
+              "Completion text reworded",
+              "Experience 2000 instead of none"
+            ]
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Grant's Shield",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        }
+      },
+      "installedRecordSHA256": "f12e639c547aaf4df03e8f145d301b922f77ca9467d3f41c6d0f7fa780dc8ea5",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Grant's Shield"
+      ],
+      "documentedTitleAliases": [
+        "Grant's Shield"
+      ]
+    },
+    {
+      "id": 79363,
+      "englishTitle": "Silvia's Sword",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "f50bafaf263ab7bd3233e3cbefb884d4bba45f0936c78378489bd1f67e76c754",
+          "reviewedMyanmarSHA256": "cc14208fe1e57ea18fb20e0131c89b967e2255b88e8560664f8fd81e01b50f0c",
+          "primaryEnglishSHA256": "f50bafaf263ab7bd3233e3cbefb884d4bba45f0936c78378489bd1f67e76c754",
+          "secondaryEnglishSHA256": "f50bafaf263ab7bd3233e3cbefb884d4bba45f0936c78378489bd1f67e76c754",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "f50bafaf263ab7bd3233e3cbefb884d4bba45f0936c78378489bd1f67e76c754",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 12,
+            "responseIndex": 12,
+            "responseTargetIndex": 0,
+            "englishSHA256": "f50bafaf263ab7bd3233e3cbefb884d4bba45f0936c78378489bd1f67e76c754",
+            "rawDeepLSHA256": "2b3bafb0188203cdb989edd928c270ac8197b3646f77d181bf11b17b74529443",
+            "editedSHA256": "cc14208fe1e57ea18fb20e0131c89b967e2255b88e8560664f8fd81e01b50f0c",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "1ba48788912362ee59d33039bed98ed6a62c263d48072b21bf62c40618780ce7",
+          "reviewedMyanmarSHA256": "96bb1dff076ad22b45fec8dadd7e9ad90c11d2c3261500790a181c2ad447dc54",
+          "primaryEnglishSHA256": "1ba48788912362ee59d33039bed98ed6a62c263d48072b21bf62c40618780ce7",
+          "secondaryEnglishSHA256": "1ba48788912362ee59d33039bed98ed6a62c263d48072b21bf62c40618780ce7",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "1ba48788912362ee59d33039bed98ed6a62c263d48072b21bf62c40618780ce7",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 13,
+            "responseIndex": 13,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1ba48788912362ee59d33039bed98ed6a62c263d48072b21bf62c40618780ce7",
+            "rawDeepLSHA256": "9e649abb5be4a28ae7555574a5b090413c7824012c55f7ab1f3d7a73c770e6fe",
+            "editedSHA256": "96bb1dff076ad22b45fec8dadd7e9ad90c11d2c3261500790a181c2ad447dc54",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "held",
+          "englishSHA256": "5db82d9a7602c4a2b902f9f48634ca71236d4cf705a5bb4bd7b5823cabb49525",
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": "5db82d9a7602c4a2b902f9f48634ca71236d4cf705a5bb4bd7b5823cabb49525",
+          "secondaryEnglishSHA256": "5db82d9a7602c4a2b902f9f48634ca71236d4cf705a5bb4bd7b5823cabb49525",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "c2d53d2ae36c654896f0b9bfc1f863ebd46cd199be7c3940f8400568d210a4e8",
+            "links": [
+              [
+                "/forever/npc=909/defias-night-blade",
+                "Defias Night Blades"
+              ],
+              [
+                "/forever/npc=910/defias-enchanter",
+                "Defias Enchanters"
+              ],
+              [
+                "/forever/npc=268/sirra-vonindi",
+                "Sirra Von'Indi"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 14,
+            "responseIndex": 14,
+            "responseTargetIndex": 0,
+            "englishSHA256": "5db82d9a7602c4a2b902f9f48634ca71236d4cf705a5bb4bd7b5823cabb49525",
+            "rawDeepLSHA256": "6e4980cccea8873ef00a71bcf28b7f2d0b47c9201f16031a0f1d0b1bdd369a41",
+            "editedSHA256": null,
+            "verified": true
+          },
+          "holdReason": "Objective narrative, installed and 60/UA say7 Night Blades/7 Enchanters; actual current objective table says7 Night Blade/2 Enchanter. Hold objective until live resolution. Same own-ID eligibility caveat as79362."
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "cf21673c95f6b378ddf6a8934a9275f03842544378e4101fb94e2c9ec06df2f8",
+          "reviewedMyanmarSHA256": "ea3b1099a14344533d47bdcb2b421e8db7b6365bc2deac1c1cbc7f6553df492f",
+          "primaryEnglishSHA256": "cf21673c95f6b378ddf6a8934a9275f03842544378e4101fb94e2c9ec06df2f8",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "cf21673c95f6b378ddf6a8934a9275f03842544378e4101fb94e2c9ec06df2f8",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "englishSHA256": "cf21673c95f6b378ddf6a8934a9275f03842544378e4101fb94e2c9ec06df2f8",
+            "rawDeepLSHA256": "e1b71506dd54a67fcfcd9ffa0018c6aafeee6745846706fb01aa04637603cdf2",
+            "editedSHA256": "ea3b1099a14344533d47bdcb2b421e8db7b6365bc2deac1c1cbc7f6553df492f",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "be2d5410f190177dce69410008c1a6e4284962cb50c262a310e98f731db38b04",
+          "reviewedMyanmarSHA256": "eeb52e27bb0673d04d949a18f9393d4e2409aea83795e07f0a33e297d516665c",
+          "primaryEnglishSHA256": "be2d5410f190177dce69410008c1a6e4284962cb50c262a310e98f731db38b04",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "b18e6c26b5ca3365179e5b4655ba61b6bd16ed9d13fc03aadfaaf1909591f5c3",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 16,
+            "responseIndex": 16,
+            "responseTargetIndex": 0,
+            "englishSHA256": "be2d5410f190177dce69410008c1a6e4284962cb50c262a310e98f731db38b04",
+            "rawDeepLSHA256": "b4257404afb8f7246eedfd7839962d487deeda2300179d81d3ff4435e094987f",
+            "editedSHA256": "eeb52e27bb0673d04d949a18f9393d4e2409aea83795e07f0a33e297d516665c",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Silvia guard protects civilians/homes; visiting farmsteads and possible unfinished Defias rout south of Raven Hill retained. Ghost greeting and fine warrior/narrow outlook, equal uncertainty about wishes and further blade study read correctly. Objective is null because own table7 Night Blades/2 Enchanters conflicts narrative/secondary/UA7/7. Eligibility caveat matches79362; no count chosen.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/79363-wowhead.html",
+        "sourceHTMLSHA256": "cfb8733bda2c6a1794b339818522b0ca208b73eb477b8e352bd86d13aa56f877",
+        "ownQuest": {
+          "id": 79363,
+          "name": "Silvia's Sword",
+          "level": 27,
+          "reqlevel": 18,
+          "side": 3,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "level_changed",
+              "required_level_changed",
+              "rewards_changed",
+              "objectives_changed",
+              "faction_changed",
+              "quest_giver_changed",
+              "renamed",
+              "reworded"
+            ],
+            "lines": [
+              "Renamed from Power of da Water",
+              "Level 27 instead of 36",
+              "Requires level 18 instead of 30",
+              "Side none instead of Horde",
+              "Quest givers: adds Ends at Sirra Von'Indi",
+              "Objectives: adds Defias Enchanter x2, Defias Night Blade x7, Silvia's Sword",
+              "Objectives: no longer Rushing Essence x5",
+              "Objective text changed",
+              "Description reworded",
+              "Progress text reworded",
+              "Completion text reworded",
+              "Experience 2200 instead of none"
+            ],
+            "notShown": [
+              "Side none instead of Horde",
+              "Quest givers: adds Ends at Sirra Von'Indi",
+              "Description reworded",
+              "Progress text reworded",
+              "Completion text reworded",
+              "Experience 2200 instead of none"
+            ]
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Silvia's Sword",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        }
+      },
+      "installedRecordSHA256": "564e2fd0d1610df26930344d723fc08ee52e6c5e788376be75a4344ece2cb51e",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Silvia's Sword"
+      ],
+      "documentedTitleAliases": [
+        "Silvia's Sword"
+      ]
+    },
+    {
+      "id": 96137,
+      "englishTitle": "Ira's Dagger",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "dfb3b642348d0ccae864ff30bcbeef58e6d0c75931c751bca926d36fadec6cae",
+          "reviewedMyanmarSHA256": "92194acd0793a49e4a6ba1d1abc313bbc32cbe92f8104f99a4e528f2d2e3ee79",
+          "primaryEnglishSHA256": "dfb3b642348d0ccae864ff30bcbeef58e6d0c75931c751bca926d36fadec6cae",
+          "secondaryEnglishSHA256": "dfb3b642348d0ccae864ff30bcbeef58e6d0c75931c751bca926d36fadec6cae",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "dfb3b642348d0ccae864ff30bcbeef58e6d0c75931c751bca926d36fadec6cae",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 17,
+            "responseIndex": 17,
+            "responseTargetIndex": 0,
+            "englishSHA256": "dfb3b642348d0ccae864ff30bcbeef58e6d0c75931c751bca926d36fadec6cae",
+            "rawDeepLSHA256": "1c65d3f066b5ad76bacb8ca5024c6819909025fabfa050f0a24e3d0a93b89f7d",
+            "editedSHA256": "92194acd0793a49e4a6ba1d1abc313bbc32cbe92f8104f99a4e528f2d2e3ee79",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "acab6571010c9e660be802b5b74bd604d642199d02480e70123b93a237a19662",
+          "reviewedMyanmarSHA256": "8f0b97bd9e8ccae141c8ef6fdbbf7b407f3a129480f79f3cf793cb93945d0cbe",
+          "primaryEnglishSHA256": "acab6571010c9e660be802b5b74bd604d642199d02480e70123b93a237a19662",
+          "secondaryEnglishSHA256": "acab6571010c9e660be802b5b74bd604d642199d02480e70123b93a237a19662",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "acab6571010c9e660be802b5b74bd604d642199d02480e70123b93a237a19662",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 18,
+            "responseIndex": 18,
+            "responseTargetIndex": 0,
+            "englishSHA256": "acab6571010c9e660be802b5b74bd604d642199d02480e70123b93a237a19662",
+            "rawDeepLSHA256": "f872b9b57ff8e37b2dd72aea8951878950dcc03ac6bb268358f680736a8f3cb6",
+            "editedSHA256": "8f0b97bd9e8ccae141c8ef6fdbbf7b407f3a129480f79f3cf793cb93945d0cbe",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "40b31f67294448b8c76e2c47efb043134a23eb820e394eb5a179be0d2991182b",
+          "reviewedMyanmarSHA256": "f394ee6680d2d5ed6a4d9eb7640670bfc7a2597210ec3e76331a91cb1dc3fcfc",
+          "primaryEnglishSHA256": "40b31f67294448b8c76e2c47efb043134a23eb820e394eb5a179be0d2991182b",
+          "secondaryEnglishSHA256": "40b31f67294448b8c76e2c47efb043134a23eb820e394eb5a179be0d2991182b",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "8afbff4e80dec38fb46d0074311f8b4bb119673ed9c371084f5f3c21f8459aa6",
+            "links": [
+              [
+                "/forever/npc=923/young-black-ravager",
+                "Young Black Ravagers"
+              ],
+              [
+                "/forever/npc=628/black-ravager",
+                "Black Ravagers"
+              ],
+              [
+                "/forever/npc=268/sirra-vonindi",
+                "Sirra Von'Indi"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 19,
+            "responseIndex": 19,
+            "responseTargetIndex": 0,
+            "englishSHA256": "40b31f67294448b8c76e2c47efb043134a23eb820e394eb5a179be0d2991182b",
+            "rawDeepLSHA256": "76c0074b085ee7bb4860a890831a7b62a2aa68a3a64162fdd390fb2c06fa0f75",
+            "editedSHA256": "f394ee6680d2d5ed6a4d9eb7640670bfc7a2597210ec3e76331a91cb1dc3fcfc",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [
+              "10",
+              "7"
+            ],
+            "myanmar": [
+              "10",
+              "7"
+            ]
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "dbcf23a0f15e67c361424b5ce8c6747a25f409f2e82afef5f59f77045ae97f4d",
+          "reviewedMyanmarSHA256": "e969be6a100df69761caead6ccc7609e20dd2833a50333b51c1a64d85ff43b38",
+          "primaryEnglishSHA256": "dbcf23a0f15e67c361424b5ce8c6747a25f409f2e82afef5f59f77045ae97f4d",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "dbcf23a0f15e67c361424b5ce8c6747a25f409f2e82afef5f59f77045ae97f4d",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 20,
+            "responseIndex": 20,
+            "responseTargetIndex": 0,
+            "englishSHA256": "dbcf23a0f15e67c361424b5ce8c6747a25f409f2e82afef5f59f77045ae97f4d",
+            "rawDeepLSHA256": "b30571f8b43cfda42b7d48cb7334850df6c1dbbe8f7c0a564eca6a4a37c09066",
+            "editedSHA256": "e969be6a100df69761caead6ccc7609e20dd2833a50333b51c1a64d85ff43b38",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "677f8185a99f3e72e8560c3acc7e70e01e44be1666157b0da55cc57b7e5d1986",
+          "reviewedMyanmarSHA256": "f6b2977de20a31a53591093118a345ebbbc399754a9dafc4c9a53b8aca3b3ddb",
+          "primaryEnglishSHA256": "677f8185a99f3e72e8560c3acc7e70e01e44be1666157b0da55cc57b7e5d1986",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "05dc5db88b918290b992ff6330455fcb05c0605327529927194a6e842c81fc02",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 21,
+            "responseIndex": 21,
+            "responseTargetIndex": 0,
+            "englishSHA256": "677f8185a99f3e72e8560c3acc7e70e01e44be1666157b0da55cc57b7e5d1986",
+            "rawDeepLSHA256": "a811373b854e514ceff841a9bf41d89ae4dc450b6dfe5a78a54a0741d967027f",
+            "editedSHA256": "f6b2977de20a31a53591093118a345ebbbc399754a9dafc4c9a53b8aca3b3ddb",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Ira herself, rather than her dagger, protected travelers as a self-appointed ranger. Dagger class, continuing worg deaths, speculative unfinished business,10 Young Black Ravagers plus7 Black Ravagers and Sirra268/Darkshire exact. Near-ghost-before-death remark and promise to care for dagger retain NPC surprise and reassurance.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/96137-wowhead.html",
+        "sourceHTMLSHA256": "8a5f062a9df4a0147caab82631cba30cfce4c75f2aeb7cb16ffc3bd39d912593",
+        "ownQuest": {
+          "id": 96137,
+          "name": "Ira's Dagger",
+          "level": 25,
+          "reqlevel": 18,
+          "side": 1,
+          "envChange": {
+            "status": "new",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Ira's Dagger",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "2263d2d4b1fee646adb74533c8e81b9231bd08f4d7e8a8e9e7129d8e1ac35d7d",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Ira's Dagger"
+      ],
+      "documentedTitleAliases": [
+        "Ira's Dagger"
+      ]
+    },
+    {
+      "id": 96138,
+      "englishTitle": "Merrick's Bow",
+      "group": 1,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "791796a1446df3e969916641e05b56588da5614219b7e06089e73402345573df",
+          "reviewedMyanmarSHA256": "898a577440817bf8ec706f15744e29eeb8f9658914a26118c5508f56531c617a",
+          "primaryEnglishSHA256": "791796a1446df3e969916641e05b56588da5614219b7e06089e73402345573df",
+          "secondaryEnglishSHA256": "791796a1446df3e969916641e05b56588da5614219b7e06089e73402345573df",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "791796a1446df3e969916641e05b56588da5614219b7e06089e73402345573df",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 22,
+            "responseIndex": 22,
+            "responseTargetIndex": 0,
+            "englishSHA256": "791796a1446df3e969916641e05b56588da5614219b7e06089e73402345573df",
+            "rawDeepLSHA256": "41e747211f9d44e89589e47be70afc4f8732487469a38bd8674794109b3c9e4b",
+            "editedSHA256": "898a577440817bf8ec706f15744e29eeb8f9658914a26118c5508f56531c617a",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "66a67ba320bd3ab5634ca869038cb309393120f5a38cb30b5e6bd442079c0a23",
+          "reviewedMyanmarSHA256": "5d67e9b998c126b47a9e605e02f981449232d13ed1d69124ea5dd75505395bdf",
+          "primaryEnglishSHA256": "66a67ba320bd3ab5634ca869038cb309393120f5a38cb30b5e6bd442079c0a23",
+          "secondaryEnglishSHA256": "66a67ba320bd3ab5634ca869038cb309393120f5a38cb30b5e6bd442079c0a23",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "66a67ba320bd3ab5634ca869038cb309393120f5a38cb30b5e6bd442079c0a23",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 23,
+            "responseIndex": 23,
+            "responseTargetIndex": 0,
+            "englishSHA256": "66a67ba320bd3ab5634ca869038cb309393120f5a38cb30b5e6bd442079c0a23",
+            "rawDeepLSHA256": "2ebada945bbdaae0b3d958a52d5538146fb7aa5fcbabeac8e997c9ad8c775dad",
+            "editedSHA256": "5d67e9b998c126b47a9e605e02f981449232d13ed1d69124ea5dd75505395bdf",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "99a9d123baef65ebaba7251d8bc554686ce4a40d13d744a91bd4a47cbf1ca764",
+          "reviewedMyanmarSHA256": "6700740c3037eefbdf600d4b7b0e26825536eae2e67dfc2ce4c39c51b6d735ec",
+          "primaryEnglishSHA256": "99a9d123baef65ebaba7251d8bc554686ce4a40d13d744a91bd4a47cbf1ca764",
+          "secondaryEnglishSHA256": "99a9d123baef65ebaba7251d8bc554686ce4a40d13d744a91bd4a47cbf1ca764",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "3b18138c9b53ac8f0d3950fc84133cc5cbdbaa4ada3c620185004b856390682a",
+            "links": [
+              [
+                "/forever/npc=212/splinter-fist-warrior",
+                "Splinter Fist Warriors"
+              ],
+              [
+                "/forever/npc=892/splinter-fist-taskmaster",
+                "Splinter Fist Taskmasters"
+              ],
+              [
+                "/forever/npc=268/sirra-vonindi",
+                "Sirra Von'Indi"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 24,
+            "responseIndex": 24,
+            "responseTargetIndex": 0,
+            "englishSHA256": "99a9d123baef65ebaba7251d8bc554686ce4a40d13d744a91bd4a47cbf1ca764",
+            "rawDeepLSHA256": "6ee89e14f92434107af3c37ec07c1a40e10b30a0d64342420d266d81150f26bf",
+            "editedSHA256": "6700740c3037eefbdf600d4b7b0e26825536eae2e67dfc2ce4c39c51b6d735ec",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [
+              "8",
+              "4"
+            ],
+            "myanmar": [
+              "8",
+              "4"
+            ]
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+          "reviewedMyanmarSHA256": "ac74cf754b000add99b0cd2893258ed30ea4cb2d8a6df79b846ed78ddfd99a33",
+          "primaryEnglishSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 25,
+            "responseIndex": 25,
+            "responseTargetIndex": 0,
+            "englishSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+            "rawDeepLSHA256": "77af7fb0b6cd7f4035327d6e29da3e4815dd4fc32eca2fcb75ad79e6a363b7e6",
+            "editedSHA256": "ac74cf754b000add99b0cd2893258ed30ea4cb2d8a6df79b846ed78ddfd99a33",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "294c5226a58c59a0ae43880d5be681e0894e7ca8853cd8d3db122e4f2797bb6b",
+          "reviewedMyanmarSHA256": "d75332226403ee2bfe5ad88521a41c80efa8746570b633fbc8a47414e1a4a87b",
+          "primaryEnglishSHA256": "294c5226a58c59a0ae43880d5be681e0894e7ca8853cd8d3db122e4f2797bb6b",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "fe80105f52638eb1954589855361d55f70292ded63705aee7989d8324ff7de6d",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-01.json",
+            "requestFileSHA256": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "responseFile": "deepl-response-01.json",
+            "responseFileSHA256": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "indexFile": "deepl-index-01.json",
+            "indexFileSHA256": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "requestIndex": 26,
+            "responseIndex": 26,
+            "responseTargetIndex": 0,
+            "englishSHA256": "294c5226a58c59a0ae43880d5be681e0894e7ca8853cd8d3db122e4f2797bb6b",
+            "rawDeepLSHA256": "33fc99413cc81f70b289aadafd3430bf2713ef9654d078b5372203577b6fae68",
+            "editedSHA256": "d75332226403ee2bfe5ad88521a41c80efa8746570b633fbc8a47414e1a4a87b",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Merrick is a famed Watcher who kept roads safe. Bow is archery equipment; spirit roads, possible unfinished invaders and ogres south of town remain uncertain.8 Warriors/4 Taskmasters and Sirra268 exact. Poor boy is sympathy, family tragedy and possible historical insight retained. Full Merrick Valor then source-short Merrick both consistently annotated; recent full/short-name precedent permits this, so no unsupported expansion/removal proposed.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/96138-wowhead.html",
+        "sourceHTMLSHA256": "82d5a4726d8f7fc6e3232f28cdeb11d3c0e417a011918874a864069d1c2a389f",
+        "ownQuest": {
+          "id": 96138,
+          "name": "Merrick's Bow",
+          "level": 30,
+          "reqlevel": 18,
+          "side": 1,
+          "envChange": {
+            "status": "new",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Merrick's Bow",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "2e3223d434187757ec79e211cd0fceb6ddcfcb8cc08fa6aef8a9d7906144b95a",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Merrick's Bow"
+      ],
+      "documentedTitleAliases": [
+        "Merrick's Bow"
+      ]
+    },
+    {
+      "id": 6681,
+      "englishTitle": "The Manor, Ravenholdt",
+      "group": 2,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "6aa0569fcee12dbd1d071293262b3c0bd1777ded86c411ba542509397057ee1b",
+          "reviewedMyanmarSHA256": "80c1c8e07f52344953ecb9bd6a9b3fd76ab9b82660998916076f8909bacbafed",
+          "primaryEnglishSHA256": "6aa0569fcee12dbd1d071293262b3c0bd1777ded86c411ba542509397057ee1b",
+          "secondaryEnglishSHA256": "6aa0569fcee12dbd1d071293262b3c0bd1777ded86c411ba542509397057ee1b",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "6aa0569fcee12dbd1d071293262b3c0bd1777ded86c411ba542509397057ee1b",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 0,
+            "responseIndex": 0,
+            "responseTargetIndex": 0,
+            "englishSHA256": "6aa0569fcee12dbd1d071293262b3c0bd1777ded86c411ba542509397057ee1b",
+            "rawDeepLSHA256": "3cd86a56341f35bf73d139627889bf1cac5fc7b66e480e667bbf33af8c678111",
+            "editedSHA256": "80c1c8e07f52344953ecb9bd6a9b3fd76ab9b82660998916076f8909bacbafed",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "a8572770e5d4030bdd0e62d5c2905f0222a8ab65429f51ca2e655535bb5907ef",
+          "reviewedMyanmarSHA256": "f45dfabe7d27aa541f86fd46ed76e8d869a803621d281de61a3c0fe74ae691e4",
+          "primaryEnglishSHA256": "a8572770e5d4030bdd0e62d5c2905f0222a8ab65429f51ca2e655535bb5907ef",
+          "secondaryEnglishSHA256": "ec7ba7964863c6af4392449aa2e084fa509bb7fdd159529885e61a57197e5123",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "7e24a8b4be1b607cea945e6a8d9cf5d86638d4118d0ad88a4d2eae6acade88d1",
+            "links": [
+              [
+                "/forever/npc=13936/ravenholdt",
+                "Ravenholdt"
+              ],
+              [
+                "/forever/npc=13936/ravenholdt",
+                "Ravenholdt"
+              ],
+              [
+                "/forever/item=17125/seal-of-ravenholdt",
+                "Seal of Ravenholdt"
+              ],
+              [
+                "/forever/npc=13936/ravenholdt",
+                "Ravenholdt"
+              ],
+              [
+                "/forever/npc=6707/fahrad",
+                "Fahrad"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0,
+            "englishSHA256": "a8572770e5d4030bdd0e62d5c2905f0222a8ab65429f51ca2e655535bb5907ef",
+            "rawDeepLSHA256": "7fd6984029ea78e3301f4ff28e79aa91903920914cba3a38af2846b3756fbbab",
+            "editedSHA256": "f45dfabe7d27aa541f86fd46ed76e8d869a803621d281de61a3c0fe74ae691e4",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 6,
+            "myanmar": 6
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "213bfb01b6915f1d5a44fdc1262e00536c9f7e048eaba3c3b961741422bb4e56",
+          "reviewedMyanmarSHA256": "dd3f8b6ba8dee70ca7a3c436f6ce170e10a4d1924bf1e9b072cfbeb3bd437eee",
+          "primaryEnglishSHA256": "213bfb01b6915f1d5a44fdc1262e00536c9f7e048eaba3c3b961741422bb4e56",
+          "secondaryEnglishSHA256": "213bfb01b6915f1d5a44fdc1262e00536c9f7e048eaba3c3b961741422bb4e56",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "66ef0a3db189b8f9008ceaab4f537d86de5f70a206bbc0b6cdbf5e7d7291c656",
+            "links": [
+              [
+                "/forever/item=17125/seal-of-ravenholdt",
+                "Seal of Ravenholdt"
+              ],
+              [
+                "/forever/npc=6707/fahrad",
+                "Fahrad"
+              ],
+              [
+                "/forever/npc=13936/ravenholdt",
+                "Ravenholdt"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 2,
+            "responseIndex": 2,
+            "responseTargetIndex": 0,
+            "englishSHA256": "213bfb01b6915f1d5a44fdc1262e00536c9f7e048eaba3c3b961741422bb4e56",
+            "rawDeepLSHA256": "8402fdb0d13ad157d3eceb47f8fa0d7b0a7ac92ce693d9fecbe5cab735592d40",
+            "editedSHA256": "dd3f8b6ba8dee70ca7a3c436f6ce170e10a4d1924bf1e9b072cfbeb3bd437eee",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "fc5dbe7d3ed9d21708ce09ad92b77d8124f1eb5830b16b54e01c183924252b4b",
+          "reviewedMyanmarSHA256": "d74a7a2e2add1523c368c155c5153215ed82685693246ceb38f9e7212d6f3400",
+          "primaryEnglishSHA256": "fc5dbe7d3ed9d21708ce09ad92b77d8124f1eb5830b16b54e01c183924252b4b",
+          "secondaryEnglishSHA256": "30b8a34b14d124c29132a15d9eabb080f18e9d29c8d856183b19b0f0e4c34821",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "cd16cf6df921ea70cbf92d4c15bbb2cd050797aa4cd6679211b18128b25b9ea2",
+            "links": [
+              [
+                "/forever/npc=6707/fahrad",
+                "Fahrad"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0,
+            "englishSHA256": "fc5dbe7d3ed9d21708ce09ad92b77d8124f1eb5830b16b54e01c183924252b4b",
+            "rawDeepLSHA256": "e4e18b417034243e2ad9b578dd251de701c497b1bacc516ee8d339d53075569b",
+            "editedSHA256": "d74a7a2e2add1523c368c155c5153215ed82685693246ceb38f9e7212d6f3400",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "b1256bbc92f83b3397cfaf8bee1e4a0ba58347ebcaaa52681cb4fe77b544b13e",
+          "reviewedMyanmarSHA256": "95ed1cbce8f286d0854bc95fac13346e78aa837fe0ab7e5b171d60f37dac6fc0",
+          "primaryEnglishSHA256": "b1256bbc92f83b3397cfaf8bee1e4a0ba58347ebcaaa52681cb4fe77b544b13e",
+          "secondaryEnglishSHA256": "b1256bbc92f83b3397cfaf8bee1e4a0ba58347ebcaaa52681cb4fe77b544b13e",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "515f4aef87ed9158ed9d24ca11f234ba7d2e676ba9232297006051432b3b2f48",
+            "links": [
+              [
+                "/forever/npc=13936/ravenholdt",
+                "Ravenholdt"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 4,
+            "responseIndex": 4,
+            "responseTargetIndex": 0,
+            "englishSHA256": "b1256bbc92f83b3397cfaf8bee1e4a0ba58347ebcaaa52681cb4fe77b544b13e",
+            "rawDeepLSHA256": "74dda96aabb584507f8a064d34bd4f77259c95397cef5853f9514a4bc69d0059",
+            "editedSHA256": "95ed1cbce8f286d0854bc95fac13346e78aa837fe0ab7e5b171d60f37dac6fc0",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 4,
+            "myanmar": 4
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Invitation keeps teasing young-thief voice and fixable awkwardness; attached Seal17125, Master Ravenholdt/Assassins League, hidden Hillsbrad manor and cunning trial intact. Six offer/two objective/two progress/four completion paragraphs. Literal <name>, Milton, Fahrad laugh emote, battered-but-not-seriously-hurt condition, long rewarding destiny and outside guards retained.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/6681-wowhead.html",
+        "sourceHTMLSHA256": "ff9016534250e61e148d8fcbdca40176fc3588fdd3e714d71e4312ba5a2bde7d",
+        "ownQuest": {
+          "id": 6681,
+          "name": "The Manor, Ravenholdt",
+          "level": 24,
+          "reqlevel": 24,
+          "side": 3,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "The Manor, Ravenholdt",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "03bf945d1a56209704d0c1e698163699d41763306b8ee6c37334de3fb4806dfe",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "The Manor, Ravenholdt"
+      ],
+      "documentedTitleAliases": [
+        "The Manor, Ravenholdt"
+      ]
+    },
+    {
+      "id": 96779,
+      "englishTitle": "Syndicate Sabotage",
+      "group": 2,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "ce0251156c08c743fd5ddcfc739f2b61b1fecdf0a571a9f7f897c08bfdac406d",
+          "reviewedMyanmarSHA256": "53109701b86710ef874d3ee4c90a2a5c2c93f6bf245665fc096de0ed41b4e5d3",
+          "primaryEnglishSHA256": "ce0251156c08c743fd5ddcfc739f2b61b1fecdf0a571a9f7f897c08bfdac406d",
+          "secondaryEnglishSHA256": "ce0251156c08c743fd5ddcfc739f2b61b1fecdf0a571a9f7f897c08bfdac406d",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "ce0251156c08c743fd5ddcfc739f2b61b1fecdf0a571a9f7f897c08bfdac406d",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 5,
+            "responseIndex": 5,
+            "responseTargetIndex": 0,
+            "englishSHA256": "ce0251156c08c743fd5ddcfc739f2b61b1fecdf0a571a9f7f897c08bfdac406d",
+            "rawDeepLSHA256": "dcd6d60e3be245815467a94eaac60186458720973202c06688c1064de793ce41",
+            "editedSHA256": "53109701b86710ef874d3ee4c90a2a5c2c93f6bf245665fc096de0ed41b4e5d3",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "279b879cd919bd80f3bdb0a6e79a4a4c0f000626a14d6ef7716fce2708c150bc",
+          "reviewedMyanmarSHA256": "90e5de1407c2198834e71b3d1a5bacf881ba74aba9d4a1e883f1fd062cc8ef5c",
+          "primaryEnglishSHA256": "279b879cd919bd80f3bdb0a6e79a4a4c0f000626a14d6ef7716fce2708c150bc",
+          "secondaryEnglishSHA256": "b99516cced206e7528c5568d189b78b8a4fa550d0b1e3ba58630dfb0f1f15739",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "88657c570ab5134e4ba672a8590fec84a2d773438d5a355d4a403af248326b80",
+            "links": [
+              [
+                "/forever/npc=266216/lord-tomas",
+                "Lord Tomas"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 6,
+            "responseIndex": 6,
+            "responseTargetIndex": 0,
+            "englishSHA256": "279b879cd919bd80f3bdb0a6e79a4a4c0f000626a14d6ef7716fce2708c150bc",
+            "rawDeepLSHA256": "338de07ec4a03c1650a37ae2f0e7794b441d68331d7734470468db74b1f966cf",
+            "editedSHA256": "90e5de1407c2198834e71b3d1a5bacf881ba74aba9d4a1e883f1fd062cc8ef5c",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 3,
+            "myanmar": 3
+          },
+          "markers": {
+            "english": [
+              "<race>"
+            ],
+            "myanmar": [
+              "<race>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "48cbed37460e8b91eb7b35d68f470e7a874b657006ae136d57dcbbc145daabbc",
+          "reviewedMyanmarSHA256": "684158f5aa2a4af8c93f960d215142ce6ead6e6b94e3bb602ef74985926f0ca5",
+          "primaryEnglishSHA256": "48cbed37460e8b91eb7b35d68f470e7a874b657006ae136d57dcbbc145daabbc",
+          "secondaryEnglishSHA256": "48cbed37460e8b91eb7b35d68f470e7a874b657006ae136d57dcbbc145daabbc",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "f7292017ee3d8746e9b8891a3adc8927b4ef186bcec82f4f04d39bf1ae870040",
+            "links": [
+              [
+                "/forever/npc=266216/lord-tomas",
+                "Lord Tomas"
+              ],
+              [
+                "/forever/npc=13085/myrokos-silentform",
+                "Myrokos Silentform"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 7,
+            "responseIndex": 7,
+            "responseTargetIndex": 0,
+            "englishSHA256": "48cbed37460e8b91eb7b35d68f470e7a874b657006ae136d57dcbbc145daabbc",
+            "rawDeepLSHA256": "72e8fb7c2cca32249bbed664ab37a6f17f5492663fa4c15ee26a7ed9693a6177",
+            "editedSHA256": "684158f5aa2a4af8c93f960d215142ce6ead6e6b94e3bb602ef74985926f0ca5",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "d9973da92f6dfcbb4f809d4094308a48874300dd059a98157235e9e1d025a0fe",
+          "reviewedMyanmarSHA256": "d352d52d4eb1cc899028b686aee59ba6f0539d72f38b266fc1494367ae01e4b7",
+          "primaryEnglishSHA256": "d9973da92f6dfcbb4f809d4094308a48874300dd059a98157235e9e1d025a0fe",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "0ca3bf2e073cb71a3ac30e132772e6701dcac787209c971fffa172273e14a025",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 8,
+            "responseIndex": 8,
+            "responseTargetIndex": 0,
+            "englishSHA256": "d9973da92f6dfcbb4f809d4094308a48874300dd059a98157235e9e1d025a0fe",
+            "rawDeepLSHA256": "dcfb500d028bf60fd052ce1617f275136fa0b4565b5f998d76b40782c1255f2c",
+            "editedSHA256": "d352d52d4eb1cc899028b686aee59ba6f0539d72f38b266fc1494367ae01e4b7",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Forever rogue sequel after6681: single decisive cut metaphor, Syndicate target Lord Tomas266216 in Durnholde Keep/Hillsbrad Foothills, quickest/quietest elimination and return Myrokos13085 intact. Completion certainty about destabilization, leaderless thug disorder and possible future summons preserved. Lord Tomas/Tomas use maintained သောမတ်စ် core; <race>/<name> exact. Progress absent.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/96779-wowhead.html",
+        "sourceHTMLSHA256": "1d457e44aec09c96269d6eaa39a34c6306237e9afc0bcb4ff30515bb36897e96",
+        "ownQuest": {
+          "id": 96779,
+          "name": "Syndicate Sabotage",
+          "level": 24,
+          "reqlevel": 24,
+          "side": 3,
+          "envChange": {
+            "status": "new",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Syndicate Sabotage",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "4a66fd23b4e5b6485a9e94470d7a5c04626d544f9ffbff9b1cac71a2d47494a4",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Syndicate Sabotage"
+      ],
+      "documentedTitleAliases": [
+        "Syndicate Sabotage"
+      ]
+    },
+    {
+      "id": 78261,
+      "englishTitle": "The Horn of Xelthos",
+      "group": 2,
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedMyanmarSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+          "primaryEnglishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "secondaryEnglishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 9,
+            "responseIndex": 9,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+            "rawDeepLSHA256": "8bc9792614b2d61497def52fef75c8b84e6f8ac5bd410ae45f41db8d7d6f682c",
+            "editedSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "3089e943e6d274aec21859ba225c14308fa5bd3cd8a98ee49b7ddad01357c134",
+          "reviewedMyanmarSHA256": "51a3e4964c416274d468547b682080e352ec62c824cf4596d3cf4e1b92757896",
+          "primaryEnglishSHA256": "3089e943e6d274aec21859ba225c14308fa5bd3cd8a98ee49b7ddad01357c134",
+          "secondaryEnglishSHA256": "33c06ec2d905940ebb70026b63f984bfb9986d013318263d15f491f2f31bfd8c",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "97a607e1142e5c1796a0360ae1458b11ca91798a05707286b1081b9243730c81",
+            "links": [
+              [
+                "/forever/item=210183/horn-of-xelthos",
+                "Horn of Xelthos"
+              ],
+              [
+                "/forever/npc=4086/veenix",
+                "Veenix"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 10,
+            "responseIndex": 10,
+            "responseTargetIndex": 0,
+            "englishSHA256": "3089e943e6d274aec21859ba225c14308fa5bd3cd8a98ee49b7ddad01357c134",
+            "rawDeepLSHA256": "993d854af55f1c1ddef99a8699eb83a55bf7f531af7fe0ac2093b3dfc95ecd99",
+            "editedSHA256": "51a3e4964c416274d468547b682080e352ec62c824cf4596d3cf4e1b92757896",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 8,
+            "myanmar": 8
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "objective": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "47b172e458aa73a9c62d8f1273e52ac34186784dd2811ace6e4732797ed03209",
+          "reviewedMyanmarSHA256": "7142ebcd8a70c3d3d59a7b9f2d9ce03d077898fba1d041017b105e9a40fac394",
+          "primaryEnglishSHA256": "47b172e458aa73a9c62d8f1273e52ac34186784dd2811ace6e4732797ed03209",
+          "secondaryEnglishSHA256": "47b172e458aa73a9c62d8f1273e52ac34186784dd2811ace6e4732797ed03209",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "2c1b632fcc583d8fe0e150795585565eda31892b325946644b8632b85e2401b0",
+            "links": [
+              [
+                "/forever/item=210183/horn-of-xelthos",
+                "Horn of Xelthos"
+              ],
+              [
+                "/forever/object=410369/dead-drop",
+                "dead drop"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 11,
+            "responseIndex": 11,
+            "responseTargetIndex": 0,
+            "englishSHA256": "47b172e458aa73a9c62d8f1273e52ac34186784dd2811ace6e4732797ed03209",
+            "rawDeepLSHA256": "73f96da46d480c16e907b86c2b66f8e0ed6fe7b2d19878b67580d2998a345cd0",
+            "editedSHA256": "7142ebcd8a70c3d3d59a7b9f2d9ce03d077898fba1d041017b105e9a40fac394",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "6db215cc5cd1b988937f6d9cd735467731edc673b07c50c441cf6986218cb030",
+          "reviewedMyanmarSHA256": "cc714a364d9218feaf77d546c2541e4c68cf870431c4135a00099a64d9040a0e",
+          "primaryEnglishSHA256": "6db215cc5cd1b988937f6d9cd735467731edc673b07c50c441cf6986218cb030",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "fde1bb9220f8617272cdca8d9e759dd938fb95d7fbb5509483e44ed5de105206",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 12,
+            "responseIndex": 12,
+            "responseTargetIndex": 0,
+            "englishSHA256": "6db215cc5cd1b988937f6d9cd735467731edc673b07c50c441cf6986218cb030",
+            "rawDeepLSHA256": "3f9fbb25551738dda381655e0996d0dfcea31a4711cbb46e1b23d7812370be88",
+            "editedSHA256": "cc714a364d9218feaf77d546c2541e4c68cf870431c4135a00099a64d9040a0e",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "0d969323ef2fc1d989ebb47e5a6ef38644b1589b05db394155e8e08c56a3413f",
+          "reviewedMyanmarSHA256": "c7c1b4ea795062e99ee13167c62ff5514073ba767e828b3e912b2393c3a44f11",
+          "primaryEnglishSHA256": "0d969323ef2fc1d989ebb47e5a6ef38644b1589b05db394155e8e08c56a3413f",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "3db371e34c8cf627e43a1ca75d455a295471d85eb0898e9f492299d499ca2a66",
+            "links": [
+              [
+                "/forever/item=210183/horn-of-xelthos",
+                "Horn of Xelthos"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 13,
+            "responseIndex": 13,
+            "responseTargetIndex": 0,
+            "englishSHA256": "0d969323ef2fc1d989ebb47e5a6ef38644b1589b05db394155e8e08c56a3413f",
+            "rawDeepLSHA256": "9de38f0a97b63ada017e847fa57124a439398f3b80a4442c73ccc74986089f1e",
+            "editedSHA256": "c7c1b4ea795062e99ee13167c62ff5514073ba767e828b3e912b2393c3a44f11",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [
+        {
+          "field": "title",
+          "kind": "maintained_compound_pronunciation_consistency",
+          "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedMyanmarSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+          "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+          "new": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+          "proposedFullField": "The Horn of Xelthos (ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်)",
+          "proposedMyanmarSHA256": "6f5885c506288bebc6de2793a74521881f889e689dd80cd078d53b3c02fd37cc",
+          "reason": "New whole item name The Horn of Xelthos should reuse Horn core ဟောန် from maintained Horn of Arra'chea and Horn of Vorlus, also used by recently maintained Galvanized Horn and Satyr Horns. Change only this new whole-name pronunciation; historical Intact Raptor Horn/Thunder Lizard Horn/Jern Hornhelm ဟွန်း variants remain untouched. English item210183 identity, meaning, solo instruction, markers, paragraph boundaries and all other wording are unchanged. Assisted terminology consistency proposal; native phonetic approval remains pending."
+        },
+        {
+          "field": "detail",
+          "kind": "maintained_compound_pronunciation_consistency",
+          "englishSHA256": "3089e943e6d274aec21859ba225c14308fa5bd3cd8a98ee49b7ddad01357c134",
+          "reviewedMyanmarSHA256": "51a3e4964c416274d468547b682080e352ec62c824cf4596d3cf4e1b92757896",
+          "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+          "new": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+          "proposedFullField": "<သေတ္တာထဲမှာ မှတ်စုတစ်စောင် ရှိနေသည်>\n\nမင်္ဂလာပါ၊ <name>။\n\nShadowfang Keep (ရှဲဒိုးဖန်း ကီးပ်) ထဲက တစ်နေရာမှာ ရှိနေတဲ့ The Horn of Xelthos (ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်) လို့ခေါ်တဲ့ အဖိုးတန်ပစ္စည်းတစ်ခုကို ငါ လိုချင်တယ်။\n\nအဲဒီရဲတိုက်ထဲကို ဝင်ရင် ပုံမှန်အားဖြင့် အကူအင်အား လိုအပ်တတ်တယ်။ ဒါပေမယ့် ဒီအလုပ်အတွက်တော့ လူမသိသူမသိ လှုပ်ရှားနိုင်ဖို့က အရေးအကြီးဆုံးပဲ။\n\nမင်း တစ်ယောက်တည်း သွားရမယ်။\n\nStonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) မှာ Veenix (ဗီးနစ်ခ်စ်) ဆိုတဲ့ ငါ့အဆက်အသွယ်တစ်ယောက် ရှိတယ်။ သူက ခြံဝင်းတံခါးကို ကျော်ဖြတ်နိုင်အောင် မင်းကို ကူညီပေးနိုင်လိမ့်မယ်။ ကျန်တာကတော့ မင်းတာဝန်ပဲ။\n\nအဲဒီပစ္စည်းကို ဒီနေရာဆီ ပြန်ယူလာပါ။ မကြာခင်မှာပဲ မင်းအတွက် အခကြေးငွေ ပို့ပေးမယ်။\n\n- C (စီ)",
+          "proposedMyanmarSHA256": "d0bf386aea9ad53aa55fb3bd200b87085100d75e7c0b3aa372dd65b28a9675dd",
+          "reason": "New whole item name The Horn of Xelthos should reuse Horn core ဟောန် from maintained Horn of Arra'chea and Horn of Vorlus, also used by recently maintained Galvanized Horn and Satyr Horns. Change only this new whole-name pronunciation; historical Intact Raptor Horn/Thunder Lizard Horn/Jern Hornhelm ဟွန်း variants remain untouched. English item210183 identity, meaning, solo instruction, markers, paragraph boundaries and all other wording are unchanged. Assisted terminology consistency proposal; native phonetic approval remains pending."
+        },
+        {
+          "field": "objective",
+          "kind": "maintained_compound_pronunciation_consistency",
+          "englishSHA256": "47b172e458aa73a9c62d8f1273e52ac34186784dd2811ace6e4732797ed03209",
+          "reviewedMyanmarSHA256": "7142ebcd8a70c3d3d59a7b9f2d9ce03d077898fba1d041017b105e9a40fac394",
+          "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+          "new": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+          "proposedFullField": "Shadowfang Keep (ရှဲဒိုးဖန်း ကီးပ်) ထဲမှာ The Horn of Xelthos (ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်) ကို ရှာပါ။ ပြီးရင် Pyrewood Village (ပိုင်းယာဝုဒ် ဗီလစ်ဂျ်) အနီးက C (စီ) ရဲ့ လျှို့ဝှက်ပစ္စည်းအပ်နှံရာနေရာဆီ ပြန်ယူလာပါ။ ဒီအလုပ်ကို မင်း တစ်ယောက်တည်း ပြီးမြောက်အောင် လုပ်ရမယ်။",
+          "proposedMyanmarSHA256": "4bd884a73b23111f1a05694eea4001ccdc4767ad8e530119d30676257cc10362",
+          "reason": "New whole item name The Horn of Xelthos should reuse Horn core ဟောန် from maintained Horn of Arra'chea and Horn of Vorlus, also used by recently maintained Galvanized Horn and Satyr Horns. Change only this new whole-name pronunciation; historical Intact Raptor Horn/Thunder Lizard Horn/Jern Hornhelm ဟွန်း variants remain untouched. English item210183 identity, meaning, solo instruction, markers, paragraph boundaries and all other wording are unchanged. Assisted terminology consistency proposal; native phonetic approval remains pending."
+        },
+        {
+          "field": "complete",
+          "kind": "maintained_compound_pronunciation_consistency",
+          "englishSHA256": "0d969323ef2fc1d989ebb47e5a6ef38644b1589b05db394155e8e08c56a3413f",
+          "reviewedMyanmarSHA256": "c7c1b4ea795062e99ee13167c62ff5514073ba767e828b3e912b2393c3a44f11",
+          "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+          "new": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+          "proposedFullField": "<သင်က The Horn of Xelthos (ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်) ကို သေတ္တာထဲသို့ ထည့်လိုက်သည်>",
+          "proposedMyanmarSHA256": "663617ed4a24cef21c6cdaab115a0c920d8f0329892db8e69f2262b58652bdd8",
+          "reason": "New whole item name The Horn of Xelthos should reuse Horn core ဟောန် from maintained Horn of Arra'chea and Horn of Vorlus, also used by recently maintained Galvanized Horn and Satyr Horns. Change only this new whole-name pronunciation; historical Intact Raptor Horn/Thunder Lizard Horn/Jern Hornhelm ဟွန်း variants remain untouched. English item210183 identity, meaning, solo instruction, markers, paragraph boundaries and all other wording are unchanged. Assisted terminology consistency proposal; native phonetic approval remains pending."
+        }
+      ],
+      "assistedBilingualReview": "Retrieval step: chest note, C signature, desired Horn210183 somewhere in Shadowfang Keep, normal backup versus this low-profile SOLO job, Veenix4086 in Stonetalon/courtyard gate, rest on player, return to dead drop410369 near Pyrewood and later payment all preserved. Chest empty and place-Horn emotes correct. Four enabled fields need only the new whole-name Horn core consistency proposal.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/78261-wowhead.html",
+        "sourceHTMLSHA256": "18323083b39869e4cecdf8f446f2f8217fae520b5fdc7f9afe5199d4aa16c384",
+        "ownQuest": {
+          "id": 78261,
+          "name": "The Horn of Xelthos",
+          "level": 23,
+          "reqlevel": 1,
+          "side": 3,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "objectives_changed"
+            ],
+            "lines": [
+              "Objectives: adds Veenix"
+            ],
+            "notShown": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "The Horn of Xelthos",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "8e877448892e672cad29ff72376a877364e01d727c54b877587b691436670fd8",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "The Horn of Xelthos"
+      ],
+      "documentedTitleAliases": [
+        "The Horn of Xelthos"
+      ]
+    },
+    {
+      "id": 78307,
+      "englishTitle": "The Horn of Xelthos",
+      "group": 2,
+      "result": "CHANGES_REQUIRED",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedMyanmarSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+          "primaryEnglishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "secondaryEnglishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 14,
+            "responseIndex": 14,
+            "responseTargetIndex": 0,
+            "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+            "rawDeepLSHA256": "8bc9792614b2d61497def52fef75c8b84e6f8ac5bd410ae45f41db8d7d6f682c",
+            "editedSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "held",
+          "englishSHA256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+          "secondaryEnglishSHA256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "englishSHA256": "526e0087cc3f254d9f86f6c7d8e23d954c4dfda2b312efc29194ae8a860106ba",
+            "rawDeepLSHA256": "9f72d36a5fbec790a5cb50201929b21056f5e51a3d9bc72516542c13a9f9fdf0",
+            "editedSHA256": null,
+            "verified": true
+          },
+          "holdReason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+        },
+        "objective": {
+          "sourceAvailability": "held",
+          "englishSHA256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "72b2138a35857d057ea89739a6140e093e679bc6895d7453584c7961baa87867",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 16,
+            "responseIndex": 16,
+            "responseTargetIndex": 0,
+            "englishSHA256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+            "rawDeepLSHA256": "6c4bc184aef414936551fc60a044410d066b52632b8f915982767e807365bdd0",
+            "editedSHA256": null,
+            "verified": true
+          },
+          "holdReason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+        },
+        "progress": {
+          "sourceAvailability": "unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": null,
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "absent",
+            "rawDialogueHTMLSHA256": null,
+            "links": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "80d515b48bfca2b9bdded3e04ceb587d8c7dcc362dd6eeefdb84d43f94a1b52f",
+          "reviewedMyanmarSHA256": "747c3d1a6b61000c8f15e38b321c5180506b618438f6355da0325ad5f817284b",
+          "primaryEnglishSHA256": "80d515b48bfca2b9bdded3e04ceb587d8c7dcc362dd6eeefdb84d43f94a1b52f",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "cfb50f0c5ad5158330835e70474825d1cda514f19f4a382565ca06965ae0299b",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 17,
+            "responseIndex": 17,
+            "responseTargetIndex": 0,
+            "englishSHA256": "80d515b48bfca2b9bdded3e04ceb587d8c7dcc362dd6eeefdb84d43f94a1b52f",
+            "rawDeepLSHA256": "b6e108b999d619f56ec609afb92ca91c727fb677ebd672c05d1b59711694a060",
+            "editedSHA256": "747c3d1a6b61000c8f15e38b321c5180506b618438f6355da0325ad5f817284b",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 3,
+            "myanmar": 3
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [
+        {
+          "field": "title",
+          "kind": "maintained_compound_pronunciation_consistency",
+          "englishSHA256": "7fda396c4b5506990c9ada821a71951922899b9b76c07a7f572eee516b9a5842",
+          "reviewedMyanmarSHA256": "b39645611e47f41985ed9a7d4e6ee08a5d98d46ff865af67510936e9e027c48a",
+          "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+          "new": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+          "proposedFullField": "The Horn of Xelthos (ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်)",
+          "proposedMyanmarSHA256": "6f5885c506288bebc6de2793a74521881f889e689dd80cd078d53b3c02fd37cc",
+          "reason": "New whole item name The Horn of Xelthos should reuse Horn core ဟောန် from maintained Horn of Arra'chea and Horn of Vorlus, also used by recently maintained Galvanized Horn and Satyr Horns. Change only this new whole-name pronunciation; historical Intact Raptor Horn/Thunder Lizard Horn/Jern Hornhelm ဟွန်း variants remain untouched. English item210183 identity, meaning, solo instruction, markers, paragraph boundaries and all other wording are unchanged. Assisted terminology consistency proposal; native phonetic approval remains pending."
+        }
+      ],
+      "assistedBilingualReview": "Distinct same-title reward sequel after78261. Genuine completion contains chest note, For <name>, future meeting and C signature; no invented body or retrieval instructions. Literal Description and Log held. Title needs the same new whole-name Horn consistency correction as78261.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/78307-wowhead.html",
+        "sourceHTMLSHA256": "63b32d60992dd7f11c7dd25b3cd7c06c51c2dd874816a6ea4c1ab7d536f3af11",
+        "ownQuest": {
+          "id": 78307,
+          "name": "The Horn of Xelthos",
+          "level": 23,
+          "reqlevel": 1,
+          "side": 3,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed"
+            ],
+            "lines": [
+              "Experience 2300 instead of none",
+              "Money 30s instead of 15s",
+              "Rewards: adds Pyrewood Signet Ring"
+            ],
+            "notShown": [
+              "Experience 2300 instead of none",
+              "Money 30s instead of 15s",
+              "Rewards: adds Pyrewood Signet Ring"
+            ]
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "The Horn of Xelthos",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "79070ac14b8431a963c043afa93d5c47432fd826d251717cbc9ead31ba917f62",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "The Horn of Xelthos"
+      ],
+      "documentedTitleAliases": [
+        "The Horn of Xelthos"
+      ]
+    },
+    {
+      "id": 78270,
+      "englishTitle": "Goblin Lockpicks",
+      "group": 2,
+      "result": "PASS",
+      "fields": {
+        "title": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "3d92110229d4bd4e7bbbaa3e2765c385a1418ef2b52ed97e8e592d3801ea3e56",
+          "reviewedMyanmarSHA256": "62c45243c153c44ae4999c76997749b73faf1c758c1858c28fd7d71cdf371c92",
+          "primaryEnglishSHA256": "3d92110229d4bd4e7bbbaa3e2765c385a1418ef2b52ed97e8e592d3801ea3e56",
+          "secondaryEnglishSHA256": "3d92110229d4bd4e7bbbaa3e2765c385a1418ef2b52ed97e8e592d3801ea3e56",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1 title",
+            "rawDialogueHTMLSHA256": "3d92110229d4bd4e7bbbaa3e2765c385a1418ef2b52ed97e8e592d3801ea3e56",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 18,
+            "responseIndex": 18,
+            "responseTargetIndex": 0,
+            "englishSHA256": "3d92110229d4bd4e7bbbaa3e2765c385a1418ef2b52ed97e8e592d3801ea3e56",
+            "rawDeepLSHA256": "b2985510a773ad11092f8e80627bf3f9635f489fc4837ea77989290422211360",
+            "editedSHA256": "62c45243c153c44ae4999c76997749b73faf1c758c1858c28fd7d71cdf371c92",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 1,
+            "myanmar": 1
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "detail": {
+          "sourceAvailability": "held",
+          "englishSHA256": "876f7a86d205809119a9fa3f43a382fe486fa21032ce6211c10acd3eab809bad",
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": "876f7a86d205809119a9fa3f43a382fe486fa21032ce6211c10acd3eab809bad",
+          "secondaryEnglishSHA256": "78849925554192fa52ed050fade07dfc5f72e4612e0f4064165320b27499927d",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "description heading",
+            "rawDialogueHTMLSHA256": "9489b0adb66d70019e444d561aebce2e9f9ebca58b14a6f3a4bab221ddb29123",
+            "links": [
+              [
+                "/forever/npc=4086/veenix",
+                "Veenix"
+              ]
+            ]
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 19,
+            "responseIndex": 19,
+            "responseTargetIndex": 0,
+            "englishSHA256": "876f7a86d205809119a9fa3f43a382fe486fa21032ce6211c10acd3eab809bad",
+            "rawDeepLSHA256": "797c33bbcd0c73b847a40d77fc36805980d5c135adfe2036c3f309999a2d527c",
+            "editedSHA256": null,
+            "verified": true
+          },
+          "holdReason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+        },
+        "objective": {
+          "sourceAvailability": "held",
+          "englishSHA256": "8042c37b8ed8ff3be5194603b5b24188448072fa1b45d13c556c9ece482f969d",
+          "reviewedMyanmarSHA256": null,
+          "primaryEnglishSHA256": "8042c37b8ed8ff3be5194603b5b24188448072fa1b45d13c556c9ece482f969d",
+          "secondaryEnglishSHA256": "8042c37b8ed8ff3be5194603b5b24188448072fa1b45d13c556c9ece482f969d",
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "h1-to-first-table/list/heading/padding",
+            "rawDialogueHTMLSHA256": "8042c37b8ed8ff3be5194603b5b24188448072fa1b45d13c556c9ece482f969d",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 20,
+            "responseIndex": 20,
+            "responseTargetIndex": 0,
+            "englishSHA256": "8042c37b8ed8ff3be5194603b5b24188448072fa1b45d13c556c9ece482f969d",
+            "rawDeepLSHA256": "66e5e8cb9ef8ed39cd85535231117a6385eb087c3e9140cb0543846108163d50",
+            "editedSHA256": null,
+            "verified": true
+          },
+          "holdReason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+        },
+        "progress": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "16d0439e124f5343a49b005d7ca2cf345762ad569c1d1d3dd62578de7c82adfe",
+          "reviewedMyanmarSHA256": "77b9a77f2895d71865902d1fa5690029ea866d5eb8e217dc59756765ed5df18b",
+          "primaryEnglishSHA256": "16d0439e124f5343a49b005d7ca2cf345762ad569c1d1d3dd62578de7c82adfe",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "69a94cfb6fbee686454abc25ce56b0c2a4d308c593b504c65d823c4a9a62b60b",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 21,
+            "responseIndex": 21,
+            "responseTargetIndex": 0,
+            "englishSHA256": "16d0439e124f5343a49b005d7ca2cf345762ad569c1d1d3dd62578de7c82adfe",
+            "rawDeepLSHA256": "444e87c06792784e3cbaa8bb462faef8359cee80b0310a1c08d8c4ac9f6cf40d",
+            "editedSHA256": "77b9a77f2895d71865902d1fa5690029ea866d5eb8e217dc59756765ed5df18b",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [],
+            "myanmar": []
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        },
+        "complete": {
+          "sourceAvailability": "enabled",
+          "englishSHA256": "1e26d2c8e4cf35c471612b0a6a8f78bbb6b54618c72fd89c8fed7ba07f67b7ff",
+          "reviewedMyanmarSHA256": "935f0d648bb90d310b0798cf442f69daff61b0e51c70aa279a10fa6aef3212be",
+          "primaryEnglishSHA256": "1e26d2c8e4cf35c471612b0a6a8f78bbb6b54618c72fd89c8fed7ba07f67b7ff",
+          "secondaryEnglishSHA256": null,
+          "reviewedAgainstOriginalEnglish": true,
+          "sourceReference": "wowhead",
+          "sourceBoundary": {
+            "method": "hidden reply div",
+            "rawDialogueHTMLSHA256": "c894a9b0cba1fc61950469ce5fb8699bf013810f7af6589b2230cbd4d000faa7",
+            "links": []
+          },
+          "rawProvenance": {
+            "requestFile": "deepl-request-02.json",
+            "requestFileSHA256": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "responseFile": "deepl-response-02.json",
+            "responseFileSHA256": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "indexFile": "deepl-index-02.json",
+            "indexFileSHA256": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "requestIndex": 22,
+            "responseIndex": 22,
+            "responseTargetIndex": 0,
+            "englishSHA256": "1e26d2c8e4cf35c471612b0a6a8f78bbb6b54618c72fd89c8fed7ba07f67b7ff",
+            "rawDeepLSHA256": "15bf0f6956ae2fd7eb456141821b24f8d96835de59bb8d0e3bbd4d406c6e23bc",
+            "editedSHA256": "935f0d648bb90d310b0798cf442f69daff61b0e51c70aa279a10fa6aef3212be",
+            "verified": true
+          },
+          "paragraphs": {
+            "english": 2,
+            "myanmar": 2
+          },
+          "markers": {
+            "english": [
+              "<name>"
+            ],
+            "myanmar": [
+              "<name>"
+            ]
+          },
+          "digits": {
+            "english": [],
+            "myanmar": []
+          }
+        }
+      },
+      "issues": [],
+      "assistedBilingualReview": "Genuine Veenix state expresses surprise at solo Shadowfang entry, guts, explosives for gate, work order to make books look legitimate and another Venture Co. worker carrying one. Casual cakewalk praise and promised goods intact; <name> exact. Work Order210187 table plus Veenix4086 endpoint conflicts copied Horn/C note, so detail/objective remain held. Exact Venture Co. punctuation and narrow regex exception justified.",
+      "sourceIdentity": {
+        "sourceFile": "early_routes/78270-wowhead.html",
+        "sourceHTMLSHA256": "1a29608f3f154bda266c53957d1671c28235479d30d4e2348719071a05b76562",
+        "ownQuest": {
+          "id": 78270,
+          "name": "Goblin Lockpicks",
+          "level": 23,
+          "reqlevel": 1,
+          "side": 3,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "reworded"
+            ],
+            "lines": [
+              "Progress text reworded"
+            ],
+            "notShown": [
+              "Progress text reworded"
+            ]
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Goblin Lockpicks",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        }
+      },
+      "installedRecordSHA256": "c566841202faffdd645f77aaa7fe114747dbc045077d15f8a4976986641613a7",
+      "uaVariantCount": 1,
+      "uaEnglishTitles": [
+        "Goblin Lockpicks"
+      ],
+      "documentedTitleAliases": [
+        "Goblin Lockpicks"
+      ]
+    }
+  ],
+  "evidenceIssues": [],
+  "retainedHolds": [
+    {
+      "id": 79363,
+      "field": "objective",
+      "reason": "Objective narrative, installed and 60/UA say7 Night Blades/7 Enchanters; actual current objective table says7 Night Blade/2 Enchanter. Hold objective until live resolution. Same own-ID eligibility caveat as79362."
+    },
+    {
+      "id": 78307,
+      "field": "detail",
+      "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+    },
+    {
+      "id": 78307,
+      "field": "objective",
+      "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+    },
+    {
+      "id": 78270,
+      "field": "detail",
+      "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+    },
+    {
+      "id": 78270,
+      "field": "objective",
+      "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+    }
+  ],
+  "pronunciationOverrides": {
+    "The Horn of Xelthos": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်"
+  },
+  "pronunciationReview": {
+    "maintainedMapSHA256": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7",
+    "maintainedMapEntries": 4529,
+    "newWholeNameOnly": "The Horn of Xelthos",
+    "old": "ဒ ဟွန်း အော့ဗ် ဇဲလ်သော့စ်",
+    "proposed": "ဒ ဟောန် အော့ဗ် ဇဲလ်သော့စ်",
+    "basis": {
+      "Horn of Arra'chea": "ဟောန် အော့ဗ် အာရာချီယာ",
+      "Horn of Vorlus": "ဟောန် အော့ဗ် ဗော်လတ်စ်",
+      "Galvanized Horn": "ဂဲလ်ဗနိုက်ဇ်ဒ် ဟောန်",
+      "Satyr Horns": "စေးတာ ဟောန်ဇ်"
+    },
+    "historicalVariantsRetained": {
+      "Intact Raptor Horn": "အင်တက်ခ်တ် ရက်ပ်တာ ဟွန်း",
+      "Thunder Lizard Horn": "သန်ဒါ လစ်ဇာဒ် ဟွန်း",
+      "Jern Hornhelm": "ဂျန်း ဟွန်းဟဲလ်မ်"
+    },
+    "nativeApproval": "pending",
+    "MerrickSameIdentityDecision": "Source full Merrick Valor followed by source-short Merrick has consistent phonetics and recent allowed full/short-name annotation precedent; no field expansion or correction requested.",
+    "VentureCoException": "Exact source Venture Co. followed by whole-name annotation retained; regex Venture Co truncation covered by one field-specific exception.",
+    "aliasCores": "Sirra Von Indie/Indi linkedNPC268 share pronunciation; source-lowercase phial/scrying/defias/worg inherit maintained capitalization forms; Lord Tomas uses maintained Tomas core."
+  },
+  "sourceReview": {
+    "upstreamReference": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.1",
+      "commit": "b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+      "checkedAt": "2026-11-23T20:31:25.782652+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+      "publishedAtUTC": "2026-11-23T01:37:19Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.1/UA_Forever-1.1.1.zip",
+      "assetSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+      "catalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2"
+    },
+    "batchFreshOfficialEvidence": {
+      "freshReleaseJSONSHA256": "8c81f3cc67b9557fed6d820fe15eeb922587c081b62129937791ecaa58eef363",
+      "freshPeeledCommitFileSHA256": "0bdd6ed23c34b2d1806247e8c5e968f932715eaffbe37cf2387c0128bc53958d",
+      "assetDigestVerified": true,
+      "actualPackageSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+      "actualCatalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2",
+      "catalogInsidePackageMatches": true,
+      "reviewerAdditionalOnlineRefresh": "Attempted official API with web tool (not accessible) and urllib (DNS unavailable); no new claim from these attempts. Fresh batch direct official API/peeled commit evidence and exact package/catalog inspected."
+    },
+    "exactOwnIDExtraction": [
+      {
+        "id": 579,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 960,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 961,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 79362,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 2,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 79363,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 2,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 96137,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 2,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 96138,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 2,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 6681,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 96779,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 78261,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 78307,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      },
+      {
+        "id": 78270,
+        "ownQuestOccurrences": 1,
+        "ownGathererOccurrences": 1,
+        "allOccurrencesMatchExactOwnID": true
+      }
+    ],
+    "installedFullMetadataSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "ownCurrentMetadataSHA256": "e4cc03815cd2f44c1fff7e3687c068c1461ee50c58c826cdf00507f9c8b3bac4",
+    "allOriginalUAVariantsCompared": true,
+    "primarySecondaryDifferences": [
+      {
+        "id": 79362,
+        "field": "progress",
+        "primaryEnglishSHA256": "4e7f2fc494858e553ff1e61634b0c94fd78c5f50daee0d6bc3a4939ecb82b023",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 79362,
+        "field": "complete",
+        "primaryEnglishSHA256": "8195e92e3ed07302a372b1d07e621ff0c81d7adc1b7475619e76920f7b4ce95d",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 79363,
+        "field": "progress",
+        "primaryEnglishSHA256": "cf21673c95f6b378ddf6a8934a9275f03842544378e4101fb94e2c9ec06df2f8",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 79363,
+        "field": "complete",
+        "primaryEnglishSHA256": "be2d5410f190177dce69410008c1a6e4284962cb50c262a310e98f731db38b04",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96137,
+        "field": "progress",
+        "primaryEnglishSHA256": "dbcf23a0f15e67c361424b5ce8c6747a25f409f2e82afef5f59f77045ae97f4d",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96137,
+        "field": "complete",
+        "primaryEnglishSHA256": "677f8185a99f3e72e8560c3acc7e70e01e44be1666157b0da55cc57b7e5d1986",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96138,
+        "field": "progress",
+        "primaryEnglishSHA256": "c61e5f50a845ab02783cdbbca90cc677e4036f0db197b6fb991823680786cdc5",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96138,
+        "field": "complete",
+        "primaryEnglishSHA256": "294c5226a58c59a0ae43880d5be681e0894e7ca8853cd8d3db122e4f2797bb6b",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 6681,
+        "field": "progress",
+        "primaryEnglishSHA256": "fc5dbe7d3ed9d21708ce09ad92b77d8124f1eb5830b16b54e01c183924252b4b",
+        "secondaryEnglishSHA256": "30b8a34b14d124c29132a15d9eabb080f18e9d29c8d856183b19b0f0e4c34821",
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 6681,
+        "field": "detail",
+        "primaryEnglishSHA256": "a8572770e5d4030bdd0e62d5c2905f0222a8ab65429f51ca2e655535bb5907ef",
+        "secondaryEnglishSHA256": "ec7ba7964863c6af4392449aa2e084fa509bb7fdd159529885e61a57197e5123",
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96779,
+        "field": "complete",
+        "primaryEnglishSHA256": "d9973da92f6dfcbb4f809d4094308a48874300dd059a98157235e9e1d025a0fe",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 96779,
+        "field": "detail",
+        "primaryEnglishSHA256": "279b879cd919bd80f3bdb0a6e79a4a4c0f000626a14d6ef7716fce2708c150bc",
+        "secondaryEnglishSHA256": "b99516cced206e7528c5568d189b78b8a4fa550d0b1e3ba58630dfb0f1f15739",
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78261,
+        "field": "progress",
+        "primaryEnglishSHA256": "6db215cc5cd1b988937f6d9cd735467731edc673b07c50c441cf6986218cb030",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78261,
+        "field": "complete",
+        "primaryEnglishSHA256": "0d969323ef2fc1d989ebb47e5a6ef38644b1589b05db394155e8e08c56a3413f",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78261,
+        "field": "detail",
+        "primaryEnglishSHA256": "3089e943e6d274aec21859ba225c14308fa5bd3cd8a98ee49b7ddad01357c134",
+        "secondaryEnglishSHA256": "33c06ec2d905940ebb70026b63f984bfb9986d013318263d15f491f2f31bfd8c",
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78307,
+        "field": "objective",
+        "primaryEnglishSHA256": "21e49eb2b299c9f7503a1236ecc80e1c51dd9e07989a3c12283df174067cc1aa",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78307,
+        "field": "complete",
+        "primaryEnglishSHA256": "80d515b48bfca2b9bdded3e04ceb587d8c7dcc362dd6eeefdb84d43f94a1b52f",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78270,
+        "field": "progress",
+        "primaryEnglishSHA256": "16d0439e124f5343a49b005d7ca2cf345762ad569c1d1d3dd62578de7c82adfe",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78270,
+        "field": "complete",
+        "primaryEnglishSHA256": "1e26d2c8e4cf35c471612b0a6a8f78bbb6b54618c72fd89c8fed7ba07f67b7ff",
+        "secondaryEnglishSHA256": null,
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      },
+      {
+        "id": 78270,
+        "field": "detail",
+        "primaryEnglishSHA256": "876f7a86d205809119a9fa3f43a382fe486fa21032ce6211c10acd3eab809bad",
+        "secondaryEnglishSHA256": "78849925554192fa52ed050fade07dfc5f72e4612e0f4064165320b27499927d",
+        "disposition": "Primary text controls; secondary missing state, marker capitalization or paragraph layout does not replace current primary."
+      }
+    ],
+    "fieldBoundaryCounts": {
+      "h1 title": 12,
+      "absent": 7,
+      "h1-to-first-table/list/heading/padding": 12,
+      "direct heading": 3,
+      "hidden reply div": 17,
+      "description heading": 9
+    },
+    "identityCaveats": {
+      "79362/79363": "Own side3/class64/race162 and installed Horde Shaman restriction retained despite Duskwood narrative and UA Alliance labels. No class/faction inference.",
+      "579/960/961": "Source-supported helper records; actual current live activation unverified.",
+      "78307": "Reward step, not full Horn retrieval repeat.",
+      "78270": "Work Order210187 and Veenix4086 genuine endpoint; copied Horn/C offer/objective remain held."
+    },
+    "liveEvidence": {
+      "result": "PASS",
+      "selectedQuestIDs": 50,
+      "selectedIDsInSavedCaptures": 0,
+      "basis": "Fresh310savedstates/132IDs alreadytranslated inbase19; selectedIDs excludedbaseline. CurrentownID/title verifiedperselectedsource, nocurrentliveplaytest. Noaccount/character/substituteddialogueexport."
+    }
+  },
+  "tests": {
+    "originalLinguisticLint": {
+      "actualCall": true,
+      "issues": []
+    },
+    "originalValidateFields": {
+      "actualCall": true,
+      "quests": 12,
+      "result": "PASS"
+    },
+    "verifyWorkersActual": {
+      "result": "PASS",
+      "checkedAtUTC": "2026-11-23T20:49:37.375432+00:00",
+      "partitions": {
+        "early_routes": {
+          "result": "PASS",
+          "questIDs": 12,
+          "sourcedFields": 50,
+          "enabledFields": 45,
+          "holds": [
+            {
+              "id": 79363,
+              "field": "objective",
+              "reason": "Objective narrative, installed and 60/UA say7 Night Blades/7 Enchanters; actual current objective table says7 Night Blade/2 Enchanter. Hold objective until live resolution. Same own-ID eligibility caveat as79362."
+            },
+            {
+              "id": 78307,
+              "field": "detail",
+              "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+            },
+            {
+              "id": 78307,
+              "field": "objective",
+              "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID."
+            },
+            {
+              "id": 78270,
+              "field": "detail",
+              "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+            },
+            {
+              "id": 78270,
+              "field": "objective",
+              "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement."
+            }
+          ],
+          "reviewGroups": 2,
+          "additionalActualSourceVariants": 0,
+          "allWorkerJSONSHA256": {
+            "annotation-exceptions.json": "6c59e3fa07456dba87c47fa0f8bc3b8857b09b8eb98870f2d7deaab19ebd1cf0",
+            "author-summary.json": "b1c1ec2cc612b1c8f04b86b9d58e18f9521b059891f3ccdf4fcad36b8f49cf34",
+            "comparison-provenance.json": "8365a55d12369e800e15f62e4bd4e3b12294177922d0b33e94eb0809ebf71c75",
+            "deepl-index-01.json": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+            "deepl-index-02.json": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+            "deepl-request-01.json": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+            "deepl-request-02.json": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+            "deepl-response-01.json": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+            "deepl-response-02.json": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+            "draft-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+            "draft-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+            "edited-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+            "edited-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+            "edited.json": "258023a98e7ee057b7e24f3ff4c47998ec39339b85577931d3284dc04fed4798",
+            "english-sources.json": "6926b8db12835b60a5cea5b6fe29c55ac8891553bcc938d98f78f1501d4e6794",
+            "fetched.json": "7f7b160f5cb1cb16545d90005dfc3142c9fca2a52d8d3d50679c37943217c37c",
+            "frozen-artifact-hashes.json": "2e6dff418d4aa7dc37fa2e546af96c26ebbfce7daefff39bd1c83ca749b05feb",
+            "held-fields-group1.json": "eeb93889c27382b103166d99305e22586cfa7bce719de87ca08f3783470e731b",
+            "held-fields-group2.json": "62fbc711a0fd71ebd289368576414833b3f45e02e7d38cef337ef5ecd1888699",
+            "held-fields.json": "45128b46e934dc3619ce791b92b2867f87fc795647a040d819da7e9b9827ae5d",
+            "pronunciation-review-status.json": "3ae99da8dae44990055329f38d84cf28eec02ce5d576eb9fac02281a71effc51",
+            "pronunciations-group1.json": "db2c07896b9545b13ddaa7f365282c7b65157ddeee3309636f1660c0f89d5aec",
+            "pronunciations-group2.json": "b617db4f21b85c6c01c23b13ac269400ea7a1cc82fec9112bd74691c911ef65a",
+            "pronunciations.json": "4740d6348a66b4e40ecb0f69bccfb072ceeecff20a5f5e637d010e1d824a0348",
+            "provenance-group1.json": "d3750539f303eb3d277761721af3263bfc6cfcd7c44677174cf8646ea3d52e64",
+            "provenance-group2.json": "b8b79f4e872fa974c57bcfe5f1083773a02c7d04f9f790c8faf87a9ae8b8c919",
+            "review-audit-group1.json": "0d27465e5911b0b1174e5dd3e63f63cc881c9dc082e057cd2d00d166da0dae73",
+            "review-audit-group2.json": "c8e43143253fd04f45b8896a09334bfd2bcde8b6ec9488ba6dd442b62852bbd6",
+            "review-audit.json": "5b2da7d55aff425496dac2c371a82796cab4becbb2ea76eb2e2e12b07e44e87f",
+            "review-groups.json": "ece00dd233f0bb2103461bb694c05a13d96d148bfe5ca35dafaeed2fa74eb442",
+            "semantic-notes-group1.json": "ad19693525e2a78d9232767251b0f8b1a00cdf6362a1402021975c1f8d6eab67",
+            "semantic-notes-group2.json": "9e8b529987e990938e850a9a603aa49e29717fc05e4fa60d6f4e5e77b97525a3",
+            "source-boundaries.json": "5d9db7622459a5fa20d345873964b6fcc7473c8648079ca249541540f0af7590",
+            "validation-group1.json": "273d5b8bea624e00d42dea34cde61a27dd75fa19f91058c081b6b5d6087a1420",
+            "validation-group2.json": "d23cc047dd68cc4965d98eea4792c3d2e46b5ad60283d016172e07d89c442626",
+            "worker-validation.json": "2a4ff63581c5600175eb4d72d5d55e48f908bfcfee6a2c253df0d7432aee3f9e"
+          },
+          "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+        }
+      },
+      "sourcedFields": 50,
+      "enabledFields": 45
+    },
+    "originalPrimaryReparse": "PASS12quests/60slots",
+    "originalSecondaryReparse": "PASS12savedHTML/60slots",
+    "originalUACatalog": "PASS every variant and all dialogue fields for12 IDs",
+    "rawProvenance": "PASS50 unique actual request/output/index/hash chains,2 calls,27+23 inputs,3649+3561 characters,MY target",
+    "paragraphsMarkersQuantities": "PASS45 enabled fields, semantic target bindings and written conditions separately read",
+    "proposalInMemoryLint": "PASS with only the five proposals and The Horn of Xelthos whole-name dictionary override",
+    "proposalInMemoryValidateFields": "PASS12quests/60slots; exact affected audit hashes updated only in memory",
+    "authorImmutability": "PASS65files before=after;35frozenJSON+24HTML pinned"
+  },
+  "originalFiles": {
+    "directory": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\morning-2026-11-24\\early_routes",
+    "before": {
+      "579-sixty.html": "a4c1599b409a757511df32898e3e88ce471451105734f20f7a1ec8c4ea111338",
+      "579-wowhead.html": "cb491a42c62fc451e881a12c161039a131f4643851242f52eedbe8b0c1e30532",
+      "6681-sixty.html": "5c93f4754685b5d4eb6227cd60a10763757ef36a3a8c266138e672145a33c339",
+      "6681-wowhead.html": "ff9016534250e61e148d8fcbdca40176fc3588fdd3e714d71e4312ba5a2bde7d",
+      "78261-sixty.html": "925775cd60703b72c0a0ba2054b790bd1ce9bc341cabfc6f8f458a07c815c726",
+      "78261-wowhead.html": "18323083b39869e4cecdf8f446f2f8217fae520b5fdc7f9afe5199d4aa16c384",
+      "78270-sixty.html": "9ca5c8f8a554c1927b38c6d4e148ee90a70f95e5394c98ebcba045fe8a771335",
+      "78270-wowhead.html": "1a29608f3f154bda266c53957d1671c28235479d30d4e2348719071a05b76562",
+      "78307-sixty.html": "ee3a77bea6706c468865f12dfc49c29b945f8e9f1bc3b821ea0b933bdea06af8",
+      "78307-wowhead.html": "63b32d60992dd7f11c7dd25b3cd7c06c51c2dd874816a6ea4c1ab7d536f3af11",
+      "79362-sixty.html": "886c50a6e0f954d59ca37a507ac9bd34f514b7975cac6df2ca62ec05deef1132",
+      "79362-wowhead.html": "bb56dfeae18fda4c3b1e43615c8a27dfddb44e3cbf59ef530fd1ce338ac7b0da",
+      "79363-sixty.html": "299e959b1281e55c628c9784e7637174b2c4ab1cb0470867d0c7cb902bf5b938",
+      "79363-wowhead.html": "cfb8733bda2c6a1794b339818522b0ca208b73eb477b8e352bd86d13aa56f877",
+      "960-sixty.html": "2c1c7ca4f0903caa1442c363060aa6e88ca9600a3d8ced85a69b503a15c5d3cc",
+      "960-wowhead.html": "3d755c7366d7b6ff171d4aa77d8a5ef73f5816bbcaef801f2bc5094b4bfbc87c",
+      "961-sixty.html": "ba19c23aa78695de4ee2752b779bf050fffff394c2f592d46834cbc83535e7c6",
+      "961-wowhead.html": "7fd16bf4ca74991bc6e4a30a146945b894a8aa061127402dee5a339f26f19b49",
+      "96137-sixty.html": "00a5fca8e4528c823bae3f90f6ccf36840e0d2ed93b55af36195fac593f24533",
+      "96137-wowhead.html": "8a5f062a9df4a0147caab82631cba30cfce4c75f2aeb7cb16ffc3bd39d912593",
+      "96138-sixty.html": "d8ae91d1d2db1c67c31fb32ea2a3c0c7e2f4c05836497b5eb87b6526dba513b8",
+      "96138-wowhead.html": "82d5a4726d8f7fc6e3232f28cdeb11d3c0e417a011918874a864069d1c2a389f",
+      "96779-sixty.html": "6512d2a80a87ed69fb9be128c93cef79a6382287d4b9254b6068fe994f8e0319",
+      "96779-wowhead.html": "1d457e44aec09c96269d6eaa39a34c6306237e9afc0bcb4ff30515bb36897e96",
+      "annotation-exceptions.json": "6c59e3fa07456dba87c47fa0f8bc3b8857b09b8eb98870f2d7deaab19ebd1cf0",
+      "author-summary.json": "b1c1ec2cc612b1c8f04b86b9d58e18f9521b059891f3ccdf4fcad36b8f49cf34",
+      "checkpoint_group.py": "c1420b5be6f7accd9d8004bac2655a28d6a0f315e0e75452cd2e490ab118e1b2",
+      "comparison-provenance.json": "8365a55d12369e800e15f62e4bd4e3b12294177922d0b33e94eb0809ebf71c75",
+      "deepl-index-01.json": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+      "deepl-index-02.json": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+      "deepl-request-01.json": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+      "deepl-request-02.json": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+      "deepl-response-01.json": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+      "deepl-response-02.json": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+      "draft-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+      "draft-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+      "edited-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+      "edited-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+      "edited.json": "258023a98e7ee057b7e24f3ff4c47998ec39339b85577931d3284dc04fed4798",
+      "edit_group1.py": "f99398bfc99cc47fe40823d1998b7f3dd4fd4eaa2a81039410c051152e156946",
+      "edit_group2.py": "3c7e86ce39b44467b78cfcd69348e859b61f9c07b52b8d240d05c13d06a4c028",
+      "english-sources.json": "6926b8db12835b60a5cea5b6fe29c55ac8891553bcc938d98f78f1501d4e6794",
+      "fetched.json": "7f7b160f5cb1cb16545d90005dfc3142c9fca2a52d8d3d50679c37943217c37c",
+      "finalize.py": "e992d2cd004630c1005d42d8e0e643f095315a6457651a717ca9b3cad3d9605c",
+      "frozen-artifact-hashes.json": "2e6dff418d4aa7dc37fa2e546af96c26ebbfce7daefff39bd1c83ca749b05feb",
+      "held-fields-group1.json": "eeb93889c27382b103166d99305e22586cfa7bce719de87ca08f3783470e731b",
+      "held-fields-group2.json": "62fbc711a0fd71ebd289368576414833b3f45e02e7d38cef337ef5ecd1888699",
+      "held-fields.json": "45128b46e934dc3619ce791b92b2867f87fc795647a040d819da7e9b9827ae5d",
+      "prepare.py": "39649235e0857cf29fd7adba83dc91692a97ccd77031b928d3914bba9d4d313d",
+      "pronunciation-review-status.json": "3ae99da8dae44990055329f38d84cf28eec02ce5d576eb9fac02281a71effc51",
+      "pronunciations-group1.json": "db2c07896b9545b13ddaa7f365282c7b65157ddeee3309636f1660c0f89d5aec",
+      "pronunciations-group2.json": "b617db4f21b85c6c01c23b13ac269400ea7a1cc82fec9112bd74691c911ef65a",
+      "pronunciations.json": "4740d6348a66b4e40ecb0f69bccfb072ceeecff20a5f5e637d010e1d824a0348",
+      "provenance-group1.json": "d3750539f303eb3d277761721af3263bfc6cfcd7c44677174cf8646ea3d52e64",
+      "provenance-group2.json": "b8b79f4e872fa974c57bcfe5f1083773a02c7d04f9f790c8faf87a9ae8b8c919",
+      "review-audit-group1.json": "0d27465e5911b0b1174e5dd3e63f63cc881c9dc082e057cd2d00d166da0dae73",
+      "review-audit-group2.json": "c8e43143253fd04f45b8896a09334bfd2bcde8b6ec9488ba6dd442b62852bbd6",
+      "review-audit.json": "5b2da7d55aff425496dac2c371a82796cab4becbb2ea76eb2e2e12b07e44e87f",
+      "review-groups.json": "ece00dd233f0bb2103461bb694c05a13d96d148bfe5ca35dafaeed2fa74eb442",
+      "semantic-notes-group1.json": "ad19693525e2a78d9232767251b0f8b1a00cdf6362a1402021975c1f8d6eab67",
+      "semantic-notes-group2.json": "9e8b529987e990938e850a9a603aa49e29717fc05e4fa60d6f4e5e77b97525a3",
+      "source-boundaries.json": "5d9db7622459a5fa20d345873964b6fcc7473c8648079ca249541540f0af7590",
+      "validation-group1.json": "273d5b8bea624e00d42dea34cde61a27dd75fa19f91058c081b6b5d6087a1420",
+      "validation-group2.json": "d23cc047dd68cc4965d98eea4792c3d2e46b5ad60283d016172e07d89c442626",
+      "worker-validation.json": "2a4ff63581c5600175eb4d72d5d55e48f908bfcfee6a2c253df0d7432aee3f9e"
+    },
+    "after": {
+      "579-sixty.html": "a4c1599b409a757511df32898e3e88ce471451105734f20f7a1ec8c4ea111338",
+      "579-wowhead.html": "cb491a42c62fc451e881a12c161039a131f4643851242f52eedbe8b0c1e30532",
+      "6681-sixty.html": "5c93f4754685b5d4eb6227cd60a10763757ef36a3a8c266138e672145a33c339",
+      "6681-wowhead.html": "ff9016534250e61e148d8fcbdca40176fc3588fdd3e714d71e4312ba5a2bde7d",
+      "78261-sixty.html": "925775cd60703b72c0a0ba2054b790bd1ce9bc341cabfc6f8f458a07c815c726",
+      "78261-wowhead.html": "18323083b39869e4cecdf8f446f2f8217fae520b5fdc7f9afe5199d4aa16c384",
+      "78270-sixty.html": "9ca5c8f8a554c1927b38c6d4e148ee90a70f95e5394c98ebcba045fe8a771335",
+      "78270-wowhead.html": "1a29608f3f154bda266c53957d1671c28235479d30d4e2348719071a05b76562",
+      "78307-sixty.html": "ee3a77bea6706c468865f12dfc49c29b945f8e9f1bc3b821ea0b933bdea06af8",
+      "78307-wowhead.html": "63b32d60992dd7f11c7dd25b3cd7c06c51c2dd874816a6ea4c1ab7d536f3af11",
+      "79362-sixty.html": "886c50a6e0f954d59ca37a507ac9bd34f514b7975cac6df2ca62ec05deef1132",
+      "79362-wowhead.html": "bb56dfeae18fda4c3b1e43615c8a27dfddb44e3cbf59ef530fd1ce338ac7b0da",
+      "79363-sixty.html": "299e959b1281e55c628c9784e7637174b2c4ab1cb0470867d0c7cb902bf5b938",
+      "79363-wowhead.html": "cfb8733bda2c6a1794b339818522b0ca208b73eb477b8e352bd86d13aa56f877",
+      "960-sixty.html": "2c1c7ca4f0903caa1442c363060aa6e88ca9600a3d8ced85a69b503a15c5d3cc",
+      "960-wowhead.html": "3d755c7366d7b6ff171d4aa77d8a5ef73f5816bbcaef801f2bc5094b4bfbc87c",
+      "961-sixty.html": "ba19c23aa78695de4ee2752b779bf050fffff394c2f592d46834cbc83535e7c6",
+      "961-wowhead.html": "7fd16bf4ca74991bc6e4a30a146945b894a8aa061127402dee5a339f26f19b49",
+      "96137-sixty.html": "00a5fca8e4528c823bae3f90f6ccf36840e0d2ed93b55af36195fac593f24533",
+      "96137-wowhead.html": "8a5f062a9df4a0147caab82631cba30cfce4c75f2aeb7cb16ffc3bd39d912593",
+      "96138-sixty.html": "d8ae91d1d2db1c67c31fb32ea2a3c0c7e2f4c05836497b5eb87b6526dba513b8",
+      "96138-wowhead.html": "82d5a4726d8f7fc6e3232f28cdeb11d3c0e417a011918874a864069d1c2a389f",
+      "96779-sixty.html": "6512d2a80a87ed69fb9be128c93cef79a6382287d4b9254b6068fe994f8e0319",
+      "96779-wowhead.html": "1d457e44aec09c96269d6eaa39a34c6306237e9afc0bcb4ff30515bb36897e96",
+      "annotation-exceptions.json": "6c59e3fa07456dba87c47fa0f8bc3b8857b09b8eb98870f2d7deaab19ebd1cf0",
+      "author-summary.json": "b1c1ec2cc612b1c8f04b86b9d58e18f9521b059891f3ccdf4fcad36b8f49cf34",
+      "checkpoint_group.py": "c1420b5be6f7accd9d8004bac2655a28d6a0f315e0e75452cd2e490ab118e1b2",
+      "comparison-provenance.json": "8365a55d12369e800e15f62e4bd4e3b12294177922d0b33e94eb0809ebf71c75",
+      "deepl-index-01.json": "9d3ea6bc1aba2d3edf6322efda50184bcf5b248f74bb4b9c9d568e234709edab",
+      "deepl-index-02.json": "422079aa1a227d099a346c72b48ae56b005145d1463d408229db4f34b0030064",
+      "deepl-request-01.json": "7410ac2f86a4443e8bfdcc39690ff0cb1724f9804e457a281aeec75a231322ae",
+      "deepl-request-02.json": "28c630def20e405607dce5d55459b5c82e7cd68305f23d449dfc5e311e567a2d",
+      "deepl-response-01.json": "8763a65a5a648a35773816c119dddc144089c5a06c494cf47222d25830bfbbad",
+      "deepl-response-02.json": "5bd517df1dea5179a1853b5411b34e55e8fc387e1f2192cb4a0fce7ad5420aaf",
+      "draft-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+      "draft-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+      "edited-group1.json": "7af90f4798007a2f9e2f8dbbebc9e12138003f0c7c8629bad06c9ca3626ee238",
+      "edited-group2.json": "f96089f381605d1498384bd52ceed51990b704c6d26a10e287f8d7b17ea10c74",
+      "edited.json": "258023a98e7ee057b7e24f3ff4c47998ec39339b85577931d3284dc04fed4798",
+      "edit_group1.py": "f99398bfc99cc47fe40823d1998b7f3dd4fd4eaa2a81039410c051152e156946",
+      "edit_group2.py": "3c7e86ce39b44467b78cfcd69348e859b61f9c07b52b8d240d05c13d06a4c028",
+      "english-sources.json": "6926b8db12835b60a5cea5b6fe29c55ac8891553bcc938d98f78f1501d4e6794",
+      "fetched.json": "7f7b160f5cb1cb16545d90005dfc3142c9fca2a52d8d3d50679c37943217c37c",
+      "finalize.py": "e992d2cd004630c1005d42d8e0e643f095315a6457651a717ca9b3cad3d9605c",
+      "frozen-artifact-hashes.json": "2e6dff418d4aa7dc37fa2e546af96c26ebbfce7daefff39bd1c83ca749b05feb",
+      "held-fields-group1.json": "eeb93889c27382b103166d99305e22586cfa7bce719de87ca08f3783470e731b",
+      "held-fields-group2.json": "62fbc711a0fd71ebd289368576414833b3f45e02e7d38cef337ef5ecd1888699",
+      "held-fields.json": "45128b46e934dc3619ce791b92b2867f87fc795647a040d819da7e9b9827ae5d",
+      "prepare.py": "39649235e0857cf29fd7adba83dc91692a97ccd77031b928d3914bba9d4d313d",
+      "pronunciation-review-status.json": "3ae99da8dae44990055329f38d84cf28eec02ce5d576eb9fac02281a71effc51",
+      "pronunciations-group1.json": "db2c07896b9545b13ddaa7f365282c7b65157ddeee3309636f1660c0f89d5aec",
+      "pronunciations-group2.json": "b617db4f21b85c6c01c23b13ac269400ea7a1cc82fec9112bd74691c911ef65a",
+      "pronunciations.json": "4740d6348a66b4e40ecb0f69bccfb072ceeecff20a5f5e637d010e1d824a0348",
+      "provenance-group1.json": "d3750539f303eb3d277761721af3263bfc6cfcd7c44677174cf8646ea3d52e64",
+      "provenance-group2.json": "b8b79f4e872fa974c57bcfe5f1083773a02c7d04f9f790c8faf87a9ae8b8c919",
+      "review-audit-group1.json": "0d27465e5911b0b1174e5dd3e63f63cc881c9dc082e057cd2d00d166da0dae73",
+      "review-audit-group2.json": "c8e43143253fd04f45b8896a09334bfd2bcde8b6ec9488ba6dd442b62852bbd6",
+      "review-audit.json": "5b2da7d55aff425496dac2c371a82796cab4becbb2ea76eb2e2e12b07e44e87f",
+      "review-groups.json": "ece00dd233f0bb2103461bb694c05a13d96d148bfe5ca35dafaeed2fa74eb442",
+      "semantic-notes-group1.json": "ad19693525e2a78d9232767251b0f8b1a00cdf6362a1402021975c1f8d6eab67",
+      "semantic-notes-group2.json": "9e8b529987e990938e850a9a603aa49e29717fc05e4fa60d6f4e5e77b97525a3",
+      "source-boundaries.json": "5d9db7622459a5fa20d345873964b6fcc7473c8648079ca249541540f0af7590",
+      "validation-group1.json": "273d5b8bea624e00d42dea34cde61a27dd75fa19f91058c081b6b5d6087a1420",
+      "validation-group2.json": "d23cc047dd68cc4965d98eea4792c3d2e46b5ad60283d016172e07d89c442626",
+      "worker-validation.json": "2a4ff63581c5600175eb4d72d5d55e48f908bfcfee6a2c253df0d7432aee3f9e"
+    },
+    "unchanged": true,
+    "frozenManifestSHA256": "2e6dff418d4aa7dc37fa2e546af96c26ebbfce7daefff39bd1c83ca749b05feb"
+  },
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciations": "assisted proposals pending native phonetic approval",
+    "currentLiveForeverVerification": "not performed",
+    "controllerHardwareVerification": "not performed",
+    "correctionReview": "Root must accept exact five guarded fields, apply to separate candidate, and repeat affected source/translation checks before final PASS.",
+    "note": "This assisted source review does not certify native proofreading or current live playtesting."
+  },
+  "frozen": true
+}

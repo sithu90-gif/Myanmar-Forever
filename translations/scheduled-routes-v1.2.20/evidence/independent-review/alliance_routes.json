@@ -1,0 +1,1999 @@
+{
+  "result": "PASS",
+  "partition": "alliance_routes",
+  "reviewType": "Fresh independent assisted source-aware paired English/Myanmar review of frozen author artifacts",
+  "reviewedAtUTC": "2026-11-23T20:56:22.184890+00:00",
+  "reviewedEditedFileSHA256": "6e222013aead0091713aef59e552a54dab85d52e0c1feb3e17149eebc39a9f35",
+  "reviewedFrozenManifestSHA256": "c07b349b76d6c82497a32901561025adb32786294e6ef41917cec00899529d6a",
+  "counts": {
+    "quests": 20,
+    "connectedGroups": 2,
+    "slotsReviewed": 100,
+    "availableEnglishFields": 94,
+    "actualDeepLProvenanceChains": 94,
+    "enabledMyanmarFields": 93,
+    "sourceAbsentNulls": 6,
+    "existingHeldFields": 1,
+    "newHoldProposals": 0,
+    "textIssues": 0,
+    "pronunciationConflicts": 0,
+    "evidenceIssues": 0,
+    "primaryAndSecondaryHTMLReviewed": 40,
+    "maintainedTerms": 4529,
+    "partitionTerms": 79,
+    "exactMaintainedTerms": 44,
+    "newPhoneticProposalsPendingNative": 35
+  },
+  "reviewGroups": [
+    {
+      "group": 1,
+      "ids": [
+        1022,
+        1037,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1043,
+        1044,
+        4581
+      ],
+      "allFiveSlotsRead": true,
+      "pairedEnglishMyanmarReview": "PASS",
+      "result": "PASS"
+    },
+    {
+      "group": 2,
+      "ids": [
+        464,
+        98221,
+        465,
+        474,
+        98223,
+        98246,
+        98291,
+        98293,
+        98297,
+        98209
+      ],
+      "allFiveSlotsRead": true,
+      "pairedEnglishMyanmarReview": "PASS",
+      "result": "PASS"
+    }
+  ],
+  "quests": [
+    {
+      "id": 1022,
+      "en": "The Howling Vale",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Northern Felwood-border ruined shrine, wolf-men and possible explanatory Tome preserved. Progress describes blessed pages rather than an ordinary book; completion calls for further Scythe investigation. Objective stays null because Shrine of Aessina conflicts with installed Forest Song. Other fields do not state that return location.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "f0aa8b6afea2f81feda49f92465ffb17934c492aa839219312d0d9783531de66",
+          "reviewedMyanmarSHA256": "d8f0c3bf871ee0ce298ca93783a3153adc813f381fcfec499265b36f150309a8",
+          "rawDeepLSHA256": "0ba05a7c4738849e30e0f49e3fb7e1bbc8b296f6d2d280efe6c27f6a94c58868",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "83bac4909d4593e25c6d75d6c676437c8f2c1737b612d78ea646bc19a00b3c80",
+          "reviewedMyanmarSHA256": "e4d6b01cb79271fe08e70ca61cb70c4d4b886be14c3c02606a059ee77ec103a4",
+          "rawDeepLSHA256": "0423fa879cd7ab4444a95ea210d2e1c74eb18f900dcd1ea3e5b7fe8490d1f28a",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "held",
+          "englishSHA256": "5143d91e2e7f572a04452bab3793929f225821e6c684c85621cf5fb98ecc0089",
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": "139ee49b37febe5b9a8fbddf969a1c8a52cb1005f296df9b5cb53f36cdb76862",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "e98ed1a7c341ba44aae7c2e249f14cbaae90623db0c1e1690e64cadffdef3be8",
+          "reviewedMyanmarSHA256": "877d187912f3f39556207813b4f31c1794fa169f420ed8f5d86a27160f51d357",
+          "rawDeepLSHA256": "a38b55f253d9d9f82e88bf665b59779b8873a1d488df768122354a072c4a03ab",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "c4d33d7381c97fc4f8a01ada7fdd0469a8a2208d5d20735b8f91bcfbcd09106c",
+          "reviewedMyanmarSHA256": "5736e268559ca0d0596d1e802c60e669ab28a2627c76a503a7fa1edeab1f3c57",
+          "rawDeepLSHA256": "da735c33c51f92ed0a059f1768e57056e1918c926ae896052bdaa65ab755ff67",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1022,
+        "name": "The Howling Vale",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "The Howling Vale",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "The Howling Vale"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "f7d030e05e4fe3e51f51117114ac3acefc16961c8092205b17599448b2fe33e8",
+      "secondaryHTMLSHA256": "9363741c0a7349bb227b7659331d707f14558201fa1bf1f06dab41670fa2a374"
+    },
+    {
+      "id": 1037,
+      "en": "Velinde Starsong",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Predecessor, gradually failing efforts, disappearance and the speaker's lack of knowledge remain qualified. Melyria to Thyn'tel at Warrior's Terrace in Darnassus is the distinct next stage. No fabricated Progress.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "36d680e818dfc7da8ec310bd13c060cef19fbe9eac16faed98552436642300b7",
+          "reviewedMyanmarSHA256": "cd215c8711d3643c65371d9e7570dcea0a13d8136ac1964820bf56e97be1d4a9",
+          "rawDeepLSHA256": "3a515097e4cbd8515ce227e22f9663fe81afdb7c36c25fd10e11646d20025e31",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "2e40aea69bf40e7e2f72c25991a266688812b99223cebe94f09079338a11206e",
+          "reviewedMyanmarSHA256": "da8e95e5248d66f67fc954bc3af9419927e8d881403ebce153975f55985a8087",
+          "rawDeepLSHA256": "c75ab8b0f1cba59772a78ce161ddb4ed9334619a3ae971b69ca00e890ad519d6",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "b4ff5c4197368fb97804202bf632825cec48349974b75ea7a1bb034045f51471",
+          "reviewedMyanmarSHA256": "360f0b21282deca99d19bccd476dbf8011d0b9d8194b33e4141841262e57fa9f",
+          "rawDeepLSHA256": "318b096f425a7e61cf371fa1837816a53a7df25afb4f1f90add4787172075fd4",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "06ab8e1191d6b44c1bf992ce5262810349e931fd1a6962cdf478830786b38e94",
+          "reviewedMyanmarSHA256": "6e72a6a955c7c16eab67d9ba5de91c9f8e4cfcdbe950afb95da6dd701ec5a061",
+          "rawDeepLSHA256": "239b04fdba3c9bba7ec8103ebdae9371a707952c4281b7d057f92300a60636e4",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1037,
+        "name": "Velinde Starsong",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Velinde Starsong",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Velinde Starsong"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "48052c8baac3f3c93ada204ab44a32f7f25821e8844bed07c4a166e7adbc6a1c",
+      "secondaryHTMLSHA256": "d20c8e008acf44112f462abf1e02fab922cd97a408c4539f4063f45ec01e19ad"
+    },
+    {
+      "id": 1038,
+      "en": "Velinde's Effects",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Effects correctly means personal belongings. Chest in Sentinels' bunkhouse, journal AND key return, reasons for departure, possible return, earned trust, and disbelief in a bad end remain distinct.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "3b259d3eafcd41c0082af3d84b438dd7d96f45d2b7942aa30f5c680f89d22d70",
+          "reviewedMyanmarSHA256": "2160576fd5b4c2cedbd67f037a10c87f57a915211142696bf92108c4ec952a79",
+          "rawDeepLSHA256": "823c431851656e1b18cd809f6bd7dcba8467865bb7eaf341db542493b6755ff7",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "509ee013c342b243999d636d442a89603bbe513db48e2765dc90d36280a26167",
+          "reviewedMyanmarSHA256": "a0d94e29c91305bf08768fe6882efe506695b00f363819e31036d204761b0c02",
+          "rawDeepLSHA256": "3f1dfad7471683fce4f6c9e8f961cd534f3be48bacd066d5f43f3ecb5a4ca253",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "88ec3b16dbbc2d5ef9fd8bff0729f115708b4ddc53a5e7e4ca8c1928f4c1375e",
+          "reviewedMyanmarSHA256": "023a9ae3efa06fd3dbb6a11b9638115b4f51ca07c0e8a66093e525f0fbd77dea",
+          "rawDeepLSHA256": "9001ec59810e5cfffc04053ca6dfef240318d3a278d293c65f2f45294742a16e",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "94c670bd7d2698c6283624aaaa32b29d40db6e1b776663637f64fd45bb1e2955",
+          "reviewedMyanmarSHA256": "50683f1d7f4cf52af5dc2ebc94c5c22ad30868a66efb55155ead8db1754695f4",
+          "rawDeepLSHA256": "c0e47ef24d9326aa93704dc3566dfda2e6ca8f94328bc5b05d07a6e38e1696e3",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "a34b14ffb77d066a8b2165b83f2669e6e11c607379acb51771c0d0b5bf45d43c",
+          "reviewedMyanmarSHA256": "4414fa3d8a0aead357c30278dc7f870d8ee1fea39a824360e466da5246484256",
+          "rawDeepLSHA256": "a485935b35a5ea5f232fcc5a694cd1fbd00a248f100358183fd66126dd7761a7",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1038,
+        "name": "Velinde's Effects",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Velinde's Effects",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Velinde's Effects"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "359131921c84ab57ebcb30ee3912251525620547a57033e6b84e05feeb795c65",
+      "secondaryHTMLSHA256": "00d064cb82e9b21e2d00d4ad2e697f6f0a652e8f7a5c2b3a0c856979b298d62a"
+    },
+    {
+      "id": 1039,
+      "en": "The Barrens Port",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Ratchet is the only Barrens port. Trading-vessel explanation remains probable; southeast road through Ashenvale, Horde patrol danger and port safety preserved. Dizzywig is the recipient; race/name markers retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "473dfbc979282419ac9257a76a08af340ce43484bea20e9cc13a737b8d7a9822",
+          "reviewedMyanmarSHA256": "9452d019490924823a5fec4382161a365a8ad05cf5d94ceecd42574768f32298",
+          "rawDeepLSHA256": "bf68f4e83f797b86f82ce46706d0dc28b8e576a63e386a7c266697ae13f99ba0",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "b44dbba1c52f0becc0265c3901801fe3459309b6c60717c95596ef91f66d9e3e",
+          "reviewedMyanmarSHA256": "e265705fe17d0c932d3c2671c8a5a4d890cf41c1f397e0ef63c4d136536b6e97",
+          "rawDeepLSHA256": "b3747849f4f812e4b5c5e9159ba89b2dd35f3cf9117acc2b3668b53fe597fab3",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "967c6cfd82da359038804b08ce63ca8996cdaeb47b0bcb852c4380997251c9ef",
+          "reviewedMyanmarSHA256": "57b0b33caf05986605df2f78af65acaaaa4edcb81ff97a9f25e80e5767411c89",
+          "rawDeepLSHA256": "831818236581d007598ddf0e7d0a25059dec45806b8b8b857bc39eb281a5d1c2",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "44e324e0b2a6c8f66836e2fe769b7267b503b99578e5f4867202ab7f48b36ee2",
+          "reviewedMyanmarSHA256": "68bd0fc8566c8a2fa9b3b8a516604f66911a1482e635b44d66a77c7c51c9c517",
+          "rawDeepLSHA256": "9b32dda934d23ce5a521c8521b69b56532d4155da5156e4396b031435dc86b43",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1039,
+        "name": "The Barrens Port",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "The Barrens Port",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "The Barrens Port"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "eafd92974997f7ed3e8ea2b220f2c94cb307aff36fc18a5233bd9c240f8d7397",
+      "secondaryHTMLSHA256": "39f8733847d425c9a7f0e8b9f4f07ebad75a1c4f63aeeb400b0bc91e68717314"
+    },
+    {
+      "id": 1040,
+      "en": "Passage to Booty Bay",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Old passage on Black Osprey and the lack of contrary ledger evidence support presumed safe arrival. Ruzzgot travel remains possible. Boat to Booty Bay and Caravaneer recipient preserved; impatient goblin voice retained. English long ago correctly controls over UA recently.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "782ff8b45d1fbbdbdc63532983c9b08fe6deb709fe9e0fdf01b5820bcdeaff0a",
+          "reviewedMyanmarSHA256": "812ab1e1360b17d9e076b86fcf9d9cc79c3a96af8e8354a598c243b380d41900",
+          "rawDeepLSHA256": "35d625939708c08c53176c21b6dfd3cd2d4732d0d11189acdbd0e2110d42f78d",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "ed6034ca8d45b6bce36d679bc904ca1d6fc0e21f3a6e3a1f0da0d530ae51e39f",
+          "reviewedMyanmarSHA256": "88245e325f2914354843006e28bbf33be9abdc26cb2db021afba1209819f5596",
+          "rawDeepLSHA256": "27fffd91bfa3da65a3972f5a2b9ab0a186c8a93bb0fa8c2ff40ab967bec51dd1",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "006fe81e3964bfee151663712635bff75bfb48075ab7b414909932018fc5f95c",
+          "reviewedMyanmarSHA256": "a8188a63479c89003596c6410a776873823b6f27ae9c83964776fb2d0cd830da",
+          "rawDeepLSHA256": "7581483bc36d06588fcea41d2ef3f019d874ad7a71f36b339a121ffda2f7af33",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "aeeddf151cb33d05eaf557988455329a32f1bf13de3c933e52ca1ad646ce255c",
+          "reviewedMyanmarSHA256": "deadbddc457661f3afaedaef8c7b83926348e23046202a3d62de05b8a5c093b2",
+          "rawDeepLSHA256": "58ea31d2953f5cefd1c58a592cd8835c0c3a9bfa5b06a8f07e742abe295b0821",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 21,
+          "responseIndex": 21,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1040,
+        "name": "Passage to Booty Bay",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Passage to Booty Bay",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Passage to Booty Bay"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "432e17591f6d3f579ba081b8ec8faa1b5db5b85f04a5f8f0095df8b09598026f",
+      "secondaryHTMLSHA256": "f8f7333f032cb4c7d7272049ad1d0e69a42a4f6400e1dd247e01a620eb68e2b9"
+    },
+    {
+      "id": 1041,
+      "en": "The Caravan Road",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Caravan self-advertising aside, night elf priestess, northward split, Darkshire records clerk, jungle warning and qualified possible useful knowledge retained. Clerk Daltry, not Jonathan or Thyn'tel, receives this stage.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "dfd8256c38343aaaa5df2d88e6c75e96c17972571d269ac2c76acb0abf3d6115",
+          "reviewedMyanmarSHA256": "0d11311b9820e71372daeb1cb567445199315ea1cc22adf5d29e9eca0e7982e7",
+          "rawDeepLSHA256": "9059fccbcab5ea12727d018869a6381993bae121a3b5345d6afaa47a5f6722c4",
+          "rawRequestFile": "deepl-request-01.json",
+          "rawResponseFile": "deepl-response-01.json",
+          "requestIndex": 22,
+          "responseIndex": 22,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "7108c3ff657f2b296c94a08bfdf9f03f74af9b4b6c3f1c8e26550e8d0d2d10bd",
+          "reviewedMyanmarSHA256": "ca22860a84e22fd621bccade666ea2cd2af64da1ad5048f996f1ad5f51502072",
+          "rawDeepLSHA256": "e41680b3518081e627407ff632816390eebc638664b97c2824bb32a50da1afae",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "1881f511ccda7b97b68ef8cad9c714d0659263cbc6e9c93300348d993d1e8b0b",
+          "reviewedMyanmarSHA256": "1f794ccfa866600da0e035a07b4ef0427f2b22549e8bf6c9b8f729b95ebcf690",
+          "rawDeepLSHA256": "95f8dd2120cb2874849fed952b8019f7a1f0c25115d0175f597c607e0ff547a8",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "f4cdbc37e650d518ada02b1613376107b281f34cf0bfe92e58397070bf838503",
+          "reviewedMyanmarSHA256": "3733e11b9590bbb85315d58a13116df923f4e7c4b68043a2b75241e20e5d4ff9",
+          "rawDeepLSHA256": "39ffbd46d258d2be6d49cdcef467f886bc57f10b7791a1606e40ae229ca35a76",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1041,
+        "name": "The Caravan Road",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "The Caravan Road",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "The Caravan Road"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "d4f637552561df27d5a4c6ed52a235a97bc6cb55aab617a9f0a8dfde0c29fd04",
+      "secondaryHTMLSHA256": "1cf2d8fa555ab344c5a7760f433961851b511ac20a3c1dacde17a647edd025ee"
+    },
+    {
+      "id": 1042,
+      "en": "The Carevin Family",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Daltry has no lodging record. Wolf-men, Calor's string of heads and Carevin family hunters preserved. Jonathan refuses to ask forgiveness for suspicion and demands answers; the hostile voice is not reversed.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "b607077754aaeb70996c543bcae361f1739833197a177a9d6959e87d97fa5960",
+          "reviewedMyanmarSHA256": "bef168b1c41c532f53c8a72387303238763800080ad3b52307a924a43034a6c8",
+          "rawDeepLSHA256": "43d558a4af28ca45610fb39459d6bee807d522f3f1af0c141b67fab917bc265f",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "b994365df4ff28731ce397a8b912ffcb99597f192b366edb93cdbfdfbb2816b7",
+          "reviewedMyanmarSHA256": "56eb0ebc5d34f528e33c93c71710cc53e726a79688972dbb4d473879e76e1334",
+          "rawDeepLSHA256": "8ac0074457d4bd610ab50584764c025790569d46e204c042983896855fd500ee",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "2060523ba0a3c5a824d00743461dd2b54e7e91bcb2921bbb5368b469a39fe8a2",
+          "reviewedMyanmarSHA256": "939f533c10e5ee3b86aacb752f2c52014c1f0b943afc1d772a2acfd64b96bf83",
+          "rawDeepLSHA256": "65e8fff12c62596bf67ea0d26e24c4a7f8eded46aabcdc83df2c11f3937ef466",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "d7c76bad80ed48435e4e404853033882ea3b11e19e6345cfccc4bc9aa3b5920e",
+          "reviewedMyanmarSHA256": "919fb5a5cb7c2c621e4655df5a253f32b0941ba6b71644415fa8837e7bdbba1c",
+          "rawDeepLSHA256": "f48741a27518f91823201ba3223f0d563fb27d89de668c9651c90aaa5d88915f",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1042,
+        "name": "The Carevin Family",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "The Carevin Family",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "The Carevin Family"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "714c4bbb89874e8310ba67d84e5dd2deebbd73a9c090a43a671fc87e86e201fb",
+      "secondaryHTMLSHA256": "fb7e9f5928849ba75226f493659d1c6efabb7d30335d5d2d8c2d545cf6afac7c"
+    },
+    {
+      "id": 1043,
+      "en": "The Scythe of Elune",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "True-sounding story, incomplete motive understanding, results over understanding, south mine and qualified first-known appearance retained. Evidence search returns to Jonathan; danger warning and limited containment effort, rather than a promised universal cure, preserved.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "5282eb15a74d36d40b6cb846efbaaadbda9d57baf3bebfc0f032de8a314539d4",
+          "reviewedMyanmarSHA256": "54de3450e9618edb6c7b0cbf0db854f23c57be252d2e988e32179ead9747c1f8",
+          "rawDeepLSHA256": "0d3923fba613f899e4cefcb97b328261a02eafba7b44d81e14f342cb0544f679",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "f190a6d762231b657ad1fb5e0c9fc2fcaeedcc322423da80ecd60aa44e1e1a22",
+          "reviewedMyanmarSHA256": "74a2dff718b99e63d8798c166cd63b41e475c17de3535f0aef66f98f96b27853",
+          "rawDeepLSHA256": "8d83a751a6d534404097b80877d18bb28256bbcb531dd94d62e70fe88310c5b1",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "08d9206f8013cc895950abd1b93cbf948fd84fbfcc814f5799cbcc9bc2ede244",
+          "reviewedMyanmarSHA256": "5183f3788dadec8fbc83cd58b4ef6e6bb1eb653e3b30209eda52c9ec2ddca6dd",
+          "rawDeepLSHA256": "13f07a62d8c73d03c12bdef7d58e1f70e2859b6dec45590df3e2ce8f3b868354",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "a8a2500986392681eb5995528b46ccd04984d67112c7bcc3eed6095828a130d3",
+          "reviewedMyanmarSHA256": "5afe016993a7acc11e21f75973ef70f7e43388ee58320bd54dff0af918e29b39",
+          "rawDeepLSHA256": "3c10a0755561494aa1f425d6120739f2a467bbee0234b628629acb646a8725dc",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "e0a7adbc3b2e403735defcc8f212c4cdf657651b0940c66ab3a93053d67cb239",
+          "reviewedMyanmarSHA256": "9285a1614fdbfabb7bb8e881659e4224238492f9ca67b83d564ac8fb898d0d20",
+          "rawDeepLSHA256": "a99a5a27e923057cf878b3c19762acfd12e4eeb30dde28543a6a7fe1d9e7c9af",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1043,
+        "name": "The Scythe of Elune",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "The Scythe of Elune",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "The Scythe of Elune"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "740ef642a48298a15be38b0212f3096275a716166207e520c1fa7be988cf57ee",
+      "secondaryHTMLSHA256": "e07e5b95e5fd7978331e1d8e1842a8ece4ac5881165ecaaa16210ecb49c1e7ac"
+    },
+    {
+      "id": 1044,
+      "en": "Answered Questions",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Jonathan bears no ill will and sends the player to Thyn'tel in Darnassus. High priestess is Velinde's friend and remains distinct from the goddess who bestowed the Scythe. Lost custody, deferred concern and gratitude preserved.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "cd6318adc8ef08bbacd6271da599c3586a1692059fc76926d9fc1ce7dd8d7952",
+          "reviewedMyanmarSHA256": "150a745e12dcdc06ce0c612edafb55a7fd231bc4ba8e1773b25bcace08643248",
+          "rawDeepLSHA256": "65b1109b93ec33a905d9167fe87cecab6e270340c8d1870ef9ad9dd8b007b9dd",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "5f8d6f6a6670e05ee023c74aa53919dae7b3da0c28940766180d46e05c1897ae",
+          "reviewedMyanmarSHA256": "e80fa9ec28501dcbc4c146816c7fdf7987cfd407e0d791a1487901a946195786",
+          "rawDeepLSHA256": "ffa25d3129135cf6bfea5e1a79591ac949a8bc6a8af3c16a4804d738318fe3a9",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "5def2fd8bbb0103545fdca6a3f45af748bd191018e68b92e4a5869474d95c15b",
+          "reviewedMyanmarSHA256": "91e1ba4edbd2c20a24835f1273406b75e2d5453f755bb1a659125209a2a311f4",
+          "rawDeepLSHA256": "afbf4ea370d7fa9b88ff3e00be5bff8c1843fd0d77036edbd8e41594d9212708",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "source absent; null retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "rawDeepLSHA256": null,
+          "rawRequestFile": null,
+          "rawResponseFile": null,
+          "requestIndex": null,
+          "responseIndex": null,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "6695a78e4269e4b592665916a6ab2430d79d055b7cd33897e17bf5964b61fa86",
+          "reviewedMyanmarSHA256": "5a986f9a25d7f493af0f975c0524e53439c03f13c79ee1f50715874876227b24",
+          "rawDeepLSHA256": "0dcdb9ea4cab95a546e3a4cbae079099b3c69160fc7333b73701c37434686c83",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 1044,
+        "name": "Answered Questions",
+        "level": 30,
+        "reqlevel": 25,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Answered Questions",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Answered Questions"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "3f3d3b35697a9ae13786b31c339f1813165ffbfdde984a5874353637054067d8",
+      "secondaryHTMLSHA256": "36834750efc559e1d3ca83b0880af9b1eb697db0f6003ce5a2c1f9f5e15778a8"
+    },
+    {
+      "id": 4581,
+      "en": "Kayneth Stillwind",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Shindrell's report covers the coast and Astranaar forests. Suspected corruption remains uncertain. Kayneth receives the Note at Forest Song in eastern Nightsong Woods; brave/keen sentinel praise retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "704e6ba5f3410aa91023cca46a6fb908012d76d4c7e3f6f8371378c8e896e85c",
+          "reviewedMyanmarSHA256": "902c44032021f5690f21387a7eae1fe322b0c15bb7537f5435ae63e2a5763099",
+          "rawDeepLSHA256": "ec6e953abdb2f6f914cfaf4321f44d8351e5f58c82f4326301e5e5df9e6ac3be",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "a7f50bdc606bb62e8daf533d9cf750423156aac602bd98f7fac502df4daae594",
+          "reviewedMyanmarSHA256": "d66de042c45221990a90828d2c430f28bf821d83c2cc41adfffc54fa4e1be153",
+          "rawDeepLSHA256": "f713e2e9788e4331da82cd834c83c8a914dbe4e3dda3e6b6790973d16379077f",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "12f013bcdf9179232f0d49a34e277c8fcd78cab4c9d25e8bad6f699757246ee1",
+          "reviewedMyanmarSHA256": "f6926c656eb5e21d3765a130b99fa40f2986ca820ebd09f95dd7b2e157b03e13",
+          "rawDeepLSHA256": "aab0a05b3074da912af1f7c48610565e196c4704de5a876ba1a9964a676dae36",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "f328a77523efa1f877c7d0618669c6cf71e990bb5c7ce16f2da7cc74d80b5755",
+          "reviewedMyanmarSHA256": "0b2cb841719200fe66dd0ae3164db73241908bfb5ef5da1819a5af9e1c97f341",
+          "rawDeepLSHA256": "b41a0c53bcbea8074356c5ad65105bd522e8198cf361614de4f9e6a475ec2078",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "d6730a664782e2e3a9bfa77177cdccf83f38dc1407ecab87c3fb6c96cf0947ac",
+          "reviewedMyanmarSHA256": "db380423f8edf4f98d4d11a9adb07cca3094461941143ca416ad3471dbd6fcbb",
+          "rawDeepLSHA256": "35c216709449786a2665fbf82ce914cded1dbfe258e1f2c2b1d70bac8d295336",
+          "rawRequestFile": "deepl-request-02.json",
+          "rawResponseFile": "deepl-response-02.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 4581,
+        "name": "Kayneth Stillwind",
+        "level": 29,
+        "reqlevel": 24,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Kayneth Stillwind",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Kayneth Stillwind"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "a1f46f2770ffc8fb1576182d61a0650a77fd118bf24ba502426cc411cd5bd902",
+      "secondaryHTMLSHA256": "d5291881fd7e4e7550ec3b00e2fd266b034b795c72a455984b937b4cf00c7d22"
+    },
+    {
+      "id": 464,
+      "en": "War Banners",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Near destruction rather than total annihilation, red-dragon retaliation, east of Whelgar's Excavation and northeast of Menethil preserved. Eight banners; Nek'rosh the son and Nekros the slain father remain distinct. Exclusion473 remains metadata, not an invented live claim.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "6bdf30b0af4d0381785622ee02d52264f851f3e650678ad257c1aebd1f292452",
+          "reviewedMyanmarSHA256": "f6f9cf851b92f220959b8a35e41a768ac69f74f9c9868f49b99eecc0f2fb82bb",
+          "rawDeepLSHA256": "f6f9cf851b92f220959b8a35e41a768ac69f74f9c9868f49b99eecc0f2fb82bb",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "104a8470dd5c42aa9509ed546181f59f689a7225ab839570c41a9a7020ea2b8b",
+          "reviewedMyanmarSHA256": "045591336e6ac56a977da15b53674f90b0729e787f0a2c2956cb6eeef5f77493",
+          "rawDeepLSHA256": "41c22e090d85a18c4980ccbc4c00d28127cad4bee6a3fe64cc0ab36f34bc2cb8",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "424d19f5e01324079838835903fe52362b4ff55be1652d3cf38565ac2f57c5cb",
+          "reviewedMyanmarSHA256": "13f067f3fadf44e2c8d3b4b8d7832829d2bc517f784be2e71ffdfbe5066a3f70",
+          "rawDeepLSHA256": "ba2b32adea9e0bc6d90afb74df0701a75d8b923ead0e3f366efa9f4388655882",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "9114ab57b01874ada820f617bc25dfe2ec112018f1df6eb54648833df0776a87",
+          "reviewedMyanmarSHA256": "209877da92010f4137a09eef4c3c95212ba4cfa3dcb3bd969281c7fe43149053",
+          "rawDeepLSHA256": "ec7e7306a81c234e6d5adc144561ac40534c1089549c9d8a8a4c9d1823f5a764",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "689a1959b3ce827c3fdd5911ced48511d7874fcd044aab396448052f738c85ac",
+          "reviewedMyanmarSHA256": "8a870c96bb5487039a367853b418ae79f870f0e88b664baa0e27b61abd5afedc",
+          "rawDeepLSHA256": "a2c4e786ed4e10bd85a172f1bf37c6cdabf237395c9e59b54f76c427a8baea0a",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 464,
+        "name": "War Banners",
+        "level": 28,
+        "reqlevel": 23,
+        "side": 1,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "War Banners",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "War Banners"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "37b33281760772f728912a404aacc788d5ed0d822adb998732ac0eeec2896910",
+      "secondaryHTMLSHA256": "a8093316565ebb211ce6b52b737e59339c0add84e67202a27ac67f51e9d327fa"
+    },
+    {
+      "id": 98221,
+      "en": "From the Ashes",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Fleet at current location, near capture of Hillsbrad, mountain remnants and northeast activity retained. Four Attack Plans destroyed only after critical information is noted. Ironforge target, absent enslaved red-drake army and costly gambit retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "4003eb4bd9fd708b1dbef7dac028419f4543a08d7163dbc13fd7b71ab893d3ba",
+          "reviewedMyanmarSHA256": "6875f05b564bb84131f6b355f38bb8dd9fa2be81445bb69ad4b1c7ec5007bfc8",
+          "rawDeepLSHA256": "d6d86c9dd297a10f225a8aa9513a3acca6eb29361038341bfc54280fcdfabb46",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "ce548c314b6971abd872cfa77cf3b72ac5787a42b60fa1a5611a265ed62379ee",
+          "reviewedMyanmarSHA256": "79ce082279c8144aab4ce9d19efa87fa7a95f186c7ff90c576cfc049d7da6074",
+          "rawDeepLSHA256": "fc5e0a08839d1b9c50a010b216620a3c93ebb66d5b0b4e717342b9de7b297f4f",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "0d92129dc74e3f51873ec999b8dfee7a317486220c83243d2d3bab334708cc2a",
+          "reviewedMyanmarSHA256": "1abc9aec77f4d1de7afab3a99ebb246e78ae8720a1632a05db3799d3a66f53af",
+          "rawDeepLSHA256": "3d10a60f4b9b943fb18dbe42c653201a59f8299b96f0d6f93ed955854eea6a76",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "753b6724e07b80517e84d7fa33a61872034baa13fd143a9f1785ea4a72b0e6de",
+          "reviewedMyanmarSHA256": "d9308fee299393b5a7d149ab4210941b827a7d6a4bfecb1d96c390c24ae9cf3c",
+          "rawDeepLSHA256": "1af5725cf6e5d79741e22a1c4209cd7bbbd1491cf340e3f1973d1dff5556bce7",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "ee9d1e7081c1937d1f7293c3268ac756c5ac036863de09820b94d125e73ce9fd",
+          "reviewedMyanmarSHA256": "7e6015c7cfb63e01539778a04dbefb54b34dad739b57d84a68e74ce71643d7fb",
+          "rawDeepLSHA256": "9768884b46669fb182aa72ce766e82264ea6430cc6ab3d01a98d7680a2767b40",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98221,
+        "name": "From the Ashes",
+        "level": 28,
+        "reqlevel": 23,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "From the Ashes",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "From the Ashes"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "c56249e822045e2486ff9ce9b7aeff09cbae2bf6c509f42102959507f91456ce",
+      "secondaryHTMLSHA256": "9ace227f53fbae35f6d359458f481ea507c28cb62cab2ce56bd3b3bce18cada4"
+    },
+    {
+      "id": 465,
+      "en": "Nek'rosh's Gambit",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Attack plans are closer to execution; Dun Algaz cuts off reinforcement. Fight to catapults, ignite using tinder, then kill Nek'rosh. Progress is first catapult and completion is ignition; these object states are not Captain's head turn-in. UA older opening is not imported.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "46cb438fec8f230a1f7b63fd28de2de17014d5cd334356630f1079706a96b0db",
+          "reviewedMyanmarSHA256": "695668d358ec6187e47f275c57f1f271648f321d83de4cfba20c3ed59a797e4e",
+          "rawDeepLSHA256": "fabfb2555e0d26d4333b97fc86efd4e9011234253598c209a85e2f602563917b",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "d21ecc041e3b3751d1d899f9b8e56070179ac6c87ec5a63ff1dd7ca603cc91ce",
+          "reviewedMyanmarSHA256": "22777b8437c4407add7661da7d1de2d96dbe4496eb76eb648da5822aff01a400",
+          "rawDeepLSHA256": "29415ebc292be3422bd4b58ba17566100faaa12da304ba654e039f79aaa56854",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "96ebf34494eefb11e33b0a7917c8eac564e838b1fda123e21137eeecf57c863a",
+          "reviewedMyanmarSHA256": "ba89c8a4a1ad33480817e4ac2386a2b1925e56c4353af99c76256319488f9475",
+          "rawDeepLSHA256": "a9814ad7dffce103e6f728889c9a779e6285e2489fabf6b3a5a2984c4ba8f733",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "8f70b8b92e5211b8039c0770bcab2e3509c9edcfd5332b14e6d27a4f65837b8a",
+          "reviewedMyanmarSHA256": "28439015dc149e8ac4eb6d90e66a40bfe63739e7e99c8edcae00463ab6426ef9",
+          "rawDeepLSHA256": "062dd886aac779d92d9ac948d822871e5a0478dcb2cf6c7572ae7b81bc3f0714",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "9afa3ae91b0512fb40568d4533e4b600269a610102f8465dd478e813540f9d24",
+          "reviewedMyanmarSHA256": "d67820d35c6c680f07f2256ff3aed7fd95221c01fdab4494bd293c05176ad29b",
+          "rawDeepLSHA256": "1f79d1ce26eb6cebbf6af01c4f4f345ed831d044d613d905d31801e6a458ce83",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 465,
+        "name": "Nek'rosh's Gambit",
+        "level": 31,
+        "reqlevel": 23,
+        "side": 1,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "reworded"
+          ],
+          "lines": [
+            "Description reworded"
+          ],
+          "notShown": [
+            "Description reworded"
+          ]
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Nek'rosh's Gambit",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Nek'rosh's Gambit"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "6754596704cb5ad3415e55d54e03d96106080b10d8fc6b656eab8e37789a602a",
+      "secondaryHTMLSHA256": "5fd8d347a4fbb93c8c243ec704c088ebda0cd8e406f209d4ad53dc6d4ee4ea2e"
+    },
+    {
+      "id": 474,
+      "en": "Defeat Nek'rosh",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "After burned catapults, kill Chieftain and return his Head to Stoutfist. Possible inability to recover remains uncertain. Menethil Harbor safety, meritorious race and Ironforge reward preserved. Metadata prerequisite465 and catapult-to-Captain identities retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "af450c1e6f15cbefa3cf3e26e23b66bbcd6e7186577601f7a28c587b270822dd",
+          "reviewedMyanmarSHA256": "e45301e70251fd731c7a9ad5625d550863d698b98ffe9bd9b5e39799e6e7700c",
+          "rawDeepLSHA256": "278e0d2c9080e178d594a1b96da3008e4151051a3206f3bdf55c0544b8249a61",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "8b1ec48f31cb70af56c3380e78cb8556bf2db6cc099e9ac3e0ca56530a6b8693",
+          "reviewedMyanmarSHA256": "7f9b207ba66a80fb96afe79018f927ee2f2d05d82e84382107135fa71f274f60",
+          "rawDeepLSHA256": "cffea9557e5842edb228910359808292845f5ec137f8a836452bdcf11fbe7c0b",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "749fac8e45741fa27d64dfa0035afd5043ddb102667016fcdc7b3f9024f52af8",
+          "reviewedMyanmarSHA256": "5f1ca9bfb7a1f780f9bb582598ae0aca55e9d6f72a9cc356f159478621c4755f",
+          "rawDeepLSHA256": "19ad985f14d205bf10ee9f367f462810138ea181279c7e4cccfdaebf0633f581",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "9326b50a73475b23b28bcd6e30b81c0ff23a99f34fc72e3459ec7b04823a8a72",
+          "reviewedMyanmarSHA256": "e9823652925176b32e9c4a65ed187407e7c8d3059ac0f5c293914230a0d0a002",
+          "rawDeepLSHA256": "19b6b5afbfb60e74d11842133b341f373f67aac88e2a4ea2a26d5cfece8feaeb",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "8c52f46b4a90456588ca3540d32314ad31d2bec461c28018dff48551e2e66cc7",
+          "reviewedMyanmarSHA256": "ac1c521cf2f5bbb61c074fcae110a5c9837a83dec13daa774d196ea04f9fc327",
+          "rawDeepLSHA256": "e7e43bd619495d86413acf1ccdfa7d9fab45124f0bee3fdf275d3dc931b33020",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 19,
+          "responseIndex": 19,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 474,
+        "name": "Defeat Nek'rosh",
+        "level": 32,
+        "reqlevel": 23,
+        "side": 1,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Objective text reworded",
+            "Rewards: adds Choice of Dragonmaw Skinflayer"
+          ],
+          "notShown": [
+            "Rewards: adds Choice of Dragonmaw Skinflayer"
+          ]
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Defeat Nek'rosh",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Defeat Nek'rosh"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "24ce19a8d6e7073a0f438036bd3eda606b1ff247064f5a579bae92440baed53e",
+      "secondaryHTMLSHA256": "c5eaf11470e25a1e34d922c44652d2d257f0653609107f2ad2308d86e82fd4af"
+    },
+    {
+      "id": 98223,
+      "en": "Old Habits",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Burning by dragonfire, ritual interpretation and Nek'rosh salvage attempt remain qualified. Incomplete animal-hide pages and fresh Shadow Council ink retained. Tattered Spellbook object/item branch is separate; destroy rather than risk dragonriders, notify superiors immediately.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "e2a11aaf8d5e7cfc88b1a739b6d25a6681934ac92c3d8d9688005f6e69893f0f",
+          "reviewedMyanmarSHA256": "8aab2d6ba6d825d61bc4e6981bb9a5d69b61d520862666d6dedba729d8dcf477",
+          "rawDeepLSHA256": "be28faa846cc07e85b95fc266f388902e2a968b0cae5f247af9c45e0a5fafc90",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 20,
+          "responseIndex": 20,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "67a564f2932d98edb0ca72acd9ffe143ccac9ba83a4c58e56f80963b4eaf06f6",
+          "reviewedMyanmarSHA256": "0f3cc3e5b16f25bc1fcd4214d3d37fe7e122db56d3a79207ffc99c9cb35f6567",
+          "rawDeepLSHA256": "73516f414df31b44755038e83a4e54aaae778ac4e1105670aa0bc4ee51f4fa17",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 21,
+          "responseIndex": 21,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "fad484990698ea754ff160eb595380c61210f2724bd40ec6deecb1a45890bfee",
+          "reviewedMyanmarSHA256": "8c5e292102e2dc30cdee2060fb3d60e093dd7a267d65212547dd8a8e727a0dbe",
+          "rawDeepLSHA256": "2ace63e159ad15ed745c00e9f919041fb03e7d2219fbbcbca0b05e9042668c2d",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 22,
+          "responseIndex": 22,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "8bc533c2c4529fa6f8fd887d46e044c9af75aa13bf12ad557269c78491a3b104",
+          "reviewedMyanmarSHA256": "abd0bf3b77fae8a7cb572b6ca681ebae0b1651f932b451ae4934ab76be857b7b",
+          "rawDeepLSHA256": "cae09eeea23add0d8227bd2cf36b3474e610ec651030815f00ce885753df376b",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 23,
+          "responseIndex": 23,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "63c3892f9177f505974463f8161872410ef78fb8c57087359bbffcfc7a2d7d1e",
+          "reviewedMyanmarSHA256": "61c4c499a88145ff718c15e5eead006002e765417af0bf2cf8b86fc07ad64b60",
+          "rawDeepLSHA256": "1a29b2cb74b996d592fe98e94ee42e6ccdecc423ebe6ff521d03eda90910da77",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 24,
+          "responseIndex": 24,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98223,
+        "name": "Old Habits",
+        "level": 31,
+        "reqlevel": 23,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Old Habits",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Old Habits"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "6a4a40dff0744f50b8660a7b9c014af73e3e65330018de05cd73ae9c59873fe6",
+      "secondaryHTMLSHA256": "3aba0b0a3a6de4cffbeb499840fea5a20766bdb0585689133d522b66d28285b7"
+    },
+    {
+      "id": 98246,
+      "en": "Trying Times",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Perfect undamaged raptor eggs, gnome-head-sized yolks, northeast Raptor Ridge and northwest Saltspray Glen, dozen/12 quantities preserved. Bassbeak is fed the eggs; she is not eaten. Hunger, possible anger danger and uncertain scarcity retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "90b1bf2fd46660af7b0a0cb1e8e43532e27db725d3fad8b7ce20680a7d3dba08",
+          "reviewedMyanmarSHA256": "427ca3c9d422a64f01321956f1ea8274c4569d3aac45444dfc566fb53320fbfd",
+          "rawDeepLSHA256": "3e6a787d4018afebf8f1c083abbcbcc1fd449932d5af2be548b46614b648d109",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 25,
+          "responseIndex": 25,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "e6909483071e9ff8b34d3d4960096c739fac168ea031c5b44c06b5732b8a206e",
+          "reviewedMyanmarSHA256": "bda25a1871ea91659690be36ee056d1c84fc19a0d82e3cc189441a31ad708a80",
+          "rawDeepLSHA256": "0a49e545adeeb80635131747a99f92b5ca209e4469ae969cb059aa23eb311706",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 26,
+          "responseIndex": 26,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "41b669399de6e7a0bbb998b0fe5175e92981636b7c691e793b2f076f676f0af1",
+          "reviewedMyanmarSHA256": "46fd890caceb9725c8340d35559bfa27d4610c6570f601fe19b546e960240d32",
+          "rawDeepLSHA256": "5de828e01cbad3e6ee324e40aa494eb691fc5f85678408a16996fbd0993b3d45",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 27,
+          "responseIndex": 27,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "2daaf20d96f4abe15045136f3ae963267c5b07d2ea1949f5bd82b842f82cbe4f",
+          "reviewedMyanmarSHA256": "c97c656860983c34b7b0a92a703f4c5da2b1ade05a23c82a31383d845a9d7476",
+          "rawDeepLSHA256": "3cd84c4888fdd502675a30fc38dab2cdff48e0fbe19070f38298853c3f9a479b",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 28,
+          "responseIndex": 28,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "8c4642cd8a81f65b2d7d7ce7ccf30ac1c4f6e99310091539a59f30bea243809c",
+          "reviewedMyanmarSHA256": "4199b03d0484ea09088f1d26453a1545c0a1058f50f34bc4d8b9f8aaf4bfbc8f",
+          "rawDeepLSHA256": "f17c16d8475df23b76958b8b333b14ca96d8bd64b16b76565120fac3ea9d9e64",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 29,
+          "responseIndex": 29,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98246,
+        "name": "Trying Times",
+        "level": 29,
+        "reqlevel": 21,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Trying Times",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Trying Times"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "1d3ccd7c7728a185577abfdec7f10bca28687cc01241fabfea36c5530434f135",
+      "secondaryHTMLSHA256": "2b163a0897c6dde1745606e115884d049cee6180182a77cbc0b9b79d851200ab"
+    },
+    {
+      "id": 98291,
+      "en": "Death to the Dragonmaw",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Reclaim for Wildhammers or at least learn, known risk and no hammer-swinging assault preserved. Dragonmaw are already marching. Eastern route and reduce numbers first; 8 Reclaimers/5 Soulbinders/3 Infiltrators exact. No mourning voice retained.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "0ebc6714b45930e9e7282f57bbf917f1272b1f1dbdde6fa706af92cd6cda5385",
+          "reviewedMyanmarSHA256": "8a99812c33405ea9f4cedd5ae1567cb9e5ff5f3f565419cca93c07c6bff5af12",
+          "rawDeepLSHA256": "6851e8775e1aa2a9b64765c0e248a0923f636fc430c1ecd28ad9496296e0fc4e",
+          "rawRequestFile": "deepl-request-03.json",
+          "rawResponseFile": "deepl-response-03.json",
+          "requestIndex": 30,
+          "responseIndex": 30,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "d2469da65d12e95901f4e1656e9615ae0a72e9a505c9f49990615597e032c50e",
+          "reviewedMyanmarSHA256": "2e655f2ccb40e60202f55c20bac2ef358ebb4a409f75e497da8b0abb7f01e2a2",
+          "rawDeepLSHA256": "2f54e3488c12f0fbc8a74b911d47f3195b0535adf1dce524891aec4619be3d65",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 0,
+          "responseIndex": 0,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "7ecd1c25b2c50359c6b8b078006d837383499cc739a4fb291ba373db6a927227",
+          "reviewedMyanmarSHA256": "d5c3ba7cc76f9397d7a3536e115f14aac5aa65db2f44a867a2a5c080599ea342",
+          "rawDeepLSHA256": "b9948cea18d3e5294e565d59f9d6b947f533d7d096a671aca4feacc1c31575a6",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 1,
+          "responseIndex": 1,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "e26738ba7c8521573c059c3e5d1f7a84cbbec707c4d71db2e29715c74e2a2b18",
+          "reviewedMyanmarSHA256": "bd98516fe3fca8567dea73f91a896e82c34404d3fa69762d66cd79a7beb31fb3",
+          "rawDeepLSHA256": "23441560d340ba0c48b436b2932e2cb085a87db54184b0c070a17d6b799f13f5",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 2,
+          "responseIndex": 2,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "3b52f866f43cc5cc20dfc4d6b697a4655b669fa2f0e74cf61a1f0a1f47bd2e68",
+          "reviewedMyanmarSHA256": "3b555e355404a666ee990e5987db4d37e07d45b86907ea1cde70c6a0ce215d70",
+          "rawDeepLSHA256": "9b953afcae417fb31d27c1a8bfb9aff8c362b764be31c9cd356540f46f346add",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 3,
+          "responseIndex": 3,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98291,
+        "name": "Death to the Dragonmaw",
+        "level": 30,
+        "reqlevel": 22,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Death to the Dragonmaw",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Death to the Dragonmaw"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "0f106e07860f7d58812f11ec18050ea0999b40a8f371e5b8a7b23ac171dba858",
+      "secondaryHTMLSHA256": "ecac7bf3fd1dd7324350df008f88cb636b1b47c2392ecb90c34c12c7d823295f"
+    },
+    {
+      "id": 98293,
+      "en": "Forced Disarmament",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Remove stockpiled weapons before more enemy soldiers are armed; collect30 and return to Stoutfist at Menethil Keep. Replenishment means rearming our men, half originally ours; enemy-versus-our-weapons arithmetic and class markers preserved.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "c7af1be9ad749b63d5d48cce7846e2d746127692efc1ec114edb147e5a769856",
+          "reviewedMyanmarSHA256": "e039ea8e27e5df7cf10af9de8b75cae33eec1b4d4c471951124334ab2a46f4a2",
+          "rawDeepLSHA256": "da061f760adf06156821a6416dde51a28c43268e2434101c97d1a82478ea63a1",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 4,
+          "responseIndex": 4,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "28ba816debb33f40f926ea24024e666b838be8f179dfd5a147206415df733527",
+          "reviewedMyanmarSHA256": "2d530eabfe2ae3abfe64732ffd7a77599c4b2b0ce95d7cc402c6366608675540",
+          "rawDeepLSHA256": "bbbb909fbc9000961d897c358960ac1353c033db2d2bf067b63574b9af339f55",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 5,
+          "responseIndex": 5,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "0a788ec78bfd2e529b769985fd325fdc2fbb92260e6ae6ddb4b2f1c47423e142",
+          "reviewedMyanmarSHA256": "bf61d2063eddffe823ae07db42a53ed380011d5937a4861d9cceb8c844c0fef9",
+          "rawDeepLSHA256": "7bc789ced69e5f8282699aa0e3a4f7b378990e6b0e442250cff91dd5a66b6ff5",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 6,
+          "responseIndex": 6,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "c82ea97bff32b87353fd3a9323dbadc2d5ef974e7b27a9c3606b50917ae2f486",
+          "reviewedMyanmarSHA256": "da0c7343f494c4176c2bb29db8cc24039cbdbd1f12616e71c1f10ca759fce9ec",
+          "rawDeepLSHA256": "06ae9dad6a97f2eb64848fa00b96ebfccaf7b598b76c289bf229e21c31c518c8",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 7,
+          "responseIndex": 7,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "80056ac7b16b8ed0186a7ee2e36d0869d02fd9af527880dcd91f6b2a3418d335",
+          "reviewedMyanmarSHA256": "c82a642b0dd652966f76d7a537455f72c5d6a4ceafbc90be20726f14e65dd004",
+          "rawDeepLSHA256": "eb1fd8ad3888e765e537455c30a7a6b5bfd9951c31df7a75242ad102b1e0ed2e",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 8,
+          "responseIndex": 8,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98293,
+        "name": "Forced Disarmament",
+        "level": 30,
+        "reqlevel": 22,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Forced Disarmament",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Forced Disarmament"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "e67376bd9a39817502d1b0aca2e64a3bd9730b5a2cb5f1f3a35dd73526e26904",
+      "secondaryHTMLSHA256": "7e6185c1cc3c7a02b82e0cf733f4f722f9e6da320ceefbff72d53c9f13ee0be3"
+    },
+    {
+      "id": 98297,
+      "en": "Stopping the Cycle",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Armor success versus ongoing red-dragonspawn enslavement retained. Friends are needed; kill restraining warlocks first, then end freed dragonspawn's suffering. Children's future laughter, uncertain reclaiming and final hope retained rather than certainty. Required24/recommended34 Elite source evidence only.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "36f187efce7f157f7f246e97473c34269fa9f8594375d44c1c5557e16e4d2173",
+          "reviewedMyanmarSHA256": "623b24a881219ebdc321b6948c5db0c75fc0f1b4c845868d2e74ff4583797e11",
+          "rawDeepLSHA256": "04d6586d9694a3e25b2bab30b2536a3a35e25d544204e20bfa12e12937f8d8dd",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 9,
+          "responseIndex": 9,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "c79f0c173fb375dddcc4deb3feb0b6a65d3c5fa051d24375f8100d3b63ea558e",
+          "reviewedMyanmarSHA256": "8c89a430719446ae57d91623498ec5980ce22b3c6ad250dbb826f99d5a4b37fe",
+          "rawDeepLSHA256": "58a904fded080cb881ab5d335410ab23929215d45cf3cd8aacab9d1b3910cebe",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 10,
+          "responseIndex": 10,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "f164f345b9c47bc9c6eec2a0b5aa555dc4d7076c1ba61bbbfdb2936781b571c1",
+          "reviewedMyanmarSHA256": "01dd80ab95f6fcff9c7aec6228dcb3b16949c544f42c53771385f6f3facb30f0",
+          "rawDeepLSHA256": "9bb932f902c370e0c308f611080e1307ca6e1e9fe944fe4dafb4044b86a9bf0f",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 11,
+          "responseIndex": 11,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "b3586ba9bfff650132abcfce1e41faa16b3b2d3ae929d32ef4eef5af5875fa23",
+          "reviewedMyanmarSHA256": "7d133a512b003d6240ab1e3e21e74e9b8bc2daadfb32e4cb02f80a3e98c17257",
+          "rawDeepLSHA256": "681bc8b6e95d15718742ac0ace93411ddff6718623ee9387187e87d86182cfd8",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 12,
+          "responseIndex": 12,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "d8007f097f488c80b3face00b7a8f24a138da40e942dabae3763d0cf07aea138",
+          "reviewedMyanmarSHA256": "f2c2d7d335c2216cfa558e2bb21e4b1580b1d70b508cd11a211cc5943c1cbeef",
+          "rawDeepLSHA256": "8998563c127f69b766b3a5252997fa2b6ee233098dc71af8423e1a008f0be69c",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 13,
+          "responseIndex": 13,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98297,
+        "name": "Stopping the Cycle",
+        "level": 34,
+        "reqlevel": 24,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Stopping the Cycle",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Stopping the Cycle"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "1ed574582bf443ea1d22576b21e96abe6bfa6db70bd38402b405f184be60b113",
+      "secondaryHTMLSHA256": "c3b1577a80d2c85ab3b5bf4dae586f4bf0ff797a35f5f300bd544a5a214f3dbe"
+    },
+    {
+      "id": 98209,
+      "en": "Bloom of the Heavens",
+      "issues": [],
+      "allFiveSlotsRead": true,
+      "independentSemanticReview": "Nord'el item delivery from Sylessa at Menethil to Thundris at Auberdine, Darkshore, uses the boat. Fatigue and first failed retrieval retained. Elune grace plus perseverance without immortality preserved. Thundris arranges later safe transport to Darnassus for cultivation; destinations not collapsed.",
+      "fieldReview": {
+        "title": {
+          "status": "reviewed enabled",
+          "englishSHA256": "5079982c9a8db0ade101af86d8c1db44b73da12be61a5e2cecb7a4c359c44b47",
+          "reviewedMyanmarSHA256": "dedcf5e47b5f37ef9ea0ba15376281a41cf87a7b68bba1a1caff62f7d3e74fb7",
+          "rawDeepLSHA256": "088a9f667810979fd98c37c70a60926b9ecd52bd6f43de3ebfc83e217643ffd8",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 14,
+          "responseIndex": 14,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "detail": {
+          "status": "reviewed enabled",
+          "englishSHA256": "08caafc20d2fcb37d728dfde01a2c947561cda60c2d294ab432ff9b00aebe447",
+          "reviewedMyanmarSHA256": "ff31fb61b3ebf5c5809d1a493151a6bf3cb557f04879ec9c0be35db76270afd0",
+          "rawDeepLSHA256": "56b2188aecabc44f46aa80cbcb597f8d9a042d62e7a419319e00400fa7d31cce",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 15,
+          "responseIndex": 15,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "objective": {
+          "status": "reviewed enabled",
+          "englishSHA256": "16b1515100f5627e59d66897c3fcb7ae37ec0228897f41f7e54eceea4b408247",
+          "reviewedMyanmarSHA256": "bb3bd1d3de202dd4bbebb320601d518734fd6340a66a282b8b9432d011048f98",
+          "rawDeepLSHA256": "05046e905c9087cb2fe2b72554f85d2ada61a0f7629bc32b11b157257c701fd3",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 16,
+          "responseIndex": 16,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "progress": {
+          "status": "reviewed enabled",
+          "englishSHA256": "80d5bd4cc22c2161bafbee24be0e135ec05161459f0416c031cc8f9150d61a04",
+          "reviewedMyanmarSHA256": "bd31d5d2efa77b4913d011f98e5a6a06cb326e4eb7fa47a2f5a168188ed4e477",
+          "rawDeepLSHA256": "9175f3d05e4440564db23faa294387585bd0fb0d4ea63d09054d0b2598b21c51",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 17,
+          "responseIndex": 17,
+          "sourceAndMeaningReview": "PASS"
+        },
+        "complete": {
+          "status": "reviewed enabled",
+          "englishSHA256": "0a99377e9a82ab56858786e25469a95d7601c1ce6ac5fd51d6c3b26e29804156",
+          "reviewedMyanmarSHA256": "58009faa5a9d38a7c9d687d12fc9d88c1c4141397b761b24dcbd2ca70870f576",
+          "rawDeepLSHA256": "d7e65fa7204cfb90c65353c79f3f461483a4d3bb39d1aa4250afebe338f0322a",
+          "rawRequestFile": "deepl-request-04.json",
+          "rawResponseFile": "deepl-response-04.json",
+          "requestIndex": 18,
+          "responseIndex": 18,
+          "sourceAndMeaningReview": "PASS"
+        }
+      },
+      "currentOwnID": {
+        "id": 98209,
+        "name": "Bloom of the Heavens",
+        "level": 29,
+        "reqlevel": 22,
+        "side": 1,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "currentOwnGatherer": {
+        "name_enus": "Bloom of the Heavens",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "installedMetadataReviewed": true,
+      "uaEnglishAliases": [
+        "Bloom of the Heavens"
+      ],
+      "allUAFieldsReviewed": true,
+      "primaryHTMLSHA256": "2870efb8868e6dff1aeb5ef57fc477105656da28956df763365655f056e8e53d",
+      "secondaryHTMLSHA256": "8ef07a14f3335e5598b0b21fbef3daf7898d05067ca25e13e8881d1a3567d46f"
+    }
+  ],
+  "evidenceIssues": [],
+  "historicalEvidenceDispositions": [
+    {
+      "subject": "1022 objective historical secondary corroboration claim",
+      "status": "Corrected in final ledger with explicit receipt; no enabled text or hold-state change",
+      "historicalFiles": [
+        "held-fields-group1.json",
+        "review-groups.json"
+      ],
+      "activeFiles": [
+        "held-fields.json",
+        "author-evidence-corrections.json"
+      ],
+      "findings": "Secondary objective parser result is absent. Its map legend contains installed Forest Song wording, not corroboration of primary Shrine of Aessina. Current primary and UA say Shrine of Aessina; full installed objective says Forest Song. Final hold reason correctly states these facts. Historical checkpoint hashes remain unchanged."
+    },
+    {
+      "subject": "Additional 21-input Promise result",
+      "status": "UNKNOWN provider outcome; unused and unretained",
+      "findings": "Four retained successful responses map94 fields including one held proposal. Original request semantically equals retained rerun request exactly. Every final chain uses one of retained responses01-04. There is no retained original response or output hash, no fabricated status/output, and no fifth verified success. 115 submitted input occurrences do not mean115 translated fields. Earlier assumed-success classification is explicitly retracted.",
+      "transportLossFileSHA256": "d6032fb429e063976111a233c0dba2cffd4e983e1c08259ad16a728ad89c95ee",
+      "evidenceCorrectionsSHA256": "ddec53623e45e678b6d14772dfb7f37a85f402a50c3571f750fc078533d14ac7",
+      "retainedRerunRequestSHA256": "afb258ff2ccbae2a9843e60ddd84a692d033decd1f5ebe1b7372aab1b13a2a61",
+      "retainedRerunResponseSHA256": "59d056e1324be8b4f4fbdf735ec189d3022e1d3042be613d559c66bb45c37b7c"
+    },
+    {
+      "subject": "Checkpoint auto-review scope rejection",
+      "status": "Historical rejection resolved by fresh owned script",
+      "findings": "Read approval-rejection-and-safe-scope.json and checkpoint.py. Rejected command is documented as unexecuted; final checkpoint writes only its explicit alliance_routes directory. No old frozen directory mutation was performed by this reviewer; its own work writes only this new review receipt."
+    }
+  ],
+  "heldFieldsReviewed": [
+    {
+      "id": 1022,
+      "field": "objective",
+      "reason": "Current primary English and UA objective return Melyria at Shrine of Aessina; secondary objective is absent. Refreshed installed objective says Forest Song. Hold this return-location field until sanitized current live English resolves recipient location. No conflicting return location in the other four fields.",
+      "sourceEnglish": "Go to the Howling Vale and study the Tome of Mel'Thandris, then return to Sentinel Melyria Frostshadow at the Shrine of Aessina.",
+      "rawProposal": "Howling Vale သို့ သွား၍ Mel'Thandris ၏ စာတမ်းကို လေ့လာပြီးနောက် Aessina ဘုရားကျောင်းရှိ Sentinel Melyria Frostshadow ဆီ ပြန်သွားပါ။",
+      "provenance": {
+        "englishSHA256": "5143d91e2e7f572a04452bab3793929f225821e6c684c85621cf5fb98ecc0089",
+        "rawDeepLSHA256": "139ee49b37febe5b9a8fbddf969a1c8a52cb1005f296df9b5cb53f36cdb76862",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 2,
+        "responseIndex": 2,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "detectedSourceLanguage": "EN"
+      },
+      "status": "held;not enabled",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested"
+    }
+  ],
+  "actualChecks": {
+    "repositoryChecker": {
+      "result": "PASS",
+      "script": "../verify_workers.py alliance_routes",
+      "checkedAtUTC": "2026-11-23T20:53:53.226332+00:00",
+      "sourcedFields": 94,
+      "enabledFields": 93,
+      "sharedReportWrite": "Suppressed exactly one final write_text statement before in-memory compile/exec; checker assertions executed unchanged"
+    },
+    "linguistic_lint.lint": "PASS actual20 records via checker",
+    "build_release.validate_fields": "PASS actual100 slots via checker",
+    "rawProvenance": "PASS actual94 English/request/index/response/rawSHA/finalSHA mappings; source text and identity exact, no duplicate mapping",
+    "providerResponseShape": "PASS all4 retained MY/auto-detected EN/no failures, exact request cardinality; first full tool wrapper equals retained structured response",
+    "requestBounds": "PASS23/21/31/19 texts;4568/4171/4895/3244 input chars, every request<=50texts and<5000chars",
+    "currentPrimaryAndSecondary": "PASS all40 actual HTML hashes, reparsed fields, stored dialogue boundaries and explicit missing states; no source or raw evidence writes",
+    "exactOwnIDs": "PASS own g_quests and own Gatherer for all20; Alliance side1/class0/race0, distinct from broader full installed masks",
+    "fullInstalledMetadata": "PASS all20 full decoded records equal current installed-records.json; start/end/prerequisites/item/object/enemy/stage identity reviewed",
+    "titlesAndUA": "PASS all20 English aliases and every individual UA field directly equal pinned official catalog; English controls meaning",
+    "terminology": "PASS all79 used whole terms;44 equal maintained inventory exactly,35 new proposals remain native-pending. Inherited Elune versus Scythe of Elune phonetic variation remains exact maintained spellings, not a new conflict",
+    "mechanicalInvariants": "PASS digits, quantities, name/race/class markers, paragraph boundaries and command preservation; checked with actual validators and paired reading",
+    "freezeImmutability": "PASS frozen manifest plus47 JSON/40HTML/5 author script hashes before and after review; edited hash exact",
+    "upstreamChange": "PASS root current refresh and selected countercheck report no added/removed/changed quest records"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.1",
+    "commit": "b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+    "checkedAt": "2026-11-23T20:31:25.782652+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+    "publishedAtUTC": "2026-11-23T01:37:19Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.1/UA_Forever-1.1.1.zip",
+    "assetSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+    "catalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2"
+  },
+  "officialLatestIndependentWebCheck": {
+    "url": "https://github.com/sysrover/UA_Forever/releases/latest",
+    "resolvedURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+    "version": "1.1.1",
+    "commitPrefixShown": "b0160a8",
+    "result": "Latest matches root exact pin; package and catalog SHA independently recomputed from local pinned bytes"
+  },
+  "eligibilityAndLevels": {
+    "recommendedLevelRange": [
+      28,
+      34
+    ],
+    "minimumLevelRange": [
+      21,
+      25
+    ],
+    "basis": "Exact current source per quest above; all current ownIDs Alliance/class0/race0. Installed mask remains separately retained. Source inspection is not live eligibility verification."
+  },
+  "nativeMyanmarProofreading": "pending; this assisted review is not native proofreading",
+  "newPhoneticApproval": "pending native review for35 proposals; historical inventory is not inferred native approval",
+  "currentLiveVerification": "not tested;1022 objective return-location conflict remains held",
+  "controllerHardwareVerification": "not tested",
+  "sanitizedCaptureReview": "Root sanitized-local-capture-review.json read;310 existing states/132IDs translated, no saved gaps. It explicitly is not current live playtest and does not resolve1022.",
+  "reviewerWrites": [
+    "work/morning-2026-11-24/independent-review/alliance_routes.json"
+  ],
+  "scope": "Read-only author/source/raw/old-report/candidate/shared-state/Git review; no editorial changes, new translation calls, certification, or shared report mutations."
+}

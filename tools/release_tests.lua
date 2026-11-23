@@ -1392,3 +1392,101 @@ if A.quests[1509] and A.quests[305] and A.quests[501] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-source identity contracts, distinct binding/referral/route steps, missing states and source holds.')
 end
+
+if A.quests[579] and A.quests[1149] and A.quests[1022] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({579,960,961,79362,79363,96137,96138,6681,96779,78261,78307,78270,1149,1150,1151,1152,1154,6627,1159,1160,6628,1394,4542,4841,5064,4821,4865,5062,5088,4767,1022,1037,1038,1039,1040,1041,1042,1043,1044,4581,464,98221,465,474,98223,98246,98291,98293,98297,98209}) do
+    assert(A.quests[id] and A.quests[id].title,'24NovemberMorning quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost ID/title')
+    end
+  end
+  for _,h in ipairs({{78307,"detail"},{78270,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held field lost original fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail,'Historical source holds refilled')
+  assert(not A.quests[111].progress,'Inherited UA-only reply enabled without English')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:24NovemberMorning50 records and150 dialogue routing/capture cases; original fallback for held fields.')
+end
+
+if A.quests[579] and A.quests[1149] and A.quests[1022] then
+  local contracts={
+    {579,"progress",{"King Anduin"}},
+    {960,"complete",{"Twilight's Hammer","phial of scrying"}},
+    {961,"complete",{"Twilight's Hammer","phial of scrying"}},
+    {79362,"objective",{"Grant's Mace","Raven Hill Cemetery","Sirra Von'Indi"}},
+    {79363,"complete",{"Silvia Valor"}},
+    {96137,"objective",{"Young Black Ravagers","Black Ravagers","Sirra Von'Indi"}},
+    {96138,"objective",{"Splinter Fist Warriors","Splinter Fist Taskmasters","Sirra Von'Indi"}},
+    {6681,"objective",{"Seal of Ravenholdt","Fahrad","Ravenholdt Manor"}},
+    {96779,"objective",{"Lord Tomas","Durnholde Keep","Myrokos Silentform"}},
+    {78261,"objective",{"The Horn of Xelthos","Shadowfang Keep","Pyrewood Village"}},
+    {78307,"complete",{"<name>","C"}},
+    {78270,"progress",{"Shadowfang","Venture Co."}},
+    {1149,"objective",{"Thousand Needles"}},
+    {1150,"objective",{"Grenka's Claw","Dorn Plainstalker"}},
+    {1151,"objective",{"Fragments of Rok'Alim","Dorn Plainstalker"}},
+    {1152,"objective",{"Braug Dimspirit","Talondeep Path","Stonetalon Mountains"}},
+    {1154,"objective",{"Legacy of the Aspects","Braug Dimspirit"}},
+    {6627,"objective",{"Braug Dimspirit","Stonetalon Mountains"}},
+    {1159,"objective",{"Parqual Fintallas","Undercity"}},
+    {1160,"objective",{"The Beginnings of the Undead Threat","Parqual Fintallas","Undercity"}},
+    {6628,"objective",{"Parqual Fintallas","Undercity"}},
+    {1394,"objective",{"Dorn Plainstalker","Thousand Needles"}},
+    {4542,"objective",{"Urgent Message","Cliffwatcher Longhorn","Freewind Post"}},
+    {4841,"objective",{"Galak Scouts","Galak Wranglers","Galak Windchasers","Cliffwatcher Longhorn"}},
+    {5064,"objective",{"Secret Notes","Darkcloud Pinnacle"}},
+    {4821,"objective",{"Alien Egg","Hagar Lightninghoof","Freewind Post"}},
+    {4865,"objective",{"Motega Firemane"}},
+    {5062,"objective",{"Incendia Agave","Magatha Grimtotem","Elder Rise"}},
+    {5088,"objective",{"Arikara","Incendia Powder","Motega Firemane","Whitereach Post"}},
+    {4767,"objective",{"Highperch Wyvern Eggs","Elu","Freewind Post"}},
+    {1022,"detail",{"Felwood","Howling Vale","Tome of Mel'Thandris"}},
+    {1037,"objective",{"Thyn'tel Bladeweaver","Warrior's Terrace","Darnassus"}},
+    {1038,"objective",{"Velinde","Thyn'tel Bladeweaver","Darnassus"}},
+    {1039,"objective",{"Wharfmaster Dizzywig","Ratchet"}},
+    {1040,"objective",{"Booty Bay","Caravaneer Ruzzgot"}},
+    {1041,"objective",{"Clerk Daltry","Darkshire"}},
+    {1042,"objective",{"Jonathan Carevin","Darkshire"}},
+    {1043,"objective",{"Scythe of Elune","Jonathan Carevin","Darkshire"}},
+    {1044,"objective",{"Thyn'tel Bladeweaver","Darnassus"}},
+    {4581,"objective",{"Shindrell's Note","Kayneth Stillwind","Forest Song"}},
+    {464,"objective",{"Dragonmaw War Banners","Captain Stoutfist"}},
+    {98221,"objective",{"Captain Stoutfist","Attack Plans","Angerfang Encampment"}},
+    {465,"objective",{"Dragonmaw"}},
+    {474,"objective",{"Chieftain Nek'rosh","Nek'rosh's Head","Captain Stoutfist"}},
+    {98223,"objective",{"Tattered Spellbook","Captain Stoutfist","Menethil Harbor"}},
+    {98246,"objective",{"Perfect Razormaw Eggs","Howin Kindfeather"}},
+    {98291,"objective",{"Dragonmaw Reclaimers","Dragonmaw Soulbinders","Dragonmaw Infiltrators","Howin Kindfeather"}},
+    {98293,"objective",{"Dragonmaw Armaments","Dragonmaw Retreat","Captain Stoutfist","Menethil Keep"}},
+    {98297,"objective",{"Subdued Dragonspawn","Dragonmaw Gates","Howin Kindfeather"}},
+    {98209,"objective",{"Nord'el","Thundris Windweaver","Auberdine","Darkshore","Menethil Harbor"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source task identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source item/recipient/place identity failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{579,"objective"},{579,"detail"},{960,"objective"},{960,"progress"},{960,"detail"},{961,"objective"},{961,"progress"},{961,"detail"},{96779,"progress"},{78307,"progress"},{1152,"progress"},{1159,"progress"},{1394,"progress"},{4865,"progress"},{1037,"progress"},{1039,"progress"},{1040,"progress"},{1041,"progress"},{1042,"progress"},{1044,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented missing current source state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({{79363,"objective"},{78307,"detail"},{78307,"objective"},{78270,"detail"},{78270,"objective"},{1022,"objective"}}) do assert(not A.quests[h[1]][h[2]],'Source-conflicting or placeholder field enabled:'..h[1]..'/'..h[2]) end
+  for _,id in ipairs({960,961}) do
+    assert(A.quests[id].title and A.quests[id].complete and not A.quests[id].detail and not A.quests[id].objective and not A.quests[id].progress,'Onu helper source boundaries invented')
+  end
+  assert(A.quests[960].en==A.quests[961].en and A.quests[960].complete~=A.quests[961].complete,'Different meditation/replacement helper states collapsed')
+  assert(A.quests[579].title and A.quests[579].progress and A.quests[579].complete and not A.quests[579].detail and not A.quests[579].objective,'Library helper source boundaries invented')
+  assert(A.quests[78261].en==A.quests[78307].en and A.quests[78261].objective and not A.quests[78307].objective and not A.quests[78307].detail,'Horn job/reward or placeholder fields confused')
+  assert(not A.quests[78270].objective and not A.quests[78270].detail and A.quests[78270].progress,'Copied Horn instructions enabled for WorkOrder quest')
+  local lore={1152,1154,6627,1159,1160,6628}
+  for i=1,#lore do
+    assert(A.quests[lore[i]].en=='Test of Lore','Lore same-title ID missing')
+    for j=i+1,#lore do assert(A.quests[lore[i]].objective~=A.quests[lore[j]].objective,'Different Lore travel/book/question stages collapsed') end
+  end
+  for _,pair in ipairs({{1149,1150},{1150,1151},{4542,4841},{4841,5064},{4821,4865},{4865,5062},{5062,5088},{1037,1038},{1039,1040},{1040,1041},{1041,1042},{1042,1043},{1043,1044},{464,98221},{465,474},{474,98223},{98246,98291},{98291,98293},{98293,98297}}) do
+    assert(A.quests[pair[1]].objective~=A.quests[pair[2]].objective,'Different target/task/handoff stages collapsed')
+  end
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-source identity contracts, six distinct Lore stages, helper/reward boundaries and source holds.')
+end

@@ -1,0 +1,76 @@
+{
+  "result": "PASS",
+  "questCount": 20,
+  "fieldSlots": 100,
+  "availableEnglishFields": 94,
+  "actualDeepLRetainedMappedFields": 94,
+  "enabledFields": 93,
+  "heldFields": 1,
+  "unavailableEnglishSlots": 6,
+  "nullStates": [
+    {
+      "id": 1037,
+      "field": "progress"
+    },
+    {
+      "id": 1039,
+      "field": "progress"
+    },
+    {
+      "id": 1040,
+      "field": "progress"
+    },
+    {
+      "id": 1041,
+      "field": "progress"
+    },
+    {
+      "id": 1042,
+      "field": "progress"
+    },
+    {
+      "id": 1044,
+      "field": "progress"
+    }
+  ],
+  "actualChecks": {
+    "linguistic_lint.lint": "PASS20records",
+    "build_release.validate_fields": "PASS100slots",
+    "primaryReparseAndSourceHashes": "PASS100slots",
+    "actualRawRequestResponseIndexEnglishFinalHashes": "PASS94retainedfields,includingheldproposal",
+    "retainedRequestAccounting": "PASS94/94",
+    "unusedLostResponseAccounting": "Explicitly excluded 21 submitted-input occurrences from unknown-outcome uninspected result; exact identical rerun only used. Four retained successes prove 94 translated fields; 115 submitted occurrences do not imply 115 translated inputs.",
+    "paragraphCommandsDigitsMarkers": "PASSallEnabledFields",
+    "immutableCheckpoints": "PASSbothgroups",
+    "currentOwnIDEligibilityLevels": "PASSAlliance,class0race0,required/recommendedmatchfullinstalled"
+  },
+  "DeepLBounds": [
+    {
+      "batch": 1,
+      "texts": 23,
+      "characters": 4568
+    },
+    {
+      "batch": 2,
+      "texts": 21,
+      "characters": 4171
+    },
+    {
+      "batch": 3,
+      "texts": 31,
+      "characters": 4895
+    },
+    {
+      "batch": 4,
+      "texts": 19,
+      "characters": 3244
+    }
+  ],
+  "authorReview": "SeparateEnglish/Myanmar reread aftereach10draft, corrections+affectedchecksrepeated;notnative/independent/live",
+  "independentAssistedReview": "pendingfreshreviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pendingnative",
+  "currentLiveVerification": "not tested;1022returnlocationheld",
+  "controllerHardwareVerification": "not tested",
+  "checkedAtUTC": "2026-11-23T20:51:16.501188+00:00"
+}

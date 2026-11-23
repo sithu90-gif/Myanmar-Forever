@@ -1,0 +1,32 @@
+{
+  "result": "PASS",
+  "kind": "canonical final hash alias repair only",
+  "repairs": [
+    {
+      "id": 1151,
+      "field": "objective",
+      "alias": "finaleditedSHA256",
+      "oldSHA256": "243e2f3ebfde79da1abb338ee2d86cc62a65600f0601c6a39772e79dd6e4b9c2",
+      "finalSHA256": "21366a4672b43b31927f09327b9d01917bfcba9b82a11cfe6afbbb059d72aece"
+    },
+    {
+      "id": 5088,
+      "field": "detail",
+      "alias": "finaleditedSHA256",
+      "oldSHA256": "9aa4519f93ad09155972bc8fd91f0fc8cb07f96d29a6c59f0bdf36b81e0ca9fa",
+      "finalSHA256": "fc864a5946e8ed507812a1fef966aa0e459c64149491aa0b095caea40b2377ef"
+    },
+    {
+      "id": 5088,
+      "field": "objective",
+      "alias": "finaleditedSHA256",
+      "oldSHA256": "be5a791eb7b53a2faa07fbc5d9c407f6e2ad849745d1a4cbd52e1605a54bba15",
+      "finalSHA256": "b1620fb274343ab83772a5a82cde1ab1fe967a8acbd5bdd8d3a529e0a208993b"
+    }
+  ],
+  "oldCandidateAuditSHA256": "defad20e3a643ccffbbef828085058bfb550fb6a90f202134a9624348318c39c",
+  "correctedCandidateAuditSHA256": "4b41a48e1d1411c369ef41f8b6ac73d7c145869555d75344fc69fdde9b42f609",
+  "backup": "candidate-history\\thousand_needles-review-audit-before-alias-fix.json",
+  "sourceAndTranslationTextChanged": false,
+  "authorEvidenceUnchanged": true
+}

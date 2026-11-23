@@ -1,0 +1,1538 @@
+{
+  "579": {
+    "sourceSHA256": "cb491a42c62fc451e881a12c161039a131f4643851242f52eedbe8b0c1e30532",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 579,
+        "record": {
+          "name_enus": "Stormwind Library",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 34601
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25029,
+        "text": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "progress": {
+        "layout": "direct heading",
+        "raw": "King Anduin has placed great importance on learning, and thus has provided funds for making copies of various tomes and writings available to the public. It's very simple. You bring me a <a href=\"/forever/item=3898/library-scrip\">library scrip</a>, and I can give you a copy of one of the available books.",
+        "clean": "King Anduin has placed great importance on learning, and thus has provided funds for making copies of various tomes and writings available to the public. It's very simple. You bring me a library scrip, and I can give you a copy of one of the available books."
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Do any of these titles interest you, &lt;name&gt;?",
+        "clean": "Do any of these titles interest you, <name>?"
+      },
+      "objective": {
+        "raw": "",
+        "clean": null
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 36585,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=3898/library-scrip\" class=\"q1\">Library Scrip</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Library Scrip (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Library Scrip (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 3898,
+        "slug": "library-scrip",
+        "label": "library scrip"
+      },
+      {
+        "id": 3898,
+        "slug": "library-scrip",
+        "label": "Library Scrip"
+      },
+      {
+        "id": 2154,
+        "slug": "the-story-of-morgan-ladimore",
+        "label": "The Story of Morgan Ladimore"
+      },
+      {
+        "id": 3899,
+        "slug": "legends-of-the-gurubashi-volume-3",
+        "label": "Legends of the Gurubashi, Volume 3"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          2504
+        ]
+      ],
+      "3": [
+        [
+          2504
+        ]
+      ],
+      "10": {
+        "3": [
+          [
+            3898,
+            null,
+            0
+          ]
+        ]
+      },
+      "S": {
+        "1": "Stormwind Library",
+        "4": 1,
+        "5": 1,
+        "6": 4294967373,
+        "17": 1519,
+        "23": 8,
+        "24": 1,
+        "p": 518
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Бібліотека Штормовію",
+        "detail": null,
+        "objective": null,
+        "progress": "Король Андуїн приділив велику увагу освіті та всіляко піклувався про те, щоб городяни мали доступ до копій цінних книг. Все просто: принеси мені бібліотечний сувій, і я видам тобі копію будь-якої книги.",
+        "complete": "Яка книга цікавить тебе, {ім'я}?",
+        "en": "Stormwind Library",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "960": {
+    "sourceSHA256": "3d755c7366d7b6ff171d4aa77d8a5ef73f5816bbcaef801f2bc5094b4bfbc87c",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 960,
+        "record": {
+          "name_enus": "Onu is Meditating",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 31842
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25187,
+        "text": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3616/onu]Onu[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3616/onu]Onu[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "direct heading",
+        "raw": "I am meditating on your task, &lt;name&gt;. &nbsp;Meditating on reasons why the Twilight's Hammer and naga are here.<br /><br />When you are ready, use the <a href=\"/forever/item=5251/phial-of-scrying\">phial of scrying</a> to create a scrying bowl. &nbsp;Then, contact me through the bowl.<br /><br />If you have lost your <a href=\"/forever/item=5251/phial-of-scrying\">phial of scrying</a>, then here is another.",
+        "clean": "I am meditating on your task, <name>.  Meditating on reasons why the Twilight's Hammer and naga are here.\n\nWhen you are ready, use the phial of scrying to create a scrying bowl.  Then, contact me through the bowl.\n\nIf you have lost your phial of scrying, then here is another."
+      },
+      "objective": {
+        "raw": "",
+        "clean": null
+      }
+    },
+    "objectiveTables": [],
+    "linkedItems": [
+      {
+        "id": 5251,
+        "slug": "phial-of-scrying",
+        "label": "phial of scrying"
+      },
+      {
+        "id": 5251,
+        "slug": "phial-of-scrying",
+        "label": "Phial of Scrying"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          3616
+        ]
+      ],
+      "3": [
+        [
+          3616
+        ]
+      ],
+      "13": [
+        944
+      ],
+      "S": {
+        "1": "Onu is meditating",
+        "4": 1,
+        "5": 1,
+        "6": 4294967373,
+        "17": 148,
+        "23": 8,
+        "24": 1,
+        "33": 949,
+        "p": 4102
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Міркування Ону",
+        "detail": null,
+        "objective": null,
+        "progress": null,
+        "complete": "Я розмірковую над твоїм завданням, {ім'я}. Розмірковую над причинами присутності Сутінкового Молота і наг.\n\nКоли ти будеш {стать:готовий:готова} - скористайся флаконом провидіння, щоб створити чашу провидіння. Потім зв'яжися зі мною за її допомогою.\n\nЯкщо ти {стать:загубив:загубила} свій флакон — візьми цей.",
+        "en": "Onu is meditating",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "961": {
+    "sourceSHA256": "7fd16bf4ca74991bc6e4a30a146945b894a8aa061127402dee5a339f26f19b49",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 961,
+        "record": {
+          "name_enus": "Onu is Meditating",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 28499
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25005,
+        "text": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3616/onu]Onu[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3616/onu]Onu[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "direct heading",
+        "raw": "The finding of Twilight's Hammer cultists is troubling. &nbsp;I must meditate on their intentions...<br /><br />When you have more information, speak to me through a scrying bowl. &nbsp;If you require a <a href=\"/forever/item=5251/phial-of-scrying\">phial of scrying</a> in order to create a bowl, then...here is another.",
+        "clean": "The finding of Twilight's Hammer cultists is troubling.  I must meditate on their intentions...\n\nWhen you have more information, speak to me through a scrying bowl.  If you require a phial of scrying in order to create a bowl, then...here is another."
+      },
+      "objective": {
+        "raw": "",
+        "clean": null
+      }
+    },
+    "objectiveTables": [],
+    "linkedItems": [
+      {
+        "id": 5251,
+        "slug": "phial-of-scrying",
+        "label": "phial of scrying"
+      },
+      {
+        "id": 5251,
+        "slug": "phial-of-scrying",
+        "label": "Phial of Scrying"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          3616
+        ]
+      ],
+      "3": [
+        [
+          3616
+        ]
+      ],
+      "13": [
+        949
+      ],
+      "S": {
+        "1": "Onu is meditating",
+        "4": 1,
+        "5": 1,
+        "6": 4294967373,
+        "17": 148,
+        "23": 8,
+        "24": 1,
+        "33": 950,
+        "p": 4102
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Міркування Ону",
+        "detail": null,
+        "objective": null,
+        "progress": null,
+        "complete": "Присутність сектантів Сутінкового Молота викликає занепокоєння. Я маю поміркувати про їхні наміри...\n\nКоли матимеш більше інформації — поговори зі мною за допомогою чаші провидіння. Якщо для створення чаші тобі не вистачає флакона провидіння, то... ось, тримай ще один.",
+        "en": "Onu is meditating",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "79362": {
+    "sourceSHA256": "bb56dfeae18fda4c3b1e43615c8a27dfddb44e3cbf59ef530fd1ce338ac7b0da",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 79362,
+        "record": {
+          "name_enus": "Grant's Shield",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        },
+        "offset": 29858
+      },
+      {
+        "type": 5,
+        "id": 79362,
+        "record": {
+          "name_enus": "Grant's Shield",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        },
+        "offset": 38974
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24679,
+        "text": "[ul][li]Level: 25[/li][li]Requires level 18[/li][li]Side: Both[/li][li]Races: [race=2], [race=6], [br][race=8][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/icon][/li][li][icon name=quest-end]End: [span class=icon-alliance-padded][url=/forever/npc=268/sirra-vonindi]Sirra Von'Indi[/url][/span][/icon][br][span=invisible][icon name=quest-end]End: [/icon][/span][span class=icon-horde][url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/span][/li][li]Not sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A shield left behind by the specter of Grant Valor, father of the Valor family and hero of Raven Hill.\n\nWith Grant's spirit still battling the undead, perhaps his unfinished business was to slay the scourge that injured him in the Raven Hill Cemetery. It is likely the one his mace is still imbedded in.",
+        "clean": "A shield left behind by the specter of Grant Valor, father of the Valor family and hero of Raven Hill.\n\nWith Grant's spirit still battling the undead, perhaps his unfinished business was to slay the scourge that injured him in the Raven Hill Cemetery. It is likely the one his mace is still imbedded in."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "You wanted to see me?",
+        "clean": "You wanted to see me?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "For a man as proud as Grant Valor to be brought low by such a simple creature says less about him and more about the horrors of battle. It only takes one slip to be crippled for life.<br /><br />These weapons tell a great deal about their owner. Let me take some time to study them.",
+        "clean": "For a man as proud as Grant Valor to be brought low by such a simple creature says less about him and more about the horrors of battle. It only takes one slip to be crippled for life.\n\nThese weapons tell a great deal about their owner. Let me take some time to study them."
+      },
+      "objective": {
+        "raw": "Find <a href=\"/forever/item=281146/grants-mace\">Grant's Mace</a> on one of the skeletons in Raven Hill Cemetery then return to Sirra Von'Indie in Darkshire for more information.",
+        "clean": "Find Grant's Mace on one of the skeletons in Raven Hill Cemetery then return to Sirra Von'Indie in Darkshire for more information."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 41591,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=281146/grants-mace\" class=\"q1\">Grant's Mace</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon2\"></th><td><a href=\"/forever/item=281147/grants-shield\" class=\"q1\">Grant's Shield</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Grant's Mace (1)\nGrant's Shield (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Grant's Mace (1)"
+          },
+          {
+            "quantity": 1,
+            "text": "Grant's Shield (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 281143,
+        "slug": "iras-dagger",
+        "label": "Ira's Dagger"
+      },
+      {
+        "id": 281142,
+        "slug": "merricks-bow",
+        "label": "Merrick's Bow"
+      },
+      {
+        "id": 281147,
+        "slug": "grants-shield",
+        "label": "Grant's Shield"
+      },
+      {
+        "id": 281146,
+        "slug": "grants-mace",
+        "label": "Grant's Mace"
+      },
+      {
+        "id": 281145,
+        "slug": "silvias-sword",
+        "label": "Silvia's Sword"
+      },
+      {
+        "id": 281046,
+        "slug": "raven-hill-tome",
+        "label": "Raven Hill Tome"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6176
+        ],
+        null,
+        [
+          281147
+        ]
+      ],
+      "3": [
+        [
+          268,
+          6176
+        ]
+      ],
+      "8": [
+        "Find Grant's Mace on one of the skeletons in Raven Hill Cemetery then return to Sirra Von'Indie in Darkshire for more information."
+      ],
+      "10": {
+        "3": [
+          [
+            281146,
+            null,
+            0
+          ]
+        ]
+      },
+      "S": {
+        "1": "Grant's Shield",
+        "4": 18,
+        "5": 25,
+        "6": 162,
+        "7": 64,
+        "11": 281147,
+        "17": 10,
+        "p": 646
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Щит Ґранта",
+        "detail": "Щит, залишений привидом Ґранта Валора, батька родини Валорів і героя Воронячого пагорба.\r\n\r\nДух Ґранта й досі б'ється з невмерлими, тож, можливо, його незавершеною справою було знищити ту нечисть, що поранила його на кладовищі Воронячого пагорба. Ймовірно, саме в ній досі застрягла його булава.",
+        "objective": "Знайдіть булаву Ґранта в одного зі скелетів на кладовищі Воронячого пагорба, а потім поверніться до Сірри Вон'Інді в Темнокрай по додаткові відомості.",
+        "progress": "Ви хотіли мене бачити?",
+        "complete": "Те, що такого гордого чоловіка, як Ґрант Валор, здолала така проста істота, менше говорить про нього самого й більше — про жахіття війни. Досить однієї помилки, щоб залишитися калікою на все життя.\r\n\r\nЦя зброя чимало розповідає про свого власника. Дайте мені трохи часу, щоб її вивчити.",
+        "en": "Grant's Shield",
+        "faction": "Alliance"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Shield title/provided281147 and mace objective281146 are distinct supported facts. Exact own-ID reqclass64/reqrace162/side3 agree installed but narrative and UA Alliance differ in eligibility; no native/currentlive confirmation.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "79363": {
+    "sourceSHA256": "cfb8733bda2c6a1794b339818522b0ca208b73eb477b8e352bd86d13aa56f877",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 79363,
+        "record": {
+          "name_enus": "Silvia's Sword",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        },
+        "offset": 29519
+      },
+      {
+        "type": 5,
+        "id": 79363,
+        "record": {
+          "name_enus": "Silvia's Sword",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 64,
+          "reqrace": 162
+        },
+        "offset": 38107
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24702,
+        "text": "[ul][li]Level: 27[/li][li]Requires level 18[/li][li]Side: Both[/li][li]Races: [race=2], [race=6], [br][race=8][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/icon][/li][li][icon name=quest-end]End: [span class=icon-alliance-padded][url=/forever/npc=268/sirra-vonindi]Sirra Von'Indi[/url][/span][/icon][br][span=invisible][icon name=quest-end]End: [/icon][/span][span class=icon-horde][url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/span][/li][li]Not sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A sword left by the spirit of Raven Hill's guard, Silvia Valor, who lived her life protecting civilians and their homes.\n\nWith Silvia's spirit still visiting farmsteads, perhaps her unfinished business was to route the defias who have taken up residence in Addle's Stead south of Raven Hill.",
+        "clean": "A sword left by the spirit of Raven Hill's guard, Silvia Valor, who lived her life protecting civilians and their homes.\n\nWith Silvia's spirit still visiting farmsteads, perhaps her unfinished business was to route the defias who have taken up residence in Addle's Stead south of Raven Hill."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "You look like you've seen a ghost!",
+        "clean": "You look like you've seen a ghost!"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Silvia Valor, hmm? Ah, yes. A fine warrior and a defender of our way of life--albeit with a narrow vision of what that was.<br /><br />Your guess is as good as mine what she would want, but the defias was a good start. Let me study this blade further.",
+        "clean": "Silvia Valor, hmm? Ah, yes. A fine warrior and a defender of our way of life--albeit with a narrow vision of what that was.\n\nYour guess is as good as mine what she would want, but the defias was a good start. Let me study this blade further."
+      },
+      "objective": {
+        "raw": "Defeat 7 <a href=\"/forever/npc=909/defias-night-blade\">Defias Night Blades</a> and 7 <a href=\"/forever/npc=910/defias-enchanter\">Defias Enchanters</a> in Addle's Stead then return to <a href=\"/forever/npc=268/sirra-vonindi\">Sirra Von'Indi</a> in Darkshire for more information.",
+        "clean": "Defeat 7 Defias Night Blades and 7 Defias Enchanters in Addle's Stead then return to Sirra Von'Indi in Darkshire for more information."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 40611,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"7\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=909/defias-night-blade\">Defias Night Blade</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"7\">&nbsp;(<span class=\"icon-list-quantity\">7</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"2\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=910/defias-enchanter\">Defias Enchanter</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"2\">&nbsp;(<span class=\"icon-list-quantity\">2</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=281145/silvias-sword\" class=\"q1\">Silvia's Sword</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Defias Night Blade slain (7)\n Defias Enchanter slain (2)\nSilvia's Sword (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 7,
+            "text": "Defias Night Blade slain (7)"
+          },
+          {
+            "quantity": 2,
+            "text": "Defias Enchanter slain (2)"
+          },
+          {
+            "quantity": 1,
+            "text": "Silvia's Sword (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 281143,
+        "slug": "iras-dagger",
+        "label": "Ira's Dagger"
+      },
+      {
+        "id": 281142,
+        "slug": "merricks-bow",
+        "label": "Merrick's Bow"
+      },
+      {
+        "id": 281147,
+        "slug": "grants-shield",
+        "label": "Grant's Shield"
+      },
+      {
+        "id": 281146,
+        "slug": "grants-mace",
+        "label": "Grant's Mace"
+      },
+      {
+        "id": 281145,
+        "slug": "silvias-sword",
+        "label": "Silvia's Sword"
+      },
+      {
+        "id": 281046,
+        "slug": "raven-hill-tome",
+        "label": "Raven Hill Tome"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6176
+        ],
+        null,
+        [
+          281145
+        ]
+      ],
+      "3": [
+        [
+          268,
+          6176
+        ]
+      ],
+      "8": [
+        "Defeat 7 Defias Night Blades and 7 Defias Enchanters in Addle's Stead then return to Sirra Von'Indi in Darkshire for more information."
+      ],
+      "10": [
+        [
+          [
+            909,
+            null,
+            0
+          ],
+          [
+            910,
+            null,
+            0
+          ]
+        ]
+      ],
+      "S": {
+        "1": "Silvia's Sword",
+        "4": 18,
+        "5": 27,
+        "6": 162,
+        "7": 64,
+        "11": 281145,
+        "17": 10,
+        "p": 646
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Меч Сільвії",
+        "detail": "Меч, залишений духом вартової Воронячого Пагорба Сільвії Доблесті, яка присвятила своє життя захисту мирних жителів та їхніх домівок.\r\n\r\nДух Сільвії й досі навідується до навколишніх садиб. Можливо, її незавершена справа — розгромити Непокірних, що оселилися в маєтку Еддла на південь від Воронячого Пагорба.",
+        "objective": "Переможіть 7 Нічних клинків Непокірних і 7 чаротворців Непокірних у маєтку Еддла, а потім поверніться до Сірри Вон'Інді в Темнокрай по додаткову інформацію.",
+        "progress": "У тебе такий вигляд, ніби ти привида побачив!",
+        "complete": "Сільвія Відвага, гм? А, так. Славна воїтелька й захисниця нашого способу життя — хоч і мала дещо вузьке уявлення про те, яким він має бути.\r\n\r\nНе мені знати, чого б вона хотіла, але Непокірні були добрим початком. Дай-но я ще трохи досліджу цей клинок.",
+        "en": "Silvia's Sword",
+        "faction": "Alliance"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Objective narrative, installed and 60/UA say7 Night Blades/7 Enchanters; actual current objective table says7 Night Blade/2 Enchanter. Hold objective until live resolution. Same own-ID eligibility caveat as79362.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "96137": {
+    "sourceSHA256": "8a5f062a9df4a0147caab82631cba30cfce4c75f2aeb7cb16ffc3bd39d912593",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 96137,
+        "record": {
+          "name_enus": "Ira's Dagger",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 29517
+      },
+      {
+        "type": 5,
+        "id": 96137,
+        "record": {
+          "name_enus": "Ira's Dagger",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 39409
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24412,
+        "text": "[ul][li]Level: 25[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=268/sirra-vonindi]Sirra Von'Indi[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A small dagger belonging to the self-appointed ranger, Ira, who kept the forests safe by preventing the beasts within from attacking travelers.\n\nWith Ira's spirit still wandering the woods, perhaps her unfinished business was to clear out the worg that continue to claim victims throughout the forest.",
+        "clean": "A small dagger belonging to the self-appointed ranger, Ira, who kept the forests safe by preventing the beasts within from attacking travelers.\n\nWith Ira's spirit still wandering the woods, perhaps her unfinished business was to clear out the worg that continue to claim victims throughout the forest."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "What have you got there?",
+        "clean": "What have you got there?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Ira? Are you sure? Sounds like the woman was damn near a ghost before she died. I'm surprised you found her.<br /><br />Rest assured I will take great care of this dagger.",
+        "clean": "Ira? Are you sure? Sounds like the woman was damn near a ghost before she died. I'm surprised you found her.\n\nRest assured I will take great care of this dagger."
+      },
+      "objective": {
+        "raw": "Defeat 10 <a href=\"/forever/npc=923/young-black-ravager\">Young Black Ravagers</a> and 7 <a href=\"/forever/npc=628/black-ravager\">Black Ravagers</a> then return to <a href=\"/forever/npc=268/sirra-vonindi\">Sirra Von'Indi</a> in Darkshire for more information.",
+        "clean": "Defeat 10 Young Black Ravagers and 7 Black Ravagers then return to Sirra Von'Indi in Darkshire for more information."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 41083,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"10\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=923/young-black-ravager\">Young Black Ravager</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"10\">&nbsp;(<span class=\"icon-list-quantity\">10</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"7\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=628/black-ravager\">Black Ravager</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"7\">&nbsp;(<span class=\"icon-list-quantity\">7</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=281143/iras-dagger\" class=\"q1\">Ira's Dagger</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Young Black Ravager slain (10)\n Black Ravager slain (7)\nIra's Dagger (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 10,
+            "text": "Young Black Ravager slain (10)"
+          },
+          {
+            "quantity": 7,
+            "text": "Black Ravager slain (7)"
+          },
+          {
+            "quantity": 1,
+            "text": "Ira's Dagger (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 281143,
+        "slug": "iras-dagger",
+        "label": "Ira's Dagger"
+      },
+      {
+        "id": 281142,
+        "slug": "merricks-bow",
+        "label": "Merrick's Bow"
+      },
+      {
+        "id": 281147,
+        "slug": "grants-shield",
+        "label": "Grant's Shield"
+      },
+      {
+        "id": 281146,
+        "slug": "grants-mace",
+        "label": "Grant's Mace"
+      },
+      {
+        "id": 281145,
+        "slug": "silvias-sword",
+        "label": "Silvia's Sword"
+      },
+      {
+        "id": 281046,
+        "slug": "raven-hill-tome",
+        "label": "Raven Hill Tome"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6176
+        ],
+        null,
+        [
+          281143
+        ]
+      ],
+      "3": [
+        [
+          268
+        ]
+      ],
+      "8": [
+        "Defeat 10 Young Black Ravagers and 7 Black Ravagers then return to Sirra Von'Indi in Darkshire for more information."
+      ],
+      "10": [
+        [
+          [
+            923,
+            null,
+            0
+          ],
+          [
+            628,
+            null,
+            0
+          ]
+        ]
+      ],
+      "S": {
+        "1": "Ira's Dagger",
+        "4": 18,
+        "5": 25,
+        "6": 4294967373,
+        "11": 281143,
+        "17": 10,
+        "p": 646
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Кинджал Іри",
+        "detail": "Невеликий кинджал, що належав самопроголошеному рейнджеру Ірі, який оберігав ліси від нападів на подорожніх звірів.\n\nПоки дух Іри все ще блукав лісами, можливо, її незавершеною справою було позбутися ворґів, які продовжують забирати жертв по всьому лісу.",
+        "objective": "Перемогти 10 Молодих Чорних Руйнівників та 7 Чорних Руйнівників, а потім повернутися до Сірри Вон'Інді в Темноширі за додатковою інформацією.",
+        "progress": "Що це в тебе там?",
+        "complete": "Іра? Ти впевнений? Схоже, ця жінка ще за життя була мало не привидом. Дивуюся, що тобі вдалося її знайти.\r\n\r\nНе хвилюйся, я подбаю про цей кинджал як слід.",
+        "en": "Ira's Dagger",
+        "faction": "Alliance"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "96138": {
+    "sourceSHA256": "82d5a4726d8f7fc6e3232f28cdeb11d3c0e417a011918874a864069d1c2a389f",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 96138,
+        "record": {
+          "name_enus": "Merrick's Bow",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 30345
+      },
+      {
+        "type": 5,
+        "id": 96138,
+        "record": {
+          "name_enus": "Merrick's Bow",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "offset": 44750
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24449,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=268/sirra-vonindi]Sirra Von'Indi[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A bow left by the spirit of Merrick Valor, famed Watcher who prided himself on keeping the roads safe from encroaching enemies.\n\nWith Merrick's spirit still wandering the roads, perhaps his unfinished business was to clear out invaders near his home in Raven Hill. The ogres south of town may be what's troubling his spirit.",
+        "clean": "A bow left by the spirit of Merrick Valor, famed Watcher who prided himself on keeping the roads safe from encroaching enemies.\n\nWith Merrick's spirit still wandering the roads, perhaps his unfinished business was to clear out invaders near his home in Raven Hill. The ogres south of town may be what's troubling his spirit."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Yes, what is it?",
+        "clean": "Yes, what is it?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Merrick Valor, you say? Poor boy always wanted to prove himself. It was a shame what happened to him and his family.<br /><br />Thank you for bringing this, &lt;name&gt;. Perhaps it can shed some additional light on Raven Hill's history.",
+        "clean": "Merrick Valor, you say? Poor boy always wanted to prove himself. It was a shame what happened to him and his family.\n\nThank you for bringing this, <name>. Perhaps it can shed some additional light on Raven Hill's history."
+      },
+      "objective": {
+        "raw": "Defeat 8 <a href=\"/forever/npc=212/splinter-fist-warrior\">Splinter Fist Warriors</a> and 4 <a href=\"/forever/npc=892/splinter-fist-taskmaster\">Splinter Fist Taskmasters</a> then return to <a href=\"/forever/npc=268/sirra-vonindi\">Sirra Von'Indi</a> in Darkshire for more information.",
+        "clean": "Defeat 8 Splinter Fist Warriors and 4 Splinter Fist Taskmasters then return to Sirra Von'Indi in Darkshire for more information."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 46447,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"8\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=212/splinter-fist-warrior\">Splinter Fist Warrior</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"8\">&nbsp;(<span class=\"icon-list-quantity\">8</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"4\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=892/splinter-fist-taskmaster\">Splinter Fist Taskmaster</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"4\">&nbsp;(<span class=\"icon-list-quantity\">4</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=281142/merricks-bow\" class=\"q1\">Merrick's Bow</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Splinter Fist Warrior slain (8)\n Splinter Fist Taskmaster slain (4)\nMerrick's Bow (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 8,
+            "text": "Splinter Fist Warrior slain (8)"
+          },
+          {
+            "quantity": 4,
+            "text": "Splinter Fist Taskmaster slain (4)"
+          },
+          {
+            "quantity": 1,
+            "text": "Merrick's Bow (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 280612,
+        "slug": "night-watchmans-torch",
+        "label": "Night Watchman's Torch"
+      },
+      {
+        "id": 281142,
+        "slug": "merricks-bow",
+        "label": "Merrick's Bow"
+      },
+      {
+        "id": 281143,
+        "slug": "iras-dagger",
+        "label": "Ira's Dagger"
+      },
+      {
+        "id": 281147,
+        "slug": "grants-shield",
+        "label": "Grant's Shield"
+      },
+      {
+        "id": 281146,
+        "slug": "grants-mace",
+        "label": "Grant's Mace"
+      },
+      {
+        "id": 281145,
+        "slug": "silvias-sword",
+        "label": "Silvia's Sword"
+      },
+      {
+        "id": 281046,
+        "slug": "raven-hill-tome",
+        "label": "Raven Hill Tome"
+      }
+    ],
+    "installedRecord": {
+      "2": {
+        "3": [
+          281142
+        ]
+      },
+      "3": [
+        [
+          268
+        ]
+      ],
+      "8": [
+        "Defeat 8 Splinter Fist Warriors and 4 Splinter Fist Taskmasters then return to Sirra Von'Indi in Darkshire for more information."
+      ],
+      "10": [
+        [
+          [
+            212,
+            null,
+            0
+          ],
+          [
+            892,
+            null,
+            0
+          ]
+        ]
+      ],
+      "S": {
+        "1": "Merrick's Bow",
+        "4": 18,
+        "5": 30,
+        "6": 4294967373,
+        "11": 281142,
+        "17": 10,
+        "p": 646
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Лук Мерріка",
+        "detail": "Лук, залишений духом Мерріка Валора, відомого Вартового, який пишався тим, що оберігав дороги від ворогів.\n\nПоки дух Мерріка все ще блукає дорогами, можливо, його незавершеною справою було позбутися загарбників біля його будинку на Рейвен-Гілл. Можливо, його дух турбують огри на південь від міста.",
+        "objective": "Перемогти 8 воїнів-розколотих кулаків та 4 таскмайстрів-розколотих кулаків, а потім повернутися до Сірри Вон'Інді в Темноширі за додатковою інформацією.",
+        "progress": "Так, що таке?",
+        "complete": "Кажеш, Меррік Валор? Бідолашний хлопець завжди хотів довести, чого вартий. Шкода, що з ним і його родиною таке сталося.\n\nДякую, що {стать:приніс:принесла} це, {ім'я:к}. Можливо, воно ще трохи прояснить історію Воронячого пагорба.",
+        "en": "Merrick's Bow",
+        "faction": "Alliance"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "6681": {
+    "sourceSHA256": "ff9016534250e61e148d8fcbdca40176fc3588fdd3e714d71e4312ba5a2bde7d",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 6681,
+        "record": {
+          "name_enus": "The Manor, Ravenholdt",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        },
+        "offset": 259110
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24700,
+        "text": "[ul][li]Level: 24[/li][li]Requires level 24[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-end]End: [url=/forever/npc=6707/fahrad]Fahrad[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]24[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 25586,
+        "text": "[quest=6701 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "&lt;name&gt;,<br /><br /><a href=\"/forever/npc=13936/ravenholdt\">Ravenholdt</a> has taken an interest in you, young thief. We have been watching. Your style is a bit awkward but nothing we couldn't fix.<br /><br />Should you be prepared to embark on a career as a disciple of Master <a href=\"/forever/npc=13936/ravenholdt\">Ravenholdt</a> and member of the Assassin's League, you have only to bring the <a href=\"/forever/item=17125/seal-of-ravenholdt\">Seal of Ravenholdt</a> (attached to this letter) to <a href=\"/forever/npc=13936/ravenholdt\">Ravenholdt</a> Manor.<br /><br />Your first task is to find the manor, hidden away in the hills of Hillsbrad and demonstrate your cunning.<br /><br />Regards,<br /><br /><a href=\"/forever/npc=6707/fahrad\">Fahrad</a>",
+        "clean": "<name>,\n\nRavenholdt has taken an interest in you, young thief. We have been watching. Your style is a bit awkward but nothing we couldn't fix.\n\nShould you be prepared to embark on a career as a disciple of Master Ravenholdt and member of the Assassin's League, you have only to bring the Seal of Ravenholdt (attached to this letter) to Ravenholdt Manor.\n\nYour first task is to find the manor, hidden away in the hills of Hillsbrad and demonstrate your cunning.\n\nRegards,\n\nFahrad"
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Did you meet Milton?<br /><br />&lt;<a href=\"/forever/npc=6707/fahrad\">Fahrad</a> laughs.&gt;",
+        "clean": "Did you meet Milton?\n\n<Fahrad laughs.>"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Most excellent, young thief.<br /><br />You look a bit beaten down, but no worse for the wear.<br /><br />A long journey awaits you - long and rewarding. Are you prepared to finally embrace your destiny among the masters of <a href=\"/forever/npc=13936/ravenholdt\">Ravenholdt</a>?<br /><br />Speak with the guards outside. They will get you started.",
+        "clean": "Most excellent, young thief.\n\nYou look a bit beaten down, but no worse for the wear.\n\nA long journey awaits you - long and rewarding. Are you prepared to finally embrace your destiny among the masters of Ravenholdt?\n\nSpeak with the guards outside. They will get you started."
+      },
+      "objective": {
+        "raw": "Take the <a href=\"/forever/item=17125/seal-of-ravenholdt\">Seal of Ravenholdt</a> to <a href=\"/forever/npc=6707/fahrad\">Fahrad</a> at <a href=\"/forever/npc=13936/ravenholdt\">Ravenholdt</a> Manor, hidden away in the hills of Hillsbrad.<br /><br />Your cunning will be tested along the way. Be prepared.",
+        "clean": "Take the Seal of Ravenholdt to Fahrad at Ravenholdt Manor, hidden away in the hills of Hillsbrad.\n\nYour cunning will be tested along the way. Be prepared."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 260900,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=13936/rite-of-cunning\">Rite of Cunning</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=17125/seal-of-ravenholdt\" class=\"q1\">Seal of Ravenholdt</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Rite of Cunning (1)\nSeal of Ravenholdt (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Rite of Cunning (1)"
+          },
+          {
+            "quantity": 1,
+            "text": "Seal of Ravenholdt (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 17126,
+        "slug": "elegant-letter",
+        "label": "Elegant Letter"
+      },
+      {
+        "id": 17125,
+        "slug": "seal-of-ravenholdt",
+        "label": "Seal of Ravenholdt"
+      }
+    ],
+    "installedRecord": {
+      "2": {
+        "3": [
+          17126
+        ]
+      },
+      "3": [
+        [
+          6707
+        ]
+      ],
+      "8": [
+        "Take the Seal of Ravenholdt to Fahrad at Ravenholdt Manor, hidden away in the hills of Hillsbrad.",
+        "",
+        "Your cunning will be tested along the way. Be prepared."
+      ],
+      "10": [
+        [
+          [
+            13936,
+            "Rite of Cunning",
+            0
+          ]
+        ]
+      ],
+      "26": [
+        [
+          349,
+          100
+        ]
+      ],
+      "S": {
+        "1": "The Manor, Ravenholdt",
+        "4": 24,
+        "5": 24,
+        "7": 8,
+        "11": 17125,
+        "17": -162,
+        "22": 6701,
+        "p": 33555078
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Маєток, Рейвенхольдт",
+        "detail": "{ім'я},\n\nРейвенхольдт зацікавився тобою, {стать:юний крадію:юна крадійко}. Ми спостерігали за тобою. Тобі дещо бракує спритності, але ми зможемо це виправити.\n\nЯкщо ти {стать:готовий:готова} стати {стать:учнем:ученицею} майстра Рейвенхольдту та членом Ліги вбивць, ти маєш лише принести печатку Рейвенхольдта (прикладену до цього листа) до маєтку Рейвенхольдт.\n\nТвоє перше завдання — знайти маєток серед пагорбів Гіллзбраду та продемонструвати свої здібності.\n\nЗ повагою,\n\nФаград",
+        "objective": "Віднесіть печатку Рейвенхольдта Фаграду в маєток Рейвенхольдт, що захований глибоко в горах Гіллзбраду.\n\nПошуки маєтку — перевірка ваших здібностей. Будьте напоготові.",
+        "progress": "{стать:Бачив:Бачила} Мільтона?\n\n<Фаград сміється.>",
+        "complete": "Чудово, {стать:юний крадію:юна крадійко}.\n\nВиглядаєш трохи {стать:побитим:побитою}, але не гірше, ніж раніше.\n\nНа тебе чекає довга подорож, довга та сповнена нагород. Ти {стать:готовий:готова} прийняти свою долю серед майстрів Рейвенхольдта?\n\nПоговори з вартовими назовні. Вони дадуть тобі перше завдання.",
+        "en": "The Manor, Ravenholdt",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "96779": {
+    "sourceSHA256": "1d457e44aec09c96269d6eaa39a34c6306237e9afc0bcb4ff30515bb36897e96",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 96779,
+        "record": {
+          "name_enus": "Syndicate Sabotage",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        },
+        "offset": 26350
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24528,
+        "text": "[ul][li]Level: 24[/li][li]Requires level 24[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=13085/myrokos-silentform]Myrokos Silentform[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13085/myrokos-silentform]Myrokos Silentform[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]24[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "Sometimes, &lt;race&gt;, a single cut in the right place will drop a foe dead. The same is often true of organizations.\n\nOur agents have identified a key target among the ranks of the Syndicate: a man by the name of <a href=\"/forever/npc=266216/lord-tomas\">Lord Tomas</a>.\n\nHe plays an instrumental role in the functions of Durnholde Keep, in Hillsbrad Foothills. If you wish to be of service to Ravenholdt, go to Durnholde and eliminate him. The quicker, and quieter, the better.",
+        "clean": "Sometimes, <race>, a single cut in the right place will drop a foe dead. The same is often true of organizations.\n\nOur agents have identified a key target among the ranks of the Syndicate: a man by the name of Lord Tomas.\n\nHe plays an instrumental role in the functions of Durnholde Keep, in Hillsbrad Foothills. If you wish to be of service to Ravenholdt, go to Durnholde and eliminate him. The quicker, and quieter, the better."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "With Tomas dead, Durnholde Keep will no doubt be destabilized. Lowly thugs of the Syndicate's kind often fall to disarray without a figurehead to lead them.<br /><br />Good work, &lt;name&gt;. I may call upon you for future missions.",
+        "clean": "With Tomas dead, Durnholde Keep will no doubt be destabilized. Lowly thugs of the Syndicate's kind often fall to disarray without a figurehead to lead them.\n\nGood work, <name>. I may call upon you for future missions."
+      },
+      "objective": {
+        "raw": "Find <a href=\"/forever/npc=266216/lord-tomas\">Lord Tomas</a> inside Durnholde Keep, in Hillsbrad Foothills, and kill him. Then, return to <a href=\"/forever/npc=13085/myrokos-silentform\">Myrokos Silentform</a>.",
+        "clean": "Find Lord Tomas inside Durnholde Keep, in Hillsbrad Foothills, and kill him. Then, return to Myrokos Silentform."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 27769,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=266216/lord-tomas\">Lord Tomas</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Lord Tomas slain (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Lord Tomas slain (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [],
+    "installedRecord": {
+      "2": [
+        [
+          13085
+        ]
+      ],
+      "3": [
+        [
+          13085
+        ]
+      ],
+      "8": [
+        "Find Lord Tomas inside Durnholde Keep, in Hillsbrad Foothills, and kill him. Then, return to Myrokos Silentform."
+      ],
+      "10": [
+        [
+          [
+            266216,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        6681
+      ],
+      "26": [
+        [
+          349,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Syndicate Sabotage",
+        "4": 24,
+        "5": 24,
+        "7": 8,
+        "17": -162,
+        "p": 33559174
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Саботаж Синдикату",
+        "detail": "Іноді, {раса:к}, одного удару в потрібне місце досить, щоб ворог упав мертвим. З організаціями часто так само.\n\nНаші агенти визначили важливу ціль серед членів Синдикату — людину на ім'я лорд Томас.\n\nВін відіграє ключову роль у справах фортеці Дарнгольд у передгір'ї Гіллзбраду. Якщо хочеш послужити Воронгольдту, вирушай у Дарнгольд і усунь його. Що швидше й тихіше, то краще.",
+        "objective": "Знайдіть і вбийте лорда Томаса у фортеці Дарнгольд у передгір'ї Гіллзбраду. Потім поверніться до Мірокоса Тихоступа.",
+        "progress": null,
+        "complete": "Після смерті Томаса фортеця Дарнгольд, без сумніву, втратить стійкість. Нікчемні бандити на кшталт Синдикату часто впадають у безлад, коли немає ватажка, який їх веде.\n\nГарна робота, {ім'я:к}. Можливо, я ще покличу тебе для майбутніх завдань.",
+        "en": "Syndicate Sabotage",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "78261": {
+    "sourceSHA256": "18323083b39869e4cecdf8f446f2f8217fae520b5fdc7f9afe5199d4aa16c384",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78261,
+        "record": {
+          "name_enus": "The Horn of Xelthos",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        },
+        "offset": 58717
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24538,
+        "text": "[ul][li]Level: 23[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "&lt;A note sits in the chest&gt;\n\nHello, &lt;name&gt;.\n\nI desire a treasure known as The <a href=\"/forever/item=210183/horn-of-xelthos\">Horn of Xelthos</a>, which is somewhere within Shadowfang Keep.\n\nVenturing inside the keep usually calls for backup. However, for this job, a low profile is of utmost importance.\n\nYou must go alone.\n\nI have a contact, by the name of <a href=\"/forever/npc=4086/veenix\">Veenix</a>, in the Stonetalon Mountains. He should be able to help you get past the courtyard gate. The rest is up to you. \n\nReturn the horn here, and your payment will be sent soon after.\n\n- C",
+        "clean": "<A note sits in the chest>\n\nHello, <name>.\n\nI desire a treasure known as The Horn of Xelthos, which is somewhere within Shadowfang Keep.\n\nVenturing inside the keep usually calls for backup. However, for this job, a low profile is of utmost importance.\n\nYou must go alone.\n\nI have a contact, by the name of Veenix, in the Stonetalon Mountains. He should be able to help you get past the courtyard gate. The rest is up to you. \n\nReturn the horn here, and your payment will be sent soon after.\n\n- C"
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "&lt;The chest sits, empty.&gt;",
+        "clean": "<The chest sits, empty.>"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "&lt;You place The <a href=\"/forever/item=210183/horn-of-xelthos\">Horn of Xelthos</a> into the chest&gt;",
+        "clean": "<You place The Horn of Xelthos into the chest>"
+      },
+      "objective": {
+        "raw": "Find The <a href=\"/forever/item=210183/horn-of-xelthos\">Horn of Xelthos</a> inside of Shadowfang Keep. Then, return it to C's <a href=\"/forever/object=410369/dead-drop\">dead drop</a> near Pyrewood Village. You must complete the job alone.",
+        "clean": "Find The Horn of Xelthos inside of Shadowfang Keep. Then, return it to C's dead drop near Pyrewood Village. You must complete the job alone."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 61078,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=210183/horn-of-xelthos\" class=\"q1\">Horn of Xelthos</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=4086/find-veenix\">Find Veenix</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Horn of Xelthos (1)\n Find Veenix (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Horn of Xelthos (1)"
+          },
+          {
+            "quantity": 1,
+            "text": "Find Veenix (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 210183,
+        "slug": "horn-of-xelthos",
+        "label": "Horn of Xelthos"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          410369
+        ]
+      ],
+      "3": [
+        null,
+        [
+          410369
+        ]
+      ],
+      "8": [
+        "Find The Horn of Xelthos inside of Shadowfang Keep. Then, return it to C's dead drop near Pyrewood Village. You must complete the job alone."
+      ],
+      "S": {
+        "1": "The Horn of Xelthos",
+        "4": 1,
+        "5": 23,
+        "7": 8,
+        "17": -162,
+        "22": 78307,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Ріг Кселтоса",
+        "detail": "<Записка лежить у скрині>\n\nПривіт, {ім'я}.\n\nЯ бажаю знайти скарб, відомий як Ріг Кселтоса, який знаходиться десь у Твердині Тіньового Ікла.\n\nДля того, щоб потрапити всередину фортеці, зазвичай потрібне підкріплення. Однак для цієї роботи надзвичайно важливо залишатися непомітним.\n\nТи маєш йти сам.\n\nУ мене є контакт на ім'я Вінікс у Кігтевих Горах. Він має допомогти тобі пройти через ворота внутрішнього двору. Решта залежить від тебе.\n\nПоверни ріг сюди, і твій платіж буде надіслано невдовзі після цього.\n\n- C",
+        "objective": "Знайдіть Ріг Кселтоса всередині Тіньової Тіні. Потім поверніть його до схованки C біля села Пірвуд. Ви повинні виконати завдання самостійно.",
+        "progress": "<Скриня стоїть порожня.>",
+        "complete": "<Ви кладете Ріг Кселтоса у скриню>",
+        "en": "The Horn of Xelthos",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary and secondary current English states checked; helper/repeatable or class step identity retained; current live activation unverified.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "78307": {
+    "sourceSHA256": "63b32d60992dd7f11c7dd25b3cd7c06c51c2dd874816a6ea4c1ab7d536f3af11",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78307,
+        "record": {
+          "name_enus": "The Horn of Xelthos",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        },
+        "offset": 45685
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24448,
+        "text": "[ul][li]Level: 23[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-end]End: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "Description",
+        "clean": "Description"
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "&lt;A note sits in the chest&gt;<br /><br />For &lt;name&gt;. I'll be seeing you.<br /><br />- C",
+        "clean": "<A note sits in the chest>\n\nFor <name>. I'll be seeing you.\n\n- C"
+      },
+      "objective": {
+        "raw": "Log<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Log"
+      }
+    },
+    "objectiveTables": [],
+    "linkedItems": [
+      {
+        "id": 277210,
+        "slug": "pyrewood-signet-ring",
+        "label": "Pyrewood Signet Ring"
+      },
+      {
+        "id": 203994,
+        "slug": "rune-of-deadly-brew",
+        "label": "Rune of Deadly Brew"
+      }
+    ],
+    "installedRecord": {
+      "3": [
+        null,
+        [
+          410369
+        ]
+      ],
+      "8": [
+        "Log"
+      ],
+      "13": [
+        78261
+      ],
+      "S": {
+        "1": "The Horn of Xelthos",
+        "4": 1,
+        "5": 23,
+        "7": 8,
+        "17": -162,
+        "p": 4228
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Ріг Кселтоса",
+        "detail": "Опис",
+        "objective": "Журнал",
+        "progress": null,
+        "complete": "<Записка лежить у скрині>\n\nЗа {ім'я}. Ще побачимося.\n\n- C",
+        "en": "The Horn of Xelthos",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  },
+  "78270": {
+    "sourceSHA256": "1a29608f3f154bda266c53957d1671c28235479d30d4e2348719071a05b76562",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78270,
+        "record": {
+          "name_enus": "Goblin Lockpicks",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 8,
+          "reqrace": 0
+        },
+        "offset": 27824
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 24572,
+        "text": "[ul][li]Level: 23[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-end]End: [url=/forever/npc=4086/veenix]Veenix[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "&lt;A note sits in the chest&gt;\n\nHello again, &lt;name&gt;.\n\nI desire a treasure known as The Horn of Xelthos, which is somewhere within Shadowfang Keep.\n\nVenturing inside the keep usually calls for backup. However, for this job, a low profile is of utmost importance.\n\nYou must go alone.\n\nI have a contact, by the name of <a href=\"/forever/npc=4086/veenix\">Veenix</a>, in the Stonetalon Mountains. He should be able to help you get past the courtyard gate. The rest is up to you. \n\nReturn the horn here, and your payment will be sent soon after.\n\n- C",
+        "clean": "<A note sits in the chest>\n\nHello again, <name>.\n\nI desire a treasure known as The Horn of Xelthos, which is somewhere within Shadowfang Keep.\n\nVenturing inside the keep usually calls for backup. However, for this job, a low profile is of utmost importance.\n\nYou must go alone.\n\nI have a contact, by the name of Veenix, in the Stonetalon Mountains. He should be able to help you get past the courtyard gate. The rest is up to you. \n\nReturn the horn here, and your payment will be sent soon after.\n\n- C"
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "You said you're breaking into Shadowfang...alone? You've got some guts! <br /><br />I can hook you up with explosives to get past the gate, but I'll need a work order to make it look legit on the books. One of the other Venture Co. guys around here's gotta be carrying one.",
+        "clean": "You said you're breaking into Shadowfang...alone? You've got some guts! \n\nI can hook you up with explosives to get past the gate, but I'll need a work order to make it look legit on the books. One of the other Venture Co. guys around here's gotta be carrying one."
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Nice job, &lt;name&gt;. I figure that was a cakewalk for someone in your line of work.<br /><br />As promised, here's the goods.",
+        "clean": "Nice job, <name>. I figure that was a cakewalk for someone in your line of work.\n\nAs promised, here's the goods."
+      },
+      "objective": {
+        "raw": "Find The Horn of Xelthos inside of Shadowfang Keep. Then, return it to C's dead drop near Pyrewood Village.",
+        "clean": "Find The Horn of Xelthos inside of Shadowfang Keep. Then, return it to C's dead drop near Pyrewood Village."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 29416,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=210187/venture-co-work-order\" class=\"q1\">Venture Co. Work Order</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Venture Co. Work Order (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Venture Co. Work Order (1)"
+          }
+        ]
+      }
+    ],
+    "linkedItems": [
+      {
+        "id": 210187,
+        "slug": "venture-co-work-order",
+        "label": "Venture Co. Work Order"
+      },
+      {
+        "id": 210186,
+        "slug": "breaching-charge",
+        "label": "Breaching Charge"
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          4086
+        ]
+      ],
+      "3": [
+        [
+          4086
+        ]
+      ],
+      "8": [
+        "Find The Horn of Xelthos inside of Shadowfang Keep. Then, return it to C's dead drop near Pyrewood Village."
+      ],
+      "10": {
+        "3": [
+          [
+            210187,
+            null,
+            0
+          ]
+        ]
+      },
+      "S": {
+        "1": "Goblin Lockpicks",
+        "4": 1,
+        "5": 23,
+        "7": 8,
+        "17": -162,
+        "p": 646
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Гоблінські відмички",
+        "detail": "<Записка лежить у скрині>\n\nЗнову вітаю, {ім'я}.\n\nЯ прагну скарб, відомий як Ріг Кселтоса, який знаходиться десь у Твердині Тіньового Ікла.\n\nДля того, щоб потрапити всередину фортеці, зазвичай потрібне підкріплення. Однак для цієї роботи надзвичайно важливо залишатися непомітним.\n\nВи повинні йти самі.\n\nУ мене є контакт на ім'я Вінікс у Кігтевих Горах. Він має допомогти вам пройти через ворота внутрішнього двору. Решта залежить від вас.\n\nПоверніть ріг сюди, і ваш платіж буде надіслано невдовзі після цього.\n\n- C",
+        "objective": "Знайдіть Ріг Кселтоса всередині Тіньової Тіні. Потім поверніть його до схованки C біля села Пірвуд.",
+        "progress": "Ти казав, що вриваєшся в Тіньовий Ікло... сам? У тебе є сміливість!\n\nЯ можу забезпечити тебе вибухівкою, щоб пройти повз ворота, але мені знадобиться робоче замовлення, щоб це виглядало законно в книгах. Ймовірно, хтось із працівників тут має таке. Ймовірно, хтось, хто багато займається ремонтом або будівництвом.",
+        "complete": "Чудова робота, {ім'я}. Гадаю, це було легко для людини у вашій сфері діяльності.\n\nЯк і обіцяно, ось результат.",
+        "en": "Goblin Lockpicks",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityAndEvidenceDisposition": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement.",
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested"
+  }
+}

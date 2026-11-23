@@ -1,0 +1,7 @@
+{
+  "action": "Prepare owned checkpoint from read-only old template, apply owned editorial corrections, then execute owned checkpoint",
+  "result": "AUTO_REVIEW_REJECTED; command did not run",
+  "statedReason": "Although the editorial correction is bounded, the command also modifies and executes a checkpoint script in the separate work/afternoon-2026-11-23/wetlands worktree, exceeding explicitly authorized scope.",
+  "scopeClarification": "Original command only read old template; no old mutation executed. Read-only scope checks followed. Safer fresh checkpoint writes only alliance_routes and reads current repository validators.",
+  "safeReplacement": "Fresh explicit alliance_routes/checkpoint.py; first run syntax typo, subsequently corrected; actual validation evidence in validation-group1.json."
+}

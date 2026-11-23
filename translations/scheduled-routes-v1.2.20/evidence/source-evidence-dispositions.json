@@ -1,0 +1,22 @@
+{
+  "result": "PASS",
+  "acceptedAuthorEvidenceCorrections": [
+    {
+      "partition": "alliance_routes",
+      "kind": "Author-side hold-reason precision before freeze",
+      "field": "1022.objective",
+      "receipt": "evidence/alliance_routes/author-evidence-corrections.json",
+      "changedEnabledText": false
+    },
+    {
+      "partition": "alliance_routes",
+      "kind": "Author-side unused attempt classification retraction before freeze",
+      "receipt": "evidence/alliance_routes/author-evidence-corrections.json",
+      "providerOutcome": "unknown",
+      "changedEnabledText": false
+    }
+  ],
+  "correctionsAppliedToFrozenAuthorFiles": [],
+  "receipt": "transport-and-source-evidence-audit.json",
+  "basis": "Final author source evidence was independently checked. Historical1022secondary-corroboration overstatement and original unused-attempt success assumption are explicitly superseded beforefreeze; no enabled text/status changed. Three rootcandidatehashalias repairs are separate metadata-only provenance."
+}

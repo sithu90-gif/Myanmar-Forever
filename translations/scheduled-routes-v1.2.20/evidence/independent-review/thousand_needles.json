@@ -1,0 +1,1987 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "thousand_needles",
+  "reviewType": "Fresh independent assisted source-aware English/Myanmar review of immutable author artifacts",
+  "reviewedAtUTC": "2026-11-23T20:59:44.886117+00:00",
+  "reviewedEditedFileSHA256": "7784eb536d8971e3e73d81755ba976b8ef40934704672f3807db8dcdf8692cce",
+  "reviewedAuthorFreezeManifestSHA256": "d5e8c54cc1120e6bbbe23a6715bf18ec53b35f87696a6d46b5b8b8a3f7d08fc6",
+  "counts": {
+    "quests": 18,
+    "connectedGroups": 2,
+    "slotsReviewed": 90,
+    "availableEnglishFields": 86,
+    "actualDeepLProvenanceChains": 86,
+    "enabledMyanmarFields": 86,
+    "sourceAbsentNulls": 4,
+    "existingHeldFields": 0,
+    "newHoldProposals": 0,
+    "textIssues": 3,
+    "pronunciationConflicts": 2,
+    "evidenceIssues": 0,
+    "primaryHTMLReadAndReparsed": 18,
+    "secondaryHTMLReadAndReparsed": 17,
+    "secondaryFetchUnavailable": 1,
+    "newPronunciationsPendingNative": 45
+  },
+  "reviewGroups": [
+    {
+      "group": 1,
+      "ids": [
+        1149,
+        1150,
+        1151,
+        1152,
+        1154,
+        6627,
+        1159,
+        1160,
+        6628,
+        1394
+      ],
+      "allFiveSlotsRead": true,
+      "result": "CHANGES_REQUIRED",
+      "issues": 1
+    },
+    {
+      "group": 2,
+      "ids": [
+        4542,
+        4841,
+        5064,
+        4821,
+        4865,
+        5062,
+        5088,
+        4767
+      ],
+      "allFiveSlotsRead": true,
+      "result": "CHANGES_REQUIRED",
+      "issues": 2
+    }
+  ],
+  "quests": [
+    {
+      "id": 1149,
+      "en": "Test of Faith",
+      "allFiveSlotsRead": true,
+      "notes": "Read all five English/Myanmar slots and actual MY outputs. Invitation and cultural versus hoped-for facets retain four paragraphs, conditional pass/fail and Nether consequence. Objective and completion require a physical leap from overlooking planks, with no survival guarantee; sometimes-belief distinction and optional next test retained. No semantic correction found.",
+      "sourceHTMLSHA256": "b4198e80b82e959108f977edecfbf60f756c08a136410ab5a373852b249c9ad7",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1149-wowhead.html",
+        "sourceHTMLSHA256": "b4198e80b82e959108f977edecfbf60f756c08a136410ab5a373852b249c9ad7",
+        "ownQuest": {
+          "id": 1149,
+          "name": "Test of Faith",
+          "level": 26,
+          "reqlevel": 25,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Faith",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "0b528ab94aad0120e5cb30abdd41911e63f30988c015f2a69561a7a3c796858b",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "69b1f7f585772a08c16816697f353942d1347ce167e15687685159da0fe3b3dd",
+          "reviewedMyanmarSHA256": "8c19c55d9f1a70ecc5207f1b96e70e21684f86a00fccd06dca9291216d2ac1b7",
+          "actualRawDeepLSHA256": "8c19c55d9f1a70ecc5207f1b96e70e21684f86a00fccd06dca9291216d2ac1b7",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 0,
+          "responseIndex": 0
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "3e5cb6abed149da315fe1eb45faf09083ce3d264bb3f47297f9b85161f39744c",
+          "reviewedMyanmarSHA256": "f67f08be12b3b91e262ad4ce95cc8540284b25e013fa58b32e40c5de880c2d05",
+          "actualRawDeepLSHA256": "94aa67bad532c1e68024d01eb21d12caf720f7e09240ce49627fa0d3d88eb5b4",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 1,
+          "responseIndex": 1
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "1ee9ee5ffbc3ab514da9600af6fcdbf69f32baa93f58a5d4f65dd136a72b977c",
+          "reviewedMyanmarSHA256": "314d9dc1b2dc1e6c1e09a6f1775953426545b3cec7c6c3e7932366d810c9349c",
+          "actualRawDeepLSHA256": "3a8ff8f6e497d3d5dfa6bbd33a53bb72afea6239ea9a727fe217175677d515a3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 2,
+          "responseIndex": 2
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "8d10723ab1067b92dbdc1b3251eba3b0660cc713bcbd6dad582adc20d5637ae0",
+          "reviewedMyanmarSHA256": "97858d29124d741585934dda850bbbdc9cd81e674d01a55b5f57e96694f37a84",
+          "actualRawDeepLSHA256": "a57e150b964ea021a6c99cf8051c495548431db091e137b681e88cd5cad613cc",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 3,
+          "responseIndex": 3
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "f7cac6e3b3e3bd75302c29b6f224a8201229e8bee3c7769dfae9e870336566b0",
+          "reviewedMyanmarSHA256": "7dbf33aa731f22f7ded73f39d12f9ab57566dd0a15fee787be5c0b44475ae4b7",
+          "actualRawDeepLSHA256": "b180bd48c3a3781772a5bb88ba76725eeece99ca1ef713d4ed25cbb2e6130dec",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 4,
+          "responseIndex": 4
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1150,
+      "en": "Test of Endurance",
+      "allFiveSlotsRead": true,
+      "notes": "Faith precedes Endurance; friends, west of Freewind, deepest Roguefeather den, food destruction, provoked fury and survival long enough before Grenka herself arrives are preserved. Kill and claw delivery to Dorn remain explicit. Three forms of readiness, all tribes and home protection retain Dorn voice. Current primary <race> controls secondary rendered troll. No semantic correction found.",
+      "sourceHTMLSHA256": "3d2ddf282d2ac39214465dfcb23378f3a1275afc30771b47e09bf484e3f276e1",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1150-wowhead.html",
+        "sourceHTMLSHA256": "3d2ddf282d2ac39214465dfcb23378f3a1275afc30771b47e09bf484e3f276e1",
+        "ownQuest": {
+          "id": 1150,
+          "name": "Test of Endurance",
+          "level": 30,
+          "reqlevel": 25,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Endurance",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "b318ca9a5299ca3cd5d182c180a13c251da4d60f0d3ac01a3f5d9ad0d56420a0",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "d9162368845dbe1056f43a0909f7d3a44dbe8e7ec98dfa5e3f4b00fb14b04e5f",
+          "reviewedMyanmarSHA256": "1a0acf6034d5defeeb7b80d7f26b5eb4adbc61b13952e69f6d7dc8f045d14e4e",
+          "actualRawDeepLSHA256": "67a43a813763878f01a12d86503cbd1fefd5a288170b1eb4e8bfcc94f7901d60",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 5,
+          "responseIndex": 5
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "d044478da4d617f306aced0c3f91f90bba3c32267fdf6cf792caa476b1f50d7a",
+          "reviewedMyanmarSHA256": "5cda261d1faef05248e0aaaf7251ead780a0b5f94fc74d9b19479b670354a4ee",
+          "actualRawDeepLSHA256": "8de473adc3eb2c1137db431157551dd4871d80dc814523e43f0256681b290b61",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 6,
+          "responseIndex": 6
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "45a61fb397985981a9ed984e079a53f861fbfd3ec9d820eb62b2024c81a214c3",
+          "reviewedMyanmarSHA256": "dc7dbed4e16c883a43ee527ada0f3d42c2acbd7f11d85d2b58349725d2198cf7",
+          "actualRawDeepLSHA256": "c38d8acd92bb80b6161abee2da2b9de5a4bd92ee515135d11e7f4be32ca34379",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 7,
+          "responseIndex": 7
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "8cb734ada74f6ea17c5e51d750dbe7e3bd82ff64ee9452620d9f7cf0bdb46ce0",
+          "reviewedMyanmarSHA256": "ce1432cb6bc4127ede5d18d5c8927d3c9d6be12bb3f8083bc9787bbedccc8f7a",
+          "actualRawDeepLSHA256": "c5ddc5bdff10a723a88e8429e131c027d2013d1c010004a02e0711ab25bd1f8b",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 8,
+          "responseIndex": 8
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "5d199754df2baef0b9ee269fa8187198b3fdf5cffa2f9cf9e6fc242786857c37",
+          "reviewedMyanmarSHA256": "f15d63a8d1fcbc980d9976f3c774dae30791f312b15c4828c8644fb2359763e6",
+          "actualRawDeepLSHA256": "66d4d3f5f3dffd7685754664fbed6ea5fa9705cefa1cafe1d3c72ab304023c4a",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 9,
+          "responseIndex": 9
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1151,
+      "en": "Test of Strength",
+      "allFiveSlotsRead": true,
+      "notes": "Three-paragraph Old Gods binding/banishment/mage summons and powerful self-sustaining exception retained. Rok Alim kill and Fragments item5844 to Dorn/Thousand Needles are correct. Pounder description retains fists, thundering, path blockers and brave OR stupid alternatives. Final-test readiness retained. One required maintained Fragments core correction proposed in objective.",
+      "sourceHTMLSHA256": "db44a7ad99a7847c9cd4c84f6b3349b83978ee9a595c6371921298253ce71fa6",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1151-wowhead.html",
+        "sourceHTMLSHA256": "db44a7ad99a7847c9cd4c84f6b3349b83978ee9a595c6371921298253ce71fa6",
+        "ownQuest": {
+          "id": 1151,
+          "name": "Test of Strength",
+          "level": 30,
+          "reqlevel": 25,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Strength",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "b6eb25e3249a370dad3150e3f28b4dc43546d99420c919f9bba43d5c4cbfbf14",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "c31b467aaa10c470462d30d9cb5ffb345eed2b7addd38c82d8df2e6562aef905",
+          "reviewedMyanmarSHA256": "aa9c0a133db217c755a24ccdb8fe6f79f666a6fb9da4ecfb9b6c4d64caa310ed",
+          "actualRawDeepLSHA256": "aada847d6a756c9271c7bf06801d277fc632a386c8367d17132908c9ddce03d8",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 10,
+          "responseIndex": 10
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "eb72c498ccbed8f391df4f6887ab736f1f4fa86179bb390e957fe1b5243c847f",
+          "reviewedMyanmarSHA256": "d3f71ea644bbac7acc1ee933815007b52dd3befc1009cb69b00bcb7467967801",
+          "actualRawDeepLSHA256": "4d4a17eee78420b2320bab2502a189f52f437f09e1146e3114415fe547de111c",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 11,
+          "responseIndex": 11
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "4cf29f73eae78d31bca45e57d2766f9227aa48597414d43d6c6983bfcb0771bf",
+          "reviewedMyanmarSHA256": "243e2f3ebfde79da1abb338ee2d86cc62a65600f0601c6a39772e79dd6e4b9c2",
+          "actualRawDeepLSHA256": "6f703036df4e776f2b6bcdd1ca575c52279112f2066c4b5447de18899c0b0056",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 12,
+          "responseIndex": 12
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "30b8790de542a42005cac9d382a9e74504015bc78df062efcbb21440f25f980a",
+          "reviewedMyanmarSHA256": "00571a0aded76ac566f4a60e74291bc3710fb299c0b6a38bc01802342017e67c",
+          "actualRawDeepLSHA256": "7ceb00f83cfec026da1a3e5ba367b5ef599ddcb37949af27a0aad02dc35792d0",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 13,
+          "responseIndex": 13
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "263de62ade24c9fb90b8585bade564aa31aa15ab15268f7caf9e29c27f011ad1",
+          "reviewedMyanmarSHA256": "80e81af993fef2e785062b60a064752e72533e28f19e96a5b443d3863226c206",
+          "actualRawDeepLSHA256": "97204a91461f5848007358e5f14aaa728d57ac70c2d106dc44ff8b00672a59c3",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 14,
+          "responseIndex": 14
+        }
+      },
+      "issues": [
+        {
+          "id": 1151,
+          "kind": "pronunciation compound-core consistency",
+          "severity": "required editorial correction or explicit root evidence-backed disposition",
+          "field": "objective",
+          "englishSHA256": "4cf29f73eae78d31bca45e57d2766f9227aa48597414d43d6c6983bfcb0771bf",
+          "reviewedMyanmarSHA256": "243e2f3ebfde79da1abb338ee2d86cc62a65600f0601c6a39772e79dd6e4b9c2",
+          "old": "ဖရက်ဂ်မန့်စ်",
+          "new": "ဖရက်ဂ်မန့်တ်စ်",
+          "exactOldField": "Fragments of Rok'Alim (ဖရက်ဂ်မန့်စ် အော့ဖ် ရော့ခ်အလင်မ်) ကို Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ရှိ Dorn Plainstalker (ဒေါန် ပလိန်းစတောကာ) ထံ ယူလာပါ။",
+          "proposedFullField": "Fragments of Rok'Alim (ဖရက်ဂ်မန့်တ်စ် အော့ဖ် ရော့ခ်အလင်မ်) ကို Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ရှိ Dorn Plainstalker (ဒေါန် ပလိန်းစတောကာ) ထံ ယူလာပါ။",
+          "reason": "Both maintained Fragments compounds use ဖရက်ဂ်မန့်တ်စ်; the new linked item introduces ဖရက်ဂ်မန့်စ် without an explicit evidence-backed exception. Reuse the maintained shared word core in the whole-name proposal and enabled field. This is editorial consistency, not native pronunciation approval.",
+          "evidence": {
+            "currentPrimarySourceFile": "1151-wowhead.html",
+            "currentPrimarySourceSHA256": "db44a7ad99a7847c9cd4c84f6b3349b83978ee9a595c6371921298253ce71fa6",
+            "currentEnglish": "Bring Fragments of Rok'Alim to Dorn Plainstalker in Thousand Needles.",
+            "wholeEnglishName": "Fragments of Rok'Alim",
+            "maintainedTerms": {
+              "Necrotic Crystal Fragments": "နက်ခရော့တစ် ခရစ်စတယ်လ် ဖရက်ဂ်မန့်တ်စ်",
+              "Soran'ruk Fragments": "ဆိုရန်ရုခ် ဖရက်ဂ်မန့်တ်စ်"
+            },
+            "maintainedFileSHA256": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7"
+          }
+        }
+      ]
+    },
+    {
+      "id": 1152,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Travel-to-Braug stage is distinct from retrieval and question stages. Two <name> markers, three paragraphs, wise shaman, tunnel joining Stonetalon/Ashenvale, near-entrance objective and night-elf warning retained. Completion preserves goblin destruction, younger races as later-arising races, multiple culpable intelligent races and Braug speaker. Progress genuinely unavailable. Current min26 versus installed25 recorded separately.",
+      "sourceHTMLSHA256": "c14841df9a59af8410db3dca9c7607d62f021f8149b07c43773335b475870e29",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1152-wowhead.html",
+        "sourceHTMLSHA256": "c14841df9a59af8410db3dca9c7607d62f021f8149b07c43773335b475870e29",
+        "ownQuest": {
+          "id": 1152,
+          "name": "Test of Lore",
+          "level": 30,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "9067c055d6c3d8abe46e444fb63cbc8c64ffaac694bd1e3d098e25cd4dd6428f",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 15,
+          "responseIndex": 15
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "14c9ffcebd424afc2d0dd763049e5f4487a23c2b5ccc270dd3514cda289ce511",
+          "reviewedMyanmarSHA256": "a07633bba984fbac0c3b4bc93bbf175be614df38e9995d5637fc1972b303eb0f",
+          "actualRawDeepLSHA256": "f1f205ffc1e672696267778c3040ea3a9cf7c8b5c14a92347a94da318bbe9608",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 16,
+          "responseIndex": 16
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "74c556f41a1aba006bbc10a76a7525a9523294176fa0a9a64e79e8d9bf680721",
+          "reviewedMyanmarSHA256": "3aaa5677d3ef280844b00e85d945f95514d6b0d37b9e2a37f7657b481d3b1951",
+          "actualRawDeepLSHA256": "1996652c22082bddf7966596662724e79ea6b9799460f8ab007e5bcbd1f62313",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 17,
+          "responseIndex": 17
+        },
+        "progress": {
+          "status": "genuinely_unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "actualRawDeepLSHA256": null
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "90fe614f7c3aadf9e8757e6b95f624a16f989e76f3059562f92aed0c7df51e93",
+          "reviewedMyanmarSHA256": "66db644c69c73e57d50889a4ebe13568374cdb160ec34bd6152dfb6c751336d5",
+          "actualRawDeepLSHA256": "9fbc71c3c2c3427622b0a6bf4c2b446cb31a155704fce569dc23ed255f8e2985",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 18,
+          "responseIndex": 18
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1154,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Book retrieval and study stage, not question6627. Mind/body contrast, one question, Legacy item5860 at bottom of southern Ashenvale Dor danil guarded by dead druids AND their killers retained. Study before delivery and delivery before question preserved. Hope/unless forgotten study and speak again retained without a fabricated quiz answer.",
+      "sourceHTMLSHA256": "86332fff32794e171da2ad4af22a580e9c963594cbd3880db36f7bfd5ec4abd9",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1154-wowhead.html",
+        "sourceHTMLSHA256": "86332fff32794e171da2ad4af22a580e9c963594cbd3880db36f7bfd5ec4abd9",
+        "ownQuest": {
+          "id": 1154,
+          "name": "Test of Lore",
+          "level": 30,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "8491bdddf50c9a147f59d6fcbd0d83e8720da7e489280f01a9cb2af633910103",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 19,
+          "responseIndex": 19
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "3d6fd201288fbfaef70b577e9e5c870d26a2b33d9643855dbc1fe6f880dff096",
+          "reviewedMyanmarSHA256": "6441ef15b5211578ac1ab9c61d3c5d386af7c937563e1126cabadbb6c1b62f9d",
+          "actualRawDeepLSHA256": "1a76624745f9b66524f40d09018a0857ae229ea3a6430ba6e508b2c4c7b8f012",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 20,
+          "responseIndex": 20
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "28660ba0901518d21e10c03ae32022e775378cdb95ef4d85aa77bc067bdc2574",
+          "reviewedMyanmarSHA256": "b7fdabf8c293ea607aa675533a063fc3c4758acb6e9dc8d4bd9ffa249abc42c4",
+          "actualRawDeepLSHA256": "7769291cbddac61d7690c031cd6e129e39a028e44c38a3c6471c0592d4e6fc21",
+          "requestFile": "deepl-request-01.json",
+          "responseFile": "deepl-response-01.json",
+          "indexFile": "deepl-index-01.json",
+          "requestIndex": 21,
+          "responseIndex": 21
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "3b33c10a830d2bf1f1a53a71cef86a872f328eae7a078128e19c5e18248155f3",
+          "reviewedMyanmarSHA256": "e91244934596e64782f11694c75e0eb10b1b774f3fcd1d2022bfb2db1b3ae7a5",
+          "actualRawDeepLSHA256": "45eb84bd929cbe0742df9af81daabe69775e19dbbdc2c981de5395539561af5f",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 0,
+          "responseIndex": 0
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "e2b0f5b9c1c728da7d81167449626c55b779aeab7f68e6df347759b4ef61e5dc",
+          "reviewedMyanmarSHA256": "ba9480a43d89369e03303e38c1795d8660a5e4688f46a4fb512800c5a45529ee",
+          "actualRawDeepLSHA256": "55b24bdd139b4113d29b1fb8d4bcedbf3235c5a4681541a04aa4103b44bad1f1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 1,
+          "responseIndex": 1
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6627,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Braug question stage after book1154. NPC owns question; no time pressure, unlimited answer time, answer correctly THEN speak again and Stonetalon destination retained. Never all questions plus perhaps more knowledge through time/study preserved. Completion correctly says another test ALREADY passed despite UA future-test paraphrase. Three <class> markers intact.",
+      "sourceHTMLSHA256": "cc450e3ef1526c4601b5df6a5eb3e8da5d3d1df4aa9d9abe5beb73adb14af9c3",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/6627-wowhead.html",
+        "sourceHTMLSHA256": "cc450e3ef1526c4601b5df6a5eb3e8da5d3d1df4aa9d9abe5beb73adb14af9c3",
+        "ownQuest": {
+          "id": 6627,
+          "name": "Test of Lore",
+          "level": 30,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "df146cdc79338d76977af0f7fd272c35d2ccd20d150e56416e168fd2775aaab5",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 2,
+          "responseIndex": 2
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "e1bfdf4cb0b2781023bdc6ab500ddf24eb85ff46e11b04d80a03a0734dd8035a",
+          "reviewedMyanmarSHA256": "b24adba063227ca5193ffd355fb79d0dd5ad8c5bc28b0e0ed377d1a56768bc35",
+          "actualRawDeepLSHA256": "5aecfbcc51672c97e8232d805ae9fc2f30a9062f0ce6c834be9e0dc7e64dd5cd",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 3,
+          "responseIndex": 3
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "ae2778de034485b96c61e76babb46ea8fa7fae241fe45f5ed0a8e2bc328de03f",
+          "reviewedMyanmarSHA256": "e1193fbac5d503ff5aacb9916ed57cbf5e21888791ee8a1e88234f94a394a278",
+          "actualRawDeepLSHA256": "4fec440324d9bd34b8ae3407aef6fb7a4309a53cb951071b1eac29c8ab437ced",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 4,
+          "responseIndex": 4
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "3d2f0c1041d2bdf9223e0faee89671258db320a40c472c70bcaf9145c8a47893",
+          "reviewedMyanmarSHA256": "f5baa776b1ac13ba32a7efb1118c2764ca638cbf59fcd32d4f06b7e3b79dd9fe",
+          "actualRawDeepLSHA256": "f31b6c8aba47dbb11d1bd5c840e8995578edc4c6a838aafc2a5e6407791f3a7e",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 5,
+          "responseIndex": 5
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "41b1de4b327404f40dccecb2d596f15d828a5ca5dd478c0bc2c5265d2c192cdd",
+          "reviewedMyanmarSHA256": "4d8364ba197dade9df5c31b276d5696b991d8fe64597b4eee075129b6f3c6cc5",
+          "actualRawDeepLSHA256": "734ced710bf45dc34d5839f713aa4b120f1930749434ecc20b1a4be3eeeb98db",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 6,
+          "responseIndex": 6
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1159,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Transfer after first Lore portion to different questioner Parqual NPC4488. Historical Lordaeron City wording in detail and Undercity objective remain distinct supported location references. Prior human historian, Plague, different enlightenment and prerequisite requirement retained. Parqual skeptical completion, up/down emote, feats, probable impostor/tavern hearsay and dismissive <class> preserved. Progress genuinely unavailable.",
+      "sourceHTMLSHA256": "b628317d49925d31dc2397952914659bc858c43fa9f7525de8c198b13fc19452",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1159-wowhead.html",
+        "sourceHTMLSHA256": "b628317d49925d31dc2397952914659bc858c43fa9f7525de8c198b13fc19452",
+        "ownQuest": {
+          "id": 1159,
+          "name": "Test of Lore",
+          "level": 30,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "6f7cb263c8ad47fa06dff3b5bfb5acb469018054b4b5e6b7ea6273eeb71c8266",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 7,
+          "responseIndex": 7
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "cb1b6acb4d8f27e0ab3c7df736d4fda54105c419190804a7732f9aaab7a7f489",
+          "reviewedMyanmarSHA256": "e8b32fe36ff7ac0e7434c90e44511d53a659df0b5ad63b3e37cfb31ffc1b9148",
+          "actualRawDeepLSHA256": "869bc3e3ec7244af22915cd264e4886a14776ba6f34890d464bd4086d16445b8",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 8,
+          "responseIndex": 8
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "a014be58f2867db915a1b6b2a330dd2945f5a5f8218837a46e3e2e36bde4aca7",
+          "reviewedMyanmarSHA256": "8ffbee7df437938687490001ff552369ab2d85d434130a54b27160d3fb959aca",
+          "actualRawDeepLSHA256": "9438f0e5e70220917afdb61181fcb7820753835bf48dc8ad29be70a0c4fe41ae",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 9,
+          "responseIndex": 9
+        },
+        "progress": {
+          "status": "genuinely_unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "actualRawDeepLSHA256": null
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "1aec44fb58d482dca8a08a7f0e9c777573f1300e00b08ba8db59e3d9ea24d0eb",
+          "reviewedMyanmarSHA256": "a7068cd8be575c609bd1fddbb19282d3264337b6207ef3af0640007057f0eefb",
+          "actualRawDeepLSHA256": "9f196813d43a8bddb76dd251e2db949b507d55dc1e084e7fa3dcc76ba475ce4b",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 10,
+          "responseIndex": 10
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1160,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Parqual book retrieval stage before question6628. Knowledge far MORE important than strength controls weaker UA phrase. North Tirisfal monastery LIBRARY, now-corrupt paladins, Beginnings item5861 and The article in objective retained. Progress preserves prior suffering before theft, may once follow Light, all undead/Forsaken or otherwise, different religion, insane OR magically influenced travelers and insults. Downward gaze plus slow hand over book retained. Current level36/min26 versus installed36/min25 recorded separately.",
+      "sourceHTMLSHA256": "dd112e233c981795546fa65fb852ce16308501e494cb99b45a5ad3faa770b8db",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1160-wowhead.html",
+        "sourceHTMLSHA256": "dd112e233c981795546fa65fb852ce16308501e494cb99b45a5ad3faa770b8db",
+        "ownQuest": {
+          "id": 1160,
+          "name": "Test of Lore",
+          "level": 36,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "fb416913492260c2316940c4aa0486b3039a0290df5df2d4d02bf9d4213b63ae",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 11,
+          "responseIndex": 11
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "3873dd8109fd61fbe6d7a9366fe3c245dc2686962e59fd9af8ec92e8a30f9824",
+          "reviewedMyanmarSHA256": "01f6431c9c859daa69c87b4c34c984fb75fb4a0caa99c5360458d3fb33c6fb0a",
+          "actualRawDeepLSHA256": "79734bafecee9a89cf30a726421b01ac83dc7813a7455bc3344bdf5bd78224f8",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 12,
+          "responseIndex": 12
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "62ad193c2e44e6fc814aa2353bc6c986bb8b7d28e82569ec64a63bfc62ea2344",
+          "reviewedMyanmarSHA256": "0f870019a29407bfcef931c5bb1c0c1051cca4312482f0b5e4a9eac2dd56d29a",
+          "actualRawDeepLSHA256": "0eed36a92bdf24cf2bfcd7cacfea76de7668f3b8ce74de2dc460dcf0650918d1",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 13,
+          "responseIndex": 13
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "f6feefdb56add5343f25312078188516135cd782926fb94cb6c909fe0e89c2fe",
+          "reviewedMyanmarSHA256": "56e88079aff55db1f4805bb157de665d36630ce519e95803f4708d7fe65bdd0d",
+          "actualRawDeepLSHA256": "378a4c5a8388403aaed99c941ce72e990a076359b22d2617daa97c56b49b0222",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 14,
+          "responseIndex": 14
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "6f6919dffa9eb4ef5bf8069eb17eb1f50432663c837f663feaacf1bf292c05a9",
+          "reviewedMyanmarSHA256": "bc8d30456b70659d020764d9acbc0399f9c6d88810ec22b46712d1b4dbd2b476",
+          "actualRawDeepLSHA256": "d1f20c8856c9b408369b586b83d029624549d95ff7df44b6d72aa2e80ab31aac",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 15,
+          "responseIndex": 15
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 6628,
+      "en": "Test of Lore",
+      "allFiveSlotsRead": true,
+      "notes": "Second question after book1160 remains distinct. NPC offers question, speak again when ready, tenacity, unlimited needed time/no speed pressure retained. Correct answer THEN speak again in Undercity. More know/more see, study AND observe, exact <race> and prior doubt/correct answer completion preserved. No quiz answer fabricated.",
+      "sourceHTMLSHA256": "6b642986f32053abe75895b56f062c7a5393ca05ab66e9c61899bc6fd9d9d49d",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/6628-wowhead.html",
+        "sourceHTMLSHA256": "6b642986f32053abe75895b56f062c7a5393ca05ab66e9c61899bc6fd9d9d49d",
+        "ownQuest": {
+          "id": 6628,
+          "name": "Test of Lore",
+          "level": 30,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Test of Lore",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "e7d26d6cbd4b6a549145c755a66844341f025c7a12cfc199893301d7fb44e283",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "766f2f4ca1a513ad95f088dccc6565f9a66f16a40dccaf94489a63b9c00d7a14",
+          "reviewedMyanmarSHA256": "e31b5712e4a3a6298e923303d07d8ca10c6061d90d56332fd33463ea63a1b7a3",
+          "actualRawDeepLSHA256": "6b22dae31d9789926eac824aafaad57d7138b6e6c987899e2d4f44ffacfdfa2d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 16,
+          "responseIndex": 16
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "b9f3e265d9bfa42709475edcf3326abff4e76f5372d240b57f6c591b30f6a418",
+          "reviewedMyanmarSHA256": "de7e51c3db6018c0fd7441479d5db8c1c4bf7fc9869a6282f2e18fe541232e64",
+          "actualRawDeepLSHA256": "e6f79bba514d78679193952cc29a3b54d06b75e551f500298307156a9f10bb1d",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 17,
+          "responseIndex": 17
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "33b08a7b5abb4f9fb9aa3138138039d04336c59c60eb3ecc5e84f1d30e2a4cc2",
+          "reviewedMyanmarSHA256": "0ca4f832df8d87acfb67227e7c03b2bf24b36c3d1b49376636944b67b0f26209",
+          "actualRawDeepLSHA256": "b01f37600216c381274b256335740f34729443ff83a3255db84a13078a12c01c",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 18,
+          "responseIndex": 18
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "4f227dac0b56263fbfe971cab8a532ba833f4c6580fc580e74b5b8b12b397c67",
+          "reviewedMyanmarSHA256": "c8df93c11468ee215d84b687c247b1dee9851ecda3192683552d8196e1642eac",
+          "actualRawDeepLSHA256": "1e54a7bc0671699e26c9b31f1b95328cd5b4134b882472f662bde6b1539ae6a3",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 19,
+          "responseIndex": 19
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "a2102a3f56b90bfb26d99f0d3c6015094dca4e3997704694d1e1dca2ad8a00c4",
+          "reviewedMyanmarSHA256": "3b0387609f7e2b013e6345e1d996274d7895c89fec6b0d20d6be2e3edb73103e",
+          "actualRawDeepLSHA256": "32020adb97eb4a11fc1cd3e06e2c926e8a0d9078fbbe1296baa8758a46e473da",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 20,
+          "responseIndex": 20
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 1394,
+      "en": "Final Passage",
+      "allFiveSlotsRead": true,
+      "notes": "Final return from Parqual to Dorn NPC2986 in Thousand Needles, after six Lore steps. Mind/body/spirit change and deserved reward retained. Conditional future test IF balance maintained, both <name> markers, elapsed moons since physical leap and home return retained. Progress genuinely unavailable. Current level36/min26 versus installed36/min25 retained separately.",
+      "sourceHTMLSHA256": "9644dc1a026982ac352e0143fd12681578ebdbb6bd0e140e541ad9428d0c5a9c",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/1394-wowhead.html",
+        "sourceHTMLSHA256": "9644dc1a026982ac352e0143fd12681578ebdbb6bd0e140e541ad9428d0c5a9c",
+        "ownQuest": {
+          "id": 1394,
+          "name": "Final Passage",
+          "level": 36,
+          "reqlevel": 26,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Final Passage",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "512a22a45262d86e79f11e812d2670548fc82800e0fd7bae446099be787225f4",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "7ccf888a1bd72569d77672f5a5775b5e3848e02928a01c29529778533002b719",
+          "reviewedMyanmarSHA256": "bcb1f08765ffda47276b28901686aebf0064d9f45353e87668ac4a944a6bf0b9",
+          "actualRawDeepLSHA256": "e9d0b2548199edf002f165bd97e5dffc73c4ee7e72edf15d754ddbf1c070e739",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 21,
+          "responseIndex": 21
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "f9a1058b7f71a03fadf04466cff5a53db31a8ea2d9d413d95a5980cb6ad4c557",
+          "reviewedMyanmarSHA256": "1807eab222b721aa39d841a54169818d09e5790be1e4c4d7987e58dad1b6903e",
+          "actualRawDeepLSHA256": "8d5ddaf52027af0ee2a0b4072e1ca46fda895439240f23a63e132b3f7b2e85cd",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 22,
+          "responseIndex": 22
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "88e50639b440e2d185916924e8afdc4b2ed0736d126b1d2023eefad9b6d474ec",
+          "reviewedMyanmarSHA256": "627b6a8e5714e0fff5c16ae83a26af95359c8f328cb0b59b668e6f49ed3c02a8",
+          "actualRawDeepLSHA256": "9890d9a41ca75924826fd94153fd4714e5cc6a4753e31d428635b32d1a2163df",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 23,
+          "responseIndex": 23
+        },
+        "progress": {
+          "status": "genuinely_unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "actualRawDeepLSHA256": null
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "89614b7fa676c5c116b43419c49e0c530be0f811f77c487a371871d19a73b249",
+          "reviewedMyanmarSHA256": "86dd9f2fb96ef670e664f38a246054b039aa157107ae9b4eeae3c66b4313644f",
+          "actualRawDeepLSHA256": "9bf3f869697ec2543ad9196e338f361392d1e1d1db4c9555bb565953abf6b487",
+          "requestFile": "deepl-request-02.json",
+          "responseFile": "deepl-response-02.json",
+          "indexFile": "deepl-index-02.json",
+          "requestIndex": 24,
+          "responseIndex": 24
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 4542,
+      "en": "Message to Freewind Post",
+      "allFiveSlotsRead": true,
+      "notes": "Renewed harassment and increased centaur attacks require immediate message to Freewind southeast and Cliffwatcher10537. Nearby Grimtotem avoidance/lately unusual behavior retained. Linked urgent message11886 retains exact English label casing aliases and first whole phonetics. Brusque <class>, another bad news, ONE supply caravan and whole party slaughter retain voice.",
+      "sourceHTMLSHA256": "7c1c11f2f09cd311d52f69ac94cab6580787edea10dc0d303a5acb7c044a73ad",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/4542-wowhead.html",
+        "sourceHTMLSHA256": "7c1c11f2f09cd311d52f69ac94cab6580787edea10dc0d303a5acb7c044a73ad",
+        "ownQuest": {
+          "id": 4542,
+          "name": "Message to Freewind Post",
+          "level": 25,
+          "reqlevel": 23,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Message to Freewind Post",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "2184b816bcde4b915473e21d70556ccba1577cf5822c7643968069f0b5c7cc13",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "6521914ae944e47be6b16c8621392cec01deab1e40e9fc1da9bbf83296cad3cf",
+          "reviewedMyanmarSHA256": "f1f09ecbd31692817d6acd20b39bac17197c4b6d14428741890df27c93dd28a4",
+          "actualRawDeepLSHA256": "719188a1301df7d1dc08c3672cef3df4eacd61efa84d70a0fb0535b2d9355076",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 0,
+          "responseIndex": 0
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "2c77c2f07a9f0bfcecb5aa0b201e3afdb61aec8c1ddfd50099805137eb79a37d",
+          "reviewedMyanmarSHA256": "a558f527f00b5b38afb6e22f84bf4b0bd2dc20e531434b2cdfb5f8dd50b1c4f5",
+          "actualRawDeepLSHA256": "a4581b025e08a9d6cc845422520957fdf4bdac64fde881c02a93feabd480c0e4",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 1,
+          "responseIndex": 1
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "f892b35ad37172f655cd3b28c2d7fbaa3919c8008156e6ae072a66620b6cbea9",
+          "reviewedMyanmarSHA256": "f0d9f066fc8ac0462b6ad490d785c4cb918f57648ac73d9e5d7e4ea71a0fbc7d",
+          "actualRawDeepLSHA256": "32c181ba9dc81a0563162d760bc13ab5a853f4bea97210e0b5ed02aad8d59aee",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 2,
+          "responseIndex": 2
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "ea4e16e8f0640f77c01321e85803b313d23682df77f3d56c595961fd6c848ff5",
+          "reviewedMyanmarSHA256": "d711d5407b87a99c7a1693f9bc14393c18174a5ba66bc7017ea8302277fe7735",
+          "actualRawDeepLSHA256": "16ae9b67772157bd6a5bfc0da99299a0706e2d1e6605369c6ee61450a4721724",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 3,
+          "responseIndex": 3
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "ba4f03e723f25d5f8a016ad1ac1df5dd5ef1e0e38efd2bfd143c6dbb081756fc",
+          "reviewedMyanmarSHA256": "caf0a8aaf0f3af1be8f2e393ed13599a1a263fb9864c79bf681c387745231437",
+          "actualRawDeepLSHA256": "0a3224e2ed1661177aa38a8dc2f8f0ab0d6bb07abeb9d6c8d42bde1d1cc648ec",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 4,
+          "responseIndex": 4
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 4841,
+      "en": "Pacify the Centaur",
+      "allFiveSlotsRead": true,
+      "notes": "Vengeance voice and NORTH Freewind camp retained. Exact 12 Galak Scouts4094,10 Galak Wranglers4093,6 Galak Windchasers4096 plus return Cliffwatcher/Freewind preserved. Progress count share and hunt before gratitude reward correct. All <name> markers intact.",
+      "sourceHTMLSHA256": "2d9e860544c0925c8fc5f269640fa8999dfb7243c1f9a5cab5c8ce41ae8e867e",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/4841-wowhead.html",
+        "sourceHTMLSHA256": "2d9e860544c0925c8fc5f269640fa8999dfb7243c1f9a5cab5c8ce41ae8e867e",
+        "ownQuest": {
+          "id": 4841,
+          "name": "Pacify the Centaur",
+          "level": 25,
+          "reqlevel": 23,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Pacify the Centaur",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "9a2951d66eca9c417b8a865f17a1262bd5453d06e623d19722cc42eb060b3ebd",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "5aa5c19e1ca37b5e62707b1cf460a2a1444386ea27d9b64264fc47724632c09b",
+          "reviewedMyanmarSHA256": "0e5586bcd571ec7d50d930d073c67f9cfcf1ef1263588438dcad802b6c5922ba",
+          "actualRawDeepLSHA256": "584f66127f4658160e718b47d760ff6b4c20798f89c7d010a1713b1c23cf596f",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 5,
+          "responseIndex": 5
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "f6f933a19ed4b8b2e99ef7cc2449c2679ed6a24fc7318ce69471184ea93960a0",
+          "reviewedMyanmarSHA256": "2e319571404232129837f0f299a51150b5498343dadf33d787c232e13cf945ac",
+          "actualRawDeepLSHA256": "445f921cfca1cf2931e2dfe9a3f38b289ee00587ab482786542ff8096c79400a",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 6,
+          "responseIndex": 6
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "efbda80f0612bfd5e3cf88c564635adaeb84dcfca72d638403257197eb7b3886",
+          "reviewedMyanmarSHA256": "edaa73204ce5b18f6046f19425f3aa3fae07a0703f27efc4a1e23c12a274b1ae",
+          "actualRawDeepLSHA256": "ca80f8fffab7cd4c8d7536e8e0e62bc1f3d6d4aefa0ca992abce143d63d93807",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 7,
+          "responseIndex": 7
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "65c540df141af99dfd42df2144ca91ff6895c1377a41133bdd58bacaf6c695f9",
+          "reviewedMyanmarSHA256": "cecb6c1aaa2e98c00153dd20baa7dbec87be1b63c5dfa2e94b355687fb94c81f",
+          "actualRawDeepLSHA256": "b075c1076ad8ee175c7a67387aef1035aba18f42a7badf076ecaef8ef8527c7a",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 8,
+          "responseIndex": 8
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "ff8b18f9e14b04eac30810c7ccb2a9b9cf9704160f995f641fa6d6f74bedd935",
+          "reviewedMyanmarSHA256": "d1a0fcc9900152cad3cc29773a9be54849a16ccd387e0e265466c09e1b0fce6b",
+          "actualRawDeepLSHA256": "97f967d9e836ef70853ae6a4de93b8ad67fe3fc7e3bbc415a1e82e3a8bcc15fe",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 9,
+          "responseIndex": 9
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5064,
+      "en": "Grimtotem Spying",
+      "allFiveSlotsRead": true,
+      "notes": "Important trusted mission, secretive Grimtotem, THREE agents of UNKNOWN origin over recent weeks and separate guarded chests in Darkcloud retained. THREE Secret Notes items12765/12766/12768 correct; no older UA recipient clause injected into reworded current objective. Conditional reward and promised bravery reward, Great Spirit Totem invocation and plan for whatever comes retained.",
+      "sourceHTMLSHA256": "cb5f46a35299c57c151daf3f6f796ad8fb3bc56e7402031b2ead73a03c528e57",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/5064-wowhead.html",
+        "sourceHTMLSHA256": "cb5f46a35299c57c151daf3f6f796ad8fb3bc56e7402031b2ead73a03c528e57",
+        "ownQuest": {
+          "id": 5064,
+          "name": "Grimtotem Spying",
+          "level": 28,
+          "reqlevel": 24,
+          "side": 2,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "reworded"
+            ],
+            "lines": [
+              "Objective text reworded"
+            ],
+            "notShown": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Grimtotem Spying",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "f62ca5241ad1660666648ca0f63f56b2d4ed8d9adfe5c650a93a214e482c52d7",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "29b385ed62b3082e79ad0f879bb126bfe5e2e10448c29ffe6b834d3fd9a56177",
+          "reviewedMyanmarSHA256": "c0df4e2a8348fadb183c5eb53c5e00817f5e3d54b6eeaeccb4934ce10f26c169",
+          "actualRawDeepLSHA256": "1c0dd910d05c1e93f4620069f7c43c3577dbac4c059461e9dba40224ef0343fd",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 10,
+          "responseIndex": 10
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "7708406643526334d1df0cbaf999d675918e42de757cff4f38a41c944fa1329a",
+          "reviewedMyanmarSHA256": "44c902a984beac680b42d55811570a755f81c3823cbc737b7d78b6e4bb965104",
+          "actualRawDeepLSHA256": "ba22876a0876662dd89ebb153e46e00125be9e3f6b3ed388fba550c9b969a3f0",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 11,
+          "responseIndex": 11
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "8d09ff2d3767dbb40e15bad714530a3c7e0346696454f8192565894be6fce440",
+          "reviewedMyanmarSHA256": "3ae06e0bee915e93f7d13815514b5ea03211bfaa047ef42edc1c9da38d364250",
+          "actualRawDeepLSHA256": "da43582a3330d0a2a6239e8e80d925fb5d3dcadf6da4723f03e84196e8cdabc2",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 12,
+          "responseIndex": 12
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "e31ea48df22127d0077f4a35a8cd1a7505027f73d3572ef060ffc2189c22fe19",
+          "reviewedMyanmarSHA256": "4f301f49db7fa7830ac0d835010290d8a908c664a1492fca5b04d9d8e79c7da3",
+          "actualRawDeepLSHA256": "2ea55d167247306e8e22de662638dcc9b0ed8329f252dc6e2560260955afc4f5",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 13,
+          "responseIndex": 13
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "314344efc7fa7592b9927fdaf6f293dca4e47ed2cd55eefa6695ca4a3457de13",
+          "reviewedMyanmarSHA256": "4876ee1af24f6a00118f7ae2db3d4c49dc8440146f8519c86d0e7721644db2a4",
+          "actualRawDeepLSHA256": "4a712da8a5b5b806714450dc28ea2a5e970d86c4ad11515e99e146ed43e3c142",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 14,
+          "responseIndex": 14
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 4821,
+      "en": "Alien Egg",
+      "allFiveSlotsRead": true,
+      "notes": "Alien Egg12467 translated without unsupported extraterrestrial/chicken origin. Rumor/report uncertainty, observers unable to approach for detailed inspection and serpents guarding as if own retained. Multiple dens at cliff-wall BASES SOUTH AND NORTHEAST of Freewind preserved. Hagar10539 recipient and startled examination completion correct; no invented exact nest.",
+      "sourceHTMLSHA256": "992455114e8f5d0cd6beef0d4709220849f09779b7dd462cd9292f85e348641c",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/4821-wowhead.html",
+        "sourceHTMLSHA256": "992455114e8f5d0cd6beef0d4709220849f09779b7dd462cd9292f85e348641c",
+        "ownQuest": {
+          "id": 4821,
+          "name": "Alien Egg",
+          "level": 26,
+          "reqlevel": 24,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Alien Egg",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "a18e8febb9dea62994382e2a5412c1913eff244c108a7355f90e26ab85a4cdc5",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "c25963ec97c5edbc2eedb3153a650a01de5e005b7855c5e2202a12882bb1465d",
+          "reviewedMyanmarSHA256": "36d6d96b7b3ebe0f9f239f2f2a581a60699ea2f748f6cc4165ea26f7b32c1d9b",
+          "actualRawDeepLSHA256": "06b076f987097472361b0a9ae2d0a15ec9a6407571e88783434dd88f73435e0b",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 15,
+          "responseIndex": 15
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "e18c02c900dbee49e361242bdda95982ab5a57662986c249b9c9cbf726ecc834",
+          "reviewedMyanmarSHA256": "87ae5fef8980cdf242c69f6a60aad12bca161043eb043982be495a82bf2f2357",
+          "actualRawDeepLSHA256": "bdc4a336457b2985304a155f7e2f9321e71e52f6e3ee491cf2d3c0e70d886a0e",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 16,
+          "responseIndex": 16
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "a467fb17d11ed557d7763e5eb3ad52be7249b380ccf2a354b7d767b084407454",
+          "reviewedMyanmarSHA256": "3e7c6814f3ba7a42d9c5d928abdf64df49e1edc00e2138ca1a957863571c2555",
+          "actualRawDeepLSHA256": "75076dc593764e7f50a1cb9c892035cd87dbe093de65dac1b075c5919e88ca68",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 17,
+          "responseIndex": 17
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "99664ffe7f1753f3449d566aac587a37a6c0e8bbee7cc1705720be050d766abf",
+          "reviewedMyanmarSHA256": "3a23512deacdddca923b1be0f43d9e709e96f1a3357fab87d2340776b83dca5e",
+          "actualRawDeepLSHA256": "e216dc95040b4c9705e11fc47f507633bb729c0ee5447f58fc069a2e0e9fbe1d",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 18,
+          "responseIndex": 18
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "fa7aaad247e062fbf20e2d4fb30705bed2f55355e91aff4c9446a4b57d6e6dde",
+          "reviewedMyanmarSHA256": "d90ce1c6735dab85fc27f6e29b79ded714a3a7fb3a9a0b8a042515df1a1e6acd",
+          "actualRawDeepLSHA256": "af78ae373f1b93f1ac46068b61982e20c66edb189b83d0cb44479582a1dab38e",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 19,
+          "responseIndex": 19
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 4865,
+      "en": "Serpent Wild",
+      "allFiveSlotsRead": true,
+      "notes": "Eyewitness counterfactual, vengeance arrival, Hagar brow-wipe emote, urgency, Motega10428 at Whitereach NORTHWEST of Freewind ALONG ROAD preserved. Findings report and legend Arikara true/immediate solution completion correct. Progress genuinely unavailable. No source state inferred from missing secondary layout.",
+      "sourceHTMLSHA256": "b9f3ab33f1b78f24899702229d194cbe66d600de67c1a69fef99cd95d50ba8b8",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/4865-wowhead.html",
+        "sourceHTMLSHA256": "b9f3ab33f1b78f24899702229d194cbe66d600de67c1a69fef99cd95d50ba8b8",
+        "ownQuest": {
+          "id": 4865,
+          "name": "Serpent Wild",
+          "level": 26,
+          "reqlevel": 24,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Serpent Wild",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "673243af0c2597ac048f6b284240142d7d538205203ae2177e697c2bb3b38c7e",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "43de8eae22a379d066977d419ea14a86d7c8d76fda5c4c91af41dc3b77c803e6",
+          "reviewedMyanmarSHA256": "cd1577fad6f7c03b6724091d68c0857179edad8257daba4d0a3249f43dc8b926",
+          "actualRawDeepLSHA256": "9c4848aabcd2ab01a1d8553dc55fd03a716b3d832d908e913f077780438b654d",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 20,
+          "responseIndex": 20
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "86ab56ca5870d15c5435a939884f77e2f0a72319f4c4d9941b2b3f9a93d82b5f",
+          "reviewedMyanmarSHA256": "1be47b691827da4e9c73bfc166acf5b26e7b29150336ab245c0b618e688404de",
+          "actualRawDeepLSHA256": "513f9bc07b0c41436a5e7492b5aff31fedff1152b9fc630941903edca0ab010e",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 21,
+          "responseIndex": 21
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "80eb7419a56ac85f11cea91e99b11626621444536c44df5ad08791e10463d8cf",
+          "reviewedMyanmarSHA256": "96fbfbd9248230bb332790a5eeb0cfb7397edd31c6185c2f287cd156dfd27b1b",
+          "actualRawDeepLSHA256": "157d53b277ad757b3ad380737ab9cbdd896a6b8d55925c6aa585c120c4b7b51a",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 22,
+          "responseIndex": 22
+        },
+        "progress": {
+          "status": "genuinely_unavailable",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null,
+          "actualRawDeepLSHA256": null
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "1f0d41b6b57895baf0bd7ad7ff463adba16e6d623c7d6a155eb5d6bfab07170d",
+          "reviewedMyanmarSHA256": "3afb844d7ba9c96fbae80e07fec41d5f1a174f8889d7a5b3189a5237a657edb8",
+          "actualRawDeepLSHA256": "3d950a22197c76581a211b5b7d182f94da51a22dca378be833d80aba4dae1811",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 23,
+          "responseIndex": 23
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5062,
+      "en": "Sacred Fire",
+      "allFiveSlotsRead": true,
+      "notes": "Arikara deadly/swift handling, sacred fire SUMMON before hunt, rare agave12732 harvested ENOUGH before Magatha4046/Elder Rise/Thunder Bluff consultation, NORTHEAST Boiling Pool,10 BUSHELS and only-Thousand-Needles herb restriction retained. Magatha looks around then smiles, heinous acts/sole purpose vengeance, dormant fire and begins enchanting retained. Firemain and Firemane are supported same-NPC10428 spellings. Secondary fetch unavailable after recorded bounded TLS retries; no absence or fabricated secondary corroboration claimed. All five current-primary fields available.",
+      "sourceHTMLSHA256": "c57d7fef56da9a721d27ed38189c27cb1817d820158166841308085a174bd2ce",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/5062-wowhead.html",
+        "sourceHTMLSHA256": "c57d7fef56da9a721d27ed38189c27cb1817d820158166841308085a174bd2ce",
+        "ownQuest": {
+          "id": 5062,
+          "name": "Sacred Fire",
+          "level": 27,
+          "reqlevel": 24,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Sacred Fire",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "e81eec8391dc5262b794484f4233dc9c05b0d6709153b2c76acaa5638e8c23c8",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "6b2eb58b762485cf187f2df2d39dc7260007ee65099032b4cf34aae1c4a97de8",
+          "reviewedMyanmarSHA256": "d002995856739c1b8978ca5b001c2092914b38e2cc506093d0cd459bff5d7522",
+          "actualRawDeepLSHA256": "a02cbac030d50f51adb8c6ae543b7d9047564d0da4cb99e72c584df1820673a5",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 24,
+          "responseIndex": 24
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "a97ec723bfbf68b84f6b5dbe2ba78fa13b23ad26f4cba8502be0acaa0fde6ca8",
+          "reviewedMyanmarSHA256": "b4d394c6a09b2d6e209bdf45db48a0bda0667fa5db047ada4070dffa489dac19",
+          "actualRawDeepLSHA256": "c0286704baffe7adf4fbdc69bbc7268eec67b711f61370c700d02efaa5f9de32",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 25,
+          "responseIndex": 25
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "64b0b1e6b64c8521bb01e472cc63855917c0244cf6dee0aac8e7b956e4c1896c",
+          "reviewedMyanmarSHA256": "502053faf157b84b7ec388e90c5a61cdca7656607a91bf366677ac5ada206cf7",
+          "actualRawDeepLSHA256": "1aa01cf9242bcf6873c3cd3c4702bd1e47fb84bcda80398d13625ceda23c4abf",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 26,
+          "responseIndex": 26
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "2f664f23c805025792392efa297eca046ec78fcd8e73ea9aab86795eacde03b0",
+          "reviewedMyanmarSHA256": "3de15288135501ff246707dc218b78d655c1404277fb086f270c0a1ba035c295",
+          "actualRawDeepLSHA256": "980cf9ccd4b3bb6d8b18011c644cf1764b8e7bd1254609bdbc1a4aa2c5e33429",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 27,
+          "responseIndex": 27
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "dd55537114346ddfd0a2ccd4c5c92dbd3cbfa843070b7acde6ad42fc8ce1d20e",
+          "reviewedMyanmarSHA256": "030053d8693b582232b07ff696476b96bb3b085c75ef6b4a4fb54d798331d3d2",
+          "actualRawDeepLSHA256": "1aa1a667934ac5ec35dbcc00c7260f5a3dbf9ecef1e9bbe5b4305b1ef49664bb",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 28,
+          "responseIndex": 28
+        }
+      },
+      "issues": []
+    },
+    {
+      "id": 5088,
+      "en": "Arikara",
+      "allFiveSlotsRead": true,
+      "notes": "Purified/refined powder12785 on sacred fire, isolated needle/burial site Darkcloud, enchantment summons Arikara to player preserved. Both fear/uncertainty clauses, Cairne Bloodhoof story identity, too much Tauren lore changed and quick-before-loss command retained. Kill and BOTH remains12925 AND Powder to Motega10428/Whitereach preserved; remains/skin linked item relation confirmed. Singular Arikara, Magatha most powerful, head shake and ONE reward retained. Current Horde controls UA Both. Required maintained Powder core correction in detail/objective.",
+      "sourceHTMLSHA256": "e886ee3e5395ee6137502f8a4ee7b1cfdda92b32c8cd80f25c361ea237a0c5b7",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/5088-wowhead.html",
+        "sourceHTMLSHA256": "e886ee3e5395ee6137502f8a4ee7b1cfdda92b32c8cd80f25c361ea237a0c5b7",
+        "ownQuest": {
+          "id": 5088,
+          "name": "Arikara",
+          "level": 28,
+          "reqlevel": 24,
+          "side": 2,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed",
+              "reworded"
+            ],
+            "lines": [
+              "Objective text reworded",
+              "Description reworded",
+              "Rewards: adds Choice of Smouldering Leggings"
+            ],
+            "notShown": [
+              "Description reworded",
+              "Rewards: adds Choice of Smouldering Leggings"
+            ]
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Arikara",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "7df1e0cd31a83b782a7c26bd6466965b610dea36004dc905c2f761934c2ef637",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "c75bdc13aafb4a4cb42a50ff762b9d1bec400cb5d594c8ebb424398b2131188d",
+          "reviewedMyanmarSHA256": "a7d9e17db6c6b8c44bd0357d7b34e115078718ff6cfd27dc6165bd652245c985",
+          "actualRawDeepLSHA256": "118e1c441cd77b8aef3bede766651aaefd5d43e8b960b5a2d6074f6b51f7f5d1",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 29,
+          "responseIndex": 29
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "0addef54785952af022b292941521cf3c23ac6ebc02129e1d307f02485049d31",
+          "reviewedMyanmarSHA256": "9aa4519f93ad09155972bc8fd91f0fc8cb07f96d29a6c59f0bdf36b81e0ca9fa",
+          "actualRawDeepLSHA256": "f74d55e69f0ad4637fdaee4ece84631c2bc6d77e75e1c7d7e4ef386e4210c2d6",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 30,
+          "responseIndex": 30
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "8f84bc998614ca9a532ebef2b11ec6a983dea384c78ea6461eeffc51c9222997",
+          "reviewedMyanmarSHA256": "be5a791eb7b53a2faa07fbc5d9c407f6e2ad849745d1a4cbd52e1605a54bba15",
+          "actualRawDeepLSHA256": "7c394f8f4313f623d378cbe002fd5d339a4c09a213aab354fbf5f05a45b4f2fa",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 31,
+          "responseIndex": 31
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "35e7b0bfcffbe5553ddb9ae7276fef1e8376f50ec80178ddc3e497f7f459ee7a",
+          "reviewedMyanmarSHA256": "b0e300b777ed9c2e88d9ab6c8c2156608981a60403f9a0e64c457df5d2e3f211",
+          "actualRawDeepLSHA256": "e6a1deecc797f33ae95abce5fb0fa4abf2a5f97039b9cfa223c4baf89bde00b5",
+          "requestFile": "deepl-request-03.json",
+          "responseFile": "deepl-response-03.json",
+          "indexFile": "deepl-index-03.json",
+          "requestIndex": 32,
+          "responseIndex": 32
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "b428e9bccd3412931bb7e25926e9061e5e171a6d8734780471b5ae281035c193",
+          "reviewedMyanmarSHA256": "b7715795582c48878c6dd8169e88399921b834dcff5b5805cf20441d5d368cfa",
+          "actualRawDeepLSHA256": "559cf4657cd8e367229c19e71b3e35fb84cccbcb0afa0b4ac4fef34b4bba8359",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 0,
+          "responseIndex": 0
+        }
+      },
+      "issues": [
+        {
+          "id": 5088,
+          "kind": "pronunciation compound-core consistency",
+          "severity": "required editorial correction or explicit root evidence-backed disposition",
+          "field": "detail",
+          "englishSHA256": "0addef54785952af022b292941521cf3c23ac6ebc02129e1d307f02485049d31",
+          "reviewedMyanmarSHA256": "9aa4519f93ad09155972bc8fd91f0fc8cb07f96d29a6c59f0bdf36b81e0ca9fa",
+          "old": "ပါဝဒါ",
+          "new": "ပေါ်ဒါ",
+          "exactOldField": "ဒီစနစ်တကျ ပြုပြင်ပြီး သန့်စင်ထားတဲ့ Incendia Powder (အင်ဆန်ဒီယာ ပါဝဒါ) ကို Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ဆီ ယူသွားပြီး sacred fire of life (ဆေးခရက်ဒ် ဖိုင်ယာ အော့ဖ် လိုက်ဖ်) ပေါ် ပက်ချလိုက်ပါ။ အဲဒီမီးက Darkcloud Pinnacle (ဒါ့ခ်ကလောက်ဒ် ပင်နကယ်လ်) မှာ သူတို့ရဲ့သေဆုံးသူတွေကို မြှုပ်နှံရာ သီးခြားတည်ရှိတဲ့ ကျောက်ချွန်တိုင်တစ်ခုပေါ်မှာ ရှိတယ်။\n\nIncendia Powder ထဲမှာ ငါ ထည့်သွင်းရက်ဖွဲ့ထားတဲ့ မှော်အစွမ်းက Arikara (အာရီကာရာ) ကို မင်းဆီ ဆင့်ခေါ်ပေးလိမ့်မယ်၊ <name>။\n\nသူမက Cairne Bloodhoof (ကဲန် ဘလဒ်ဟူးဖ်) ကို ချောင်းမြောင်းလိုက်လံနေတာ ဖြစ်နိုင်တယ်လို့ ငါ စိုးရိမ်တယ်။ Tauren (တော်ရန်) တို့ရဲ့ အစဉ်အလာဗဟုသုတတွေ ပြောင်းလဲသွားတာ များလွန်းတယ်။ ဒါကြောင့် Arikara ဒေါသထွက်သွားတာ ဖြစ်မှာကိုလည်း ငါ စိုးရိမ်တယ်။ အားလုံး မဆုံးရှုံးခင် မြန်မြန်လုပ်ပါ၊ <class>။",
+          "proposedFullField": "ဒီစနစ်တကျ ပြုပြင်ပြီး သန့်စင်ထားတဲ့ Incendia Powder (အင်ဆန်ဒီယာ ပေါ်ဒါ) ကို Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ဆီ ယူသွားပြီး sacred fire of life (ဆေးခရက်ဒ် ဖိုင်ယာ အော့ဖ် လိုက်ဖ်) ပေါ် ပက်ချလိုက်ပါ။ အဲဒီမီးက Darkcloud Pinnacle (ဒါ့ခ်ကလောက်ဒ် ပင်နကယ်လ်) မှာ သူတို့ရဲ့သေဆုံးသူတွေကို မြှုပ်နှံရာ သီးခြားတည်ရှိတဲ့ ကျောက်ချွန်တိုင်တစ်ခုပေါ်မှာ ရှိတယ်။\n\nIncendia Powder ထဲမှာ ငါ ထည့်သွင်းရက်ဖွဲ့ထားတဲ့ မှော်အစွမ်းက Arikara (အာရီကာရာ) ကို မင်းဆီ ဆင့်ခေါ်ပေးလိမ့်မယ်၊ <name>။\n\nသူမက Cairne Bloodhoof (ကဲန် ဘလဒ်ဟူးဖ်) ကို ချောင်းမြောင်းလိုက်လံနေတာ ဖြစ်နိုင်တယ်လို့ ငါ စိုးရိမ်တယ်။ Tauren (တော်ရန်) တို့ရဲ့ အစဉ်အလာဗဟုသုတတွေ ပြောင်းလဲသွားတာ များလွန်းတယ်။ ဒါကြောင့် Arikara ဒေါသထွက်သွားတာ ဖြစ်မှာကိုလည်း ငါ စိုးရိမ်တယ်။ အားလုံး မဆုံးရှုံးခင် မြန်မြန်လုပ်ပါ၊ <class>။",
+          "reason": "Maintained Powder compounds consistently use ပေါ်ဒါ, including Empty Powder Keg, Seaforium Powder, Stolen Blasting Powder and Strange Smelling Powder; Powdered Azurite retains the same core. The new Incendia Powder proposal uses ပါဝဒါ without a documented exception. Reuse ပေါ်ဒါ in the whole-name proposal and both affected fields. This is editorial consistency, not native pronunciation approval.",
+          "evidence": {
+            "currentPrimarySourceFile": "5088-wowhead.html",
+            "currentPrimarySourceSHA256": "e886ee3e5395ee6137502f8a4ee7b1cfdda92b32c8cd80f25c361ea237a0c5b7",
+            "currentEnglish": "Take this refined and purified Incendia Powder to Thousand Needles and toss it on the sacred fire of life. It is located in the Darkcloud Pinnacle on an isolated needle where they bury their dead.\n\nThe enchantment that I have weaved into the Incendia Powder will summon Arikara to you, <name>.\n\nI fear she may be stalking Cairne Bloodhoof; too much Tauren lore has changed, and I fear this has angered Arikara. Move quickly before all is lost, <class>!",
+            "wholeEnglishName": "Incendia Powder",
+            "maintainedTerms": {
+              "Empty Powder Keg": "အမ်ပ်တီ ပေါ်ဒါ ကက်ဂ်",
+              "Seaforium Powder": "ဆီးဖိုရီယမ် ပေါ်ဒါ",
+              "Stolen Blasting Powder": "စတိုးလန် ဘလက်စတင်း ပေါ်ဒါ",
+              "Strange Smelling Powder": "စထရိန်းဂျ် စမဲလင်း ပေါ်ဒါ",
+              "Powdered Azurite": "ပေါ်ဒါဒ် အက်ဇူရိုက်တ်"
+            },
+            "maintainedFileSHA256": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7"
+          }
+        },
+        {
+          "id": 5088,
+          "kind": "pronunciation compound-core consistency",
+          "severity": "required editorial correction or explicit root evidence-backed disposition",
+          "field": "objective",
+          "englishSHA256": "8f84bc998614ca9a532ebef2b11ec6a983dea384c78ea6461eeffc51c9222997",
+          "reviewedMyanmarSHA256": "be5a791eb7b53a2faa07fbc5d9c407f6e2ad849745d1a4cbd52e1605a54bba15",
+          "old": "ပါဝဒါ",
+          "new": "ပေါ်ဒါ",
+          "exactOldField": "Arikara (အာရီကာရာ) ကို သတ်ပါ။ မင်းလုပ်ခဲ့တာကို သက်သေပြဖို့ သူမရဲ့ရုပ်ကြွင်းနဲ့ Incendia Powder (အင်ဆန်ဒီယာ ပါဝဒါ) ကို Whitereach Post (ဝိုက်တ်ရီချ် ပိုးစ်တ်) ရှိ Motega Firemane (မိုတေးဂါ ဖိုင်ယာမိန်း) ထံ ယူလာပါ။",
+          "proposedFullField": "Arikara (အာရီကာရာ) ကို သတ်ပါ။ မင်းလုပ်ခဲ့တာကို သက်သေပြဖို့ သူမရဲ့ရုပ်ကြွင်းနဲ့ Incendia Powder (အင်ဆန်ဒီယာ ပေါ်ဒါ) ကို Whitereach Post (ဝိုက်တ်ရီချ် ပိုးစ်တ်) ရှိ Motega Firemane (မိုတေးဂါ ဖိုင်ယာမိန်း) ထံ ယူလာပါ။",
+          "reason": "Maintained Powder compounds consistently use ပေါ်ဒါ, including Empty Powder Keg, Seaforium Powder, Stolen Blasting Powder and Strange Smelling Powder; Powdered Azurite retains the same core. The new Incendia Powder proposal uses ပါဝဒါ without a documented exception. Reuse ပေါ်ဒါ in the whole-name proposal and both affected fields. This is editorial consistency, not native pronunciation approval.",
+          "evidence": {
+            "currentPrimarySourceFile": "5088-wowhead.html",
+            "currentPrimarySourceSHA256": "e886ee3e5395ee6137502f8a4ee7b1cfdda92b32c8cd80f25c361ea237a0c5b7",
+            "currentEnglish": "Slay Arikara. Bring her remains and the Incendia Powder to Motega Firemane in Whitereach Post as proof of your deed.",
+            "wholeEnglishName": "Incendia Powder",
+            "maintainedTerms": {
+              "Empty Powder Keg": "အမ်ပ်တီ ပေါ်ဒါ ကက်ဂ်",
+              "Seaforium Powder": "ဆီးဖိုရီယမ် ပေါ်ဒါ",
+              "Stolen Blasting Powder": "စတိုးလန် ဘလက်စတင်း ပေါ်ဒါ",
+              "Strange Smelling Powder": "စထရိန်းဂျ် စမဲလင်း ပေါ်ဒါ",
+              "Powdered Azurite": "ပေါ်ဒါဒ် အက်ဇူရိုက်တ်"
+            },
+            "maintainedFileSHA256": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7"
+          }
+        }
+      ]
+    },
+    {
+      "id": 4767,
+      "en": "Wind Rider",
+      "allFiveSlotsRead": true,
+      "notes": "Master wind riders, MORE wyverns and inability to meet demand, own hope someday, Highperch eggs, NORTHWEST canyon walls to ascending ramp, protective wyverns and intruder danger retained.10 Highperch Wyvern Eggs12356 to Elu10377/Freewind correct. Anxious START training, HOPED next step and hunting blessing <class> retained; no aircraft mistranslation.",
+      "sourceHTMLSHA256": "7293f1d0c75313ac307d0df08418f668d0609279a9f26b71ed4c659a44b63b2b",
+      "ownMetadata": {
+        "sourceFile": "thousand_needles/4767-wowhead.html",
+        "sourceHTMLSHA256": "7293f1d0c75313ac307d0df08418f668d0609279a9f26b71ed4c659a44b63b2b",
+        "ownQuest": {
+          "id": 4767,
+          "name": "Wind Rider",
+          "level": 29,
+          "reqlevel": 25,
+          "side": 2,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGatherer": {
+          "name_enus": "Wind Rider",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      },
+      "installedMetadataSHA256": "8acac25a1652e32ad5000af79d28a0a53c6de5bf13804c786a474895e0a706a9",
+      "allUA1_1_1VariantsRead": 1,
+      "fields": {
+        "title": {
+          "status": "enabled",
+          "englishSHA256": "de68034cc94afca87785294bfdb8d56fd83651d02d30495ef14ba8c8d447dc7f",
+          "reviewedMyanmarSHA256": "06962132f4178f9f68a5ae56afe03f8653fa3dfdaf5d969ae3017ab1f7424399",
+          "actualRawDeepLSHA256": "c1fa2b73ceaf682feee940c51e086a9125da7f99b2adf4b430361563724aacfc",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 1,
+          "responseIndex": 1
+        },
+        "detail": {
+          "status": "enabled",
+          "englishSHA256": "a191ff93e61a9ab9c052ed903dac4253802711e9b789c9101aa035a3aee24d20",
+          "reviewedMyanmarSHA256": "e2b2507b51b7711af329cf07f93904d174af0b25a362c38776df52ea49c42cfa",
+          "actualRawDeepLSHA256": "29058c0fff099e19da1d3c24464bca8757b50c6845717df4ad921f9795236d32",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 2,
+          "responseIndex": 2
+        },
+        "objective": {
+          "status": "enabled",
+          "englishSHA256": "6e68154bfb534ce58fd9caab292ff83f3a475888898d39fdfc766209a4b0d9db",
+          "reviewedMyanmarSHA256": "699c8060da88dfdcc65c5b60a2a629d6f2368c846b016ac008a2bf0a43bceb0a",
+          "actualRawDeepLSHA256": "04690d045ae307e5b8978b9adf073394f19710b8c6409e17a017da0387b5823d",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 3,
+          "responseIndex": 3
+        },
+        "progress": {
+          "status": "enabled",
+          "englishSHA256": "064d07d6e0237d954e46ad02e8e873bb78912f6bd28165769f6657c60bfffc2e",
+          "reviewedMyanmarSHA256": "e02983a18baf28d7a74a98c3a35207688bdca9baacfbe4b2f81708197cf21cbd",
+          "actualRawDeepLSHA256": "91389cc1bf89572e4d37be4bb65f78083256ea89ce1a048260ac84185d78c5a9",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 4,
+          "responseIndex": 4
+        },
+        "complete": {
+          "status": "enabled",
+          "englishSHA256": "aecd51143e61575532934d439245ba1a28e173ddee991a97c4adb258d6271145",
+          "reviewedMyanmarSHA256": "0831f548803dd76bc1a0119dd4cec1c91ee0e1b0bc96a88027bd526d9ab8b7bd",
+          "actualRawDeepLSHA256": "7a5faee471c2079d820f3080592da77e805c341505e2772e73bc8fd89b803303",
+          "requestFile": "deepl-request-04.json",
+          "responseFile": "deepl-response-04.json",
+          "indexFile": "deepl-index-04.json",
+          "requestIndex": 5,
+          "responseIndex": 5
+        }
+      },
+      "issues": []
+    }
+  ],
+  "sourceEvidenceIssues": [],
+  "pronunciationCorrections": [
+    {
+      "english": "Fragments of Rok'Alim",
+      "old": "ဖရက်ဂ်မန့်စ် အော့ဖ် ရော့ခ်အလင်မ်",
+      "new": "ဖရက်ဂ်မန့်တ်စ် အော့ဖ် ရော့ခ်အလင်မ်",
+      "reason": "Use maintained Fragments core shared by Necrotic Crystal Fragments and Soran ruk Fragments.",
+      "nativeApproval": "pending"
+    },
+    {
+      "english": "Incendia Powder",
+      "old": "အင်ဆန်ဒီယာ ပါဝဒါ",
+      "new": "အင်ဆန်ဒီယာ ပေါ်ဒါ",
+      "reason": "Use maintained Powder core consistently shared by all maintained Powder compounds.",
+      "nativeApproval": "pending"
+    }
+  ],
+  "sourceDispositions": {
+    "sameEnglishTitle": "Exactly six Test of Lore steps:1152,1154,6627,1159,1160,6628. Travel, book, question, transfer, book, question remain own-ID distinct; no answers invented.",
+    "genuinelyUnavailableProgressIDs": [
+      1152,
+      1159,
+      1394,
+      4865
+    ],
+    "unavailableStateBasis": "Independently inspected raw primary Description directly followed by Completion, no Progress heading or hidden reply div; corresponding available secondary Progress heading absent and actual UA variant progress null. Null retained.",
+    "secondary5062": "Existing TLS handshake timeout evidence and recorded bounded retries remain a fetch limitation. All five primary English states are present; installed objective/items and UA inspected. No absent-source conclusion or secondary text invented.",
+    "minimumLevelRangeCurrent": [
+      23,
+      26
+    ],
+    "minimumLevelRangeInstalled": [
+      23,
+      25
+    ],
+    "recommendedLevelRange": [
+      25,
+      36
+    ],
+    "level36IDs": [
+      1160,
+      1394
+    ],
+    "currentMinimum26Installed25": [
+      1152,
+      1154,
+      6627,
+      1159,
+      1160,
+      6628,
+      1394
+    ],
+    "currentHordeOverridesUABoth": [
+      1160,
+      6628,
+      5088
+    ],
+    "allCurrentOwnIDsHorde": true,
+    "allOwnGathererClassRaceRequirementsZero": true,
+    "supportedAliases": [
+      "Motega Firemain/Motega Firemane: NPC10428; same maintained whole-name phonetics",
+      "Thunderbluff/Thunder Bluff: same settlement; one-word source objective spelling retained",
+      "Urgent Message/urgent message: linked item11886, casing only",
+      "Beginnings of the Undead Threat/The Beginnings of the Undead Threat: linked item5861, objective article retained",
+      "Dor danil casing differs in English sources; same place and maintained phonetic retained"
+    ],
+    "sanitizedCaptureReview": "Current saved audit PASS:310 translated historical states/132IDs, zero selectedIDs present and no remaining saved gaps. It supplies no new live field verification for these18IDs."
+  },
+  "machineChecks": {
+    "actualVerifier": "W/verify_workers.py thousand_needles executed through runpy with only its final shared report Path.write_text intercepted in memory; PASS86 source/86 enabled/0holds. No shared report was written.",
+    "actualVerifierSHA256": "eb14ff1187980134251de7ae7606794f85308d041103b7ec8d99ba2e91f9ee8d",
+    "linguisticLintOnFrozen": "PASS; actual linguistic_lint.lint invoked independently and by verifier",
+    "validateFieldsOnFrozen": "PASS; actual build_release.validate_fields invoked for every quest independently and by verifier",
+    "actualRawProvenance": "Four actual MY request/response/index file sets read; targetLangs MY,86 unique indexed English/response mappings, request sizes22/25/33/6 fields and4816/4695/4670/1111 input characters, all original file/text hashes and English/edited hashes verified. No alternate or rejected outputs.",
+    "sourceReparse": "All18 primary and17 available secondary original HTML parsed independently; source hashes and English fields matched. Full own g_quests and own Gatherer records extracted by ownID, compared to matching root facts; no neighboring chain step borrowed.",
+    "placeholdersDigitsParagraphs": "Exact player/class/race tokens and numeric values pass validate_fields; all enabled paragraph counts independently checked. Spelled-out three notes and three unknown agents checked in bilingual read. Emotes and speaker/actions reviewed separately.",
+    "proposedChangesInMemoryOnly": "Three exact replacements plus two whole-name proposal changes pass actual linguistic_lint,validate_fields and paragraph checks in memory. No correction applied to frozen artifacts."
+  },
+  "integrity": {
+    "allUnchanged": true,
+    "frozenJSONFilesChecked": 50,
+    "frozenHTMLFilesChecked": 35,
+    "frozenAuthorScriptsChecked": 4,
+    "authorFreezeManifestSHA256": "d5e8c54cc1120e6bbbe23a6715bf18ec53b35f87696a6d46b5b8b8a3f7d08fc6",
+    "frozenFileSHA256": {
+      "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "author-corrections-group1.json": "a0a83d5a5ef25873f2316ca9c2021bb161fbfbefda9bc9fb424605d23e533d91",
+      "author-corrections-group2.json": "7e78dd1fac2f34a4fba488c09782fc1847338698049eae8dd8fc272473628b15",
+      "batch-plan.json": "191aef4f045d6ec2e1d24cea1f4843b56229371eb1d51ce682b48d72a6217ef6",
+      "comparison-provenance.json": "2fce84f22c62769a42b9d1451e2145225d48509456b9b8ca9d6877ef58ee6ea6",
+      "deepl-index-01.json": "07663fe36af6e1137c20d450683ec2d8b46f423a6189ad71d42c71fc64868841",
+      "deepl-index-02.json": "ffcc29b252a7dc4e880c4d9d940f3722ff59e287c94588efb4e5415af76f57a1",
+      "deepl-index-03.json": "fc902b6c98fdf3ac179178f860ce1382ca5d6edd6a4299b964d176591397e65f",
+      "deepl-index-04.json": "054ea828ffa1823ff4dd9f1a12701212a9b27e2ab32fdefb5cbaa91fab98224b",
+      "deepl-request-01.json": "8ee9c290645538717598b07c440c56693d234932ed494316d190cdb75746be6a",
+      "deepl-request-02.json": "48dfb570187f2564e9c44dc08900e677bca58c8871ec026207857fc79d4eb9d6",
+      "deepl-request-03.json": "68684136b9b79c3ba75adf528a66ec5a9e19c8c455dc3eac0306443461fc2e44",
+      "deepl-request-04.json": "e99b87c2faac59a27460b6ed768219876ec8bbd60954958040e9c8d27487a002",
+      "deepl-response-01.json": "963ef9d2408dfe9c807a048481af73fe4ee1709ac3ff5db723fb1ffc98486028",
+      "deepl-response-02.json": "67c000a709078da208d2ebc3a0460c5967e5d93967900c90cd61ee80f25270f7",
+      "deepl-response-03.json": "b5d068fe248043aec9e3d20ab615b7b94fadb1b853b6c725c04397d6deac8156",
+      "deepl-response-04.json": "58b043259d48cab5d20883b1aa586b59d1a3d8120cd31b991af0818eb5abff98",
+      "edited-group1-draft.json": "2dafb0a82d4d0248ffd28fa0ba1d50c9d603132e0b4a57f57b3b950595148182",
+      "edited-group1.json": "7064c207c66051cdd493bc631e18cc0b6c4b61f9e820e369e566977a9ceb2a70",
+      "edited-group2-draft.json": "60f7a2812491fa7493b02e06e5d9cb643c51193ab35d861c2c7549623b86e510",
+      "edited-group2.json": "a4f0a905d64a4d20bd61c529fda969d7633071bad930d315312d1a8b4cdac7c9",
+      "edited.json": "7784eb536d8971e3e73d81755ba976b8ef40934704672f3807db8dcdf8692cce",
+      "english-sources.json": "877032c638733831a692e723198632803be70a7075b21f26b3c9738b2528a201",
+      "fetched-attempt1.json": "2129bc99e5cc6129ce0a81efb5ca43810ca97a8f93c66277ae59cbd5b04d11b7",
+      "fetched-attempt2.json": "740dc414cb5c019bb0685d6f313002cfadd189f445dd342a83397a8ee660a3d5",
+      "fetched-attempt3.json": "b6c364e8a27e2db6da4bd02ca43cab377f2e81ce0da32a606a662d28ff4fd7af",
+      "fetched-attempt4.json": "82e3b1852dacf063f88e0c30801977ace667e468bf9f7b06a9344c5cf0115000",
+      "fetched-attempt5.json": "c08b47c8f1df52bd5bd946ffac1e399788154254a3e113c18fa65cbc119650b2",
+      "fetched-attempt6.json": "56e3b2f01298195d29ff49f279035b92949a32c1983b36dc47a436488db57c0c",
+      "fetched-attempt7.json": "8b4db98152091f991cd7fb956f27c2e4f5778b7716a1c3f0be1fc8970d81cd21",
+      "fetched.json": "b2b689e42c96ad4e8a5cabca8be59127371f40f8b5e19bb12b7fc00fd45ec791",
+      "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "new-pronunciations.json": "c493fd607f2532757b931ff2c3848b0604216a4b24d187e21b30074cd52c98fe",
+      "pronunciation-review-status.json": "0cdf8c70ff76037362a19314699d2db80fbefbdf9ec61a11a32c88a984ec37f5",
+      "pronunciations.json": "ad40d88e6cb801947932570989534e8a6ac5aeb1410526746cd22c539b8f6d98",
+      "proposed-pronunciations.json": "c493fd607f2532757b931ff2c3848b0604216a4b24d187e21b30074cd52c98fe",
+      "review-audit-group1.json": "7ed33d543642c0e4571fc2790e898efbdc95095ec72cccb26e67063ce9934b8e",
+      "review-audit-group2.json": "e28b6edf50e9efada21464badd1d6d52545b3810c0154e684237483cc0a39c25",
+      "review-audit.json": "9ce64d64547ca324ffec43b7384d3a2a6f70c420ac7251ea4cc6f1af9cde1a33",
+      "review-groups.json": "ce9327676b687fd6d0f88fadc9507016de3ca2b9fb44550da2995e0dd2b07747",
+      "semantic-notes-group1.json": "2e5e7dafd218b61fc1acf850759e4b1c0fb2cc979f02b15c63fa51d5c7799f28",
+      "semantic-notes-group2.json": "8789a28d561e372a19208e488f65c8f2c65d64af38730a67c3bb6436182f0f39",
+      "semantic-notes.json": "e7fe02cd4aa00eb1538264cf427419cfc13f6f727ccf7168baa01b9d53ee80db",
+      "separate-bilingual-review.json": "87805f83d705f9b33377bde6a8199319509b8d2ef76cb4edc15af6454488f609",
+      "source-boundaries.json": "e9d1bb4c62a8e281e63b5be32c9ab8dd4e4fe0b70257b8058a36424904e702f1",
+      "source-holds.json": "e228653856dcaf06b4bffc559b3e0a403a3a64bb6414d33ef1ebc1c2d9706e91",
+      "source-sanity.json": "89c443da682c43ac7955a6e7f5ad8357988de7a012383d5a98f7a575c002dd09",
+      "ua-field-countercheck.json": "b0de5764748ea3aa3c3d8c51121c9cfff992ae5024b7f90781936bab19bd8c45",
+      "validation-attempt-latest.json": "d02738df227ab956e662e51a78db2849eee0b753724aa79ef4a3dd43f3a01117",
+      "validation.json": "3fbd250d8040d5afb3b57a83387d2f5711985316d42fb9545256c17c5a823d2c",
+      "1149-sixty.html": "deac1d3e97f275102f5edf1a5ce69dafac5d3208e68e3f4bfe89bf2f04fa0c5a",
+      "1149-wowhead.html": "b4198e80b82e959108f977edecfbf60f756c08a136410ab5a373852b249c9ad7",
+      "1150-sixty.html": "62c2168026f3cde61f135440d9908c16e547f422fd757502fbdde21effb96818",
+      "1150-wowhead.html": "3d2ddf282d2ac39214465dfcb23378f3a1275afc30771b47e09bf484e3f276e1",
+      "1151-sixty.html": "c895b6c9211ce0026adbbba0a879d44183b15b20f5a069a114733a6b2ab06fc3",
+      "1151-wowhead.html": "db44a7ad99a7847c9cd4c84f6b3349b83978ee9a595c6371921298253ce71fa6",
+      "1152-sixty.html": "fb4dfc2d74a4ed502a2ddb46d481c086ab337c2547e9f2ded7ffdce3c6268db5",
+      "1152-wowhead.html": "c14841df9a59af8410db3dca9c7607d62f021f8149b07c43773335b475870e29",
+      "1154-sixty.html": "fcf58077beed3ab6cdc78babb4a9a6d345e9f8a1e21244627e6537026e390dfe",
+      "1154-wowhead.html": "86332fff32794e171da2ad4af22a580e9c963594cbd3880db36f7bfd5ec4abd9",
+      "1159-sixty.html": "9e74ad396b4d84f770347152efa2e9e3ed5391f06a61f7cd60c0fe87947ea242",
+      "1159-wowhead.html": "b628317d49925d31dc2397952914659bc858c43fa9f7525de8c198b13fc19452",
+      "1160-sixty.html": "9a8a014cc60aacfb457846f764090bc334716fc056d7469bd40a9b1c974a534f",
+      "1160-wowhead.html": "dd112e233c981795546fa65fb852ce16308501e494cb99b45a5ad3faa770b8db",
+      "1394-sixty.html": "88afa14a58401936ab220688ec60cf841fd0f179c405cad1a54cd85ec19487f6",
+      "1394-wowhead.html": "9644dc1a026982ac352e0143fd12681578ebdbb6bd0e140e541ad9428d0c5a9c",
+      "4542-sixty.html": "a18fb2a3c75aff9798fd018f8689ec25e8a9ceddf8bee8528db60161bc7d44f9",
+      "4542-wowhead.html": "7c1c11f2f09cd311d52f69ac94cab6580787edea10dc0d303a5acb7c044a73ad",
+      "4767-sixty.html": "a0f215f0f0c763c006c00295c8001d025a0afec21270c6c6bdfe56d5bbb69858",
+      "4767-wowhead.html": "7293f1d0c75313ac307d0df08418f668d0609279a9f26b71ed4c659a44b63b2b",
+      "4821-sixty.html": "100f2a4d6045602a2598babca9f43282b50332809589779ac10f5ee77e1af340",
+      "4821-wowhead.html": "992455114e8f5d0cd6beef0d4709220849f09779b7dd462cd9292f85e348641c",
+      "4841-sixty.html": "5a959422d0672f1e96527cdb45594ca2c265743b9ac744c8b62588494062b0f1",
+      "4841-wowhead.html": "2d9e860544c0925c8fc5f269640fa8999dfb7243c1f9a5cab5c8ce41ae8e867e",
+      "4865-sixty.html": "b02fb03caee9222be254bc427988157d5207cace57860d68f2e47b2a44dfcffe",
+      "4865-wowhead.html": "b9f3ab33f1b78f24899702229d194cbe66d600de67c1a69fef99cd95d50ba8b8",
+      "5062-wowhead.html": "c57d7fef56da9a721d27ed38189c27cb1817d820158166841308085a174bd2ce",
+      "5064-sixty.html": "78e05f771b0e80fbe0322d3ae7dacb4550bc8dbfa754412390fbaa54a42761e3",
+      "5064-wowhead.html": "cb5f46a35299c57c151daf3f6f796ad8fb3bc56e7402031b2ead73a03c528e57",
+      "5088-sixty.html": "b1be5e0f4bbecca9af4358a7181e632c8c0932156ec50d6a9de80108b4ab12ee",
+      "5088-wowhead.html": "e886ee3e5395ee6137502f8a4ee7b1cfdda92b32c8cd80f25c361ea237a0c5b7",
+      "6627-sixty.html": "ab29cdc0064684516916c4797639f12c134c8aff5c4a35020bfbc132eb79b213",
+      "6627-wowhead.html": "cc450e3ef1526c4601b5df6a5eb3e8da5d3d1df4aa9d9abe5beb73adb14af9c3",
+      "6628-sixty.html": "5d4cc78f55b0e76041506be0a6aa14eee9757b9d10dc4d3fe9f6f84302a63bb1",
+      "6628-wowhead.html": "6b642986f32053abe75895b56f062c7a5393ca05ab66e9c61899bc6fd9d9d49d",
+      "edit-group1.py": "624c1fd97d05af81dbb880c0bdb8eac95326861648f692f42ae64e828465023b",
+      "edit-group2.py": "e8e7521467dce74ba2c13d0df22dbab03aa3f43ca4650f4351418e79254d2f47",
+      "finalize.py": "b7eab1aada5519c7bef1f3cf1f02b4f646cf3560f4d297b9795aa96f30716731",
+      "prepare.py": "5b14ece4516107a6373b1c01dbaeaa863a1854ebb456cd54e4fff7f6e38725c0"
+    }
+  },
+  "pins": {
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.1",
+      "commit": "b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+      "checkedAt": "2026-11-23T20:31:25.782652+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+      "publishedAtUTC": "2026-11-23T01:37:19Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.1/UA_Forever-1.1.1.zip",
+      "assetSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+      "catalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2"
+    },
+    "metadata": {
+      "version": "1.1.3",
+      "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+      "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "questCount": 5982,
+      "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+      "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+    },
+    "maintainedPronunciations": {
+      "count": 4529,
+      "sha256": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7",
+      "mergedCount": 4574,
+      "newCount": 45
+    },
+    "inputFileSHA256": {
+      "selection.json": "680f36ad6c5aac9a253cea14abfedd13a4cce9d2b13d71738b6fb3dd35a3be10",
+      "upstream-reference.json": "4afbeb6a38c069f79eaf04db98082a1b93cb4947437e936edbe77070c6c4c5dc",
+      "metadata-reference.json": "253041d977b00d8465e97deb6ff3be193561e2a365a996ef95df0f46cd826468",
+      "metadata.json": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "maintained-pronunciations.json": "d7325e8feb5fb9a10fe06dd14828040e4ba97027ce9ad209d0d6978700ac78d7",
+      "current-primary-own-id-metadata.json": "e4cc03815cd2f44c1fff7e3687c068c1461ee50c58c826cdf00507f9c8b3bac4",
+      "selected-live-title-review.json": "04a3e747676f4a47b5e6ccde9dbb67cc4a4c2b6fb18608bc515a17b0ef9cfa9d",
+      "sanitized-local-capture-review.json": "7e057f684ad25bb8547914ea7c77fc788d68050970f2f2929774715c91a02271"
+    }
+  },
+  "officialLatestRecheck": {
+    "url": "https://github.com/sysrover/UA_Forever/releases/latest",
+    "observedReleaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+    "observedCommitLink": "https://github.com/sysrover/UA_Forever/commit/b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+    "result": "Latest official release page independently returned1.1.1 and linked exact b0160a838849f8fc1e1c381e8669e3f4d8d5da6b; direct commit-page fetch returned cache miss. Root fresh pin plus independently rehashed actual package/catalog control source content."
+  },
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending; assisted review does not certify native fluency",
+    "newPronunciationNativeApproval": "all45 pending, including two corrected compound proposals if adopted",
+    "currentLiveForeverVerification": "not performed; English eligibility, source metadata and historical sanitized captures are not live verification",
+    "controllerHardwareVerification": "not performed"
+  },
+  "nextAction": "Root exact-hash candidate workflow must apply or explicitly resolve three field proposals and update two related new/proposed/merged pronunciation entries in a derived candidate; repeat affected source-aware review and actual lint/validate_fields. Preserve all four unavailable Progress nulls and frozen author artifacts."
+}

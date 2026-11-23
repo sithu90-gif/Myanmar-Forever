@@ -1,0 +1,143 @@
+{
+  "version": "1.2.20",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-24",
+  "newQuestIDs": 50,
+  "newQuestFields": 224,
+  "newEnabledFieldsTotal": 224,
+  "newAvailableSourceFields": 230,
+  "newSourceAbsentFields": 20,
+  "newHeldFields": [
+    {
+      "id": 79363,
+      "field": "objective",
+      "reason": "Objective narrative, installed and 60/UA say7 Night Blades/7 Enchanters; actual current objective table says7 Night Blade/2 Enchanter. Hold objective until live resolution. Same own-ID eligibility caveat as79362.",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 78307,
+      "field": "detail",
+      "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID.",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 78307,
+      "field": "objective",
+      "reason": "Primary literal objective Log and detail Description are source placeholders; hold both. Genuine completion is C reward note and title matches78261 but distinct sequelID.",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 78270,
+      "field": "detail",
+      "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement.",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 78270,
+      "field": "objective",
+      "reason": "Primary+secondary detail/objective reproduce C Horn note; own-ID objective table requires Venture Co. Work Order210187 x1, endpointVeenix, progress asks work order for explosives. Hold copied detail/objective; no invented replacement.",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/early_routes.json"
+    },
+    {
+      "id": 1022,
+      "field": "objective",
+      "reason": "Current primary English and UA objective return Melyria at Shrine of Aessina; secondary objective is absent. Refreshed installed objective says Forest Song. Hold this return-location field until sanitized current live English resolves recipient location. No conflicting return location in the other four fields.",
+      "sourceEnglish": "Go to the Howling Vale and study the Tome of Mel'Thandris, then return to Sentinel Melyria Frostshadow at the Shrine of Aessina.",
+      "rawProposal": "Howling Vale သို့ သွား၍ Mel'Thandris ၏ စာတမ်းကို လေ့လာပြီးနောက် Aessina ဘုရားကျောင်းရှိ Sentinel Melyria Frostshadow ဆီ ပြန်သွားပါ။",
+      "provenance": {
+        "englishSHA256": "5143d91e2e7f572a04452bab3793929f225821e6c684c85621cf5fb98ecc0089",
+        "rawDeepLSHA256": "139ee49b37febe5b9a8fbddf969a1c8a52cb1005f296df9b5cb53f36cdb76862",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 2,
+        "responseIndex": 2,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "detectedSourceLanguage": "EN"
+      },
+      "status": "held;not enabled",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/alliance_routes.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 8,
+  "questIDs": 1886,
+  "translatedFields": 8605,
+  "dialogueStates": 4929,
+  "absentOrHeldDialogueStates": 729,
+  "activeHeldUniqueFields": 87,
+  "pythonTests": 25,
+  "luaRegressionGroups": 54,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "reviewedConnectedGroups": 6,
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-23T21:14:15.589658+00:00",
+    "catalogVersion": "1.2.20",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.1",
+    "commit": "b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+    "checkedAt": "2026-11-23T20:31:25.782652+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+    "publishedAtUTC": "2026-11-23T01:37:19Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.1/UA_Forever-1.1.1.zip",
+    "assetSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+    "catalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 50,
+  "zip": {
+    "name": "MyanmarForever_v1.2.20.zip",
+    "bytes": 1158470,
+    "sha256": "4b0e84df580e0d75f1ad468d249202fef0612d6781b3e9a9d948adf1f49acc00"
+  },
+  "canonicalMetadataHashAliasRepairs": 3,
+  "inheritedUAUnavailableEnglishStates": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "UA1.1.1 added state, current primary/secondary English unavailable; baseline null preserved. Source/liveness uncertainty recorded separately from formal sourced holds."
+    }
+  ],
+  "unconfirmedUAOnlyStates": [],
+  "newUnavailableCurrentEnglishStates": 20,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}
