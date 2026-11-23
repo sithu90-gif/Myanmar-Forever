@@ -1,0 +1,70 @@
+{
+  "partition": "wetlands",
+  "targetVersion": "1.2.19",
+  "ids": [
+    305,
+    306,
+    294,
+    295,
+    296,
+    288,
+    289,
+    290,
+    292,
+    293,
+    299,
+    472,
+    303,
+    378,
+    98230
+  ],
+  "groups": [
+    [
+      305,
+      306,
+      294,
+      295,
+      296
+    ],
+    [
+      288,
+      289,
+      290,
+      292,
+      293
+    ],
+    [
+      299,
+      472,
+      303,
+      378,
+      98230
+    ]
+  ],
+  "routes": "Excavation/Merrin/Tarrel andthreeOrmersteps;ThirdFleet/cursedcrew/key/Palethcleansing;Whelgararchaeology/DunModr/DarkIron/StockadeKamDeepfury;ForeverHowinWildhammer/Dragonmawreferral",
+  "sourceFetch": "tools/fetch_quest_sources.py explicit --output wetlands --metadata ../metadata.json --ids all15 assignedIDs; TLS primarytimeouts recoveredviaexacttoolretry",
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.1",
+    "commit": "b0160a838849f8fc1e1c381e8669e3f4d8d5da6b",
+    "checkedAt": "2026-11-23T06:34:19.645185+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.1",
+    "publishedAtUTC": "2026-11-23T01:37:19Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.1/UA_Forever-1.1.1.zip",
+    "assetSHA256": "0bbcf43312a6ea1d1a76266a2bcd2de0bfa0e096a56d43f4359b418f61787dd6",
+    "catalogSHA256": "53f0813239261aca1a4aefbd7fcdb82d724a5e74a03036363694905f19fbdcf2"
+  },
+  "metadataReference": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "newPronunciations": "assisted editorial proposals; native approval pending"
+}

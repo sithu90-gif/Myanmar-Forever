@@ -1,0 +1,110 @@
+{
+  "activeHolds": [
+    {
+      "id": 1510,
+      "field": "complete",
+      "reason": "Current primary1510 completion says literal 'Another orc' while current secondary1510 says 'Another <race>'. Primary current race146 allows multiple races; neither source establishes which race wording is current live. Hold entire completion pending sanitized live/source resolution; do not invent a neutral substitution.",
+      "sourceEnglish": "Another orc, eh? I hope you haven't come for the other. He didn't make it. Those goblins did him in good.\n\nHe said he needed a healing draught, but not much else.",
+      "rawDeepLProposal": "နောက်ထပ် အော့ခ် တစ်ယောက်လား၊ ဟင်? မင်းက အခြားသူအတွက် မလာတာ မျှော်လင့်ပါတယ်။ သူ မလွတ်မြောက်နိုင်ခဲ့ဘူး။ ဂေါဘလင်တွေက သူ့ကို သေချာသေသွားအောင် သတ်လိုက်ကြတယ်။\n\nသူက ကုထုံးဆေးတစ်ခွက်လိုတယ်လို့ ပြောခဲ့ပေမယ့် အခြားတော့ မပြောခဲ့ဘူး။",
+      "secondarySourceEnglish": "Another <race>, eh? I hope you haven't come for the other. He didn't make it. Those goblins did him in good.\n\nHe said he needed a healing draught, but not much else.",
+      "secondaryRawDeepLProposal": "နောက်ထပ် <race> တစ်ယောက်လား၊ ဟင်? မင်းက တခြားသူအတွက် မလာတာမျှော်လင့်တယ်။ သူ မလွတ်မြောက်နိုင်ခဲ့ဘူး။ ဂေါဘလင်တွေက သူ့ကို အကောင်းဆုံး သတ်ပစ်ခဲ့ကြတယ်။\n\nသူက ကုထုံးဆေးတစ်ခွက်လိုတယ်လို့ ပြောခဲ့ပေမယ့် အခြားတော့ မပြောခဲ့ဘူး။",
+      "editedValue": null,
+      "englishSHA256": "3ba6de3dd6771ecb9fc7128903a7e65c230931cc812e0679df63852c9bb25a9c",
+      "rawDeepLSHA256": "e0d98c562644b3548b585c3e1431d65c0219ba580d0ac5103c2a10d64ea32c52",
+      "rawDeepLRequestFile": "deepl-request-01.json",
+      "rawDeepLResponseFile": "deepl-response-01.json",
+      "rawDeepLIndexFile": "deepl-index-01.json",
+      "requestIndex": 7,
+      "responseIndex": 7,
+      "responseTargetIndex": 0,
+      "requestJSONPointer": "/text/7",
+      "responseJSONPointer": "/translations/0/translations/7/text",
+      "detectedSourceLanguage": "EN",
+      "editedSHA256": null,
+      "status": "held; current live/source resolution pending"
+    }
+  ],
+  "genuinelyUnavailable": [
+    {
+      "id": 1509,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 1510,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 1717,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 2299,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 2298,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 2300,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    },
+    {
+      "id": 65601,
+      "field": "progress",
+      "reason": "Current primary and corresponding secondary have no available dialogue state; null retained."
+    }
+  ],
+  "documentedDifferences": [
+    {
+      "id": 1510,
+      "field": "complete",
+      "status": "held",
+      "reason": "Primary orc versus secondary <race>; both actual raw proposals accounted, no neutralization."
+    },
+    {
+      "id": 65604,
+      "field": "objective",
+      "status": "enabled from current English",
+      "reason": "UA1.1.1 says succubus, while primary+installed say incubus; current English and own-ID185335 control."
+    },
+    {
+      "ids": [
+        65602,
+        65603
+      ],
+      "status": "stage item IDs distinct",
+      "reason": "Fetched Wooden Figurine190309 versus ritual-provided190186; identical display name does not establish item interchange; own quests retained."
+    },
+    {
+      "ids": [
+        65610,
+        65604
+      ],
+      "status": "stage item IDs distinct",
+      "reason": "Observed Withered Scarf190232 versus ritual-provided190187; identical display name does not establish item interchange; own quests retained."
+    },
+    {
+      "id": 65602,
+      "field": "objective",
+      "status": "enabled from exact current English",
+      "reason": "UA explicitly includes Ashenvale; current primary objective omits it, so not inserted. Directions remain in current detail. Metadata torch/cart stage objective remains evidence, not invented dialogue."
+    },
+    {
+      "id": 1717,
+      "field": "detail",
+      "status": "enabled from current English",
+      "reason": "UA has malformed Ukrainian gender token; current English supported <name> and training instructions govern; no upstream unsupported marker copied."
+    }
+  ],
+  "sourceControlsMeaning": "Fresh English fields, not UA/backtranslation. All20 own-ID/infobox/current restrictions/full installed metadata/all UA1.1.1 variants inspected.",
+  "eligibility": "Classic Horde warlock race146/class256, Alliance warlock race65/class256, Alliance Rogue class8 with no extra primary race restriction; primary levels/minima retained,65610 questlevel27/min20. Installed masks broader; current eligibility not live proof.",
+  "nativeProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

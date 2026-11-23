@@ -1,0 +1,917 @@
+{
+  "metadataMappingSource": "installed QuestieDB/src/meta/questMeta.lua",
+  "mappingSourceSHA256": "d124338dbbc345503efb1f8cd50f7dd2d39a34760d445872f6b106af64441ee4",
+  "currentPrimaryRule": "Current source Horde side controls; broad installed race mask does not prove client eligibility. Full numeric flags/gates retained verbatim and decoded from actual installed key map. No current live verification claimed.",
+  "quests": {
+    "501": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring 10 vials of Mountain Lion Blood to Apothecary Lydon in Tarren Mill."
+        ],
+        "10": {
+          "3": [
+            [
+              3496,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            68,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Pain",
+          "4": 21,
+          "5": 24,
+          "6": 8589934770,
+          "17": 267,
+          "22": 502,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 21,
+        "questLevel": 24,
+        "requiredRaces": 8589934770,
+        "nextQuestInChain": 502,
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 21,
+      "EnglishTitle": "Elixir of Pain",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D501/elixir-of-pain",
+      "currentPrimarySHA256": "09786ff5256ed6e950d89fd274e47498c23ebdd4d2bd11e3b013bf944fdc9716",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "502": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2274
+          ]
+        ],
+        "8": [
+          "Feed the Elixir of Pain to Stanley."
+        ],
+        "13": [
+          501
+        ],
+        "26": [
+          [
+            68,
+            75
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Pain",
+          "4": 21,
+          "5": 24,
+          "6": 8589934770,
+          "11": 3497,
+          "17": 267,
+          "p": 33558662
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 21,
+        "questLevel": 24,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 3497,
+        "preQuestSingle": [
+          501
+        ]
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 21,
+      "EnglishTitle": "Elixir of Pain",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D502/elixir-of-pain",
+      "currentPrimarySHA256": "a12c77d18c7b25c2c77926ea6d7419d04ff6fa7663b32c45b5972abca048df37",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "509": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring 6 Mudsnout Blossoms to Apothecary Lydon in Tarren Mill."
+        ],
+        "10": {
+          "3": [
+            [
+              3502,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            68,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Agony",
+          "4": 24,
+          "5": 28,
+          "6": 8589934770,
+          "17": 267,
+          "22": 513,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 24,
+        "questLevel": 28,
+        "requiredRaces": 8589934770,
+        "nextQuestInChain": 513,
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 24,
+      "EnglishTitle": "Elixir of Agony",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D509/elixir-of-agony",
+      "currentPrimarySHA256": "f81c568f96a94b98846feb7528ce8b5c033a1926fa000d3e8feab16f5bb41d2d",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "513": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2055
+          ]
+        ],
+        "8": [
+          "Take the Mudsnout Composite to Master Apothecary Faranell in the Undercity."
+        ],
+        "13": [
+          509
+        ],
+        "26": [
+          [
+            68,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Agony",
+          "4": 24,
+          "5": 28,
+          "6": 8589934770,
+          "11": 3506,
+          "17": 267,
+          "22": 515,
+          "p": 33558662
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 24,
+        "questLevel": 28,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 3506,
+        "preQuestSingle": [
+          509
+        ],
+        "nextQuestInChain": 515
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 24,
+      "EnglishTitle": "Elixir of Agony",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D513/elixir-of-agony",
+      "currentPrimarySHA256": "c3666292cc0ed221f63c9a16d3a681139f4bbc729341adfddb98571e3b3ce38f",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "515": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2055
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring the Mudsnout Mixture, a Strong Troll's Blood Potion, 5 Daggerspine Scales and 5 Torn Fin Eyes to Apothecary Lydon in Tarren Mill."
+        ],
+        "10": {
+          "3": [
+            [
+              3388,
+              null,
+              0
+            ],
+            [
+              3509,
+              null,
+              0
+            ],
+            [
+              3510,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          513
+        ],
+        "26": [
+          [
+            68,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Agony",
+          "4": 24,
+          "5": 30,
+          "6": 8589934770,
+          "11": 3508,
+          "17": 267,
+          "22": 517,
+          "p": 33559174
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 24,
+        "questLevel": 30,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 3508,
+        "preQuestSingle": [
+          513
+        ],
+        "nextQuestInChain": 517
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 24,
+      "EnglishTitle": "Elixir of Agony",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D515/elixir-of-agony",
+      "currentPrimarySHA256": "3830532b7387f85fd98ba3951556a15563fb0a52cf317f95bb06e11568e5a909",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "517": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          [
+            2216
+          ]
+        ],
+        "8": [
+          "Bring a keg of Shindigger Stout to Apothecary Lydon in Tarren Mill."
+        ],
+        "10": {
+          "3": [
+            [
+              3517,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          515
+        ],
+        "26": [
+          [
+            68,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Agony",
+          "4": 24,
+          "5": 30,
+          "6": 8589934770,
+          "17": 267,
+          "22": 524,
+          "23": 8,
+          "p": 33559174
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 24,
+        "questLevel": 30,
+        "requiredRaces": 8589934770,
+        "preQuestSingle": [
+          515
+        ],
+        "nextQuestInChain": 524,
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 24,
+      "EnglishTitle": "Elixir of Agony",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D517/elixir-of-agony",
+      "currentPrimarySHA256": "77e178e37b2e39abce0faa997212dc57e00e52e0cc49f494ff6b46b27ace8b04",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "524": {
+      "installedFullRecord": {
+        "2": [
+          [
+            2216
+          ]
+        ],
+        "3": [
+          null,
+          [
+            1728
+          ]
+        ],
+        "8": [
+          "Place the Tainted Keg on the rug for the captured farmers."
+        ],
+        "13": [
+          517
+        ],
+        "26": [
+          [
+            68,
+            200
+          ]
+        ],
+        "S": {
+          "1": "Elixir of Agony",
+          "4": 24,
+          "5": 30,
+          "6": 8589934770,
+          "11": 3520,
+          "17": 267,
+          "p": 33558662
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 24,
+        "questLevel": 30,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 3520,
+        "preQuestSingle": [
+          517
+        ]
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 24,
+      "EnglishTitle": "Elixir of Agony",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D524/elixir-of-agony",
+      "currentPrimarySHA256": "d3c82c9f73ae3cd63a522db9c769a777d9ff88a2d1faf03676ff6bc92f01918d",
+      "sameTitleStepsVerifiedAgainstSourceContent": true,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "216": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12757
+          ]
+        ],
+        "3": [
+          [
+            12757
+          ]
+        ],
+        "8": [
+          "Take down 8 Thistlefur Avengers and 8 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village. Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale."
+        ],
+        "10": [
+          [
+            [
+              3925,
+              null,
+              0
+            ],
+            [
+              3924,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            76,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Between a Rock and a Thistlefur",
+          "4": 21,
+          "5": 24,
+          "6": 8589934770,
+          "17": 331,
+          "22": 6621,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 21,
+        "questLevel": 24,
+        "requiredRaces": 8589934770,
+        "nextQuestInChain": 6621,
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 21,
+      "EnglishTitle": "Between a Rock and a Thistlefur",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D216/between-a-rock-and-a-thistlefur",
+      "currentPrimarySHA256": "a5963dd3c10bef9ec7329fc9897e98283a7f83241ae68740a485127292004463",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "6621": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12757
+          ]
+        ],
+        "3": [
+          [
+            12757
+          ]
+        ],
+        "8": [
+          "Place Karang's Banner on the Foulweald Totem Mound. Do not let the furbolgs destroy the banner. Defeat Chief Murgut and bring Murgut's Totem to Karang Amakkar at Zoram'gar."
+        ],
+        "10": {
+          "3": [
+            [
+              16976,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          216
+        ],
+        "29": [
+          [
+            null,
+            1,
+            "Kill Chief Murgut",
+            0,
+            [
+              [
+                "monster",
+                12918
+              ]
+            ]
+          ]
+        ],
+        "S": {
+          "1": "King of the Foulweald",
+          "4": 21,
+          "5": 26,
+          "6": 8589934770,
+          "11": 16972,
+          "17": 331,
+          "p": 268440198
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 21,
+        "questLevel": 26,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 16972,
+        "preQuestSingle": [
+          216
+        ]
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 21,
+      "EnglishTitle": "King of the Foulweald",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D6621/king-of-the-foulweald",
+      "currentPrimarySHA256": "435e96cbe459e85b8a819d5846a8f16f77b011187af0226a223a9b37af469a61",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "25": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12737
+          ]
+        ],
+        "3": [
+          [
+            12737
+          ]
+        ],
+        "8": [
+          "Dispatch 12 Befouled Water Elementals at Mystral Lake, due east of the Talondeep Path and southwest of Splintertree Post.",
+          "",
+          "Scout the gazebo on Mystral Lake that overlooks the nearby Alliance outpost.",
+          "",
+          "Return to Mastok Wrilehiss at Splintertree Post, Ashenvale."
+        ],
+        "9": [
+          "Scout the gazebo on Mystral Lake that overlooks the nearby Alliance outpost.",
+          {
+            "331": [
+              [
+                48.92,
+                69.56
+              ]
+            ]
+          }
+        ],
+        "10": [
+          [
+            [
+              3917,
+              null,
+              0
+            ]
+          ]
+        ],
+        "26": [
+          [
+            76,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Stonetalon Standstill",
+          "4": 23,
+          "5": 25,
+          "6": 8589934770,
+          "17": 331,
+          "23": 12,
+          "24": 2,
+          "p": 33555334
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 23,
+        "questLevel": 25,
+        "requiredRaces": 8589934770,
+        "questFlags": 12,
+        "specialFlags": 2
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 23,
+      "EnglishTitle": "Stonetalon Standstill",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D25/stonetalon-standstill",
+      "currentPrimarySHA256": "053f4580e820584bd8940c9e06e939f649b8e2f1844d07cbfc0c248737903bd1",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "6441": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12724
+          ]
+        ],
+        "3": [
+          [
+            12724
+          ]
+        ],
+        "8": [
+          "Collect 16 Satyr Horns for Pixel in Splintertree Post."
+        ],
+        "10": {
+          "3": [
+            [
+              5481,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            470,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Satyr Horns",
+          "4": 21,
+          "5": 26,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 21,
+        "questLevel": 26,
+        "requiredRaces": 8589934770,
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 21,
+      "EnglishTitle": "Satyr Horns",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D6441/satyr-horns",
+      "currentPrimarySHA256": "474e7d5f2a02ff554960e9c9a18b5cfd32e78bb41467a668562aa7e30c728ecd",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "6571": {
+      "installedFullRecord": {
+        "2": [
+          [
+            11820
+          ]
+        ],
+        "3": [
+          [
+            11820
+          ]
+        ],
+        "8": [
+          "Collect the Warsong Supplies: Warsong Saw Blades, Logging Rope, Warsong Oil, and the Warsong Axe Shipment for Locke Okarr in Splintertree Post."
+        ],
+        "10": {
+          "3": [
+            [
+              16742,
+              null,
+              0
+            ],
+            [
+              16745,
+              null,
+              0
+            ],
+            [
+              16744,
+              null,
+              0
+            ],
+            [
+              16743,
+              null,
+              0
+            ]
+          ]
+        },
+        "14": [
+          6581
+        ],
+        "26": [
+          [
+            76,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Warsong Supplies",
+          "4": 22,
+          "5": 27,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "p": 33563270
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 22,
+        "questLevel": 27,
+        "requiredRaces": 8589934770,
+        "childQuests": [
+          6581
+        ],
+        "questFlags": 8
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 22,
+      "EnglishTitle": "Warsong Supplies",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D6571/warsong-supplies",
+      "currentPrimarySHA256": "d113288dc52a2404941d17e2f6399e74a80dab965a8b27165590cf7a85ab0056",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "6581": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12724
+          ]
+        ],
+        "3": [
+          [
+            12724
+          ]
+        ],
+        "10": {
+          "3": [
+            [
+              4369,
+              null,
+              0
+            ]
+          ]
+        },
+        "S": {
+          "1": "Warsong Saw Blades",
+          "4": 22,
+          "5": 27,
+          "6": 8589934770,
+          "17": 331,
+          "23": 8,
+          "24": 1,
+          "25": 6571,
+          "p": 518
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 22,
+        "questLevel": 27,
+        "requiredRaces": 8589934770,
+        "questFlags": 8,
+        "specialFlags": 1,
+        "parentQuest": 6571
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 22,
+      "EnglishTitle": "Warsong Saw Blades",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D6581/warsong-saw-blades",
+      "currentPrimarySHA256": "8fa2a78b5e12e637d29cdb6cb34cf960f6e53df03c1ef3caee52c9566db76aba",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "1918": {
+      "installedFullRecord": {
+        "2": {
+          "3": [
+            16408
+          ]
+        },
+        "3": [
+          [
+            12737
+          ]
+        ],
+        "8": [
+          "Bring the Befouled Water Globe to Mastok Wrilehiss at Splintertree Post, Ashenvale."
+        ],
+        "26": [
+          [
+            76,
+            25
+          ]
+        ],
+        "S": {
+          "1": "The Befouled Element",
+          "4": 23,
+          "5": 27,
+          "6": 8589934770,
+          "11": 16408,
+          "17": 331,
+          "22": 824,
+          "34": 25,
+          "p": 33554566
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 23,
+        "questLevel": 27,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 16408,
+        "nextQuestInChain": 824,
+        "availableStartingWith": 25
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 23,
+      "EnglishTitle": "The Befouled Element",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D1918/the-befouled-element",
+      "currentPrimarySHA256": "2f6525122c4610bd403664b658d0333abd8a65cb3f2c110bcd035f128f833c41",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    },
+    "824": {
+      "installedFullRecord": {
+        "2": [
+          [
+            12737
+          ]
+        ],
+        "3": [
+          [
+            12736
+          ]
+        ],
+        "8": [
+          "Bring the Befouled Water Globe to Je'neu Sancrea at Zoram'gar Outpost, Ashenvale."
+        ],
+        "13": [
+          1918
+        ],
+        "26": [
+          [
+            530,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Je'neu of the Earthen Ring",
+          "4": 23,
+          "5": 27,
+          "6": 8589934770,
+          "11": 16408,
+          "17": 331,
+          "p": 33558662
+        }
+      },
+      "decodedGates": {
+        "requiredLevel": 23,
+        "questLevel": 27,
+        "requiredRaces": 8589934770,
+        "sourceItemId": 16408,
+        "preQuestSingle": [
+          1918
+        ]
+      },
+      "currentPrimaryFaction": "Horde",
+      "currentPrimaryMinimumLevel": 23,
+      "EnglishTitle": "Je'neu of the Earthen Ring",
+      "currentPrimaryReference": "https://www.wowhead.com/forever/quest%3D824/jeneu-of-the-earthen-ring",
+      "currentPrimarySHA256": "e785942b0e16d4f236e5084f1a2f8adb481132d5f2f35664dcf2ff6783578e5b",
+      "sameTitleStepsVerifiedAgainstSourceContent": false,
+      "classRestriction": "none in full installed requiredClasses and none found current primary",
+      "unusedStatus": "No current primary quest-unused/obsolete/unavailable banner; comment-form English-only removed warning is unrelated.",
+      "decision": "all selected IDs independently source-supported; field conflicts held not replaced"
+    }
+  }
+}

@@ -1,0 +1,2714 @@
+{
+  "result": "PASS",
+  "partition": "horde_regions",
+  "reviewType": "Independent repeated affected source-aware English/Myanmar review after exact root-approved corrections",
+  "reviewedAtUTC": "2026-11-23T07:03:52.698881+00:00",
+  "remainingIssues": [],
+  "initialReviewPath": "work\\afternoon-2026-11-23\\independent-review\\horde_regions.json",
+  "initialReviewSHA256": "4b955ad9825874dd376701891688d0aa892344a61b0b8af8295231d7d031f56f",
+  "candidatePath": "work\\afternoon-2026-11-23\\root-reviewed\\horde_regions",
+  "candidateHashesBefore": {
+    "accepted-corrections.json": "1cf07ec6887ac5e1d919f5cfa171072818a14bfe678e9aa89d271069af3d509b",
+    "edited.json": "15bb4b3a559748ddedfb5f5a3f21ae317265ca438c141640ddd516cfd27c0fef",
+    "pronunciations.json": "ccb0d0b1446daab8c406abb274ab892cbdbf65e2baa504f29d0569584580f1f8",
+    "review-audit.json": "8f799ed6d504b94a50d7003f8d59244c71905d425ab1e52676b71e34f9cbf437"
+  },
+  "candidateHashesAfter": {
+    "accepted-corrections.json": "1cf07ec6887ac5e1d919f5cfa171072818a14bfe678e9aa89d271069af3d509b",
+    "edited.json": "15bb4b3a559748ddedfb5f5a3f21ae317265ca438c141640ddd516cfd27c0fef",
+    "pronunciations.json": "ccb0d0b1446daab8c406abb274ab892cbdbf65e2baa504f29d0569584580f1f8",
+    "review-audit.json": "8f799ed6d504b94a50d7003f8d59244c71905d425ab1e52676b71e34f9cbf437"
+  },
+  "candidateFilesUnchangedDuringReview": true,
+  "counts": {
+    "quests": 15,
+    "slots": 75,
+    "correctedFieldsReread": 6,
+    "unchangedSlotsVerified": 69,
+    "availableEnglishFields": 73,
+    "rawProvenanceChainsReverified": 73,
+    "enabledMyanmarFields": 70,
+    "heldFields": 3,
+    "sourceAbsentNulls": 2,
+    "dictionaryKeysChanged": 5,
+    "nativePendingWholeNameProposals": 37
+  },
+  "correctedFields": [
+    {
+      "id": 501,
+      "field": "detail",
+      "result": "PASS",
+      "englishSHA256": "72bb40afbcc4969af06a08a441108cd1cda390c6c4c16610f5a51a5364530756",
+      "priorMyanmarSHA256": "d5d8f7282272127956ec69f3d6046f3aac5582a2f87aeabfc20646b62771ceb7",
+      "correctedMyanmarSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0",
+      "old": "မောင်းတင်",
+      "new": "မောင်တင်",
+      "proposedFullField": "အို၊ <name>... Hillsbrad (ဟီလ်ဇ်ဘရက်ဒ်) မှာ ပန်းတွေ ပွင့်လန်းနေကြပြီ။ လေကလည်း သန့်ရှင်းလန်းဆန်းပြီး အေးမြနေတာပဲ။ ဒီအဖြစ်တွေကြောင့် ခံစားရတဲ့ စိတ်ဆင်းရဲမှုထဲ ငါ နစ်မြုပ်နေမိတော့တာပဲ။ ငါ့ညစ်ပတ်နေတဲ့ ပြတင်းပေါက်ကနေ အပြင်ကိုကြည့်ရင်း ငါတို့ရဲ့ New Plague (နယူး ပလေ့ဂ်) က ဒီကမ္ဘာကြီးနဲ့ ထိုက်တန်တဲ့ သေခြင်းကို ယူဆောင်လာမယ့်နေ့ကို တောင့်တနေမိတယ်။\n\nတစ်နေ့လုံး ထိုင်ပြီး မှိုင်တွေနေချင်ပေမယ့် Dark Lady (ဒါ့ခ် လေဒီ) အပေါ် ငါ့တာဝန်က ခေါ်နေပြီ။ ကူညီပေးမလား။ ငါ့သုတေသနအရ Mountain Lion (မောင်တင် လိုင်ယန်) ရဲ့ သွေးနဲ့ အလွန်ကောင်းမွန်တဲ့ သေမင်းဆေးရည်တစ်မျိုး ဖော်စပ်နိုင်မယ်လို့ ယုံကြည်ရတယ်။ သွေးနည်းနည်း ယူလာခဲ့။ ငါတို့ နည်းနည်းပါးပါး ပျော်ကြရအောင်။",
+      "sourceAwareReread": "Reread full English and corrected Myanmar: cruel fresh-air/flowers inversion, grimy window, New Plague and Dark Lady duty, tentative research, Mountain Lion blood and two paragraphs remain faithful; only Mountain core changed."
+    },
+    {
+      "id": 501,
+      "field": "objective",
+      "result": "PASS",
+      "englishSHA256": "6e301af4838d91b54bdcde056708d41e000d034d4cf6ff57e68230c4f2f61f08",
+      "priorMyanmarSHA256": "5096503428ccfc37fea302da7d33de92f7c68dda941591d88a3de77601a722e1",
+      "correctedMyanmarSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62",
+      "old": "မောင်းတင်",
+      "new": "မောင်တင်",
+      "proposedFullField": "Mountain Lion Blood (မောင်တင် လိုင်ယန် ဘလဒ်) ဆေးပုလင်းငယ် 10 လုံးကို Tarren Mill (တာရင် မီလ်) ရှိ Apothecary Lydon (အပေါသီကဲရီ လိုင်ဒန်) ထံ ယူလာပါ။",
+      "sourceAwareReread": "10 vials still bound to Mountain Lion Blood; Apothecary Lydon at Tarren Mill unchanged. Corrected whole Mountain Lion Blood shares Mountain/Lion core with corrected detail; no quantity or target drift."
+    },
+    {
+      "id": 25,
+      "field": "objective",
+      "result": "PASS",
+      "englishSHA256": "5e6a598263f2fcd0acc6f6d11e8482eea0370bf79e8681fa45e78f1ac5672a2c",
+      "priorMyanmarSHA256": "d04ca249d0d27ac59e088a8fbfabdf76bd5cfa38379e77d1465bcdc0567d9b44",
+      "correctedMyanmarSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c",
+      "old": "အဲလီမန်တယ်လ်ဇ်",
+      "new": "အယ်လီမန်တယ်လ်ဇ်",
+      "proposedFullField": "Talondeep Path (တဲလန်ဒီပ် ပက်သ်) ၏ တည့်တည့်အရှေ့ဘက်၊ Splintertree Post (စပလင်တာထရီး ပို့စ်တ်) ၏ အနောက်တောင်ဘက်ရှိ Mystral Lake (မစ်စ်ထရယ်လ် လိတ်ခ်) တွင် Befouled Water Elementals (ဘီဖောင်းလ်ဒ် ဝေါတာ အယ်လီမန်တယ်လ်ဇ်) 12 ကောင်ကို သတ်ပါ။\n\nMystral Lake ပေါ်ရှိ အမိုးပါ အနားယူဆောင်လေးကို သွားရောက် ကင်းထောက်ပါ။ ထိုနေရာမှ အနီးရှိ Alliance (အလိုင်းယန့်စ်) စခန်းကို အပေါ်စီးမှ မြင်နိုင်သည်။\n\nAshenvale (အက်ရှန်ဗေးလ်) ရှိ Splintertree Post မှ Mastok Wrilehiss (မက်စ်တော့ခ် ရိုင်းလ်ဟစ်စ်) ထံ ပြန်သွားပါ။",
+      "sourceAwareReread": "12 Befouled Water Elementals killed at Mystral Lake due east Talondeep Path and southwest Splintertree Post; AND gazebo scouting above Alliance outpost; AND return Mastok at Splintertree/Ashenvale. All three paragraphs/stages preserved; only Elemental core changed."
+    },
+    {
+      "id": 6571,
+      "field": "detail",
+      "result": "PASS",
+      "englishSHA256": "1a09fef51466a40d5d41fae5acdb76c3f288ce50d2eb88c88148f23f53a9c082",
+      "priorMyanmarSHA256": "96d8d85a13234445f2facb4f8ee8ff562cffcf2f5195d7c94df042a659a047e1",
+      "correctedMyanmarSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31",
+      "old": "ဝေါ့ဖ်မာစတာ",
+      "new": "ဝေါ့ဖ်မားစတာ",
+      "proposedFullField": "Warsong (ဝေါဆောင်း) သစ်ထုတ်လုပ်ရေးစခန်းမှာ ပစ္စည်းတချို့ ပြတ်လပ်နေပြီ။\n\nSplintertree Post (စပလင်တာထရီး ပို့စ်တ်) က Pixel (ပစ်ခ်ဆယ်လ်) ဆီမှာ ငါတို့ရဲ့ လွှဓားသွားပစ္စည်းအပို့ ရှိတယ်။ Wharfmaster Lozgil (ဝေါ့ဖ်မားစတာ လော့ဇ်ဂီလ်) ဆီက ပုဆိန်သေတ္တာတစ်လုံး သွားယူဖို့ Booty Bay (ဘူတီ ဘေး) အထိ ခရီးထွက်ရလိမ့်မယ်။\n\nငါတို့ရဲ့ ဆီနဲ့ကြိုးအပို့ကတော့ ပိုခက်မယ်။ ကြိုးကို Thistlefur furbolgs (သစ်ဆယ်လ်ဖာ ဖာဘောလ်ဂ်ဇ်) နဲ့ Foulweald furbolgs (ဖောလ်ဝီးလ်ဒ် ဖာဘောလ်ဂ်ဇ်) တွေ ခိုးယူသွားတယ်။ satyrs (စေးတာဇ်) တွေကလည်း ဆီအပို့ကို ကြားဖြတ်ယူပြီး Night Run (နိုက်တ် ရန်)၊ Satyrnaar (စေးတာနား) နဲ့ Xavian (ဇေးဗီယန်) မှာ ရွံစရာ ဓလေ့ထုံးတမ်းပွဲတွေအတွက် အခု သုံးနေကြတယ်။\n\nငါ့ကို ကူညီပေးနိုင်မလား။",
+      "sourceAwareReread": "Full four-paragraph source reread: Pixel has saw shipment; Booty Bay crate of axes from Wharfmaster Lozgil; rope stolen by both named furbolg tribes, oil intercepted by satyrs used at Night Run/Satyrnaar/Xavian. Only maintained Wharfmaster title core changed."
+    },
+    {
+      "id": 1918,
+      "field": "objective",
+      "result": "PASS",
+      "englishSHA256": "6593ff8fd5d837d341a20f40ba8df542b6e5ff603a88b12e7a58fd0def411ab9",
+      "priorMyanmarSHA256": "e0820d53e4c114f2d7ba497f71af31ce0d1af3531ca1d7b7573bb887e4f1f2d1",
+      "correctedMyanmarSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2",
+      "old": "ဂလိုဘ်",
+      "new": "ဂလိုးဘ်",
+      "proposedFullField": "Befouled Water Globe (ဘီဖောင်းလ်ဒ် ဝေါတာ ဂလိုးဘ်) ကို Ashenvale (အက်ရှန်ဗေးလ်)၊ Splintertree Post (စပလင်တာထရီး ပို့စ်တ်) ရှိ Mastok Wrilehiss (မက်စ်တော့ခ် ရိုင်းလ်ဟစ်စ်) ထံ ယူလာပါ။",
+      "sourceAwareReread": "Same Befouled Water Globe item16408 goes to Mastok Wrilehiss at Splintertree Post/Ashenvale here; shared Water Globe spelling corrected, no item/recipient/place change."
+    },
+    {
+      "id": 824,
+      "field": "objective",
+      "result": "PASS",
+      "englishSHA256": "842d0da089a723041bb66b8120e837e58d91e75dd728d8b24fca2fdea5ffd8ff",
+      "priorMyanmarSHA256": "d41483f2ee1ae8154fbf95db4b96126424f7dfe064e8b9c8dac25a87e580443e",
+      "correctedMyanmarSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6",
+      "old": "ဂလိုဘ်",
+      "new": "ဂလိုးဘ်",
+      "proposedFullField": "Befouled Water Globe (ဘီဖောင်းလ်ဒ် ဝေါတာ ဂလိုးဘ်) ကို Ashenvale (အက်ရှန်ဗေးလ်)၊ Zoram'gar Outpost (ဇိုရမ်ဂါ အောက်တ်ပို့စ်တ်) ရှိ Je'neu Sancrea (ဂျေနူး ဆန်ခရီးယာ) ထံ ယူလာပါ။",
+      "sourceAwareReread": "Same item16408 goes to Je neu Sancrea at Zoramgar Outpost/Ashenvale in this next step; corrected Water Globe core matches1918 and maintained Clouded Water Globe. Distinct handoff preserved."
+    }
+  ],
+  "unchangedSlots": [
+    {
+      "id": 501,
+      "field": "title",
+      "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+      "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 501,
+      "field": "progress",
+      "myanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+      "englishSHA256": "17577c4a1db2a3e78079733b2ed857aee09931d2e469d58a3c8eee684c875d3c",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 501,
+      "field": "complete",
+      "myanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+      "englishSHA256": "0c7e5a3878bff9c11f5585186289f5265530dd06b36b54333eee3efba8833e94",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 502,
+      "field": "title",
+      "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+      "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 502,
+      "field": "detail",
+      "myanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+      "englishSHA256": "f6b4214e8b235681a19de0df0aae11ddccd24933ae02c57d93b6332f580aad36",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 502,
+      "field": "objective",
+      "myanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+      "englishSHA256": "2b72201e7916da31e0f989ccbc32da8c58ff5cefecbfd991069996e5020a0159",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 502,
+      "field": "progress",
+      "myanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+      "englishSHA256": "52ff353c3464ee284d1f09004b4a5313412c1d1084e8b28a595034c6c3b62790",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 502,
+      "field": "complete",
+      "myanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+      "englishSHA256": "fe422b8b8d199c7bec78f55be71657dc91f9de0f88446891419bb24062b6e162",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 509,
+      "field": "title",
+      "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+      "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 509,
+      "field": "detail",
+      "myanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+      "englishSHA256": "3afca0a4cdb5cc38a985dbaedff5f84758cfdda00519fd494be38ac8aa5461b2",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 509,
+      "field": "objective",
+      "myanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+      "englishSHA256": "52971bee6081626b6cb00d82adc229d2b1d149238a060f11dcc29c8371940cd2",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 509,
+      "field": "progress",
+      "myanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+      "englishSHA256": "83502b7be71ba81ca22de0a82ac7bf51b863e026ca3c27e3c2a48b776e15e9c5",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 509,
+      "field": "complete",
+      "myanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+      "englishSHA256": "ce1ab13e2399ac075796e683242e4d9cd5d65fda37f5b713c7c2f7d50acf5a10",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 513,
+      "field": "title",
+      "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+      "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 513,
+      "field": "detail",
+      "myanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+      "englishSHA256": "f373151b8d088cb8ff8d82b060101c8ff4235416c46ad78b3b3dc96975a4aac3",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 513,
+      "field": "objective",
+      "myanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+      "englishSHA256": "d2e043d8531827c41e8c2f1a227e39952cf9a8bcb0050fbb6c490a6125e7b913",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 513,
+      "field": "progress",
+      "myanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+      "englishSHA256": "017bd8edf32d8c867e01f01e6c4ffefe3fa082f674b5523977dce2570bb2edc6",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 513,
+      "field": "complete",
+      "myanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+      "englishSHA256": "63857020b94fed140f74c5198dad44893215bf550305fc0abb0be877e71bb535",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 515,
+      "field": "title",
+      "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+      "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 515,
+      "field": "detail",
+      "myanmarSHA256": null,
+      "englishSHA256": "09b5616b014062f317aeefac07d025ae81d8ff57b7dc8eb85fcb26bcd8673b32",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 515,
+      "field": "objective",
+      "myanmarSHA256": null,
+      "englishSHA256": "058a359a08afced8bd3f40b1013899d4e6eb0c5b6a1aeee4ffd530b11d906ab0",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 515,
+      "field": "progress",
+      "myanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+      "englishSHA256": "50b736012e69ddb396de48ecb7b7021fbb05241155abad6faa95bab4c911f5e5",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 515,
+      "field": "complete",
+      "myanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+      "englishSHA256": "af1c1c37d33d3d09518a75c28a938465f9fd730351c236e4e71f1773c0723312",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 517,
+      "field": "title",
+      "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+      "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 517,
+      "field": "detail",
+      "myanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+      "englishSHA256": "7098b3a782c1d56ef00c2ea257b493c21747851df871645bf08754e0b8a554d1",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 517,
+      "field": "objective",
+      "myanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+      "englishSHA256": "258094167029af057d20a4cf04c1ec06df3432509d087c256a6e43943cbe1c5f",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 517,
+      "field": "progress",
+      "myanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+      "englishSHA256": "45d99b9e25854d6ce66a786e7d3ed797eb3a732434380e5860036f631a2a14b2",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 517,
+      "field": "complete",
+      "myanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+      "englishSHA256": "0d9a6cabf18bb56497f97e369c0fa2c589320785f29f95d34992c16d409d9d2c",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 524,
+      "field": "title",
+      "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+      "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 524,
+      "field": "detail",
+      "myanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+      "englishSHA256": "079fc4bfff6d13dd26ce90d6a451d12573f2745fd94d7b161c3f409ace0fd7d2",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 524,
+      "field": "objective",
+      "myanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+      "englishSHA256": "4c10d285aa96444e29eb44937cb252ec122eadbc4df974db8a2a972fd4a11cc8",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 524,
+      "field": "progress",
+      "myanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+      "englishSHA256": "b384f4b1257f9b2e8bcaa81409feb1cd0788963486d4c5811416e99345183e3f",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 524,
+      "field": "complete",
+      "myanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+      "englishSHA256": "564895f2c7df3db4a438cb0e1324fda15077bbbf5b8653a508a524ef146bd267",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 216,
+      "field": "title",
+      "myanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+      "englishSHA256": "09097ef84a3a40010502d6245f3e64adfbf082148fa9e53a21b30bf28784dd71",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 216,
+      "field": "detail",
+      "myanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+      "englishSHA256": "ee7a0ae65b6cffe90c81653c43601ca5e7e4803615f8bb19dbfb26d24cc15f52",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 216,
+      "field": "objective",
+      "myanmarSHA256": null,
+      "englishSHA256": "c1b948a57757fe42b1132abfecb765757560099af231461272dff99667681939",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 216,
+      "field": "progress",
+      "myanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+      "englishSHA256": "e97483e8bce6bff394be4522ee764c6442ee3594ddcba38b6725708922306a06",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 216,
+      "field": "complete",
+      "myanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+      "englishSHA256": "ffaaf32e165bb1365f5180cc199d25b806255712b0bbd64abd7a75fb8d26211c",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6621,
+      "field": "title",
+      "myanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+      "englishSHA256": "b7a117f2d5d128a4f1efe0e00518f1393bc01189884cc7f80a88348956f1b651",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6621,
+      "field": "detail",
+      "myanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+      "englishSHA256": "74a2db681af8bd85d6147a3d7fc3742670706182ea7509a71a71a29f56ebe9f3",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6621,
+      "field": "objective",
+      "myanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+      "englishSHA256": "f60c937838b53a11dc614fda14fdb862c2005f266fad389a1834c597f4f60b74",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6621,
+      "field": "progress",
+      "myanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+      "englishSHA256": "12e8043b8b105ff49626f3fb77daecddb5f15388afcf53b2730310a0f7d13b0a",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6621,
+      "field": "complete",
+      "myanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+      "englishSHA256": "d6ac659f713ef69446a18f0cc1bce3098e0638d8c200a63b0826aa1bf1d5fc60",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 25,
+      "field": "title",
+      "myanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+      "englishSHA256": "81e6c111a2162bf13dcd1a9800f52998867394fe01dafad8050df15fa8be75ac",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 25,
+      "field": "detail",
+      "myanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+      "englishSHA256": "52d90f9bcf1b6c3f232e104f5727870361a3322f4018ae1a15ac410fa063156d",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 25,
+      "field": "progress",
+      "myanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+      "englishSHA256": "69fd914bd4dd70cae9fd6775daad45182203dcef289d0486479ab5678490f8a4",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 25,
+      "field": "complete",
+      "myanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+      "englishSHA256": "7f35945f11f84eb5e2017fef5594769e3deb7318ac72306047af27054ad80449",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6441,
+      "field": "title",
+      "myanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+      "englishSHA256": "da9ad036d15a5516db5b2a559dfd208c0391f47ffa8b364528f9febc71035bed",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6441,
+      "field": "detail",
+      "myanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+      "englishSHA256": "8053d57bfddf9e443d9091c0f6a4136df84ae83fdaf44f01a232f6d15d527db0",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6441,
+      "field": "objective",
+      "myanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+      "englishSHA256": "4826fed0bbee66d327759b6bc2b2398bbd6493f796ebcfb34f44d357b870f5c6",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6441,
+      "field": "progress",
+      "myanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+      "englishSHA256": "5383346e6b04d735341022787d12dd6b07342b1fb65c171615919534e2dc3b02",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6441,
+      "field": "complete",
+      "myanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+      "englishSHA256": "ffe7c92b67867b6af03fdf7f499bc5dd0fca6d85654af7cad2f2f41c2e9c574e",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6571,
+      "field": "title",
+      "myanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+      "englishSHA256": "ad2e1e583495e3e272d5319047ca6c0a1ccccb7acdd26c6964e62861d237b91f",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6571,
+      "field": "objective",
+      "myanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+      "englishSHA256": "1edf7e184523f39ad99c0e28a2a5d0432d2341749f922cae934e0e2212dd2cfa",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6571,
+      "field": "progress",
+      "myanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+      "englishSHA256": "acaa7f75d9af8e3fdb1ff9f0c6a3b7f7c0057be32f39da98123ad0eda5c3be22",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6571,
+      "field": "complete",
+      "myanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+      "englishSHA256": "2a8b53e423fc92861e72b0142094402cf7f39651de63587c34e290f81c19fae6",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6581,
+      "field": "title",
+      "myanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+      "englishSHA256": "ca467c5ef7d35de89f1bb0e1c042410be7d0a2692e1a99167483d45b66c7982f",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6581,
+      "field": "detail",
+      "myanmarSHA256": null,
+      "englishSHA256": null,
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6581,
+      "field": "objective",
+      "myanmarSHA256": null,
+      "englishSHA256": null,
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6581,
+      "field": "progress",
+      "myanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+      "englishSHA256": "6293216c4e0b11c6b29f72bb2bfe34e271a4465475d9a701cf3317664e357bde",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 6581,
+      "field": "complete",
+      "myanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+      "englishSHA256": "350ff3ae8470090eceb914d387cbb693e50d93c6468cac3a794e4a60531a0b7f",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 1918,
+      "field": "title",
+      "myanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+      "englishSHA256": "11210c5ffd1e98fd52186f51386f598ca6992bb898e7763820d82740bfe20e40",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 1918,
+      "field": "detail",
+      "myanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+      "englishSHA256": "4af4e6102914ec34c0a5a8695d1a9d5a33bf94fe777c6f6359c2191cc00d8131",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 1918,
+      "field": "progress",
+      "myanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+      "englishSHA256": "cc35bd74c3e6ad27b499192048a0aabc4070291c3aed56c8f252e98f6d5953a5",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 1918,
+      "field": "complete",
+      "myanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+      "englishSHA256": "e5f3fa5e8169bbbb24e25d6d83c977fccce78b04c4c335b76ba2cd0f1b485abb",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 824,
+      "field": "title",
+      "myanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+      "englishSHA256": "170669b84cfe2ae6830bd5b5c5d7b5ff9a3df7b7f8bfc3c5b502a5a28e736ef1",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 824,
+      "field": "detail",
+      "myanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+      "englishSHA256": "cb32a911f78efa46b2a14418dc92916bd7bd1678f77d08fb0aaa21d95fa22cd8",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 824,
+      "field": "progress",
+      "myanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+      "englishSHA256": "33476b51b1f9667a42a2fb73c340106fcaddf41bd3a747d84c0e7cc82bd4b078",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    },
+    {
+      "id": 824,
+      "field": "complete",
+      "myanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+      "englishSHA256": "15826f145faca9d1279d31ed32e7353ff201620d065116b5f56369ce710d656c",
+      "reviewBasis": "Exact byte-equivalent field value/hash to initial source-aware reviewed author slot; existing hold/absence statuses preserved."
+    }
+  ],
+  "canonicalFieldHashes": {
+    "501": {
+      "title": {
+        "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+        "authorMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "editedSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "candidateAuditMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849"
+        },
+        "rawDeepLSHA256": "927f8808fe9f054c7759847131c5fb30890502590d31c0717ba1b63ba5f85717",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "72bb40afbcc4969af06a08a441108cd1cda390c6c4c16610f5a51a5364530756",
+        "authorMyanmarSHA256": "d5d8f7282272127956ec69f3d6046f3aac5582a2f87aeabfc20646b62771ceb7",
+        "editedSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0",
+        "myanmarSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0",
+        "candidateAuditMyanmarSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0"
+        },
+        "rawDeepLSHA256": "4b60a73ff646f487bfed609ebf578c6c92fddd68dc27421ccd15976a003b87e3",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "6e301af4838d91b54bdcde056708d41e000d034d4cf6ff57e68230c4f2f61f08",
+        "authorMyanmarSHA256": "5096503428ccfc37fea302da7d33de92f7c68dda941591d88a3de77601a722e1",
+        "editedSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62",
+        "myanmarSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62",
+        "candidateAuditMyanmarSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62"
+        },
+        "rawDeepLSHA256": "30d9624a7ee0123233c40020230f943d773edbebc663f3d72082aa8e7f95b696",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "17577c4a1db2a3e78079733b2ed857aee09931d2e469d58a3c8eee684c875d3c",
+        "authorMyanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+        "editedSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+        "myanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+        "candidateAuditMyanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb"
+        },
+        "rawDeepLSHA256": "cbfe9cbd51baf13b693121128878b25e9cf6f0cafb3268d452830c7563282bcf",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "0c7e5a3878bff9c11f5585186289f5265530dd06b36b54333eee3efba8833e94",
+        "authorMyanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+        "editedSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+        "myanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+        "candidateAuditMyanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b"
+        },
+        "rawDeepLSHA256": "0fd2932273e1d8acea583ff518ad6a0fd0f758671a385ec0b3e0ba1be434e1b0",
+        "status": "reviewed"
+      }
+    },
+    "502": {
+      "title": {
+        "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+        "authorMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "editedSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "candidateAuditMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849"
+        },
+        "rawDeepLSHA256": "4d9dd4166494d9092bdabba7ac2b9213e68d45f240d13b5065609d9e66932b8b",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "f6b4214e8b235681a19de0df0aae11ddccd24933ae02c57d93b6332f580aad36",
+        "authorMyanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+        "editedSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+        "myanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+        "candidateAuditMyanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb"
+        },
+        "rawDeepLSHA256": "e4fa1810b37a6455d477f3a87cea9c8d04b694f4429f67ec67b93eac192993a6",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "2b72201e7916da31e0f989ccbc32da8c58ff5cefecbfd991069996e5020a0159",
+        "authorMyanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+        "editedSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+        "myanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+        "candidateAuditMyanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228"
+        },
+        "rawDeepLSHA256": "1d8497db5bd14c41dbb82a7048902e5fa399fdd8f96317ca63c95a787f6bf825",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "52ff353c3464ee284d1f09004b4a5313412c1d1084e8b28a595034c6c3b62790",
+        "authorMyanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+        "editedSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+        "myanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+        "candidateAuditMyanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693"
+        },
+        "rawDeepLSHA256": "bb3cb141e04364717ce5cee6839a931cfbfb63939abbf8bf1c2679fb0e57d7a0",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "fe422b8b8d199c7bec78f55be71657dc91f9de0f88446891419bb24062b6e162",
+        "authorMyanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+        "editedSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+        "myanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+        "candidateAuditMyanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40"
+        },
+        "rawDeepLSHA256": "3fee25c3b9d1a98f6935da7750271af76def5fbd594319709f798a23771e5c64",
+        "status": "reviewed"
+      }
+    },
+    "509": {
+      "title": {
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "authorMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "editedSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "candidateAuditMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f"
+        },
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "3afca0a4cdb5cc38a985dbaedff5f84758cfdda00519fd494be38ac8aa5461b2",
+        "authorMyanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+        "editedSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+        "myanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+        "candidateAuditMyanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64"
+        },
+        "rawDeepLSHA256": "83ced4d05cb6a9d06fde361055466426e37d7ad0c1f7e4c772f31843b9dc53cd",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "52971bee6081626b6cb00d82adc229d2b1d149238a060f11dcc29c8371940cd2",
+        "authorMyanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+        "editedSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+        "myanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+        "candidateAuditMyanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b"
+        },
+        "rawDeepLSHA256": "fceb829795086aa3180eeffcab3a0b1e8f0d20b364dc3b12e118fb968ab4b315",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "83502b7be71ba81ca22de0a82ac7bf51b863e026ca3c27e3c2a48b776e15e9c5",
+        "authorMyanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+        "editedSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+        "myanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+        "candidateAuditMyanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7"
+        },
+        "rawDeepLSHA256": "6bb6977ec1d8d65f287238341ed4ada240866e9f8ee712a7edbd9f4764a13e0c",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "ce1ab13e2399ac075796e683242e4d9cd5d65fda37f5b713c7c2f7d50acf5a10",
+        "authorMyanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+        "editedSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+        "myanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+        "candidateAuditMyanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe"
+        },
+        "rawDeepLSHA256": "6af39ffe6d6f2583884a45b2630ceb71943d3a4d05c5a3a9465d31f702adf74d",
+        "status": "reviewed"
+      }
+    },
+    "513": {
+      "title": {
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "authorMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "editedSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "candidateAuditMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f"
+        },
+        "rawDeepLSHA256": "cf7e137293d0903a3347c4666ad9f0d4b71783aa368880950c2d5e8a9c8b675d",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "f373151b8d088cb8ff8d82b060101c8ff4235416c46ad78b3b3dc96975a4aac3",
+        "authorMyanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+        "editedSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+        "myanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+        "candidateAuditMyanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c"
+        },
+        "rawDeepLSHA256": "0e6add903fe2f41eba899e145279da2883a32b7fab136819ea565096aef02ef2",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "d2e043d8531827c41e8c2f1a227e39952cf9a8bcb0050fbb6c490a6125e7b913",
+        "authorMyanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+        "editedSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+        "myanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+        "candidateAuditMyanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38"
+        },
+        "rawDeepLSHA256": "ab2c87ff46c9e8d3fb66f511a211b4bf8a98be1112b42ae5cdd5648107f080f9",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "017bd8edf32d8c867e01f01e6c4ffefe3fa082f674b5523977dce2570bb2edc6",
+        "authorMyanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+        "editedSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+        "myanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+        "candidateAuditMyanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f"
+        },
+        "rawDeepLSHA256": "c4cab1ffa8977b22be5a8e9b3ed3c88181accabc0f24bc2908074ad291aa8cf7",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "63857020b94fed140f74c5198dad44893215bf550305fc0abb0be877e71bb535",
+        "authorMyanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+        "editedSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+        "myanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+        "candidateAuditMyanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322"
+        },
+        "rawDeepLSHA256": "33db308eccd244453da5716854c9f5aeb779956e0c2bd5156adf97d70297a418",
+        "status": "reviewed"
+      }
+    },
+    "515": {
+      "title": {
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "authorMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "editedSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "candidateAuditMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f"
+        },
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "09b5616b014062f317aeefac07d025ae81d8ff57b7dc8eb85fcb26bcd8673b32",
+        "authorMyanmarSHA256": null,
+        "editedSHA256": null,
+        "myanmarSHA256": null,
+        "candidateAuditMyanmarSHA256": null,
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": null
+        },
+        "rawDeepLSHA256": "27b21b0e1df299e9c8771b0b36c57b5dfbbae87e79de25f9703f8c2ae2c9283d",
+        "status": "held"
+      },
+      "objective": {
+        "englishSHA256": "058a359a08afced8bd3f40b1013899d4e6eb0c5b6a1aeee4ffd530b11d906ab0",
+        "authorMyanmarSHA256": null,
+        "editedSHA256": null,
+        "myanmarSHA256": null,
+        "candidateAuditMyanmarSHA256": null,
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": null
+        },
+        "rawDeepLSHA256": "b4150038d5c835cf83413de5b96e1dddacd169c9bff337216a880fb586379e6a",
+        "status": "held"
+      },
+      "progress": {
+        "englishSHA256": "50b736012e69ddb396de48ecb7b7021fbb05241155abad6faa95bab4c911f5e5",
+        "authorMyanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+        "editedSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+        "myanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+        "candidateAuditMyanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe"
+        },
+        "rawDeepLSHA256": "df65fd7e43ae325cf1d6056c660e840e5b1d0ca55cfe335e3ddb74ac7d435abe",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "af1c1c37d33d3d09518a75c28a938465f9fd730351c236e4e71f1773c0723312",
+        "authorMyanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+        "editedSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+        "myanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+        "candidateAuditMyanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af"
+        },
+        "rawDeepLSHA256": "46eb3e1f0c2a12988eb43d321cd9cbab2e5e48b5277893856f459bb7a96b9564",
+        "status": "reviewed"
+      }
+    },
+    "517": {
+      "title": {
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "authorMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "editedSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "candidateAuditMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f"
+        },
+        "rawDeepLSHA256": "cf7e137293d0903a3347c4666ad9f0d4b71783aa368880950c2d5e8a9c8b675d",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "7098b3a782c1d56ef00c2ea257b493c21747851df871645bf08754e0b8a554d1",
+        "authorMyanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+        "editedSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+        "myanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+        "candidateAuditMyanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce"
+        },
+        "rawDeepLSHA256": "73720a6c479e965dda734a698fb7ece83311275b91fec2c57dc9dece2d47a861",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "258094167029af057d20a4cf04c1ec06df3432509d087c256a6e43943cbe1c5f",
+        "authorMyanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+        "editedSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+        "myanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+        "candidateAuditMyanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931"
+        },
+        "rawDeepLSHA256": "b88f904fd7071226194d443f2ca54fa0b4c8f125929a8f47360e483af3c3cbdf",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "45d99b9e25854d6ce66a786e7d3ed797eb3a732434380e5860036f631a2a14b2",
+        "authorMyanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+        "editedSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+        "myanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+        "candidateAuditMyanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a"
+        },
+        "rawDeepLSHA256": "b143f1b5e4743a044598347bc2ecc0cf2678ee02fa600af305b605f060bd64f4",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "0d9a6cabf18bb56497f97e369c0fa2c589320785f29f95d34992c16d409d9d2c",
+        "authorMyanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+        "editedSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+        "myanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+        "candidateAuditMyanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71"
+        },
+        "rawDeepLSHA256": "5ba37f6b9db07150d06ac1d20bdab4d6b5acd9dabc09f0bed08a8c2d797f8d1d",
+        "status": "reviewed"
+      }
+    },
+    "524": {
+      "title": {
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "authorMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "editedSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "candidateAuditMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f"
+        },
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "079fc4bfff6d13dd26ce90d6a451d12573f2745fd94d7b161c3f409ace0fd7d2",
+        "authorMyanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+        "editedSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+        "myanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+        "candidateAuditMyanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd"
+        },
+        "rawDeepLSHA256": "ced3c4c9332a8cb5cfaa26cd3dc4873abbab44ee90692997944eb2a9cab2971d",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "4c10d285aa96444e29eb44937cb252ec122eadbc4df974db8a2a972fd4a11cc8",
+        "authorMyanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+        "editedSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+        "myanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+        "candidateAuditMyanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4"
+        },
+        "rawDeepLSHA256": "7e29fa0bdea1cf208d2eb0dea7588686fae5e50f23bc0986e8af67f680f41511",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "b384f4b1257f9b2e8bcaa81409feb1cd0788963486d4c5811416e99345183e3f",
+        "authorMyanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+        "editedSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+        "myanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+        "candidateAuditMyanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6"
+        },
+        "rawDeepLSHA256": "af4fc55e94e2171b0b4de141160f5ebdd44b62359ed665067f7f5f3fddc48687",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "564895f2c7df3db4a438cb0e1324fda15077bbbf5b8653a508a524ef146bd267",
+        "authorMyanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+        "editedSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+        "myanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+        "candidateAuditMyanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b"
+        },
+        "rawDeepLSHA256": "7569d02b2527340f29714f76d7dafed81d59230e5b6b64293353ea55e2bba1d8",
+        "status": "reviewed"
+      }
+    },
+    "216": {
+      "title": {
+        "englishSHA256": "09097ef84a3a40010502d6245f3e64adfbf082148fa9e53a21b30bf28784dd71",
+        "authorMyanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+        "editedSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+        "myanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+        "candidateAuditMyanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2"
+        },
+        "rawDeepLSHA256": "54f2665490824cad99e8e415b19d5dd74a4d0e83e36bc238530cba3dfa925cef",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "ee7a0ae65b6cffe90c81653c43601ca5e7e4803615f8bb19dbfb26d24cc15f52",
+        "authorMyanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+        "editedSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+        "myanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+        "candidateAuditMyanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718"
+        },
+        "rawDeepLSHA256": "6a33f254d6f21db11ecf68878aadd98ca7492e2f6846ce248d4e3d5b9c4bbebc",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "c1b948a57757fe42b1132abfecb765757560099af231461272dff99667681939",
+        "authorMyanmarSHA256": null,
+        "editedSHA256": null,
+        "myanmarSHA256": null,
+        "candidateAuditMyanmarSHA256": null,
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": null
+        },
+        "rawDeepLSHA256": "1efa792a2261f59fd1c6c832b190edf1bf2619a8fafa3e7a13846364cea0ebab",
+        "status": "held"
+      },
+      "progress": {
+        "englishSHA256": "e97483e8bce6bff394be4522ee764c6442ee3594ddcba38b6725708922306a06",
+        "authorMyanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+        "editedSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+        "myanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+        "candidateAuditMyanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d"
+        },
+        "rawDeepLSHA256": "e56a49dac4933e2ba75ff3c50fc76b1e2bfa16b07151ada0492ae457c1f63de8",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "ffaaf32e165bb1365f5180cc199d25b806255712b0bbd64abd7a75fb8d26211c",
+        "authorMyanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+        "editedSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+        "myanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+        "candidateAuditMyanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc"
+        },
+        "rawDeepLSHA256": "1ed1b884b1fdd67c68a9bb9a8eab1dc060949529619da0a1a186a4ba6cf843af",
+        "status": "reviewed"
+      }
+    },
+    "6621": {
+      "title": {
+        "englishSHA256": "b7a117f2d5d128a4f1efe0e00518f1393bc01189884cc7f80a88348956f1b651",
+        "authorMyanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+        "editedSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+        "myanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+        "candidateAuditMyanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7"
+        },
+        "rawDeepLSHA256": "4be70ac43275ac428e68a515ac52e5f79fd2f47f027e086efbb36f15ea86c68c",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "74a2db681af8bd85d6147a3d7fc3742670706182ea7509a71a71a29f56ebe9f3",
+        "authorMyanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+        "editedSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+        "myanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+        "candidateAuditMyanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0"
+        },
+        "rawDeepLSHA256": "2a0af68bcb543791d26ee2a9cf16388bf35c027130128095a8d55c83cf36351e",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "f60c937838b53a11dc614fda14fdb862c2005f266fad389a1834c597f4f60b74",
+        "authorMyanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+        "editedSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+        "myanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+        "candidateAuditMyanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d"
+        },
+        "rawDeepLSHA256": "7e1f526a2968acc661c6603aece50f6337c36b4c1662e8c0a5db86155d8373f5",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "12e8043b8b105ff49626f3fb77daecddb5f15388afcf53b2730310a0f7d13b0a",
+        "authorMyanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+        "editedSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+        "myanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+        "candidateAuditMyanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8"
+        },
+        "rawDeepLSHA256": "239e0b59f03b09335504cad41b346d0e97fbf3cfd5a23cb89b2609b11af5605d",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "d6ac659f713ef69446a18f0cc1bce3098e0638d8c200a63b0826aa1bf1d5fc60",
+        "authorMyanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+        "editedSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+        "myanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+        "candidateAuditMyanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e"
+        },
+        "rawDeepLSHA256": "cfe138cd09bd540ad6885d3ed7c492f0d629df90fb50fc405797f7273478fcff",
+        "status": "reviewed"
+      }
+    },
+    "25": {
+      "title": {
+        "englishSHA256": "81e6c111a2162bf13dcd1a9800f52998867394fe01dafad8050df15fa8be75ac",
+        "authorMyanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+        "editedSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+        "myanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+        "candidateAuditMyanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd"
+        },
+        "rawDeepLSHA256": "67ed39a724e6a505c2faf7631a8303a724bbf5bdd134cd5fa9437c7433e8fe5c",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "52d90f9bcf1b6c3f232e104f5727870361a3322f4018ae1a15ac410fa063156d",
+        "authorMyanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+        "editedSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+        "myanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+        "candidateAuditMyanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d"
+        },
+        "rawDeepLSHA256": "420b8182b6b0427911cf484055616951692d56060a6f3e35219f84f3cda96194",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "5e6a598263f2fcd0acc6f6d11e8482eea0370bf79e8681fa45e78f1ac5672a2c",
+        "authorMyanmarSHA256": "d04ca249d0d27ac59e088a8fbfabdf76bd5cfa38379e77d1465bcdc0567d9b44",
+        "editedSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c",
+        "myanmarSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c",
+        "candidateAuditMyanmarSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c"
+        },
+        "rawDeepLSHA256": "f791fd547026dc98a8fab425b70d6b1a3d6fa0d0f6fbaa0f56889f487c13679f",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "69fd914bd4dd70cae9fd6775daad45182203dcef289d0486479ab5678490f8a4",
+        "authorMyanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+        "editedSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+        "myanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+        "candidateAuditMyanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7"
+        },
+        "rawDeepLSHA256": "f39d46451d4df40434885bb7bb5de7362636906b850a0254092ad2cd69c62458",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "7f35945f11f84eb5e2017fef5594769e3deb7318ac72306047af27054ad80449",
+        "authorMyanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+        "editedSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+        "myanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+        "candidateAuditMyanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c"
+        },
+        "rawDeepLSHA256": "cdbc88574e8a7e6b7cff4edd0e085a757bd364bc235048f20ead8376aeb3de84",
+        "status": "reviewed"
+      }
+    },
+    "6441": {
+      "title": {
+        "englishSHA256": "da9ad036d15a5516db5b2a559dfd208c0391f47ffa8b364528f9febc71035bed",
+        "authorMyanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+        "editedSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+        "myanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+        "candidateAuditMyanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f"
+        },
+        "rawDeepLSHA256": "18d3923cde85ee13b269fbf93bccafe72999f438177a8973cf2daaa127949d00",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "8053d57bfddf9e443d9091c0f6a4136df84ae83fdaf44f01a232f6d15d527db0",
+        "authorMyanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+        "editedSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+        "myanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+        "candidateAuditMyanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11"
+        },
+        "rawDeepLSHA256": "106c4d37a8d502d391afb73fb7f921d7c21a67384a4dd34229b5f4c6d2758360",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "4826fed0bbee66d327759b6bc2b2398bbd6493f796ebcfb34f44d357b870f5c6",
+        "authorMyanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+        "editedSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+        "myanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+        "candidateAuditMyanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b"
+        },
+        "rawDeepLSHA256": "bd22e18a63bcd3201013b6778f7868fedc51184b324e86bf359bbd19c5ba1773",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "5383346e6b04d735341022787d12dd6b07342b1fb65c171615919534e2dc3b02",
+        "authorMyanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+        "editedSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+        "myanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+        "candidateAuditMyanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36"
+        },
+        "rawDeepLSHA256": "63c125be586f0949baae372a381f9b299a0dbb593f45c8738d23f8d7d2193306",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "ffe7c92b67867b6af03fdf7f499bc5dd0fca6d85654af7cad2f2f41c2e9c574e",
+        "authorMyanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+        "editedSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+        "myanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+        "candidateAuditMyanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0"
+        },
+        "rawDeepLSHA256": "8e476102ab293112480d0f0ac523b7c8e81530d2a934e4694ae59615f361b9aa",
+        "status": "reviewed"
+      }
+    },
+    "6571": {
+      "title": {
+        "englishSHA256": "ad2e1e583495e3e272d5319047ca6c0a1ccccb7acdd26c6964e62861d237b91f",
+        "authorMyanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+        "editedSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+        "myanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+        "candidateAuditMyanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b"
+        },
+        "rawDeepLSHA256": "05153228ef6e0da5500b23c6b3ade787f5751af973a2095276192e45ee9d9dfd",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "1a09fef51466a40d5d41fae5acdb76c3f288ce50d2eb88c88148f23f53a9c082",
+        "authorMyanmarSHA256": "96d8d85a13234445f2facb4f8ee8ff562cffcf2f5195d7c94df042a659a047e1",
+        "editedSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31",
+        "myanmarSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31",
+        "candidateAuditMyanmarSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31"
+        },
+        "rawDeepLSHA256": "0b2e8d4106314c35af2fa67074c2599ec70ccb26f0779b148b653ad19028b3fb",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "1edf7e184523f39ad99c0e28a2a5d0432d2341749f922cae934e0e2212dd2cfa",
+        "authorMyanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+        "editedSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+        "myanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+        "candidateAuditMyanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d"
+        },
+        "rawDeepLSHA256": "c9da3b39195f5e64df175f5f3e0c3b8e5ca37c38259382a3108fff94882cd994",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "acaa7f75d9af8e3fdb1ff9f0c6a3b7f7c0057be32f39da98123ad0eda5c3be22",
+        "authorMyanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+        "editedSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+        "myanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+        "candidateAuditMyanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619"
+        },
+        "rawDeepLSHA256": "dac8a81719c62aa9587a5e1a81508494415683ea80fc82cee2c0b056fd9c4758",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "2a8b53e423fc92861e72b0142094402cf7f39651de63587c34e290f81c19fae6",
+        "authorMyanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+        "editedSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+        "myanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+        "candidateAuditMyanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2"
+        },
+        "rawDeepLSHA256": "c011a5eb9a4eae0013c525ac0d89b60fb6d71717a62d3ba4ae7a78dabe7041ee",
+        "status": "reviewed"
+      }
+    },
+    "6581": {
+      "title": {
+        "englishSHA256": "ca467c5ef7d35de89f1bb0e1c042410be7d0a2692e1a99167483d45b66c7982f",
+        "authorMyanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+        "editedSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+        "myanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+        "candidateAuditMyanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f"
+        },
+        "rawDeepLSHA256": "4c867a716925aa6fd9e14663c2248ba245605b35d9d231971dc5e37f2be8de09",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "editedSHA256": null,
+        "myanmarSHA256": null,
+        "candidateAuditMyanmarSHA256": null,
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": null
+        },
+        "rawDeepLSHA256": null,
+        "status": "unavailable"
+      },
+      "objective": {
+        "englishSHA256": null,
+        "authorMyanmarSHA256": null,
+        "editedSHA256": null,
+        "myanmarSHA256": null,
+        "candidateAuditMyanmarSHA256": null,
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": null
+        },
+        "rawDeepLSHA256": null,
+        "status": "unavailable"
+      },
+      "progress": {
+        "englishSHA256": "6293216c4e0b11c6b29f72bb2bfe34e271a4465475d9a701cf3317664e357bde",
+        "authorMyanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+        "editedSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+        "myanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+        "candidateAuditMyanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1"
+        },
+        "rawDeepLSHA256": "e24219ee6d5f294d58f3e33c315df909d1b4ce3d1e2daedf099af9d78d443dd4",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "350ff3ae8470090eceb914d387cbb693e50d93c6468cac3a794e4a60531a0b7f",
+        "authorMyanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+        "editedSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+        "myanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+        "candidateAuditMyanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957"
+        },
+        "rawDeepLSHA256": "18857b1c50fdff4d5537c1482519f02f38e67b5d42b9206e9dbf54214680cd5d",
+        "status": "reviewed"
+      }
+    },
+    "1918": {
+      "title": {
+        "englishSHA256": "11210c5ffd1e98fd52186f51386f598ca6992bb898e7763820d82740bfe20e40",
+        "authorMyanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+        "editedSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+        "myanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+        "candidateAuditMyanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041"
+        },
+        "rawDeepLSHA256": "5c304f8f3b391d47b6549a7aca1ba6bd5c52f689bf0ba4ac4b568ec646b4fee8",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "4af4e6102914ec34c0a5a8695d1a9d5a33bf94fe777c6f6359c2191cc00d8131",
+        "authorMyanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+        "editedSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+        "myanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+        "candidateAuditMyanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4"
+        },
+        "rawDeepLSHA256": "b1612a78f508ba8f09d959d824929ea52ed151b02ef741d04de85bdcb275f89c",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "6593ff8fd5d837d341a20f40ba8df542b6e5ff603a88b12e7a58fd0def411ab9",
+        "authorMyanmarSHA256": "e0820d53e4c114f2d7ba497f71af31ce0d1af3531ca1d7b7573bb887e4f1f2d1",
+        "editedSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2",
+        "myanmarSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2",
+        "candidateAuditMyanmarSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2"
+        },
+        "rawDeepLSHA256": "3ff68a82918be720e92bddb05039e33085e2114223e7d258b66c0525c983f0a7",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "cc35bd74c3e6ad27b499192048a0aabc4070291c3aed56c8f252e98f6d5953a5",
+        "authorMyanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+        "editedSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+        "myanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+        "candidateAuditMyanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd"
+        },
+        "rawDeepLSHA256": "7ddb1386c48f9cb87753e7e8b16d284787d8b42f4dee8a5126c2b0bc3648a0fc",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "e5f3fa5e8169bbbb24e25d6d83c977fccce78b04c4c335b76ba2cd0f1b485abb",
+        "authorMyanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+        "editedSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+        "myanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+        "candidateAuditMyanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc"
+        },
+        "rawDeepLSHA256": "d96e77dab83adbb6f081366a69bf81a8d67b6a294583e619d9219504455d1224",
+        "status": "reviewed"
+      }
+    },
+    "824": {
+      "title": {
+        "englishSHA256": "170669b84cfe2ae6830bd5b5c5d7b5ff9a3df7b7f8bfc3c5b502a5a28e736ef1",
+        "authorMyanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+        "editedSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+        "myanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+        "candidateAuditMyanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1"
+        },
+        "rawDeepLSHA256": "1debbe547ce83a424a5f324a7f0ab8a4b68c7a95795015b35cbc502be30c102d",
+        "status": "reviewed"
+      },
+      "detail": {
+        "englishSHA256": "cb32a911f78efa46b2a14418dc92916bd7bd1678f77d08fb0aaa21d95fa22cd8",
+        "authorMyanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+        "editedSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+        "myanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+        "candidateAuditMyanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8"
+        },
+        "rawDeepLSHA256": "96548078df404a91f8878ed5e8222c39d9f318bbae44336350659a6b841a53d1",
+        "status": "reviewed"
+      },
+      "objective": {
+        "englishSHA256": "842d0da089a723041bb66b8120e837e58d91e75dd728d8b24fca2fdea5ffd8ff",
+        "authorMyanmarSHA256": "d41483f2ee1ae8154fbf95db4b96126424f7dfe064e8b9c8dac25a87e580443e",
+        "editedSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6",
+        "myanmarSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6",
+        "candidateAuditMyanmarSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6"
+        },
+        "rawDeepLSHA256": "df4e48469d59445d34dc1ba988d5a22afb99653b69fd0efea9ca3b187803d963",
+        "status": "reviewed"
+      },
+      "progress": {
+        "englishSHA256": "33476b51b1f9667a42a2fb73c340106fcaddf41bd3a747d84c0e7cc82bd4b078",
+        "authorMyanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+        "editedSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+        "myanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+        "candidateAuditMyanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b"
+        },
+        "rawDeepLSHA256": "1f0adf2b4ceea0bbf69e3ba368bd8cedbe60164993db7e751d10d736f012cfe5",
+        "status": "reviewed"
+      },
+      "complete": {
+        "englishSHA256": "15826f145faca9d1279d31ed32e7353ff201620d065116b5f56369ce710d656c",
+        "authorMyanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+        "editedSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+        "myanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+        "candidateAuditMyanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+        "presentCandidateHashAliasesVerified": {
+          "myanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf"
+        },
+        "rawDeepLSHA256": "bce325b1b3330fcafdc0c552b242f2e1adfd573a6479ac3aee97c9bb529f0307",
+        "status": "reviewed"
+      }
+    }
+  },
+  "candidateHashAliasAudit": {
+    "result": "PASS",
+    "canonicalEditedSHA256Computed": 75,
+    "canonicalMyanmarSHA256Computed": 75,
+    "candidatePresentAliasCounts": {
+      "myanmarSHA256": 75
+    },
+    "notes": "All75 candidate review-audit myanmarSHA256 values equal actual candidate text. All present final edited/reviewed aliases checked; candidate has no editedSHA256 aliases. Receipt records canonical editedSHA256 and myanmarSHA256 for every slot, including nulls. Historical author final hashes remain preserved in frozen provenance."
+  },
+  "pronunciationChanges": {
+    "Mountain Lion Blood": {
+      "old": "မောင်းတင် လိုင်ယန် ဘလဒ်",
+      "new": "မောင်တင် လိုင်ယန် ဘလဒ်",
+      "status": "PASS exact initial proposal; native approval still pending"
+    },
+    "Mountain Lion": {
+      "old": "မောင်းတင် လိုင်ယန်",
+      "new": "မောင်တင် လိုင်ယန်",
+      "status": "PASS exact initial proposal; native approval still pending"
+    },
+    "Befouled Water Elementals": {
+      "old": "ဘီဖောင်းလ်ဒ် ဝေါတာ အဲလီမန်တယ်လ်ဇ်",
+      "new": "ဘီဖောင်းလ်ဒ် ဝေါတာ အယ်လီမန်တယ်လ်ဇ်",
+      "status": "PASS exact initial proposal; native approval still pending"
+    },
+    "Wharfmaster Lozgil": {
+      "old": "ဝေါ့ဖ်မာစတာ လော့ဇ်ဂီလ်",
+      "new": "ဝေါ့ဖ်မားစတာ လော့ဇ်ဂီလ်",
+      "status": "PASS exact initial proposal; native approval still pending"
+    },
+    "Befouled Water Globe": {
+      "old": "ဘီဖောင်းလ်ဒ် ဝေါတာ ဂလိုဘ်",
+      "new": "ဘီဖောင်းလ်ဒ် ဝေါတာ ဂလိုးဘ်",
+      "status": "PASS exact initial proposal; native approval still pending"
+    }
+  },
+  "sourceAndProvenance": {
+    "result": "PASS",
+    "englishSourcesUnchanged": true,
+    "primaryReparse": 15,
+    "secondaryReparse": 15,
+    "rawRequestResponseIndexMappings": [
+      {
+        "id": 501,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 0,
+        "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+        "rawDeepLSHA256": "927f8808fe9f054c7759847131c5fb30890502590d31c0717ba1b63ba5f85717",
+        "candidateMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 501,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 1,
+        "englishSHA256": "72bb40afbcc4969af06a08a441108cd1cda390c6c4c16610f5a51a5364530756",
+        "rawDeepLSHA256": "4b60a73ff646f487bfed609ebf578c6c92fddd68dc27421ccd15976a003b87e3",
+        "candidateMyanmarSHA256": "a2f1ce9ffbf9303f971bcad99e3461cedf502f21574143e66510da28df6654a0",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 501,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 2,
+        "englishSHA256": "6e301af4838d91b54bdcde056708d41e000d034d4cf6ff57e68230c4f2f61f08",
+        "rawDeepLSHA256": "30d9624a7ee0123233c40020230f943d773edbebc663f3d72082aa8e7f95b696",
+        "candidateMyanmarSHA256": "133e3153a2ffa17580fdb044f138c5c53eb14357f1dcf392a4f035308d2eae62",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 501,
+        "field": "progress",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 3,
+        "englishSHA256": "17577c4a1db2a3e78079733b2ed857aee09931d2e469d58a3c8eee684c875d3c",
+        "rawDeepLSHA256": "cbfe9cbd51baf13b693121128878b25e9cf6f0cafb3268d452830c7563282bcf",
+        "candidateMyanmarSHA256": "8d59ce54d64c03f5f031e0e0fbf409947ab7e1b802a89833748a8f83ed8f7edb",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 501,
+        "field": "complete",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 4,
+        "englishSHA256": "0c7e5a3878bff9c11f5585186289f5265530dd06b36b54333eee3efba8833e94",
+        "rawDeepLSHA256": "0fd2932273e1d8acea583ff518ad6a0fd0f758671a385ec0b3e0ba1be434e1b0",
+        "candidateMyanmarSHA256": "9099091223a1d7ef0ae313b6056203c62dacaf50206cf5ebb3dac53254414a2b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 502,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 5,
+        "englishSHA256": "d21faa845014bb35ad735c65f3354563b93ff3dda3f405bcb7fd5fe3ca65aa38",
+        "rawDeepLSHA256": "4d9dd4166494d9092bdabba7ac2b9213e68d45f240d13b5065609d9e66932b8b",
+        "candidateMyanmarSHA256": "41fdb0227d05c3d1b9a20a3808488c111b6355ed73736ea413b968ecb7450849",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 502,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 6,
+        "englishSHA256": "f6b4214e8b235681a19de0df0aae11ddccd24933ae02c57d93b6332f580aad36",
+        "rawDeepLSHA256": "e4fa1810b37a6455d477f3a87cea9c8d04b694f4429f67ec67b93eac192993a6",
+        "candidateMyanmarSHA256": "fc6a549078e6b88c5ed3412c312751516d81a447c5c98f00f291b2efec1ab5eb",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 502,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 7,
+        "englishSHA256": "2b72201e7916da31e0f989ccbc32da8c58ff5cefecbfd991069996e5020a0159",
+        "rawDeepLSHA256": "1d8497db5bd14c41dbb82a7048902e5fa399fdd8f96317ca63c95a787f6bf825",
+        "candidateMyanmarSHA256": "ecd579f83044cf0bb13087352160f4394acaad90a462d50a43e6154ac2acf228",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 502,
+        "field": "progress",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 8,
+        "englishSHA256": "52ff353c3464ee284d1f09004b4a5313412c1d1084e8b28a595034c6c3b62790",
+        "rawDeepLSHA256": "bb3cb141e04364717ce5cee6839a931cfbfb63939abbf8bf1c2679fb0e57d7a0",
+        "candidateMyanmarSHA256": "7983e46a9d1a38c6e1d8f8c4457b8100865e8bbe07ce6822ae8966dcc7b09693",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 502,
+        "field": "complete",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 9,
+        "englishSHA256": "fe422b8b8d199c7bec78f55be71657dc91f9de0f88446891419bb24062b6e162",
+        "rawDeepLSHA256": "3fee25c3b9d1a98f6935da7750271af76def5fbd594319709f798a23771e5c64",
+        "candidateMyanmarSHA256": "f5e1089a24cff69a090aa7f8ee47f1bfc33aed90f087d7734124a0fc7144dd40",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 509,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 10,
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "candidateMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 509,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 11,
+        "englishSHA256": "3afca0a4cdb5cc38a985dbaedff5f84758cfdda00519fd494be38ac8aa5461b2",
+        "rawDeepLSHA256": "83ced4d05cb6a9d06fde361055466426e37d7ad0c1f7e4c772f31843b9dc53cd",
+        "candidateMyanmarSHA256": "39766cb3c08208dfbe0746a82b044953e8ff918a4ac290e6e484ae6832bc8a64",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 509,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 12,
+        "englishSHA256": "52971bee6081626b6cb00d82adc229d2b1d149238a060f11dcc29c8371940cd2",
+        "rawDeepLSHA256": "fceb829795086aa3180eeffcab3a0b1e8f0d20b364dc3b12e118fb968ab4b315",
+        "candidateMyanmarSHA256": "119ea4a15801c03a2867c88b5cdcb59ec6abdc10e0002ef55343a4efa565a37b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 509,
+        "field": "progress",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 13,
+        "englishSHA256": "83502b7be71ba81ca22de0a82ac7bf51b863e026ca3c27e3c2a48b776e15e9c5",
+        "rawDeepLSHA256": "6bb6977ec1d8d65f287238341ed4ada240866e9f8ee712a7edbd9f4764a13e0c",
+        "candidateMyanmarSHA256": "2b352f698e723d8d2eabde49699654b57be5640448fb92f262714beb6c3cbbc7",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 509,
+        "field": "complete",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 14,
+        "englishSHA256": "ce1ab13e2399ac075796e683242e4d9cd5d65fda37f5b713c7c2f7d50acf5a10",
+        "rawDeepLSHA256": "6af39ffe6d6f2583884a45b2630ceb71943d3a4d05c5a3a9465d31f702adf74d",
+        "candidateMyanmarSHA256": "ba66d03f3766aa59b81d31406ebbdc20d633884c851749180ac364f0bb91e1fe",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 513,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 15,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 15,
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "rawDeepLSHA256": "cf7e137293d0903a3347c4666ad9f0d4b71783aa368880950c2d5e8a9c8b675d",
+        "candidateMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 513,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 16,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 16,
+        "englishSHA256": "f373151b8d088cb8ff8d82b060101c8ff4235416c46ad78b3b3dc96975a4aac3",
+        "rawDeepLSHA256": "0e6add903fe2f41eba899e145279da2883a32b7fab136819ea565096aef02ef2",
+        "candidateMyanmarSHA256": "539d024b7c18616d0e7d30e36e741d24203f84c175d100f362d0e67a448ea13c",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 513,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 17,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 17,
+        "englishSHA256": "d2e043d8531827c41e8c2f1a227e39952cf9a8bcb0050fbb6c490a6125e7b913",
+        "rawDeepLSHA256": "ab2c87ff46c9e8d3fb66f511a211b4bf8a98be1112b42ae5cdd5648107f080f9",
+        "candidateMyanmarSHA256": "f289c538976eec5b34a9d55789c8dbf68ab48d97e8d6a9ebec3c94c01109cd38",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 513,
+        "field": "progress",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 18,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 18,
+        "englishSHA256": "017bd8edf32d8c867e01f01e6c4ffefe3fa082f674b5523977dce2570bb2edc6",
+        "rawDeepLSHA256": "c4cab1ffa8977b22be5a8e9b3ed3c88181accabc0f24bc2908074ad291aa8cf7",
+        "candidateMyanmarSHA256": "e382727815a038108818fe53dc8c621c8c41b1bc52e5340b874000fa2431a36f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 513,
+        "field": "complete",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 19,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 19,
+        "englishSHA256": "63857020b94fed140f74c5198dad44893215bf550305fc0abb0be877e71bb535",
+        "rawDeepLSHA256": "33db308eccd244453da5716854c9f5aeb779956e0c2bd5156adf97d70297a418",
+        "candidateMyanmarSHA256": "f786b28dbfa2d30ee95f36aec4e59664dba9c90cd953d91a4055596121e46322",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 515,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 20,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 20,
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "candidateMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 515,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 21,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 21,
+        "englishSHA256": "09b5616b014062f317aeefac07d025ae81d8ff57b7dc8eb85fcb26bcd8673b32",
+        "rawDeepLSHA256": "27b21b0e1df299e9c8771b0b36c57b5dfbbae87e79de25f9703f8c2ae2c9283d",
+        "candidateMyanmarSHA256": null,
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 515,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 22,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 22,
+        "englishSHA256": "058a359a08afced8bd3f40b1013899d4e6eb0c5b6a1aeee4ffd530b11d906ab0",
+        "rawDeepLSHA256": "b4150038d5c835cf83413de5b96e1dddacd169c9bff337216a880fb586379e6a",
+        "candidateMyanmarSHA256": null,
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 515,
+        "field": "progress",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 23,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 23,
+        "englishSHA256": "50b736012e69ddb396de48ecb7b7021fbb05241155abad6faa95bab4c911f5e5",
+        "rawDeepLSHA256": "df65fd7e43ae325cf1d6056c660e840e5b1d0ca55cfe335e3ddb74ac7d435abe",
+        "candidateMyanmarSHA256": "2ba29175537a4ceda758f805e02912be02fdaea5f2238c17f3617be4240bacfe",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 515,
+        "field": "complete",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 24,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 24,
+        "englishSHA256": "af1c1c37d33d3d09518a75c28a938465f9fd730351c236e4e71f1773c0723312",
+        "rawDeepLSHA256": "46eb3e1f0c2a12988eb43d321cd9cbab2e5e48b5277893856f459bb7a96b9564",
+        "candidateMyanmarSHA256": "350d4187a9e8aaeb7168eab598b730eab32ba57a929ed3fdacc4b190982ca1af",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 517,
+        "field": "title",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 25,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 25,
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "rawDeepLSHA256": "cf7e137293d0903a3347c4666ad9f0d4b71783aa368880950c2d5e8a9c8b675d",
+        "candidateMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 517,
+        "field": "detail",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 26,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 26,
+        "englishSHA256": "7098b3a782c1d56ef00c2ea257b493c21747851df871645bf08754e0b8a554d1",
+        "rawDeepLSHA256": "73720a6c479e965dda734a698fb7ece83311275b91fec2c57dc9dece2d47a861",
+        "candidateMyanmarSHA256": "885c79d869078c3aa754d1019b114cd4a8bf3e54022ddc0e45b7f6a25c5834ce",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 517,
+        "field": "objective",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 27,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 27,
+        "englishSHA256": "258094167029af057d20a4cf04c1ec06df3432509d087c256a6e43943cbe1c5f",
+        "rawDeepLSHA256": "b88f904fd7071226194d443f2ca54fa0b4c8f125929a8f47360e483af3c3cbdf",
+        "candidateMyanmarSHA256": "2f923360d670ba0584833e2ed26b0e251911434a5b3741a8d1fecf1632527931",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 517,
+        "field": "progress",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 0,
+        "englishSHA256": "45d99b9e25854d6ce66a786e7d3ed797eb3a732434380e5860036f631a2a14b2",
+        "rawDeepLSHA256": "b143f1b5e4743a044598347bc2ecc0cf2678ee02fa600af305b605f060bd64f4",
+        "candidateMyanmarSHA256": "279acd2431d8b52d74055729e1e6eb89046cc28dd7d24f8b74b899a05dee343a",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 517,
+        "field": "complete",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 1,
+        "englishSHA256": "0d9a6cabf18bb56497f97e369c0fa2c589320785f29f95d34992c16d409d9d2c",
+        "rawDeepLSHA256": "5ba37f6b9db07150d06ac1d20bdab4d6b5acd9dabc09f0bed08a8c2d797f8d1d",
+        "candidateMyanmarSHA256": "84b1d8ce2fc30c8f3a59290f448ff14798acb7151f452ab79d3ca5039ad23a71",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 524,
+        "field": "title",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 2,
+        "englishSHA256": "b496c3dbd12c482443a5984134938b4d61dd5f7af2bbf5277c5079eca8dfed82",
+        "rawDeepLSHA256": "f6a76308a63b91a4146079deb284276243f0cb0252474fa1fa0244b25180ceb0",
+        "candidateMyanmarSHA256": "9f83255dfb89d488622a300dfdbbd0ed90c828ba8d048433fcd0f90d82c9096f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 524,
+        "field": "detail",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 3,
+        "englishSHA256": "079fc4bfff6d13dd26ce90d6a451d12573f2745fd94d7b161c3f409ace0fd7d2",
+        "rawDeepLSHA256": "ced3c4c9332a8cb5cfaa26cd3dc4873abbab44ee90692997944eb2a9cab2971d",
+        "candidateMyanmarSHA256": "82940a4509caa825b9938aba57397111d67faf933d2a5253bfc97880398ce1cd",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 524,
+        "field": "objective",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 4,
+        "englishSHA256": "4c10d285aa96444e29eb44937cb252ec122eadbc4df974db8a2a972fd4a11cc8",
+        "rawDeepLSHA256": "7e29fa0bdea1cf208d2eb0dea7588686fae5e50f23bc0986e8af67f680f41511",
+        "candidateMyanmarSHA256": "90c9f70a13b8475769c7c53e9823ad41e99673e0371c3c083b7cbbe2899603f4",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 524,
+        "field": "progress",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 5,
+        "englishSHA256": "b384f4b1257f9b2e8bcaa81409feb1cd0788963486d4c5811416e99345183e3f",
+        "rawDeepLSHA256": "af4fc55e94e2171b0b4de141160f5ebdd44b62359ed665067f7f5f3fddc48687",
+        "candidateMyanmarSHA256": "e96d50a5bb30e6581d2b8cd4d37669e70fc93db2500a3f65143c083f1f755ab6",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 524,
+        "field": "complete",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 6,
+        "englishSHA256": "564895f2c7df3db4a438cb0e1324fda15077bbbf5b8653a508a524ef146bd267",
+        "rawDeepLSHA256": "7569d02b2527340f29714f76d7dafed81d59230e5b6b64293353ea55e2bba1d8",
+        "candidateMyanmarSHA256": "7130a04cbc92aa9f3093cee75cbc7d040b0e3cc62c4876ae167b7b7e640d764b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 216,
+        "field": "title",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 0,
+        "englishSHA256": "09097ef84a3a40010502d6245f3e64adfbf082148fa9e53a21b30bf28784dd71",
+        "rawDeepLSHA256": "54f2665490824cad99e8e415b19d5dd74a4d0e83e36bc238530cba3dfa925cef",
+        "candidateMyanmarSHA256": "c3ea41ccfa5f75f6ec5938525ebbe1a8f28395df540802c30bf4c888066edad2",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 216,
+        "field": "detail",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 1,
+        "englishSHA256": "ee7a0ae65b6cffe90c81653c43601ca5e7e4803615f8bb19dbfb26d24cc15f52",
+        "rawDeepLSHA256": "6a33f254d6f21db11ecf68878aadd98ca7492e2f6846ce248d4e3d5b9c4bbebc",
+        "candidateMyanmarSHA256": "c252ad6cf59d0e5448930add2e831e548356ae6d928f911bed8e783e3932f718",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 216,
+        "field": "objective",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 2,
+        "englishSHA256": "c1b948a57757fe42b1132abfecb765757560099af231461272dff99667681939",
+        "rawDeepLSHA256": "1efa792a2261f59fd1c6c832b190edf1bf2619a8fafa3e7a13846364cea0ebab",
+        "candidateMyanmarSHA256": null,
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 216,
+        "field": "progress",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 3,
+        "englishSHA256": "e97483e8bce6bff394be4522ee764c6442ee3594ddcba38b6725708922306a06",
+        "rawDeepLSHA256": "e56a49dac4933e2ba75ff3c50fc76b1e2bfa16b07151ada0492ae457c1f63de8",
+        "candidateMyanmarSHA256": "f7d4af055883ac342407543e818a45045470043c5b80a436a933ebf830d4ee0d",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 216,
+        "field": "complete",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 4,
+        "englishSHA256": "ffaaf32e165bb1365f5180cc199d25b806255712b0bbd64abd7a75fb8d26211c",
+        "rawDeepLSHA256": "1ed1b884b1fdd67c68a9bb9a8eab1dc060949529619da0a1a186a4ba6cf843af",
+        "candidateMyanmarSHA256": "ffcf4e0972bfa430a1f038c57a616d282258f6c725f8550aff02096e490b4dcc",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6621,
+        "field": "title",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 5,
+        "englishSHA256": "b7a117f2d5d128a4f1efe0e00518f1393bc01189884cc7f80a88348956f1b651",
+        "rawDeepLSHA256": "4be70ac43275ac428e68a515ac52e5f79fd2f47f027e086efbb36f15ea86c68c",
+        "candidateMyanmarSHA256": "ce029f9716b190637e818baff7ab56ffede31f3a0f997ae68b0e247be40cb6b7",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6621,
+        "field": "detail",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 6,
+        "englishSHA256": "74a2db681af8bd85d6147a3d7fc3742670706182ea7509a71a71a29f56ebe9f3",
+        "rawDeepLSHA256": "2a0af68bcb543791d26ee2a9cf16388bf35c027130128095a8d55c83cf36351e",
+        "candidateMyanmarSHA256": "9a7281b6c50adf0a07a9328e3587020c285fef7ce27867eec591fd197ffe94f0",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6621,
+        "field": "objective",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 7,
+        "englishSHA256": "f60c937838b53a11dc614fda14fdb862c2005f266fad389a1834c597f4f60b74",
+        "rawDeepLSHA256": "7e1f526a2968acc661c6603aece50f6337c36b4c1662e8c0a5db86155d8373f5",
+        "candidateMyanmarSHA256": "b5be5283e3a8464c71a3d8d72c3843a440601d3d14fce3edb0c5d6674b3fbb8d",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6621,
+        "field": "progress",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 8,
+        "englishSHA256": "12e8043b8b105ff49626f3fb77daecddb5f15388afcf53b2730310a0f7d13b0a",
+        "rawDeepLSHA256": "239e0b59f03b09335504cad41b346d0e97fbf3cfd5a23cb89b2609b11af5605d",
+        "candidateMyanmarSHA256": "efeec5f687a4a31bccd70b12e44bd188bc4c3f80d036298c2e49c41c4d232ac8",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6621,
+        "field": "complete",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 9,
+        "englishSHA256": "d6ac659f713ef69446a18f0cc1bce3098e0638d8c200a63b0826aa1bf1d5fc60",
+        "rawDeepLSHA256": "cfe138cd09bd540ad6885d3ed7c492f0d629df90fb50fc405797f7273478fcff",
+        "candidateMyanmarSHA256": "de1588a6a28305fe0f90ac3d6df3203bc168bb2eee5af1d1a1b33a281d27c35e",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 25,
+        "field": "title",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 10,
+        "englishSHA256": "81e6c111a2162bf13dcd1a9800f52998867394fe01dafad8050df15fa8be75ac",
+        "rawDeepLSHA256": "67ed39a724e6a505c2faf7631a8303a724bbf5bdd134cd5fa9437c7433e8fe5c",
+        "candidateMyanmarSHA256": "cb16355a27f89a601d8bf6d3bebbaafbe5d429dbdc472fb85a01636498f142cd",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 25,
+        "field": "detail",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 11,
+        "englishSHA256": "52d90f9bcf1b6c3f232e104f5727870361a3322f4018ae1a15ac410fa063156d",
+        "rawDeepLSHA256": "420b8182b6b0427911cf484055616951692d56060a6f3e35219f84f3cda96194",
+        "candidateMyanmarSHA256": "41266bdda69c550e7038873f67011e793bcd33e183c5adc4fbd1e4f51417b31d",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 25,
+        "field": "objective",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 12,
+        "englishSHA256": "5e6a598263f2fcd0acc6f6d11e8482eea0370bf79e8681fa45e78f1ac5672a2c",
+        "rawDeepLSHA256": "f791fd547026dc98a8fab425b70d6b1a3d6fa0d0f6fbaa0f56889f487c13679f",
+        "candidateMyanmarSHA256": "96c729a930342887b2d9fd1706f64a8b35aaa0e2bbb41c08ba95d97c26ae9f6c",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 25,
+        "field": "progress",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 13,
+        "englishSHA256": "69fd914bd4dd70cae9fd6775daad45182203dcef289d0486479ab5678490f8a4",
+        "rawDeepLSHA256": "f39d46451d4df40434885bb7bb5de7362636906b850a0254092ad2cd69c62458",
+        "candidateMyanmarSHA256": "a280ffd2834aa67e57f725de62517e2495febe633bda094c72fe7c2b1ca3f1e7",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 25,
+        "field": "complete",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 14,
+        "englishSHA256": "7f35945f11f84eb5e2017fef5594769e3deb7318ac72306047af27054ad80449",
+        "rawDeepLSHA256": "cdbc88574e8a7e6b7cff4edd0e085a757bd364bc235048f20ead8376aeb3de84",
+        "candidateMyanmarSHA256": "73af3534d29a785a63af2cb942429e4c385fcfa0d3d6394928d3b2cfb035203c",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6441,
+        "field": "title",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 15,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 15,
+        "englishSHA256": "da9ad036d15a5516db5b2a559dfd208c0391f47ffa8b364528f9febc71035bed",
+        "rawDeepLSHA256": "18d3923cde85ee13b269fbf93bccafe72999f438177a8973cf2daaa127949d00",
+        "candidateMyanmarSHA256": "2387c19e33cab03fa498a39b57d7be6f9adbbfa5f68279ccf3da10b1cc7f732f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6441,
+        "field": "detail",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 16,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 16,
+        "englishSHA256": "8053d57bfddf9e443d9091c0f6a4136df84ae83fdaf44f01a232f6d15d527db0",
+        "rawDeepLSHA256": "106c4d37a8d502d391afb73fb7f921d7c21a67384a4dd34229b5f4c6d2758360",
+        "candidateMyanmarSHA256": "059b1c87d3c40fc137d2fb767dea043d1b915e354cdd454cad836c34bd022e11",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6441,
+        "field": "objective",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 17,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 17,
+        "englishSHA256": "4826fed0bbee66d327759b6bc2b2398bbd6493f796ebcfb34f44d357b870f5c6",
+        "rawDeepLSHA256": "bd22e18a63bcd3201013b6778f7868fedc51184b324e86bf359bbd19c5ba1773",
+        "candidateMyanmarSHA256": "b92bfbcd74d2dc439730b84a0de09a501ff634727a2d9720a221f8bb277b982b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6441,
+        "field": "progress",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 18,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 18,
+        "englishSHA256": "5383346e6b04d735341022787d12dd6b07342b1fb65c171615919534e2dc3b02",
+        "rawDeepLSHA256": "63c125be586f0949baae372a381f9b299a0dbb593f45c8738d23f8d7d2193306",
+        "candidateMyanmarSHA256": "09276634ac0ab6527b52df7b4b05c9fd19d92260a421f4044a50edb60f797d36",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6441,
+        "field": "complete",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 19,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 19,
+        "englishSHA256": "ffe7c92b67867b6af03fdf7f499bc5dd0fca6d85654af7cad2f2f41c2e9c574e",
+        "rawDeepLSHA256": "8e476102ab293112480d0f0ac523b7c8e81530d2a934e4694ae59615f361b9aa",
+        "candidateMyanmarSHA256": "0e594d533d9b96e5d36e953bd8c12d0730bacba8fa73e717eab2d20b281314c0",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6571,
+        "field": "title",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 20,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 20,
+        "englishSHA256": "ad2e1e583495e3e272d5319047ca6c0a1ccccb7acdd26c6964e62861d237b91f",
+        "rawDeepLSHA256": "05153228ef6e0da5500b23c6b3ade787f5751af973a2095276192e45ee9d9dfd",
+        "candidateMyanmarSHA256": "4941091ae1ef2b3acba7adc752fee8d04fda0018e429a4f2849e1544350bdb7b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6571,
+        "field": "detail",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 21,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 21,
+        "englishSHA256": "1a09fef51466a40d5d41fae5acdb76c3f288ce50d2eb88c88148f23f53a9c082",
+        "rawDeepLSHA256": "0b2e8d4106314c35af2fa67074c2599ec70ccb26f0779b148b653ad19028b3fb",
+        "candidateMyanmarSHA256": "e4c957c6c4bc344a2e8d9431fb29759c6b098bebbb83e95504ad980ca4e52f31",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6571,
+        "field": "objective",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 22,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 22,
+        "englishSHA256": "1edf7e184523f39ad99c0e28a2a5d0432d2341749f922cae934e0e2212dd2cfa",
+        "rawDeepLSHA256": "c9da3b39195f5e64df175f5f3e0c3b8e5ca37c38259382a3108fff94882cd994",
+        "candidateMyanmarSHA256": "f7f4e6c53efa821fa443b76a985da374f89fe7076b1af9628ace315d334c3e7d",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6571,
+        "field": "progress",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 0,
+        "englishSHA256": "acaa7f75d9af8e3fdb1ff9f0c6a3b7f7c0057be32f39da98123ad0eda5c3be22",
+        "rawDeepLSHA256": "dac8a81719c62aa9587a5e1a81508494415683ea80fc82cee2c0b056fd9c4758",
+        "candidateMyanmarSHA256": "58786e12c24bd7e630220100cfd4cc381796f2200f3ea766d0984ccbdf682619",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6571,
+        "field": "complete",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 1,
+        "englishSHA256": "2a8b53e423fc92861e72b0142094402cf7f39651de63587c34e290f81c19fae6",
+        "rawDeepLSHA256": "c011a5eb9a4eae0013c525ac0d89b60fb6d71717a62d3ba4ae7a78dabe7041ee",
+        "candidateMyanmarSHA256": "078b17ca8da0d58b2e44407879aea2324caa900de818579c51b6ce529aa3e6e2",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6581,
+        "field": "title",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 2,
+        "englishSHA256": "ca467c5ef7d35de89f1bb0e1c042410be7d0a2692e1a99167483d45b66c7982f",
+        "rawDeepLSHA256": "4c867a716925aa6fd9e14663c2248ba245605b35d9d231971dc5e37f2be8de09",
+        "candidateMyanmarSHA256": "f07461d502508e851d2c970c33ced2545aa08319c9ccfadd8a73a0fddba96b1f",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6581,
+        "field": "progress",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 3,
+        "englishSHA256": "6293216c4e0b11c6b29f72bb2bfe34e271a4465475d9a701cf3317664e357bde",
+        "rawDeepLSHA256": "e24219ee6d5f294d58f3e33c315df909d1b4ce3d1e2daedf099af9d78d443dd4",
+        "candidateMyanmarSHA256": "c6e7554b2826e6c4f2478d5956adf33cd6932a2902c2ab1e6beae34c3e1287c1",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 6581,
+        "field": "complete",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 4,
+        "englishSHA256": "350ff3ae8470090eceb914d387cbb693e50d93c6468cac3a794e4a60531a0b7f",
+        "rawDeepLSHA256": "18857b1c50fdff4d5537c1482519f02f38e67b5d42b9206e9dbf54214680cd5d",
+        "candidateMyanmarSHA256": "fb50602aeea5b590ecc113b0c99835170ddc0977215576ee3e66c28d4e646957",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 1918,
+        "field": "title",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 5,
+        "englishSHA256": "11210c5ffd1e98fd52186f51386f598ca6992bb898e7763820d82740bfe20e40",
+        "rawDeepLSHA256": "5c304f8f3b391d47b6549a7aca1ba6bd5c52f689bf0ba4ac4b568ec646b4fee8",
+        "candidateMyanmarSHA256": "37b4c2d2050e4d19b8b6c5530128120078059758f7d4f1b182ce0221e9eb1041",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 1918,
+        "field": "detail",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 6,
+        "englishSHA256": "4af4e6102914ec34c0a5a8695d1a9d5a33bf94fe777c6f6359c2191cc00d8131",
+        "rawDeepLSHA256": "b1612a78f508ba8f09d959d824929ea52ed151b02ef741d04de85bdcb275f89c",
+        "candidateMyanmarSHA256": "fb6e7018d6eb299ca1213002585107332366e2a075fe226ea16a2216b57060e4",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 1918,
+        "field": "objective",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 7,
+        "englishSHA256": "6593ff8fd5d837d341a20f40ba8df542b6e5ff603a88b12e7a58fd0def411ab9",
+        "rawDeepLSHA256": "3ff68a82918be720e92bddb05039e33085e2114223e7d258b66c0525c983f0a7",
+        "candidateMyanmarSHA256": "8a7be9f49bb05cd406918284c6c3fb45531e92392553ccfed0a142be344e16d2",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 1918,
+        "field": "progress",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 8,
+        "englishSHA256": "cc35bd74c3e6ad27b499192048a0aabc4070291c3aed56c8f252e98f6d5953a5",
+        "rawDeepLSHA256": "7ddb1386c48f9cb87753e7e8b16d284787d8b42f4dee8a5126c2b0bc3648a0fc",
+        "candidateMyanmarSHA256": "9625c22aa3c1bd459a3024ed088dd6799647e271e709629d8f4546806a1929fd",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 1918,
+        "field": "complete",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 9,
+        "englishSHA256": "e5f3fa5e8169bbbb24e25d6d83c977fccce78b04c4c335b76ba2cd0f1b485abb",
+        "rawDeepLSHA256": "d96e77dab83adbb6f081366a69bf81a8d67b6a294583e619d9219504455d1224",
+        "candidateMyanmarSHA256": "4f94941e777499c53d95b8b83a15af8052640006ca6f3e0d305fed88199437dc",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 824,
+        "field": "title",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 10,
+        "englishSHA256": "170669b84cfe2ae6830bd5b5c5d7b5ff9a3df7b7f8bfc3c5b502a5a28e736ef1",
+        "rawDeepLSHA256": "1debbe547ce83a424a5f324a7f0ab8a4b68c7a95795015b35cbc502be30c102d",
+        "candidateMyanmarSHA256": "81a37b320963e792c5e305474de917740e3bf418ca74e6eb0d4530771dccbac1",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 824,
+        "field": "detail",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 11,
+        "englishSHA256": "cb32a911f78efa46b2a14418dc92916bd7bd1678f77d08fb0aaa21d95fa22cd8",
+        "rawDeepLSHA256": "96548078df404a91f8878ed5e8222c39d9f318bbae44336350659a6b841a53d1",
+        "candidateMyanmarSHA256": "833bc7162ac4ce937dc88557d61540342d8673ce9e888aee6ba6f0b8c616dbd8",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 824,
+        "field": "objective",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 12,
+        "englishSHA256": "842d0da089a723041bb66b8120e837e58d91e75dd728d8b24fca2fdea5ffd8ff",
+        "rawDeepLSHA256": "df4e48469d59445d34dc1ba988d5a22afb99653b69fd0efea9ca3b187803d963",
+        "candidateMyanmarSHA256": "ff11fd05cd684d1c607598099f0ddf77bb979be657b48039a1b5fe1e901ec8f6",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 824,
+        "field": "progress",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 13,
+        "englishSHA256": "33476b51b1f9667a42a2fb73c340106fcaddf41bd3a747d84c0e7cc82bd4b078",
+        "rawDeepLSHA256": "1f0adf2b4ceea0bbf69e3ba368bd8cedbe60164993db7e751d10d736f012cfe5",
+        "candidateMyanmarSHA256": "e79c6bdbf953fdab228d23440c48566a3a0adcabcceac78e1197df37a97a7e3b",
+        "authorFinalHashRemainsOriginal": true
+      },
+      {
+        "id": 824,
+        "field": "complete",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 14,
+        "englishSHA256": "15826f145faca9d1279d31ed32e7353ff201620d065116b5f56369ce710d656c",
+        "rawDeepLSHA256": "bce325b1b3330fcafdc0c552b242f2e1adfd573a6479ac3aee97c9bb529f0307",
+        "candidateMyanmarSHA256": "a83e47a0730ccdf58063943cc28cf7b3d74e36109d44cb3627e4fc71f2985abf",
+        "authorFinalHashRemainsOriginal": true
+      }
+    ],
+    "holdsUnchanged": [
+      {
+        "id": 515,
+        "field": "detail",
+        "reason": "Current primary and secondary detail demand strong trolls blood elixir, but current primary required-item3388 anchor is Lesser Trolls Blood Elixir (/forever/item=3388/lesser-trolls-blood-elixir); installed old objective and UA1.1.1 say strong. The grade difference cannot be reduced to Potion/Elixir label alias; no sanitized current live evidence resolves Strong versus Lesser. Hold whole field with exact English/raw MY.",
+        "sourceEnglish": "A mudsnout composite?  Absolutely brilliant!  Why didn't I think of that?\n\nLet me contribute my colloid of decay to this devilish brew.\n\nIn order to activate the contaminating agents in this mudsnout mixture, Lydon is going to need a strong troll's blood elixir, as well as some daggerspine scales and torn fin eyes from the southern coast of Hillsbrad.  He'll know what to do once you've gathered him all the reagents.  And my, how anxious I am to hear how his experiment goes!",
+        "rawDeepLProposal": "မတ်စ်နိုတ်ပေါင်းစပ်မှုလား? တကယ်ထူးချွန်တယ်! ငါဘာကြောင့်ဒီလိုမစဉ်းစားခဲ့တာလဲ?\n\nငါ့ပျက်စီးမှုကော်လိုအိုက်ကို ဒီဆိုးရွားတဲ့ဆေးရည်ထဲ ထည့်ပါရစေ။\n\nဤမြေညှင်းနှောထဲရှိ ညစ်ညမ်းစေသော အရာများကို လှုပ်ရှားအောင်လုပ်ရန် Lydon သည် ခွန်အားပြင်းထန်သော တရောလ်၏ သွေးအီလစ်ဆာတစ်ခွက်၊ daggerspine အရေခဲအချို့နှင့် Hillsbrad တောင်ကမ်းခြေမှ ဖျက်စီးသွားသော ငါးပင်မျက်လုံးများလိုအပ်ပါသည်။ သင်အားလုံးစုဆောင်းပြီးပါက သူဘာလုပ်ရမည်ကို သိရှိမည်။ ဟေ့၊ သူ့စမ်းသပ်မှု ဘယ်လိုဖြစ်မလဲဆိုတာ ကြားဖို့ ငါ ဘယ်လောက်စိတ်လှုပ်ရှားနေလဲ!",
+        "editedValue": null,
+        "englishSHA256": "09b5616b014062f317aeefac07d025ae81d8ff57b7dc8eb85fcb26bcd8673b32",
+        "rawDeepLSHA256": "27b21b0e1df299e9c8771b0b36c57b5dfbbae87e79de25f9703f8c2ae2c9283d",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 21,
+        "responseIndex": 21,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/21",
+        "responseJSONPointer": "/translations/0/translations/21/text",
+        "editedSHA256": null,
+        "status": "held pending reliable current source/live resolution"
+      },
+      {
+        "id": 515,
+        "field": "objective",
+        "reason": "Current primary and secondary objective say Strong Trolls Blood Elixir; same current primary required-item3388 anchor says Lesser Trolls Blood Elixir. Installed old objective Strong Trolls Blood Potion and UA1.1.1 strong do not resolve current linked Lesser grade. Hold whole field, preserve authentic5+5 and exact raw MY; no invented grade.",
+        "sourceEnglish": "Bring the Mudsnout Mixture, a Strong Troll's Blood Elixir, 5 Daggerspine Scales and 5 Torn Fin Eyes to Apothecary Lydon in Tarren Mill.",
+        "rawDeepLProposal": "Mudsnout Mixture တစ်ဘူး၊ Strong Troll's Blood Elixir တစ်ဘူး၊ Daggerspine Scales ၅ ခုနှင့် Torn Fin Eyes ၅ ခုကို Tarren Mill ရှိ ဆေးပညာရှင် Lydon ဆီသို့ ယူဆောင်သွားပါ။",
+        "editedValue": null,
+        "englishSHA256": "058a359a08afced8bd3f40b1013899d4e6eb0c5b6a1aeee4ffd530b11d906ab0",
+        "rawDeepLSHA256": "b4150038d5c835cf83413de5b96e1dddacd169c9bff337216a880fb586379e6a",
+        "rawDeepLRequestFile": "deepl-request-01.json",
+        "rawDeepLResponseFile": "deepl-response-01.json",
+        "rawDeepLIndexFile": "deepl-index-01.json",
+        "requestIndex": 22,
+        "responseIndex": 22,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/22",
+        "responseJSONPointer": "/translations/0/translations/22/text",
+        "editedSHA256": null,
+        "status": "held pending reliable current source/live resolution"
+      },
+      {
+        "id": 216,
+        "field": "objective",
+        "reason": "Current primary and secondary English plus UA1.1.1 say12 Thistlefur Avengers and12 Thistlefur Shaman; freshly installed QuestieDB full objective metadata says8 Avengers and8 Shaman. No sanitized current live count resolves12 versus8; hold full objective with authentic12 English/raw MY. Detail/progress/completion contain no conflicting counts.",
+        "sourceEnglish": "Take down 12 Thistlefur Avengers and 12 Thistlefur Shaman; most are located east of Zoram Strand in Thistlefur Village.  Once completed, return to Karang Amakkar at Zoram'gar Outpost, Ashenvale.",
+        "rawDeepLProposal": "Thistlefur Avengers ၁၂ ဦးနှင့် Thistlefur Shaman ၁၂ ဦးကို ဖျက်ဆီးပါ။ အများစုကို Zoram Strand အရှေ့ဘက်ရှိ Thistlefur Village တွင် တွေ့နိုင်ပါသည်။ ပြီးဆုံးပါက Ashenvale ရှိ Zoram'gar Outpost တွင်ရှိ Karang Amakkar ဆီသို့ ပြန်သွားပါ။",
+        "editedValue": null,
+        "englishSHA256": "c1b948a57757fe42b1132abfecb765757560099af231461272dff99667681939",
+        "rawDeepLSHA256": "1efa792a2261f59fd1c6c832b190edf1bf2619a8fafa3e7a13846364cea0ebab",
+        "rawDeepLRequestFile": "deepl-request-03.json",
+        "rawDeepLResponseFile": "deepl-response-03.json",
+        "rawDeepLIndexFile": "deepl-index-03.json",
+        "requestIndex": 2,
+        "responseIndex": 2,
+        "responseTargetIndex": 0,
+        "requestJSONPointer": "/text/2",
+        "responseJSONPointer": "/translations/0/translations/2/text",
+        "editedSHA256": null,
+        "status": "held pending reliable current source/live resolution"
+      }
+    ],
+    "noAuthorProvenanceRewriting": true
+  },
+  "tests": {
+    "actual_linguistic_lint.lint": {
+      "result": "PASS",
+      "issues": []
+    },
+    "actual_build_release.validate_fields": {
+      "result": "PASS",
+      "quests": 15
+    },
+    "digitsMarkersParagraphs": {
+      "result": "PASS",
+      "enabledFields": 70
+    },
+    "candidateOnlyExpectedChanges": {
+      "result": "PASS",
+      "textFields": 6,
+      "pronunciationKeys": 5
+    },
+    "fullInstalledMetadataAndUA": {
+      "result": "UNCHANGED",
+      "basis": "Original48 authorJSON/30HTML/4scripts verified against initial receipt/freeze hashes; full metadata and UA1.1.1 variants reviewed initially remain identical."
+    },
+    "rootIdentityNumericConditionContracts": "Separate root work; not claimed as executed by this receipt"
+  },
+  "immutability": {
+    "originalAuthorFilesBefore": {
+      "1918-sixty.html": "c88dbd6fb72e7f614c620d0ed9191261e2359671a97d4e81c783526d434a8323",
+      "1918-wowhead.html": "2f6525122c4610bd403664b658d0333abd8a65cb3f2c110bcd035f128f833c41",
+      "216-sixty.html": "c1c9bdbdb49e58f6f2e12dd4222d459f81bfd07b88d21045c0e6ced10b3f7b8c",
+      "216-wowhead.html": "a5963dd3c10bef9ec7329fc9897e98283a7f83241ae68740a485127292004463",
+      "25-sixty.html": "ed5ffc0fe83e2f9fe0c01275a66ab073689a5c6a0b9d409097eb353f90ce0b40",
+      "25-wowhead.html": "053f4580e820584bd8940c9e06e939f649b8e2f1844d07cbfc0c248737903bd1",
+      "501-sixty.html": "413e6a0a64fe1cf973c48ae1868814def4983a96dec7df82d815e7b8d7f19c69",
+      "501-wowhead.html": "09786ff5256ed6e950d89fd274e47498c23ebdd4d2bd11e3b013bf944fdc9716",
+      "502-sixty.html": "7630abb3737a46e2c192438d8083d5333b2e1246d20c12ffed37b53e60560210",
+      "502-wowhead.html": "a12c77d18c7b25c2c77926ea6d7419d04ff6fa7663b32c45b5972abca048df37",
+      "509-sixty.html": "1d0413ba519e679d99659c32ef40ce110182ba6a245df4a4f4cd7443794e35bb",
+      "509-wowhead.html": "f81c568f96a94b98846feb7528ce8b5c033a1926fa000d3e8feab16f5bb41d2d",
+      "513-sixty.html": "5d30d67d32121c9d86494011b19aa8291105bd109e8950d5c3f5e05b34d3f476",
+      "513-wowhead.html": "c3666292cc0ed221f63c9a16d3a681139f4bbc729341adfddb98571e3b3ce38f",
+      "515-sixty.html": "8c886680348567522a5a85d8bee7286bd14f5204cfc44d78546973b8185fc532",
+      "515-wowhead.html": "3830532b7387f85fd98ba3951556a15563fb0a52cf317f95bb06e11568e5a909",
+      "517-sixty.html": "47911da5f75c228c44a5485d225c2310283adc27930c5b0f8e791cc488594e80",
+      "517-wowhead.html": "77e178e37b2e39abce0faa997212dc57e00e52e0cc49f494ff6b46b27ace8b04",
+      "524-sixty.html": "600f44ef3151992b70d1e27e8cb25be2ebdd4ac44877a7e9e3f667da33d7703d",
+      "524-wowhead.html": "d3c82c9f73ae3cd63a522db9c769a777d9ff88a2d1faf03676ff6bc92f01918d",
+      "6441-sixty.html": "97873a8ae28f4702c0e637a8f348de8927793a7aa17d9ac59beef55f39aef4e8",
+      "6441-wowhead.html": "474e7d5f2a02ff554960e9c9a18b5cfd32e78bb41467a668562aa7e30c728ecd",
+      "6571-sixty.html": "a50cb612cef12d2f8fccdd3e39cf00258589ef712e87ad445eb18eaaed6b8bf8",
+      "6571-wowhead.html": "d113288dc52a2404941d17e2f6399e74a80dab965a8b27165590cf7a85ab0056",
+      "6581-sixty.html": "c84df824ec1810fde0442e713e34b1be037efd41cb6b9fe10e375c156a93cc3d",
+      "6581-wowhead.html": "8fa2a78b5e12e637d29cdb6cb34cf960f6e53df03c1ef3caee52c9566db76aba",
+      "6621-sixty.html": "4264d2b340ef3cfc6d0a97c92bdcc8a86721cf1743d9ef98e2c78737687b17ec",
+      "6621-wowhead.html": "435e96cbe459e85b8a819d5846a8f16f77b011187af0226a223a9b37af469a61",
+      "824-sixty.html": "a2aa0d026bc61d94bd53402de0f99583ec1fd83189a3dd8b65137fa82bcda20c",
+      "824-wowhead.html": "e785942b0e16d4f236e5084f1a2f8adb481132d5f2f35664dcf2ff6783578e5b",
+      "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "author-corrections.json": "4ef7022893362eeaaa11e0fbfeb1cf9d74c1bc17976f437d0a45a56f018da3a4",
+      "batch-plan.json": "6b5342026edf95b60844a393a95ce07f3ac8f8dfa56ffb2f8d9007e43660f322",
+      "comparison-provenance.json": "1526a796b4fcc3d2b403926f027ef1b564611d5d5037782c8dce9857c84505ce",
+      "deepl-index-01.json": "d36a0e361357356e8af38eb08a0c57cd7034b9e1e77fc5ea687834a32e55c583",
+      "deepl-index-02.json": "c8676c1bfc83db5a6f2aecc93158474c74d119d67fadee0f6e680aa3402df25c",
+      "deepl-index-03.json": "70b9859db3603736be750318dea0d9db736eee9437452b3fd894a7ec210ece3c",
+      "deepl-index-04.json": "1012e345126bea9e03301ce6ff3b3437cac2ef623a569d2557f92d4ec072997e",
+      "deepl-request-01.json": "6f66ad1165b0bfcbe0580b1b06f5ef897e1e27a2298bdf0b8029e14ea6a8557e",
+      "deepl-request-02.json": "87ab3d6680d6527a5917c1d4b567c58b34a55d5beae5319081bd0e5ae5f44cc4",
+      "deepl-request-03.json": "0e7d6707082eed8c38151d09caadbe05aba99c51f55766b7a61d027907c485d7",
+      "deepl-request-04.json": "1ee973cdd7e34782050f5260f402b053b08f646383ddbbb2baa5b081dbc8affa",
+      "deepl-response-01.json": "86a8f94d68691a9800754075870642feb26b70c30888976b59fe472d0d96b373",
+      "deepl-response-02.json": "fbfa2daa8f3e4b242300c5b3974fcccda1cb84e9c4e50f46d45526457ebdec85",
+      "deepl-response-03.json": "e09c39e65a1795def622e70a61ec9d1db606d3f44a1d8f0da8e3efd67ed8e7fc",
+      "deepl-response-04.json": "fabeb8bdcf4aa2d5589892b10fcd13130f0cd3117a02171cfb386ba49eac9eeb",
+      "edit.py": "cea12e3ea630d1ed7d7e0632186ee3fa22112e4898d53ce3a8c78de22c173017",
+      "edit2.py": "11ff3ba538dc9817277b4ad877138b822b6dc49f4a740e1948020fef0280eeb7",
+      "edited-group1.json": "13f35195f2fb8fab32532f33c563daec2cf188b64d70f60d03711642deef5e10",
+      "edited-group2.json": "cfc855c7cbe6791612e03144c9bdf4bf5aff3f6f957e8d47059e5e51097fcadf",
+      "edited.json": "d92b0ccb05192987ec9b773e7d72b38852b6f9c0c8b6f24b2465c59c915bf096",
+      "eligibility-review.json": "495744c7442a5fe0f5ecae5781b8a40d05bf3001af49dd591eccf0fb214af4e3",
+      "english-sources.json": "d064ee3bd6aa1968fa011d745cfb59e5295931c980bff46320fa0009fa321a44",
+      "fetched.json": "05cdaacf9abf4badb440fe697d652179ace0c69d0dc60b45113a6a28248acfe8",
+      "finalize.py": "b020ba3817f3a14f7e406301e2230ee6fcc1fd32506c3459b9fdc6f006f14244",
+      "frozen-artifact-hashes.json": "0b0479e493e1209117aad587045747a5b6c4d3324d6e0faa7a39541664f1e26c",
+      "held-fields.json": "099c8a1172aca5ce1a24b2979515ea46204ba17f70fd3d138255e19daae048a9",
+      "new-pronunciations.json": "46471035a10c60c4e205afdbffea2aa6a844caf54f151c5e687b56fab2f37c48",
+      "prepare.py": "38e14bb9d00e79652c3d522f581741b456d34c48497636133cef06c88ed4925b",
+      "pronunciation-review-status.json": "6d2c0149e012eb98b6de913cfb09ce20fe92cbd4cd7b152d6a2735b7d99d6986",
+      "pronunciations.json": "2ae25fdfeee8d3d6efe021f45ef424d46d48e2e4f03e726a3c335d232162e956",
+      "proposed-pronunciations.json": "46471035a10c60c4e205afdbffea2aa6a844caf54f151c5e687b56fab2f37c48",
+      "raw-source-proof-audit-horde_regions.json": "f6e80d62f9f6845fdfe3918dc5f4fb3d3db75ba7a9fdc35c1229044f0766620f",
+      "review-audit-group1.json": "cd4cbd20873bdff6fd7b6baae6a151b3541dc330a0875ea9ca7d2ce9b44ae791",
+      "review-audit-group2.json": "c56c3dfcae42847fdeb3a46ca9ccb4bf041631edee8e46b8be0eb0eb374915b5",
+      "review-audit.json": "e0204caba1b9a9e4349f68f3e6860779cdccef605a6f46a22133858d526cca7f",
+      "review-groups.json": "f460a816ce93fc8a26fe9594997b9fed4fecd3581d2c2fdf0fb48eab7f0359b2",
+      "semantic-notes-group1.json": "214c63b2661cc99bb6a7157f098be35a92ec533cdc759ab1e401fd3cf8e36906",
+      "semantic-notes-group2.json": "76264d71763eed5fff68faf5d7ef7c53edf615e1916ee871021b80cc537ab16a",
+      "semantic-notes.json": "0557ad639b7ad9784a7a7413944a5cce802a74a35f81632bf1af1df09bd2e663",
+      "separate-bilingual-review.json": "9afe1854e2778da95c13fdda1b8f75d080a2acc8322fec772f7a53c655d9d161",
+      "source-boundaries.json": "da1d5da5723be4591708394a3643c44ce93617f09d011d30fa6fbacf78901e2f",
+      "source-fetch-attempt-01.json": "ab311a292719af6fd53f1cfdcdbeecc36070c0a147129067ead27a9f5e0d5ee9",
+      "source-fetch-attempt-02.json": "03637d3cacc1516f9f114e08f4167699e009b730848aaff48daf1a956d8659af",
+      "source-fetch-attempt-03.json": "1d1f0e94d53da0333a02e6cc9f9e542c4329ec189c8c4d55daf861221944fcbb",
+      "source-fetch-attempt-04.json": "ff3f03d47fc17677fe6840f058d72e60c92ad3564ef75b35bd986cb0a9f98165",
+      "source-fetch-attempt-05.json": "e8a4bb8a1db775b81090784e920d080177bf1c5f47f5785d0b01af9040466567",
+      "source-fetch-attempts.json": "7a47a18fa21f4a9d166c61ac617b481f480dbee1d7c75f6233833779807c08ea",
+      "source-holds.json": "5a45b1e506fc0ec2287e1ca481f6b68f3400bf31727c176d8ce0d7e9192f43da",
+      "ua-field-countercheck.json": "fd07025b5d770d36368ae05cf578917963c5ee89c48ba76db6c7d991b4b345ea",
+      "validation-attempt-latest.json": "d02738df227ab956e662e51a78db2849eee0b753724aa79ef4a3dd43f3a01117",
+      "validation.json": "e15059d0139b16f6188c261ed8093312d6cf33598065d22b6b7fabe7185c5534"
+    },
+    "originalAuthorFilesAfter": {
+      "1918-sixty.html": "c88dbd6fb72e7f614c620d0ed9191261e2359671a97d4e81c783526d434a8323",
+      "1918-wowhead.html": "2f6525122c4610bd403664b658d0333abd8a65cb3f2c110bcd035f128f833c41",
+      "216-sixty.html": "c1c9bdbdb49e58f6f2e12dd4222d459f81bfd07b88d21045c0e6ced10b3f7b8c",
+      "216-wowhead.html": "a5963dd3c10bef9ec7329fc9897e98283a7f83241ae68740a485127292004463",
+      "25-sixty.html": "ed5ffc0fe83e2f9fe0c01275a66ab073689a5c6a0b9d409097eb353f90ce0b40",
+      "25-wowhead.html": "053f4580e820584bd8940c9e06e939f649b8e2f1844d07cbfc0c248737903bd1",
+      "501-sixty.html": "413e6a0a64fe1cf973c48ae1868814def4983a96dec7df82d815e7b8d7f19c69",
+      "501-wowhead.html": "09786ff5256ed6e950d89fd274e47498c23ebdd4d2bd11e3b013bf944fdc9716",
+      "502-sixty.html": "7630abb3737a46e2c192438d8083d5333b2e1246d20c12ffed37b53e60560210",
+      "502-wowhead.html": "a12c77d18c7b25c2c77926ea6d7419d04ff6fa7663b32c45b5972abca048df37",
+      "509-sixty.html": "1d0413ba519e679d99659c32ef40ce110182ba6a245df4a4f4cd7443794e35bb",
+      "509-wowhead.html": "f81c568f96a94b98846feb7528ce8b5c033a1926fa000d3e8feab16f5bb41d2d",
+      "513-sixty.html": "5d30d67d32121c9d86494011b19aa8291105bd109e8950d5c3f5e05b34d3f476",
+      "513-wowhead.html": "c3666292cc0ed221f63c9a16d3a681139f4bbc729341adfddb98571e3b3ce38f",
+      "515-sixty.html": "8c886680348567522a5a85d8bee7286bd14f5204cfc44d78546973b8185fc532",
+      "515-wowhead.html": "3830532b7387f85fd98ba3951556a15563fb0a52cf317f95bb06e11568e5a909",
+      "517-sixty.html": "47911da5f75c228c44a5485d225c2310283adc27930c5b0f8e791cc488594e80",
+      "517-wowhead.html": "77e178e37b2e39abce0faa997212dc57e00e52e0cc49f494ff6b46b27ace8b04",
+      "524-sixty.html": "600f44ef3151992b70d1e27e8cb25be2ebdd4ac44877a7e9e3f667da33d7703d",
+      "524-wowhead.html": "d3c82c9f73ae3cd63a522db9c769a777d9ff88a2d1faf03676ff6bc92f01918d",
+      "6441-sixty.html": "97873a8ae28f4702c0e637a8f348de8927793a7aa17d9ac59beef55f39aef4e8",
+      "6441-wowhead.html": "474e7d5f2a02ff554960e9c9a18b5cfd32e78bb41467a668562aa7e30c728ecd",
+      "6571-sixty.html": "a50cb612cef12d2f8fccdd3e39cf00258589ef712e87ad445eb18eaaed6b8bf8",
+      "6571-wowhead.html": "d113288dc52a2404941d17e2f6399e74a80dab965a8b27165590cf7a85ab0056",
+      "6581-sixty.html": "c84df824ec1810fde0442e713e34b1be037efd41cb6b9fe10e375c156a93cc3d",
+      "6581-wowhead.html": "8fa2a78b5e12e637d29cdb6cb34cf960f6e53df03c1ef3caee52c9566db76aba",
+      "6621-sixty.html": "4264d2b340ef3cfc6d0a97c92bdcc8a86721cf1743d9ef98e2c78737687b17ec",
+      "6621-wowhead.html": "435e96cbe459e85b8a819d5846a8f16f77b011187af0226a223a9b37af469a61",
+      "824-sixty.html": "a2aa0d026bc61d94bd53402de0f99583ec1fd83189a3dd8b65137fa82bcda20c",
+      "824-wowhead.html": "e785942b0e16d4f236e5084f1a2f8adb481132d5f2f35664dcf2ff6783578e5b",
+      "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "author-corrections.json": "4ef7022893362eeaaa11e0fbfeb1cf9d74c1bc17976f437d0a45a56f018da3a4",
+      "batch-plan.json": "6b5342026edf95b60844a393a95ce07f3ac8f8dfa56ffb2f8d9007e43660f322",
+      "comparison-provenance.json": "1526a796b4fcc3d2b403926f027ef1b564611d5d5037782c8dce9857c84505ce",
+      "deepl-index-01.json": "d36a0e361357356e8af38eb08a0c57cd7034b9e1e77fc5ea687834a32e55c583",
+      "deepl-index-02.json": "c8676c1bfc83db5a6f2aecc93158474c74d119d67fadee0f6e680aa3402df25c",
+      "deepl-index-03.json": "70b9859db3603736be750318dea0d9db736eee9437452b3fd894a7ec210ece3c",
+      "deepl-index-04.json": "1012e345126bea9e03301ce6ff3b3437cac2ef623a569d2557f92d4ec072997e",
+      "deepl-request-01.json": "6f66ad1165b0bfcbe0580b1b06f5ef897e1e27a2298bdf0b8029e14ea6a8557e",
+      "deepl-request-02.json": "87ab3d6680d6527a5917c1d4b567c58b34a55d5beae5319081bd0e5ae5f44cc4",
+      "deepl-request-03.json": "0e7d6707082eed8c38151d09caadbe05aba99c51f55766b7a61d027907c485d7",
+      "deepl-request-04.json": "1ee973cdd7e34782050f5260f402b053b08f646383ddbbb2baa5b081dbc8affa",
+      "deepl-response-01.json": "86a8f94d68691a9800754075870642feb26b70c30888976b59fe472d0d96b373",
+      "deepl-response-02.json": "fbfa2daa8f3e4b242300c5b3974fcccda1cb84e9c4e50f46d45526457ebdec85",
+      "deepl-response-03.json": "e09c39e65a1795def622e70a61ec9d1db606d3f44a1d8f0da8e3efd67ed8e7fc",
+      "deepl-response-04.json": "fabeb8bdcf4aa2d5589892b10fcd13130f0cd3117a02171cfb386ba49eac9eeb",
+      "edit.py": "cea12e3ea630d1ed7d7e0632186ee3fa22112e4898d53ce3a8c78de22c173017",
+      "edit2.py": "11ff3ba538dc9817277b4ad877138b822b6dc49f4a740e1948020fef0280eeb7",
+      "edited-group1.json": "13f35195f2fb8fab32532f33c563daec2cf188b64d70f60d03711642deef5e10",
+      "edited-group2.json": "cfc855c7cbe6791612e03144c9bdf4bf5aff3f6f957e8d47059e5e51097fcadf",
+      "edited.json": "d92b0ccb05192987ec9b773e7d72b38852b6f9c0c8b6f24b2465c59c915bf096",
+      "eligibility-review.json": "495744c7442a5fe0f5ecae5781b8a40d05bf3001af49dd591eccf0fb214af4e3",
+      "english-sources.json": "d064ee3bd6aa1968fa011d745cfb59e5295931c980bff46320fa0009fa321a44",
+      "fetched.json": "05cdaacf9abf4badb440fe697d652179ace0c69d0dc60b45113a6a28248acfe8",
+      "finalize.py": "b020ba3817f3a14f7e406301e2230ee6fcc1fd32506c3459b9fdc6f006f14244",
+      "frozen-artifact-hashes.json": "0b0479e493e1209117aad587045747a5b6c4d3324d6e0faa7a39541664f1e26c",
+      "held-fields.json": "099c8a1172aca5ce1a24b2979515ea46204ba17f70fd3d138255e19daae048a9",
+      "new-pronunciations.json": "46471035a10c60c4e205afdbffea2aa6a844caf54f151c5e687b56fab2f37c48",
+      "prepare.py": "38e14bb9d00e79652c3d522f581741b456d34c48497636133cef06c88ed4925b",
+      "pronunciation-review-status.json": "6d2c0149e012eb98b6de913cfb09ce20fe92cbd4cd7b152d6a2735b7d99d6986",
+      "pronunciations.json": "2ae25fdfeee8d3d6efe021f45ef424d46d48e2e4f03e726a3c335d232162e956",
+      "proposed-pronunciations.json": "46471035a10c60c4e205afdbffea2aa6a844caf54f151c5e687b56fab2f37c48",
+      "raw-source-proof-audit-horde_regions.json": "f6e80d62f9f6845fdfe3918dc5f4fb3d3db75ba7a9fdc35c1229044f0766620f",
+      "review-audit-group1.json": "cd4cbd20873bdff6fd7b6baae6a151b3541dc330a0875ea9ca7d2ce9b44ae791",
+      "review-audit-group2.json": "c56c3dfcae42847fdeb3a46ca9ccb4bf041631edee8e46b8be0eb0eb374915b5",
+      "review-audit.json": "e0204caba1b9a9e4349f68f3e6860779cdccef605a6f46a22133858d526cca7f",
+      "review-groups.json": "f460a816ce93fc8a26fe9594997b9fed4fecd3581d2c2fdf0fb48eab7f0359b2",
+      "semantic-notes-group1.json": "214c63b2661cc99bb6a7157f098be35a92ec533cdc759ab1e401fd3cf8e36906",
+      "semantic-notes-group2.json": "76264d71763eed5fff68faf5d7ef7c53edf615e1916ee871021b80cc537ab16a",
+      "semantic-notes.json": "0557ad639b7ad9784a7a7413944a5cce802a74a35f81632bf1af1df09bd2e663",
+      "separate-bilingual-review.json": "9afe1854e2778da95c13fdda1b8f75d080a2acc8322fec772f7a53c655d9d161",
+      "source-boundaries.json": "da1d5da5723be4591708394a3643c44ce93617f09d011d30fa6fbacf78901e2f",
+      "source-fetch-attempt-01.json": "ab311a292719af6fd53f1cfdcdbeecc36070c0a147129067ead27a9f5e0d5ee9",
+      "source-fetch-attempt-02.json": "03637d3cacc1516f9f114e08f4167699e009b730848aaff48daf1a956d8659af",
+      "source-fetch-attempt-03.json": "1d1f0e94d53da0333a02e6cc9f9e542c4329ec189c8c4d55daf861221944fcbb",
+      "source-fetch-attempt-04.json": "ff3f03d47fc17677fe6840f058d72e60c92ad3564ef75b35bd986cb0a9f98165",
+      "source-fetch-attempt-05.json": "e8a4bb8a1db775b81090784e920d080177bf1c5f47f5785d0b01af9040466567",
+      "source-fetch-attempts.json": "7a47a18fa21f4a9d166c61ac617b481f480dbee1d7c75f6233833779807c08ea",
+      "source-holds.json": "5a45b1e506fc0ec2287e1ca481f6b68f3400bf31727c176d8ce0d7e9192f43da",
+      "ua-field-countercheck.json": "fd07025b5d770d36368ae05cf578917963c5ee89c48ba76db6c7d991b4b345ea",
+      "validation-attempt-latest.json": "d02738df227ab956e662e51a78db2849eee0b753724aa79ef4a3dd43f3a01117",
+      "validation.json": "e15059d0139b16f6188c261ed8093312d6cf33598065d22b6b7fabe7185c5534"
+    },
+    "originalAuthorAllUnchanged": true,
+    "initialIndependentReportUnchanged": true,
+    "authorFreezeManifestSHA256": "0b0479e493e1209117aad587045747a5b6c4d3324d6e0faa7a39541664f1e26c"
+  },
+  "remainingVerification": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationNativeApproval": "all37 pending; corrected five cores approved editorially only",
+    "currentLiveForeverVerification": "not performed; all3 source conflicts remain held",
+    "controllerHardwareVerification": "not performed"
+  },
+  "nextAction": "Candidate passes repeated source-aware review with no remaining enabled-field issues. Root may continue identity/content contracts and release validation while preserving all three source holds and the frozen history."
+}

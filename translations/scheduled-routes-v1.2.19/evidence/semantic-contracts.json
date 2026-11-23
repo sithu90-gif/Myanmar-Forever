@@ -1,0 +1,234 @@
+{
+  "numeric": [
+    {
+      "id": 294,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mottled Screechers",
+          "quantity": 10
+        },
+        {
+          "term": "Mottled Raptors",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 295,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mottled Scytheclaw",
+          "quantity": 10
+        },
+        {
+          "term": "Mottled Razormaw",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 289,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Cursed Sailors",
+          "quantity": 13
+        },
+        {
+          "term": "Cursed Marines",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 501,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mountain Lion Blood",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": 509,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Mudsnout Blossoms",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Befouled Water Elementals",
+          "quantity": 12
+        }
+      ]
+    },
+    {
+      "id": 6441,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Satyr Horns",
+          "quantity": 16
+        }
+      ]
+    }
+  ],
+  "written": [
+    {
+      "id": 299,
+      "field": "objective",
+      "regex": "အပိုင်းအစ\\s*4\\s*ခု",
+      "meaning": "four tablet fragments, Ados/Modr/Golm/Neru"
+    },
+    {
+      "id": 296,
+      "field": "objective",
+      "needles": [
+        "ခြေသည်းတစ်ချောင်း"
+      ],
+      "meaning": "one Sarltooth talon"
+    },
+    {
+      "id": 288,
+      "field": "objective",
+      "needles": [
+        "တစ်ခွက်"
+      ],
+      "meaning": "a Flagon of Mead"
+    },
+    {
+      "id": 6581,
+      "field": "progress",
+      "needles": [
+        "တစ်လက်",
+        "ယူလာပေးရင်"
+      ],
+      "meaning": "a gun as condition of payment"
+    }
+  ],
+  "ordered": [
+    {
+      "id": 290,
+      "field": "objective",
+      "terms": [
+        "Intrepid Strongbox Key",
+        "Intrepid's Locked Strongbox"
+      ]
+    },
+    {
+      "id": 6621,
+      "field": "objective",
+      "terms": [
+        "Karang's Banner",
+        "Chief Murgut",
+        "Murgut's Totem",
+        "Karang Amakkar"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": 25,
+      "field": "objective",
+      "needles": [
+        "သတ်ပါ",
+        "ကင်းထောက်ပါ",
+        "တည့်တည့်အရှေ့ဘက်",
+        "အနောက်တောင်ဘက်"
+      ],
+      "meaning": "kill12 AND scoutgazebo, eastofpath/southwestofpost"
+    },
+    {
+      "id": 6621,
+      "field": "objective",
+      "needles": [
+        "ဖျက်ဆီးမသွားစေရန် ကာကွယ်ပါ"
+      ],
+      "meaning": "defend banner from destruction"
+    },
+    {
+      "id": 524,
+      "field": "objective",
+      "needles": [
+        "ဖျာပေါ်တွင်"
+      ],
+      "meaning": "Placekegonthefloorcovering/rug; ဖျာ is the reviewed floor-mat rendering."
+    },
+    {
+      "id": 6571,
+      "field": "objective",
+      "needles": [
+        "စုဆောင်းပါ"
+      ],
+      "meaning": "collect all4named supplies"
+    }
+  ],
+  "bindingTypes": {
+    "1513": "succubus",
+    "1474": "succubus",
+    "1739": "succubus",
+    "65603": "incubus",
+    "65597": "incubus",
+    "65604": "incubus"
+  },
+  "formalHolds": [
+    [
+      1510,
+      "complete"
+    ],
+    [
+      303,
+      "detail"
+    ],
+    [
+      303,
+      "objective"
+    ],
+    [
+      515,
+      "detail"
+    ],
+    [
+      515,
+      "objective"
+    ],
+    [
+      216,
+      "objective"
+    ]
+  ],
+  "basis": "Source-grounded quantity/action/task/type contracts; no native proofreading or currentlive claim.",
+  "englishSHA256": {
+    "295.objective": "72bd84d2efe00b3979393ebf467f80cca5b9e9faa5acdd0e7f102fa5f842f10a",
+    "25.objective": "5e6a598263f2fcd0acc6f6d11e8482eea0370bf79e8681fa45e78f1ac5672a2c",
+    "299.objective": "2c532ef19cbde807be34db5b2108a69800b9c0f65608f72336ac30ff0e17593a",
+    "509.objective": "52971bee6081626b6cb00d82adc229d2b1d149238a060f11dcc29c8371940cd2",
+    "1739.objective": "dd5f55b99c4b8f787cff3dfd56e7a540074580359d47c866f3c8eee49619c391",
+    "289.objective": "09bc40b7bbf39324404478d32b83c1ad8f3e409d1d8bcc4a9174a578c948e6be",
+    "6581.progress": "6293216c4e0b11c6b29f72bb2bfe34e271a4465475d9a701cf3317664e357bde",
+    "65603.objective": "ffc48c59d1c1e2e1a93dee6ecbd5e7dd50d3772fcaee07b05dc39615b90520ac",
+    "294.objective": "c7bafdea63f4cfadbec292e038a2c151a6f3b660216ea928bfa7faf5ec9f1c4b",
+    "1474.objective": "58535f036ee288753d9e68d329cb812e8765c3cce8d2d78853af2cc13981e000",
+    "524.objective": "4c10d285aa96444e29eb44937cb252ec122eadbc4df974db8a2a972fd4a11cc8",
+    "296.objective": "c2e0d486610d891cf6a91537744b14be589d97bf97e9d2f21636ab75a9003609",
+    "65597.objective": "0ebeed35f864067d9b008519db55c377bb1b1dba7ca3115ba6e4dda26b1a8b4b",
+    "6441.objective": "4826fed0bbee66d327759b6bc2b2398bbd6493f796ebcfb34f44d357b870f5c6",
+    "1513.objective": "7342fe5fed6d891e3f4cb975775b3dbcf901f291ca61e2486dbb835adcad808d",
+    "6571.objective": "1edf7e184523f39ad99c0e28a2a5d0432d2341749f922cae934e0e2212dd2cfa",
+    "290.objective": "d2ffb77b60bd6ee57a87a723188eba0e787d634e0ad836b89b66dff9a9575133",
+    "288.objective": "d34214cec53fda66cc9af85128bee7b2b81a214f89e7fc810f2f27bef36295ce",
+    "65604.objective": "9e99e292db0c4eefbef96ddd03c4a4b9415fbb9a655284410d95eca32a45cc47",
+    "6621.objective": "f60c937838b53a11dc614fda14fdb862c2005f266fad389a1834c597f4f60b74",
+    "501.objective": "6e301af4838d91b54bdcde056708d41e000d034d4cf6ff57e68230c4f2f61f08"
+  }
+}

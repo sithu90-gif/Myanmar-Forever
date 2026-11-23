@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "questCount": 15,
+  "fieldSlots": 75,
+  "availableEnglishFields": 72,
+  "actualDeepLFields": 72,
+  "enabledFields": 70,
+  "heldFields": 2,
+  "unavailableEnglishSlots": 3,
+  "nullStates": [
+    {
+      "id": 305,
+      "field": "progress"
+    },
+    {
+      "id": 472,
+      "field": "progress"
+    },
+    {
+      "id": 98230,
+      "field": "progress"
+    }
+  ],
+  "actualChecks": {
+    "linguistic_lint.lint": "PASS all15records",
+    "build_release.validate_fields": "PASS all75slots",
+    "originalPrimaryReparse": "PASS all75slots",
+    "rawToolInputOutputIndexFinalHashes": "PASS all72fields, including2heldproposals",
+    "successfulRequestAccounting": "PASS72/72;noalternateorunaccountedinput",
+    "rawFullToolJSON": "PASS all4fulltoolJSON parsed;structuredandtransportpayloadsequalstoredstructuredresults",
+    "paragraphsAndCommands": "PASS everyenabledfield",
+    "immutableAuthorGroupCheckpoints": "PASS all3checkpoints unchanged"
+  },
+  "DeepLBounds": [
+    {
+      "batch": 1,
+      "texts": 24,
+      "characters": 3659
+    },
+    {
+      "batch": 2,
+      "texts": 25,
+      "characters": 3708
+    },
+    {
+      "batch": 3,
+      "texts": 21,
+      "characters": 4988
+    },
+    {
+      "batch": 4,
+      "texts": 2,
+      "characters": 140
+    }
+  ],
+  "authorReview": "3separate English/Myanmar rereads completed aftereachgroupdraft; knownmachineerrorscorrected beforecheckpoints; no nativeclaim",
+  "independentAssistedReview": "pending fresh separate reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending native review",
+  "currentLiveVerification": "not tested;303clientcountunresolved",
+  "controllerHardwareVerification": "not tested",
+  "checkedAtUTC": "2026-11-23T06:51:35.177155+00:00"
+}

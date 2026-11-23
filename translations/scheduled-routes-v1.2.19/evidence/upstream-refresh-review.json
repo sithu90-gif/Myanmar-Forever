@@ -1,0 +1,48 @@
+{
+  "result": "PASS",
+  "changedQuestRecords": [
+    {
+      "id": 111,
+      "fields": [
+        "progress"
+      ]
+    },
+    {
+      "id": 8105,
+      "fields": [
+        "progress"
+      ]
+    }
+  ],
+  "changedRecordsInMyanmar": [
+    {
+      "id": 111,
+      "fields": [
+        "progress"
+      ]
+    }
+  ],
+  "enabledExistingChangesRequired": false,
+  "dispositions": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "Keep existing null",
+      "evidence": "Both freshly fetched current English references lack Progress; new UA state is not English source. No invented English or Myanmar; live state unknown."
+    },
+    {
+      "id": 8105,
+      "field": "progress",
+      "decision": "Not currently translated or selected; current references lack Progress; retain future source discrepancy",
+      "evidence": "Current primary/secondary source snapshot saved; no backtranslation."
+    }
+  ],
+  "sourceEvidenceHashes": {
+    "111-sixty.html": "40337c69fd795e757d93ca025c717e18eb092358073b36719e5b8fcba49adea0",
+    "111-wowhead.html": "7abb8b4511163b4c8b2b9886bd35778aac63a3813de9d90c9d157b7e2cf4e851",
+    "8105-sixty.html": "4fa40c792651d5ebff5966915f265c1dcf8484f59135d973da9ebd9fc6ece5bd",
+    "8105-wowhead.html": "90e212ba372c8827adf69356fe42cec2fced98fcfedd93fa052b9d200926722d",
+    "fetched.json": "023875b9143442b86f7e1ac4cb43a63de71b0581b330840a097dbbfbd99c199d"
+  },
+  "titleDiscrepancies": "Five inherited English-title dispositions remain source-supported; no invalid runtime alias added."
+}

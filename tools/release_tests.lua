@@ -1298,3 +1298,97 @@ if A.quests[1698] and A.quests[1823] and A.quests[1649] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-English identity contracts, same-title steps, absent states and explicit source holds.')
 end
+
+if A.quests[1509] and A.quests[305] and A.quests[501] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({1509,1510,1511,1515,1512,1513,1474,1717,1738,1739,65602,65603,2299,2298,2300,65593,65597,65601,65610,65604,305,306,294,295,296,288,289,290,292,293,299,472,303,378,98230,501,502,509,513,515,517,524,216,6621,25,6441,6571,6581,1918,824}) do
+    assert(A.quests[id] and A.quests[id].title,'23NovemberAfternoon quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost ID/title')
+    end
+  end
+  for _,h in ipairs({{1510,"complete"},{303,"detail"},{515,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held field lost English fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail,'Historical source holds refilled')
+  assert(not A.quests[111].progress,'New UA-only reply enabled without current English')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:23NovemberAfternoon50 records and150 dialogue routing/capture cases; original fallback for held states.')
+end
+
+if A.quests[1509] and A.quests[305] and A.quests[501] then
+  local contracts={
+    {1509,"objective",{"Gazrog","Crossroads"}},
+    {1510,"objective",{"Ken'zigla","Malaka'jin"}},
+    {1511,"objective",{"Ken'zigla's Draught","Grunt Logmar","Camp Taurajo"}},
+    {1515,"objective",{"Ken'zigla's Draught","Dogran","Barrens"}},
+    {1512,"objective",{"Dirt-caked Pendant","Gan'rul Bloodeye","Orgrimmar"}},
+    {1513,"objective",{"Dogran's Pendant","Gan'rul Bloodeye"}},
+    {1474,"objective",{"Pure Hearts","Carendin Halgar","Undercity"}},
+    {1717,"objective",{"Gakin the Darkbinder","Stormwind"}},
+    {1738,"objective",{"Heartswood","Ashenvale","Gakin the Darkbinder"}},
+    {1739,"objective",{"Heartswood Core","Gakin the Darkbinder","Slaughtered Lamb"}},
+    {65602,"objective",{"Wooden Figurine","Gakin the Darkbinder"}},
+    {65603,"objective",{"Wooden Figurine","Gakin the Darkbinder","Slaughtered Lamb"}},
+    {2299,"objective",{"Ironforge","Hulfdan Blackbeard"}},
+    {2298,"objective",{"Stormwind","Renzik"}},
+    {2300,"objective",{"Stormwind","Renzik"}},
+    {65593,"objective",{"Avelina Lilly","Isaac Pearson","Carendin Halgar","Temple of the Damned"}},
+    {65597,"objective",{"Lovers' Hearts","Carendin Halgar","Undercity"}},
+    {65601,"objective",{"Magar","Orgrimmar"}},
+    {65610,"objective",{"Fallen Sky Lake","Ashenvale","Gan'rul Bloodeye"}},
+    {65604,"objective",{"Withered Scarf","Gan'rul Bloodeye","Orgrimmar"}},
+    {305,"objective",{"Tarrel Rockweaver","Merrin Rockweaver"}},
+    {306,"objective",{"Tarrel Rockweaver","Merrin"}},
+    {294,"objective",{"Ormer Ironbraid","Mottled Screechers","Mottled Raptors"}},
+    {295,"objective",{"Ormer Ironbraid","Mottled Scytheclaw","Mottled Razormaw"}},
+    {296,"objective",{"Ormer Ironbraid","Sarltooth"}},
+    {288,"objective",{"First Mate Fitzsimmons","Flagon of Mead"}},
+    {289,"objective",{"Cursed Sailors","Cursed Marines","First Mate Snellig","Snellig's Snuffbox"}},
+    {290,"objective",{"Captain Halyndor","Intrepid Strongbox Key","Intrepid's Locked Strongbox"}},
+    {292,"objective",{"Cursed Eye of Paleth","Glorin Steelbrow"}},
+    {293,"objective",{"Archbishop Benedictus","Cursed Eye of Paleth","Cathedral of Light"}},
+    {299,"objective",{"Prospector Whelgar","Ados","Modr","Golm","Neru"}},
+    {472,"objective",{"Longbraid","Dun Modr"}},
+    {303,"complete",{"King Magni"}},
+    {378,"objective",{"Motley Garmason","Kam Deepfury","Dun Modr"}},
+    {98230,"objective",{"Howin Kindfeather","Menethil Harbor"}},
+    {501,"objective",{"Mountain Lion Blood","Apothecary Lydon","Tarren Mill"}},
+    {502,"objective",{"Elixir of Pain","Stanley"}},
+    {509,"objective",{"Mudsnout Blossoms","Apothecary Lydon","Tarren Mill"}},
+    {513,"objective",{"Mudsnout Composite","Master Apothecary Faranell","Undercity"}},
+    {515,"progress",{"Umpi","Undercity"}},
+    {517,"objective",{"Shindigger Stout","Apothecary Lydon"}},
+    {524,"objective",{"Tainted Keg"}},
+    {216,"detail",{"Thistlefur"}},
+    {6621,"objective",{"Karang's Banner","Foulweald Totem Mound","Chief Murgut","Murgut's Totem","Karang Amakkar"}},
+    {25,"objective",{"Befouled Water Elementals","Mystral Lake","Talondeep Path","Splintertree Post","Mastok Wrilehiss"}},
+    {6441,"objective",{"Satyr Horns","Pixel"}},
+    {6571,"objective",{"Warsong Saw Blades","Logging Rope","Warsong Oil","Warsong Axe Shipment","Locke Okarr"}},
+    {6581,"progress",{"Ratchet","deadly blunderbuss"}},
+    {1918,"objective",{"Befouled Water Globe","Mastok Wrilehiss"}},
+    {824,"objective",{"Befouled Water Globe","Je'neu Sancrea"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing current-source task identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source target/recipient/item identity failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{1509,"progress"},{1510,"progress"},{1717,"progress"},{2299,"progress"},{2298,"progress"},{2300,"progress"},{65601,"progress"},{305,"progress"},{472,"progress"},{98230,"progress"},{6581,"detail"},{6581,"objective"}}) do assert(not A.quests[r[1]][r[2]],'Invented missing current source state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({{1510,"complete"},{303,"objective"},{303,"detail"},{515,"detail"},{515,"objective"},{216,"objective"}}) do assert(not A.quests[h[1]][h[2]],'Source-conflicting field refilled:'..h[1]..'/'..h[2]) end
+  local bindings={1513,1474,1739,65603,65597,65604}
+  for i=1,#bindings do
+    assert(A.quests[bindings[i]].en=='The Binding','Summoning identity/title changed')
+    for j=i+1,#bindings do assert(A.quests[bindings[i]].objective~=A.quests[bindings[j]].objective,'Different summons/items/recipients collapsed') end
+  end
+  assert(A.quests[2298].objective==A.quests[2300].objective and A.quests[2298].detail~=A.quests[2300].detail,'Legitimate shared Renzik objective or different referral context lost')
+  assert(A.quests[305].en==A.quests[306].en and A.quests[305].objective~=A.quests[306].objective,'Excavation travel/return steps collapsed')
+  for _,pair in ipairs({{294,295},{295,296},{501,502},{509,513},{517,524},{1918,824}}) do
+    assert(A.quests[pair[1]].objective~=A.quests[pair[2]].objective,'Different target/material/task/handoff collapsed')
+  end
+  assert(A.quests[6581].title and A.quests[6581].progress and A.quests[6581].complete and not A.quests[6581].detail and not A.quests[6581].objective,'SawBlade source boundaries invented')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-source identity contracts, distinct binding/referral/route steps, missing states and source holds.')
+end
