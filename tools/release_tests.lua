@@ -1584,3 +1584,93 @@ if A.quests[1472] and A.quests[2923] and A.quests[96241] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-source objective contracts, distinct Warlock and dungeon stages, unavailable states and gender hold.')
 end
+
+if A.quests[79192] and A.quests[98815] and A.quests[98219] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({79192,79980,79974,79975,79976,98027,98417,98418,1011,1012,1084,5881,857,98815,95646,95647,95737,95772,95795,95809,95810,98824,98216,98310,98313,95663,95682,95664,98823,95697,335,336,397,536,559,560,561,562,563,98219,637,683,686,689,700,1142,1144,1221,78916,78917}) do
+    assert(A.quests[id] and A.quests[id].title,'25NovemberMorning quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Morning state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Morning capture lost quest ID/title')
+    end
+  end
+  for _,h in ipairs({}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held field lost original fallback/capture')
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail and not A.quests[111].progress,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:25NovemberMorning50 records and150 new dialogue cases ; held branches keep native fallback.')
+end
+
+if A.quests[79192] and A.quests[98815] and A.quests[98219] then
+  local contracts={
+    {79192,"detail",{"Mission","New Plague","The Barrens","Desolace"}},
+    {79975,"detail",{"Eagle and Fist","Old Kingdoms"}},
+    {98027,"objective",{"Crescent Necklace","Maliynn","Astranaar"}},
+    {98417,"objective",{"Maseara Autumnmoon","Forest Song","Satyrnaar","Kurothel"}},
+    {98418,"objective",{"Xavian Rogues","Felsworn","Betrayers","Hellcallers","Maseara Autumnmoon","Forest Song"}},
+    {1011,"objective",{"Bottle of Disease","Kayneth Stillwind","Forest Song"}},
+    {1012,"objective",{"Taneel Darkwood","Uthil Mooncall","Mavoris Cloudsbreak","Kayneth Stillwind","Forest Song"}},
+    {1084,"objective",{"Corroded Shrapnel","Kaela Shadowspear","Stonetalon"}},
+    {5881,"objective",{"Maggran","Grish Longrunner","Great Lift","Barrens"}},
+    {857,"objective",{"Feegly the Exiled","Tear of the Moons"}},
+    {98815,"objective",{"Thicket Raptor Hides","James Halloran","Menethil Harbor"}},
+    {95646,"objective",{"Excavation Sites","Highland Horror","Rethiel the Greenwarden","Wetlands"}},
+    {95647,"objective",{"Excavation Sites","Ardin Grassman"}},
+    {95737,"objective",{"Caitlin Grassman","Menethil Harbor"}},
+    {95772,"objective",{"Whelgar's Excavation Site","Dorin Songblade","Daewyn"}},
+    {95795,"objective",{"Dorin Songblade"}},
+    {95809,"objective",{"Caitlin Grassman","Menethil Harbor"}},
+    {95810,"objective",{"Titan Relic","Prospector Whelgar","Wetlands"}},
+    {98824,"objective",{"Titan Relic","High Explorer Magellas","Hall of Explorers","Ironforge"}},
+    {98216,"objective",{"Goaz Stone","Goaz Warder","Titanic Keystone","Prospector Whelgar"}},
+    {98310,"objective",{"Goaz Stone","Ados","Modr","Golm","Neru","Prospector Whelgar"}},
+    {98313,"objective",{"Whelgar Relic Package","Historian Karnik","Ironforge"}},
+    {95663,"objective",{"Wetlands","Dragonmaw","Deathstalker Agent"}},
+    {95682,"objective",{"Excavation Site","Dragonmaw","Deathstalker Agent"}},
+    {95664,"objective",{"Titan Relic","Elder Rise","Thunder Bluff"}},
+    {98823,"objective",{"Titan Relic","Muln Earthfury","Skywatcher Plateau","Mulgore"}},
+    {95697,"objective",{"Wetlands","Excavation Sites","Thicket Raptor Meat"}},
+    {335,"objective",{"Zardeth the Black Claw","Darkshire","Tear of Tilloa","Wetlands","Musquash Root"}},
+    {336,"objective",{"Black Claw Stout","Lord Wishock","Hall of Petitioners"}},
+    {397,"objective",{"Zggi","Zardeth the Blackclaw"}},
+    {536,"objective",{"Torn Fin Tidehunters","Torn Fin Oracles","Lieutenant Farren Orinelle","Southshore"}},
+    {559,"objective",{"Murloc Heads","Western Strand","Lieutenant Farren Orinelle","Southshore"}},
+    {560,"objective",{"sack of murloc heads","Marshall Redpath","Southshore"}},
+    {561,"objective",{"Lieutenant Farren Orinelle","Southshore"}},
+    {562,"objective",{"Daggerspine Shorehunters","Daggerspine Sirens","Lieutenant Farren Orinelle","Southshore"}},
+    {563,"objective",{"Farren's report","Major Samuelson","Stormwind Keep"}},
+    {637,"objective",{"Sully Balloo's Letter","Sara Balloo"}},
+    {683,"objective",{"Sara Balloo","King Magni Bronzebeard","Ironforge"}},
+    {686,"objective",{"King Magni Bronzebeard","Grand Mason Marblesten"}},
+    {689,"objective",{"Grand Mason Marblesten","Ironforge","Alterac Granite"}},
+    {700,"objective",{"King Magni Bronzebeard"}},
+    {1142,"objective",{"Treshala's Pendant","Treshala Fallowbrook","Darnassus"}},
+    {1144,"objective",{"Willix the Importer","Razorfen Kraul"}},
+    {1221,"objective",{"Crate with Holes","Snufflenose Command Stick","Snufflenose Owner's Manual","Razorfen Kraul","Snufflenose Gopher","Command Stick","Blueleaf Tubers","Mebok Mizzyrix","Ratchet"}},
+    {78916,"objective",{"Blackfathom Pearl","Dawnwatcher Selgorm","Darnassus"}},
+    {78917,"objective",{"Blackfathom Pearl","Bashana Runetotem","Thunder Bluff"}},
+    {98219,"objective",{"Lieutenant Farren Orinelle","Southshore","Hillsbrad Foothills"}},
+    {1011,"detail",{"bottle of disease"}},
+    {1011,"progress",{"bottle of disease"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source task identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Current source identity failed:'..c[1]..'/'..term) end
+  end
+  for _,c in ipairs({{79980,"detail"},{79974,"detail"},{79976,"detail"}}) do
+    questID=c[1];fire('QUEST_DETAIL');flush()
+    assert(A.window:IsShown() and shown.text:find(A.quests[c[1]][c[2]],1,true),'Clue encoded field did not render for exact quest ID')
+  end
+  for _,r in ipairs({{79192,"progress"},{79980,"progress"},{79974,"progress"},{79975,"progress"},{79976,"progress"},{98027,"progress"},{95647,"progress"},{95647,"complete"},{95737,"progress"},{95772,"progress"},{95772,"complete"},{95795,"progress"},{95663,"progress"},{397,"progress"},{98219,"progress"},{561,"progress"},{686,"progress"},{700,"progress"},{1144,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented missing current source state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({}) do assert(not A.quests[h[1]][h[2]],'Unsupported field enabled:'..h[1]..'/'..h[2]) end
+  for _,pair in ipairs({{79192,79980},{79980,79974},{79974,79975},{79975,79976},{98417,98418},{95646,95647},{95737,95772},{95795,95809},{95809,95810},{559,560},{560,561},{561,562},{562,563},{637,683},{683,686},{686,689},{689,700},{335,336},{336,397}}) do
+    assert(A.quests[pair[1]].objective~=A.quests[pair[2]].objective,'Different handoff/task stages collapsed')
+  end
+  assert(A.quests[559].en==A.quests[560].en and A.quests[560].en==A.quests[561].en,'Same-title Farren stages changed')
+  assert(A.quests[686].en==A.quests[689].en and A.quests[689].en==A.quests[700].en,'Same-title royal tribute stages changed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-source quest contracts plus linked item safeguards, distinct treasure, Farren and royal tribute stages, unavailable states and recorded holds.')
+end

@@ -1,0 +1,1284 @@
+{
+  "result": "PASS",
+  "partition": "regional_routes",
+  "questIDs": 17,
+  "fieldSlots": 85,
+  "sourceFields": 80,
+  "enabledFields": 80,
+  "rawDeepLFieldsVerified": 80,
+  "unavailableNullStates": 5,
+  "affectedFieldsReread": 8,
+  "unchangedSlots": 77,
+  "issues": [],
+  "candidateHashesAfter": {
+    "edited.json": "94ba76e9be56b4fea5b5d35e225145e32d7a37d7ea39c99ccfe14e608ee2fda5",
+    "pronunciations.json": "7ab3168744481400c00ffbd872bd0658883efc40b0d03180150ea628775fe78c",
+    "review-audit.json": "07a0600937dea0a97da3feffce1984cdab9c970965fb9d5547633c6bab2c69f1",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "c957ae2208ed9cfd95087f90a1f1667414fbbab5196fe4a915280d1e9a5f6485"
+  },
+  "candidateHashesBefore": {
+    "edited.json": "94ba76e9be56b4fea5b5d35e225145e32d7a37d7ea39c99ccfe14e608ee2fda5",
+    "pronunciations.json": "7ab3168744481400c00ffbd872bd0658883efc40b0d03180150ea628775fe78c",
+    "review-audit.json": "07a0600937dea0a97da3feffce1984cdab9c970965fb9d5547633c6bab2c69f1",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "c957ae2208ed9cfd95087f90a1f1667414fbbab5196fe4a915280d1e9a5f6485"
+  },
+  "documentaryCorrectedFileHashes": {
+    "review-audit-group2.json": "ceb50859596e692b8e3c121a4192064028a9aa249956bf80bf799ffa1fb61773",
+    "review-audit.json": "ae8f7a21659163574162cbd8e8559a18181484f917c3b0b1fabdb675419bf9e1",
+    "review-groups.json": "863537f63d2b5849a884f220a2a13a625deb2cf4522d48e41c277ba6595d8074",
+    "semantic-notes-group2.json": "c5ad409a4552dbf137aef5f08add622bef64e453da3374cea8a800c3f7bf6c96",
+    "semantic-notes.json": "9c8672a8d26e78689e9de374e0448bc3650f746a4f35da100dde5e056752ed2b",
+    "source-sanity.json": "623f2e888822144afec566c97af3ad2240dcd87e64bb15b8ae2fb7bf0b5e6ffe",
+    "author-summary.json": "b2a5d6c1eb39e874e9867add7b22395e5010aa07a80083ea09b95e85133f37f4"
+  },
+  "documentaryCorrections": {
+    "result": "PASS",
+    "files": 7,
+    "patches": 33,
+    "proof": [
+      {
+        "file": "review-audit-group2.json",
+        "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+        "correctedFileSHA256": "ceb50859596e692b8e3c121a4192064028a9aa249956bf80bf799ffa1fb61773",
+        "patches": 12,
+        "result": "PASS"
+      },
+      {
+        "file": "review-audit.json",
+        "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+        "correctedFileSHA256": "ae8f7a21659163574162cbd8e8559a18181484f917c3b0b1fabdb675419bf9e1",
+        "patches": 12,
+        "result": "PASS"
+      },
+      {
+        "file": "review-groups.json",
+        "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+        "correctedFileSHA256": "863537f63d2b5849a884f220a2a13a625deb2cf4522d48e41c277ba6595d8074",
+        "patches": 2,
+        "result": "PASS"
+      },
+      {
+        "file": "semantic-notes-group2.json",
+        "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+        "correctedFileSHA256": "c5ad409a4552dbf137aef5f08add622bef64e453da3374cea8a800c3f7bf6c96",
+        "patches": 2,
+        "result": "PASS"
+      },
+      {
+        "file": "semantic-notes.json",
+        "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+        "correctedFileSHA256": "9c8672a8d26e78689e9de374e0448bc3650f746a4f35da100dde5e056752ed2b",
+        "patches": 2,
+        "result": "PASS"
+      },
+      {
+        "file": "source-sanity.json",
+        "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+        "correctedFileSHA256": "623f2e888822144afec566c97af3ad2240dcd87e64bb15b8ae2fb7bf0b5e6ffe",
+        "patches": 2,
+        "result": "PASS"
+      },
+      {
+        "file": "author-summary.json",
+        "authorFileSHA256": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+        "correctedFileSHA256": "b2a5d6c1eb39e874e9867add7b22395e5010aa07a80083ea09b95e85133f37f4",
+        "patches": 1,
+        "result": "PASS"
+      }
+    ],
+    "facts": [
+      "637 pinned UA Alliance agrees with exact current ownIDside1.",
+      "683 Sara Balloo Plea is item4514 in exact source objective href and installedS.11."
+    ],
+    "frozenOriginalPublicationDisposition": "Original author evidence retained as historical archived copies; active public evidence uses corrected copies. Frozen authorHTML remains sourcehistory only; final downloadHTML generated from currentcandidate per root disposition."
+  },
+  "fieldsReread": [
+    {
+      "id": 98219,
+      "field": "title",
+      "sourceEnglish": "The Shamed Lieutenant",
+      "reviewedMyanmar": "အရှက်ရခဲ့သည့် Lieutenant (လူတဲနန့်တ်)",
+      "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+      "candidateMyanmarSHA256": "3adabffd26433f9d8f2d728fabaa43b2faa74c0a623a9afa37d93970904498dc",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 98219,
+      "field": "objective",
+      "sourceEnglish": "Speak to Lieutenant Farren Orinelle in Southshore in Hillsbrad Foothills.",
+      "reviewedMyanmar": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+      "candidateMyanmarSHA256": "1b2986f5fb0535acadd25b7c69dd2690ef1706b3d9174e21b8e235f6484d66d1",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 536,
+      "field": "objective",
+      "sourceEnglish": "Kill 10 Torn Fin Tidehunters and 10 Torn Fin Oracles for Lieutenant Farren Orinelle in Southshore.",
+      "reviewedMyanmar": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+      "candidateMyanmarSHA256": "99c31fa7d766d5582a4e89d63981d5efc12391235b4cb8194ec88e416ac811bd",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 559,
+      "field": "objective",
+      "sourceEnglish": "Collect 10 Murloc Heads from the murlocs on the Western Strand for Lieutenant Farren Orinelle in Southshore.",
+      "reviewedMyanmar": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+      "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+      "candidateMyanmarSHA256": "920032306ae10eadeab0cd0f8cf348049ba136ab4af5972386715474f79367f9",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 560,
+      "field": "objective",
+      "sourceEnglish": "Deliver the sack of murloc heads to Marshall Redpath in Southshore.",
+      "reviewedMyanmar": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+      "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+      "candidateMyanmarSHA256": "02bb503f4d00e434e3ffdf5ca1682304faddaf06a88dd6fe12d96bfb1c465083",
+      "finding": "Complete source Marshall Redpath identity now uses maintained မာရှယ်; sack delivery and Southshore conserved.",
+      "issues": []
+    },
+    {
+      "id": 561,
+      "field": "detail",
+      "sourceEnglish": "Please inform Lieutenant Orinelle that I would like him to refocus his efforts on the naga infesting the Eastern Strand. When he has results, tell him to report to me in person.",
+      "reviewedMyanmar": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လူတဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+      "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+      "candidateMyanmarSHA256": "432f4d1dac7a86421d3929c12556067003ad603da350b52680a2a38c4eed11be",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 561,
+      "field": "objective",
+      "sourceEnglish": "Speak with Lieutenant Farren Orinelle in Southshore.",
+      "reviewedMyanmar": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+      "candidateMyanmarSHA256": "195d9b93bc9e953bac823d0bad756432297d7c55c3e7687d21c97a280b6c7082",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    },
+    {
+      "id": 562,
+      "field": "objective",
+      "sourceEnglish": "Kill 10 Daggerspine Shorehunters and 10 Daggerspine Sirens for Lieutenant Farren Orinelle in Southshore.",
+      "reviewedMyanmar": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+      "candidateMyanmarSHA256": "164df9e3227bdb712268fd481851dd07de00ad4ee3b3c4fee3b378249c8a247b",
+      "finding": "Complete Lieutenant identity now uses maintained လူတဲနန့်တ်; all original semantics and markers conserved.",
+      "issues": []
+    }
+  ],
+  "fieldHashReadStates": [
+    {
+      "id": 98219,
+      "field": "title",
+      "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+      "candidateMyanmarSHA256": "3adabffd26433f9d8f2d728fabaa43b2faa74c0a623a9afa37d93970904498dc",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 98219,
+      "field": "detail",
+      "englishSHA256": "a6d975786a18beecf030a1ff8cff4180c1a4a928a152339b27b9b1d25a50306f",
+      "candidateMyanmarSHA256": "98222d7daeada5907ab9b6cf814fb9cd2893a637566ace2103f4ba5149097dcf",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 98219,
+      "field": "objective",
+      "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+      "candidateMyanmarSHA256": "1b2986f5fb0535acadd25b7c69dd2690ef1706b3d9174e21b8e235f6484d66d1",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 98219,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "unavailable-null-retained"
+    },
+    {
+      "id": 98219,
+      "field": "complete",
+      "englishSHA256": "125932ab28ca803cc63baf5685ad2c1809b39ccb845f5c17555d4bda9bf4b591",
+      "candidateMyanmarSHA256": "09707cb5359dc02f95676ecf28cdec92387abd1d7a2dfad14773b0bc1729dbcc",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 536,
+      "field": "title",
+      "englishSHA256": "d0043a5c7189234f951c2a2eedbb6ae0008e9dfe2d995d5386990ba56705b6a7",
+      "candidateMyanmarSHA256": "6962faaa674ac84615e117b1c1273aaa552fc88b44cbd2aa06442c9c37533430",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 536,
+      "field": "detail",
+      "englishSHA256": "996e7d42f38d1834ca663d89917fceccf048353f8ec542335861568dd72208b9",
+      "candidateMyanmarSHA256": "da805ab199e44720f2ce3244508e2263234fca88319bc427b1b3c97fca7d082d",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 536,
+      "field": "objective",
+      "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+      "candidateMyanmarSHA256": "99c31fa7d766d5582a4e89d63981d5efc12391235b4cb8194ec88e416ac811bd",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 536,
+      "field": "progress",
+      "englishSHA256": "1f146f545660e08f380776d8a971c1ba6fbcd4de7cc4aba0489a1713c0f1b65e",
+      "candidateMyanmarSHA256": "f6dfe7eaf96bada24c31730c17b6e030bdcb26dac1ec2491a574f1a879715ab6",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 536,
+      "field": "complete",
+      "englishSHA256": "7b68909a20a60a884f48abb24117a793ae8feafed4905b27b29957f070e66264",
+      "candidateMyanmarSHA256": "ab692f36dba131eba1a5138f43e54c18c98060a1554a840c6ce93e6663e75002",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 559,
+      "field": "title",
+      "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+      "candidateMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 559,
+      "field": "detail",
+      "englishSHA256": "cc06087c704bed4dd90b2d01955f96344e3e1a6fe8cd6ad1f45d3b26688db53f",
+      "candidateMyanmarSHA256": "4160ca6846ec631b1c81d171e24997a9d2bacfa1229ee373afd3820c5a907cfe",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 559,
+      "field": "objective",
+      "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+      "candidateMyanmarSHA256": "920032306ae10eadeab0cd0f8cf348049ba136ab4af5972386715474f79367f9",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 559,
+      "field": "progress",
+      "englishSHA256": "515b55a8fdb52ee806298959c0917b3cb6d993eb78ec1508f29fbb3c434bbb08",
+      "candidateMyanmarSHA256": "2a413d9885d982d349cee6c83635d40cc315e5d11beadd59c954fee2171a0630",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 559,
+      "field": "complete",
+      "englishSHA256": "8ec628c19977b305707b062155338d787a0cff9a15ec94125a616104b503e7aa",
+      "candidateMyanmarSHA256": "0fe384b340529c340be818c8f9a105ac879498985932121c5e49c35ecfd0007b",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 560,
+      "field": "title",
+      "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+      "candidateMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 560,
+      "field": "detail",
+      "englishSHA256": "85b54087e9c1012c14ce74ad40c4a8335c436c60e9c5043b41687eab14b7b5da",
+      "candidateMyanmarSHA256": "d7096459591e0c14c086903811f81bd039831f8cc17e77f568dbab13567944f8",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 560,
+      "field": "objective",
+      "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+      "candidateMyanmarSHA256": "02bb503f4d00e434e3ffdf5ca1682304faddaf06a88dd6fe12d96bfb1c465083",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 560,
+      "field": "progress",
+      "englishSHA256": "78331933a8c5e9252df9523fdc10227c5db2a75cad8d2a1d9756c52525f8959c",
+      "candidateMyanmarSHA256": "88d2f3b87a342b8c3cd769bf859e29da88ba0d4f4bed9f84fb2e3e51b46b4dac",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 560,
+      "field": "complete",
+      "englishSHA256": "d96bd50dd5dfe51df1163896bde400411b7061c9c282bc143acb7c2c92b064f7",
+      "candidateMyanmarSHA256": "02452a432fc3bbdec40f70f20051727e5dfe7e1a496c97c53041eb99fc7c3074",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 561,
+      "field": "title",
+      "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+      "candidateMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 561,
+      "field": "detail",
+      "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+      "candidateMyanmarSHA256": "432f4d1dac7a86421d3929c12556067003ad603da350b52680a2a38c4eed11be",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 561,
+      "field": "objective",
+      "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+      "candidateMyanmarSHA256": "195d9b93bc9e953bac823d0bad756432297d7c55c3e7687d21c97a280b6c7082",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 561,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "unavailable-null-retained"
+    },
+    {
+      "id": 561,
+      "field": "complete",
+      "englishSHA256": "737e2b3d1b03917b3892b45bbabd2efde0560a0d003a2e615ab80755a1b6ca9e",
+      "candidateMyanmarSHA256": "17f4b05f6269f512041b9403bc28166ac3672ba08bae097ae2f605a1d0dc9d7b",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 562,
+      "field": "title",
+      "englishSHA256": "29e5179221d18e31f99752ecbae7ce33b0d3b6f839d920058ec3496910404160",
+      "candidateMyanmarSHA256": "1d045491a237e6dc3241835a755101802acd7d5163d4aed89f385b7d804b8fa2",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 562,
+      "field": "detail",
+      "englishSHA256": "682fac4631431888ee5a789866034788b3636aecf26e9691041b2d86ff89fdd9",
+      "candidateMyanmarSHA256": "2dc5c4cc41231faf14822e929eb245f4fd18677228dacff46e5cd2394b822ebb",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 562,
+      "field": "objective",
+      "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+      "candidateMyanmarSHA256": "164df9e3227bdb712268fd481851dd07de00ad4ee3b3c4fee3b378249c8a247b",
+      "changed": true,
+      "status": "enabled"
+    },
+    {
+      "id": 562,
+      "field": "progress",
+      "englishSHA256": "419cad9137151fa47c65984162cc6a500f162eb450f663c198dd7c7d19a6a8d6",
+      "candidateMyanmarSHA256": "12e1a91bc4183344ce08528ea96f5f4367a424c85f16ab0f9014d77b7a1059d1",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 562,
+      "field": "complete",
+      "englishSHA256": "a6874521d77e523dc007bb193483313a111738431a23a12921248c78eec5811a",
+      "candidateMyanmarSHA256": "a90a8e4dd5d87d8aa43d2e98b2922e8a1b32ad6d936a1937118f7ac4646b4074",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 563,
+      "field": "title",
+      "englishSHA256": "876d6991e5874dc48b6e5bf3b0e56e210b48afc75c6de18c059a2190bdf25df4",
+      "candidateMyanmarSHA256": "c8f270e7843c0cd8d8ea3fec3d2494e8d9b6797a3a996b279273a0edde23e7e4",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 563,
+      "field": "detail",
+      "englishSHA256": "333afc06ad6078765d948aac25c478a076ef53c997c727e9bee92d13b588cdd0",
+      "candidateMyanmarSHA256": "daf224ade0472927bed9226c1f6012078a6d8559040c984c8b832a8a0dbf10f4",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 563,
+      "field": "objective",
+      "englishSHA256": "ef41aa7246bb2bab45d0e0141f9f816c576965d0ef521aab6a34502c094cadc8",
+      "candidateMyanmarSHA256": "72c7fdfc9ea139114e971085f7da38b9fbbcebbbc7aab9da599c994432fbb950",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 563,
+      "field": "progress",
+      "englishSHA256": "eb47f757ea78e558f8babe41e7201c2ce68effe3343def82824e703473ac8d38",
+      "candidateMyanmarSHA256": "4b0d7b6c5b10f07976375fa83c21ee58aef3fb4e7317d63e638b2eac985dec12",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 563,
+      "field": "complete",
+      "englishSHA256": "4740430e08124ddaf87117808f4f80ad7868fabf7d25c70d6534382022e273d6",
+      "candidateMyanmarSHA256": "1d777e127e0eb91be90fd015e3207fe085d37775ea18af29717a4b76c9448249",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 637,
+      "field": "title",
+      "englishSHA256": "f560c0006b4970f53a0fe3adf9a444f5220e85174dd68456ca70f476c613fbfc",
+      "candidateMyanmarSHA256": "65b811a984f268e19422b7feb0285cb9d94bf468469ce71563f1940f0956d5b1",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 637,
+      "field": "detail",
+      "englishSHA256": "4aa2294802593f35e08e5d7bf30fc054c8a086ac28bc4747df3d4999e12e6985",
+      "candidateMyanmarSHA256": "6f2f225c6a9b4c3f8f31ae98149e49561f5e0eb9e02c6eda7876cea42709beb9",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 637,
+      "field": "objective",
+      "englishSHA256": "42037364648f331bb3ead324cd0cb673c62a16999ea72bd99d458c334cbfebea",
+      "candidateMyanmarSHA256": "9d7629bc4442a1f7d5de91c2a0b0a890d9dc347f2d98ff4a668f8f6db836f4c0",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 637,
+      "field": "progress",
+      "englishSHA256": "09d10d2742b73ef3f551f9dff5f0b6e9516b7b1dde09f56a0c32af9198ecd226",
+      "candidateMyanmarSHA256": "13c2f8e6aac308aea5e89bd99ca91c3c5c2f140896dac260a2e778e05ae4c54e",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 637,
+      "field": "complete",
+      "englishSHA256": "f286156f5fee7f4a3ba4905021539b5fd567b99b9d8b9c18732145bfac4c674e",
+      "candidateMyanmarSHA256": "ce7e631811735e825888267d91ca0d79c9eb25be009878e31b5989dac0f54848",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 683,
+      "field": "title",
+      "englishSHA256": "20a8db4615f147f8747de678e3eeb3624a76ab166cef7b86d674059af1f2e606",
+      "candidateMyanmarSHA256": "c6a5281e2f852811f93990006c45eec93a20e5bcc69b8cdf8185bc4968a584dd",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 683,
+      "field": "detail",
+      "englishSHA256": "61630e3ce61c4cc70a2f0738c6f6e488f90e45dde8ddb7248be92b66d394076a",
+      "candidateMyanmarSHA256": "78c1d9c22112004c2e4d414a66171bcf6f078fd594b6f52c2d2705c218c07782",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 683,
+      "field": "objective",
+      "englishSHA256": "96402ca156a2bf04bf446a2a136dc6231b36b68a45d63f7823404a2a6029213d",
+      "candidateMyanmarSHA256": "7a67c4ccaa19beeba892cd8f7c7ed084dbe426508e61fde21408b40a9a9bec81",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 683,
+      "field": "progress",
+      "englishSHA256": "ceb7a2c99bd23447a7a446c56e2bc98b9d051663d4b1dfca1d9f95520513539e",
+      "candidateMyanmarSHA256": "8f2f6394c3a45ec59d0acbeea23534166a3e6a7d82e0bf037b8569ba957672f6",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 683,
+      "field": "complete",
+      "englishSHA256": "8540f4a217573fa69ff6b34e6491c5aeea2eb387282d35fe4f5686d65e987e4a",
+      "candidateMyanmarSHA256": "0184c4c8f92c006fb93669d42879a8cbde0e3f0466cb84f0993c08dfce86338a",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 686,
+      "field": "title",
+      "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+      "candidateMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 686,
+      "field": "detail",
+      "englishSHA256": "36aa7d4c6a36bdd0968f8c5b3ef969ee43cc74f5d0a94d9a98dcf9671e5a87f3",
+      "candidateMyanmarSHA256": "5ed56180877b288a48c14d7506ecb577a054da9e7121c78de31408b5a5c32899",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 686,
+      "field": "objective",
+      "englishSHA256": "9b3b05714e698ce2788c34d93959c972998e158b1c7d58088b47b80711b09d14",
+      "candidateMyanmarSHA256": "fe5f0fd305fad6d9b2953e9a5e9615fbc081d4024a5b66371044a7d7a7160c9d",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 686,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "unavailable-null-retained"
+    },
+    {
+      "id": 686,
+      "field": "complete",
+      "englishSHA256": "8be63d60c73df28399a9e6ff1a70929626f2c87568dc8b4453f06db16bf8c154",
+      "candidateMyanmarSHA256": "f35f83218536ca448b7610a0359d8cadf07da892ee3185d1f184db8b1b2b6d52",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 689,
+      "field": "title",
+      "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+      "candidateMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 689,
+      "field": "detail",
+      "englishSHA256": "d8b8ffc7bcb94d52e5460c46ab653857ad1b87d3fcf6e0e298378d9d0b59a306",
+      "candidateMyanmarSHA256": "fc8f9b6d73a143c02ae004892a137117171eb771d1ae8dd79082ad104dd59f0f",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 689,
+      "field": "objective",
+      "englishSHA256": "7e84fbde9933eeacf7b894ed44be011652b8f337b1cc99b8dee2c6c240867bbf",
+      "candidateMyanmarSHA256": "8589763a41bdbd2a1f6fd6d655f5188f58e5608d6aa1ad2ac3f7cc3918a0295c",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 689,
+      "field": "progress",
+      "englishSHA256": "77f4cb797ff02044e3fe6e3c252eecd691019a59813821ad09c0aec762a04a92",
+      "candidateMyanmarSHA256": "dc293e612f6cd6e72a49be8aabb433efb43ff016013f9703b11441e066e7af5c",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 689,
+      "field": "complete",
+      "englishSHA256": "692782ea1427bdac4e5c5e106c2a1135700250aec32326d8d5757bd84407e5eb",
+      "candidateMyanmarSHA256": "fd42f116071be914df2cbb4ab5e3b8d543a16923e34115f70320d52f5467e4ce",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 700,
+      "field": "title",
+      "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+      "candidateMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 700,
+      "field": "detail",
+      "englishSHA256": "5bac94b96190fda2e409aaeff5d0fa50911cbcfa838ea92344872b579372ccbe",
+      "candidateMyanmarSHA256": "dea25f3bb16a56b4e51e6b2b3e709d26fe00e0c04289ad7ad1679576caf6bb56",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 700,
+      "field": "objective",
+      "englishSHA256": "80ee4af4b51d5f815c1ae348a3c0fafe23b31b4855a2ee8e96eef913c6b36eee",
+      "candidateMyanmarSHA256": "6b7b31a505f0c87e81e1f893cb8d81098dfcb89ad481bcb0a254f44cabf78419",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 700,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "unavailable-null-retained"
+    },
+    {
+      "id": 700,
+      "field": "complete",
+      "englishSHA256": "2da44867ec075c52d12962163471182f6e097cc8604895286ffbef0ae0f8ab35",
+      "candidateMyanmarSHA256": "201efd607827c10c7ecfcfb95d8a6d6db6a5eee7d8d8aaab4c9df7f5aa05eba6",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1221,
+      "field": "title",
+      "englishSHA256": "6379803d7853428c097ab4645f492eeca562d35e114693fc03a537e994efd82b",
+      "candidateMyanmarSHA256": "e5602d95502a05e251810280a7505097eb35a4806627131c65360c9a9a2ff999",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1221,
+      "field": "detail",
+      "englishSHA256": "3f1a4647b3c133028db9348a387ca35525c42eba88e05f4416af1435f6d9f7bf",
+      "candidateMyanmarSHA256": "03fac07c207095ab20980dd742c6da1476d5ffe9136a9d7abea6feb6a88117b3",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1221,
+      "field": "objective",
+      "englishSHA256": "a2b4a1310b1d83ec6c5db80b2274b051e75d82de6234eb15d4359dbc5ddb249d",
+      "candidateMyanmarSHA256": "2b01ba306a061cd758ffbab1cf7f3e0c0aaa2e41cc708db1cf6f82fe6e673eb6",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1221,
+      "field": "progress",
+      "englishSHA256": "fc6e2e22065711b6d4684ecacf534be68752a03d6e1f3060c05d7ad83f7c6efd",
+      "candidateMyanmarSHA256": "39d6dcd0f7a24a7d299e796adc9224c47af2c2c0ca191fa56657cff4d7c93e2c",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1221,
+      "field": "complete",
+      "englishSHA256": "b358987897279b9e5b82a3172621c104092d569414f63f2b1d5c4dc7ac17b663",
+      "candidateMyanmarSHA256": "276a43310fdda7cc7e27c4ebf880c4f54344a500ea82fcfee1fb8f283ff23069",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1142,
+      "field": "title",
+      "englishSHA256": "93e5a2c3f3a2b3b9d2d1cf8f2f1a963cd38450442ca2c7e45b1b720cd7ef1522",
+      "candidateMyanmarSHA256": "8692a44b28d7e2369eaf615e2ddeb512bb0a9c233cbeaf09fd2deb310411a73f",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1142,
+      "field": "detail",
+      "englishSHA256": "ab1a299dbfb36c1cd8ebe1879cc0c8474099f1a7fb840b1ce66893ef815c8ee2",
+      "candidateMyanmarSHA256": "5d9caed9eacc076bad26e935539f86b32a8e455b2ac4695f935a05e48e702dde",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1142,
+      "field": "objective",
+      "englishSHA256": "3e1a9f960afacdc1eb029e52bf8e5e1cfb29f97612d21a89f1c27f4ba468871f",
+      "candidateMyanmarSHA256": "adb4ab7a3cfadc810984b68d9d0a0738dabad3158dc5741976ee29b3f802c1c2",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1142,
+      "field": "progress",
+      "englishSHA256": "8f338c5060b7b398474a0a8dc89d495f9406930a671155a29e6835ea9c5d0584",
+      "candidateMyanmarSHA256": "aa35e7a1e0977aca2a38098323776c2032aeb2e85799fb3bad475453962e887f",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1142,
+      "field": "complete",
+      "englishSHA256": "ed709888c2ff2ffd3a8edb605fc5b4a2e3e72f053968db4f5fbd3318c0ef6b67",
+      "candidateMyanmarSHA256": "8ee5800ceacf421120152002d4694acfb56b9e25c3d6fc615c912e1480450673",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1144,
+      "field": "title",
+      "englishSHA256": "fc3c0af881d3e8354c912ae3a6c560e4c712171bb7e3998665c4985b15447019",
+      "candidateMyanmarSHA256": "e7fc181dd5074b6c22eb20a9f7c6665b9f068a45c61802cf35a558687b120ba7",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1144,
+      "field": "detail",
+      "englishSHA256": "4635756cad676e33aea462660d8440c758239a2c4f2e7e3a2dfd73dd0801ed32",
+      "candidateMyanmarSHA256": "eb2f13a755a5f1e8e21e716ec6e592833cfdf5aa8d738fca4c01cda4ef81bcb6",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1144,
+      "field": "objective",
+      "englishSHA256": "198349c711998765991f58068b1f766a91da317323e9c962c46d04757926cda6",
+      "candidateMyanmarSHA256": "b6c9dce3ee23085f211fdcd048df1944e2d5ee689a0d51a901cae9e483a747c5",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 1144,
+      "field": "progress",
+      "englishSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "changed": false,
+      "status": "unavailable-null-retained"
+    },
+    {
+      "id": 1144,
+      "field": "complete",
+      "englishSHA256": "0d80e78c9ef31ed40f895daeea36b94816ee291fbddb78454c52385272b816de",
+      "candidateMyanmarSHA256": "4a26cba0a35c826c8f5152e53c497d16ebbc0a65eb77fc744bf0afac3d75f8b9",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78916,
+      "field": "title",
+      "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+      "candidateMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78916,
+      "field": "detail",
+      "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+      "candidateMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78916,
+      "field": "objective",
+      "englishSHA256": "1a6331c641fb56aedfc4dbc55b9b9b6444f2faac5355ecbc65e7ac2fbc513e0e",
+      "candidateMyanmarSHA256": "6c6dc76f7fa446272779af69d8effb0c7cadcef12f2915673aacaae11e0a5978",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78916,
+      "field": "progress",
+      "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+      "candidateMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78916,
+      "field": "complete",
+      "englishSHA256": "51a9402f7192637fd2a963b61e8eecca66ff78640bf369d0368e4b74a3590574",
+      "candidateMyanmarSHA256": "e9184adbc8dc9f70feeb89658972b3e58de149c061660ca9e96d1ea845d8e317",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78917,
+      "field": "title",
+      "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+      "candidateMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78917,
+      "field": "detail",
+      "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+      "candidateMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78917,
+      "field": "objective",
+      "englishSHA256": "e98eeddb7dc880f36b9e95b255a12ad5e423449162bef713f8322c767a9df85a",
+      "candidateMyanmarSHA256": "1595e4d3c657ef2b8dd224523a26271fd4b814ea5ef2271708611d1da28e9c40",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78917,
+      "field": "progress",
+      "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+      "candidateMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f",
+      "changed": false,
+      "status": "enabled"
+    },
+    {
+      "id": 78917,
+      "field": "complete",
+      "englishSHA256": "8914745ec44b0942ca26d363c17ba09d88a683d293b0f38a75b3d2e66983cd0d",
+      "candidateMyanmarSHA256": "ae14eb378dd3e5f1c4d56b74ce756ba3445d57cd725a0743082b6561b5f28ac1",
+      "changed": false,
+      "status": "enabled"
+    }
+  ],
+  "unchangedFieldProof": [
+    {
+      "id": 536,
+      "field": "title",
+      "myanmarSHA256": "6962faaa674ac84615e117b1c1273aaa552fc88b44cbd2aa06442c9c37533430"
+    },
+    {
+      "id": 536,
+      "field": "detail",
+      "myanmarSHA256": "da805ab199e44720f2ce3244508e2263234fca88319bc427b1b3c97fca7d082d"
+    },
+    {
+      "id": 536,
+      "field": "progress",
+      "myanmarSHA256": "f6dfe7eaf96bada24c31730c17b6e030bdcb26dac1ec2491a574f1a879715ab6"
+    },
+    {
+      "id": 536,
+      "field": "complete",
+      "myanmarSHA256": "ab692f36dba131eba1a5138f43e54c18c98060a1554a840c6ce93e6663e75002"
+    },
+    {
+      "id": 559,
+      "field": "title",
+      "myanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+    },
+    {
+      "id": 559,
+      "field": "detail",
+      "myanmarSHA256": "4160ca6846ec631b1c81d171e24997a9d2bacfa1229ee373afd3820c5a907cfe"
+    },
+    {
+      "id": 559,
+      "field": "progress",
+      "myanmarSHA256": "2a413d9885d982d349cee6c83635d40cc315e5d11beadd59c954fee2171a0630"
+    },
+    {
+      "id": 559,
+      "field": "complete",
+      "myanmarSHA256": "0fe384b340529c340be818c8f9a105ac879498985932121c5e49c35ecfd0007b"
+    },
+    {
+      "id": 560,
+      "field": "title",
+      "myanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+    },
+    {
+      "id": 560,
+      "field": "detail",
+      "myanmarSHA256": "d7096459591e0c14c086903811f81bd039831f8cc17e77f568dbab13567944f8"
+    },
+    {
+      "id": 560,
+      "field": "progress",
+      "myanmarSHA256": "88d2f3b87a342b8c3cd769bf859e29da88ba0d4f4bed9f84fb2e3e51b46b4dac"
+    },
+    {
+      "id": 560,
+      "field": "complete",
+      "myanmarSHA256": "02452a432fc3bbdec40f70f20051727e5dfe7e1a496c97c53041eb99fc7c3074"
+    },
+    {
+      "id": 561,
+      "field": "title",
+      "myanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+    },
+    {
+      "id": 561,
+      "field": "progress",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 561,
+      "field": "complete",
+      "myanmarSHA256": "17f4b05f6269f512041b9403bc28166ac3672ba08bae097ae2f605a1d0dc9d7b"
+    },
+    {
+      "id": 562,
+      "field": "title",
+      "myanmarSHA256": "1d045491a237e6dc3241835a755101802acd7d5163d4aed89f385b7d804b8fa2"
+    },
+    {
+      "id": 562,
+      "field": "detail",
+      "myanmarSHA256": "2dc5c4cc41231faf14822e929eb245f4fd18677228dacff46e5cd2394b822ebb"
+    },
+    {
+      "id": 562,
+      "field": "progress",
+      "myanmarSHA256": "12e1a91bc4183344ce08528ea96f5f4367a424c85f16ab0f9014d77b7a1059d1"
+    },
+    {
+      "id": 562,
+      "field": "complete",
+      "myanmarSHA256": "a90a8e4dd5d87d8aa43d2e98b2922e8a1b32ad6d936a1937118f7ac4646b4074"
+    },
+    {
+      "id": 563,
+      "field": "title",
+      "myanmarSHA256": "c8f270e7843c0cd8d8ea3fec3d2494e8d9b6797a3a996b279273a0edde23e7e4"
+    },
+    {
+      "id": 563,
+      "field": "detail",
+      "myanmarSHA256": "daf224ade0472927bed9226c1f6012078a6d8559040c984c8b832a8a0dbf10f4"
+    },
+    {
+      "id": 563,
+      "field": "objective",
+      "myanmarSHA256": "72c7fdfc9ea139114e971085f7da38b9fbbcebbbc7aab9da599c994432fbb950"
+    },
+    {
+      "id": 563,
+      "field": "progress",
+      "myanmarSHA256": "4b0d7b6c5b10f07976375fa83c21ee58aef3fb4e7317d63e638b2eac985dec12"
+    },
+    {
+      "id": 563,
+      "field": "complete",
+      "myanmarSHA256": "1d777e127e0eb91be90fd015e3207fe085d37775ea18af29717a4b76c9448249"
+    },
+    {
+      "id": 98219,
+      "field": "detail",
+      "myanmarSHA256": "98222d7daeada5907ab9b6cf814fb9cd2893a637566ace2103f4ba5149097dcf"
+    },
+    {
+      "id": 98219,
+      "field": "progress",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 98219,
+      "field": "complete",
+      "myanmarSHA256": "09707cb5359dc02f95676ecf28cdec92387abd1d7a2dfad14773b0bc1729dbcc"
+    },
+    {
+      "id": 637,
+      "field": "title",
+      "myanmarSHA256": "65b811a984f268e19422b7feb0285cb9d94bf468469ce71563f1940f0956d5b1"
+    },
+    {
+      "id": 637,
+      "field": "detail",
+      "myanmarSHA256": "6f2f225c6a9b4c3f8f31ae98149e49561f5e0eb9e02c6eda7876cea42709beb9"
+    },
+    {
+      "id": 637,
+      "field": "objective",
+      "myanmarSHA256": "9d7629bc4442a1f7d5de91c2a0b0a890d9dc347f2d98ff4a668f8f6db836f4c0"
+    },
+    {
+      "id": 637,
+      "field": "progress",
+      "myanmarSHA256": "13c2f8e6aac308aea5e89bd99ca91c3c5c2f140896dac260a2e778e05ae4c54e"
+    },
+    {
+      "id": 637,
+      "field": "complete",
+      "myanmarSHA256": "ce7e631811735e825888267d91ca0d79c9eb25be009878e31b5989dac0f54848"
+    },
+    {
+      "id": 683,
+      "field": "title",
+      "myanmarSHA256": "c6a5281e2f852811f93990006c45eec93a20e5bcc69b8cdf8185bc4968a584dd"
+    },
+    {
+      "id": 683,
+      "field": "detail",
+      "myanmarSHA256": "78c1d9c22112004c2e4d414a66171bcf6f078fd594b6f52c2d2705c218c07782"
+    },
+    {
+      "id": 683,
+      "field": "objective",
+      "myanmarSHA256": "7a67c4ccaa19beeba892cd8f7c7ed084dbe426508e61fde21408b40a9a9bec81"
+    },
+    {
+      "id": 683,
+      "field": "progress",
+      "myanmarSHA256": "8f2f6394c3a45ec59d0acbeea23534166a3e6a7d82e0bf037b8569ba957672f6"
+    },
+    {
+      "id": 683,
+      "field": "complete",
+      "myanmarSHA256": "0184c4c8f92c006fb93669d42879a8cbde0e3f0466cb84f0993c08dfce86338a"
+    },
+    {
+      "id": 686,
+      "field": "title",
+      "myanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+    },
+    {
+      "id": 686,
+      "field": "detail",
+      "myanmarSHA256": "5ed56180877b288a48c14d7506ecb577a054da9e7121c78de31408b5a5c32899"
+    },
+    {
+      "id": 686,
+      "field": "objective",
+      "myanmarSHA256": "fe5f0fd305fad6d9b2953e9a5e9615fbc081d4024a5b66371044a7d7a7160c9d"
+    },
+    {
+      "id": 686,
+      "field": "progress",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 686,
+      "field": "complete",
+      "myanmarSHA256": "f35f83218536ca448b7610a0359d8cadf07da892ee3185d1f184db8b1b2b6d52"
+    },
+    {
+      "id": 689,
+      "field": "title",
+      "myanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+    },
+    {
+      "id": 689,
+      "field": "detail",
+      "myanmarSHA256": "fc8f9b6d73a143c02ae004892a137117171eb771d1ae8dd79082ad104dd59f0f"
+    },
+    {
+      "id": 689,
+      "field": "objective",
+      "myanmarSHA256": "8589763a41bdbd2a1f6fd6d655f5188f58e5608d6aa1ad2ac3f7cc3918a0295c"
+    },
+    {
+      "id": 689,
+      "field": "progress",
+      "myanmarSHA256": "dc293e612f6cd6e72a49be8aabb433efb43ff016013f9703b11441e066e7af5c"
+    },
+    {
+      "id": 689,
+      "field": "complete",
+      "myanmarSHA256": "fd42f116071be914df2cbb4ab5e3b8d543a16923e34115f70320d52f5467e4ce"
+    },
+    {
+      "id": 700,
+      "field": "title",
+      "myanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+    },
+    {
+      "id": 700,
+      "field": "detail",
+      "myanmarSHA256": "dea25f3bb16a56b4e51e6b2b3e709d26fe00e0c04289ad7ad1679576caf6bb56"
+    },
+    {
+      "id": 700,
+      "field": "objective",
+      "myanmarSHA256": "6b7b31a505f0c87e81e1f893cb8d81098dfcb89ad481bcb0a254f44cabf78419"
+    },
+    {
+      "id": 700,
+      "field": "progress",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 700,
+      "field": "complete",
+      "myanmarSHA256": "201efd607827c10c7ecfcfb95d8a6d6db6a5eee7d8d8aaab4c9df7f5aa05eba6"
+    },
+    {
+      "id": 1142,
+      "field": "title",
+      "myanmarSHA256": "8692a44b28d7e2369eaf615e2ddeb512bb0a9c233cbeaf09fd2deb310411a73f"
+    },
+    {
+      "id": 1142,
+      "field": "detail",
+      "myanmarSHA256": "5d9caed9eacc076bad26e935539f86b32a8e455b2ac4695f935a05e48e702dde"
+    },
+    {
+      "id": 1142,
+      "field": "objective",
+      "myanmarSHA256": "adb4ab7a3cfadc810984b68d9d0a0738dabad3158dc5741976ee29b3f802c1c2"
+    },
+    {
+      "id": 1142,
+      "field": "progress",
+      "myanmarSHA256": "aa35e7a1e0977aca2a38098323776c2032aeb2e85799fb3bad475453962e887f"
+    },
+    {
+      "id": 1142,
+      "field": "complete",
+      "myanmarSHA256": "8ee5800ceacf421120152002d4694acfb56b9e25c3d6fc615c912e1480450673"
+    },
+    {
+      "id": 1144,
+      "field": "title",
+      "myanmarSHA256": "e7fc181dd5074b6c22eb20a9f7c6665b9f068a45c61802cf35a558687b120ba7"
+    },
+    {
+      "id": 1144,
+      "field": "detail",
+      "myanmarSHA256": "eb2f13a755a5f1e8e21e716ec6e592833cfdf5aa8d738fca4c01cda4ef81bcb6"
+    },
+    {
+      "id": 1144,
+      "field": "objective",
+      "myanmarSHA256": "b6c9dce3ee23085f211fdcd048df1944e2d5ee689a0d51a901cae9e483a747c5"
+    },
+    {
+      "id": 1144,
+      "field": "progress",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 1144,
+      "field": "complete",
+      "myanmarSHA256": "4a26cba0a35c826c8f5152e53c497d16ebbc0a65eb77fc744bf0afac3d75f8b9"
+    },
+    {
+      "id": 1221,
+      "field": "title",
+      "myanmarSHA256": "e5602d95502a05e251810280a7505097eb35a4806627131c65360c9a9a2ff999"
+    },
+    {
+      "id": 1221,
+      "field": "detail",
+      "myanmarSHA256": "03fac07c207095ab20980dd742c6da1476d5ffe9136a9d7abea6feb6a88117b3"
+    },
+    {
+      "id": 1221,
+      "field": "objective",
+      "myanmarSHA256": "2b01ba306a061cd758ffbab1cf7f3e0c0aaa2e41cc708db1cf6f82fe6e673eb6"
+    },
+    {
+      "id": 1221,
+      "field": "progress",
+      "myanmarSHA256": "39d6dcd0f7a24a7d299e796adc9224c47af2c2c0ca191fa56657cff4d7c93e2c"
+    },
+    {
+      "id": 1221,
+      "field": "complete",
+      "myanmarSHA256": "276a43310fdda7cc7e27c4ebf880c4f54344a500ea82fcfee1fb8f283ff23069"
+    },
+    {
+      "id": 78916,
+      "field": "title",
+      "myanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0"
+    },
+    {
+      "id": 78916,
+      "field": "detail",
+      "myanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483"
+    },
+    {
+      "id": 78916,
+      "field": "objective",
+      "myanmarSHA256": "6c6dc76f7fa446272779af69d8effb0c7cadcef12f2915673aacaae11e0a5978"
+    },
+    {
+      "id": 78916,
+      "field": "progress",
+      "myanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f"
+    },
+    {
+      "id": 78916,
+      "field": "complete",
+      "myanmarSHA256": "e9184adbc8dc9f70feeb89658972b3e58de149c061660ca9e96d1ea845d8e317"
+    },
+    {
+      "id": 78917,
+      "field": "title",
+      "myanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0"
+    },
+    {
+      "id": 78917,
+      "field": "detail",
+      "myanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483"
+    },
+    {
+      "id": 78917,
+      "field": "objective",
+      "myanmarSHA256": "1595e4d3c657ef2b8dd224523a26271fd4b814ea5ef2271708611d1da28e9c40"
+    },
+    {
+      "id": 78917,
+      "field": "progress",
+      "myanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f"
+    },
+    {
+      "id": 78917,
+      "field": "complete",
+      "myanmarSHA256": "ae14eb378dd3e5f1c4d56b74ce756ba3445d57cd725a0743082b6561b5f28ac1"
+    }
+  ],
+  "pronunciationOverrides": {
+    "Lieutenant": "လူတဲနန့်တ်",
+    "Lieutenant Farren Orinelle": "လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်",
+    "Lieutenant Orinelle": "လူတဲနန့်တ် အော်ရီနယ်လ်",
+    "Marshall Redpath": "မာရှယ် ရက်ဒ်ပက်သ်"
+  },
+  "pronunciationOverrideChecks": "Exactly four wholeterm overrides applied; all other dictionary entries and existing historical catalog variants preserved; native approval pending.",
+  "checks": {
+    "actualLinguisticLint": "PASS currentedited/currentpronunciations/currentexceptions",
+    "actualValidateFields": "PASS all17records/85slots",
+    "canonicalAliases": "EnglishSHA256 plus current myanmarSHA256/editedSHA256/finalEditedSHA256 match all85candidateauditfields. RawDeepLSHA256 remains original authentic output for all80sources; author previous hashes recorded only for8changedfields.",
+    "rawSourceChains": "All80currentEnglish requests/response/index/identity/outputhashes reverified against unchanged frozen authentic receipts;5nulls unchanged.",
+    "sourceBoundSemanticNegativeControls": 19,
+    "sourceBoundSemanticNegativeResult": "All rejected",
+    "candidateAuditConservation": "Equals documentary-corrected authoraudit plus only8reviewed fieldhash changes and their2historicalhashaliases perfield.",
+    "unchangedTranslations": "77remaining slots match frozen author text/null byte-for-byte; only8reviewedrankcores changed.",
+    "frozenOriginals": {
+      "count": 90,
+      "manifestSHA256": "1a4a43643f10dcab833c830bee9615461af81cbadda5f8c40eb23d7278764699",
+      "beforeMatch": true,
+      "afterMatch": true
+    },
+    "scriptSHA256": "dea73574b928eff44a37cdbfa4c6159af89c6e8da307f7fb440c9ddde76ab624"
+  },
+  "sourceReviewNotes": "Fresh English/Myanmar reread retained speak/kill10+10/collect10/sackdeliver stages and Farren report-in-person WHENresults. Rankcore changes do not alter places,targets,counts,stagevoice,conditionalornegatives.",
+  "pending": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested",
+    "1144Eligibility": "Currentminimum22vsinstalled23requirescurrentliveconfirmation; Progress null despiteUAonlystate.",
+    "sourceAvailability": "1221secondaryTLSand78916/78917secondary404remain documented; existing exactprimarysupports displayedfields."
+  },
+  "reviewedAtUTC": "2026-11-24T20:57:21.054054+00:00",
+  "priorReviewSHA256": "12dc501ae321f51c1aa26874cdcc6029d717d1f2225e915c909c0a3556741063",
+  "approvedCorrectionsSHA256": "25b02bbe40e3b02a8d638a3aefd0dd5021e0730c38a244bd385b0cbd5216054d"
+}

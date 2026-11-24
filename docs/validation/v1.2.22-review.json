@@ -1,0 +1,99 @@
+{
+  "version": "1.2.22",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-25",
+  "newQuestIDs": 50,
+  "newQuestFields": 231,
+  "newEnabledFieldsTotal": 231,
+  "newAvailableSourceFields": 231,
+  "newSourceAbsentFields": 19,
+  "newHeldFields": [],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 11,
+  "questIDs": 1986,
+  "translatedFields": 9070,
+  "dialogueStates": 5194,
+  "absentOrHeldDialogueStates": 764,
+  "activeHeldUniqueFields": 88,
+  "pythonTests": 25,
+  "luaRegressionGroups": 58,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "additionalIdentityContracts": 2,
+  "reviewedConnectedGroups": 7,
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-24T21:03:46.434539+00:00",
+    "catalogVersion": "1.2.22",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T20:29:14.226189+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 50,
+  "zip": {
+    "name": "MyanmarForever_v1.2.22.zip",
+    "bytes": 1219818,
+    "sha256": "1b60d083ce41dc999d928a4f3a8fffb1d6bd55c648eef960a1ea11fb1d1a8499"
+  },
+  "canonicalMetadataHashAliasRepairs": 0,
+  "inheritedUAUnavailableEnglishStates": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "UA1.1.1 added state, current primary/secondary English unavailable; baseline null preserved. Source/liveness uncertainty recorded separately from formal sourced holds."
+    }
+  ],
+  "unconfirmedUAOnlyStates": [
+    {
+      "id": 95647,
+      "field": "complete",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    },
+    {
+      "id": 95772,
+      "field": "complete",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    },
+    {
+      "id": 1144,
+      "field": "progress",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    }
+  ],
+  "newUnavailableCurrentEnglishStates": 19,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}

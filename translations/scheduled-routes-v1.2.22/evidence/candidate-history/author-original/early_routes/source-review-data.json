@@ -1,0 +1,1593 @@
+{
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T20:29:14.226189+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "sourcePinsSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+  "metadataReference": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "questRecords": {
+    "79192": {
+      "sourceIdentity": {
+        "id": 79192,
+        "installedTitle": "Stepping Stones",
+        "primaryTitle": "Stepping Stones",
+        "uaEnglishTitles": [
+          "Stepping Stones"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 17,
+        "category2": 1,
+        "id": 79192,
+        "itemchoices": [
+          [
+            2901,
+            1
+          ],
+          [
+            3334,
+            1
+          ]
+        ],
+        "itemrewards": [
+          [
+            1652,
+            1
+          ],
+          [
+            4470,
+            1
+          ],
+          [
+            4471,
+            1
+          ],
+          [
+            221498,
+            1
+          ]
+        ],
+        "level": 24,
+        "name": "Stepping Stones",
+        "reqlevel": 14,
+        "side": 3,
+        "xp": 1950,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "rewards_changed"
+          ],
+          "lines": [
+            "Level 24 instead of 40",
+            "Experience 1950 instead of 3150",
+            "Rewards: adds Old Toolbox"
+          ],
+          "notShown": [
+            "Experience 1950 instead of 3150",
+            "Rewards: adds Old Toolbox"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            417072,
+            424010
+          ]
+        ],
+        "3": [
+          null,
+          [
+            424005
+          ]
+        ],
+        "8": [
+          "You tear the note from the plank and read the scrawled writing."
+        ],
+        "13": [
+          79007,
+          79008
+        ],
+        "S": {
+          "1": "Stepping Stones",
+          "4": 14,
+          "5": 24,
+          "17": 17,
+          "22": 79980,
+          "p": 4230
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Connected after covered79007/79008; installed prerequisites and next79980 retained. Exact own g_quests and own type5 both side3, race/class0, req14/level24; no pickup claim. Primary/secondary title, description and objective agree; primary completion independently supported by UA. Missing Progress stays null. Mission retained as the named report source, New Plague as named work, both deliveries and apparent apothecary accidents preserved. Mountains BETWEEN The Barrens/Desolace are only the published clue; no coordinates or route solution added.",
+      "ownIDType5Records": [
+        {
+          "offset": 34680,
+          "record": {
+            "name_enus": "Stepping Stones",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        },
+        {
+          "offset": 63442,
+          "record": {
+            "name_enus": "Stepping Stones",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": []
+    },
+    "79980": {
+      "sourceIdentity": {
+        "id": 79980,
+        "installedTitle": "Scramble",
+        "primaryTitle": "Scramble",
+        "uaEnglishTitles": [
+          "Scramble"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 406,
+        "category2": 1,
+        "id": 79980,
+        "itemchoices": [
+          [
+            3463,
+            1
+          ],
+          [
+            217314,
+            1
+          ],
+          [
+            217315,
+            1
+          ]
+        ],
+        "itemrewards": [
+          [
+            3464,
+            1
+          ],
+          [
+            3465,
+            1
+          ],
+          [
+            216619,
+            1
+          ]
+        ],
+        "level": 24,
+        "name": "Scramble",
+        "reqlevel": 14,
+        "side": 3,
+        "xp": 195,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 24 instead of 40",
+            "Description reworded",
+            "Experience 195 instead of 315"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 195 instead of 315"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            424005
+          ]
+        ],
+        "3": [
+          null,
+          [
+            424012
+          ]
+        ],
+        "8": [
+          "Find what awaits you."
+        ],
+        "13": [
+          79192
+        ],
+        "S": {
+          "1": "Scramble",
+          "4": 14,
+          "5": 24,
+          "17": 406,
+          "22": 79974,
+          "p": 4230
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Connected79192 ->79980 ->79974 by installed fields13/22; own side3/raceclass0, req14/level24 checked rather than copied. Both English sources agree; primary completion supported by UA. Progress absent throughout. Scramble title rendered semantically for rough-ground movement. One HUNDRED paces DUE NORTH, steep cliffside descent, ankle-breaking warning and uncertainty of sufficient supplies preserved. Ground messenger bag and dirty parchment remain distinct from previous note/plank.",
+      "ownIDType5Records": [
+        {
+          "offset": 30160,
+          "record": {
+            "name_enus": "Scramble",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        },
+        {
+          "offset": 43818,
+          "record": {
+            "name_enus": "Scramble",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": []
+    },
+    "79974": {
+      "sourceIdentity": {
+        "id": 79974,
+        "installedTitle": "Wet Job",
+        "primaryTitle": "Wet Job",
+        "uaEnglishTitles": [
+          "Wet Job"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 406,
+        "category2": 1,
+        "id": 79974,
+        "itemrewards": [
+          [
+            5432,
+            1
+          ],
+          [
+            20709,
+            1
+          ]
+        ],
+        "level": 32,
+        "name": "Wet Job",
+        "reqlevel": 14,
+        "side": 3,
+        "xp": 2550,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 32 instead of 40",
+            "Description reworded",
+            "Experience 2550 instead of 3150"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 2550 instead of 3150"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            424012
+          ]
+        ],
+        "3": [
+          null,
+          [
+            424007
+          ]
+        ],
+        "8": [
+          "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies."
+        ],
+        "13": [
+          79980
+        ],
+        "S": {
+          "1": "Wet Job",
+          "4": 14,
+          "5": 32,
+          "17": 406,
+          "22": 79975,
+          "p": 4230
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Connected79980 ->79974 ->79975, own side3/raceclass0, req14/level32; source envChange marks rewording. Both English sources agree; primary completion and UA support Dwarven engineering. No Progress. Reserve stash contingent on hurried flight; waterfalls-of-time and eagles-nest clues stay literal without identifying a real destination. Generic nest/toolbox/bag not promoted to lore names. Dwarven adjective gets maintained pronunciation.",
+      "ownIDType5Records": [
+        {
+          "offset": 30790,
+          "record": {
+            "name_enus": "Wet Job",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        },
+        {
+          "offset": 46740,
+          "record": {
+            "name_enus": "Wet Job",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": []
+    },
+    "79975": {
+      "sourceIdentity": {
+        "id": 79975,
+        "installedTitle": "Eagle's Fist",
+        "primaryTitle": "Eagle's Fist",
+        "uaEnglishTitles": [
+          "Eagle's Fist"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 146,
+        "category2": 0,
+        "id": 79975,
+        "level": 32,
+        "name": "Eagle's Fist",
+        "reqlevel": 14,
+        "side": 3,
+        "xp": 2550,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 32 instead of 40",
+            "Description reworded",
+            "Experience 2550 instead of 3150"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 2550 instead of 3150"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            424007
+          ]
+        ],
+        "3": [
+          null,
+          [
+            406918
+          ]
+        ],
+        "8": [
+          "Water spray dampens the air, the view is incredible."
+        ],
+        "13": [
+          79974
+        ],
+        "S": {
+          "1": "Eagle's Fist",
+          "4": 14,
+          "5": 32,
+          "17": 146,
+          "22": 79976,
+          "p": 4230
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Connected79974 ->79975 ->79976; own side3/raceclass0 req14/level32. Current primary/secondary description has a bracketed carefully-folded letter followed by2 quoted paragraphs. Older UA inserts an imagined voice; not added. Right tools/call shots idiom, parachute GLIDER rather than fighter, loyalty requiring distance, Eagle and Fist/Old Kingdoms identities, worn barricade and refusal to abandon preserved. Completion indicates a recently fueled fire AND an already hurried departure, not a future departure. No solution or unprovided route added; Progress absent.",
+      "ownIDType5Records": [
+        {
+          "offset": 32167,
+          "record": {
+            "name_enus": "Eagle's Fist",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        },
+        {
+          "offset": 53617,
+          "record": {
+            "name_enus": "Eagle's Fist",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": []
+    },
+    "79976": {
+      "sourceIdentity": {
+        "id": 79976,
+        "installedTitle": "This Must Be The Place",
+        "primaryTitle": "This Must Be The Place",
+        "uaEnglishTitles": [
+          "This Must Be The Place"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 293,
+        "category2": 0,
+        "id": 79976,
+        "itemrewards": [
+          [
+            211527,
+            1
+          ],
+          [
+            216619,
+            1
+          ]
+        ],
+        "level": 32,
+        "name": "This Must Be The Place",
+        "reqlevel": 14,
+        "side": 3,
+        "xp": 1950,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 32 instead of 40",
+            "Description reworded",
+            "Experience 1950 instead of 2350"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 1950 instead of 2350"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            406918
+          ]
+        ],
+        "3": [
+          null,
+          [
+            424006
+          ]
+        ],
+        "8": [
+          "Whoever was here, you just missed them."
+        ],
+        "13": [
+          79975
+        ],
+        "S": {
+          "1": "This Must Be The Place",
+          "4": 14,
+          "5": 32,
+          "17": 1857,
+          "p": 4230
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Last installed link after79975 has no next22; req14/level32 and own side3/raceclass0 inspected. Installed zone1857 differs current g_quests category293, both retained as metadata variant without eligibility claim. Current English agrees with secondary; primary completion supported by UA. Quoted work-underground/avoid-wrong-hands and bracketed uncertainty last words VS next-hideout clue preserved. Loose sleeping bag unrolls onto player feet. Completion is heavy canvas over equipment then taking the pack. Progress absent; no invented follow-up.",
+      "ownIDType5Records": [
+        {
+          "offset": 31548,
+          "record": {
+            "name_enus": "This Must Be The Place",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        },
+        {
+          "offset": 50854,
+          "record": {
+            "name_enus": "This Must Be The Place",
+            "icon": "quest-start",
+            "_side": 3,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": []
+    },
+    "98027": {
+      "sourceIdentity": {
+        "id": 98027,
+        "installedTitle": "Gleaming Crescent Necklace",
+        "primaryTitle": "Gleaming Crescent Necklace",
+        "uaEnglishTitles": [
+          "Gleaming Crescent Necklace"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 331,
+        "category2": 1,
+        "id": 98027,
+        "itemrewards": [
+          [
+            281290,
+            1
+          ]
+        ],
+        "level": 26,
+        "name": "Gleaming Crescent Necklace",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 22,
+        "side": 1,
+        "xp": 1600,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          null,
+          [
+            669176
+          ]
+        ],
+        "3": [
+          [
+            3961
+          ]
+        ],
+        "8": [
+          "Deliver the Crescent Necklace to Maliynn in Astranaar."
+        ],
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Gleaming Crescent Necklace",
+          "4": 22,
+          "5": 26,
+          "6": 4294967373,
+          "11": 279274,
+          "17": 331,
+          "p": 33554566
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [
+        "progress"
+      ],
+      "sourceAwareReview": "Exact own type5 Alliance side1/raceclass0 and g_quests req22/level26 retained; installed race mask is separate evidence, no current pickup claim. Quest/item/object title Gleaming Crescent Necklace differs shortened objective Crescent Necklace; both source labels retained. Objective table item279274 quantity1. Bracketed2paragraph item examination, inscription Alor'lormah/Maliynn and uncertain ownership preserved. Completion emotional recovered gift from late parents, supply delivery and abandoned road search retained. Primary/secondary title/detail/objective agree; secondary lacks primary/UA completion. Progress absent; no source invented.",
+      "ownIDType5Records": [
+        {
+          "offset": 33033,
+          "record": {
+            "name_enus": "Gleaming Crescent Necklace",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 34987,
+          "text": "Gleaming Crescent Necklace (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=279274/gleaming-crescent-necklace\" class=\"q1\">Gleaming Crescent Necklace</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "98417": {
+      "sourceIdentity": {
+        "id": 98417,
+        "installedTitle": "Vengeful Trail",
+        "primaryTitle": "Vengeful Trail",
+        "uaEnglishTitles": [
+          "Vengeful Trail"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 331,
+        "category2": 1,
+        "id": 98417,
+        "level": 28,
+        "name": "Vengeful Trail",
+        "reprewards": [
+          [
+            69,
+            25
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 1,
+        "xp": 1700,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            221269
+          ]
+        ],
+        "3": [
+          [
+            221269
+          ]
+        ],
+        "8": [
+          "Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return."
+        ],
+        "10": {
+          "3": [
+            [
+              281014,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            47,
+            6.25
+          ],
+          [
+            54,
+            6.25
+          ],
+          [
+            69,
+            25
+          ],
+          [
+            72,
+            6.25
+          ],
+          [
+            469,
+            6.25
+          ]
+        ],
+        "S": {
+          "1": "Vengeful Trail",
+          "4": 23,
+          "5": 28,
+          "6": 4294967373,
+          "17": 331,
+          "22": 98418,
+          "p": 33555078
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "secondary unavailable, primary retained",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Own side1/raceclass0 req23/level28, installed next98418. Objective table Vine-Wrapped Scroll281014 quantity1 corroborates report task; no added objective solution. Primary/secondary offer/task agree; primary/UA Progress+Completion support. Maseara's husband is Kurothel, not the player's. WEST of Forest Song and among Satyrnaar demons; report signs on return. Bond persists; husband's fate uncertain, rumors feared. Satyr desecration of temples/sacred boughs and Kurothel following druids retained. All5 fields supported, no holds.",
+      "ownIDType5Records": [
+        {
+          "offset": 34983,
+          "record": {
+            "name_enus": "Vengeful Trail",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 36617,
+          "text": "Vine-Wrapped Scroll (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=281014/vine-wrapped-scroll\" class=\"q1\">Vine-Wrapped Scroll</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "98418": {
+      "sourceIdentity": {
+        "id": 98418,
+        "installedTitle": "Shared Fury",
+        "primaryTitle": "Shared Fury",
+        "uaEnglishTitles": [
+          "Shared Fury"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 331,
+        "category2": 1,
+        "id": 98418,
+        "level": 30,
+        "money": 2100,
+        "name": "Shared Fury",
+        "reprewards": [
+          [
+            69,
+            25
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 1,
+        "xp": 2450,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            221269
+          ]
+        ],
+        "3": [
+          [
+            221269
+          ]
+        ],
+        "8": [
+          "Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.",
+          "Return to Maseara Autumnmoon in Forest Song afterwards."
+        ],
+        "10": [
+          [
+            [
+              3754,
+              null,
+              0
+            ],
+            [
+              3755,
+              null,
+              0
+            ],
+            [
+              3757,
+              null,
+              0
+            ],
+            [
+              3752,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          98417
+        ],
+        "26": [
+          [
+            47,
+            6.25
+          ],
+          [
+            54,
+            6.25
+          ],
+          [
+            69,
+            25
+          ],
+          [
+            72,
+            6.25
+          ],
+          [
+            469,
+            6.25
+          ]
+        ],
+        "S": {
+          "1": "Shared Fury",
+          "4": 23,
+          "5": 30,
+          "6": 4294967373,
+          "17": 331,
+          "p": 33559174
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "secondary unavailable, primary retained",
+        "complete": "secondary unavailable, primary retained",
+        "detail": "secondary wording differs; primary controls"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Own side1/raceclass0 req23/level30, installed prerequisite98417. Four independent groups of5: Xavian Rogues3752, Felsworn3755, Betrayers3754, Hellcallers3757; exact current table order differs narrative list but identities/counts all agree. Source narrative shortened Felsworn/Betrayers/Hellcallers retained with whole labels rather than inventing full prefixes. Kill THEN return Maseara/Forest Song. Wolf-men reports and measured self-control retained; desired HIM means recover husband's self, not find arbitrary wolf. Elune, Sentinels, wayward druids and Kaldorei identities independently annotated in completion. Primary child/spearhead wording controls; UA older ally/friend ending is weaker and not copied. Source<name> preserved exact lower case; secondary<Name> case variant not adopted.",
+      "ownIDType5Records": [
+        {
+          "offset": 42630,
+          "record": {
+            "name_enus": "Shared Fury",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 44004,
+          "text": "Xavian Betrayer slain (5)\n Xavian Felsworn slain (5)\n Xavian Hellcaller slain (5)\n Xavian Rogue slain (5)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"5\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3754/xavian-betrayer\">Xavian Betrayer</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"5\">&nbsp;(<span class=\"icon-list-quantity\">5</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"5\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3755/xavian-felsworn\">Xavian Felsworn</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"5\">&nbsp;(<span class=\"icon-list-quantity\">5</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"5\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3757/xavian-hellcaller\">Xavian Hellcaller</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"5\">&nbsp;(<span class=\"icon-list-quantity\">5</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"5\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3752/xavian-rogue\">Xavian Rogue</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"5\">&nbsp;(<span class=\"icon-list-quantity\">5</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "1011": {
+      "sourceIdentity": {
+        "id": 1011,
+        "installedTitle": "Forsaken Diseases",
+        "primaryTitle": "Forsaken Diseases",
+        "uaEnglishTitles": [
+          "Forsaken Diseases"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 331,
+        "category2": 1,
+        "id": 1011,
+        "level": 29,
+        "name": "Forsaken Diseases",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 24,
+        "side": 1,
+        "xp": 2350,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            3848
+          ]
+        ],
+        "3": [
+          [
+            3848
+          ]
+        ],
+        "8": [
+          "Bring a Bottle of Disease to Kayneth Stillwind in Forest Song."
+        ],
+        "10": {
+          "3": [
+            [
+              5440,
+              null,
+              0
+            ]
+          ]
+        },
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Forsaken Diseases",
+          "4": 24,
+          "5": 29,
+          "6": 4294967373,
+          "17": 331,
+          "22": 1012,
+          "23": 8,
+          "p": 33555078
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "secondary wording differs; primary controls",
+        "complete": "secondary wording differs; primary controls",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+      "ownIDType5Records": [
+        {
+          "offset": 96149,
+          "record": {
+            "name_enus": "Forsaken Diseases",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 97735,
+          "text": "Bottle of Disease (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=5440/bottle-of-disease\" class=\"q1\">Bottle of Disease</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "1012": {
+      "sourceIdentity": {
+        "id": 1012,
+        "installedTitle": "Insane Druids",
+        "primaryTitle": "Insane Druids",
+        "uaEnglishTitles": [
+          "Insane Druids"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 331,
+        "category2": 1,
+        "id": 1012,
+        "itemchoices": [
+          [
+            5813,
+            1
+          ],
+          [
+            270048,
+            1
+          ],
+          [
+            270049,
+            1
+          ]
+        ],
+        "level": 32,
+        "name": "Insane Druids",
+        "reprewards": [
+          [
+            69,
+            150
+          ]
+        ],
+        "reqlevel": 24,
+        "side": 1,
+        "xp": 3200,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "rewards_changed"
+          ],
+          "lines": [
+            "Rewards: adds Choice of Emil's Brand, Choice of Mavoris's Warstaff, Choice of Uthil's Cudgel",
+            "Rewards: no longer Emil's Brand"
+          ],
+          "notShown": [
+            "Rewards: adds Choice of Emil's Brand, Choice of Mavoris's Warstaff, Choice of Uthil's Cudgel",
+            "Rewards: no longer Emil's Brand"
+          ]
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            3848
+          ]
+        ],
+        "3": [
+          [
+            3848
+          ]
+        ],
+        "8": [
+          "Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song."
+        ],
+        "10": [
+          [
+            [
+              3940,
+              null,
+              0
+            ],
+            [
+              3941,
+              null,
+              0
+            ],
+            [
+              3942,
+              null,
+              0
+            ]
+          ]
+        ],
+        "13": [
+          1011
+        ],
+        "26": [
+          [
+            69,
+            150
+          ]
+        ],
+        "S": {
+          "1": "Insane Druids",
+          "4": 24,
+          "5": 32,
+          "6": 4294967373,
+          "17": 331,
+          "23": 8,
+          "p": 33559174
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "secondary wording differs; primary controls",
+        "complete": "secondary wording differs; primary controls",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Exact own side1/raceclass0 req24/level32; installed prerequisite1011 and three named targets1each from table/gatherer. UA Both differs current own side1; no pickup assertion. Both English sources agree meaning. Kayneth's vision and HIS dreams, poisoning/murder by undead, disembodied maddened victims and hoped-for peace retained. Destroy Taneel Darkwood/Uthil Mooncall/Mavoris Cloudsbreak THEN return Kayneth in Forest Song. Dor'danil/Dor'Danil source capitalization retained with maintained core pronunciation. Spirits are victims, not guilt added by translator.",
+      "ownIDType5Records": [
+        {
+          "offset": 121571,
+          "record": {
+            "name_enus": "Insane Druids",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 124839,
+          "text": "Taneel Darkwood slain (1)\n Uthil Mooncall slain (1)\n Mavoris Cloudsbreak slain (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3940/taneel-darkwood\">Taneel Darkwood</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3941/uthil-mooncall\">Uthil Mooncall</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th><ul><li><var>&nbsp;</var></li></ul></th><td><a href=\"/forever/npc=3942/mavoris-cloudsbreak\">Mavoris Cloudsbreak</a> slain<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "1084": {
+      "sourceIdentity": {
+        "id": 1084,
+        "installedTitle": "Wounded Ancients",
+        "primaryTitle": "Wounded Ancients",
+        "uaEnglishTitles": [
+          "Wounded Ancients"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 406,
+        "category2": 1,
+        "id": 1084,
+        "level": 28,
+        "money": 2500,
+        "name": "Wounded Ancients",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 22,
+        "side": 1,
+        "xp": 2300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            4080
+          ]
+        ],
+        "3": [
+          [
+            4080
+          ]
+        ],
+        "8": [
+          "Bring a piece of Corroded Shrapnel to Kaela Shadowspear in Stonetalon."
+        ],
+        "10": {
+          "3": [
+            [
+              5664,
+              null,
+              0
+            ]
+          ]
+        },
+        "13": [
+          1091
+        ],
+        "15": [
+          1083
+        ],
+        "26": [
+          [
+            69,
+            100
+          ]
+        ],
+        "S": {
+          "1": "Wounded Ancients",
+          "4": 22,
+          "5": 28,
+          "6": 4294967373,
+          "17": 406,
+          "22": 1082,
+          "23": 8,
+          "p": 33575558
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "secondary unavailable, primary retained",
+        "progress": "exact match",
+        "complete": "exact match",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Exact own side1/raceclass0 req22/level28. Primary objective and installed item5664/table Corroded Shrapnel1 independently support task; secondary objective absent but no missing primary state. Vale reference retained as written without adding Charred to the clue. Kaela's practical cautious voice: seems obvious treants helped repel Venture Co, Gaxim suspects weapon link, collect wounded treant sample to check IF true. Primary is study and hypothesis, not proven cause. Gnome/goblin/treant identities retained; generic shrapnel translated, named objective item retained. Prompt handoff and more-than-sufficient amount in completion preserved.",
+      "ownIDType5Records": [
+        {
+          "offset": 49088,
+          "record": {
+            "name_enus": "Wounded Ancients",
+            "icon": "quest-start",
+            "_side": 1,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 50694,
+          "text": "Corroded Shrapnel (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=5664/corroded-shrapnel\" class=\"q1\">Corroded Shrapnel</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "5881": {
+      "sourceIdentity": {
+        "id": 5881,
+        "installedTitle": "Calling in the Reserves",
+        "primaryTitle": "Calling in the Reserves",
+        "uaEnglishTitles": [
+          "Calling in the Reserves"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 406,
+        "category2": 1,
+        "id": 5881,
+        "level": 28,
+        "money": 1200,
+        "name": "Calling in the Reserves",
+        "reprewards": [
+          [
+            81,
+            50
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 1150,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            11860
+          ]
+        ],
+        "3": [
+          [
+            12576
+          ]
+        ],
+        "8": [
+          "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens."
+        ],
+        "26": [
+          [
+            81,
+            50
+          ]
+        ],
+        "S": {
+          "1": "Calling in the Reserves",
+          "4": 23,
+          "5": 28,
+          "6": 8589934770,
+          "11": 16189,
+          "17": 406,
+          "p": 33554566
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "exact match",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Own Horde side2/raceclass0 req23/level28 inspected; installed recipient IDs and provided letter16189 quantity1 corroborate delivery. Both current English sources agree. Horde, Great War and Kalimdor proper identities retained rather than reducing war to generic. Southern Barrens/Great Lift Grish Longrunner handoff; replacement reserve warrior comes so Grish can visit family, not permanent dismissal. Maggran short name objective and full Maggran Earthbinder in Progress kept with consistent core. Reserve warrior is generic soldier, not invented playerclass identity. Completion retains wood-guarding complaint and happy exclamation.",
+      "ownIDType5Records": [
+        {
+          "offset": 49487,
+          "record": {
+            "name_enus": "Calling in the Reserves",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 51096,
+          "text": "Maggran's Reserve Letter (Provided) (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=16189/maggrans-reserve-letter\" class=\"q1\">Maggran's Reserve Letter</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    },
+    "857": {
+      "sourceIdentity": {
+        "id": 857,
+        "installedTitle": "The Tear of the Moons",
+        "primaryTitle": "The Tear of the Moons",
+        "uaEnglishTitles": [
+          "The Tear of the Moons"
+        ]
+      },
+      "ownIDMetadata": {
+        "category": 17,
+        "category2": 1,
+        "id": 857,
+        "level": 30,
+        "money": 2500,
+        "name": "The Tear of the Moons",
+        "reqlevel": 22,
+        "side": 2,
+        "xp": 2450,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "installedRecord": {
+        "2": [
+          [
+            3421
+          ]
+        ],
+        "3": [
+          [
+            3421
+          ]
+        ],
+        "8": [
+          "Feegly the Exiled wants you to retrieve for him the Tear of the Moons."
+        ],
+        "10": {
+          "3": [
+            [
+              5038,
+              null,
+              0
+            ]
+          ]
+        },
+        "S": {
+          "1": "The Tear of the Moons",
+          "4": 22,
+          "5": 30,
+          "6": 8589934770,
+          "17": 17,
+          "23": 8,
+          "p": 646
+        }
+      },
+      "secondaryComparison": {
+        "title": "exact match",
+        "objective": "exact match",
+        "progress": "exact match",
+        "complete": "exact match",
+        "detail": "exact match"
+      },
+      "availableFields": [
+        "title",
+        "objective",
+        "progress",
+        "complete",
+        "detail"
+      ],
+      "absentFields": [],
+      "sourceAwareReview": "Own Horde side2/raceclass0 req22/level30; item5038 Tear of the Moons quantity1 confirms exact identifying title/task. Both English sources agree all5 states. Feegly's agitated ownership claims/repetitions and rude Twinbraid insult preserved; the translator does not certify those claims. General Twinbraid whole rank+name and Keep/Bael Modan retained. Short Twinbraid shares already established full identity in same field through explicit annotation exception. Jealousy, locked artifact, alleged curse, rivals to stop and Feegly driven off retained. Need-I-say repetition is a demand, not DeepL's no-need-to-say reversal.",
+      "ownIDType5Records": [
+        {
+          "offset": 66905,
+          "record": {
+            "name_enus": "The Tear of the Moons",
+            "icon": "quest-start",
+            "_side": 2,
+            "reqclass": 0,
+            "reqrace": 0
+          }
+        }
+      ],
+      "objectiveRows": [
+        {
+          "offset": 68522,
+          "text": "Tear of the Moons (1)",
+          "html": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=5038/tear-of-the-moons\" class=\"q1\">Tear of the Moons</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>"
+        }
+      ]
+    }
+  },
+  "initialAccessFailure": "1011 secondary SSL handshake timeout on first fetch; repository fetch retry succeeded and final cached fetch includes both sources.",
+  "currentLiveEligibility": "not tested; installed metadata and web database do not establish current pickup eligibility",
+  "holds": [],
+  "sameTitleSteps": [],
+  "aliasDecisions": {
+    "98027": "Gleaming Crescent Necklace is exact quest/item279274 title; objective shortens to Crescent Necklace. Both names kept in their own fields.",
+    "1011/1012": "Dor'Danil and Dor'danil case variants use one maintained Dor'danil phonetic core without altering source wording.",
+    "857": "Exact item/task identity Tear of the Moons retained in title and objectives; ordinary leading The is article. General Twinbraid and shortened Twinbraid one NPC in same field, explicit annotation exception.",
+    "1084": "Venture Co. retained as Venture Co for annotation punctuation; same recognizable organization, maintained phonetic unchanged. Vale left as source short location, no unprovided Charred prefixed."
+  },
+  "uaDifferences": {
+    "79975.detail": "UA adds imagining a speaking voice, absent from current primary/secondary; English bracketed note and paragraph structure control.",
+    "98418.complete": "UA ending uses forest ally/Kaldorei friend, current primary says child of forest/valuable spearhead of Kaldorei will; current English controls.",
+    "1011/1012.faction": "UA Both differs own-ID primary side1; both retained as metadata variant, no eligibility claim."
+  },
+  "missingStates": [
+    {
+      "id": 79192,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79980,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79974,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79975,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79976,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 98027,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    }
+  ],
+  "upstreamChangesReview": "Root fresh UA1.1.2 release/commit/package/catalog pins checked. Catalog unchanged from prior pinned1.1.2; per-quest envChange describes database/Classic differences, not a new UA catalog diff.",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested"
+}

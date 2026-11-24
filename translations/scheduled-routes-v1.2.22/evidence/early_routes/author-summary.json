@@ -1,0 +1,112 @@
+{
+  "partition": "early_routes",
+  "targetVersion": "1.2.22",
+  "questCount": 13,
+  "selectedQuestIDs": [
+    79192,
+    79980,
+    79974,
+    79975,
+    79976,
+    98027,
+    98417,
+    98418,
+    1011,
+    1012,
+    1084,
+    5881,
+    857
+  ],
+  "sourcedFields": 59,
+  "enabledFields": 59,
+  "fieldCounts": {
+    "title": 13,
+    "detail": 13,
+    "objective": 13,
+    "progress": 7,
+    "complete": 13
+  },
+  "heldFields": [],
+  "unavailableSlots": 6,
+  "unavailableFields": [
+    {
+      "id": 79192,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79980,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79974,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79975,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 79976,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    },
+    {
+      "id": 98027,
+      "field": "progress",
+      "reason": "No current primary, corresponding secondary or UA Progress text; unavailable null retained."
+    }
+  ],
+  "groups": [
+    5,
+    8
+  ],
+  "actualDeepLRequests": 3,
+  "actualDeepLInputCharacters": [
+    2156,
+    4217,
+    2543
+  ],
+  "authorReview": "Every65slot read;59available fields genuinely DeepL-backed, editorially refined and separately reread after connected5/8quest groups. Current English, own ID flags/objective tables, secondary, installed metadata and UA individually checked; actual field/lint/paragraph/source/provenance checks passed.",
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T20:29:14.226189+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "sourceReviewFile": "source-review-data.json",
+  "identityContracts": 13,
+  "semanticFieldsGuarded": 30,
+  "negativeControlsRejected": 16,
+  "maintainedTermScreen": "maintained-term-screen.json",
+  "independentAssistedReview": "pending fresh reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested",
+  "coveredRoutes": [
+    "Connected note/treasure trail after79007/79008 through79192/79980/79974/79975/79976",
+    "Ashenvale Astranaar necklace/Maseara Forest Song pair/Kayneth disease-druid pair",
+    "Stonetalon Kaela sample and Maggran reserve-letter handoff to Barrens",
+    "Barrens Feegly artifact demand"
+  ],
+  "sourceCaveats": {
+    "79975.detail": "UA adds imagining a speaking voice, absent from current primary/secondary; English bracketed note and paragraph structure control.",
+    "98418.complete": "UA ending uses forest ally/Kaldorei friend, current primary says child of forest/valuable spearhead of Kaldorei will; current English controls.",
+    "1011/1012.faction": "UA Both differs own-ID primary side1; both retained as metadata variant, no eligibility claim."
+  },
+  "sourceLabelAliases": {
+    "98027": "Gleaming Crescent Necklace is exact quest/item279274 title; objective shortens to Crescent Necklace. Both names kept in their own fields.",
+    "1011/1012": "Dor'Danil and Dor'danil case variants use one maintained Dor'danil phonetic core without altering source wording.",
+    "857": "Exact item/task identity Tear of the Moons retained in title and objectives; ordinary leading The is article. General Twinbraid and shortened Twinbraid one NPC in same field, explicit annotation exception.",
+    "1084": "Venture Co. retained as Venture Co for annotation punctuation; same recognizable organization, maintained phonetic unchanged. Vale left as source short location, no unprovided Charred prefixed."
+  }
+}

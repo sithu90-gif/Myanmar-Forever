@@ -1,0 +1,3683 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "regional_routes",
+  "questIDs": 17,
+  "fieldSlots": 85,
+  "availableFields": 80,
+  "enabledFields": 80,
+  "unavailableFields": 5,
+  "translationCorrectionFields": 8,
+  "quests": [
+    {
+      "id": 98219,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "title",
+          "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+          "reviewedMyanmarSHA256": "f1c17121b5928a477a23d3fc7986ac7abadb36020144814d3f3c82054390c3c2",
+          "old": "အရှက်ရခဲ့သည့် Lieutenant (လက်ဖ်တဲနန့်တ်)",
+          "new": "အရှက်ရခဲ့သည့် Lieutenant (လူတဲနန့်တ်)",
+          "proposedFullField": "အရှက်ရခဲ့သည့် Lieutenant (လူတဲနန့်တ်)",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+          "reviewedMyanmarSHA256": "8db632c419f2b8649a86752137db07a7ff5cfff48eba6c4d173aa4050bcb7046",
+          "old": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "new": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "proposedFullField": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five slots: mentor gratitude, father friendship/deserved lesson, conditional Menethil boat and cynical Farren completion. No Progress invented.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+          "reviewedMyanmarSHA256": "f1c17121b5928a477a23d3fc7986ac7abadb36020144814d3f3c82054390c3c2"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "a6d975786a18beecf030a1ff8cff4180c1a4a928a152339b27b9b1d25a50306f",
+          "reviewedMyanmarSHA256": "98222d7daeada5907ab9b6cf814fb9cd2893a637566ace2103f4ba5149097dcf"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+          "reviewedMyanmarSHA256": "8db632c419f2b8649a86752137db07a7ff5cfff48eba6c4d173aa4050bcb7046"
+        },
+        "progress": {
+          "status": "unavailable-current-English-null-retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "125932ab28ca803cc63baf5685ad2c1809b39ccb845f5c17555d4bda9bf4b591",
+          "reviewedMyanmarSHA256": "09707cb5359dc02f95676ecf28cdec92387abd1d7a2dfad14773b0bc1729dbcc"
+        }
+      }
+    },
+    {
+      "id": 536,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "objective",
+          "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+          "reviewedMyanmarSHA256": "d29e8b0420fb12bf3707f9aef6332382e81303a4443834eb289b7bf73ed6d954",
+          "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five fields: ale-drinking Farren sarcasm and exaggerated murloc threat; Western Strand and both10kill objectives remain bound to their own targets.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "d0043a5c7189234f951c2a2eedbb6ae0008e9dfe2d995d5386990ba56705b6a7",
+          "reviewedMyanmarSHA256": "6962faaa674ac84615e117b1c1273aaa552fc88b44cbd2aa06442c9c37533430"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "996e7d42f38d1834ca663d89917fceccf048353f8ec542335861568dd72208b9",
+          "reviewedMyanmarSHA256": "da805ab199e44720f2ce3244508e2263234fca88319bc427b1b3c97fca7d082d"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+          "reviewedMyanmarSHA256": "d29e8b0420fb12bf3707f9aef6332382e81303a4443834eb289b7bf73ed6d954"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "1f146f545660e08f380776d8a971c1ba6fbcd4de7cc4aba0489a1713c0f1b65e",
+          "reviewedMyanmarSHA256": "f6dfe7eaf96bada24c31730c17b6e030bdcb26dac1ec2491a574f1a879715ab6"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "7b68909a20a60a884f48abb24117a793ae8feafed4905b27b29957f070e66264",
+          "reviewedMyanmarSHA256": "ab692f36dba131eba1a5138f43e54c18c98060a1554a840c6ce93e6663e75002"
+        }
+      }
+    },
+    {
+      "id": 559,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "objective",
+          "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+          "reviewedMyanmarSHA256": "6fd76d47912802442dcbc6c60b7890c8e9ad3f3d760bba2280fb648762661247",
+          "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+          "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+          "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five fields: modesty sarcasm, cold/slimy severed heads, ten-head collection for Farren, disgust and limited fish diet. Not Redpath delivery.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+          "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "cc06087c704bed4dd90b2d01955f96344e3e1a6fe8cd6ad1f45d3b26688db53f",
+          "reviewedMyanmarSHA256": "4160ca6846ec631b1c81d171e24997a9d2bacfa1229ee373afd3820c5a907cfe"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+          "reviewedMyanmarSHA256": "6fd76d47912802442dcbc6c60b7890c8e9ad3f3d760bba2280fb648762661247"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "515b55a8fdb52ee806298959c0917b3cb6d993eb78ec1508f29fbb3c434bbb08",
+          "reviewedMyanmarSHA256": "2a413d9885d982d349cee6c83635d40cc315e5d11beadd59c954fee2171a0630"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "8ec628c19977b305707b062155338d787a0cff9a15ec94125a616104b503e7aa",
+          "reviewedMyanmarSHA256": "0fe384b340529c340be818c8f9a105ac879498985932121c5e49c35ecfd0007b"
+        }
+      }
+    },
+    {
+      "id": 560,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "objective",
+          "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+          "reviewedMyanmarSHA256": "f3aefdf1685ba24f32eb80fc6190ee963422e16823a18dab2acc3abc24f9e2c9",
+          "old": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ်လ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+          "new": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+          "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Marshal/Marshall uses မာရှယ် as maintained in explicit Marshal and named Marshals including Marshall Dughan. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five fields: explicit NOT wanting to take heads, sack delivery to Marshall Redpath, civic greeting and conditional thanks. UA negation omission rejected.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+          "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "85b54087e9c1012c14ce74ad40c4a8335c436c60e9c5043b41687eab14b7b5da",
+          "reviewedMyanmarSHA256": "d7096459591e0c14c086903811f81bd039831f8cc17e77f568dbab13567944f8"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+          "reviewedMyanmarSHA256": "f3aefdf1685ba24f32eb80fc6190ee963422e16823a18dab2acc3abc24f9e2c9"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "78331933a8c5e9252df9523fdc10227c5db2a75cad8d2a1d9756c52525f8959c",
+          "reviewedMyanmarSHA256": "88d2f3b87a342b8c3cd769bf859e29da88ba0d4f4bed9f84fb2e3e51b46b4dac"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "d96bd50dd5dfe51df1163896bde400411b7061c9c282bc143acb7c2c92b064f7",
+          "reviewedMyanmarSHA256": "02452a432fc3bbdec40f70f20051727e5dfe7e1a496c97c53041eb99fc7c3074"
+        }
+      }
+    },
+    {
+      "id": 561,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "detail",
+          "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+          "reviewedMyanmarSHA256": "17599be24af16336d7ba096f52a059e75ec5b474831da3acfb109ff3ca3eff23",
+          "old": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လက်ဖ်တဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+          "new": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လူတဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+          "proposedFullField": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လူတဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        },
+        {
+          "field": "objective",
+          "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+          "reviewedMyanmarSHA256": "da17a5ee0544f2963b4f0192730ae43ff30eade0342ede84a01e71ef999bdf79",
+          "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five slots: Eastern Strand naga and return to Farren, whose personal Redpath report is conditional on results; absent Progress retained.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+          "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+          "reviewedMyanmarSHA256": "17599be24af16336d7ba096f52a059e75ec5b474831da3acfb109ff3ca3eff23"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+          "reviewedMyanmarSHA256": "da17a5ee0544f2963b4f0192730ae43ff30eade0342ede84a01e71ef999bdf79"
+        },
+        "progress": {
+          "status": "unavailable-current-English-null-retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "737e2b3d1b03917b3892b45bbabd2efde0560a0d003a2e615ab80755a1b6ca9e",
+          "reviewedMyanmarSHA256": "17f4b05f6269f512041b9403bc28166ac3672ba08bae097ae2f605a1d0dc9d7b"
+        }
+      }
+    },
+    {
+      "id": 562,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [
+        {
+          "field": "objective",
+          "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+          "reviewedMyanmarSHA256": "02d99d0894a01cbb68bf9f114e9127bc209de0d2d9879841a2860caf495911ee",
+          "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+          "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+        }
+      ],
+      "readSummary": "Read all five fields: Alliance High Command as whole organization, promotion-or-reassignment uncertainty, Farren inability and plea,10Shorehunters plus10Sirens, Major letter and expected return.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "29e5179221d18e31f99752ecbae7ce33b0d3b6f839d920058ec3496910404160",
+          "reviewedMyanmarSHA256": "1d045491a237e6dc3241835a755101802acd7d5163d4aed89f385b7d804b8fa2"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "682fac4631431888ee5a789866034788b3636aecf26e9691041b2d86ff89fdd9",
+          "reviewedMyanmarSHA256": "2dc5c4cc41231faf14822e929eb245f4fd18677228dacff46e5cd2394b822ebb"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+          "reviewedMyanmarSHA256": "02d99d0894a01cbb68bf9f114e9127bc209de0d2d9879841a2860caf495911ee"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "419cad9137151fa47c65984162cc6a500f162eb450f663c198dd7c7d19a6a8d6",
+          "reviewedMyanmarSHA256": "12e1a91bc4183344ce08528ea96f5f4367a424c85f16ab0f9014d77b7a1059d1"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "a6874521d77e523dc007bb193483313a111738431a23a12921248c78eec5811a",
+          "reviewedMyanmarSHA256": "a90a8e4dd5d87d8aa43d2e98b2922e8a1b32ad6d936a1937118f7ac4646b4074"
+        }
+      }
+    },
+    {
+      "id": 563,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: former mentor Major Samuelson, secret from Redpath, report to Stormwind Keep, next-month personnel consideration rather than immediate transfer.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "876d6991e5874dc48b6e5bf3b0e56e210b48afc75c6de18c059a2190bdf25df4",
+          "reviewedMyanmarSHA256": "c8f270e7843c0cd8d8ea3fec3d2494e8d9b6797a3a996b279273a0edde23e7e4"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "333afc06ad6078765d948aac25c478a076ef53c997c727e9bee92d13b588cdd0",
+          "reviewedMyanmarSHA256": "daf224ade0472927bed9226c1f6012078a6d8559040c984c8b832a8a0dbf10f4"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "ef41aa7246bb2bab45d0e0141f9f816c576965d0ef521aab6a34502c094cadc8",
+          "reviewedMyanmarSHA256": "72c7fdfc9ea139114e971085f7da38b9fbbcebbbc7aab9da599c994432fbb950"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "eb47f757ea78e558f8babe41e7201c2ce68effe3343def82824e703473ac8d38",
+          "reviewedMyanmarSHA256": "4b0d7b6c5b10f07976375fa83c21ee58aef3fb4e7317d63e638b2eac985dec12"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "4740430e08124ddaf87117808f4f80ad7868fabf7d25c70d6534382022e273d6",
+          "reviewedMyanmarSHA256": "1d777e127e0eb91be90fd015e3207fe085d37775ea18af29717a4b76c9448249"
+        }
+      }
+    },
+    {
+      "id": 637,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: envelope disintegrates while pages remain, affectionate letter, worried widow and icy-water entrapment/disbelief. UA faction is Alliance; note error recorded.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "f560c0006b4970f53a0fe3adf9a444f5220e85174dd68456ca70f476c613fbfc",
+          "reviewedMyanmarSHA256": "65b811a984f268e19422b7feb0285cb9d94bf468469ce71563f1940f0956d5b1"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "4aa2294802593f35e08e5d7bf30fc054c8a086ac28bc4747df3d4999e12e6985",
+          "reviewedMyanmarSHA256": "6f2f225c6a9b4c3f8f31ae98149e49561f5e0eb9e02c6eda7876cea42709beb9"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "42037364648f331bb3ead324cd0cb673c62a16999ea72bd99d458c334cbfebea",
+          "reviewedMyanmarSHA256": "9d7629bc4442a1f7d5de91c2a0b0a890d9dc347f2d98ff4a668f8f6db836f4c0"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "09d10d2742b73ef3f551f9dff5f0b6e9516b7b1dde09f56a0c32af9198ecd226",
+          "reviewedMyanmarSHA256": "13c2f8e6aac308aea5e89bd99ca91c3c5c2f140896dac260a2e778e05ae4c54e"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "f286156f5fee7f4a3ba4905021539b5fd567b99b9d8b9c18732145bfac4c674e",
+          "reviewedMyanmarSHA256": "ce7e631811735e825888267d91ca0d79c9eb25be009878e31b5989dac0f54848"
+        }
+      }
+    },
+    {
+      "id": 683,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: grief-ridden Sara request and Alliance valor, royal note handoff and bothplayer markers, short perusal. Item is4514; note error recorded.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "20a8db4615f147f8747de678e3eeb3624a76ab166cef7b86d674059af1f2e606",
+          "reviewedMyanmarSHA256": "c6a5281e2f852811f93990006c45eec93a20e5bcc69b8cdf8185bc4968a584dd"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "61630e3ce61c4cc70a2f0738c6f6e488f90e45dde8ddb7248be92b66d394076a",
+          "reviewedMyanmarSHA256": "78c1d9c22112004c2e4d414a66171bcf6f078fd594b6f52c2d2705c218c07782"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "96402ca156a2bf04bf446a2a136dc6231b36b68a45d63f7823404a2a6029213d",
+          "reviewedMyanmarSHA256": "7a67c4ccaa19beeba892cd8f7c7ed084dbe426508e61fde21408b40a9a9bec81"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "ceb7a2c99bd23447a7a446c56e2bc98b9d051663d4b1dfca1d9f95520513539e",
+          "reviewedMyanmarSHA256": "8f2f6394c3a45ec59d0acbeea23534166a3e6a7d82e0bf037b8569ba957672f6"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "8540f4a217573fa69ff6b34e6491c5aeea2eb387282d35fe4f5686d65e987e4a",
+          "reviewedMyanmarSHA256": "0184c4c8f92c006fb93669d42879a8cbde0e3f0466cb84f0993c08dfce86338a"
+        }
+      }
+    },
+    {
+      "id": 686,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five slots: King burden and negative expectation, cannot resurrect from Twisting Nether, Sully memorial and player custodian. Source Mablesten/Marblesten spelling distinction retained, no normalization.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+          "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "36aa7d4c6a36bdd0968f8c5b3ef969ee43cc74f5d0a94d9a98dcf9671e5a87f3",
+          "reviewedMyanmarSHA256": "5ed56180877b288a48c14d7506ecb577a054da9e7121c78de31408b5a5c32899"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "9b3b05714e698ce2788c34d93959c972998e158b1c7d58088b47b80711b09d14",
+          "reviewedMyanmarSHA256": "fe5f0fd305fad6d9b2953e9a5e9615fbc081d4024a5b66371044a7d7a7160c9d"
+        },
+        "progress": {
+          "status": "unavailable-current-English-null-retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "8be63d60c73df28399a9e6ff1a70929626f2c87568dc8b4453f06db16bf8c154",
+          "reviewedMyanmarSHA256": "f35f83218536ca448b7610a0359d8cadf07da892ee3185d1f184db8b1b2b6d52"
+        }
+      }
+    },
+    {
+      "id": 689,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: reported Thandol tragedy, wish for peace, craftsmanship/imagination voice, Darrow Hill/Hillsbrad,5granite to Mason and three<name> tokens.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+          "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "d8b8ffc7bcb94d52e5460c46ab653857ad1b87d3fcf6e0e298378d9d0b59a306",
+          "reviewedMyanmarSHA256": "fc8f9b6d73a143c02ae004892a137117171eb771d1ae8dd79082ad104dd59f0f"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "7e84fbde9933eeacf7b894ed44be011652b8f337b1cc99b8dee2c6c240867bbf",
+          "reviewedMyanmarSHA256": "8589763a41bdbd2a1f6fd6d655f5188f58e5608d6aa1ad2ac3f7cc3918a0295c"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "77f4cb797ff02044e3fe6e3c252eecd691019a59813821ad09c0aec762a04a92",
+          "reviewedMyanmarSHA256": "dc293e612f6cd6e72a49be8aabb433efb43ff016013f9703b11441e066e7af5c"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "692782ea1427bdac4e5c5e106c2a1135700250aec32326d8d5757bd84407e5eb",
+          "reviewedMyanmarSHA256": "fd42f116071be914df2cbb4ab5e3b8d543a16923e34115f70320d52f5467e4ce"
+        }
+      }
+    },
+    {
+      "id": 700,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five slots: Lordaeron lament, memorial actually complete, anticipated royal satisfaction and finished report to King; mortality and future-generation sacrifice retained.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+          "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "5bac94b96190fda2e409aaeff5d0fa50911cbcfa838ea92344872b579372ccbe",
+          "reviewedMyanmarSHA256": "dea25f3bb16a56b4e51e6b2b3e709d26fe00e0c04289ad7ad1679576caf6bb56"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "80ee4af4b51d5f815c1ae348a3c0fafe23b31b4855a2ee8e96eef913c6b36eee",
+          "reviewedMyanmarSHA256": "6b7b31a505f0c87e81e1f893cb8d81098dfcb89ad481bcb0a254f44cabf78419"
+        },
+        "progress": {
+          "status": "unavailable-current-English-null-retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "2da44867ec075c52d12962163471182f6e097cc8604895286ffbef0ae0f8ab35",
+          "reviewedMyanmarSHA256": "201efd607827c10c7ecfcfb95d8a6d6db6a5eee7d8d8aaab4c9df7f5aa05eba6"
+        }
+      }
+    },
+    {
+      "id": 1221,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: fifty PACES, six tubers, grab crate/stick/manual and READ, summon gopher then command it in RFK, return tools+tubers to Mebok/Ratchet. Objective table manual requirement recorded without invented text.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "6379803d7853428c097ab4645f492eeca562d35e114693fc03a537e994efd82b",
+          "reviewedMyanmarSHA256": "e5602d95502a05e251810280a7505097eb35a4806627131c65360c9a9a2ff999"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "3f1a4647b3c133028db9348a387ca35525c42eba88e05f4416af1435f6d9f7bf",
+          "reviewedMyanmarSHA256": "03fac07c207095ab20980dd742c6da1476d5ffe9136a9d7abea6feb6a88117b3"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "a2b4a1310b1d83ec6c5db80b2274b051e75d82de6234eb15d4359dbc5ddb249d",
+          "reviewedMyanmarSHA256": "2b01ba306a061cd758ffbab1cf7f3e0c0aaa2e41cc708db1cf6f82fe6e673eb6"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "fc6e2e22065711b6d4684ecacf534be68752a03d6e1f3060c05d7ad83f7c6efd",
+          "reviewedMyanmarSHA256": "39d6dcd0f7a24a7d299e796adc9224c47af2c2c0ca191fa56657cff4d7c93e2c"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "b358987897279b9e5b82a3172621c104092d569414f63f2b1d5c4dc7ac17b663",
+          "reviewedMyanmarSHA256": "276a43310fdda7cc7e27c4ebf880c4f54344a500ea82fcfee1fb8f283ff23069"
+        }
+      }
+    },
+    {
+      "id": 1142,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: dying weak/stuttering voice, Lonebrow already sent to warn, stolen wife pendant plus LONELY-death news, widow burden/Heralath work and request to mourn alone.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "93e5a2c3f3a2b3b9d2d1cf8f2f1a963cd38450442ca2c7e45b1b720cd7ef1522",
+          "reviewedMyanmarSHA256": "8692a44b28d7e2369eaf615e2ddeb512bb0a9c233cbeaf09fd2deb310411a73f"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "ab1a299dbfb36c1cd8ebe1879cc0c8474099f1a7fb840b1ce66893ef815c8ee2",
+          "reviewedMyanmarSHA256": "5d9caed9eacc076bad26e935539f86b32a8e455b2ac4695f935a05e48e702dde"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "3e1a9f960afacdc1eb029e52bf8e5e1cfb29f97612d21a89f1c27f4ba468871f",
+          "reviewedMyanmarSHA256": "adb4ab7a3cfadc810984b68d9d0a0738dabad3158dc5741976ee29b3f802c1c2"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "8f338c5060b7b398474a0a8dc89d495f9406930a671155a29e6835ea9c5d0584",
+          "reviewedMyanmarSHA256": "aa35e7a1e0977aca2a38098323776c2032aeb2e85799fb3bad475453962e887f"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "ed709888c2ff2ffd3a8edb605fc5b4a2e3e72f053968db4f5fbd3318c0ef6b67",
+          "reviewedMyanmarSHA256": "8ee5800ceacf421120152002d4694acfb56b9e25c3d6fc615c912e1480450673"
+        }
+      }
+    },
+    {
+      "id": 1144,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five slots: entrepreneur/copper, source REDleaf rumor, easy-in/out error, reward conditional on escort OUT of RFK. Current twoEnglish references omit Progress, so UA-only text stays null. Min22vs23 noted.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "fc3c0af881d3e8354c912ae3a6c560e4c712171bb7e3998665c4985b15447019",
+          "reviewedMyanmarSHA256": "e7fc181dd5074b6c22eb20a9f7c6665b9f068a45c61802cf35a558687b120ba7"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "4635756cad676e33aea462660d8440c758239a2c4f2e7e3a2dfd73dd0801ed32",
+          "reviewedMyanmarSHA256": "eb2f13a755a5f1e8e21e716ec6e592833cfdf5aa8d738fca4c01cda4ef81bcb6"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "198349c711998765991f58068b1f766a91da317323e9c962c46d04757926cda6",
+          "reviewedMyanmarSHA256": "b6c9dce3ee23085f211fdcd048df1944e2d5ee689a0d51a901cae9e483a747c5"
+        },
+        "progress": {
+          "status": "unavailable-current-English-null-retained",
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "0d80e78c9ef31ed40f895daeea36b94816ee291fbddb78454c52385272b816de",
+          "reviewedMyanmarSHA256": "4a26cba0a35c826c8f5152e53c497d16ebbc0a65eb77fc744bf0afac3d75f8b9"
+        }
+      }
+    },
+    {
+      "id": 78916,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: corpse/viscera/gore, iridescent rawVoid pearl; Alliance Selgorm/Darnassus handoff, real-heroes praise, possible research key and immediate study/thanks.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+          "reviewedMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+          "reviewedMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "1a6331c641fb56aedfc4dbc55b9b9b6444f2faac5355ecbc65e7ac2fbc513e0e",
+          "reviewedMyanmarSHA256": "6c6dc76f7fa446272779af69d8effb0c7cadcef12f2915673aacaae11e0a5978"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+          "reviewedMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "51a9402f7192637fd2a963b61e8eecca66ff78640bf369d0368e4b74a3590574",
+          "reviewedMyanmarSHA256": "e9184adbc8dc9f70feeb89658972b3e58de149c061660ca9e96d1ea845d8e317"
+        }
+      }
+    },
+    {
+      "id": 78917,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "readSummary": "Read all five fields: shared corpse scene but Horde Bashana/ThunderBluff handoff; Kalimdor service, possible research, immediate study and EarthMother farewell remain distinct.",
+      "fieldReadStates": {
+        "title": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+          "reviewedMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0"
+        },
+        "detail": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+          "reviewedMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483"
+        },
+        "objective": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "e98eeddb7dc880f36b9e95b255a12ad5e423449162bef713f8322c767a9df85a",
+          "reviewedMyanmarSHA256": "1595e4d3c657ef2b8dd224523a26271fd4b814ea5ef2271708611d1da28e9c40"
+        },
+        "progress": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+          "reviewedMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f"
+        },
+        "complete": {
+          "status": "English/Myanmar fully read",
+          "englishSHA256": "8914745ec44b0942ca26d363c17ba09d88a683d293b0f38a75b3d2e66983cd0d",
+          "reviewedMyanmarSHA256": "ae14eb378dd3e5f1c4d56b74ce756ba3445d57cd725a0743082b6561b5f28ac1"
+        }
+      }
+    }
+  ],
+  "issues": [
+    {
+      "id": 98219,
+      "field": "title",
+      "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+      "reviewedMyanmarSHA256": "f1c17121b5928a477a23d3fc7986ac7abadb36020144814d3f3c82054390c3c2",
+      "old": "အရှက်ရခဲ့သည့် Lieutenant (လက်ဖ်တဲနန့်တ်)",
+      "new": "အရှက်ရခဲ့သည့် Lieutenant (လူတဲနန့်တ်)",
+      "proposedFullField": "အရှက်ရခဲ့သည့် Lieutenant (လူတဲနန့်တ်)",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 98219,
+      "field": "objective",
+      "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+      "reviewedMyanmarSHA256": "8db632c419f2b8649a86752137db07a7ff5cfff48eba6c4d173aa4050bcb7046",
+      "old": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "new": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "proposedFullField": "Hillsbrad Foothills (ဟီလ်ဇ်ဘရက်ဒ် ဖွတ်ဟီလ်ဇ်) ထဲက Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 536,
+      "field": "objective",
+      "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+      "reviewedMyanmarSHA256": "d29e8b0420fb12bf3707f9aef6332382e81303a4443834eb289b7bf73ed6d954",
+      "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Torn Fin Tidehunters (တောန် ဖင် တိုက်ဒ်ဟန်တာဇ်) 10 ကောင်နှင့် Torn Fin Oracles (တောန် ဖင် အော်ရကယ်လ်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 559,
+      "field": "objective",
+      "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+      "reviewedMyanmarSHA256": "6fd76d47912802442dcbc6c60b7890c8e9ad3f3d760bba2280fb648762661247",
+      "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+      "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+      "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Western Strand (ဝက်စ်တန် စထရန်ဒ်) ပေါ်က murlocs (မာလော့ခ်စ်) များထံမှ Murloc Heads (မာလော့ခ် ဟက်ဒ်ဇ်) 10 ခု စုဆောင်းပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 560,
+      "field": "objective",
+      "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+      "reviewedMyanmarSHA256": "f3aefdf1685ba24f32eb80fc6190ee963422e16823a18dab2acc3abc24f9e2c9",
+      "old": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ်လ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+      "new": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+      "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Marshall Redpath (မာရှယ် ရက်ဒ်ပက်သ်) ထံ sack of murloc heads (ဆက်ခ် အော့ဗ် မာလော့ခ် ဟက်ဒ်ဇ်) ကို ပို့ပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Marshal/Marshall uses မာရှယ် as maintained in explicit Marshal and named Marshals including Marshall Dughan. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 561,
+      "field": "detail",
+      "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+      "reviewedMyanmarSHA256": "17599be24af16336d7ba096f52a059e75ec5b474831da3acfb109ff3ca3eff23",
+      "old": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လက်ဖ်တဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+      "new": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လူတဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+      "proposedFullField": "Eastern Strand (အီးစ်တန် စထရန်ဒ်) မှာ ပြည့်နှက်နေတဲ့ naga (နာဂါ) တွေဘက်ကို အားပြန်စိုက်စေချင်တယ်လို့ Lieutenant Orinelle (လူတဲနန့်တ် အော်ရီနယ်လ်) ကို ပြောပေးပါ။ ရလဒ်ရတဲ့အခါ ကျွန်ုပ်ဆီ ကိုယ်တိုင်လာ သတင်းပို့ဖို့လည်း ပြောလိုက်ပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 561,
+      "field": "objective",
+      "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+      "reviewedMyanmarSHA256": "da17a5ee0544f2963b4f0192730ae43ff30eade0342ede84a01e71ef999bdf79",
+      "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) နှင့် စကားပြောပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    },
+    {
+      "id": 562,
+      "field": "objective",
+      "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+      "reviewedMyanmarSHA256": "02d99d0894a01cbb68bf9f114e9127bc209de0d2d9879841a2860caf495911ee",
+      "old": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လက်ဖ်တဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "new": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "proposedFullField": "Southshore (ဆောက်သ်ရှော) ရှိ Lieutenant Farren Orinelle (လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်) အတွက် Daggerspine Shorehunters (ဒက်ဂါစပိုင်န် ရှောဟန်တာဇ်) 10 ကောင်နှင့် Daggerspine Sirens (ဒက်ဂါစပိုင်န် ဆိုင်းရန်ဇ်) 10 ကောင်ကို သတ်ပါ။",
+      "reason": "Retain the maintained rank pronunciation core in this new displayed field. Lieutenant uses လူတဲနန့်တ် as maintained in Lieutenant Benedict, Harpy Lieutenant Ring and insignia; this is consistency, not a claim the British /lef/ form is invalid. Preserve the complete source English identity, all other Myanmar wording, markers, quantities and actions. Native phonetic approval remains pending."
+    }
+  ],
+  "evidenceIssues": [
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "summary"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "fields",
+        "title",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "fields",
+        "detail",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "fields",
+        "objective",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "fields",
+        "progress",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        0,
+        "fields",
+        "complete",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "summary"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "fields",
+        "title",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "fields",
+        "detail",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "fields",
+        "objective",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "fields",
+        "progress",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "jsonPath": [
+        1,
+        "fields",
+        "complete",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "summary"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "fields",
+        "title",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "fields",
+        "detail",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "fields",
+        "objective",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "fields",
+        "progress",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        7,
+        "fields",
+        "complete",
+        "notes"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "summary"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "fields",
+        "title",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "fields",
+        "detail",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "fields",
+        "objective",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "fields",
+        "progress",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "jsonPath": [
+        8,
+        "fields",
+        "complete",
+        "notes"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-groups.json",
+      "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+      "jsonPath": [
+        1,
+        "questNotes",
+        "637"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "review-groups.json",
+      "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+      "jsonPath": [
+        1,
+        "questNotes",
+        "683"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "semantic-notes-group2.json",
+      "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+      "jsonPath": [
+        "637"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "semantic-notes-group2.json",
+      "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+      "jsonPath": [
+        "683"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+      "jsonPath": [
+        "637"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+      "jsonPath": [
+        "683"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "source-sanity.json",
+      "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+      "jsonPath": [
+        "637",
+        "disposition"
+      ],
+      "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+      "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "source-sanity.json",
+      "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+      "jsonPath": [
+        "683",
+        "disposition"
+      ],
+      "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+      "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+      "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+    },
+    {
+      "file": "author-summary.json",
+      "authorFileSHA256": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+      "jsonPath": [
+        "importantSourceCaveats"
+      ],
+      "oldValue": {
+        "536/559/560/561/563/637/683/686/700": "Current exact-ID side1 versus UA Both; faction inferred from own records, never neighbor rows or live pickup proof",
+        "560.detail": "UA drops negation; both English references say rather NOT take heads, retained",
+        "686.detail": "Mablesten source spelling vs Marblesten objective, same NPC2790, source labels retained",
+        "1144": "Current exact-ID min22 vs installed min23 unresolved eligibility; no live availability claim; UA-only Helpme Progress unavailable in both current English and null",
+        "1221": "Secondary TLS timeout; exact-ID primary dialogue with installed/UA corroboration; manual additionally in objective table, grab/read preserved without invented final return sentence",
+        "78916/78917": "Current secondary404; objective table provided209693/211452 and no-longerPerfect change note, while current dialogue/installed/UA Blackfathom Pearl unchanged; faction-specific targets/completions retained",
+        "1221/1142/1144": "Other exact-ID changes only rewards/reputation choices"
+      },
+      "newValue": {
+        "560.detail": "UA drops negation; both English references say rather NOT take heads, retained",
+        "686.detail": "Mablesten source spelling vs Marblesten objective, same NPC2790, source labels retained",
+        "1144": "Current exact-ID min22 vs installed min23 unresolved eligibility; no live availability claim; UA-only Helpme Progress unavailable in both current English and null",
+        "1221": "Secondary TLS timeout; exact-ID primary dialogue with installed/UA corroboration; manual additionally in objective table, grab/read preserved without invented final return sentence",
+        "78916/78917": "Current secondary404; objective table provided209693/211452 and no-longerPerfect change note, while current dialogue/installed/UA Blackfathom Pearl unchanged; faction-specific targets/completions retained",
+        "1221/1142/1144": "Other exact-ID changes only rewards/reputation choices",
+        "536/559/560/561/563/683/686/700": "Current exact-ID side1 versus UA Both; faction inferred from own records, never neighbor rows or live pickup proof",
+        "637": "Current exact-ID side1 and pinned UA Alliance agree; installed minimum25 matches current source; no live pickup claim."
+      },
+      "sourceEvidence": "Pinned UA catalog quest637 factionAlliance and current exact own-ID g_quests637 side1; author incorrectly included637 amongBoth mismatches.",
+      "reason": "Remove637from the mismatch group and record actual agreement."
+    }
+  ],
+  "renderedCompanionCorrections": [
+    {
+      "file": "bilingual-author-review.html",
+      "authorFileSHA256": "c0f63239d4bd5a6a2f437a8b3ea6d17e40b5b3946da8cab65399be858d4a5e36",
+      "oldLiteral": "UA incorrectly Both",
+      "newLiteral": "UA Alliance matches current side1",
+      "reason": "Regenerate/review the rendered companion from documentary-corrected semantic notes; preserve frozen original as historical author evidence."
+    },
+    {
+      "file": "bilingual-author-review.html",
+      "authorFileSHA256": "c0f63239d4bd5a6a2f437a8b3ea6d17e40b5b3946da8cab65399be858d4a5e36",
+      "oldLiteral": "Item4531",
+      "newLiteral": "Item4514",
+      "reason": "Regenerate/review the rendered companion from documentary-corrected semantic notes; preserve frozen original as historical author evidence."
+    }
+  ],
+  "pronunciationOverrides": {
+    "Lieutenant": "လူတဲနန့်တ်",
+    "Lieutenant Farren Orinelle": "လူတဲနန့်တ် ဖဲရန် အော်ရီနယ်လ်",
+    "Lieutenant Orinelle": "လူတဲနန့်တ် အော်ရီနယ်လ်",
+    "Marshall Redpath": "မာရှယ် ရက်ဒ်ပက်သ်"
+  },
+  "rankDecision": "Root explicitly selected maintained Lieutenant coreလူတဲနန့်တ် and Marshal/Marshallမာရှယ်for NEWactive fields. Prior historical Fangoreလူးတဲနန့်တ်and othercatalog variants remain unchanged. Pronunciation quality/native approval pending.",
+  "conservation": "Preserve all other reviewed English/Myanmar text; no semantic or stylistic rewrite proposed. No annotation exception or glossaryservice mutation requested.",
+  "reviewedGroups": [
+    [
+      98219,
+      536,
+      559,
+      560,
+      561,
+      562,
+      563
+    ],
+    [
+      637,
+      683,
+      686,
+      689,
+      700
+    ],
+    [
+      1221,
+      1142,
+      1144,
+      78916,
+      78917
+    ]
+  ],
+  "frozenIntegrity": {
+    "manifestSHA256": "1a4a43643f10dcab833c830bee9615461af81cbadda5f8c40eb23d7278764699",
+    "before": {
+      "1142-sixty.html": "148e2c3496251d5396c5bb1e7b2f0c90dab6e86b0f54ebf6f250ca74d14d4362",
+      "1142-wowhead.html": "9302ebc6a58e14b6207757e4931edc5f76281235e36eef67d679445208f5ad31",
+      "1144-sixty.html": "e44a064db10e2800a6d7b3b1c706c667b5a968b004f16defa8b663c031fc0b6f",
+      "1144-wowhead.html": "782ab850b76661bd2cc3652a4bab7f7d22694c4ba2ef9dfa5a3cb324e91b2ce0",
+      "1221-wowhead.html": "737a9b84cba054d0488196a2bd4739a9238974aa7419982aa90998e6f1a6b81f",
+      "536-sixty.html": "c9e9560eecc961531024ceae53d05c9c4d1cd65f2bd65e9f957fbb6543671de7",
+      "536-wowhead.html": "7db51e01dadf3d73aa2a88d3a0f886f8565826f20989ce4b2611534e31c56580",
+      "559-sixty.html": "26f3e3a6daf142d90edc64e363619dc83a35eff1a2414546510bdac11c48c2e5",
+      "559-wowhead.html": "5f398f2b4fbf9577d07893d34b65a471704dce486ea03ec94da2bfff89406a97",
+      "560-sixty.html": "9b5312bc7556c4c473271efc16ac8800593b0cecdfeadeca2ffbbf5e2498843b",
+      "560-wowhead.html": "1cfa9f4b6f97430a87cce1a48b7651e63f59e56a448c6ea3cb31b5966157a25a",
+      "561-sixty.html": "948170cf5f68999384d8c3ee142aa3161f7e450c885767c7094bbc4fd92d02a5",
+      "561-wowhead.html": "57915511617bf4cd13aa8985309d997da248777637b14be9b93c6cbd66aa3afa",
+      "562-sixty.html": "ba2da6987064809454a6ee8589371242c902faa955592fa82266147c6978a589",
+      "562-wowhead.html": "0694ab832d695ac09dcde6696c7f8dbfa874f1d8407b4acf85dbd2067697e02a",
+      "563-sixty.html": "ad010e43ca8a74d3a973c7488b5904a24b594590e69c6974e4de35265db287c1",
+      "563-wowhead.html": "5b0ea24267ab6ec3957a663e14262cf92521501d904d3ca7b946944481c61d69",
+      "637-sixty.html": "55e96dc8e3884e1f14c2e694a282a81fb51791bde02d5e5f56559e61fff58f85",
+      "637-wowhead.html": "67f4fc64ff9255c33fb441f414a32a1d77b247e43cdc0b28e13306d68b3d3cfb",
+      "683-sixty.html": "5421e096cf10fdb03ec24c80885e1bc833aab82740d04872eb2feb3966af22da",
+      "683-wowhead.html": "4001b8148047f5831975829818ec51622bcfe39310d2c38dc39b63396ca3c142",
+      "686-sixty.html": "cdf40aafd48a1de7a2a98d066cde5ada2e07d908891d88334630be25fa9e8de1",
+      "686-wowhead.html": "b0b7402ae66e6f85bee8f30d5276f17324e35ff6971988d23e24155a968ddeba",
+      "689-sixty.html": "ab02b69aa5a6144be7aad735d94cf6f3563a2231d2e66efcb4cb63edbad1a272",
+      "689-wowhead.html": "8dab82929f5f9a1194f76c3f68f5fb8fa892834168874d8f1c5ce15c941661ab",
+      "700-sixty.html": "29e36963586dfd1c2000c08da527f5f67540f578f2ba263ffe194b5580f5cc0e",
+      "700-wowhead.html": "c4584d12c96df800d6582d0f8176b07cd084e965be783af17d7af3740781a5e9",
+      "78916-wowhead.html": "a6749719e1f39725318e05a8bea2cbce073733546d513ca0e75e5af4fbc5f24c",
+      "78917-wowhead.html": "785b48979e3ebd95f39b467c0d516209bd36d4ab234f7a4b6ed3cfaa22588127",
+      "98219-sixty.html": "a8966e9ddc6cafc537d6738cd1a971dc77611ae0cb989b4e36344389977ea8b6",
+      "98219-wowhead.html": "a3c5d7e99e9b2410f9d826e759a6c02e4fbf3d8c82ea13d09c02754ed1580370",
+      "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "author-summary.json": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+      "batch-plan.json": "000746d24ce9cf48daf1554aec7f13d39cd26f66087ead4d199422efe8cdd382",
+      "bilingual-author-review.html": "c0f63239d4bd5a6a2f437a8b3ea6d17e40b5b3946da8cab65399be858d4a5e36",
+      "checkpoint_group.py": "325f4b70738f2472bcfc2c7971b393bce6ddf227199db95569d37fd9960c5d58",
+      "comparison-provenance.json": "ca0d84d1606591ffbf9f6d13510e8885e7dc0ae2a90b0984306ec50f9ea5d719",
+      "contract-negative-cases.json": "58d2efb82100fec902057c6273be2e84b67920d6e6913d66220cc9fa4d3188c0",
+      "deepl-index-01.json": "09d0e4bf304016d8cff56ca6ca630d279889fbba24d1cdfd36a76480e816aed9",
+      "deepl-index-02.json": "b968a991a3fe57b6bc66cc6d050e59dc9aef5c4ad21f90f3925e039f466b17b7",
+      "deepl-index-03.json": "12fb1a77c0185126510172686b15d43cf194cd973daf73079ac4620f7ffce294",
+      "deepl-index-04.json": "6ba9bbf14134a0226e039a71712fdd7fb3f85fd312fbca4a4ebf7adfc411b958",
+      "deepl-request-01.json": "6dfac59466447b64b45f7b478180b30cf6d687ba6fb98e580ddb22b03835dbb9",
+      "deepl-request-02.json": "f3eeed90d06b5e119fbff3e6f95534f23435d265d2c8bf79313a57a93ea954e3",
+      "deepl-request-03.json": "74406f47731790a15f24a0f90c20505e72d99843c672662403af271c348017d0",
+      "deepl-request-04.json": "1fff31a874a431cd5af71ed2bc0b6c8f0cefb2f2482019807c1c8a68e5f8a908",
+      "deepl-response-01.json": "f018bcab48fe6a10c1a480b6a540eb53d86dca4ec54351219e628169d66cae43",
+      "deepl-response-02.json": "3bef11f3d424741fd98a3f5c72bc103839107f7a37d7b03db267b62ae1ea7f9c",
+      "deepl-response-03.json": "4388f566da5898c9edd44bec0ad3212ed2ac3f5799c95995b98da50f91f5f21d",
+      "deepl-response-04.json": "bb1c89cf3ae7cd05e75adb944400b411ff30b2ee75fbde6c80f75698f12ebdc2",
+      "draft-group1.json": "50bce3bf47c833a3d10a9dfc9c436957c8562fb5bff462425b83c712baea191e",
+      "draft-group2.json": "efae03d33d7c9d95a97f7aadedce35a9eaca5e71888285875663383c4f7aa40a",
+      "draft-group3.json": "8d03ded5f587051b69dda7a668e8f23d1dd9c0e5d095fd441f52c91a7c15678f",
+      "edited-group1.json": "c47900eec53bb9bd34bdabebdfd9e2cc92c0b4c99c660f2e4d09bc771fa49285",
+      "edited-group2.json": "84a555fc2bf7dc75cfc29fa5f38dff053c6d456d9be160b610162ec38b50e779",
+      "edited-group3.json": "d8f3c5d708899fe18bab7733854a02ebfc1692379858869da92b56bedd8f8f33",
+      "edited.json": "9b76fb9746d6ffb0f34b18c70d60299df836667ee1f90389be39a6fcd43c8bb0",
+      "english-sources.json": "55975d520a8942c18605033c955ce8cd3963128934025eaa1634b24a9d587b2a",
+      "fetched.json": "13b917f34b6e4575b550e9e58e6b7fa4bd13d4e9962c2f0eadd32714cb9e7ed4",
+      "finalize.py": "c39226dcf825a2c198737c4add374c53073f5de854d64c514e7fcd04adb5f04c",
+      "held-fields-group1.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields-group2.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields-group3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "identity-contracts.json": "10f07d22f5c9234b02af57d326a3b5df9d9fc7fbeeec6ed1e0214053bdb8e021",
+      "prepare.py": "de40674619faf8618daef092f32fa210bb80ffe73beab7e605c66a9ac3a15eb1",
+      "pronunciation-review-status.json": "33a9afcc1e17b3c3ba655860d993598a9e19a612299f4b0a8312e6d8e6e0b5d4",
+      "pronunciations-group1.json": "49089a7cedc36ea8ab1d9d4aef53d8caca8486ede2a5e87b7e7d5266befb090f",
+      "pronunciations-group2.json": "676b5f5021e58f23f055b84a2939affdf0591e4196d0c2d340d326595ad41c0f",
+      "pronunciations-group3.json": "1b14d0d1d5591fab185a16612588e659a5b9dc5823fdd0e7d1913183f220a77b",
+      "pronunciations.json": "b202b4a678cc571d350ccee877e751ba0ca73db013d87e1ef7d47f571cb3b972",
+      "provenance-group1.json": "55033e70ec4b16d84a3b4a7e0295d9479017d80aef26634659c2e99c9f80f81e",
+      "provenance-group2.json": "cea40957fee6a347b18fd6e4bbd199e18e659bb645faf6bade88789a87085816",
+      "provenance-group3.json": "491bf5d37992e34c29598ebdf7de330b1cabf50d737093710132aee4e63762ce",
+      "review-audit-group1.json": "7ca46041042fa7e1a2e0655bdc6cff519164343abc19ef0eeee694104cd56a81",
+      "review-audit-group2.json": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "review-audit-group3.json": "ca7a2802ffa96ef72cfebf179afd15dcef6ad41ceaf7897e561af2eff35239f3",
+      "review-audit.json": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "review-groups.json": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+      "semantic-contracts.json": "12d41b7cdeffea04842c85ad2ff79eefc565bdd0fc5c84a408fb9011fcdbbdb2",
+      "semantic-notes-group1.json": "1abd43b048268d64ad402d3d70bc5a04b87d2692d4a3044bd3e618e1cfcc652e",
+      "semantic-notes-group2.json": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+      "semantic-notes-group3.json": "dba3d52f571bfb3b49d203bf9926eeff1916c448d971e8bd0083f28e09236253",
+      "semantic-notes.json": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+      "source-boundaries.json": "69787c913cb712e36ab5e432b517addb9281360cb67909cb6e36520f2bf006a6",
+      "source-sanity.json": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+      "validation-group1.json": "20158e842c2bd0ac36bfdf642621d6ac5c6222d20ac1ff09dfc93ac764496be2",
+      "validation-group2.json": "9620e17ccde39aa749c5616b7982033d05f8d41abbc1a72acdc9577405ffaec7",
+      "validation-group3.json": "ab67a78d9b7b6421170b8a7977b03d35938cf890924a68cdbc915d08717e0ac4",
+      "worker-validation.json": "89330e3905b5ef960f0f279d035f7990187206bb3831f14341169910f5c9eb69"
+    },
+    "after": {
+      "1142-sixty.html": "148e2c3496251d5396c5bb1e7b2f0c90dab6e86b0f54ebf6f250ca74d14d4362",
+      "1142-wowhead.html": "9302ebc6a58e14b6207757e4931edc5f76281235e36eef67d679445208f5ad31",
+      "1144-sixty.html": "e44a064db10e2800a6d7b3b1c706c667b5a968b004f16defa8b663c031fc0b6f",
+      "1144-wowhead.html": "782ab850b76661bd2cc3652a4bab7f7d22694c4ba2ef9dfa5a3cb324e91b2ce0",
+      "1221-wowhead.html": "737a9b84cba054d0488196a2bd4739a9238974aa7419982aa90998e6f1a6b81f",
+      "536-sixty.html": "c9e9560eecc961531024ceae53d05c9c4d1cd65f2bd65e9f957fbb6543671de7",
+      "536-wowhead.html": "7db51e01dadf3d73aa2a88d3a0f886f8565826f20989ce4b2611534e31c56580",
+      "559-sixty.html": "26f3e3a6daf142d90edc64e363619dc83a35eff1a2414546510bdac11c48c2e5",
+      "559-wowhead.html": "5f398f2b4fbf9577d07893d34b65a471704dce486ea03ec94da2bfff89406a97",
+      "560-sixty.html": "9b5312bc7556c4c473271efc16ac8800593b0cecdfeadeca2ffbbf5e2498843b",
+      "560-wowhead.html": "1cfa9f4b6f97430a87cce1a48b7651e63f59e56a448c6ea3cb31b5966157a25a",
+      "561-sixty.html": "948170cf5f68999384d8c3ee142aa3161f7e450c885767c7094bbc4fd92d02a5",
+      "561-wowhead.html": "57915511617bf4cd13aa8985309d997da248777637b14be9b93c6cbd66aa3afa",
+      "562-sixty.html": "ba2da6987064809454a6ee8589371242c902faa955592fa82266147c6978a589",
+      "562-wowhead.html": "0694ab832d695ac09dcde6696c7f8dbfa874f1d8407b4acf85dbd2067697e02a",
+      "563-sixty.html": "ad010e43ca8a74d3a973c7488b5904a24b594590e69c6974e4de35265db287c1",
+      "563-wowhead.html": "5b0ea24267ab6ec3957a663e14262cf92521501d904d3ca7b946944481c61d69",
+      "637-sixty.html": "55e96dc8e3884e1f14c2e694a282a81fb51791bde02d5e5f56559e61fff58f85",
+      "637-wowhead.html": "67f4fc64ff9255c33fb441f414a32a1d77b247e43cdc0b28e13306d68b3d3cfb",
+      "683-sixty.html": "5421e096cf10fdb03ec24c80885e1bc833aab82740d04872eb2feb3966af22da",
+      "683-wowhead.html": "4001b8148047f5831975829818ec51622bcfe39310d2c38dc39b63396ca3c142",
+      "686-sixty.html": "cdf40aafd48a1de7a2a98d066cde5ada2e07d908891d88334630be25fa9e8de1",
+      "686-wowhead.html": "b0b7402ae66e6f85bee8f30d5276f17324e35ff6971988d23e24155a968ddeba",
+      "689-sixty.html": "ab02b69aa5a6144be7aad735d94cf6f3563a2231d2e66efcb4cb63edbad1a272",
+      "689-wowhead.html": "8dab82929f5f9a1194f76c3f68f5fb8fa892834168874d8f1c5ce15c941661ab",
+      "700-sixty.html": "29e36963586dfd1c2000c08da527f5f67540f578f2ba263ffe194b5580f5cc0e",
+      "700-wowhead.html": "c4584d12c96df800d6582d0f8176b07cd084e965be783af17d7af3740781a5e9",
+      "78916-wowhead.html": "a6749719e1f39725318e05a8bea2cbce073733546d513ca0e75e5af4fbc5f24c",
+      "78917-wowhead.html": "785b48979e3ebd95f39b467c0d516209bd36d4ab234f7a4b6ed3cfaa22588127",
+      "98219-sixty.html": "a8966e9ddc6cafc537d6738cd1a971dc77611ae0cb989b4e36344389977ea8b6",
+      "98219-wowhead.html": "a3c5d7e99e9b2410f9d826e759a6c02e4fbf3d8c82ea13d09c02754ed1580370",
+      "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "author-summary.json": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+      "batch-plan.json": "000746d24ce9cf48daf1554aec7f13d39cd26f66087ead4d199422efe8cdd382",
+      "bilingual-author-review.html": "c0f63239d4bd5a6a2f437a8b3ea6d17e40b5b3946da8cab65399be858d4a5e36",
+      "checkpoint_group.py": "325f4b70738f2472bcfc2c7971b393bce6ddf227199db95569d37fd9960c5d58",
+      "comparison-provenance.json": "ca0d84d1606591ffbf9f6d13510e8885e7dc0ae2a90b0984306ec50f9ea5d719",
+      "contract-negative-cases.json": "58d2efb82100fec902057c6273be2e84b67920d6e6913d66220cc9fa4d3188c0",
+      "deepl-index-01.json": "09d0e4bf304016d8cff56ca6ca630d279889fbba24d1cdfd36a76480e816aed9",
+      "deepl-index-02.json": "b968a991a3fe57b6bc66cc6d050e59dc9aef5c4ad21f90f3925e039f466b17b7",
+      "deepl-index-03.json": "12fb1a77c0185126510172686b15d43cf194cd973daf73079ac4620f7ffce294",
+      "deepl-index-04.json": "6ba9bbf14134a0226e039a71712fdd7fb3f85fd312fbca4a4ebf7adfc411b958",
+      "deepl-request-01.json": "6dfac59466447b64b45f7b478180b30cf6d687ba6fb98e580ddb22b03835dbb9",
+      "deepl-request-02.json": "f3eeed90d06b5e119fbff3e6f95534f23435d265d2c8bf79313a57a93ea954e3",
+      "deepl-request-03.json": "74406f47731790a15f24a0f90c20505e72d99843c672662403af271c348017d0",
+      "deepl-request-04.json": "1fff31a874a431cd5af71ed2bc0b6c8f0cefb2f2482019807c1c8a68e5f8a908",
+      "deepl-response-01.json": "f018bcab48fe6a10c1a480b6a540eb53d86dca4ec54351219e628169d66cae43",
+      "deepl-response-02.json": "3bef11f3d424741fd98a3f5c72bc103839107f7a37d7b03db267b62ae1ea7f9c",
+      "deepl-response-03.json": "4388f566da5898c9edd44bec0ad3212ed2ac3f5799c95995b98da50f91f5f21d",
+      "deepl-response-04.json": "bb1c89cf3ae7cd05e75adb944400b411ff30b2ee75fbde6c80f75698f12ebdc2",
+      "draft-group1.json": "50bce3bf47c833a3d10a9dfc9c436957c8562fb5bff462425b83c712baea191e",
+      "draft-group2.json": "efae03d33d7c9d95a97f7aadedce35a9eaca5e71888285875663383c4f7aa40a",
+      "draft-group3.json": "8d03ded5f587051b69dda7a668e8f23d1dd9c0e5d095fd441f52c91a7c15678f",
+      "edited-group1.json": "c47900eec53bb9bd34bdabebdfd9e2cc92c0b4c99c660f2e4d09bc771fa49285",
+      "edited-group2.json": "84a555fc2bf7dc75cfc29fa5f38dff053c6d456d9be160b610162ec38b50e779",
+      "edited-group3.json": "d8f3c5d708899fe18bab7733854a02ebfc1692379858869da92b56bedd8f8f33",
+      "edited.json": "9b76fb9746d6ffb0f34b18c70d60299df836667ee1f90389be39a6fcd43c8bb0",
+      "english-sources.json": "55975d520a8942c18605033c955ce8cd3963128934025eaa1634b24a9d587b2a",
+      "fetched.json": "13b917f34b6e4575b550e9e58e6b7fa4bd13d4e9962c2f0eadd32714cb9e7ed4",
+      "finalize.py": "c39226dcf825a2c198737c4add374c53073f5de854d64c514e7fcd04adb5f04c",
+      "held-fields-group1.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields-group2.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields-group3.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "identity-contracts.json": "10f07d22f5c9234b02af57d326a3b5df9d9fc7fbeeec6ed1e0214053bdb8e021",
+      "prepare.py": "de40674619faf8618daef092f32fa210bb80ffe73beab7e605c66a9ac3a15eb1",
+      "pronunciation-review-status.json": "33a9afcc1e17b3c3ba655860d993598a9e19a612299f4b0a8312e6d8e6e0b5d4",
+      "pronunciations-group1.json": "49089a7cedc36ea8ab1d9d4aef53d8caca8486ede2a5e87b7e7d5266befb090f",
+      "pronunciations-group2.json": "676b5f5021e58f23f055b84a2939affdf0591e4196d0c2d340d326595ad41c0f",
+      "pronunciations-group3.json": "1b14d0d1d5591fab185a16612588e659a5b9dc5823fdd0e7d1913183f220a77b",
+      "pronunciations.json": "b202b4a678cc571d350ccee877e751ba0ca73db013d87e1ef7d47f571cb3b972",
+      "provenance-group1.json": "55033e70ec4b16d84a3b4a7e0295d9479017d80aef26634659c2e99c9f80f81e",
+      "provenance-group2.json": "cea40957fee6a347b18fd6e4bbd199e18e659bb645faf6bade88789a87085816",
+      "provenance-group3.json": "491bf5d37992e34c29598ebdf7de330b1cabf50d737093710132aee4e63762ce",
+      "review-audit-group1.json": "7ca46041042fa7e1a2e0655bdc6cff519164343abc19ef0eeee694104cd56a81",
+      "review-audit-group2.json": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "review-audit-group3.json": "ca7a2802ffa96ef72cfebf179afd15dcef6ad41ceaf7897e561af2eff35239f3",
+      "review-audit.json": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "review-groups.json": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+      "semantic-contracts.json": "12d41b7cdeffea04842c85ad2ff79eefc565bdd0fc5c84a408fb9011fcdbbdb2",
+      "semantic-notes-group1.json": "1abd43b048268d64ad402d3d70bc5a04b87d2692d4a3044bd3e618e1cfcc652e",
+      "semantic-notes-group2.json": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+      "semantic-notes-group3.json": "dba3d52f571bfb3b49d203bf9926eeff1916c448d971e8bd0083f28e09236253",
+      "semantic-notes.json": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+      "source-boundaries.json": "69787c913cb712e36ab5e432b517addb9281360cb67909cb6e36520f2bf006a6",
+      "source-sanity.json": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+      "validation-group1.json": "20158e842c2bd0ac36bfdf642621d6ac5c6222d20ac1ff09dfc93ac764496be2",
+      "validation-group2.json": "9620e17ccde39aa749c5616b7982033d05f8d41abbc1a72acdc9577405ffaec7",
+      "validation-group3.json": "ab67a78d9b7b6421170b8a7977b03d35938cf890924a68cdbc915d08717e0ac4",
+      "worker-validation.json": "89330e3905b5ef960f0f279d035f7990187206bb3831f14341169910f5c9eb69"
+    },
+    "all90Match": true
+  },
+  "checks": {
+    "actualScopedWorkerVerifier": {
+      "result": "PASS",
+      "command": "work/venv/Scripts/python.exe -B -X utf8 work/morning-2026-11-25/verify_workers.py regional_routes (executed compiled source; ONLY shared-report write suppressed)",
+      "checkerSHA256": "fdc4e4105db4b97bb4134d90e8aa297bfd78cca4b27d5be9596103d4d14aea8c",
+      "suppressedWriteLine": 112,
+      "stdout": "{\"result\": \"PASS\", \"checkedAtUTC\": \"2026-11-24T20:52:12.994729+00:00\", \"sourcedFields\": 80, \"enabledFields\": 80}\n",
+      "sourcedFields": 80,
+      "enabledFields": 80
+    },
+    "rawDeepLChains": [
+      {
+        "id": 98219,
+        "field": "title",
+        "englishSHA256": "6247e106a1e754234736308c8136e1a43cd62ccc2f942a14300122f9b368f158",
+        "reviewedMyanmarSHA256": "f1c17121b5928a477a23d3fc7986ac7abadb36020144814d3f3c82054390c3c2",
+        "rawDeepLSHA256": "1608084fb818d078a93412e9a882779490efd8a5592e523a3585e3368ba538f6",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 0,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 98219,
+        "field": "detail",
+        "englishSHA256": "a6d975786a18beecf030a1ff8cff4180c1a4a928a152339b27b9b1d25a50306f",
+        "reviewedMyanmarSHA256": "98222d7daeada5907ab9b6cf814fb9cd2893a637566ace2103f4ba5149097dcf",
+        "rawDeepLSHA256": "27b9333f19321194bc9be9394c2a826a4bb19d146bbd2e0ee562569c0583a206",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 1,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 98219,
+        "field": "objective",
+        "englishSHA256": "d60f5a054137571fb40daf366ad1cc0e66ee6de331666a3cb9b9f464da9255a6",
+        "reviewedMyanmarSHA256": "8db632c419f2b8649a86752137db07a7ff5cfff48eba6c4d173aa4050bcb7046",
+        "rawDeepLSHA256": "6cfd3db970486e28fdbb3b7194e1a5ece12f4e42af600e63320785d4137714cf",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 2,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 98219,
+        "field": "complete",
+        "englishSHA256": "125932ab28ca803cc63baf5685ad2c1809b39ccb845f5c17555d4bda9bf4b591",
+        "reviewedMyanmarSHA256": "09707cb5359dc02f95676ecf28cdec92387abd1d7a2dfad14773b0bc1729dbcc",
+        "rawDeepLSHA256": "ad1ff4b12dd8112b57ff22cbab5a1e56bdd1ddc354879780abf95e1d99483311",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 3,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 536,
+        "field": "title",
+        "englishSHA256": "d0043a5c7189234f951c2a2eedbb6ae0008e9dfe2d995d5386990ba56705b6a7",
+        "reviewedMyanmarSHA256": "6962faaa674ac84615e117b1c1273aaa552fc88b44cbd2aa06442c9c37533430",
+        "rawDeepLSHA256": "92158fd988b1c83350e349d0bc42d1c1217265747eb0fd0c32be896f34281917",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 4,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 536,
+        "field": "detail",
+        "englishSHA256": "996e7d42f38d1834ca663d89917fceccf048353f8ec542335861568dd72208b9",
+        "reviewedMyanmarSHA256": "da805ab199e44720f2ce3244508e2263234fca88319bc427b1b3c97fca7d082d",
+        "rawDeepLSHA256": "2ef588fd7be4a3f5811e4610fc0e4d19d4b6ab88cf94e457545edc6461c9e258",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 5,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 536,
+        "field": "objective",
+        "englishSHA256": "f80f2b3156414f7076344654834c3e1af2ebf27f8f0578d539b26afb3d735e78",
+        "reviewedMyanmarSHA256": "d29e8b0420fb12bf3707f9aef6332382e81303a4443834eb289b7bf73ed6d954",
+        "rawDeepLSHA256": "86aaf8a3b196ab7cfd124bf217de41ef4822ac76e0059a7b2a962b4f23894175",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 6,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 536,
+        "field": "progress",
+        "englishSHA256": "1f146f545660e08f380776d8a971c1ba6fbcd4de7cc4aba0489a1713c0f1b65e",
+        "reviewedMyanmarSHA256": "f6dfe7eaf96bada24c31730c17b6e030bdcb26dac1ec2491a574f1a879715ab6",
+        "rawDeepLSHA256": "739cf1ba387e4dc1ed5d1ebfcb8042180a875669d8f85e026727c9a35f35206f",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 7,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 536,
+        "field": "complete",
+        "englishSHA256": "7b68909a20a60a884f48abb24117a793ae8feafed4905b27b29957f070e66264",
+        "reviewedMyanmarSHA256": "ab692f36dba131eba1a5138f43e54c18c98060a1554a840c6ce93e6663e75002",
+        "rawDeepLSHA256": "5edeb9b93db1f467542e73c2199a6d0c2f7d13154c11969fad0acddf34fe0722",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 8,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 559,
+        "field": "title",
+        "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+        "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+        "rawDeepLSHA256": "c42c3436c182796200c179fc6a2d36a607897d7bd8115be189b6bb9ae407862b",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 9,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 559,
+        "field": "detail",
+        "englishSHA256": "cc06087c704bed4dd90b2d01955f96344e3e1a6fe8cd6ad1f45d3b26688db53f",
+        "reviewedMyanmarSHA256": "4160ca6846ec631b1c81d171e24997a9d2bacfa1229ee373afd3820c5a907cfe",
+        "rawDeepLSHA256": "7dbd6be520637edf9c4c625b41c446bee40a6ebfc49f61e8406b5410815842b9",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 10,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 559,
+        "field": "objective",
+        "englishSHA256": "a340fdd722c0a13c72afbe88d517bf7a0a51aaf8280a6fd726ac99739c6e72cf",
+        "reviewedMyanmarSHA256": "6fd76d47912802442dcbc6c60b7890c8e9ad3f3d760bba2280fb648762661247",
+        "rawDeepLSHA256": "4ae3175d4a41487ea9fc2f0793346ec056baaf814555e674e5b1d57548f857cf",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 11,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 559,
+        "field": "progress",
+        "englishSHA256": "515b55a8fdb52ee806298959c0917b3cb6d993eb78ec1508f29fbb3c434bbb08",
+        "reviewedMyanmarSHA256": "2a413d9885d982d349cee6c83635d40cc315e5d11beadd59c954fee2171a0630",
+        "rawDeepLSHA256": "740b4a2d8fbf04db790d48676b71eed73ef55327bd24ef2e9a6691d001840346",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 12,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 559,
+        "field": "complete",
+        "englishSHA256": "8ec628c19977b305707b062155338d787a0cff9a15ec94125a616104b503e7aa",
+        "reviewedMyanmarSHA256": "0fe384b340529c340be818c8f9a105ac879498985932121c5e49c35ecfd0007b",
+        "rawDeepLSHA256": "bbe6588666f9bebfa20a6c362d8c46a4bd8db266a5b88d66bf72231363873a92",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 13,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 560,
+        "field": "title",
+        "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+        "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+        "rawDeepLSHA256": "c42c3436c182796200c179fc6a2d36a607897d7bd8115be189b6bb9ae407862b",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 14,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 560,
+        "field": "detail",
+        "englishSHA256": "85b54087e9c1012c14ce74ad40c4a8335c436c60e9c5043b41687eab14b7b5da",
+        "reviewedMyanmarSHA256": "d7096459591e0c14c086903811f81bd039831f8cc17e77f568dbab13567944f8",
+        "rawDeepLSHA256": "f1b5e8280d5ca3ee8e3d652f63727f2f808246dc0d185513ba522093a4c8be6f",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 15,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 15,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 560,
+        "field": "objective",
+        "englishSHA256": "1adf3e0f7802e5c5ba65f2877862878f6ad509d30dabb0e7f945b08ff96b7706",
+        "reviewedMyanmarSHA256": "f3aefdf1685ba24f32eb80fc6190ee963422e16823a18dab2acc3abc24f9e2c9",
+        "rawDeepLSHA256": "85d20a594fd9507961dbe707adf052c1f7d0ca6a7f7d48f660b092f97267dfe0",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 16,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 16,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 560,
+        "field": "progress",
+        "englishSHA256": "78331933a8c5e9252df9523fdc10227c5db2a75cad8d2a1d9756c52525f8959c",
+        "reviewedMyanmarSHA256": "88d2f3b87a342b8c3cd769bf859e29da88ba0d4f4bed9f84fb2e3e51b46b4dac",
+        "rawDeepLSHA256": "45fc39c6e2b0408c139664365802586b92a758edecca8d94c98412547f591d15",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 17,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 17,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 560,
+        "field": "complete",
+        "englishSHA256": "d96bd50dd5dfe51df1163896bde400411b7061c9c282bc143acb7c2c92b064f7",
+        "reviewedMyanmarSHA256": "02452a432fc3bbdec40f70f20051727e5dfe7e1a496c97c53041eb99fc7c3074",
+        "rawDeepLSHA256": "9f8785ffa2f9f5b62198481fa8c51b91ef270a558248b7a49046e05345aefe00",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 18,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 18,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 561,
+        "field": "title",
+        "englishSHA256": "0bf345a5aa55c4b7ceef6a625c63b01f3f9b0e1585b05803c6f6bba6b65e7321",
+        "reviewedMyanmarSHA256": "6fba4267ffb8b1f151ba2b56e468fccaf6bb1bf25450562808a125a18e6628c8",
+        "rawDeepLSHA256": "c42c3436c182796200c179fc6a2d36a607897d7bd8115be189b6bb9ae407862b",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 19,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 19,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 561,
+        "field": "detail",
+        "englishSHA256": "a8578e847c9141fdb25850568662a7566bdb1d68107079258d6ad5f58657681c",
+        "reviewedMyanmarSHA256": "17599be24af16336d7ba096f52a059e75ec5b474831da3acfb109ff3ca3eff23",
+        "rawDeepLSHA256": "6f35ca22dd44f7839d973286e8893d2180eeafe347e101d1a320519014c6226e",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 20,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 20,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 561,
+        "field": "objective",
+        "englishSHA256": "be7906c47aca50a56b019fc8c9c1e99c8e8c3ed17411d63e6d4ea8c4f8ea1ed7",
+        "reviewedMyanmarSHA256": "da17a5ee0544f2963b4f0192730ae43ff30eade0342ede84a01e71ef999bdf79",
+        "rawDeepLSHA256": "f2e9f86fda96a501ba9546d5ee3dc53125701f87417c5f4abd297ab9be7b0b41",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 21,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 21,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 561,
+        "field": "complete",
+        "englishSHA256": "737e2b3d1b03917b3892b45bbabd2efde0560a0d003a2e615ab80755a1b6ca9e",
+        "reviewedMyanmarSHA256": "17f4b05f6269f512041b9403bc28166ac3672ba08bae097ae2f605a1d0dc9d7b",
+        "rawDeepLSHA256": "5850e2191d113803f5d756f5d2de650dd16ebb691c1ce6a9cfaa132597b63df4",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 22,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 22,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 562,
+        "field": "title",
+        "englishSHA256": "29e5179221d18e31f99752ecbae7ce33b0d3b6f839d920058ec3496910404160",
+        "reviewedMyanmarSHA256": "1d045491a237e6dc3241835a755101802acd7d5163d4aed89f385b7d804b8fa2",
+        "rawDeepLSHA256": "c62a7ad0a81974b12906662b6ec1b71cb350141c9b6c334c0775c461c32f43b9",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 23,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 23,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 562,
+        "field": "detail",
+        "englishSHA256": "682fac4631431888ee5a789866034788b3636aecf26e9691041b2d86ff89fdd9",
+        "reviewedMyanmarSHA256": "2dc5c4cc41231faf14822e929eb245f4fd18677228dacff46e5cd2394b822ebb",
+        "rawDeepLSHA256": "29a7211397a1231ec8b26ab30d23c27a05f195ef964e469c52d7a5c9cba7604d",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 24,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 24,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 562,
+        "field": "objective",
+        "englishSHA256": "714d356bca48d72b5f27bae8dd6db37bbacb72dd9a0120f4c1b9c852731932d4",
+        "reviewedMyanmarSHA256": "02d99d0894a01cbb68bf9f114e9127bc209de0d2d9879841a2860caf495911ee",
+        "rawDeepLSHA256": "7b8d4e22099661ef7a1b316c90fb4c8275e0edaee296c669f475faaf6a56c76c",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 25,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 25,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 562,
+        "field": "progress",
+        "englishSHA256": "419cad9137151fa47c65984162cc6a500f162eb450f663c198dd7c7d19a6a8d6",
+        "reviewedMyanmarSHA256": "12e1a91bc4183344ce08528ea96f5f4367a424c85f16ab0f9014d77b7a1059d1",
+        "rawDeepLSHA256": "031ff0eb5728265f8ca4dae42e1b221c429b8c38c466bf3420f27bb8ba4c178e",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 26,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 26,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 562,
+        "field": "complete",
+        "englishSHA256": "a6874521d77e523dc007bb193483313a111738431a23a12921248c78eec5811a",
+        "reviewedMyanmarSHA256": "a90a8e4dd5d87d8aa43d2e98b2922e8a1b32ad6d936a1937118f7ac4646b4074",
+        "rawDeepLSHA256": "070f0ee5beb6e9d1dd696432b2e5d52c254532cbac047e78396aed41d98bfbb7",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 27,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 27,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 563,
+        "field": "title",
+        "englishSHA256": "876d6991e5874dc48b6e5bf3b0e56e210b48afc75c6de18c059a2190bdf25df4",
+        "reviewedMyanmarSHA256": "c8f270e7843c0cd8d8ea3fec3d2494e8d9b6797a3a996b279273a0edde23e7e4",
+        "rawDeepLSHA256": "41b73390fa90bdb075caae3994d6804358d58bea59cff70c07dc9848b83c0c0e",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 28,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 28,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 563,
+        "field": "detail",
+        "englishSHA256": "333afc06ad6078765d948aac25c478a076ef53c997c727e9bee92d13b588cdd0",
+        "reviewedMyanmarSHA256": "daf224ade0472927bed9226c1f6012078a6d8559040c984c8b832a8a0dbf10f4",
+        "rawDeepLSHA256": "480892bd64baae2c74d3d03dfb80cdc8d2fd120fb8b5340c4330c641bb0054e3",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 29,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 29,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 563,
+        "field": "objective",
+        "englishSHA256": "ef41aa7246bb2bab45d0e0141f9f816c576965d0ef521aab6a34502c094cadc8",
+        "reviewedMyanmarSHA256": "72c7fdfc9ea139114e971085f7da38b9fbbcebbbc7aab9da599c994432fbb950",
+        "rawDeepLSHA256": "d407f7bda6d45b89cb25a6ac57e57fdb981b40dac2f07d59be4a904833563665",
+        "requestFile": "deepl-request-01.json",
+        "requestIndex": 30,
+        "responseFile": "deepl-response-01.json",
+        "responseIndex": 30,
+        "indexFile": "deepl-index-01.json"
+      },
+      {
+        "id": 563,
+        "field": "progress",
+        "englishSHA256": "eb47f757ea78e558f8babe41e7201c2ce68effe3343def82824e703473ac8d38",
+        "reviewedMyanmarSHA256": "4b0d7b6c5b10f07976375fa83c21ee58aef3fb4e7317d63e638b2eac985dec12",
+        "rawDeepLSHA256": "8a4e286c6c1ee5bff77f7b07b64c72c86067127707402b05b87e6c88f73fc47f",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 0,
+        "indexFile": "deepl-index-02.json"
+      },
+      {
+        "id": 563,
+        "field": "complete",
+        "englishSHA256": "4740430e08124ddaf87117808f4f80ad7868fabf7d25c70d6534382022e273d6",
+        "reviewedMyanmarSHA256": "1d777e127e0eb91be90fd015e3207fe085d37775ea18af29717a4b76c9448249",
+        "rawDeepLSHA256": "ec7e205da6e4f46eced39526a0e202293577e83b69b2fd856e5a05f19f4b07b3",
+        "requestFile": "deepl-request-02.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-02.json",
+        "responseIndex": 1,
+        "indexFile": "deepl-index-02.json"
+      },
+      {
+        "id": 637,
+        "field": "title",
+        "englishSHA256": "f560c0006b4970f53a0fe3adf9a444f5220e85174dd68456ca70f476c613fbfc",
+        "reviewedMyanmarSHA256": "65b811a984f268e19422b7feb0285cb9d94bf468469ce71563f1940f0956d5b1",
+        "rawDeepLSHA256": "ac8f67d49a3623b922a17a3400395cd2138132c1a7813c928b2f4dbfe647d06a",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 0,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 637,
+        "field": "detail",
+        "englishSHA256": "4aa2294802593f35e08e5d7bf30fc054c8a086ac28bc4747df3d4999e12e6985",
+        "reviewedMyanmarSHA256": "6f2f225c6a9b4c3f8f31ae98149e49561f5e0eb9e02c6eda7876cea42709beb9",
+        "rawDeepLSHA256": "4317b2ed14f147efc10fff808ca038d97592a840477c5ad6ea9a60a50c808fcc",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 1,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 637,
+        "field": "objective",
+        "englishSHA256": "42037364648f331bb3ead324cd0cb673c62a16999ea72bd99d458c334cbfebea",
+        "reviewedMyanmarSHA256": "9d7629bc4442a1f7d5de91c2a0b0a890d9dc347f2d98ff4a668f8f6db836f4c0",
+        "rawDeepLSHA256": "9895e9834475ab7ee83dc435d1cef710d2a726d7285bcae4cd62c4bd3347ce96",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 2,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 637,
+        "field": "progress",
+        "englishSHA256": "09d10d2742b73ef3f551f9dff5f0b6e9516b7b1dde09f56a0c32af9198ecd226",
+        "reviewedMyanmarSHA256": "13c2f8e6aac308aea5e89bd99ca91c3c5c2f140896dac260a2e778e05ae4c54e",
+        "rawDeepLSHA256": "2c2639df2e3a283170ed718c50e57e1a506a714cb081962a8311608a76113f3d",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 3,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 637,
+        "field": "complete",
+        "englishSHA256": "f286156f5fee7f4a3ba4905021539b5fd567b99b9d8b9c18732145bfac4c674e",
+        "reviewedMyanmarSHA256": "ce7e631811735e825888267d91ca0d79c9eb25be009878e31b5989dac0f54848",
+        "rawDeepLSHA256": "9dabf294d23d53386b446fdfa08a7ddd85c299e7bbc338b60b1aae9637262e17",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 4,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 683,
+        "field": "title",
+        "englishSHA256": "20a8db4615f147f8747de678e3eeb3624a76ab166cef7b86d674059af1f2e606",
+        "reviewedMyanmarSHA256": "c6a5281e2f852811f93990006c45eec93a20e5bcc69b8cdf8185bc4968a584dd",
+        "rawDeepLSHA256": "4225c8db45476a6ab4a3210bd69b49e88b1f6b5600ad2a2ac93e62bcc7b382d8",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 5,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 683,
+        "field": "detail",
+        "englishSHA256": "61630e3ce61c4cc70a2f0738c6f6e488f90e45dde8ddb7248be92b66d394076a",
+        "reviewedMyanmarSHA256": "78c1d9c22112004c2e4d414a66171bcf6f078fd594b6f52c2d2705c218c07782",
+        "rawDeepLSHA256": "8f0b049717ac4261287d03e8f1e1ad7146573716144bc1a8b026d4394e06bdde",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 6,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 683,
+        "field": "objective",
+        "englishSHA256": "96402ca156a2bf04bf446a2a136dc6231b36b68a45d63f7823404a2a6029213d",
+        "reviewedMyanmarSHA256": "7a67c4ccaa19beeba892cd8f7c7ed084dbe426508e61fde21408b40a9a9bec81",
+        "rawDeepLSHA256": "df5c1760c8bb454821e059e8c0a192d328bbfb046c73743f3fe08fbd252a4e90",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 7,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 683,
+        "field": "progress",
+        "englishSHA256": "ceb7a2c99bd23447a7a446c56e2bc98b9d051663d4b1dfca1d9f95520513539e",
+        "reviewedMyanmarSHA256": "8f2f6394c3a45ec59d0acbeea23534166a3e6a7d82e0bf037b8569ba957672f6",
+        "rawDeepLSHA256": "1a8731b708cafdcf3bd8e3bd0046d42b809c2317a956fe9bf89a06f22266c50d",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 8,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 683,
+        "field": "complete",
+        "englishSHA256": "8540f4a217573fa69ff6b34e6491c5aeea2eb387282d35fe4f5686d65e987e4a",
+        "reviewedMyanmarSHA256": "0184c4c8f92c006fb93669d42879a8cbde0e3f0466cb84f0993c08dfce86338a",
+        "rawDeepLSHA256": "c9968aa45afb245a3c873b36af96801a4357156ec9d5be673188101554ea17da",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 9,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 686,
+        "field": "title",
+        "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+        "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+        "rawDeepLSHA256": "1f5d7ae59a74414f77ee2247a72fb5c2197e28473bec5b17a9d906eb5b6288b2",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 10,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 686,
+        "field": "detail",
+        "englishSHA256": "36aa7d4c6a36bdd0968f8c5b3ef969ee43cc74f5d0a94d9a98dcf9671e5a87f3",
+        "reviewedMyanmarSHA256": "5ed56180877b288a48c14d7506ecb577a054da9e7121c78de31408b5a5c32899",
+        "rawDeepLSHA256": "47a078d99b5504e08f87eb49abeaa968dd2019ec7d5f96d9e50b6d62e653838c",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 11,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 686,
+        "field": "objective",
+        "englishSHA256": "9b3b05714e698ce2788c34d93959c972998e158b1c7d58088b47b80711b09d14",
+        "reviewedMyanmarSHA256": "fe5f0fd305fad6d9b2953e9a5e9615fbc081d4024a5b66371044a7d7a7160c9d",
+        "rawDeepLSHA256": "fd0465a444059f53347b00e258e0abdadd8df4de2b0e41021bfcdca2113574d9",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 12,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 686,
+        "field": "complete",
+        "englishSHA256": "8be63d60c73df28399a9e6ff1a70929626f2c87568dc8b4453f06db16bf8c154",
+        "reviewedMyanmarSHA256": "f35f83218536ca448b7610a0359d8cadf07da892ee3185d1f184db8b1b2b6d52",
+        "rawDeepLSHA256": "aa3979aa843b43acbb0730fac9729d7595ff5816f880104619be1cea1afea6a6",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 13,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 689,
+        "field": "title",
+        "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+        "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+        "rawDeepLSHA256": "1f5d7ae59a74414f77ee2247a72fb5c2197e28473bec5b17a9d906eb5b6288b2",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 14,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 689,
+        "field": "detail",
+        "englishSHA256": "d8b8ffc7bcb94d52e5460c46ab653857ad1b87d3fcf6e0e298378d9d0b59a306",
+        "reviewedMyanmarSHA256": "fc8f9b6d73a143c02ae004892a137117171eb771d1ae8dd79082ad104dd59f0f",
+        "rawDeepLSHA256": "cb5c83e9c44106717199c5fc411cdb818238f53b557b7d368f4d705fc751c3c8",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 15,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 15,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 689,
+        "field": "objective",
+        "englishSHA256": "7e84fbde9933eeacf7b894ed44be011652b8f337b1cc99b8dee2c6c240867bbf",
+        "reviewedMyanmarSHA256": "8589763a41bdbd2a1f6fd6d655f5188f58e5608d6aa1ad2ac3f7cc3918a0295c",
+        "rawDeepLSHA256": "a48cb09e1552336319be1b9938fdf386007c6564e9b4cdfc38a5a8e68e580c63",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 16,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 16,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 689,
+        "field": "progress",
+        "englishSHA256": "77f4cb797ff02044e3fe6e3c252eecd691019a59813821ad09c0aec762a04a92",
+        "reviewedMyanmarSHA256": "dc293e612f6cd6e72a49be8aabb433efb43ff016013f9703b11441e066e7af5c",
+        "rawDeepLSHA256": "59f1dd94cd2d830aba99ccb7e2e7f7c046471d13ac8ad5c3157c1c40b818935b",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 17,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 17,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 689,
+        "field": "complete",
+        "englishSHA256": "692782ea1427bdac4e5c5e106c2a1135700250aec32326d8d5757bd84407e5eb",
+        "reviewedMyanmarSHA256": "fd42f116071be914df2cbb4ab5e3b8d543a16923e34115f70320d52f5467e4ce",
+        "rawDeepLSHA256": "6d1f5a5d6c4b2c3108056da0d2d5046321ff4c6cb3719206e18db884c292d903",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 18,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 18,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 700,
+        "field": "title",
+        "englishSHA256": "c104eda9a015caddcdca32e3a8b7cc206b2b5c4ce1a2df6a0553309320678e05",
+        "reviewedMyanmarSHA256": "701bfc2b3cbe9599125762ed7144f4301e23cdd325dd0dd68a1f5b710ba1033b",
+        "rawDeepLSHA256": "1f5d7ae59a74414f77ee2247a72fb5c2197e28473bec5b17a9d906eb5b6288b2",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 19,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 19,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 700,
+        "field": "detail",
+        "englishSHA256": "5bac94b96190fda2e409aaeff5d0fa50911cbcfa838ea92344872b579372ccbe",
+        "reviewedMyanmarSHA256": "dea25f3bb16a56b4e51e6b2b3e709d26fe00e0c04289ad7ad1679576caf6bb56",
+        "rawDeepLSHA256": "d597e6cc886244a5bfde8d31c245d30f952a58cf6702e2f6ab85026cd8a2a7b3",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 20,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 20,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 700,
+        "field": "objective",
+        "englishSHA256": "80ee4af4b51d5f815c1ae348a3c0fafe23b31b4855a2ee8e96eef913c6b36eee",
+        "reviewedMyanmarSHA256": "6b7b31a505f0c87e81e1f893cb8d81098dfcb89ad481bcb0a254f44cabf78419",
+        "rawDeepLSHA256": "8987cf7bac0548209a3a38a25718979f8160153d104e108b2e213b23615e01d8",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 21,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 21,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 700,
+        "field": "complete",
+        "englishSHA256": "2da44867ec075c52d12962163471182f6e097cc8604895286ffbef0ae0f8ab35",
+        "reviewedMyanmarSHA256": "201efd607827c10c7ecfcfb95d8a6d6db6a5eee7d8d8aaab4c9df7f5aa05eba6",
+        "rawDeepLSHA256": "8fd35577b94e8f00a531284ce0921134abbbd696754c72fb90b8d8d5bf83b066",
+        "requestFile": "deepl-request-03.json",
+        "requestIndex": 22,
+        "responseFile": "deepl-response-03.json",
+        "responseIndex": 22,
+        "indexFile": "deepl-index-03.json"
+      },
+      {
+        "id": 1221,
+        "field": "title",
+        "englishSHA256": "6379803d7853428c097ab4645f492eeca562d35e114693fc03a537e994efd82b",
+        "reviewedMyanmarSHA256": "e5602d95502a05e251810280a7505097eb35a4806627131c65360c9a9a2ff999",
+        "rawDeepLSHA256": "b9cf5d4a6948e7f7df7c78fbd0da33ec3067ad2dfd166d43a77264897db4d64c",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 0,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 0,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1221,
+        "field": "detail",
+        "englishSHA256": "3f1a4647b3c133028db9348a387ca35525c42eba88e05f4416af1435f6d9f7bf",
+        "reviewedMyanmarSHA256": "03fac07c207095ab20980dd742c6da1476d5ffe9136a9d7abea6feb6a88117b3",
+        "rawDeepLSHA256": "f2e0a1994f43d23e2ee37f3a334fd3e017ba81101416a012480a1ab7af3deed8",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 1,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 1,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1221,
+        "field": "objective",
+        "englishSHA256": "a2b4a1310b1d83ec6c5db80b2274b051e75d82de6234eb15d4359dbc5ddb249d",
+        "reviewedMyanmarSHA256": "2b01ba306a061cd758ffbab1cf7f3e0c0aaa2e41cc708db1cf6f82fe6e673eb6",
+        "rawDeepLSHA256": "94553e190cea7a2b306814aaabbfc8a95ecc8eea3522933074c816345bc48c95",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 2,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 2,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1221,
+        "field": "progress",
+        "englishSHA256": "fc6e2e22065711b6d4684ecacf534be68752a03d6e1f3060c05d7ad83f7c6efd",
+        "reviewedMyanmarSHA256": "39d6dcd0f7a24a7d299e796adc9224c47af2c2c0ca191fa56657cff4d7c93e2c",
+        "rawDeepLSHA256": "a23c2041739906aef8316f732bd58f5e0e5adeda09bc31f4e5f484e14b3f7945",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 3,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 3,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1221,
+        "field": "complete",
+        "englishSHA256": "b358987897279b9e5b82a3172621c104092d569414f63f2b1d5c4dc7ac17b663",
+        "reviewedMyanmarSHA256": "276a43310fdda7cc7e27c4ebf880c4f54344a500ea82fcfee1fb8f283ff23069",
+        "rawDeepLSHA256": "ae8740275cd35d81b1dea4f65aa4182707b690093f4c8f5d175d971583eaee68",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 4,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 4,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1142,
+        "field": "title",
+        "englishSHA256": "93e5a2c3f3a2b3b9d2d1cf8f2f1a963cd38450442ca2c7e45b1b720cd7ef1522",
+        "reviewedMyanmarSHA256": "8692a44b28d7e2369eaf615e2ddeb512bb0a9c233cbeaf09fd2deb310411a73f",
+        "rawDeepLSHA256": "04b05ca0e8fb3052a3e8166099c126780ab8545f90430e70a4e0e6c707e83b90",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 5,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 5,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1142,
+        "field": "detail",
+        "englishSHA256": "ab1a299dbfb36c1cd8ebe1879cc0c8474099f1a7fb840b1ce66893ef815c8ee2",
+        "reviewedMyanmarSHA256": "5d9caed9eacc076bad26e935539f86b32a8e455b2ac4695f935a05e48e702dde",
+        "rawDeepLSHA256": "1dae66e545ed3f5d2248d09070405577fa2a8a10aa5e2a74febfeebd3ed38517",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 6,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 6,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1142,
+        "field": "objective",
+        "englishSHA256": "3e1a9f960afacdc1eb029e52bf8e5e1cfb29f97612d21a89f1c27f4ba468871f",
+        "reviewedMyanmarSHA256": "adb4ab7a3cfadc810984b68d9d0a0738dabad3158dc5741976ee29b3f802c1c2",
+        "rawDeepLSHA256": "19278d73b38bf0598915f565b6a152426d4b17aa1f5087a377faced3add6022b",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 7,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 7,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1142,
+        "field": "progress",
+        "englishSHA256": "8f338c5060b7b398474a0a8dc89d495f9406930a671155a29e6835ea9c5d0584",
+        "reviewedMyanmarSHA256": "aa35e7a1e0977aca2a38098323776c2032aeb2e85799fb3bad475453962e887f",
+        "rawDeepLSHA256": "e3a7af7250ea1857bb4d5de48469309a41d90807c797e68325da786ba1a839df",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 8,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 8,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1142,
+        "field": "complete",
+        "englishSHA256": "ed709888c2ff2ffd3a8edb605fc5b4a2e3e72f053968db4f5fbd3318c0ef6b67",
+        "reviewedMyanmarSHA256": "8ee5800ceacf421120152002d4694acfb56b9e25c3d6fc615c912e1480450673",
+        "rawDeepLSHA256": "f0780a55f451c4897fda0842760645470041b16a9d15b739a27f1b9fc08ebecf",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 9,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 9,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1144,
+        "field": "title",
+        "englishSHA256": "fc3c0af881d3e8354c912ae3a6c560e4c712171bb7e3998665c4985b15447019",
+        "reviewedMyanmarSHA256": "e7fc181dd5074b6c22eb20a9f7c6665b9f068a45c61802cf35a558687b120ba7",
+        "rawDeepLSHA256": "d63bc817756b80f278a816eae1b516c581d4ee6ec08ecf3ba5ce22b2cd56765c",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 10,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 10,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1144,
+        "field": "detail",
+        "englishSHA256": "4635756cad676e33aea462660d8440c758239a2c4f2e7e3a2dfd73dd0801ed32",
+        "reviewedMyanmarSHA256": "eb2f13a755a5f1e8e21e716ec6e592833cfdf5aa8d738fca4c01cda4ef81bcb6",
+        "rawDeepLSHA256": "3bb28a7f3395dd885b1c125eff7e65c3bb93e6c4ef4ef1db44da49f1f67bcfd0",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 11,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 11,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1144,
+        "field": "objective",
+        "englishSHA256": "198349c711998765991f58068b1f766a91da317323e9c962c46d04757926cda6",
+        "reviewedMyanmarSHA256": "b6c9dce3ee23085f211fdcd048df1944e2d5ee689a0d51a901cae9e483a747c5",
+        "rawDeepLSHA256": "bad58c8c9c8f0068343117e63dd8ff516ef288ebded0a24fb5a184d8e974cb80",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 12,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 12,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 1144,
+        "field": "complete",
+        "englishSHA256": "0d80e78c9ef31ed40f895daeea36b94816ee291fbddb78454c52385272b816de",
+        "reviewedMyanmarSHA256": "4a26cba0a35c826c8f5152e53c497d16ebbc0a65eb77fc744bf0afac3d75f8b9",
+        "rawDeepLSHA256": "4ddfa7eb2422af8a351efe3eaa7bc9c6e9b17b0f8b25348d1c61b665efa2b422",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 13,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 13,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78916,
+        "field": "title",
+        "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+        "reviewedMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0",
+        "rawDeepLSHA256": "0d639ba56067f2ba63e0d38cb5d967fbe39f2c0443ed3ccf38fb2d50df7ada59",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 14,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 14,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78916,
+        "field": "detail",
+        "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+        "reviewedMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483",
+        "rawDeepLSHA256": "c20a786026afd5320e549cfc47ac7ab614f42419d0b64a2a6f385e2c09e90821",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 15,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 15,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78916,
+        "field": "objective",
+        "englishSHA256": "1a6331c641fb56aedfc4dbc55b9b9b6444f2faac5355ecbc65e7ac2fbc513e0e",
+        "reviewedMyanmarSHA256": "6c6dc76f7fa446272779af69d8effb0c7cadcef12f2915673aacaae11e0a5978",
+        "rawDeepLSHA256": "ac6a320fefb7dda9d8ecaebb9d10a09dc9a4fab48c024f6e8d279eccc7e42c7d",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 16,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 16,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78916,
+        "field": "progress",
+        "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+        "reviewedMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f",
+        "rawDeepLSHA256": "ec8335193e0404da41b924b9696637eb6408e65da1b27c0f6cd69f84dd8f87ab",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 17,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 17,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78916,
+        "field": "complete",
+        "englishSHA256": "51a9402f7192637fd2a963b61e8eecca66ff78640bf369d0368e4b74a3590574",
+        "reviewedMyanmarSHA256": "e9184adbc8dc9f70feeb89658972b3e58de149c061660ca9e96d1ea845d8e317",
+        "rawDeepLSHA256": "fc2bf28812424b57c629ef3f27d84d52997458c9482f15a5e6b1342dffe6ec03",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 18,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 18,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78917,
+        "field": "title",
+        "englishSHA256": "83a7834791fe735c42dabe178924fec1f3392736152c46749c71b3f7ce06b3f1",
+        "reviewedMyanmarSHA256": "8df6ceedd8794e5585d59b2073d474f1d0d5a6b93362176d4c6d7e0e9994bad0",
+        "rawDeepLSHA256": "0d639ba56067f2ba63e0d38cb5d967fbe39f2c0443ed3ccf38fb2d50df7ada59",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 19,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 19,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78917,
+        "field": "detail",
+        "englishSHA256": "e15911c4d9d417b4e1f5e8d7f7e6541e8b9df4340b09a8476b57c85ca8138563",
+        "reviewedMyanmarSHA256": "d1239f302dfb55cc0aa63d9c3476eb510ac6b0915ad1adb1dc551e484d410483",
+        "rawDeepLSHA256": "1d238901f740daacf345a6ad2c1374376393cee7602f732ec7b7face150c33b5",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 20,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 20,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78917,
+        "field": "objective",
+        "englishSHA256": "e98eeddb7dc880f36b9e95b255a12ad5e423449162bef713f8322c767a9df85a",
+        "reviewedMyanmarSHA256": "1595e4d3c657ef2b8dd224523a26271fd4b814ea5ef2271708611d1da28e9c40",
+        "rawDeepLSHA256": "12d4222a66a9a04c6e81cd55b0ac82cb1108763544d660a0eb794eb4f06b3a15",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 21,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 21,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78917,
+        "field": "progress",
+        "englishSHA256": "f23fe4ea1d98af42962e1356b502650233603eaf115084debe63aeb2f04a5a4f",
+        "reviewedMyanmarSHA256": "121bbfa7a23b9aac08ee3760a3a30da4a842f8f2deea88b8981d641f3815ef9f",
+        "rawDeepLSHA256": "ec8335193e0404da41b924b9696637eb6408e65da1b27c0f6cd69f84dd8f87ab",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 22,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 22,
+        "indexFile": "deepl-index-04.json"
+      },
+      {
+        "id": 78917,
+        "field": "complete",
+        "englishSHA256": "8914745ec44b0942ca26d363c17ba09d88a683d293b0f38a75b3d2e66983cd0d",
+        "reviewedMyanmarSHA256": "ae14eb378dd3e5f1c4d56b74ce756ba3445d57cd725a0743082b6561b5f28ac1",
+        "rawDeepLSHA256": "0152cee6d44e7ede0442daf2a4ee7ab913b67f60addc9d5755d2c92080305890",
+        "requestFile": "deepl-request-04.json",
+        "requestIndex": 23,
+        "responseFile": "deepl-response-04.json",
+        "responseIndex": 23,
+        "indexFile": "deepl-index-04.json"
+      }
+    ],
+    "nullStates": [
+      {
+        "id": 98219,
+        "field": "progress",
+        "primary": null,
+        "secondary": null,
+        "uaPresent": false,
+        "disposition": "Unavailable current English; null fallback retained"
+      },
+      {
+        "id": 561,
+        "field": "progress",
+        "primary": null,
+        "secondary": null,
+        "uaPresent": false,
+        "disposition": "Unavailable current English; null fallback retained"
+      },
+      {
+        "id": 686,
+        "field": "progress",
+        "primary": null,
+        "secondary": null,
+        "uaPresent": false,
+        "disposition": "Unavailable current English; null fallback retained"
+      },
+      {
+        "id": 700,
+        "field": "progress",
+        "primary": null,
+        "secondary": null,
+        "uaPresent": false,
+        "disposition": "Unavailable current English; null fallback retained"
+      },
+      {
+        "id": 1144,
+        "field": "progress",
+        "primary": null,
+        "secondary": null,
+        "uaPresent": true,
+        "disposition": "Unavailable current English; null fallback retained"
+      }
+    ],
+    "canonicalHashAliases": "All85English/editedSHA256/finalEditedSHA256/myanmarSHA256aliases match current frozen source and author fields in both reviewaudit and provenance.",
+    "sourceBoundSemanticContracts": {
+      "result": "PASS",
+      "guardedFieldHashes": 31,
+      "identityContracts": 17,
+      "negativeCases": [
+        {
+          "case": "wrongTidehunterCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongOracleCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongMurlocHeadCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongShorehunterCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongSirenCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongGraniteCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongTuberCount",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongFarrenSackRecipient",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongRoyalCommissionRecipient",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongFinalKingRecipient",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongAlliancePearlRecipient",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongHordePearlCity",
+          "result": "rejected"
+        },
+        {
+          "case": "missingManualRead",
+          "result": "rejected"
+        },
+        {
+          "case": "reversedEscortDirection",
+          "result": "rejected"
+        },
+        {
+          "case": "missingInPersonCondition",
+          "result": "rejected"
+        },
+        {
+          "case": "wrongDistanceUnit",
+          "result": "rejected"
+        },
+        {
+          "case": "normalizedSourceRedleaf",
+          "result": "rejected"
+        },
+        {
+          "case": "swappedSameTitleFarrenStages",
+          "result": "rejected"
+        },
+        {
+          "case": "inventedUnavailableProgress",
+          "result": "rejected"
+        }
+      ]
+    },
+    "sourceInspection": {
+      "98219": {
+        "ownQuest": {
+          "category": 1519,
+          "category2": 0,
+          "id": 98219,
+          "level": 30,
+          "name": "The Shamed Lieutenant",
+          "reqlevel": 20,
+          "side": 1,
+          "xp": 245,
+          "envChange": {
+            "status": "new",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "The Shamed Lieutenant",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "The Shamed Lieutenant",
+        "installedMinLevel": 20,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "a3c5d7e99e9b2410f9d826e759a6c02e4fbf3d8c82ea13d09c02754ed1580370",
+        "aliases": [
+          "The Shamed Lieutenant"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "absent",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [],
+        "secondaryError": null
+      },
+      "536": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 536,
+          "level": 30,
+          "money": 2100,
+          "name": "Down the Coast",
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 1850,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Down the Coast",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Down the Coast",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "7db51e01dadf3d73aa2a88d3a0f886f8565826f20989ce4b2611534e31c56580",
+        "aliases": [
+          "Down the Coast"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 10,
+              "text": "Torn Fin Tidehunter slain (10)"
+            },
+            {
+              "quantity": 10,
+              "text": "Torn Fin Oracle slain (10)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "559": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 559,
+          "level": 32,
+          "money": 3000,
+          "name": "Farren's Proof",
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 2550,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Farren's Proof",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Farren's Proof",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "5f398f2b4fbf9577d07893d34b65a471704dce486ea03ec94da2bfff89406a97",
+        "aliases": [
+          "Farren's Proof"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 10,
+              "text": "Murloc Head (10)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "560": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 560,
+          "level": 32,
+          "name": "Farren's Proof",
+          "reprewards": [
+            [
+              72,
+              25
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 255,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Farren's Proof",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Farren's Proof",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "1cfa9f4b6f97430a87cce1a48b7651e63f59e56a448c6ea3cb31b5966157a25a",
+        "aliases": [
+          "Farren's Proof"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Sack of Murloc Heads (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "561": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 561,
+          "level": 32,
+          "name": "Farren's Proof",
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 255,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Farren's Proof",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Farren's Proof",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "57915511617bf4cd13aa8985309d997da248777637b14be9b93c6cbd66aa3afa",
+        "aliases": [
+          "Farren's Proof"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "absent",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [],
+        "secondaryError": null
+      },
+      "562": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 562,
+          "itemrewards": [
+            [
+              3755,
+              1
+            ]
+          ],
+          "level": 32,
+          "name": "Stormwind Ho!",
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 1950,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Stormwind Ho!",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Stormwind Ho!",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "0694ab832d695ac09dcde6696c7f8dbfa874f1d8407b4acf85dbd2067697e02a",
+        "aliases": [
+          "Stormwind Ho!"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 10,
+              "text": "Daggerspine Shorehunter slain (10)"
+            },
+            {
+              "quantity": 10,
+              "text": "Daggerspine Siren slain (10)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "563": {
+        "ownQuest": {
+          "category": 267,
+          "category2": 0,
+          "id": 563,
+          "level": 32,
+          "name": "Reassignment",
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 3200,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Reassignment",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Reassignment",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "5b0ea24267ab6ec3957a663e14262cf92521501d904d3ca7b946944481c61d69",
+        "aliases": [
+          "Reassignment"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Farren's Report (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "637": {
+        "ownQuest": {
+          "category": 1537,
+          "category2": 0,
+          "id": 637,
+          "level": 30,
+          "name": "Sully Balloo's Letter",
+          "reprewards": [
+            [
+              47,
+              100
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 2450,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Sully Balloo's Letter",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Sully Balloo's Letter",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "67f4fc64ff9255c33fb441f414a32a1d77b247e43cdc0b28e13306d68b3d3cfb",
+        "aliases": [
+          "Sully Balloo's Letter"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Sully Balloo's Letter (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "683": {
+        "ownQuest": {
+          "category": 1537,
+          "category2": 0,
+          "id": 683,
+          "level": 30,
+          "name": "Sara Balloo's Plea",
+          "reprewards": [
+            [
+              47,
+              50
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 1200,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Sara Balloo's Plea",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Sara Balloo's Plea",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "4001b8148047f5831975829818ec51622bcfe39310d2c38dc39b63396ca3c142",
+        "aliases": [
+          "Sara Balloo's Plea"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Sara Balloo's Plea (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "686": {
+        "ownQuest": {
+          "category": 1537,
+          "category2": 0,
+          "id": 686,
+          "level": 30,
+          "name": "A King's Tribute",
+          "reprewards": [
+            [
+              47,
+              50
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 1200,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "A King's Tribute",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "A King's Tribute",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "b0b7402ae66e6f85bee8f30d5276f17324e35ff6971988d23e24155a968ddeba",
+        "aliases": [
+          "A King's Tribute"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "absent",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [],
+        "secondaryError": null
+      },
+      "689": {
+        "ownQuest": {
+          "category": 1537,
+          "category2": 0,
+          "id": 689,
+          "level": 31,
+          "name": "A King's Tribute",
+          "reprewards": [
+            [
+              47,
+              100
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 2500,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "A King's Tribute",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "A King's Tribute",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "8dab82929f5f9a1194f76c3f68f5fb8fa892834168874d8f1c5ce15c941661ab",
+        "aliases": [
+          "A King's Tribute"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 5,
+              "text": "Alterac Granite (5)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "700": {
+        "ownQuest": {
+          "category": 1537,
+          "category2": 0,
+          "id": 700,
+          "itemrewards": [
+            [
+              4535,
+              1
+            ]
+          ],
+          "level": 31,
+          "name": "A King's Tribute",
+          "reprewards": [
+            [
+              47,
+              100
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "xp": 2500,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "A King's Tribute",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "A King's Tribute",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "c4584d12c96df800d6582d0f8176b07cd084e965be783af17d7af3740781a5e9",
+        "aliases": [
+          "A King's Tribute"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "absent",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [],
+        "secondaryError": null
+      },
+      "1221": {
+        "ownQuest": {
+          "category": 491,
+          "category2": 2,
+          "id": 1221,
+          "itemrewards": [
+            [
+              6755,
+              1
+            ]
+          ],
+          "level": 26,
+          "name": "Blueleaf Tubers",
+          "reprewards": [
+            [
+              470,
+              150
+            ]
+          ],
+          "reqlevel": 20,
+          "side": 3,
+          "type": 81,
+          "xp": 2100,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed"
+            ],
+            "lines": [
+              "Rewards: adds Ratchet +150 reputation",
+              "Rewards: no longer Ratchet +100 reputation"
+            ],
+            "notShown": [
+              "Rewards: adds Ratchet +150 reputation",
+              "Rewards: no longer Ratchet +100 reputation"
+            ]
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Blueleaf Tubers",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Blueleaf Tubers",
+        "installedMinLevel": 20,
+        "installedRaceMask": null,
+        "sourceSHA256": "737a9b84cba054d0488196a2bd4739a9238974aa7419982aa90998e6f1a6b81f",
+        "aliases": [
+          "Blueleaf Tubers"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 6,
+              "text": "Blueleaf Tuber (6)"
+            },
+            {
+              "quantity": 1,
+              "text": "Crate With Holes (1)"
+            },
+            {
+              "quantity": 1,
+              "text": "Snufflenose Owner's Manual (1)"
+            },
+            {
+              "quantity": 1,
+              "text": "Snufflenose Command Stick (1)"
+            }
+          ]
+        ],
+        "secondaryError": "<urlopen error _ssl.c:1018: The handshake operation timed out>"
+      },
+      "1142": {
+        "ownQuest": {
+          "category": 491,
+          "category2": 2,
+          "id": 1142,
+          "itemchoices": [
+            [
+              6751,
+              1
+            ],
+            [
+              6752,
+              1
+            ],
+            [
+              270047,
+              1
+            ]
+          ],
+          "level": 30,
+          "name": "Mortality Wanes",
+          "reprewards": [
+            [
+              69,
+              150
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "type": 81,
+          "xp": 3050,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed"
+            ],
+            "lines": [
+              "Rewards: adds Choice of Sentinel's Boots"
+            ],
+            "notShown": [
+              "Rewards: adds Choice of Sentinel's Boots"
+            ]
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Mortality Wanes",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Mortality Wanes",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "9302ebc6a58e14b6207757e4931edc5f76281235e36eef67d679445208f5ad31",
+        "aliases": [
+          "Mortality Wanes"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Treshala's Pendant (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "1144": {
+        "ownQuest": {
+          "category": 491,
+          "category2": 2,
+          "id": 1144,
+          "itemchoices": [
+            [
+              6748,
+              1
+            ],
+            [
+              6750,
+              1
+            ],
+            [
+              6749,
+              1
+            ],
+            [
+              274078,
+              1
+            ]
+          ],
+          "level": 30,
+          "name": "Willix the Importer",
+          "reprewards": [
+            [
+              470,
+              150
+            ]
+          ],
+          "reqlevel": 22,
+          "side": 3,
+          "type": 81,
+          "xp": 3050,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed"
+            ],
+            "lines": [
+              "Rewards: adds Choice of Boar Signet"
+            ],
+            "notShown": [
+              "Rewards: adds Choice of Boar Signet"
+            ]
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "Willix the Importer",
+          "icon": "quest-start",
+          "_side": 3,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "Willix the Importer",
+        "installedMinLevel": 23,
+        "installedRaceMask": null,
+        "sourceSHA256": "782ab850b76661bd2cc3652a4bab7f7d22694c4ba2ef9dfa5a3cb324e91b2ce0",
+        "aliases": [
+          "Willix the Importer"
+        ],
+        "uaFactions": [
+          "Both"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "absent",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Help Willix the Importer escape from Razorfen Kraul (1)"
+            }
+          ]
+        ],
+        "secondaryError": null
+      },
+      "78916": {
+        "ownQuest": {
+          "category": 719,
+          "category2": 2,
+          "id": 78916,
+          "itemchoices": [
+            [
+              211451,
+              1
+            ],
+            [
+              211450,
+              1
+            ],
+            [
+              211449,
+              1
+            ]
+          ],
+          "level": 25,
+          "name": "The Heart of the Void",
+          "reprewards": [
+            [
+              47,
+              200
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 1,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed",
+              "objectives_changed"
+            ],
+            "lines": [
+              "Objectives: no longer Perfect Blackfathom Pearl",
+              "Rewards: no longer Choice of Acolyte's Void Pearl, Choice of Avenger's Void Pearl, Choice of Invoker's Void Pearl"
+            ],
+            "notShown": [
+              "Rewards: no longer Choice of Acolyte's Void Pearl, Choice of Avenger's Void Pearl, Choice of Invoker's Void Pearl"
+            ]
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "The Heart of the Void",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "The Heart of the Void",
+        "installedMinLevel": 25,
+        "installedRaceMask": 4294967373,
+        "sourceSHA256": "a6749719e1f39725318e05a8bea2cbce073733546d513ca0e75e5af4fbc5f24c",
+        "aliases": [
+          "The Heart of the Void"
+        ],
+        "uaFactions": [
+          "Alliance"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Item #209693 (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": "HTTP Error 404: Not Found"
+      },
+      "78917": {
+        "ownQuest": {
+          "category": 719,
+          "category2": 2,
+          "id": 78917,
+          "itemchoices": [
+            [
+              211451,
+              1
+            ],
+            [
+              211450,
+              1
+            ],
+            [
+              211449,
+              1
+            ]
+          ],
+          "level": 25,
+          "name": "The Heart of the Void",
+          "reprewards": [
+            [
+              81,
+              200
+            ],
+            [
+              76,
+              200
+            ],
+            [
+              68,
+              200
+            ]
+          ],
+          "reqlevel": 25,
+          "side": 2,
+          "envChange": {
+            "status": "updated",
+            "labels": [
+              "rewards_changed",
+              "objectives_changed"
+            ],
+            "lines": [
+              "Objectives: no longer Perfect Blackfathom Pearl",
+              "Rewards: no longer Choice of Acolyte's Void Pearl, Choice of Avenger's Void Pearl, Choice of Invoker's Void Pearl"
+            ],
+            "notShown": [
+              "Rewards: no longer Choice of Acolyte's Void Pearl, Choice of Avenger's Void Pearl, Choice of Invoker's Void Pearl"
+            ]
+          }
+        },
+        "ownGathererType5": {
+          "name_enus": "The Heart of the Void",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        "installedTitle": "The Heart of the Void",
+        "installedMinLevel": 25,
+        "installedRaceMask": 8589934770,
+        "sourceSHA256": "785b48979e3ebd95f39b467c0d516209bd36d4ab234f7a4b6ed3cfaa22588127",
+        "aliases": [
+          "The Heart of the Void"
+        ],
+        "uaFactions": [
+          "Horde"
+        ],
+        "primaryBoundaryLayouts": {
+          "detail": "description heading",
+          "progress": "hidden reply div",
+          "complete": "hidden reply div",
+          "objective": "h1 objective"
+        },
+        "objectiveTableRows": [
+          [
+            {
+              "quantity": 1,
+              "text": "Item #211452 (Provided) (1)"
+            }
+          ]
+        ],
+        "secondaryError": "HTTP Error 404: Not Found"
+      }
+    },
+    "glossary": "No cloudglossary applied; author/root Free/pro_required result recorded. Maintainedlocal terminology checked editorially, including ranks and organizations.",
+    "wholeIdentityReread": "Each complete sourceNPC/place/item/rank/faction/target retained with independently first-use full annotation per displayed field. Source shortened references and repeated names retained; no blanket ordinary-narrative transliteration. Rankcore corrections above required."
+  },
+  "sourcePins": {
+    "upstream": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T20:29:14.226189+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    },
+    "metadata": {
+      "version": "1.1.3",
+      "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+      "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "questCount": 5982,
+      "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+      "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+    },
+    "rootDirectRemoteCheckSHA256": "6a78f95c9dec32988b9b01e0544652b41ffae97591f9104ad463f209015eeb3c",
+    "cachedWebLatest": "Webtoollatest returned cached1.1.1; rootdirectconnectorAPIfresh1.1.2pin/officialdigest remains controlling. Root finalrefresh planned."
+  },
+  "pending": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested",
+    "eligibility1144": "Currentprimarymin22vsinstalled23unresolved; requires liveconfirmation",
+    "unavailable1144Progress": "UA-onlyProgress unsupported by bothcurrentEnglishsources; nullretained",
+    "secondarySources": "1221TLSfailure;78916/78917secondary404; use exactcurrentprimarywith installed/UAcorroboration, not liveproof"
+  },
+  "reviewType": "Fresh independent assisted source-aware English/Myanmar review; didnotauthorfrozenpartition",
+  "reviewedAtUTC": "2026-11-24T20:52:13.128536+00:00"
+}

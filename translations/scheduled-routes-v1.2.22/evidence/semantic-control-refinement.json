@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "actualRootSemanticChecks": "check_semantics.py executed against final reviewed candidates",
+  "negativeControlsRejected": 154,
+  "positiveTranslationChangesToSatisfyChecker": 0,
+  "representations": [
+    "Bilingual clue source phrases use separate English/Myanmar terms.",
+    "Natural Myanmar direction order uses explicit source-bound spans.",
+    "Five regional route phrase contracts are counted as actions, not fabricated direction/place bindings.",
+    "Two direct item5440 first-use identity safeguards supplement the50primaryquestcontracts.",
+    "The same steal-one-bottle action contract follows its independently corrected linked-item annotation."
+  ],
+  "sourceAndCandidateHashes": "identity-contracts.json,semantic-contracts.json and contract-negative-cases.json",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "runtimeFixtureRefinement": {
+    "initialFailure": "Raw Myanmar clue needles compared against encoded-font Lua catalog; test representation mismatch, not source translation failure.",
+    "failedBuildLogSHA256": "8986c25eb033399625fa17d427bb649175a455474fa2bf64d4d2daa89edde692",
+    "correction": "All52 semantic field contracts remain checked against reviewed Unicode before encoding. Runtime checks retain49 ASCII identity fields plus exact encoded full-field rendering for3 clues.",
+    "translationChanges": 0,
+    "failedBuildPreservedAt": "work/morning-2026-11-25/build-v1.2.22"
+  }
+}

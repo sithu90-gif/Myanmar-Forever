@@ -1,0 +1,1597 @@
+{
+  "79192": {
+    "id": 79192,
+    "en": "Stepping Stones",
+    "english": {
+      "title": "Stepping Stones",
+      "objective": "You tear the note from the plank and read the scrawled writing.",
+      "progress": null,
+      "complete": "Backcountry adventurers and mercenaries alike undoubtedly make camp here. The corner of a note flapping in the breeze catches your eye and you reach for it.",
+      "detail": "The note begins, \"Mission said they were both making deliveries for New Plague. Looks like simple apothecary accidents to me. Find my cozy spot in the mountains between The Barrens and Desolace if you want a safe place to talk.\""
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79192/stepping-stones",
+    "sourceFile": "79192-wowhead.html",
+    "sourceSHA256": "0dffa2d7edb31fd57aab2fb2e21775a668531d1a8e0f88f3bd35ff3befb8f015",
+    "sourceHTMLSHA256": "0dffa2d7edb31fd57aab2fb2e21775a668531d1a8e0f88f3bd35ff3befb8f015",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/79192-stepping-stones",
+        "sha256": "968ea872823b13453c735e4f7e03be87189bdf9f6d203d932c2f693a161a287a",
+        "english": {
+          "title": "Stepping Stones",
+          "objective": "You tear the note from the plank and read the scrawled writing.",
+          "detail": "The note begins, \"Mission said they were both making deliveries for New Plague. Looks like simple apothecary accidents to me. Find my cozy spot in the mountains between The Barrens and Desolace if you want a safe place to talk.\"",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D79192/stepping-stones",
+        "sha256": "0dffa2d7edb31fd57aab2fb2e21775a668531d1a8e0f88f3bd35ff3befb8f015",
+        "english": {
+          "title": "Stepping Stones",
+          "objective": "You tear the note from the plank and read the scrawled writing.",
+          "progress": null,
+          "complete": "Backcountry adventurers and mercenaries alike undoubtedly make camp here. The corner of a note flapping in the breeze catches your eye and you reach for it.",
+          "detail": "The note begins, \"Mission said they were both making deliveries for New Plague. Looks like simple apothecary accidents to me. Find my cozy spot in the mountains between The Barrens and Desolace if you want a safe place to talk.\""
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          417072,
+          424010
+        ]
+      ],
+      "3": [
+        null,
+        [
+          424005
+        ]
+      ],
+      "8": [
+        "You tear the note from the plank and read the scrawled writing."
+      ],
+      "13": [
+        79007,
+        79008
+      ],
+      "S": {
+        "1": "Stepping Stones",
+        "4": 14,
+        "5": 24,
+        "17": 17,
+        "22": 79980,
+        "p": 4230
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 17,
+      "category2": 1,
+      "id": 79192,
+      "itemchoices": [
+        [
+          2901,
+          1
+        ],
+        [
+          3334,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          1652,
+          1
+        ],
+        [
+          4470,
+          1
+        ],
+        [
+          4471,
+          1
+        ],
+        [
+          221498,
+          1
+        ]
+      ],
+      "level": 24,
+      "name": "Stepping Stones",
+      "reqlevel": 14,
+      "side": 3,
+      "xp": 1950,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "level_changed",
+          "rewards_changed"
+        ],
+        "lines": [
+          "Level 24 instead of 40",
+          "Experience 1950 instead of 3150",
+          "Rewards: adds Old Toolbox"
+        ],
+        "notShown": [
+          "Experience 1950 instead of 3150",
+          "Rewards: adds Old Toolbox"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Сходинки",
+        "detail": "Записка починається словами: «Місія сказала, що вони обидва здійснюють поставки для Нової Чуми. Мені здається, що це звичайні нещасні випадки в аптеці. Знайдіть моє затишне місце в горах між Степями та Пустощами, якщо хочете безпечне місце для розмови».",
+        "objective": "Ти відриваєш записку від дошки та читаєш каракулі.",
+        "progress": null,
+        "complete": "Тут, безсумнівно, розбивають табір як шукачі пригод у глушині, так і найманці. Куточок записки, що майорить на вітрі, привертає вашу увагу, і ви тягнетеся до неї.",
+        "en": "Stepping Stones",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Connected after covered79007/79008; installed prerequisites and next79980 retained. Exact own g_quests and own type5 both side3, race/class0, req14/level24; no pickup claim. Primary/secondary title, description and objective agree; primary completion independently supported by UA. Missing Progress stays null. Mission retained as the named report source, New Plague as named work, both deliveries and apparent apothecary accidents preserved. Mountains BETWEEN The Barrens/Desolace are only the published clue; no coordinates or route solution added."
+  },
+  "79980": {
+    "id": 79980,
+    "en": "Scramble",
+    "english": {
+      "title": "Scramble",
+      "objective": "Find what awaits you.",
+      "progress": null,
+      "complete": "You pull a messenger bag out of the ground. Stuffed in with the supplies is a dirty parchment.",
+      "detail": "\"Not so bad, eh? Since you're reading this, it means my stash is still there. Take a hundred paces due north and don't break your ankles going down the steep cliffside. There should be enough to keep you going.\""
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79980/scramble",
+    "sourceFile": "79980-wowhead.html",
+    "sourceSHA256": "ee1c076ee7fd2a32688da67f5ee2a5e694c034f2cd4ce23bbadf0b5644ad59ce",
+    "sourceHTMLSHA256": "ee1c076ee7fd2a32688da67f5ee2a5e694c034f2cd4ce23bbadf0b5644ad59ce",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/79980-scramble",
+        "sha256": "3f5bad54b4f3e09ce2d1caf79903bf2e3d846dc7740315b32ba3955f694f8c91",
+        "english": {
+          "title": "Scramble",
+          "objective": "Find what awaits you.",
+          "detail": "\"Not so bad, eh? Since you're reading this, it means my stash is still there. Take a hundred paces due north and don't break your ankles going down the steep cliffside. There should be enough to keep you going.\"",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D79980/scramble",
+        "sha256": "ee1c076ee7fd2a32688da67f5ee2a5e694c034f2cd4ce23bbadf0b5644ad59ce",
+        "english": {
+          "title": "Scramble",
+          "objective": "Find what awaits you.",
+          "progress": null,
+          "complete": "You pull a messenger bag out of the ground. Stuffed in with the supplies is a dirty parchment.",
+          "detail": "\"Not so bad, eh? Since you're reading this, it means my stash is still there. Take a hundred paces due north and don't break your ankles going down the steep cliffside. There should be enough to keep you going.\""
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          424005
+        ]
+      ],
+      "3": [
+        null,
+        [
+          424012
+        ]
+      ],
+      "8": [
+        "Find what awaits you."
+      ],
+      "13": [
+        79192
+      ],
+      "S": {
+        "1": "Scramble",
+        "4": 14,
+        "5": 24,
+        "17": 406,
+        "22": 79974,
+        "p": 4230
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 406,
+      "category2": 1,
+      "id": 79980,
+      "itemchoices": [
+        [
+          3463,
+          1
+        ],
+        [
+          217314,
+          1
+        ],
+        [
+          217315,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          3464,
+          1
+        ],
+        [
+          3465,
+          1
+        ],
+        [
+          216619,
+          1
+        ]
+      ],
+      "level": 24,
+      "name": "Scramble",
+      "reqlevel": 14,
+      "side": 3,
+      "xp": 195,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "level_changed",
+          "rewards_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 24 instead of 40",
+          "Description reworded",
+          "Experience 195 instead of 315"
+        ],
+        "notShown": [
+          "Description reworded",
+          "Experience 195 instead of 315"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Скрембл",
+        "detail": "Не так вже й погано, еге ж? Оскільки ти це читаєш, це означає, що мій запас все ще там. Зроби сто кроків на північ і не зламай щиколотки, спускаючись крутим схилом. Тут має бути достатньо, щоб тобі вистачило.",
+        "objective": "Знайди те, що тебе чекає.",
+        "progress": null,
+        "complete": "Ти витягуєш із землі сумку-посиденьку. Усередині, разом з припасами, лежить брудний пергамент.",
+        "en": "Scramble",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Connected79192 ->79980 ->79974 by installed fields13/22; own side3/raceclass0, req14/level24 checked rather than copied. Both English sources agree; primary completion supported by UA. Progress absent throughout. Scramble title rendered semantically for rough-ground movement. One HUNDRED paces DUE NORTH, steep cliffside descent, ankle-breaking warning and uncertainty of sufficient supplies preserved. Ground messenger bag and dirty parchment remain distinct from previous note/plank."
+  },
+  "79974": {
+    "id": 79974,
+    "en": "Wet Job",
+    "english": {
+      "title": "Wet Job",
+      "objective": "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies.",
+      "progress": null,
+      "complete": "Dwarven Engineering, always a marvel.",
+      "detail": "\"Always like to keep a reserve stash nearby in the off chance I've got to flee in a hurry.\n\nThe face of this mountainside is so beautiful you might say it was carved from the waterfalls of time. \nThat's the eagles nest, that's what you're looking for.\""
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79974/wet-job",
+    "sourceFile": "79974-wowhead.html",
+    "sourceSHA256": "637dbd968f33ae4e28aa54477356cdc060fe9a92b5750a560e14e8cef138bf47",
+    "sourceHTMLSHA256": "637dbd968f33ae4e28aa54477356cdc060fe9a92b5750a560e14e8cef138bf47",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/79974-wet-job",
+        "sha256": "234fa3978c6e35d55b283dbffcd98a46cec9177bfb9775fb62a5863df78b2202",
+        "english": {
+          "title": "Wet Job",
+          "objective": "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies.",
+          "detail": "\"Always like to keep a reserve stash nearby in the off chance I've got to flee in a hurry.\n\nThe face of this mountainside is so beautiful you might say it was carved from the waterfalls of time. \nThat's the eagles nest, that's what you're looking for.\"",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D79974/wet-job",
+        "sha256": "637dbd968f33ae4e28aa54477356cdc060fe9a92b5750a560e14e8cef138bf47",
+        "english": {
+          "title": "Wet Job",
+          "objective": "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies.",
+          "progress": null,
+          "complete": "Dwarven Engineering, always a marvel.",
+          "detail": "\"Always like to keep a reserve stash nearby in the off chance I've got to flee in a hurry.\n\nThe face of this mountainside is so beautiful you might say it was carved from the waterfalls of time. \nThat's the eagles nest, that's what you're looking for.\""
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          424012
+        ]
+      ],
+      "3": [
+        null,
+        [
+          424007
+        ]
+      ],
+      "8": [
+        "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies."
+      ],
+      "13": [
+        79980
+      ],
+      "S": {
+        "1": "Wet Job",
+        "4": 14,
+        "5": 32,
+        "17": 406,
+        "22": 79975,
+        "p": 4230
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 406,
+      "category2": 1,
+      "id": 79974,
+      "itemrewards": [
+        [
+          5432,
+          1
+        ],
+        [
+          20709,
+          1
+        ]
+      ],
+      "level": 32,
+      "name": "Wet Job",
+      "reqlevel": 14,
+      "side": 3,
+      "xp": 2550,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "level_changed",
+          "rewards_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 32 instead of 40",
+          "Description reworded",
+          "Experience 2550 instead of 3150"
+        ],
+        "notShown": [
+          "Description reworded",
+          "Experience 2550 instead of 3150"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Мокра робота",
+        "detail": "Завжди люблю тримати запасний запас під рукою на випадок, якщо доведеться терміново тікати.\n\nВигляд цього гірського схилу такий прекрасний, що можна сказати, що його висікли водоспади часу.\nЦе орлине гніздо, саме це ви шукаєте.",
+        "objective": "Обтрушуючи пил із сумки, що виринає з землі, ви знаходите пергамент, захований серед припасів.",
+        "progress": null,
+        "complete": "Гномська інженерія завжди дивувала.",
+        "en": "Wet Job",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Connected79980 ->79974 ->79975, own side3/raceclass0, req14/level32; source envChange marks rewording. Both English sources agree; primary completion and UA support Dwarven engineering. No Progress. Reserve stash contingent on hurried flight; waterfalls-of-time and eagles-nest clues stay literal without identifying a real destination. Generic nest/toolbox/bag not promoted to lore names. Dwarven adjective gets maintained pronunciation."
+  },
+  "79975": {
+    "id": 79975,
+    "en": "Eagle's Fist",
+    "english": {
+      "title": "Eagle's Fist",
+      "objective": "Water spray dampens the air, the view is incredible.",
+      "progress": null,
+      "complete": "A campfire is newly fed with wood, but signs of a quick departure are evident.",
+      "detail": "<You find a carefully folded letter inside of the toolbox.>\n\n\"From here, with the right tools, you call the shots. Great place to launch a parachute glider.\n\nMy loyalty to the Eagle and Fist requires distance in order to serve them best. This barricade has had better days, like the Old Kingdoms it once defended, but I'll never abandon it.\""
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79975/eagles-fist",
+    "sourceFile": "79975-wowhead.html",
+    "sourceSHA256": "9019e97441ebf026c2a1569beb6096e9602026d83a3b835477a5ed2a01d07df4",
+    "sourceHTMLSHA256": "9019e97441ebf026c2a1569beb6096e9602026d83a3b835477a5ed2a01d07df4",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/79975-eagles-fist",
+        "sha256": "3715912a52923b9928e6cddb2f459729b19728368562a13f4f5369f1c5f73dc9",
+        "english": {
+          "title": "Eagle's Fist",
+          "objective": "Water spray dampens the air, the view is incredible.",
+          "detail": "<You find a carefully folded letter inside of the toolbox.>\n\n\"From here, with the right tools, you call the shots. Great place to launch a parachute glider.\n\nMy loyalty to the Eagle and Fist requires distance in order to serve them best. This barricade has had better days, like the Old Kingdoms it once defended, but I'll never abandon it.\"",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D79975/eagles-fist",
+        "sha256": "9019e97441ebf026c2a1569beb6096e9602026d83a3b835477a5ed2a01d07df4",
+        "english": {
+          "title": "Eagle's Fist",
+          "objective": "Water spray dampens the air, the view is incredible.",
+          "progress": null,
+          "complete": "A campfire is newly fed with wood, but signs of a quick departure are evident.",
+          "detail": "<You find a carefully folded letter inside of the toolbox.>\n\n\"From here, with the right tools, you call the shots. Great place to launch a parachute glider.\n\nMy loyalty to the Eagle and Fist requires distance in order to serve them best. This barricade has had better days, like the Old Kingdoms it once defended, but I'll never abandon it.\""
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          424007
+        ]
+      ],
+      "3": [
+        null,
+        [
+          406918
+        ]
+      ],
+      "8": [
+        "Water spray dampens the air, the view is incredible."
+      ],
+      "13": [
+        79974
+      ],
+      "S": {
+        "1": "Eagle's Fist",
+        "4": 14,
+        "5": 32,
+        "17": 146,
+        "22": 79976,
+        "p": 4230
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 146,
+      "category2": 0,
+      "id": 79975,
+      "level": 32,
+      "name": "Eagle's Fist",
+      "reqlevel": 14,
+      "side": 3,
+      "xp": 2550,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "level_changed",
+          "rewards_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 32 instead of 40",
+          "Description reworded",
+          "Experience 2550 instead of 3150"
+        ],
+        "notShown": [
+          "Description reworded",
+          "Experience 2550 instead of 3150"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Кулак Орла",
+        "detail": "Ви знаходите ретельно складеного листа всередині скриньки з інструментами. Уявляючи собі голос, що говорить, ви читаєте: «Звідси, з правильними інструментами, ви керуватимете. Чудове місце для запуску парашутного планера.\n\nМоя вірність Орлу та Кулаку вимагає дистанції, щоб служити їм якнайкраще. Ця барикада мала кращі часи, як і Старі Королівства, які вона колись захищала, але я ніколи її не покину».",
+        "objective": "Водяні бризки зволожують повітря, краєвид неймовірний.",
+        "progress": null,
+        "complete": "Багаття щойно підживили дровами, але ознаки швидкого відходу очевидні.",
+        "en": "Eagle's Fist",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Connected79974 ->79975 ->79976; own side3/raceclass0 req14/level32. Current primary/secondary description has a bracketed carefully-folded letter followed by2 quoted paragraphs. Older UA inserts an imagined voice; not added. Right tools/call shots idiom, parachute GLIDER rather than fighter, loyalty requiring distance, Eagle and Fist/Old Kingdoms identities, worn barricade and refusal to abandon preserved. Completion indicates a recently fueled fire AND an already hurried departure, not a future departure. No solution or unprovided route added; Progress absent."
+  },
+  "79976": {
+    "id": 79976,
+    "en": "This Must Be The Place",
+    "english": {
+      "title": "This Must Be The Place",
+      "objective": "Whoever was here, you just missed them.",
+      "progress": null,
+      "complete": "Heavy canvas is rolled over assorted equipment. You help yourself to the pack.",
+      "detail": "\"So, I've decided to take my work back underground. To stop it falling into the wrong hands.\"\n\n<The paper is torn just large enough to fit the message. You aren't sure if these are the last words you'll read from the author, or if they're a clue to the next hideout. An inadequately secured sleeping bag is unrolling itself onto your feet...>"
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D79976/this-must-be-the-place",
+    "sourceFile": "79976-wowhead.html",
+    "sourceSHA256": "46bd85a41079171bfe7cd165c751a7371d7eeca38e54390a6230f50af61d9961",
+    "sourceHTMLSHA256": "46bd85a41079171bfe7cd165c751a7371d7eeca38e54390a6230f50af61d9961",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/79976-this-must-be-the-place",
+        "sha256": "79f44816b6c5714db9c535a7ed8e1a4c2ade43fbd8a7f1d6caa216f3a9653bc1",
+        "english": {
+          "title": "This Must Be The Place",
+          "objective": "Whoever was here, you just missed them.",
+          "detail": "\"So, I've decided to take my work back underground. To stop it falling into the wrong hands.\"\n\n<The paper is torn just large enough to fit the message. You aren't sure if these are the last words you'll read from the author, or if they're a clue to the next hideout. An inadequately secured sleeping bag is unrolling itself onto your feet...>",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D79976/this-must-be-the-place",
+        "sha256": "46bd85a41079171bfe7cd165c751a7371d7eeca38e54390a6230f50af61d9961",
+        "english": {
+          "title": "This Must Be The Place",
+          "objective": "Whoever was here, you just missed them.",
+          "progress": null,
+          "complete": "Heavy canvas is rolled over assorted equipment. You help yourself to the pack.",
+          "detail": "\"So, I've decided to take my work back underground. To stop it falling into the wrong hands.\"\n\n<The paper is torn just large enough to fit the message. You aren't sure if these are the last words you'll read from the author, or if they're a clue to the next hideout. An inadequately secured sleeping bag is unrolling itself onto your feet...>"
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          406918
+        ]
+      ],
+      "3": [
+        null,
+        [
+          424006
+        ]
+      ],
+      "8": [
+        "Whoever was here, you just missed them."
+      ],
+      "13": [
+        79975
+      ],
+      "S": {
+        "1": "This Must Be The Place",
+        "4": 14,
+        "5": 32,
+        "17": 1857,
+        "p": 4230
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 293,
+      "category2": 0,
+      "id": 79976,
+      "itemrewards": [
+        [
+          211527,
+          1
+        ],
+        [
+          216619,
+          1
+        ]
+      ],
+      "level": 32,
+      "name": "This Must Be The Place",
+      "reqlevel": 14,
+      "side": 3,
+      "xp": 1950,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "level_changed",
+          "rewards_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 32 instead of 40",
+          "Description reworded",
+          "Experience 1950 instead of 2350"
+        ],
+        "notShown": [
+          "Description reworded",
+          "Experience 1950 instead of 2350"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Це має бути те місце",
+        "detail": "«Отже, я вирішив повернути свою роботу під землю. Щоб вона не потрапила в чужі руки».\n\nПапір порваний якраз достатньо, щоб вмістилося повідомлення. Ви не впевнені, чи це останні слова, які прочитаєте від автора, чи це підказка до наступного сховища. Недостатньо закріплений спальний мішок розгортається вам на ноги...",
+        "objective": "Хто б тут не був, ти його щойно розминувся.",
+        "progress": null,
+        "complete": "Важкий брезент намотують на різноманітне спорядження. Ви беретеся за рюкзак.",
+        "en": "This Must Be The Place",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Last installed link after79975 has no next22; req14/level32 and own side3/raceclass0 inspected. Installed zone1857 differs current g_quests category293, both retained as metadata variant without eligibility claim. Current English agrees with secondary; primary completion supported by UA. Quoted work-underground/avoid-wrong-hands and bracketed uncertainty last words VS next-hideout clue preserved. Loose sleeping bag unrolls onto player feet. Completion is heavy canvas over equipment then taking the pack. Progress absent; no invented follow-up."
+  },
+  "98027": {
+    "id": 98027,
+    "en": "Gleaming Crescent Necklace",
+    "english": {
+      "title": "Gleaming Crescent Necklace",
+      "objective": "Deliver the Crescent Necklace to Maliynn in Astranaar.",
+      "progress": null,
+      "complete": "Oh my! I can't believe you found this. I thought I had looked everywhere!\n\nI had lost it when I went to deliver supplies to one of our outposts, but after searching along the road I had given up.\n\nThank you for bringing this back to me. It was a gift from my late parents, and I can't express how much it means to have it back.",
+      "detail": "<The silver necklace in your hands gleams gently as you examine it. The small crescent moon shape seems similar to other night elf symbols you've seen before.\n\nUpon flipping the necklace over there is a small inscription: \"Alor'lormah, Maliynn\". Perhaps it belongs to Maliynn in Astranaar?>"
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D98027/gleaming-crescent-necklace",
+    "sourceFile": "98027-wowhead.html",
+    "sourceSHA256": "e6de437819851b71993be8848fe95c9d3988244a1a4dc02ddd5232dc1f13d50a",
+    "sourceHTMLSHA256": "e6de437819851b71993be8848fe95c9d3988244a1a4dc02ddd5232dc1f13d50a",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/98027-gleaming-crescent-necklace",
+        "sha256": "2d376b806a8ac91bb5c6ed3c5fe83b56fd0e90febfb60f2938de6c40594e251d",
+        "english": {
+          "title": "Gleaming Crescent Necklace",
+          "objective": "Deliver the Crescent Necklace to Maliynn in Astranaar.",
+          "detail": "<The silver necklace in your hands gleams gently as you examine it. The small crescent moon shape seems similar to other night elf symbols you've seen before.\n\nUpon flipping the necklace over there is a small inscription: \"Alor'lormah, Maliynn\". Perhaps it belongs to Maliynn in Astranaar?>",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D98027/gleaming-crescent-necklace",
+        "sha256": "e6de437819851b71993be8848fe95c9d3988244a1a4dc02ddd5232dc1f13d50a",
+        "english": {
+          "title": "Gleaming Crescent Necklace",
+          "objective": "Deliver the Crescent Necklace to Maliynn in Astranaar.",
+          "progress": null,
+          "complete": "Oh my! I can't believe you found this. I thought I had looked everywhere!\n\nI had lost it when I went to deliver supplies to one of our outposts, but after searching along the road I had given up.\n\nThank you for bringing this back to me. It was a gift from my late parents, and I can't express how much it means to have it back.",
+          "detail": "<The silver necklace in your hands gleams gently as you examine it. The small crescent moon shape seems similar to other night elf symbols you've seen before.\n\nUpon flipping the necklace over there is a small inscription: \"Alor'lormah, Maliynn\". Perhaps it belongs to Maliynn in Astranaar?>"
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          669176
+        ]
+      ],
+      "3": [
+        [
+          3961
+        ]
+      ],
+      "8": [
+        "Deliver the Crescent Necklace to Maliynn in Astranaar."
+      ],
+      "26": [
+        [
+          69,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Gleaming Crescent Necklace",
+        "4": 22,
+        "5": 26,
+        "6": 4294967373,
+        "11": 279274,
+        "17": 331,
+        "p": 33554566
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 331,
+      "category2": 1,
+      "id": 98027,
+      "itemrewards": [
+        [
+          281290,
+          1
+        ]
+      ],
+      "level": 26,
+      "name": "Gleaming Crescent Necklace",
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqlevel": 22,
+      "side": 1,
+      "xp": 1600,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Блискуче намисто-півмісяць",
+        "detail": "<Срібне намисто у ваших руках м'яко сяє, поки ви його розглядаєте. Невеличкий півмісяць нагадує інші символи нічних ельфів, які ви бачили раніше.\n\nПеревернувши намисто, ви знаходите маленький напис: «Alor'lormah, Maliynn». Можливо, воно належить Майлін з Астранаара?>",
+        "objective": "Доставте намисто-півмісяць Майлін в Астранаар.",
+        "progress": null,
+        "complete": "Ох! Не можу повірити, що ти це {стать:знайшов:знайшла}. Здавалося, пошуки вже охопили всі місця!\n\nНамисто загубилося, коли я несла припаси до одного з наших аванпостів, але після пошуків уздовж дороги я вже облишила надію.\n\nДякую, що {стать:повернув:повернула} його. Це подарунок моїх покійних батьків, і я не можу передати, як багато для мене означає його повернення.",
+        "en": "Gleaming Crescent Necklace",
+        "faction": "Alliance"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Exact own type5 Alliance side1/raceclass0 and g_quests req22/level26 retained; installed race mask is separate evidence, no current pickup claim. Quest/item/object title Gleaming Crescent Necklace differs shortened objective Crescent Necklace; both source labels retained. Objective table item279274 quantity1. Bracketed2paragraph item examination, inscription Alor'lormah/Maliynn and uncertain ownership preserved. Completion emotional recovered gift from late parents, supply delivery and abandoned road search retained. Primary/secondary title/detail/objective agree; secondary lacks primary/UA completion. Progress absent; no source invented."
+  },
+  "98417": {
+    "id": 98417,
+    "en": "Vengeful Trail",
+    "english": {
+      "title": "Vengeful Trail",
+      "objective": "Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return.",
+      "progress": "What have you found within the hills of our forest?",
+      "complete": "Oh no... words like these do not bring me comfort. Kurothel must be more than living in the wild, he's living more like a wild beast each passing night.\n\nI fear the whispers must be true.",
+      "detail": "At the moment our fates bound us most vulnerable, tragedy fell upon our villages. Satyrs defiled our temples, their profane touch staining sacred boughs, and they slaughtered the innocent without mercy.\n\nKurothel was consumed by wrath. The druids are taking the fight to the satyr, and he has followed.\n\nOur bond endures. I feel my husband, west, within these woods. Please, return to me with news of his fate."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D98417/vengeful-trail",
+    "sourceFile": "98417-wowhead.html",
+    "sourceSHA256": "280f765eaa3651a8585a46e601692344c367dbdd0c805c425f1824927a131b59",
+    "sourceHTMLSHA256": "280f765eaa3651a8585a46e601692344c367dbdd0c805c425f1824927a131b59",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/98417-vengeful-trail",
+        "sha256": "bfbe268d9e344f39d84adc2293f753ead47c6eeae3eea41ab41a745b6424be1d",
+        "english": {
+          "title": "Vengeful Trail",
+          "objective": "Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return.",
+          "detail": "At the moment our fates bound us most vulnerable, tragedy fell upon our villages. Satyrs defiled our temples, their profane touch staining sacred boughs, and they slaughtered the innocent without mercy.\n\nKurothel was consumed by wrath. The druids are taking the fight to the satyr, and he has followed.\n\nOur bond endures. I feel my husband, west, within these woods. Please, return to me with news of his fate.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D98417/vengeful-trail",
+        "sha256": "280f765eaa3651a8585a46e601692344c367dbdd0c805c425f1824927a131b59",
+        "english": {
+          "title": "Vengeful Trail",
+          "objective": "Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return.",
+          "progress": "What have you found within the hills of our forest?",
+          "complete": "Oh no... words like these do not bring me comfort. Kurothel must be more than living in the wild, he's living more like a wild beast each passing night.\n\nI fear the whispers must be true.",
+          "detail": "At the moment our fates bound us most vulnerable, tragedy fell upon our villages. Satyrs defiled our temples, their profane touch staining sacred boughs, and they slaughtered the innocent without mercy.\n\nKurothel was consumed by wrath. The druids are taking the fight to the satyr, and he has followed.\n\nOur bond endures. I feel my husband, west, within these woods. Please, return to me with news of his fate."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          221269
+        ]
+      ],
+      "3": [
+        [
+          221269
+        ]
+      ],
+      "8": [
+        "Maseara Autumnmoon wants you to search west of Forest Song, amongst the Satyrnaar demons. Report any signs of her husband Kurothel upon your return."
+      ],
+      "10": {
+        "3": [
+          [
+            281014,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          47,
+          6.25
+        ],
+        [
+          54,
+          6.25
+        ],
+        [
+          69,
+          25
+        ],
+        [
+          72,
+          6.25
+        ],
+        [
+          469,
+          6.25
+        ]
+      ],
+      "S": {
+        "1": "Vengeful Trail",
+        "4": 23,
+        "5": 28,
+        "6": 4294967373,
+        "17": 331,
+        "22": 98418,
+        "p": 33555078
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 331,
+      "category2": 1,
+      "id": 98417,
+      "level": 28,
+      "name": "Vengeful Trail",
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqlevel": 23,
+      "side": 1,
+      "xp": 1700,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Слід помсти",
+        "detail": "Коли доля зробила нас найбільш вразливими, на наші поселення впало лихо. Сатири осквернили храми, заплямувавши священні гілки своїм нечестивим дотиком, і безжально вбивали невинних.\n\nКуротеля поглинула лють. Друїди пішли воювати із сатирами, і він рушив за ними.\n\nНаш зв'язок не урвався. Я відчуваю свого чоловіка на заході, серед цих лісів. Будь ласка, повернися зі звісткою про його долю.",
+        "objective": "Масеара Осінній Місяць просить вас шукати серед демонів Сатирнаара на захід від Лісової Пісні. Повернувшись, повідомте їй усе, що дізнаєтеся про її чоловіка Куротеля.",
+        "progress": "Що вдалося знайти серед пагорбів нашого лісу?",
+        "complete": "О ні... такі слова не приносять мені втіхи. Куротель уже не просто живе серед дикої природи — з кожною ніччю він дедалі більше живе як дикий звір.\n\nБоюся, ці чутки таки правдиві.",
+        "en": "Vengeful Trail",
+        "faction": "Alliance"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Own side1/raceclass0 req23/level28, installed next98418. Objective table Vine-Wrapped Scroll281014 quantity1 corroborates report task; no added objective solution. Primary/secondary offer/task agree; primary/UA Progress+Completion support. Maseara's husband is Kurothel, not the player's. WEST of Forest Song and among Satyrnaar demons; report signs on return. Bond persists; husband's fate uncertain, rumors feared. Satyr desecration of temples/sacred boughs and Kurothel following druids retained. All5 fields supported, no holds."
+  },
+  "98418": {
+    "id": 98418,
+    "en": "Shared Fury",
+    "english": {
+      "title": "Shared Fury",
+      "objective": "Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.\nReturn to Maseara Autumnmoon in Forest Song afterwards.",
+      "progress": "Demons disgrace our ancient culture. They compel our defensive instincts to bare themselves at their most primal. Will we lose ourselves in the strife?",
+      "complete": "There was a welling up of... Elune's light within and around me. I feel Kurothel has witnessed your act of battle within this war that rages within our land, and within our hearts. \n\nMy hopes are that with time, the efforts of our Sentinels and our wayward druids will eliminate the demonic menace once and for all. Perhaps then and only then will the feral drive for vengeance burn out from our lineage's heritage.\n\nThank you, <name>. You are a child of the forest, and a valuable spearhead of Kaldorei will.",
+      "detail": "Kurothel mentioned sightings of what they say are wolf-men. Those of the pack now lurking in greater numbers in our forest. Last we had spoken, druids were pursuing communication with those of the beast heart who displayed measured control of their animal instincts.\n\nHis written words show a darker struggle. If there is anything we can do to help see HIM again, surely quelling the demon threat that is driving him to this burning transformation will be of aid to his anguished soul.\n\nSlay the Xavian, <name>."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D98418/shared-fury",
+    "sourceFile": "98418-wowhead.html",
+    "sourceSHA256": "a2f099df271708423ebeb26ef8114753bae0faf49fb8013c620e136feeaad608",
+    "sourceHTMLSHA256": "a2f099df271708423ebeb26ef8114753bae0faf49fb8013c620e136feeaad608",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/98418-shared-fury",
+        "sha256": "9da9eee3297f476f136a959c8c72d376a9af79f31236b4412ff624f0a53acc06",
+        "english": {
+          "title": "Shared Fury",
+          "objective": "Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.\nReturn to Maseara Autumnmoon in Forest Song afterwards.",
+          "detail": "Kurothel mentioned sightings of what they say are wolf-men. Those of the pack now lurking in greater numbers in our forest. Last we had spoken, druids were pursuing communication with those of the beast heart who displayed measured control of their animal instincts.\n\nHis written words show a darker struggle. If there is anything we can do to help see HIM again, surely quelling the demon threat that is driving him to this burning transformation will be of aid to his anguished soul.\n\nSlay the Xavian, <Name>.",
+          "progress": null,
+          "complete": null
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D98418/shared-fury",
+        "sha256": "a2f099df271708423ebeb26ef8114753bae0faf49fb8013c620e136feeaad608",
+        "english": {
+          "title": "Shared Fury",
+          "objective": "Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.\nReturn to Maseara Autumnmoon in Forest Song afterwards.",
+          "progress": "Demons disgrace our ancient culture. They compel our defensive instincts to bare themselves at their most primal. Will we lose ourselves in the strife?",
+          "complete": "There was a welling up of... Elune's light within and around me. I feel Kurothel has witnessed your act of battle within this war that rages within our land, and within our hearts. \n\nMy hopes are that with time, the efforts of our Sentinels and our wayward druids will eliminate the demonic menace once and for all. Perhaps then and only then will the feral drive for vengeance burn out from our lineage's heritage.\n\nThank you, <name>. You are a child of the forest, and a valuable spearhead of Kaldorei will.",
+          "detail": "Kurothel mentioned sightings of what they say are wolf-men. Those of the pack now lurking in greater numbers in our forest. Last we had spoken, druids were pursuing communication with those of the beast heart who displayed measured control of their animal instincts.\n\nHis written words show a darker struggle. If there is anything we can do to help see HIM again, surely quelling the demon threat that is driving him to this burning transformation will be of aid to his anguished soul.\n\nSlay the Xavian, <name>."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          221269
+        ]
+      ],
+      "3": [
+        [
+          221269
+        ]
+      ],
+      "8": [
+        "Kill 5 Xavian Rogues, 5 Felsworn, 5 Betrayers, and 5 Hellcallers.",
+        "Return to Maseara Autumnmoon in Forest Song afterwards."
+      ],
+      "10": [
+        [
+          [
+            3754,
+            null,
+            0
+          ],
+          [
+            3755,
+            null,
+            0
+          ],
+          [
+            3757,
+            null,
+            0
+          ],
+          [
+            3752,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        98417
+      ],
+      "26": [
+        [
+          47,
+          6.25
+        ],
+        [
+          54,
+          6.25
+        ],
+        [
+          69,
+          25
+        ],
+        [
+          72,
+          6.25
+        ],
+        [
+          469,
+          6.25
+        ]
+      ],
+      "S": {
+        "1": "Shared Fury",
+        "4": 23,
+        "5": 30,
+        "6": 4294967373,
+        "17": 331,
+        "p": 33559174
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 331,
+      "category2": 1,
+      "id": 98418,
+      "level": 30,
+      "money": 2100,
+      "name": "Shared Fury",
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqlevel": 23,
+      "side": 1,
+      "xp": 2450,
+      "envChange": {
+        "status": "new",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Спільна лють",
+        "detail": "Куротель згадував, що бачив істот, яких називають вовкулаками. Тепер їхня зграя дедалі численніша в нашому лісі. Востаннє, коли ми говорили, друїди намагалися порозумітися з тими, хто мав звірине серце, але ще стримував тваринні інстинкти.\n\nЙого лист свідчить про похмурішу боротьбу. Якщо можемо хоч якось знову побачити ЙОГО, то приборкання демонічної загрози, яка штовхає його до цієї палкої зміни, напевно допоможе його змученій душі.\n\nУбий ксавіанських демонів, {ім'я}.",
+        "objective": "Убийте по 5 ксавіанських пройдисвітів, присяжників Скверни, зрадників і пеклокликачів.\nПотім поверніться до Масеари Осіннього Місяця в Лісову Пісню.",
+        "progress": "Демони ганьблять нашу давню культуру. Вони змушують наші захисні інстинкти виявлятися в найпервіснішій формі. Чи не втратимо ми самих себе в цій боротьбі?",
+        "complete": "У мені й довкола мене наростало... світло Елуни. Відчуваю, Куротель бачив твій бойовий учинок у цій війні, що лютує на нашій землі й у наших серцях.\n\nСподіваюся, з часом зусилля наших стражниць і друїдів, що збилися зі шляху, раз і назавжди знищать демонічну загрозу. Можливо, лише тоді в успадкованій нами природі згасне ця дика жага помсти.\n\nДякую, {ім'я:к}. Ти — союзник лісу й друг народу калдорай.",
+        "en": "Shared Fury",
+        "faction": "Alliance"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Own side1/raceclass0 req23/level30, installed prerequisite98417. Four independent groups of5: Xavian Rogues3752, Felsworn3755, Betrayers3754, Hellcallers3757; exact current table order differs narrative list but identities/counts all agree. Source narrative shortened Felsworn/Betrayers/Hellcallers retained with whole labels rather than inventing full prefixes. Kill THEN return Maseara/Forest Song. Wolf-men reports and measured self-control retained; desired HIM means recover husband's self, not find arbitrary wolf. Elune, Sentinels, wayward druids and Kaldorei identities independently annotated in completion. Primary child/spearhead wording controls; UA older ally/friend ending is weaker and not copied. Source<name> preserved exact lower case; secondary<Name> case variant not adopted."
+  },
+  "1011": {
+    "id": 1011,
+    "en": "Forsaken Diseases",
+    "english": {
+      "title": "Forsaken Diseases",
+      "objective": "Bring a Bottle of Disease to Kayneth Stillwind in Forest Song.",
+      "progress": "Did you find the camp, <name>?  Do you have a bottle of disease?",
+      "complete": "Very good, <name>.  Now... by testing the contents of this bottle, the goals of the Forsaken will be revealed!",
+      "detail": "The Forsaken, the undead arm of the Horde, have crept into Ashenvale, lurking at our ruins and our barrows.  We believe their goal is to spread disease amongst the lands of the night elves.  We must confirm this!\n\nThe Forsaken have a camp south of here, near the Dor'Danil Barrow Den, where they create poisons and diseases and place them in bottles.  Fight your way into that camp and steal a bottle of disease.  Return with such a bottle.  I will test it and find its purpose."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D1011/forsaken-diseases",
+    "sourceFile": "1011-wowhead.html",
+    "sourceSHA256": "cf431f381ebf6554bbcc08badb00c3eca7ce350b2124d8958a87e4c94e8cd6f1",
+    "sourceHTMLSHA256": "cf431f381ebf6554bbcc08badb00c3eca7ce350b2124d8958a87e4c94e8cd6f1",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/1011-forsaken-diseases",
+        "sha256": "133a5887c07d5dcf6bb3c39f4fe9c59d9fffd5bf5ff232272e50cb99899a0ef6",
+        "english": {
+          "title": "Forsaken Diseases",
+          "objective": "Bring a Bottle of Disease to Kayneth Stillwind in Forest Song.",
+          "detail": "The Forsaken, the undead arm of the Horde, have crept into Ashenvale, lurking at our ruins and our barrows.  We believe their goal is to spread disease amongst the lands of the night elves.  We must confirm this!\n\nThe Forsaken have a camp south of here, near the Dor'Danil Barrow Den, where they create poisons and diseases and place them in bottles.  Fight your way into that camp and steal a bottle of disease.  Return with such a bottle.  I will test it and find its purpose.",
+          "progress": "Did you find the camp, <name>? Do you have a bottle of disease?",
+          "complete": "Very good, <name>. Now... by testing the contents of this bottle, the goals of the Forsaken will be revealed!"
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D1011/forsaken-diseases",
+        "sha256": "cf431f381ebf6554bbcc08badb00c3eca7ce350b2124d8958a87e4c94e8cd6f1",
+        "english": {
+          "title": "Forsaken Diseases",
+          "objective": "Bring a Bottle of Disease to Kayneth Stillwind in Forest Song.",
+          "progress": "Did you find the camp, <name>?  Do you have a bottle of disease?",
+          "complete": "Very good, <name>.  Now... by testing the contents of this bottle, the goals of the Forsaken will be revealed!",
+          "detail": "The Forsaken, the undead arm of the Horde, have crept into Ashenvale, lurking at our ruins and our barrows.  We believe their goal is to spread disease amongst the lands of the night elves.  We must confirm this!\n\nThe Forsaken have a camp south of here, near the Dor'Danil Barrow Den, where they create poisons and diseases and place them in bottles.  Fight your way into that camp and steal a bottle of disease.  Return with such a bottle.  I will test it and find its purpose."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          3848
+        ]
+      ],
+      "3": [
+        [
+          3848
+        ]
+      ],
+      "8": [
+        "Bring a Bottle of Disease to Kayneth Stillwind in Forest Song."
+      ],
+      "10": {
+        "3": [
+          [
+            5440,
+            null,
+            0
+          ]
+        ]
+      },
+      "26": [
+        [
+          69,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Forsaken Diseases",
+        "4": 24,
+        "5": 29,
+        "6": 4294967373,
+        "17": 331,
+        "22": 1012,
+        "23": 8,
+        "p": 33555078
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 331,
+      "category2": 1,
+      "id": 1011,
+      "level": 29,
+      "name": "Forsaken Diseases",
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqlevel": 24,
+      "side": 1,
+      "xp": 2350,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пошесті відречених",
+        "detail": "Відречені, ординські невмерлі, прокралися до Ясенедолу і причаїлись у наших руїнах і курганах. Ми вважаємо, що їхня мета — поширити пошесті в землях нічних ельфів. Ми повинні знайти докази!\n\nНа південь звідси є табір відречених, біля обителі кургану Дор'даніл. Там вони створюють отрути та пошесті та розливають їх у пляшки. Пробийся до цього табору й викради пляшечку з пошестю. Я перевірю її та дізнаюся про її призначення.",
+        "objective": "Принесіть пляшку пошесті Кейнету Штилю в Лісову Пісню.",
+        "progress": "Тобі вдалося знайти табір, {ім'я}? Ти {стать:приніс:принесла} пляшку з пошестю?",
+        "complete": "Чудово, {ім'я}. Тепер... я перевірю вміст цієї пляшки та дізнаюся, що саме замислили відречені!",
+        "en": "Forsaken Diseases",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic."
+  },
+  "1012": {
+    "id": 1012,
+    "en": "Insane Druids",
+    "english": {
+      "title": "Insane Druids",
+      "objective": "Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song.",
+      "progress": "The anguish of the Dor'danil druids still haunt my dreams, <name>.  You must destroy their leaders!",
+      "complete": "I felt the anguish of the Dor'danil Barrows lessen, and knew you had completed your task.\n\nIt was grim work you did, <name>, for the spirits you destroyed were merely victims of the Forsaken's evil.  But with their destruction, let us hope the other maddened spirits find peace.",
+      "detail": "When I struggled with the Forsaken's poisons, I had a vision.  I had a vision of the druids in the Dor'danil Barrow Den, poisoned... murdered by the undead!  They are now errant ghosts, severed from their bodies and driven mad.\n\nSo that the druids' spirits might some day find peace, you must enter the Dor'danil Barrow Den and destroy its once great leaders: Taneel Darkwood, Uthil Mooncall and Mavoris Cloudsbreak.\n\nDo this, then return to me."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D1012/insane-druids",
+    "sourceFile": "1012-wowhead.html",
+    "sourceSHA256": "0801b4b6ad5e3e4946e8bfb59e8b9c47176cd3e53b826990f3a3888f89d28309",
+    "sourceHTMLSHA256": "0801b4b6ad5e3e4946e8bfb59e8b9c47176cd3e53b826990f3a3888f89d28309",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/1012-insane-druids",
+        "sha256": "8a7ab0d7da63f71280168991ef9036629a2e7b3f6158556ef8e99a0737a7772a",
+        "english": {
+          "title": "Insane Druids",
+          "objective": "Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song.",
+          "detail": "When I struggled with the Forsaken's poisons, I had a vision.  I had a vision of the druids in the Dor'danil Barrow Den, poisoned... murdered by the undead!  They are now errant ghosts, severed from their bodies and driven mad.\n\nSo that the druids' spirits might some day find peace, you must enter the Dor'danil Barrow Den and destroy its once great leaders: Taneel Darkwood, Uthil Mooncall and Mavoris Cloudsbreak.\n\nDo this, then return to me.",
+          "progress": "The anguish of the Dor'danil druids still haunt my dreams, <name>. You must destroy their leaders!",
+          "complete": "I felt the anguish of the Dor'danil Barrows lessen, and knew you had completed your task.\n\nIt was grim work you did, <name>, for the spirits you destroyed were merely victims of the Forsaken's evil. But with their destruction, let us hope the other maddened spirits find peace."
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D1012/insane-druids",
+        "sha256": "0801b4b6ad5e3e4946e8bfb59e8b9c47176cd3e53b826990f3a3888f89d28309",
+        "english": {
+          "title": "Insane Druids",
+          "objective": "Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song.",
+          "progress": "The anguish of the Dor'danil druids still haunt my dreams, <name>.  You must destroy their leaders!",
+          "complete": "I felt the anguish of the Dor'danil Barrows lessen, and knew you had completed your task.\n\nIt was grim work you did, <name>, for the spirits you destroyed were merely victims of the Forsaken's evil.  But with their destruction, let us hope the other maddened spirits find peace.",
+          "detail": "When I struggled with the Forsaken's poisons, I had a vision.  I had a vision of the druids in the Dor'danil Barrow Den, poisoned... murdered by the undead!  They are now errant ghosts, severed from their bodies and driven mad.\n\nSo that the druids' spirits might some day find peace, you must enter the Dor'danil Barrow Den and destroy its once great leaders: Taneel Darkwood, Uthil Mooncall and Mavoris Cloudsbreak.\n\nDo this, then return to me."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          3848
+        ]
+      ],
+      "3": [
+        [
+          3848
+        ]
+      ],
+      "8": [
+        "Kill the druids: Taneel Darkwood, Uthil Mooncall, Mavoris Cloudsbreak; then return to Kayneth Stillwind in Forest Song."
+      ],
+      "10": [
+        [
+          [
+            3940,
+            null,
+            0
+          ],
+          [
+            3941,
+            null,
+            0
+          ],
+          [
+            3942,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        1011
+      ],
+      "26": [
+        [
+          69,
+          150
+        ]
+      ],
+      "S": {
+        "1": "Insane Druids",
+        "4": 24,
+        "5": 32,
+        "6": 4294967373,
+        "17": 331,
+        "23": 8,
+        "p": 33559174
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 331,
+      "category2": 1,
+      "id": 1012,
+      "itemchoices": [
+        [
+          5813,
+          1
+        ],
+        [
+          270048,
+          1
+        ],
+        [
+          270049,
+          1
+        ]
+      ],
+      "level": 32,
+      "name": "Insane Druids",
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqlevel": 24,
+      "side": 1,
+      "xp": 3200,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Emil's Brand, Choice of Mavoris's Warstaff, Choice of Uthil's Cudgel",
+          "Rewards: no longer Emil's Brand"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Emil's Brand, Choice of Mavoris's Warstaff, Choice of Uthil's Cudgel",
+          "Rewards: no longer Emil's Brand"
+        ]
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Божевільні друїди",
+        "detail": "Коли я боровся з отрутою відречених, у мене було видіння. Я бачив друїдів в обителі кургану Дор'даніл, отруєних... вбитих невмерлими! Тепер вони привиди, відірвані від своїх тіл і нестямні.\n\nАби духи друїдів змогли знайти спокій, ти мусиш проникнути в обитель кургану Дор'Даніл і знищити колись великих ватажків: Таніла Темноліса, Утіла Місяцезова та Маворіса Хмаролома.\n\nЗроби це, а потім повертайся до мене.",
+        "objective": "Вбийте друїдів Таніла Темноліса, Утіла Місяцезова та Маворіса Хмаролома, а потім поверніться до Кейнета Штиля в Лісову Пісню.",
+        "progress": "Страждання друїдів Дор'Даніла і досі ввижаються мені у снах, {ім'я}. Ти маєш знищити їхніх ватажків!",
+        "complete": "Я відчув, як страждання друїдів кургану Дор'даніл стихає, і зрозумів, що ти {стать:виконав:виконала} своє завдання.\n\nТи {стать:взяв:взяла} на себе сумний обов'язок, {ім'я}, тому що знищені тобою духи були лише жертвами злих діянь відречених. Але знищивши їх, ти {стать:дав:дала} нам надію, що інші нестямні духи знайдуть спокій.",
+        "en": "Insane Druids",
+        "faction": "Both"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Exact own side1/raceclass0 req24/level32; installed prerequisite1011 and three named targets1each from table/gatherer. UA Both differs current own side1; no pickup assertion. Both English sources agree meaning. Kayneth's vision and HIS dreams, poisoning/murder by undead, disembodied maddened victims and hoped-for peace retained. Destroy Taneel Darkwood/Uthil Mooncall/Mavoris Cloudsbreak THEN return Kayneth in Forest Song. Dor'danil/Dor'Danil source capitalization retained with maintained core pronunciation. Spirits are victims, not guilt added by translator."
+  },
+  "1084": {
+    "id": 1084,
+    "en": "Wounded Ancients",
+    "english": {
+      "title": "Wounded Ancients",
+      "objective": "Bring a piece of Corroded Shrapnel to Kaela Shadowspear in Stonetalon.",
+      "progress": "I have a feeling Gaxim will find a use for the shrapnel regardless of how the Venture Co. has used it in the past.",
+      "complete": "Thank you, <name>.\n\nThis should be more than sufficient for Gaxim to figure out how the treants were corrupted. I shall give this to him right away.",
+      "detail": "It seems obvious to me that the protectors of the Vale--the treants--had something to do with the Venture Co. being driven back. Unfortunately, even those once great guardians have now become corrupt.\n\nGaxim thinks their corruption is somehow linked to the weapons the goblins used during their retreat.\n\nI told him I'd collect a sample from a wounded treant and allow him to study it in order to figure out if that's true.\n\nBring me some of the shrapnel so the gnome can tell me more..."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D1084/wounded-ancients",
+    "sourceFile": "1084-wowhead.html",
+    "sourceSHA256": "1ebf680212b1a1cc3d0f3edb61ac331de871dd6600f8f5419f1357ff1e8f16f9",
+    "sourceHTMLSHA256": "1ebf680212b1a1cc3d0f3edb61ac331de871dd6600f8f5419f1357ff1e8f16f9",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/1084-wounded-ancients",
+        "sha256": "83427afe61ec9e43e23a366f452e72fd60d2e79c488b446ca92cbf540a96911d",
+        "english": {
+          "title": "Wounded Ancients",
+          "objective": null,
+          "detail": "It seems obvious to me that the protectors of the Vale--the treants--had something to do with the Venture Co. being driven back. Unfortunately, even those once great guardians have now become corrupt.\n\nGaxim thinks their corruption is somehow linked to the weapons the goblins used during their retreat.\n\nI told him I'd collect a sample from a wounded treant and allow him to study it in order to figure out if that's true.\n\nBring me some of the shrapnel so the gnome can tell me more...",
+          "progress": "I have a feeling Gaxim will find a use for the shrapnel regardless of how the Venture Co. has used it in the past.",
+          "complete": "Thank you, <name>.\n\nThis should be more than sufficient for Gaxim to figure out how the treants were corrupted. I shall give this to him right away."
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D1084/wounded-ancients",
+        "sha256": "1ebf680212b1a1cc3d0f3edb61ac331de871dd6600f8f5419f1357ff1e8f16f9",
+        "english": {
+          "title": "Wounded Ancients",
+          "objective": "Bring a piece of Corroded Shrapnel to Kaela Shadowspear in Stonetalon.",
+          "progress": "I have a feeling Gaxim will find a use for the shrapnel regardless of how the Venture Co. has used it in the past.",
+          "complete": "Thank you, <name>.\n\nThis should be more than sufficient for Gaxim to figure out how the treants were corrupted. I shall give this to him right away.",
+          "detail": "It seems obvious to me that the protectors of the Vale--the treants--had something to do with the Venture Co. being driven back. Unfortunately, even those once great guardians have now become corrupt.\n\nGaxim thinks their corruption is somehow linked to the weapons the goblins used during their retreat.\n\nI told him I'd collect a sample from a wounded treant and allow him to study it in order to figure out if that's true.\n\nBring me some of the shrapnel so the gnome can tell me more..."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          4080
+        ]
+      ],
+      "3": [
+        [
+          4080
+        ]
+      ],
+      "8": [
+        "Bring a piece of Corroded Shrapnel to Kaela Shadowspear in Stonetalon."
+      ],
+      "10": {
+        "3": [
+          [
+            5664,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1091
+      ],
+      "15": [
+        1083
+      ],
+      "26": [
+        [
+          69,
+          100
+        ]
+      ],
+      "S": {
+        "1": "Wounded Ancients",
+        "4": 22,
+        "5": 28,
+        "6": 4294967373,
+        "17": 406,
+        "22": 1082,
+        "23": 8,
+        "p": 33575558
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 406,
+      "category2": 1,
+      "id": 1084,
+      "level": 28,
+      "money": 2500,
+      "name": "Wounded Ancients",
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqlevel": 22,
+      "side": 1,
+      "xp": 2300,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Поранені древні",
+        "detail": "Мені здається очевидним, що захисники долини — деревані — протистояли ТзНБ \"Авантюра\" і врешті-решт вигнали їх звідти. На жаль, навіть ці колись великі охоронці зазнали спотворення.\n\nҐаксим вважає, що їхнє спотворення якось пов'язане зі зброєю, яку гобліни використовували під час відступу.\n\nЯ сказала йому, що візьму зразок із тіла пораненого дереваня і віддам його на дослідження, щоб з'ясувати, чи це правда.\n\nПринеси мені трохи шрапнелі, щоб гном міг розповісти більше...",
+        "objective": "Принесіть шматок іржавої шрапнелі Кейлі Тінеспис в Каміннопазуристі гори.",
+        "progress": "В мене таке відчуття, що Ґаксим знайде застосування шрапнелі, не дивлячись на те, як ТзНБ \"Авантюра\" використовувала її раніше.",
+        "complete": "Дякую тобі, {ім'я}.\n\nЦього має бути більш ніж достатньо, щоб Ґаксим міг зрозуміти, які причини лежать в основі спотворення дереванів. Я негайно передам йому цей зразок.",
+        "en": "Wounded Ancients",
+        "faction": "Alliance"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Exact own side1/raceclass0 req22/level28. Primary objective and installed item5664/table Corroded Shrapnel1 independently support task; secondary objective absent but no missing primary state. Vale reference retained as written without adding Charred to the clue. Kaela's practical cautious voice: seems obvious treants helped repel Venture Co, Gaxim suspects weapon link, collect wounded treant sample to check IF true. Primary is study and hypothesis, not proven cause. Gnome/goblin/treant identities retained; generic shrapnel translated, named objective item retained. Prompt handoff and more-than-sufficient amount in completion preserved."
+  },
+  "5881": {
+    "id": 5881,
+    "en": "Calling in the Reserves",
+    "english": {
+      "title": "Calling in the Reserves",
+      "objective": "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens.",
+      "progress": "You have news from Maggran Earthbinder?",
+      "complete": "This is great news; I have been sitting here guarding this hunk of wood for too long. Now I can spend some time with my family... Yippee!",
+      "detail": "The Horde does well keeping our troops fresh... since the Great War we have been prosperous here in Kalimdor.\n\nI need you to do me a favor, I have a lad by the name of Grish Longrunner protecting the Great Lift in the southern barrens. Give him this letter; the letter will let him know that I have a reserve warrior coming to relieve him of duty so that he can visit his family. He requested this sometime ago and he would be happy to hear the news."
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D5881/calling-in-the-reserves",
+    "sourceFile": "5881-wowhead.html",
+    "sourceSHA256": "8ae312c3a5efae9b42a752378685ffab92f30efded2b9bc9c080ceeb5d5491ed",
+    "sourceHTMLSHA256": "8ae312c3a5efae9b42a752378685ffab92f30efded2b9bc9c080ceeb5d5491ed",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/5881-calling-in-the-reserves",
+        "sha256": "a4ef537269a58c5ea2fba1c5b8fd513784550b541c013f65382e59ff14ad7906",
+        "english": {
+          "title": "Calling in the Reserves",
+          "objective": "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens.",
+          "detail": "The Horde does well keeping our troops fresh... since the Great War we have been prosperous here in Kalimdor.\n\nI need you to do me a favor, I have a lad by the name of Grish Longrunner protecting the Great Lift in the southern barrens. Give him this letter; the letter will let him know that I have a reserve warrior coming to relieve him of duty so that he can visit his family. He requested this sometime ago and he would be happy to hear the news.",
+          "progress": "You have news from Maggran Earthbinder?",
+          "complete": "This is great news; I have been sitting here guarding this hunk of wood for too long. Now I can spend some time with my family... Yippee!"
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D5881/calling-in-the-reserves",
+        "sha256": "8ae312c3a5efae9b42a752378685ffab92f30efded2b9bc9c080ceeb5d5491ed",
+        "english": {
+          "title": "Calling in the Reserves",
+          "objective": "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens.",
+          "progress": "You have news from Maggran Earthbinder?",
+          "complete": "This is great news; I have been sitting here guarding this hunk of wood for too long. Now I can spend some time with my family... Yippee!",
+          "detail": "The Horde does well keeping our troops fresh... since the Great War we have been prosperous here in Kalimdor.\n\nI need you to do me a favor, I have a lad by the name of Grish Longrunner protecting the Great Lift in the southern barrens. Give him this letter; the letter will let him know that I have a reserve warrior coming to relieve him of duty so that he can visit his family. He requested this sometime ago and he would be happy to hear the news."
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          11860
+        ]
+      ],
+      "3": [
+        [
+          12576
+        ]
+      ],
+      "8": [
+        "Maggran wishes you to deliver a letter to Grish Longrunner at the Great Lift in the Barrens."
+      ],
+      "26": [
+        [
+          81,
+          50
+        ]
+      ],
+      "S": {
+        "1": "Calling in the Reserves",
+        "4": 23,
+        "5": 28,
+        "6": 8589934770,
+        "11": 16189,
+        "17": 406,
+        "p": 33554566
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 406,
+      "category2": 1,
+      "id": 5881,
+      "level": 28,
+      "money": 1200,
+      "name": "Calling in the Reserves",
+      "reprewards": [
+        [
+          81,
+          50
+        ]
+      ],
+      "reqlevel": 23,
+      "side": 2,
+      "xp": 1150,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Зміна варти",
+        "detail": "Орда тримає наші війська у формі... з часів Великої Війни ми успішно проживаємо тут, у Калімдорі.\n\nЗроби мені послугу, є один хлопець, на ім'я Ґріш Довгобіг, який охороняє Великий Підйомник у південних Степах. Передай йому цього листа. В ньому говориться, що я маю воїна з запасу, який замінить його на службі, щоб він міг провідати свою сім'ю. Ґріш нещодавно просив про це і буде радий почути таку новину.",
+        "objective": "Маґґран просить вас передати листа Ґрішу Довгобігу, що знаходиться біля Великого Підйомника в Степах.",
+        "progress": "В тебе є новини від Маґґрана Землев'яза?",
+        "complete": "Це чудова новина. Я надто довго сидів тут, оберігаючи цей шматок дерева. Тепер я зможу хоч трохи провести час зі своєю сім'єю... Ура!",
+        "en": "Calling in the Reserves",
+        "faction": "Horde"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Own Horde side2/raceclass0 req23/level28 inspected; installed recipient IDs and provided letter16189 quantity1 corroborate delivery. Both current English sources agree. Horde, Great War and Kalimdor proper identities retained rather than reducing war to generic. Southern Barrens/Great Lift Grish Longrunner handoff; replacement reserve warrior comes so Grish can visit family, not permanent dismissal. Maggran short name objective and full Maggran Earthbinder in Progress kept with consistent core. Reserve warrior is generic soldier, not invented playerclass identity. Completion retains wood-guarding complaint and happy exclamation."
+  },
+  "857": {
+    "id": 857,
+    "en": "The Tear of the Moons",
+    "english": {
+      "title": "The Tear of the Moons",
+      "objective": "Feegly the Exiled wants you to retrieve for him the Tear of the Moons.",
+      "progress": "Where is the Tear of the Moons? I need it now! Need I say!",
+      "complete": "At last, the power is mine again! Mine I say!",
+      "detail": "The power was mine! In my very hands! And I want it back! Back I say!\n\nThose dirty excavators uncovered it... so beautiful it was. Deemed the Tear of the Moons, it was the first great discovery we made at Bael Modan.\n\nIt should have been mine! Mine I say!\n\nGeneral Twinbraid grew jealous of the power it gave me. He locked it away in the Keep. Called it cursed, he did! The fool!\n\nOthers wanted it and they had to be stopped! That bastard Twinbraid drove me off.\n\nNow I want it back. Back I say!"
+    },
+    "sourceURL": "https://www.wowhead.com/forever/quest%3D857/the-tear-of-the-moons",
+    "sourceFile": "857-wowhead.html",
+    "sourceSHA256": "f4d63618fecd0852742019f7373b9a5040cfb77042b0d44a5309dcb88acd115d",
+    "sourceHTMLSHA256": "f4d63618fecd0852742019f7373b9a5040cfb77042b0d44a5309dcb88acd115d",
+    "references": {
+      "sixty": {
+        "url": "https://www.60.tools/quests/857-the-tear-of-the-moons",
+        "sha256": "f6da20ff9bc5bf4857b0e6dda935c9088b2da9f92f9ae94d7d56d92042bf732e",
+        "english": {
+          "title": "The Tear of the Moons",
+          "objective": "Feegly the Exiled wants you to retrieve for him the Tear of the Moons.",
+          "detail": "The power was mine! In my very hands! And I want it back! Back I say!\n\nThose dirty excavators uncovered it... so beautiful it was. Deemed the Tear of the Moons, it was the first great discovery we made at Bael Modan.\n\nIt should have been mine! Mine I say!\n\nGeneral Twinbraid grew jealous of the power it gave me. He locked it away in the Keep. Called it cursed, he did! The fool!\n\nOthers wanted it and they had to be stopped! That bastard Twinbraid drove me off.\n\nNow I want it back. Back I say!",
+          "progress": "Where is the Tear of the Moons? I need it now! Need I say!",
+          "complete": "At last, the power is mine again! Mine I say!"
+        }
+      },
+      "wowhead": {
+        "url": "https://www.wowhead.com/forever/quest%3D857/the-tear-of-the-moons",
+        "sha256": "f4d63618fecd0852742019f7373b9a5040cfb77042b0d44a5309dcb88acd115d",
+        "english": {
+          "title": "The Tear of the Moons",
+          "objective": "Feegly the Exiled wants you to retrieve for him the Tear of the Moons.",
+          "progress": "Where is the Tear of the Moons? I need it now! Need I say!",
+          "complete": "At last, the power is mine again! Mine I say!",
+          "detail": "The power was mine! In my very hands! And I want it back! Back I say!\n\nThose dirty excavators uncovered it... so beautiful it was. Deemed the Tear of the Moons, it was the first great discovery we made at Bael Modan.\n\nIt should have been mine! Mine I say!\n\nGeneral Twinbraid grew jealous of the power it gave me. He locked it away in the Keep. Called it cursed, he did! The fool!\n\nOthers wanted it and they had to be stopped! That bastard Twinbraid drove me off.\n\nNow I want it back. Back I say!"
+        }
+      }
+    },
+    "installedRecord": {
+      "2": [
+        [
+          3421
+        ]
+      ],
+      "3": [
+        [
+          3421
+        ]
+      ],
+      "8": [
+        "Feegly the Exiled wants you to retrieve for him the Tear of the Moons."
+      ],
+      "10": {
+        "3": [
+          [
+            5038,
+            null,
+            0
+          ]
+        ]
+      },
+      "S": {
+        "1": "The Tear of the Moons",
+        "4": 22,
+        "5": 30,
+        "6": 8589934770,
+        "17": 17,
+        "23": 8,
+        "p": 646
+      }
+    },
+    "currentOwnIDMetadata": {
+      "category": 17,
+      "category2": 1,
+      "id": 857,
+      "level": 30,
+      "money": 2500,
+      "name": "The Tear of the Moons",
+      "reqlevel": 22,
+      "side": 2,
+      "xp": 2450,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Сльоза Місяця",
+        "detail": "Її сила була в моїх руках! В моїх руках! І я хочу повернути її! Повернути, кажу!\n\nЦі брудні копачі відкопали її... і вона була прекрасна. Її назвали Сльозою Місяця — це було перше велике відкриття, яке ми зробили в Бель-Модані.\n\nВона мала бути моєю! Моєю, кажу!\n\nГенерал Двокосий заздрив силі, яку вона давала мені. Він замкнув її у фортеці. Сказав, що вона проклята! Дурень!\n\nІнші теж хотіли отримати її, і я мав їх зупинити! А цей виродок, Двокосий, вигнав мене.\n\nТепер я хочу повернути її. Повернути, кажу!",
+        "objective": "Фіґлі Вигнанець просить вас повернути йому Сльозу Місяця.",
+        "progress": "Де Сльоза Місяця? Вона потрібна мені! Потрібна, кажу!",
+        "complete": "Нарешті, її сила знову моя! Моя, кажу!",
+        "en": "The Tear of the Moons",
+        "faction": "Horde"
+      }
+    ],
+    "upstreamReferenceFile": "../upstream-reference.json",
+    "upstreamReferenceSHA256": "a4e75d7842e176038ef5e8452c642e73cd253cd49a66e7265bfef932e8ffd336",
+    "sourceReviewNotes": "Own Horde side2/raceclass0 req22/level30; item5038 Tear of the Moons quantity1 confirms exact identifying title/task. Both English sources agree all5 states. Feegly's agitated ownership claims/repetitions and rude Twinbraid insult preserved; the translator does not certify those claims. General Twinbraid whole rank+name and Keep/Bael Modan retained. Short Twinbraid shares already established full identity in same field through explicit annotation exception. Jealousy, locked artifact, alleged curse, rivals to stop and Feegly driven off retained. Need-I-say repetition is a demand, not DeepL's no-need-to-say reversal."
+  }
+}

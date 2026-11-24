@@ -1,0 +1,814 @@
+{
+  "acceptedDocumentaryCorrections": [
+    {
+      "partition": "early_routes",
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "e77c9dbaa9651dd4a79681cd6d91fc71e6d9820e408810932ccc7ace6ecd0578",
+      "correctedFileSHA256": "9b45b81337cac17d434ae47256bf29ee0f9528ea42a3082efa4e9250eb0c8f77",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "semantic-notes.json",
+          "fileSHA256": "e77c9dbaa9651dd4a79681cd6d91fc71e6d9820e408810932ccc7ace6ecd0578",
+          "jsonPointer": "/1011",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Remove the rejected generic-item exemption using exact current item5440 HTML links.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "e77c9dbaa9651dd4a79681cd6d91fc71e6d9820e408810932ccc7ace6ecd0578",
+          "jsonPath": [
+            "1011"
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/semantic-notes.json",
+      "correctedPublicPath": "evidence/early_routes/semantic-notes.json"
+    },
+    {
+      "partition": "early_routes",
+      "file": "english-sources.json",
+      "authorFileSHA256": "73f233e019752a5ad55102cd911b767e968a8db44f260155743d973ca00b296c",
+      "correctedFileSHA256": "3a73b0d208c4a8e701cd03aa044098893b997059373b9eb9e0582b05dbf135d3",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "english-sources.json",
+          "fileSHA256": "73f233e019752a5ad55102cd911b767e968a8db44f260155743d973ca00b296c",
+          "jsonPointer": "/1011/sourceReviewNotes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Remove the rejected generic-item exemption using exact current item5440 HTML links.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "73f233e019752a5ad55102cd911b767e968a8db44f260155743d973ca00b296c",
+          "jsonPath": [
+            "1011",
+            "sourceReviewNotes"
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/english-sources.json",
+      "correctedPublicPath": "evidence/early_routes/english-sources.json"
+    },
+    {
+      "partition": "early_routes",
+      "file": "source-boundaries.json",
+      "authorFileSHA256": "c3b95b1d8e6108101fa1b15c626039c1750590b57235c526e3b12a522c3df0ae",
+      "correctedFileSHA256": "a73ecc123bd3c2f6a05280792e062aafbfe6a2f6647d548558e94bf4f585cf6b",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "source-boundaries.json",
+          "fileSHA256": "c3b95b1d8e6108101fa1b15c626039c1750590b57235c526e3b12a522c3df0ae",
+          "jsonPointer": "/1011/sourceReviewNotes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Remove the rejected generic-item exemption using exact current item5440 HTML links.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "c3b95b1d8e6108101fa1b15c626039c1750590b57235c526e3b12a522c3df0ae",
+          "jsonPath": [
+            "1011",
+            "sourceReviewNotes"
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/source-boundaries.json",
+      "correctedPublicPath": "evidence/early_routes/source-boundaries.json"
+    },
+    {
+      "partition": "early_routes",
+      "file": "source-review-data.json",
+      "authorFileSHA256": "ef48cd19e93bc04268a436ae6a6b60b5946b6050f4d9395ef964b884b6ccf786",
+      "correctedFileSHA256": "53817dd7e77c259c1a3323f97cbdd3e2de0915c4400edaab134c8f43c7ad215b",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "source-review-data.json",
+          "fileSHA256": "ef48cd19e93bc04268a436ae6a6b60b5946b6050f4d9395ef964b884b6ccf786",
+          "jsonPointer": "/questRecords/1011/sourceAwareReview",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Remove the rejected generic-item exemption using exact current item5440 HTML links.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "ef48cd19e93bc04268a436ae6a6b60b5946b6050f4d9395ef964b884b6ccf786",
+          "jsonPath": [
+            "questRecords",
+            "1011",
+            "sourceAwareReview"
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/source-review-data.json",
+      "correctedPublicPath": "evidence/early_routes/source-review-data.json"
+    },
+    {
+      "partition": "early_routes",
+      "file": "review-audit.json",
+      "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+      "correctedFileSHA256": "dbdadae1a10b9f7bb531d3523e6e1c1db74513aabc2a2ce6bcbeedc44f79552d",
+      "correctionCount": 6,
+      "changes": [
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/summary",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "summary"
+          ]
+        },
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/fields/progress/notes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "fields",
+            "progress",
+            "notes"
+          ]
+        },
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/fields/title/notes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "fields",
+            "title",
+            "notes"
+          ]
+        },
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/fields/objective/notes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "fields",
+            "objective",
+            "notes"
+          ]
+        },
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/fields/complete/notes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "fields",
+            "complete",
+            "notes"
+          ]
+        },
+        {
+          "file": "review-audit.json",
+          "fileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPointer": "/8/fields/detail/notes",
+          "oldValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained; generic bottle in dialogue kept semantic without unnecessary item promotion.",
+          "oldValueSHA256": "47283be550fcd4e308add8c550b70dbb05bc83e8faeda857730c77f3e0f001cb",
+          "newValue": "Own Alliance side1/raceclass0 req24/level29 controls own source flags; UA Both variant not used as live eligibility. Initial secondary handshake failure resolved by actual parser retry. Both current English sources support all5 states. Horde undead arm/Forsaken identity, Ashenvale/night elves lands, SOUTH camp near Dor'Danil Barrow Den, fight/steal/bottle/return/test sequence and suspected disease purpose preserved. Primary objective/table item5440 Bottle of Disease1 retained. Current Description and Progress explicitly link bottle of disease to item5440; retain Bottle of Disease plus the existing author pronunciation once in each displayed field. Later generic bottle references remain semantic.",
+          "newValueSHA256": "f1d259dfe770f6b58ca79294856e6bd40ed980412b7c8518936c388c12ecb5ae",
+          "reason": "Derived audit narrative must match the linked-item correction.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "authorFileSHA256": "d125a628ebd3c5f0a141aee5aeb6f8184ebc2b39a38152911a3830af2515111f",
+          "jsonPath": [
+            8,
+            "fields",
+            "detail",
+            "notes"
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/review-audit.json",
+      "correctedPublicPath": "evidence/early_routes/review-audit.json"
+    },
+    {
+      "partition": "early_routes",
+      "file": "semantic-contracts.json",
+      "authorFileSHA256": "4394175ac2916f5a7301318aff21c398f5e4249cd36ab37eeffb982afee53903",
+      "correctedFileSHA256": "13abdb95ba1e3915e3523906cfbfcc6ac1cb92896f782bb9be864f470b5015cf",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "semantic-contracts.json",
+          "fileSHA256": "4394175ac2916f5a7301318aff21c398f5e4249cd36ab37eeffb982afee53903",
+          "jsonPointer": "/actions/14/needles/2",
+          "oldValue": "ရောဂါပိုးပုလင်းတစ်လုံး ခိုးယူလိုက်",
+          "oldValueSHA256": "0c6b5af58911bc7d992bbff81fa981f4a31db75ff622c598b954967c26ca0227",
+          "newValue": "Bottle of Disease (ဘော့တယ်လ် အော့ဗ် ဒီဇီးဇ်) တစ်လုံး ခိုးယူလိုက်",
+          "newValueSHA256": "c5e6efb3d1337909aa595d5294e8effa5567fce983ad4f31a8197ff00d636679",
+          "reason": "Same steal-one-bottle action and order; replace only the now-annotated item-identity phrase in the derived semantic guard.",
+          "applyTo": "root-owned derived candidate metadata only; preserve frozen original",
+          "id": 1011,
+          "field": "detail",
+          "kind": "actions.needles",
+          "englishSHA256": "baacd4175517d742ce9ca6829d864fff5beb5d8187a137c27829ed709a634dde",
+          "authorFileSHA256": "4394175ac2916f5a7301318aff21c398f5e4249cd36ab37eeffb982afee53903",
+          "jsonPath": [
+            "actions",
+            14,
+            "needles",
+            2
+          ]
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/early_routes/semantic-contracts.json",
+      "correctedPublicPath": "evidence/early_routes/semantic-contracts.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "review-audit-group2.json",
+      "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+      "correctedFileSHA256": "ceb50859596e692b8e3c121a4192064028a9aa249956bf80bf799ffa1fb61773",
+      "correctionCount": 12,
+      "changes": [
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "summary"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "fields",
+            "title",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "fields",
+            "detail",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "fields",
+            "objective",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "fields",
+            "progress",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            0,
+            "fields",
+            "complete",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "summary"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "fields",
+            "title",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "fields",
+            "detail",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "fields",
+            "objective",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "fields",
+            "progress",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit-group2.json",
+          "authorFileSHA256": "dd367de6782610197e268aa2762ae285710b9853bce6ee8af2db0bcced0686a4",
+          "jsonPath": [
+            1,
+            "fields",
+            "complete",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/review-audit-group2.json",
+      "correctedPublicPath": "evidence/regional_routes/review-audit-group2.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "review-audit.json",
+      "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+      "correctedFileSHA256": "ae8f7a21659163574162cbd8e8559a18181484f917c3b0b1fabdb675419bf9e1",
+      "correctionCount": 12,
+      "changes": [
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "summary"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "fields",
+            "title",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "fields",
+            "detail",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "fields",
+            "objective",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "fields",
+            "progress",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            7,
+            "fields",
+            "complete",
+            "notes"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "summary"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "fields",
+            "title",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "fields",
+            "detail",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "fields",
+            "objective",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "fields",
+            "progress",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "f4ac637134c167b9762c7b92a5e8e27080fa6d3dfeb7f8fd57a69b69318d54cb",
+          "jsonPath": [
+            8,
+            "fields",
+            "complete",
+            "notes"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/review-audit.json",
+      "correctedPublicPath": "evidence/regional_routes/review-audit.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "review-groups.json",
+      "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+      "correctedFileSHA256": "863537f63d2b5849a884f220a2a13a625deb2cf4522d48e41c277ba6595d8074",
+      "correctionCount": 2,
+      "changes": [
+        {
+          "file": "review-groups.json",
+          "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+          "jsonPath": [
+            1,
+            "questNotes",
+            "637"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "review-groups.json",
+          "authorFileSHA256": "c4477067da31c8856f4b57b4f8636d65b9014468baddf961d640ef823290312c",
+          "jsonPath": [
+            1,
+            "questNotes",
+            "683"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/review-groups.json",
+      "correctedPublicPath": "evidence/regional_routes/review-groups.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "semantic-notes-group2.json",
+      "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+      "correctedFileSHA256": "c5ad409a4552dbf137aef5f08add622bef64e453da3374cea8a800c3f7bf6c96",
+      "correctionCount": 2,
+      "changes": [
+        {
+          "file": "semantic-notes-group2.json",
+          "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+          "jsonPath": [
+            "637"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "semantic-notes-group2.json",
+          "authorFileSHA256": "b5bc6433c658240bdafec7dade5e4cf853422ebc3f6375e2895158396cfdb451",
+          "jsonPath": [
+            "683"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/semantic-notes-group2.json",
+      "correctedPublicPath": "evidence/regional_routes/semantic-notes-group2.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+      "correctedFileSHA256": "9c8672a8d26e78689e9de374e0448bc3650f746a4f35da100dde5e056752ed2b",
+      "correctionCount": 2,
+      "changes": [
+        {
+          "file": "semantic-notes.json",
+          "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+          "jsonPath": [
+            "637"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "semantic-notes.json",
+          "authorFileSHA256": "a8d4f9c31fb1bc6c5e445ee7cee561a7b22e8b76cedbbc551a6e1383ede0f506",
+          "jsonPath": [
+            "683"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/semantic-notes.json",
+      "correctedPublicPath": "evidence/regional_routes/semantic-notes.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "source-sanity.json",
+      "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+      "correctedFileSHA256": "623f2e888822144afec566c97af3ad2240dcd87e64bb15b8ae2fb7bf0b5e6ffe",
+      "correctionCount": 2,
+      "changes": [
+        {
+          "file": "source-sanity.json",
+          "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+          "jsonPath": [
+            "637",
+            "disposition"
+          ],
+          "oldValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA incorrectly Both.",
+          "newValue": "Separate reread preserved waterlogged war-torn ENVELOPE disintegrating, few painstakingly-written pages, address Mrs Sara Balloo of Ironforge and quoted affectionate My dear Sara.... Title and objective retain item4432 Sully Balloo's Letter. Sara's worried family voice preserved: pinned beneath ICY WATER, not merely ice; disbelief and request to read. <class> marker retained. Own side1/min25 matches installed; UA Alliance matches current side1.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        },
+        {
+          "file": "source-sanity.json",
+          "authorFileSHA256": "18ababc6efea43244e5a714a6159f1f08bc51c9df938d67b36c850e3ad1a3cd9",
+          "jsonPath": [
+            "683",
+            "disposition"
+          ],
+          "oldValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4531 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "newValue": "Sara's polite small request, grief preventing a useful royal audience, player valor for Alliance, note to King Magni Bronzebeard/Ironforge retained. Item4514 title identity Sara Balloo's Plea distinct from letter. King's recognition and both<name>/<class> markers preserved; peruse letter takes a moment, no precise second invented. Own side1; UA Both differs.",
+          "sourceEvidence": "637 exact pinned UA catalog + english-sources637.uaVariants factionAlliance + own g_quests.side1;683 actual primary objective table /forever/item=4514/sara-balloos-plea and installedRecord.S.11=4514",
+          "reason": "Correct documentary faction/item identity facts; translated fields unchanged."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/source-sanity.json",
+      "correctedPublicPath": "evidence/regional_routes/source-sanity.json"
+    },
+    {
+      "partition": "regional_routes",
+      "file": "author-summary.json",
+      "authorFileSHA256": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+      "correctedFileSHA256": "b2a5d6c1eb39e874e9867add7b22395e5010aa07a80083ea09b95e85133f37f4",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "author-summary.json",
+          "authorFileSHA256": "24058bf51eb79b8f56875a888e61de38b971e5b7783ee783ec1dda32e0ccb704",
+          "jsonPath": [
+            "importantSourceCaveats"
+          ],
+          "oldValue": {
+            "536/559/560/561/563/637/683/686/700": "Current exact-ID side1 versus UA Both; faction inferred from own records, never neighbor rows or live pickup proof",
+            "560.detail": "UA drops negation; both English references say rather NOT take heads, retained",
+            "686.detail": "Mablesten source spelling vs Marblesten objective, same NPC2790, source labels retained",
+            "1144": "Current exact-ID min22 vs installed min23 unresolved eligibility; no live availability claim; UA-only Helpme Progress unavailable in both current English and null",
+            "1221": "Secondary TLS timeout; exact-ID primary dialogue with installed/UA corroboration; manual additionally in objective table, grab/read preserved without invented final return sentence",
+            "78916/78917": "Current secondary404; objective table provided209693/211452 and no-longerPerfect change note, while current dialogue/installed/UA Blackfathom Pearl unchanged; faction-specific targets/completions retained",
+            "1221/1142/1144": "Other exact-ID changes only rewards/reputation choices"
+          },
+          "newValue": {
+            "560.detail": "UA drops negation; both English references say rather NOT take heads, retained",
+            "686.detail": "Mablesten source spelling vs Marblesten objective, same NPC2790, source labels retained",
+            "1144": "Current exact-ID min22 vs installed min23 unresolved eligibility; no live availability claim; UA-only Helpme Progress unavailable in both current English and null",
+            "1221": "Secondary TLS timeout; exact-ID primary dialogue with installed/UA corroboration; manual additionally in objective table, grab/read preserved without invented final return sentence",
+            "78916/78917": "Current secondary404; objective table provided209693/211452 and no-longerPerfect change note, while current dialogue/installed/UA Blackfathom Pearl unchanged; faction-specific targets/completions retained",
+            "1221/1142/1144": "Other exact-ID changes only rewards/reputation choices",
+            "536/559/560/561/563/683/686/700": "Current exact-ID side1 versus UA Both; faction inferred from own records, never neighbor rows or live pickup proof",
+            "637": "Current exact-ID side1 and pinned UA Alliance agree; installed minimum25 matches current source; no live pickup claim."
+          },
+          "sourceEvidence": "Pinned UA catalog quest637 factionAlliance and current exact own-ID g_quests637 side1; author incorrectly included637 amongBoth mismatches.",
+          "reason": "Remove637from the mismatch group and record actual agreement."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/regional_routes/author-summary.json",
+      "correctedPublicPath": "evidence/regional_routes/author-summary.json"
+    }
+  ],
+  "result": "PASS",
+  "questIDs": 50,
+  "exactOwnIDMetadata": "All50 exact g_quests[id] and Gatherer type5[id] records extracted, hashed and compared; no neighboring-record inference.",
+  "sourcePins": "upstream-reference.json",
+  "sourceCaveatEvidence": {
+    "early_routes": "evidence/early_routes/author-summary.json",
+    "wetlands_routes": "evidence/wetlands_routes/author-summary.json",
+    "regional_routes": "evidence/regional_routes/author-summary.json"
+  },
+  "deferredEarlyCandidates": [
+    {
+      "id": 2358,
+      "decision": "Deferred, not excluded: two current primary TLS timeouts; secondary has five fields, but current primary own-ID/source verification still unavailable. Saved both attempts."
+    },
+    {
+      "id": 97029,
+      "decision": "Current primary exact own-ID recommended level60/required1, side3/class0/race0. Item/reward-only four states; secondary mislabels identical primary Progress as offer. Defer to higher/unclassified artifact route, not a level1 starter claim."
+    },
+    {
+      "id": 86776,
+      "decision": "Installed min15/recommended30 profession/optional candidate retained for separate profession route audit; current batch favors connected main/regional and dungeon groups."
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}
