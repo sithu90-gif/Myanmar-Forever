@@ -1,0 +1,85 @@
+{
+  "partition": "class_routes",
+  "targetVersion": "1.2.21",
+  "questCount": 11,
+  "selectedQuestIDs": [
+    1472,
+    1476,
+    1507,
+    1508,
+    1716,
+    78088,
+    78089,
+    78090,
+    78091,
+    78092,
+    78093
+  ],
+  "sourcedFields": 51,
+  "enabledFields": 51,
+  "fieldCounts": {
+    "title": 11,
+    "detail": 11,
+    "objective": 11,
+    "progress": 7,
+    "complete": 11
+  },
+  "heldFields": [],
+  "unavailableSlots": 4,
+  "unavailableFields": [
+    {
+      "id": 1472,
+      "field": "progress",
+      "reason": "No current primary Progress state or corresponding supported secondary/UA state. Null retained."
+    },
+    {
+      "id": 1507,
+      "field": "progress",
+      "reason": "No current primary Progress state or corresponding supported secondary/UA state. Null retained."
+    },
+    {
+      "id": 1508,
+      "field": "progress",
+      "reason": "No current primary Progress state or corresponding supported secondary/UA state. Null retained."
+    },
+    {
+      "id": 1716,
+      "field": "progress",
+      "reason": "No current primary Progress state or corresponding supported secondary/UA state. Null retained."
+    }
+  ],
+  "groups": [
+    5,
+    6
+  ],
+  "actualDeepLRequests": 2,
+  "actualDeepLInputCharacters": [
+    3727,
+    3272
+  ],
+  "authorReview": "Separate English/Myanmar source-aware reread after each group; actual DeepL backing for every available field. Enriched own-ID metadata checked and affected hash/field checks repeated.",
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "sourceReviewFile": "source-review-data.json",
+  "independentAssistedReview": "pending",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested",
+  "sourceCaveats": {
+    "1476": "Current Corma Villard and Corma Heart6313 replace historical installed Comar label. Current own-ID change log plus English and UA support the female identity. Secondary completion older goodly man text; primary pure hearts wording controls.",
+    "1508": "Secondary timed out twice; current primary, installed identity and UA support retained.",
+    "78088": "Own-ID race68 differs downstream race5. Initial provided Althalaxx Orb209836 differs following provided Althalaxx Orb209748. All own-ID flags retained without current live eligibility claims.",
+    "78089/78092": "Current primary and installed objectives support specific Katherine and12-mote/Spear targets; older UA detail/objective are superseded. Secondary404 on78089–78093.",
+    "78093": "Objective Orb Shards and provided item209800 Orb Fragments are current source display aliases, not quest-title aliases."
+  }
+}

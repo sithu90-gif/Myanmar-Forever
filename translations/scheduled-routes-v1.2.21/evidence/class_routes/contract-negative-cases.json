@@ -1,0 +1,131 @@
+{
+  "result": "PASS",
+  "sourceIdentityContracts": 11,
+  "numericTargetBindings": 2,
+  "writtenTargetBindings": 1,
+  "orderedTaskContracts": 3,
+  "actionContracts": 11,
+  "directionBindings": 1,
+  "negativeCases": [
+    {
+      "case": "Wrong salt quantity 13 instead of14",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong mote quantity 21 instead of12",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap Godrick handoff to Cazul",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap Cazul handoff to Godrick",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong Ursula return recipient",
+      "result": "rejected"
+    },
+    {
+      "case": "East instead of west tower",
+      "result": "rejected"
+    },
+    {
+      "case": "Leave orb behind in destruction trip",
+      "result": "rejected"
+    },
+    {
+      "case": "Destroy before gathering essence",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent absent Warlock Progress state",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove summon prerequisite",
+      "result": "rejected"
+    }
+  ],
+  "guardedFieldHashes": {
+    "1472": {
+      "title": "f8ffcf2ebc30cdcfd5c3ba25653758e8a55529ccbc48f290a99e962ce94b6334",
+      "detail": "d75c823c81c3fc38358b94eb0c2cddb2705772cda77d9f1614e9b36446bf9f4e",
+      "objective": "c5f97244acaff01f3b407fb549d177d0bfa87b2a9a1aa1acd537bf63a6a7640f",
+      "progress": null,
+      "complete": "d62d417b946a023ae3b768c166c111b7305124d7d1e924ebb661aad02e55b6bb"
+    },
+    "1476": {
+      "title": "51a45eacb23b0e3fddfb6fa427f2c2dae5c4af64ee023bf3ab7b6807bc3f6b6f",
+      "detail": "f6c721307ac2c510d6a2b2915a2043b20a87de51fe5f81821991064e9d86aa7d",
+      "objective": "68d4044fde08d71715469bd13ffd15bdf7e3960d64914f3ced71e79915ebf298",
+      "progress": "07137866f8915a5377f6ced2972feca21ca939177ad9e29f404e94f6a89719c6",
+      "complete": "55b69c649a3be3d52f283c7c10e871662286f73bd0471e3c0afbe074bb58e58a"
+    },
+    "1507": {
+      "title": "f8ffcf2ebc30cdcfd5c3ba25653758e8a55529ccbc48f290a99e962ce94b6334",
+      "detail": "8d65730c4d17af79dcfbc31de09d9a776f603ef41a99349ac2109e426cfea370",
+      "objective": "49ec4eeea6fbcedfe78095f6ef0ade0f0ca2ec44cf35d67c9bb92bedbb9e58f8",
+      "progress": null,
+      "complete": "1a1f2e5b1770c8713db4b3176528aaa7b9fc8743a579908b587305bfda85af23"
+    },
+    "1508": {
+      "title": "9b819a79bb4bcccfbaea0b08beb26b6c61f62bdb1aa9612e8ba22425a54f0510",
+      "detail": "545b69f784eca0180795c4ba68633f6b81e7c9daf5eb753c154f017123010eb3",
+      "objective": "117be995f2b136905bb5b59c87dda3ab6f2bea9b7dc671d4ec7f700b21ec40a4",
+      "progress": null,
+      "complete": "e59c1acf090a36795b40086ce05ede52050c91ac037d92244e831362608e9dc7"
+    },
+    "1716": {
+      "title": "f8ffcf2ebc30cdcfd5c3ba25653758e8a55529ccbc48f290a99e962ce94b6334",
+      "detail": "e312333cbe0a63a77f12f65a4ab5cae37a77ba47ed716bc489240810097bd272",
+      "objective": "a485d167bb8bb4004cb0f724e4d1c1dee99ac840492e1e9841dc18a0ff343bd2",
+      "progress": null,
+      "complete": "ab48545226d5be2e061c894b7747f8c02316ca1bfaba09bc489ba7579a84a5fe"
+    },
+    "78088": {
+      "title": "028131511c9e3b92e88c666555ab5b7e4bec3fc4efb2c16f6ca5a4cc6d46779d",
+      "detail": "34ee12e24176bfcb0368d6a542a7069674caea359053a39ec96fddc02b535543",
+      "objective": "9400325dc64406e1ea6a09974e5d7b851535d4d41497c2a0a9f31111e4aec364",
+      "progress": "4b79b823ec1022d01ba1ce43436f1c59521d9cfa0bd388f5d2a4a90d569019c9",
+      "complete": "6e6a322b3f54d7c2539973aa332023d7dc4fec151647f722b6810456fd36f73c"
+    },
+    "78089": {
+      "title": "9abd6aa8dce675a9f3375086ad123e13129eb980a737662f9d5f109eaa0d02f3",
+      "detail": "4c2a95d50f9e3d9f29dc5cf91c6850f9852bbe6a35c954f56717a5010db5beea",
+      "objective": "577fd25a5676950570eb4079446837522aa2e187218efa1326109671a69c6060",
+      "progress": "3cea9138eee64e79e8eb34c1167ae251562f29504bf04a8fffdbe699b3ae014c",
+      "complete": "a8d96f5b317682efb91f6dd9da7de74dadb84bc073d8b1a6e6e3d67f0b122d1a"
+    },
+    "78090": {
+      "title": "38a1fb76a8b16a41189372f13d588ebc5fc681e68ed3d748307800088aacf7ed",
+      "detail": "e6df9ddaa908c24fb1fcf070e72dd7515814c375fdb6376401f801f6737dc9bb",
+      "objective": "2c4016ac86b2c75a3cfb0270446e716d7b58acacaddf2185dc00265b6b243b4f",
+      "progress": "44ffac9806c5c25b222c139182ea5c2ecb2357ec0e29cfb9c6adddd13dc9bf98",
+      "complete": "d601ba3c4311787c947639ea1d1187c35b908ab6cba38439b0cbcadfa4b57951"
+    },
+    "78091": {
+      "title": "57e7e9b582d7f628a7df223ff815442056cfaa4d598f010014a6f326c2a1efbe",
+      "detail": "713487d4253acacc3ccdabf349dd7181d248a9962637e0e3198331b051084abd",
+      "objective": "f3c43ffe1facf9bf38ab71eecd098499ccfc82731777211c26ac102c5d55321b",
+      "progress": "220f135ffa20f2c118b1db6e19f39adea0d3dfe1ec6a5bf735f84a9ad559a658",
+      "complete": "b6643763bfd7ba392bca40bf4585513c448ccfc02412122aefbb034ffe36a663"
+    },
+    "78092": {
+      "title": "2bd276ceb47a6c05095e233578997522654cc4031496694a31758e11dfeae06c",
+      "detail": "d9fd70a1356f9d4c1d82e9786cab0c6403f20ce3e80549d8a612c27f5667976d",
+      "objective": "2b278fb9fa4c5464dce9fa00edbe682b43e1d68c860a458fd30dab105801b4b4",
+      "progress": "ad77d3e21f0db528d90992377e661f549d7831ba65a8414352bc4ae118c09e23",
+      "complete": "a9907eb43799fc49f68a7b3f9b79d6e8b4d88d815d4a81ff3115391d53478fdc"
+    },
+    "78093": {
+      "title": "adb8316ab912411b1a349c8295bd297fb2e7939aad6dde58600bbe7af28f5e7d",
+      "detail": "95fce34f028174737176650d074958d943556dfa4bcd073ee23888fee38769fb",
+      "objective": "ab9478af7140aa9492c66e423877cdebc60ba4b361ebc44f2edd86cc0f6825f7",
+      "progress": "57a0663a7d2b718c0afee21faa42fb45fd8532af0399f861432936539897a567",
+      "complete": "56bf6c2e6cc19f268d7fa154d55f24a076007f330cecad2865475ad1f3171a68"
+    }
+  },
+  "claim": "Source-grounded regressions supplement author review; not native or current live verification."
+}

@@ -1,0 +1,372 @@
+{
+  "numeric": [
+    {
+      "id": 96241,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Gloomrise Toxin Samples",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 96259,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Gloomrise Hatchlings",
+          "quantity": 10
+        },
+        {
+          "term": "Gloomrise Soldiers",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 96260,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Crystalline Silk",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "id": 98155,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Pristine Pesterhide Pelts",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": 6504,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Shredder Operating Manual",
+          "quantity": 12
+        }
+      ]
+    }
+  ],
+  "written": [
+    {
+      "id": 98071,
+      "field": "objective",
+      "needles": [
+        "Homebrew Hops",
+        "တစ်အိတ်"
+      ],
+      "meaning": "A sack of hops returned after wine delivery."
+    },
+    {
+      "id": 6504,
+      "field": "objective",
+      "needles": [
+        "အခန်း 1၊ 2 နဲ့ 3 အဖြစ် စုစည်းပါ"
+      ],
+      "meaning": "Assemble12 pages into chapters1,2,3 in order; three separate chapter items."
+    }
+  ],
+  "ordered": [
+    {
+      "id": 4770,
+      "field": "objective",
+      "terms": [
+        "Pao'ka Swiftmountain",
+        "Highperch",
+        "ခေါ်ထုတ်ပြီး",
+        "Whitereach Post",
+        "Motega Firemane",
+        "စကားပြောပါ"
+      ]
+    },
+    {
+      "id": 4904,
+      "field": "objective",
+      "terms": [
+        "Lakota Windsong",
+        "Darkcloud Pinnacle",
+        "ခေါ်ထုတ်ပြီး",
+        "Freewind Post",
+        "Thalia Amberhide",
+        "စကားပြောပါ"
+      ]
+    },
+    {
+      "id": 5151,
+      "field": "objective",
+      "terms": [
+        "သားရဲကို သတ်ပြီး",
+        "Hypercapacitor Gizmo",
+        "Panther Cage Key",
+        "Wizlo Bearingshiner",
+        "ပြန်ယူလာပါ"
+      ]
+    },
+    {
+      "id": 6504,
+      "field": "objective",
+      "terms": [
+        "စာမျက်နှာ 12",
+        "အခန်း 1၊ 2 နဲ့ 3",
+        "စုစည်းပါ",
+        "Gurda Ragescar",
+        "ပြန်ပေးပါ"
+      ]
+    },
+    {
+      "id": 98071,
+      "field": "objective",
+      "terms": [
+        "Fallrook Varietal",
+        "Dun Garok",
+        "ပို့ဆောင်ပြီး",
+        "Homebrew Hops",
+        "ပြန်ယူလာပါ"
+      ]
+    },
+    {
+      "id": 4770,
+      "field": "detail",
+      "terms": [
+        "Whitereach Post",
+        "အရှေ့ဘက်နားမှာပါပဲ"
+      ]
+    },
+    {
+      "id": 4881,
+      "field": "detail",
+      "terms": [
+        "Great Lift",
+        "အနောက်တောင်ဘက် စခန်းငယ်"
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "id": 96241,
+      "field": "objective",
+      "needles": [
+        "Toxin Extractor",
+        "Gnawed Corpses",
+        "စုဆောင်းပါ"
+      ],
+      "meaning": "Use extractor on corpses to obtain toxin samples, not kill targets."
+    },
+    {
+      "id": 96261,
+      "field": "detail",
+      "needles": [
+        "မဟာမိတ်တွေ ခေါ်သွားပြီး",
+        "ပြင်ဆင်ထားဖို့"
+      ],
+      "meaning": "Bring allies and prepare for unexpected fight."
+    },
+    {
+      "id": 96294,
+      "field": "detail",
+      "needles": [
+        "<သင်",
+        "ဝတ်ရုံအခေါက်တွေကြားက",
+        "ဖြေပေးနိုင်လောက်တယ်။>"
+      ],
+      "meaning": "Two-paragraph observation remains one bracketed emote; note in robe folds."
+    },
+    {
+      "id": 4881,
+      "field": "objective",
+      "needles": [
+        "သတိပေးပါ"
+      ],
+      "forbidden": [
+        "သတ်ပါ"
+      ],
+      "meaning": "Warn threatened Kanati; assassination letter is not a player kill instruction."
+    },
+    {
+      "id": 4966,
+      "field": "objective",
+      "needles": [
+        "တိုက်ခိုက်မှုမှ",
+        "ကာကွယ်ပါ"
+      ],
+      "forbidden": [
+        "ခေါ်ထုတ်"
+      ],
+      "meaning": "Defend Kanati against centaur, not escort him."
+    },
+    {
+      "id": 5147,
+      "field": "objective",
+      "needles": [
+        "သတ်ပြီး",
+        "အထောက်အထားကို",
+        "Cliffwatcher Longhorn"
+      ],
+      "meaning": "Kill Arnak then return proof to Cliffwatcher."
+    },
+    {
+      "id": 5151,
+      "field": "detail",
+      "needles": [
+        "သူ့လည်ပင်းမှာ ဆွဲထားတဲ့",
+        "သူ့ကိုတော့ မထိရဲခဲ့ကြဘူး",
+        "မြောက်ဘက်နားမှာပဲ"
+      ],
+      "meaning": "Device around panther neck; centaur left him alone; caravan north."
+    },
+    {
+      "id": 98059,
+      "field": "objective",
+      "needles": [
+        "Sealed Company Request",
+        "မြို့တော်ခန်းမအတွင်းရှိ",
+        "စာရင်းရေးစားပွဲပေါ် တင်ထားပါ"
+      ],
+      "meaning": "Place request on accounting table inside town hall."
+    },
+    {
+      "id": 98059,
+      "field": "detail",
+      "needles": [
+        "ကောင်စီက ငါတို့ရဲ့ အုပ်ချုပ်ရေးအရာရှိအသစ် ပို့ထားတဲ့စာတွေကို မဖြေဘူး",
+        "အလုပ်ပြီးရင် ငါ့ဆီ ပြန်လာပါ"
+      ],
+      "meaning": "Magistrate wrote to council; return after placement."
+    },
+    {
+      "id": 98059,
+      "field": "complete",
+      "needles": [
+        "သူတို့ မတုံ့ပြန်ရင်"
+      ],
+      "meaning": "Stronger future messaging only if letter gets no response."
+    },
+    {
+      "id": 98071,
+      "field": "detail",
+      "needles": [
+        "အောက်ဆုံးထပ်က စုဝေးရာ မီးလင်းဖိုနားမှာ",
+        "ပြန်ယူလာပေးပါ"
+      ],
+      "meaning": "Leave wine by bottom-floor gathering fireplace, bring hops back."
+    },
+    {
+      "id": 6921,
+      "field": "detail",
+      "needles": [
+        "ရေထဲက အနီးအနားတစ်နေရာမှာ",
+        "သဘာဝဓာတ်လှုပ်ရှားမှုအားလုံးရဲ့ ရာဇဝင်"
+      ],
+      "meaning": "Stone in nearby water contains core with elemental history."
+    },
+    {
+      "id": 6922,
+      "field": "detail",
+      "needles": [
+        "သင် ယူဆမိတယ်",
+        "ပုပ်သိုးနေပုံရတဲ့",
+        "ထိခိုက်ပုံမရဘူး"
+      ],
+      "meaning": "Energy supply and imperviousness are narrator inferences, water looks putrid."
+    },
+    {
+      "id": 1153,
+      "field": "objective",
+      "needles": [
+        "Gravelsnout Digger",
+        "ဒါမှမဟုတ်",
+        "Gravelsnout Surveyor"
+      ],
+      "meaning": "Alternative source mobs, not both required."
+    },
+    {
+      "id": 1153,
+      "field": "complete",
+      "needles": [
+        "ခိုင်မာလုံလောက်ရင်"
+      ],
+      "meaning": "Send crafted weapon only if ore proves strong enough."
+    }
+  ],
+  "directions": [
+    {
+      "id": 96259,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Gloomrise",
+          "direction": "အနောက်မြောက်ဘက်နားက"
+        }
+      ]
+    },
+    {
+      "id": 98071,
+      "field": "objective",
+      "bindings": [
+        {
+          "place": "Dun Garok",
+          "direction": "အရှေ့တောင်ဘက်ရှိ"
+        }
+      ]
+    },
+    {
+      "id": 98071,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Dun Garok",
+          "direction": "အရှေ့တောင်ဘက်က"
+        }
+      ]
+    },
+    {
+      "id": 1153,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Thousand Needles",
+          "direction": "တောင်ဘက်"
+        }
+      ]
+    }
+  ],
+  "formalHolds": [],
+  "basis": "Source-grounded author assertions and mutations supplement separate bilingual review. No native proofreading or current live verification.",
+  "englishSHA256": {
+    "96241.objective": "66251602192854c5baa924ce77454845affeb5067ef904de8de8e10d7cd70812",
+    "96259.objective": "84c5c9298ed0cd538c647a7a464222ca4389d356b2a699cc180bd46b65c1e85d",
+    "96260.objective": "c20e1d2be7c08d5a82fcf8726d40e8e3ba8b8d4740045f2d79780eeac34aebe6",
+    "98155.objective": "13f1fb1db33d72c0735d93043e76349ff9dacc152c16c03be2741e6e2a4e7b12",
+    "6504.objective": "17b475715ce7624b575f123bb07162cae042cbd0070f5a2abe6acdfeba87238f",
+    "98071.objective": "8786e5006670d84ebbe1b8c6367cf3a5d0a53154e6ba80157c77640f9a6bdade",
+    "4770.objective": "9d28514f95e557d2a8f8b9c33ca8aac265057aebf14119756b1e454436834c59",
+    "4904.objective": "77a1fdfc11fdecbb521f545e2ade3844fb1d15d5f031160e2e7746a7d7967ba6",
+    "5151.objective": "2958b83efaaada8ead800fe4c2dfa57fe39c2cc961cec6bd10fca868214ab7d6",
+    "4770.detail": "9e672f0168750bb69619b50a06af69250a57b25ac33b88f4d43b18c218297f4a",
+    "4881.detail": "def70c7120d04fd65ff78c9dc0e9ee72c8ded162515a975f555b2c9f4ff841a3",
+    "96261.detail": "2944541f4411f421f8eac1df8326f67ff96ebe5cfe391ddb3ba7585d83a2d73c",
+    "96294.detail": "80021a761c80a21384c97d20050c84144aa19049fbbe823de4c19ab82fbaf9aa",
+    "4881.objective": "e24622ed106f72299e29063556ad41c68fff3aaecd95d9c2c69490724eed3098",
+    "4966.objective": "9c942ba8b3ea931b417bcd4595c5ad6545c4b24da2a8c0e749f4a269f6b91bf5",
+    "5147.objective": "1550f1e62408ff2024de3d51c19bae1096e85f65b04a82dc559505c5117e4431",
+    "5151.detail": "9a421a3b8245635c2cd447c79df93b3e9bfb50763379f5ca5e2cecbb124d941b",
+    "98059.objective": "486cffbf478765d6fa51b648b24d7c7d28ccd73e162b974a398ba6fa93a855a5",
+    "98059.detail": "625a509f140f957e019bd881a339ae8e7faa93e8ebe71f7c94a2c04f4c3588b0",
+    "98059.complete": "58d15fba474a216ef0b40c5ed3445c3fff6312df591993908127ae6173e531a0",
+    "98071.detail": "1c57a406d5657aa788246b5680e64cc83701d71d2955abb133b0517d3bba27ef",
+    "6921.detail": "ec2f321588f09b437de5b50cccb61a269f21c57844a086707fa91498fa4e869a",
+    "6922.detail": "59f83f438fbd2f5e307182d79f7646f6b4f70058b28d9d76995805086aaa7e03",
+    "1153.objective": "8072ab186da5c46ee26e28ee19c5affbb6790f8f5a5dbb32f59a0b5c24ca306c",
+    "1153.complete": "c43453e48917897c4a879e9e468bdc158e78a5896cf1c30eb07c7d1c6eb56850",
+    "96259.detail": "9d1d3643a29594c5fe96d9ac5fdb8cdb042857895db91870609341de3eef315b",
+    "1153.detail": "99518d243f77821755a1e65eaff569f2b7332eda1e5e40c3ba34a5e79541ac61"
+  }
+}

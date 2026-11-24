@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "currentEnglishUnchangedSlots": 20,
+  "availableSourceFields": 18,
+  "enabledExistingFields": 17,
+  "changedEnabledFields": 6,
+  "unavailableFields": [
+    {
+      "id": 1779,
+      "field": "progress"
+    },
+    {
+      "id": 1783,
+      "field": "progress"
+    }
+  ],
+  "historicalHoldsUnchanged": [
+    {
+      "id": 1783,
+      "field": "complete",
+      "reason": "Current primary brother versus secondary brother/sister conflict unchanged; live branch evidence unavailable. Existing null retained. Repair pack heldFields empty because it creates/disables no state."
+    }
+  ],
+  "secondaryDifferences": "All<Name>/<name>, whitespace and1779 single/double hyphen differences are historical and unchanged; primary controls. 1783 gender conflict remains held. Full differences in source-boundaries.json.",
+  "uaReview": "All four exact titles and UA1.1.2 Alliance variants inspected; no changes from0.26.0/0.26.5/1.1.1. UA1779 completion hardcodes Paladin while English has a second<class>; current exact two markers preserved. UA1681 abridges eastern Dun Morogh, ore-properties and mentor account; current full English controls.",
+  "sameTitleRouting": "1779 deliver/talk ->1783 resurrect Narm ->1784 retrieve one script; own-ID type5 Gatherer/g_quests and installed links distinguish the repeated title. No runtime title aliases added.",
+  "currentEligibility": "Current primary:1681 Alliance warrior, level11 req10;1779/1783/1784 Alliance Dwarf Paladin, level13 req12. Installed class/level data and existing row values agree.1681 primary g_quests omits race restriction, recorded alongside installed broad race mask; no live eligibility inference.",
+  "sourceBoundaryReview": "All five raw field boundaries and objective tables inspected.1779/1783 have no Progress header or hidden state. Description and hidden Completion layouts inspected; no UI/item tables leaked into source fields.",
+  "sanitizedCaptureEvidence": {
+    "currentBatchAuditSHA256": "cb39bb20084f2c0f8d3e86f8a731136c96f2a0e9c4e86827a103006b324f79de",
+    "savedCaptureStates": 310,
+    "savedCaptureQuestIDs": 132,
+    "status": "Aggregate sanitized saved-capture inventory only; no per-ID current live verification or resolution of1783 branch can be inferred. No raw private dialogue accessed by this repair worker."
+  },
+  "additionalEnabledSourceErrorsFound": [],
+  "assistedReview": "completed by author; pending separate root review",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

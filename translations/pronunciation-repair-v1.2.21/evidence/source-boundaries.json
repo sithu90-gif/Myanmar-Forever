@@ -1,0 +1,351 @@
+{
+  "1681": {
+    "ownIDGQuests": [
+      {
+        "offset": 51775,
+        "record": {
+          "category": -81,
+          "category2": 4,
+          "classs": 1,
+          "id": 1681,
+          "level": 11,
+          "name": "Ironband's Compound",
+          "reqclass": 1,
+          "reqlevel": 10,
+          "side": 1,
+          "xp": 660,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "kind": 5,
+        "locale": 16,
+        "offset": 30108,
+        "record": {
+          "name_enus": "Ironband's Compound",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 1,
+          "reqrace": 0
+        }
+      },
+      {
+        "kind": 5,
+        "locale": 16,
+        "offset": 51645,
+        "record": {
+          "name_enus": "Ironband's Compound",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 1,
+          "reqrace": 0
+        }
+      }
+    ],
+    "fields": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "My mentor, Sturgy Ironband, had a compound south of Helm's Bed Lake in eastern Dun Morogh.  There he taught blacksmithing and he was the best.<br /><br />But one day, one of his students brought him a load of strange ore.  Master Ironband called it <a href=\"/forever/item=6800/umbral-ore\">umbral ore</a> and was eager to work with it, but soon after it arrived... a band of Dark Iron dwarves attacked his compound.  They killed everyone!<br /><br />Enter Ironband's compound, &lt;name&gt;, and avenge my master's death.  And bring me the load of <a href=\"/forever/item=6800/umbral-ore\">umbral ore</a> that caused it.",
+        "clean": "My mentor, Sturgy Ironband, had a compound south of Helm's Bed Lake in eastern Dun Morogh.  There he taught blacksmithing and he was the best.\n\nBut one day, one of his students brought him a load of strange ore.  Master Ironband called it umbral ore and was eager to work with it, but soon after it arrived... a band of Dark Iron dwarves attacked his compound.  They killed everyone!\n\nEnter Ironband's compound, <name>, and avenge my master's death.  And bring me the load of umbral ore that caused it."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Have you entered Ironband's Compound? &nbsp;Did you find the <a href=\"/forever/item=6800/umbral-ore\">umbral ore</a>?",
+        "clean": "Have you entered Ironband's Compound?  Did you find the umbral ore?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "You found it! Well done!<br /><br />I hope you killed a host of Dark Iron dwarves while searching. &nbsp;I fear that Ironband's compound won't be the last place we see them.<br /><br />But thank you for the ore, &lt;name&gt;. &nbsp;I'm eager to work it and find its properties.",
+        "clean": "You found it! Well done!\n\nI hope you killed a host of Dark Iron dwarves while searching.  I fear that Ironband's compound won't be the last place we see them.\n\nBut thank you for the ore, <name>.  I'm eager to work it and find its properties."
+      },
+      "title": {
+        "raw": "Ironband's Compound",
+        "clean": "Ironband's Compound"
+      },
+      "objective": {
+        "raw": "Bring a load of <a href=\"/forever/item=6800/umbral-ore\">Umbral Ore</a> to <a href=\"/forever/npc=6031/tormus-deepforge\">Tormus Deepforge</a> in Ironforge.",
+        "clean": "Bring a load of Umbral Ore to Tormus Deepforge in Ironforge."
+      }
+    },
+    "objectiveTables": [
+      {
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6800/umbral-ore\" class=\"q1\">Umbral Ore</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "clean": "Umbral Ore (1)",
+        "offset": 53231
+      }
+    ],
+    "infobox": [
+      "[ul][li]Level: 11[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=1][/li][li][icon name=quest-start]Start: [url=/forever/npc=6031/tormus-deepforge]Tormus Deepforge[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6031/tormus-deepforge]Tormus Deepforge[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "[quest=1682 icon=false][br]"
+    ],
+    "secondaryDifferences": {
+      "detail": {
+        "primary": "My mentor, Sturgy Ironband, had a compound south of Helm's Bed Lake in eastern Dun Morogh.  There he taught blacksmithing and he was the best.\n\nBut one day, one of his students brought him a load of strange ore.  Master Ironband called it umbral ore and was eager to work with it, but soon after it arrived... a band of Dark Iron dwarves attacked his compound.  They killed everyone!\n\nEnter Ironband's compound, <name>, and avenge my master's death.  And bring me the load of umbral ore that caused it.",
+        "secondary": "My mentor, Sturgy Ironband, had a compound south of Helm's Bed Lake in eastern Dun Morogh.  There he taught blacksmithing and he was the best.\n\nBut one day, one of his students brought him a load of strange ore.  Master Ironband called it umbral ore and was eager to work with it, but soon after it arrived... a band of Dark Iron dwarves attacked his compound.  They killed everyone!\n\nEnter Ironband's compound, <Name>, and avenge my master's death.  And bring me the load of umbral ore that caused it."
+      },
+      "progress": {
+        "primary": "Have you entered Ironband's Compound?  Did you find the umbral ore?",
+        "secondary": "Have you entered Ironband's Compound? Did you find the umbral ore?"
+      },
+      "complete": {
+        "primary": "You found it! Well done!\n\nI hope you killed a host of Dark Iron dwarves while searching.  I fear that Ironband's compound won't be the last place we see them.\n\nBut thank you for the ore, <name>.  I'm eager to work it and find its properties.",
+        "secondary": "You found it! Well done!\n\nI hope you killed a host of Dark Iron dwarves while searching. I fear that Ironband's compound won't be the last place we see them.\n\nBut thank you for the ore, <name>. I'm eager to work it and find its properties."
+      }
+    },
+    "noUnusedFlag": true
+  },
+  "1779": {
+    "ownIDGQuests": [
+      {
+        "offset": 40078,
+        "record": {
+          "category": -141,
+          "category2": 4,
+          "classs": 2,
+          "id": 1779,
+          "level": 13,
+          "name": "The Tome of Divinity",
+          "race": 4,
+          "reqclass": 2,
+          "reqlevel": 12,
+          "reqrace": 4,
+          "side": 1,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "kind": 5,
+        "locale": 16,
+        "offset": 39947,
+        "record": {
+          "name_enus": "The Tome of Divinity",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 4
+        }
+      }
+    ],
+    "fields": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "I want you to take this, &lt;name&gt;. It is called the <a href=\"/forever/item=6866/symbol-of-life\">Symbol of Life</a>.<br /><br />You've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.<br /><br />My husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.<br /><br />Take the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you.",
+        "clean": "I want you to take this, <name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.\n\nMy husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "*cough*<br /><br />Good day to ya, &lt;class&gt;. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that <a href=\"/forever/item=6866/symbol-of-life\">Symbol of Life</a> ya got there quite yet.<br /><br />So, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya--I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a &lt;class&gt; jus' like yerself.",
+        "clean": "*cough*\n\nGood day to ya, <class>. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that Symbol of Life ya got there quite yet.\n\nSo, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya--I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a <class> jus' like yerself."
+      },
+      "title": {
+        "raw": "The Tome of Divinity",
+        "clean": "The Tome of Divinity"
+      },
+      "objective": {
+        "raw": "Take the <a href=\"/forever/item=6866/symbol-of-life\">Symbol of Life</a> and speak to <a href=\"/forever/npc=6178/muiredon-battleforge\">Muiredon Battleforge</a> in Ironforge.",
+        "clean": "Take the Symbol of Life and speak to Muiredon Battleforge in Ironforge."
+      }
+    },
+    "objectiveTables": [
+      {
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6866/symbol-of-life\" class=\"q1\">Symbol of Life</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "clean": "Symbol of Life (1)",
+        "offset": 41836
+      }
+    ],
+    "infobox": [
+      "[ul][li]Level: 13[/li][li]Requires level 12[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=6179/tiza-battleforge]Tiza Battleforge[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6178/muiredon-battleforge]Muiredon Battleforge[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]12[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+    ],
+    "secondaryDifferences": {
+      "detail": {
+        "primary": "I want you to take this, <name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.\n\nMy husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you.",
+        "secondary": "I want you to take this, <Name>. It is called the Symbol of Life.\n\nYou've proven charitable and patient, and now I want you to prove just how adept you've become in both combat, and power.\n\nMy husband Muiredon returned recently from an encounter with some Dark Iron dwarves, and he barely escaped with his life--he's over there having his wounds healed by one of our priests.\n\nTake the Symbol and speak to him. If you can help him, then we will speak again soon. May the Light shine upon you."
+      },
+      "complete": {
+        "primary": "*cough*\n\nGood day to ya, <class>. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that Symbol of Life ya got there quite yet.\n\nSo, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya--I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a <class> jus' like yerself.",
+        "secondary": "*cough*\n\nGood day to ya, <class>. Don't mind me wounds, the good priest 'ere'll take care of ol' Muiredon in time. Not needin' the power of that Symbol of Life ya got there quite yet.\n\nSo, me wife sent ya o'er to speak to me, huh? Fair 'nough. I'll take the time to talk to ya-I'll tell ya exactly wut happened to Muiredon and his best friend Narm, a <class> jus' like yerself."
+      }
+    },
+    "noUnusedFlag": true
+  },
+  "1783": {
+    "ownIDGQuests": [
+      {
+        "offset": 44248,
+        "record": {
+          "category": -141,
+          "category2": 4,
+          "classs": 2,
+          "id": 1783,
+          "level": 13,
+          "name": "The Tome of Divinity",
+          "race": 4,
+          "reqclass": 2,
+          "reqlevel": 12,
+          "reqrace": 4,
+          "side": 1,
+          "xp": 680,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "kind": 5,
+        "locale": 16,
+        "offset": 44117,
+        "record": {
+          "name_enus": "The Tome of Divinity",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 4
+        }
+      }
+    ],
+    "fields": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.<br /><br />Narm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.<br /><br />Narm needs help, an' I'll not rest till he gets it.<br /><br />C'n ya help, &lt;name&gt;?",
+        "clean": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.\n\nNarm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.\n\nNarm needs help, an' I'll not rest till he gets it.\n\nC'n ya help, <name>?"
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "I can't thank you enough, brother.<br /><br />I can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.<br /><br />It's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later.",
+        "clean": "I can't thank you enough, brother.\n\nI can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.\n\nIt's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later."
+      },
+      "title": {
+        "raw": "The Tome of Divinity",
+        "clean": "The Tome of Divinity"
+      },
+      "objective": {
+        "raw": "Take the Symbol of Life and resurrect <a href=\"/forever/npc=6177/narm-faulk\">Narm Faulk</a> in Dun Morogh.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Take the Symbol of Life and resurrect Narm Faulk in Dun Morogh."
+      }
+    },
+    "objectiveTables": [],
+    "infobox": [
+      "[ul][li]Level: 13[/li][li]Requires level 12[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=6178/muiredon-battleforge]Muiredon Battleforge[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6177/narm-faulk]Narm Faulk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]12[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+      "[quest=1789 icon=false][br]"
+    ],
+    "secondaryDifferences": {
+      "detail": {
+        "primary": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.\n\nNarm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.\n\nNarm needs help, an' I'll not rest till he gets it.\n\nC'n ya help, <name>?",
+        "secondary": "We was spyin' on some of the Dark Iron dwarves that've bunkered down south of Helm's Bed Lake. We knew they was up to no good, so Narm an' me thought we'd take a closer look--got ta see their leader given orders to some o' his men.\n\nNarm an' me took the chance to kill a few of 'em, but they proved tougher than we thought, an' more of 'em got the jump on us. Narm tol' me to run an' get support, so 'ere I am.\n\nNarm needs help, an' I'll not rest till he gets it.\n\nC'n ya help, <Name>?"
+      },
+      "complete": {
+        "primary": "I can't thank you enough, brother.\n\nI can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.\n\nIt's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later.",
+        "secondary": "I can't thank you enough, brother/sister.\n\nI can only assume that Tiza and Muiredon sent you here to aid me if you carry the Symbol of Life.\n\nIt's true, I fell to the Dark Iron while trying to attain one of the scripts: I was able to hold on long enough to allow Muiredon to escape, but the Light had almost embraced me fully when you came along. The fact that you were powerful enough to use the Symbol means great things for you, but there's time to speak of that later."
+      }
+    },
+    "noUnusedFlag": true
+  },
+  "1784": {
+    "ownIDGQuests": [
+      {
+        "offset": 39891,
+        "record": {
+          "category": -141,
+          "category2": 4,
+          "classs": 2,
+          "id": 1784,
+          "level": 13,
+          "name": "The Tome of Divinity",
+          "race": 4,
+          "reqclass": 2,
+          "reqlevel": 12,
+          "reqrace": 4,
+          "side": 1,
+          "xp": 680,
+          "envChange": {
+            "status": "unchanged",
+            "labels": [],
+            "lines": []
+          }
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "kind": 5,
+        "locale": 16,
+        "offset": 39760,
+        "record": {
+          "name_enus": "The Tome of Divinity",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 4
+        }
+      }
+    ],
+    "fields": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.<br /><br />Some of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.<br /><br />Get one of those scripts and take it back to Muiredon, &lt;name&gt;.",
+        "clean": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.\n\nSome of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.\n\nGet one of those scripts and take it back to Muiredon, <name>."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Yer back! I'm glad to see it, &lt;name&gt;. My wounds are healed and I'm about ready to return to Helm's Bed lake as soon as I c'n convince me wife that I'll be fine.",
+        "clean": "Yer back! I'm glad to see it, <name>. My wounds are healed and I'm about ready to return to Helm's Bed lake as soon as I c'n convince me wife that I'll be fine."
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Haha! You've done it! Ya saved Narm, and ya found the proof me wife needs to take to the council. Yer a blessin' o' the Light if I ever saw one... not includin' me wife o' course.<br /><br />Thank ya again, &lt;name&gt;.",
+        "clean": "Haha! You've done it! Ya saved Narm, and ya found the proof me wife needs to take to the council. Yer a blessin' o' the Light if I ever saw one... not includin' me wife o' course.\n\nThank ya again, <name>."
+      },
+      "title": {
+        "raw": "The Tome of Divinity",
+        "clean": "The Tome of Divinity"
+      },
+      "objective": {
+        "raw": "Retrieve a <a href=\"/forever/item=6847/dark-iron-script\">Dark Iron Script</a> from the Dark Iron dwarves near Helm's Bed, and return to <a href=\"/forever/npc=6178/muiredon-battleforge\">Muiredon Battleforge</a> in Ironforge.",
+        "clean": "Retrieve a Dark Iron Script from the Dark Iron dwarves near Helm's Bed, and return to Muiredon Battleforge in Ironforge."
+      }
+    },
+    "objectiveTables": [
+      {
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6847/dark-iron-script\" class=\"q1\">Dark Iron Script</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "clean": "Dark Iron Script (1)",
+        "offset": 41957
+      }
+    ],
+    "infobox": [
+      "[ul][li]Level: 13[/li][li]Requires level 12[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=6177/narm-faulk]Narm Faulk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6178/muiredon-battleforge]Muiredon Battleforge[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]12[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+    ],
+    "secondaryDifferences": {
+      "detail": {
+        "primary": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.\n\nSome of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.\n\nGet one of those scripts and take it back to Muiredon, <name>.",
+        "secondary": "Before I fell in battle, Muiredon and I had almost defeated one of the Dark Iron spies near that small house. We witnessed their captain passing orders to them, and sought to kill him and take the orders.\n\nSome of the council in Ironforge do not yet believe the presence of Dark Iron dwarves exists in Dun Morogh. By attaining one of those scripts, we'll not only have proof of their movements, but possibly an idea of what they're planning.\n\nGet one of those scripts and take it back to Muiredon, <Name>."
+      }
+    },
+    "noUnusedFlag": true
+  }
+}

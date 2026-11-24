@@ -1,0 +1,112 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "class_routes",
+      "id": 1508,
+      "field": "detail",
+      "englishSHA256": "8aa881e92c2c1e4e527fda48de4a224555b41291bc1868912ac6dc910d50bfa4",
+      "priorMyanmarSHA256": "545b69f784eca0180795c4ba68633f6b81e7c9daf5eb753c154f017123010eb3",
+      "correctedMyanmarSHA256": "3dca986683f95c120b25d32df150a78824e7282af2300b5af727c253e6028d0a",
+      "reason": "The source wind rider tower names the Wind Rider landmark/type, while လေကြောင်းစီးသမားတွေရဲ့ makes it a tower belonging to human air riders. Retain the recognizable maintained Wind Rider identity with its phonetic, leaving tower as an ordinary noun. West-of-tower direction, Zankaja, guide conditional and all surrounding text stay intact."
+    },
+    {
+      "partition": "class_routes",
+      "id": 78091,
+      "field": "detail",
+      "englishSHA256": "19302a910fbd56b1bc670de126301e8af0660994bff4e5e4d118c1f73f4fce99",
+      "priorMyanmarSHA256": "713487d4253acacc3ccdabf349dd7181d248a9962637e0e3198331b051084abd",
+      "correctedMyanmarSHA256": "b2c1c0a16bbb6407412ecf131fa862412ca183866907ddcc4bef63af3a566e69",
+      "reason": "The source identifies the Blackrock clan as the warlocks' named collective. Existing Myanmar preserves Blackrock and translates clan accurately, but splits the full identifying faction phrase. STYLE-GUIDE requires the whole identifying phrase and combined pronunciation; retain maintained Blackrock Clan. Salt purpose, orc source, Redridge and task sequence are unchanged."
+    },
+    {
+      "partition": "dungeon_routes",
+      "id": 2962,
+      "field": "detail",
+      "englishSHA256": "98febd5e51b4f8c8459487adb4f9aeea99b9e646980a4ce3215094824188b406",
+      "priorMyanmarSHA256": "c45b9e1ae68688db66390308b07328b8b6c0a68503a4ca8bdf54ba63d6993317",
+      "correctedMyanmarSHA256": "69424145feb91f55daf01ca57b7caf4df2aedb9183f505fba33a5f30ebdf604a",
+      "reason": "The source identifies the fallout-bearing creature types as irradiated slimes, lurkers and horrors. Rendering these only as generic slime creatures, hiding creatures and frightening creatures removes the English targets a player must recognize. Retain the exact source references with assisted pronunciation proposals; do not expand them into unsupported NPC IDs or silently add irradiated to the later source words. Instability, origin, purity and repeated-attempt conditions remain unchanged."
+    },
+    {
+      "partition": "dungeon_routes",
+      "id": 2931,
+      "field": "detail",
+      "englishSHA256": "a44c4b0fe9c06da1bef511c580f3eeca3029ce9f2a9ed7a3d0cc51dd5097965c",
+      "priorMyanmarSHA256": "c12e61d3766a127b68c09622c643320a316c37c4840b7bf2fc0fa43628949944",
+      "correctedMyanmarSHA256": "15dd67d6c218af7d4e36fef6bb57366808086d811430a569627a23cf964011d0",
+      "reason": "The capitalized named organization is replaced entirely by a descriptive Myanmar translation. STYLE-GUIDE.md Recognizable identities rules 1-3 retain the English faction/lore identity and whole-name pronunciation; the exact complete English name and canonical pronunciation already exist in the 4,646-term maintained map. Restore that full identity; all other reviewed wording stays unchanged."
+    },
+    {
+      "partition": "dungeon_routes",
+      "id": 2842,
+      "field": "detail",
+      "englishSHA256": "0f16691e44f64301f2b0150d4e3ed80979c714b90ea4cc431ecb51cc0e75a41b",
+      "priorMyanmarSHA256": "08a0b0a7ab5b9e4b6b41d7975166240fb2c09d07c4d56a6367f436ccfbe5888f",
+      "correctedMyanmarSHA256": "69ba70c771d8faf78f6972ae92464532de04d8d1aca0f2fd85d9b65f0a7e4ff4",
+      "reason": "The source locates Scooty at the wind rider roost. The draft calls these wind-rider vehicles, adding a vehicle classification absent from the source, and drops the recognizable Wind Rider English identity. Use maintained Wind Rider pronunciation and the neutral roost/resting-place wording; retain Ratchet-to-Booty-Bay boat direction and all other text."
+    },
+    {
+      "partition": "dungeon_routes",
+      "id": 2904,
+      "field": "detail",
+      "englishSHA256": "071ff4edf74810000d550dd4a3f29d51ca0dafe92a603534728b3994f2945b74",
+      "priorMyanmarSHA256": "5cc6143b1181bd2a2852083061720b19ada07e214f1da1784aac53d6b3b9f40b",
+      "correctedMyanmarSHA256": "633636ab9338209a18250c4090858a47180f22f86577bfebdaf9605d16be7a1c",
+      "reason": "The named Dark Iron clan is only transliterated/translated, losing its recognizable English identity. Restore Dark Iron dwarves using the exact maintained spelling, then the shortened clan reference Dark Iron. The near-death capture and split player/Kernobee routes remain unchanged. STYLE-GUIDE.md rules 1-5 cover whole creature/faction identities and shortened reuse. Additional source-supported reconciliation: The previous proposal followed the lowercase historical maintained key mechanically. The maintained map contains a conflicting capitalized key for the same casefold identity. Cambridge gives dwarves as /dwɔːvz/ in UK and US pronunciation, explicitly ending /v/ then /z/. That supports the existing capitalized maintained spelling ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ် over the lowercase spelling with ဖ်စ်. Reconcile only this newly enabled annotation by choosing the existing capitalized key; no older translation or historical root-map entry is changed. English identity, all task wording and the short Dark Iron exception remain intact. This is source-supported assisted phonetic reconciliation, not native certification."
+    },
+    {
+      "partition": "dungeon_routes",
+      "id": 377,
+      "field": "detail",
+      "englishSHA256": "a062b2d07a24e2464316b4b1ec8b54c203dec27da4d7fe7adafddc237f21b220",
+      "priorMyanmarSHA256": "35f15654e045656c5436085bd1ccd97661278ecefdc99bf01f859727e6674d21",
+      "correctedMyanmarSHA256": "5af4fd0b00284171f4ca435250873aebf9977cb7ddeb92b585324880f97d5786",
+      "reason": "Darkshire Council is a complete capitalized organization identity in the source. Keeping Darkshire alone and translating Council separates that name and omits its whole English identity. Restore the combined name with one pronunciation, derived consistently from maintained Darkshire and Council; the political narrative remains unchanged. STYLE-GUIDE.md rules 1-3 apply."
+    },
+    {
+      "partition": "horde_regions",
+      "id": 1153,
+      "field": "detail",
+      "englishSHA256": "99518d243f77821755a1e65eaff569f2b7332eda1e5e40c3ba34a5e79541ac61",
+      "priorMyanmarSHA256": "5cb7410c601c42bd09b01804afecf1386da1f7f6bc6288c4d2f41261d8472e9c",
+      "correctedMyanmarSHA256": "f99a0defc743ca1df004d35b42ec57876a40f27adb8899d41a6ecc64c3f253fe",
+      "reason": "STYLE-GUIDE recognizable ranks and important lore terms: the warchief here is the specific Horde leadership office, not an ordinary generic military commander. Preserve canonical Warchief with maintained ဝေါချိဖ် pronunciation at first occurrence in each displayed field; subsequent same-field occurrence retains Warchief alone. No meaning/action/marker changed."
+    },
+    {
+      "partition": "horde_regions",
+      "id": 1153,
+      "field": "progress",
+      "englishSHA256": "2d769f723f19848bdb6741731bdc6bc03797f2535efba1d0ed2df1b005d99085",
+      "priorMyanmarSHA256": "d8b2ead501ab7b8d1d7a9353a7b1a2cbe719054ccb3437636f3dc1a05da43de5",
+      "correctedMyanmarSHA256": "965d610ccc4ae0f86d69186714592762f82b2e7a08e609024d8073b96ab326b8",
+      "reason": "STYLE-GUIDE recognizable ranks and important lore terms: the warchief here is the specific Horde leadership office, not an ordinary generic military commander. Preserve canonical Warchief with maintained ဝေါချိဖ် pronunciation at first occurrence in each displayed field; subsequent same-field occurrence retains Warchief alone. No meaning/action/marker changed."
+    },
+    {
+      "partition": "horde_regions",
+      "id": 1153,
+      "field": "complete",
+      "englishSHA256": "c43453e48917897c4a879e9e468bdc158e78a5896cf1c30eb07c7d1c6eb56850",
+      "priorMyanmarSHA256": "84eabf4ec3cad59f88adfb900dfced4cd056016b8a31557abe2e6c35e2196cde",
+      "correctedMyanmarSHA256": "95a7e5ff101b682a29700a513af058c45b11fe5ca0760690f0c43c5f15d949be",
+      "reason": "STYLE-GUIDE recognizable ranks and important lore terms: the warchief here is the specific Horde leadership office, not an ordinary generic military commander. Preserve canonical Warchief with maintained ဝေါချိဖ် pronunciation at first occurrence in each displayed field; subsequent same-field occurrence retains Warchief alone. No meaning/action/marker changed."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Wind Rider": "ဝင်းဒ် ရိုက်ဒါ",
+    "Blackrock Clan": "ဘလက်ခ်ရော့ခ် ကလန်",
+    "Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences": "အင်လိုက်တန်ဒ် အဆမ်ဘလီ အော့ဗ် အာကနော်လဂျီ၊ အယ်လ်ကမီ အန်ဒ် အင်ဂျင်နီယာရင်း ဆိုင်းယန့်စ်စ်",
+    "Dark Iron": "ဒါ့ခ် အိုင်ယန်",
+    "Darkshire Council": "ဒါ့ခ်ရှိုင်းယား ကောင်စီလ်",
+    "irradiated slimes": "အီရေးဒီယေးတစ်ဒ် စလိုင်းမ်ဇ်",
+    "lurkers": "လာ့ကာဇ်",
+    "horrors": "ဟော်ရာဇ်",
+    "Warchief": "ဝေါချိဖ်",
+    "Dark Iron Dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ်"
+  },
+  "sourceEvidenceCorrectionCount": 0,
+  "sourceEvidenceCorrectionReceipt": "evidence/source-evidence-dispositions.json",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

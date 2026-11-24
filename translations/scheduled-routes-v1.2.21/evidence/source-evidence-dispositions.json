@@ -1,0 +1,23 @@
+{
+  "result": "PASS",
+  "questIDs": 50,
+  "exactOwnIDMetadata": "All50 exact g_quests[id] and Gatherer type5[id] records extracted, hashed and compared; no neighboring-record inference.",
+  "sourcePins": "upstream-reference.json",
+  "sourceCaveatEvidence": {
+    "class_routes": "evidence/class_routes/author-summary.json",
+    "dungeon_routes": "evidence/dungeon_routes/author-summary.json",
+    "horde_regions": "evidence/horde_regions/author-summary.json"
+  },
+  "deferredCandidate2358": {
+    "id": 2358,
+    "title": "Horns of Nez'ra",
+    "result": "deferred; not selected",
+    "primaryError": "HTTP403 from repository fetcher",
+    "secondaryError": "TLS handshake timeout",
+    "evidence": "early-source-recheck/fetched.json",
+    "reason": "No supported new primary source was obtained in this retry. Historical evidence retained; not permanently excluded."
+  },
+  "runtimeGenderHold2927": "Source <sir/ma'am> choice is unsupported by the current marker parser; exact spelling and genuine DeepL proposal retained in author provenance; offer field disabled with original fallback.",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

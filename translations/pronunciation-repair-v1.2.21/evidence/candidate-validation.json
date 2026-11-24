@@ -1,0 +1,68 @@
+{
+  "result": "PASS",
+  "candidateStatus": "frozen for root independent review; not installed or released",
+  "checkedAtUTC": "2026-11-24T07:21:13.624156+00:00",
+  "questRecordsBeforeAndAfter": 1886,
+  "newQuestRecords": 0,
+  "existingFieldSlots": 9430,
+  "changedExistingFields": 6,
+  "unchangedExistingSlots": 9424,
+  "rowsExactlyPreserved": true,
+  "existingEnabledFieldsBeforeAndAfter": 8605,
+  "repairedIDs": 4,
+  "repairedIDsAllSlotsReviewed": 20,
+  "currentPrimaryEnglishUnchangedSlots": 20,
+  "availableSourceFields": 18,
+  "enabledReviewedFields": 17,
+  "actualOriginalDeepLFieldsVerified": 18,
+  "historicalRootCorrectionHops": 3,
+  "newDeepLTranslations": 0,
+  "lintIssues": [],
+  "actualBuildReleaseValidateFields": "PASS: all20 slots including inherited hold; composer validates only six changed fields",
+  "actualBuildReleaseCompose": "PASS:31 historical packs plus candidate through I/O-only redirection; no composer logic changed",
+  "composeCandidateVirtualPath": "translations/__existing-pronunciation-repair-candidate__",
+  "candidatePhysicalDirectory": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-24\\existing-pronunciation-repair",
+  "allHistoricalHoldsPreserved": true,
+  "newHeldFields": 0,
+  "noAdditionalEnabledSourceErrorsFound": true,
+  "priorCatalogCanonicalSHA256": "4f6b96afe28e1874baa9512a5bce07d4113f94d6afe38413524c370978a586f0",
+  "candidateCatalogCanonicalSHA256": "3d48d8289a00524297c90b0980d8e9af45c865b47eb3d683c14496b5201637ef",
+  "unchangedSlotHashFileSHA256": "873eb6dcbef8f451c07736a630e72df2e650a66371d06d837721f31282bf846d",
+  "packSHA256": "f789eb08d45f5eaecc77264f35b9783cb6010ab6898bd59628527187ef1b57f3",
+  "reviewAuditSHA256": "4cc858ef228ec613315575076832ea3609b617c398683ffaf1d6cbfeacb7d133",
+  "englishSourcesSHA256": "20b05147bbc4797bb9797e539e6120d4fccabe7dd8df4d54a670864928f77600",
+  "comparisonProvenanceSHA256": "c4c22fbafb9a8a9e055ab1abde70eae07306b7206587fe713d1ded2c0556f9ab",
+  "beforeAfterSHA256": "921b15c80e18808ec7d2c871eb1f7cfcbd43c6bc66521559c3f2dfa8892cea7a",
+  "negativeControls": [
+    {
+      "name": "Actual composer rejects an incorrect prior field SHA256",
+      "result": "PASS: rejected",
+      "reason": "('1681', 'detail', 'Override requires the exact prior translation hash')"
+    },
+    {
+      "name": "Exact-scope guard rejects unrelated progress edit even with correct prior hash",
+      "result": "PASS: rejected",
+      "reason": "Scope violation: only the six authorized field replacements are permitted"
+    },
+    {
+      "name": "Exact-scope guard rejects extra wording within an authorized field",
+      "result": "PASS: rejected",
+      "reason": "Scope violation: altered text outside exact annotation replacement"
+    },
+    {
+      "name": "Actual validate_fields rejects changed placeholder with refreshed Myanmar hash",
+      "result": "PASS: rejected",
+      "reason": "('1681', 'detail', 'Changed placeholder')"
+    },
+    {
+      "name": "Actual validate_fields rejects stale English review",
+      "result": "PASS: rejected",
+      "reason": "('1681', 'detail', 'English review stale')"
+    }
+  ],
+  "independentAssistedReview": "pending root review",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending native review; Cambridge /dwɔːvz/ supports the v/z inference",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested"
+}

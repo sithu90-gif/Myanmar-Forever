@@ -1,0 +1,39 @@
+{
+  "partition": "dungeon_routes",
+  "questCount": 19,
+  "sourcedFields": 90,
+  "enabledFields": 89,
+  "heldFields": [
+    {
+      "id": 2927,
+      "field": "detail",
+      "reason": "Current primary contains literal <sir/ma'am> gender-choice marker; current QuestBridge/TermIntroductions supports name/class/race/priest-priestess only and excludes apostrophe. Hold complete offer until supported runtime branch or sanitized live evidence; actual DeepL proposal preserved. Root explicitly requested fallback under existing held-gender-branch policy."
+    }
+  ],
+  "unavailableSlots": 5,
+  "groups": [
+    10,
+    9
+  ],
+  "actualDeepLRequests": 4,
+  "actualDeepLInputCharacters": [
+    4218,
+    3504,
+    4077,
+    4225
+  ],
+  "authorReview": "Separate English/Myanmar source-aware reread after each connected group; allavailablefields includingheldproposal genuineDeepL-backed",
+  "independentAssistedReview": "pending fresh independent review",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested",
+  "importantSourceCaveats": {
+    "2927.detail": "unsupported <sir/ma'am> genderchoice; nullfallback held",
+    "2929/2843/2904.progress": "currentprimaryabsent; genuineexactIDcurrent60secondaryoverrides",
+    "2927/2841.complete": "secondary extraemotes absentcurrentprimary; primarywording/blankparagraphsretained",
+    "2904": "currentprimarymin20 vsfreshinstalledmin24; eligibilityunresolved, noclaimofliveactivation",
+    "387": "installed Quell The Uprising vs current Quell the Uprising capitalization alias",
+    "2928/2929/2841/2904/386/377": "exact-own-ID reward/XP changes only; preserved dialogue evidence"
+  }
+}

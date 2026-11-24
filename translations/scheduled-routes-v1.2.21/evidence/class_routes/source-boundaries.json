@@ -1,0 +1,2479 @@
+{
+  "1472": {
+    "sourceSHA256": "23bfc68794fb3df6dc6d3437329c31f698025cad054ce6dc4adcc1947a9d11fe",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 1472,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 30122
+      },
+      {
+        "type": 5,
+        "id": 1472,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 45197
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25783,
+        "text": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5675/carendin-halgar]Carendin Halgar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5693/godrick-farsan]Godrick Farsan[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 26874,
+        "text": "[quest=1508 icon=false][br][quest=1476 icon=false][br]"
+      },
+      {
+        "offset": 27390,
+        "text": "[quest=1507 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A sayaad is a devourer of souls, dominator of wills, tempter of hearts. A creature of profound evil and singular mind.<br /><br />Folk tales told by righteous and wicked alike use their common name: succubus for females, incubus for males.<br /><br />The demon must be lured into our world with a stimulus - the hearts of pure and loving mortals. The sayaad will be unable to resist. Then you can dominate it, and make it your own.<br /><br />Speak with my assistant, <a href=\"/forever/npc=5693/godrick-farsan\">Godrick Farsan</a>, within the temple. He will help you find your bait.",
+        "clean": "A sayaad is a devourer of souls, dominator of wills, tempter of hearts. A creature of profound evil and singular mind.\n\nFolk tales told by righteous and wicked alike use their common name: succubus for females, incubus for males.\n\nThe demon must be lured into our world with a stimulus - the hearts of pure and loving mortals. The sayaad will be unable to resist. Then you can dominate it, and make it your own.\n\nSpeak with my assistant, Godrick Farsan, within the temple. He will help you find your bait."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "You were sent by Carendin? &lt;name&gt;, then.<br /><br />Do not think light of me because my sight is gone. I see things that lie behind now, with clarity I had never known. What I once thought a curse, is now a boon.",
+        "clean": "You were sent by Carendin? <name>, then.\n\nDo not think light of me because my sight is gone. I see things that lie behind now, with clarity I had never known. What I once thought a curse, is now a boon."
+      },
+      "objective": {
+        "raw": "Speak with <a href=\"/forever/npc=5693/godrick-farsan\">Godrick Farsan</a> in the Temple of the Damned.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Speak with Godrick Farsan in the Temple of the Damned."
+      }
+    },
+    "objectiveTables": [],
+    "installedRecord": {
+      "2": [
+        [
+          5675
+        ]
+      ],
+      "3": [
+        [
+          5693
+        ]
+      ],
+      "8": [
+        "Speak with Godrick Farsan in the Temple of the Damned."
+      ],
+      "16": [
+        1507
+      ],
+      "S": {
+        "1": "Devourer of Souls",
+        "4": 20,
+        "5": -1,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1476,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пожирачка душ",
+        "detail": "Сайаади — це пожирачі душ, що пригнічують волю і вводять у спокусу. Це створіння, сповнені зла і витонченої хитрості.\n\nУ історіях, що розповідають як праведні, так і нечестиві, цих демонів називають сукубами, якщо йдеться про жіночу форму, та інкубами, якщо про чоловічу.\n\nПросто так в наш світ їх не викличеш, тому потрібно використовувати особливу приманку. Сайаад не зможе встояти перед серцями чистих та люблячих людей. Він з'явиться в нашому світі й тоді ти зможеш перемогти та підкорити його.\n\nЗвернись до мого помічника Ґодріка Фарсана в храмі. Він допоможе тобі знайти приманку.",
+        "objective": "Поговоріть з Ґодріком Фарсаном у храмі Проклятих.",
+        "progress": null,
+        "complete": "Тебе прислав Карендін? Тоді ти {ім'я}.\n\nНе думай про мене погано через те, що я втратив зір. Тепер я бачу речі, які раніше лежали поза моїм полем зору, з ясністю, якої ніколи не знав раніше. Те, що колись вважав прокляттям, тепер є благословенням для мене.",
+        "en": "Devourer of Souls",
+        "faction": "Both"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 45329,
+      "record": {
+        "category": -61,
+        "category2": 4,
+        "classs": 256,
+        "id": 1472,
+        "level": 20,
+        "name": "Devourer of Souls",
+        "race": 146,
+        "reqclass": 256,
+        "reqlevel": 20,
+        "reqrace": 146,
+        "side": 2,
+        "xp": 155,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed"
+          ],
+          "lines": [
+            "Level 20 instead of none"
+          ],
+          "notShown": []
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "9": {
+            "name_enus": "Warlock"
+          }
+        },
+        "offset": 24841
+      },
+      {
+        "type": 14,
+        "records": {
+          "2": {
+            "name_enus": "Orc"
+          },
+          "5": {
+            "name_enus": "Undead"
+          },
+          "8": {
+            "name_enus": "Troll"
+          }
+        },
+        "offset": 24901
+      },
+      {
+        "type": 1,
+        "records": {
+          "5693": {
+            "name_enus": "Godrick Farsan",
+            "model": 4020
+          }
+        },
+        "offset": 30040
+      }
+    ],
+    "linkedObjectiveItems": [],
+    "sourceReviewNotes": "Distinct Carendin to Godrick Farsan handoff in Temple of the Damned, not Cazul or Takar. Preserved sayaad soul and will domination, temptation, female succubus and male incubus, pure loving mortal hearts as lure, and Godrick blindness becoming a boon. Corrected raw literal testing of hearts and vague blindness idiom. Four offer paragraphs and two completion paragraphs; exact <name>; Progress absent.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "1476": {
+    "sourceSHA256": "6901c1290c30b5cc524ea69601c14267ec6591c30df2c20649d82a41b367de1b",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 1476,
+        "record": {
+          "name_enus": "Hearts of the Pure",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 33809
+      },
+      {
+        "type": 5,
+        "id": 1476,
+        "record": {
+          "name_enus": "Hearts of the Pure",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 113421
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25767,
+        "text": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5693/godrick-farsan]Godrick Farsan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5675/carendin-halgar]Carendin Halgar[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 27297,
+        "text": "[quest=1472 icon=false][br][quest=1507 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "Coaxing a succubus will require the hearts of the pure. But is any mortal without vice?<br /><br />Through bits of overheard stories, I found two humans that should do.<br /><br />The first is Dalin Forgewright, who has dedicated himself to the care of the Lordaeron refuges, whom are refused by their kin at the Greymane Wall.<br /><br />The other is Corma Villard, a woman who remains faithful to her lost love, wandering the Wetlands for a sign of her.<br /><br />Deliver their hearts to Carendin. But first, let me show you your quarry.",
+        "clean": "Coaxing a succubus will require the hearts of the pure. But is any mortal without vice?\n\nThrough bits of overheard stories, I found two humans that should do.\n\nThe first is Dalin Forgewright, who has dedicated himself to the care of the Lordaeron refuges, whom are refused by their kin at the Greymane Wall.\n\nThe other is Corma Villard, a woman who remains faithful to her lost love, wandering the Wetlands for a sign of her.\n\nDeliver their hearts to Carendin. But first, let me show you your quarry."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "I have been pleasantly surprised by the speed of your progress so far, &lt;name&gt;. Bring me the hearts and you will impress me once again.",
+        "clean": "I have been pleasantly surprised by the speed of your progress so far, <name>. Bring me the hearts and you will impress me once again."
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "The hearts of the pure seems much the same as any, when you see it like this, don't you think?<br /><br />Perhaps we possess something of a... different... view on the subject. These will do, though. I have no doubt that a succubus would be attracted by their purity.",
+        "clean": "The hearts of the pure seems much the same as any, when you see it like this, don't you think?\n\nPerhaps we possess something of a... different... view on the subject. These will do, though. I have no doubt that a succubus would be attracted by their purity."
+      },
+      "objective": {
+        "raw": "Bring the hearts of Dalin Forgewright and Corma Villard to <a href=\"/forever/npc=5675/carendin-halgar\">Carendin Halgar</a> in the Temple of the Damned.",
+        "clean": "Bring the hearts of Dalin Forgewright and Corma Villard to Carendin Halgar in the Temple of the Damned."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 115491,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6312/dalins-heart\" class=\"q1\">Dalin's Heart</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon2\"></th><td><a href=\"/forever/item=6313/cormas-heart\" class=\"q1\">Corma's Heart</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Dalin's Heart (1)\nCorma's Heart (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Dalin's Heart (1)"
+          },
+          {
+            "quantity": 1,
+            "text": "Corma's Heart (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5693
+        ]
+      ],
+      "3": [
+        [
+          5675
+        ]
+      ],
+      "8": [
+        "Bring the hearts of Dalin Forgewright and Comar Villard to Carendin Halgar in the Temple of the Damned."
+      ],
+      "10": {
+        "3": [
+          [
+            6312,
+            null,
+            0
+          ],
+          [
+            6313,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1472
+      ],
+      "16": [
+        1507
+      ],
+      "S": {
+        "1": "Hearts of the Pure",
+        "4": 20,
+        "5": -1,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1474,
+        "p": 37510
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Чисті серця",
+        "detail": "Щоб приманити суккуба, потрібні чисті серця. Та чи ще існують такі непорочні смертні?\n\nМені знадобилося багато часу на пошуки, але з кількох історій мені вдалося знайти двох людей, що підійдуть.\n\nПершим є Далін Файноков, який присвятив своє життя допомозі біженцям Лордерона, від яких відмовилися їхні родичі, біля стіни Сивогрива.\n\nІнша — Корма Віллард, жінка, яка залишається вірною своєму втраченому коханню і блукає по Заболоттю, шукаючи знаків від неї.\n\nПринеси їхні серця Карендіну. Але спочатку дозволь мені показати тобі твоїх жертв.",
+        "objective": "Принесіть серця Даліна Файнокова та Корми Віллард до Карендіна Галґара у храм Проклятих.",
+        "progress": "Я приємно здивований швидкістю твого прогресу, {ім'я}. Принеси мені серця і ти знову вразиш мене.",
+        "complete": "Здається, серце порядної людини схоже на будь-яке інше, чи не так?\n\nМожливо, ми маємо дещо... інші... погляди на цю тему. Ці підійдуть. Я не сумніваюся, що сукуб піддасться їхній чистоті.",
+        "en": "Hearts of the Pure",
+        "faction": "Horde"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 113554,
+      "record": {
+        "category": -61,
+        "category2": 4,
+        "classs": 256,
+        "id": 1476,
+        "level": 20,
+        "name": "Hearts of the Pure",
+        "race": 146,
+        "reqclass": 256,
+        "reqlevel": 20,
+        "reqrace": 146,
+        "side": 2,
+        "xp": 1550,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "objectives_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 20 instead of none",
+            "Objectives: adds Corma's Heart",
+            "Objectives: no longer Comar's Heart",
+            "Completion text reworded"
+          ],
+          "notShown": [
+            "Completion text reworded"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "9": {
+            "name_enus": "Warlock"
+          }
+        },
+        "offset": 24825
+      },
+      {
+        "type": 14,
+        "records": {
+          "2": {
+            "name_enus": "Orc"
+          },
+          "5": {
+            "name_enus": "Undead"
+          },
+          "8": {
+            "name_enus": "Troll"
+          }
+        },
+        "offset": 24885
+      },
+      {
+        "type": 1,
+        "records": {
+          "5693": {
+            "name_enus": "Godrick Farsan",
+            "model": 4020
+          }
+        },
+        "offset": 33420
+      },
+      {
+        "type": 3,
+        "records": {
+          "22243": {
+            "name_enus": "Small Soul Pouch",
+            "quality": 2,
+            "icon": "inv_misc_bag_09_black",
+            "screenshot": {},
+            "jsonequip": {
+              "classes": 256,
+              "itemSquishEraId": 0,
+              "sellprice": 250,
+              "slotbak": 18
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 64,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 33502
+      },
+      {
+        "type": 6,
+        "records": {
+          "11519": {
+            "name_enus": "Teach Summon Succubus",
+            "icon": "spell_shadow_summonsuccubus",
+            "screenshot": {},
+            "displayName": "",
+            "skillcategory": 0,
+            "rank_enus": "Summon",
+            "description_enus": ""
+          }
+        },
+        "offset": 35030
+      },
+      {
+        "type": 3,
+        "records": {
+          "6312": {
+            "name_enus": "Dalin's Heart",
+            "quality": 1,
+            "icon": "inv_misc_organ_01",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          },
+          "6313": {
+            "name_enus": "Corma's Heart",
+            "quality": 1,
+            "icon": "inv_misc_organ_01",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 114014
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 22243,
+        "label": "Small Soul Pouch",
+        "slug": "small-soul-pouch"
+      },
+      {
+        "id": 6312,
+        "label": "Dalin's Heart",
+        "slug": "dalins-heart"
+      },
+      {
+        "id": 6313,
+        "label": "Corma's Heart",
+        "slug": "cormas-heart"
+      }
+    ],
+    "sourceReviewNotes": "Dalin Forgewright and Corma Villard hearts go to Carendin Halgar at Temple of the Damned. Current English, secondary and UA identify Corma as a woman faithful to a lost female love. Current own-ID objective table has Dalin heart6312 x1 and Corma heart6313 x1, and own g_quests explicitly adds Corma and removes Comar. Installed objective Comar is historical. Preserved Lordaeron refugees rejected by kin at Greymane Wall, Wetlands, first show quarry then deliver, flattering progress and sinister completion. Corrected raw refugee camps, unnamed Greymane wall and succubus hunter mistranslation. Secondary completion is older goodly man; current pure hearts wording controls.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "1507": {
+    "sourceSHA256": "7eb9a83366ec05c6916680ae6e3415d27b07542323a5540300cf6ab0c05dc411",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 1507,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 30118
+      },
+      {
+        "type": 5,
+        "id": 1507,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 43883
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25714,
+        "text": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5875/ganrul-bloodeye]Gan'rul Bloodeye[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5909/cazul]Cazul[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 26788,
+        "text": "[quest=1508 icon=false][br][quest=1476 icon=false][br]"
+      },
+      {
+        "offset": 27304,
+        "text": "[quest=1472 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "The time has come for you to learn more of the summoning magics. You will learn to summon a sayaad, a creature of incredible mental powers. It can lull those of weak minds into its servitude--but have no fear! I feel certain that you will be equal to the challenge.<br /><br />A sayaad can only be summoned when baited with an item that represents great devotion and love. I leave it to you to find such an object.<br /><br />A suggestion? Speak with <a href=\"/forever/npc=5909/cazul\">Cazul</a>... There seems to be little the ancient warlock does not know.",
+        "clean": "The time has come for you to learn more of the summoning magics. You will learn to summon a sayaad, a creature of incredible mental powers. It can lull those of weak minds into its servitude--but have no fear! I feel certain that you will be equal to the challenge.\n\nA sayaad can only be summoned when baited with an item that represents great devotion and love. I leave it to you to find such an object.\n\nA suggestion? Speak with Cazul... There seems to be little the ancient warlock does not know."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Hm... &lt;name&gt;. You are still new to your path, but I sense the possibility for greatness in you.<br /><br />You were born with gifts, &lt;name&gt;. See that they do not go to waste.",
+        "clean": "Hm... <name>. You are still new to your path, but I sense the possibility for greatness in you.\n\nYou were born with gifts, <name>. See that they do not go to waste."
+      },
+      "objective": {
+        "raw": "Speak with <a href=\"/forever/npc=5909/cazul\">Cazul</a> in the Cleft of Shadow.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Speak with Cazul in the Cleft of Shadow."
+      }
+    },
+    "objectiveTables": [],
+    "installedRecord": {
+      "2": [
+        [
+          5875
+        ]
+      ],
+      "3": [
+        [
+          5909
+        ]
+      ],
+      "8": [
+        "Speak with Cazul in the Cleft of Shadow."
+      ],
+      "16": [
+        1472
+      ],
+      "S": {
+        "1": "Devourer of Souls",
+        "4": 20,
+        "5": -1,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1508,
+        "23": 8,
+        "p": 32902
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пожирачка душ",
+        "detail": "Настала пора дізнатися більше про магію виклику. Ти будеш вчитися викликати сайаада — створіння з неймовірними ментальними здібностями, що може підкорювати волю слабких духом створінь — але не бійся! Я впевнений, що ти впораєшся з цим викликом.\n\nСайаад може бути викликаний лише за умови, що його спокусить предмет, що відображає велику любов та відданість. Я залишаю пошуки такого предмета на тебе.\n\nХочеш пораду? Поговори з Казулом... Цьому древньому чорнокнижнику багато що відомо.",
+        "objective": "Поговоріть з Казулом в Розколині Тіні.",
+        "progress": null,
+        "complete": "Гм... {ім'я}. Ти все ще новачок на своєму шляху, але я відчуваю в тобі потенціал для величі.\n\nТи {стать:народився:народилася} з даром, {ім'я}. Дивись, не згай його.",
+        "en": "Devourer of Souls",
+        "faction": "Both"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 44015,
+      "record": {
+        "category": -61,
+        "category2": 4,
+        "classs": 256,
+        "id": 1507,
+        "level": 20,
+        "name": "Devourer of Souls",
+        "race": 146,
+        "reqclass": 256,
+        "reqlevel": 20,
+        "reqrace": 146,
+        "side": 2,
+        "xp": 155,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed"
+          ],
+          "lines": [
+            "Level 20 instead of none"
+          ],
+          "notShown": []
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "9": {
+            "name_enus": "Warlock"
+          }
+        },
+        "offset": 24772
+      },
+      {
+        "type": 14,
+        "records": {
+          "2": {
+            "name_enus": "Orc"
+          },
+          "5": {
+            "name_enus": "Undead"
+          },
+          "8": {
+            "name_enus": "Troll"
+          }
+        },
+        "offset": 24832
+      }
+    ],
+    "linkedObjectiveItems": [],
+    "sourceReviewNotes": "Distinct Ganrul to Cazul handoff in Cleft of Shadow. Preserved great devotion and love represented by an object as prerequisite to summon sayaad, weak minds lulled into servitude, reassuring voice and potential gifts. Corrected raw summoning love to summoning magic and servant office to servitude. Three offer paragraphs and two completion paragraphs; two completion <name> tokens; Progress absent.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "1508": {
+    "sourceSHA256": "924fc84f040b88f06b664bd4bb824fec06c5dc497ee65ec00e58e8652c8908c3",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 1508,
+        "record": {
+          "name_enus": "Blind Cazul",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 30147
+      },
+      {
+        "type": 5,
+        "id": 1508,
+        "record": {
+          "name_enus": "Blind Cazul",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 256,
+          "reqrace": 146
+        },
+        "offset": 43775
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25476,
+        "text": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5909/cazul]Cazul[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5910/zankaja]Zankaja[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 27484,
+        "text": "[quest=1472 icon=false][br][quest=1507 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "If Gan'rul has sent you to me, it must be that you are to summon a succubus, a female of the sayaad race, and need an object to use for enticement.\n\nHmm... If you trust a blind man to lead you, &lt;name&gt;, then listen. In the bluffs of Orgrimmar, west of the wind rider tower, lives <a href=\"/forever/npc=5910/zankaja\">Zankaja</a>. She waits for the return of her mate.\n\nGo to her.",
+        "clean": "If Gan'rul has sent you to me, it must be that you are to summon a succubus, a female of the sayaad race, and need an object to use for enticement.\n\nHmm... If you trust a blind man to lead you, <name>, then listen. In the bluffs of Orgrimmar, west of the wind rider tower, lives Zankaja. She waits for the return of her mate.\n\nGo to her."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Have you come with news of Dogran? He was to have returned days ago, and I have heard nothing...",
+        "clean": "Have you come with news of Dogran? He was to have returned days ago, and I have heard nothing..."
+      },
+      "objective": {
+        "raw": "Speak with <a href=\"/forever/npc=5910/zankaja\">Zankaja</a> in Orgrimmar.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Speak with Zankaja in Orgrimmar."
+      }
+    },
+    "objectiveTables": [],
+    "installedRecord": {
+      "2": [
+        [
+          5909
+        ]
+      ],
+      "3": [
+        [
+          5910
+        ]
+      ],
+      "8": [
+        "Speak with Zankaja in Orgrimmar."
+      ],
+      "13": [
+        1507
+      ],
+      "16": [
+        1472
+      ],
+      "S": {
+        "1": "Blind Cazul",
+        "4": 20,
+        "5": -1,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1509,
+        "23": 8,
+        "p": 36998
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Сліпий Казул",
+        "detail": "Якщо Ґан'рул відправив тебе до мене, то, мабуть, тому, що ти маєш викликати сайаада і тобі потрібна приманка. Гмм... Якщо ти довіряєш сліпому поводиреві, {ім'я}, то слухай. У скелях Орґріммару, західніше від вежі приборкувачів виверн, живе Занкая. Вона чекає на повернення свого партнера. Йди до неї.",
+        "objective": "Поговоріть з Занкаєю в Орґріммарі.",
+        "progress": null,
+        "complete": "Ти {стать:прийшов:прийшла} з новиною про Доґрана? Він мав повернутися кілька днів тому, але я досі нічого не чула про нього...",
+        "en": "Blind Cazul",
+        "faction": "Both"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 43901,
+      "record": {
+        "category": -61,
+        "category2": 4,
+        "classs": 256,
+        "id": 1508,
+        "level": 20,
+        "name": "Blind Cazul",
+        "race": 146,
+        "reqclass": 256,
+        "reqlevel": 20,
+        "reqrace": 146,
+        "side": 2,
+        "xp": 390,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed"
+          ],
+          "lines": [
+            "Level 20 instead of none"
+          ],
+          "notShown": []
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "9": {
+            "name_enus": "Warlock"
+          }
+        },
+        "offset": 24534
+      },
+      {
+        "type": 14,
+        "records": {
+          "2": {
+            "name_enus": "Orc"
+          },
+          "5": {
+            "name_enus": "Undead"
+          },
+          "8": {
+            "name_enus": "Troll"
+          }
+        },
+        "offset": 24594
+      }
+    ],
+    "linkedObjectiveItems": [],
+    "sourceReviewNotes": "Cazul sends player to Zankaja in Orgrimmar bluffs west of wind rider tower. Preserved female sayaad succubus, blind guide conditional, waiting mate, and Dogran overdue by days with no news. Corrected raw title unrelated case to Blind Cazul and final feminine destination. Three offer paragraphs; <name>; Progress absent. Secondary timed out twice; current primary, installed quest ID endpoints and UA support available fields; no missing English state invented.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "1716": {
+    "sourceSHA256": "5fc8246ea762207e5b0526dd610841260ea653427ae1715664ad66c91ce13765",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 1716,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 256,
+          "reqrace": 65
+        },
+        "offset": 33895
+      },
+      {
+        "type": 5,
+        "id": 1716,
+        "record": {
+          "name_enus": "Devourer of Souls",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 256,
+          "reqrace": 65
+        },
+        "offset": 143671
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25488,
+        "text": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=7][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=6122/gakin-the-darkbinder]Gakin the Darkbinder[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6244/takar-the-seer]Takar the Seer[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]"
+      },
+      {
+        "offset": 27017,
+        "text": "[quest=1738 icon=false][br]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "A sayaad is a devourer of souls, dominator of wills, and tempter of hearts. It knows nothing but evil.\n\nSalacious tales refer to the demon by its common name: succubus for females, incubus for males.\n\nA stimulus is required to beckon the creature. With a symbol of love as bait, it will surely answer your call. Defeat it, and make it your tool.\n\nIt will be hard to find a thing of this nature, though. You should speak with <a href=\"/forever/npc=6244/takar-the-seer\">Takar the Seer</a>. You will find him in the Barrens of Kalimdor near Camp Taurajo.",
+        "clean": "A sayaad is a devourer of souls, dominator of wills, and tempter of hearts. It knows nothing but evil.\n\nSalacious tales refer to the demon by its common name: succubus for females, incubus for males.\n\nA stimulus is required to beckon the creature. With a symbol of love as bait, it will surely answer your call. Defeat it, and make it your tool.\n\nIt will be hard to find a thing of this nature, though. You should speak with Takar the Seer. You will find him in the Barrens of Kalimdor near Camp Taurajo."
+      },
+      "progress": {
+        "layout": "absent",
+        "raw": null,
+        "clean": null
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Was your crossing difficult, &lt;name&gt;? You have come a long way to speak with me. But fear not, I know why Gakin has sent you, and he was wise to, for I can help you in your search.",
+        "clean": "Was your crossing difficult, <name>? You have come a long way to speak with me. But fear not, I know why Gakin has sent you, and he was wise to, for I can help you in your search."
+      },
+      "objective": {
+        "raw": "Speak with <a href=\"/forever/npc=6244/takar-the-seer\">Takar the Seer</a> in the Barrens.<div id=\"lksjdowlha\"></div>\n<div id=\"fweiuasf\"></div>\n<div style=\"clear: left\"></div>\n\n\n",
+        "clean": "Speak with Takar the Seer in the Barrens."
+      }
+    },
+    "objectiveTables": [],
+    "installedRecord": {
+      "2": [
+        [
+          6122
+        ]
+      ],
+      "3": [
+        [
+          6244
+        ]
+      ],
+      "8": [
+        "Speak with Takar the Seer in the Barrens."
+      ],
+      "S": {
+        "1": "Devourer of Souls",
+        "4": 20,
+        "5": -1,
+        "6": 4294967373,
+        "7": 256,
+        "17": -61,
+        "22": 1738,
+        "23": 8,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Пожирачка душ",
+        "detail": "Сайаади — це пожирачі душ, що пригнічують волю і вводять у спокусу. Породження чистого зла. Цих демонів також називають суккубами, якщо йдеться про жінок, та інкубами, якщо це чоловіки. Щоб викликати та підкорити такого демона, тобі знадобиться приманка — символ кохання. Однак, буде важко знайти щось подібне. Тобі слід поговорити з Такаром Провидцем. Ти знайдеш його в Степах, біля табору Таурахо.",
+        "objective": "Поговоріть з Такаром Провидцем у Степах.",
+        "progress": null,
+        "complete": "Як твоя подорож, {ім'я}? Ти {стать:подолав:подолала} довгий шлях, щоб поговорити зі мною. Але не хвилюйся, я знаю, чому тебе послав Ґакін, і це було мудро з його боку, бо я можу допомогти тобі у твоїх пошуках.",
+        "en": "Devourer of Souls",
+        "faction": "Both"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 143802,
+      "record": {
+        "category": -61,
+        "category2": 4,
+        "classs": 256,
+        "id": 1716,
+        "level": 20,
+        "name": "Devourer of Souls",
+        "race": 65,
+        "reqclass": 256,
+        "reqlevel": 20,
+        "reqrace": 65,
+        "side": 1,
+        "xp": 780,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed"
+          ],
+          "lines": [
+            "Level 20 instead of none"
+          ],
+          "notShown": []
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "9": {
+            "name_enus": "Warlock"
+          }
+        },
+        "offset": 24571
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "7": {
+            "name_enus": "Gnome"
+          }
+        },
+        "offset": 24631
+      },
+      {
+        "type": 1,
+        "records": {
+          "6244": {
+            "name_enus": "Takar the Seer",
+            "model": 4928
+          }
+        },
+        "offset": 32936
+      },
+      {
+        "type": 2,
+        "records": {
+          "93192": {
+            "name_enus": "Heartswood",
+            "displayName": ""
+          }
+        },
+        "offset": 33018
+      },
+      {
+        "type": 3,
+        "records": {
+          "6912": {
+            "name_enus": "Heartswood",
+            "quality": 1,
+            "icon": "spell_nature_naturetouchgrow",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          },
+          "190309": {
+            "name_enus": "Wooden Figurine",
+            "quality": 1,
+            "icon": "inv_qirajidol_life",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          },
+          "22243": {
+            "name_enus": "Small Soul Pouch",
+            "quality": 2,
+            "icon": "inv_misc_bag_09_black",
+            "screenshot": {},
+            "jsonequip": {
+              "classes": 256,
+              "itemSquishEraId": 0,
+              "sellprice": 250,
+              "slotbak": 18
+            },
+            "attainable": 0,
+            "flags2": 24580,
+            "flags5": 64,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 33101
+      },
+      {
+        "type": 6,
+        "records": {
+          "712": {
+            "name_enus": "Summon Succubus",
+            "icon": "spell_shadow_summonsuccubus",
+            "screenshot": {},
+            "displayName": "",
+            "skillcategory": 7,
+            "rank_enus": "Summon",
+            "description_enus": "Summons a Succubus under the command of the Warlock."
+          },
+          "713": {
+            "name_enus": "Summon Incubus",
+            "icon": "ability_warlock_incubus",
+            "screenshot": {},
+            "displayName": "",
+            "skillcategory": 7,
+            "rank_enus": "Summon",
+            "description_enus": "Summons an Incubus under the command of the Warlock."
+          }
+        },
+        "offset": 34405
+      },
+      {
+        "type": 7,
+        "records": {
+          "17": {
+            "name_enus": "The Barrens"
+          }
+        },
+        "offset": 34873
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 6912,
+        "label": "Heartswood",
+        "slug": "heartswood"
+      },
+      {
+        "id": 190309,
+        "label": "Wooden Figurine",
+        "slug": "wooden-figurine"
+      },
+      {
+        "id": 22243,
+        "label": "Small Soul Pouch",
+        "slug": "small-soul-pouch"
+      }
+    ],
+    "sourceReviewNotes": "Distinct Gakin to Takar the Seer handoff: Barrens of Kalimdor near Camp Taurajo. Preserved sayaad evil, female and male common names, salacious tales, love symbol bait and defeat then use as tool. Completion acknowledges crossing and wise Gakin referral. Corrected raw demon as god or ghost and item as food. Four offer paragraphs; <name>; Progress absent. Current own-ID Alliance class256/race65 differs installed expanded race mask; no live eligibility inference.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78088": {
+    "sourceSHA256": "184ea641534d264e82c98b3d2ff940080059068e6857fa0afda85020978be668",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78088,
+        "record": {
+          "name_enus": "A Strange Artifact",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 68
+        },
+        "offset": 34001
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25571,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/object=409289/strange-orb]Strange Orb[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3663/delgren-the-purifier]Delgren the Purifier[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70058\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "&lt;The mysterious orb you hold fills you with cold dread. You can almost hear a voice echo faintly in your mind. Low and guttural, you understand well that the language being spoken is demonic in nature. \n\nEven as a paladin, this magic is beyond you. Find a more senior paladin here in Kalimdor who might be able to help you discern the nature of this sinister object.&gt;",
+        "clean": "<The mysterious orb you hold fills you with cold dread. You can almost hear a voice echo faintly in your mind. Low and guttural, you understand well that the language being spoken is demonic in nature. \n\nEven as a paladin, this magic is beyond you. Find a more senior paladin here in Kalimdor who might be able to help you discern the nature of this sinister object.>"
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Did you find something in the tower?",
+        "clean": "Did you find something in the tower?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "You were right to bring this to me, &lt;name&gt;.",
+        "clean": "You were right to bring this to me, <name>."
+      },
+      "objective": {
+        "raw": "Bring the <a href=\"/forever/item=209836/althalaxx-orb\">Althalaxx Orb</a> to <a href=\"/forever/npc=3663/delgren-the-purifier\">Delgren the Purifier</a> at Maestra's Post in Ashenvale.",
+        "clean": "Bring the Althalaxx Orb to Delgren the Purifier at Maestra's Post in Ashenvale."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 36248,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209836/althalaxx-orb\" class=\"q1\">Althalaxx Orb</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Althalaxx Orb (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Althalaxx Orb (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          409289
+        ]
+      ],
+      "3": [
+        [
+          3663
+        ]
+      ],
+      "8": [
+        "Bring the Althalaxx Orb to Delgren the Purifier at Maestra's Post in Ashenvale."
+      ],
+      "S": {
+        "1": "A Strange Artifact",
+        "4": 22,
+        "5": 30,
+        "6": 4294967373,
+        "7": 2,
+        "11": 209836,
+        "17": -141,
+        "22": 78089,
+        "p": 134
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Дивний артефакт",
+        "detail": "<Таємнича сфера в твоїх руках сповнює тебе холодним жахом. Здається, у свідомості ледь чутно відлунює голос. Низький і гортанний — ти добре розумієш, що ця мова демонічна.\n\nНавіть для паладина ця магія незбагненна. Знайди тут, у Калімдорі, досвідченішого паладина, який допоможе з’ясувати природу цього лиховісного предмета.>",
+        "objective": "Принесіть сферу Алталакса Дельґрену Очистителю на заставу Маєстри в Ясенедолі.",
+        "progress": "Ви щось знайшли у вежі?",
+        "complete": "Ти мав рацію, що приніс це мені, {ім'я}.",
+        "en": "A Strange Artifact",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 34132,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78088,
+        "level": 30,
+        "money": 2500,
+        "name": "A Strange Artifact",
+        "race": 68,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 68,
+        "side": 1,
+        "xp": 2450,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed",
+            "rewards_changed",
+            "objectives_changed",
+            "quest_giver_changed",
+            "text_changed"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1",
+            "Quest givers: adds Starts at Strange Orb",
+            "Quest givers: no longer Starts at Delgren the Purifier",
+            "Objective text added",
+            "Description added",
+            "Experience 2450 instead of none",
+            "Money 25s instead of none"
+          ],
+          "notShown": [
+            "Quest givers: adds Starts at Strange Orb",
+            "Quest givers: no longer Starts at Delgren the Purifier",
+            "Description added",
+            "Experience 2450 instead of none",
+            "Money 25s instead of none"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24654
+      },
+      {
+        "type": 14,
+        "records": {
+          "3": {
+            "name_enus": "Dwarf"
+          },
+          "7": {
+            "name_enus": "Gnome"
+          }
+        },
+        "offset": 24714
+      },
+      {
+        "type": 1,
+        "records": {
+          "3663": {
+            "name_enus": "Delgren the Purifier",
+            "model": 2531
+          },
+          "3660": {
+            "name_enus": "Athrikus Narassin",
+            "model": 4413
+          }
+        },
+        "offset": 28925
+      },
+      {
+        "type": 3,
+        "records": {
+          "277236": {
+            "name_enus": "Pauldrons of Vindication",
+            "quality": 3,
+            "icon": "inv_shoulder_09",
+            "screenshot": {},
+            "jsonequip": {
+              "appearances": {
+                "0": [
+                  747162,
+                  ""
+                ]
+              },
+              "armor": 360,
+              "critstrkrtng": 10,
+              "displayid": 747162,
+              "dura": 80,
+              "itemSquishEraId": 0,
+              "sellprice": 9803,
+              "slotbak": 3,
+              "sta": 10,
+              "str": 10
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 29067
+      },
+      {
+        "type": 3,
+        "records": {
+          "209836": {
+            "name_enus": "Althalaxx Orb",
+            "quality": 1,
+            "icon": "inv_misc_orb_03",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 34964
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 277236,
+        "label": "Pauldrons of Vindication",
+        "slug": "pauldrons-of-vindication"
+      },
+      {
+        "id": 209836,
+        "label": "Althalaxx Orb",
+        "slug": "althalaxx-orb"
+      }
+    ],
+    "sourceReviewNotes": "Strange Orb409289 starts distinct Althalaxx Orb209836 handoff to Delgren the Purifier3663 at Maestra Post in Ashenvale. Current own-ID level30/min22, Alliance/class2/race68 differs downstream race5 and installed expanded race mask. Preserved chilling dread, faint low guttural demonic voice, paladin limits and senior paladin in Kalimdor; full narrative angle brackets and <name>. Corrected raw bottle, omitted emote brackets and lost completion <name>. Secondary has title and offer only; other states supported primary plus installed/UA.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78089": {
+    "sourceSHA256": "002b91dc207186630012c0a060328104253b91bfadc6ea6b8a21d32e00e86e00",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78089,
+        "record": {
+          "name_enus": "Advice From Stormwind",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 5
+        },
+        "offset": 29792
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25570,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=3663/delgren-the-purifier]Delgren the Purifier[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5492/katherine-the-pure]Katherine the Pure[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "There's a powerful darkness about this orb. Its nature is clearly demonic, but past that it is beyond my ability to discern its purpose.\n\nTake the orb to the one known as <a href=\"/forever/npc=5492/katherine-the-pure\">Katherine the Pure</a> in the Stormwind Cathedral. Consult with her for advice on the orb.",
+        "clean": "There's a powerful darkness about this orb. Its nature is clearly demonic, but past that it is beyond my ability to discern its purpose.\n\nTake the orb to the one known as Katherine the Pure in the Stormwind Cathedral. Consult with her for advice on the orb."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "You bring news from Kalimdor?",
+        "clean": "You bring news from Kalimdor?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "&lt;Examines the orb with a worried expression&gt;",
+        "clean": "<Examines the orb with a worried expression>"
+      },
+      "objective": {
+        "raw": "Bring the <a href=\"/forever/item=209748/althalaxx-orb\">Althalaxx Orb</a> to <a href=\"/forever/npc=5492/katherine-the-pure\">Katherine the Pure</a> in Stormwind.",
+        "clean": "Bring the Althalaxx Orb to Katherine the Pure in Stormwind."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 31788,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209748/althalaxx-orb\" class=\"q1\">Althalaxx Orb</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Althalaxx Orb (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Althalaxx Orb (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          3663
+        ]
+      ],
+      "3": [
+        [
+          5492
+        ]
+      ],
+      "8": [
+        "Bring the Althalaxx Orb to Katherine the Pure in Stormwind."
+      ],
+      "13": [
+        78088
+      ],
+      "S": {
+        "1": "Advice From Stormwind",
+        "4": 22,
+        "5": 30,
+        "6": 4294967373,
+        "7": 2,
+        "11": 209748,
+        "17": -141,
+        "22": 78090,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Поради від Штормовія",
+        "detail": "Я відчуваю темну силу в цій сфері, але її джерело вислизає від мене. Нам потрібна порада від паладинів Штормовія. Принесіть їм сферу.",
+        "objective": "Зверніться до паладинів Штормовія за порадою щодо сфери.",
+        "progress": "Ти приніс новини з Калімдору?",
+        "complete": "<Стурбовано розглядає кулю>",
+        "en": "Advice From Stormwind",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 29925,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78089,
+        "level": 30,
+        "money": 2100,
+        "name": "Advice From Stormwind",
+        "race": 5,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 5,
+        "side": 1,
+        "xp": 1850,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed",
+            "rewards_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1",
+            "Objective text reworded",
+            "Description reworded",
+            "Experience 1850 instead of none",
+            "Money 21s instead of none"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 1850 instead of none",
+            "Money 21s instead of none"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24653
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "3": {
+            "name_enus": "Dwarf"
+          }
+        },
+        "offset": 24713
+      },
+      {
+        "type": 3,
+        "records": {
+          "209748": {
+            "name_enus": "Althalaxx Orb",
+            "quality": 1,
+            "icon": "inv_misc_orb_03",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 30520
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 209748,
+        "label": "Althalaxx Orb",
+        "slug": "althalaxx-orb"
+      }
+    ],
+    "sourceReviewNotes": "Delgren3663 sends Althalaxx Orb209748 to Katherine the Pure5492 in Stormwind Cathedral. Preserved powerful darkness, demonic nature known but purpose beyond speaker, consultation, Kalimdor news and worried examination emote. Current exact Katherine destination and two-paragraph offer supersede general UA advice from Stormwind wording; installed objective/endpoints support primary. Secondary404. No inferred live availability.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78090": {
+    "sourceSHA256": "6fe5b9f15742e559b57c4906364d3d7c1b331e1602b8c5b4030f1cb7f88cbf02",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78090,
+        "record": {
+          "name_enus": "A Second Opinion",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 5
+        },
+        "offset": 29577
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25512,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=5492/katherine-the-pure]Katherine the Pure[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5495/ursula-deline]Ursula Deline[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "I'm not sure what to make of this orb, &lt;name&gt;. I think we will need the help of... a specialist.\n\nWe are aware of a warlock sect operating out of Stormwind. Officially we reject the presence of warlocks in the city. Unofficially, their knowledge can be of use when dealing with demonic forces.\n\nFind a representative of these warlocks, and seek their opinion on the orb.",
+        "clean": "I'm not sure what to make of this orb, <name>. I think we will need the help of... a specialist.\n\nWe are aware of a warlock sect operating out of Stormwind. Officially we reject the presence of warlocks in the city. Unofficially, their knowledge can be of use when dealing with demonic forces.\n\nFind a representative of these warlocks, and seek their opinion on the orb."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "You're a long way from the cathedral, &lt;class&gt;. I hope you realize you have no authority here.",
+        "clean": "You're a long way from the cathedral, <class>. I hope you realize you have no authority here."
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "So the Silver Hand requires my aid? It will not come cheaply.",
+        "clean": "So the Silver Hand requires my aid? It will not come cheaply."
+      },
+      "objective": {
+        "raw": "Find the warlock sanctum within Stormwind and seek advice on the orb.",
+        "clean": "Find the warlock sanctum within Stormwind and seek advice on the orb."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 30905,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209748/althalaxx-orb\" class=\"q1\">Althalaxx Orb</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Althalaxx Orb (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Althalaxx Orb (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5492
+        ]
+      ],
+      "3": [
+        [
+          5495
+        ]
+      ],
+      "8": [
+        "Find the warlock sanctum within Stormwind and seek advice on the orb."
+      ],
+      "13": [
+        78089
+      ],
+      "S": {
+        "1": "A Second Opinion",
+        "4": 22,
+        "5": 30,
+        "6": 5,
+        "7": 2,
+        "11": 209748,
+        "17": -141,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Друга думка",
+        "detail": "Я не впевнений, що думати про цю сферу, {ім'я}. Гадаю, нам знадобиться допомога... спеціаліста.\n\nНам відомо про секту чаклунів, що діє у Штормовії. Офіційно ми заперечуємо присутність чаклунів у місті. Неофіційно, їхні знання можуть бути корисними при взаємодії з демонічними силами.\n\nЗнайдіть представника цих чаклунів і запитайте його думку щодо сфери.",
+        "objective": "Знайдіть святилище чаклунів у Штормовії та попросіть поради щодо сфери.",
+        "progress": "Ти далеко від собору, {клас}. Сподіваюся, ти розумієш, що не маєш тут жодної влади.",
+        "complete": "Тож Срібній Руці потрібна моя допомога? Вона обійдеться недешево.",
+        "en": "A Second Opinion",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 29705,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78090,
+        "level": 30,
+        "name": "A Second Opinion",
+        "race": 5,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 5,
+        "side": 1,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1"
+          ],
+          "notShown": []
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24595
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "3": {
+            "name_enus": "Dwarf"
+          }
+        },
+        "offset": 24655
+      },
+      {
+        "type": 3,
+        "records": {
+          "209748": {
+            "name_enus": "Althalaxx Orb",
+            "quality": 1,
+            "icon": "inv_misc_orb_03",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 30048
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 209748,
+        "label": "Althalaxx Orb",
+        "slug": "althalaxx-orb"
+      }
+    ],
+    "sourceReviewNotes": "Katherine5492 sends player to Ursula Deline5495 via warlock sanctum in Stormwind; source objective intentionally says seek representative, not invented address. Preserved uncertainty, specialist hesitation, official rejection versus unofficial utility of warlocks, demonic forces, <name>, hostile <class> progress and costly Silver Hand assistance. Corrected raw sacred sanctum wording to warlock gathering place. Three offer paragraphs; all dialogue states distinct; secondary404.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78091": {
+    "sourceSHA256": "425e8416d1706fa71b435838395bdaab559a65c09867fb516ffb2056b6dd04e4",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78091,
+        "record": {
+          "name_enus": "Earning Your Salt",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 5
+        },
+        "offset": 30584
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25538,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=5495/ursula-deline]Ursula Deline[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5495/ursula-deline]Ursula Deline[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "I will study the orb and tell you what I learn, but you must first do something for me.\n\nThe warlocks of the Blackrock clan use specially prepared salts to enhance their summoning rituals. Collect some from the orcs in Redridge.\n\nWhen you return, I will share with you the results of my studies.",
+        "clean": "I will study the orb and tell you what I learn, but you must first do something for me.\n\nThe warlocks of the Blackrock clan use specially prepared salts to enhance their summoning rituals. Collect some from the orcs in Redridge.\n\nWhen you return, I will share with you the results of my studies."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "&lt;The warlock is studying the orb intently&gt;",
+        "clean": "<The warlock is studying the orb intently>"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "Ah... the salts. I had forgotten all about them.<br /><br />This orb is unlike anything I have seen, &lt;name&gt;.",
+        "clean": "Ah... the salts. I had forgotten all about them.\n\nThis orb is unlike anything I have seen, <name>."
+      },
+      "objective": {
+        "raw": "Collect 14 <a href=\"/forever/item=209778/summoners-salt\">Summoner's Salt</a> from Blackrock Summoners in Redridge Mountains, then return to <a href=\"/forever/npc=5495/ursula-deline\">Ursula Deline</a> in Stormwind.",
+        "clean": "Collect 14 Summoner's Salt from Blackrock Summoners in Redridge Mountains, then return to Ursula Deline in Stormwind."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 32525,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"14\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209778/summoners-salt\" class=\"q1\">Summoner's Salt</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"14\">&nbsp;(<span class=\"icon-list-quantity\">14</span>)</span></td></tr>\n</table>",
+        "text": "Summoner's Salt (14)",
+        "rows": [
+          {
+            "quantity": 14,
+            "text": "Summoner's Salt (14)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5495
+        ]
+      ],
+      "3": [
+        [
+          5495
+        ]
+      ],
+      "8": [
+        "Collect 14 Summoner's Salt from Blackrock Summoners in Redridge Mountains, then return to Ursula Deline in Stormwind."
+      ],
+      "10": {
+        "3": [
+          [
+            209778,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        78090
+      ],
+      "S": {
+        "1": "Earning Your Salt",
+        "4": 22,
+        "5": 30,
+        "6": 5,
+        "7": 2,
+        "17": -141,
+        "22": 78092,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Заробляючи свою сіль",
+        "detail": "Я вивчу кулю і розповім тобі, що дізнаюся, але ти спочатку маєш щось для мене зробити.\n\nЧаклуни клану Чорної Скелі використовують спеціально приготовані солі для посилення своїх ритуалів виклику. Збери трохи у орків у Редріджі.\n\nКоли ти повернешся, я поділюся з тобою результатами своїх досліджень.",
+        "objective": "Зберіть 14 Солі Призивача у Призивачів Чорної Скелі в Червоноградських Горах, а потім поверніться до Урсули Делайн у Штормовій.",
+        "progress": "<Чаклун уважно вивчає сферу>",
+        "complete": "А... солі. Я зовсім про них забув.\n\nЦя сфера не схожа ні на що, що я бачив, {ім'я}.",
+        "en": "Earning Your Salt",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 30713,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78091,
+        "level": 30,
+        "money": 2500,
+        "name": "Earning Your Salt",
+        "race": 5,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 5,
+        "side": 1,
+        "xp": 2450,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed",
+            "rewards_changed"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1",
+            "Experience 2450 instead of none",
+            "Money 25s instead of none"
+          ],
+          "notShown": [
+            "Experience 2450 instead of none",
+            "Money 25s instead of none"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24621
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "3": {
+            "name_enus": "Dwarf"
+          }
+        },
+        "offset": 24681
+      },
+      {
+        "type": 3,
+        "records": {
+          "209778": {
+            "name_enus": "Summoner's Salt",
+            "quality": 1,
+            "icon": "inv_misc_dust_04",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 31221
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 209778,
+        "label": "Summoner's Salt",
+        "slug": "summoners-salt"
+      }
+    ],
+    "sourceReviewNotes": "Ursula5495 collection-and-return step:14 Summoner Salt209778 from Blackrock Summoners in Redridge Mountains, then return to Ursula Deline in Stormwind. Objective table confirms14. Preserved first do favor before report, prepared salts enhance summoning rituals, research results upon return, intense study emote, forgotten salts and unprecedented orb. Corrected raw clan alliance, Myanmar digits to source14 and orb as ball; <name> retained. Secondary404; installed/UA agree.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78092": {
+    "sourceSHA256": "812b89a3804299e978ed1e70aeb52408e24beeadf4b6366777af3704fec9f1f5",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78092,
+        "record": {
+          "name_enus": "It Must Be Destroyed",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 5
+        },
+        "offset": 30593
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25572,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=5495/ursula-deline]Ursula Deline[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=409311/spear-of-mannoroth]Spear of Mannoroth[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "The tendrils of sentience reaching out from this orb are too much for even an experienced warlock like myself to withstand for long. I am reluctant to admit this, &lt;name&gt;, but the orb must be destroyed.\n\nThe orb is nearly impervious, but it may be vulnerable to the weapon of a powerful demon lord. I have heard that such a blade is present in Ashenvale--at the site where the pit lord Mannoroth was destroyed.\n\nGather motes of the fallen demon's essence there, then shatter the orb upon the blade.",
+        "clean": "The tendrils of sentience reaching out from this orb are too much for even an experienced warlock like myself to withstand for long. I am reluctant to admit this, <name>, but the orb must be destroyed.\n\nThe orb is nearly impervious, but it may be vulnerable to the weapon of a powerful demon lord. I have heard that such a blade is present in Ashenvale--at the site where the pit lord Mannoroth was destroyed.\n\nGather motes of the fallen demon's essence there, then shatter the orb upon the blade."
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "&lt;Your hair stands on end as infernal energies surround you&gt;",
+        "clean": "<Your hair stands on end as infernal energies surround you>"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "&lt;You raise the orb towards the spear&gt;",
+        "clean": "<You raise the orb towards the spear>"
+      },
+      "objective": {
+        "raw": "Gather 12 <a href=\"/forever/item=209779/mote-of-mannoroth\">Motes of Mannoroth</a> from demons in Ashenvale. Bring them along with the Orb of Althalaxx to the <a href=\"/forever/object=409311/spear-of-mannoroth\">Spear of Mannoroth</a> at Demon Fall Canyon.",
+        "clean": "Gather 12 Motes of Mannoroth from demons in Ashenvale. Bring them along with the Orb of Althalaxx to the Spear of Mannoroth at Demon Fall Canyon."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 32962,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"12\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209779/mote-of-mannoroth\" class=\"q1\">Mote of Mannoroth</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"12\">&nbsp;(<span class=\"icon-list-quantity\">12</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon2\"></th><td><a href=\"/forever/item=209748/althalaxx-orb\" class=\"q1\">Althalaxx Orb</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Mote of Mannoroth (12)\nAlthalaxx Orb (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 12,
+            "text": "Mote of Mannoroth (12)"
+          },
+          {
+            "quantity": 1,
+            "text": "Althalaxx Orb (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5495
+        ]
+      ],
+      "3": [
+        null,
+        [
+          409311
+        ]
+      ],
+      "8": [
+        "Gather 12 Motes of Mannoroth from demons in Ashenvale. Bring them along with the Orb of Althalaxx to the Spear of Mannoroth at Demon Fall Canyon."
+      ],
+      "10": {
+        "3": [
+          [
+            209779,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        78091
+      ],
+      "S": {
+        "1": "It Must Be Destroyed",
+        "4": 22,
+        "5": 30,
+        "6": 5,
+        "7": 2,
+        "11": 209748,
+        "17": -141,
+        "p": 4742
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Його потрібно знищити",
+        "detail": "Ця сфера справді пов'язана з могутньою сутністю десь за межами Звивистого Пустоверті. Я не можу передбачити її природу, але відчуваю, як її сприйняття досягає крізь сферу... вивчаючи мене у відповідь.\n\nМені не хочеться визнавати це, {ім'я}, але сферу потрібно знищити.\n\nВона здається невразливою до більшості пошкоджень, але може бути вразливою до зброї могутнього повелителя демонів. Я не впевнений, де ви знайдете таку зброю, але це залишається вашим найкращим варіантом.\n\nУдачі, {ім'я}.",
+        "objective": "Знайдіть спосіб знищити сферу.",
+        "progress": "<Ваше волосся стає дибки, коли вас оточують пекельні енергії>",
+        "complete": "<Ти піднімеш кулю до списа>",
+        "en": "It Must Be Destroyed",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 30725,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78092,
+        "level": 30,
+        "money": 5500,
+        "name": "It Must Be Destroyed",
+        "race": 5,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 5,
+        "side": 1,
+        "xp": 3050,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed",
+            "rewards_changed",
+            "objectives_changed",
+            "reworded"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1",
+            "Objective text changed",
+            "Description reworded",
+            "Experience 3050 instead of none",
+            "Money 55s instead of none"
+          ],
+          "notShown": [
+            "Description reworded",
+            "Experience 3050 instead of none",
+            "Money 55s instead of none"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24655
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "3": {
+            "name_enus": "Dwarf"
+          }
+        },
+        "offset": 24715
+      },
+      {
+        "type": 3,
+        "records": {
+          "209779": {
+            "name_enus": "Mote of Mannoroth",
+            "quality": 1,
+            "icon": "spell_fire_felpyroblast",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 20,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          },
+          "209748": {
+            "name_enus": "Althalaxx Orb",
+            "quality": 1,
+            "icon": "inv_misc_orb_03",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 31339
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 209779,
+        "label": "Motes of Mannoroth",
+        "slug": "mote-of-mannoroth"
+      },
+      {
+        "id": 209779,
+        "label": "Mote of Mannoroth",
+        "slug": "mote-of-mannoroth"
+      },
+      {
+        "id": 209748,
+        "label": "Althalaxx Orb",
+        "slug": "althalaxx-orb"
+      }
+    ],
+    "sourceReviewNotes": "Ursula5495 to Spear of Mannoroth409311 at Demon Fall Canyon. Current offer/objective give12 Motes of Mannoroth209779 from Ashenvale demons with provided Althalaxx Orb209748, then blade destruction. Objective table confirms12 and orb1. Current source overrides older UA generic destroy orb text; installed exact objective supports. Preserved intrusive sentience, even experienced warlock cannot withstand long, reluctant admission, nearly impervious but may be vulnerable, reported pit lord death site, gather essence then shatter, hair-on-end and raising orb emotes. Corrected raw demon lord as god, near-invulnerability inversion, spear as lever and lost brackets. Secondary404.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  },
+  "78093": {
+    "sourceSHA256": "27c92056af9ba91d2eb451ad9db65338b1dae4203b566e9b834d98a3d64a3cc0",
+    "ownGathererRecords": [
+      {
+        "type": 5,
+        "id": 78093,
+        "record": {
+          "name_enus": "Return to Delgren",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 2,
+          "reqrace": 5
+        },
+        "offset": 28871
+      }
+    ],
+    "infobox": [
+      {
+        "offset": 25500,
+        "text": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/object=409315/shattered-orb]Shattered Orb[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3663/delgren-the-purifier]Delgren the Purifier[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]"
+      }
+    ],
+    "primaryFieldBoundaries": {
+      "detail": {
+        "layout": "description heading",
+        "raw": "&lt;The shattered remains of the orb lay at your feet. Delgren will want to see you have succeeded.&gt;",
+        "clean": "<The shattered remains of the orb lay at your feet. Delgren will want to see you have succeeded.>"
+      },
+      "progress": {
+        "layout": "hidden reply div",
+        "raw": "Did you find a way to destroy the orb?",
+        "clean": "Did you find a way to destroy the orb?"
+      },
+      "complete": {
+        "layout": "hidden reply div",
+        "raw": "This is a relief, &lt;name&gt;. But whatever was watching Azeroth through that orb... I have a feeling they will not be happy it was destroyed.<br /><br />Take this as my thanks for your efforts. And... be careful.",
+        "clean": "This is a relief, <name>. But whatever was watching Azeroth through that orb... I have a feeling they will not be happy it was destroyed.\n\nTake this as my thanks for your efforts. And... be careful."
+      },
+      "objective": {
+        "raw": "Return the Orb Shards to Delgren.",
+        "clean": "Return the Orb Shards to Delgren."
+      }
+    },
+    "objectiveTables": [
+      {
+        "offset": 31124,
+        "raw": "<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=209800/orb-fragments\" class=\"q1\">Orb Fragments</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+        "text": "Orb Fragments (Provided) (1)",
+        "rows": [
+          {
+            "quantity": 1,
+            "text": "Orb Fragments (Provided) (1)"
+          }
+        ]
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        null,
+        [
+          409315
+        ]
+      ],
+      "3": [
+        [
+          3663
+        ]
+      ],
+      "8": [
+        "Return the Orb Shards to Delgren."
+      ],
+      "13": [
+        78092
+      ],
+      "S": {
+        "1": "Return to Delgren",
+        "4": 22,
+        "5": 30,
+        "6": 5,
+        "7": 2,
+        "11": 209800,
+        "17": -141,
+        "p": 4230
+      }
+    },
+    "uaVariants": [
+      {
+        "title": "Повернення до Дельгрена",
+        "detail": "<Розбиті залишки кулі лежали біля твоїх ніг. Делґрен захоче побачити, що ти досяг успіху.>",
+        "objective": "Поверніть осколки сфер Делгрену.",
+        "progress": "Ви знайшли спосіб знищити сферу?",
+        "complete": "Це полегшення, {ім'я}. Але хто б не спостерігав за Азеротом крізь ту сферу... у мене таке відчуття, що вони не будуть раді, що її знищили.\n\nСприймай це як мою подяку за твої зусилля. І... будь обережний.",
+        "en": "Return to Delgren",
+        "faction": "Alliance"
+      }
+    ],
+    "nativeMyanmarProofreading": "pending",
+    "currentLiveVerification": "not tested",
+    "ownQuestMetadata": {
+      "offset": 29000,
+      "record": {
+        "category": -141,
+        "category2": 4,
+        "classs": 2,
+        "id": 78093,
+        "itemrewards": [
+          [
+            277205,
+            1
+          ]
+        ],
+        "level": 30,
+        "money": 2500,
+        "name": "Return to Delgren",
+        "race": 5,
+        "reqclass": 2,
+        "reqlevel": 22,
+        "reqrace": 5,
+        "side": 1,
+        "xp": 3050,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "level_changed",
+            "required_level_changed",
+            "rewards_changed"
+          ],
+          "lines": [
+            "Level 30 instead of 25",
+            "Requires level 22 instead of 1",
+            "Experience 3050 instead of none",
+            "Money 25s instead of none",
+            "Rewards: adds Cloak of the Divine Storm"
+          ],
+          "notShown": [
+            "Experience 3050 instead of none",
+            "Money 25s instead of none",
+            "Rewards: adds Cloak of the Divine Storm"
+          ]
+        }
+      }
+    },
+    "linkedGathererRecords": [
+      {
+        "type": 13,
+        "records": {
+          "2": {
+            "name_enus": "Paladin"
+          }
+        },
+        "offset": 24583
+      },
+      {
+        "type": 14,
+        "records": {
+          "1": {
+            "name_enus": "Human"
+          },
+          "3": {
+            "name_enus": "Dwarf"
+          }
+        },
+        "offset": 24643
+      },
+      {
+        "type": 3,
+        "records": {
+          "277205": {
+            "name_enus": "Cloak of the Divine Storm",
+            "quality": 3,
+            "icon": "inv_misc_cape_04",
+            "screenshot": {},
+            "jsonequip": {
+              "appearances": {
+                "0": [
+                  15068,
+                  ""
+                ]
+              },
+              "armor": 26,
+              "displayid": 15068,
+              "holsplpwr": 8,
+              "itemSquishEraId": 0,
+              "sellprice": 2592,
+              "slotbak": 16,
+              "sta": 5,
+              "str": 5
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          },
+          "209800": {
+            "name_enus": "Orb Fragments",
+            "quality": 1,
+            "icon": "inv_enchant_shardgleamingsmall",
+            "screenshot": {},
+            "jsonequip": {
+              "itemSquishEraId": 0,
+              "maxcount": 1,
+              "reqlevel": 1
+            },
+            "attainable": 0,
+            "flags2": 8192,
+            "flags5": 0,
+            "displayName": "",
+            "qualityTier": 0,
+            "qualityTierTexture": ""
+          }
+        },
+        "offset": 29619
+      }
+    ],
+    "linkedObjectiveItems": [
+      {
+        "id": 209800,
+        "label": "Orb Fragments",
+        "slug": "orb-fragments"
+      },
+      {
+        "id": 277205,
+        "label": "Cloak of the Divine Storm",
+        "slug": "cloak-of-the-divine-storm"
+      }
+    ],
+    "sourceReviewNotes": "Shattered Orb409315 starts return of Orb Shards to Delgren3663. Current objective and installed say Orb Shards; linked provided item209800 displays Orb Fragments, documented same-ID source display alias, no new quest title alias. Preserved broken remains at feet and successful proof, relief, uncertain watcher through orb observing Azeroth and likely displeasure, thanks and caution. Corrected raw eye shape and orb as monster; emote brackets and <name> retained. Secondary404; primary/installed/UA agree meaning.",
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    }
+  }
+}

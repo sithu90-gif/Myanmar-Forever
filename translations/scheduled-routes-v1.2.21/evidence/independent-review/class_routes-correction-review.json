@@ -1,0 +1,98 @@
+{
+  "result": "PASS",
+  "partition": "class_routes",
+  "targetVersion": "1.2.21",
+  "reviewedAtUTC": "2026-11-24T07:03:32.728372+00:00",
+  "reviewType": "Separate independent repeat review of two root-applied guarded CLASS corrections",
+  "candidateDirectory": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-24\\root-reviewed\\class_routes",
+  "changedFields": [
+    {
+      "id": 1508,
+      "field": "detail",
+      "englishSHA256": "8aa881e92c2c1e4e527fda48de4a224555b41291bc1868912ac6dc910d50bfa4",
+      "priorMyanmarSHA256": "545b69f784eca0180795c4ba68633f6b81e7c9daf5eb753c154f017123010eb3",
+      "myanmarSHA256": "3dca986683f95c120b25d32df150a78824e7282af2300b5af727c253e6028d0a",
+      "status": "reviewed",
+      "reviewNotes": "Re-read complete unchanged English and corrected Myanmar. Wind Rider is recognizable with exact maintained phonetic and no invented human rider identity. Ordinary tower noun, west binding, Orgrimmar bluffs, Zankaja, mate return, three paragraphs, <name>, female succubus, enticement and blind-guide conditional all remain intact. Exact proposed full field applied."
+    },
+    {
+      "id": 78091,
+      "field": "detail",
+      "englishSHA256": "19302a910fbd56b1bc670de126301e8af0660994bff4e5e4d118c1f73f4fce99",
+      "priorMyanmarSHA256": "713487d4253acacc3ccdabf349dd7181d248a9962637e0e3198331b051084abd",
+      "myanmarSHA256": "b2c1c0a16bbb6407412ecf131fa862412ca183866907ddcc4bef63af3a566e69",
+      "status": "reviewed",
+      "reviewNotes": "Re-read complete unchanged English and corrected Myanmar. Full Blackrock Clan identity is one English/phonetic unit with exact maintained spelling. Warlocks, special salts, summoning-enhancement purpose, orcs in Redridge, favor-first/research-report-on-return sequence and three paragraphs remain intact. Exact proposed full field applied."
+    }
+  ],
+  "unchangedSlotCounts": {
+    "allSlots": 55,
+    "changedSlots": 2,
+    "unchangedSlots": 53,
+    "unchangedEnabledSlots": 49,
+    "unchangedUnavailableSlots": 4
+  },
+  "checks": {
+    "candidateSnapshot": "All five files hashed before and after and unchanged during review.",
+    "guardedCorrections": "Both exact English/prior/final hashes and whole fields match the supplemental proposals and accepted-corrections; no additional edits.",
+    "unchanged53Slots": "Exact text/null equality against frozen author edited.json for every other slot.",
+    "all51RawChains": "Actual verify_workers.py class_routes PASS; complete actual request/response/index/hash cardinality and unique mapping accounting, current primary reparse, frozen provenance and rawDeepL hashes intact. Only shared report write suppressed.",
+    "canonicalHashes": "All55 candidate review English/myanmarSHA256/editedSHA256/finalEditedSHA256 aliases current; rawDeepLSHA256 unchanged. Two prior hashes explicitly retained under authorEditedSHA256/authorFinalEditedSHA256. Frozen author provenance intentionally remains historical.",
+    "maintainedTerms": "Candidate retains all47 author terms unchanged and adds only Wind Rider and Blackrock Clan with exact root maintained spellings. No annotation exceptions.",
+    "lint": "Actual linguistic_lint.lint corrected full candidate PASS.",
+    "validateFields": "Actual build_release.validate_fields all55 candidate slots PASS.",
+    "semanticContracts": "Actual author check_contracts.py PASS and10 original negatives rejected; check(corrected candidate) PASS; four additional affected negatives rejected. Only frozen report write suppressed.",
+    "frozenAuthorFiles": "All68 receipt entries plus receipt hash unchanged before/after.",
+    "initialAndSupplementalReports": "Both prior reports retained byte-for-byte unchanged."
+  },
+  "checkExecutionOutput": [
+    "{\"result\": \"PASS\", \"checkedAtUTC\": \"2026-11-24T07:03:32.683948+00:00\", \"sourcedFields\": 51, \"enabledFields\": 51}",
+    "Source contracts PASS; 10 negative controls rejected"
+  ],
+  "affectedNegativeControls": [
+    {
+      "case": "1508 west-to-east direction",
+      "result": "rejected"
+    },
+    {
+      "case": "1508 erase guide condition",
+      "result": "rejected"
+    },
+    {
+      "case": "78091 erase precondition",
+      "result": "rejected"
+    },
+    {
+      "case": "78091 erase salt enhancement purpose",
+      "result": "rejected"
+    }
+  ],
+  "candidateHashesBefore": {
+    "edited.json": "c22797c7964a38e6316f97d1d6b16aa3fd62ac3e731f95cd4736f62b2f42fe6f",
+    "pronunciations.json": "d597de3f5e74deda2613152fcdad06a882909995c31e4a36ad63029d12f39a9d",
+    "review-audit.json": "a19e911a3cba90dfc2ea0e42e41c1c30a76a4f91283a8b6cb02d1aad70dc5f03",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "72bd764221541644a76bf02857dc9aedd564585fc368106a89372acf7a137684"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "c22797c7964a38e6316f97d1d6b16aa3fd62ac3e731f95cd4736f62b2f42fe6f",
+    "pronunciations.json": "d597de3f5e74deda2613152fcdad06a882909995c31e4a36ad63029d12f39a9d",
+    "review-audit.json": "a19e911a3cba90dfc2ea0e42e41c1c30a76a4f91283a8b6cb02d1aad70dc5f03",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "72bd764221541644a76bf02857dc9aedd564585fc368106a89372acf7a137684"
+  },
+  "frozenReceiptSHA256": "1b7bbc61f34ac4b8420e2bb0a73c0ccced7b1415eda434f4226527f1fe28548d",
+  "priorReviewHashes": {
+    "class_routes.json": "8262b12ac23b4ce8467a4cc1ce7bfc0df8dbe4987b9ce68d1fd9d49b1135d3b6",
+    "class_routes-identity-screen-review.json": "6d9f5b68d43b94a670a2ebd423f7449c2d48115f2c7189b87becfd6de64b7abc"
+  },
+  "pronunciationAdditions": {
+    "Wind Rider": "ဝင်းဒ် ရိုက်ဒါ",
+    "Blackrock Clan": "ဘလက်ခ်ရော့ခ် ကလန်"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationNativeApproval": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested",
+  "issues": []
+}

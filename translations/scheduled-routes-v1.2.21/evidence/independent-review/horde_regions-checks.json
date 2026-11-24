@@ -1,0 +1,3462 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-24T07:01:27.285913+00:00",
+  "partition": "horde_regions",
+  "frozenManifestSHA256": "92a606df6853acec8e29ef9f1c0faf8b5a760dc8caa900ad66dc39fe5df02e4d",
+  "verifiedFrozenFiles": {
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "author-data-group1.json": "20aa4c4e741a1464bd597d41da16d24657b6df92862c1f0bf42a9185516e7b5d",
+    "author-data-group2.json": "e0068c0a087e630b6bdd2ab489139d6b319fefa1c5310eb3319b78d8d7105a89",
+    "author-data-group3.json": "b67698f6215e52f215c639670a017e64cd82c7d68b0e0589f2e906cfcb0170d9",
+    "author-summary.json": "958e5aa944663be2a978a9a37f240da414eb933b629077c95906b9fa9e5c0693",
+    "batch-plan.json": "14f9507c4075776ac2ff919768e2e900df54eb3cca99c79e13301b5c68303eca",
+    "comparison-provenance.json": "fd88b80d3bb0a1dd6899e022b7fba1ba13b6ea0912673c4f282f3c8443325009",
+    "contract-negative-cases.json": "f6e1c13ea4f1d3ae4e69b11fde8707637ee02ee8f096b13f976cf41c2dda9c14",
+    "deepl-batch-plan.json": "f2ce2470755b01da3c12e3269ecbbe6ed362ca8ebb8595c1fe7791ac9a81cfe7",
+    "deepl-index-01.json": "6de652f3786a021ec06be005b3d536a2849d7b18017233f34c079e1fb6983992",
+    "deepl-index-02.json": "77d133f882dd92aa1c6911fbd7cfa119be9dba7ed697d0faa0c172f8761b796a",
+    "deepl-index-03.json": "97b7f27ad3dc8a07ce4f377bbd1a7bee74efcf21e3ff2bee7f96212171f12998",
+    "deepl-index-04.json": "3027c08bfd080185e461832e681e3c5e6b77891cfb21e98177a46e3a0103e84f",
+    "deepl-index-05.json": "19f9ecc8afcacff4f89226f870bae25726edf3a8b83b4876f9523bcfaa871432",
+    "deepl-request-01.json": "3b8e28a2e0d5812047f001c094ea007642f179558304d56c8eaf6487477cd5b2",
+    "deepl-request-02.json": "c498d98cef68520bc304c388cb5bba5304b31e4fcae6cc1d6d1a512964f536d2",
+    "deepl-request-03.json": "b62bf59859d35fae4ed90807dafe925cd2c13b9bac62c95e4c7ce727a591ad54",
+    "deepl-request-04.json": "aa1f991eb540a61a9d88d03923ae25226476a56dba722c362f16ef9596d3bb98",
+    "deepl-request-05.json": "973b1f31e8cc9dc36928b3855b7eb28ffae95dca0fcec69736d867b5cc9212dd",
+    "deepl-response-01.json": "5fe8567a074b18c4194f51b5fb3cddcaa56d58de7db8c354097803b53bdafd1a",
+    "deepl-response-02.json": "18930f64e6865fa1d9f4603f6985bf0f5aa1fb7164e70d9bf21f91ed00865528",
+    "deepl-response-03.json": "3d1edb1377dd5ba5f7a32cb2389e3cc4adfb92cfae07bf874550a9f9102632c2",
+    "deepl-response-04.json": "ba56bd7be65ca4fce237f5479eb7dc34e22abf09e601749f828f3770f0221ba3",
+    "deepl-response-05.json": "7bddb7620e0aff9d98ac0ff26520982d76a2070d20099f326eca5f0308ee17ba",
+    "edited-group1.json": "0962fd17b6ea256aa9eac922e1e88cb28748f09b5bf581d9b7f763ce0261b98e",
+    "edited-group2.json": "2138dba1e34f15d548365ccea82ee65e2808eab2a29df8a205d8051abc6e22b4",
+    "edited-group3.json": "6183fbf8b5f5ee3f2c9b56e97a037232ea6aa4e72b10d5aa4073259646c39d9b",
+    "edited.json": "d56337283496ff5317560f05f9221ba13982b3284493624712263f43779a9770",
+    "english-sources.json": "5b2260e0c3eef509c7c59a27120cd252ec715002f7303c4c5916b51d95a54a3c",
+    "fetched-attempt2.json": "e0a57b09ed091843af6f9a9e3126a5784008a50dfc2a6dd2d128b0ce95c43949",
+    "fetched.json": "14c6d28d876252ead1d998fbb0de5c1be5270c0d10a423becc48664594ff88f0",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "identity-contracts.json": "8f97c5e73ac6fa7af48adb8924a84d04efec743223ef3ed43af4613e6dd50a37",
+    "initial-english-source-checkpoint.json": "c0b1fa0848c5b21d036d130aa7f927eb79fdc859250c1b3674366e71e28c90d9",
+    "initial-source-boundaries-checkpoint.json": "68265e4246f3fe8038de2394bdbf442213121439f48ef9e51c30994c0fee9dea",
+    "new-pronunciations.json": "3f0bdf5b6e2dd21e0e8ec7b4afa774da30e3b1dd89de078a691164d0f1b2928b",
+    "primary-quickfacts.json": "13b23c1290e8a4097153277cbc6adc4cb4c75738fda08a11df67cb288ffadda1",
+    "pronunciation-review-status.json": "7214e240463fc41feb3cee8569f8b1422573b21f3986b8b72f9df4366cfcf9dc",
+    "pronunciations.json": "cbbed8d03751276f0ec96a057eb4e33ce955b9e0a3a3e3bc59a865aa37c6e4f1",
+    "proposed-pronunciations.json": "741ed2f991ebdec9ae40dca0e6ffb4ecb0518b1077cda2ded41db971a2841f70",
+    "review-audit-group1.json": "8241930230d87c2e03cd0084ab78c93f4443aab4103aa9bef1f835e2286294ea",
+    "review-audit-group2.json": "e74869dd23f20af2dad86cfe7f85291f477e247b4f342ded075e71012403d5e8",
+    "review-audit-group3.json": "a46c8d5ddf5e9bd4ab47f064643c3056aea031af06a4c7a89cc985e942671529",
+    "review-audit.json": "ad15247954398ea86652f65ebf7a1cb07b4edaff29d18a99cc0c1f399d2b441a",
+    "review-groups.json": "74e8429f5111a1d6568d7c65992f5dd5c038b5fe1cfed75ecb9b2e71dba40950",
+    "secondary-fetch-retries.json": "de451f5ed0edf6b1ded9b26a5633ddb261910f0b5a91e3f4260def542f0350dc",
+    "semantic-contracts.json": "bb2a2ba8595b34776f68846e5abe280337442711fd3f04cbcc71e24a84ac6eee",
+    "semantic-notes-group1.json": "71589728876e89eb4bb3648d25cd5c95870ce99b66d56fd6fff73b9093db1cf9",
+    "semantic-notes-group2.json": "adcde4adae2e5c7f48111aad9291bb24ad7ebd80495b378407d75997ca7afe1a",
+    "semantic-notes-group3.json": "13cac280d98e07183eceb76d12d8e7d53270f578613b55c808fedbe4bda2731f",
+    "semantic-notes.json": "4cb01a4e3aa626454ddbcedd2afd439a970fedca6518082b9abdfb9ff8b0fa12",
+    "separate-bilingual-review.json": "ac8bee49df3955c972d4628cad1d87f1b2a1ef1a4e706d7c97478a8b9139ccb6",
+    "source-boundaries.json": "5c90098f09df80e29f4efeb8c5f8ef2950dd99e94195c0fd595105d090c86512",
+    "source-holds.json": "6032d60d3012787b8bbf9f94151d51f13c8d684c5d68864f9f467b74fec92c73",
+    "ua-field-countercheck.json": "338b4c357b65d664f14507a23d90ca16fd3ef03a2a2ebfa6f0728bb5af677507",
+    "validation.json": "254c124dd07c4b161ad4f5459b17f2de6e744746c6d81dbe4121c43e3093bdf9",
+    "worker-raw-source-proof-audit.json": "956d285dd049ba7b32aabe4d16d30c43995bb074873fe9509ed02ebeaef127cc",
+    "1153-sixty.html": "2d43c8f2aafeaf8c7b2b4d364b16449bf2dcd76791ad95939663f8ae4eae450a",
+    "1153-wowhead.html": "8ce956b2752b5e8f60dd574a35bf51e3c0b9a6ee7f596a13a2d01932d467e6ca",
+    "4770-sixty.html": "3d2f97016a5e0c6bd5668ccfc622d063cfa85e320772cb62ca7dcc7dfcc1d8c6",
+    "4770-wowhead.html": "e5add31f12537a950d42cb0539b62474d73a7c70254af908a5797b0938c287c7",
+    "4881-sixty.html": "9ae1742eb437bd748437d01aa12127859604438a15ef1821dc7fad1961bdd4e9",
+    "4881-wowhead.html": "ce4e70e3473cef450b45de17a27f8b989aacf488b29c9f07fa30df2faf6ba5e4",
+    "4904-sixty.html": "e6399282baf9389b102c61a1bb5f8084c458e702ad77fc3054074e0134bc728d",
+    "4904-wowhead.html": "a84850824e5fc47b9b022ccc13aac213728a8a0a92b7656a3750cbfc7b7b233c",
+    "4966-sixty.html": "11a2b015eed96a633055ad43d9907766a70bbde4337b84f62cf08bc6e0267be7",
+    "4966-wowhead.html": "4de58fc1b09eac631671c78217e01e13ed6036f1e083ec6bf938d7702369943b",
+    "5147-sixty.html": "531640f337de6c0c9fee92ab38de157556bc100acbc4176d7dafd1e28cf4eed8",
+    "5147-wowhead.html": "6833c3250872f6c4d69cb69ae05237469688eda85b430923a6bebcae1226bae7",
+    "5151-sixty.html": "3aa7671836048c9931f473f4bfc2579cdd658df8e51ca1b130461a82aeb9b0e7",
+    "5151-wowhead.html": "7852eaf43ab3387a69f5e62408ba6633956c312ef3a71e6f479c191c64b86c42",
+    "567-sixty.html": "17fe7bc9ab7cf062c6ed62b50b2546472ca33583eea66dda03cc31fb4dc83dd6",
+    "567-wowhead.html": "5f51565813c53cf66bf4d19fa7a6b31e7407cc37d2efa5b3991a641dfa32590a",
+    "6504-sixty.html": "e6ea98d58f5145d0d56d6237d4f410603d9f1e6532be91a7a93c8c75b789ea5a",
+    "6504-wowhead.html": "24887e84bd6594cda2d9de9e3e666f2fb000d78560b37fa6158567ad7c6d39bb",
+    "6921-sixty.html": "c74412fcacb60543633649cd19398b7c3aa42c69d61bc995600776cf86178269",
+    "6921-wowhead.html": "9cc6475a060fb12127fa226ed3e1589fc512f285c8aa494bc1febc0cb29297f4",
+    "6922-sixty.html": "f9ce5af5e0dd1029120e48017c4ac89439fbcbd2580c9eedbcce120c260174c5",
+    "6922-wowhead.html": "ebb82d176c1f1bba3a9493a011af5883c87a4ed644f33ad24fd32e6d67c5d198",
+    "96241-sixty.html": "a320b54c86a8e873e02f7f6274ddfbe5777b498321b07a5078c463d0f743a69d",
+    "96241-wowhead.html": "dbf8c3739473052f3c898a1d892eccc5dd64e6537c416d39c8c54918ecd8cc7c",
+    "96259-sixty.html": "b973db3cc973b53cff17cbbcf21e0aeece7026b8e9506ad41680b97024939f59",
+    "96259-wowhead.html": "0a2301d1a5f2b67e1531016ac4ee8c1daaa264cc9dbd165dc0598b3f53ad57c6",
+    "96260-sixty.html": "ba94deb934b155c281efe5c89a776f2ff7418c8dc078ad5ebfc5e40f6c184eec",
+    "96260-wowhead.html": "83421d67260fcfe433fe2bc107606de7e1d75b508ea51cbc4f9c3071c12a2828",
+    "96261-sixty.html": "66b35b2ff6cf80f88549dc2a2c3eec59ea72e837487417367e7bfcd4b06c0278",
+    "96261-wowhead.html": "2a0eaff1ca5352b0739027439046033642f264f5a2352ee06d427a8ef3020e8b",
+    "96294-sixty.html": "61adbe873e0441d417b36ca640b3a6204967a30dd6155aecd92f205661a5f415",
+    "96294-wowhead.html": "1fabbc7716e94d978fcb8cb96a6f5c35c6f6c45ea210348421f203fc08395865",
+    "98059-sixty.html": "1142a6f5414ff108e169d85287eebd997bfee0fffa95b40587d45f93dee8c497",
+    "98059-wowhead.html": "c888ff6062e89df63663e2fcb7bceb595dca9eb877abb384e82a82f536efa99c",
+    "98071-sixty.html": "b54e0271ffc239b7d492a53001ed4a8df818d6238999bce38ddc0685a83f980a",
+    "98071-wowhead.html": "5af19cd696a7877a88cdeca4d61d8bcf99a3d3fa7c868e6f7d9aad396b6c2cfe",
+    "98155-sixty.html": "08a50671235356af96763bf22364ac48422b62bc3964e4896161241adb8fb0c8",
+    "98155-wowhead.html": "aeec5f7f0a8d2f1ecf98d3705c0a4765e977f38c6649a167d5b87daacbcdeca8",
+    "98156-sixty.html": "7c8350eada043024f106c5ee29cb3bd75089676f06e7710955e6b150a2d315f3",
+    "98156-wowhead.html": "7efeef421c2329d53b0467403757399e720dda5b6a628ef790bee43482dc9098",
+    "check_contracts.py": "82a280b339c4081d99b5fea22eb9980a84997166d8b77b67a2bac2f1fbbfe5a9",
+    "checkpoint.py": "0d1bedfaaf1f34d0277753957f19745a82d459e8c0b46953410da7b7da5ccbd5",
+    "enrich-sources.py": "df22d64e05bcfe57b5099e1c2ecc755e2ccb74700951526807bd77e223801985",
+    "finalize.py": "2b2e3df0a56090c79f93fbe000a3aba4cbac7ce1a9754c7b9dae44ed286cd505",
+    "freeze.py": "ee6b05a0e3adc9198444c591cfc860bb294355c20c030d695740b4c08084238a",
+    "prepare.py": "a9edc4b29b7f6618d919a6c3e81ef218c324a7fdb87f09948e7b33b5f968cd69",
+    "verify-owned-worker.py": "b77d0f5fedac227b1524c069ab9a4b45f081ec531158749f9b2c4f53c232794c"
+  },
+  "frozenFileCount": 104,
+  "allCanonicalAliasesChecked": 900,
+  "canonicalAliasPaths": [
+    "comparison-provenance.json/fields/96241/title/editedSHA256",
+    "comparison-provenance.json/fields/96241/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/96241/title/myanmarSHA256",
+    "comparison-provenance.json/fields/96241/detail/editedSHA256",
+    "comparison-provenance.json/fields/96241/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/96241/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/96241/objective/editedSHA256",
+    "comparison-provenance.json/fields/96241/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/96241/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/96241/progress/editedSHA256",
+    "comparison-provenance.json/fields/96241/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/96241/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/96241/complete/editedSHA256",
+    "comparison-provenance.json/fields/96241/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/96241/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/96259/title/editedSHA256",
+    "comparison-provenance.json/fields/96259/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/96259/title/myanmarSHA256",
+    "comparison-provenance.json/fields/96259/detail/editedSHA256",
+    "comparison-provenance.json/fields/96259/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/96259/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/96259/objective/editedSHA256",
+    "comparison-provenance.json/fields/96259/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/96259/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/96259/progress/editedSHA256",
+    "comparison-provenance.json/fields/96259/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/96259/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/96259/complete/editedSHA256",
+    "comparison-provenance.json/fields/96259/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/96259/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/96260/title/editedSHA256",
+    "comparison-provenance.json/fields/96260/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/96260/title/myanmarSHA256",
+    "comparison-provenance.json/fields/96260/detail/editedSHA256",
+    "comparison-provenance.json/fields/96260/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/96260/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/96260/objective/editedSHA256",
+    "comparison-provenance.json/fields/96260/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/96260/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/96260/progress/editedSHA256",
+    "comparison-provenance.json/fields/96260/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/96260/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/96260/complete/editedSHA256",
+    "comparison-provenance.json/fields/96260/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/96260/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/96261/title/editedSHA256",
+    "comparison-provenance.json/fields/96261/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/96261/title/myanmarSHA256",
+    "comparison-provenance.json/fields/96261/detail/editedSHA256",
+    "comparison-provenance.json/fields/96261/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/96261/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/96261/objective/editedSHA256",
+    "comparison-provenance.json/fields/96261/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/96261/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/96261/progress/editedSHA256",
+    "comparison-provenance.json/fields/96261/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/96261/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/96261/complete/editedSHA256",
+    "comparison-provenance.json/fields/96261/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/96261/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/96294/title/editedSHA256",
+    "comparison-provenance.json/fields/96294/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/96294/title/myanmarSHA256",
+    "comparison-provenance.json/fields/96294/detail/editedSHA256",
+    "comparison-provenance.json/fields/96294/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/96294/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/96294/objective/editedSHA256",
+    "comparison-provenance.json/fields/96294/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/96294/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/96294/progress/editedSHA256",
+    "comparison-provenance.json/fields/96294/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/96294/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/96294/complete/editedSHA256",
+    "comparison-provenance.json/fields/96294/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/96294/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/4770/title/editedSHA256",
+    "comparison-provenance.json/fields/4770/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/4770/title/myanmarSHA256",
+    "comparison-provenance.json/fields/4770/detail/editedSHA256",
+    "comparison-provenance.json/fields/4770/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/4770/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/4770/objective/editedSHA256",
+    "comparison-provenance.json/fields/4770/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/4770/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/4770/progress/editedSHA256",
+    "comparison-provenance.json/fields/4770/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/4770/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/4770/complete/editedSHA256",
+    "comparison-provenance.json/fields/4770/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/4770/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/4881/title/editedSHA256",
+    "comparison-provenance.json/fields/4881/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/4881/title/myanmarSHA256",
+    "comparison-provenance.json/fields/4881/detail/editedSHA256",
+    "comparison-provenance.json/fields/4881/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/4881/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/4881/objective/editedSHA256",
+    "comparison-provenance.json/fields/4881/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/4881/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/4881/progress/editedSHA256",
+    "comparison-provenance.json/fields/4881/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/4881/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/4881/complete/editedSHA256",
+    "comparison-provenance.json/fields/4881/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/4881/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/4904/title/editedSHA256",
+    "comparison-provenance.json/fields/4904/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/4904/title/myanmarSHA256",
+    "comparison-provenance.json/fields/4904/detail/editedSHA256",
+    "comparison-provenance.json/fields/4904/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/4904/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/4904/objective/editedSHA256",
+    "comparison-provenance.json/fields/4904/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/4904/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/4904/progress/editedSHA256",
+    "comparison-provenance.json/fields/4904/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/4904/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/4904/complete/editedSHA256",
+    "comparison-provenance.json/fields/4904/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/4904/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/4966/title/editedSHA256",
+    "comparison-provenance.json/fields/4966/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/4966/title/myanmarSHA256",
+    "comparison-provenance.json/fields/4966/detail/editedSHA256",
+    "comparison-provenance.json/fields/4966/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/4966/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/4966/objective/editedSHA256",
+    "comparison-provenance.json/fields/4966/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/4966/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/4966/progress/editedSHA256",
+    "comparison-provenance.json/fields/4966/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/4966/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/4966/complete/editedSHA256",
+    "comparison-provenance.json/fields/4966/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/4966/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/5147/title/editedSHA256",
+    "comparison-provenance.json/fields/5147/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/5147/title/myanmarSHA256",
+    "comparison-provenance.json/fields/5147/detail/editedSHA256",
+    "comparison-provenance.json/fields/5147/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/5147/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/5147/objective/editedSHA256",
+    "comparison-provenance.json/fields/5147/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/5147/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/5147/progress/editedSHA256",
+    "comparison-provenance.json/fields/5147/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/5147/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/5147/complete/editedSHA256",
+    "comparison-provenance.json/fields/5147/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/5147/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/5151/title/editedSHA256",
+    "comparison-provenance.json/fields/5151/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/5151/title/myanmarSHA256",
+    "comparison-provenance.json/fields/5151/detail/editedSHA256",
+    "comparison-provenance.json/fields/5151/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/5151/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/5151/objective/editedSHA256",
+    "comparison-provenance.json/fields/5151/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/5151/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/5151/progress/editedSHA256",
+    "comparison-provenance.json/fields/5151/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/5151/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/5151/complete/editedSHA256",
+    "comparison-provenance.json/fields/5151/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/5151/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/98155/title/editedSHA256",
+    "comparison-provenance.json/fields/98155/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/98155/title/myanmarSHA256",
+    "comparison-provenance.json/fields/98155/detail/editedSHA256",
+    "comparison-provenance.json/fields/98155/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/98155/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/98155/objective/editedSHA256",
+    "comparison-provenance.json/fields/98155/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/98155/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/98155/progress/editedSHA256",
+    "comparison-provenance.json/fields/98155/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/98155/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/98155/complete/editedSHA256",
+    "comparison-provenance.json/fields/98155/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/98155/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/98156/title/editedSHA256",
+    "comparison-provenance.json/fields/98156/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/98156/title/myanmarSHA256",
+    "comparison-provenance.json/fields/98156/detail/editedSHA256",
+    "comparison-provenance.json/fields/98156/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/98156/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/98156/objective/editedSHA256",
+    "comparison-provenance.json/fields/98156/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/98156/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/98156/progress/editedSHA256",
+    "comparison-provenance.json/fields/98156/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/98156/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/98156/complete/editedSHA256",
+    "comparison-provenance.json/fields/98156/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/98156/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/567/title/editedSHA256",
+    "comparison-provenance.json/fields/567/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/567/title/myanmarSHA256",
+    "comparison-provenance.json/fields/567/detail/editedSHA256",
+    "comparison-provenance.json/fields/567/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/567/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/567/objective/editedSHA256",
+    "comparison-provenance.json/fields/567/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/567/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/567/progress/editedSHA256",
+    "comparison-provenance.json/fields/567/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/567/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/567/complete/editedSHA256",
+    "comparison-provenance.json/fields/567/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/567/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/1153/title/editedSHA256",
+    "comparison-provenance.json/fields/1153/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/1153/title/myanmarSHA256",
+    "comparison-provenance.json/fields/1153/detail/editedSHA256",
+    "comparison-provenance.json/fields/1153/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/1153/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/1153/objective/editedSHA256",
+    "comparison-provenance.json/fields/1153/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/1153/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/1153/progress/editedSHA256",
+    "comparison-provenance.json/fields/1153/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/1153/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/1153/complete/editedSHA256",
+    "comparison-provenance.json/fields/1153/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/1153/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/6504/title/editedSHA256",
+    "comparison-provenance.json/fields/6504/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/6504/title/myanmarSHA256",
+    "comparison-provenance.json/fields/6504/detail/editedSHA256",
+    "comparison-provenance.json/fields/6504/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/6504/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/6504/objective/editedSHA256",
+    "comparison-provenance.json/fields/6504/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/6504/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/6504/progress/editedSHA256",
+    "comparison-provenance.json/fields/6504/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/6504/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/6504/complete/editedSHA256",
+    "comparison-provenance.json/fields/6504/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/6504/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/6921/title/editedSHA256",
+    "comparison-provenance.json/fields/6921/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/6921/title/myanmarSHA256",
+    "comparison-provenance.json/fields/6921/detail/editedSHA256",
+    "comparison-provenance.json/fields/6921/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/6921/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/6921/objective/editedSHA256",
+    "comparison-provenance.json/fields/6921/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/6921/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/6921/progress/editedSHA256",
+    "comparison-provenance.json/fields/6921/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/6921/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/6921/complete/editedSHA256",
+    "comparison-provenance.json/fields/6921/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/6921/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/6922/title/editedSHA256",
+    "comparison-provenance.json/fields/6922/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/6922/title/myanmarSHA256",
+    "comparison-provenance.json/fields/6922/detail/editedSHA256",
+    "comparison-provenance.json/fields/6922/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/6922/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/6922/objective/editedSHA256",
+    "comparison-provenance.json/fields/6922/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/6922/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/6922/progress/editedSHA256",
+    "comparison-provenance.json/fields/6922/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/6922/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/6922/complete/editedSHA256",
+    "comparison-provenance.json/fields/6922/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/6922/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/98059/title/editedSHA256",
+    "comparison-provenance.json/fields/98059/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/98059/title/myanmarSHA256",
+    "comparison-provenance.json/fields/98059/detail/editedSHA256",
+    "comparison-provenance.json/fields/98059/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/98059/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/98059/objective/editedSHA256",
+    "comparison-provenance.json/fields/98059/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/98059/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/98059/progress/editedSHA256",
+    "comparison-provenance.json/fields/98059/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/98059/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/98059/complete/editedSHA256",
+    "comparison-provenance.json/fields/98059/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/98059/complete/myanmarSHA256",
+    "comparison-provenance.json/fields/98071/title/editedSHA256",
+    "comparison-provenance.json/fields/98071/title/finalEditedSHA256",
+    "comparison-provenance.json/fields/98071/title/myanmarSHA256",
+    "comparison-provenance.json/fields/98071/detail/editedSHA256",
+    "comparison-provenance.json/fields/98071/detail/finalEditedSHA256",
+    "comparison-provenance.json/fields/98071/detail/myanmarSHA256",
+    "comparison-provenance.json/fields/98071/objective/editedSHA256",
+    "comparison-provenance.json/fields/98071/objective/finalEditedSHA256",
+    "comparison-provenance.json/fields/98071/objective/myanmarSHA256",
+    "comparison-provenance.json/fields/98071/progress/editedSHA256",
+    "comparison-provenance.json/fields/98071/progress/finalEditedSHA256",
+    "comparison-provenance.json/fields/98071/progress/myanmarSHA256",
+    "comparison-provenance.json/fields/98071/complete/editedSHA256",
+    "comparison-provenance.json/fields/98071/complete/finalEditedSHA256",
+    "comparison-provenance.json/fields/98071/complete/myanmarSHA256",
+    "review-audit-group1.json/0/fields/title/myanmarSHA256",
+    "review-audit-group1.json/0/fields/title/editedSHA256",
+    "review-audit-group1.json/0/fields/title/finalEditedSHA256",
+    "review-audit-group1.json/0/fields/detail/myanmarSHA256",
+    "review-audit-group1.json/0/fields/detail/editedSHA256",
+    "review-audit-group1.json/0/fields/detail/finalEditedSHA256",
+    "review-audit-group1.json/0/fields/objective/myanmarSHA256",
+    "review-audit-group1.json/0/fields/objective/editedSHA256",
+    "review-audit-group1.json/0/fields/objective/finalEditedSHA256",
+    "review-audit-group1.json/0/fields/progress/myanmarSHA256",
+    "review-audit-group1.json/0/fields/progress/editedSHA256",
+    "review-audit-group1.json/0/fields/progress/finalEditedSHA256",
+    "review-audit-group1.json/0/fields/complete/myanmarSHA256",
+    "review-audit-group1.json/0/fields/complete/editedSHA256",
+    "review-audit-group1.json/0/fields/complete/finalEditedSHA256",
+    "review-audit-group1.json/1/fields/title/myanmarSHA256",
+    "review-audit-group1.json/1/fields/title/editedSHA256",
+    "review-audit-group1.json/1/fields/title/finalEditedSHA256",
+    "review-audit-group1.json/1/fields/detail/myanmarSHA256",
+    "review-audit-group1.json/1/fields/detail/editedSHA256",
+    "review-audit-group1.json/1/fields/detail/finalEditedSHA256",
+    "review-audit-group1.json/1/fields/objective/myanmarSHA256",
+    "review-audit-group1.json/1/fields/objective/editedSHA256",
+    "review-audit-group1.json/1/fields/objective/finalEditedSHA256",
+    "review-audit-group1.json/1/fields/progress/myanmarSHA256",
+    "review-audit-group1.json/1/fields/progress/editedSHA256",
+    "review-audit-group1.json/1/fields/progress/finalEditedSHA256",
+    "review-audit-group1.json/1/fields/complete/myanmarSHA256",
+    "review-audit-group1.json/1/fields/complete/editedSHA256",
+    "review-audit-group1.json/1/fields/complete/finalEditedSHA256",
+    "review-audit-group1.json/2/fields/title/myanmarSHA256",
+    "review-audit-group1.json/2/fields/title/editedSHA256",
+    "review-audit-group1.json/2/fields/title/finalEditedSHA256",
+    "review-audit-group1.json/2/fields/detail/myanmarSHA256",
+    "review-audit-group1.json/2/fields/detail/editedSHA256",
+    "review-audit-group1.json/2/fields/detail/finalEditedSHA256",
+    "review-audit-group1.json/2/fields/objective/myanmarSHA256",
+    "review-audit-group1.json/2/fields/objective/editedSHA256",
+    "review-audit-group1.json/2/fields/objective/finalEditedSHA256",
+    "review-audit-group1.json/2/fields/progress/myanmarSHA256",
+    "review-audit-group1.json/2/fields/progress/editedSHA256",
+    "review-audit-group1.json/2/fields/progress/finalEditedSHA256",
+    "review-audit-group1.json/2/fields/complete/myanmarSHA256",
+    "review-audit-group1.json/2/fields/complete/editedSHA256",
+    "review-audit-group1.json/2/fields/complete/finalEditedSHA256",
+    "review-audit-group1.json/3/fields/title/myanmarSHA256",
+    "review-audit-group1.json/3/fields/title/editedSHA256",
+    "review-audit-group1.json/3/fields/title/finalEditedSHA256",
+    "review-audit-group1.json/3/fields/detail/myanmarSHA256",
+    "review-audit-group1.json/3/fields/detail/editedSHA256",
+    "review-audit-group1.json/3/fields/detail/finalEditedSHA256",
+    "review-audit-group1.json/3/fields/objective/myanmarSHA256",
+    "review-audit-group1.json/3/fields/objective/editedSHA256",
+    "review-audit-group1.json/3/fields/objective/finalEditedSHA256",
+    "review-audit-group1.json/3/fields/progress/myanmarSHA256",
+    "review-audit-group1.json/3/fields/progress/editedSHA256",
+    "review-audit-group1.json/3/fields/progress/finalEditedSHA256",
+    "review-audit-group1.json/3/fields/complete/myanmarSHA256",
+    "review-audit-group1.json/3/fields/complete/editedSHA256",
+    "review-audit-group1.json/3/fields/complete/finalEditedSHA256",
+    "review-audit-group1.json/4/fields/title/myanmarSHA256",
+    "review-audit-group1.json/4/fields/title/editedSHA256",
+    "review-audit-group1.json/4/fields/title/finalEditedSHA256",
+    "review-audit-group1.json/4/fields/detail/myanmarSHA256",
+    "review-audit-group1.json/4/fields/detail/editedSHA256",
+    "review-audit-group1.json/4/fields/detail/finalEditedSHA256",
+    "review-audit-group1.json/4/fields/objective/myanmarSHA256",
+    "review-audit-group1.json/4/fields/objective/editedSHA256",
+    "review-audit-group1.json/4/fields/objective/finalEditedSHA256",
+    "review-audit-group1.json/4/fields/progress/myanmarSHA256",
+    "review-audit-group1.json/4/fields/progress/editedSHA256",
+    "review-audit-group1.json/4/fields/progress/finalEditedSHA256",
+    "review-audit-group1.json/4/fields/complete/myanmarSHA256",
+    "review-audit-group1.json/4/fields/complete/editedSHA256",
+    "review-audit-group1.json/4/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/0/fields/title/myanmarSHA256",
+    "review-audit-group2.json/0/fields/title/editedSHA256",
+    "review-audit-group2.json/0/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/0/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/0/fields/detail/editedSHA256",
+    "review-audit-group2.json/0/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/0/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/0/fields/objective/editedSHA256",
+    "review-audit-group2.json/0/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/0/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/0/fields/progress/editedSHA256",
+    "review-audit-group2.json/0/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/0/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/0/fields/complete/editedSHA256",
+    "review-audit-group2.json/0/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/1/fields/title/myanmarSHA256",
+    "review-audit-group2.json/1/fields/title/editedSHA256",
+    "review-audit-group2.json/1/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/1/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/1/fields/detail/editedSHA256",
+    "review-audit-group2.json/1/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/1/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/1/fields/objective/editedSHA256",
+    "review-audit-group2.json/1/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/1/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/1/fields/progress/editedSHA256",
+    "review-audit-group2.json/1/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/1/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/1/fields/complete/editedSHA256",
+    "review-audit-group2.json/1/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/2/fields/title/myanmarSHA256",
+    "review-audit-group2.json/2/fields/title/editedSHA256",
+    "review-audit-group2.json/2/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/2/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/2/fields/detail/editedSHA256",
+    "review-audit-group2.json/2/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/2/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/2/fields/objective/editedSHA256",
+    "review-audit-group2.json/2/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/2/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/2/fields/progress/editedSHA256",
+    "review-audit-group2.json/2/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/2/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/2/fields/complete/editedSHA256",
+    "review-audit-group2.json/2/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/3/fields/title/myanmarSHA256",
+    "review-audit-group2.json/3/fields/title/editedSHA256",
+    "review-audit-group2.json/3/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/3/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/3/fields/detail/editedSHA256",
+    "review-audit-group2.json/3/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/3/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/3/fields/objective/editedSHA256",
+    "review-audit-group2.json/3/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/3/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/3/fields/progress/editedSHA256",
+    "review-audit-group2.json/3/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/3/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/3/fields/complete/editedSHA256",
+    "review-audit-group2.json/3/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/4/fields/title/myanmarSHA256",
+    "review-audit-group2.json/4/fields/title/editedSHA256",
+    "review-audit-group2.json/4/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/4/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/4/fields/detail/editedSHA256",
+    "review-audit-group2.json/4/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/4/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/4/fields/objective/editedSHA256",
+    "review-audit-group2.json/4/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/4/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/4/fields/progress/editedSHA256",
+    "review-audit-group2.json/4/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/4/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/4/fields/complete/editedSHA256",
+    "review-audit-group2.json/4/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/5/fields/title/myanmarSHA256",
+    "review-audit-group2.json/5/fields/title/editedSHA256",
+    "review-audit-group2.json/5/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/5/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/5/fields/detail/editedSHA256",
+    "review-audit-group2.json/5/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/5/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/5/fields/objective/editedSHA256",
+    "review-audit-group2.json/5/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/5/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/5/fields/progress/editedSHA256",
+    "review-audit-group2.json/5/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/5/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/5/fields/complete/editedSHA256",
+    "review-audit-group2.json/5/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/6/fields/title/myanmarSHA256",
+    "review-audit-group2.json/6/fields/title/editedSHA256",
+    "review-audit-group2.json/6/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/6/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/6/fields/detail/editedSHA256",
+    "review-audit-group2.json/6/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/6/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/6/fields/objective/editedSHA256",
+    "review-audit-group2.json/6/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/6/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/6/fields/progress/editedSHA256",
+    "review-audit-group2.json/6/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/6/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/6/fields/complete/editedSHA256",
+    "review-audit-group2.json/6/fields/complete/finalEditedSHA256",
+    "review-audit-group2.json/7/fields/title/myanmarSHA256",
+    "review-audit-group2.json/7/fields/title/editedSHA256",
+    "review-audit-group2.json/7/fields/title/finalEditedSHA256",
+    "review-audit-group2.json/7/fields/detail/myanmarSHA256",
+    "review-audit-group2.json/7/fields/detail/editedSHA256",
+    "review-audit-group2.json/7/fields/detail/finalEditedSHA256",
+    "review-audit-group2.json/7/fields/objective/myanmarSHA256",
+    "review-audit-group2.json/7/fields/objective/editedSHA256",
+    "review-audit-group2.json/7/fields/objective/finalEditedSHA256",
+    "review-audit-group2.json/7/fields/progress/myanmarSHA256",
+    "review-audit-group2.json/7/fields/progress/editedSHA256",
+    "review-audit-group2.json/7/fields/progress/finalEditedSHA256",
+    "review-audit-group2.json/7/fields/complete/myanmarSHA256",
+    "review-audit-group2.json/7/fields/complete/editedSHA256",
+    "review-audit-group2.json/7/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/0/fields/title/myanmarSHA256",
+    "review-audit-group3.json/0/fields/title/editedSHA256",
+    "review-audit-group3.json/0/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/0/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/0/fields/detail/editedSHA256",
+    "review-audit-group3.json/0/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/0/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/0/fields/objective/editedSHA256",
+    "review-audit-group3.json/0/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/0/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/0/fields/progress/editedSHA256",
+    "review-audit-group3.json/0/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/0/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/0/fields/complete/editedSHA256",
+    "review-audit-group3.json/0/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/1/fields/title/myanmarSHA256",
+    "review-audit-group3.json/1/fields/title/editedSHA256",
+    "review-audit-group3.json/1/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/1/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/1/fields/detail/editedSHA256",
+    "review-audit-group3.json/1/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/1/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/1/fields/objective/editedSHA256",
+    "review-audit-group3.json/1/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/1/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/1/fields/progress/editedSHA256",
+    "review-audit-group3.json/1/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/1/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/1/fields/complete/editedSHA256",
+    "review-audit-group3.json/1/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/2/fields/title/myanmarSHA256",
+    "review-audit-group3.json/2/fields/title/editedSHA256",
+    "review-audit-group3.json/2/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/2/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/2/fields/detail/editedSHA256",
+    "review-audit-group3.json/2/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/2/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/2/fields/objective/editedSHA256",
+    "review-audit-group3.json/2/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/2/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/2/fields/progress/editedSHA256",
+    "review-audit-group3.json/2/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/2/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/2/fields/complete/editedSHA256",
+    "review-audit-group3.json/2/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/3/fields/title/myanmarSHA256",
+    "review-audit-group3.json/3/fields/title/editedSHA256",
+    "review-audit-group3.json/3/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/3/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/3/fields/detail/editedSHA256",
+    "review-audit-group3.json/3/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/3/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/3/fields/objective/editedSHA256",
+    "review-audit-group3.json/3/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/3/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/3/fields/progress/editedSHA256",
+    "review-audit-group3.json/3/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/3/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/3/fields/complete/editedSHA256",
+    "review-audit-group3.json/3/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/4/fields/title/myanmarSHA256",
+    "review-audit-group3.json/4/fields/title/editedSHA256",
+    "review-audit-group3.json/4/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/4/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/4/fields/detail/editedSHA256",
+    "review-audit-group3.json/4/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/4/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/4/fields/objective/editedSHA256",
+    "review-audit-group3.json/4/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/4/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/4/fields/progress/editedSHA256",
+    "review-audit-group3.json/4/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/4/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/4/fields/complete/editedSHA256",
+    "review-audit-group3.json/4/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/5/fields/title/myanmarSHA256",
+    "review-audit-group3.json/5/fields/title/editedSHA256",
+    "review-audit-group3.json/5/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/5/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/5/fields/detail/editedSHA256",
+    "review-audit-group3.json/5/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/5/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/5/fields/objective/editedSHA256",
+    "review-audit-group3.json/5/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/5/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/5/fields/progress/editedSHA256",
+    "review-audit-group3.json/5/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/5/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/5/fields/complete/editedSHA256",
+    "review-audit-group3.json/5/fields/complete/finalEditedSHA256",
+    "review-audit-group3.json/6/fields/title/myanmarSHA256",
+    "review-audit-group3.json/6/fields/title/editedSHA256",
+    "review-audit-group3.json/6/fields/title/finalEditedSHA256",
+    "review-audit-group3.json/6/fields/detail/myanmarSHA256",
+    "review-audit-group3.json/6/fields/detail/editedSHA256",
+    "review-audit-group3.json/6/fields/detail/finalEditedSHA256",
+    "review-audit-group3.json/6/fields/objective/myanmarSHA256",
+    "review-audit-group3.json/6/fields/objective/editedSHA256",
+    "review-audit-group3.json/6/fields/objective/finalEditedSHA256",
+    "review-audit-group3.json/6/fields/progress/myanmarSHA256",
+    "review-audit-group3.json/6/fields/progress/editedSHA256",
+    "review-audit-group3.json/6/fields/progress/finalEditedSHA256",
+    "review-audit-group3.json/6/fields/complete/myanmarSHA256",
+    "review-audit-group3.json/6/fields/complete/editedSHA256",
+    "review-audit-group3.json/6/fields/complete/finalEditedSHA256",
+    "review-audit.json/0/fields/title/myanmarSHA256",
+    "review-audit.json/0/fields/title/editedSHA256",
+    "review-audit.json/0/fields/title/finalEditedSHA256",
+    "review-audit.json/0/fields/detail/myanmarSHA256",
+    "review-audit.json/0/fields/detail/editedSHA256",
+    "review-audit.json/0/fields/detail/finalEditedSHA256",
+    "review-audit.json/0/fields/objective/myanmarSHA256",
+    "review-audit.json/0/fields/objective/editedSHA256",
+    "review-audit.json/0/fields/objective/finalEditedSHA256",
+    "review-audit.json/0/fields/progress/myanmarSHA256",
+    "review-audit.json/0/fields/progress/editedSHA256",
+    "review-audit.json/0/fields/progress/finalEditedSHA256",
+    "review-audit.json/0/fields/complete/myanmarSHA256",
+    "review-audit.json/0/fields/complete/editedSHA256",
+    "review-audit.json/0/fields/complete/finalEditedSHA256",
+    "review-audit.json/1/fields/title/myanmarSHA256",
+    "review-audit.json/1/fields/title/editedSHA256",
+    "review-audit.json/1/fields/title/finalEditedSHA256",
+    "review-audit.json/1/fields/detail/myanmarSHA256",
+    "review-audit.json/1/fields/detail/editedSHA256",
+    "review-audit.json/1/fields/detail/finalEditedSHA256",
+    "review-audit.json/1/fields/objective/myanmarSHA256",
+    "review-audit.json/1/fields/objective/editedSHA256",
+    "review-audit.json/1/fields/objective/finalEditedSHA256",
+    "review-audit.json/1/fields/progress/myanmarSHA256",
+    "review-audit.json/1/fields/progress/editedSHA256",
+    "review-audit.json/1/fields/progress/finalEditedSHA256",
+    "review-audit.json/1/fields/complete/myanmarSHA256",
+    "review-audit.json/1/fields/complete/editedSHA256",
+    "review-audit.json/1/fields/complete/finalEditedSHA256",
+    "review-audit.json/2/fields/title/myanmarSHA256",
+    "review-audit.json/2/fields/title/editedSHA256",
+    "review-audit.json/2/fields/title/finalEditedSHA256",
+    "review-audit.json/2/fields/detail/myanmarSHA256",
+    "review-audit.json/2/fields/detail/editedSHA256",
+    "review-audit.json/2/fields/detail/finalEditedSHA256",
+    "review-audit.json/2/fields/objective/myanmarSHA256",
+    "review-audit.json/2/fields/objective/editedSHA256",
+    "review-audit.json/2/fields/objective/finalEditedSHA256",
+    "review-audit.json/2/fields/progress/myanmarSHA256",
+    "review-audit.json/2/fields/progress/editedSHA256",
+    "review-audit.json/2/fields/progress/finalEditedSHA256",
+    "review-audit.json/2/fields/complete/myanmarSHA256",
+    "review-audit.json/2/fields/complete/editedSHA256",
+    "review-audit.json/2/fields/complete/finalEditedSHA256",
+    "review-audit.json/3/fields/title/myanmarSHA256",
+    "review-audit.json/3/fields/title/editedSHA256",
+    "review-audit.json/3/fields/title/finalEditedSHA256",
+    "review-audit.json/3/fields/detail/myanmarSHA256",
+    "review-audit.json/3/fields/detail/editedSHA256",
+    "review-audit.json/3/fields/detail/finalEditedSHA256",
+    "review-audit.json/3/fields/objective/myanmarSHA256",
+    "review-audit.json/3/fields/objective/editedSHA256",
+    "review-audit.json/3/fields/objective/finalEditedSHA256",
+    "review-audit.json/3/fields/progress/myanmarSHA256",
+    "review-audit.json/3/fields/progress/editedSHA256",
+    "review-audit.json/3/fields/progress/finalEditedSHA256",
+    "review-audit.json/3/fields/complete/myanmarSHA256",
+    "review-audit.json/3/fields/complete/editedSHA256",
+    "review-audit.json/3/fields/complete/finalEditedSHA256",
+    "review-audit.json/4/fields/title/myanmarSHA256",
+    "review-audit.json/4/fields/title/editedSHA256",
+    "review-audit.json/4/fields/title/finalEditedSHA256",
+    "review-audit.json/4/fields/detail/myanmarSHA256",
+    "review-audit.json/4/fields/detail/editedSHA256",
+    "review-audit.json/4/fields/detail/finalEditedSHA256",
+    "review-audit.json/4/fields/objective/myanmarSHA256",
+    "review-audit.json/4/fields/objective/editedSHA256",
+    "review-audit.json/4/fields/objective/finalEditedSHA256",
+    "review-audit.json/4/fields/progress/myanmarSHA256",
+    "review-audit.json/4/fields/progress/editedSHA256",
+    "review-audit.json/4/fields/progress/finalEditedSHA256",
+    "review-audit.json/4/fields/complete/myanmarSHA256",
+    "review-audit.json/4/fields/complete/editedSHA256",
+    "review-audit.json/4/fields/complete/finalEditedSHA256",
+    "review-audit.json/5/fields/title/myanmarSHA256",
+    "review-audit.json/5/fields/title/editedSHA256",
+    "review-audit.json/5/fields/title/finalEditedSHA256",
+    "review-audit.json/5/fields/detail/myanmarSHA256",
+    "review-audit.json/5/fields/detail/editedSHA256",
+    "review-audit.json/5/fields/detail/finalEditedSHA256",
+    "review-audit.json/5/fields/objective/myanmarSHA256",
+    "review-audit.json/5/fields/objective/editedSHA256",
+    "review-audit.json/5/fields/objective/finalEditedSHA256",
+    "review-audit.json/5/fields/progress/myanmarSHA256",
+    "review-audit.json/5/fields/progress/editedSHA256",
+    "review-audit.json/5/fields/progress/finalEditedSHA256",
+    "review-audit.json/5/fields/complete/myanmarSHA256",
+    "review-audit.json/5/fields/complete/editedSHA256",
+    "review-audit.json/5/fields/complete/finalEditedSHA256",
+    "review-audit.json/6/fields/title/myanmarSHA256",
+    "review-audit.json/6/fields/title/editedSHA256",
+    "review-audit.json/6/fields/title/finalEditedSHA256",
+    "review-audit.json/6/fields/detail/myanmarSHA256",
+    "review-audit.json/6/fields/detail/editedSHA256",
+    "review-audit.json/6/fields/detail/finalEditedSHA256",
+    "review-audit.json/6/fields/objective/myanmarSHA256",
+    "review-audit.json/6/fields/objective/editedSHA256",
+    "review-audit.json/6/fields/objective/finalEditedSHA256",
+    "review-audit.json/6/fields/progress/myanmarSHA256",
+    "review-audit.json/6/fields/progress/editedSHA256",
+    "review-audit.json/6/fields/progress/finalEditedSHA256",
+    "review-audit.json/6/fields/complete/myanmarSHA256",
+    "review-audit.json/6/fields/complete/editedSHA256",
+    "review-audit.json/6/fields/complete/finalEditedSHA256",
+    "review-audit.json/7/fields/title/myanmarSHA256",
+    "review-audit.json/7/fields/title/editedSHA256",
+    "review-audit.json/7/fields/title/finalEditedSHA256",
+    "review-audit.json/7/fields/detail/myanmarSHA256",
+    "review-audit.json/7/fields/detail/editedSHA256",
+    "review-audit.json/7/fields/detail/finalEditedSHA256",
+    "review-audit.json/7/fields/objective/myanmarSHA256",
+    "review-audit.json/7/fields/objective/editedSHA256",
+    "review-audit.json/7/fields/objective/finalEditedSHA256",
+    "review-audit.json/7/fields/progress/myanmarSHA256",
+    "review-audit.json/7/fields/progress/editedSHA256",
+    "review-audit.json/7/fields/progress/finalEditedSHA256",
+    "review-audit.json/7/fields/complete/myanmarSHA256",
+    "review-audit.json/7/fields/complete/editedSHA256",
+    "review-audit.json/7/fields/complete/finalEditedSHA256",
+    "review-audit.json/8/fields/title/myanmarSHA256",
+    "review-audit.json/8/fields/title/editedSHA256",
+    "review-audit.json/8/fields/title/finalEditedSHA256",
+    "review-audit.json/8/fields/detail/myanmarSHA256",
+    "review-audit.json/8/fields/detail/editedSHA256",
+    "review-audit.json/8/fields/detail/finalEditedSHA256",
+    "review-audit.json/8/fields/objective/myanmarSHA256",
+    "review-audit.json/8/fields/objective/editedSHA256",
+    "review-audit.json/8/fields/objective/finalEditedSHA256",
+    "review-audit.json/8/fields/progress/myanmarSHA256",
+    "review-audit.json/8/fields/progress/editedSHA256",
+    "review-audit.json/8/fields/progress/finalEditedSHA256",
+    "review-audit.json/8/fields/complete/myanmarSHA256",
+    "review-audit.json/8/fields/complete/editedSHA256",
+    "review-audit.json/8/fields/complete/finalEditedSHA256",
+    "review-audit.json/9/fields/title/myanmarSHA256",
+    "review-audit.json/9/fields/title/editedSHA256",
+    "review-audit.json/9/fields/title/finalEditedSHA256",
+    "review-audit.json/9/fields/detail/myanmarSHA256",
+    "review-audit.json/9/fields/detail/editedSHA256",
+    "review-audit.json/9/fields/detail/finalEditedSHA256",
+    "review-audit.json/9/fields/objective/myanmarSHA256",
+    "review-audit.json/9/fields/objective/editedSHA256",
+    "review-audit.json/9/fields/objective/finalEditedSHA256",
+    "review-audit.json/9/fields/progress/myanmarSHA256",
+    "review-audit.json/9/fields/progress/editedSHA256",
+    "review-audit.json/9/fields/progress/finalEditedSHA256",
+    "review-audit.json/9/fields/complete/myanmarSHA256",
+    "review-audit.json/9/fields/complete/editedSHA256",
+    "review-audit.json/9/fields/complete/finalEditedSHA256",
+    "review-audit.json/10/fields/title/myanmarSHA256",
+    "review-audit.json/10/fields/title/editedSHA256",
+    "review-audit.json/10/fields/title/finalEditedSHA256",
+    "review-audit.json/10/fields/detail/myanmarSHA256",
+    "review-audit.json/10/fields/detail/editedSHA256",
+    "review-audit.json/10/fields/detail/finalEditedSHA256",
+    "review-audit.json/10/fields/objective/myanmarSHA256",
+    "review-audit.json/10/fields/objective/editedSHA256",
+    "review-audit.json/10/fields/objective/finalEditedSHA256",
+    "review-audit.json/10/fields/progress/myanmarSHA256",
+    "review-audit.json/10/fields/progress/editedSHA256",
+    "review-audit.json/10/fields/progress/finalEditedSHA256",
+    "review-audit.json/10/fields/complete/myanmarSHA256",
+    "review-audit.json/10/fields/complete/editedSHA256",
+    "review-audit.json/10/fields/complete/finalEditedSHA256",
+    "review-audit.json/11/fields/title/myanmarSHA256",
+    "review-audit.json/11/fields/title/editedSHA256",
+    "review-audit.json/11/fields/title/finalEditedSHA256",
+    "review-audit.json/11/fields/detail/myanmarSHA256",
+    "review-audit.json/11/fields/detail/editedSHA256",
+    "review-audit.json/11/fields/detail/finalEditedSHA256",
+    "review-audit.json/11/fields/objective/myanmarSHA256",
+    "review-audit.json/11/fields/objective/editedSHA256",
+    "review-audit.json/11/fields/objective/finalEditedSHA256",
+    "review-audit.json/11/fields/progress/myanmarSHA256",
+    "review-audit.json/11/fields/progress/editedSHA256",
+    "review-audit.json/11/fields/progress/finalEditedSHA256",
+    "review-audit.json/11/fields/complete/myanmarSHA256",
+    "review-audit.json/11/fields/complete/editedSHA256",
+    "review-audit.json/11/fields/complete/finalEditedSHA256",
+    "review-audit.json/12/fields/title/myanmarSHA256",
+    "review-audit.json/12/fields/title/editedSHA256",
+    "review-audit.json/12/fields/title/finalEditedSHA256",
+    "review-audit.json/12/fields/detail/myanmarSHA256",
+    "review-audit.json/12/fields/detail/editedSHA256",
+    "review-audit.json/12/fields/detail/finalEditedSHA256",
+    "review-audit.json/12/fields/objective/myanmarSHA256",
+    "review-audit.json/12/fields/objective/editedSHA256",
+    "review-audit.json/12/fields/objective/finalEditedSHA256",
+    "review-audit.json/12/fields/progress/myanmarSHA256",
+    "review-audit.json/12/fields/progress/editedSHA256",
+    "review-audit.json/12/fields/progress/finalEditedSHA256",
+    "review-audit.json/12/fields/complete/myanmarSHA256",
+    "review-audit.json/12/fields/complete/editedSHA256",
+    "review-audit.json/12/fields/complete/finalEditedSHA256",
+    "review-audit.json/13/fields/title/myanmarSHA256",
+    "review-audit.json/13/fields/title/editedSHA256",
+    "review-audit.json/13/fields/title/finalEditedSHA256",
+    "review-audit.json/13/fields/detail/myanmarSHA256",
+    "review-audit.json/13/fields/detail/editedSHA256",
+    "review-audit.json/13/fields/detail/finalEditedSHA256",
+    "review-audit.json/13/fields/objective/myanmarSHA256",
+    "review-audit.json/13/fields/objective/editedSHA256",
+    "review-audit.json/13/fields/objective/finalEditedSHA256",
+    "review-audit.json/13/fields/progress/myanmarSHA256",
+    "review-audit.json/13/fields/progress/editedSHA256",
+    "review-audit.json/13/fields/progress/finalEditedSHA256",
+    "review-audit.json/13/fields/complete/myanmarSHA256",
+    "review-audit.json/13/fields/complete/editedSHA256",
+    "review-audit.json/13/fields/complete/finalEditedSHA256",
+    "review-audit.json/14/fields/title/myanmarSHA256",
+    "review-audit.json/14/fields/title/editedSHA256",
+    "review-audit.json/14/fields/title/finalEditedSHA256",
+    "review-audit.json/14/fields/detail/myanmarSHA256",
+    "review-audit.json/14/fields/detail/editedSHA256",
+    "review-audit.json/14/fields/detail/finalEditedSHA256",
+    "review-audit.json/14/fields/objective/myanmarSHA256",
+    "review-audit.json/14/fields/objective/editedSHA256",
+    "review-audit.json/14/fields/objective/finalEditedSHA256",
+    "review-audit.json/14/fields/progress/myanmarSHA256",
+    "review-audit.json/14/fields/progress/editedSHA256",
+    "review-audit.json/14/fields/progress/finalEditedSHA256",
+    "review-audit.json/14/fields/complete/myanmarSHA256",
+    "review-audit.json/14/fields/complete/editedSHA256",
+    "review-audit.json/14/fields/complete/finalEditedSHA256",
+    "review-audit.json/15/fields/title/myanmarSHA256",
+    "review-audit.json/15/fields/title/editedSHA256",
+    "review-audit.json/15/fields/title/finalEditedSHA256",
+    "review-audit.json/15/fields/detail/myanmarSHA256",
+    "review-audit.json/15/fields/detail/editedSHA256",
+    "review-audit.json/15/fields/detail/finalEditedSHA256",
+    "review-audit.json/15/fields/objective/myanmarSHA256",
+    "review-audit.json/15/fields/objective/editedSHA256",
+    "review-audit.json/15/fields/objective/finalEditedSHA256",
+    "review-audit.json/15/fields/progress/myanmarSHA256",
+    "review-audit.json/15/fields/progress/editedSHA256",
+    "review-audit.json/15/fields/progress/finalEditedSHA256",
+    "review-audit.json/15/fields/complete/myanmarSHA256",
+    "review-audit.json/15/fields/complete/editedSHA256",
+    "review-audit.json/15/fields/complete/finalEditedSHA256",
+    "review-audit.json/16/fields/title/myanmarSHA256",
+    "review-audit.json/16/fields/title/editedSHA256",
+    "review-audit.json/16/fields/title/finalEditedSHA256",
+    "review-audit.json/16/fields/detail/myanmarSHA256",
+    "review-audit.json/16/fields/detail/editedSHA256",
+    "review-audit.json/16/fields/detail/finalEditedSHA256",
+    "review-audit.json/16/fields/objective/myanmarSHA256",
+    "review-audit.json/16/fields/objective/editedSHA256",
+    "review-audit.json/16/fields/objective/finalEditedSHA256",
+    "review-audit.json/16/fields/progress/myanmarSHA256",
+    "review-audit.json/16/fields/progress/editedSHA256",
+    "review-audit.json/16/fields/progress/finalEditedSHA256",
+    "review-audit.json/16/fields/complete/myanmarSHA256",
+    "review-audit.json/16/fields/complete/editedSHA256",
+    "review-audit.json/16/fields/complete/finalEditedSHA256",
+    "review-audit.json/17/fields/title/myanmarSHA256",
+    "review-audit.json/17/fields/title/editedSHA256",
+    "review-audit.json/17/fields/title/finalEditedSHA256",
+    "review-audit.json/17/fields/detail/myanmarSHA256",
+    "review-audit.json/17/fields/detail/editedSHA256",
+    "review-audit.json/17/fields/detail/finalEditedSHA256",
+    "review-audit.json/17/fields/objective/myanmarSHA256",
+    "review-audit.json/17/fields/objective/editedSHA256",
+    "review-audit.json/17/fields/objective/finalEditedSHA256",
+    "review-audit.json/17/fields/progress/myanmarSHA256",
+    "review-audit.json/17/fields/progress/editedSHA256",
+    "review-audit.json/17/fields/progress/finalEditedSHA256",
+    "review-audit.json/17/fields/complete/myanmarSHA256",
+    "review-audit.json/17/fields/complete/editedSHA256",
+    "review-audit.json/17/fields/complete/finalEditedSHA256",
+    "review-audit.json/18/fields/title/myanmarSHA256",
+    "review-audit.json/18/fields/title/editedSHA256",
+    "review-audit.json/18/fields/title/finalEditedSHA256",
+    "review-audit.json/18/fields/detail/myanmarSHA256",
+    "review-audit.json/18/fields/detail/editedSHA256",
+    "review-audit.json/18/fields/detail/finalEditedSHA256",
+    "review-audit.json/18/fields/objective/myanmarSHA256",
+    "review-audit.json/18/fields/objective/editedSHA256",
+    "review-audit.json/18/fields/objective/finalEditedSHA256",
+    "review-audit.json/18/fields/progress/myanmarSHA256",
+    "review-audit.json/18/fields/progress/editedSHA256",
+    "review-audit.json/18/fields/progress/finalEditedSHA256",
+    "review-audit.json/18/fields/complete/myanmarSHA256",
+    "review-audit.json/18/fields/complete/editedSHA256",
+    "review-audit.json/18/fields/complete/finalEditedSHA256",
+    "review-audit.json/19/fields/title/myanmarSHA256",
+    "review-audit.json/19/fields/title/editedSHA256",
+    "review-audit.json/19/fields/title/finalEditedSHA256",
+    "review-audit.json/19/fields/detail/myanmarSHA256",
+    "review-audit.json/19/fields/detail/editedSHA256",
+    "review-audit.json/19/fields/detail/finalEditedSHA256",
+    "review-audit.json/19/fields/objective/myanmarSHA256",
+    "review-audit.json/19/fields/objective/editedSHA256",
+    "review-audit.json/19/fields/objective/finalEditedSHA256",
+    "review-audit.json/19/fields/progress/myanmarSHA256",
+    "review-audit.json/19/fields/progress/editedSHA256",
+    "review-audit.json/19/fields/progress/finalEditedSHA256",
+    "review-audit.json/19/fields/complete/myanmarSHA256",
+    "review-audit.json/19/fields/complete/editedSHA256",
+    "review-audit.json/19/fields/complete/finalEditedSHA256"
+  ],
+  "actualDeepLChains": [
+    {
+      "id": 96241,
+      "field": "title",
+      "batch": 1,
+      "requestIndex": 0,
+      "englishSHA256": "0ff570f387e12c5354e9e43cc63d16754957723d1246dff4c5c87dcb24091fb7",
+      "rawDeepLSHA256": "6eb91eb970dda542b7f8f1bba1cb1751d036fa1f97a8fdec170fd2fcf7e67b45",
+      "editedSHA256": "50696012d9f1a17f204612dbb91e61ae6ce0d3a1f761d331454c1a195b02757d"
+    },
+    {
+      "id": 96241,
+      "field": "detail",
+      "batch": 1,
+      "requestIndex": 1,
+      "englishSHA256": "5d2439efda1799fe7fbd0c0c905554859e3f63c6bd684b22c4c07c77c5ff264c",
+      "rawDeepLSHA256": "62c2c3ee63094d5f72286a47b6badfdc915e77320b56b82abad1a3db6bf8d641",
+      "editedSHA256": "2aa4daa2f326bd1b2e0008b76aab5058a284ad36d544f9c160829c939c0b4769"
+    },
+    {
+      "id": 96241,
+      "field": "objective",
+      "batch": 1,
+      "requestIndex": 2,
+      "englishSHA256": "66251602192854c5baa924ce77454845affeb5067ef904de8de8e10d7cd70812",
+      "rawDeepLSHA256": "125965749cd33ec908ccce7f90253cc7533c77748c5e167fda2a1eb6b5efaa14",
+      "editedSHA256": "9f6b52208399e816d41f24c14091ccaad03030edb5fadb1d2a7eb59c5ca576b7"
+    },
+    {
+      "id": 96241,
+      "field": "progress",
+      "batch": 1,
+      "requestIndex": 3,
+      "englishSHA256": "8a8ae07906131c0f5a019f3d880529e584e9b478d94c9318e9da699384c55c27",
+      "rawDeepLSHA256": "2f5985ec4d8eb605c253b17a179ff98f7d2a6960facbcf558316d814d9f9823d",
+      "editedSHA256": "f47cf510f6314c6e18308ad866aaf0dc23266eb6762d2fe18cb845c9ff331406"
+    },
+    {
+      "id": 96241,
+      "field": "complete",
+      "batch": 1,
+      "requestIndex": 4,
+      "englishSHA256": "0d2493fa2ce199adbc45f548b2298bcd1c967bfe90301501267372e5ba9505b8",
+      "rawDeepLSHA256": "209e615a4bfc32a5587330821a8e3e99f31e5feda0275fa5faed183b9a848b07",
+      "editedSHA256": "563bc64321e8543390cba79f2bd28a239d35761ac76677eabb5409857ef20c6c"
+    },
+    {
+      "id": 96259,
+      "field": "title",
+      "batch": 1,
+      "requestIndex": 5,
+      "englishSHA256": "c26e031b82d041c88011849548c2d9e30cffa2531eceb517ddcb6c7a26971c92",
+      "rawDeepLSHA256": "267478659f8e3ffce9ff12f4f28160271e0c4da9592588e31055e583aed7c216",
+      "editedSHA256": "b2b740bb37d7f90631b30caad0489f09e9ae53aea1f100bda5331f78e961f515"
+    },
+    {
+      "id": 96259,
+      "field": "detail",
+      "batch": 1,
+      "requestIndex": 6,
+      "englishSHA256": "9d1d3643a29594c5fe96d9ac5fdb8cdb042857895db91870609341de3eef315b",
+      "rawDeepLSHA256": "b9fb4362695dd95c31a163a92bc34b9e5251546cd847ce38bdf406a523de16d4",
+      "editedSHA256": "23ce7b6418690a5b52f8b70d33a8ccd70bc8513ca4dd1d6ab020dc53345da094"
+    },
+    {
+      "id": 96259,
+      "field": "objective",
+      "batch": 1,
+      "requestIndex": 7,
+      "englishSHA256": "84c5c9298ed0cd538c647a7a464222ca4389d356b2a699cc180bd46b65c1e85d",
+      "rawDeepLSHA256": "c55020ab52fa2f5133f3c878ea293f058af7c7e95c796ffe6a53a8536e8bf155",
+      "editedSHA256": "3201865cfc3f706968c4e078f95d292bc7a7da6b060e3ce7d5f256fbe986007e"
+    },
+    {
+      "id": 96259,
+      "field": "progress",
+      "batch": 1,
+      "requestIndex": 8,
+      "englishSHA256": "d26f8f925a47405972d3704ff6c888b8af85eab5324024be3f9f9500a93d8d73",
+      "rawDeepLSHA256": "73dd0aa5850ba4e6a1e855117343906834c6705f1fde6ab45a1c660116c10da1",
+      "editedSHA256": "670f565327747697640a9952b5f2063a8cd3a55a12396d312f7eddc674968007"
+    },
+    {
+      "id": 96259,
+      "field": "complete",
+      "batch": 1,
+      "requestIndex": 9,
+      "englishSHA256": "7301c472fbe6f3710b86db8fe92c6656a388f982626126cc288728fc4754fe20",
+      "rawDeepLSHA256": "827db0b898a375e44a41ccb3b0efbc761e28a24883d65be841ed19e1f45d1da4",
+      "editedSHA256": "7e7c6a6b5334a985ada2c75ddf0de90cdf542dc97d3f0e843f25875456c576a6"
+    },
+    {
+      "id": 96260,
+      "field": "title",
+      "batch": 1,
+      "requestIndex": 10,
+      "englishSHA256": "ec91754162043fd031f421436979f18b214bd27818f3de1f4982e3e2d4b3fd87",
+      "rawDeepLSHA256": "68d9559eba74e878d139eec90fb5d09d415d3868be185f77d420365a59351a77",
+      "editedSHA256": "da668c5e8460cdf61979a83a530902c88ff34826c2b19c2b221664163b8196a7"
+    },
+    {
+      "id": 96260,
+      "field": "detail",
+      "batch": 1,
+      "requestIndex": 11,
+      "englishSHA256": "1f3d14009c940461f05f1cfbfa7d445a96e7fc53fc23e0f5af7670fef16c4d80",
+      "rawDeepLSHA256": "e794cc3786870a76d476887276a5e2b636ae2183b8b25037bdde06bcabe78960",
+      "editedSHA256": "3dd5a0d0b9f855f8db36532cc8001e56b1dbad340f719cee3dea2c9d04899099"
+    },
+    {
+      "id": 96260,
+      "field": "objective",
+      "batch": 1,
+      "requestIndex": 12,
+      "englishSHA256": "c20e1d2be7c08d5a82fcf8726d40e8e3ba8b8d4740045f2d79780eeac34aebe6",
+      "rawDeepLSHA256": "2dafa1b09aa8f780cdc2b5678be50705594bfe9b70639766e1fa07dd1a900236",
+      "editedSHA256": "2052377b8ed834ea588d22ca55e3cd09e0c60562629e56a43406e7a5744c564d"
+    },
+    {
+      "id": 96260,
+      "field": "progress",
+      "batch": 1,
+      "requestIndex": 13,
+      "englishSHA256": "93e6b0113265f666b25687a636839ea6c940f2e56fb9c04209973f6dca573390",
+      "rawDeepLSHA256": "c512469dbde716f5d9f7ec040e1bcfaec83f951f39996d781c6512cfa779c8ac",
+      "editedSHA256": "effb78eb64b327b311bc17e55d117789e7239824404c66f1bd82a9ac709ccdcf"
+    },
+    {
+      "id": 96260,
+      "field": "complete",
+      "batch": 1,
+      "requestIndex": 14,
+      "englishSHA256": "934ba82bdef51723de42ac3251492d4385feceef02e01af6548c804555908fa3",
+      "rawDeepLSHA256": "09151cda8c2c1368faf06487d44774f39a629e324f8e40f5cfa7723e6b8172e1",
+      "editedSHA256": "5e73926e846c4028df21c41bc4439096e91c2690a82ebb3e66b556eea3e895e6"
+    },
+    {
+      "id": 96261,
+      "field": "title",
+      "batch": 1,
+      "requestIndex": 15,
+      "englishSHA256": "e947b00f2bb73178b417198e093536057435c028bbf2e18a3b488325a3bc34a4",
+      "rawDeepLSHA256": "3d056aee9532074fa2829650ed96527bacaed886f17bfd418c7c774a1fa170d8",
+      "editedSHA256": "a3484b727675b08e0b79a18adb042a49fabc638769f21a064b1ab9d49168d06d"
+    },
+    {
+      "id": 96261,
+      "field": "detail",
+      "batch": 1,
+      "requestIndex": 16,
+      "englishSHA256": "2944541f4411f421f8eac1df8326f67ff96ebe5cfe391ddb3ba7585d83a2d73c",
+      "rawDeepLSHA256": "96b4b1db66e5d63f67b5226e2976fbe00dfb652f372e4a7471666da29de05ae1",
+      "editedSHA256": "0b72fc2bc25e4bc9ee47b65f7a6dd88a4ce301dc7828f48350ea1e9c68f6e85b"
+    },
+    {
+      "id": 96261,
+      "field": "objective",
+      "batch": 1,
+      "requestIndex": 17,
+      "englishSHA256": "131dc77c7c4d4ee449fd762b0056882219d11e9d391670429a5b54f55126e622",
+      "rawDeepLSHA256": "eb594e6f0c6c26579b7814b39c5b421c723c47bb1994d29fd1314beb9c08f10a",
+      "editedSHA256": "bfec441ccd4402e8885ef02ff9f74dc7663222e8bb5e2923e696365ce61b51ef"
+    },
+    {
+      "id": 96261,
+      "field": "progress",
+      "batch": 1,
+      "requestIndex": 18,
+      "englishSHA256": "dd1e437f6f5fed6b5fc640d6ab27a2f7930cf73165febfe918a396c0e6673444",
+      "rawDeepLSHA256": "1f75834aa3a8be5051aecbcfa3b19222e141c046480688bdbd51ddec599b6627",
+      "editedSHA256": "6410ef18899ea724c7be035aa21d79c7d87e3e11a5dc6b40e444af9850863476"
+    },
+    {
+      "id": 96261,
+      "field": "complete",
+      "batch": 1,
+      "requestIndex": 19,
+      "englishSHA256": "033a123781ce1616f4fea8b4192a150ba93dfca22242412a49dd320c0683cb6f",
+      "rawDeepLSHA256": "b5ab070d52b43b454d79c987af211a39ca474782edd26d96e33e3f90a62e5b90",
+      "editedSHA256": "2e6d00209418b16fc7551d58550c305eacd30f628075b3b038cd107c988a3481"
+    },
+    {
+      "id": 96294,
+      "field": "title",
+      "batch": 1,
+      "requestIndex": 20,
+      "englishSHA256": "e465d789055192d4310198f371d3e682611d6c8dcf9ad88af329329277bf1da1",
+      "rawDeepLSHA256": "1b08c6a75c4a188fc413c8961fb88d357cb520f13cb94d4ba022b087296f4e10",
+      "editedSHA256": "1b08c6a75c4a188fc413c8961fb88d357cb520f13cb94d4ba022b087296f4e10"
+    },
+    {
+      "id": 96294,
+      "field": "detail",
+      "batch": 1,
+      "requestIndex": 21,
+      "englishSHA256": "80021a761c80a21384c97d20050c84144aa19049fbbe823de4c19ab82fbaf9aa",
+      "rawDeepLSHA256": "37862d5c9eb4150aefd813fef9e182a395b2752286ba46c516aa66cecdcfca9c",
+      "editedSHA256": "f5d6630355d47c94157baf586c81bada97e16d1a3be68074b8a000d38bc67c64"
+    },
+    {
+      "id": 96294,
+      "field": "objective",
+      "batch": 1,
+      "requestIndex": 22,
+      "englishSHA256": "2ba45f8d2da1d8ad77986a823f5485568db1caad9259e6186bb76f619d54eac0",
+      "rawDeepLSHA256": "d8ecb0ce3ea433efe4bb59c5f1768a5fe098990f68291a7db3f7c1d0d8ee09dd",
+      "editedSHA256": "e689da1dfeaa2c5ac07e0cfc161ed9f14e3b9953d22de4ec6145a1b04aaf1913"
+    },
+    {
+      "id": 96294,
+      "field": "progress",
+      "batch": 1,
+      "requestIndex": 23,
+      "englishSHA256": "0b12ba39ab4d0851c8a36c5bbc9997333c630060bee493b9c2cfe78f6dc25c27",
+      "rawDeepLSHA256": "f72cfc337b2d3c98d3c5d4f55db7aceaa35fee33e23658ba4b7da653ca15d241",
+      "editedSHA256": "6013b7723a101ead0328d6c0ba3b62bfc66c5676f1eb79d4d6ed2780e4ae51bf"
+    },
+    {
+      "id": 96294,
+      "field": "complete",
+      "batch": 1,
+      "requestIndex": 24,
+      "englishSHA256": "6d3779d211f78bc53dd919c9b8578b0a49092c80b7267e431654520c64f51c06",
+      "rawDeepLSHA256": "e36279f119537e95a82a9640ee169403953c68539afcb22990d4ddda711dee59",
+      "editedSHA256": "e39693f33732b6e80956ad826b5b2faa39c35fdd7ee325903e022f9a5c0a6374"
+    },
+    {
+      "id": 4770,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 0,
+      "englishSHA256": "a6ebbadff605c87c4d814e550f56440ab06721ce93f25d8e62551854486e44e2",
+      "rawDeepLSHA256": "19b67c13d6a0e59c6194a8d3506a319a3f7cba11327ca16e3a4af4fa0565af7d",
+      "editedSHA256": "19b67c13d6a0e59c6194a8d3506a319a3f7cba11327ca16e3a4af4fa0565af7d"
+    },
+    {
+      "id": 4770,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 1,
+      "englishSHA256": "9e672f0168750bb69619b50a06af69250a57b25ac33b88f4d43b18c218297f4a",
+      "rawDeepLSHA256": "51d6a4ef66bbf7fd7b8a4d8ba98666eb14c470d9ec99e4ec4773216285894b95",
+      "editedSHA256": "d60b9d288d86f4e2db8cf28dacecfff09aee042139a96fe5ef1f6bb9a7289b34"
+    },
+    {
+      "id": 4770,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 2,
+      "englishSHA256": "9d28514f95e557d2a8f8b9c33ca8aac265057aebf14119756b1e454436834c59",
+      "rawDeepLSHA256": "e44fa4488cae6287378e6425df8073ebaa9dc3d14f68a40c5e908b14f965ef44",
+      "editedSHA256": "5b5cec78622538b488308e2f8a1e228b22ef947f85cd5d4f9e32abf904a05522"
+    },
+    {
+      "id": 4770,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 3,
+      "englishSHA256": "3525f4965f5bc05b76cd0ca1a45ba870d6f720519d795fe1d789b2fec3aff7bd",
+      "rawDeepLSHA256": "81b0fcadd1db01cfb661bf4feb11e52648d58adc3454f8e6276dc56f79d59488",
+      "editedSHA256": "de88235443b2ccf6dfbebb8b3d9a3f01e4e7232ffffea80e0bd63b0c611fa742"
+    },
+    {
+      "id": 4881,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 4,
+      "englishSHA256": "058334ee9627d2db5d3d1bdb892ffc339eb9ba4b926d986aeae5f3a32fcc6db9",
+      "rawDeepLSHA256": "231cbd736e73b667101011c3979079975d6fd086261ffe0c68f3d5a532912d32",
+      "editedSHA256": "4431c59c79d9ba01e97661da88e1e28e28a401cca39ad2b36effdcbb69cfa55e"
+    },
+    {
+      "id": 4881,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 5,
+      "englishSHA256": "def70c7120d04fd65ff78c9dc0e9ee72c8ded162515a975f555b2c9f4ff841a3",
+      "rawDeepLSHA256": "c3ba6007cb479948189e4fc23a4b2e8c7622d0408d441d12642f2f8c00cc3f06",
+      "editedSHA256": "df9f18025ae583cc716bc7b8e6f2a5aebdbb02d89f3ff2e3d8af8bd3dbc0f304"
+    },
+    {
+      "id": 4881,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 6,
+      "englishSHA256": "e24622ed106f72299e29063556ad41c68fff3aaecd95d9c2c69490724eed3098",
+      "rawDeepLSHA256": "3ba30bffdbacdcb08ac6be7e2c1ce2990e82a6ae39d02c5f9800b85231fa28bd",
+      "editedSHA256": "7ee246f7504672370176264adce7d2bc85431c6f46ede143660b9be5363d4dd0"
+    },
+    {
+      "id": 4881,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 7,
+      "englishSHA256": "807f2f7c5ad6f8dea7de56d573382df1b42677f00c3007c5fff5ae8702d9ec5a",
+      "rawDeepLSHA256": "2d14cb0f4a00b057730ab0c1c20d7d5eb4120410a76497a6605e5d83201a761b",
+      "editedSHA256": "b059e4ac20dc1d293f42da60396ad3323362a57b5507e78b1987ab8440024035"
+    },
+    {
+      "id": 4966,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 8,
+      "englishSHA256": "ed7621735b50e4f116816ab97ad741ae1d8b20ee8d37186e42e0c63fc5dbb3ff",
+      "rawDeepLSHA256": "b90db87500c6167cc6c5638ec659fa5cd382caee35921449b28a834caa7d3ff6",
+      "editedSHA256": "8db178690e5b803bd4034c911c08d5ee7cc090e5077177a3f15cea9e4ec8540f"
+    },
+    {
+      "id": 4966,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 9,
+      "englishSHA256": "afe3e455afda6a232177499bebda6d3c002c6c8f2323b53cf1bdfeb454d9fd2d",
+      "rawDeepLSHA256": "f206bdc86cb0e1aefba46be44b8fa44f673ee1d37b14e60afc3d96c40f2923f9",
+      "editedSHA256": "bea5f501bdd8495a091b196ce75ffb7a7fbcf3fe73f90cdefc7ae857861bc05d"
+    },
+    {
+      "id": 4966,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 10,
+      "englishSHA256": "9c942ba8b3ea931b417bcd4595c5ad6545c4b24da2a8c0e749f4a269f6b91bf5",
+      "rawDeepLSHA256": "1313f3571a31c0d56e43964b638ea3e65651f2006f89c4a65696f8592e568cbe",
+      "editedSHA256": "cc53b4aa6826c2546e4b6c5c42cec5eb511ecf38a045480c8a2cec333863c90d"
+    },
+    {
+      "id": 4966,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 11,
+      "englishSHA256": "bd29e996322fa99e4617f851c8cde9b6b41aeb90979eaee9f022cfa3cfc25adf",
+      "rawDeepLSHA256": "f5bfce4c562792bc6ed5954640940437f8100d21fe18b01accdd211140c27e69",
+      "editedSHA256": "d01cf5d1802b28ccb7470167ca3d12c2d06d9c36f32aaa1ae066b33c3960ebda"
+    },
+    {
+      "id": 4904,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 12,
+      "englishSHA256": "ba861d49e9ec37ce9898e480b00421661bda4eda76beef2f7130e536eee7538c",
+      "rawDeepLSHA256": "079fe3f06058511172d64f5260c0ba791a92d4cd5f40dc8c0d53d3938f5e5700",
+      "editedSHA256": "079fe3f06058511172d64f5260c0ba791a92d4cd5f40dc8c0d53d3938f5e5700"
+    },
+    {
+      "id": 4904,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 13,
+      "englishSHA256": "11d6b6ec3998d6bfdb120145bbef1931eda827113a8c074549305c2054993ed9",
+      "rawDeepLSHA256": "3a864253147f8033ea4244c5437e996cb7cc367d4cf3c12a50f2973cf656d4b7",
+      "editedSHA256": "250c0a9e9803aac9f0fb9a2128db68aa1b147ab451d692d255263e8ebdc1c39b"
+    },
+    {
+      "id": 4904,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 14,
+      "englishSHA256": "77a1fdfc11fdecbb521f545e2ade3844fb1d15d5f031160e2e7746a7d7967ba6",
+      "rawDeepLSHA256": "25ceed6fe207ce0ce5505ded101e427c9ecd8b2be8a9662db9547a073baaeed0",
+      "editedSHA256": "26e69deeeff1cf72cd501e8f7d7a9107342dbe227111ecd9a464b5392a065c08"
+    },
+    {
+      "id": 4904,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 15,
+      "englishSHA256": "c37352384f428743ce670da4be856247f99668345db1fa796e913e6d192b1f55",
+      "rawDeepLSHA256": "49de7847a18d3af99e183ad5f1bbebd316811d45b622611313c27c6b6360e283",
+      "editedSHA256": "26bc98a4830a56347919d61e5633322a85d8e2f10c17682073cf9c14ba97c668"
+    },
+    {
+      "id": 5147,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 16,
+      "englishSHA256": "309a7b97f9987de37c9334b8f3b808a43630e64442085ac6c4584432ef7dd3c6",
+      "rawDeepLSHA256": "0be54f07ba4dce64bd0d1212537616291ba25213d43949d417f4f8de61950f7d",
+      "editedSHA256": "d7996403b4a8e31ebd91af9623f5df53e05e5a448cb22ef86b61b7fad41a77e9"
+    },
+    {
+      "id": 5147,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 17,
+      "englishSHA256": "0a785faf49e5974be150678b6409ab9a2ebc9ab0af492b68a3a4b3af0238960f",
+      "rawDeepLSHA256": "11102425c906cc1c43955c72820b69f0af55bf1dcac6e0293a5fbca83b80ad49",
+      "editedSHA256": "781def51e033d2489584eac9ed0077588abd883a8c275189a693cae937f5e66d"
+    },
+    {
+      "id": 5147,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 18,
+      "englishSHA256": "1550f1e62408ff2024de3d51c19bae1096e85f65b04a82dc559505c5117e4431",
+      "rawDeepLSHA256": "521e3b6d9367534cbcec168a2b804dc3e17e28bd6ae59444d4b280df2e3f4f61",
+      "editedSHA256": "f2cf611cdcd20dc0517f08cef14f65b40f9c68a2a5c8cbf56590c531c321483d"
+    },
+    {
+      "id": 5147,
+      "field": "progress",
+      "batch": 2,
+      "requestIndex": 19,
+      "englishSHA256": "9cc1542f060b5be35fa7b67f6410f99614c798b8fb970d1475a04e83ad09e60c",
+      "rawDeepLSHA256": "4a7dd40e8d9c8bcfc03c7321a77d4d350f84a98544d8856ddb58b4dfb653aa00",
+      "editedSHA256": "89d4f3020e1a5331604b84a25eca1c360a643b4dbc9389c76a934e79a8431bd7"
+    },
+    {
+      "id": 5147,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 20,
+      "englishSHA256": "8625310fa891ea3c57fabe57e902903eb6ba98c0d214a72fbe4410a9594909ad",
+      "rawDeepLSHA256": "2586c0beccfd976fd2c730b5b4c3cd926bc41ab9f16a23f862b4034f6d80ceb1",
+      "editedSHA256": "576839ad8f44cadd3df5d3d954d567656e077cb9673b5e501849c7ad62f26e8d"
+    },
+    {
+      "id": 5151,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 21,
+      "englishSHA256": "8245ac1e0dbb9cff673d1f0d119191b9940314f2fd5fd032ebcbd69e6583a7ff",
+      "rawDeepLSHA256": "327499b8ab271f11a316b07091a8ccdbe65284f2e10841765f0fdc85587e7708",
+      "editedSHA256": "3d4d2f073e2beb6ebeb6037714cab8e7475add108aee0e567f20a665302b2471"
+    },
+    {
+      "id": 5151,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 22,
+      "englishSHA256": "9a421a3b8245635c2cd447c79df93b3e9bfb50763379f5ca5e2cecbb124d941b",
+      "rawDeepLSHA256": "fe8ff142ae30baff71438d6a21c7a8faf7bf93161d3c9f438d9d383088ff4de9",
+      "editedSHA256": "ec2c7e357657fa8686a957a0bb010615fff0290bfd06b310f2dde05b03fcb29b"
+    },
+    {
+      "id": 5151,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 23,
+      "englishSHA256": "2958b83efaaada8ead800fe4c2dfa57fe39c2cc961cec6bd10fca868214ab7d6",
+      "rawDeepLSHA256": "daa2030bc2e12a4c0d220c1961aed5412b397688f43205758befe185d32d4f11",
+      "editedSHA256": "dc7c037eb23f04546970c38914e665a98be76b0c6447eba919b2dc90f6c22e93"
+    },
+    {
+      "id": 5151,
+      "field": "progress",
+      "batch": 2,
+      "requestIndex": 24,
+      "englishSHA256": "21bab19ec828661e5785b196c6093b0c58a688fd1227873b347f6f0396526d73",
+      "rawDeepLSHA256": "d1ed4267195cf86c1e04109a979b0fbedac96f45039ccc4e171c56b2cb105a63",
+      "editedSHA256": "9d3665887535a8fecc7a1d00a74706398770ab5698a731e1ec3224d13d693de9"
+    },
+    {
+      "id": 5151,
+      "field": "complete",
+      "batch": 2,
+      "requestIndex": 25,
+      "englishSHA256": "8d7eb7af506a6d6457513aca9991d7ebe455536f2582e56f6ff67dd448e1ebec",
+      "rawDeepLSHA256": "26cc6c6d80a19b3396bf1f2748e08ff7535db16b65c00717f4095f021867ce98",
+      "editedSHA256": "b5d43c30194d2d8cca0b669d75aa6be331513ab0db37ea7161d52587d44df1b1"
+    },
+    {
+      "id": 98155,
+      "field": "title",
+      "batch": 2,
+      "requestIndex": 26,
+      "englishSHA256": "98204d7d418dd40e040d154b795c0a56f847d8dc7ba09047eb5a733757e2d108",
+      "rawDeepLSHA256": "cfe08656b074c2a03d8efd55e4db0d1579a9e616bc4777cb51861fe7324df9f1",
+      "editedSHA256": "40ff906fcc3e9895d2f52e2c39239d84d932d8505ae7a75890952f0d84f66dbf"
+    },
+    {
+      "id": 98155,
+      "field": "detail",
+      "batch": 2,
+      "requestIndex": 27,
+      "englishSHA256": "f8e5147a098d585a48ff618300f7ef0781d698cc9f77865370d80c6c7bb82ca1",
+      "rawDeepLSHA256": "b87687f6f157ba7fbda398e35425512f174cb2c5f3adfd6a3f27993ae1cc1845",
+      "editedSHA256": "a26d70e77467317226251f33106fafc3ad11a5cddcd59c2bad850ce265890a9b"
+    },
+    {
+      "id": 98155,
+      "field": "objective",
+      "batch": 2,
+      "requestIndex": 28,
+      "englishSHA256": "13f1fb1db33d72c0735d93043e76349ff9dacc152c16c03be2741e6e2a4e7b12",
+      "rawDeepLSHA256": "ee770da7286d3bdd25b4f5ceb08ba020dbf2363483717c722ab77d121f22d477",
+      "editedSHA256": "3491192e82f30ff40060e78e2e5c0e04d0e0aab7d77b29a49ba6d955443c7e72"
+    },
+    {
+      "id": 98155,
+      "field": "progress",
+      "batch": 2,
+      "requestIndex": 29,
+      "englishSHA256": "8769d1e8b1c07b870b2375fea24e66fffb6b706b1096948f18ca0e6df784b4e9",
+      "rawDeepLSHA256": "41ebea4440cb1119e896bca2442fe16158a2bbf7641415427f7cde616cd97ed8",
+      "editedSHA256": "e745f9c39a62c23dd685ccf3041525b35bd7735dee94ea032605574a582e4ed9"
+    },
+    {
+      "id": 98155,
+      "field": "complete",
+      "batch": 3,
+      "requestIndex": 0,
+      "englishSHA256": "84e2f44c5523f8c21180dc1cdd6c6427561bc5a86406716dc1f5097eab40a92f",
+      "rawDeepLSHA256": "3267f11ff4a769bb2d9ad81ca230f450417b594de8e6ba6d82b0650fae973524",
+      "editedSHA256": "512b7d2191056a78dad088e53211439391bb56d99b1f4b94fb2a2b564b779a70"
+    },
+    {
+      "id": 98156,
+      "field": "title",
+      "batch": 3,
+      "requestIndex": 1,
+      "englishSHA256": "6b44868c0d55e8474f7dbfd44339efd6c4ec3f26d0a3f3a315ce777a98bc52dd",
+      "rawDeepLSHA256": "fadf83460f0651a1137600363dfdd0ad2cfe31af7058c36ffb7d02f9c9f300bd",
+      "editedSHA256": "82876fcb4732bd424be2c81158fd2a0945c1f8a57faf0d7defbb1ee52ae37498"
+    },
+    {
+      "id": 98156,
+      "field": "detail",
+      "batch": 3,
+      "requestIndex": 2,
+      "englishSHA256": "a72a3cf2f8abcaf11e418bcf0f9f81a7533ce392717fb220415f21295009b034",
+      "rawDeepLSHA256": "da103cb044ce5288ecd25daaad93a9b50ed3adab5b551fb24d5de1f2202a63dc",
+      "editedSHA256": "f4e9bd13e6b97a8369ddd0da788b9dfa7d54940f5a9d50edcff4f1737d087800"
+    },
+    {
+      "id": 98156,
+      "field": "objective",
+      "batch": 3,
+      "requestIndex": 3,
+      "englishSHA256": "e678880136fbac6b3116d8d0cd7720f89f692a400b218423d0869d1421a21002",
+      "rawDeepLSHA256": "51b74abd138a7c23d7852ddcadb92109d39b7a29deeb29c2bf92d766fc5a235d",
+      "editedSHA256": "e923475faff55557bb35f9c7e9bed3250bca74eb3590963d207f54702b44ab72"
+    },
+    {
+      "id": 98156,
+      "field": "complete",
+      "batch": 3,
+      "requestIndex": 4,
+      "englishSHA256": "97d5ceffd8cbfd8761033d4cee43d79842ab662b7899d389109de19990ca4368",
+      "rawDeepLSHA256": "54fe17c9516f9bb0809e974ae981bd9ef9b3c80ecf69998e48d28866a3d02856",
+      "editedSHA256": "cb585bb3c1fcab1276c2b6194008627f25ae1c3d61c88ecd1af65dce985edf68"
+    },
+    {
+      "id": 567,
+      "field": "title",
+      "batch": 4,
+      "requestIndex": 0,
+      "englishSHA256": "2b018c46e1a439ffe03c73475a5cba3d70cdf4bbd3beac57f0b8ed1b51e5a951",
+      "rawDeepLSHA256": "cd9f1b04b3267af92a49c2363cf00e178918a8c1998b5534eae8c1a6de01878a",
+      "editedSHA256": "5fa4850c9d256d132dc7c0717f2c9d3177d08f2dd361120ead9f1230fd614901"
+    },
+    {
+      "id": 567,
+      "field": "detail",
+      "batch": 4,
+      "requestIndex": 1,
+      "englishSHA256": "7c22b340ae64bc1c7b64f9255c2a6a42f06214a85127dceda07ee1e00539d597",
+      "rawDeepLSHA256": "4db3758a3d098462fdbb9966fb3df55d4a777892f017581bd64bc33eed8b8972",
+      "editedSHA256": "9550886732204081edc1c53e7d6eb53d4e184a4a05f902f90cd26b33df80a32f"
+    },
+    {
+      "id": 567,
+      "field": "objective",
+      "batch": 4,
+      "requestIndex": 2,
+      "englishSHA256": "774a85915f852cbe163f3951be554c1887a76f424ea10ef3e416898c1ce81bf4",
+      "rawDeepLSHA256": "13d54725119cd74d0021c55e65d502a61e5d3ba2b37278ce80f394fefef25eb9",
+      "editedSHA256": "d823bd69d12fc4ccc2ae28e3627fcf795d19d6a48873e84a57d2cb8f3bdfef46"
+    },
+    {
+      "id": 567,
+      "field": "progress",
+      "batch": 4,
+      "requestIndex": 3,
+      "englishSHA256": "b8b7cfdf4758ef90476310dd4bffc7be69cdefdf57c1b98935a2fdc474fab753",
+      "rawDeepLSHA256": "98cbb20f180ac9199cd377caf28243935a621d518afb9309ae5bb1469d2cc35f",
+      "editedSHA256": "1d026cc31a60e65f3bb225426c35b069e2ea17db665565d340d1dfeb5a1e4a20"
+    },
+    {
+      "id": 567,
+      "field": "complete",
+      "batch": 4,
+      "requestIndex": 4,
+      "englishSHA256": "5c9deed7185c60dfa5af86c5ff1aa93a604a29bd3bcb9742eb5f0f940d5587bc",
+      "rawDeepLSHA256": "890f7198689395e733482410f3130d26838af4a3f51856d3e1efb0a6d8ffd0b8",
+      "editedSHA256": "fd7973fbfe0dbec59daff4d6fd28fe013da00223a90e13ea1432906210cdc108"
+    },
+    {
+      "id": 98059,
+      "field": "title",
+      "batch": 4,
+      "requestIndex": 5,
+      "englishSHA256": "11541a860cfc00db147d96f6d12b5b6593047c95b228a490b44703fe115e7013",
+      "rawDeepLSHA256": "a4ac35acd5ff22fb93d88f9390d91fc714679e180635382594f71755f300077b",
+      "editedSHA256": "efa33e10f2fce545069da28d1ed47e9caf789c692534a1dacdc06a56fefc436c"
+    },
+    {
+      "id": 98059,
+      "field": "detail",
+      "batch": 4,
+      "requestIndex": 6,
+      "englishSHA256": "625a509f140f957e019bd881a339ae8e7faa93e8ebe71f7c94a2c04f4c3588b0",
+      "rawDeepLSHA256": "ebc6bd379a946b3aa33923a457bc56a5e7813dface01a6c4c9c7e98247ab1b39",
+      "editedSHA256": "84ef52c328969a9407962505c5092f0a572c22421998de877b3f4c7b0f6546ae"
+    },
+    {
+      "id": 98059,
+      "field": "objective",
+      "batch": 4,
+      "requestIndex": 7,
+      "englishSHA256": "486cffbf478765d6fa51b648b24d7c7d28ccd73e162b974a398ba6fa93a855a5",
+      "rawDeepLSHA256": "669d0577c611f9cbd770ec8f3ab7cb692f581ce76fc4b66a17783887bf6810c5",
+      "editedSHA256": "ce50629a654df5af02eddc948c338fd2c5ceb86aa0a59c316147a290da02e8f0"
+    },
+    {
+      "id": 98059,
+      "field": "complete",
+      "batch": 4,
+      "requestIndex": 8,
+      "englishSHA256": "58d15fba474a216ef0b40c5ed3445c3fff6312df591993908127ae6173e531a0",
+      "rawDeepLSHA256": "9f0f8e9de4d620c8c138e8233e21c8598ca23f7c25a3326ccf91363286ad3be2",
+      "editedSHA256": "acdcc42f9c36a9466dae2e4db822bfb4eb127b434a7957730777e32e49f8adb4"
+    },
+    {
+      "id": 98071,
+      "field": "title",
+      "batch": 4,
+      "requestIndex": 9,
+      "englishSHA256": "8914cbdac2821d543b2040c9ccd958053362bc25560e2d269d9045985741983d",
+      "rawDeepLSHA256": "d548c4d0dc0ceaa70e84ebc85fff55105d450468999f1c5a6b8be6c4aff26f8e",
+      "editedSHA256": "20301ca256537c4b704b177ca3568d255d16467dc0add97ffd296523cf72a5b3"
+    },
+    {
+      "id": 98071,
+      "field": "detail",
+      "batch": 4,
+      "requestIndex": 10,
+      "englishSHA256": "1c57a406d5657aa788246b5680e64cc83701d71d2955abb133b0517d3bba27ef",
+      "rawDeepLSHA256": "0321325733822029efab37912772a1b5147677a938fc01ed5492b731d5f107bb",
+      "editedSHA256": "065ab478404983a44d14ce1b1cc5d7c2c8f1e8db1a5e4a6933703f095acc019c"
+    },
+    {
+      "id": 98071,
+      "field": "objective",
+      "batch": 4,
+      "requestIndex": 11,
+      "englishSHA256": "8786e5006670d84ebbe1b8c6367cf3a5d0a53154e6ba80157c77640f9a6bdade",
+      "rawDeepLSHA256": "97dbf235d80970dadb1962c8a014294f3bc20ac3c1da3aae2951c44f97cb0ed5",
+      "editedSHA256": "0942e4de8ad13ba2b549846b720978a0250f0753028c7eda77675fb71394dc49"
+    },
+    {
+      "id": 98071,
+      "field": "progress",
+      "batch": 4,
+      "requestIndex": 12,
+      "englishSHA256": "231e3f4efbb6dca26e86a10a6a9bea39200a01af3faf13f4e983986838d4bec9",
+      "rawDeepLSHA256": "1fc7715aa5110ee070e60bd0e6c3b73d7f24d51326df0713d9c4e078449cb19f",
+      "editedSHA256": "5887bcdd566e8779110423f5314d6cab29e54dca20f653870c8e9e53e080663f"
+    },
+    {
+      "id": 98071,
+      "field": "complete",
+      "batch": 4,
+      "requestIndex": 13,
+      "englishSHA256": "4c756891b045c322f6fd9aca1a73d296ee6591fa927e084cca764cb018c799e6",
+      "rawDeepLSHA256": "515d3d5564f0b9763fe42690020d6e6f0c0892c54d74100cb9406ac654bf1171",
+      "editedSHA256": "d3c86aa548353d7f6e129499bdd208aa817db942462298efaf44f24977d4cd13"
+    },
+    {
+      "id": 6504,
+      "field": "title",
+      "batch": 4,
+      "requestIndex": 14,
+      "englishSHA256": "6ec8c32f7c215fdb4deeb37428f1b37d1e37177eacfd2a9cd01262b483f1971e",
+      "rawDeepLSHA256": "0d7e4b804058d5ebde34a089f8608f6de7c57b1919bd45f2cbf91bbc81ff2aca",
+      "editedSHA256": "0d7e4b804058d5ebde34a089f8608f6de7c57b1919bd45f2cbf91bbc81ff2aca"
+    },
+    {
+      "id": 6504,
+      "field": "detail",
+      "batch": 4,
+      "requestIndex": 15,
+      "englishSHA256": "65c01b4c892e45ed8f8c9d8c0c766dfef3e4c3c417b96a20fe4fcc4154a3a499",
+      "rawDeepLSHA256": "42ccb1e010731f5f3877e887c750a47e5629d4dde2824803565646c0426054a1",
+      "editedSHA256": "24c6cc51a46a8296d5c3e105c4eb3e1f51069f05817589330a8bcb10b2d704b4"
+    },
+    {
+      "id": 6504,
+      "field": "objective",
+      "batch": 4,
+      "requestIndex": 16,
+      "englishSHA256": "17b475715ce7624b575f123bb07162cae042cbd0070f5a2abe6acdfeba87238f",
+      "rawDeepLSHA256": "347d11f115f5f31dcadd89dfadb0eddb391498eadf19fb45b0dcf79afdbed47c",
+      "editedSHA256": "0b429e83baab5a48bcf909545dd7223a853a90293a17bd849b1a10d3d9f7dad9"
+    },
+    {
+      "id": 6504,
+      "field": "progress",
+      "batch": 4,
+      "requestIndex": 17,
+      "englishSHA256": "3b1f4f8555bafef0a91986e01dfeccae83af93e5499124555a92d42f02fb795a",
+      "rawDeepLSHA256": "7909c6f9fde03ea67d37dbccff439ab23e1a186ff19548f31745d08e4f51cd54",
+      "editedSHA256": "2e7b803e75f09a24d06a2a8568fc40d32f7ac616f12ec42719398a67320adb64"
+    },
+    {
+      "id": 6504,
+      "field": "complete",
+      "batch": 4,
+      "requestIndex": 18,
+      "englishSHA256": "9bbe8445319e603651e2416c5cea92209597709cc8beed71adc59c32df21ed3c",
+      "rawDeepLSHA256": "57093555af1deed701e12396e66f3de06ffd102baf6de4c36e49feb0c0c88228",
+      "editedSHA256": "55e0fef78926120b155069dd67606a2ba1c178207b9a945305f02bd0b42a41f9"
+    },
+    {
+      "id": 6921,
+      "field": "title",
+      "batch": 4,
+      "requestIndex": 19,
+      "englishSHA256": "58549119764c7a8b344ef33bb7bfe17ff9b1c1134b100c4eec7d5fde0075d146",
+      "rawDeepLSHA256": "fa879e8cb2ce947eb75834f3434fccff9010ab7180fa27c6f6b3cbaf093f51cb",
+      "editedSHA256": "ad31c48693ac1f9a888b823c5467b03cfbad1ce7a35d8d18b8a9b60ff800cdc9"
+    },
+    {
+      "id": 6921,
+      "field": "detail",
+      "batch": 4,
+      "requestIndex": 20,
+      "englishSHA256": "ec2f321588f09b437de5b50cccb61a269f21c57844a086707fa91498fa4e869a",
+      "rawDeepLSHA256": "d960acdc5e1dfccb069dc0af9facc5b135e7912710103f8ee21b64c1ecdf5c0f",
+      "editedSHA256": "17ba607d0562aa72ab5634edab34d58c2f0b1e37df483385b81096a49792245e"
+    },
+    {
+      "id": 6921,
+      "field": "objective",
+      "batch": 4,
+      "requestIndex": 21,
+      "englishSHA256": "414ac7561f746c78ed21d429995fd78ab501398012abe459e748aca4faaf14ae",
+      "rawDeepLSHA256": "1660365be0e1e84529c3a2860e40fe53d26e71c6073eaaabaf6e15d9f53d8ca3",
+      "editedSHA256": "9f279dd867f18309f52322122ce27a57bedda0075500c5f612b6350ac5b055d0"
+    },
+    {
+      "id": 6921,
+      "field": "progress",
+      "batch": 4,
+      "requestIndex": 22,
+      "englishSHA256": "4fa4995ed070bf5e6fadbae9e743389e9dfca020745e756f1855fb8ddac59b77",
+      "rawDeepLSHA256": "40a06ca6953bed23d56160fabd4dbdb15182f37af4b491e8bda3d7daec859410",
+      "editedSHA256": "47d45bac37a51255a88c2e788ccda73801e8e067eb18cde5d41e218aa14e5159"
+    },
+    {
+      "id": 6921,
+      "field": "complete",
+      "batch": 5,
+      "requestIndex": 0,
+      "englishSHA256": "9218cb5c6e931f7106a5b1f9adfbab1ae1261ea6bb91008c08af990bc95660d4",
+      "rawDeepLSHA256": "dc65eb236e041220877c703f1a086d206839eb2411575462953cf9b016c43261",
+      "editedSHA256": "ac7247cbe85071bd79118f72cf6451846ddddaeea7a808c5070daa06c9677df3"
+    },
+    {
+      "id": 6922,
+      "field": "title",
+      "batch": 5,
+      "requestIndex": 1,
+      "englishSHA256": "bd86d9e66f16ad2e946e047390f41aa39f13f5ecb65be39b01290e8aca85d37f",
+      "rawDeepLSHA256": "5d9506c2d1a19577bd8ba67f288e41cb0e02237135392cbd6120294cdccd3bbb",
+      "editedSHA256": "f3dbe31fdbe7ccb58d58d2de161a7fa728715f5639f4ff2cc35326fe2ade89de"
+    },
+    {
+      "id": 6922,
+      "field": "detail",
+      "batch": 5,
+      "requestIndex": 2,
+      "englishSHA256": "59f83f438fbd2f5e307182d79f7646f6b4f70058b28d9d76995805086aaa7e03",
+      "rawDeepLSHA256": "3bfe1f0cac086c5201f5633526c9cce7552476551069c741ddd13b822362282a",
+      "editedSHA256": "fa18589d0eed7572a40fdb6bc7fa57f0296968dc79324cf62572f6d85aa39dd5"
+    },
+    {
+      "id": 6922,
+      "field": "objective",
+      "batch": 5,
+      "requestIndex": 3,
+      "englishSHA256": "4638d699ffc7bb010290d7bed11dad0d05c766ba794854c60e8e74bb318db729",
+      "rawDeepLSHA256": "c48f8a20c6c605412b7450e1c298e9131a7681503c5bdcfa328cc5dd5497af74",
+      "editedSHA256": "f2637b4761ef2d0787f151c38806f9598d2e18cd20f6a59eb7cecea4788c5734"
+    },
+    {
+      "id": 6922,
+      "field": "progress",
+      "batch": 5,
+      "requestIndex": 4,
+      "englishSHA256": "8ed777815b0e4f0a5011b34d92462782f949b050c7ddf4c65d2fd30aec0d1634",
+      "rawDeepLSHA256": "926c95a9b7b0005d6d43bdcc52104865fb7ad6c6a79963f5d34261ef28fd75a3",
+      "editedSHA256": "6fbe30caf6eaf8e1ed1c680d153cbe0289661dec9d1b341ac5b6a4219a621b2e"
+    },
+    {
+      "id": 6922,
+      "field": "complete",
+      "batch": 5,
+      "requestIndex": 5,
+      "englishSHA256": "21d0308e9420a8071434163c3883e4bcd505b87606400f020bfe04a04b97b735",
+      "rawDeepLSHA256": "5c7e34178d8cd17148c777b499230a6450ab4c2c6a992180ee62a511e1336a5a",
+      "editedSHA256": "8eb78634f501ee729bf3100b5b640cceadc509da5fe67ceb06dbf08ea2d97465"
+    },
+    {
+      "id": 1153,
+      "field": "title",
+      "batch": 5,
+      "requestIndex": 6,
+      "englishSHA256": "d2a9c0c0c91ae3e9f58c00e82661f05e288108fed7052fbe46bf4d88452147ad",
+      "rawDeepLSHA256": "aa22629a2d00bda836717905b1f07bc3fdd4f7ce3c6ee81d235dcd5d949b71bb",
+      "editedSHA256": "23d0d1d9b83b0642e7d58e65d3e6fb3101e93fe8f39a1033e0254397b3917972"
+    },
+    {
+      "id": 1153,
+      "field": "detail",
+      "batch": 5,
+      "requestIndex": 7,
+      "englishSHA256": "99518d243f77821755a1e65eaff569f2b7332eda1e5e40c3ba34a5e79541ac61",
+      "rawDeepLSHA256": "f7ebc2ff3aa571185fdeee5310a0d99622200894bf029f0ee9c8ed070b98ee1a",
+      "editedSHA256": "5cb7410c601c42bd09b01804afecf1386da1f7f6bc6288c4d2f41261d8472e9c"
+    },
+    {
+      "id": 1153,
+      "field": "objective",
+      "batch": 5,
+      "requestIndex": 8,
+      "englishSHA256": "8072ab186da5c46ee26e28ee19c5affbb6790f8f5a5dbb32f59a0b5c24ca306c",
+      "rawDeepLSHA256": "2c0f14184116ea640c5bfc7effe571968f60fe124cb7ea80061d2119713cec7e",
+      "editedSHA256": "e9c79c772231193d64df36b0366b9aeb3f758797bd5bb077e82b6336a6da452c"
+    },
+    {
+      "id": 1153,
+      "field": "progress",
+      "batch": 5,
+      "requestIndex": 9,
+      "englishSHA256": "2d769f723f19848bdb6741731bdc6bc03797f2535efba1d0ed2df1b005d99085",
+      "rawDeepLSHA256": "5f21d999a0672aec247d0b1ef06b4567645906e5902ccf8ed1e041866e7aaa31",
+      "editedSHA256": "d8b2ead501ab7b8d1d7a9353a7b1a2cbe719054ccb3437636f3dc1a05da43de5"
+    },
+    {
+      "id": 1153,
+      "field": "complete",
+      "batch": 5,
+      "requestIndex": 10,
+      "englishSHA256": "c43453e48917897c4a879e9e468bdc158e78a5896cf1c30eb07c7d1c6eb56850",
+      "rawDeepLSHA256": "c118289d3dfd820600fdbe47d1526dbb66ed2291ef9d906796fbde3f038a5e4f",
+      "editedSHA256": "84eabf4ec3cad59f88adfb900dfced4cd056016b8a31557abe2e6c35e2196cde"
+    }
+  ],
+  "rawOwnIDRecords": {
+    "96241": {
+      "ownQuest": {
+        "category": 215,
+        "category2": 1,
+        "id": 96241,
+        "level": 29,
+        "money": 2500,
+        "name": "Talkin' bout Toxins, Mon",
+        "reprewards": [
+          [
+            530,
+            100
+          ],
+          [
+            2787,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Talkin' bout Toxins, Mon",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Gloomrise Toxin Sample (5)\nToxin Extractor (Provided) (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "96259": {
+      "ownQuest": {
+        "category": 215,
+        "category2": 1,
+        "id": 96259,
+        "level": 29,
+        "name": "Defending the Dead",
+        "reprewards": [
+          [
+            2787,
+            150
+          ],
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Defending the Dead",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Gloomrise Hatchling slain (10)\n Gloomrise Soldier slain (5)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "96260": {
+      "ownQuest": {
+        "category": 215,
+        "category2": 1,
+        "id": 96260,
+        "itemchoices": [
+          [
+            276892,
+            1
+          ],
+          [
+            276891,
+            1
+          ]
+        ],
+        "itemrewards": [
+          [
+            273654,
+            1
+          ]
+        ],
+        "level": 29,
+        "name": "Stronger than Steel",
+        "reprewards": [
+          [
+            2787,
+            100
+          ],
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 1750,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Stronger than Steel",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Crystalline Silk (3)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "96261": {
+      "ownQuest": {
+        "category": 215,
+        "category2": 1,
+        "id": 96261,
+        "itemrewards": [
+          [
+            276895,
+            1
+          ]
+        ],
+        "level": 30,
+        "name": "The Broodmother",
+        "reqlevel": 23,
+        "side": 2,
+        "type": 1,
+        "xp": 3050,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "The Broodmother",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Broodmother Valraxx slain (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "96294": {
+      "ownQuest": {
+        "category": 215,
+        "category2": 1,
+        "id": 96294,
+        "level": 30,
+        "money": 1400,
+        "name": "A Darker Truth",
+        "reprewards": [
+          [
+            76,
+            100
+          ],
+          [
+            2787,
+            100
+          ],
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 1850,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "A Darker Truth",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Bloody Parchment (Provided) (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "4770": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 4770,
+        "level": 29,
+        "money": 1900,
+        "name": "Homeward Bound",
+        "reprewards": [
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Homeward Bound",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Escort Pao'ka from Highperch (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": false,
+        "detail": true,
+        "progress": false,
+        "complete": true
+      }
+    },
+    "4881": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 4881,
+        "level": 28,
+        "name": "Assassination Plot",
+        "reprewards": [
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 2300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Assassination Plot",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": true
+      }
+    },
+    "4966": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 4966,
+        "itemchoices": [
+          [
+            15461,
+            1
+          ],
+          [
+            15462,
+            1
+          ],
+          [
+            15463,
+            1
+          ]
+        ],
+        "level": 28,
+        "name": "Protect Kanati Greycloud",
+        "reprewards": [
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 2300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Protect Kanati Greycloud",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Protect Kanati Greycloud (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": true
+      }
+    },
+    "4904": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 4904,
+        "itemchoices": [
+          [
+            15469,
+            1
+          ],
+          [
+            15468,
+            1
+          ]
+        ],
+        "level": 29,
+        "name": "Free at Last",
+        "reprewards": [
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Free at Last",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Escort Lakota Windsong from the Darkcloud Pinnacle. (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": false,
+        "detail": true,
+        "progress": false,
+        "complete": true
+      }
+    },
+    "5147": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 5147,
+        "itemchoices": [
+          [
+            15471,
+            1
+          ],
+          [
+            15470,
+            1
+          ]
+        ],
+        "level": 29,
+        "name": "WANTED: Arnak Grimtotem",
+        "reprewards": [
+          [
+            81,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "renamed"
+          ],
+          "lines": [
+            "Renamed from Wanted - Arnak Grimtotem"
+          ],
+          "notShown": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "WANTED: Arnak Grimtotem",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Arnak's Hoof (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "5151": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 5151,
+        "itemchoices": [
+          [
+            15467,
+            1
+          ],
+          [
+            287066,
+            1
+          ]
+        ],
+        "itemrewards": [
+          [
+            15467,
+            1
+          ]
+        ],
+        "level": 30,
+        "name": "Hypercapacitor Gizmo",
+        "reqlevel": 24,
+        "side": 2,
+        "type": 1,
+        "xp": 3050,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "rewards_changed"
+          ],
+          "lines": [
+            "Rewards: adds Choice of Wizlo's Tuning Wrench"
+          ],
+          "notShown": [
+            "Rewards: adds Choice of Wizlo's Tuning Wrench"
+          ]
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Hypercapacitor Gizmo",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Panther Cage Key (Provided) (1)\nHypercapacitor Gizmo (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "98155": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 98155,
+        "level": 29,
+        "name": "Pristine Pesterhide Pelts",
+        "reprewards": [
+          [
+            72,
+            100
+          ]
+        ],
+        "reqlevel": 24,
+        "side": 1,
+        "xp": 2350,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Pristine Pesterhide Pelts",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Pristine Pesterhide Pelt (5)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "98156": {
+      "ownQuest": {
+        "category": 400,
+        "category2": 1,
+        "id": 98156,
+        "itemrewards": [
+          [
+            281295,
+            1
+          ]
+        ],
+        "level": 29,
+        "money": 1300,
+        "name": "Packaged Pristine Pelts",
+        "reprewards": [
+          [
+            72,
+            100
+          ]
+        ],
+        "reqlevel": 24,
+        "side": 1,
+        "xp": 2350,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Packaged Pristine Pelts",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Package of Pristine Pelts (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": false,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "567": {
+      "ownQuest": {
+        "category": 267,
+        "category2": 0,
+        "id": 567,
+        "itemchoices": [
+          [
+            3742,
+            1
+          ],
+          [
+            3743,
+            1
+          ],
+          [
+            5250,
+            1
+          ]
+        ],
+        "itemrewards": [
+          [
+            3732,
+            1
+          ]
+        ],
+        "level": 28,
+        "name": "Dangerous!",
+        "reprewards": [
+          [
+            68,
+            100
+          ]
+        ],
+        "reqlevel": 19,
+        "side": 2,
+        "xp": 2300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Dangerous!",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Clerk Horrace Whitesteed slain (1)\n Citizen Wilkes slain (1)\n Miner Hackett slain (1)\n Farmer Kalaba slain (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "98059": {
+      "ownQuest": {
+        "category": 267,
+        "category2": 0,
+        "id": 98059,
+        "level": 27,
+        "money": 1100,
+        "name": "Hillsbrad's Hoard",
+        "reqlevel": 23,
+        "side": 1,
+        "xp": 2200,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Hillsbrad's Hoard",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Sealed Company Request delivered to Hillsbrad council (1)",
+        "Sealed Company Request (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": false,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "98071": {
+      "ownQuest": {
+        "category": 267,
+        "category2": 0,
+        "id": 98071,
+        "itemrewards": [
+          [
+            279388,
+            1
+          ]
+        ],
+        "level": 27,
+        "name": "Brewer's Trade",
+        "reqlevel": 23,
+        "side": 1,
+        "xp": 2200,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Brewer's Trade",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Fallrook Varietal delivered to Dun Garok (1)\nSack of Homebrew Hops (1)",
+        "Case of Fallrook Varietal (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": false,
+        "complete": false
+      }
+    },
+    "6504": {
+      "ownQuest": {
+        "category": 331,
+        "category2": 1,
+        "id": 6504,
+        "itemchoices": [
+          [
+            16740,
+            1
+          ],
+          [
+            16741,
+            1
+          ]
+        ],
+        "level": 30,
+        "name": "The Lost Pages",
+        "reprewards": [
+          [
+            76,
+            100
+          ]
+        ],
+        "reqlevel": 23,
+        "side": 2,
+        "xp": 3650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "The Lost Pages",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Shredder Operating Manual - Chapter 1 (1)\nShredder Operating Manual - Chapter 2 (1)\nShredder Operating Manual - Chapter 3 (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "6921": {
+      "ownQuest": {
+        "category": 719,
+        "category2": 2,
+        "id": 6921,
+        "level": 27,
+        "money": 4500,
+        "name": "Amongst the Ruins",
+        "reprewards": [
+          [
+            530,
+            150
+          ],
+          [
+            2787,
+            150
+          ]
+        ],
+        "reqlevel": 21,
+        "side": 2,
+        "type": 81,
+        "xp": 2750,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "rewards_changed"
+          ],
+          "lines": [
+            "Rewards: adds Earthen Ring +150 reputation"
+          ],
+          "notShown": [
+            "Rewards: adds Earthen Ring +150 reputation"
+          ]
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Amongst the Ruins",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Fathom Core (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "6922": {
+      "ownQuest": {
+        "category": 331,
+        "category2": 1,
+        "id": 6922,
+        "itemchoices": [
+          [
+            16886,
+            1
+          ],
+          [
+            16887,
+            1
+          ],
+          [
+            270043,
+            1
+          ]
+        ],
+        "level": 30,
+        "name": "Baron Aquanis",
+        "reprewards": [
+          [
+            530,
+            150
+          ]
+        ],
+        "reqlevel": 21,
+        "side": 2,
+        "type": 81,
+        "xp": 3050,
+        "envChange": {
+          "status": "updated",
+          "labels": [
+            "rewards_changed"
+          ],
+          "lines": [
+            "Rewards: adds Choice of Dreamer's Chestguard"
+          ],
+          "notShown": [
+            "Rewards: adds Choice of Dreamer's Chestguard"
+          ]
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "Baron Aquanis",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Strange Water Globe (Provided) (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    },
+    "1153": {
+      "ownQuest": {
+        "category": 17,
+        "category2": 1,
+        "id": 1153,
+        "itemrewards": [
+          [
+            6741,
+            1
+          ]
+        ],
+        "level": 29,
+        "money": 2500,
+        "name": "A New Ore Sample",
+        "reprewards": [
+          [
+            76,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2350,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "ownGatherer": {
+        "name_enus": "A New Ore Sample",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 0,
+        "reqrace": 0
+      },
+      "objectiveTablesText": [
+        "Unrefined Ore Sample (1)"
+      ],
+      "primaryHeaderStates": {
+        "title": true,
+        "detail": true,
+        "objective": true,
+        "progress": true,
+        "complete": true
+      },
+      "secondaryHeaderStates": {
+        "title": true,
+        "objective": true,
+        "detail": true,
+        "progress": true,
+        "complete": true
+      }
+    }
+  },
+  "rawPrimarySecondaryDifferences": {
+    "96241": {
+      "progress": {
+        "primary": "Did ya get what I need?",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Heh... when I said unique properties, I wasn't kiddin' mon! You seem no worse for wear, so it be all good.\n\nThank you for your aid, <class>. It be much appreciated.",
+        "secondary": null
+      }
+    },
+    "96259": {
+      "progress": {
+        "primary": "The spirits of our ancestors need to rest easy, once again.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Thank you for your service to the people of this land. It may take time for us to completely clear out the infestation, but your efforts have created a stable foothold for us to leverage against these vile creatures.",
+        "secondary": null
+      }
+    },
+    "96260": {
+      "progress": {
+        "primary": "This silk's remarkable properties could be used to make lightweight, durable cloth with remarkable defensive properties. I am eager to experiment with more of it.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "These are excellent samples, and more than sufficient for my needs.\n\nHere, take this. I was able to craft a rather unique cloak with a weave I spun from the small sample of silk already in my possession. I am hopeful that you will find it useful in your travels.\n\nEarthmother watch over you, <class>.",
+        "secondary": null
+      }
+    },
+    "96261": {
+      "progress": {
+        "primary": "Have you destroyed the broodmother, <class>?",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Reanimated dead? The broodmother possessing a night elven form? These are troubling revelations. One has to wonder what it all means... I fear that must be a concern for a later time.\n\nThank you, <name>. You've done the Earthen Ring and the people of Mulgore a great service.",
+        "secondary": null
+      }
+    },
+    "96294": {
+      "progress": {
+        "primary": "What is this?",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "This is... most disturbing. Why would a druid be behind a brood of dangerous spiders? Who or what is this \"Wild King\" and \"Pact\" that is referenced in this letter?\n\nI will confer with the druids of the Cenarion Circle on this. Perhaps they will know more.\n\nThank you again for your aid. As disturbing as this information is, we will rest easier knowing that the person controlling these vile creatures has been destroyed.",
+        "secondary": null
+      }
+    },
+    "4770": {
+      "objective": {
+        "primary": "Escort Pao'ka Swiftmountain from Highperch, and then talk to Motega Firemane in Whitereach Post.",
+        "secondary": null
+      },
+      "detail": {
+        "primary": "Please help me, <class>! I've been hiding here in Highperch for some time now and it's been days since I've seen a friendly face. I came here to study the wyvern and I think I got a little too close. After being chased away from one of the nests I got lost.\n\nI need to get back to Whitereach Post! Motega does not know that I am missing and will be furious to know that I ventured into Highperch by myself.\n\nWhitereach Post is just east of here... please take me there!",
+        "secondary": "Please help me, <Class>! I've been hiding here in Highperch for some time now and it's been days since I've seen a friendly face. I came here to study the wyvern and I think I got a little too close. After being chased away from one of the nests I got lost.\n\nI need to get back to Whitereach Post! Motega does not know that I am missing and will be furious to know that I ventured into Highperch by myself.\n\nWhitereach Post is just east of here... please take me there!"
+      },
+      "complete": {
+        "primary": "What!? If I knew that Pao'ka Swiftmountain was going to snoop around Highperch, I would have chained him to a totem! His father was reluctant allowing him to come with me to Thousand Needles. We came here to study the different creatures that inhabit these beautiful lands.\n\nI appreciate the help you have shown Pao'ka. I hope this covers any misfortunes this deed has cost you.",
+        "secondary": "Whats! If I knew that Pao'ka Swiftmountain was going to snoop around Highperch, I would have chained him to a totem! His father was reluctant allowing him to come with me to Thousand Needles. We came here to study the different creatures that inhabit these beautiful lands.\n\nI appreciate the help you have shown Pao'ka. I hope this covers any misfortunes this deed has cost you."
+      }
+    },
+    "4881": {
+      "complete": {
+        "primary": "They come to kill me?  I will show them how a Tauren fights!",
+        "secondary": "They come to kill me? I will show them how a Tauren fights!"
+      }
+    },
+    "4966": {
+      "detail": {
+        "primary": "But, there may be more centaur than I thought, I ask you, <name>, to fight with me against these vile assassins.",
+        "secondary": "But, there may be more centaur than I thought, I ask you, <Name>, to fight with me against these vile assassins."
+      }
+    },
+    "4904": {
+      "objective": {
+        "primary": "Escort Lakota Windsong from the Darkcloud Pinnacle, and then talk to Thalia Amberhide at Freewind Post.",
+        "secondary": null
+      },
+      "detail": {
+        "primary": "Arnak thinks we're going to be married... but after I declined his offer he came back that night and kidnapped me. My brother tried to stop him, but Arnak was too strong. He... he slew my brother and then brought me here.  My poor brother...\n\n<name>, could you escort me out of the Darkcloud Pinnacle?  Please... I need to get back to Thalia! She must be worried sick about me.",
+        "secondary": "Arnak thinks we're going to be married... but after I declined his offer he came back that night and kidnapped me. My brother tried to stop him, but Arnak was too strong. He... he slew my brother and then brought me here.  My poor brother...\n\n<Name>, could you escort me out of the Darkcloud Pinnacle?  Please... I need to get back to Thalia! She must be worried sick about me."
+      }
+    },
+    "5147": {
+      "complete": {
+        "primary": "Hah! Well, this is excellent news! I was starting to think that he would never be brought to justice!\n\nHere you are, <name>... and thanks. News of Arnak's foul deeds boiled my blood!",
+        "secondary": "Hah! Well, this is excellent news! I was starting to think that he would never be brought to justice!\n\nHere you are, <name>... and thanks. News of Anrak's foul deeds boiled my blood!"
+      }
+    },
+    "5151": {},
+    "98155": {
+      "progress": {
+        "primary": "Were you able to collect the pelts? Rendow has promised to help me clean and tan them to send back home! I know my sisters will be very excited.",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "Thank you, <name>! These hides are in perfect condition. I can't imagine it was easy to get so many, but I am very grateful to you for your work.",
+        "secondary": null
+      }
+    },
+    "98156": {
+      "objective": {
+        "primary": "Bring the Package of Pristine Pelts to Kimberly Grant.",
+        "secondary": null
+      },
+      "detail": {
+        "primary": "<name>, you have been so helpful to me I hate to ask for yet another favor. It will be some time until I am able to return home to Stormwind. I was wondering if you would mind delivering these pelts to my sisters in my stead?\n\nI am sure you are more likely to return there before I am able to. Please deliver these pelts to my sisters Kelly and Kimberly in Stormwind. They can usually be found in the Park.",
+        "secondary": "<Name>, you have been so helpful to me I hate to ask for yet another favor. It will be some time until I am able to return home to Stormwind. I was wondering if you would mind delivering these pelts to my sisters in my stead?\n\nI am sure you are more likely to return there before I am able to. Please deliver these pelts to my sisters Kelly and Kimberly in Stormwind. They can usually be found in the Park."
+      },
+      "complete": {
+        "primary": "This is from our sister? We hadn't heard from her in some time. I hope she is doing well.\n\nMy, these pelts have such a beautiful color of fur! Kelly and I will make sure we put these to good use.\n\nThank you for making the long journey. It is good to know Kristy is still doing well and is thinking of us.",
+        "secondary": null
+      }
+    },
+    "567": {
+      "complete": {
+        "primary": "You are quite the bounty hunter, <class>.  Well done.",
+        "secondary": "You are quite the bounty hunter, <class>. Well done."
+      }
+    },
+    "98059": {
+      "complete": {
+        "primary": "Good work, soldier. I know you're not stationed with us, but we never turn away capable hands.\n\nIf they don't respond to THIS letter, we'll have to be more crude in our messaging.\n\nWe'll keep you on reserve for civilian interactions should the need arise again.",
+        "secondary": null
+      }
+    },
+    "98071": {
+      "progress": {
+        "primary": "Lookin' ta try a new ale?",
+        "secondary": null
+      },
+      "complete": {
+        "primary": "That's the hops smell I missed! Ye done me a great favor, <name>, takes me days to leave every time I make the trip to Dun Garok myself. Hard to pull me self outta the halls o' that fortress once I get comfortable.\n\nHappy to keep some old tastes on the shelf for fellow dwarves.\n\nHave a little somethin' for helpin out.",
+        "secondary": null
+      }
+    },
+    "6504": {},
+    "6921": {
+      "detail": {
+        "primary": "The Twilight's Hammer has moved into the Moonshrine Ruins of Blackfathom Deeps.  Their presence can only serve to coerce the elements into working against us.  If left unchecked, this region will be theirs for good.\n\n<name>, go into Blackfathom and find the ruin's fathom stone; it should be somewhere close in the water.  In it is a fathom core - a device that when properly read it will relate a history of all elemental activity.  If I have it, I and the Earthen Ring can maybe do something to stop them!",
+        "secondary": "The Twilight's Hammer has moved into the Moonshrine Ruins of Blackfathom Deeps.  Their presence can only serve to coerce the elements into working against us.  If left unchecked, this region will be theirs for good.\n\n<Name>, go into Blackfathom and find the ruin's fathom stone; it should be somewhere close in the water.  In it is a fathom core - a device that when properly read it will relate a history of all elemental activity.  If I have it, I and the Earthen Ring can maybe do something to stop them!"
+      },
+      "complete": {
+        "primary": "This is exactly what I need!  A fathom core is an incredible well of information that we will be able to draw much good from.  Whatever the Twilight's Hammer is up to in there - and believe me when I say it is no good - my comrades and I will now uncover.\n\nYou've done well here today; the Earthen Ring looks upon you warmly for assisting us.  You've also helped the Horde as a whole, and for that you should be proud.",
+        "secondary": "This is exactly what I need! A fathom core is an incredible well of information that we will be able to draw much good from. Whatever the Twilight's Hammer is up to in there - and believe me when I say it is no good - my comrades and I will now uncover.\n\nYou've done well here today; the Earthen Ring looks upon you warmly for assisting us. You've also helped the Horde as a whole, and for that you should be proud."
+      }
+    },
+    "6922": {},
+    "1153": {
+      "detail": {
+        "primary": "<class>, you have done well in helping me in the past. The warchief is pleased thus far with what I've accomplished, and asks me to continue with renewed determination. My honor dictates that I give you proper recognition to the warchief for all you have done, but first I would ask you for your help again.\n\nTravelers recently came from the south from a place called Thousand Needles. There they killed a kobold who had an unusual ore sample, but they would not sell it. I want a sample of that ore to examine.",
+        "secondary": "<Class>, you have done well in helping me in the past. The warchief is pleased thus far with what I've accomplished, and asks me to continue with renewed determination. My honor dictates that I give you proper recognition to the warchief for all you have done, but first I would ask you for your help again.\n\nTravelers recently came from the south from a place called Thousand Needles. There they killed a kobold who had an unusual ore sample, but they would not sell it. I want a sample of that ore to examine."
+      },
+      "progress": {
+        "primary": "I saw the travelers again--the ones that would not sell me a sample of the ore. I spit at them for not helping the warchief.\n\nMay they die in battle like cowards and not like warriors as should be the right of all people who ally themselves with the Horde.",
+        "secondary": "I saw the travelers again - the ones that would not sell me a sample of the ore. I spit at them for not helping the warchief.\n\nMay they die in battle like cowards and not like warriors as should be the right of all people who ally themselves with the Horde."
+      }
+    }
+  },
+  "actualRepositoryVerifierSHA256": "80109dca865db70ce04a263604bf65b3e595d7cc77a0102900688aa308cc0ded",
+  "actualRepositoryVerifierResult": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-24T07:01:27.189264+00:00",
+    "partitions": {
+      "horde_regions": {
+        "result": "PASS",
+        "questIDs": 20,
+        "sourcedFields": 94,
+        "enabledFields": 94,
+        "holds": [],
+        "reviewGroups": 3,
+        "additionalActualSourceVariants": 0,
+        "allWorkerJSONSHA256": {
+          "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "author-data-group1.json": "20aa4c4e741a1464bd597d41da16d24657b6df92862c1f0bf42a9185516e7b5d",
+          "author-data-group2.json": "e0068c0a087e630b6bdd2ab489139d6b319fefa1c5310eb3319b78d8d7105a89",
+          "author-data-group3.json": "b67698f6215e52f215c639670a017e64cd82c7d68b0e0589f2e906cfcb0170d9",
+          "author-summary.json": "958e5aa944663be2a978a9a37f240da414eb933b629077c95906b9fa9e5c0693",
+          "batch-plan.json": "14f9507c4075776ac2ff919768e2e900df54eb3cca99c79e13301b5c68303eca",
+          "comparison-provenance.json": "fd88b80d3bb0a1dd6899e022b7fba1ba13b6ea0912673c4f282f3c8443325009",
+          "contract-negative-cases.json": "f6e1c13ea4f1d3ae4e69b11fde8707637ee02ee8f096b13f976cf41c2dda9c14",
+          "deepl-batch-plan.json": "f2ce2470755b01da3c12e3269ecbbe6ed362ca8ebb8595c1fe7791ac9a81cfe7",
+          "deepl-index-01.json": "6de652f3786a021ec06be005b3d536a2849d7b18017233f34c079e1fb6983992",
+          "deepl-index-02.json": "77d133f882dd92aa1c6911fbd7cfa119be9dba7ed697d0faa0c172f8761b796a",
+          "deepl-index-03.json": "97b7f27ad3dc8a07ce4f377bbd1a7bee74efcf21e3ff2bee7f96212171f12998",
+          "deepl-index-04.json": "3027c08bfd080185e461832e681e3c5e6b77891cfb21e98177a46e3a0103e84f",
+          "deepl-index-05.json": "19f9ecc8afcacff4f89226f870bae25726edf3a8b83b4876f9523bcfaa871432",
+          "deepl-request-01.json": "3b8e28a2e0d5812047f001c094ea007642f179558304d56c8eaf6487477cd5b2",
+          "deepl-request-02.json": "c498d98cef68520bc304c388cb5bba5304b31e4fcae6cc1d6d1a512964f536d2",
+          "deepl-request-03.json": "b62bf59859d35fae4ed90807dafe925cd2c13b9bac62c95e4c7ce727a591ad54",
+          "deepl-request-04.json": "aa1f991eb540a61a9d88d03923ae25226476a56dba722c362f16ef9596d3bb98",
+          "deepl-request-05.json": "973b1f31e8cc9dc36928b3855b7eb28ffae95dca0fcec69736d867b5cc9212dd",
+          "deepl-response-01.json": "5fe8567a074b18c4194f51b5fb3cddcaa56d58de7db8c354097803b53bdafd1a",
+          "deepl-response-02.json": "18930f64e6865fa1d9f4603f6985bf0f5aa1fb7164e70d9bf21f91ed00865528",
+          "deepl-response-03.json": "3d1edb1377dd5ba5f7a32cb2389e3cc4adfb92cfae07bf874550a9f9102632c2",
+          "deepl-response-04.json": "ba56bd7be65ca4fce237f5479eb7dc34e22abf09e601749f828f3770f0221ba3",
+          "deepl-response-05.json": "7bddb7620e0aff9d98ac0ff26520982d76a2070d20099f326eca5f0308ee17ba",
+          "edited-group1.json": "0962fd17b6ea256aa9eac922e1e88cb28748f09b5bf581d9b7f763ce0261b98e",
+          "edited-group2.json": "2138dba1e34f15d548365ccea82ee65e2808eab2a29df8a205d8051abc6e22b4",
+          "edited-group3.json": "6183fbf8b5f5ee3f2c9b56e97a037232ea6aa4e72b10d5aa4073259646c39d9b",
+          "edited.json": "d56337283496ff5317560f05f9221ba13982b3284493624712263f43779a9770",
+          "english-sources.json": "5b2260e0c3eef509c7c59a27120cd252ec715002f7303c4c5916b51d95a54a3c",
+          "fetched-attempt2.json": "e0a57b09ed091843af6f9a9e3126a5784008a50dfc2a6dd2d128b0ce95c43949",
+          "fetched.json": "14c6d28d876252ead1d998fbb0de5c1be5270c0d10a423becc48664594ff88f0",
+          "frozen-artifact-hashes.json": "92a606df6853acec8e29ef9f1c0faf8b5a760dc8caa900ad66dc39fe5df02e4d",
+          "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "identity-contracts.json": "8f97c5e73ac6fa7af48adb8924a84d04efec743223ef3ed43af4613e6dd50a37",
+          "initial-english-source-checkpoint.json": "c0b1fa0848c5b21d036d130aa7f927eb79fdc859250c1b3674366e71e28c90d9",
+          "initial-source-boundaries-checkpoint.json": "68265e4246f3fe8038de2394bdbf442213121439f48ef9e51c30994c0fee9dea",
+          "new-pronunciations.json": "3f0bdf5b6e2dd21e0e8ec7b4afa774da30e3b1dd89de078a691164d0f1b2928b",
+          "primary-quickfacts.json": "13b23c1290e8a4097153277cbc6adc4cb4c75738fda08a11df67cb288ffadda1",
+          "pronunciation-review-status.json": "7214e240463fc41feb3cee8569f8b1422573b21f3986b8b72f9df4366cfcf9dc",
+          "pronunciations.json": "cbbed8d03751276f0ec96a057eb4e33ce955b9e0a3a3e3bc59a865aa37c6e4f1",
+          "proposed-pronunciations.json": "741ed2f991ebdec9ae40dca0e6ffb4ecb0518b1077cda2ded41db971a2841f70",
+          "review-audit-group1.json": "8241930230d87c2e03cd0084ab78c93f4443aab4103aa9bef1f835e2286294ea",
+          "review-audit-group2.json": "e74869dd23f20af2dad86cfe7f85291f477e247b4f342ded075e71012403d5e8",
+          "review-audit-group3.json": "a46c8d5ddf5e9bd4ab47f064643c3056aea031af06a4c7a89cc985e942671529",
+          "review-audit.json": "ad15247954398ea86652f65ebf7a1cb07b4edaff29d18a99cc0c1f399d2b441a",
+          "review-groups.json": "74e8429f5111a1d6568d7c65992f5dd5c038b5fe1cfed75ecb9b2e71dba40950",
+          "secondary-fetch-retries.json": "de451f5ed0edf6b1ded9b26a5633ddb261910f0b5a91e3f4260def542f0350dc",
+          "semantic-contracts.json": "bb2a2ba8595b34776f68846e5abe280337442711fd3f04cbcc71e24a84ac6eee",
+          "semantic-notes-group1.json": "71589728876e89eb4bb3648d25cd5c95870ce99b66d56fd6fff73b9093db1cf9",
+          "semantic-notes-group2.json": "adcde4adae2e5c7f48111aad9291bb24ad7ebd80495b378407d75997ca7afe1a",
+          "semantic-notes-group3.json": "13cac280d98e07183eceb76d12d8e7d53270f578613b55c808fedbe4bda2731f",
+          "semantic-notes.json": "4cb01a4e3aa626454ddbcedd2afd439a970fedca6518082b9abdfb9ff8b0fa12",
+          "separate-bilingual-review.json": "ac8bee49df3955c972d4628cad1d87f1b2a1ef1a4e706d7c97478a8b9139ccb6",
+          "source-boundaries.json": "5c90098f09df80e29f4efeb8c5f8ef2950dd99e94195c0fd595105d090c86512",
+          "source-holds.json": "6032d60d3012787b8bbf9f94151d51f13c8d684c5d68864f9f467b74fec92c73",
+          "ua-field-countercheck.json": "338b4c357b65d664f14507a23d90ca16fd3ef03a2a2ebfa6f0728bb5af677507",
+          "validation.json": "254c124dd07c4b161ad4f5459b17f2de6e744746c6d81dbe4121c43e3093bdf9",
+          "worker-raw-source-proof-audit.json": "956d285dd049ba7b32aabe4d16d30c43995bb074873fe9509ed02ebeaef127cc"
+        },
+        "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+      }
+    },
+    "sourcedFields": 94,
+    "enabledFields": 94
+  },
+  "actualContractScriptSHA256": "82a280b339c4081d99b5fea22eb9980a84997166d8b77b67a2bac2f1fbbfe5a9",
+  "actualContractResult": {
+    "result": "PASS",
+    "sourceIdentityContracts": 20,
+    "numericTargetBindings": 6,
+    "writtenTargetBindings": 2,
+    "orderedTaskContracts": 7,
+    "actionContracts": 15,
+    "directionBindings": 4,
+    "negativeCases": [
+      {
+        "case": "Swap hatchling and soldier quantities",
+        "result": "rejected"
+      },
+      {
+        "case": "Wrong toxin quantity6 instead of5",
+        "result": "rejected"
+      },
+      {
+        "case": "Wrong silk quantity4 instead of3",
+        "result": "rejected"
+      },
+      {
+        "case": "Wrong pelt recipient Kimberly instead of Kristy",
+        "result": "rejected"
+      },
+      {
+        "case": "Wrong package recipient Kristy instead of Kimberly",
+        "result": "rejected"
+      },
+      {
+        "case": "Swap Pao ka escort target with Motega",
+        "result": "rejected"
+      },
+      {
+        "case": "Swap Lakota return NPC with Motega",
+        "result": "rejected"
+      },
+      {
+        "case": "Change Kanati warning into killing",
+        "result": "rejected"
+      },
+      {
+        "case": "Drop second chapter during assembly",
+        "result": "rejected"
+      },
+      {
+        "case": "Change12 pages to13",
+        "result": "rejected"
+      },
+      {
+        "case": "Send wine northwest instead of southeast",
+        "result": "rejected"
+      },
+      {
+        "case": "Place request outside town hall",
+        "result": "rejected"
+      },
+      {
+        "case": "Change ore alternative to both mob types",
+        "result": "rejected"
+      },
+      {
+        "case": "Remove material strength condition",
+        "result": "rejected"
+      },
+      {
+        "case": "Invent unavailable UA-only Progress",
+        "result": "rejected"
+      }
+    ],
+    "guardedFieldHashes": {
+      "96241": {
+        "title": "50696012d9f1a17f204612dbb91e61ae6ce0d3a1f761d331454c1a195b02757d",
+        "detail": "2aa4daa2f326bd1b2e0008b76aab5058a284ad36d544f9c160829c939c0b4769",
+        "objective": "9f6b52208399e816d41f24c14091ccaad03030edb5fadb1d2a7eb59c5ca576b7",
+        "progress": "f47cf510f6314c6e18308ad866aaf0dc23266eb6762d2fe18cb845c9ff331406",
+        "complete": "563bc64321e8543390cba79f2bd28a239d35761ac76677eabb5409857ef20c6c"
+      },
+      "96259": {
+        "title": "b2b740bb37d7f90631b30caad0489f09e9ae53aea1f100bda5331f78e961f515",
+        "detail": "23ce7b6418690a5b52f8b70d33a8ccd70bc8513ca4dd1d6ab020dc53345da094",
+        "objective": "3201865cfc3f706968c4e078f95d292bc7a7da6b060e3ce7d5f256fbe986007e",
+        "progress": "670f565327747697640a9952b5f2063a8cd3a55a12396d312f7eddc674968007",
+        "complete": "7e7c6a6b5334a985ada2c75ddf0de90cdf542dc97d3f0e843f25875456c576a6"
+      },
+      "96260": {
+        "title": "da668c5e8460cdf61979a83a530902c88ff34826c2b19c2b221664163b8196a7",
+        "detail": "3dd5a0d0b9f855f8db36532cc8001e56b1dbad340f719cee3dea2c9d04899099",
+        "objective": "2052377b8ed834ea588d22ca55e3cd09e0c60562629e56a43406e7a5744c564d",
+        "progress": "effb78eb64b327b311bc17e55d117789e7239824404c66f1bd82a9ac709ccdcf",
+        "complete": "5e73926e846c4028df21c41bc4439096e91c2690a82ebb3e66b556eea3e895e6"
+      },
+      "96261": {
+        "title": "a3484b727675b08e0b79a18adb042a49fabc638769f21a064b1ab9d49168d06d",
+        "detail": "0b72fc2bc25e4bc9ee47b65f7a6dd88a4ce301dc7828f48350ea1e9c68f6e85b",
+        "objective": "bfec441ccd4402e8885ef02ff9f74dc7663222e8bb5e2923e696365ce61b51ef",
+        "progress": "6410ef18899ea724c7be035aa21d79c7d87e3e11a5dc6b40e444af9850863476",
+        "complete": "2e6d00209418b16fc7551d58550c305eacd30f628075b3b038cd107c988a3481"
+      },
+      "96294": {
+        "title": "1b08c6a75c4a188fc413c8961fb88d357cb520f13cb94d4ba022b087296f4e10",
+        "detail": "f5d6630355d47c94157baf586c81bada97e16d1a3be68074b8a000d38bc67c64",
+        "objective": "e689da1dfeaa2c5ac07e0cfc161ed9f14e3b9953d22de4ec6145a1b04aaf1913",
+        "progress": "6013b7723a101ead0328d6c0ba3b62bfc66c5676f1eb79d4d6ed2780e4ae51bf",
+        "complete": "e39693f33732b6e80956ad826b5b2faa39c35fdd7ee325903e022f9a5c0a6374"
+      },
+      "4770": {
+        "title": "19b67c13d6a0e59c6194a8d3506a319a3f7cba11327ca16e3a4af4fa0565af7d",
+        "detail": "d60b9d288d86f4e2db8cf28dacecfff09aee042139a96fe5ef1f6bb9a7289b34",
+        "objective": "5b5cec78622538b488308e2f8a1e228b22ef947f85cd5d4f9e32abf904a05522",
+        "progress": null,
+        "complete": "de88235443b2ccf6dfbebb8b3d9a3f01e4e7232ffffea80e0bd63b0c611fa742"
+      },
+      "4881": {
+        "title": "4431c59c79d9ba01e97661da88e1e28e28a401cca39ad2b36effdcbb69cfa55e",
+        "detail": "df9f18025ae583cc716bc7b8e6f2a5aebdbb02d89f3ff2e3d8af8bd3dbc0f304",
+        "objective": "7ee246f7504672370176264adce7d2bc85431c6f46ede143660b9be5363d4dd0",
+        "progress": null,
+        "complete": "b059e4ac20dc1d293f42da60396ad3323362a57b5507e78b1987ab8440024035"
+      },
+      "4904": {
+        "title": "079fe3f06058511172d64f5260c0ba791a92d4cd5f40dc8c0d53d3938f5e5700",
+        "detail": "250c0a9e9803aac9f0fb9a2128db68aa1b147ab451d692d255263e8ebdc1c39b",
+        "objective": "26e69deeeff1cf72cd501e8f7d7a9107342dbe227111ecd9a464b5392a065c08",
+        "progress": null,
+        "complete": "26bc98a4830a56347919d61e5633322a85d8e2f10c17682073cf9c14ba97c668"
+      },
+      "4966": {
+        "title": "8db178690e5b803bd4034c911c08d5ee7cc090e5077177a3f15cea9e4ec8540f",
+        "detail": "bea5f501bdd8495a091b196ce75ffb7a7fbcf3fe73f90cdefc7ae857861bc05d",
+        "objective": "cc53b4aa6826c2546e4b6c5c42cec5eb511ecf38a045480c8a2cec333863c90d",
+        "progress": null,
+        "complete": "d01cf5d1802b28ccb7470167ca3d12c2d06d9c36f32aaa1ae066b33c3960ebda"
+      },
+      "5147": {
+        "title": "d7996403b4a8e31ebd91af9623f5df53e05e5a448cb22ef86b61b7fad41a77e9",
+        "detail": "781def51e033d2489584eac9ed0077588abd883a8c275189a693cae937f5e66d",
+        "objective": "f2cf611cdcd20dc0517f08cef14f65b40f9c68a2a5c8cbf56590c531c321483d",
+        "progress": "89d4f3020e1a5331604b84a25eca1c360a643b4dbc9389c76a934e79a8431bd7",
+        "complete": "576839ad8f44cadd3df5d3d954d567656e077cb9673b5e501849c7ad62f26e8d"
+      },
+      "5151": {
+        "title": "3d4d2f073e2beb6ebeb6037714cab8e7475add108aee0e567f20a665302b2471",
+        "detail": "ec2c7e357657fa8686a957a0bb010615fff0290bfd06b310f2dde05b03fcb29b",
+        "objective": "dc7c037eb23f04546970c38914e665a98be76b0c6447eba919b2dc90f6c22e93",
+        "progress": "9d3665887535a8fecc7a1d00a74706398770ab5698a731e1ec3224d13d693de9",
+        "complete": "b5d43c30194d2d8cca0b669d75aa6be331513ab0db37ea7161d52587d44df1b1"
+      },
+      "98155": {
+        "title": "40ff906fcc3e9895d2f52e2c39239d84d932d8505ae7a75890952f0d84f66dbf",
+        "detail": "a26d70e77467317226251f33106fafc3ad11a5cddcd59c2bad850ce265890a9b",
+        "objective": "3491192e82f30ff40060e78e2e5c0e04d0e0aab7d77b29a49ba6d955443c7e72",
+        "progress": "e745f9c39a62c23dd685ccf3041525b35bd7735dee94ea032605574a582e4ed9",
+        "complete": "512b7d2191056a78dad088e53211439391bb56d99b1f4b94fb2a2b564b779a70"
+      },
+      "98156": {
+        "title": "82876fcb4732bd424be2c81158fd2a0945c1f8a57faf0d7defbb1ee52ae37498",
+        "detail": "f4e9bd13e6b97a8369ddd0da788b9dfa7d54940f5a9d50edcff4f1737d087800",
+        "objective": "e923475faff55557bb35f9c7e9bed3250bca74eb3590963d207f54702b44ab72",
+        "progress": null,
+        "complete": "cb585bb3c1fcab1276c2b6194008627f25ae1c3d61c88ecd1af65dce985edf68"
+      },
+      "567": {
+        "title": "5fa4850c9d256d132dc7c0717f2c9d3177d08f2dd361120ead9f1230fd614901",
+        "detail": "9550886732204081edc1c53e7d6eb53d4e184a4a05f902f90cd26b33df80a32f",
+        "objective": "d823bd69d12fc4ccc2ae28e3627fcf795d19d6a48873e84a57d2cb8f3bdfef46",
+        "progress": "1d026cc31a60e65f3bb225426c35b069e2ea17db665565d340d1dfeb5a1e4a20",
+        "complete": "fd7973fbfe0dbec59daff4d6fd28fe013da00223a90e13ea1432906210cdc108"
+      },
+      "1153": {
+        "title": "23d0d1d9b83b0642e7d58e65d3e6fb3101e93fe8f39a1033e0254397b3917972",
+        "detail": "5cb7410c601c42bd09b01804afecf1386da1f7f6bc6288c4d2f41261d8472e9c",
+        "objective": "e9c79c772231193d64df36b0366b9aeb3f758797bd5bb077e82b6336a6da452c",
+        "progress": "d8b2ead501ab7b8d1d7a9353a7b1a2cbe719054ccb3437636f3dc1a05da43de5",
+        "complete": "84eabf4ec3cad59f88adfb900dfced4cd056016b8a31557abe2e6c35e2196cde"
+      },
+      "6504": {
+        "title": "0d7e4b804058d5ebde34a089f8608f6de7c57b1919bd45f2cbf91bbc81ff2aca",
+        "detail": "24c6cc51a46a8296d5c3e105c4eb3e1f51069f05817589330a8bcb10b2d704b4",
+        "objective": "0b429e83baab5a48bcf909545dd7223a853a90293a17bd849b1a10d3d9f7dad9",
+        "progress": "2e7b803e75f09a24d06a2a8568fc40d32f7ac616f12ec42719398a67320adb64",
+        "complete": "55e0fef78926120b155069dd67606a2ba1c178207b9a945305f02bd0b42a41f9"
+      },
+      "6921": {
+        "title": "ad31c48693ac1f9a888b823c5467b03cfbad1ce7a35d8d18b8a9b60ff800cdc9",
+        "detail": "17ba607d0562aa72ab5634edab34d58c2f0b1e37df483385b81096a49792245e",
+        "objective": "9f279dd867f18309f52322122ce27a57bedda0075500c5f612b6350ac5b055d0",
+        "progress": "47d45bac37a51255a88c2e788ccda73801e8e067eb18cde5d41e218aa14e5159",
+        "complete": "ac7247cbe85071bd79118f72cf6451846ddddaeea7a808c5070daa06c9677df3"
+      },
+      "6922": {
+        "title": "f3dbe31fdbe7ccb58d58d2de161a7fa728715f5639f4ff2cc35326fe2ade89de",
+        "detail": "fa18589d0eed7572a40fdb6bc7fa57f0296968dc79324cf62572f6d85aa39dd5",
+        "objective": "f2637b4761ef2d0787f151c38806f9598d2e18cd20f6a59eb7cecea4788c5734",
+        "progress": "6fbe30caf6eaf8e1ed1c680d153cbe0289661dec9d1b341ac5b6a4219a621b2e",
+        "complete": "8eb78634f501ee729bf3100b5b640cceadc509da5fe67ceb06dbf08ea2d97465"
+      },
+      "98059": {
+        "title": "efa33e10f2fce545069da28d1ed47e9caf789c692534a1dacdc06a56fefc436c",
+        "detail": "84ef52c328969a9407962505c5092f0a572c22421998de877b3f4c7b0f6546ae",
+        "objective": "ce50629a654df5af02eddc948c338fd2c5ceb86aa0a59c316147a290da02e8f0",
+        "progress": null,
+        "complete": "acdcc42f9c36a9466dae2e4db822bfb4eb127b434a7957730777e32e49f8adb4"
+      },
+      "98071": {
+        "title": "20301ca256537c4b704b177ca3568d255d16467dc0add97ffd296523cf72a5b3",
+        "detail": "065ab478404983a44d14ce1b1cc5d7c2c8f1e8db1a5e4a6933703f095acc019c",
+        "objective": "0942e4de8ad13ba2b549846b720978a0250f0753028c7eda77675fb71394dc49",
+        "progress": "5887bcdd566e8779110423f5314d6cab29e54dca20f653870c8e9e53e080663f",
+        "complete": "d3c86aa548353d7f6e129499bdd208aa817db942462298efaf44f24977d4cd13"
+      }
+    },
+    "claim": "Source-grounded regressions supplement author review; not native proofreading or current live verification."
+  },
+  "stdout": "{\"result\": \"PASS\", \"checkedAtUTC\": \"2026-11-24T07:01:27.189264+00:00\", \"sourcedFields\": 94, \"enabledFields\": 94}\nSource contracts PASS; 15 negative controls rejected\n",
+  "maintainedTerms": 4646,
+  "maintainedEntriesChanged": 0,
+  "upstreamPins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "metadataPins": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerVerification": "not tested",
+  "writePolicy": "Only independent reviewer receipts written; shared verifier and author-contract final report writes suppressed in memory."
+}

@@ -1,0 +1,148 @@
+{
+  "result": "CHANGES_REQUIRED",
+  "partition": "class_routes",
+  "reviewType": "Supplemental source-aware disposition of eight maintained-identity screening candidates",
+  "reviewedAtUTC": "2026-11-24T06:59:24.632337+00:00",
+  "screeningFile": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-24\\maintained-identity-screen.json",
+  "screeningFileSHA256": "5376236b8de36dad2114ecbb15e4d619b20b04dd1a50c62e0e2d11977a304591",
+  "styleGuideFile": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\Myanmar-Forever-v1.2.21\\Myanmar_Forever_NorthshireTest\\BuildSource\\STYLE-GUIDE.md",
+  "styleGuideSHA256": "a609e8b876c6c48fb97d496bef5398e7cf883d27470bb2ecda6e6360eede29ef",
+  "styleBasis": [
+    "Retain recognizable identity of named factions/creatures and whole identifying phrase with pronunciation.",
+    "A common noun is not automatically a proper name; translate ordinary narrative naturally.",
+    "Do not apply blanket retained-English annotations to lexical screening matches."
+  ],
+  "dispositions": [
+    {
+      "id": 1472,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "Temple"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "3ede8ffc4a2b33f5b4919f53cf84afd28e102c9f21bf2e9758be9d408a6c1169",
+      "reviewedMyanmarSHA256": "d75c823c81c3fc38358b94eb0c2cddb2705772cda77d9f1614e9b36446bf9f4e",
+      "reason": "NO_CHANGE: source says “within the temple” as ordinary location language. Myanmar ဘုရားကျောင်းထဲမှာ retains that meaning; inserting generic maintained Temple would not establish a named building. Godrick whole name is already retained and objective independently names Temple of the Damned."
+    },
+    {
+      "id": 1507,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "Ancient"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "4deaf22323f9215f332fca51dc3cc42110d2f3076c14a6bf4e7148752ac1a2cb",
+      "reviewedMyanmarSHA256": "8d65730c4d17af79dcfbc31de09d9a776f603ef41a99349ac2109e426cfea370",
+      "reason": "NO_CHANGE: ancient modifies the age of the warlock Cazul, not a creature/race named Ancient. အသက်ကြီးရင့်လှတဲ့ preserves old age; retain existing Cazul and warlock annotations."
+    },
+    {
+      "id": 1508,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "Wind Rider"
+      ],
+      "status": "CHANGES_REQUIRED",
+      "englishSHA256": "8aa881e92c2c1e4e527fda48de4a224555b41291bc1868912ac6dc910d50bfa4",
+      "reviewedMyanmarSHA256": "545b69f784eca0180795c4ba68633f6b81e7c9daf5eb753c154f017123010eb3",
+      "reason": "CHANGES_REQUIRED: source wind rider tower currently becomes a human air-rider tower. Preserve maintained Wind Rider identity and ordinary tower noun in the attached full-field proposal; direction and recipient remain exact."
+    },
+    {
+      "id": 1716,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "The Barrens",
+        "Symbol"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "a360c00967cd210444a396ac1f1a22bd9831bb64500dededb3c59c0b916a902b",
+      "reviewedMyanmarSHA256": "e312333cbe0a63a77f12f65a4ab5cae37a77ba47ed716bc489240810097bd272",
+      "reason": "NO_CHANGE: source ordinary “symbol of love” is semantically translated ချစ်ခြင်းမေတ္တာရဲ့ သင်္ကေတ, not an item named Symbol. Source “the Barrens of Kalimdor” retains recognizable Barrens with maintained ဘဲရန်းစ် and Kalimdor; omission of the English article is a legitimate established place shortening."
+    },
+    {
+      "id": 1716,
+      "field": "objective",
+      "missingMaintainedEnglishMatches": [
+        "The Barrens"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "a8b01bc01c717e58a20a7de2dc2291dd8a86dcf91780ed377e2f2c57b1c45e38",
+      "reviewedMyanmarSHA256": "a485d167bb8bb4004cb0f724e4d1c1dee99ac840492e1e9841dc18a0ff343bd2",
+      "reason": "NO_CHANGE: Barrens (ဘဲရန်းစ်) is recognizable and matches the current source location; The Barrens/Barrens share the maintained pronunciation. No identity or direction is lost by article omission."
+    },
+    {
+      "id": 78090,
+      "field": "progress",
+      "missingMaintainedEnglishMatches": [
+        "Cathedral"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "9f59e76fc54fa9e195b41cb47e9b719751958237a04f665e09150b0ab9b911f4",
+      "reviewedMyanmarSHA256": "44ffac9806c5c25b222c139182ea5c2ecb2357ec0e29cfb9c6adddd13dc9bf98",
+      "reason": "NO_CHANGE: lowercased “the cathedral” is a short landmark reference in a rebuke, not a newly stated full building name. ဘုရားကျောင်းကြီး renders cathedral naturally, and the sentence preserves being far from it, exact <class>, and no authority here. STYLE-GUIDE says common nouns are not automatically proper names; do not insert an unsupported full-name expansion or blanket annotation."
+    },
+    {
+      "id": 78091,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "Blackrock Clan"
+      ],
+      "status": "CHANGES_REQUIRED",
+      "englishSHA256": "19302a910fbd56b1bc670de126301e8af0660994bff4e5e4d118c1f73f4fce99",
+      "reviewedMyanmarSHA256": "713487d4253acacc3ccdabf349dd7181d248a9962637e0e3198331b051084abd",
+      "reason": "CHANGES_REQUIRED: Blackrock plus translated clan preserves meaning, but full Blackrock Clan named faction identity and its combined maintained phonetic should remain one unit under STYLE-GUIDE. Attached proposal makes that specific adjustment."
+    },
+    {
+      "id": 78093,
+      "field": "detail",
+      "missingMaintainedEnglishMatches": [
+        "Shattered"
+      ],
+      "status": "NO_CHANGE",
+      "englishSHA256": "870b74acc4ce157e122c71738521598b5456aaee71a690c7934177bd44a51a3f",
+      "reviewedMyanmarSHA256": "95fce34f028174737176650d074958d943556dfa4bcd073ee23888fee38769fb",
+      "reason": "NO_CHANGE: shattered is an ordinary adjective describing broken orb remains, not a named Shattered target. ကွဲကြေသွားတဲ့ and မှော်လုံးအပိုင်းအစတွေ preserve the physical condition; no English annotation is warranted."
+    }
+  ],
+  "issues": [
+    {
+      "id": 1508,
+      "field": "detail",
+      "englishSHA256": "8aa881e92c2c1e4e527fda48de4a224555b41291bc1868912ac6dc910d50bfa4",
+      "reviewedMyanmarSHA256": "545b69f784eca0180795c4ba68633f6b81e7c9daf5eb753c154f017123010eb3",
+      "old": "Gan'rul (ဂန်ရူးလ်) က မင်းကို ငါ့ဆီ လွှတ်လိုက်တာဆိုရင် မင်းဟာ sayaad (ဆာယာဒ်) မျိုးနွယ်ရဲ့ အမဖြစ်တဲ့ succubus (ဆက်ကျူဘတ်စ်) ကို ဆင့်ခေါ်ဖို့နဲ့ သူ့ကို ဖြားယောင်းဖို့ ပစ္စည်းတစ်ခု လိုနေတာ ဖြစ်မယ်။\n\nအင်း... <name>၊ မျက်မမြင်တစ်ယောက်ရဲ့ လမ်းပြမှုကို မင်း ယုံမယ်ဆိုရင် နားထောင်ပါ။ Orgrimmar (အော်ဂရင်မာ) ရဲ့ ကျောက်ကမ်းပါးမြင့်တွေပေါ်၊ လေကြောင်းစီးသမားတွေရဲ့ မျှော်စင်အနောက်ဘက်မှာ Zankaja (ဇန်ကာဂျာ) နေတယ်။ သူမက သူ့အဖော် ပြန်လာမှာကို စောင့်နေတယ်။\n\nသူမဆီ သွားလိုက်ပါ။",
+      "new": "Gan'rul (ဂန်ရူးလ်) က မင်းကို ငါ့ဆီ လွှတ်လိုက်တာဆိုရင် မင်းဟာ sayaad (ဆာယာဒ်) မျိုးနွယ်ရဲ့ အမဖြစ်တဲ့ succubus (ဆက်ကျူဘတ်စ်) ကို ဆင့်ခေါ်ဖို့နဲ့ သူ့ကို ဖြားယောင်းဖို့ ပစ္စည်းတစ်ခု လိုနေတာ ဖြစ်မယ်။\n\nအင်း... <name>၊ မျက်မမြင်တစ်ယောက်ရဲ့ လမ်းပြမှုကို မင်း ယုံမယ်ဆိုရင် နားထောင်ပါ။ Orgrimmar (အော်ဂရင်မာ) ရဲ့ ကျောက်ကမ်းပါးမြင့်တွေပေါ်၊ Wind Rider (ဝင်းဒ် ရိုက်ဒါ) မျှော်စင်အနောက်ဘက်မှာ Zankaja (ဇန်ကာဂျာ) နေတယ်။ သူမက သူ့အဖော် ပြန်လာမှာကို စောင့်နေတယ်။\n\nသူမဆီ သွားလိုက်ပါ။",
+      "proposedFullField": "Gan'rul (ဂန်ရူးလ်) က မင်းကို ငါ့ဆီ လွှတ်လိုက်တာဆိုရင် မင်းဟာ sayaad (ဆာယာဒ်) မျိုးနွယ်ရဲ့ အမဖြစ်တဲ့ succubus (ဆက်ကျူဘတ်စ်) ကို ဆင့်ခေါ်ဖို့နဲ့ သူ့ကို ဖြားယောင်းဖို့ ပစ္စည်းတစ်ခု လိုနေတာ ဖြစ်မယ်။\n\nအင်း... <name>၊ မျက်မမြင်တစ်ယောက်ရဲ့ လမ်းပြမှုကို မင်း ယုံမယ်ဆိုရင် နားထောင်ပါ။ Orgrimmar (အော်ဂရင်မာ) ရဲ့ ကျောက်ကမ်းပါးမြင့်တွေပေါ်၊ Wind Rider (ဝင်းဒ် ရိုက်ဒါ) မျှော်စင်အနောက်ဘက်မှာ Zankaja (ဇန်ကာဂျာ) နေတယ်။ သူမက သူ့အဖော် ပြန်လာမှာကို စောင့်နေတယ်။\n\nသူမဆီ သွားလိုက်ပါ။",
+      "proposedMyanmarSHA256": "3dca986683f95c120b25d32df150a78824e7282af2300b5af727c253e6028d0a",
+      "reason": "The source wind rider tower names the Wind Rider landmark/type, while လေကြောင်းစီးသမားတွေရဲ့ makes it a tower belonging to human air riders. Retain the recognizable maintained Wind Rider identity with its phonetic, leaving tower as an ordinary noun. West-of-tower direction, Zankaja, guide conditional and all surrounding text stay intact.",
+      "changeType": "source-aware identity/style correction"
+    },
+    {
+      "id": 78091,
+      "field": "detail",
+      "englishSHA256": "19302a910fbd56b1bc670de126301e8af0660994bff4e5e4d118c1f73f4fce99",
+      "reviewedMyanmarSHA256": "713487d4253acacc3ccdabf349dd7181d248a9962637e0e3198331b051084abd",
+      "old": "ငါ ဒီမှော်လုံးကို လေ့လာပြီး သိရသမျှ မင်းကို ပြောပြမယ်။ ဒါပေမယ့် အရင်ဆုံး ငါ့အတွက် တစ်ခု လုပ်ပေးရမယ်။\n\nBlackrock (ဘလက်ခ်ရော့ခ်) မျိုးနွယ်စုရဲ့ warlock (ဝေါလော့ခ်) တွေဟာ သူတို့ရဲ့ ဆင့်ခေါ်ထုံးတမ်းတွေ ပိုအစွမ်းထက်စေဖို့ အထူးစီမံထားတဲ့ ဆားတွေကို သုံးကြတယ်။ Redridge (ရက်ဒ်ရစ်ဂျ်) က အော့ခ်တွေဆီက ဆားအနည်းငယ် စုဆောင်းခဲ့ပါ။\n\nမင်း ပြန်ရောက်လာရင် ငါ့လေ့လာမှုရလဒ်တွေကို ပြောပြမယ်။",
+      "new": "ငါ ဒီမှော်လုံးကို လေ့လာပြီး သိရသမျှ မင်းကို ပြောပြမယ်။ ဒါပေမယ့် အရင်ဆုံး ငါ့အတွက် တစ်ခု လုပ်ပေးရမယ်။\n\nBlackrock Clan (ဘလက်ခ်ရော့ခ် ကလန်) ရဲ့ warlock (ဝေါလော့ခ်) တွေဟာ သူတို့ရဲ့ ဆင့်ခေါ်ထုံးတမ်းတွေ ပိုအစွမ်းထက်စေဖို့ အထူးစီမံထားတဲ့ ဆားတွေကို သုံးကြတယ်။ Redridge (ရက်ဒ်ရစ်ဂျ်) က အော့ခ်တွေဆီက ဆားအနည်းငယ် စုဆောင်းခဲ့ပါ။\n\nမင်း ပြန်ရောက်လာရင် ငါ့လေ့လာမှုရလဒ်တွေကို ပြောပြမယ်။",
+      "proposedFullField": "ငါ ဒီမှော်လုံးကို လေ့လာပြီး သိရသမျှ မင်းကို ပြောပြမယ်။ ဒါပေမယ့် အရင်ဆုံး ငါ့အတွက် တစ်ခု လုပ်ပေးရမယ်။\n\nBlackrock Clan (ဘလက်ခ်ရော့ခ် ကလန်) ရဲ့ warlock (ဝေါလော့ခ်) တွေဟာ သူတို့ရဲ့ ဆင့်ခေါ်ထုံးတမ်းတွေ ပိုအစွမ်းထက်စေဖို့ အထူးစီမံထားတဲ့ ဆားတွေကို သုံးကြတယ်။ Redridge (ရက်ဒ်ရစ်ဂျ်) က အော့ခ်တွေဆီက ဆားအနည်းငယ် စုဆောင်းခဲ့ပါ။\n\nမင်း ပြန်ရောက်လာရင် ငါ့လေ့လာမှုရလဒ်တွေကို ပြောပြမယ်။",
+      "proposedMyanmarSHA256": "b2c1c0a16bbb6407412ecf131fa862412ca183866907ddcc4bef63af3a566e69",
+      "reason": "The source identifies the Blackrock clan as the warlocks' named collective. Existing Myanmar preserves Blackrock and translates clan accurately, but splits the full identifying faction phrase. STYLE-GUIDE requires the whole identifying phrase and combined pronunciation; retain maintained Blackrock Clan. Salt purpose, orc source, Redridge and task sequence are unchanged.",
+      "changeType": "source-aware identity/style correction"
+    }
+  ],
+  "requiredPronunciationAdditions": {
+    "Wind Rider": "ဝင်းဒ် ရိုက်ဒါ",
+    "Blackrock Clan": "ဘလက်ခ်ရော့ခ် ကလန်"
+  },
+  "pronunciationAdditionBasis": "Both exact spellings already in root maintained-pronunciations.json; no new editorial spelling proposed. Native approval remains pending.",
+  "checks": {
+    "proposedFieldsInMemory": "Actual linguistic_lint.lint PASS with the two maintained pronunciation additions; actual build_release.validate_fields PASS both changed whole records with new proposed field review hashes.",
+    "sourceContracts": "Actual check_contracts.py frozen report write suppressed; all author10 negatives rejected; check(candidate) PASS including west-of-tower binding and task sequence.",
+    "frozenFiles": "All68 frozen file hashes verified before and after; frozen receipt hash unchanged.",
+    "initialReview": "Initial class_routes.json bytes retained unchanged; supplementary findings supersede its no-change conclusion only for1508.detail and78091.detail.",
+    "candidateMutation": "No author/candidate/product files changed; root must guard exact old hashes, update candidate review/provenance and request repeat independent review."
+  },
+  "frozenReceiptSHA256": "1b7bbc61f34ac4b8420e2bb0a73c0ccced7b1415eda434f4226527f1fe28548d",
+  "initialReviewSHA256": "8262b12ac23b4ce8467a4cc1ce7bfc0df8dbe4987b9ce68d1fd9d49b1135d3b6",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

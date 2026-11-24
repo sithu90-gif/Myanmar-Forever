@@ -1,0 +1,39 @@
+{
+  "result": "PASS",
+  "sourceIdentityContracts": 19,
+  "negativeCases": [
+    {
+      "case": "wrong12componentcount",
+      "result": "rejected"
+    },
+    {
+      "case": "wrongDefiasConvict8count",
+      "result": "rejected"
+    },
+    {
+      "case": "wrongGuts24count",
+      "result": "rejected"
+    },
+    {
+      "case": "wrongEscortEndpoint",
+      "result": "rejected"
+    },
+    {
+      "case": "missingWaitForCalibration",
+      "result": "rejected"
+    },
+    {
+      "case": "reversedFalloutStability",
+      "result": "rejected"
+    },
+    {
+      "case": "missingHeavyPhialReturn",
+      "result": "rejected"
+    },
+    {
+      "case": "unsupportedGenderFieldEnabled",
+      "result": "rejected"
+    }
+  ],
+  "claim": "Actual semanticcontract checks and intentionalmutations; notlive/nativeproof"
+}

@@ -1490,3 +1490,97 @@ if A.quests[579] and A.quests[1149] and A.quests[1022] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-source identity contracts, six distinct Lore stages, helper/reward boundaries and source holds.')
 end
+
+if A.quests[1472] and A.quests[2923] and A.quests[96241] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({1472,1476,1507,1508,1716,78088,78089,78090,78091,78092,78093,2923,2922,2927,2926,2962,2925,2924,2931,2930,2928,2929,2842,2843,2841,2904,386,377,387,388,96241,96259,96260,96261,96294,4770,4881,4904,4966,5147,5151,98155,98156,567,1153,6504,6921,6922,98059,98071}) do
+    assert(A.quests[id] and A.quests[id].title,'24NovemberAfternoon quest/title missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost quest ID/title')
+    end
+  end
+  for _,repair in ipairs({{1681,'detail'},{1681,'complete'},{1779,'detail'},{1783,'detail'},{1784,'detail'},{1784,'objective'}}) do
+    local id,field=repair[1],repair[2]
+    assert(A.quests[id][field]:lower():find('dark iron dwarves',1,true),'Repaired existing field lost source identity')
+    questID=id;fire(field=='complete' and 'QUEST_COMPLETE' or 'QUEST_DETAIL');flush()
+    assert(A.window:IsShown(),'Repaired existing state no longer renders:'..id..'/'..field)
+  end
+  assert(not A.quests[1783].complete,'Inherited brother/sister source conflict was enabled')
+  for _,h in ipairs({{2927,"detail"}}) do
+    questID=h[1];fire(({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[h[2]]);flush()
+    assert(not A.window:IsShown() and MMNorthshireCaptures[h[1]].states[h[2]].translationFallback~=nil,'Held field lost original fallback/capture')
+  end
+  assert(not A.quests[2927].detail,'Unsupported sir-maam gender branch enabled')
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail and not A.quests[111].progress,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:24NovemberAfternoon50 records and150 new dialogue cases plus six guarded repair cases; held branches keep native fallback.')
+end
+
+if A.quests[1472] and A.quests[2923] and A.quests[96241] then
+  local contracts={
+    {1472,"objective",{"Godrick Farsan","Temple of the Damned"}},
+    {1476,"objective",{"Dalin Forgewright","Corma Villard","Carendin Halgar"}},
+    {1507,"objective",{"Cazul","Cleft of Shadow"}},
+    {1508,"objective",{"Zankaja","Orgrimmar"}},
+    {1716,"objective",{"Takar the Seer","Barrens"}},
+    {78088,"objective",{"Althalaxx Orb","Delgren the Purifier","Maestra's Post"}},
+    {78089,"objective",{"Althalaxx Orb","Katherine the Pure","Stormwind"}},
+    {78090,"objective",{"Stormwind"}},
+    {78091,"objective",{"Summoner's Salt","Blackrock Summoners","Ursula Deline"}},
+    {78092,"objective",{"Motes of Mannoroth","Orb of Althalaxx","Spear of Mannoroth","Demon Fall Canyon"}},
+    {78093,"objective",{"Orb Shards","Delgren"}},
+    {2923,"objective",{"Tinkmaster Overspark","Ironforge"}},
+    {2922,"objective",{"Techbot's Memory Core","Tinkmaster Overspark"}},
+    {2927,"objective",{"Ozzie Togglevolt","Kharanos"}},
+    {2926,"objective",{"Empty Leaden Collection Phial","Irradiated Invaders","Irradiated Pillagers","Ozzie Togglevolt"}},
+    {2962,"objective",{"High Potency Radioactive Fallout","Heavy Leaden Collection Phial"}},
+    {2925,"objective",{"Klockmort Spannerspan","Ironforge"}},
+    {2924,"objective",{"Essential Artificials","Klockmort Spannerspan"}},
+    {2931,"objective",{"Master Mechanic Castpipe","Ironforge"}},
+    {2930,"objective",{"Prismatic Punch Card","Master Mechanic Castpipe"}},
+    {2928,"objective",{"Robo-mechanical Guts","Shoni","Stormwind"}},
+    {2929,"objective",{"Mekgineer Thermaplugg","High Tinker Mekkatorque"}},
+    {2842,"objective",{"Scooty","Booty Bay"}},
+    {2843,"objective",{"Scooty","Goblin Transponder"}},
+    {2841,"objective",{"Rig Blueprints","Thermaplugg's Safe Combination","Nogg"}},
+    {2904,"objective",{"Kernobee","Clockwerk Run","Scooty","Booty Bay"}},
+    {386,"objective",{"Targorr the Dread","Guard Berton","Lakeshire"}},
+    {377,"objective",{"Councilman Millstipe","Dextren Ward"}},
+    {387,"objective",{"Warden Thelwater","Defias Prisoners","Defias Convicts","Defias Insurgents"}},
+    {388,"objective",{"Nikova Raskol","Red Wool Bandanas"}},
+    {96241,"objective",{"Toxin Extractor","Gloomrise Toxin Samples","Gnawed Corpses"}},
+    {96259,"objective",{"Gloomrise Hatchlings","Gloomrise Soldiers"}},
+    {96260,"objective",{"Crystalline Silk","Gloomrise Spinners"}},
+    {96261,"objective",{"Broodmother Valraxx","Gloomrise"}},
+    {96294,"objective",{"Broodmother Valraxx","Muln Earthfury","Skywatcher Plateau"}},
+    {4770,"objective",{"Pao'ka Swiftmountain","Highperch","Motega Firemane","Whitereach Post"}},
+    {4881,"objective",{"Kanati Greycloud","Whitereach Post"}},
+    {4966,"objective",{"Kanati Greycloud"}},
+    {4904,"objective",{"Lakota Windsong","Darkcloud Pinnacle","Thalia Amberhide","Freewind Post"}},
+    {5147,"objective",{"Arnak Grimtotem","Cliffwatcher Longhorn","Freewind Post"}},
+    {5151,"objective",{"Hypercapacitor Gizmo","Panther Cage Key","Wizlo Bearingshiner"}},
+    {98155,"objective",{"Pristine Pesterhide Pelts","Kristy Grant"}},
+    {98156,"objective",{"Package of Pristine Pelts","Kimberly Grant"}},
+    {567,"objective",{"High Executor Darthalia","Tarren Mill","Clerk Horrace Whitesteed","Citizen Wilkes","Miner Hackett","Farmer Kalaba"}},
+    {98059,"objective",{"Sealed Company Request","Hillsbrad"}},
+    {98071,"objective",{"Fallrook Varietal","Dun Garok","Hillsbrad Foothills","Homebrew Hops"}},
+    {6504,"objective",{"Shredder Operating Manual","Gurda Ragescar","Splintertree Post"}},
+    {6921,"objective",{"Fathom Core","Je'neu Sancrea","Zoram'gar Outpost"}},
+    {6922,"objective",{"Strange Water Globe","Je'neu Sancrea","Zoram'gar Outpost"}},
+    {1153,"objective",{"Unrefined Ore Sample","Gravelsnout Digger","Surveyor","Tatternack Steelforge","Camp Taurajo"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Missing source task identity field'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Current source identity failed:'..c[1]..'/'..term) end
+  end
+  for _,r in ipairs({{1472,"progress"},{1507,"progress"},{1508,"progress"},{1716,"progress"},{2923,"progress"},{2927,"progress"},{2925,"progress"},{2931,"progress"},{2842,"progress"},{4770,"progress"},{4881,"progress"},{4966,"progress"},{4904,"progress"},{98156,"progress"},{98059,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented missing current source state:'..r[1]..'/'..r[2]) end
+  for _,h in ipairs({{2927,"detail"}}) do assert(not A.quests[h[1]][h[2]],'Unsupported field enabled:'..h[1]..'/'..h[2]) end
+  for _,pair in ipairs({{1472,1507},{1507,1716},{1507,1508},{78088,78089},{78089,78090},{78090,78091},{78091,78092},{78092,78093},{2923,2922},{2927,2926},{2926,2962},{2925,2924},{2931,2930},{2842,2843},{4881,4966},{98155,98156},{96259,96261},{96261,96294}}) do
+    assert(A.quests[pair[1]].objective~=A.quests[pair[2]].objective,'Different handoff/task stages collapsed')
+  end
+  assert(A.quests[1472].en==A.quests[1507].en and A.quests[1507].en==A.quests[1716].en,'Same-title Warlock identities changed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 current-source objective contracts, distinct Warlock and dungeon stages, unavailable states and gender hold.')
+end

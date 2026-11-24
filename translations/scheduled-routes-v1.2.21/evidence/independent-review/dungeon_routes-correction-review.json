@@ -1,0 +1,771 @@
+{
+  "result": "PASS",
+  "partition": "dungeon_routes",
+  "receiptStage": "FINAL after source-supported pronunciation reconciliation",
+  "reviewedAtUTC": "2026-11-24T07:16:48.434098+00:00",
+  "candidateHashesBefore": {
+    "edited.json": "83e20bbe05210075cb44d5b63845ab525684aa1b347644d28ed3b0a404172de3",
+    "pronunciations.json": "50c165e78451361dc6141fc6d6fceaf5c1021033d01f3af224c54d45da94cf68",
+    "review-audit.json": "5c6349921c1e267d6ef5dc691472b62168f4b8340c89b6a781eb9155e0bba313",
+    "annotation-exceptions.json": "6490e82733aea974524dbcc0b76643df0ea9021a6b57e2838f37c0da98d05655",
+    "accepted-corrections.json": "e1b6536863ff32fb441e9be1e7a204796ee0c488601b349fe63aa87476c7ecf0"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "83e20bbe05210075cb44d5b63845ab525684aa1b347644d28ed3b0a404172de3",
+    "pronunciations.json": "50c165e78451361dc6141fc6d6fceaf5c1021033d01f3af224c54d45da94cf68",
+    "review-audit.json": "5c6349921c1e267d6ef5dc691472b62168f4b8340c89b6a781eb9155e0bba313",
+    "annotation-exceptions.json": "6490e82733aea974524dbcc0b76643df0ea9021a6b57e2838f37c0da98d05655",
+    "accepted-corrections.json": "e1b6536863ff32fb441e9be1e7a204796ee0c488601b349fe63aa87476c7ecf0"
+  },
+  "candidateBytesUnchangedDuringReview": true,
+  "counts": {
+    "quests": 19,
+    "fieldSlots": 95,
+    "finalReconciledOffers": 1,
+    "otherSlotsUnchangedFromPriorReviewedCandidate": 94,
+    "originalCorrectionsPreserved": 5,
+    "availableSourceFields": 90,
+    "enabledFields": 89,
+    "heldFields": 1,
+    "unavailableSlots": 5,
+    "authenticDeepLInputsReverified": 90,
+    "candidateCanonicalHashAliasAssertions": 285,
+    "frozenAuthorCanonicalAliasAssertions": 1140,
+    "frozenAuthorFilesVerified": 91,
+    "sourceIdentityContracts": 19,
+    "originalNegativeControlsReexecuted": 8
+  },
+  "finalField": {
+    "id": 2904,
+    "field": "detail",
+    "englishSHA256": "071ff4edf74810000d550dd4a3f29d51ca0dafe92a603534728b3994f2945b74",
+    "priorReviewedMyanmarSHA256": "0780ed0f78e11426670e1f6058e8d5e2088de374e92c698cb3d65010c41be985",
+    "myanmarSHA256": "633636ab9338209a18250c4090858a47180f22f86577bfebdaf9605d16be7a1c",
+    "status": "PASS",
+    "reviewNotes": "Read final offer against current unchanged English. Dark Iron Dwarves retains clan/creature identity and the existing maintained v/z spelling supported by Cambridge. Groan, near-death capture, exit-first/live-escape condition, player report to Scooty/BootyBay and Kernobee travel to Ratchet to warn Tinkerwiz remain unchanged. Short Dark Iron reference and its scoped exception are intact."
+  },
+  "unchangedSlotsFromPriorReviewedCandidate": [
+    {
+      "id": 2923,
+      "field": "title",
+      "englishSHA256": "8f1ad791b37f0f93f628c51761df57bf8842ea139b5e757feca79f7eee552915",
+      "myanmarSHA256": "d0837751eae29235f95cdab5efa46dd44d4756b2bea05d9bc6c83e071119c0ed"
+    },
+    {
+      "id": 2923,
+      "field": "detail",
+      "englishSHA256": "420a580aee1aea98b05958a7dc63d1165e99d25150b993bb1eb9f31fa846a8d8",
+      "myanmarSHA256": "1e432ad1dde6174b641ce4058a6f799bdc306a785105c6083c3a6cb51a49423f"
+    },
+    {
+      "id": 2923,
+      "field": "objective",
+      "englishSHA256": "da5520b6c90c1239c37605ff8bbeec76e1ed2cc24a5f98ec1c8c93f95b8d25ae",
+      "myanmarSHA256": "5fad9d8da22b9965fd571c83f6eb3b8f320801054625e3efb8361e05dd3e1ea9"
+    },
+    {
+      "id": 2923,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2923,
+      "field": "complete",
+      "englishSHA256": "c9b1acd5e8bb3cb1daa8dc9b004cd63fd81e910a1ad94ef669fe8e8a24e1b002",
+      "myanmarSHA256": "7ee16ef81358eccf08bfdc62c6fb594d5c4e899bddbc9150361a5a01ebbf5ba3"
+    },
+    {
+      "id": 2922,
+      "field": "title",
+      "englishSHA256": "47a7a860e1bf008e1b22a3e0d53de60ba05da1652284d95dd57ee5a9470dc1e9",
+      "myanmarSHA256": "b68f09cff37717aef7f47edbfd1a137cc16db93ef72bc630a54a09fe4257984e"
+    },
+    {
+      "id": 2922,
+      "field": "detail",
+      "englishSHA256": "f8d101a414b4a83af5b0647fa8b97f41778d8506d43664c427537850eec670d2",
+      "myanmarSHA256": "047ccf428e1f4d31ab628b70f96b1471198374acb18ff230d53be812aa62996f"
+    },
+    {
+      "id": 2922,
+      "field": "objective",
+      "englishSHA256": "813f758835b78405a1831e5a1f847c1b392b2970c45b72a3194bf12b1928a192",
+      "myanmarSHA256": "7be5c151e6228e12a5e157f8fafa43b9e770c4187a9a1bb6896f4c02ebe4a6d4"
+    },
+    {
+      "id": 2922,
+      "field": "progress",
+      "englishSHA256": "a4b3782b1b3b96f2b14e1a6e9b5b0bf87a7490d731310ee329e5d2b2a2615cc5",
+      "myanmarSHA256": "f09e79512c23f03e05cda58bcae63028d11772506898e694881ea55c1233ce43"
+    },
+    {
+      "id": 2922,
+      "field": "complete",
+      "englishSHA256": "2d5299f6af876ca0163ddcd6b917eeb3755ce9c05e0425f9bb90f895aff42f69",
+      "myanmarSHA256": "d4e6d17176a695d413fbfda06c85c0cdb732d9269cce404cfbadcdbda461c59a"
+    },
+    {
+      "id": 2927,
+      "field": "title",
+      "englishSHA256": "249785eb79c84ceabf48816f7e7d7fc31537e06db9e85b9ccf9ec7be311d3b3f",
+      "myanmarSHA256": "c7281c0619c7065850c2d450780a03ef44d4a7f84846d80e5d3da0a2a106910c"
+    },
+    {
+      "id": 2927,
+      "field": "detail",
+      "englishSHA256": "bb26176e017e4ab281038694e5fa84805d821e69dade322ef444fef5ddd4d411",
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2927,
+      "field": "objective",
+      "englishSHA256": "f4810c7882d26694e485fb2e1bf23a543921098f655d069f5860323620b393d4",
+      "myanmarSHA256": "73f001414d2843e4cdd012d9f8f4404a60769709ce98196a318ade0ce15138c2"
+    },
+    {
+      "id": 2927,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2927,
+      "field": "complete",
+      "englishSHA256": "9e6d03a2ca4b212fcd5361530ad13f84b0b99070f068dc11a3b1df835752dffb",
+      "myanmarSHA256": "01902ff32782999b2f9e694f06ac91a411e69beccaeb461038dd6eef04af388e"
+    },
+    {
+      "id": 2926,
+      "field": "title",
+      "englishSHA256": "c5c6b0d2e75fee744440fdbcffba2e7e579070f03fe9ab4dd459ddc868766221",
+      "myanmarSHA256": "c490120398ff80b4f7f2e4d6ee1067ff98a831df3ae1903d7770cbbf16ef70ca"
+    },
+    {
+      "id": 2926,
+      "field": "detail",
+      "englishSHA256": "fc11fd18787b784b5c470dbae2cf87d41b26c1ad32bd55f5107f130b3abe1f92",
+      "myanmarSHA256": "2b10d6887b48d9b771b13478610393c06ed04e4eb6a6e67401ee60453a484326"
+    },
+    {
+      "id": 2926,
+      "field": "objective",
+      "englishSHA256": "4558a0c9c01a6e740c60d890c7d0078c0a16d4a79c85869284501a5867773343",
+      "myanmarSHA256": "43c5115013d09f6b900e6019d5aa24eb2ad3bb7137d17b4daa55343693320cf1"
+    },
+    {
+      "id": 2926,
+      "field": "progress",
+      "englishSHA256": "4a0809edce45bbb7d0a10be952730d97b69acc87ac1bb9f462767702abaa95ea",
+      "myanmarSHA256": "adbc20976787ffe5427a5f15aff2348c40511ba76c48d2b7f255c831265e9856"
+    },
+    {
+      "id": 2926,
+      "field": "complete",
+      "englishSHA256": "14f772a9009a755720aba3dda32fbbb3cfe3755ed3d6a0387d3a12633a7206e9",
+      "myanmarSHA256": "c6d05597ad2a7ca1100c9609ef13b920841228671f1d2f07db09d90d0c0e7627"
+    },
+    {
+      "id": 2962,
+      "field": "title",
+      "englishSHA256": "05876809c752f2cfbdec714606bb69f1760e62ba75a10424f3a934b54ca0deb7",
+      "myanmarSHA256": "5af9e66e86c51bd911612e531309eab6809ccb08c73c0243ce5c5c4c3833455f"
+    },
+    {
+      "id": 2962,
+      "field": "detail",
+      "englishSHA256": "98febd5e51b4f8c8459487adb4f9aeea99b9e646980a4ce3215094824188b406",
+      "myanmarSHA256": "69424145feb91f55daf01ca57b7caf4df2aedb9183f505fba33a5f30ebdf604a"
+    },
+    {
+      "id": 2962,
+      "field": "objective",
+      "englishSHA256": "76ff3f093d6c2ddeceedf7603ba642c20d70221a63ec1c1e145d964ee30e40b0",
+      "myanmarSHA256": "10e3195f11bea55ddc47f5e3aefc6ffee21d85dccc2b19df10ac0885daf3d21a"
+    },
+    {
+      "id": 2962,
+      "field": "progress",
+      "englishSHA256": "91e76b844c349d449ff0f194c9213f4900888d0640ea50d7550557a4ff75f066",
+      "myanmarSHA256": "cd6e277b7dcb0da4f6702064482c13ac27d23f4bed349f3d9766dcae26ae807e"
+    },
+    {
+      "id": 2962,
+      "field": "complete",
+      "englishSHA256": "5065a12a5a9c5042853f0add81a6a46cd24a6b5b1997dd55d65e9dabd5c65da4",
+      "myanmarSHA256": "08b487481a50fb9ec14c34b07f68c90277c03c2c120590fc565dfaf0ca202d00"
+    },
+    {
+      "id": 2925,
+      "field": "title",
+      "englishSHA256": "fadd40f96fe7e560855e66d9200b58414c2cda0d2790adcf95e2f9aa63290317",
+      "myanmarSHA256": "656bcae981cb1b8a823abc6289b2c5f8c5d42e1637f721b1d7e1196a578d2563"
+    },
+    {
+      "id": 2925,
+      "field": "detail",
+      "englishSHA256": "c636bd58860992f49920437466d88879e81e7ae8525a6b50453f595d385ca358",
+      "myanmarSHA256": "ef3be118de93f2853cf74a5d72a38129540135ff376fd78eae6b5baa9cbd2e61"
+    },
+    {
+      "id": 2925,
+      "field": "objective",
+      "englishSHA256": "4a261b9c6dd5a955083edf3229a683bdcfe313945d2089a7fd9ada48e5a74c10",
+      "myanmarSHA256": "6dba53681270baf860b5b46b4384920574fc3516fc8a47e851b5b30b6e2d2300"
+    },
+    {
+      "id": 2925,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2925,
+      "field": "complete",
+      "englishSHA256": "21f988309769bc336bc5832342f36d32e8eb243420696ba3f9d06d2b7e1172eb",
+      "myanmarSHA256": "388f3ffd81402e9be5a1d54d4dc8e0696fe995ab1c6843628da28ed58ed21a1f"
+    },
+    {
+      "id": 2924,
+      "field": "title",
+      "englishSHA256": "3042564d9063b37e21edcaa4da5242845e65ac1eab70ee19e36a78b2a152a554",
+      "myanmarSHA256": "98201b7824df2383bf216c13a242e46f50f17c3960556686a4e30d684eb378f5"
+    },
+    {
+      "id": 2924,
+      "field": "detail",
+      "englishSHA256": "2381daa022166e4bb3257a962ae227d1f252c630d99a083fd7c30f2705e2f69d",
+      "myanmarSHA256": "2ab185d61c6e35b3145ed641cd6ca90cc22b95719b60c17591c1d7c5ad3a6003"
+    },
+    {
+      "id": 2924,
+      "field": "objective",
+      "englishSHA256": "4f424d14d9248cecff11821838f582d4e0fc2ae125faec95ef7c3571282597d8",
+      "myanmarSHA256": "e014aef5708adb8f2d01f7b845b51ee8aa0ea43ae4460f522fea6c5f18b7d854"
+    },
+    {
+      "id": 2924,
+      "field": "progress",
+      "englishSHA256": "f1139ae2d1e433ebb02fec9ecc23236f651de7e3aa8b30d23a0fe4b7b4d205ac",
+      "myanmarSHA256": "d719dc4ecec8f30e44114c49c0e00600c3f70204943aea618310d60bc9d1c5cd"
+    },
+    {
+      "id": 2924,
+      "field": "complete",
+      "englishSHA256": "186aeca1f9fd6180d6740b222530283da5e92f13bd0d89d1a0f87cfd8d5223d7",
+      "myanmarSHA256": "a0bfd8c92d6500e86292973857f107433b91713f16e3c707ee9d3f9b8ed213f0"
+    },
+    {
+      "id": 2931,
+      "field": "title",
+      "englishSHA256": "b4d0b531a86ba355527ce7272e1a24ad20481ff456b1c7b9408b9272b219cdc3",
+      "myanmarSHA256": "be2023a3ff83795117cfb075d1bca5ac6114943d699dddcb7f336b33c81bc33c"
+    },
+    {
+      "id": 2931,
+      "field": "detail",
+      "englishSHA256": "a44c4b0fe9c06da1bef511c580f3eeca3029ce9f2a9ed7a3d0cc51dd5097965c",
+      "myanmarSHA256": "15dd67d6c218af7d4e36fef6bb57366808086d811430a569627a23cf964011d0"
+    },
+    {
+      "id": 2931,
+      "field": "objective",
+      "englishSHA256": "415e8c235060809ca1c593c53552ff53779ecaa660f641847a781c87a73800e8",
+      "myanmarSHA256": "7c57f1cec06b019ff139ebf5f783ea6a020d753682f006e043cb28e0030ec622"
+    },
+    {
+      "id": 2931,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2931,
+      "field": "complete",
+      "englishSHA256": "d512eaa9226daa4cad050369ea9c9ffb5509751de11a4ec7dfdaeb865eff32d6",
+      "myanmarSHA256": "5066589cfe333fd8f21518ea5e5c5c95440529eff156ff3582812a84267d5547"
+    },
+    {
+      "id": 2930,
+      "field": "title",
+      "englishSHA256": "b09383d88cb28575921c59eabca14cf833da070f72bf6e1245b1b57fea78837a",
+      "myanmarSHA256": "48e56bfca2776f8967585c7d72c8c302ff3d99c8ac9fda1be6154c3dfd46de56"
+    },
+    {
+      "id": 2930,
+      "field": "detail",
+      "englishSHA256": "174142ca8eb72ae39d98e8c9caf3dff142ca0d135eaf26f1935309233dfc3f89",
+      "myanmarSHA256": "f647e2da4c6e7f650b1e74e0ac4728e21b67917463fe6bb77743c3b66b33843d"
+    },
+    {
+      "id": 2930,
+      "field": "objective",
+      "englishSHA256": "68afcede46e96c2618edba5055f81d23f1c78b404836913310cb3cacdf3af2aa",
+      "myanmarSHA256": "09fdc5b896c65f96da21be65a1a94eef9022837d9a129ecb2316505458afa499"
+    },
+    {
+      "id": 2930,
+      "field": "progress",
+      "englishSHA256": "0477fd64527be85b1610282678f90715899288843223165e51ee3966401ad5cf",
+      "myanmarSHA256": "4f0741a4774470356890e11546cc4045ea11d07f7d7a811c9c51fb9837d6f7b9"
+    },
+    {
+      "id": 2930,
+      "field": "complete",
+      "englishSHA256": "58731a179781db524a243638ce440483e4b2e3581e440d6c38ffbfd2ccc41800",
+      "myanmarSHA256": "b2250bd74662ae9da73f1c550a827103a83ca23a611b1583d2b227c856c52ed0"
+    },
+    {
+      "id": 2928,
+      "field": "title",
+      "englishSHA256": "13ed9122015169bb71530cef3b004429b9c7faf0a563e29cdb1f7c5eab740544",
+      "myanmarSHA256": "459f2bf89eabfdb8640ea6c0b41fff17fb6b49ef67cea126074254e0ad47bd0f"
+    },
+    {
+      "id": 2928,
+      "field": "detail",
+      "englishSHA256": "91fb475d1988e40a3353224d59b31b86e240b98421eb0ed972eb728e15e780b7",
+      "myanmarSHA256": "256ea4d3959c6f04a55067042a54126e676a3e1a75a2e71c56fee38129d4bc7f"
+    },
+    {
+      "id": 2928,
+      "field": "objective",
+      "englishSHA256": "927b46fe93f3e88777e77ced24a53d299182f33ceb86ff0c48e13197684465bc",
+      "myanmarSHA256": "e94bfc1ffcc559e65125714a98a42029ba864fb0f3974439b6c5c2264cfff425"
+    },
+    {
+      "id": 2928,
+      "field": "progress",
+      "englishSHA256": "ed65c71d8d9c23530b341bd7644bf90e7c445e9d04afce2aee83ced1f817bb29",
+      "myanmarSHA256": "a1d7d0ca484fd9f5c26cacded26319ed416fc753a8df5ec6f6469a1ae16832b2"
+    },
+    {
+      "id": 2928,
+      "field": "complete",
+      "englishSHA256": "59d29b8c3d869a3963896d0bc18b5f2ec9b4a5aa28a7622f54a49b97f1d1e02b",
+      "myanmarSHA256": "4c4adc236cb2de787bc1c4bc41870150ddbbb059b306e9f0a5fe5c1a9e3ad8a2"
+    },
+    {
+      "id": 2929,
+      "field": "title",
+      "englishSHA256": "9f8a99984484bb3355818d85eb731dd311c686307acdf64da60b55c40b08670a",
+      "myanmarSHA256": "08a37df2cd739b4ae8a4fdc32d6f2fd06d031ab2e946b027dfea583fe5e0a660"
+    },
+    {
+      "id": 2929,
+      "field": "detail",
+      "englishSHA256": "ca8ed72076ca448c3039d94e504b3db38e76136bd318537fd2657c55710ae7a1",
+      "myanmarSHA256": "1c112b10bf2258616ae8080c0403a0cac07497b4c243a14b3a1e4fb0bf15fd0c"
+    },
+    {
+      "id": 2929,
+      "field": "objective",
+      "englishSHA256": "beb0798968e5f8f62f442fe0cdfba9ab20abde4281ad56c24c20631cfb23bc83",
+      "myanmarSHA256": "058d87adbe1ebcf4b1c3527d1f608a1f716692334f1ba5c799bdd9fc6141520e"
+    },
+    {
+      "id": 2929,
+      "field": "progress",
+      "englishSHA256": "d2542fa31818b7f20f33cfcf2b7633e09f2b5ec1e2823c073c1ce16f7920da66",
+      "myanmarSHA256": "790f8786e360981ebc8fb2ec919b89c8297972fb992fb5d0f25cb1a576b7b9d5"
+    },
+    {
+      "id": 2929,
+      "field": "complete",
+      "englishSHA256": "96f16b5b44875546b270a501f1cdccdc90b36a087fd227dd6b33c2449f374c0b",
+      "myanmarSHA256": "a0faab4bfd7ae3a8dc5900c1d79089985c6682db82194cbd49b2bfb2b53ec0d4"
+    },
+    {
+      "id": 2842,
+      "field": "title",
+      "englishSHA256": "831d020a03f822a95b9e5ba3769884ad44045b03d3818e9acc463199ce27bab8",
+      "myanmarSHA256": "25ab546ed2422008fc3a4f5f245cfc31468ac35021d0e2a5d87bf0c340090577"
+    },
+    {
+      "id": 2842,
+      "field": "detail",
+      "englishSHA256": "0f16691e44f64301f2b0150d4e3ed80979c714b90ea4cc431ecb51cc0e75a41b",
+      "myanmarSHA256": "69ba70c771d8faf78f6972ae92464532de04d8d1aca0f2fd85d9b65f0a7e4ff4"
+    },
+    {
+      "id": 2842,
+      "field": "objective",
+      "englishSHA256": "62466b0df95e0f0a965fe44d6af817dd005e5e5573c6aa9c7d1e913a69a0d1b5",
+      "myanmarSHA256": "a93ac2d0bebec27418fa1a3645589c03436985ff65d6f76ab1a2b9e559890b1d"
+    },
+    {
+      "id": 2842,
+      "field": "progress",
+      "englishSHA256": null,
+      "myanmarSHA256": null
+    },
+    {
+      "id": 2842,
+      "field": "complete",
+      "englishSHA256": "247ae55f4d87af6e5a2d039da2574622ee43e123890effa2f69592fc7350cfae",
+      "myanmarSHA256": "2af62fa103b774b0840e08dd2543217c0321295f7f73bbb475a9e405efd13e06"
+    },
+    {
+      "id": 2843,
+      "field": "title",
+      "englishSHA256": "00177eb0c69153bda06eee0bf70bf019cabafe417088c824d79d220e9137ab33",
+      "myanmarSHA256": "86f16395c3e9f99e111aa4eaf1ab50d858c06aa9c872b1d908efc8a5e2af074b"
+    },
+    {
+      "id": 2843,
+      "field": "detail",
+      "englishSHA256": "cc482c8fec3666baadcde3db36b63ad5ce193abeb6762716f0f14f3f4170b5f2",
+      "myanmarSHA256": "e74df36608d859ab73cecf96abbbf2ba87f30c7616a2701384e8375b0e04df9a"
+    },
+    {
+      "id": 2843,
+      "field": "objective",
+      "englishSHA256": "26ca4b52d982474336a846174cd9abfb810d82b86344774aa4595a22ee85e0b7",
+      "myanmarSHA256": "0ef40df6940efa01025ef96978f3198a5d5dd9c6162e6149a5c73aa0746267a3"
+    },
+    {
+      "id": 2843,
+      "field": "progress",
+      "englishSHA256": "e96c4e67354271847973ca3f9d4cda3ed84e869e2993b81413fe297393e4b737",
+      "myanmarSHA256": "cece19f2054d827463e24833ec6b515a9cad1d31e63984d0941b91fc17e2c1fc"
+    },
+    {
+      "id": 2843,
+      "field": "complete",
+      "englishSHA256": "f0e2837bdabd02e6a53eec12b2cb6056f8d7211e13207d40956650b1b74e1d29",
+      "myanmarSHA256": "7bc77c4cb89b8cd0665288e3af413830963a0646553578bcfe90615da96b5855"
+    },
+    {
+      "id": 2841,
+      "field": "title",
+      "englishSHA256": "bc44c85205d8b487651e37517b6cc789fac91837bd5173b0a50fb0e9e2a2869d",
+      "myanmarSHA256": "6a25ccd7c9dfb24e1de8c482cbf76819247693658891f7bb70b423ffab2fcd7e"
+    },
+    {
+      "id": 2841,
+      "field": "detail",
+      "englishSHA256": "205f17cefa011ebf999eee568a70e8519d56b0a5c72f9cb2bd1338c48c634329",
+      "myanmarSHA256": "2f2d7196b08a595562ecd1348fe19ceacbade7583c5c208b1a178f46291b8745"
+    },
+    {
+      "id": 2841,
+      "field": "objective",
+      "englishSHA256": "f061ceb9fc180e3f10c1973be76f9b5c9e7d5509e800000f54a5d681c12fe124",
+      "myanmarSHA256": "e405f8c39563403aa16941d53f6238b34086461f2a0667b0e46e3f9faa6952cf"
+    },
+    {
+      "id": 2841,
+      "field": "progress",
+      "englishSHA256": "0e0ca3ca01cc55e97c0c7a1d967f476f75860d9e4e6c0868d56ad559f2ec0ccf",
+      "myanmarSHA256": "22e8cc7deace25517c09540b8803830b50d6fdc33819c8990f63045c69cecc01"
+    },
+    {
+      "id": 2841,
+      "field": "complete",
+      "englishSHA256": "81d122f44973971f6f3848d040dda5ad935c0e6c5145f09c3b716a5a49d2c101",
+      "myanmarSHA256": "f99768bb499b944b22e03d7e61a38f34cb725762ddaddfbf065166aa6e7d2296"
+    },
+    {
+      "id": 2904,
+      "field": "title",
+      "englishSHA256": "691673325c9bb3a9f9e2b9ce6daea700df7fc4f7e6d0cabdee062e36f12d26a1",
+      "myanmarSHA256": "a7b2a4dda213040d96f517dd1ed142f0b24c20356a80bc1348e3077704380199"
+    },
+    {
+      "id": 2904,
+      "field": "objective",
+      "englishSHA256": "81a8c0ef01d4c766947ff92c43f1f57fdaf80fd5cdb4e387fb07ba041433fb78",
+      "myanmarSHA256": "51877c2b15af812affcbfa1f450a17aa691dd3e462253cf2e83b9ff9775f1dbd"
+    },
+    {
+      "id": 2904,
+      "field": "progress",
+      "englishSHA256": "e6c912a2449624a8e3fda4b3515f6e05e35e3ad31e24d97b3b7fc665d6afb22b",
+      "myanmarSHA256": "804d4cd93771fa5d8b823bab02bd717e5f42c9e806a2eb58502fb1ffd69a3c06"
+    },
+    {
+      "id": 2904,
+      "field": "complete",
+      "englishSHA256": "7641597371949669406df8e11e460aadeea2a2427c7b179edfdf180559024946",
+      "myanmarSHA256": "741184aa127af0cb0b7ac1d7f519aca25316351d8b42e6d315d480876684bbc8"
+    },
+    {
+      "id": 386,
+      "field": "title",
+      "englishSHA256": "cc46f1be3170932e2fb5a45e130334c873de18db08b78de3f2003f2ef755f388",
+      "myanmarSHA256": "da6d7ed891c03c55233c773c590caa39e5f2548141c5f8003849d529041f15c3"
+    },
+    {
+      "id": 386,
+      "field": "detail",
+      "englishSHA256": "fa2c41da7ec4894960d51fb71e4a262b7f0f1221b2502c844d5c8c5bc188b2c5",
+      "myanmarSHA256": "89d5328ec658dd9d4ac89aab2bfb67307380418487c1f610d7ecf8e892b4a877"
+    },
+    {
+      "id": 386,
+      "field": "objective",
+      "englishSHA256": "da16cb0609f596f1d401cdae4d287cc1ab442e26b6feb89d5e5330364da0e81d",
+      "myanmarSHA256": "cca76d9565770c4276cf13616812c29aac39cb3b16cf2c26a3de1dbe71d8e207"
+    },
+    {
+      "id": 386,
+      "field": "progress",
+      "englishSHA256": "4f260e6a00568d0fc58429b88d8e548341935b3b489f4698169d0470d45b36d9",
+      "myanmarSHA256": "264def55dbf6ce1205beb9701f958caec11903a7342409db17f5cfe5e48a189e"
+    },
+    {
+      "id": 386,
+      "field": "complete",
+      "englishSHA256": "82e5f136c93c9a7aa9df829d175a8c07880b332edca2e26d6f3d1a87de43ce91",
+      "myanmarSHA256": "4ce8570a099c990711aa1153f78ae4574c14fc951addec030aa90dc78b78dc0b"
+    },
+    {
+      "id": 377,
+      "field": "title",
+      "englishSHA256": "4761c1e221f36a02d00b977161cf4d9528d92eaf6b35a69cec2e38a93b54f19a",
+      "myanmarSHA256": "89030e8407caf5a69945a2ac8c119c95679d09ba6d1538bd247b442eb2466d6b"
+    },
+    {
+      "id": 377,
+      "field": "detail",
+      "englishSHA256": "a062b2d07a24e2464316b4b1ec8b54c203dec27da4d7fe7adafddc237f21b220",
+      "myanmarSHA256": "5af4fd0b00284171f4ca435250873aebf9977cb7ddeb92b585324880f97d5786"
+    },
+    {
+      "id": 377,
+      "field": "objective",
+      "englishSHA256": "f99aab5d98b7b7dace5e24fa85c3c288b3396a71cd5f6c9b132b126d845f053f",
+      "myanmarSHA256": "134305054560104bdce4d01a06107baea2a32a5ec89246801529dcd7cb61c572"
+    },
+    {
+      "id": 377,
+      "field": "progress",
+      "englishSHA256": "5afefecdb927a29ed78736aa4fa5a6dbfc555b78e8853b4302bfae2ecf8950de",
+      "myanmarSHA256": "2e8eab9bfb2e67dfdd8f67cf8f84496bef7f6b558adac343d0ebbf1bc681e343"
+    },
+    {
+      "id": 377,
+      "field": "complete",
+      "englishSHA256": "f2d85a64036ec6b08bf8c70646ec4b46e62ac1d913bb7437c9c8719ec6abd976",
+      "myanmarSHA256": "6c37c889b2f369e8faed30ca6db643db036b6ae4a390e2c17a1d779419f66fdf"
+    },
+    {
+      "id": 387,
+      "field": "title",
+      "englishSHA256": "02ab7ef5eb4293e5880e95a703f415927b582e3d4d39ea1a5e15f738ba725b0a",
+      "myanmarSHA256": "16ff57980cc152be9579b06badde389e45bb4f95a67c070afd8a5b8492743a64"
+    },
+    {
+      "id": 387,
+      "field": "detail",
+      "englishSHA256": "3016ba938e7be6ac765f10b6dd19f492672f5d22eb127352d4d6f108529ba6b6",
+      "myanmarSHA256": "c2cc5056685b071278265d9b110673140f318a0628def9782f38118d828c030f"
+    },
+    {
+      "id": 387,
+      "field": "objective",
+      "englishSHA256": "12c6cc5de32632a634aef610548f6a0e1de7254b6b30610e2ba1c8779271236c",
+      "myanmarSHA256": "520e2bf26fe444e8567bc9ba8f8f405254e7e37f6c2894fe3d16515d9bcd1f13"
+    },
+    {
+      "id": 387,
+      "field": "progress",
+      "englishSHA256": "bb232361fbfc3985aca3623e7e8ca061d766abbe4865348ee629ce2e6abe7bc0",
+      "myanmarSHA256": "522307522dad5b88d26c92504f2a8e43856b4ccf415fa61723d7f628a42b708c"
+    },
+    {
+      "id": 387,
+      "field": "complete",
+      "englishSHA256": "6fd3e88431d2e8da7b62895e8faf3d8ea4d7a9e04cfe600d8933baeecc0d913d",
+      "myanmarSHA256": "f15bba5e81f57b5ab5148a9dce06f4e47b03f4c7cc0e5e07496f22b634844009"
+    },
+    {
+      "id": 388,
+      "field": "title",
+      "englishSHA256": "9c5ced098ad8f03b8e146953afb4e89791d40af7d10615c0d7d278f81a5b5fc8",
+      "myanmarSHA256": "a8f0ce2fc1fb8851aa101af11b4d20232e9d9383493d0da4e54c343cd77b1b96"
+    },
+    {
+      "id": 388,
+      "field": "detail",
+      "englishSHA256": "e842b8f8dd503ddbd92c7fb7076e013065aa87eb17b73d5148ae354bac953665",
+      "myanmarSHA256": "58cc65b46e76b699f12d7ec97b54734a4409cb005f19caa2a1c4ccc2204d5185"
+    },
+    {
+      "id": 388,
+      "field": "objective",
+      "englishSHA256": "78707db50c113bcd0fcee9d668e1e8f25f394755854cba600283bf8e6c5264bc",
+      "myanmarSHA256": "e214beedd34980c5fb62c2cadd12bc70217c5bd146b72a43608633f9ca04b5e8"
+    },
+    {
+      "id": 388,
+      "field": "progress",
+      "englishSHA256": "5e97eb77a756c81f484ee10f9aa5d90e0571e988e7bcb9032c201edbec9a35c2",
+      "myanmarSHA256": "8c8dfbd9c73ceb4fc2a91243d65aaaa915fc6491059348d1a4b9f35375c51aab"
+    },
+    {
+      "id": 388,
+      "field": "complete",
+      "englishSHA256": "258434e13950abb307fc42360adb7c7eb70ffb0cda7924575325d657d76b3ff9",
+      "myanmarSHA256": "c97ac865888b6ffd8b63e4438b3ccd5ea9c6e78f2d43c961fa12f82d8390e693"
+    }
+  ],
+  "dictionaryDelta": {
+    "removed": {
+      "Dark Iron dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဖ်စ်"
+    },
+    "added": {
+      "Dark Iron Dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ်"
+    },
+    "allOtherCandidateTermsUnchanged": true,
+    "annotationExceptionsUnchanged": true,
+    "actualEnabledAnnotations": [
+      {
+        "id": 2904,
+        "field": "detail",
+        "term": "Dark Iron Dwarves",
+        "annotation": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ်"
+      }
+    ],
+    "historicalCaseVariants": {
+      "Dark Iron dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဖ်စ်",
+      "Dark Iron Dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ်"
+    },
+    "historicalMapUnchanged": true,
+    "screeningDisposition": "Historical dictionary variants are not evidence of two rendered new annotations. Actual enabled annotations have been inspected separately; only the capitalized maintained key is used here."
+  },
+  "checks": {
+    "actualFinalCandidateLinguisticLint": "PASS with final candidate pronunciations and exceptions",
+    "actualFinalCandidateValidateFields": "PASS all95slots",
+    "allCanonicalFinalHashAliases": "PASS285assertions",
+    "rawRequestResponseIndexChains": "PASS90actualinputs and original hashes reverified",
+    "sourcePrimarySecondaryOwnIDMetadataObjectiveTables": "PASS via independent source reparse and actual scoped verifier",
+    "semanticIdentityCountActionOrderConditionContracts": "PASS finalcandidate;19identitycontracts and original8negativecontrols rerun",
+    "exactSecondHop": "PASS only2904.detail differs from preserved reviewedcandidate; exact supplemental old/new/sourceguards",
+    "originalFiveCorrections": "PASS all5 acceptedcorrectionaudits guard original and finalhashes; other4 proposals intact",
+    "dictionaryDelta": "PASS only removal of unusedlowercase key and addition of existingcapitalized maintained key",
+    "conservation": "PASS94otherfieldslots unchanged;5currentcandidatefiles unchanged before/after",
+    "preservedHistory": "PASS5previouscandidatefiles and firstcorrectionreceipt match original reviewedhashes",
+    "frozenAuthorEvidence": "PASS91files plusmanifest unchanged",
+    "existingHoldsAndOverrides": "PASS2927.detail null and3exactIDsecondaryProgressoverrides unchanged"
+  },
+  "sourceCaveats": [
+    {
+      "id": 2927,
+      "field": "detail",
+      "disposition": "retain_hold",
+      "englishSHA256": "bb26176e017e4ab281038694e5fa84805d821e69dade322ef444fef5ddd4d411",
+      "myanmarSHA256": null,
+      "sourceFile": "2927-wowhead.html",
+      "sourceHTMLSHA256": "4a1e9fcab092da270dd132e4e847f855f569485c75ed0d1261a5de4cbd20a85d",
+      "rawDeepLProposalSHA256": "7c69a651d09637b08d86dca4119bdfa1629a5f08206ffe3cec01e606cbfbb501",
+      "rationale": "Literal <sir/ma'am> branch is unsupported by current runtime. Existing hold policy controls; no neutral replacement proposed and no source/conflict erased."
+    },
+    {
+      "ids": [
+        2929,
+        2843,
+        2904
+      ],
+      "field": "progress",
+      "disposition": "reviewed_secondary_override",
+      "rationale": "Reparsed current primary lacks state. Current exact-ID 60.tools canonical page and explicit Progress supply it; source hash/fieldSourceOverrides verified."
+    },
+    {
+      "ids": [
+        2927,
+        2841
+      ],
+      "field": "complete",
+      "disposition": "primary_controls",
+      "rationale": "Secondary-only emotes excluded; current primary text and formatting retained."
+    },
+    {
+      "id": 2904,
+      "disposition": "eligibility_unresolved",
+      "rationale": "Own-ID current primary reqlevel20 vs fresh installed24; side3 both. Dialogue agrees; current live activation not asserted."
+    },
+    {
+      "id": 387,
+      "disposition": "capitalization_alias",
+      "rationale": "Quell The Uprising installed versus Quell the Uprising current; named environment change belongs to exact ID."
+    },
+    {
+      "ids": [
+        2928,
+        2929,
+        2841,
+        2904,
+        386,
+        377
+      ],
+      "disposition": "reward_changes",
+      "rationale": "Own-ID rewards/XP changes inspected independently of dialogue; no neighboring-row flags attributed."
+    }
+  ],
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-24T06:32:28.416568+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "frozenEvidence": {
+    "manifest": "work/afternoon-2026-11-24/dungeon_routes/frozen-artifact-hashes.json",
+    "manifestSHA256": "8d0e690cdefc920212eaa0373e6f710511a5c45764a3e88592f461ad3bf0d09a",
+    "files": 91,
+    "verifiedBeforeAndAfter": true,
+    "editedSHA256": "18be1a1394f8834592660b07d580fb617d4e29db7bf27ec4e7f1393c423443c5",
+    "englishSHA256": "fa4559a8238821eff14311fac34b597052efe4ca185a12c502cd0cf2a7d889b2",
+    "provenanceSHA256": "ce7277f74f3260b01de52cbd11de9a0023448d0c0e29d4b2bb9fc48f33caada5",
+    "reviewAuditSHA256": "a2d39116f36805cbb63afac50ee39dd64bfba073169fe016c4882f372a2ae294",
+    "maintainedMapSHA256": "685f68c7e96bec7bd0ef06dce07855d5a72bf5760b2e4caefb92dce0593d54da"
+  },
+  "priorEvidence": {
+    "initialReview": {
+      "path": "work/afternoon-2026-11-24/independent-review/dungeon_routes.json",
+      "SHA256": "f2539d067cc6bbfa6c3fedbb67ab8d496966dee6c13cefd99eeca5a193c90220"
+    },
+    "preservedFirstCorrectionReview": {
+      "path": "work/afternoon-2026-11-24/candidate-history/dungeon-before-pronunciation-reconciliation/first-correction-review.json",
+      "SHA256": "ea02d1bc2c06dabf8839d5c7848c35bd31a32fe03b1de569cad9047b92190f27",
+      "candidateHashes": {
+        "edited.json": "61985f095cd4e0feb2c04263b3434bb7e8084fe697d07989afe62fcec68bb88d",
+        "pronunciations.json": "2633ebb6a69d8f59f4c1646cef1b9c5223fa58fe3bec5d2f0a51570b6bc485df",
+        "review-audit.json": "f09b9922db616bceec7233fd284e067fc517e899cb60ef8d6ea520147941e129",
+        "annotation-exceptions.json": "6490e82733aea974524dbcc0b76643df0ea9021a6b57e2838f37c0da98d05655",
+        "accepted-corrections.json": "05c8fdcad54078038d693b863483d9bf75aa2935230d79d5260ddddcb8dcf26d"
+      }
+    },
+    "pronunciationSupplement": {
+      "path": "work/afternoon-2026-11-24/independent-review/dungeon_routes-pronunciation-reconciliation.json",
+      "SHA256": "775f3d1d3c4e7bc8e0b18abc2c2ee3a5653c542527736238a13d23cca6756626"
+    }
+  },
+  "pronunciationSource": {
+    "publisher": "Cambridge University Press & Assessment",
+    "url": "https://dictionary.cambridge.org/pronunciation/english/dwarves",
+    "accessMethod": "web tool opened exact primary pronunciation page in this review",
+    "UK": "/dwɔːvz/",
+    "US": "/dwɔːvz/",
+    "relevantFinalConsonants": [
+      "/v/",
+      "/z/"
+    ],
+    "inference": "The existing Myanmar ဗ်ဇ် ending better represents the documented v/z than ဖ်စ်; Myanmar approximation remains an assisted editorial judgment."
+  },
+  "remainingIssues": [],
+  "verificationStatus": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending; assisted phonetic reconciliation only",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  },
+  "scopeExclusions": "Six older historical fields are being reviewed separately by another author; this finalreceipt makes no claim about those fields or older packages.",
+  "limitations": "PASS is source-aware assisted review and machine integrity, not native proofreading, live activation/eligibility or controller hardware verification. Existing2904reqlevel20versusinstalled24 discrepancy remains documented.",
+  "reviewerScriptSHA256": "3138c5521027631159b45602ff97f32da3c534af0f1654205cf6f5e0515a3ed7"
+}

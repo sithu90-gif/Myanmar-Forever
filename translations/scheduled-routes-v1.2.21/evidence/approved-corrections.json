@@ -1,0 +1,88 @@
+{
+  "acceptedFields": {
+    "class_routes": [
+      "1508.detail",
+      "78091.detail"
+    ],
+    "dungeon_routes": [
+      "2842.detail",
+      "2904.detail",
+      "2931.detail",
+      "2962.detail",
+      "377.detail"
+    ],
+    "horde_regions": [
+      "1153.complete",
+      "1153.detail",
+      "1153.progress"
+    ]
+  },
+  "pronunciationOverrides": {
+    "Wind Rider": "ဝင်းဒ် ရိုက်ဒါ",
+    "Blackrock Clan": "ဘလက်ခ်ရော့ခ် ကလန်",
+    "Enlightened Assembly of Arcanology, Alchemy and Engineering Sciences": "အင်လိုက်တန်ဒ် အဆမ်ဘလီ အော့ဗ် အာကနော်လဂျီ၊ အယ်လ်ကမီ အန်ဒ် အင်ဂျင်နီယာရင်း ဆိုင်းယန့်စ်စ်",
+    "Dark Iron": "ဒါ့ခ် အိုင်ယန်",
+    "Darkshire Council": "ဒါ့ခ်ရှိုင်းယား ကောင်စီလ်",
+    "irradiated slimes": "အီရေးဒီယေးတစ်ဒ် စလိုင်းမ်ဇ်",
+    "lurkers": "လာ့ကာဇ်",
+    "horrors": "ဟော်ရာဇ်",
+    "Warchief": "ဝေါချိဖ်",
+    "Dark Iron Dwarves": "ဒါ့ခ် အိုင်ယန် ဒွာ့ဗ်ဇ်"
+  },
+  "acceptedReportHashes": {
+    "class_routes.json": "8262b12ac23b4ce8467a4cc1ce7bfc0df8dbe4987b9ce68d1fd9d49b1135d3b6",
+    "class_routes-identity-screen-review.json": "6d9f5b68d43b94a670a2ebd423f7449c2d48115f2c7189b87becfd6de64b7abc",
+    "dungeon_routes.json": "f2539d067cc6bbfa6c3fedbb67ab8d496966dee6c13cefd99eeca5a193c90220",
+    "horde_regions.json": "1b0ccbc4595fa9572a902a6d5e1a893b2d96535d6b7d84912e83fc24a9c15fa9"
+  },
+  "status": "Ten corrected new fields reviewed; final2904 spelling reconciliation and six existing pronunciation guards under review.",
+  "nativeMyanmarProofreading": "pending",
+  "annotationExceptionAdditions": {
+    "class_routes": {},
+    "dungeon_routes": {
+      "2931": {
+        "detail": {
+          "Enlightened Assembly of Arcanology": "Whole maintained organization name contains comma; one full pronunciation follows complete name.",
+          "Alchemy and Engineering Sciences": "Tail of same complete comma-bearing organization, not a separate identity."
+        }
+      },
+      "2904": {
+        "detail": {
+          "Dark Iron": "Short clan reference after full Dark Iron dwarves introduction within this field."
+        }
+      }
+    },
+    "horde_regions": {}
+  },
+  "supplementaryIssueReports": {
+    "class_routes": [
+      "class_routes-identity-screen-review.json"
+    ]
+  },
+  "supplementaryReportHashes": {
+    "class_routes-identity-screen-review.json": "6d9f5b68d43b94a670a2ebd423f7449c2d48115f2c7189b87becfd6de64b7abc"
+  },
+  "candidateReplacementGuards": {
+    "class_routes": {
+      "accepted-corrections.json": "5fbde3205ca6660f40a75696dfcf836e42a8f402042cb212f46dbaa9f277b47a",
+      "edited.json": "2cdfab85077e493218a8c9a8aab395a0bebe8de66f6ad403892612afa3580feb",
+      "pronunciations.json": "b1dcecd14cb5012105839ff7172ac63b730c6baedd6e4778883713ab9c872917",
+      "review-audit.json": "dae61989e7922ded30987a19050d73e77a641276221411c2d3c654424f628e2c"
+    },
+    "dungeon_routes": {
+      "edited.json": "61985f095cd4e0feb2c04263b3434bb7e8084fe697d07989afe62fcec68bb88d",
+      "pronunciations.json": "2633ebb6a69d8f59f4c1646cef1b9c5223fa58fe3bec5d2f0a51570b6bc485df",
+      "review-audit.json": "f09b9922db616bceec7233fd284e067fc517e899cb60ef8d6ea520147941e129",
+      "annotation-exceptions.json": "6490e82733aea974524dbcc0b76643df0ea9021a6b57e2838f37c0da98d05655",
+      "accepted-corrections.json": "05c8fdcad54078038d693b863483d9bf75aa2935230d79d5260ddddcb8dcf26d"
+    }
+  },
+  "finalIssueProposalReports": {
+    "dungeon_routes": [
+      "dungeon_routes-pronunciation-reconciliation.json"
+    ]
+  },
+  "finalIssueProposalReportHashes": {
+    "dungeon_routes-pronunciation-reconciliation.json": "775f3d1d3c4e7bc8e0b18abc2c2ee3a5653c542527736238a13d23cca6756626"
+  }
+}
