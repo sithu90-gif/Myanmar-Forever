@@ -1,0 +1,65 @@
+{
+  "group": 1,
+  "questIDs": [
+    1431,
+    1432,
+    1433,
+    1434,
+    1435,
+    1436,
+    1365,
+    1366,
+    1480,
+    1481
+  ],
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-25T20:52:05.549420+00:00",
+  "sourceReview": "OwnID g_quests/Gatherer/metadata/UA/boundaries compared; all50 slots English+final reread separately after editorial refinement",
+  "sourcedFields": 46,
+  "enabledFields": 44,
+  "formalHeldFields": [
+    [
+      1431,
+      "complete"
+    ],
+    [
+      1435,
+      "objective"
+    ]
+  ],
+  "checks": [
+    "linguistic_lint.lint actual PASS",
+    "build_release.validate_fields actual PASS",
+    "raw primary parse exact equality PASS"
+  ],
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "authorOriginalCheckpointArtifactSHA256": {
+    "edited.json": "418d14066c2037ea84cc5065b8bc9945e24da08915dfd3efc84ec3bcfd72da43",
+    "english-sources.json": "959ef009e0bf06cd7e7008f6e4ec6c34ec2d7007210c6ff0a18248476b002968",
+    "review-audit.json": "03d7d7c843fdf3545954959bae55a39bc07797a3c1210f0a121e8d5b713e62f5",
+    "comparison-provenance.json": "4f1dbd30eea6f73d6b383bc76e43b5f2b6d35963743fae3f1ab27811c373ec93",
+    "source-boundaries.json": "4272496fbf6274762e3a17c40729c475f209bf194b4c3817b097fd2ff1dd35fd",
+    "held-fields.json": "e005a17330c3ef6e2419d7a53a4e8cce1015c9aa8713d34e1deb97114193f1fc"
+  },
+  "artifactSHA256": {
+    "edited.json": "62f29fdf07a73db42c0cccdd2fe10d18cbd039405dcbc913c0c8f42b18c6c634",
+    "english-sources.json": "ccea5b5b55510216e64ce027d63e86e0eef1259624c021388aad205462842715",
+    "review-audit.json": "8548aa0f9c37012c837114392b5064f9187d4c7a156237fca883e5588f252b28",
+    "comparison-provenance.json": "625600dacb667dc8a6f11987b06e1f0355711014825cd50c8430c4c829f065e3",
+    "source-boundaries.json": "8c84eec9b59afec7712ad6a766fac1f5cf5d4ebbec954de49d823ef668c035ff",
+    "held-fields.json": "e005a17330c3ef6e2419d7a53a4e8cce1015c9aa8713d34e1deb97114193f1fc"
+  },
+  "finalAuthorFieldHashConservation": "All group fields retained at final author hashes; separate current audit/provenance aliases match final edited.json."
+}

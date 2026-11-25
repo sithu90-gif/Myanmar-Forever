@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "kind": "Initial required-proposal verification in memory only",
+  "partition": "desolace_routes",
+  "field": "1433.complete",
+  "englishSHA256": "4bc123cc86ab6902ae9befa5d6b12e27403b7220238affdad420c12a5f8d385c",
+  "authorMyanmarSHA256": "c5b0b784d5a3d0cb47bcfcd0d19e64f512aa89244ee1aea91896c4d634386789",
+  "proposedMyanmarSHA256": "1a78843561639d8502dd47a13494b126898088b7fb62e21f9be6431d4ba3c38a",
+  "onlyFieldDifference": [
+    "1433.complete"
+  ],
+  "onlyReplacement": {
+    "old": "Warchief Thrall (ဝေါချိဖ် သရောလ်)",
+    "new": "Warchief Thrall (ဝေါချီဖ် သရောလ်)"
+  },
+  "inMemoryActualLinguisticLint": "PASS",
+  "inMemoryActualValidateFields": "PASS",
+  "allExistingSourceBoundContracts": "PASS",
+  "semanticContractNeedleChangesRequired": false,
+  "oldCompoundRejectedWithCanonicalMap": [
+    {
+      "id": "1433",
+      "field": "complete",
+      "term": "Warchief Thrall",
+      "annotation": "ဝေါချိဖ် သရောလ်",
+      "canonical": "ဝေါချီဖ် သရောလ်",
+      "problem": "glossary_mismatch"
+    }
+  ],
+  "rawResponseCopies": [
+    {
+      "file": "deepl-alternate-response.json",
+      "sha256": "802c63c422426b102393334f1913cecb1e067ad559d96c563fb0bbdd1af1a1df",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g1-1-response.json",
+      "sha256": "72dc4253fc314f1a6a69728b936474468b74b2d506de873b058b62c322a8e588",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g1-2-response.json",
+      "sha256": "b8e1befe16fa32b45d207f997db8e2b7bc3942d3f551a43eba94b9f580f93993",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g1-3-response.json",
+      "sha256": "21aee88a0e40036c98b7e28c1971d3dcf0da65cde8649f87973f0fbb4a97f23b",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g2-1-response.json",
+      "sha256": "a366b03b93f9b3e5effe1eb295015718cf3240387643cf0050f63ca0200cc5fd",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g2-2-response.json",
+      "sha256": "0825e665589bd4dccdf1ceb00baf86079d258f43a01c7458f42cf4da18d0a176",
+      "structuredAndTextJSONAgree": true
+    },
+    {
+      "file": "deepl-g2-3-response.json",
+      "sha256": "7ea66f5531cce1846ebd6e2be6005434a0e16366e69fbf59a22af48133a216c3",
+      "structuredAndTextJSONAgree": true
+    }
+  ],
+  "frozenFileCountAfter": 135,
+  "allFrozenHashesMatch": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending native review",
+  "currentLiveForeverVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "scriptSHA256": "3c95f44d86672c5056cbf7b537edf022662f420d53ec013e480e97134cd62707"
+}

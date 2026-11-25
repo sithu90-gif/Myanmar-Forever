@@ -1,0 +1,69 @@
+{
+  "result": "PASS",
+  "group": 1,
+  "questIDs": [
+    78132,
+    78133,
+    78134,
+    1939,
+    1938
+  ],
+  "availableEnglishFields": 18,
+  "enabledFields": 18,
+  "formalHolds": 0,
+  "actualChecks": [
+    "linguistic_lint.lint",
+    "build_release.validate_fields",
+    "current primary parse equality",
+    "paragraph counts",
+    "supported marker/digit Counters",
+    "bad controls/foreign script absence",
+    "genuine raw request/response/index cardinality and hashes"
+  ],
+  "checkedAtUTC": "2026-11-25T20:53:30.802529+00:00",
+  "fieldHashes": {
+    "78132": {
+      "title": "80d4375bfbfeb6794adbf4b27cbfbe827d8a885c1cf46b4c7cc2afbab1e2fb6e",
+      "detail": null,
+      "objective": null,
+      "progress": "8b2db058ece222900d559f367d0cbb50374737e666a9588c1fc318619511784b",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "78133": {
+      "title": "11ad17b48058234e21cf3024d7c75f78a10929cdee0582131546040b1b7c8a00",
+      "detail": null,
+      "objective": null,
+      "progress": "eaaea2a9426b6da42e0fbf2a4ef0cc7418849f85cc8ed7e3cfbe5274634b59e5",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "78134": {
+      "title": "03ed2f05b0ab8dd242149eeb67481334186c7ff69a9e9345d066d0a3b420f38e",
+      "detail": null,
+      "objective": null,
+      "progress": "4c4e5372ec9c03ff02e5423e14229f020746c832de9de1daa74bf7fbd78091c2",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "1939": {
+      "title": "bd90badba160529252f69f2633b8718415873216fd6494d064992574643fe903",
+      "detail": "113ec37efd1ae0ce5dafde65817f998c59c45bbc560f9602c42c6c717825e46e",
+      "objective": "c8349b027077e3c415d3a82885b796c80152267bf62f5b11adff983a7ad257b5",
+      "progress": null,
+      "complete": "e49fc8ffaefa68625dba2ac3477b3cabb858d089da18248fe1b17207bf9a03e1"
+    },
+    "1938": {
+      "title": "7866b7ff1583e975ee8de7ce2b6f343c4dbbda55ac576a10d97a9697a128a35b",
+      "detail": "3df286e44c6fb6740dd7b50c73db9b95ab433a9ee0a3acf1ae5726e20707e20a",
+      "objective": "4e607ec75638e76e5cf76d97c5a3d1d5fbc87be6004712e98ede33fac6cdeaf4",
+      "progress": "9d19ed6b6466e92a1c0c2910fa6db10416fedf30db9d828d14eddce0361ca600",
+      "complete": "698f162746ab544ad4ac0cb2c91cece7d292734606193290c329a301dbd106fd"
+    }
+  },
+  "separateReadNotes": {
+    "78132": "Helm item identity; commander died in battle, tormented soul reportedly still haunts death site. Attributed rumor retained. No offer/objective inferred.",
+    "78133": "Shield rumor; Orcish warlord stole it while raiding Human settlement. Separate reread corrected item subject particle ကို to ဟာ.",
+    "78134": "Lance transferred many times; periodic black-market rumor; unsavory owner may sell only for a price. Conditional uncertainty retained.",
+    "1939": "Whole rank-name retained. <name> restored after raw DeepL omission. Tower top, Mage district, Dalaran confinement idiom and wise-counsel emphasis preserved. Short same-field Andromath exception. Sorcerer core reconciled to maintained ဆောဆရား and affected fields reread.",
+    "1938": "Three mages, one banished; temptation-resistance, Redridge tower, library-book retrieval order, danger for untrained readers, Morganth fear and intact seals. Separate reread changed could-not to did-not; rank-core update reread in objective."
+  },
+  "authorOriginalCheckpointSHA256": "e9f049493d15eb575d0301191cd4ee44b0fdac7f57d97be6c306275506d44078"
+}

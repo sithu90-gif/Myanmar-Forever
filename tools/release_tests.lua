@@ -1765,3 +1765,95 @@ if A.quests[1021] and A.quests[1274] and A.quests[1798] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 source quest contracts,17 distinct Diplomat IDs,Tome faction stages,service/repeatable boundaries and unavailable-state guards.')
 end
+
+if A.quests[647] and A.quests[1431] and A.quests[1939] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({505,631,632,633,634,647,87318,88756,88757,88758,544,545,547,552,553,555,556,557,7321,93680,1431,1432,1433,1434,1435,1436,1365,1366,1480,1481,1482,1484,1488,1437,1465,1438,1439,1440,97284,78132,78133,78134,1939,1938,1940,1942,1943,1944,1945,1946}) do
+    assert(A.quests[id] and A.quests[id].title,'26NovemberMorning quest missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost exact quest title/ID')
+    end
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail and not A.quests[111].progress,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:26NovemberMorning50 records and150 new dialogue routing/capture cases with inherited fallback guards.')
+end
+
+if A.quests[647] and A.quests[1431] and A.quests[1939] then
+  local contracts={    {647,"objective",{"MacKreel's Moonshine","Brewmeister Bilger","Southshore"}},
+    {631,"objective",{"Rhag Garmason","Ol' Rustlocke"}},
+    {632,"objective",{"Rhag Garmason","Rustlocke"}},
+    {633,"objective",{"cache of explosives"}},
+    {634,"objective",{"Captain Nials","Refuge Pointe"}},
+    {87318,"objective",{"Corma","Essene"}},
+    {88757,"objective",{"Essene's Necklace","Essene's Spellbook","Essene's Waterskin"}},
+    {88758,"objective",{"Essene's note","Corma Villard"}},
+    {88756,"objective",{"Stolen Explosives","Dark Iron Dwarf"}},
+    {505,"objective",{"Syndicate Footpads","Syndicate Thieves","Magistrate Henry Maleb","Southshore"}},
+    {547,"objective",{"Deathguard Humbert","Dun Garok","Tarren Mill"}},
+    {552,"objective",{"Helcular's Rod","Yeti","Novice Thaivand","Tarren Mill"}},
+    {553,"objective",{"Rod of Helcular","Flame of Azel","Flame of Veraz","Flame of Uzel","Helcular's grave","Southshore"}},
+    {555,"objective",{"Turtle Meat","Soothing Spices","Chef Jessen","Southshore"}},
+    {7321,"objective",{"Turtle Meat","Soothing Spices","Christoph Jeffcoat","Tarren Mill"}},
+    {556,"objective",{"Worn Stone Tokens","Keeper Bel'varil","Tarren Mill"}},
+    {557,"objective",{"Bracers of Earth Binding","Keeper Bel'varil","Tarren Mill"}},
+    {544,"detail",{"Tarren Mill","Forsaken","Undercity","Dark Lady","Sylvanas","Dalaran","Lordamere Internment Camp"}},
+    {93680,"objective",{"Dalaran Sewer Key","Magus Wordeen Voidglare","Tarren Mill"}},
+    {545,"objective",{"Dalaran Summoners","Elemental Slaves","Magus Voidglare","Tarren Mill"}},
+    {1431,"objective",{"Keldran","Orgrimmar"}},
+    {1432,"objective",{"Takata Steelblade","Desolace"}},
+    {1433,"objective",{"Maurin Bonesplitter","Desolace"}},
+    {1434,"objective",{"Hatefury Rogues","Hatefury Felsworn","Hatefury Betrayers","Hatefury Hellcallers","Takata Steelblade","Desolace"}},
+    {1435,"detail",{"Burning Blade"}},
+    {1436,"objective",{"Keldran","Orgrimmar"}},
+    {1365,"objective",{"Khan Dez'hepah's Head","Felgur Twocuts","Desolace"}},
+    {1366,"objective",{"Centaur Ears","Felgur Twocuts","Desolace"}},
+    {1480,"objective",{"Flayed Demon Skin","Maurin Bonesplitter","Desolace"}},
+    {1481,"objective",{"Shadowstalker Scalp","Maurin Bonesplitter","Desolace"}},
+    {1482,"objective",{"Oracle Crystal","Maurin Bonesplitter","Desolace"}},
+    {1484,"objective",{"Takata Steelblade","Desolace"}},
+    {1488,"objective",{"Lord Azrethoc","Jugkar Grim'rod","Takata Steelblade","Desolace"}},
+    {1437,"objective",{"Tyranis","Dalinda Malem","Desolace"}},
+    {1465,"objective",{"Malem Pendant","Vahlarriel Demonslayer","Desolace"}},
+    {1438,"objective",{"Dalinda Malem","Desolace"}},
+    {1439,"objective",{"Tyranis Malem","Desolace"}},
+    {1440,"objective",{"Dalinda Malem","Thunder Axe Fortress","Vahlarriel Demonslayer","Desolace"}},
+    {97284,"objective",{"Burning Blade Orc","Thunder Axe Fortress","Vahlarriel Demonslayer","Nijel's Point"}},
+    {78132,"title",{"Dragonslayer's Helm"}},
+    {78133,"title",{"Dragonslayer's Shield"}},
+    {78134,"title",{"Dragonslayer's Lance"}},
+    {1939,"title",{"High Sorcerer Andromath"}},
+    {1938,"title",{"Ur's Treatise on Shadow Magic"}},
+    {1940,"title",{"Pristine Spider Silk"}},
+    {1942,"title",{"Astral Knot"}},
+    {1943,"title",{"Deino"}},
+    {1944,"title",{"Xavian"}},
+    {1945,"title",{"Laughing Sisters"}},
+    {1946,"title",{"Nether-lace"}},
+    {1939,"detail",{"Mage District"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Source identity field absent'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source identity failed:'..c[1]..'/'..term) end
+  end
+  for _,c in ipairs({}) do
+    questID=c[1];fire(({detail='QUEST_DETAIL',objective='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[c[2]]);flush()
+    assert(A.window:IsShown() and shown.text:find(A.quests[c[1]][c[2]],1,true),'Encoded source field did not render for exactID')
+  end
+  for _,r in ipairs({{631,"progress"},{634,"progress"},{87318,"progress"},{1431,"progress"},{1432,"progress"},{1433,"progress"},{1436,"progress"},{1484,"progress"},{1437,"progress"},{1465,"progress"},{1438,"progress"},{1440,"progress"},{97284,"progress"},{78132,"detail"},{78132,"objective"},{78133,"detail"},{78133,"objective"},{78134,"detail"},{78134,"objective"},{1939,"progress"},{1942,"detail"},{1942,"objective"},{1942,"progress"},{1943,"progress"},{1946,"detail"},{1946,"objective"},{1946,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current source state:'..r[1]..'/'..r[2]) end
+  for _,r in ipairs({{1431,"complete"},{1435,"objective"}}) do
+    assert(not A.quests[r[1]][r[2]],'Unsupported source field enabled:'..r[1]..'/'..r[2])
+    local event=({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[r[2]]
+    if event then
+      questID=r[1];fire(event);flush()
+      assert(not A.window:IsShown() and MMNorthshireCaptures[r[1]].states[r[2]].translationFallback~=nil,'Held state lost original fallback/capture')
+    end
+  end
+  for _,p in ipairs({{631,632},{632,633},{633,634},{87318,88757},{88757,88758},{552,553},{556,557},{544,93680},{93680,545},{1431,1432},{1432,1433},{1433,1435},{1435,1436},{1480,1481},{1481,1482},{1482,1484},{1484,1488},{1365,1366},{1437,1465},{1465,1438},{1438,1439},{1439,1440},{1465,97284},{1939,1938},{1938,1940},{1943,1944},{1944,1945}}) do assert(A.quests[p[1]].objective~=A.quests[p[2]].objective,'Distinct current-source task stages collapsed') end
+  assert(A.quests[631].en==A.quests[632].en and A.quests[632].en==A.quests[633].en,'Thandol same-title IDs changed')
+  assert(A.quests[1480].en==A.quests[1481].en and A.quests[1482].en==A.quests[1484].en,'Corrupter same-title IDs changed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 source quest contracts,Thandol/Corrupter/Mage stages,Alonso partial-state boundaries and unavailable-state guards.')
+end

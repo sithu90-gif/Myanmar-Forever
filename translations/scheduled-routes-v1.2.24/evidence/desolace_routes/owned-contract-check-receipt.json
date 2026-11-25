@@ -1,0 +1,203 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-25T21:00:38.426171+00:00",
+  "identityContracts": 19,
+  "numericContracts": 2,
+  "actionContracts": 25,
+  "orderedContracts": 3,
+  "directionContracts": 3,
+  "formalHolds": 2,
+  "badControls": [
+    {
+      "name": "wrong-count-bound-to-CentaurEars",
+      "id": 1366,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "15 ခု",
+        "to": "14 ခု"
+      }
+    },
+    {
+      "name": "wrong-count-one-specific-Hatefury-target",
+      "id": 1434,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "7 ကောင်",
+        "to": "8 ကောင်"
+      }
+    },
+    {
+      "name": "wrong-target-preserving-four-seven-counts",
+      "id": 1434,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "Hatefury Rogues",
+        "to": "Burning Blade Adepts"
+      }
+    },
+    {
+      "name": "wrong-item-ear-to-head-same15",
+      "id": 1366,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "Centaur Ears",
+        "to": "Centaur Heads"
+      }
+    },
+    {
+      "name": "wrong-post-north-graveyard-direction",
+      "id": 1432,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "မြောက်ဘက်က Ghost Walker Post",
+        "to": "တောင်ဘက်က Ghost Walker Post"
+      }
+    },
+    {
+      "name": "wrong-south-CharredVale-direction",
+      "id": 1432,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "ရဲ့ တောင်ဘက်ကို သွားရင်",
+        "to": "ရဲ့ မြောက်ဘက်ကို သွားရင်"
+      }
+    },
+    {
+      "name": "wrong-Desolace-northeast-scapltarget",
+      "id": 1481,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "အရှေ့မြောက်ဘက် ရှေးဟောင်း",
+        "to": "အနောက်တောင်ဘက် ရှေးဟောင်း"
+      }
+    },
+    {
+      "name": "wrong-direct-south-demonroute",
+      "id": 1488,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "တောင်ဘက်တည့်တည့်",
+        "to": "မြောက်ဘက်တည့်တည့်"
+      }
+    },
+    {
+      "name": "wrong-gem-condition-fullhealth",
+      "id": 1435,
+      "field": "progress",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "သေလုနီးပါးဖြစ်မှသာ",
+        "to": "ကျန်းမာအားပြည့်နေမှသာ"
+      }
+    },
+    {
+      "name": "wrong-gem-automatic-kill-command",
+      "id": 1435,
+      "field": "progress",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "အားမကိုးနဲ့",
+        "to": "အားကိုးပါ"
+      }
+    },
+    {
+      "name": "wrong-sincere-grief-negation",
+      "id": 1439,
+      "field": "complete",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "စိတ်ရင်းပါပုံ မပေါ်ရင်",
+        "to": "စိတ်ရင်းပါပုံ ပေါ်ရင်"
+      }
+    },
+    {
+      "name": "wrong-permission-condition",
+      "id": 1484,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "သူခွင့်ပြုရင်",
+        "to": "သူခွင့်မပြုရင်"
+      }
+    },
+    {
+      "name": "wrong-Malem-alive-condition",
+      "id": 97284,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "အသက်ရှင်နေသေးရင်",
+        "to": "သေဆုံးနေပြီဆိုရင်"
+      }
+    },
+    {
+      "name": "wrong-burning-building-smoke",
+      "id": 1465,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "အဆောက်အအုံတွေ မီးလောင်လို့ မဟုတ်ဘဲ",
+        "to": "အဆောက်အအုံတွေ မီးလောင်လို့"
+      }
+    },
+    {
+      "name": "wrong-brother-fate-before-escape",
+      "id": 1439,
+      "field": "detail",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "မသိမချင်း ကျွန်မ ဒီကနေ မထွက်နိုင်ဘူး",
+        "to": "မသိခင်ပဲ ကျွန်မ ဒီကနေ ထွက်နိုင်တယ်"
+      }
+    },
+    {
+      "name": "wrong-escort-return-before-rescue",
+      "id": 1440,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "Dalinda Malem (ဒါလင်ဒါ မာလမ်) ကို Thunder Axe Fortress (သန်ဒါ အက်စ် ဖော့ထရက်စ်) မှ ဘေးကင်းစွာ လိုက်ပို့ပြီးနောက်",
+        "to": "Vahlarriel Demonslayer ထံ ပြန်သွားပါ။ Dalinda Malem (ဒါလင်ဒါ မာလမ်) ကို Thunder Axe Fortress (သန်ဒါ အက်စ် ဖော့ထရက်စ်) မှ ဘေးကင်းစွာ လိုက်ပို့ပြီးနောက်"
+      }
+    },
+    {
+      "name": "wrong-vengeance-return-before-kills",
+      "id": 97284,
+      "field": "objective",
+      "result": "REJECTED",
+      "mutation": {
+        "from": "Desolace (ဒက်ဆိုလေ့စ်) ရှိ",
+        "to": "Vahlarriel Demonslayer ထံ ပြန်သွားပါ။ Desolace (ဒက်ဆိုလေ့စ်) ရှိ"
+      }
+    },
+    {
+      "name": "illegally-enabled-formalhold",
+      "id": 1431,
+      "field": "complete",
+      "result": "REJECTED"
+    },
+    {
+      "name": "illegally-enabled-formalhold",
+      "id": 1435,
+      "field": "objective",
+      "result": "REJECTED"
+    }
+  ],
+  "badControlCount": 19,
+  "notes": "Equal seven-target quantities do not support meaningful unequal-target count swaps; tested wrong named target with all counts unchanged and independently wrong bound quantities. Checks target unencoded Myanmar; they supplement actual field rereads and are not native/live proof.",
+  "inputSHA256": {
+    "edited.json": "62f29fdf07a73db42c0cccdd2fe10d18cbd039405dcbc913c0c8f42b18c6c634",
+    "english-sources.json": "ccea5b5b55510216e64ce027d63e86e0eef1259624c021388aad205462842715",
+    "identity-contracts.json": "93717d49b267361c8b405eca13c7e74e1be8ac6d2413b446ba5e9c007b04783e",
+    "semantic-contracts.json": "abd26fb3282db4a87544183505391d9013e0c7e081ba5781840f3c1916f5768c"
+  },
+  "scriptSHA256": "54b067ca8bd2f64082e97b343c45b578011379bf51d82257800cd671c06050d4"
+}

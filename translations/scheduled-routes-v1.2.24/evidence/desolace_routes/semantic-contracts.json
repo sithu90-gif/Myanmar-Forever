@@ -1,0 +1,413 @@
+{
+  "numeric": [
+    {
+      "id": 1434,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Hatefury Rogues",
+          "quantity": 7
+        },
+        {
+          "term": "Hatefury Felsworn",
+          "quantity": 7
+        },
+        {
+          "term": "Hatefury Betrayers",
+          "quantity": 7
+        },
+        {
+          "term": "Hatefury Hellcallers",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Centaur Ears",
+          "quantity": 15
+        }
+      ]
+    }
+  ],
+  "written": [],
+  "actions": [
+    {
+      "id": 1431,
+      "field": "detail",
+      "needles": [
+        "အနောက်ဘက်ထွက်ပေါက်နားက Keldran"
+      ],
+      "meaning": "FindKeldran nearwesterncityexit"
+    },
+    {
+      "id": 1432,
+      "field": "detail",
+      "needles": [
+        "သူတို့ကို ဖယ်ရှားဖို့",
+        "မှားယွင်းကောက်ချက်ချနိုင်"
+      ],
+      "meaning": "RemoveLegion influences, notHorde; perceivedpacts may bewrong"
+    },
+    {
+      "id": 1433,
+      "field": "detail",
+      "needles": [
+        "ငါက တခြားနတ်ဆိုးအန္တရာယ်တွေကို ရင်ဆိုင်နေချိန်မှာ",
+        "သူက စီမံတယ်"
+      ],
+      "meaning": "Maurin plotsagainstBlade whileTakata handlesotherdemons"
+    },
+    {
+      "id": 1434,
+      "field": "progress",
+      "needles": [
+        "သူယုံတယ်",
+        "ငါတော့ အဲဒီလို မမြင်ဖူးဘူး",
+        "မပေးမချင်း",
+        "မသနားဘူး"
+      ],
+      "meaning": "Companion belief versus speakerdisbelief; dutyuntilordersotherwise andnopity"
+    },
+    {
+      "id": 1435,
+      "field": "detail",
+      "needles": [
+        "သေလုနီးပါးဖြစ်လာတဲ့အခါ",
+        "မှော်စွမ်းအားကို အသက်သွင်းပါ",
+        "ဝိညာဉ်ကို ဆွဲထုတ်ပြီး"
+      ],
+      "meaning": "Activategem near-death andpullspirit, notkillfirst"
+    },
+    {
+      "id": 1435,
+      "field": "progress",
+      "needles": [
+        "အပြီးသတ်သတ်ပေးဖို့",
+        "အားမကိုးနဲ့",
+        "သေလုနီးပါးဖြစ်မှသာ",
+        "မဟုတ်ရင် အဲဒါ အသုံးမဝင်ဘူး"
+      ],
+      "meaning": "Do not relyongem tokill; onlynear-deathactivation elseuseless"
+    },
+    {
+      "id": 1436,
+      "field": "detail",
+      "needles": [
+        "ဆက်ရနေရင်",
+        "ရာသီမပြောင်းခင်",
+        "ပေးကောင်းပေးလိမ့်မယ်"
+      ],
+      "meaning": "Possible homebeforereseason conditional oncontinuedprogress"
+    },
+    {
+      "id": 1365,
+      "field": "detail",
+      "needles": [
+        "သူတို့ မပေါင်းစည်းခင်",
+        "ကမောက်ကမဖြစ်စေဖို့",
+        "ကို သတ်ပြီး"
+      ],
+      "meaning": "Disruptclan bykillingKhan beforeunification"
+    },
+    {
+      "id": 1366,
+      "field": "detail",
+      "needles": [
+        "ဘယ်မျိုးနွယ်စုကို",
+        "ငါဂရုမစိုက်ဘူး",
+        "နားရွက်တွေပဲ စုလာပါ"
+      ],
+      "meaning": "Anyclan, collectears, notheads",
+      "forbidden": [
+        "ခေါင်းတွေကို စုလာပါ"
+      ]
+    },
+    {
+      "id": 1480,
+      "field": "complete",
+      "needles": [
+        "အနည်းငယ်ဆင်ပေမယ့်",
+        "ကွာခြားချက်တွေက အလွန်ကြီးတယ်",
+        "ငါမမှားရင်"
+      ],
+      "meaning": "Tentativecontract, onlyremotesimilarity toEredun"
+    },
+    {
+      "id": 1481,
+      "field": "detail",
+      "needles": [
+        "ဘယ် Satyr မဆို မရဘူး",
+        "ရဲ့ ဦးရေခွံ ဖြစ်ရမယ်"
+      ],
+      "meaning": "ScalpmustbespecificHatefuryshadowstalker, notanysatyr"
+    },
+    {
+      "id": 1481,
+      "field": "progress",
+      "needles": [
+        "ယူမလာနဲ့",
+        "သေကုန်နိုင်တယ်",
+        "ဆင်ထားနိုင်တယ်"
+      ],
+      "meaning": "Wrongreagentscouldkill; contingencywardpossibleonly"
+    },
+    {
+      "id": 1482,
+      "field": "detail",
+      "needles": [
+        "အနောက်မြောက်ဘက်",
+        "သန္တာကျောက်တန်းကြီး",
+        "ကြည်ကြည်ဖြူဖြူ လက်ခံမှာ မဟုတ်ဘူး"
+      ],
+      "meaning": "Northwestcoast coralreef/hostilenaga, notpearlreef",
+      "forbidden": [
+        "ပုလဲကျောက်တန်း"
+      ]
+    },
+    {
+      "id": 1482,
+      "field": "complete",
+      "needles": [
+        "နောက်တစ်လှမ်းဆုတ်ပါ"
+      ],
+      "meaning": "Stepbackforprojection"
+    },
+    {
+      "id": 1484,
+      "field": "detail",
+      "needles": [
+        "သူခွင့်ပြုရင်",
+        "သိပ်မဖိအားပေးနဲ့",
+        "ဒါသူ့အကြံပဲလို့ သူထင်တာ ပိုကောင်းတယ်"
+      ],
+      "meaning": "Conditionalpermission,donotpress,letTakata thinkhisidea"
+    },
+    {
+      "id": 1488,
+      "field": "detail",
+      "needles": [
+        "တောင်ဘက်တည့်တည့်",
+        "အန္တရာယ်ကို အဆုံးသတ်ပြီးမှ"
+      ],
+      "meaning": "Directlysouth,returnonlyafterthreatended"
+    },
+    {
+      "id": 1437,
+      "field": "complete",
+      "needles": [
+        "တစ်ဖက်သတ်ဖြစ်ပြီး မြန်မြန်ပြီးသွားပုံပဲ",
+        "သွေးလည်း မတွေ့ရ",
+        "အလောင်းအကြွင်းအကျန်တွေလည်း မရှိဘူး"
+      ],
+      "meaning": "Seemedone-sided andquick, no blood/bodies"
+    },
+    {
+      "id": 1465,
+      "field": "detail",
+      "needles": [
+        "တောင်ဘက်ကို ဦးတည်သွားတဲ့ ခြေရာတွေ",
+        "အဆောက်အအုံတွေ မီးလောင်လို့ မဟုတ်ဘဲ",
+        "အသက်ရှင်နေသေးရင်"
+      ],
+      "meaning": "Southfootprints; tendedfirenotburningbuildings; Malemsaliveconditional"
+    },
+    {
+      "id": 1438,
+      "field": "detail",
+      "needles": [
+        "ပိုအရေးကြီးတယ်",
+        "အိမ်မခေါ်ခင်... အကဲဖြတ်ရမယ်"
+      ],
+      "meaning": "PrioritizeDalindasafety,gaugeTyranisbeforehome"
+    },
+    {
+      "id": 1439,
+      "field": "detail",
+      "needles": [
+        "မသိမချင်း ကျွန်မ ဒီကနေ မထွက်နိုင်ဘူး",
+        "သူ့ကံကြမ္မာကို သိပြီးတဲ့အခါ"
+      ],
+      "meaning": "Knowbrothersfatebeforeleaving; returnforDalindaafter"
+    },
+    {
+      "id": 1439,
+      "field": "progress",
+      "needles": [
+        "သူတို့ခွင့်ပြုရင်",
+        "ခံနိုင်ပါ့မလား မသေချာဘူး"
+      ],
+      "meaning": "He mayjoinifallowed; uncertainendurance"
+    },
+    {
+      "id": 1439,
+      "field": "complete",
+      "needles": [
+        "စိတ်ရင်းပါပုံ မပေါ်ရင်",
+        "စော်ကားလိုတဲ့ စိတ်မရှိပါဘူး",
+        "ဆက်ကူညီချင်သေးရင်"
+      ],
+      "meaning": "Grievingthanksifitseemsnot sincere, nooffense;escapeconditional",
+      "forbidden": [
+        "စိတ်ရင်းပါပုံ ပေါ်ရင်"
+      ]
+    },
+    {
+      "id": 1440,
+      "field": "complete",
+      "needles": [
+        "ဘေးကင်းကင်း ပြန်ရောက်ခဲ့တယ်",
+        "သူ့အားနဲ့သူ",
+        "နှစ်ယောက်စလုံး အတူ ပြန်မလာနိုင်တာ",
+        "အရှက်တကွဲကို သူမပဲ ခံရမှာ"
+      ],
+      "meaning": "Dalindareturnedunderownpower,notbothsiblings;shameofTyranisdecisionshers"
+    },
+    {
+      "id": 97284,
+      "field": "detail",
+      "needles": [
+        "အသက်ရှင်နေသေးရင်",
+        "ငါသံသယရှိတယ်",
+        "မျက်စိမကျအောင်နေပြီး",
+        "မင်းဓားနဲ့ Burning Blade",
+        "တတ်နိုင်သမျှ များများသတ်ပါ"
+      ],
+      "meaning": "Malemaliveconditional,suspect;lowprofilepreferredbutlikelyfight;bladepunandkillmax"
+    },
+    {
+      "id": 97284,
+      "field": "complete",
+      "needles": [
+        "နောက်ကုန်သည်လှည်းတန်းတစ်ခုကို လုယက်ဖို့",
+        "ကံကောင်းရင်",
+        "ကိုယ့်ဘာသာ မျိုးပြုတ်သွားလောက်အောင်"
+      ],
+      "meaning": "Caravanransacking deterrent,dieoutbehindgates onlywithluck"
+    }
+  ],
+  "ordered": [
+    {
+      "id": 1440,
+      "field": "objective",
+      "terms": [
+        "Dalinda Malem",
+        "Thunder Axe Fortress",
+        "လိုက်ပို့ပြီးနောက်",
+        "Vahlarriel Demonslayer",
+        "ပြန်သွားပါ"
+      ],
+      "meaning": "EscortDalindafromfortressthenreturnVahlarriel"
+    },
+    {
+      "id": 97284,
+      "field": "objective",
+      "terms": [
+        "Thunder Axe Fortress",
+        "Burning Blade Orc",
+        "သတ်ပြီးနောက်",
+        "Vahlarriel Demonslayer",
+        "ပြန်သွားပါ"
+      ],
+      "meaning": "Slayfortressorcs thenreturnVahlarriel"
+    },
+    {
+      "id": 1439,
+      "field": "detail",
+      "terms": [
+        "မသိမချင်း",
+        "သူ့ကို ရှာပါ",
+        "သူ့ကံကြမ္မာကို သိပြီးတဲ့အခါ",
+        "ခေါ်ဖို့ ပြန်လာပါ"
+      ],
+      "meaning": "Cannotleavebeforebrotherfate;findthenreturnforDalinda"
+    }
+  ],
+  "directions": [
+    {
+      "id": 1432,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Kodo Graveyard",
+          "direction": "မြောက်ဘက်",
+          "span": "Kodo Graveyard (ကိုးဒိုး ဂရေ့ဗ်ယာ့ဒ်) ကြီးရဲ့ မြောက်ဘက်က Ghost Walker Post"
+        },
+        {
+          "place": "Charred Vale",
+          "direction": "တောင်ဘက်",
+          "span": "Charred Vale (ချားဒ် ဗေးလ်) ရဲ့ တောင်ဘက်ကို သွားရင်"
+        }
+      ],
+      "meaning": "Postnorthofgraveyard;head southofCharredVale"
+    },
+    {
+      "id": 1365,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Kolkar Village",
+          "direction": "အရှေ့မြောက်ဘက်",
+          "span": "Kolkar Village (ကော်လ်ကာ ဗီလစ်ဂျ်) က ဒီနေရာရဲ့ အရှေ့မြောက်ဘက်မှာ"
+        }
+      ],
+      "meaning": "KolkarVillagenortheastofhere"
+    },
+    {
+      "id": 1481,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Desolace",
+          "direction": "အရှေ့မြောက်ဘက်",
+          "span": "Desolace (ဒက်ဆိုလေ့စ်) ရဲ့ အရှေ့မြောက်ဘက် ရှေးဟောင်းအပျက်အစီးတွေကြားမှာ"
+        }
+      ],
+      "meaning": "ShadowstalkersamongruinsnortheastofDesolace"
+    }
+  ],
+  "formalHolds": [
+    [
+      1431,
+      "complete"
+    ],
+    [
+      1435,
+      "objective"
+    ]
+  ],
+  "englishSHA256": {
+    "1434.objective": "74d2fef3c9a66533cc2c2255e91797563536dc3b521282b1f158f196ba48ce93",
+    "1366.objective": "6e67cc3ec7216c1cd0d4c92cd1710dfaf836015b59fe5bd6cdbde57006510f06",
+    "1431.detail": "9655a44e1295d1fca65de7dfcc1c0d5788ab3f99af7c33b42443d547596e8b40",
+    "1432.detail": "2decc8f8b9640347646db18cb8538d87ba3e1c4cb328815950b935212357492a",
+    "1433.detail": "5278d7a6b3c34b702dcb8300cd71f6265b89127ef47757a19e8bb981389c7e10",
+    "1434.progress": "c599e080d54d8c291ad775b616211dbf1289ca8d2479b2b12822212e17188ced",
+    "1435.detail": "12a972d56cf048729c84f5a2fd6c0779b183fe72f41ebb954ae2f56e08105d80",
+    "1435.progress": "e503a9fd720302bc715588dc3597f0cacef644aae54c41d8ee24c951e3b8b3cb",
+    "1436.detail": "5a3d03ce3b8e752f1829561a8a78a8a43afdf26d135cc74fb49821b9f44b6ec6",
+    "1365.detail": "5bac14a6b0ae7996152bf7804045c5e563c622c5458fd4075c8074d43c94174b",
+    "1366.detail": "8a7f418294e871d35604973be2508244a4411dc202993c6e933a539084c4bff6",
+    "1480.complete": "cc842fe8d2c5e4e33567fcf30452974a565f5ca413ca70fdc367b066a1ebf3a4",
+    "1481.detail": "a1fd72beeb5b49946225e974dd317026606dae4c3b918545ac2c3640b39e207d",
+    "1481.progress": "3c7dcd3dc95fa6a5712e778ed98ad59e41f1ee42fc032fb98424fb9623bda26c",
+    "1482.detail": "3e58e431e360ceb5b6ad0d72fc93e383bac1152890c081e1283f3f036ee466ed",
+    "1482.complete": "e5b0be10d9e9d080a2c1d052046e6850a4b9565f3bfd352980be9be32cfe3ebe",
+    "1484.detail": "a242322264c9333e795b1c1544030149f44b09f0fc8aa59900fc33c8bbae8e61",
+    "1488.detail": "70f2edd5edb84844abf31e7792ac1978de8989fa6b67434dcba26bfcc3e95607",
+    "1437.complete": "852d064b9f0d9b88577a25aba397074f90bac0bca8c087aa2e80740b39ffd6f8",
+    "1465.detail": "18a24af406154d63488bd96b313344c79e6b5124382b24981a00f87e4df96bab",
+    "1438.detail": "b2ee2c704e38411ed1ff3c91b370b93a87c8e03790ee0fc4173b490e71a2f54d",
+    "1439.detail": "92ca30dc97752acb90d77ebe9f914d3b4ee2a2b3daaeef08e4d67518ef3bb948",
+    "1439.progress": "2636e114a5383f31d40813369e1dffcfc28ac9fc76c7df75fd3a50be8b85e4aa",
+    "1439.complete": "1a7591a19ee7ab028eab1028eb37c5be325b94c141103acf8b81ff0e9a5e5442",
+    "1440.complete": "5eb61838b8e13e9e9dc8c2bad64bd5166de6e7ed8727897033d8b84add354581",
+    "97284.detail": "31ee6f1656b5b201459458fc26af2540c959611502e09e35a3a437b769089f33",
+    "97284.complete": "2b38280ebd8fd00494a96ef245eb0539267ec4b1a2c7493f2ff096561dc7241e",
+    "1440.objective": "838141e38e1c1dda4e086463542605af51cb8ca235c6df2af55c6f72df52ec1a",
+    "97284.objective": "c7b350a742628483361abf15acd723147d975e539d01e9c7939a354dff32d341"
+  }
+}

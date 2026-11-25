@@ -1,0 +1,1368 @@
+{
+  "result": "PASS",
+  "scope": "Conservation, corrected documentary leaves and source/provenance validation; no new linguistic pass claimed.",
+  "checkedAtUTC": "2026-11-25T21:13:02.410361+00:00",
+  "initialReviewSHA256": "ae0e8f29f8d8c5b1b0c6413f778664e62e3e64d3fc5b3a4995ba5fc7be7d9ce8",
+  "scriptSHA256": "29b74077af411f54586813892466d3042e97c7ce0fe1fce5bd42991002cf5584",
+  "candidateHashesBefore": {
+    "edited.json": "8a14134d6be9b2cc869d3241e11234b5cd015e288c1439c90af6562b0ba823c6",
+    "pronunciations.json": "a44dc30c23fc6ecdcf2cb2863301c16a0b821d90e6ff9393120798ccf6906d75",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "5fbde3205ca6660f40a75696dfcf836e42a8f402042cb212f46dbaa9f277b47a"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "8a14134d6be9b2cc869d3241e11234b5cd015e288c1439c90af6562b0ba823c6",
+    "pronunciations.json": "a44dc30c23fc6ecdcf2cb2863301c16a0b821d90e6ff9393120798ccf6906d75",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "5fbde3205ca6660f40a75696dfcf836e42a8f402042cb212f46dbaa9f277b47a"
+  },
+  "documentaryChecks": [
+    {
+      "file": "author-summary.json",
+      "authorFileSHA256": "403aee631400516b651029c5fbaec9d0a31cff7490bc23530ff6fb93eb512b6b",
+      "correctedFileSHA256": "513d29ab984f8f3b4a53f5eca9cd4b35a3bfe435da99e9a678bdf599cddde7dd",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "author-summary.json",
+          "authorFileSHA256": "403aee631400516b651029c5fbaec9d0a31cff7490bc23530ff6fb93eb512b6b",
+          "jsonPath": [
+            "sourceCaveats",
+            1
+          ],
+          "oldValue": "Primary current545 objective6Summoners/8Slaves and vanished barrier narrative; installed/UA/secondary12Slaves and old narrative explicitly conserved in evidence.",
+          "newValue": "Current545 primary and60.tools main objective/list agree on6Summoners/8Slaves and vanished-barrier Description. Installed/UA keep12Slaves; UA keeps old dome narrative. Secondary embedded map/guide legend still says12, recorded separately. No translated-field conflict; current live confirmation pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/author-summary.json"
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+      "correctedFileSHA256": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+      "correctionCount": 6,
+      "guardedChanges": [
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "sourceReviewNotes"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "title",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "detail",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "objective",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "progress",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "complete",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/review-audit.json"
+    },
+    {
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "c5b6ca08fff216b49a32bc407df4301572580ca4f9dc2a68f739e998cf873eff",
+      "correctedFileSHA256": "93c73b17645873a4535a922c28df042d9e8b3ebff5e713e50ca116e6ebe0b53e",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "semantic-notes.json",
+          "authorFileSHA256": "c5b6ca08fff216b49a32bc407df4301572580ca4f9dc2a68f739e998cf873eff",
+          "jsonPath": [
+            "545",
+            "decision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/semantic-notes.json"
+    },
+    {
+      "file": "source-sanity.json",
+      "authorFileSHA256": "554175faec4a319f891d13386d99cf3b0016608ded056218bc6d73d55e464d29",
+      "correctedFileSHA256": "9cfcdb8ee7064c9d155071e12344cb3123b1bea1b3bbd9fcc81b96515be666b6",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "source-sanity.json",
+          "authorFileSHA256": "554175faec4a319f891d13386d99cf3b0016608ded056218bc6d73d55e464d29",
+          "jsonPath": [
+            "545",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/source-sanity.json"
+    }
+  ],
+  "correctedDocumentaryHashesAfter": {
+    "author-summary.json": "513d29ab984f8f3b4a53f5eca9cd4b35a3bfe435da99e9a678bdf599cddde7dd",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "semantic-notes.json": "93c73b17645873a4535a922c28df042d9e8b3ebff5e713e50ca116e6ebe0b53e",
+    "source-sanity.json": "9cfcdb8ee7064c9d155071e12344cb3123b1bea1b3bbd9fcc81b96515be666b6"
+  },
+  "frozenBefore": {
+    "result": "PASS",
+    "manifestSHA256": "0905dc5d51bc4d653e31cea59f85dbb60788b43ff815915764720f7f807ada79",
+    "filesChecked": 131,
+    "mismatches": []
+  },
+  "frozenAfter": {
+    "result": "PASS",
+    "manifestSHA256": "0905dc5d51bc4d653e31cea59f85dbb60788b43ff815915764720f7f807ada79",
+    "filesChecked": 131,
+    "mismatches": []
+  },
+  "all100SlotHashes": [
+    {
+      "id": 505,
+      "field": "title",
+      "sourceEnglishSHA256": "5076775e5e4445043e76be2e5a3606e38f7afdf9349ea4934c1946e4c1895c0e",
+      "authorMyanmarSHA256": "b4d229e0a4fd266fe4d581c0e0e23f42003c67ceb54f4f4e94373fda1404c46e",
+      "candidateMyanmarSHA256": "b4d229e0a4fd266fe4d581c0e0e23f42003c67ceb54f4f4e94373fda1404c46e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 505,
+      "field": "detail",
+      "sourceEnglishSHA256": "fc3a3102541d277a5930c659d8c2a8fe1349ebb654f25cf1e8438c491bb6fcc5",
+      "authorMyanmarSHA256": "f2b2cffee230f3393c48800c6983a43659c0e6d3b8a88366922a5c67dac91be6",
+      "candidateMyanmarSHA256": "f2b2cffee230f3393c48800c6983a43659c0e6d3b8a88366922a5c67dac91be6",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 505,
+      "field": "objective",
+      "sourceEnglishSHA256": "688bc16255b391348ddba810a501e50b8d4f3517179c23ffb74664d7a58317a4",
+      "authorMyanmarSHA256": "8cc7f2fddb4d28ddb1804db87eab268f72af80e5fba3476785ba70ffe50ff991",
+      "candidateMyanmarSHA256": "8cc7f2fddb4d28ddb1804db87eab268f72af80e5fba3476785ba70ffe50ff991",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 505,
+      "field": "progress",
+      "sourceEnglishSHA256": "3d32399169885f5edb54019ed207b06a8b5e8cc6d5a18460a27d1ac6ad6af357",
+      "authorMyanmarSHA256": "65e5f66d943f72a0ab3fbaae3ecd3a901d54d8e683f7611b3e6cb04fe7410d8a",
+      "candidateMyanmarSHA256": "65e5f66d943f72a0ab3fbaae3ecd3a901d54d8e683f7611b3e6cb04fe7410d8a",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 505,
+      "field": "complete",
+      "sourceEnglishSHA256": "74dca46cf1bb0d57cab0854d472b012affe9c9c107ceac3d3ac85926e8ac725c",
+      "authorMyanmarSHA256": "0bb2a511bc5e8f81766b073957156a2c96c84e2367fb39569c984db8769ac735",
+      "candidateMyanmarSHA256": "0bb2a511bc5e8f81766b073957156a2c96c84e2367fb39569c984db8769ac735",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 631,
+      "field": "title",
+      "sourceEnglishSHA256": "85bd0ae1633e6191e08768e43ae7772aa44c81e56e0650e76b217b712c7a7c46",
+      "authorMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "candidateMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 631,
+      "field": "detail",
+      "sourceEnglishSHA256": "52124159be1283d6f8fdb79ffd26685d185e9c5fefbdac839e88c5379c454cad",
+      "authorMyanmarSHA256": "94b0cd1145f7d5edd10cba2c4e22969f4947825ee8f0b6b491ef0f7a0b55a836",
+      "candidateMyanmarSHA256": "94b0cd1145f7d5edd10cba2c4e22969f4947825ee8f0b6b491ef0f7a0b55a836",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 631,
+      "field": "objective",
+      "sourceEnglishSHA256": "c7a49f32b3e8cf491152c7ccad5b0df55e21ef61fae4cd20032d03c7aea37a2a",
+      "authorMyanmarSHA256": "4a5cbb07d2a573260612b71dad07e9e95238798a5a7ec915910c5d2df0c8dccc",
+      "candidateMyanmarSHA256": "4a5cbb07d2a573260612b71dad07e9e95238798a5a7ec915910c5d2df0c8dccc",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 631,
+      "field": "progress",
+      "sourceEnglishSHA256": null,
+      "authorMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "conserved": true,
+      "state": "unavailable"
+    },
+    {
+      "id": 631,
+      "field": "complete",
+      "sourceEnglishSHA256": "0a5d10cabe29d409956a22d2103030af4b293494fee7948e3c77cb4959fa12b3",
+      "authorMyanmarSHA256": "d84bc13a2bb2a3174d2b6461b18f2d6292341d6a2efd9085de8ea86e6c3798c4",
+      "candidateMyanmarSHA256": "d84bc13a2bb2a3174d2b6461b18f2d6292341d6a2efd9085de8ea86e6c3798c4",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 632,
+      "field": "title",
+      "sourceEnglishSHA256": "85bd0ae1633e6191e08768e43ae7772aa44c81e56e0650e76b217b712c7a7c46",
+      "authorMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "candidateMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 632,
+      "field": "detail",
+      "sourceEnglishSHA256": "d7f9c18f8743a83b5393ecd2c54cb08001431b5e5e69cf56bae5d89a05a1971d",
+      "authorMyanmarSHA256": "584e562cf6b20af8bf1cef5342ef51f401873c0c86eadd9ab3d15c2e653ea228",
+      "candidateMyanmarSHA256": "584e562cf6b20af8bf1cef5342ef51f401873c0c86eadd9ab3d15c2e653ea228",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 632,
+      "field": "objective",
+      "sourceEnglishSHA256": "6cc5efc244c92fd3abf123326515ed2b3d9ca2044c06846efa0fe2e6c093d93f",
+      "authorMyanmarSHA256": "54b318e8def26df143c24e0e681af3d475906ec28ea9d5210dc405a5b21d31e6",
+      "candidateMyanmarSHA256": "54b318e8def26df143c24e0e681af3d475906ec28ea9d5210dc405a5b21d31e6",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 632,
+      "field": "progress",
+      "sourceEnglishSHA256": "b837429c3e4065d4bf3f7d691632f45fd74d6fc946288ca5337b4a9b55df1e34",
+      "authorMyanmarSHA256": "55f14d31d1c1a1400fe88537b31f2042803082b5256bcd650217830621f6ba5a",
+      "candidateMyanmarSHA256": "55f14d31d1c1a1400fe88537b31f2042803082b5256bcd650217830621f6ba5a",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 632,
+      "field": "complete",
+      "sourceEnglishSHA256": "d9128d47a2a64de9004a2941c85419e0c1638e50750811ae642acb501ec41a10",
+      "authorMyanmarSHA256": "cb23c9a0b13f0f383b714c89cde22c7d4e116f83e6112913eb8166cdb2854eb0",
+      "candidateMyanmarSHA256": "cb23c9a0b13f0f383b714c89cde22c7d4e116f83e6112913eb8166cdb2854eb0",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 633,
+      "field": "title",
+      "sourceEnglishSHA256": "85bd0ae1633e6191e08768e43ae7772aa44c81e56e0650e76b217b712c7a7c46",
+      "authorMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "candidateMyanmarSHA256": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 633,
+      "field": "detail",
+      "sourceEnglishSHA256": "08a8e09e3355ac993eb43fdf7d8e527fe474933a12e41f9947d4e7331a8a1844",
+      "authorMyanmarSHA256": "f9a36e1fba0b9ed2c343cf1e69036fb182e622743950b80977aa82a8c6bf87aa",
+      "candidateMyanmarSHA256": "f9a36e1fba0b9ed2c343cf1e69036fb182e622743950b80977aa82a8c6bf87aa",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 633,
+      "field": "objective",
+      "sourceEnglishSHA256": "d4b1266a8e2f7218d32ec0e12061a40053f1764f5edb1e1101b638d0b37cd548",
+      "authorMyanmarSHA256": "b6b26ab53031e10bbc7fe5726b7730094e4acd1cff85fdf094c32656726fe3cb",
+      "candidateMyanmarSHA256": "b6b26ab53031e10bbc7fe5726b7730094e4acd1cff85fdf094c32656726fe3cb",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 633,
+      "field": "progress",
+      "sourceEnglishSHA256": "a9e37447ab6a729885c658d9a147cc97e5f9d744b4bdca1c6a7e676049811edb",
+      "authorMyanmarSHA256": "6b621188629b2005b95fa03a5057a2b0d33a05773b52378afcf29405fb512e5e",
+      "candidateMyanmarSHA256": "6b621188629b2005b95fa03a5057a2b0d33a05773b52378afcf29405fb512e5e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 633,
+      "field": "complete",
+      "sourceEnglishSHA256": "ddd030e5bfa88ee9b8b1f265f9515a97461861a5dffe599ff1327bdcd29f535e",
+      "authorMyanmarSHA256": "6bb33c0d8afa6798d3878915f826503f66651a01e8ceb3b1268e7143679841ed",
+      "candidateMyanmarSHA256": "6bb33c0d8afa6798d3878915f826503f66651a01e8ceb3b1268e7143679841ed",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 634,
+      "field": "title",
+      "sourceEnglishSHA256": "39a0a1b5f4b7d060ebaa1d6eb4f102c389f89b1630eb362532dad6276e9c126e",
+      "authorMyanmarSHA256": "87bbb94edaab93a3fac38a896be5d169d6c2588ed966e266e8c9924275224727",
+      "candidateMyanmarSHA256": "87bbb94edaab93a3fac38a896be5d169d6c2588ed966e266e8c9924275224727",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 634,
+      "field": "detail",
+      "sourceEnglishSHA256": "959003dd199a7d0967c998b709595c0258ec002ea6a9c214938c88ea2707d309",
+      "authorMyanmarSHA256": "10f3df6b036cee84434b29bf89ecd8deb95a738928f5009e3ca9b29c5546e29d",
+      "candidateMyanmarSHA256": "10f3df6b036cee84434b29bf89ecd8deb95a738928f5009e3ca9b29c5546e29d",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 634,
+      "field": "objective",
+      "sourceEnglishSHA256": "7403f53761f699ae0b5b8eebf01d85dcfa5d29da974d83eea0dea053003afb42",
+      "authorMyanmarSHA256": "9095c56b304e6e2498f05f54df5a79d11ca26ecb7b55d58e5c84366a955818ed",
+      "candidateMyanmarSHA256": "9095c56b304e6e2498f05f54df5a79d11ca26ecb7b55d58e5c84366a955818ed",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 634,
+      "field": "progress",
+      "sourceEnglishSHA256": null,
+      "authorMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "conserved": true,
+      "state": "unavailable"
+    },
+    {
+      "id": 634,
+      "field": "complete",
+      "sourceEnglishSHA256": "7ef764706ae5c54b0ff4857efcd2c262c11f367786a07d904acd6c4037db72ef",
+      "authorMyanmarSHA256": "7b078878a0074a66818d1c7cc82dd4573c18c9eff59f44c80d98b7332e5f533e",
+      "candidateMyanmarSHA256": "7b078878a0074a66818d1c7cc82dd4573c18c9eff59f44c80d98b7332e5f533e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 647,
+      "field": "title",
+      "sourceEnglishSHA256": "676bcab26edabb530d676530e8fdcfe3a049d95bd5a365cb68fbe1241abef53a",
+      "authorMyanmarSHA256": "30a07a40fd072aba73f349508ee001371e8302646e55d7cf8fc5b89a7db69289",
+      "candidateMyanmarSHA256": "30a07a40fd072aba73f349508ee001371e8302646e55d7cf8fc5b89a7db69289",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 647,
+      "field": "detail",
+      "sourceEnglishSHA256": "21016617c70c0acfe6d4e961a40f7c2920eb71f225742a7fb5d1503c35d86d7d",
+      "authorMyanmarSHA256": "6986b6d27b542d489df0c0201d82032857414f45b64690f3c8a0cc45130187a6",
+      "candidateMyanmarSHA256": "6986b6d27b542d489df0c0201d82032857414f45b64690f3c8a0cc45130187a6",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 647,
+      "field": "objective",
+      "sourceEnglishSHA256": "98b812b9fc10a4d0e303a61818b027a4f621482161dc91c07d87b7d852037d59",
+      "authorMyanmarSHA256": "2395fc7a8727e0c502dfaec0e262795d31c79e23e16395cfa515fbe123312d0e",
+      "candidateMyanmarSHA256": "2395fc7a8727e0c502dfaec0e262795d31c79e23e16395cfa515fbe123312d0e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 647,
+      "field": "progress",
+      "sourceEnglishSHA256": "73c1eac3b628060d6a70a4a0b25539b119c091ff685a628d63f5bc5f90635833",
+      "authorMyanmarSHA256": "e0f7844c8ff7ec3926c87d82e06954d54aec7defec91a985fa71affbe7d734a8",
+      "candidateMyanmarSHA256": "e0f7844c8ff7ec3926c87d82e06954d54aec7defec91a985fa71affbe7d734a8",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 647,
+      "field": "complete",
+      "sourceEnglishSHA256": "ed5d17b891a761911f3e9fc1241847773e481decb4a9bed4102c98514bb8bb0e",
+      "authorMyanmarSHA256": "3d9dfca04f2cc635d70699278ef1ec1b25fbea93d2691729b96a4397e6a4a10b",
+      "candidateMyanmarSHA256": "3d9dfca04f2cc635d70699278ef1ec1b25fbea93d2691729b96a4397e6a4a10b",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 87318,
+      "field": "title",
+      "sourceEnglishSHA256": "97066d695529a225983cfd51e346965ae11e99e68eec15e52f379a9a7b5cd4c2",
+      "authorMyanmarSHA256": "1c56b867d26ee86f66ed86d5cc5615baa5d99e4f99ccc5f8143e9cf1f74f99c2",
+      "candidateMyanmarSHA256": "1c56b867d26ee86f66ed86d5cc5615baa5d99e4f99ccc5f8143e9cf1f74f99c2",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 87318,
+      "field": "detail",
+      "sourceEnglishSHA256": "1cc55e7a55c66c0d9db996e645daa2d271a381bb6ee3a808f3104024fec0d6de",
+      "authorMyanmarSHA256": "9cac6559797bc85ddd370b3545d97943a5714fff0e60bf0f15407709ac5462e3",
+      "candidateMyanmarSHA256": "9cac6559797bc85ddd370b3545d97943a5714fff0e60bf0f15407709ac5462e3",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 87318,
+      "field": "objective",
+      "sourceEnglishSHA256": "fe3b05b554abf5c4a972c259b1a22bf807b64c1e96e74a284910256f23f7c3ac",
+      "authorMyanmarSHA256": "77bbc58969260c0d8f14e30d85f54f8bf4aa9ab84c4c0428398faca6469dfd96",
+      "candidateMyanmarSHA256": "77bbc58969260c0d8f14e30d85f54f8bf4aa9ab84c4c0428398faca6469dfd96",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 87318,
+      "field": "progress",
+      "sourceEnglishSHA256": null,
+      "authorMyanmarSHA256": null,
+      "candidateMyanmarSHA256": null,
+      "conserved": true,
+      "state": "unavailable"
+    },
+    {
+      "id": 87318,
+      "field": "complete",
+      "sourceEnglishSHA256": "90df6d6de71045e6a05ee6ae68d0b4f14bd0c86d821da6a3168714cf511d6ddd",
+      "authorMyanmarSHA256": "0c21d693acc5c3061f77856fd33e691f6e90ef32c5ffa833efd52aa6520d2540",
+      "candidateMyanmarSHA256": "0c21d693acc5c3061f77856fd33e691f6e90ef32c5ffa833efd52aa6520d2540",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88756,
+      "field": "title",
+      "sourceEnglishSHA256": "58a3092ad78317bee5ae1122cdd737382626bdf2f28ff5fbef44ff29a15b2e84",
+      "authorMyanmarSHA256": "5391ebf4657f123151e2c876f590c0524f7644c9ca59c390f05db949d7427af0",
+      "candidateMyanmarSHA256": "5391ebf4657f123151e2c876f590c0524f7644c9ca59c390f05db949d7427af0",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88756,
+      "field": "detail",
+      "sourceEnglishSHA256": "642381c89267288a58f7238e5a72dd33803f4d8ecad1ca14215476709b09c986",
+      "authorMyanmarSHA256": "b29e02aa53a26f87a62cebdc4dac145ede1c94248dbbefd1fb179e2f750f3a37",
+      "candidateMyanmarSHA256": "b29e02aa53a26f87a62cebdc4dac145ede1c94248dbbefd1fb179e2f750f3a37",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88756,
+      "field": "objective",
+      "sourceEnglishSHA256": "18bad661f83b81341c34ae56b2ff499982d401e6b4b83800f144a9333c34bb94",
+      "authorMyanmarSHA256": "f2459d6b01c955a85dc49d7574b04d2e43e3bc67bd6e6f6a255c1c84d73e2516",
+      "candidateMyanmarSHA256": "f2459d6b01c955a85dc49d7574b04d2e43e3bc67bd6e6f6a255c1c84d73e2516",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88756,
+      "field": "progress",
+      "sourceEnglishSHA256": "62f526e04f6aaf1b563f557ed1871aca39fc2b8f5a4beccc0618c000be63baa9",
+      "authorMyanmarSHA256": "1db5683ade12150b1ddf5edf56e31a8694254540090c2299cd328658961f3776",
+      "candidateMyanmarSHA256": "1db5683ade12150b1ddf5edf56e31a8694254540090c2299cd328658961f3776",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88756,
+      "field": "complete",
+      "sourceEnglishSHA256": "0af482b8841df6e58ab4d1304aec0a84ea4cfcee67fdd720cce5117e03c25660",
+      "authorMyanmarSHA256": "36147137138fcd4a69063de8c3a7bc48d86fbb0889cd30cc90bd930303a319ad",
+      "candidateMyanmarSHA256": "36147137138fcd4a69063de8c3a7bc48d86fbb0889cd30cc90bd930303a319ad",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88757,
+      "field": "title",
+      "sourceEnglishSHA256": "4720b240820551c60c3aa4ba21cf0bd0f4000955c037a9c037a0831599b8098e",
+      "authorMyanmarSHA256": "b0047827fa320cbafc90c97bb48bdc359dbc2e5fda28313f3210a91421e61054",
+      "candidateMyanmarSHA256": "b0047827fa320cbafc90c97bb48bdc359dbc2e5fda28313f3210a91421e61054",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88757,
+      "field": "detail",
+      "sourceEnglishSHA256": "cb4a042710a7565aa82f36b7d87925197f62c3d02493f9ee2f93fddb72969a8d",
+      "authorMyanmarSHA256": "c3176d0ca7642c4f5c0a2584bdd98348291b5fc648e6bb0eafecadcdeac59350",
+      "candidateMyanmarSHA256": "c3176d0ca7642c4f5c0a2584bdd98348291b5fc648e6bb0eafecadcdeac59350",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88757,
+      "field": "objective",
+      "sourceEnglishSHA256": "df2a77001d42830f741223730d23bebf236d5b183259975be9cec4a9245f2df5",
+      "authorMyanmarSHA256": "8c5a52dd8a65ffb82323a44984c08a90131db196bad3ba43e1996a2cfe86418f",
+      "candidateMyanmarSHA256": "8c5a52dd8a65ffb82323a44984c08a90131db196bad3ba43e1996a2cfe86418f",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88757,
+      "field": "progress",
+      "sourceEnglishSHA256": "74d8f09c1ccf8e5e35bf355652b2a9bba89e80d3977120cc33a29dc8eafffc1d",
+      "authorMyanmarSHA256": "f2485499c981336d09e4719d1df79313ad752c1648658e6143fa9984ecb051f3",
+      "candidateMyanmarSHA256": "f2485499c981336d09e4719d1df79313ad752c1648658e6143fa9984ecb051f3",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88757,
+      "field": "complete",
+      "sourceEnglishSHA256": "72fe0a5dca7b3f9dea267868beed2a964bb3e3080dff8e811889805b8ead00f9",
+      "authorMyanmarSHA256": "006df33846e1f9193eaa0ab7c49c0dc3b245d8fc1c5acb68b9f1c44c77562f45",
+      "candidateMyanmarSHA256": "006df33846e1f9193eaa0ab7c49c0dc3b245d8fc1c5acb68b9f1c44c77562f45",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88758,
+      "field": "title",
+      "sourceEnglishSHA256": "7dc01ee2476da5cf2a659f0d67dcdd15ddc7041fd7e0e1f6a9064b252f4561e2",
+      "authorMyanmarSHA256": "1b13c57b22f25c5083897e0733b6914ccf7e566ae5d51e8bf897090c645d3dbb",
+      "candidateMyanmarSHA256": "1b13c57b22f25c5083897e0733b6914ccf7e566ae5d51e8bf897090c645d3dbb",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88758,
+      "field": "detail",
+      "sourceEnglishSHA256": "9cb438251c9d658d32e0d587052fb168e8d087a86b14cd6fadddce459aa5903f",
+      "authorMyanmarSHA256": "5667d7bf6c275ed1c36a4e785e99880425510e8888b641023ae0c7bbe36030d5",
+      "candidateMyanmarSHA256": "5667d7bf6c275ed1c36a4e785e99880425510e8888b641023ae0c7bbe36030d5",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88758,
+      "field": "objective",
+      "sourceEnglishSHA256": "7eef01eac316ba0484f1030c6ad977c5779b2700f9437504a56290cc606ad19d",
+      "authorMyanmarSHA256": "53bce2edf63646cdfd634e8b0a00736a1316093c3b5583bcda875928721929d5",
+      "candidateMyanmarSHA256": "53bce2edf63646cdfd634e8b0a00736a1316093c3b5583bcda875928721929d5",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88758,
+      "field": "progress",
+      "sourceEnglishSHA256": "ba9e589660ba0af51cf7140f369f15d320e55c14685ddb26025d2abe95aae065",
+      "authorMyanmarSHA256": "f07280169eac248bfcba6618499b7576c67730c50275d3f2d67e7f41228dbade",
+      "candidateMyanmarSHA256": "f07280169eac248bfcba6618499b7576c67730c50275d3f2d67e7f41228dbade",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 88758,
+      "field": "complete",
+      "sourceEnglishSHA256": "cb3c6b3167d12957b25f5715f7148361054263a9536c9e111311af3c71953769",
+      "authorMyanmarSHA256": "787c2e1734dc9ed16f5e65c04bcd03f236ecba3000c268653f41e382f4a9af86",
+      "candidateMyanmarSHA256": "787c2e1734dc9ed16f5e65c04bcd03f236ecba3000c268653f41e382f4a9af86",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 544,
+      "field": "title",
+      "sourceEnglishSHA256": "ab433e2635378d9b34200de8a5d7d0bffb09f86ab2eade16ac21115cb63e5aa0",
+      "authorMyanmarSHA256": "e5442929072593db3f701bf5f85844e96926f7d50f27376dd21793f92f056ceb",
+      "candidateMyanmarSHA256": "e5442929072593db3f701bf5f85844e96926f7d50f27376dd21793f92f056ceb",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 544,
+      "field": "detail",
+      "sourceEnglishSHA256": "8eddad1bfac54f4b8b5604834749abf212edad0c1db9895e81d9e089040c8300",
+      "authorMyanmarSHA256": "62fa4a5aca9ba75f52eed92b1093fbaecbc9987a8cf9930ca82c4bb32ed657ef",
+      "candidateMyanmarSHA256": "62fa4a5aca9ba75f52eed92b1093fbaecbc9987a8cf9930ca82c4bb32ed657ef",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 544,
+      "field": "objective",
+      "sourceEnglishSHA256": "182eeaedae3994d9d740d3b7e7671186f3f8198311c7881a34230fe81c69b596",
+      "authorMyanmarSHA256": "44d440fba11f5ceae5c0ea921ad617acd43de521fce599fcd028e44773b15ac8",
+      "candidateMyanmarSHA256": "44d440fba11f5ceae5c0ea921ad617acd43de521fce599fcd028e44773b15ac8",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 544,
+      "field": "progress",
+      "sourceEnglishSHA256": "c0eb7a9aacf94e4109e8a06d0b63cbdd713a86ec6cb4c4f3c9c0977477b569de",
+      "authorMyanmarSHA256": "3f71c806428880f233bb1ce2f2dafa4f9b0bb689bb8b721bfd817b9ee4b6413f",
+      "candidateMyanmarSHA256": "3f71c806428880f233bb1ce2f2dafa4f9b0bb689bb8b721bfd817b9ee4b6413f",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 544,
+      "field": "complete",
+      "sourceEnglishSHA256": "dd1caefad95fe39b235c6fa4e81a662e337d96cedc91bf547cb52e7a5669dd3d",
+      "authorMyanmarSHA256": "8637c0761dcd2c85cc6dd8442b64fa9c74584b3f2127d873413ab88af4d410c2",
+      "candidateMyanmarSHA256": "8637c0761dcd2c85cc6dd8442b64fa9c74584b3f2127d873413ab88af4d410c2",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 545,
+      "field": "title",
+      "sourceEnglishSHA256": "edc23a9f79af2d29f7f1e099ba9ce75e1d388f37c8080fd5a3fc737535beb96c",
+      "authorMyanmarSHA256": "09e2a28650185f513d4ecc4b0cacf2c93ece0d35bfe9e651c561b85e4ea8ae1b",
+      "candidateMyanmarSHA256": "09e2a28650185f513d4ecc4b0cacf2c93ece0d35bfe9e651c561b85e4ea8ae1b",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 545,
+      "field": "detail",
+      "sourceEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+      "authorMyanmarSHA256": "dc7930617eebf1e633ffd2b9c2696bab9a72e679c32cb8977696f20a4ac1f1fd",
+      "candidateMyanmarSHA256": "dc7930617eebf1e633ffd2b9c2696bab9a72e679c32cb8977696f20a4ac1f1fd",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 545,
+      "field": "objective",
+      "sourceEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+      "authorMyanmarSHA256": "d256eca18a795f13da37cd51550600920e7bc473841bd66967714fd68f52137e",
+      "candidateMyanmarSHA256": "d256eca18a795f13da37cd51550600920e7bc473841bd66967714fd68f52137e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 545,
+      "field": "progress",
+      "sourceEnglishSHA256": "02eb413393390e6662457b28e886393e354556e8225b4ff9802994d9f3b66718",
+      "authorMyanmarSHA256": "70949c483639f7f55fd116b1db6731555ba760065905cff4898d7ea084c309df",
+      "candidateMyanmarSHA256": "70949c483639f7f55fd116b1db6731555ba760065905cff4898d7ea084c309df",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 545,
+      "field": "complete",
+      "sourceEnglishSHA256": "2ed1c1bc9af8d8f916f099e8dfbf83730359186205894ab7aec96c698885eb54",
+      "authorMyanmarSHA256": "38861e4a1bf084af36e45ddbaace29b27e5c49cd66761cf2f8d45eda3ec49613",
+      "candidateMyanmarSHA256": "38861e4a1bf084af36e45ddbaace29b27e5c49cd66761cf2f8d45eda3ec49613",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 547,
+      "field": "title",
+      "sourceEnglishSHA256": "878b2865e35b2354343bf3d0102a81a4593e167bdff71d96f3e44e3802a23e37",
+      "authorMyanmarSHA256": "0b46c31c84a11f31508cea6b5f6986d9f4ce2af754bb794af7f44a9671f3835c",
+      "candidateMyanmarSHA256": "0b46c31c84a11f31508cea6b5f6986d9f4ce2af754bb794af7f44a9671f3835c",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 547,
+      "field": "detail",
+      "sourceEnglishSHA256": "a820f4438c148d48047029376eb32cd2cc147e91971d7f05164f6b204d24b865",
+      "authorMyanmarSHA256": "5a8b05a30cb24e6a4a1e12702be8000053650e2002e3156375b02b253ff1fcee",
+      "candidateMyanmarSHA256": "5a8b05a30cb24e6a4a1e12702be8000053650e2002e3156375b02b253ff1fcee",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 547,
+      "field": "objective",
+      "sourceEnglishSHA256": "20ef497d8deb4bcfc4e7289ee0b370f481edc5f89e8d5be301e763d9ea0ca82f",
+      "authorMyanmarSHA256": "13898e6e65ae057aeee6892f3249e7329b650ba11322ab8083c57787acf4d8bc",
+      "candidateMyanmarSHA256": "13898e6e65ae057aeee6892f3249e7329b650ba11322ab8083c57787acf4d8bc",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 547,
+      "field": "progress",
+      "sourceEnglishSHA256": "c0822014869ef41561c2222df21d1a443b166948abf68236972da316b48b9ef3",
+      "authorMyanmarSHA256": "d5f4540634a0a0fa02217903e2947455ee947ce927e52ce6f04ab5fd33ec8c24",
+      "candidateMyanmarSHA256": "d5f4540634a0a0fa02217903e2947455ee947ce927e52ce6f04ab5fd33ec8c24",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 547,
+      "field": "complete",
+      "sourceEnglishSHA256": "5467401de07ded9c8b725ac0f82c65e7591b8081988fb5fa2ce96a22770ccf48",
+      "authorMyanmarSHA256": "9fabe716db0c231e8a7bb9a2a733cb9e13d870388eecb42f8643e8b05a5644df",
+      "candidateMyanmarSHA256": "9fabe716db0c231e8a7bb9a2a733cb9e13d870388eecb42f8643e8b05a5644df",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 552,
+      "field": "title",
+      "sourceEnglishSHA256": "ac4dce51291a87d29aefb3273967a1f33c9512b5c59d2d5a730c6f4ead30ff27",
+      "authorMyanmarSHA256": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "candidateMyanmarSHA256": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 552,
+      "field": "detail",
+      "sourceEnglishSHA256": "a5b3239d88d37e9a54eb0e08a0ea7b3d0e3fd2e0bf886d13150c5c9810d4c511",
+      "authorMyanmarSHA256": "4dff14c9bed6ccdb2d582113c988d168a0212f522c2821c35316c333219ff283",
+      "candidateMyanmarSHA256": "4dff14c9bed6ccdb2d582113c988d168a0212f522c2821c35316c333219ff283",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 552,
+      "field": "objective",
+      "sourceEnglishSHA256": "9e0669ece2280b0e3fb970b93312381a31071eea42210485038a25fff1d910b6",
+      "authorMyanmarSHA256": "ba453f3ba04507836c2bfe439f5400665ad2ab46fa0045a82148fab1fc6cdcfb",
+      "candidateMyanmarSHA256": "ba453f3ba04507836c2bfe439f5400665ad2ab46fa0045a82148fab1fc6cdcfb",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 552,
+      "field": "progress",
+      "sourceEnglishSHA256": "097c92f2e320beed4dd883aec56d3a09898f2c32af68d06e195a1fad37473583",
+      "authorMyanmarSHA256": "80bd08268bcbbcdbc166a774e46c94895712bfb6d55e903a26d7909daf1a412e",
+      "candidateMyanmarSHA256": "80bd08268bcbbcdbc166a774e46c94895712bfb6d55e903a26d7909daf1a412e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 552,
+      "field": "complete",
+      "sourceEnglishSHA256": "6ca510ebcaa73975d64ebbff6fd1900d1779d1ba0079e53bd36776a949226dc5",
+      "authorMyanmarSHA256": "2fbc08a88e494a975292ea1d78589345a18cd2d776ecadac0a1c891af2267c8c",
+      "candidateMyanmarSHA256": "2fbc08a88e494a975292ea1d78589345a18cd2d776ecadac0a1c891af2267c8c",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 553,
+      "field": "title",
+      "sourceEnglishSHA256": "ac4dce51291a87d29aefb3273967a1f33c9512b5c59d2d5a730c6f4ead30ff27",
+      "authorMyanmarSHA256": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "candidateMyanmarSHA256": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 553,
+      "field": "detail",
+      "sourceEnglishSHA256": "6d5ae34d8c2fc5e663b8b0d55bdb4778955539923df9973f0c3f28b5843a9316",
+      "authorMyanmarSHA256": "f85d08c79c56328a3e5b7b1d1b07b5230d3ea7a27dc0d785905de54e0b1aa981",
+      "candidateMyanmarSHA256": "f85d08c79c56328a3e5b7b1d1b07b5230d3ea7a27dc0d785905de54e0b1aa981",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 553,
+      "field": "objective",
+      "sourceEnglishSHA256": "5774a743410d11183ea2c6723cca2b39092a0586a76ad4233de23d6753ea6b00",
+      "authorMyanmarSHA256": "8a96a667c548e76f16d9caac2ca01a32fcfd711787af269251df28b5c6c7b123",
+      "candidateMyanmarSHA256": "8a96a667c548e76f16d9caac2ca01a32fcfd711787af269251df28b5c6c7b123",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 553,
+      "field": "progress",
+      "sourceEnglishSHA256": "17648fdaf19cdb7b003fd8f0342fc5210654d22b02181d6af68743aeddd1b4fb",
+      "authorMyanmarSHA256": "1cbc718c6fdf96d1997af75c39853dec15d37458f2453d721a1dd48f25fb4ae9",
+      "candidateMyanmarSHA256": "1cbc718c6fdf96d1997af75c39853dec15d37458f2453d721a1dd48f25fb4ae9",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 553,
+      "field": "complete",
+      "sourceEnglishSHA256": "528462c621a8f99b4c2d8e6a78ebac75887c621315b1ce64dafd23ceb889585b",
+      "authorMyanmarSHA256": "5c1461fb265df499b4679c84c15a50b90a9fd87495c861ccc1dcd51535897487",
+      "candidateMyanmarSHA256": "5c1461fb265df499b4679c84c15a50b90a9fd87495c861ccc1dcd51535897487",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 555,
+      "field": "title",
+      "sourceEnglishSHA256": "59d245cfb2503528cb7f94214f12c062c04cc3d68ba6bde6484317bb09f1d9a5",
+      "authorMyanmarSHA256": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "candidateMyanmarSHA256": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 555,
+      "field": "detail",
+      "sourceEnglishSHA256": "3ef5d9a11b7e3c512621939a9eced4a0a0b619cf6e468377a30c3ab204c7c834",
+      "authorMyanmarSHA256": "cd0191e0f3426058d884a8d57ae261ccd2a699a1a3219c25d65d23e56e67d426",
+      "candidateMyanmarSHA256": "cd0191e0f3426058d884a8d57ae261ccd2a699a1a3219c25d65d23e56e67d426",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 555,
+      "field": "objective",
+      "sourceEnglishSHA256": "2d2dc07722dd000dac048d5ca7ec9d6355745bf8f4366b0dad273b9a3864ec99",
+      "authorMyanmarSHA256": "3ca1c523e53f3de6d7c5b11e08c6871eb185ad2765d433d71fdd6a411c17f1e5",
+      "candidateMyanmarSHA256": "3ca1c523e53f3de6d7c5b11e08c6871eb185ad2765d433d71fdd6a411c17f1e5",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 555,
+      "field": "progress",
+      "sourceEnglishSHA256": "9194c634ae3a6849b8fba66db034b8234ae868336bd5f6d744a06ef04ebc796d",
+      "authorMyanmarSHA256": "929ee4e418bd3410fbb4ad5b7ad7636929bc3535ed2bee592281e5ab6f4d9d77",
+      "candidateMyanmarSHA256": "929ee4e418bd3410fbb4ad5b7ad7636929bc3535ed2bee592281e5ab6f4d9d77",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 555,
+      "field": "complete",
+      "sourceEnglishSHA256": "28848052b7a7b4614e1b87039f77dca1c57584d3b87e11a9f8ce2acd5bfa6165",
+      "authorMyanmarSHA256": "2ed6d277a820931b11616ee3460c4d5011f2d8caf0b98ea8f6535138ebe6322a",
+      "candidateMyanmarSHA256": "2ed6d277a820931b11616ee3460c4d5011f2d8caf0b98ea8f6535138ebe6322a",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 556,
+      "field": "title",
+      "sourceEnglishSHA256": "5f7059b62744b13eedd13517e40fadfa1e28961236b466f927078dbc00a21e68",
+      "authorMyanmarSHA256": "d2257941a39d3a86e2dfe8c9187598ad57b1210ad6ec1a0c4d91d5503b8a0e1f",
+      "candidateMyanmarSHA256": "d2257941a39d3a86e2dfe8c9187598ad57b1210ad6ec1a0c4d91d5503b8a0e1f",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 556,
+      "field": "detail",
+      "sourceEnglishSHA256": "17a875174c0a2d079c255df1c3e49f7ceb2edb9b01ba14150d33860b683109a4",
+      "authorMyanmarSHA256": "c8893580499a85698c8c86507796abdc383acb058155c1988693174109f4094a",
+      "candidateMyanmarSHA256": "c8893580499a85698c8c86507796abdc383acb058155c1988693174109f4094a",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 556,
+      "field": "objective",
+      "sourceEnglishSHA256": "85ac2c938542c0aa53f92270a7a21ad3a13af06db315dfb6b02b139804f34161",
+      "authorMyanmarSHA256": "56796f1f31579f1459ab49910df2126f96bcebb664ab8301d1d4d389d1aeecfd",
+      "candidateMyanmarSHA256": "56796f1f31579f1459ab49910df2126f96bcebb664ab8301d1d4d389d1aeecfd",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 556,
+      "field": "progress",
+      "sourceEnglishSHA256": "e41393238a6f3018c6362bcd78981e165103c7df3e2b3143358f324a63910400",
+      "authorMyanmarSHA256": "ff049c67f0d93b7e26d1e9e152e9d222148f1a16facaaa0858a6471c89fd34e3",
+      "candidateMyanmarSHA256": "ff049c67f0d93b7e26d1e9e152e9d222148f1a16facaaa0858a6471c89fd34e3",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 556,
+      "field": "complete",
+      "sourceEnglishSHA256": "8cc4cd7d4717db4a76d46fd5b339381b5ac79e885b19fe2ed82fdbf7245cf7bf",
+      "authorMyanmarSHA256": "438a59050e1dc80736e49d9d52f5a49e81beffea5a09140579b03fa480e421ed",
+      "candidateMyanmarSHA256": "438a59050e1dc80736e49d9d52f5a49e81beffea5a09140579b03fa480e421ed",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 557,
+      "field": "title",
+      "sourceEnglishSHA256": "8055b3b4caa0097ed704203df25c273c3d702a75149e4279bc0e237e6255e1da",
+      "authorMyanmarSHA256": "a111edb997fe6ee892de3b016bf57166501fd40444904a875b2af448e69be94c",
+      "candidateMyanmarSHA256": "a111edb997fe6ee892de3b016bf57166501fd40444904a875b2af448e69be94c",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 557,
+      "field": "detail",
+      "sourceEnglishSHA256": "2e291ec907bb0824151b8adbf9e638b469970e85257e9863cf0a56d29f81ceb4",
+      "authorMyanmarSHA256": "9fb9be4e10904a9ebe12748a2c1a8aa1ef2e556c8b7a105b23efc76b7c762577",
+      "candidateMyanmarSHA256": "9fb9be4e10904a9ebe12748a2c1a8aa1ef2e556c8b7a105b23efc76b7c762577",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 557,
+      "field": "objective",
+      "sourceEnglishSHA256": "7716c8fab4607f5157917406d2b7bce3c2c7424c23de08b3af5966a13ee5b973",
+      "authorMyanmarSHA256": "1e956f233abf6ef226d59e44f87655f76fa11859e9214a482fb79b3ef435000e",
+      "candidateMyanmarSHA256": "1e956f233abf6ef226d59e44f87655f76fa11859e9214a482fb79b3ef435000e",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 557,
+      "field": "progress",
+      "sourceEnglishSHA256": "d395e91ae6709e8383edd4e633144ed126734fe462f5276f8ded6085de915f5e",
+      "authorMyanmarSHA256": "17082a3abfeb533645fb3e3593e0be4c38481e1a346f003359099d0bb1b2d4d4",
+      "candidateMyanmarSHA256": "17082a3abfeb533645fb3e3593e0be4c38481e1a346f003359099d0bb1b2d4d4",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 557,
+      "field": "complete",
+      "sourceEnglishSHA256": "602790ba28bb43f86806edc0f48e6bda357debec7c3fa249628568e32046704c",
+      "authorMyanmarSHA256": "6b711a33d23f3da3f96a0888dbbe175f734c8b7a78c66e7476670b8b69a7a22f",
+      "candidateMyanmarSHA256": "6b711a33d23f3da3f96a0888dbbe175f734c8b7a78c66e7476670b8b69a7a22f",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 7321,
+      "field": "title",
+      "sourceEnglishSHA256": "59d245cfb2503528cb7f94214f12c062c04cc3d68ba6bde6484317bb09f1d9a5",
+      "authorMyanmarSHA256": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "candidateMyanmarSHA256": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 7321,
+      "field": "detail",
+      "sourceEnglishSHA256": "a7c254ee5219f4c7d89c4f0818bde5e60f5ea6477b6aa8406dc93f22542caa59",
+      "authorMyanmarSHA256": "4909030b6a6071522582421ca1ef260ea43a536431e9c03c3551ffacc7f5fca6",
+      "candidateMyanmarSHA256": "4909030b6a6071522582421ca1ef260ea43a536431e9c03c3551ffacc7f5fca6",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 7321,
+      "field": "objective",
+      "sourceEnglishSHA256": "038b6b12d0eba80c7b75f1999ac7918c22992de2c913926cd871ab6883252d05",
+      "authorMyanmarSHA256": "e17b595102cd6f133143d6feb93419197cb12fc25a669d5ed20f98db580ec4e7",
+      "candidateMyanmarSHA256": "e17b595102cd6f133143d6feb93419197cb12fc25a669d5ed20f98db580ec4e7",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 7321,
+      "field": "progress",
+      "sourceEnglishSHA256": "37309bc17a49017bcf8d95c962df66e7e05d92968a7102a5ef6fd4bd58dfdc52",
+      "authorMyanmarSHA256": "1a818b885b35f628b918689cca6c891d60d1977304035adb3d0e7b45719a1c61",
+      "candidateMyanmarSHA256": "1a818b885b35f628b918689cca6c891d60d1977304035adb3d0e7b45719a1c61",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 7321,
+      "field": "complete",
+      "sourceEnglishSHA256": "23f6e009ccd10e19cda424b724d5d113a811ba9a6bab3ef58830aceb4eb8ea43",
+      "authorMyanmarSHA256": "ae250ee2de8f54ec7701d1c297de4143485bd1aae374253b799cc0e24f9197ce",
+      "candidateMyanmarSHA256": "ae250ee2de8f54ec7701d1c297de4143485bd1aae374253b799cc0e24f9197ce",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 93680,
+      "field": "title",
+      "sourceEnglishSHA256": "285fafcb2847b4dfd83cf01d7a9bb94afda56a416175e281f6a8005a81187770",
+      "authorMyanmarSHA256": "7c0c83344e71f5b04536e780d74bfeed6500d7d80e081c19daf6633ea4cec366",
+      "candidateMyanmarSHA256": "7c0c83344e71f5b04536e780d74bfeed6500d7d80e081c19daf6633ea4cec366",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 93680,
+      "field": "detail",
+      "sourceEnglishSHA256": "43fd8a9b4576b784f007b4faf9cd88641d821b49f842cd46cd5ea3f2c9f0c1a2",
+      "authorMyanmarSHA256": "536e38862f024d63e03602200436f0f250207602d314aa9a4f1fc3edea1bc82c",
+      "candidateMyanmarSHA256": "536e38862f024d63e03602200436f0f250207602d314aa9a4f1fc3edea1bc82c",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 93680,
+      "field": "objective",
+      "sourceEnglishSHA256": "24fb3050d81b5f277889bcf860490b4fc25d0540ac12190c44ec6fab9990baca",
+      "authorMyanmarSHA256": "f2f1a80dcec6c83881b804c0ef23cfec8701de4e423af3ea66a18eed026e02d3",
+      "candidateMyanmarSHA256": "f2f1a80dcec6c83881b804c0ef23cfec8701de4e423af3ea66a18eed026e02d3",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 93680,
+      "field": "progress",
+      "sourceEnglishSHA256": "b5ef8b1ac716fd4fe4fdabdf8a025ad04526d53df91dbca5757a27c582139869",
+      "authorMyanmarSHA256": "9ac64d6e2b3c89a3111ed9bd5f6e1850f9d579cc304cb30b860207f74c06861a",
+      "candidateMyanmarSHA256": "9ac64d6e2b3c89a3111ed9bd5f6e1850f9d579cc304cb30b860207f74c06861a",
+      "conserved": true,
+      "state": "available"
+    },
+    {
+      "id": 93680,
+      "field": "complete",
+      "sourceEnglishSHA256": "52cf98eb4c3f4867f33cdbc9d40380e0fafe253756410665e83aa30c19b5842b",
+      "authorMyanmarSHA256": "db791855bc9e1ded55403b698991e179a90db43cc192b3c50c89ab625581ed4c",
+      "candidateMyanmarSHA256": "db791855bc9e1ded55403b698991e179a90db43cc192b3c50c89ab625581ed4c",
+      "conserved": true,
+      "state": "available"
+    }
+  ],
+  "sourceReparse": [
+    {
+      "id": 505,
+      "primaryHTMLSHA256": "92b30bccced3865f4f2b0fb3544e4f756f4f51dfe7f407156457eb8765a2beb4",
+      "secondaryHTMLSHA256": "0524c5ce8cdb588548b41f9c615031157814c44320d3e48e5114411fd84042f9",
+      "reparse": "PASS"
+    },
+    {
+      "id": 631,
+      "primaryHTMLSHA256": "a299a5d27692febc46ee24657accfb3b6fca62acbad52107fa24573fb960fc28",
+      "secondaryHTMLSHA256": "f8277d0dda471a7a9606bdab7a32fe6e8b666b3678e79b732bee2e29c0ad018d",
+      "reparse": "PASS"
+    },
+    {
+      "id": 632,
+      "primaryHTMLSHA256": "8e00f463e7cd3bf28692b4d53598dba35e9a9bdbddaf6ccd8a09ac4df289506d",
+      "secondaryHTMLSHA256": "d1164d5858ac57c9370e50c0d7eea3eda115377b7714a09640b75310c8ec8dfd",
+      "reparse": "PASS"
+    },
+    {
+      "id": 633,
+      "primaryHTMLSHA256": "a5a58af7e8a2cb39d101293dcc416b78b923b893531dede92afd1ac89b23a0f7",
+      "secondaryHTMLSHA256": "8d7285fc2ff1ccc1f4a55d506ecef106b8d980047d99a7cd956c6a3376755755",
+      "reparse": "PASS"
+    },
+    {
+      "id": 634,
+      "primaryHTMLSHA256": "8b4144d30e3168096b925169632a3e3cbddb1b552f167f516adc15105b59004b",
+      "secondaryHTMLSHA256": "7202b8d5c4b60bbbe03d8c111d062260c424ebbf17a41ea97fbd032cec7d1b5b",
+      "reparse": "PASS"
+    },
+    {
+      "id": 647,
+      "primaryHTMLSHA256": "e670ceb68b0064d87a322ee1ae146e1c6fd7d94ac9fe7967c0b7fa76a5d879a1",
+      "secondaryHTMLSHA256": "1202ca3701d967156a09aab2cb076f34c0c17cacbe06acd467b8a3f9e3b9f896",
+      "reparse": "PASS"
+    },
+    {
+      "id": 87318,
+      "primaryHTMLSHA256": "a1cf998d81be400a01db2c75482191636f6f7164dc721cea159a55dbc181bbf4",
+      "secondaryHTMLSHA256": "ab99a23fc70f22c38eba4cb7bd56d686107f0ccde257c5f2b84bed55048fe39d",
+      "reparse": "PASS"
+    },
+    {
+      "id": 88756,
+      "primaryHTMLSHA256": "429a9efcef6ce7bac206d8ef9ddf596d3addd63b8af01610442d2dea225b20b2",
+      "secondaryHTMLSHA256": "b970c6b4370017519750637ae4723d6da43b2a62c0ebcfe7d559127c2ecde54d",
+      "reparse": "PASS"
+    },
+    {
+      "id": 88757,
+      "primaryHTMLSHA256": "1ef8dac5688a38da1551a68ae4a4f3a00b9a85dadcb23a6c816ea70b77df371e",
+      "secondaryHTMLSHA256": "d282e36732db0b98f8f5223a3fcd94e633cc44e6e8bb163ca50aadc5a547fd4b",
+      "reparse": "PASS"
+    },
+    {
+      "id": 88758,
+      "primaryHTMLSHA256": "27608c86b2e82e1d1e9224cc429a573acf6a49b0163c7459a3dc14d65e4d8882",
+      "secondaryHTMLSHA256": "db42d7d87d7d2cfc6ca644884875694bccef57c89f59d328d0fc8d4b91fcce29",
+      "reparse": "PASS"
+    },
+    {
+      "id": 544,
+      "primaryHTMLSHA256": "0cfa0614b73ce504f4ed7be6faa791f1fe79c365ff2ffbd0048766e76fba5a83",
+      "secondaryHTMLSHA256": "533196ed0882c138dd55f0128da7b535817f4b2ad89b7efb1c958beb7f4f8138",
+      "reparse": "PASS"
+    },
+    {
+      "id": 545,
+      "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+      "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+      "reparse": "PASS"
+    },
+    {
+      "id": 547,
+      "primaryHTMLSHA256": "d0f61701ecc7d2ae9c91f1023baa4ccb3b451df6efe810325b7820948ca0c508",
+      "secondaryHTMLSHA256": "ad492a1288f5a8f165525225e191c2812b3ab0c6554db187210f5f174784ed76",
+      "reparse": "PASS"
+    },
+    {
+      "id": 552,
+      "primaryHTMLSHA256": "9d7b3e532a7b1668331775a164e2e175df87c11e4583f5c6620c14e083a3fb78",
+      "secondaryHTMLSHA256": "98f3b87d798b563e86ee9b11ba94557d90676bd0dce44e0693886e9df08dfc83",
+      "reparse": "PASS"
+    },
+    {
+      "id": 553,
+      "primaryHTMLSHA256": "b3918e1d492b18f5dfae682149c1abd6fccd8b0185e6fe5b5c0b552d9d921e70",
+      "secondaryHTMLSHA256": "2fee1962dbdf0543ffcdacc53d36692ceaf86ef22c243b6af758312b42d7b997",
+      "reparse": "PASS"
+    },
+    {
+      "id": 555,
+      "primaryHTMLSHA256": "3015d1e62aa4797470e7a2d3db1064514ae2667213b9dc681b2be29dbf20bd64",
+      "secondaryHTMLSHA256": "6ed5417ac67f9fb665d0d41054b29930b283846d8d319dd5a694113657012c65",
+      "reparse": "PASS"
+    },
+    {
+      "id": 556,
+      "primaryHTMLSHA256": "7c73dd5cb4b012f2b1720090055a39359ec7355007d0750e2913c3da5ac5456b",
+      "secondaryHTMLSHA256": "04cca6e9a8f8dde4b19d2765e6d1c6ad57839658ae4c94252026b4645db09404",
+      "reparse": "PASS"
+    },
+    {
+      "id": 557,
+      "primaryHTMLSHA256": "88b156afc117b2370de05bc59493f8cb247aacbc6a222bd833ace8b2c3a8fc38",
+      "secondaryHTMLSHA256": "e4aca65eab48c9cd1de118ad0fb64866fef36d1171eb17432faf514703bc6b43",
+      "reparse": "PASS"
+    },
+    {
+      "id": 7321,
+      "primaryHTMLSHA256": "38fcf83800bbc609017df1d492d6e24376b7f6bc430b16d58acdf5491f0ee28e",
+      "secondaryHTMLSHA256": "a79f03058cd149f640eb432194a21cbc6663de3a560a0b89db1a87c984326672",
+      "reparse": "PASS"
+    },
+    {
+      "id": 93680,
+      "primaryHTMLSHA256": "c37be85cfcf61fcbac895fb141c18663aae12267d1dfd7d81185abb9aa96646f",
+      "secondaryHTMLSHA256": "85ea6cbbc548585da04e987d94d644edd682a2657e8fcf4097393995be28d2ee",
+      "reparse": "PASS"
+    }
+  ],
+  "all97DeepLChainsAccountedExactlyOnce": 97,
+  "rawBatchFiles": [
+    {
+      "request": "deepl-g1-b1-request.json",
+      "requestSHA256": "9d25a5e3f35864deed66c377c8d26b54089ade8205661a8edd5c750c615fcc15",
+      "responseSHA256": "f5f062659ae17976860f1a14aa37d419a80abe545710f528ba4120ada29b26c2",
+      "indexSHA256": "215ddde424a410463da9f4c46e4d6883d6d77b09eb4a1687f1e9a1f3e3f69e64",
+      "textCount": 26,
+      "structuredAndTextResponseCopiesEqual": true
+    },
+    {
+      "request": "deepl-g1-b2-request.json",
+      "requestSHA256": "9ca92987e193f3d1a4c3c6a77b8082558886172e1d25e697cc37308efb9a74d7",
+      "responseSHA256": "b4b3a71dcf0256674631dc202f4391722049d222bf5030af56375011d7649ba6",
+      "indexSHA256": "52ed51ddf3daa9443791dbe81938e492f9c1d5c66007ce31d74f739f285e4495",
+      "textCount": 21,
+      "structuredAndTextResponseCopiesEqual": true
+    },
+    {
+      "request": "deepl-g2-b1-request.json",
+      "requestSHA256": "f204ffe995547b983d629e0307a395494f2bcfc3cb833d96f4206a518c7713dc",
+      "responseSHA256": "6dd3f709435220c1a46c651b1cb3b49a24e06a9de7e5e79efde3e5462013f1a7",
+      "indexSHA256": "aeabf6ae10a25b46500458c64e851d39edd6b7eb3eba750e691f7ec95dfed06a",
+      "textCount": 26,
+      "structuredAndTextResponseCopiesEqual": true
+    },
+    {
+      "request": "deepl-g2-b2-request.json",
+      "requestSHA256": "347f4e35a2138946e0236ce46362a1e0f3c84fba2c57afa842eff9714af77b9b",
+      "responseSHA256": "43c71ffbad6a5d4285143ba07bff7363dbef117270bb95770c2196344e2b4ba3",
+      "indexSHA256": "cdc5b135a7cd8d7a994b3f7bc6beddde84b57a5931cdd9c7917f01636976ebbc",
+      "textCount": 24,
+      "structuredAndTextResponseCopiesEqual": true
+    }
+  ],
+  "candidateLint": "PASS",
+  "candidateValidateFields": "PASS",
+  "paragraphMarkerCanonicalHashChecks": "PASS",
+  "exactScopedRootVerifier": {
+    "result": "PASS",
+    "scriptSHA256": "43d63deba05c46ac25ed6a6626a722b4e9f62d901ba62af6a383d0c3920cdf22",
+    "arguments": [
+      "northern_routes"
+    ],
+    "onlySuppressedFinalSharedWrite": [
+      "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\morning-2026-11-26\\raw-source-proof-audit-northern_routes.json"
+    ],
+    "logicUnmodified": true,
+    "stdout": "{\"result\": \"PASS\", \"checkedAtUTC\": \"2026-11-25T21:13:02.332539+00:00\", \"sourcedFields\": 97, \"enabledFields\": 97}\n"
+  },
+  "writeScope": "Fail-closed audit hook and output helper restrict all writes to the two owned correction report/receipt files.",
+  "nativeMyanmarProofreading": "pending",
+  "nativePronunciationReview": "pending",
+  "currentLiveForeverVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}

@@ -1,0 +1,57 @@
+{
+  "partition": "early_mage_routes",
+  "targetVersion": "1.2.24",
+  "questCount": 11,
+  "sourcedFields": 41,
+  "enabledFields": 41,
+  "unavailableSlots": 14,
+  "formalHolds": 0,
+  "reviewGroups": [
+    [
+      78132,
+      78133,
+      78134,
+      1939,
+      1938
+    ],
+    [
+      1940,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946
+    ]
+  ],
+  "routes": [
+    "Alonso Dragonslayer item turn-ins3, required15/level25, Both",
+    "Alliance Mage26: Andromath→Ur Treatise→Pristine Spider Silk→Astral Knot4",
+    "Horde Mage26: Deino→Xavian water→Laughing Sisters→Nether-lace4"
+  ],
+  "sourceCaveats": [
+    "All11 fresh primary fetches succeeded. Alonso secondary404, no fallback invented.",
+    "1942/1946 reward-only fields. No detail/objective/progress invented.",
+    "1946 primary <class> vs secondary mage retained source-exact.",
+    "Primary Mage race masks differ older installed masks; exact raw own records retained.",
+    "1944 UA little-trouble nuance differs; current English controls."
+  ],
+  "EnglishSourceReview": "completed",
+  "authorSeparateEnglishMyanmarReview": "completed",
+  "independentAssistedReview": "pending",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending native review",
+  "currentLiveForeverVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "deepL": "41 authentic MY outputs in2calls, source autodetect, context ignored on Free, local5009terms applied editorially",
+  "noSharedProductGitStateMutation": true,
+  "actualValidation": {
+    "linguisticLint": "PASS",
+    "validateFields": "PASS",
+    "currentPrimarySourceReparse": "PASS",
+    "genuineDeepLRawChain": "PASS41fields2calls",
+    "ownedMeaningContracts": "PASS49negativecontrolsrejected",
+    "exactScopedRootWorkerVerifier": "PASS",
+    "exactVerifierReceipt": "exact-worker-verification.json"
+  },
+  "authorStatus": "frozen complete for fresh independent review"
+}

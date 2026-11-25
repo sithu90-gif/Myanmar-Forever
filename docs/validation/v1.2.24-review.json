@@ -1,0 +1,127 @@
+{
+  "version": "1.2.24",
+  "result": "PASS",
+  "kind": "scheduled_morning",
+  "localDate": "2026-11-26",
+  "newQuestIDs": 50,
+  "newQuestFields": 221,
+  "newEnabledFieldsTotal": 221,
+  "newAvailableSourceFields": 223,
+  "newSourceAbsentFields": 27,
+  "newHeldFields": [
+    {
+      "id": 1431,
+      "field": "complete",
+      "reason": "Primary literal Putanni conflicts with secondary <name> address; no sanitized current live evidence resolves runtime name. Entire completion held; no invented normalization.",
+      "sourceEnglish": "Putanni, noble <class>. I am Keldran, student of magic... and other mystical arts.\n\nThe business Craven sent you here to speak to me about requires a touch more subtlety than you've previously needed, but that does not mean you can not still aid our cause.\n\nPlease, make yourself comfortable, and I shall tell you why the Warchief has need of my aid... and yours.\n\nIt starts with appearances, <name>. How the Horde sees itself. How our allies see us. And most importantly, how our enemies see us.",
+      "rawDeepLProposal": "Putanni၊ ဂုဏ်ထူးဆောင် <class>။ ကျွန်ုပ်သည် မေဂျစ်နှင့် အခြား လျှို့ဝှက်ပညာများ၏ ကျောင်းသား Keldran ဖြစ်ပါသည်။\n\nCraven က သင့်အား ကျွန်ုပ်နှင့် ဆွေးနွေးရန် ဤနေရာသို့ ပို့ခဲ့သည့် ကိစ္စသည် ယခင်ကလို မဟုတ်ဘဲ ပိုမို သတိနှင့် ကျွမ်းကျင်မှုလိုအပ်သော်လည်း၊ သင်သည် ကျွန်ုပ်တို့၏ ရည်မှန်းချက်အတွက် ဆက်လက်ကူညီနိုင်ပါသည်။\n\nကျေးဇူးပြု၍ သက်သောင့်သက်သာ ထိုင်ပါ၊ ထို့နောက် စစ်ခေါင်းဆောင်ကြီးသည် ကျွန်ုပ်၏ အကူအညီနှင့် သင့်အကူအညီကို ဘာကြောင့် လိုအပ်နေသည်ကို ပြောပြပါမည်။\n\nအရာအားလုံးသည် ပထမဦးဆုံး မျက်နှာပြင်ပေါ်မှ စတင်သည်။ Horde များသည် မိမိတို့ကို မည်သို့မြင်ကြသနည်း။ မိတ်ဖက်များက ကျွန်ုပ်တို့ကို မည်သို့မြင်ကြသနည်း။ အရေးကြီးဆုံးမှာ ရန်သူများက ကျွန်ုပ်တို့ကို မည်သို့မြင်ကြသနည်း။",
+      "englishSHA256": "342de953aacc56267945a4115ef8fe0c5327431db790395f861a124a54322666",
+      "editedSHA256": null,
+      "rawDeepLSHA256": "53bde187d987da721c5c951ca1075ab1636d6584d2ec86d9b50a128ef464219c",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "rawDeepLIndexFile": "deepl-g1-1-index.json",
+      "requestIndex": 3,
+      "responseIndex": 3,
+      "responseTargetIndex": 0,
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/desolace_routes.json"
+    },
+    {
+      "id": 1435,
+      "field": "objective",
+      "reason": "Actual primary pre-Description objective icon-list additionally requires Flayed Demon Skin (old2) item6766 quantity1, conflicting with English prose/secondary/UA and installed objectiveitem6435+provided6436. No current live evidence resolves extra old2 requirement. Hold instruction field only.",
+      "sourceEnglish": "Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.",
+      "rawDeepLProposal": "Desolace တွင် မော်ရင် ဘွန်းစပလစ်တာထံ မီးလောင်ကျောက်နှင့် မီးလောင်ကျောက်ထည့်သွင်းထားသော ၁၅ လုံးကို ပြန်ပို့ပါ။",
+      "englishSHA256": "d97b07656fb4a324ccf3adb3d6e82bf0d964c42ba1529cdf658c8e71747634e3",
+      "editedSHA256": null,
+      "rawDeepLSHA256": "93dfaae9f2d3592242a83ff196f93c80f7d40e38d8e9b93bdcf839882c86c3be",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "rawDeepLIndexFile": "deepl-g1-2-index.json",
+      "requestIndex": 1,
+      "responseIndex": 1,
+      "responseTargetIndex": 0,
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/desolace_routes.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 2,
+  "questIDs": 2086,
+  "translatedFields": 9518,
+  "dialogueStates": 5450,
+  "absentOrHeldDialogueStates": 808,
+  "activeHeldUniqueFields": 91,
+  "pythonTests": 26,
+  "luaRegressionGroups": 62,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "additionalIdentityContracts": 1,
+  "reviewedConnectedGroups": 6,
+  "inheritedForgeScopeGuard": "Preserved exact reviewed v1.2.23 exception; no build-tool changes",
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-25T21:15:48.893853+00:00",
+    "catalogVersion": "1.2.24",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 50,
+  "zip": {
+    "name": "MyanmarForever_v1.2.24.zip",
+    "bytes": 1279197,
+    "sha256": "8d526b0a7e6e1605b30146a59156fc518806130fdf76df0b5c89458fa42468fc"
+  },
+  "canonicalMetadataHashAliasRepairs": 1,
+  "inheritedUAUnavailableEnglishStates": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "UA1.1.1 added state, current primary/secondary English unavailable; baseline null preserved. Source/liveness uncertainty recorded separately from formal sourced holds."
+    }
+  ],
+  "unconfirmedUAOnlyStates": [
+    {
+      "id": 97284,
+      "field": "progress",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    }
+  ],
+  "newUnavailableCurrentEnglishStates": 27,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}

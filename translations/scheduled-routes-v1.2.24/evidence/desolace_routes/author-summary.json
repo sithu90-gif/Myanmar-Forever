@@ -1,0 +1,120 @@
+{
+  "partition": "desolace_routes",
+  "version": "1.2.24",
+  "questIDs": [
+    1431,
+    1432,
+    1433,
+    1434,
+    1435,
+    1436,
+    1365,
+    1366,
+    1480,
+    1481,
+    1482,
+    1484,
+    1488,
+    1437,
+    1465,
+    1438,
+    1439,
+    1440,
+    97284
+  ],
+  "questCount": 19,
+  "slotCount": 95,
+  "englishAvailableFields": 85,
+  "enabledFields": 83,
+  "unavailableEnglishFields": 10,
+  "sourceBackedHeldFields": 2,
+  "formalHolds": [
+    [
+      1431,
+      "complete"
+    ],
+    [
+      1435,
+      "objective"
+    ]
+  ],
+  "actualDeepLInputFields": 86,
+  "actualPrimaryDeepLInputFields": 85,
+  "actualAdditionalHeldSourceVariants": 1,
+  "groups": [
+    [
+      1431,
+      1432,
+      1433,
+      1434,
+      1435,
+      1436,
+      1365,
+      1366,
+      1480,
+      1481
+    ],
+    [
+      1482,
+      1484,
+      1488,
+      1437,
+      1465,
+      1438,
+      1439,
+      1440,
+      97284
+    ]
+  ],
+  "coveredRoutes": [
+    "Horde Alliance Relations6 inclBefouledbySatyr/BurningofSpirits",
+    "Horde KhanDezhepah/CentaurBounty2",
+    "Horde Corrupter5 distinctstages",
+    "Alliance VahlarrielSearch/Tyranis/escort6 inclForeverVengeancebranch"
+  ],
+  "sourceReview": "Exact own-ID primary g_quests, all ownGathererrecords, freshinstalled metadata chain/level/race, UA variants, individual five fields and objective tables independently inspected. All19 primary andsecondary sources fetched withouttransporterrors through exactrepo fetcher in ≤3-IDchunks.",
+  "assistedEnglishMyanmarReview": "Complete; distinct full English/finalMyanmar rereads for10+9connectedgroups, followed by affected3field reread after sibling/ownpower refinements.",
+  "independentAssistedReview": "pending fresh reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationReview": "pending native review",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "glossary": "5009maintained localterms applied editorially; newphoneticsproposals pendingnative. Freecloudglossary unavailable/pro_required asrootverified; contextpassedbutignoredbyFree. No cloudcustomizationchanges.",
+  "sourceCaveats": [
+    "1431.complete primarypublicliteralPutanni versussecondary<name>;bothgenuineDeepLproposals preserved,fieldheld.",
+    "1435.objective realextraold2requireditemrowcontradictsprose/installed/UA;fieldheld,unaffectedgemstatesenabled.",
+    "1484currentlevel33 versusinstalled35;1488currentrequired26 versusinstalled25.",
+    "1433/1434currentcategory405 versusinstalled1637;IDs/names/factionagree.",
+    "VahlarrielprimaryAlliance versusUABoth except97284Alliance;exactcurrent/installedfactsretained separately.",
+    "97284 UAProgressnoavailableEnglishsource;nullunavailable,notformalEnglishbackedhold.",
+    "1439completionUAincorrectpositive sinceritynegation correctedfromEnglish;1440notbothreturnedclarifiedconsistentwithDalindasafe."
+  ],
+  "checks": [
+    "Exactrootverify_workers.py scopedexecution PASS",
+    "Actual linguistic_lint.lint PASS",
+    "Actual build_release.validate_fields all19 PASS",
+    "Primarysource reparsed all95slots equality PASS",
+    "Paragraph/markers/quantities source/edited PASS forenabledfields",
+    "19identitycontracts/2numeric/25actions/3ordered/3directions/2holds plus19meaningfulbadcontrols PASS"
+  ],
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "metadataPins": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  }
+}

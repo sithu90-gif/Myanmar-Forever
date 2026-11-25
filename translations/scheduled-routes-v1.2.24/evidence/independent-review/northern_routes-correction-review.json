@@ -1,0 +1,333 @@
+{
+  "result": "PASS",
+  "partition": "northern_routes",
+  "reviewKind": "Independent correction/conservation review after root-approved documentary fixes; not another linguistic pass.",
+  "questIDs": 20,
+  "fieldSlots": 100,
+  "availableFields": 97,
+  "enabledFields": 97,
+  "unavailableSlots": 3,
+  "formalHolds": 0,
+  "textSlotsConserved": 100,
+  "textFieldChanges": 0,
+  "documentaryLeafCorrectionsVerified": 9,
+  "documentaryFilesVerified": 4,
+  "initialReviewSHA256": "ae0e8f29f8d8c5b1b0c6413f778664e62e3e64d3fc5b3a4995ba5fc7be7d9ce8",
+  "initialReviewDisposition": "The only CHANGES_REQUIRED findings were the nine quest545 documentary leaves; all are now applied exactly to derived copies. No Myanmar changes were requested or applied.",
+  "candidateHashesBefore": {
+    "edited.json": "8a14134d6be9b2cc869d3241e11234b5cd015e288c1439c90af6562b0ba823c6",
+    "pronunciations.json": "a44dc30c23fc6ecdcf2cb2863301c16a0b821d90e6ff9393120798ccf6906d75",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "5fbde3205ca6660f40a75696dfcf836e42a8f402042cb212f46dbaa9f277b47a"
+  },
+  "candidateHashesAfter": {
+    "edited.json": "8a14134d6be9b2cc869d3241e11234b5cd015e288c1439c90af6562b0ba823c6",
+    "pronunciations.json": "a44dc30c23fc6ecdcf2cb2863301c16a0b821d90e6ff9393120798ccf6906d75",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "accepted-corrections.json": "5fbde3205ca6660f40a75696dfcf836e42a8f402042cb212f46dbaa9f277b47a"
+  },
+  "correctedDocumentaryFileHashes": {
+    "author-summary.json": "513d29ab984f8f3b4a53f5eca9cd4b35a3bfe435da99e9a678bdf599cddde7dd",
+    "review-audit.json": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+    "semantic-notes.json": "93c73b17645873a4535a922c28df042d9e8b3ebff5e713e50ca116e6ebe0b53e",
+    "source-sanity.json": "9cfcdb8ee7064c9d155071e12344cb3123b1bea1b3bbd9fcc81b96515be666b6"
+  },
+  "documentaryOriginalGuards": [
+    {
+      "file": "author-summary.json",
+      "authorFileSHA256": "403aee631400516b651029c5fbaec9d0a31cff7490bc23530ff6fb93eb512b6b",
+      "correctedFileSHA256": "513d29ab984f8f3b4a53f5eca9cd4b35a3bfe435da99e9a678bdf599cddde7dd",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "author-summary.json",
+          "authorFileSHA256": "403aee631400516b651029c5fbaec9d0a31cff7490bc23530ff6fb93eb512b6b",
+          "jsonPath": [
+            "sourceCaveats",
+            1
+          ],
+          "oldValue": "Primary current545 objective6Summoners/8Slaves and vanished barrier narrative; installed/UA/secondary12Slaves and old narrative explicitly conserved in evidence.",
+          "newValue": "Current545 primary and60.tools main objective/list agree on6Summoners/8Slaves and vanished-barrier Description. Installed/UA keep12Slaves; UA keeps old dome narrative. Secondary embedded map/guide legend still says12, recorded separately. No translated-field conflict; current live confirmation pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/author-summary.json"
+    },
+    {
+      "file": "review-audit.json",
+      "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+      "correctedFileSHA256": "d964b8901339ac8bff351621184d82f288b4773f1fbf8a4cbf18a20b355b0b4a",
+      "correctionCount": 6,
+      "guardedChanges": [
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "sourceReviewNotes"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "title",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "detail",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "objective",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "progress",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        },
+        {
+          "file": "review-audit.json",
+          "authorFileSHA256": "520cd726997e3937fb3413827ef95e1b96bc97be1624c46a692454a978b4b28a",
+          "jsonPath": [
+            11,
+            "fields",
+            "complete",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/review-audit.json"
+    },
+    {
+      "file": "semantic-notes.json",
+      "authorFileSHA256": "c5b6ca08fff216b49a32bc407df4301572580ca4f9dc2a68f739e998cf873eff",
+      "correctedFileSHA256": "93c73b17645873a4535a922c28df042d9e8b3ebff5e713e50ca116e6ebe0b53e",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "semantic-notes.json",
+          "authorFileSHA256": "c5b6ca08fff216b49a32bc407df4301572580ca4f9dc2a68f739e998cf873eff",
+          "jsonPath": [
+            "545",
+            "decision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/semantic-notes.json"
+    },
+    {
+      "file": "source-sanity.json",
+      "authorFileSHA256": "554175faec4a319f891d13386d99cf3b0016608ded056218bc6d73d55e464d29",
+      "correctedFileSHA256": "9cfcdb8ee7064c9d155071e12344cb3123b1bea1b3bbd9fcc81b96515be666b6",
+      "correctionCount": 1,
+      "guardedChanges": [
+        {
+          "file": "source-sanity.json",
+          "authorFileSHA256": "554175faec4a319f891d13386d99cf3b0016608ded056218bc6d73d55e464d29",
+          "jsonPath": [
+            "545",
+            "sourceDecision"
+          ],
+          "oldValue": "Primary explicit envChange announces8 instead12; objective prose AND exact table6/8 agree. Installed summary and UA/secondary use12 plus older intact-dome narrative. Current primary controls both fields; difference resolved by own-ID change evidence, current live confirmation pending.",
+          "newValue": "Current primary envChange explicitly announces 8 instead of 12, and primary objective/table agree on 6 Dalaran Summoners/8 Elemental Slaves. The frozen 60.tools main objective, objective list and Description independently agree with current primary. Installed QuestieDB summary and UA retain 12 slaves; UA also retains the older intact-dome narrative. The 60.tools embedded map/guide legend retains the old 12-slave text. Current primary controls the translated fields; current live confirmation remains pending.",
+          "sourceEvidence": {
+            "primaryHTMLFile": "545-wowhead.html",
+            "primaryHTMLSHA256": "c5989e65af51810ed90efd3e16fba3c0d9b6b78788fae70748c9c79c604e2614",
+            "secondaryHTMLFile": "545-sixty.html",
+            "secondaryHTMLSHA256": "8aa9c26afb65c06f68a7595d7b8a9f62d668170d530c84660c1336507864f79b",
+            "objectiveEnglishSHA256": "fa3871745570719b92625463c20d09c6eeff53033ab350c816ea6feb367ca59d",
+            "detailEnglishSHA256": "a075aab2fca15ba603a39bb44d6f0245293f69c71c4ebf815b4e905799921693",
+            "actualSecondaryMainObjective": "Kill 6 Dalaran Summoners and 8 Elemental Slaves, then return to Magus Voidglare in Tarren Mill.",
+            "actualSecondaryDescriptionEqualsPrimary": true,
+            "staleSecondaryBoundary": "Embedded map pin title and quest-map-legend only still say12."
+          },
+          "reason": "The frozen actual secondary main fields agree with current primary; the old note incorrectly describes the whole secondary as12-slave/intact-dome evidence. Preserve the real older map-label caveat separately; no Myanmar change required."
+        }
+      ],
+      "noAdditionalChanges": true,
+      "plannedOriginalPublicArchive": "evidence/candidate-history/author-original/northern_routes/source-sanity.json"
+    }
+  ],
+  "checks": {
+    "all100TextSlotsByteAndValueConserved": true,
+    "all97RawSourceChainsRevalidated": true,
+    "all40PrimarySecondaryHTMLReparsed": true,
+    "paragraphsMarkersCanonicalHashes": "PASS",
+    "candidateLinguisticLint": "PASS",
+    "candidateValidateFields": "PASS",
+    "exactScopedWorkerVerifier": "PASS; exact validation logic ran with only final shared report write suppressed once.",
+    "frozenBefore": {
+      "result": "PASS",
+      "manifestSHA256": "0905dc5d51bc4d653e31cea59f85dbb60788b43ff815915764720f7f807ada79",
+      "filesChecked": 131,
+      "mismatches": []
+    },
+    "frozenAfter": {
+      "result": "PASS",
+      "manifestSHA256": "0905dc5d51bc4d653e31cea59f85dbb60788b43ff815915764720f7f807ada79",
+      "filesChecked": 131,
+      "mismatches": []
+    },
+    "receipt": "northern_routes-review-correction-receipt.json",
+    "receiptSHA256": "70d126d99ca1feaff031d01e5b615ae07937af062d7dd906abdb8df2a86af56b",
+    "script": "northern_routes-review-correction-checks.py",
+    "scriptSHA256": "29b74077af411f54586813892466d3042e97c7ce0fe1fce5bd42991002cf5584"
+  },
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "sourceDisposition545": "Frozen primary and60.tools main objective/list agree on6Summoners/8Slaves and vanished-barrier Description. Installed/UA retain12Slaves, UA retains older dome narrative;60.tools embedded map/guide legend still says12. Corrected derived evidence states these boundaries separately.",
+  "authorOriginalArchiveStatus": "Root plans physical public archival under evidence/candidate-history/author-original/northern_routes at integration; this review verifies originals remain unchanged in source work, not that integration has occurred.",
+  "pending": {
+    "nativeMyanmarProofreading": "pending",
+    "newPronunciationApproval": "pending native review",
+    "currentLiveForeverVerification": "not tested",
+    "controllerHardwareVerification": "not tested"
+  },
+  "authorCandidateProductStateGitMutated": false,
+  "ownedReportWritesOnly": true
+}

@@ -1,0 +1,23 @@
+{
+  "id": 1435,
+  "field": "objective",
+  "sourceURL": "https://www.wowhead.com/forever/quest%3D1435/the-burning-of-spirits",
+  "sourceHTMLSHA256": "d14130e20a08086e328744844d3c0ddadf3d427908d92daca7e4f0f3128e6bf1",
+  "exactHeaderThroughObjectiveTableHTML": "<h1 class=\"heading-size-1\">The Burning of Spirits</h1>Return the <a href=\"/forever/item=6436/burning-gem\">Burning Gem</a> and 15 <a href=\"/forever/item=6435/infused-burning-gem\">Infused Burning Gems</a> to <a href=\"/forever/npc=4498/maurin-bonesplitter\">Maurin Bonesplitter</a> in <a href=\"/forever/zone=405/desolace\">Desolace</a>.<table class=\"icon-list\">\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon1\"></th><td><a href=\"/forever/item=6436/burning-gem\" class=\"q1\">Burning Gem</a> (Provided)<span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"15\"><th align=\"right\" id=\"icon-list-icon2\"></th><td><a href=\"/forever/item=6435/infused-burning-gem\" class=\"q1\">Infused Burning Gem</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"15\">&nbsp;(<span class=\"icon-list-quantity\">15</span>)</span></td></tr>\n<tr data-icon-list-quantity=\"1\"><th align=\"right\" id=\"icon-list-icon3\"></th><td><a href=\"/forever/item=6766/flayed-demon-skin-old2\" class=\"q1\">Flayed Demon Skin (old2)</a><span class=\"icon-list-quantity-wrapper\" data-icon-list-quantity=\"1\">&nbsp;(<span class=\"icon-list-quantity\">1</span>)</span></td></tr>\n</table>",
+  "primaryEnglishProse": "Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.",
+  "secondaryEnglishProse": "Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.",
+  "installedObjectiveItems": [
+    [
+      6435,
+      null,
+      0
+    ]
+  ],
+  "installedProvidedItem": 6436,
+  "extraActualCurrentObjectiveTableItem": {
+    "id": 6766,
+    "label": "Flayed Demon Skin (old2)",
+    "quantity": 1
+  },
+  "decision": "Hold objective only pending sanitized currentlive clarification. Actual pre-Description table, not reward. Explicit old2 label alone cannot authorize dropping current table requirement."
+}

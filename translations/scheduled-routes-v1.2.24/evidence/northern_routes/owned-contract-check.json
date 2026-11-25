@@ -1,0 +1,508 @@
+{
+  "result": "PASS",
+  "identityContracts": 20,
+  "numericBindings": 11,
+  "writtenContracts": 2,
+  "actionContracts": 25,
+  "orderedContracts": 10,
+  "directionBindings": 14,
+  "negativeControls": [
+    {
+      "case": "Wrong source target 647",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 631",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 632",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 633",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 634",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 87318",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 88757",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 88758",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 88756",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 505",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 547",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 552",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 553",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 555",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 7321",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 556",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 557",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 544",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 93680",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source target 545",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 647",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 88756",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 505",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 553",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 555",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 7321",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 556",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 557",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 545",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 544.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 553.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 647.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 631.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 632.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 633.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 634.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 87318.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 87318.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 88757.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 88757.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 88758.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 88756.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 88756.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 505.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 505.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 547.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 552.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 555.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 7321.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 7321.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 556.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 557.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 544.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 93680.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 545.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source condition/action 545.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 632",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 633",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 87318",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 88757",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 88758",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 88756",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 552",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 553",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 544",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 545",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 631 အရှေ့ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 633 တစ်ဖက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 633 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 634 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 87318 အောက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 88756 အရှေ့ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 505 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 553 အပေါ်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 553 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 553 တောင်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 555 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 555 ကျော်ပြီး",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 555 မြောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 556 အနောက်ဘက်",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap unequal target counts preserving multiset 505",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap unequal target counts preserving multiset 545",
+      "result": "rejected"
+    },
+    {
+      "case": "Alliance Turtle Bisque wrong Horde recipient",
+      "result": "rejected"
+    },
+    {
+      "case": "Horde Turtle Bisque wrong Alliance recipient",
+      "result": "rejected"
+    },
+    {
+      "case": "Current Dalaran reverted stale twelve slaves",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 631.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 634.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 87318.progress",
+      "result": "rejected"
+    }
+  ],
+  "negativeCount": 88,
+  "guardedFinalFieldHashes": {
+    "505": {
+      "title": "b4d229e0a4fd266fe4d581c0e0e23f42003c67ceb54f4f4e94373fda1404c46e",
+      "detail": "f2b2cffee230f3393c48800c6983a43659c0e6d3b8a88366922a5c67dac91be6",
+      "objective": "8cc7f2fddb4d28ddb1804db87eab268f72af80e5fba3476785ba70ffe50ff991",
+      "progress": "65e5f66d943f72a0ab3fbaae3ecd3a901d54d8e683f7611b3e6cb04fe7410d8a",
+      "complete": "0bb2a511bc5e8f81766b073957156a2c96c84e2367fb39569c984db8769ac735"
+    },
+    "631": {
+      "title": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "detail": "94b0cd1145f7d5edd10cba2c4e22969f4947825ee8f0b6b491ef0f7a0b55a836",
+      "objective": "4a5cbb07d2a573260612b71dad07e9e95238798a5a7ec915910c5d2df0c8dccc",
+      "progress": null,
+      "complete": "d84bc13a2bb2a3174d2b6461b18f2d6292341d6a2efd9085de8ea86e6c3798c4"
+    },
+    "632": {
+      "title": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "detail": "584e562cf6b20af8bf1cef5342ef51f401873c0c86eadd9ab3d15c2e653ea228",
+      "objective": "54b318e8def26df143c24e0e681af3d475906ec28ea9d5210dc405a5b21d31e6",
+      "progress": "55f14d31d1c1a1400fe88537b31f2042803082b5256bcd650217830621f6ba5a",
+      "complete": "cb23c9a0b13f0f383b714c89cde22c7d4e116f83e6112913eb8166cdb2854eb0"
+    },
+    "633": {
+      "title": "e9f90a8389ff05e6ccd1ccf55c405e92af975e5becbd298c2f1a658c3022c3a7",
+      "detail": "f9a36e1fba0b9ed2c343cf1e69036fb182e622743950b80977aa82a8c6bf87aa",
+      "objective": "b6b26ab53031e10bbc7fe5726b7730094e4acd1cff85fdf094c32656726fe3cb",
+      "progress": "6b621188629b2005b95fa03a5057a2b0d33a05773b52378afcf29405fb512e5e",
+      "complete": "6bb33c0d8afa6798d3878915f826503f66651a01e8ceb3b1268e7143679841ed"
+    },
+    "634": {
+      "title": "87bbb94edaab93a3fac38a896be5d169d6c2588ed966e266e8c9924275224727",
+      "detail": "10f3df6b036cee84434b29bf89ecd8deb95a738928f5009e3ca9b29c5546e29d",
+      "objective": "9095c56b304e6e2498f05f54df5a79d11ca26ecb7b55d58e5c84366a955818ed",
+      "progress": null,
+      "complete": "7b078878a0074a66818d1c7cc82dd4573c18c9eff59f44c80d98b7332e5f533e"
+    },
+    "647": {
+      "title": "30a07a40fd072aba73f349508ee001371e8302646e55d7cf8fc5b89a7db69289",
+      "detail": "6986b6d27b542d489df0c0201d82032857414f45b64690f3c8a0cc45130187a6",
+      "objective": "2395fc7a8727e0c502dfaec0e262795d31c79e23e16395cfa515fbe123312d0e",
+      "progress": "e0f7844c8ff7ec3926c87d82e06954d54aec7defec91a985fa71affbe7d734a8",
+      "complete": "3d9dfca04f2cc635d70699278ef1ec1b25fbea93d2691729b96a4397e6a4a10b"
+    },
+    "87318": {
+      "title": "1c56b867d26ee86f66ed86d5cc5615baa5d99e4f99ccc5f8143e9cf1f74f99c2",
+      "detail": "9cac6559797bc85ddd370b3545d97943a5714fff0e60bf0f15407709ac5462e3",
+      "objective": "77bbc58969260c0d8f14e30d85f54f8bf4aa9ab84c4c0428398faca6469dfd96",
+      "progress": null,
+      "complete": "0c21d693acc5c3061f77856fd33e691f6e90ef32c5ffa833efd52aa6520d2540"
+    },
+    "88756": {
+      "title": "5391ebf4657f123151e2c876f590c0524f7644c9ca59c390f05db949d7427af0",
+      "detail": "b29e02aa53a26f87a62cebdc4dac145ede1c94248dbbefd1fb179e2f750f3a37",
+      "objective": "f2459d6b01c955a85dc49d7574b04d2e43e3bc67bd6e6f6a255c1c84d73e2516",
+      "progress": "1db5683ade12150b1ddf5edf56e31a8694254540090c2299cd328658961f3776",
+      "complete": "36147137138fcd4a69063de8c3a7bc48d86fbb0889cd30cc90bd930303a319ad"
+    },
+    "88757": {
+      "title": "b0047827fa320cbafc90c97bb48bdc359dbc2e5fda28313f3210a91421e61054",
+      "detail": "c3176d0ca7642c4f5c0a2584bdd98348291b5fc648e6bb0eafecadcdeac59350",
+      "objective": "8c5a52dd8a65ffb82323a44984c08a90131db196bad3ba43e1996a2cfe86418f",
+      "progress": "f2485499c981336d09e4719d1df79313ad752c1648658e6143fa9984ecb051f3",
+      "complete": "006df33846e1f9193eaa0ab7c49c0dc3b245d8fc1c5acb68b9f1c44c77562f45"
+    },
+    "88758": {
+      "title": "1b13c57b22f25c5083897e0733b6914ccf7e566ae5d51e8bf897090c645d3dbb",
+      "detail": "5667d7bf6c275ed1c36a4e785e99880425510e8888b641023ae0c7bbe36030d5",
+      "objective": "53bce2edf63646cdfd634e8b0a00736a1316093c3b5583bcda875928721929d5",
+      "progress": "f07280169eac248bfcba6618499b7576c67730c50275d3f2d67e7f41228dbade",
+      "complete": "787c2e1734dc9ed16f5e65c04bcd03f236ecba3000c268653f41e382f4a9af86"
+    },
+    "544": {
+      "title": "e5442929072593db3f701bf5f85844e96926f7d50f27376dd21793f92f056ceb",
+      "detail": "62fa4a5aca9ba75f52eed92b1093fbaecbc9987a8cf9930ca82c4bb32ed657ef",
+      "objective": "44d440fba11f5ceae5c0ea921ad617acd43de521fce599fcd028e44773b15ac8",
+      "progress": "3f71c806428880f233bb1ce2f2dafa4f9b0bb689bb8b721bfd817b9ee4b6413f",
+      "complete": "8637c0761dcd2c85cc6dd8442b64fa9c74584b3f2127d873413ab88af4d410c2"
+    },
+    "545": {
+      "title": "09e2a28650185f513d4ecc4b0cacf2c93ece0d35bfe9e651c561b85e4ea8ae1b",
+      "detail": "dc7930617eebf1e633ffd2b9c2696bab9a72e679c32cb8977696f20a4ac1f1fd",
+      "objective": "d256eca18a795f13da37cd51550600920e7bc473841bd66967714fd68f52137e",
+      "progress": "70949c483639f7f55fd116b1db6731555ba760065905cff4898d7ea084c309df",
+      "complete": "38861e4a1bf084af36e45ddbaace29b27e5c49cd66761cf2f8d45eda3ec49613"
+    },
+    "547": {
+      "title": "0b46c31c84a11f31508cea6b5f6986d9f4ce2af754bb794af7f44a9671f3835c",
+      "detail": "5a8b05a30cb24e6a4a1e12702be8000053650e2002e3156375b02b253ff1fcee",
+      "objective": "13898e6e65ae057aeee6892f3249e7329b650ba11322ab8083c57787acf4d8bc",
+      "progress": "d5f4540634a0a0fa02217903e2947455ee947ce927e52ce6f04ab5fd33ec8c24",
+      "complete": "9fabe716db0c231e8a7bb9a2a733cb9e13d870388eecb42f8643e8b05a5644df"
+    },
+    "552": {
+      "title": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "detail": "4dff14c9bed6ccdb2d582113c988d168a0212f522c2821c35316c333219ff283",
+      "objective": "ba453f3ba04507836c2bfe439f5400665ad2ab46fa0045a82148fab1fc6cdcfb",
+      "progress": "80bd08268bcbbcdbc166a774e46c94895712bfb6d55e903a26d7909daf1a412e",
+      "complete": "2fbc08a88e494a975292ea1d78589345a18cd2d776ecadac0a1c891af2267c8c"
+    },
+    "553": {
+      "title": "f5d591cdfb4946e5518c49f4dc6ef3cd720ccbbf56762267c15a3696d117eddd",
+      "detail": "f85d08c79c56328a3e5b7b1d1b07b5230d3ea7a27dc0d785905de54e0b1aa981",
+      "objective": "8a96a667c548e76f16d9caac2ca01a32fcfd711787af269251df28b5c6c7b123",
+      "progress": "1cbc718c6fdf96d1997af75c39853dec15d37458f2453d721a1dd48f25fb4ae9",
+      "complete": "5c1461fb265df499b4679c84c15a50b90a9fd87495c861ccc1dcd51535897487"
+    },
+    "555": {
+      "title": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "detail": "cd0191e0f3426058d884a8d57ae261ccd2a699a1a3219c25d65d23e56e67d426",
+      "objective": "3ca1c523e53f3de6d7c5b11e08c6871eb185ad2765d433d71fdd6a411c17f1e5",
+      "progress": "929ee4e418bd3410fbb4ad5b7ad7636929bc3535ed2bee592281e5ab6f4d9d77",
+      "complete": "2ed6d277a820931b11616ee3460c4d5011f2d8caf0b98ea8f6535138ebe6322a"
+    },
+    "556": {
+      "title": "d2257941a39d3a86e2dfe8c9187598ad57b1210ad6ec1a0c4d91d5503b8a0e1f",
+      "detail": "c8893580499a85698c8c86507796abdc383acb058155c1988693174109f4094a",
+      "objective": "56796f1f31579f1459ab49910df2126f96bcebb664ab8301d1d4d389d1aeecfd",
+      "progress": "ff049c67f0d93b7e26d1e9e152e9d222148f1a16facaaa0858a6471c89fd34e3",
+      "complete": "438a59050e1dc80736e49d9d52f5a49e81beffea5a09140579b03fa480e421ed"
+    },
+    "557": {
+      "title": "a111edb997fe6ee892de3b016bf57166501fd40444904a875b2af448e69be94c",
+      "detail": "9fb9be4e10904a9ebe12748a2c1a8aa1ef2e556c8b7a105b23efc76b7c762577",
+      "objective": "1e956f233abf6ef226d59e44f87655f76fa11859e9214a482fb79b3ef435000e",
+      "progress": "17082a3abfeb533645fb3e3593e0be4c38481e1a346f003359099d0bb1b2d4d4",
+      "complete": "6b711a33d23f3da3f96a0888dbbe175f734c8b7a78c66e7476670b8b69a7a22f"
+    },
+    "7321": {
+      "title": "51c6e1c1402f10b3c1e8f34eb346a400ab897d7b84926eb7044453e19a6962d5",
+      "detail": "4909030b6a6071522582421ca1ef260ea43a536431e9c03c3551ffacc7f5fca6",
+      "objective": "e17b595102cd6f133143d6feb93419197cb12fc25a669d5ed20f98db580ec4e7",
+      "progress": "1a818b885b35f628b918689cca6c891d60d1977304035adb3d0e7b45719a1c61",
+      "complete": "ae250ee2de8f54ec7701d1c297de4143485bd1aae374253b799cc0e24f9197ce"
+    },
+    "93680": {
+      "title": "7c0c83344e71f5b04536e780d74bfeed6500d7d80e081c19daf6633ea4cec366",
+      "detail": "536e38862f024d63e03602200436f0f250207602d314aa9a4f1fc3edea1bc82c",
+      "objective": "f2f1a80dcec6c83881b804c0ef23cfec8701de4e423af3ea66a18eed026e02d3",
+      "progress": "9ac64d6e2b3c89a3111ed9bd5f6e1850f9d579cc304cb30b860207f74c06861a",
+      "complete": "db791855bc9e1ded55403b698991e179a90db43cc192b3c50c89ab625581ed4c"
+    }
+  },
+  "checkedAtUTC": "2026-11-25T21:03:11.490087+00:00",
+  "limits": "Source-bound regression supplements separate assisted English/Myanmar reread, no native/live claim."
+}

@@ -1,0 +1,289 @@
+{
+  "result": "PASS",
+  "identityContracts": 11,
+  "numericBindings": 2,
+  "writtenContracts": 1,
+  "actionContracts": 13,
+  "orderedContracts": 2,
+  "directionBindings": 5,
+  "negativeControls": [
+    {
+      "case": "Wrong source identity 78132",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 78133",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 78134",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1939",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1938",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1940",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1942",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1943",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1944",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1945",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source identity 1946",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1940",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1945",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1938.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 78132.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 78133.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 78134.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1938.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1938.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1940.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1942.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1943.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1944.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1944.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1945.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1945.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove source-bound condition/action 1946.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 1938",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap source task stages 1944",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 1939 ထိပ်ဆုံး",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 1944 အရှေ့ပိုင်း",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 1944 အောက်ခြေ",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 1944 အမြင့်ဆုံး",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong source direction 1945 အနီး",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap8silk/12hairs preserving global numeric multiset",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78132.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78132.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78133.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78133.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78134.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 78134.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1939.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1942.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1942.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1942.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1943.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1946.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1946.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Invent unavailable 1946.progress",
+      "result": "rejected"
+    }
+  ],
+  "negativeCount": 49,
+  "guardedFinalFieldHashes": {
+    "78132": {
+      "title": "80d4375bfbfeb6794adbf4b27cbfbe827d8a885c1cf46b4c7cc2afbab1e2fb6e",
+      "detail": null,
+      "objective": null,
+      "progress": "8b2db058ece222900d559f367d0cbb50374737e666a9588c1fc318619511784b",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "78133": {
+      "title": "11ad17b48058234e21cf3024d7c75f78a10929cdee0582131546040b1b7c8a00",
+      "detail": null,
+      "objective": null,
+      "progress": "eaaea2a9426b6da42e0fbf2a4ef0cc7418849f85cc8ed7e3cfbe5274634b59e5",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "78134": {
+      "title": "03ed2f05b0ab8dd242149eeb67481334186c7ff69a9e9345d066d0a3b420f38e",
+      "detail": null,
+      "objective": null,
+      "progress": "4c4e5372ec9c03ff02e5423e14229f020746c832de9de1daa74bf7fbd78091c2",
+      "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+    },
+    "1939": {
+      "title": "bd90badba160529252f69f2633b8718415873216fd6494d064992574643fe903",
+      "detail": "113ec37efd1ae0ce5dafde65817f998c59c45bbc560f9602c42c6c717825e46e",
+      "objective": "c8349b027077e3c415d3a82885b796c80152267bf62f5b11adff983a7ad257b5",
+      "progress": null,
+      "complete": "e49fc8ffaefa68625dba2ac3477b3cabb858d089da18248fe1b17207bf9a03e1"
+    },
+    "1938": {
+      "title": "7866b7ff1583e975ee8de7ce2b6f343c4dbbda55ac576a10d97a9697a128a35b",
+      "detail": "3df286e44c6fb6740dd7b50c73db9b95ab433a9ee0a3acf1ae5726e20707e20a",
+      "objective": "4e607ec75638e76e5cf76d97c5a3d1d5fbc87be6004712e98ede33fac6cdeaf4",
+      "progress": "9d19ed6b6466e92a1c0c2910fa6db10416fedf30db9d828d14eddce0361ca600",
+      "complete": "698f162746ab544ad4ac0cb2c91cece7d292734606193290c329a301dbd106fd"
+    },
+    "1940": {
+      "title": "d1ec7f49d0c3b23a5d3c0f88a9ba9274cdfd94016a9bd8ac0e836422165b662e",
+      "detail": "e9536615fb56382ed7c0ac1b215daaf3cb8b247bc27297b12f47f779417c41d8",
+      "objective": "4853c24e763be211ba0233dd622263b87e89b7727d45415efbc2c2bcde58d0e4",
+      "progress": "a98d8fc50094d417d0d4bc246643a6dd5e759af0235bb004a167644e5be97c7a",
+      "complete": "1f2ff4839688fe1b74a9f1b4e711479c4b769acb4e6f1ce91d0d3c98ce24d364"
+    },
+    "1942": {
+      "title": "b92f5335a03a3cd2d89eedef17527c6a0e4ab90d3b15c7d42dbb693ac30f0a69",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "b374b7c5261eb64045da07b3977c615da8b4d091461ad5bd7f0713f93ff5c9f0"
+    },
+    "1943": {
+      "title": "8c11691e76e4a2fd965521b38906b333f17c14d178524b93eae82aa2c027c238",
+      "detail": "e91809457fb34ad2cc518cd2a3c51e167999badc77fd71f1e2a40446813d3a5e",
+      "objective": "dd7d71f895a0deec5dd4a34fffbd084c0d9c1cf65e42b69d5f6d4fd620cd381b",
+      "progress": null,
+      "complete": "2e4803183679c3d354cc4bc75663f168881474b866718d506cd58428d676189d"
+    },
+    "1944": {
+      "title": "80dcddbcd3c505a68dbca172727ccc66634e419dbeec6787cb0a17cf8ea126ee",
+      "detail": "43fcb0f8deed17ce12b8d2a9ed747cde8333ab5419ba542ca31f6cf79d756102",
+      "objective": "65ca4c41045aa1bdf4fa8b0f605afc829291d5debc8b72a241a738f69df97a4e",
+      "progress": "d9faedfe8c9027879b9bf73fd408fbd6cf855af6b9c53a52e3e919ae1672124e",
+      "complete": "6aaca562a0d128f50da1d1ea991975d24ec1e8c657b36c2ee5d641ea0bbb2283"
+    },
+    "1945": {
+      "title": "b55bd0d7a1effb92d96d5538d38f6d6f9b5bca1271847c91460a4e850c813444",
+      "detail": "d5fc9ce28c3849f67079da41baea9339de96f477d3580ca23c92f4d37f97e823",
+      "objective": "05dde6b2dedc1246faf4a54f8169cd974dc91c597bf6aba8f97e6cda2c91b717",
+      "progress": "3211b48718dbbcd466d9e1b7fdc8f46636ac492f7f95b570def9ddd44a65c7c4",
+      "complete": "b67f8f953244bbae038565765f3523b7d759f1d35c9202400c6b0f0e9e450363"
+    },
+    "1946": {
+      "title": "c09a8a450a30160018cb72d22eb4199ff338fc524a57091c558271925faa5829",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "3f3b428c98735c8f3952b9bfed2d0a4d025ff212c75afcd977f41be069e61695"
+    }
+  },
+  "checkedAtUTC": "2026-11-25T20:53:31.432312+00:00",
+  "limits": "Source-bound regression supplements actual separate author bilingual reread; no native/live claim."
+}

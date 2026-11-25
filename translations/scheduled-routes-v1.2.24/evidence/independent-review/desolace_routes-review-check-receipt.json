@@ -1,0 +1,3273 @@
+{
+  "result": "PASS",
+  "partition": "desolace_routes",
+  "checkedAtUTC": "2026-11-25T21:07:04.033556+00:00",
+  "questIDs": 19,
+  "fieldSlots": 95,
+  "availableFields": 85,
+  "enabledFields": 83,
+  "unavailableFields": 10,
+  "formalHolds": 2,
+  "frozenBefore": {
+    "fileCount": 135,
+    "manifestSHA256": "d1f430be4936cf3d8540a8a025f4bc0f3d8e1c371e9939b6ca3d040060a7029e",
+    "mismatches": []
+  },
+  "frozenAfter": {
+    "fileCount": 135,
+    "manifestSHA256": "d1f430be4936cf3d8540a8a025f4bc0f3d8e1c371e9939b6ca3d040060a7029e",
+    "mismatches": []
+  },
+  "inputSHA256": {
+    "english-sources.json": "ccea5b5b55510216e64ce027d63e86e0eef1259624c021388aad205462842715",
+    "edited.json": "62f29fdf07a73db42c0cccdd2fe10d18cbd039405dcbc913c0c8f42b18c6c634",
+    "review-audit.json": "8548aa0f9c37012c837114392b5064f9187d4c7a156237fca883e5588f252b28",
+    "comparison-provenance.json": "625600dacb667dc8a6f11987b06e1f0355711014825cd50c8430c4c829f065e3",
+    "source-boundaries.json": "8c84eec9b59afec7712ad6a766fac1f5cf5d4ebbec954de49d823ef668c035ff",
+    "source-sanity.json": "0f4be22fc40f0368e003e43c06f6500336a82fe0e2cdc9a18961debc2b67ae74",
+    "semantic-notes.json": "0bce47cdd93cef5a6d054946c555ff5fab1b05fb190e89f21643983e93723520",
+    "identity-contracts.json": "93717d49b267361c8b405eca13c7e74e1be8ac6d2413b446ba5e9c007b04783e",
+    "semantic-contracts.json": "abd26fb3282db4a87544183505391d9013e0c7e081ba5781840f3c1916f5768c",
+    "maintained-identity-screen.json": "53acd237f0a1d512d1b3aed554a2f21151b661d2b215048b45c4512a41434bcd",
+    "pronunciations.json": "9d7c340e4faa550ec25d2fbc7ead341d3367bb7570c70fc0ce52ec1d6c3874e2",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "held-fields.json": "e005a17330c3ef6e2419d7a53a4e8cce1015c9aa8713d34e1deb97114193f1fc",
+    "author-summary.json": "1e9acb9704953032c3228cc60e78cae631beef8870738a440cdb115230b90e8e"
+  },
+  "rootVerifierSHA256": "43d63deba05c46ac25ed6a6626a722b4e9f62d901ba62af6a383d0c3920cdf22",
+  "rootVerifierSuppression": "Only exact final shared report Path.write_text; all validation logic executed by runpy unchanged. Unexpected writes forbidden.",
+  "rootVerifierReport": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-25T21:07:03.916137+00:00",
+    "partitions": {
+      "desolace_routes": {
+        "result": "PASS",
+        "questIDs": 19,
+        "sourcedFields": 85,
+        "enabledFields": 83,
+        "holds": [
+          {
+            "id": 1431,
+            "field": "complete",
+            "reason": "Primary literal Putanni conflicts with secondary <name> address; no sanitized current live evidence resolves runtime name. Entire completion held; no invented normalization.",
+            "sourceEnglish": "Putanni, noble <class>. I am Keldran, student of magic... and other mystical arts.\n\nThe business Craven sent you here to speak to me about requires a touch more subtlety than you've previously needed, but that does not mean you can not still aid our cause.\n\nPlease, make yourself comfortable, and I shall tell you why the Warchief has need of my aid... and yours.\n\nIt starts with appearances, <name>. How the Horde sees itself. How our allies see us. And most importantly, how our enemies see us.",
+            "rawDeepLProposal": "Putanni၊ ဂုဏ်ထူးဆောင် <class>။ ကျွန်ုပ်သည် မေဂျစ်နှင့် အခြား လျှို့ဝှက်ပညာများ၏ ကျောင်းသား Keldran ဖြစ်ပါသည်။\n\nCraven က သင့်အား ကျွန်ုပ်နှင့် ဆွေးနွေးရန် ဤနေရာသို့ ပို့ခဲ့သည့် ကိစ္စသည် ယခင်ကလို မဟုတ်ဘဲ ပိုမို သတိနှင့် ကျွမ်းကျင်မှုလိုအပ်သော်လည်း၊ သင်သည် ကျွန်ုပ်တို့၏ ရည်မှန်းချက်အတွက် ဆက်လက်ကူညီနိုင်ပါသည်။\n\nကျေးဇူးပြု၍ သက်သောင့်သက်သာ ထိုင်ပါ၊ ထို့နောက် စစ်ခေါင်းဆောင်ကြီးသည် ကျွန်ုပ်၏ အကူအညီနှင့် သင့်အကူအညီကို ဘာကြောင့် လိုအပ်နေသည်ကို ပြောပြပါမည်။\n\nအရာအားလုံးသည် ပထမဦးဆုံး မျက်နှာပြင်ပေါ်မှ စတင်သည်။ Horde များသည် မိမိတို့ကို မည်သို့မြင်ကြသနည်း။ မိတ်ဖက်များက ကျွန်ုပ်တို့ကို မည်သို့မြင်ကြသနည်း။ အရေးကြီးဆုံးမှာ ရန်သူများက ကျွန်ုပ်တို့ကို မည်သို့မြင်ကြသနည်း။",
+            "englishSHA256": "342de953aacc56267945a4115ef8fe0c5327431db790395f861a124a54322666",
+            "editedSHA256": null,
+            "rawDeepLSHA256": "53bde187d987da721c5c951ca1075ab1636d6584d2ec86d9b50a128ef464219c",
+            "rawDeepLRequestFile": "deepl-g1-1-request.json",
+            "rawDeepLResponseFile": "deepl-g1-1-response.json",
+            "rawDeepLIndexFile": "deepl-g1-1-index.json",
+            "requestIndex": 3,
+            "responseIndex": 3,
+            "responseTargetIndex": 0
+          },
+          {
+            "id": 1435,
+            "field": "objective",
+            "reason": "Actual primary pre-Description objective icon-list additionally requires Flayed Demon Skin (old2) item6766 quantity1, conflicting with English prose/secondary/UA and installed objectiveitem6435+provided6436. No current live evidence resolves extra old2 requirement. Hold instruction field only.",
+            "sourceEnglish": "Return the Burning Gem and 15 Infused Burning Gems to Maurin Bonesplitter in Desolace.",
+            "rawDeepLProposal": "Desolace တွင် မော်ရင် ဘွန်းစပလစ်တာထံ မီးလောင်ကျောက်နှင့် မီးလောင်ကျောက်ထည့်သွင်းထားသော ၁၅ လုံးကို ပြန်ပို့ပါ။",
+            "englishSHA256": "d97b07656fb4a324ccf3adb3d6e82bf0d964c42ba1529cdf658c8e71747634e3",
+            "editedSHA256": null,
+            "rawDeepLSHA256": "93dfaae9f2d3592242a83ff196f93c80f7d40e38d8e9b93bdcf839882c86c3be",
+            "rawDeepLRequestFile": "deepl-g1-2-request.json",
+            "rawDeepLResponseFile": "deepl-g1-2-response.json",
+            "rawDeepLIndexFile": "deepl-g1-2-index.json",
+            "requestIndex": 1,
+            "responseIndex": 1,
+            "responseTargetIndex": 0
+          }
+        ],
+        "reviewGroups": 2,
+        "additionalActualSourceVariants": 1,
+        "allWorkerJSONSHA256": {
+          "1435-objective-conflict-evidence.json": "c83ed9c93a98dcf3e238bd9a1b61c3ffeb300bee9a8bcfaccaa0d35d3fed9d1f",
+          "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+          "author-summary.json": "1e9acb9704953032c3228cc60e78cae631beef8870738a440cdb115230b90e8e",
+          "comparison-provenance.json": "625600dacb667dc8a6f11987b06e1f0355711014825cd50c8430c4c829f065e3",
+          "deepl-alternate-index.json": "211eed0d5efb587c45d06ab457f99770cb60cb6f55e896f0fb3ade99501eb855",
+          "deepl-alternate-request.json": "70fe54014a4e8ff9e835f51f1c4b589080f913aaf0f33419cc37946cde3841a6",
+          "deepl-alternate-response.json": "802c63c422426b102393334f1913cecb1e067ad559d96c563fb0bbdd1af1a1df",
+          "deepl-g1-1-index.json": "ee91ab00b6b94177dfa73df25d8d0e6a920f5bc1cf793f773c9629b4b7e12e51",
+          "deepl-g1-1-request.json": "2a0acc972a7ac40dee76f2a8e3c386fc5b318a1b0a735a6c27821e332cdc1216",
+          "deepl-g1-1-response.json": "72dc4253fc314f1a6a69728b936474468b74b2d506de873b058b62c322a8e588",
+          "deepl-g1-2-index.json": "610c2e640735c1fc998d70cb63af33215a1aeb0654c55ec312f40db9a7260f25",
+          "deepl-g1-2-request.json": "df41c870134830b4412f3348f18b2c74a006a73add0db87a05823502df8f5bb3",
+          "deepl-g1-2-response.json": "b8e1befe16fa32b45d207f997db8e2b7bc3942d3f551a43eba94b9f580f93993",
+          "deepl-g1-3-index.json": "fe380ba4b1f0d6354745ea100abf0e6a73ecc673eb4f698459f9932a9b49497a",
+          "deepl-g1-3-request.json": "400ce3be947daee3d32d00ac535a46b4a319a7f40f0dd2d6c8214e5af5f04ac4",
+          "deepl-g1-3-response.json": "21aee88a0e40036c98b7e28c1971d3dcf0da65cde8649f87973f0fbb4a97f23b",
+          "deepl-g2-1-index.json": "f45880fb55584dc264e8de41ae4bb6cfa4c1edd5d33d4ebe752d2f89b7b90f2d",
+          "deepl-g2-1-request.json": "343bb8da9f016acb466974831fe08cf17450438221373f462c798088e29fcad1",
+          "deepl-g2-1-response.json": "a366b03b93f9b3e5effe1eb295015718cf3240387643cf0050f63ca0200cc5fd",
+          "deepl-g2-2-index.json": "416ef56708032d80bbd9d86acdb0a4e172d67690ba46084b3401b230877eb78f",
+          "deepl-g2-2-request.json": "cdefd7a84ae2fe17fcb333c0070df9f9309e7458141b28af7ea9181bb5736217",
+          "deepl-g2-2-response.json": "0825e665589bd4dccdf1ceb00baf86079d258f43a01c7458f42cf4da18d0a176",
+          "deepl-g2-3-index.json": "b9048e4241124b9c9cd921a290c874f53895ae91ea11084820ce8684e7032ea0",
+          "deepl-g2-3-request.json": "7f2f0f76a65e0099f510a814433f1e82e494029a88f3846718bd31717a479fb6",
+          "deepl-g2-3-response.json": "7ea66f5531cce1846ebd6e2be6005434a0e16366e69fbf59a22af48133a216c3",
+          "edited.json": "62f29fdf07a73db42c0cccdd2fe10d18cbd039405dcbc913c0c8f42b18c6c634",
+          "english-sources.json": "ccea5b5b55510216e64ce027d63e86e0eef1259624c021388aad205462842715",
+          "fetched.json": "9fa70181ea9665dd42a17b3441a768ed9270f967925cb26b3ef0417590df1f82",
+          "frozen-artifact-hashes.json": "d1f430be4936cf3d8540a8a025f4bc0f3d8e1c371e9939b6ca3d040060a7029e",
+          "group-1-check-receipt.json": "3bc391f9c2ace9bc3b6f9c17574eb154d123d602b9a4763adcf92368885456b3",
+          "group-2-check-receipt.json": "276319bfc044860822ab553489c3103c6e053f95f041bf3d375138b96a62d0bc",
+          "held-fields.json": "e005a17330c3ef6e2419d7a53a4e8cce1015c9aa8713d34e1deb97114193f1fc",
+          "identity-contracts.json": "93717d49b267361c8b405eca13c7e74e1be8ac6d2413b446ba5e9c007b04783e",
+          "maintained-identity-screen.json": "53acd237f0a1d512d1b3aed554a2f21151b661d2b215048b45c4512a41434bcd",
+          "owned-contract-check-receipt.json": "a2c0a88a3cd2500aabbf9f1918bc4e5598b8faea2f67822b5f87525a296d190c",
+          "owned-raw-source-proof-audit.json": "bc864932033a1ac35ac6404328ee23fc7ae2a9dd5cc56dd42f9b4f83e1635197",
+          "pronunciations.json": "9d7c340e4faa550ec25d2fbc7ead341d3367bb7570c70fc0ce52ec1d6c3874e2",
+          "review-audit.json": "8548aa0f9c37012c837114392b5064f9187d4c7a156237fca883e5588f252b28",
+          "review-groups.json": "d3677251a6cbe0782d285cf2a8f0587d37008f45785641998e061652abfd0fe6",
+          "semantic-contracts.json": "abd26fb3282db4a87544183505391d9013e0c7e081ba5781840f3c1916f5768c",
+          "semantic-notes.json": "0bce47cdd93cef5a6d054946c555ff5fab1b05fb190e89f21643983e93723520",
+          "source-boundaries.json": "8c84eec9b59afec7712ad6a766fac1f5cf5d4ebbec954de49d823ef668c035ff",
+          "source-fetch-receipts.json": "056f98746e73d4f18a71ddb31f2ba3b50306e698e533d98a35765a06f0a75fde",
+          "source-sanity.json": "0f4be22fc40f0368e003e43c06f6500336a82fe0e2cdc9a18961debc2b67ae74"
+        },
+        "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+      }
+    },
+    "sourcedFields": 85,
+    "enabledFields": 83
+  },
+  "canonicalFieldHashes": {
+    "1431": {
+      "complete": {
+        "englishSHA256": "342de953aacc56267945a4115ef8fe0c5327431db790395f861a124a54322666",
+        "reviewedMyanmarSHA256": null,
+        "status": "held"
+      },
+      "objective": {
+        "englishSHA256": "ba2391ecaa3d36c87bcde14c2f3ae16090c66cbdd0a4adb5ac636b2823b96050",
+        "reviewedMyanmarSHA256": "7e1b3da2598f98a15fcc0737001d6349df4ad95c55aa2c5abef8930f8f541310",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "9655a44e1295d1fca65de7dfcc1c0d5788ab3f99af7c33b42443d547596e8b40",
+        "reviewedMyanmarSHA256": "2eec2f8ebe5d3de64b8bbfc0a2a7a6aa9c0bff52ed6209410fc108d3c991c03b",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+        "reviewedMyanmarSHA256": "9bfb7a0efcfaf8559ff943140543034b5fad4a4753cc424c1a65af75aa3e2a78",
+        "status": "enabled"
+      }
+    },
+    "1432": {
+      "complete": {
+        "englishSHA256": "ce2480e706c3e4cc7b4057801bb016f3ccef9c63dbdae020856cd653248d6e64",
+        "reviewedMyanmarSHA256": "ddcf56a1ffd979382f013948051823922cf931f37ac4070708ba70eccd355202",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "f939625b89bc60827274cb81a6cd35f16f2d9cbb67c27a060155bae1b7ea10a3",
+        "reviewedMyanmarSHA256": "d4da838bdd6c7ca060ca061c41d0dbfe1ea8b29e9fcab41244f61508d1729e00",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "2decc8f8b9640347646db18cb8538d87ba3e1c4cb328815950b935212357492a",
+        "reviewedMyanmarSHA256": "aa920d7b6cbe1eae391b4dfbb6444614663fb3b7d3193491f9a68cdb26651bc7",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+        "reviewedMyanmarSHA256": "9bfb7a0efcfaf8559ff943140543034b5fad4a4753cc424c1a65af75aa3e2a78",
+        "status": "enabled"
+      }
+    },
+    "1433": {
+      "complete": {
+        "englishSHA256": "4bc123cc86ab6902ae9befa5d6b12e27403b7220238affdad420c12a5f8d385c",
+        "reviewedMyanmarSHA256": "c5b0b784d5a3d0cb47bcfcd0d19e64f512aa89244ee1aea91896c4d634386789",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "aaef7e9a96651cf0fc75be80a999c606710b06685bb766171096df97671be625",
+        "reviewedMyanmarSHA256": "e7378185c7a30044d46e4c6f4df8588dc16d352f5c86ff019af1de33c5cdbdf2",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "5278d7a6b3c34b702dcb8300cd71f6265b89127ef47757a19e8bb981389c7e10",
+        "reviewedMyanmarSHA256": "560a3059378dcd966951ebc47fcf382612faef140636d94039800bfd7774c0c9",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+        "reviewedMyanmarSHA256": "9bfb7a0efcfaf8559ff943140543034b5fad4a4753cc424c1a65af75aa3e2a78",
+        "status": "enabled"
+      }
+    },
+    "1434": {
+      "complete": {
+        "englishSHA256": "62a58be589594ff2fb3268c04a550852bebe6e85f08a1c13233bc2616c8a48bb",
+        "reviewedMyanmarSHA256": "183416ab9ddec95c26de8a7810b12c61b617e1ca17882ca5e075bd09f449a3a8",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "74d2fef3c9a66533cc2c2255e91797563536dc3b521282b1f158f196ba48ce93",
+        "reviewedMyanmarSHA256": "ce16ec000f780d202f64ae23d5e8557b4c572064fd94c0c1c30fb8fadc9db46b",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "2b7296252f8a541817502029ae2f39b641ddac698b3575e3582cfbfbcde2ac27",
+        "reviewedMyanmarSHA256": "7312c7843a0a4b5396ddeca3ccbf9b147d903db3cb4cd1efb371f82367e3fb70",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "c599e080d54d8c291ad775b616211dbf1289ca8d2479b2b12822212e17188ced",
+        "reviewedMyanmarSHA256": "6d14fb9bd3565488c53939ccfd822dba327ba0073f021ec20c7a1cae6d4aa44d",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "3e19e6b939286c1fa5bcd26a48053d61acb933d79ccc76fc7675a39ab866149a",
+        "reviewedMyanmarSHA256": "1da4854601c4a3fa27ee3d6f13ac4e04ad7da40af259e9dbfc096b22bcab3263",
+        "status": "enabled"
+      }
+    },
+    "1435": {
+      "complete": {
+        "englishSHA256": "41e1af46611ea77b8464013824dc52fb49569128eda2d99def454a2a4e6245b7",
+        "reviewedMyanmarSHA256": "42c1e9c66c3bfaba3b8789022faa9067d287f13af5773ef83733cf5a81921eea",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "d97b07656fb4a324ccf3adb3d6e82bf0d964c42ba1529cdf658c8e71747634e3",
+        "reviewedMyanmarSHA256": null,
+        "status": "held"
+      },
+      "detail": {
+        "englishSHA256": "12a972d56cf048729c84f5a2fd6c0779b183fe72f41ebb954ae2f56e08105d80",
+        "reviewedMyanmarSHA256": "dc11a619a3282a6b7953ff34a7916b70e1b1261043e91ec36bf715c225a3d812",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "e503a9fd720302bc715588dc3597f0cacef644aae54c41d8ee24c951e3b8b3cb",
+        "reviewedMyanmarSHA256": "79843c03bad0d5dd9b31113920fda1c287117b2385259db5d7f912849d91a1a8",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "d4d8c569e30329f6aef4eb5a732a18dfd97663c4887787744c6c801bc35f0cc3",
+        "reviewedMyanmarSHA256": "741d63bc15ab67e5ed2c5b326cbf54bbd9d90e7ec1da339d089d8ef04c8e6df0",
+        "status": "enabled"
+      }
+    },
+    "1436": {
+      "complete": {
+        "englishSHA256": "94038d05fc1bb99449b5fcbea0b885bdffff8aee817d05a4c3799ed550e61020",
+        "reviewedMyanmarSHA256": "25311c23637495253915e4680dc435803bb184ed182ef9b1e84dd9c316f19541",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "ba2391ecaa3d36c87bcde14c2f3ae16090c66cbdd0a4adb5ac636b2823b96050",
+        "reviewedMyanmarSHA256": "7e1b3da2598f98a15fcc0737001d6349df4ad95c55aa2c5abef8930f8f541310",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "5a3d03ce3b8e752f1829561a8a78a8a43afdf26d135cc74fb49821b9f44b6ec6",
+        "reviewedMyanmarSHA256": "0f36e8f6cbe26b046612b7c0b2fadaee1f901554495b67a55d938313c5b6fca7",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+        "reviewedMyanmarSHA256": "9bfb7a0efcfaf8559ff943140543034b5fad4a4753cc424c1a65af75aa3e2a78",
+        "status": "enabled"
+      }
+    },
+    "1365": {
+      "complete": {
+        "englishSHA256": "3dc7d6e68ad06376d01887e9d54fd6b267df5c290bff9a14c12a13358194d23a",
+        "reviewedMyanmarSHA256": "c562051caafaa07b5b66c5123db3aa120dccbcca668adc58a837ede878c2caee",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "09c02e0d8189f4a2a9fbd37b4e52b88312dc452bceec083f6062d3504d3b5f64",
+        "reviewedMyanmarSHA256": "1e67779b5af8b6cc6cf1842097bccb206b9544d6eadd58d7e8a18aa843352c6e",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "5bac14a6b0ae7996152bf7804045c5e563c622c5458fd4075c8074d43c94174b",
+        "reviewedMyanmarSHA256": "bc04cdd740938b68499daca5fa74bd8c4e91bb3178f9595b816ccde9648679c5",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "fde3b0acb6afe00fb743087dcee1ae5409bc23284922b59b07c2ef63e2550cff",
+        "reviewedMyanmarSHA256": "7488c76fbaed1463887e5b118ce55f7cbfd43759b18a8609ed9e65e47b2f75e5",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "e6ad6b337af42b4da22bd6c168180dbd754601f2c866ce2c26a3ddb16f0bc0a8",
+        "reviewedMyanmarSHA256": "544b97e993e1375eb91143781872fff6245c589e2e09070814b52600c709dd91",
+        "status": "enabled"
+      }
+    },
+    "1366": {
+      "complete": {
+        "englishSHA256": "5e7751f86a07cb78aef79b285a0f2344c4b774ed2e588c162ad0455dfc7133c2",
+        "reviewedMyanmarSHA256": "7d96e6809819349bd4dd3d5bed819940bcdf9231cef03a9648fe3ed9f920003f",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "6e67cc3ec7216c1cd0d4c92cd1710dfaf836015b59fe5bd6cdbde57006510f06",
+        "reviewedMyanmarSHA256": "4415b80a4a674e80b577736f9db5ac71fc304bb3ac2402671ae30a84c84e4de9",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "8a7f418294e871d35604973be2508244a4411dc202993c6e933a539084c4bff6",
+        "reviewedMyanmarSHA256": "b21d453fb0ccf24b2327cd02cfd628910d9fe73302416957136244bf18c9f23a",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "6754fa17aaba2e31f931d0da564562dc629de29b6ac97491df1f0d90ee9dfca0",
+        "reviewedMyanmarSHA256": "59a88d05962a90ee7a37317f8cee987ed185f32874ebca808f34aeaed8071ff1",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "38b865c40334e2fcd5c1fa094dbaef2556e25425ac9694bc74f8667732ab4d41",
+        "reviewedMyanmarSHA256": "0e83b164d05e255b3a28220febde824d345505af3f4e125c66b4d2d80bceb17e",
+        "status": "enabled"
+      }
+    },
+    "1480": {
+      "complete": {
+        "englishSHA256": "cc842fe8d2c5e4e33567fcf30452974a565f5ca413ca70fdc367b066a1ebf3a4",
+        "reviewedMyanmarSHA256": "262eefcded541c379d183f65033b6cb5ca578304abe054b3cd9463885259a47e",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "5e96643afafcf0a003624f5c339edb22bb5e40f4e7c2397b9a030bb955fda465",
+        "reviewedMyanmarSHA256": "2a1f6baa076f74555ab2e1b1fd56d2ee668f7ddc3cd399d81d86607268e6fab9",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "0fbce676854dc49d21d72b8bea8e1c34bc698ea8c5c09c4a23c85372e61c1537",
+        "reviewedMyanmarSHA256": "ad41eceaa73ef46d78a99f5d74e1237d46b07c9362872c96a4559d8c077ea92c",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "1eed3abca7c4f09afb509adba2e81cdac3929436f5adc50541c4b075a094b266",
+        "reviewedMyanmarSHA256": "3bc40c9d1209b7e66e4f31bfb30df4dc1aaaec19589a0870ce91d4aa10f43766",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+        "reviewedMyanmarSHA256": "6fab5b721cd530a91ba615e417b0542bec8041db9638e682a72570829f4cb5a3",
+        "status": "enabled"
+      }
+    },
+    "1481": {
+      "complete": {
+        "englishSHA256": "c474d38c6f624bab134d6ae3e36ae042e7efa4e563ada11622394ed1fb5a1546",
+        "reviewedMyanmarSHA256": "384aaa4d9e196c84454cffd9526ae5d0a943a34df1bfee328d07f83c69f096db",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "b2dbfd2b16ca707a3dcb8e5284c304242d97cecb3afacdd8123d0ba6f2f36c12",
+        "reviewedMyanmarSHA256": "33c56e5301c3e25a08316c401b30bba2a28f918aced9ff76a97c568bf616a17e",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "a1fd72beeb5b49946225e974dd317026606dae4c3b918545ac2c3640b39e207d",
+        "reviewedMyanmarSHA256": "cf2dc980666b9125febdd177a6ba185ebcef161102927e5937c0cbd11b6e9325",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "3c7dcd3dc95fa6a5712e778ed98ad59e41f1ee42fc032fb98424fb9623bda26c",
+        "reviewedMyanmarSHA256": "760858fc9a8855e1efed4e20b5350d1169ebd5e5d9452dc89ff178f72adb537c",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+        "reviewedMyanmarSHA256": "6fab5b721cd530a91ba615e417b0542bec8041db9638e682a72570829f4cb5a3",
+        "status": "enabled"
+      }
+    },
+    "1482": {
+      "complete": {
+        "englishSHA256": "e5b0be10d9e9d080a2c1d052046e6850a4b9565f3bfd352980be9be32cfe3ebe",
+        "reviewedMyanmarSHA256": "19cdb43fa1f5d31e4515effd64b2d5108e1082b80ca266502114ead2a712ec4f",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "47720fdf51652d83b9c30e2457e6a306a4f018a465a687f8175ed5c894e2ce62",
+        "reviewedMyanmarSHA256": "c3609e0dc736ad8e3f6acfba76853753eb11629cdb0cb85f4684b626c11d5d35",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "3e58e431e360ceb5b6ad0d72fc93e383bac1152890c081e1283f3f036ee466ed",
+        "reviewedMyanmarSHA256": "e40feb333b9eddb6c3add76107def28af1876f58c238e75fa2c7eb15e6b79851",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "4d38421cbd2850d633641ce0b475d553854c0f6470dbb5aa3c96f8006ce93395",
+        "reviewedMyanmarSHA256": "fc95e055b5fe90fd15f5d723095e3707fc8f97c1c6bfebc073869765a14d9025",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+        "reviewedMyanmarSHA256": "6fab5b721cd530a91ba615e417b0542bec8041db9638e682a72570829f4cb5a3",
+        "status": "enabled"
+      }
+    },
+    "1484": {
+      "complete": {
+        "englishSHA256": "598aafbe902b4a661db5e56638051617e66c5fae99f051d81175cc7e81f4ea71",
+        "reviewedMyanmarSHA256": "8d635c42d4ad1c870df77ce827029e754a396f3dfae958422744dc5e4bb30fcd",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "f939625b89bc60827274cb81a6cd35f16f2d9cbb67c27a060155bae1b7ea10a3",
+        "reviewedMyanmarSHA256": "d4da838bdd6c7ca060ca061c41d0dbfe1ea8b29e9fcab41244f61508d1729e00",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "a242322264c9333e795b1c1544030149f44b09f0fc8aa59900fc33c8bbae8e61",
+        "reviewedMyanmarSHA256": "05d206d0ad9c687a2f7b2f1706bb2cd019ad151fb71a7d9596771c72757832bb",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+        "reviewedMyanmarSHA256": "6fab5b721cd530a91ba615e417b0542bec8041db9638e682a72570829f4cb5a3",
+        "status": "enabled"
+      }
+    },
+    "1488": {
+      "complete": {
+        "englishSHA256": "da6bcb1d5abc9184a0589cfdc4c04408c8c88f0dd6a7c46e1ff03a4b0f6f7807",
+        "reviewedMyanmarSHA256": "f32051b18419b9fccf87f99ff9ad4095a818217ffc5252a612947cf7d8e4909e",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "7f69e59997230506bd2c4d638bcd7511658c70412099f6bdf4c2a074653344bd",
+        "reviewedMyanmarSHA256": "34f29017a8e34739ae1462f9893a5b30f24bdb816cef0864f5c7904bbcfb416a",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "70f2edd5edb84844abf31e7792ac1978de8989fa6b67434dcba26bfcc3e95607",
+        "reviewedMyanmarSHA256": "39c92158f89ff916a2ce57b8ee89fba2beafb064d1cf6071140e92ecf4e2f94d",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "e3fce1e2c3d5aebbc158c0301cad1c2b44d3fc75e5ec39cb959bcab03cf62a42",
+        "reviewedMyanmarSHA256": "d45adfd1ca8070682a47f37262699301068f28669cfb9bf79eed205d5d704ed3",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+        "reviewedMyanmarSHA256": "6fab5b721cd530a91ba615e417b0542bec8041db9638e682a72570829f4cb5a3",
+        "status": "enabled"
+      }
+    },
+    "1437": {
+      "complete": {
+        "englishSHA256": "852d064b9f0d9b88577a25aba397074f90bac0bca8c087aa2e80740b39ffd6f8",
+        "reviewedMyanmarSHA256": "fbf3f47422fa2121dfa7339ab74395c5c8a06c7c18b3564c0b55e4e977608214",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "4a27945c296d1289aed6350405a3fd214b366b6d1ad4e9c943c2ff2a1c779311",
+        "reviewedMyanmarSHA256": "5b8be9975e0374705d0086965fda2fed14cfd7788f719077c6aaba9fa565387e",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "ecc2ac307cbbfae7456b4280c6906400fd31efe225a45d3595b0c7e42a5dc5b6",
+        "reviewedMyanmarSHA256": "f71f82c367ab3bde6245298354311b178f72a5f25d56f6f0d452a0f8496b0153",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+        "reviewedMyanmarSHA256": "4dfeb9b139173489ccf605fcef4774edf380769440b89ceb7590f3d7fbdf80f5",
+        "status": "enabled"
+      }
+    },
+    "1465": {
+      "complete": {
+        "englishSHA256": "aef48009a104e60e63b23f609f59ce494eee20359f8051ffb6da8faa6c70ac72",
+        "reviewedMyanmarSHA256": "42eb3024667de5f815e4397a93a1d0ca649d2aa7941d615990a481d05fdf1d90",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "7f249e9f1de98404841c15793433759387e81e83f61ac3d8a1b67e7337a777d4",
+        "reviewedMyanmarSHA256": "d3004f5ac078535ec562e8d38e9fbea04b540456f655c547dfc72eafb139aff5",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "18a24af406154d63488bd96b313344c79e6b5124382b24981a00f87e4df96bab",
+        "reviewedMyanmarSHA256": "bd458bd3a4e068eaba4506ccf34605973fce64971052e3508bc9260f28aee5ae",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+        "reviewedMyanmarSHA256": "4dfeb9b139173489ccf605fcef4774edf380769440b89ceb7590f3d7fbdf80f5",
+        "status": "enabled"
+      }
+    },
+    "1438": {
+      "complete": {
+        "englishSHA256": "53f32f308d9b49be3426ca5a40d631884494a86c3c850558cade3501bff5bb4a",
+        "reviewedMyanmarSHA256": "08de8d00e9cca169265960db29639f6021037f54d29c736f54ac3532651fbe69",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "15d658b64fd91bcef2e596fcab81d4287146e0160cf12d42f9cdebb29bb1c657",
+        "reviewedMyanmarSHA256": "6334e8f7cc332ff2b04b77b0a50bf8cc888212d38f2d007d8f8644350360707f",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "b2ee2c704e38411ed1ff3c91b370b93a87c8e03790ee0fc4173b490e71a2f54d",
+        "reviewedMyanmarSHA256": "de695f55c059603533f00b6e8569cd50b43e66cc0988a3aa49f739acc436cb23",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+        "reviewedMyanmarSHA256": "4dfeb9b139173489ccf605fcef4774edf380769440b89ceb7590f3d7fbdf80f5",
+        "status": "enabled"
+      }
+    },
+    "1439": {
+      "complete": {
+        "englishSHA256": "1a7591a19ee7ab028eab1028eb37c5be325b94c141103acf8b81ff0e9a5e5442",
+        "reviewedMyanmarSHA256": "7d24b74aa58aa0f6a13b3a6a3d6b3c5df8bf080c1fb351531e1a86a2353de304",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "2deaa594de31289d9c16f44690ecd35e1e9c4bbb742fe664d1749343793cce0c",
+        "reviewedMyanmarSHA256": "d76d56cffdd18e473790529794af617714a735c34a011c9d0230a6cf3c16e54a",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "92ca30dc97752acb90d77ebe9f914d3b4ee2a2b3daaeef08e4d67518ef3bb948",
+        "reviewedMyanmarSHA256": "85cbddb7bed3e39bf5284059ea6cc80e02f948364a57dc17ed499ce61d61c8f1",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": "2636e114a5383f31d40813369e1dffcfc28ac9fc76c7df75fd3a50be8b85e4aa",
+        "reviewedMyanmarSHA256": "85dbad76e199509bb7940d2eff452d04cc248ff91d8e06c3d5e3efcaf900ef31",
+        "status": "enabled"
+      },
+      "title": {
+        "englishSHA256": "b68ab7c8862322bf3e177353113a166717226fd002b3c94a8033e5e066f62918",
+        "reviewedMyanmarSHA256": "686cb903c9cc92f0eaebe120336f505f5f7f4307ed93f9b417a9b21d54b23bd2",
+        "status": "enabled"
+      }
+    },
+    "1440": {
+      "complete": {
+        "englishSHA256": "5eb61838b8e13e9e9dc8c2bad64bd5166de6e7ed8727897033d8b84add354581",
+        "reviewedMyanmarSHA256": "802904b00d16a062833b6a2f31028f53e4495c66a47ee2df275f5def7cfec964",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "838141e38e1c1dda4e086463542605af51cb8ca235c6df2af55c6f72df52ec1a",
+        "reviewedMyanmarSHA256": "64881deb22f766512e9840d506029e0c7846799f7838f308bd32986185cfb4c3",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "2967d4d14980fb09fc4a451fecaf1227d989538939cfde90b7ed9d30e3374382",
+        "reviewedMyanmarSHA256": "8e01e9714d88bfa13377266a54528c7a37605c2f035008442e7e339324d9efe0",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "b30ad699ce7cfe2db73f8001147f664721343db4b7b105cb8bfe833246942d84",
+        "reviewedMyanmarSHA256": "e9aa6b2df92dd04d7bb5e3bfce790fe45c07d3e655812f379e199d53af9e3706",
+        "status": "enabled"
+      }
+    },
+    "97284": {
+      "complete": {
+        "englishSHA256": "2b38280ebd8fd00494a96ef245eb0539267ec4b1a2c7493f2ff096561dc7241e",
+        "reviewedMyanmarSHA256": "a56c79a71ca61cdbe789982e20ea7cfaa130409f01fb2f122319b8957a468b5f",
+        "status": "enabled"
+      },
+      "objective": {
+        "englishSHA256": "c7b350a742628483361abf15acd723147d975e539d01e9c7939a354dff32d341",
+        "reviewedMyanmarSHA256": "0e249c90d6cd5fd615868842defba3d9c52c10ede58a24ea7f91fa455df6dd96",
+        "status": "enabled"
+      },
+      "detail": {
+        "englishSHA256": "31ee6f1656b5b201459458fc26af2540c959611502e09e35a3a437b769089f33",
+        "reviewedMyanmarSHA256": "e9e42f478d99d2dddf0cc991571bbe49dbcb0ca958d374da049495a9e12dcdc8",
+        "status": "enabled"
+      },
+      "progress": {
+        "englishSHA256": null,
+        "reviewedMyanmarSHA256": null,
+        "status": "unavailable"
+      },
+      "title": {
+        "englishSHA256": "40e5d05f79676971c95fc6e7f6687dd4f23695694158fb7b0f40b7c29174da5d",
+        "reviewedMyanmarSHA256": "0e65467a31b1245f30956409618495b6e050214922eb36597737154babad67e1",
+        "status": "enabled"
+      }
+    }
+  },
+  "sourceChecks": [
+    {
+      "id": 1431,
+      "sourceHTMLSHA256": "fc8f2434df0c6d5d10d0fca4d97a960478c395ffba63c6340c5c6a1d1c194388",
+      "secondaryHTMLSHA256": "25c2fcccd7a025adad316ba290a23c2885402d0daa0452b2151f8622d5a0d0af",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [
+        "complete",
+        "detail"
+      ],
+      "ownGQuests": {
+        "category": 1637,
+        "category2": 1,
+        "id": 1431,
+        "level": 30,
+        "name": "Alliance Relations",
+        "reprewards": [
+          [
+            76,
+            25
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 610,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Alliance Relations",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1432,
+      "sourceHTMLSHA256": "92f880f785223809c7c0cf9abf13eae4d5c859fe5882e395cf30d8e72d5f8d57",
+      "secondaryHTMLSHA256": "0073435c4433b3d56ee75e51238306c8220c4fa0d79b8d7eb5a42917c63ca94e",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 1637,
+        "category2": 1,
+        "id": 1432,
+        "level": 30,
+        "name": "Alliance Relations",
+        "reprewards": [
+          [
+            76,
+            50
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 1200,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Alliance Relations",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1433,
+      "sourceHTMLSHA256": "b2f1fabc4ec71261df49e162a48ed0ad5cb28d50b36673d6172711afa7b28b61",
+      "secondaryHTMLSHA256": "e37f9166bef3345790276e4a7410a52866fcf1690ab6de461f52c1c8dc670260",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1433,
+        "level": 33,
+        "name": "Alliance Relations",
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 265,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Alliance Relations",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1434,
+      "sourceHTMLSHA256": "a31fdcadc766de08bc5828621e45e635d5d75e633234f4e0daa69e6a95c5ff5b",
+      "secondaryHTMLSHA256": "0877de4e90ab27fab8d6e6dc3e37206de7440bbbb2d90d410f7264bf3ef6b7f6",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Hatefury Rogue slain (7)",
+          "quantity": [
+            "7"
+          ],
+          "links": [
+            [
+              "/forever/npc=4670/hatefury-rogue",
+              "Hatefury Rogue"
+            ]
+          ]
+        },
+        {
+          "text": "Hatefury Felsworn slain (7)",
+          "quantity": [
+            "7"
+          ],
+          "links": [
+            [
+              "/forever/npc=4672/hatefury-felsworn",
+              "Hatefury Felsworn"
+            ]
+          ]
+        },
+        {
+          "text": "Hatefury Betrayer slain (7)",
+          "quantity": [
+            "7"
+          ],
+          "links": [
+            [
+              "/forever/npc=4673/hatefury-betrayer",
+              "Hatefury Betrayer"
+            ]
+          ]
+        },
+        {
+          "text": "Hatefury Hellcaller slain (7)",
+          "quantity": [
+            "7"
+          ],
+          "links": [
+            [
+              "/forever/npc=4675/hatefury-hellcaller",
+              "Hatefury Hellcaller"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1434,
+        "level": 33,
+        "name": "Befouled by Satyr",
+        "reprewards": [
+          [
+            68,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Befouled by Satyr",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1435,
+      "sourceHTMLSHA256": "d14130e20a08086e328744844d3c0ddadf3d427908d92daca7e4f0f3128e6bf1",
+      "secondaryHTMLSHA256": "f649a7dcc36f19d446403e81624639eb7c61c6c7e1b5e1aa3642ac1a69dfa4e2",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Burning Gem (Provided) (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6436/burning-gem",
+              "Burning Gem"
+            ]
+          ]
+        },
+        {
+          "text": "Infused Burning Gem (15)",
+          "quantity": [
+            "15"
+          ],
+          "links": [
+            [
+              "/forever/item=6435/infused-burning-gem",
+              "Infused Burning Gem"
+            ]
+          ]
+        },
+        {
+          "text": "Flayed Demon Skin (old2) (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6766/flayed-demon-skin-old2",
+              "Flayed Demon Skin (old2)"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1435,
+        "level": 33,
+        "name": "The Burning of Spirits",
+        "reprewards": [
+          [
+            68,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Burning of Spirits",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1436,
+      "sourceHTMLSHA256": "4e6ffc81746f93427b78f510876b3633772b976e83d57b623d5cd505c18e5f20",
+      "secondaryHTMLSHA256": "b4de4a450f3b1f3a85a2020ccea20dabe44cfb158c6413c7b66aa27f34df578e",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [
+        "objective",
+        "detail"
+      ],
+      "ownGQuests": {
+        "category": 1637,
+        "category2": 1,
+        "id": 1436,
+        "itemchoices": [
+          [
+            6744,
+            1
+          ],
+          [
+            6745,
+            1
+          ]
+        ],
+        "level": 33,
+        "name": "Alliance Relations",
+        "reprewards": [
+          [
+            76,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Alliance Relations",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1365,
+      "sourceHTMLSHA256": "ec36a5ace19c6602ce5c14ececc5ad2f811c2d603db96657f43f2240827f3dfa",
+      "secondaryHTMLSHA256": "0eea7eddab7a8138765e70df2a4a66a3712914c67dc0f379ec7b9dd3b6b984aa",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Khan Dez'hepah's Head (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6066/khan-dezhepahs-head",
+              "Khan Dez'hepah's Head"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "complete"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1365,
+        "level": 35,
+        "name": "Khan Dez'hepah",
+        "reprewards": [
+          [
+            76,
+            150
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 3450,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Khan Dez'hepah",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1366,
+      "sourceHTMLSHA256": "726b521f09e3abeeab502a6ba2c2df23be827937eebc805ad6918745d082db49",
+      "secondaryHTMLSHA256": "beac4db523b975e16259df51029f1c6fe74888a3cd8ba81f5e58f0892e7da450",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Centaur Ear (15)",
+          "quantity": [
+            "15"
+          ],
+          "links": [
+            [
+              "/forever/item=6067/centaur-ear",
+              "Centaur Ear"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "complete",
+        "detail",
+        "progress"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1366,
+        "itemchoices": [
+          [
+            6780,
+            1
+          ],
+          [
+            6784,
+            1
+          ]
+        ],
+        "level": 31,
+        "name": "Centaur Bounty",
+        "reprewards": [
+          [
+            76,
+            150
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 2,
+        "xp": 3750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Centaur Bounty",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1480,
+      "sourceHTMLSHA256": "50d0e41d4e65ef1d78e5e5df78a9f232b24ee3ee244f6ab723eb95daa0712734",
+      "secondaryHTMLSHA256": "eadbd15a775fa78d0de57d856777931ad71c19c970df51ee7b3c78e7d57bde42",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Flayed Demon Skin (Provided) (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=20310/flayed-demon-skin",
+              "Flayed Demon Skin"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1480,
+        "level": 33,
+        "name": "The Corrupter",
+        "reprewards": [
+          [
+            68,
+            50
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 1300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Corrupter",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1481,
+      "sourceHTMLSHA256": "9736471d0ebced95a4066e0ff7fa90d58a3a5a32181152b364de72d21882853e",
+      "secondaryHTMLSHA256": "446078edf0899e568572dcd0f6831328eadbffbc2b566abc385619bcbead5103",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Shadowstalker Scalp (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6441/shadowstalker-scalp",
+              "Shadowstalker Scalp"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1481,
+        "level": 33,
+        "name": "The Corrupter",
+        "reprewards": [
+          [
+            68,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Corrupter",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1482,
+      "sourceHTMLSHA256": "725776a4ddaac706e57c3d2f3674df995345e55d856b4e28534f1cc823c6fcaa",
+      "secondaryHTMLSHA256": "95ccf7b6e6cdfeb539a4983f5a1fdfa0dea757f2dfc867f8c91f030d6185b226",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Oracle Crystal (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6442/oracle-crystal",
+              "Oracle Crystal"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1482,
+        "level": 35,
+        "name": "The Corrupter",
+        "reprewards": [
+          [
+            68,
+            100
+          ]
+        ],
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 2750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Corrupter",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1484,
+      "sourceHTMLSHA256": "68da49f5264687577318af1ddc002f821fd5ae147c365fe4d51f6d7dc650b7b8",
+      "secondaryHTMLSHA256": "3dcd00ef920d3bec5c88e7eb6d9ef9ee74e4ac76dc328533ab79fc5693d70a6e",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [
+        "objective"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1484,
+        "level": 33,
+        "name": "The Corrupter",
+        "reqlevel": 25,
+        "side": 2,
+        "xp": 265,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Corrupter",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1488,
+      "sourceHTMLSHA256": "11f352a706442aaec82079fbd1c4be01be7e76b93659c0949210c198d07a0243",
+      "secondaryHTMLSHA256": "ab74541ffa1953e82ab08105e107c5b3432451e866860eaeed98339be946b666",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Lord Azrethoc slain (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/npc=5760/lord-azrethoc",
+              "Lord Azrethoc"
+            ]
+          ]
+        },
+        {
+          "text": "Jugkar Grim'rod slain (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/npc=5771/jugkar-grimrod",
+              "Jugkar Grim'rod"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "objective"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1488,
+        "itemchoices": [
+          [
+            6746,
+            1
+          ],
+          [
+            6747,
+            1
+          ]
+        ],
+        "level": 40,
+        "name": "The Corrupter",
+        "reprewards": [
+          [
+            67,
+            150
+          ]
+        ],
+        "reqlevel": 26,
+        "side": 2,
+        "type": 1,
+        "xp": 3900,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "The Corrupter",
+          "icon": "quest-start",
+          "_side": 2,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1437,
+      "sourceHTMLSHA256": "d3eef5beea3e8f4e61fdad74476316ce62994e526ec1387734e79c7b10525901",
+      "secondaryHTMLSHA256": "72f7dd2da158d1d3a5552629e76985cfce0f664985f083653e85be74e02cfd78",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [
+        "objective",
+        "detail"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1437,
+        "level": 33,
+        "name": "Vahlarriel's Search",
+        "reprewards": [
+          [
+            69,
+            75
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 1950,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Vahlarriel's Search",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1465,
+      "sourceHTMLSHA256": "6bf049911fdb1629d636d2a80d0987f7f344465fba8e1004d6b728b87925d96f",
+      "secondaryHTMLSHA256": "dbbdaecb3f05c0193cc9d8c524e799e7a0a5076e8f5c3f92a5e6a8bd0b65c7d9",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Malem Pendant (Provided) (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6479/malem-pendant",
+              "Malem Pendant"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "objective"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1465,
+        "level": 33,
+        "name": "Vahlarriel's Search",
+        "reprewards": [
+          [
+            69,
+            75
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 1950,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Vahlarriel's Search",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1438,
+      "sourceHTMLSHA256": "69f09077eb9ae3c0873bb235da2c8c742284ea709f949095d863001e9d79529d",
+      "secondaryHTMLSHA256": "5e5cb852d60821e3af805acc72a479d48ef67a427915f733c9f13d64fc22900e",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [],
+      "primarySecondaryDifferentFields": [
+        "complete",
+        "objective",
+        "detail"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1438,
+        "level": 33,
+        "name": "Vahlarriel's Search",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Vahlarriel's Search",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1439,
+      "sourceHTMLSHA256": "3d774ba81acc72d72d8af840e8d6f2d2c392641885030318793aa8594a048961",
+      "secondaryHTMLSHA256": "16a9fd07a68f2a08c4326cf74e4a7d4277de23ea575418f280219278259479b6",
+      "headings": [
+        "Description",
+        "Progress",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Tyranis' Pendant (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": [
+            [
+              "/forever/item=6767/tyranis-pendant",
+              "Tyranis' Pendant"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "objective",
+        "progress"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1439,
+        "level": 33,
+        "name": "Search for Tyranis",
+        "reprewards": [
+          [
+            69,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Search for Tyranis",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 1440,
+      "sourceHTMLSHA256": "8569e4af71eb51971bc8b6314d3133f4ef3887a222ad06e2573fd759d366baa8",
+      "secondaryHTMLSHA256": "282f7f6a6083af7e9c99a3b1613c4691941a8efd8b6ffc9735755dfa2a57df97",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Rescue Dalinda Malem (1)",
+          "quantity": [
+            "1"
+          ],
+          "links": []
+        }
+      ],
+      "primarySecondaryDifferentFields": [],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 1440,
+        "itemchoices": [
+          [
+            9687,
+            1
+          ],
+          [
+            9698,
+            1
+          ],
+          [
+            9699,
+            1
+          ],
+          [
+            11884,
+            1
+          ]
+        ],
+        "level": 33,
+        "name": "Return to Vahlarriel",
+        "reprewards": [
+          [
+            69,
+            150
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Return to Vahlarriel",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    },
+    {
+      "id": 97284,
+      "sourceHTMLSHA256": "4a5a531299c0e75a050b27887b58685863b7d6cba786fab20be770914ef79126",
+      "secondaryHTMLSHA256": "c7770e01d9828c636bd5000ddeda996632e59f34d12e023027a513eac5b09409",
+      "headings": [
+        "Description",
+        "Completion"
+      ],
+      "objectiveRows": [
+        {
+          "text": "Burning Blade Augur slain (4)",
+          "quantity": [
+            "4"
+          ],
+          "links": [
+            [
+              "/forever/npc=4663/burning-blade-augur",
+              "Burning Blade Augur"
+            ]
+          ]
+        },
+        {
+          "text": "Burning Blade Reaver slain (4)",
+          "quantity": [
+            "4"
+          ],
+          "links": [
+            [
+              "/forever/npc=4664/burning-blade-reaver",
+              "Burning Blade Reaver"
+            ]
+          ]
+        },
+        {
+          "text": "Burning Blade Adept slain (4)",
+          "quantity": [
+            "4"
+          ],
+          "links": [
+            [
+              "/forever/npc=4665/burning-blade-adept",
+              "Burning Blade Adept"
+            ]
+          ]
+        },
+        {
+          "text": "Burning Blade Felsworn slain (4)",
+          "quantity": [
+            "4"
+          ],
+          "links": [
+            [
+              "/forever/npc=4666/burning-blade-felsworn",
+              "Burning Blade Felsworn"
+            ]
+          ]
+        }
+      ],
+      "primarySecondaryDifferentFields": [
+        "complete"
+      ],
+      "ownGQuests": {
+        "category": 405,
+        "category2": 1,
+        "id": 97284,
+        "level": 33,
+        "money": 6500,
+        "name": "Vahlarriel's Vengeance",
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2650,
+        "envChange": {
+          "status": "new",
+          "labels": [],
+          "lines": []
+        }
+      },
+      "allOwnGatherer": [
+        {
+          "name_enus": "Vahlarriel's Vengeance",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ]
+    }
+  ],
+  "eligibility": [
+    {
+      "id": 1431,
+      "currentLevel": 30,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 30,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": null,
+      "installedNextQuest": 1432,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1432,
+      "currentLevel": 30,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 30,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1431
+      ],
+      "installedNextQuest": 1433,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1433,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1432
+      ],
+      "installedNextQuest": 1435,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1434,
+      "currentLevel": 33,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1432
+      ],
+      "installedNextQuest": 1436,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1435,
+      "currentLevel": 33,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1433
+      ],
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1436,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": [
+        1434,
+        1435
+      ],
+      "installedPrerequisiteSingle": null,
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1365,
+      "currentLevel": 35,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 35,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": null,
+      "installedNextQuest": 1366,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1366,
+      "currentLevel": 31,
+      "currentRequiredLevel": 30,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 31,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1365
+      ],
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1480,
+      "currentLevel": 33,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": null,
+      "installedNextQuest": 1481,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1481,
+      "currentLevel": 33,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1480
+      ],
+      "installedNextQuest": 1482,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1482,
+      "currentLevel": 35,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 35,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1481
+      ],
+      "installedNextQuest": 1484,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1484,
+      "currentLevel": 33,
+      "currentRequiredLevel": 25,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 35,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1482
+      ],
+      "installedNextQuest": 1488,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1488,
+      "currentLevel": 40,
+      "currentRequiredLevel": 26,
+      "side": 2,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 8589934770,
+      "installedClassMask": null,
+      "installedRequiredLevel": 25,
+      "installedLevel": 40,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1484
+      ],
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Horde"
+      ]
+    },
+    {
+      "id": 1437,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": null,
+      "installedNextQuest": 1465,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Both"
+      ]
+    },
+    {
+      "id": 1465,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1437
+      ],
+      "installedNextQuest": 1438,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Both"
+      ]
+    },
+    {
+      "id": 1438,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1465
+      ],
+      "installedNextQuest": 1439,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Both"
+      ]
+    },
+    {
+      "id": 1439,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1438
+      ],
+      "installedNextQuest": 1440,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Both"
+      ]
+    },
+    {
+      "id": 1440,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1439
+      ],
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Both"
+      ]
+    },
+    {
+      "id": 97284,
+      "currentLevel": 33,
+      "currentRequiredLevel": 30,
+      "side": 1,
+      "requiredRace": 0,
+      "requiredClass": 0,
+      "installedRaceMask": 4294967373,
+      "installedClassMask": null,
+      "installedRequiredLevel": 30,
+      "installedLevel": 33,
+      "installedPrerequisiteGroup": null,
+      "installedPrerequisiteSingle": [
+        1465
+      ],
+      "installedNextQuest": null,
+      "uaVariants": 1,
+      "uaFactions": [
+        "Alliance"
+      ]
+    }
+  ],
+  "rawDeepLChains": [
+    {
+      "id": 1431,
+      "field": "title",
+      "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+      "rawDeepLSHA256": "2dba2d0ee1e4297eaf2aaf566b49bc56da06210a5fa214df19ebe40b292713d1",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1431,
+      "field": "detail",
+      "englishSHA256": "9655a44e1295d1fca65de7dfcc1c0d5788ab3f99af7c33b42443d547596e8b40",
+      "rawDeepLSHA256": "a333164bf982bf9719b02bea74f39604210f8357c5482c91aaefb25182a755b6",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1431,
+      "field": "objective",
+      "englishSHA256": "ba2391ecaa3d36c87bcde14c2f3ae16090c66cbdd0a4adb5ac636b2823b96050",
+      "rawDeepLSHA256": "e14638654d718b98cb314a7f1d4a1ac9df73bb436e97e2663decdec270d031a0",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1431,
+      "field": "complete",
+      "englishSHA256": "342de953aacc56267945a4115ef8fe0c5327431db790395f861a124a54322666",
+      "rawDeepLSHA256": "53bde187d987da721c5c951ca1075ab1636d6584d2ec86d9b50a128ef464219c",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 3,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 3,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1432,
+      "field": "title",
+      "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+      "rawDeepLSHA256": "2dba2d0ee1e4297eaf2aaf566b49bc56da06210a5fa214df19ebe40b292713d1",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 4,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 4,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1432,
+      "field": "detail",
+      "englishSHA256": "2decc8f8b9640347646db18cb8538d87ba3e1c4cb328815950b935212357492a",
+      "rawDeepLSHA256": "bbdefe5beec3f41db0a595c11315cbe73d2b6b51f9f1c7cc6fa7d71000794072",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 5,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 5,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1432,
+      "field": "objective",
+      "englishSHA256": "f939625b89bc60827274cb81a6cd35f16f2d9cbb67c27a060155bae1b7ea10a3",
+      "rawDeepLSHA256": "384afbbdc1401ab647aa792bcc2865d36a79733cbdeff775be59fbdcf92d72d1",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 6,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 6,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1432,
+      "field": "complete",
+      "englishSHA256": "ce2480e706c3e4cc7b4057801bb016f3ccef9c63dbdae020856cd653248d6e64",
+      "rawDeepLSHA256": "47ea9947f2211923a9e451acacebcfc425ea4b3da7bb71cc5f21feb7bc59ad71",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 7,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 7,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1433,
+      "field": "title",
+      "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+      "rawDeepLSHA256": "2dba2d0ee1e4297eaf2aaf566b49bc56da06210a5fa214df19ebe40b292713d1",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 8,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 8,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1433,
+      "field": "detail",
+      "englishSHA256": "5278d7a6b3c34b702dcb8300cd71f6265b89127ef47757a19e8bb981389c7e10",
+      "rawDeepLSHA256": "4da88c19a586e56ddf607a000e099825906d87d466060fbfa33b5352d93bf368",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 9,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 9,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1433,
+      "field": "objective",
+      "englishSHA256": "aaef7e9a96651cf0fc75be80a999c606710b06685bb766171096df97671be625",
+      "rawDeepLSHA256": "7c71931602feac5980d69ea97fd2f626de12248fbd7a6a41cd74040bdd27c3af",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 10,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 10,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1433,
+      "field": "complete",
+      "englishSHA256": "4bc123cc86ab6902ae9befa5d6b12e27403b7220238affdad420c12a5f8d385c",
+      "rawDeepLSHA256": "3fdffead5aa706e41606fdbee4f71f27802c2a27b6a97ceb852aa38b917fd828",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 11,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 11,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1434,
+      "field": "title",
+      "englishSHA256": "3e19e6b939286c1fa5bcd26a48053d61acb933d79ccc76fc7675a39ab866149a",
+      "rawDeepLSHA256": "30876d77e8380a4927039e355da061c0252e60773b48744848810c311d01a4ec",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 12,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 12,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1434,
+      "field": "detail",
+      "englishSHA256": "2b7296252f8a541817502029ae2f39b641ddac698b3575e3582cfbfbcde2ac27",
+      "rawDeepLSHA256": "a26fee02f9ccf630ce2cb10160cfde3a162a94247a84ec93cc7334ab81c57cf5",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 13,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 13,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1434,
+      "field": "objective",
+      "englishSHA256": "74d2fef3c9a66533cc2c2255e91797563536dc3b521282b1f158f196ba48ce93",
+      "rawDeepLSHA256": "e28436b184a2dcf592409ec79d2ec64f90ebb50738d167527bdb5d275b931b9c",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 14,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 14,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1434,
+      "field": "progress",
+      "englishSHA256": "c599e080d54d8c291ad775b616211dbf1289ca8d2479b2b12822212e17188ced",
+      "rawDeepLSHA256": "9a1bfd02d874ac3b01bf29bf8b8e7c57d020860485036c56631d3405a80ac955",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 15,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 15,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1434,
+      "field": "complete",
+      "englishSHA256": "62a58be589594ff2fb3268c04a550852bebe6e85f08a1c13233bc2616c8a48bb",
+      "rawDeepLSHA256": "8b4933e9293556c30461d354729e1814b7b8c2e6cdb29b7cab2dac477460b2df",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 16,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 16,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1435,
+      "field": "title",
+      "englishSHA256": "d4d8c569e30329f6aef4eb5a732a18dfd97663c4887787744c6c801bc35f0cc3",
+      "rawDeepLSHA256": "cf4557c906554c2fe4955455711e67bd08f410932e15c299eb7494a2fc9a790f",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "requestIndex": 17,
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "responseIndex": 17,
+      "rawDeepLIndexFile": "deepl-g1-1-index.json"
+    },
+    {
+      "id": 1435,
+      "field": "detail",
+      "englishSHA256": "12a972d56cf048729c84f5a2fd6c0779b183fe72f41ebb954ae2f56e08105d80",
+      "rawDeepLSHA256": "2771674d256dbc226104fd449334254d07839914062cffeff0362f20f38cd85e",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1435,
+      "field": "objective",
+      "englishSHA256": "d97b07656fb4a324ccf3adb3d6e82bf0d964c42ba1529cdf658c8e71747634e3",
+      "rawDeepLSHA256": "93dfaae9f2d3592242a83ff196f93c80f7d40e38d8e9b93bdcf839882c86c3be",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1435,
+      "field": "progress",
+      "englishSHA256": "e503a9fd720302bc715588dc3597f0cacef644aae54c41d8ee24c951e3b8b3cb",
+      "rawDeepLSHA256": "45b37d44cde3f77c9454f3d3c1027bdceb5d6e56e3d1f470a03d69a2daad1cf4",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1435,
+      "field": "complete",
+      "englishSHA256": "41e1af46611ea77b8464013824dc52fb49569128eda2d99def454a2a4e6245b7",
+      "rawDeepLSHA256": "e5ac79ef5a75eb4d99e64a005adcae8ebfacffc46a5976c8f722a37a87753670",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 3,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 3,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1436,
+      "field": "title",
+      "englishSHA256": "3ea2a3145d83be98ebba8663f8c3735fc273d963400d8e92f4499faa8355d74e",
+      "rawDeepLSHA256": "2dba2d0ee1e4297eaf2aaf566b49bc56da06210a5fa214df19ebe40b292713d1",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 4,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 4,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1436,
+      "field": "detail",
+      "englishSHA256": "5a3d03ce3b8e752f1829561a8a78a8a43afdf26d135cc74fb49821b9f44b6ec6",
+      "rawDeepLSHA256": "67b80d2bb941cff3b1706dc919dad996b4f4d4034c0e7771f4c0901e167424a1",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 5,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 5,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1436,
+      "field": "objective",
+      "englishSHA256": "ba2391ecaa3d36c87bcde14c2f3ae16090c66cbdd0a4adb5ac636b2823b96050",
+      "rawDeepLSHA256": "e14638654d718b98cb314a7f1d4a1ac9df73bb436e97e2663decdec270d031a0",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 6,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 6,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1436,
+      "field": "complete",
+      "englishSHA256": "94038d05fc1bb99449b5fcbea0b885bdffff8aee817d05a4c3799ed550e61020",
+      "rawDeepLSHA256": "b1703223a26914abf1e86dc761cce439681773a1de0ae1c153338bfdfe5e9c6b",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 7,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 7,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1365,
+      "field": "title",
+      "englishSHA256": "e6ad6b337af42b4da22bd6c168180dbd754601f2c866ce2c26a3ddb16f0bc0a8",
+      "rawDeepLSHA256": "b95bdc72a2368b9d116ee93f703c25bc4e2750a7c88a75e288821a31e55e27d8",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 8,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 8,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1365,
+      "field": "detail",
+      "englishSHA256": "5bac14a6b0ae7996152bf7804045c5e563c622c5458fd4075c8074d43c94174b",
+      "rawDeepLSHA256": "066fc7dc3828063fa6e4e75d28f8828488980d5e8dd299f9c7470508dd747c24",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 9,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 9,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1365,
+      "field": "objective",
+      "englishSHA256": "09c02e0d8189f4a2a9fbd37b4e52b88312dc452bceec083f6062d3504d3b5f64",
+      "rawDeepLSHA256": "c167e48599c8e274f89319be0fbeaf4457e983f72aaefa150728fa0f6825bd67",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 10,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 10,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1365,
+      "field": "progress",
+      "englishSHA256": "fde3b0acb6afe00fb743087dcee1ae5409bc23284922b59b07c2ef63e2550cff",
+      "rawDeepLSHA256": "1ef0b45bd87f684a664f892a198b71dba61eefd6335155ca2a0ee4666e925925",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 11,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 11,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1365,
+      "field": "complete",
+      "englishSHA256": "3dc7d6e68ad06376d01887e9d54fd6b267df5c290bff9a14c12a13358194d23a",
+      "rawDeepLSHA256": "20d53c4075e4ae5aec0eab0146b9119ad9fe08008e11269a5bc7f28e0f4e594f",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 12,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 12,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1366,
+      "field": "title",
+      "englishSHA256": "38b865c40334e2fcd5c1fa094dbaef2556e25425ac9694bc74f8667732ab4d41",
+      "rawDeepLSHA256": "ca1ce97348f26cbfbf408f5e1db6e91d6f17df9895a5f4f72e4b8590ecac6b77",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 13,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 13,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1366,
+      "field": "detail",
+      "englishSHA256": "8a7f418294e871d35604973be2508244a4411dc202993c6e933a539084c4bff6",
+      "rawDeepLSHA256": "3a4ef00e96727c7a53b986e6f511b83bced6f76ff6d4b0336496b2a2c9ef2ecd",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 14,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 14,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1366,
+      "field": "objective",
+      "englishSHA256": "6e67cc3ec7216c1cd0d4c92cd1710dfaf836015b59fe5bd6cdbde57006510f06",
+      "rawDeepLSHA256": "9bb099641e7bb5fbfed306bdf7d2f86325c813631b2f036e7b2501e0ce6e96a8",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 15,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 15,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1366,
+      "field": "progress",
+      "englishSHA256": "6754fa17aaba2e31f931d0da564562dc629de29b6ac97491df1f0d90ee9dfca0",
+      "rawDeepLSHA256": "e4896cef7c066a793137b805fc0aad3c0f5144e70ad62c8a25fc4701ca6b70d2",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 16,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 16,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1366,
+      "field": "complete",
+      "englishSHA256": "5e7751f86a07cb78aef79b285a0f2344c4b774ed2e588c162ad0455dfc7133c2",
+      "rawDeepLSHA256": "df2c0dd0fdbc8fc36f1784642f82dc11d6969558f4152d3b19ca1db2d1c2ae3e",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 17,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 17,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1480,
+      "field": "title",
+      "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+      "rawDeepLSHA256": "20d9dcd4c8b05117db40f18cbf341b0ebfa69bdc23b456e157e2a02c11280575",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 18,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 18,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1480,
+      "field": "detail",
+      "englishSHA256": "0fbce676854dc49d21d72b8bea8e1c34bc698ea8c5c09c4a23c85372e61c1537",
+      "rawDeepLSHA256": "446040ce99b5de20a093374fc083d9bd061a196211f855b34390ee037c28a5ca",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 19,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 19,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1480,
+      "field": "objective",
+      "englishSHA256": "5e96643afafcf0a003624f5c339edb22bb5e40f4e7c2397b9a030bb955fda465",
+      "rawDeepLSHA256": "daf7b806dd6475725c99fdb5e7e9b31347ed56320e20fdbf0811b6a016fa7393",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 20,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 20,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1480,
+      "field": "progress",
+      "englishSHA256": "1eed3abca7c4f09afb509adba2e81cdac3929436f5adc50541c4b075a094b266",
+      "rawDeepLSHA256": "7d6b6376914d1b592b41cc8ae23fe3e173ae24a29cbd6862ee5618240c21bff2",
+      "rawDeepLRequestFile": "deepl-g1-2-request.json",
+      "requestIndex": 21,
+      "rawDeepLResponseFile": "deepl-g1-2-response.json",
+      "responseIndex": 21,
+      "rawDeepLIndexFile": "deepl-g1-2-index.json"
+    },
+    {
+      "id": 1480,
+      "field": "complete",
+      "englishSHA256": "cc842fe8d2c5e4e33567fcf30452974a565f5ca413ca70fdc367b066a1ebf3a4",
+      "rawDeepLSHA256": "8e0d7f2c370bb946352b97a1fef8a86c5a5d1395231654fc19801e86b0d5b7c2",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1481,
+      "field": "title",
+      "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+      "rawDeepLSHA256": "20d9dcd4c8b05117db40f18cbf341b0ebfa69bdc23b456e157e2a02c11280575",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1481,
+      "field": "detail",
+      "englishSHA256": "a1fd72beeb5b49946225e974dd317026606dae4c3b918545ac2c3640b39e207d",
+      "rawDeepLSHA256": "243a8ba764c86bc145e2b7d8bb74c0d7e6c00108143edb6405a9b89ce473d686",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1481,
+      "field": "objective",
+      "englishSHA256": "b2dbfd2b16ca707a3dcb8e5284c304242d97cecb3afacdd8123d0ba6f2f36c12",
+      "rawDeepLSHA256": "26aea2f974cc95642d2532cb958d7db57a9052ea2040d5dafe5f1a4dc4060347",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 3,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 3,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1481,
+      "field": "progress",
+      "englishSHA256": "3c7dcd3dc95fa6a5712e778ed98ad59e41f1ee42fc032fb98424fb9623bda26c",
+      "rawDeepLSHA256": "6105d83264e86abad2c04d9b01898a0726c542c9210ab1a6185d61e1a85189d7",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 4,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 4,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1481,
+      "field": "complete",
+      "englishSHA256": "c474d38c6f624bab134d6ae3e36ae042e7efa4e563ada11622394ed1fb5a1546",
+      "rawDeepLSHA256": "be4f412eb5cb422cb3ea797a9af77f7afa48246f9d8c20bb6485fb99fd3df9b9",
+      "rawDeepLRequestFile": "deepl-g1-3-request.json",
+      "requestIndex": 5,
+      "rawDeepLResponseFile": "deepl-g1-3-response.json",
+      "responseIndex": 5,
+      "rawDeepLIndexFile": "deepl-g1-3-index.json"
+    },
+    {
+      "id": 1482,
+      "field": "title",
+      "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+      "rawDeepLSHA256": "20d9dcd4c8b05117db40f18cbf341b0ebfa69bdc23b456e157e2a02c11280575",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1482,
+      "field": "detail",
+      "englishSHA256": "3e58e431e360ceb5b6ad0d72fc93e383bac1152890c081e1283f3f036ee466ed",
+      "rawDeepLSHA256": "e230b6857aaa7a7b3629bf0713bdef5bff341547900f9c27319319f6e9231dc0",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1482,
+      "field": "objective",
+      "englishSHA256": "47720fdf51652d83b9c30e2457e6a306a4f018a465a687f8175ed5c894e2ce62",
+      "rawDeepLSHA256": "3c55860ea7ec282d74aed17a70d0fd18513b5c937f4c491f3165914e1d73def9",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1482,
+      "field": "progress",
+      "englishSHA256": "4d38421cbd2850d633641ce0b475d553854c0f6470dbb5aa3c96f8006ce93395",
+      "rawDeepLSHA256": "965276efed2539cb5990d4a179cea89b0647ad34d253368c6da5a60535ebb797",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 3,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 3,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1482,
+      "field": "complete",
+      "englishSHA256": "e5b0be10d9e9d080a2c1d052046e6850a4b9565f3bfd352980be9be32cfe3ebe",
+      "rawDeepLSHA256": "2913af390e3e34d52eafabd6f3c6cd11bb9c3e4b3c06ef38ea4b00698ab0e5d7",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 4,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 4,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1484,
+      "field": "title",
+      "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+      "rawDeepLSHA256": "20d9dcd4c8b05117db40f18cbf341b0ebfa69bdc23b456e157e2a02c11280575",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 5,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 5,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1484,
+      "field": "detail",
+      "englishSHA256": "a242322264c9333e795b1c1544030149f44b09f0fc8aa59900fc33c8bbae8e61",
+      "rawDeepLSHA256": "ce34f29de89cb7ae2e94912942faa37a5b779388aa7b6db98a626120fd86dd84",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 6,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 6,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1484,
+      "field": "objective",
+      "englishSHA256": "f939625b89bc60827274cb81a6cd35f16f2d9cbb67c27a060155bae1b7ea10a3",
+      "rawDeepLSHA256": "384afbbdc1401ab647aa792bcc2865d36a79733cbdeff775be59fbdcf92d72d1",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 7,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 7,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1484,
+      "field": "complete",
+      "englishSHA256": "598aafbe902b4a661db5e56638051617e66c5fae99f051d81175cc7e81f4ea71",
+      "rawDeepLSHA256": "74b5f957a5ad592126a1e571ce7b00905d9f105c2d02286ab014cc95d10671c9",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 8,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 8,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1488,
+      "field": "title",
+      "englishSHA256": "b424f30ab9f15ca63384e71dae81f4c28e22f66a23d5b04296fa1648b6ee74bd",
+      "rawDeepLSHA256": "20d9dcd4c8b05117db40f18cbf341b0ebfa69bdc23b456e157e2a02c11280575",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 9,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 9,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1488,
+      "field": "detail",
+      "englishSHA256": "70f2edd5edb84844abf31e7792ac1978de8989fa6b67434dcba26bfcc3e95607",
+      "rawDeepLSHA256": "380c18400bbf9379000233fe581b7d2a26f0342dfecf8aad5693c028f6c5facc",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 10,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 10,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1488,
+      "field": "objective",
+      "englishSHA256": "7f69e59997230506bd2c4d638bcd7511658c70412099f6bdf4c2a074653344bd",
+      "rawDeepLSHA256": "793db71fd890e27818f7f56455780b2692d92016b2230cef0382381f845024f9",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 11,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 11,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1488,
+      "field": "progress",
+      "englishSHA256": "e3fce1e2c3d5aebbc158c0301cad1c2b44d3fc75e5ec39cb959bcab03cf62a42",
+      "rawDeepLSHA256": "d86dd3f690b333fca3b06885aae7528a1eb2e9faf8197e8fab1557dfff08ede1",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 12,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 12,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1488,
+      "field": "complete",
+      "englishSHA256": "da6bcb1d5abc9184a0589cfdc4c04408c8c88f0dd6a7c46e1ff03a4b0f6f7807",
+      "rawDeepLSHA256": "8bc3b696a0bc7bf7ae66584907bbe844aebd8d9e2dd0111234b0f0fd6ead67d3",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 13,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 13,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1437,
+      "field": "title",
+      "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+      "rawDeepLSHA256": "8ffd75b3a4afeadb859eac389cc0d20f2281cd643bbee378038ae4832d32fdeb",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 14,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 14,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1437,
+      "field": "detail",
+      "englishSHA256": "ecc2ac307cbbfae7456b4280c6906400fd31efe225a45d3595b0c7e42a5dc5b6",
+      "rawDeepLSHA256": "76fc6ffb2197b09bdbf78c5ac72502cd716041f9a1fdd0c8ffaa57c35ad6f0a9",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 15,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 15,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1437,
+      "field": "objective",
+      "englishSHA256": "4a27945c296d1289aed6350405a3fd214b366b6d1ad4e9c943c2ff2a1c779311",
+      "rawDeepLSHA256": "bb4a6bcac186dab770add301f05965e9ac85fb876dc90367e58ee5ade26af7bb",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 16,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 16,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1437,
+      "field": "complete",
+      "englishSHA256": "852d064b9f0d9b88577a25aba397074f90bac0bca8c087aa2e80740b39ffd6f8",
+      "rawDeepLSHA256": "232b30f49e547ee45300ac0a9117e8e14a686d04ea5168aa299e987ed27f1f86",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 17,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 17,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1465,
+      "field": "title",
+      "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+      "rawDeepLSHA256": "8ffd75b3a4afeadb859eac389cc0d20f2281cd643bbee378038ae4832d32fdeb",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 18,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 18,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1465,
+      "field": "detail",
+      "englishSHA256": "18a24af406154d63488bd96b313344c79e6b5124382b24981a00f87e4df96bab",
+      "rawDeepLSHA256": "6c70764ebfdeded632896af5b722b080331ea161b5f32b54b1367b55f0249033",
+      "rawDeepLRequestFile": "deepl-g2-1-request.json",
+      "requestIndex": 19,
+      "rawDeepLResponseFile": "deepl-g2-1-response.json",
+      "responseIndex": 19,
+      "rawDeepLIndexFile": "deepl-g2-1-index.json"
+    },
+    {
+      "id": 1465,
+      "field": "objective",
+      "englishSHA256": "7f249e9f1de98404841c15793433759387e81e83f61ac3d8a1b67e7337a777d4",
+      "rawDeepLSHA256": "3daa58a013554cb3b63328ed9d381ad9b82f5c61d2e0adafb87c4cab3c428699",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1465,
+      "field": "complete",
+      "englishSHA256": "aef48009a104e60e63b23f609f59ce494eee20359f8051ffb6da8faa6c70ac72",
+      "rawDeepLSHA256": "f8dcfad93800363ef5173753c20b52e2f21bce6042fcf66dfa69043348be108e",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1438,
+      "field": "title",
+      "englishSHA256": "2f780be4812183981c3910fb0b1646bb91db3492e8f1efd633357805fb0ec628",
+      "rawDeepLSHA256": "8ffd75b3a4afeadb859eac389cc0d20f2281cd643bbee378038ae4832d32fdeb",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1438,
+      "field": "detail",
+      "englishSHA256": "b2ee2c704e38411ed1ff3c91b370b93a87c8e03790ee0fc4173b490e71a2f54d",
+      "rawDeepLSHA256": "8cbc50cac3f64326d1d023e857fb688216a0cf9bba69d4b804810159f18a317a",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 3,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 3,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1438,
+      "field": "objective",
+      "englishSHA256": "15d658b64fd91bcef2e596fcab81d4287146e0160cf12d42f9cdebb29bb1c657",
+      "rawDeepLSHA256": "0bdf88d9933e427affff99202e5ea86073d5cefd52af1c59ea8e802737f08e30",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 4,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 4,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1438,
+      "field": "complete",
+      "englishSHA256": "53f32f308d9b49be3426ca5a40d631884494a86c3c850558cade3501bff5bb4a",
+      "rawDeepLSHA256": "e822c3b79af09b581887d36095ba4199592d7bd7039cff7fd400a73e1a1ffcf4",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 5,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 5,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1439,
+      "field": "title",
+      "englishSHA256": "b68ab7c8862322bf3e177353113a166717226fd002b3c94a8033e5e066f62918",
+      "rawDeepLSHA256": "0f80f582601358ee7576cabcbb65f23c220de9b15a8dfc9783e4a7593d9b0b20",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 6,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 6,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1439,
+      "field": "detail",
+      "englishSHA256": "92ca30dc97752acb90d77ebe9f914d3b4ee2a2b3daaeef08e4d67518ef3bb948",
+      "rawDeepLSHA256": "dd889b42741a2d0ebf5ad444251dfca115cb39c416468185cd041866200cacf7",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 7,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 7,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1439,
+      "field": "objective",
+      "englishSHA256": "2deaa594de31289d9c16f44690ecd35e1e9c4bbb742fe664d1749343793cce0c",
+      "rawDeepLSHA256": "70f4a76ceca57e2e6eaa6dde5b37918498d1b71dbf0a1d4ea2c52e75bc334145",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 8,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 8,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1439,
+      "field": "progress",
+      "englishSHA256": "2636e114a5383f31d40813369e1dffcfc28ac9fc76c7df75fd3a50be8b85e4aa",
+      "rawDeepLSHA256": "2bf48fca28d4360c084499acc750c57a50a57851c04f6c57b565b3a744e2ef9c",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 9,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 9,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1439,
+      "field": "complete",
+      "englishSHA256": "1a7591a19ee7ab028eab1028eb37c5be325b94c141103acf8b81ff0e9a5e5442",
+      "rawDeepLSHA256": "7b42377de633db4d69453150081ffa8091111c22df5dc0894c77ad9e2e813d84",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 10,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 10,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1440,
+      "field": "title",
+      "englishSHA256": "b30ad699ce7cfe2db73f8001147f664721343db4b7b105cb8bfe833246942d84",
+      "rawDeepLSHA256": "da339404b5976b929f2cf0e95281f189ef30ca33ce72844b02610117b0c26917",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 11,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 11,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1440,
+      "field": "detail",
+      "englishSHA256": "2967d4d14980fb09fc4a451fecaf1227d989538939cfde90b7ed9d30e3374382",
+      "rawDeepLSHA256": "7cfee28fe1f40a28c7df96cfa12d1aeb596d2243220abe76d448e730f8f0e2bc",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 12,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 12,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1440,
+      "field": "objective",
+      "englishSHA256": "838141e38e1c1dda4e086463542605af51cb8ca235c6df2af55c6f72df52ec1a",
+      "rawDeepLSHA256": "e6a9a244097b3dadfd64247411a4fb9ff3147a89f5327a946cfdb8926496dae5",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 13,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 13,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 1440,
+      "field": "complete",
+      "englishSHA256": "5eb61838b8e13e9e9dc8c2bad64bd5166de6e7ed8727897033d8b84add354581",
+      "rawDeepLSHA256": "0bc43c9a24c0efef100dc35bbb8033a5f88b8a8528d4dea7a617a12dc5d55fab",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 14,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 14,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 97284,
+      "field": "title",
+      "englishSHA256": "40e5d05f79676971c95fc6e7f6687dd4f23695694158fb7b0f40b7c29174da5d",
+      "rawDeepLSHA256": "1671de8fa2776f2c8101173bbdb1a53c739ef8ae028eb10dcaf7da5e338b88e5",
+      "rawDeepLRequestFile": "deepl-g2-2-request.json",
+      "requestIndex": 15,
+      "rawDeepLResponseFile": "deepl-g2-2-response.json",
+      "responseIndex": 15,
+      "rawDeepLIndexFile": "deepl-g2-2-index.json"
+    },
+    {
+      "id": 97284,
+      "field": "detail",
+      "englishSHA256": "31ee6f1656b5b201459458fc26af2540c959611502e09e35a3a437b769089f33",
+      "rawDeepLSHA256": "183964aeecb732e551d4471e3c7d8203b7235b1abef0405cc4cb9f02837334ea",
+      "rawDeepLRequestFile": "deepl-g2-3-request.json",
+      "requestIndex": 0,
+      "rawDeepLResponseFile": "deepl-g2-3-response.json",
+      "responseIndex": 0,
+      "rawDeepLIndexFile": "deepl-g2-3-index.json"
+    },
+    {
+      "id": 97284,
+      "field": "objective",
+      "englishSHA256": "c7b350a742628483361abf15acd723147d975e539d01e9c7939a354dff32d341",
+      "rawDeepLSHA256": "dba41161fd7d89c408f801f1ee5d02ae1938acf6b810275d5a9539ebd5628b29",
+      "rawDeepLRequestFile": "deepl-g2-3-request.json",
+      "requestIndex": 1,
+      "rawDeepLResponseFile": "deepl-g2-3-response.json",
+      "responseIndex": 1,
+      "rawDeepLIndexFile": "deepl-g2-3-index.json"
+    },
+    {
+      "id": 97284,
+      "field": "complete",
+      "englishSHA256": "2b38280ebd8fd00494a96ef245eb0539267ec4b1a2c7493f2ff096561dc7241e",
+      "rawDeepLSHA256": "876b707af6cadace41675f895faea6c0a3cc4cecbfd68311c8e91fd0dd33231a",
+      "rawDeepLRequestFile": "deepl-g2-3-request.json",
+      "requestIndex": 2,
+      "rawDeepLResponseFile": "deepl-g2-3-response.json",
+      "responseIndex": 2,
+      "rawDeepLIndexFile": "deepl-g2-3-index.json"
+    },
+    {
+      "id": 1431,
+      "field": "complete",
+      "variant": "secondary held",
+      "englishSHA256": "53674fe830a68cc3922c9d34b947cea96260ac485740665b4069dc73c4163bd1",
+      "rawDeepLSHA256": "edd25ee26e91adc8f1dc0a9a9aa4bd6c425e9f363eebdc768b549a819436fa53",
+      "rawDeepLRequestFile": "deepl-alternate-request.json",
+      "requestIndex": 0
+    }
+  ],
+  "actualRawDeepLInputs": 86,
+  "canonicalAuditAndProvenanceAliases": "PASS all 95 slots",
+  "paragraphMarkerCountChecks": "PASS 83 enabled fields; source-backed held/null states kept separate",
+  "maintainedMapTermsConserved": 5008,
+  "maintainedPronunciationDifferences": {
+    "Warchief Thrall": {
+      "maintained": "ဝေါချီဖ် သရောလ်",
+      "author": "ဝေါချိဖ် သရောလ်"
+    }
+  },
+  "newAssistedTermProposals": 44,
+  "contractChecks": {
+    "identity": 19,
+    "numeric": 2,
+    "actions": 25,
+    "ordered": 3,
+    "directions": 3,
+    "formalHolds": 2,
+    "meaningfulBadControls": [
+      {
+        "name": "ear-count",
+        "id": 1366,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "15 ခု",
+        "to": "14 ခု"
+      },
+      {
+        "name": "satyr-count",
+        "id": 1434,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "7 ကောင်",
+        "to": "8 ကောင်"
+      },
+      {
+        "name": "satyr-target-same-count",
+        "id": 1434,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "Hatefury Rogues",
+        "to": "Burning Blade Adepts"
+      },
+      {
+        "name": "ears-v-heads-same-count",
+        "id": 1366,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "Centaur Ears",
+        "to": "Centaur Heads"
+      },
+      {
+        "name": "post-direction",
+        "id": 1432,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "မြောက်ဘက်က Ghost Walker Post",
+        "to": "တောင်ဘက်က Ghost Walker Post"
+      },
+      {
+        "name": "valley-direction",
+        "id": 1432,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "ရဲ့ တောင်ဘက်ကို သွားရင်",
+        "to": "ရဲ့ မြောက်ဘက်ကို သွားရင်"
+      },
+      {
+        "name": "ruins-direction",
+        "id": 1481,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "အရှေ့မြောက်ဘက် ရှေးဟောင်း",
+        "to": "အနောက်တောင်ဘက် ရှေးဟောင်း"
+      },
+      {
+        "name": "direct-south",
+        "id": 1488,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "တောင်ဘက်တည့်တည့်",
+        "to": "မြောက်ဘက်တည့်တည့်"
+      },
+      {
+        "name": "near-death-condition",
+        "id": 1435,
+        "field": "progress",
+        "result": "REJECTED",
+        "from": "သေလုနီးပါးဖြစ်မှသာ",
+        "to": "ကျန်းမာအားပြည့်နေမှသာ"
+      },
+      {
+        "name": "gem-auto-kill",
+        "id": 1435,
+        "field": "progress",
+        "result": "REJECTED",
+        "from": "အားမကိုးနဲ့",
+        "to": "အားကိုးပါ"
+      },
+      {
+        "name": "sincerity-negative",
+        "id": 1439,
+        "field": "complete",
+        "result": "REJECTED",
+        "from": "စိတ်ရင်းပါပုံ မပေါ်ရင်",
+        "to": "စိတ်ရင်းပါပုံ ပေါ်ရင်"
+      },
+      {
+        "name": "permission-condition",
+        "id": 1484,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "သူခွင့်ပြုရင်",
+        "to": "သူခွင့်မပြုရင်"
+      },
+      {
+        "name": "alive-condition",
+        "id": 97284,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "အသက်ရှင်နေသေးရင်",
+        "to": "သေဆုံးနေပြီဆိုရင်"
+      },
+      {
+        "name": "smoke-not-buildings",
+        "id": 1465,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "အဆောက်အအုံတွေ မီးလောင်လို့ မဟုတ်ဘဲ",
+        "to": "အဆောက်အအုံတွေ မီးလောင်လို့"
+      },
+      {
+        "name": "fate-before-escape",
+        "id": 1439,
+        "field": "detail",
+        "result": "REJECTED",
+        "from": "မသိမချင်း ကျွန်မ ဒီကနေ မထွက်နိုင်ဘူး",
+        "to": "မသိခင်ပဲ ကျွန်မ ဒီကနေ ထွက်နိုင်တယ်"
+      },
+      {
+        "name": "escort-stage-order",
+        "id": 1440,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "Dalinda Malem (ဒါလင်ဒါ မာလမ်) ကို Thunder Axe Fortress (သန်ဒါ အက်စ် ဖော့ထရက်စ်) မှ ဘေးကင်းစွာ လိုက်ပို့ပြီးနောက်",
+        "to": "Vahlarriel Demonslayer ထံ ပြန်သွားပါ။ Dalinda Malem (ဒါလင်ဒါ မာလမ်) ကို Thunder Axe Fortress (သန်ဒါ အက်စ် ဖော့ထရက်စ်) မှ ဘေးကင်းစွာ လိုက်ပို့ပြီးနောက်"
+      },
+      {
+        "name": "kill-before-return",
+        "id": 97284,
+        "field": "objective",
+        "result": "REJECTED",
+        "from": "Desolace (ဒက်ဆိုလေ့စ်) ရှိ",
+        "to": "Vahlarriel Demonslayer ထံ ပြန်သွားပါ။ Desolace (ဒက်ဆိုလေ့စ်) ရှိ"
+      },
+      {
+        "name": "hold-enable",
+        "id": 1435,
+        "field": "objective",
+        "result": "REJECTED"
+      },
+      {
+        "name": "hold-enable",
+        "id": 1431,
+        "field": "complete",
+        "result": "REJECTED"
+      }
+    ]
+  },
+  "documentaryDifferences": [],
+  "scriptSHA256": "f7dfb1c7d7a13ed17186fc15b6799d821b3030cfb511ef22b2bd21a0fc1e00ef"
+}

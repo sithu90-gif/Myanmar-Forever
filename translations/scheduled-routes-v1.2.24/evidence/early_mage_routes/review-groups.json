@@ -1,0 +1,257 @@
+[
+  {
+    "group": 1,
+    "questIDs": [
+      78132,
+      78133,
+      78134,
+      1939,
+      1938
+    ],
+    "status": "author review complete; independent assisted review pending",
+    "fieldsRead": {
+      "78132": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "78133": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "78134": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1939": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1938": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ]
+    },
+    "readFieldHashes": {
+      "78132": {
+        "title": "80d4375bfbfeb6794adbf4b27cbfbe827d8a885c1cf46b4c7cc2afbab1e2fb6e",
+        "detail": null,
+        "objective": null,
+        "progress": "8b2db058ece222900d559f367d0cbb50374737e666a9588c1fc318619511784b",
+        "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+      },
+      "78133": {
+        "title": "11ad17b48058234e21cf3024d7c75f78a10929cdee0582131546040b1b7c8a00",
+        "detail": null,
+        "objective": null,
+        "progress": "eaaea2a9426b6da42e0fbf2a4ef0cc7418849f85cc8ed7e3cfbe5274634b59e5",
+        "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+      },
+      "78134": {
+        "title": "03ed2f05b0ab8dd242149eeb67481334186c7ff69a9e9345d066d0a3b420f38e",
+        "detail": null,
+        "objective": null,
+        "progress": "4c4e5372ec9c03ff02e5423e14229f020746c832de9de1daa74bf7fbd78091c2",
+        "complete": "278b4662147c451ebc9cc9049bf961a93a17c0b568d2c1ac81dfb648400431de"
+      },
+      "1939": {
+        "title": "bd90badba160529252f69f2633b8718415873216fd6494d064992574643fe903",
+        "detail": "113ec37efd1ae0ce5dafde65817f998c59c45bbc560f9602c42c6c717825e46e",
+        "objective": "c8349b027077e3c415d3a82885b796c80152267bf62f5b11adff983a7ad257b5",
+        "progress": null,
+        "complete": "e49fc8ffaefa68625dba2ac3477b3cabb858d089da18248fe1b17207bf9a03e1"
+      },
+      "1938": {
+        "title": "7866b7ff1583e975ee8de7ce2b6f343c4dbbda55ac576a10d97a9697a128a35b",
+        "detail": "3df286e44c6fb6740dd7b50c73db9b95ab433a9ee0a3acf1ae5726e20707e20a",
+        "objective": "4e607ec75638e76e5cf76d97c5a3d1d5fbc87be6004712e98ede33fac6cdeaf4",
+        "progress": "9d19ed6b6466e92a1c0c2910fa6db10416fedf30db9d828d14eddce0361ca600",
+        "complete": "698f162746ab544ad4ac0cb2c91cece7d292734606193290c329a301dbd106fd"
+      }
+    },
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    },
+    "metadataPins": {
+      "version": "1.1.3",
+      "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+      "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "questCount": 5982,
+      "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+      "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+    },
+    "checks": [
+      "linguistic_lint.lint",
+      "build_release.validate_fields",
+      "current primary parse equality",
+      "paragraph counts",
+      "supported marker/digit Counters",
+      "bad controls/foreign script absence",
+      "genuine raw request/response/index cardinality and hashes"
+    ],
+    "artifactHashes": {
+      "edited.json": "dc524d3cee787fdadfbd99fa21e10ea6b0d0ada9d4e1f410b1d4cc0d8f8b98b8",
+      "review-audit.json": "ab90c55401743836450dad1ac06c02ba377a50027632a06ec643956afae7eae4",
+      "group-1-author-check.json": "8fed26abe1903a64d2cc412dfdde00938be9dc9c705c2c5328ea57c22ba925dc"
+    },
+    "completedAtUTC": "2026-11-25T20:53:30.802529+00:00"
+  },
+  {
+    "group": 2,
+    "questIDs": [
+      1940,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946
+    ],
+    "status": "author review complete; independent assisted review pending",
+    "fieldsRead": {
+      "1940": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1942": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1943": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1944": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1945": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ],
+      "1946": [
+        "title",
+        "complete",
+        "progress",
+        "objective",
+        "detail"
+      ]
+    },
+    "readFieldHashes": {
+      "1940": {
+        "title": "d1ec7f49d0c3b23a5d3c0f88a9ba9274cdfd94016a9bd8ac0e836422165b662e",
+        "detail": "e9536615fb56382ed7c0ac1b215daaf3cb8b247bc27297b12f47f779417c41d8",
+        "objective": "4853c24e763be211ba0233dd622263b87e89b7727d45415efbc2c2bcde58d0e4",
+        "progress": "a98d8fc50094d417d0d4bc246643a6dd5e759af0235bb004a167644e5be97c7a",
+        "complete": "1f2ff4839688fe1b74a9f1b4e711479c4b769acb4e6f1ce91d0d3c98ce24d364"
+      },
+      "1942": {
+        "title": "b92f5335a03a3cd2d89eedef17527c6a0e4ab90d3b15c7d42dbb693ac30f0a69",
+        "detail": null,
+        "objective": null,
+        "progress": null,
+        "complete": "b374b7c5261eb64045da07b3977c615da8b4d091461ad5bd7f0713f93ff5c9f0"
+      },
+      "1943": {
+        "title": "8c11691e76e4a2fd965521b38906b333f17c14d178524b93eae82aa2c027c238",
+        "detail": "e91809457fb34ad2cc518cd2a3c51e167999badc77fd71f1e2a40446813d3a5e",
+        "objective": "dd7d71f895a0deec5dd4a34fffbd084c0d9c1cf65e42b69d5f6d4fd620cd381b",
+        "progress": null,
+        "complete": "2e4803183679c3d354cc4bc75663f168881474b866718d506cd58428d676189d"
+      },
+      "1944": {
+        "title": "80dcddbcd3c505a68dbca172727ccc66634e419dbeec6787cb0a17cf8ea126ee",
+        "detail": "43fcb0f8deed17ce12b8d2a9ed747cde8333ab5419ba542ca31f6cf79d756102",
+        "objective": "65ca4c41045aa1bdf4fa8b0f605afc829291d5debc8b72a241a738f69df97a4e",
+        "progress": "d9faedfe8c9027879b9bf73fd408fbd6cf855af6b9c53a52e3e919ae1672124e",
+        "complete": "6aaca562a0d128f50da1d1ea991975d24ec1e8c657b36c2ee5d641ea0bbb2283"
+      },
+      "1945": {
+        "title": "b55bd0d7a1effb92d96d5538d38f6d6f9b5bca1271847c91460a4e850c813444",
+        "detail": "d5fc9ce28c3849f67079da41baea9339de96f477d3580ca23c92f4d37f97e823",
+        "objective": "05dde6b2dedc1246faf4a54f8169cd974dc91c597bf6aba8f97e6cda2c91b717",
+        "progress": "3211b48718dbbcd466d9e1b7fdc8f46636ac492f7f95b570def9ddd44a65c7c4",
+        "complete": "b67f8f953244bbae038565765f3523b7d759f1d35c9202400c6b0f0e9e450363"
+      },
+      "1946": {
+        "title": "c09a8a450a30160018cb72d22eb4199ff338fc524a57091c558271925faa5829",
+        "detail": null,
+        "objective": null,
+        "progress": null,
+        "complete": "3f3b428c98735c8f3952b9bfed2d0a4d025ff212c75afcd977f41be069e61695"
+      }
+    },
+    "sourcePins": {
+      "repository": "sysrover/UA_Forever",
+      "version": "1.1.2",
+      "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+      "checkedAt": "2026-11-25T20:33:02.501825+00:00",
+      "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+      "publishedAtUTC": "2026-11-24T04:16:06Z",
+      "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+      "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+      "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+    },
+    "metadataPins": {
+      "version": "1.1.3",
+      "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+      "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "questCount": 5982,
+      "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+      "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+      "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+    },
+    "checks": [
+      "linguistic_lint.lint",
+      "build_release.validate_fields",
+      "current primary parse equality",
+      "paragraph counts",
+      "supported marker/digit Counters",
+      "bad controls/foreign script absence",
+      "genuine raw request/response/index cardinality and hashes"
+    ],
+    "artifactHashes": {
+      "edited.json": "dc524d3cee787fdadfbd99fa21e10ea6b0d0ada9d4e1f410b1d4cc0d8f8b98b8",
+      "review-audit.json": "ab90c55401743836450dad1ac06c02ba377a50027632a06ec643956afae7eae4",
+      "group-2-author-check.json": "73bcc175d4eaed7607e04c38bd160c1b9e913b128e2da6006c7dfe62e3be3e6a"
+    },
+    "completedAtUTC": "2026-11-25T20:53:30.802529+00:00"
+  }
+]

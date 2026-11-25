@@ -1,0 +1,31 @@
+{
+  "status": "all independent findings resolved; checks repeated",
+  "independentlyReviewedQuestIDs": 50,
+  "corrections": [
+    {
+      "partition": "desolace_routes",
+      "id": 1433,
+      "field": "complete",
+      "englishSHA256": "4bc123cc86ab6902ae9befa5d6b12e27403b7220238affdad420c12a5f8d385c",
+      "priorMyanmarSHA256": "c5b0b784d5a3d0cb47bcfcd0d19e64f512aa89244ee1aea91896c4d634386789",
+      "correctedMyanmarSHA256": "1a78843561639d8502dd47a13494b126898088b7fb62e21f9be6431d4ba3c38a",
+      "reason": "The field identifies the compound Warchief Thrall from English Warchief cub Thrall. The frozen author pronunciation map changes the existing maintained whole compound from ဝေါချီဖ် သရောလ် to ဝေါချိဖ် သရောလ်. Restore the exact maintained whole-compound pronunciation. Retain standalone Warchief (ဝေါချိဖ်), patronizing cub/youngling voice, all other prose, paragraphs and <class> unchanged. This reconciliation follows the maintained map and is not native pronunciation approval."
+    },
+    {
+      "partition": "early_mage_routes",
+      "id": 1939,
+      "field": "detail",
+      "englishSHA256": "313b1bf8a9db5f57dacd161d296b41ce2a4dbe24827aa7da4ea1be472c5543a2",
+      "priorMyanmarSHA256": "113ec37efd1ae0ce5dafde65817f998c59c45bbc560f9602c42c6c717825e46e",
+      "correctedMyanmarSHA256": "c34fe766a03574b91eef5f7f7527055da696112fb5c5b1e81a666c4fee5ee9bf",
+      "reason": "The source's mage's district of Stormwind identifies the named Mage District. The current field retains only Mage plus a generic Myanmar district noun, so it loses the whole place identity and its maintained pronunciation. Retain Mage District (မေ့ဂျ် ဒစ်စထရစ်ခ်တ်) and place the separate Mage class pronunciation at its first class occurrence later in the same field. All other prose is conserved."
+    }
+  ],
+  "pronunciationDecisions": {
+    "Warchief Thrall": "ဝေါချီဖ် သရောလ်"
+  },
+  "sourceEvidenceCorrectionCount": 6,
+  "sourceEvidenceCorrectionReceipt": "evidence/source-evidence-dispositions.json",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}
