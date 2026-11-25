@@ -1,0 +1,96 @@
+{
+  "result": "Source-supported independent corrections approved under exact source/author hash guards",
+  "acceptedFields": {
+    "kalimdor_routes": [],
+    "alliance_routes": [],
+    "class_routes": []
+  },
+  "pronunciationOverrides": {},
+  "annotationExceptionRemovals": {
+    "kalimdor_routes": [],
+    "alliance_routes": [],
+    "class_routes": []
+  },
+  "semanticContractChanges": [],
+  "acceptedEvidenceCorrections": [
+    {
+      "partition": "alliance_routes",
+      "file": "source-boundaries.json",
+      "authorFileSHA256": "768ffa78c9da925246d6ea8c1958f8b55176aa09b435755907c2f57d1660f561",
+      "correctedFileSHA256": "bd086ffe343a23351b935f08a74dd436d3cb7c799e4d98cbb7af93c0c5b90d1d",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "source-boundaries.json",
+          "authorFileSHA256": "768ffa78c9da925246d6ea8c1958f8b55176aa09b435755907c2f57d1660f561",
+          "jsonPath": [
+            "1267",
+            "primaryObjectiveTables"
+          ],
+          "oldValue": [
+            "Jaina's Signet Ring"
+          ],
+          "newValue": [],
+          "sourceEvidence": {
+            "file": "1267-wowhead.html",
+            "sourceHTMLSHA256": "faa5d910b31152b1aab7b0e45199aa01b9f9a1ef059403e918c8a5fc05ef07c3",
+            "sourceURL": "https://www.wowhead.com/forever/quest%3D1267/the-missing-diplomat",
+            "actualHeading": "Rewards",
+            "actualTableClass": "icontab icontab-box",
+            "actualItemID": 6757,
+            "actualItemLabel": "Jaina's Signet Ring",
+            "objectiveBoundary": "After h1 objective is plain Speak to Jaina Proudmoore in Dustwallow Swamp. First following actual h2 is Completion. No objective table precedes Completion."
+          },
+          "reason": "Reward table was included as objective-table evidence because this quest has no Description heading. Correct current documentary classification to no objective tables; preserve frozen original and existing translation."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/alliance_routes/source-boundaries.json",
+      "correctedPublicPath": "evidence/alliance_routes/source-boundaries.json"
+    },
+    {
+      "partition": "alliance_routes",
+      "file": "source-sanity.json",
+      "authorFileSHA256": "9cbc60b0e9eaa59cb0f4c488411df376c662637c03a16ec8bfb8857f5b4209a4",
+      "correctedFileSHA256": "b2b81fcf6d6e4e205417bec1f41b29612b4957c8b9e609750919391055626fee",
+      "correctionCount": 1,
+      "changes": [
+        {
+          "file": "source-sanity.json",
+          "authorFileSHA256": "9cbc60b0e9eaa59cb0f4c488411df376c662637c03a16ec8bfb8857f5b4209a4",
+          "jsonPath": [
+            "quests",
+            "1267",
+            "questObjectiveTables"
+          ],
+          "oldValue": [
+            "Jaina's Signet Ring"
+          ],
+          "newValue": [],
+          "sourceEvidence": {
+            "file": "1267-wowhead.html",
+            "sourceHTMLSHA256": "faa5d910b31152b1aab7b0e45199aa01b9f9a1ef059403e918c8a5fc05ef07c3",
+            "sourceURL": "https://www.wowhead.com/forever/quest%3D1267/the-missing-diplomat",
+            "actualHeading": "Rewards",
+            "actualTableClass": "icontab icontab-box",
+            "actualItemID": 6757,
+            "actualItemLabel": "Jaina's Signet Ring",
+            "objectiveBoundary": "After h1 objective is plain Speak to Jaina Proudmoore in Dustwallow Swamp. First following actual h2 is Completion. No objective table precedes Completion."
+          },
+          "reason": "Reward table was included as objective-table evidence because this quest has no Description heading. Correct current documentary classification to no objective tables; preserve frozen original and existing translation."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/alliance_routes/source-sanity.json",
+      "correctedPublicPath": "evidence/alliance_routes/source-sanity.json"
+    }
+  ],
+  "independentReportSHA256": {
+    "kalimdor_routes": "f88b7d482f4f6ed0186b8faf56ce7160b7db2b40a066f9acc43becafcbb31001",
+    "alliance_routes": "54e66414d7e922cf3735259114f76c3264d50763d25edc54d7d4cfca3e60c2da",
+    "class_routes": "5dec7365660caac7a0308e32447b3a33422f3c6ac9b98fa239983c8790ffdacb"
+  },
+  "additionalIdentityContracts": [],
+  "priorCatalogTextChanges": false,
+  "renderedCompanionDisposition": "Frozen author HTML stays historical in source work; not published. Final download HTML is generated from corrected candidate fields, not stale author notes.",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

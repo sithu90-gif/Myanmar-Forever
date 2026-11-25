@@ -1,0 +1,27 @@
+{
+  "result": "PASS",
+  "questID": 86776,
+  "EnglishIdentity": "Ingredients for the Forge",
+  "requiredExactReviewedFieldsSHA256": {
+    "title": "7e62060a19ba0137d6f3c9f43269bb33a3f0bbc2d398e5805197ef6c981155d5",
+    "detail": "cc618bdc40c60d31d24ab7c98f68558236d7eb5e277068a7a907b73c916847ec",
+    "objective": "d36b1c9f240c77e8d3c3494a2a2025495d706c9b9c7e23e67a0c54b76f440ba7",
+    "progress": "c479611292786046c7e61bc44c8f1750e326a0ab8361ef1a6cabb25c27b39e45",
+    "complete": "27a8c06d17db441e3034d597dc5e06bd549022cafbbaa49dd34905ece6eb5f11"
+  },
+  "originalSnapshotUnmodifiedSHA256": "930cc7f6778d830d98dd2df80b65ae930309902f7777dcf33225b8703d86bdd7",
+  "redTest": "New Forge regression failed before fix with original Out-of-scope/placeholder assertion.",
+  "greenTest": "All26Python tests pass after exact-field-hash exemption; wrongquantity/identity/title-only/unreviewedplaceholder and changedanchor rejected.",
+  "changedTools": {
+    "tools/build_release.py": {
+      "before": "905307b31f742cefa6ea8ae2edf34493543788bb3aca96fb7cae8f757ba60d65",
+      "after": "769c6f99a48d2067959fbbdad3b16bb189f8a5c75b44f950217adbc7d71364ad"
+    },
+    "tools/test_build_release.py": {
+      "before": "92f069ef13bcc6227f6985ffa1a0be2e3282fc3c15aa5eb776770a40e72484fe",
+      "after": "bda0341fc33d14c3e9d5a121d9f214c968ced7490145c8f294a40720d8eee128"
+    }
+  },
+  "sourceAndReview": "translations/scheduled-routes-v1.2.23/{english-sources,review-audit}.json; evidence/independent-review/alliance_routes.json",
+  "preservesOtherExclusions": true
+}

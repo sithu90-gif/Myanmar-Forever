@@ -1674,3 +1674,94 @@ if A.quests[79192] and A.quests[98815] and A.quests[98219] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 current-source quest contracts plus linked item safeguards, distinct treasure, Farren and royal tribute stages, unavailable states and recorded holds.')
 end
+
+if A.quests[1021] and A.quests[1274] and A.quests[1798] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({1021,1031,1032,86757,98069,98070,1135,1145,1146,1147,3567,5421,1104,1105,1110,1175,1176,1179,1106,1178,98208,86776,87491,1274,1241,1242,1243,1244,1245,1246,1447,1247,1248,1249,1250,1264,1265,1266,1324,1267,1798,2996,3001,1758,1801,1802,1803,1804,1805,1795}) do
+    assert(A.quests[id] and A.quests[id].title,'25NovemberAfternoon quest missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost exact quest title/ID')
+    end
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail and not A.quests[111].progress,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:25NovemberAfternoon50 records and150 new dialogue routing/capture cases with inherited fallback guards.')
+end
+
+if A.quests[1021] and A.quests[1274] and A.quests[1798] then
+  local contracts={    {1021,"objective",{"Anilia","Xavian"}},
+    {1031,"objective",{"Geltharis","Branch of Cenarius","Illiyana","Shrine of Aessina"}},
+    {1032,"objective",{"Satyr Horns","Illiyana","Shrine of Aessina"}},
+    {86757,"objective",{"Jagged Orc Swords","Curved Orc Daggers","Shandrina"}},
+    {98069,"objective",{"Stolen Freewind Supplies","Jandia","Freewind Post"}},
+    {98070,"objective",{"Screeching Harpies","Screeching Roguefeather Harpies","Screeching Windcaller Harpies"}},
+    {1135,"objective",{"Highperch Venom Sacs","Fiora Longears","Theramore"}},
+    {1145,"objective",{"Korran's Sealed Note","Belgrom Rockmaul","Orgrimmar"}},
+    {1146,"objective",{"Belgrom's Sealed Note","Moktar Krin","Thousand Needles"}},
+    {1147,"objective",{"Silithid Searchers","Silithid Hive Drones","Silithid Invaders","Moktar Krin","Thousand Needles"}},
+    {3567,"complete",{"twin colossals"}},
+    {5421,"progress",{"Shadowprey Village","shellfish","Bloodbelly fish"}},
+    {1104,"objective",{"Salty Scorpid Venoms","Fizzle Brassbolts","Shimmering Flats"}},
+    {1105,"objective",{"Hardened Tortoise Shells","Wizzle Brassbolts","Shimmering Flats"}},
+    {1110,"objective",{"Rocket Car Parts","Kravel Koalbeard","Shimmering Flats"}},
+    {1175,"objective",{"Saltstone Basilisks","Saltstone Crystalhides","Saltstone Gazers","Trackmaster Zherin","Shimmering Flats"}},
+    {1176,"objective",{"Hollow Vulture Bones","Pozzik","Shimmering Flats"}},
+    {1179,"objective",{"crate of crash helmets","Wizzle Brassbolts","Shimmering Flats"}},
+    {1106,"objective",{"Fizzle's Letter","Martek the Exiled","Badlands"}},
+    {1178,"objective",{"Gazlowe","Ratchet"}},
+    {98208,"objective",{"Nord'el","Sylessa Duskwhisper","Menethil Harbor"}},
+    {86776,"objective",{"Bronze Bars","Morhan Coppertongue"}},
+    {87491,"objective",{"captive fire elemental","Dun Modr"}},
+    {1274,"objective",{"Bishop DeLavey","Stormwind Keep"}},
+    {1241,"objective",{"Jorgen","Stormwind City"}},
+    {1242,"objective",{"Jorgen","Sealed Note to Elling","Elling Trias","Stormwind City"}},
+    {1243,"objective",{"Sealed Note to Watcher Backus","Watcher Backus","Duskwood"}},
+    {1244,"objective",{"Defias Docket","Watcher Backus","Duskwood"}},
+    {1245,"objective",{"Defias Docket","Elling Trias","Stormwind"}},
+    {1246,"objective",{"Dashel Stonefist","Stormwind"}},
+    {1447,"objective",{"Dashel Stonefist","Stormwind"}},
+    {1247,"objective",{"Elling Trias","Stormwind"}},
+    {1248,"objective",{"Mikhail","Wetlands"}},
+    {1249,"objective",{"Tapoke Jahn","Mikhail","Menethil"}},
+    {1250,"objective",{"Mikhail","Wetlands"}},
+    {1264,"objective",{"Commander Samaul","Dustwallow Marsh"}},
+    {1265,"objective",{"Sentry Point","Private Hendel"}},
+    {1266,"objective",{"Private Hendel","Dustwallow Marsh"}},
+    {1324,"objective",{"Private Hendel","Dustwallow Marsh"}},
+    {1267,"objective",{"Jaina Proudmoore","Dustwallow Swamp"}},
+    {1798,"objective",{"Barrens","Strahad Farsan"}},
+    {2996,"objective",{"Ratchet","Strahad Farsan"}},
+    {3001,"objective",{"Ratchet","Strahad Farsan"}},
+    {1758,"objective",{"Ironforge","Krom Stoutarm"}},
+    {1801,"objective",{"Undercity","Jorah Annison"}},
+    {1802,"objective",{"Ironforge","Krom Stoutarm","Moldy Tome","Tattered Manuscript"}},
+    {1803,"objective",{"Undercity","Jorah Annison","Moldy Tome","Tattered Manuscript"}},
+    {1804,"objective",{"Reconstructed Tome","Rods of Channeling","Ratchet","Strahad Farsan"}},
+    {1805,"objective",{"Reconstructed Tome","Rods of Channeling","Ratchet","Strahad Farsan"}},
+    {1795,"objective",{"Tome of the Cabal","felhunter","Ratchet","Strahad Farsan"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Source identity field absent'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source identity failed:'..c[1]..'/'..term) end
+  end
+  for _,c in ipairs({}) do
+    questID=c[1];fire(({detail='QUEST_DETAIL',objective='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[c[2]]);flush()
+    assert(A.window:IsShown() and shown.text:find(A.quests[c[1]][c[2]],1,true),'Encoded source field did not render for exactID')
+  end
+  for _,r in ipairs({{1021,"progress"},{3567,"detail"},{3567,"objective"},{3567,"progress"},{5421,"detail"},{5421,"objective"},{1178,"progress"},{87491,"progress"},{1274,"progress"},{1246,"progress"},{1247,"progress"},{1248,"progress"},{1250,"progress"},{1264,"progress"},{1266,"progress"},{1267,"detail"},{1267,"progress"},{1798,"progress"},{2996,"progress"},{3001,"progress"},{1758,"progress"},{1801,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current source state:'..r[1]..'/'..r[2]) end
+  for _,r in ipairs({{1274,"detail"}}) do
+    assert(not A.quests[r[1]][r[2]],'Unsupported source field enabled:'..r[1]..'/'..r[2])
+    local event=({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[r[2]]
+    if event then
+      questID=r[1];fire(event);flush()
+      assert(not A.window:IsShown() and MMNorthshireCaptures[r[1]].states[r[2]].translationFallback~=nil,'Held state lost original fallback/capture')
+    end
+  end
+  for _,p in ipairs({{1021,1031},{1031,1032},{1145,1146},{1146,1147},{1176,1178},{1274,1241},{1241,1242},{1242,1243},{1243,1244},{1244,1245},{1245,1246},{1246,1447},{1447,1247},{1247,1248},{1248,1249},{1249,1250},{1250,1264},{1264,1265},{1265,1266},{1266,1324},{1324,1267},{1798,1758},{1758,1802},{1802,1804},{1804,1795},{2996,1801},{1801,1803},{1803,1805},{1805,1795},{3001,1801}}) do assert(A.quests[p[1]].objective~=A.quests[p[2]].objective,'Distinct current-source task stages collapsed') end
+  assert(A.quests[1241].en==A.quests[1242].en and A.quests[1242].en==A.quests[1243].en,'Diplomat same-title IDs changed')
+  assert(A.quests[1758].en==A.quests[1801].en and A.quests[1804].en==A.quests[1805].en,'Tome faction step titles changed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 source quest contracts,17 distinct Diplomat IDs,Tome faction stages,service/repeatable boundaries and unavailable-state guards.')
+end

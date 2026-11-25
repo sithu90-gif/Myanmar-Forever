@@ -1,0 +1,562 @@
+{
+  "numeric": [
+    {
+      "id": "1032",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Satyr Horns",
+          "quantity": 16
+        }
+      ]
+    },
+    {
+      "id": "86757",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Jagged Orc Swords",
+          "quantity": 6
+        },
+        {
+          "term": "Curved Orc Daggers",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": "98069",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Stolen Freewind Supplies",
+          "quantity": 8
+        }
+      ]
+    },
+    {
+      "id": "98070",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Screeching Harpies",
+          "quantity": 5
+        },
+        {
+          "term": "Screeching Roguefeather Harpies",
+          "quantity": 5
+        },
+        {
+          "term": "Screeching Windcaller Harpies",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "1135",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Highperch Venom Sacs",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "id": "1147",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Silithid Searchers",
+          "quantity": 5
+        },
+        {
+          "term": "Silithid Hive Drones",
+          "quantity": 5
+        },
+        {
+          "term": "Silithid Invaders",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "1104",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Salty Scorpid Venoms",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "1105",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Hardened Tortoise Shells",
+          "quantity": 9
+        }
+      ]
+    },
+    {
+      "id": "1110",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Rocket Car Parts",
+          "quantity": 30
+        }
+      ]
+    },
+    {
+      "id": "1175",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Saltstone Basilisks",
+          "quantity": 10
+        },
+        {
+          "term": "Saltstone Crystalhides",
+          "quantity": 10
+        },
+        {
+          "term": "Saltstone Gazers",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "1176",
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Hollow Vulture Bones",
+          "quantity": 10
+        }
+      ]
+    }
+  ],
+  "written": [
+    {
+      "id": "1021",
+      "field": "detail",
+      "needles": [
+        "နှစ်ရက်တိတိတောင်"
+      ],
+      "meaning": "two whole days, no supplied digit"
+    },
+    {
+      "id": "3567",
+      "field": "complete",
+      "needles": [
+        "နှစ်ခုထဲက တစ်ခု",
+        "အသွားတစ်ကြောင်းပဲ"
+      ],
+      "meaning": "one of the twin colossals; this is one-way only, do not infer a return"
+    },
+    {
+      "id": "5421",
+      "field": "progress",
+      "needles": [
+        "shellfish ငါးကောင် ယူလာပေးတိုင်း",
+        "တစ်ကောင် ပေးမယ်"
+      ],
+      "meaning": "for every five shellfish→one fine Bloodbelly fish"
+    },
+    {
+      "id": "1146",
+      "field": "complete",
+      "needles": [
+        "တစ်ဝက်ကျော်ကို သတ်လိုက်တာ"
+      ],
+      "meaning": "one threat killed more than half the party"
+    },
+    {
+      "id": "1110",
+      "field": "complete",
+      "needles": [
+        "သတ္တုပြားနှစ်ချပ်ကြား",
+        "နားရွက်တစ်ဖက်"
+      ],
+      "meaning": "ear trapped between two sheets, not two ears or aircraft pilot"
+    },
+    {
+      "id": "1179",
+      "field": "detail",
+      "needles": [
+        "ညီအစ်ကိုနှစ်ယောက်",
+        "ဦးနှောက်လှုပ်"
+      ],
+      "meaning": "couple of gnome brothers; pilots receive concussions"
+    },
+    {
+      "id": "1106",
+      "field": "complete",
+      "needles": [
+        "မသေစေချင်တဲ့",
+        "နှစ်ယောက်လေ"
+      ],
+      "forbidden": [
+        "ငါ့ကို သေစေချင်တဲ့ ရှားရှားပါးပါး"
+      ],
+      "meaning": "two of few people do not want him dead; not inversion"
+    },
+    {
+      "id": "1178",
+      "field": "complete",
+      "needles": [
+        "အင်ဂျင်နှစ်လုံးပါ"
+      ],
+      "meaning": "two-engine model racers; retain written quantity"
+    }
+  ],
+  "actions": [
+    {
+      "id": "1031",
+      "field": "detail",
+      "needles": [
+        "မုခ်ဝဆီ လက်ညှိုးညွှန်",
+        "အသက်ထွက်သွားသည်",
+        "နောက်ဆုံးဆန္ဒ"
+      ],
+      "meaning": "Anilia points, dies, dying wish understood"
+    },
+    {
+      "id": "1032",
+      "field": "detail",
+      "needles": [
+        "ဝမ်းနည်းမိသလိုပဲ",
+        "သက်သေအဖြစ်",
+        "အမြဲတမ်း ကျေးဇူးတင်"
+      ],
+      "meaning": "almost sad uncertainty, horns proof and gratitude"
+    },
+    {
+      "id": "86757",
+      "field": "complete",
+      "needles": [
+        "မတားနိုင်ရင်",
+        "ဝင်သိမ်းပြီး",
+        "ခုတ်လှဲပစ်"
+      ],
+      "meaning": "if not stopped, invade Astranaar and fell wood"
+    },
+    {
+      "id": "98069",
+      "field": "detail",
+      "needles": [
+        "မသေချာဘူး",
+        "ကျောက်ကမ်းပါးခြေရင်းမှာရော ထိပ်က ဂူအတွင်းမှာပါ"
+      ],
+      "meaning": "uncertain harpy intentions, both base and top cave"
+    },
+    {
+      "id": "1145",
+      "field": "progress",
+      "needles": [
+        "အားကျတယ်",
+        "မလိုအပ်ရင်",
+        "သူလိုအပ်နေသရွေ့"
+      ],
+      "meaning": "envy, hypothetical travel if skills unneeded, remain while needed"
+    },
+    {
+      "id": "1146",
+      "field": "complete",
+      "needles": [
+        "အကြောင်းကြားမလာမချင်း",
+        "ဆက်နေမယ်",
+        "နိုးနိုးကြားကြား"
+      ],
+      "meaning": "hold position until Belgrom news, vigilant"
+    },
+    {
+      "id": "1147",
+      "field": "detail",
+      "needles": [
+        "ငါတို့ဘာသာ မလုပ်နိုင်ဘူး",
+        "မရှိလောက်တော့ဘူး",
+        "ဓားဖြစ်ဖြစ် တောင်ဝှေးဖြစ်ဖြစ်"
+      ],
+      "meaning": "party cannot do alone in condition; should no more dwarves uncertainty; blade or staff"
+    },
+    {
+      "id": "1147",
+      "field": "progress",
+      "needles": [
+        "အဲဒီလို မလုပ်နိုင်မချင်း",
+        "ထွက်သွားနိုင်မှာမဟုတ်ဘူး"
+      ],
+      "meaning": "cannot leave until insects pushed back"
+    },
+    {
+      "id": "1147",
+      "field": "complete",
+      "needles": [
+        "အနံ့လည်း",
+        "ထိတ်လန့်ပြေးကုန်မယ်",
+        "မိတ်လိုက်ချင်စိတ်"
+      ],
+      "meaning": "stench joke causes either stampede or heat"
+    },
+    {
+      "id": "3567",
+      "field": "complete",
+      "needles": [
+        "ပို့ပေးနိုင်တယ်",
+        "ဘယ်လိုပြန်ဆင်းမလဲ",
+        "အသွားတစ်ကြောင်းပဲ"
+      ],
+      "meaning": "can send there, consider descent, one way only"
+    },
+    {
+      "id": "5421",
+      "field": "progress",
+      "needles": [
+        "တတ်နိုင်သမျှ အလုပ်နည်းနည်းပဲ",
+        "ဆိပ်ခံတံတားတွေအောက်မှာ",
+        "shellfish ငါးကောင် ယူလာပေးတိုင်း"
+      ],
+      "meaning": "lazy mon register, under docks, repeatable exchange ratio"
+    },
+    {
+      "id": "1104",
+      "field": "detail",
+      "needles": [
+        "တကယ့်ကို တကယ့်ကို တကယ့်ကို",
+        "အချိုးကျအောင် မရသေးဘူး",
+        "သိပြီထင်တယ်"
+      ],
+      "meaning": "really repeated three times; mixture not perfect, thinks knows"
+    },
+    {
+      "id": "1105",
+      "field": "detail",
+      "needles": [
+        "ဖောက်စားသွားနိုင်လောက်အောင်",
+        "အဲဒီလို မဖြစ်ခင်",
+        "ထိန်းထားနိုင်တဲ့ ကန်"
+      ],
+      "meaning": "corrosive fuel, reinforce before damage, holding tanks"
+    },
+    {
+      "id": "1110",
+      "field": "complete",
+      "needles": [
+        "ကားမောင်းသူ",
+        "အကြံတစ်ခုလည်း အလကား",
+        "သူများအဖြစ်ဆိုးထဲက အမြတ်"
+      ],
+      "meaning": "car pilot, free advice, profiteering from others tragedy"
+    },
+    {
+      "id": "1175",
+      "field": "complete",
+      "needles": [
+        "သတ်မထားခဲ့ဘူးလို့ မျှော်လင့်",
+        "ဂေါ်ပြားထုတ်မသုံးချင်ဘူး"
+      ],
+      "meaning": "hopes no kills on tracks, does not want shovel cleanup"
+    },
+    {
+      "id": "1176",
+      "field": "progress",
+      "needles": [
+        "အကုန်မရသေးဘဲ",
+        "မဖွင့်ချင်ဘူး"
+      ],
+      "meaning": "do not open steering rig until all parts ready"
+    },
+    {
+      "id": "1106",
+      "field": "detail",
+      "needles": [
+        "မာကျောတဲ့ ပစ္စတင်တွေ မလုပ်နိုင်လို့",
+        "စမ်းသပ်မှုတွေ အကုန်ရှုံးနိမ့်",
+        "သိလောက်တဲ့လူ"
+      ],
+      "meaning": "failed all trials because unable to make sufficiently hard pistons; someone might know"
+    },
+    {
+      "id": "1106",
+      "field": "progress",
+      "needles": [
+        "ပုဆိန်အကြောင်း",
+        "ဂုဏ်သိက္ခာ",
+        "တိုက်ဖို့လာတာဆိုရင်"
+      ],
+      "meaning": "axe, reclaim Duchess honor, conditional fight"
+    },
+    {
+      "id": "1178",
+      "field": "detail",
+      "needles": [
+        "မရောက်သေးဘူး",
+        "လိုက်မီလာနေပြီ"
+      ],
+      "meaning": "prototype overdue, gnome rivals catching up"
+    }
+  ],
+  "ordered": [
+    {
+      "id": "1031",
+      "field": "detail",
+      "terms": [
+        "လက်တင်ပြီး",
+        "လက်ညှိုးညွှန်လိုက်သည်",
+        "အသက်ထွက်သွားသည်",
+        "နောက်ဆုံးဆန္ဒ"
+      ],
+      "meaning": "drawclose→pointnorth→lastbreath→wish"
+    },
+    {
+      "id": "1104",
+      "field": "complete",
+      "terms": [
+        "ကျို",
+        "skipper-otomer",
+        "nega-catalyst",
+        "မှတ်စုတွေ"
+      ],
+      "meaning": "boildown→applyskipper→addnega→lostnotes"
+    },
+    {
+      "id": "1147",
+      "field": "objective",
+      "terms": [
+        "Silithid Searchers",
+        "Silithid Hive Drones",
+        "Silithid Invaders",
+        "သတ်ပြီး",
+        "ပြန်သွားပါ"
+      ],
+      "meaning": "distincttargetsequence then kill before return"
+    },
+    {
+      "id": "1175",
+      "field": "objective",
+      "terms": [
+        "Saltstone Basilisks",
+        "Saltstone Crystalhides",
+        "Saltstone Gazers"
+      ],
+      "meaning": "distinct target order,10/10/6 count bindings"
+    }
+  ],
+  "directions": [
+    {
+      "id": "1021",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Xavian",
+          "direction": "အရှေ့မြောက်ဘက်",
+          "span": "အရှေ့မြောက်ဘက်က Xavian (ဇေးဗီယန်) မှာရှိတဲ့"
+        }
+      ],
+      "meaning": "Xavian northeast, not southeast"
+    },
+    {
+      "id": "1031",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "မုခ်ဝ",
+          "direction": "မြောက်ဘက်",
+          "span": "မြောက်ဘက်က မုခ်ဝဆီ"
+        }
+      ],
+      "meaning": "arch to north"
+    },
+    {
+      "id": "98069",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "အသိုက်",
+          "direction": "အနောက်ဘက်",
+          "span": "သူတို့အသိုက်က ဒီနေရာရဲ့ အနောက်ဘက်မှာ"
+        }
+      ],
+      "meaning": "lair west"
+    },
+    {
+      "id": "1135",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Highperch",
+          "direction": "အနောက်ဘက်",
+          "span": "ဒီနေရာရဲ့ အနောက်ဘက်၊ Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ဒေသမှာ Highperch"
+        }
+      ],
+      "meaning": "Highperch west in ThousandNeedles"
+    },
+    {
+      "id": "1147",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "တူးဖော်ရာနေရာ",
+          "direction": "တောင်ဘက်",
+          "span": "တူးဖော်ရာနေရာက ဒီနေရာရဲ့ တောင်ဘက်မှာ"
+        }
+      ],
+      "meaning": "digsite south"
+    },
+    {
+      "id": "1179",
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Thousand Needles",
+          "direction": "တောင်ဘက်",
+          "span": "Thousand Needles (သောင်းဇန်းဒ် နီးဒယ်လ်ဇ်) ချောက်ရဲ့ တောင်ဘက် ကပ်လျက်က ဆားလွင်ပြင်"
+        }
+      ],
+      "meaning": "ShimmeringFlats justsouthofThousandNeedles canyon"
+    }
+  ],
+  "formalHolds": [],
+  "englishSHA256": {
+    "1032.objective": "9f8e0deda7909905988f7c63126b4e7b75e8e020bb2ca348f5923c162ff035d2",
+    "86757.objective": "3e80e0210f46e03503ed805c2bd827ac163830de3288e08f1a4dca7a7e74e807",
+    "98069.objective": "a306f40a0a76a4b1c68dd5f0879058ce786f98b1ef9869a2dc330358824b51c5",
+    "98070.objective": "f7127e5d317a8c8d71dc20e1f6eb07aa4b54fcf6bd3936dd1ae6900abd4013f7",
+    "1135.objective": "2c24f9bfadfd1510338019d09e4aeb96a0012c280abe3297457cc0b87f49b2c5",
+    "1147.objective": "1ad9b76b24e5d15deae785ad5d22c3de6937eba0f9e40f906bab0353597ab0cc",
+    "1104.objective": "3c55d02be9b903d89b7bde0f5445f117d7dfc7bb613db50890745a46baf6a0c0",
+    "1105.objective": "50aa126c2084955cbac243d2cfb1141b0bebcf9cede9cba2a002381ca6a2f6ed",
+    "1110.objective": "cdcecb0e8a5d87ee20c9efb3d951b078231cf56dea705132e0884db58d8955da",
+    "1175.objective": "4f1910fcdb611292a144db1368c1b7aa14bad1c3d8e0e04faafb13b2faab4f1e",
+    "1176.objective": "46d567c21bad421ddff7dae93cc98de8a3d721f212004c4847f07567f251d15d",
+    "1021.detail": "d8d15a761ebf75f97db13c9eba5e95f85d37233db652337c79df69cde61f1ac8",
+    "3567.complete": "e13da3f9cdd9451d7ce8232104e4b4b94d7aa90314697325d0004f4fcbfc42f2",
+    "5421.progress": "fd99196099f159d806a3a65acf0b63e4575d1e5ec696f04503c0c6560be3ee92",
+    "1146.complete": "119c0dda6063599330c3cde8bd9c2fbc8f668d91478278d878a729100ad099ce",
+    "1110.complete": "9754157d60da6b6a4fbb0c4cb204550c462c654629ec9a16fedaf6ba725a0f7d",
+    "1179.detail": "410fdee7a18c4b45385559cf2fb1570d8edb5476545b1474cf8a14027043e7c3",
+    "1106.complete": "5fbd1fe883b59eb5220732b257e2f37671251814c26912aae4f338fa59a931e0",
+    "1178.complete": "9c6698b37e7da8cd224a502fcfb363166c95b879382c7d68d32d72927565abbf",
+    "1031.detail": "839ae4f820e4926816bd1a9e856688f2de4a1e79e533c3647962718190f1b697",
+    "1032.detail": "0be99fa56951d759bad16a899bc9f04ef20b796ba9c9e7dcf5a2f1d74701828d",
+    "86757.complete": "749984447d1acfb10876b5607fd6c5dd1493c98068961f71f47be8ff9bab442e",
+    "98069.detail": "da33f4faa5259a5a36a990f3f8804a3a7a2419082176d3760736e27473929e96",
+    "1145.progress": "337a6dc5672a2476ea7ef875c0054ec8472321ddcd1e5ff959a455e574f8ed28",
+    "1147.detail": "d482489f8f7b934a7776c39d96f82969dc2bbdd3a88fc86328431679218eebe4",
+    "1147.progress": "9d794a225c98587f1429a68f0d427667bd1d799ba4e50686396dbf3849649792",
+    "1147.complete": "fc6a53f5ccec5c6b83fa2200bb4720d19c6434cb46c614721b5d67cc8cfbd776",
+    "1104.detail": "7f09064d2180b1105bb6888c3bb8bc0cb6edbcfee6cd192ef99e05648c32b227",
+    "1105.detail": "77ae392d48865a99e446c440200f04df583fcdf2b55e72e49891658eb063514b",
+    "1175.complete": "32f147b49cb647ae9899afa2e744fec6e6b92af45b02c2d3ff9a73e55589f868",
+    "1176.progress": "57cbf3a8b719c9f5be29461ef5662d5c8b412cd017590607e11477deeeb60492",
+    "1106.detail": "e8aaa5e311ac7bfda508baeb30c06e94e3cfbe42ba2d4a5859bb1c71f5a7ee3e",
+    "1106.progress": "b4496a3049b0624cd8b9bd6894d2a1a53cf90efc70c79477abbf1ec9d025cf05",
+    "1178.detail": "640c4fe3a5b513ff4ba3b1b79d8a200918a5a3c1d89cacc4ba70a25bb666e9a2",
+    "1104.complete": "54c4588b353bc4f11b8635dacc41675b89f78f0da7c156cf4d519dbfaea12f2c",
+    "1135.detail": "b12e6b078bab7e9329e019f892fd1af9469030f2bc8a7b1d87b27eca71146ae3"
+  }
+}

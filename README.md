@@ -2,6 +2,12 @@
 
 Myanmar quest and story translations for **World of Warcraft: Forever**.
 
+## Version 1.2.23
+
+Adds **50 quest records / 227 fields** across Kalimdor follow-ups/services, Alliance Bloom/forge/Missing Diplomat and Warlock Felhunter routes. Total: **2,036 quest IDs / 9,297 enabled translated fields**. [Download 1.2.23](dist/MyanmarForever_v1.2.23.zip) / [Release notes](releases/1.2.23-NOTES.md) / [Validation](docs/validation/v1.2.23-2026-11-25.json) / [Review](docs/validation/v1.2.23-review.md)
+
+Official UA_Forever 1.1.2, current English and refreshed installed metadata were checked. Uncertain fields remain held with documented evidence. Native proofreading and current live testing remain pending.
+
 ## Version 1.2.22
 
 Adds **50 quest records / 231 fields** across treasure/Kalimdor, Wetlands/Excavation Sites, Southshore/royal tribute and Kalimdor dungeon routes. Total: **1,986 quest IDs / 9,070 enabled translated fields**. [Download 1.2.22](dist/MyanmarForever_v1.2.22.zip) / [Release notes](releases/1.2.22-NOTES.md) / [Validation](docs/validation/v1.2.22-2026-11-25.json) / [Review](docs/validation/v1.2.22-review.md)
@@ -198,18 +204,18 @@ Capture does not translate or upload quests automatically. SavedVariables can co
 Install the pinned dependencies in `requirements-dev.txt`, then run:
 
 ```powershell
-python tools/build_release.py --manifest releases/1.2.22.json --output ../outputs/MyanmarForever-1.2.22
+python tools/build_release.py --manifest releases/1.2.23.json --output ../outputs/MyanmarForever-1.2.23
 ```
 
 Choose a new output directory. The command composes the versioned translation packs, checks source/review hashes, rebuilds the font and catalog, and runs Lua state-routing, capture and identity tests. It creates the install ZIP and a validation report.
 
-`releases/1.2.22.json` lists the exact packs. Build that manifest or install its ZIP. The directory `Myanmar_Forever_NorthshireTest/` is the byte-preserved **0.6.2 release snapshot** used as the build base. New source, English evidence and per-field reviews are under `translations/`.
+`releases/1.2.23.json` lists the exact packs. Build that manifest or install its ZIP. The directory `Myanmar_Forever_NorthshireTest/` is the byte-preserved **0.6.2 release snapshot** used as the build base. New source, English evidence and per-field reviews are under `translations/`.
 
 The [earlier CurseForge 0.6.2 package](https://www.curseforge.com/wow/addons/myanmar-forever/files/9451929) and [0.6.3 candidate notes](docs/UNDEAD-STARTER-REVIEW.md) remain available as history. The 0.1 ZIP is also historical; its internal test version does not describe version 1.
 
 ## Translation and feedback
 
-Every batch includes a counter-check against the latest official UA_Forever release under the workflow in [AGENTS.md](AGENTS.md). The comparison records the upstream version, commit, hashes, quest IDs and per-field gaps. [Latest counter-check](docs/coverage/ua-countercheck-1.2.22-2026-11-25.json)
+Every batch includes a counter-check against the latest official UA_Forever release under the workflow in [AGENTS.md](AGENTS.md). The comparison records the upstream version, commit, hashes, quest IDs and per-field gaps. [Latest counter-check](docs/coverage/ua-countercheck-1.2.23-2026-11-25.json)
 
 English quest text controls meaning. UA_Forever is a secondary quest identity/state reference; its Ukrainian wording is not the source of Myanmar prose. Missing English states and unresolved branches remain explicit.
 

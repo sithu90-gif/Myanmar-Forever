@@ -1,0 +1,326 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-25T06:53:42.055949+00:00",
+  "positiveQuestCount": 10,
+  "positiveFieldSlots": 50,
+  "positiveEnabledFields": 45,
+  "actualLint": "PASS",
+  "actualValidateFields": "PASS",
+  "sourceBoundUnicodeSemanticContracts": "PASS before font encoding",
+  "badControls": [
+    {
+      "case": "wrong_three_rods_count",
+      "id": 1804,
+      "field": "objective",
+      "expectedCategory": "numeric_target",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "numeric_target",
+          "1804",
+          "objective",
+          "Rods of Channeling",
+          3
+        ]
+      ],
+      "beforeDigitMultiset": [
+        "3"
+      ],
+      "afterDigitMultiset": [
+        "4"
+      ]
+    },
+    {
+      "case": "same_digit_wrong_item_target",
+      "id": 1805,
+      "field": "objective",
+      "expectedCategory": "numeric_target",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "numeric_target",
+          "1805",
+          "objective",
+          "Rods of Channeling",
+          3
+        ]
+      ],
+      "beforeDigitMultiset": [
+        "3"
+      ],
+      "afterDigitMultiset": [
+        "3"
+      ]
+    },
+    {
+      "case": "Krom_to_wrong_Jorah_recipient",
+      "id": 1802,
+      "field": "objective",
+      "expectedCategory": "identity",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "identity",
+          "1802",
+          "objective",
+          "Krom Stoutarm"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "Jorah_to_wrong_Krom_recipient",
+      "id": 1803,
+      "field": "objective",
+      "expectedCategory": "identity",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "identity",
+          "1803",
+          "objective",
+          "Jorah Annison"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "west_changed_to_east",
+      "id": 1802,
+      "field": "detail",
+      "expectedCategory": "direction",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "direction",
+          "1802",
+          "detail",
+          "Southshore (ဆောက်သ်ရှော) ရဲ့ အနောက်ဘက် ကမ်းလွန်"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "coast_west_changed_to_east",
+      "id": 1803,
+      "field": "detail",
+      "expectedCategory": "direction",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "direction",
+          "1803",
+          "detail",
+          "Southshore (ဆောက်သ်ရှော) ရဲ့ အနောက်ဘက် ကမ်းခြေ"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "temporary_non_enemy_condition_deleted",
+      "id": 3001,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "3001",
+          "detail",
+          "မင်းရဲ့ ရန်သူလည်း မဟုတ်ဘူး... အနည်းဆုံး အခုလောလောဆယ်တော့ပေါ့"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "only_copy_changed_to_two",
+      "id": 1802,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1802",
+          "detail",
+          "တစ်စောင်တည်းပဲ ကူးခဲ့တာ"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "three_acolytes_changed_to_four",
+      "id": 1758,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1758",
+          "detail",
+          "ငါနဲ့ ငါ့တပည့် သုံးယောက်"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "half_pages_changed_to_all_pages",
+      "id": 1803,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1803",
+          "detail",
+          "စာမျက်နှာ တစ်ဝက်နီးပါး"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "future_instead_of_past_years",
+      "id": 1805,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1805",
+          "detail",
+          "ပြီးခဲ့တဲ့ နှစ်အနည်းငယ်အတွင်း"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "preparedness_condition_removed",
+      "id": 1795,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1795",
+          "detail",
+          "မင်း လုံလုံလောက်လောက် ပြင်ဆင်ပြီးပြီဆိုရင်"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "wrong_actor_player_creates_basic_circle",
+      "id": 1795,
+      "field": "detail",
+      "expectedCategory": "action",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1795",
+          "detail",
+          "အခြေခံ ခေါ်ယူခြင်းစက်ဝိုင်းကို ငါ ဖန်တီးမယ်"
+        ],
+        [
+          "order",
+          "1795",
+          "detail",
+          [
+            -1,
+            160,
+            233,
+            320,
+            376
+          ]
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "incantation_before_circle",
+      "id": 1795,
+      "field": "detail",
+      "expectedCategory": "order",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "order",
+          "1795",
+          "detail",
+          [
+            301,
+            141,
+            214,
+            97,
+            374
+          ]
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "return_before_subdue",
+      "id": 1795,
+      "field": "objective",
+      "expectedCategory": "order",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "action",
+          "1795",
+          "objective",
+          "ခေါ်ယူကာ အညံ့ခံအောင် နှိမ်နင်းပါ"
+        ],
+        [
+          "order",
+          "1795",
+          "objective",
+          [
+            41,
+            217,
+            100,
+            125,
+            87
+          ]
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    },
+    {
+      "case": "invented_candles_requirement",
+      "id": 1795,
+      "field": "detail",
+      "expectedCategory": "forbidden",
+      "result": "REJECTED",
+      "errors": [
+        [
+          "forbidden",
+          "1795",
+          "detail",
+          "ဖယောင်းတိုင်"
+        ]
+      ],
+      "beforeDigitMultiset": [],
+      "afterDigitMultiset": []
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

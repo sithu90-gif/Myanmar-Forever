@@ -1,0 +1,1241 @@
+{
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "metadataReference": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "quests": {
+    "98208": {
+      "id": 98208,
+      "englishTitle": "Bloom of the Heavens",
+      "installedTitle": "Bloom of the Heavens",
+      "uaEnglishTitleAliases": [
+        "Bloom of the Heavens"
+      ],
+      "primaryOwnID": 98208,
+      "primaryQuestName": "Bloom of the Heavens",
+      "primaryLevel": 29,
+      "primaryRequiredLevel": 22,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "Bloom of the Heavens",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        },
+        {
+          "name_enus": "Bloom of the Heavens",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 29,
+      "installedRequiredLevel": null,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": 98209,
+      "questObjectiveTables": [
+        "Nord'el (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "unavailable"
+      },
+      "uaVariants": [
+        {
+          "faction": "Both",
+          "englishTitleAlias": "Bloom of the Heavens",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Primary side1 Alliance versus UA Both; documented source discrepancy, not live proof.",
+        "Installed no explicit minimum, HTML22; next98209 already reviewed/excluded.",
+        "Reward Bouquet of Auberdine Flowers not a narrative field."
+      ]
+    },
+    "86776": {
+      "id": 86776,
+      "englishTitle": "Ingredients for the Forge",
+      "installedTitle": "Ingredients for the Forge",
+      "uaEnglishTitleAliases": [
+        "Ingredients for the Forge"
+      ],
+      "primaryOwnID": 86776,
+      "primaryQuestName": "Ingredients for the Forge",
+      "primaryLevel": 30,
+      "primaryRequiredLevel": 15,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "Ingredients for the Forge",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 30,
+      "installedRequiredLevel": 15,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "questObjectiveTables": [
+        "Bronze Bar (10)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "unavailable"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "Ingredients for the Forge",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Primary/installed req15, level30; source/installed target item2841 quantity10 Bronze Bar; item3576 Tin Bar quantity10 is reward only."
+      ]
+    },
+    "87491": {
+      "id": 87491,
+      "englishTitle": "Spark of Freedom",
+      "installedTitle": "Spark of Freedom",
+      "uaEnglishTitleAliases": [
+        "Spark of Freedom"
+      ],
+      "primaryOwnID": 87491,
+      "primaryQuestName": "Spark of Freedom",
+      "primaryLevel": 30,
+      "primaryRequiredLevel": 25,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "Spark of Freedom",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 30,
+      "installedRequiredLevel": 27,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "questObjectiveTables": [
+        "Escort the fire elemental out of Dun Modr (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "unavailable"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "Spark of Freedom",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Installed min27 versus primary req25. All four dialogue fields supported and progress absent in both English references/UA. Live eligibility unresolved; no source field conflict."
+      ]
+    },
+    "1274": {
+      "id": 1274,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1274,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 28,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 28,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": 1241,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Formal1274.detail hold: unsupported runtime <sir/madam> branch; historical author and raw proposals preserved."
+      ]
+    },
+    "1241": {
+      "id": 1241,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1241,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 28,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 28,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1274
+      ],
+      "nextQuestInChain": 1242,
+      "questObjectiveTables": [
+        "Letter to Jorgen (Provided) (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Item5948 Letter to Jorgen provided in objective table; narrative says this note, no invented item display label in prose."
+      ]
+    },
+    "1242": {
+      "id": 1242,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1242,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 28,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 28,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1241
+      ],
+      "nextQuestInChain": 1243,
+      "questObjectiveTables": [
+        "Sealed Note to Elling (Provided) (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Objective source typo Delivery retained in raw English but translated as delivery imperative.",
+        "HTML link5946 is full Sealed Note to Elling and plain Trias follows; explicit giver/recipient and full item identity retained."
+      ]
+    },
+    "1243": {
+      "id": 1243,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1243,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 28,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 28,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1242
+      ],
+      "nextQuestInChain": 1244,
+      "questObjectiveTables": [
+        "Sealed Note to Watcher Backus (Provided) (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "HTML link5960 spans Sealed Note to Watcher Backus; item table provided1, destination is Watcher Backus."
+      ]
+    },
+    "1244": {
+      "id": 1244,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1244,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 30,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 30,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1243
+      ],
+      "nextQuestInChain": 1245,
+      "questObjectiveTables": [
+        "Defias Docket (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1245": {
+      "id": 1245,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1245,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 30,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 30,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1244
+      ],
+      "nextQuestInChain": 1246,
+      "questObjectiveTables": [
+        "Defias Docket (Provided) (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1246": {
+      "id": 1246,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1246,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 31,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 31,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1245
+      ],
+      "nextQuestInChain": 1447,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1447": {
+      "id": 1447,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1447,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 31,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 31,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1246
+      ],
+      "nextQuestInChain": 1247,
+      "questObjectiveTables": [
+        "Defeat Dashel Stonefist (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1247": {
+      "id": 1247,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1247,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 31,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 31,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1447
+      ],
+      "nextQuestInChain": 1248,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1248": {
+      "id": 1248,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1248,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 33,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 33,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1247
+      ],
+      "nextQuestInChain": 1249,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1249": {
+      "id": 1249,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1249,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 33,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 33,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1248
+      ],
+      "nextQuestInChain": 1250,
+      "questObjectiveTables": [
+        "Defeat Tapoke Jahn (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1250": {
+      "id": 1250,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1250,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 33,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 33,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1249
+      ],
+      "nextQuestInChain": 1264,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Own envChange updated/reworded description; current primary English controls. Partner identity and scale stay uncertain."
+      ]
+    },
+    "1264": {
+      "id": 1264,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1264,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 33,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 33,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1250
+      ],
+      "nextQuestInChain": 1265,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1265": {
+      "id": 1265,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1265,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 35,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 35,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1264
+      ],
+      "nextQuestInChain": 1266,
+      "questObjectiveTables": [
+        "Explore Zone (1)\n Sentry Point explored (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Source objective Sentry Point, earlier tower instruction same stage; endpoint installed4967 Archmage Tervosh, not added to spoken text."
+      ]
+    },
+    "1266": {
+      "id": 1266,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1266,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 36,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 36,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1265
+      ],
+      "nextQuestInChain": 1324,
+      "questObjectiveTables": [],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest."
+    },
+    "1324": {
+      "id": 1324,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1324,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 38,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 38,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1266
+      ],
+      "nextQuestInChain": 1267,
+      "questObjectiveTables": [
+        "Subdue Private Hendel (1)"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "available",
+        "objective": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "available",
+        "progress": "available",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "detail",
+            "objective",
+            "progress",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Objective says Defeat, HTML target table Subdue Private Hendel; both nonlethal. Progress forbids death explicitly.",
+        "Completion source alias my lady Proudmore is not queen or Admiral; preserve alias, do not silently correct to Proudmoore."
+      ]
+    },
+    "1267": {
+      "id": 1267,
+      "englishTitle": "The Missing Diplomat",
+      "installedTitle": "The Missing Diplomat",
+      "uaEnglishTitleAliases": [
+        "The Missing Diplomat"
+      ],
+      "primaryOwnID": 1267,
+      "primaryQuestName": "The Missing Diplomat",
+      "primaryLevel": 38,
+      "primaryRequiredLevel": 28,
+      "primarySide": 1,
+      "primaryRaceClass": [
+        {
+          "name_enus": "The Missing Diplomat",
+          "icon": "quest-start",
+          "_side": 1,
+          "reqclass": 0,
+          "reqrace": 0
+        }
+      ],
+      "installedLevel": 38,
+      "installedRequiredLevel": 28,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1324
+      ],
+      "nextQuestInChain": null,
+      "questObjectiveTables": [
+        "Jaina's Signet Ring"
+      ],
+      "primaryStates": {
+        "title": "available",
+        "detail": "unavailable",
+        "objective": "available",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "secondaryStates": {
+        "title": "available",
+        "objective": "available",
+        "detail": "unavailable",
+        "progress": "unavailable",
+        "complete": "available"
+      },
+      "uaVariants": [
+        {
+          "faction": "Alliance",
+          "englishTitleAlias": "The Missing Diplomat",
+          "availableFields": [
+            "title",
+            "objective",
+            "complete"
+          ]
+        }
+      ],
+      "decision": "Current exact-ID English controls enabled meaning, UA controls secondary comparison only; no field sourced from nearby quest.",
+      "differences": [
+        "Primary objective reworded Jaina Proudmoore versus installed Jaina Proudmore; place source Dustwallow Swamp retained alias.",
+        "Completion English promises keep apprised; UA future reward differs, English controls.",
+        "Item6757 Jaina's Signet Ring is reward table only; absent from completion narrative, not invented.",
+        "Offer/progress absent both references/UA, kept unavailable."
+      ]
+    }
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

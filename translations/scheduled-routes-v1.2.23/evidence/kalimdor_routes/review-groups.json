@@ -1,0 +1,416 @@
+{
+  "groups": [
+    {
+      "group": 1,
+      "ids": [
+        1021,
+        1031,
+        1032,
+        86757,
+        98069,
+        98070,
+        1135,
+        1145,
+        1146,
+        1147
+      ],
+      "readStates": {
+        "1021": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1031": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1032": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "86757": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "98069": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "98070": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1135": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1145": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1146": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1147": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      "enabledFields": 49,
+      "separateBilingualReread": "All available49fields read in two fresh5quest windows; source unavailableProgress1021 read asnull. Corrections then affected full fields reread.",
+      "checks": [
+        "linguistic_lint.lint PASS",
+        "build_release.validate_fields PASS",
+        "primary exact-own-ID g_quests/type5/5state boundaries reviewed",
+        "paragraphs/markers/numeric/written quantities read",
+        "20identitycontracts and48semanticcontracts PASS",
+        "12meaningful in-memory badcontrols rejected",
+        "exactsharedverify_workers logic scoped partition PASS"
+      ],
+      "sourcePins": {
+        "repository": "sysrover/UA_Forever",
+        "version": "1.1.2",
+        "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+        "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+        "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+        "publishedAtUTC": "2026-11-24T04:16:06Z",
+        "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+        "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+        "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+      },
+      "sourceCaveats": {
+        "1021": "Urgency, two whole days, northeast Xavian temple and Anilia death preserved; Progress unavailable both refs.",
+        "1031": "Death narrative, northern arch, dying wish and grief preserved. Current quest Mapper endpoints and NPC3901 g_mapperData at21.8/53.2 support western Shrine; installed Forest Song objective stale. Native/live pending.",
+        "1032": "Almost sad ambiguity, request to kill/bring horns,16 horns, kind<race> and sister spirit preserved; same Shrine evidence as1031.",
+        "86757": "6 swords/4 daggers bound to supported source aliases. HTML item labels Jagged Orcish Sword/Curved Orcish Dagger are aliases to objective wording, not substituted. Condemnation of violence and conditional invasion preserved.",
+        "98069": "8 supplies; west lair at both cliff base and cave top; uncertainty and next shipment preserved.",
+        "98070": "5 each of three distinct harpy targets; conditional caravans cease, order kill then return; source objective full Harpies suffix aliases differ linked table singular names.",
+        "1135": "10 sacs; west Highperch; raw DeepL females as human collectors corrected to young wyvern/fertile female source. Value and slaughter inference preserved.",
+        "1145": "Swarm1 courier: Korran note→Belgrom/Orgrimmar. Field of Giants eggs, outside warriors guild, Warchief/Thrall conditional retained; raw envy mistranslation corrected.",
+        "1146": "Swarm2 courier: Belgrom note→Moktar/ThousandNeedles. More than half warparty killed; stay until Belgrom news; racing disdain preserved. Flats short place alias retained.",
+        "1147": "Swarm3 kill5each Searchers/HiveDrones/Invaders returnMoktar. South dig; should uncertainty, blade/staff, cannot leave condition, stench/stampede/heat joke retained. Raw monsters mistranslation corrected."
+      },
+      "completedAtUTC": "2026-11-25T06:49:40.882259+00:00",
+      "checkpointArtifactHashesAtGroupCompletion": {
+        "edited.json": "c6936dba0d66ca8f4aa30164e6001c8127bca4d3ddac7787cfdde0c1902e35a7",
+        "english-sources.json": "cfb67e8acd96f958995dbf8d528557beac020afa40fd2da577797594266f02e6",
+        "review-audit.json": "03f17f5ad4caecc3f0d9c70527c5646bfbfe1825e4d4ea5f8f909cad8e560cf5",
+        "source-boundaries.json": "389f02536e1d8f9ff356ce8d47c546d7308dcbf4a5bc1225e790c2e0bf8b48ff"
+      },
+      "finalArtifactHashes": {
+        "edited.json": "709f5754f1c45021cd73f323f208ac3a05b0e7c310978f32d8ce532f5950152f",
+        "english-sources.json": "cfb67e8acd96f958995dbf8d528557beac020afa40fd2da577797594266f02e6",
+        "review-audit.json": "efa3a43c6d10671c2116f154e8d93e2b9196462b3d6e7839bd8d163309309d29",
+        "source-boundaries.json": "3e7a2af38c82e73a5e29f32ef64cfa34222996f37921c0609875ff6555217a6e",
+        "semantic-contracts.json": "6f0c625e6db37efe78b23e2be1a77f3836e561bcd8287e59b84aa5c7884dee60",
+        "identity-contracts.json": "ca3c0eb7e706e76f399f371fea6dc2cda0eaf661207132087780f767e2aa2254",
+        "maintained-identity-screen.json": "f1322f98b4bbbe5bc78392c710f5c24d14122af40cd745cc5cecba2c55542920"
+      },
+      "finalFieldHashes": {
+        "1021": {
+          "title": "e0b190842c1014d9f00d331c85e8373f5116b03ffe5e38c8f441dd950a02f39b",
+          "detail": "7cbb66949c64ac78128ad6549f45517021d50059370b0ac6ebc7119e568229d7",
+          "objective": "7082d3431604da13d19c98953cbdfe82567fc763fd6b2ca807c1da2428fd8ccf",
+          "progress": null,
+          "complete": "8d4aa234060d05a25ce0d5d83e34278d330abfc8ee1b2bf44605b7dd18287f79"
+        },
+        "1031": {
+          "title": "2400325590b84710e4a35e0d83171abe00d14f2a04b1fe0a9b021c6a73e74d7f",
+          "detail": "31d93f18a8a0d03225e186e83e7e759705e00f8f1f0965176f080bfe068bcc6f",
+          "objective": "0ca7156da8fd7c47f036e48ca08e5c50c5c8e6a6f7da3f2038ecd91db316893e",
+          "progress": "e6efc960da01bd62e0baf441652113e1236a3bfcd8bfd72d2d5d69b36b1029f7",
+          "complete": "5f34fb26c5d04cd4b2af966f2e9bb6319b9425b139a832d00e2f3f967b021cae"
+        },
+        "1032": {
+          "title": "c101140eb50109303dedf0047dfe26dd31bba0d6c4c6db11dfd728ba8b10a807",
+          "detail": "9d727e5c6ef30c31bfa51157a9b96f66a2bb20dd409dddbf18fe1e98d479a80d",
+          "objective": "6ffe78a8ee429d0ed53f1b9d5bec115a40db658864957fc6789b779b0e56098e",
+          "progress": "9893a4de9ef46f166ab462bed3c41d5a8cd28f4fbfed08a4c7c34f957c3aa862",
+          "complete": "1a9a232d9251ac17305572ef4fc24385753c208ca039d8f09bbc3f6187ae3add"
+        },
+        "86757": {
+          "title": "67704430b363f8161a48447d55fda1c2cd9fb21f92a1ff5dec2c0d807f2edf1a",
+          "detail": "0966e1b1743ab7757ae2130f4ce02eb8e89deb83d9556227c3d91c9c591c88b2",
+          "objective": "ca6bd2a65757e601bff22023494056e9e03332ee7ca77fac9b0e6ab5091ea7ce",
+          "progress": "567f8b7553b1d310ec018349dda87465822f7ed95bab39f3d20445231bd6e779",
+          "complete": "0da14d4f8bf9e2712c0b6c51c5fdae7fb006ace0b5efcc8489ac76925f5f75f6"
+        },
+        "98069": {
+          "title": "1dcffab57bebc204ce46d51a5569fe1dee50df16dac2f02485729e6a49782050",
+          "detail": "1163ccf67993bd98563a9c135571ce9999b837ecfd296a98e47372c2c7395710",
+          "objective": "0f6d37fd6b1c1e209e71c8d4ce463dfa5c1203c37e54d6f9e6b83f56d13406f4",
+          "progress": "f0682ed644efed4c5adbb1b728defff20ca16a0bd0e1b8e8cbe76e7631bbcf73",
+          "complete": "102dc13aff9aaf44ffbc2c9ad217fa269b8930cc824f143ffc7977f97b939110"
+        },
+        "98070": {
+          "title": "469311e8e73c42551d782b8d77308642acbc315725c30328086ac04ac5ef21f3",
+          "detail": "3d3dae9e8101908cdae5aa36eb3fc2e23bb47ad443a3960899e699bc1dcf5037",
+          "objective": "de43bcd18beecae5f859645e3f21e0aabf969d0b4850078c92d3dbdda4b835c5",
+          "progress": "8302ace0dc78f42bf7aee217f6824e0c34ccf42bd96043327bb95ec8b1d67d61",
+          "complete": "ac89431237f8dc3d35a7e54aace86454ae3fbcf15c27e2d1266922d4c2be5433"
+        },
+        "1135": {
+          "title": "c48d51c8f30d52618f8791038b7c6f3ea85581fd339df13fc219ae2c94b46714",
+          "detail": "0d6348f7101ea2fa7ccdc143960b43e79151388f4c2179908816f21c2403a3de",
+          "objective": "7370f40153850cf816227cc3da72ecca566ebdb3c0a6d03d5ad0d9d85ff56e01",
+          "progress": "8e2a98a87b95d24c945dc715c4dddbce7a891e0cfe9d09079d92b35a1f3b079f",
+          "complete": "a83697f5545fa173a61274fe89814070f3a3bbb39a2367b0ffdf582aa0bd1698"
+        },
+        "1145": {
+          "title": "2742d4a17525d01cf17a48a23c2abcd4b9f09cbbd2799815712380ccd7a47358",
+          "detail": "877a880a96f217804ec8fdf9d29dba6aa6708e00d1477535fe9c6271d7fd3887",
+          "objective": "249664b1cb87b3670dc75a6a32547517eb55b5e7b230c124fbd1fdb60705e339",
+          "progress": "55e2990703907ea767d2fa36ea72ec258b80dd21d75ad4bcd696919f355fc597",
+          "complete": "7281585eea131bd8f1aaa4455329272cf10b91e85a2e4ea67543dd3d8f00f5f2"
+        },
+        "1146": {
+          "title": "2742d4a17525d01cf17a48a23c2abcd4b9f09cbbd2799815712380ccd7a47358",
+          "detail": "8bf358695615e03afe06b12fc19cba44ae5e26f5a3ac68ec203a676fcf339d24",
+          "objective": "c4f347b2d6da317d2deef47bc4a79ec356ae63284adda641ecd2218a555d0199",
+          "progress": "ee7dc08505d467a03f679e8bfda2ca0836fce1121891e479704a1ebadea32306",
+          "complete": "6879bb508e30a8e7d3bd527267018911a1c0cdd38036b3ca4f0f9a141ad5da67"
+        },
+        "1147": {
+          "title": "2742d4a17525d01cf17a48a23c2abcd4b9f09cbbd2799815712380ccd7a47358",
+          "detail": "d419cd2956210452ab7a3595a08a3af9d608fa521f27521ae1d698e06484cee9",
+          "objective": "eb42909ccda53367fdcbfe1c5a416c9720fb674790a9431144d2a81dff2a692d",
+          "progress": "be2a73f84d763c4d6532836f4e35b30b3e5cbb61f7407a9864d2a13d66a94657",
+          "complete": "e7313638a509a3bd96dbe9f74108ae5b7f5aec181c9627880ad52e5c70005e16"
+        }
+      }
+    },
+    {
+      "group": 2,
+      "ids": [
+        3567,
+        5421,
+        1104,
+        1105,
+        1110,
+        1175,
+        1176,
+        1179,
+        1106,
+        1178
+      ],
+      "readStates": {
+        "3567": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "5421": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1104": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1105": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1110": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1175": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1176": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1179": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1106": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1178": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      "enabledFields": 44,
+      "separateBilingualReread": "All44availablefields read in two fresh5quest windows. Source nulls inspected; four correction fields reread after edits.",
+      "checks": [
+        "linguistic_lint.lint PASS",
+        "build_release.validate_fields PASS",
+        "primary exact-ID g_quests/type5/5state boundaries reviewed",
+        "paragraph/marker/numeric/writtenquantity checks PASS",
+        "20identitycontracts and48semanticcontracts PASS",
+        "12meaningful in-memory badcontrols rejected",
+        "exactsharedverify_workers logic scoped partition PASS"
+      ],
+      "sourcePins": {
+        "repository": "sysrover/UA_Forever",
+        "version": "1.1.2",
+        "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+        "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+        "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+        "publishedAtUTC": "2026-11-24T04:16:06Z",
+        "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+        "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+        "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+      },
+      "completedAtUTC": "2026-11-25T06:55:12.406956+00:00",
+      "sourceCaveats": {
+        "3567": "Service title+Completion only in both English sources andUA. One of twin colossals, send<race>, consider descent, one-way-only warning preserved. No offer/objective/Progress invented.",
+        "5421": "Repeatable primary direct-heading Progress plus title+Completion. Secondary detail duplicates primary Progress exactly; not a missing offer. UA offer/objective differ but cannot supply English. Five shellfish→one Bloodbellyfish written count and lazy playful voice retained; shellfish links item13545 in Progress, retained in field.",
+        "1104": "6venoms→FizzleBrassbolts; enthusiastic repetition really3times; mixture uncertainty and chemical sequence boil/apply/add preserved, fictitious reagent names retained. ",
+        "1105": "9tortoise shells→Wizzle; rawDeepL misidentified tortoises as deer/snakes corrected. Brother age unspecified, neutral sibling used; fuel eats chassis, reinforcebefore, probable benttools joke retained.",
+        "1110": "30parts→Kravel; item exacttitle+linked lower-case detail alias retained. Two metal sheets,ear not air,carpilot not aircraft, profiteering from tragedy joke preserved.",
+        "1175": "10Basilisks/10Crystalhides/6Gazers→wholeTrackmasterZherin. RedThunder/Kronkrider retained. Avoidkillingontrack hope and shovel complaint preserved.",
+        "1176": "10bones→Pozzik; vulture species corrected from rawDeepL inventedbirdguts. Power/coils/frame, strength/weight balance, waitforpartscondition retained.",
+        "1179": "Exactquest1179Alliance ownside1, UA Both label obsolete; neighboring2769same-title row excluded. WholeBrassbolts/Wizzle identities, linkedcrate item, SiegeEnginehelmets, southcanyon and gnomebrothers, concussions and reluctantpilot joke retained.",
+        "1106": "preQuestGroup12=[1104,1105],nextS22=1108; not preQuestSingle. ProperMartek title+rankwhole and DuchessPamay whole retained. FizzleLetter sourcealias vs linkedFizzleBrassboltsLetter. RawDeepL inverted dontwantmedead corrected; pistonsnot hardenough polarity corrected on reread; axe not sword; suspicious NPC then helpful shift preserved.",
+        "1178": "SpeakGazloweRatchet after1176; Progress unavailable. Goblin sponsorship rivalry, lateprototype, oneofmostrespected, two-engine model (not two different engine models), uncertainbusinessharm and TinkersUnion retained."
+      },
+      "finalArtifactHashes": {
+        "edited.json": "709f5754f1c45021cd73f323f208ac3a05b0e7c310978f32d8ce532f5950152f",
+        "english-sources.json": "cfb67e8acd96f958995dbf8d528557beac020afa40fd2da577797594266f02e6",
+        "review-audit.json": "efa3a43c6d10671c2116f154e8d93e2b9196462b3d6e7839bd8d163309309d29",
+        "source-boundaries.json": "3e7a2af38c82e73a5e29f32ef64cfa34222996f37921c0609875ff6555217a6e",
+        "semantic-contracts.json": "6f0c625e6db37efe78b23e2be1a77f3836e561bcd8287e59b84aa5c7884dee60",
+        "identity-contracts.json": "ca3c0eb7e706e76f399f371fea6dc2cda0eaf661207132087780f767e2aa2254",
+        "maintained-identity-screen.json": "f1322f98b4bbbe5bc78392c710f5c24d14122af40cd745cc5cecba2c55542920"
+      },
+      "finalFieldHashes": {
+        "3567": {
+          "title": "26847d352d39e7d5b9ab3a2e0941c7202dd126e89d216908974c61f68bd80dc4",
+          "detail": null,
+          "objective": null,
+          "progress": null,
+          "complete": "c37c2057f58cdfc30299438a587a70f67235fd3788c990f456608a758d8e03c7"
+        },
+        "5421": {
+          "title": "d874d71b7f4e7e0dc0c48bd2ac37e81136cc8d5baebfca8d4fa894f148648afa",
+          "detail": null,
+          "objective": null,
+          "progress": "cac8d1722c1ef3feefcc3bb7bda74fa07aa53a8a6c8da2bace2eea9987dcf1b1",
+          "complete": "bae8039de45e5623c93a08de6457b550de0b87e29fbd29bad9236b5275b34ed3"
+        },
+        "1104": {
+          "title": "38d17d3e8c141032adb8c8a9cc554cf2d09b43b0e9ac8b7b9c4eeb2fbc1ebba1",
+          "detail": "4430435bbbfaab9781978a567c24ca471571ffebacc3b28b0c024557103188a7",
+          "objective": "0b690df11a8a8ff1551cbb11504071ac465c17e9c0417daf73bdd7dfd5c9049b",
+          "progress": "8853839e89419ceeaa9c2af2a6c1fb4de9094cf96ba02c97fec2893c3af033f1",
+          "complete": "23ed35f03bf1f1e41197045e1e091b22cd921e7d8255c3c5991a8111d812a854"
+        },
+        "1105": {
+          "title": "ec6fda1f5d6442d540ba13ef3e0a0af3285df3d47283949c6549e2eadc579621",
+          "detail": "b6b2514ff46a9a250de77a5a0545a6c978395d52a5889bf076a3566ffb82b4be",
+          "objective": "bd64860c656d5a0c7b1dfb77d7b2dbcc8498b724f659145b6c1384ff9006cd51",
+          "progress": "35cb5c109fb837e26e7a600f80d93b511aa5e9a62548e2d01ff86684b1ef6eca",
+          "complete": "4c8732772c9fa510ac3a018d9792e50a44ae1303c29f7437cc761d278d85ebb8"
+        },
+        "1110": {
+          "title": "7710b92e71a6658a07d0ec751e28061729fe25d6bfbaf4e2a1982a9aed0a68a6",
+          "detail": "a13dc7aba7a521667445efc4bd5c22c94a2889317f6abd6567a48301bc61a774",
+          "objective": "b0fe2d2f66b51f91bdb405a6ef77a62c47bae898721bedebee653e18d7869158",
+          "progress": "9cc1e559a4bdc2cef7b7bdff7918860a64e3aa4cc3af97e52a32858331231155",
+          "complete": "f5b3731a69c407502d350aecd7aa42174425717ba573a6128f6f25fcc1de5693"
+        },
+        "1175": {
+          "title": "63e8b916a462ed85f723ca85480c481676adc38d461f56825c9e464a52975def",
+          "detail": "bbb08f856b59f0e67891538a5296050edb25b0368c75f0f72a3f5d38626b49b8",
+          "objective": "699cab28e766e31b9a3141b7550ecd8780a737287f515dac6e489b7ec91fd0dc",
+          "progress": "84b54e27f6a7dda07ead51454339626089382f9d45fc8b640af615a98db05548",
+          "complete": "8c912138da593963182f8b181fe31826cb52614ad7a7b25724c37e6d8839fc5a"
+        },
+        "1176": {
+          "title": "b08c1df25b6f2dc2c70caa0844a30a1b6109459e6e89d08d36aa1f987f03ed95",
+          "detail": "9ff082638ee4793691b461936c50bf001e8c5a19b87fb69e111513961e1671c9",
+          "objective": "61b6ed06fcdc861bc83ffe037952dabe6a130088e7c4ab10bedd0a9835b220a4",
+          "progress": "dca572efa5e5fb6807a62c71efc257fe00e3a6857ff5f93fb46a35e990c5139d",
+          "complete": "6dd0dbb03924b6a71516b6a2307451750573ec10db1e71bd55a263406123e4ee"
+        },
+        "1179": {
+          "title": "09369d7069f0c05380ea309a7d626216e5ca31067ec3ed61758b41f7ee39a8fc",
+          "detail": "3f20cd8741c915547bb5990fad54c0adcada58050c93a998115be1295b39a091",
+          "objective": "1133f4d1a034bcf8242301b8ad0900f70807db1eb024f3431824f882e4de8d8e",
+          "progress": "52aa38f82e737f57fc3b92abf4ae90f2d96545e4816739ff81912d4da2eb1307",
+          "complete": "7450028374b4178f0a83e9f589099cedac4f691e0e33074064b6edb3986a75a3"
+        },
+        "1106": {
+          "title": "0d11c87a0e197fac22e6fceae8e422916ea51cec92b49038bce0df1b0abe0bf3",
+          "detail": "60e7555e60d7c92942924c8eaba8ba5ba60fa4d4f0be25261f60054750017b1c",
+          "objective": "19ec0186a58616dd643a028eb3a1c05bb2520125aaf571489f68b2d516892089",
+          "progress": "95b95a3d43c01c53e60f98ef4932b2a0963e0fe5455bbe9c52bcef51c9bb11d2",
+          "complete": "855b544d401f666a2620aa581c624aa6a498348a8a775feaab32df5f51e420e7"
+        },
+        "1178": {
+          "title": "2f55d896cfd60a478516dcca4d1d9eeb6045f617391fe86acc5572acae0810dc",
+          "detail": "196db437757989511976e8f1fea4d19bcbf47c0b7c7b804a1afedcb3bd5f40e1",
+          "objective": "4208e62f3566c54fa7f96e8446c74a0d99075ed7fa3892468f19b16ad8738124",
+          "progress": null,
+          "complete": "78aeae0a0966fdcd923a62c1fb5fba75b80d0a580b261363019d3ef7a40d8131"
+        }
+      }
+    }
+  ]
+}

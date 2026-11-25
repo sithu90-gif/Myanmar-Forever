@@ -1,0 +1,525 @@
+{
+  "result": "PASS",
+  "partition": "class_routes",
+  "targetVersion": "1.2.23",
+  "checkedAtUTC": "2026-11-25T07:01:16.374593+00:00",
+  "questIDs": 10,
+  "fieldSlots": 50,
+  "sourcedFields": 45,
+  "enabledFields": 45,
+  "unavailableFields": 5,
+  "unavailableSlots": [
+    {
+      "id": 1798,
+      "field": "progress",
+      "reason": "No Progress state in either saved English reference; null source and null Myanmar, not a formal held proposal."
+    },
+    {
+      "id": 2996,
+      "field": "progress",
+      "reason": "No Progress state in either saved English reference; null source and null Myanmar, not a formal held proposal."
+    },
+    {
+      "id": 3001,
+      "field": "progress",
+      "reason": "No Progress state in either saved English reference; null source and null Myanmar, not a formal held proposal."
+    },
+    {
+      "id": 1758,
+      "field": "progress",
+      "reason": "No Progress state in either saved English reference; null source and null Myanmar, not a formal held proposal."
+    },
+    {
+      "id": 1801,
+      "field": "progress",
+      "reason": "No Progress state in either saved English reference; null source and null Myanmar, not a formal held proposal."
+    }
+  ],
+  "formalHolds": 0,
+  "quests": [
+    {
+      "id": 1798,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Referral reagent absence, inner-circle relationship, goblin port, advance message, prodigy teasing and jokes to himself retained. Progress absent in both references.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "292d41a7e90a4abee7f6694085fb001ad2d50043cb48dbe79a813663178a9be2",
+          "reviewedMyanmarSHA256": "5922efbeaf0573cd41065236c9a255c2cb25544aa742ef4e314c1c86c6930429"
+        },
+        "detail": {
+          "englishSHA256": "80af8fb5c4b8b6f227867d872ed03468070bde198cab9c55876dbe8a953fdd53",
+          "reviewedMyanmarSHA256": "260957d197a7dbf5621477d2709debdcd98e367d63cbcf84e514c7bd583c805d"
+        },
+        "objective": {
+          "englishSHA256": "2963adbe17aad7ed0dd754b636f0a5bb6e403bfdc87242b3fd772da53d63c57c",
+          "reviewedMyanmarSHA256": "c9bfa11f33c47e0ab2407de12a832bc15e7bc2208efdb816738e50c5269be760"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "572e9bce9b94ffa0d2679a000463e12bebcdd364771ee55e6b00cdd61e6fca60",
+          "reviewedMyanmarSHA256": "219b540a9fc5e4be895ea11dbdda7178d46261dc836870f72bb7ca93f89cf081"
+        }
+      }
+    },
+    {
+      "id": 2996,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Small-but-powerful referral preserved; above the port town beside the tower, with no borrowed temporary-enemy clause. Ratchet toil, mystery/adventure/ignorance and hatred preserved. Progress absent.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "292d41a7e90a4abee7f6694085fb001ad2d50043cb48dbe79a813663178a9be2",
+          "reviewedMyanmarSHA256": "5922efbeaf0573cd41065236c9a255c2cb25544aa742ef4e314c1c86c6930429"
+        },
+        "detail": {
+          "englishSHA256": "e937a9b2e5ce6061a1e19ee22c32f9a5c48b801bc5e0e63c687d8b2cafea5f9d",
+          "reviewedMyanmarSHA256": "70267e1c4d40b5753f58e924d4ab287d13ba241715d601abe9dc19bc8ef8786f"
+        },
+        "objective": {
+          "englishSHA256": "2a52493a3fdea663d504fb686dcdb846d7edc1c7d226f87cf6b39af17a325585",
+          "reviewedMyanmarSHA256": "9562b3ac87cd12c56b8946b7489d31008169e51796c8f74330cd2821c40f5972"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "1dd97ca0db2e20438a6a8ad03a6e9da68ada4202245b8d13ef67b69ef8b8ba8a",
+          "reviewedMyanmarSHA256": "58bb09c317ab2b6b91b67cc816184b1cd69da713eab6dce7fd242330b5dfa421"
+        }
+      }
+    },
+    {
+      "id": 3001,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Distinct temporary non-enemy condition at least for now, respect, greater summonings and above-town/beside-tower location retained. Progress absent.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "292d41a7e90a4abee7f6694085fb001ad2d50043cb48dbe79a813663178a9be2",
+          "reviewedMyanmarSHA256": "5922efbeaf0573cd41065236c9a255c2cb25544aa742ef4e314c1c86c6930429"
+        },
+        "detail": {
+          "englishSHA256": "cfc5d83b8f0601add7ba22b16f1bf63c39cf778fd3e1daee8dd3b383a1b09a00",
+          "reviewedMyanmarSHA256": "b9f4b53478b2812d28abc7ac287a5f0d9b2ceaba10ccaa90273b9c53792d9b54"
+        },
+        "objective": {
+          "englishSHA256": "fa2998d999a7076c5a09cdeb0cb39b01626a6577bcda638f81b4b8aaed202df9",
+          "reviewedMyanmarSHA256": "aa93199f77a635a01ada99c056add9bd4d3a15fa9fbe618eb79375aa0278b363"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "1dd97ca0db2e20438a6a8ad03a6e9da68ada4202245b8d13ef67b69ef8b8ba8a",
+          "reviewedMyanmarSHA256": "58bb09c317ab2b6b91b67cc816184b1cd69da713eab6dce7fd242330b5dfa421"
+        }
+      }
+    },
+    {
+      "id": 1758,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Three acolytes plus speaker, magic circles, unaided first summoners, itinerant Krom, text hoarding/library skulking and catalogue recollection retained. Progress absent.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "91eebdc237f2cebace8311486a61d65a0553f2b144c937fe8e4c46f29a5f9615",
+          "reviewedMyanmarSHA256": "62089237e246b05adbeb499001570e53fa4495dcb8489c777607c6f3981aafd9"
+        },
+        "objective": {
+          "englishSHA256": "1297f4bce9195308ff8b5d1eecaa3d9245185046672c07679b51abbdc98f552b",
+          "reviewedMyanmarSHA256": "dacfd6ae34a77c02626f6b7bdbe319ff91cdfcb21766d727ccf3cea71799cd7b"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "59ce592cf2b2bc1a98d2c178e6da98f1e6cc029cefee6873af39099aff0bccf6",
+          "reviewedMyanmarSHA256": "07811c8138e31327b0d09a37bd1302670f31204b76525b7bba66f03a555feb0b"
+        }
+      }
+    },
+    {
+      "id": 1801,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Jorah/Undercity branch, cartographer/ancient-text expertise and map disdain retained; all maps for one necromancy book or Dark Lady tale, without invented rank or building name. Progress absent.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "73d0303db73844e15823525324e4247a6107b5e3a7cc6cd7e5b64b3cf116e186",
+          "reviewedMyanmarSHA256": "49418a0881b8a6387a74a081261ab8c2258681638118d857e64359834ee045b3"
+        },
+        "objective": {
+          "englishSHA256": "0544b11e59b04a5919d8ce5ab0b8081e4a85b761cf9836ff6ddf2807abf52dde",
+          "reviewedMyanmarSHA256": "abfcd9e645752b0826ddb767eaf8443fa1844cff13268997c0d00367bb1a92fe"
+        },
+        "progress": {
+          "englishSHA256": null,
+          "reviewedMyanmarSHA256": null
+        },
+        "complete": {
+          "englishSHA256": "ad0132113dac0c363efbca93464173e0b1b9b27143a4d496446b0c0235748fdf",
+          "reviewedMyanmarSHA256": "ba79537a1ab8b7b1a40035f9e12886eb5b9d75b25030addcb1c8eeb1022126a3"
+        }
+      }
+    },
+    {
+      "id": 1802,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Unique copy, large ripped portion, rumor uncertainty, off-coast west of Southshore, boat transport to Menethil Harbor and conditional Krom request retained. Moldy Tome/Tattered Manuscript one each confirmed in actual HTML objective table.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "90a9c370c3c17eef41c238b7ceb40d4ed6fd8852de33affa0caf9b664bd0c656",
+          "reviewedMyanmarSHA256": "893c9b91f7b387ffcebd34f3c2aabc4b652dfcaa8160e6bfb43b1c75faf492ad"
+        },
+        "objective": {
+          "englishSHA256": "9787f143038a947170cc872af4a00f891106c8c3d7b6ccbf661f57cbe2be3278",
+          "reviewedMyanmarSHA256": "12826ee78f35fad00379a88e10ff9004d0afb6bc00ee30b7d7a0bb08bdc98856"
+        },
+        "progress": {
+          "englishSHA256": "d6d55064f55ac50bfcb69fea7cef92f1207b4c219283c741dc453eebe3cb72fe",
+          "reviewedMyanmarSHA256": "49d1f784a0b6afcbbe1cee0390722ec3c0c48718a49dc801cc96a2ae3c8b1834"
+        },
+        "complete": {
+          "englishSHA256": "2029072527124c8b760736ab72dd7e2fa04a114846f5013e744db68955ff37dd",
+          "reviewedMyanmarSHA256": "f6f493cf03cc3cdd45e958528d95ad8faa0182d998b119b4d60e4dd3c53d6203"
+        }
+      }
+    },
+    {
+      "id": 1803,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Almost-half pages, Lordaeron walls, rumor uncertainty, west-coast loss during transit toward Ironforge and distinct Jorah recipient retained. No Menethil boat claim borrowed. Item quantities one each confirmed in table.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "119f6b117fb0c47b27cd30e6d36bdf2c8b21a3768cbf8792204eeacc2094c418",
+          "reviewedMyanmarSHA256": "b418935dc2f588b536f475837d6c9d0afcccb62e5f64771e6338b1ef61c9c111"
+        },
+        "objective": {
+          "englishSHA256": "714ada3f8bf436c9b92802052ca522e0032af431b746d18b745bbc97990afb33",
+          "reviewedMyanmarSHA256": "e1f810cd147298d795ee313473b4d940d94ee61b4893f84d5978135c9161b878"
+        },
+        "progress": {
+          "englishSHA256": "8cd7bb75842d4df31e78eb8f7700ce6d1ceff11c475c21ad50bc2dc941bc1db4",
+          "reviewedMyanmarSHA256": "5272dba41b3431c63c87f2f005f7097c1efa540f5bd9d4ba08823b9d2c6d7e7d"
+        },
+        "complete": {
+          "englishSHA256": "dfba703c92a6b5cbf9e8d7ab9542d3ed7249ae59ee76c83a826cc9bbfce7c145",
+          "reviewedMyanmarSHA256": "b7a67a35e5a60f110c9f02eb197f3c8631804f04566a4394df0ea118f4a9cf20"
+        }
+      }
+    },
+    {
+      "id": 1804,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Krom reluctance/copy request, three rods for acolytes, Dragonmaw clan orcs in Wetlands and spellcaster suggestion retained. Provided Reconstructed Tome one and rods three confirmed; progress uses source ordinary tome/rods shorthand, not a named/linked identity.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "f14b603a7a827b9ed20bb10639d460fac5d0c40233b30fa9864d0d5722a4ab02",
+          "reviewedMyanmarSHA256": "e8e507d64e1e38ed84ffca94f5ac6676dd60fc8bcc1a7588cbd3eaf56967c479"
+        },
+        "objective": {
+          "englishSHA256": "f5558c75a9f01fd45462472b7a2b8fb00e4e8e263f61a4039a34ea4b75a355bd",
+          "reviewedMyanmarSHA256": "1e2593e621b55e723b16cbb542ab7bcba412dd60b971fe75aa598178b9177913"
+        },
+        "progress": {
+          "englishSHA256": "ebea2d1d55b5f6a63b99c782611197067482d055544dd64ffb06de5cc60c57b5",
+          "reviewedMyanmarSHA256": "4aabd418caf5d8d4b713c62f426bf866fff7f451feb54b7bd010df1914eca885"
+        },
+        "complete": {
+          "englishSHA256": "5269f1bb48e1e3fbcd8aa4543ed36a95ffdb857c96f74de19d20341ad3ae5c8e",
+          "reviewedMyanmarSHA256": "0271b4c5c64e3f03b7817beefd907110177048b9cd91612c0cc65fb1f9db2c56"
+        }
+      }
+    },
+    {
+      "id": 1805,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Past few years, sparse geography selection all read, copy request and secret in exchange for reading preserved; Dragonmaw Clan orcs, three rods, distinct polite progress and pristine/scratched joke retained. Provided Tome one/rods three confirmed.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "65f18c402ca6dac62412849e6c607cfd0a8a1eddc1655f75c9d16419af4eb0b0",
+          "reviewedMyanmarSHA256": "54af149d4df04bc22222b21a7f70d4c867fccb0fe5ab3bc5061489503ec872d2"
+        },
+        "detail": {
+          "englishSHA256": "e9a72e8b7947edc0b1534cdbc05fbd22b4f08e7509ef13ee1a993668dbb54a3b",
+          "reviewedMyanmarSHA256": "3f1c5b2a6818c1e56e5cf319a686689b4e9bd20b7fcd7dc91b78ada84d0255f2"
+        },
+        "objective": {
+          "englishSHA256": "f5558c75a9f01fd45462472b7a2b8fb00e4e8e263f61a4039a34ea4b75a355bd",
+          "reviewedMyanmarSHA256": "1e2593e621b55e723b16cbb542ab7bcba412dd60b971fe75aa598178b9177913"
+        },
+        "progress": {
+          "englishSHA256": "f17668caa1597d6a79a5e816ac5e7496fc22c3bfebdb5d955e42c421f0553cde",
+          "reviewedMyanmarSHA256": "c710aa4f0944e9a182dcc593337675a9e6e1a03a64675d39d108d2866506771e"
+        },
+        "complete": {
+          "englishSHA256": "5269f1bb48e1e3fbcd8aa4543ed36a95ffdb857c96f74de19d20341ad3ae5c8e",
+          "reviewedMyanmarSHA256": "0271b4c5c64e3f03b7817beefd907110177048b9cd91612c0cc65fb1f9db2c56"
+        }
+      }
+    },
+    {
+      "id": 1795,
+      "fieldsReviewed": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "issues": [],
+      "independentBilingualReview": "Preparedness condition, Strahad basic circle then acolytes using rods for greater circle then player incantation and felhunter spawn preserved; objective use/summon/subdue/return order, difficult taming versus benefit and potential one of strongest retained. No candles/cultists added.",
+      "fieldHashes": {
+        "title": {
+          "englishSHA256": "dcbeedd80da9c3a245495abec7ee8029bf210f06d6ae264647c0f48cdd43f42e",
+          "reviewedMyanmarSHA256": "562a403daff93c6e3b0f2c7d2910575230819a0c51ab7ed8278bd14dfa0f6f0a"
+        },
+        "detail": {
+          "englishSHA256": "846be70fce6a47b2f2ccf2488d607282961c0b101606805f522a64e11f9c59cb",
+          "reviewedMyanmarSHA256": "88ab24be40ee20b28d4f8d171adecad01d4b361ef6cb3a95c2161ce81a759c12"
+        },
+        "objective": {
+          "englishSHA256": "e778a3240455b8f92e5ae249800041ae2cdafe4f2a6ebc31fbc31405234f2b52",
+          "reviewedMyanmarSHA256": "bb14c146acb48d0d5380600308a089de537fe2726a1685e379d7be2fc5abebd4"
+        },
+        "progress": {
+          "englishSHA256": "ac8bbecc0910af33903bdfedede2355221fa65da89092f9fc00ddf34a732503a",
+          "reviewedMyanmarSHA256": "d8f7c4da18958370303006e6639c2ec6e3720f8f6dc21a58b1e17cb6b1d52482"
+        },
+        "complete": {
+          "englishSHA256": "245f3e398c81fbab8b0227a2047da640b57f471f548698d4e0cfdcc0777fb9bd",
+          "reviewedMyanmarSHA256": "84e75e9ebe612679dd195011de81ab498aa61fbe5a6778d8d8caa16fe9b42567"
+        }
+      }
+    }
+  ],
+  "issues": [],
+  "evidenceIssues": [],
+  "pronunciationOverrides": {},
+  "annotationExceptionAdditions": [],
+  "annotationExceptionRemovals": [],
+  "supplementalSourceBoundIdentityProposals": [],
+  "reviewGroups": [
+    [
+      1798,
+      2996,
+      3001,
+      1758,
+      1801
+    ],
+    [
+      1802,
+      1803,
+      1804,
+      1805,
+      1795
+    ]
+  ],
+  "reviewMethod": "Fresh independent full English/Myanmar reread in small groups, including all50slots and5nullstates; actual primary/secondary raw boundaries and objective tables, all exact own-ID g_quests/type5 records, installed metadata, all official UA variants/English aliases, first-per-field whole identities, quantities, directions, actor/stage order, NPC voice, uncertainty/negative/conditional wording and markers reviewed. Automated checks supplement this reread. No optional prose or phonetic churn proposed.",
+  "instructionsRead": [
+    "REVIEW-INSTRUCTIONS.md",
+    "AUTHOR-INSTRUCTIONS.md",
+    "workspace AGENTS.md",
+    "release worktree AGENTS.md",
+    "BuildSource/STYLE-GUIDE.md",
+    "DeepL translation-rules SKILL.md",
+    "selection.json",
+    ".summer/plans/2026-11-25-afternoon-quest-batch.md"
+  ],
+  "reviewedArtifactSHA256": {
+    "1758-sixty.html": "fbbd34ba903b7ebd30667fef664d67886feeb92a7509e9ef46007fc24109e55b",
+    "1758-wowhead.html": "c0b3035000d517df8775fc8919781045817ea7e3b942da426b373c541bc618c0",
+    "1795-sixty.html": "3bea854a7890875e9942a66073c2f611096cf0928eee19a1c1d25ef4076307f9",
+    "1795-wowhead.html": "3fb2ef8b68b61fde10e01ac814bd9b0ff6bcba77fdfc4b63e95d37076c1a75df",
+    "1798-sixty.html": "83cd3dff640c5b6b48c058360cc936e2c0c05271b88fe91c2d1dd92468f6d55e",
+    "1798-wowhead.html": "cfb1b89fe2a6c5bcdc9f6e7401f62e68147f22e1a231692911311646fec3b392",
+    "1801-sixty.html": "910621b6b4b27109430cecaa3a4d1b05afe00229bacc0e6d56a12edb4b707ab2",
+    "1801-wowhead.html": "f1c4bc1e13f60a5d2e92c0bd2cc5f7b97da6df63153a0f5589edd69672c5e422",
+    "1802-sixty.html": "0d4ebfc255f30cb283bf7a5edbecfb0c256c4e094940ce32c5a5244e7fb10341",
+    "1802-wowhead.html": "b5efa54a8fe92eccaa745996ca8afe4cca413c558fb30f22855e09b6a8127983",
+    "1803-sixty.html": "8f8ad7e60971f5f3dcfe3169d28f1ebf0156d7822f949dc650886260d41a32ec",
+    "1803-wowhead.html": "11e2e94abba72c6d2986bd315fa3ead1dba2378f9a58628854686ea959295e02",
+    "1804-sixty.html": "5d0f92fcb99f638491ab9a0f2a8e914dd18cf0d64645c88399afa075ee9d6015",
+    "1804-wowhead.html": "a573ce1300df6fca52e6a49aacf9797374ca9ef101b4170adaac0b8e09156672",
+    "1805-sixty.html": "90a3ae5e2d84429a2248e64f1bd218b4508957e79aa1dcf4c3eef3b40e92f95b",
+    "1805-wowhead.html": "2942ac2d1b8f139a6ac8def5606e038f8e092af054bc0191ce1c4ce87b809ccf",
+    "2996-sixty.html": "5f2e911f49007742fe3139d95c9e875ad4e98bf5e8e9bf561db400dd2f7c245e",
+    "2996-wowhead.html": "c8c9ddf6346275147251aca8ca3e4eb2e6c835f76b87d255c45682c3af1c5cea",
+    "3001-sixty.html": "a084c9cd962e803c8bd49234e255a85079aed586cb66442b150e266b45abd134",
+    "3001-wowhead.html": "4a5137a6b8183e1fe397be6052a453c522713039231a71f6a9c007d24e610d40",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "author-summary.json": "acb858937dd55d6ca80b00be37b4f567c0a6bcdf88c3716d34521c657663ed51",
+    "check_class_routes.py": "5094065f821becc2e022ef5f3e68a44caf4045963e691d9d4e479da3049fd8e1",
+    "comparison-provenance.json": "372792956a25a53f58b1e850a68330d18c689a686aa21c8996758bd45d2e7ce5",
+    "deepl-g1-b1-index.json": "b0aa75d2324496e5582b6428a8b321cd72289e90fee33ade23e48fe25c97733d",
+    "deepl-g1-b1-request.json": "371c976cf2bfb3a86381577731351950520f7aaecb913d1579b622a6975654c4",
+    "deepl-g1-b1-response.json": "d7634987718e904fac21fbe046bbefe5968cdd08806d8d7d74cc2823ffac02f8",
+    "deepl-g2-b1-index.json": "efb6595a7f68e822ee106ae46308137d4ad35e92819cc5814e16cdcaf22c2473",
+    "deepl-g2-b1-request.json": "51ecf4e20cc87cfaafa2c28f9939b30554626b0e0508df2db8f9da085825c8d1",
+    "deepl-g2-b1-response.json": "ea5d9ce565da7f4548200bf6c95339b18e45bd6d85221d6d3bfd7aaf7a626f47",
+    "deepl-g2-b2-index.json": "81f71bb2b5402c5ab9ae6e42fcefc2d78d362e3f2ad0ba32c07233dc670dff47",
+    "deepl-g2-b2-request.json": "d6b6a5229efbc8ee0dae2d3357d23dd4c5cfa4cecb2827712e1b9b36bfcd3ee0",
+    "deepl-g2-b2-response.json": "029f9da460d60b70c949ff1ea8fe71db7c953f9dd04e18212abb3cb26cbc337b",
+    "edited.json": "2d811a45eb6d80cf1052c3f1d50f522e618813cf5daaf1f3ba58a28f3bc0303b",
+    "english-sources.json": "4850adb0809f67c18a7a67f69e4a28677ed5b4f14b22a91db247dc4c25e17487",
+    "fetched.json": "155ac2bee2a3e11eccf6675a46d55df3375fcade69c2cac236cf899adb217894",
+    "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "identity-contracts.json": "7ce8edd3064925f5496eb4d73625b7cecdb166fd80b13654258eaed757085934",
+    "maintained-identity-screen.json": "61a7bfecc3c082da372327539184eac9f7d1ba40402b941713d67185512148b7",
+    "owned-check-receipt.json": "6bb21d4530f18477ea48f25c4e306ed425814f3119077587ba2e7bb37b75b8ab",
+    "pronunciations.json": "fcceae5bab4a20cf06571c0abe870e95a8b8d4a14ea1b26810d117db23a38eaf",
+    "review-audit.json": "140862e9ca02ecd254a282bce7209bbc5016a1794f25cd0fb119c5dcd0acc532",
+    "review-groups.json": "49868eab72b1c9027b2229122e8ce61a01d5eb2ab88503fde8c9b518351f5428",
+    "scoped-root-verifier-receipt.json": "7280dee8902e84c3c17b59d04d321aabf3ec16731aa7199a4a1d711e5b8a8004",
+    "semantic-contracts.json": "900ff6b5b6d0e0fff197675e67d3c63e78507d4a5654771a769c7aed651af2fc",
+    "semantic-notes.json": "3671fa01207d970c6bf853403ec9b285fc0ac953087ca0144a1d574721be4ff3",
+    "source-boundaries.json": "64c02b71fb45960cc76ad332b51450f36facd3416c626cd1ff13edfa6df0c144",
+    "source-sanity.json": "f08e41e1c269bca5e4158d028ee3878a0e2a85e1760126aa6a269ffe5acd9418"
+  },
+  "frozenIntegrity": {
+    "manifestSHA256": "a98333bb8b7e8dc8a38036c218683684280f722a3c244319cd4fd9596936082e",
+    "files": 48,
+    "before": "PASS all48",
+    "after": "PASS all48",
+    "unchanged": true
+  },
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "metadataPin": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "sourceCaveats": [
+    "UA all10entries are Both labels. Exact current own records show Alliance side1/race65 or Horde side2/race146 and class256; shared1795 side3/race0. Installed expanded Forever race masks separately preserved. Neither source proves current live acceptance.",
+    "Primary1798 explicitly adds starter Lago Blackwrench, while installed starter list remains6120/6122. Documented metadata discrepancy does not change its English dialogue.",
+    "Secondary lacks8objectives; current primary supplies actual objective text. Primary<class>/<name> markers preserved where secondary fixes warlock or uses<Name>.",
+    "All UA variants/states read. UA3001 lacks English at least for now; UA1758/1801 omit explicit unaided nuance; UA1795objective elides separate summon stage. Current primary English controls the richer Myanmar wording. No unresolved English source conflict requires a formal hold.",
+    "Ordinary source book/tome/rods/this text references, acolytes, library, tower, port town and magic circles remain semantic Myanmar. Full named artifact/item identities and whole Dragonmaw clan/Clan identities are retained where English supplies them; source1804Progress has unlinked generic shorthand. No named rank omitted.",
+    "Maintained4891terms preserved;15new whole-identity pronunciation proposals are assisted editorial spellings pending native approval."
+  ],
+  "checks": {
+    "independentVerificationScript": "work\\afternoon-2026-11-25\\independent-review\\class_routes-review-check.py",
+    "scriptSHA256": "31296f5ce40dda965e22e184225bf3afcf38c0d871c16621eb5e4c06136127f1",
+    "receipt": "work\\afternoon-2026-11-25\\independent-review\\class_routes-review-check-receipt.json",
+    "receiptSHA256": "ff9f0d6b5ac09db9883f8194388ab7c31be892f03e63463bacb309d615a29aa1",
+    "command": "work/venv/Scripts/python.exe -B -X utf8 work/afternoon-2026-11-25/independent-review/class_routes-review-check.py",
+    "actualLint": "PASS via exact scoped root verifier",
+    "actualValidateFields": "PASS all50slots via exact scoped root verifier",
+    "primaryAndSecondaryReparse": "PASS all50slots each, with raw HTML boundary reads",
+    "paragraphsMarkersCanonicalHashes": "PASS all50slots",
+    "rawDeepL": "PASS3genuine saved request/response/index chains;20+24+1texts=45;3474/4351/189characters; allavailablefields accountedonce, raw output/content and structured response agree",
+    "semanticContracts": "PASS positive authored source-bound contracts; all16meaningful negative controls independently executed and rejected, including same-digit wrong target",
+    "scopedRootVerifier": "PASS actual unchanged verify_workers.py class_routes runpy execution, only exact final shared-report write suppressed",
+    "scopedRootVerifierSHA256": "5785c9f17cc8ff794c27c7b3528db118697ad9e4d02447195c605795934c2dd8",
+    "allAuthorHashesBeforeAfter": "PASS48unchanged"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "newPhoneticVerification": "pending native review",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "pendingItems": [
+    "Native Myanmar proofreading and approval of new pronunciation proposals.",
+    "Current Forever live verification, including actual branch acceptance and same-title state routing.",
+    "Controller hardware verification."
+  ],
+  "conclusion": "No required field or documentary correction identified; original frozen authored text approved for the assisted/source/integrity review gates only."
+}

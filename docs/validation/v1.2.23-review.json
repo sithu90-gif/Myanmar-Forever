@@ -1,0 +1,153 @@
+{
+  "version": "1.2.23",
+  "result": "PASS",
+  "kind": "conditional_afternoon",
+  "localDate": "2026-11-25",
+  "newQuestIDs": 50,
+  "newQuestFields": 227,
+  "newEnabledFieldsTotal": 227,
+  "newAvailableSourceFields": 228,
+  "newSourceAbsentFields": 22,
+  "newHeldFields": [
+    {
+      "id": 1274,
+      "field": "detail",
+      "reason": "Current source contains <sir/madam> gender branch, unsupported by QuestBridge/TermIntroductions runtime (supports name/class/race/priest/priestess only). Field held; no one-gender or neutral normalization enabled.",
+      "sourceEnglish": "Excuse me, <sir/madam>. Bishop DeLavey asked me to approach adventurers that might be able to help him with a delicate matter.\n\nIf you could quietly head to Stormwind Keep and speak to him at your earliest convenience, I'm sure he would appreciate your help. Again, please be discreet. It is a matter of some importance.",
+      "englishSHA256": "761534bfc152e3fa9f2572af8a9bdcbc5583166bb93ec1e57260a648364e7af6",
+      "rawDeepLProposal": "ခင်ဗျား၊ ဘီရှော့ ဒေလေဗီက အရေးကြီးတဲ့ကိစ္စတစ်ခုအတွက် ကူညီနိုင်မယ့် စွန့်စားခရီးသွားတွေကို ရှာဖွေဖို့ ကျွန်ုပ်အား တောင်းဆိုထားပါသည်။\n\nကျေးဇူးပြု၍ တိတ်ဆိတ်စွာ Stormwind Keep သို့ သွားရောက်ပြီး အမြန်ဆုံး သူနှင့် တွေ့ဆုံပြောဆိုပေးပါက သူက သင့်ကူညီမှုကို အထူးကျေးဇူးတင်မည်ဟု ယုံကြည်ပါသည်။ ထပ်မံ၍ လျှို့ဝှက်စွာ ဆောင်ရွက်ပေးပါရန် တောင်းဆိုအပ်ပါသည်။ ဤကိစ္စမှာ အရေးကြီးပါသည်။",
+      "rawDeepLSHA256": "319a59f7d7176482023040f103d03e75895a829b9dc772b800055eb6db7f810c",
+      "authorOriginalEditedProposal": "ခွင့်ပြုပါဦး၊ <sir/madam>။ နူးညံ့သိမ်မွေ့စွာ ကိုင်တွယ်ရမယ့် ကိစ္စတစ်ခုမှာ ကူညီနိုင်မယ့် စွန့်စားသူတွေကို ချဉ်းကပ်ဖို့ Bishop DeLavey (ဘစ်ရှပ် ဒဲလေဗီ) က ကျွန်တော့်ကို မှာထားပါတယ်။\n\nအဆင်ပြေသမျှ အမြန်ဆုံး Stormwind Keep (စတော်မ်ဝင်းဒ် ကီးပ်) ကို တိတ်တဆိတ်သွားပြီး သူနဲ့ စကားပြောပေးမယ်ဆိုရင် ခင်ဗျားရဲ့ အကူအညီကို သူ ကျေးဇူးတင်မှာ သေချာပါတယ်။ ထပ်ပြောပါရစေ၊ သိုသိုသိပ်သိပ် လုပ်ပေးပါ။ အရေးကြီးတဲ့ ကိစ္စတစ်ခုပါ။",
+      "authorOriginalEditedSHA256": "b74d92038ffac903ff91ae58492aacb54f27ee9c3f11517726b539ec022375b6",
+      "rawDeepLRequestFile": "deepl-g1-1-request.json",
+      "rawDeepLResponseFile": "deepl-g1-1-response.json",
+      "rawDeepLIndexFile": "deepl-g1-1-index.json",
+      "requestIndex": 15,
+      "responseIndex": 15,
+      "responseTargetIndex": 0,
+      "runtimeEvidence": {
+        "TermIntroductions.luaSHA256": "b184e063ca7eb454a21bdd2512ae33d6eb944388ed47861f3ac832b489ad2eab",
+        "lines": "124-131 recognized marker branches; sir/madam absent"
+      },
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested",
+      "rawDeepLRequestSHA256": "144c5d9eb031b8671c2cf0690ef7362202d7de046bb2b5c274d155822564793d",
+      "rawDeepLResponseSHA256": "2899403d0cea64402b7de6d3062475c9f9d07fb6615aa806a7f8ec745c45b277",
+      "rawDeepLIndexSHA256": "b4c3d09a4217e93c2c0604b4f2c0f3b4801fd1627ba0c86340f0a019da16c30f",
+      "sourceHTMLSHA256": "b8fa056afe34ec3e5fb749ecc1c785dc9a665b596b9167c864ace178bc68682c",
+      "sourceURL": "https://www.wowhead.com/forever/quest%3D1274/the-missing-diplomat",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/alliance_routes.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 0,
+  "questIDs": 2036,
+  "translatedFields": 9297,
+  "dialogueStates": 5323,
+  "absentOrHeldDialogueStates": 785,
+  "activeHeldUniqueFields": 89,
+  "pythonTests": 26,
+  "luaRegressionGroups": 60,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "additionalIdentityContracts": 0,
+  "reviewedConnectedGroups": 6,
+  "forgeBuildScopeGuard": {
+    "result": "PASS",
+    "questID": 86776,
+    "EnglishIdentity": "Ingredients for the Forge",
+    "requiredExactReviewedFieldsSHA256": {
+      "title": "7e62060a19ba0137d6f3c9f43269bb33a3f0bbc2d398e5805197ef6c981155d5",
+      "detail": "cc618bdc40c60d31d24ab7c98f68558236d7eb5e277068a7a907b73c916847ec",
+      "objective": "d36b1c9f240c77e8d3c3494a2a2025495d706c9b9c7e23e67a0c54b76f440ba7",
+      "progress": "c479611292786046c7e61bc44c8f1750e326a0ab8361ef1a6cabb25c27b39e45",
+      "complete": "27a8c06d17db441e3034d597dc5e06bd549022cafbbaa49dd34905ece6eb5f11"
+    },
+    "originalSnapshotUnmodifiedSHA256": "930cc7f6778d830d98dd2df80b65ae930309902f7777dcf33225b8703d86bdd7",
+    "redTest": "New Forge regression failed before fix with original Out-of-scope/placeholder assertion.",
+    "greenTest": "All26Python tests pass after exact-field-hash exemption; wrongquantity/identity/title-only/unreviewedplaceholder and changedanchor rejected.",
+    "changedTools": {
+      "tools/build_release.py": {
+        "before": "905307b31f742cefa6ea8ae2edf34493543788bb3aca96fb7cae8f757ba60d65",
+        "after": "769c6f99a48d2067959fbbdad3b16bb189f8a5c75b44f950217adbc7d71364ad"
+      },
+      "tools/test_build_release.py": {
+        "before": "92f069ef13bcc6227f6985ffa1a0be2e3282fc3c15aa5eb776770a40e72484fe",
+        "after": "bda0341fc33d14c3e9d5a121d9f214c968ced7490145c8f294a40720d8eee128"
+      }
+    },
+    "sourceAndReview": "translations/scheduled-routes-v1.2.23/{english-sources,review-audit}.json; evidence/independent-review/alliance_routes.json",
+    "preservesOtherExclusions": true
+  },
+  "independentForgeGuardReview": "PASS; evidence/forge-guard-independent-review.json",
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-25T07:20:24.226214+00:00",
+    "catalogVersion": "1.2.23",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.23.zip",
+    "bytes": 1250032,
+    "sha256": "dff2297cb5fb496df6e05545bd6cc598cbe2e0fbd41123eb675ceac0d4b5c13a"
+  },
+  "canonicalMetadataHashAliasRepairs": 0,
+  "inheritedUAUnavailableEnglishStates": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "UA1.1.1 added state, current primary/secondary English unavailable; baseline null preserved. Source/liveness uncertainty recorded separately from formal sourced holds."
+    }
+  ],
+  "unconfirmedUAOnlyStates": [
+    {
+      "id": 5421,
+      "field": "detail",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    },
+    {
+      "id": 5421,
+      "field": "objective",
+      "disposition": "UA state exists but current English is unavailable; no backtranslation or live-absence claim. See per-ID current source/reference boundaries."
+    }
+  ],
+  "newUnavailableCurrentEnglishStates": 22,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}

@@ -1,0 +1,286 @@
+{
+  "groups": [
+    {
+      "group": 1,
+      "questIDs": [
+        98208,
+        86776,
+        87491,
+        1274,
+        1241,
+        1242,
+        1243,
+        1244,
+        1245,
+        1246
+      ],
+      "status": "author source/editorial/separate bilingual reread and integrity checks completed",
+      "readStates": {
+        "98208": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "86776": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "87491": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1274": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1241": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1242": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1243": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1244": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1245": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1246": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      "sourcePins": {
+        "repository": "sysrover/UA_Forever",
+        "version": "1.1.2",
+        "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+        "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+        "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+        "publishedAtUTC": "2026-11-24T04:16:06Z",
+        "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+        "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+        "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+      },
+      "metadataPin": {
+        "version": "1.1.3",
+        "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+        "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+        "questCount": 5982,
+        "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+        "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+        "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+      },
+      "checks": {
+        "result": "PASS",
+        "groups": 2,
+        "quests": 20,
+        "enabledFields": 89,
+        "sourceReparse": true,
+        "paragraphCounts": true,
+        "angleBracketStateCounts": true,
+        "actualChecks": [
+          "linguistic_lint.lint",
+          "build_release.validate_fields"
+        ],
+        "checkedAtUTC": "2026-11-25T07:02:13.823283+00:00"
+      },
+      "artifactSHA256": {
+        "edited.json": "3c3c93d43307f15b8d66dc90039f48d2a326b45e7a3a279ca7c20aadfa7013c6",
+        "english-sources.json": "50c9a770ccdc8741d0bb891771d1c2c66cdbb5ea1461274fb5ee00c908569cdd",
+        "review-audit.json": "b7ff7dc3baa41acd63908e1232819ae5ae9882f13905829818098c63f88bc8e9",
+        "comparison-provenance.json": "2a6939299f650c207aee44ef048bf550001b1a735e793ef80a9d7a1a9be59f74"
+      },
+      "reviewNotes": {
+        "98208": "Recovered Nord'el, somber wreckage, city south and willing follow-up only; existing 98209 is not retranslated. Bloom title is the source flower alias. Thousand thanks retained as a written quantity.",
+        "86776": "10 Bronze Bars to Morhan, distinct from 10 Tin Bar reward; bronze corrected from raw copper/steel. Forge and coal corrected. Current own reqlevel15.",
+        "87491": "Escort captive fire elemental from Dun Modr; fiery release/burn imperatives; distinct calmer completion speaker. Missing progress not invented. Installed req27 versus HTML25 recorded.",
+        "1274": "Discreet referral by Thomas to Bishop DeLavey; <sir/madam> preserved exactly. Bishop whole rank/name pronounced. Detail formally held after runtime inspection proved <sir/madam> unsupported; raw and author proposals retained in held-fields.json.",
+        "1241": "Never arrived; Defias involvement believed but how uncertain. Find Jorgen, give note, follow instructions. Jorgen obligation and secrecy preserved; bracketed squint action retained.",
+        "1242": "Provided note delivery to Elling, wait for response, secrecy; Objective HTML item5946 link spans Sealed Note to Elling, followed by Trias; final retains full linked item plus giver Jorgen and recipient Elling Trias. Shop and cheeses retain independent identities. Opening-letter stage direction retained.",
+        "1243": "Provided full linked item5960 Sealed Note to Watcher Backus delivered to Watcher Backus; town-exterior north road, Defias inquiry; sarcastic curse not completed or literal search instruction. Watchers warning versus later confidence distinguished.",
+        "1244": "Recover Defias Docket, no provision at this stage; farm south of Westfall road at Duskwood entry. Weeks and guessed large event, possible decoy preserved.",
+        "1245": "Provided docket to Elling. Do not let anyone block you, not UA omission; threatened hanging corrected. Asked whether player has even departed; uncertainty Fist alias first appears here.",
+        "1246": "Speak only; not defeat until1447. Dashel recall, FIST/Fist aliases, possible reluctant interrogation in Old Town; no willing information."
+      }
+    },
+    {
+      "group": 2,
+      "questIDs": [
+        1447,
+        1247,
+        1248,
+        1249,
+        1250,
+        1264,
+        1265,
+        1266,
+        1324,
+        1267
+      ],
+      "status": "author source/editorial/separate bilingual reread and integrity checks completed",
+      "readStates": {
+        "1447": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1247": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1248": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1249": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1250": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1264": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1265": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1266": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1324": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ],
+        "1267": [
+          "title",
+          "detail",
+          "objective",
+          "progress",
+          "complete"
+        ]
+      },
+      "sourcePins": {
+        "repository": "sysrover/UA_Forever",
+        "version": "1.1.2",
+        "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+        "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+        "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+        "publishedAtUTC": "2026-11-24T04:16:06Z",
+        "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+        "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+        "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+      },
+      "metadataPin": {
+        "version": "1.1.3",
+        "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+        "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+        "questCount": 5982,
+        "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+        "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+        "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+      },
+      "checks": {
+        "result": "PASS",
+        "groups": 2,
+        "quests": 20,
+        "enabledFields": 89,
+        "sourceReparse": true,
+        "paragraphCounts": true,
+        "angleBracketStateCounts": true,
+        "actualChecks": [
+          "linguistic_lint.lint",
+          "build_release.validate_fields"
+        ],
+        "checkedAtUTC": "2026-11-25T07:02:13.823283+00:00"
+      },
+      "artifactSHA256": {
+        "edited.json": "3c3c93d43307f15b8d66dc90039f48d2a326b45e7a3a279ca7c20aadfa7013c6",
+        "english-sources.json": "50c9a770ccdc8741d0bb891771d1c2c66cdbb5ea1461274fb5ee00c908569cdd",
+        "review-audit.json": "b7ff7dc3baa41acd63908e1232819ae5ae9882f13905829818098c63f88bc8e9",
+        "comparison-provenance.json": "2a6939299f650c207aee44ef048bf550001b1a735e793ef80a9d7a1a9be59f74"
+      },
+      "reviewNotes": {
+        "1447": "Defeat Dashel, not kill; threat about never leaving preserved; <class> twice in separate states.",
+        "1247": "Slim identity still partial, plan A failed before plan B; inform Elling after confrontation. Diplomat name remains unstated in papers.",
+        "1248": "Retired Mikhail in harbor; request speak/find Slim/discover captive location or identity in that order. Tavern greeting then secrecy.",
+        "1249": "Subdue Tapoke Jahn before escape, then return Mikhail. Identity confirmed as Slim only on completion; exit listener not named during offer.",
+        "1250": "First reveal king of Stormwind, collaborator remains unknown; Hendel boarding ship while moored. Completion astonishment and uncertain son coronation. Current primary detail reworded, not imported older UA.",
+        "1264": "Kul Tiras Marines paid every month, carouse in harbor. Conditional Hendel stationed, Samaul loyalty and discretion. Southern swamp black dragons distinguished.",
+        "1265": "Search Sentry Point for Hendel; absent at completion, Lady Proudmoore's help conditional on permission. Installed endpoint4967 Archmage Tervosh not inserted into speech.",
+        "1266": "Find Private Hendel west, tents along road, covert watchers of Horde Brackenwall. Hendel claims rumoured base and slow search; do not harmonize his voice with prior narrator.",
+        "1324": "Defeat/subdue Private Hendel, never kill. Assistance explicitly prevents escape or death. Return for questioning, find King; source alias lady Proudmore retained.",
+        "1267": "Reward-only final stage: no offer or progress. Current objective Jaina Proudmoore versus installed Proudmore, Dustwallow Swamp alias; completion promises future updates not UA reward."
+      }
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

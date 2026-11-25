@@ -1,0 +1,112 @@
+{
+  "partition": "alliance_routes",
+  "targetVersion": "1.2.23",
+  "questIDs": [
+    98208,
+    86776,
+    87491,
+    1274,
+    1241,
+    1242,
+    1243,
+    1244,
+    1245,
+    1246,
+    1447,
+    1247,
+    1248,
+    1249,
+    1250,
+    1264,
+    1265,
+    1266,
+    1324,
+    1267
+  ],
+  "questCount": 20,
+  "sourcedFields": 90,
+  "enabledFields": 89,
+  "formalHeldFields": [
+    {
+      "id": 1274,
+      "field": "detail",
+      "reason": "Unsupported runtime <sir/madam> branch"
+    }
+  ],
+  "unavailableSlots": 10,
+  "reviewGroups": [
+    [
+      98208,
+      86776,
+      87491,
+      1274,
+      1241,
+      1242,
+      1243,
+      1244,
+      1245,
+      1246
+    ],
+    [
+      1447,
+      1247,
+      1248,
+      1249,
+      1250,
+      1264,
+      1265,
+      1266,
+      1324,
+      1267
+    ]
+  ],
+  "routes": [
+    "Menethil Bloom recovery98208 to existing98209 (not retranslated)",
+    "Thelsamar forge86776 req15/10 Bronze Bars",
+    "Wetlands Dun Modr escort87491",
+    "17-ID Missing Diplomat chain1274 through1267:Stormwind/Duskwood/Menethil/Theramore/Dustwallow"
+  ],
+  "actualDeepL": {
+    "requests": 4,
+    "fields": 90,
+    "target": "MY",
+    "source": "auto-detected",
+    "context": "Literal source sent; Free ignored",
+    "glossary": "Local maintained4891 map, Free cloud glossary unavailable (root checked pro_required)"
+  },
+  "review": "Every five-state slot source-reviewed; every available field authentic DeepL drafted and editorially refined; full separate English/Myanmar reread after each10quest group; corrected source-linked note boundaries and repeated affected checks.",
+  "validation": "Actual source reparse, linguistic lint, build_release.validate_fields, paragraphs/brackets and Unicode semantic contracts with17meaningful negative controls passed. Scoped root verifier receipt is separate.",
+  "pending": [
+    "Fresh independent assisted review by root-assigned reviewer",
+    "Native Myanmar proofreading",
+    "New phonetic proposals native review",
+    "Current live Forever verification, including87491 min27 installed versus25primary",
+    "Controller hardware verification"
+  ],
+  "sourceCaveats": [
+    "98208 UA factionBoth versusprimaryAlliance",
+    "1274 detail held for unsupported gender branch",
+    "1250/1267 primary current reworded versus upstream summaries",
+    "1267 current completion future updates, not UA reward promise"
+  ],
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-25T06:35:23.192905+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "metadataReference": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  }
+}

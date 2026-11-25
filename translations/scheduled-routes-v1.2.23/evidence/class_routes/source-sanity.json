@@ -1,0 +1,987 @@
+{
+  "1798": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1798,
+      "level": 30,
+      "name": "Seeking Strahad",
+      "race": 65,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 65,
+      "side": 1,
+      "xp": 610,
+      "envChange": {
+        "status": "updated",
+        "labels": [
+          "quest_giver_changed"
+        ],
+        "lines": [
+          "Quest givers: adds Starts at Lago Blackwrench"
+        ],
+        "notShown": [
+          "Quest givers: adds Starts at Lago Blackwrench"
+        ]
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Seeking Strahad",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 256,
+        "reqrace": 65
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6120,
+          6122
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Speak with Strahad Farsan in the Barrens."
+      ],
+      "S": {
+        "1": "Seeking Strahad",
+        "4": 30,
+        "5": 30,
+        "6": 4294967373,
+        "7": 256,
+        "17": -61,
+        "22": 1758,
+        "23": 8,
+        "27": 1758,
+        "p": 134
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "У пошуках Страгада",
+        "detail": "Пора тобі навчитися викликати скверногончу, {ім'я}. У мене немає необхідних реагентів та предметів, щоб навчити тебе тут, тому тобі доведеться звернутися до іншого чорнокнижника — Страгада Фарсана, ще одного з нашого найближчого оточення.\n\nВін проживає в гоблінському порту, Брашпилі. Я попереджу його про твій прихід.",
+        "objective": "Поговоріть зі Страгадом Фарсаном в Степах.",
+        "progress": null,
+        "complete": "{ім'я}? Ах, звичайно. Наша нова обдарованість. Реальність зазвичай не відповідає легенді, на жаль.\n\nНеважливо, ти {стать:прийшов:прийшла} сюди, щоб вчитися, а не слухати, як я жартую сам з собою.",
+        "en": "Seeking Strahad",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 4294967373,
+    "currentPrimaryRaceMask": 65,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "2996": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 2996,
+      "level": 30,
+      "name": "Seeking Strahad",
+      "race": 146,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 146,
+      "side": 2,
+      "xp": 610,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Seeking Strahad",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 256,
+        "reqrace": 146
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5875
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Speak to Strahad Farsan in Ratchet."
+      ],
+      "S": {
+        "1": "Seeking Strahad",
+        "4": 30,
+        "5": 30,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1801,
+        "23": 8,
+        "27": 1801,
+        "p": 134
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "У пошуках Страгада",
+        "detail": "Я багато чому навчив тебе, але тобі потрібен новий вчитель. Він знаходиться в Брашпилі, його ім'я Страгад. Він людина, але не дозволяй цьому обдурити себе і думати, що він слабкий. Він могутній, навіть якщо й малий. Він може навчити тебе потужнішим заклинанням виклику — я відчуваю, що ти {стать:готовий:готова}. Йди до нього. Він у Брашпилі... біля вежі над портовим містом.",
+        "objective": "Поговоріть зі Страгадом Фарсаном в Брашпилі.",
+        "progress": null,
+        "complete": "Насичений день у Брашпилі, чи не так? Я люблю спостерігати за напруженою роботою портового містечка. Тут стільки таємниць, стільки пригод... та стільки неуцтва.\n\nЧи це ненависть у твоїх очах, {ім'я}? Чудово, ми знайдемо для неї застосування.",
+        "en": "Seeking Strahad",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 8589934770,
+    "currentPrimaryRaceMask": 146,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "3001": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 3001,
+      "level": 30,
+      "name": "Seeking Strahad",
+      "race": 146,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 146,
+      "side": 2,
+      "xp": 610,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Seeking Strahad",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 256,
+        "reqrace": 146
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          5675
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Find Strahad Farsan in Ratchet."
+      ],
+      "S": {
+        "1": "Seeking Strahad",
+        "4": 30,
+        "5": 30,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1801,
+        "23": 8,
+        "27": 1801,
+        "p": 134
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "У пошуках Страгада",
+        "detail": "Я багато чому навчив тебе, але тобі потрібен новий вчитель. Він знаходиться в Брашпилі, його ім'я Страгад. Він людина, але не дозволяй цьому обдурити себе і думати, що він слабкий. Він не твій ворог, тому поважай його. Страгад може навчити тебе потужнішим заклинанням виклику, заклинанням які ти {стать:готовий:готова} вивчити.\n\nТи знайдеш його в Брашпилі... над портовим містом, поруч з вежею.",
+        "objective": "Знайдіть Страгада Фарсана в Брашпилі.",
+        "progress": null,
+        "complete": "Насичений день у Брашпилі, чи не так? Я люблю спостерігати за напруженою роботою портового містечка. Тут стільки таємниць, стільки пригод... та стільки неуцтва.\n\nЧи це ненависть у твоїх очах, {ім'я}? Чудово, ми знайдемо для неї застосування.",
+        "en": "Seeking Strahad",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 8589934770,
+    "currentPrimaryRaceMask": 146,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1758": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1758,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 65,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 65,
+      "side": 1,
+      "xp": 610,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 256,
+        "reqrace": 65
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6251
+        ]
+      ],
+      "3": [
+        [
+          6294
+        ]
+      ],
+      "8": [
+        "Speak with Krom Stoutarm in Ironforge."
+      ],
+      "28": [
+        1798
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 4294967373,
+        "7": 256,
+        "17": -61,
+        "22": 1802,
+        "23": 8,
+        "p": 134217862
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "Для того, щоб викликати скверногончу на бій, тобі знадобиться більше, ніж просто коло виклику.\n\nМої три послідовники і я допоможемо тобі створити магічні кола. Тобі потрібна копія давно втраченого фоліанта змови. Він був написаний групою чорнокнижників, які змогли вперше викликати скверногончу.\n\nМожливо, Кром Міцнорук зможе допомогти. Нині мандрівний чорнокнижник, він проводить свої дні, збираючи стародавні тексти та нишпорячи по бібліотеці в Залізогарті.",
+        "objective": "Поговоріть з Кромом Міцноруком в Залізогарті.",
+        "progress": null,
+        "complete": "Фоліант змови? Хмм... звучить знайомо. Я його тут раніше не бачив, і повір мені, я пам'ятаю кожну книгу, яку я читав.\n\nХмм...\n\nЗвісно! Я бачив посилання на нього в каталогах бібліотеки.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 4294967373,
+    "currentPrimaryRaceMask": 65,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1801": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1801,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 146,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 146,
+      "side": 2,
+      "xp": 610,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 256,
+        "reqrace": 146
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6251
+        ]
+      ],
+      "3": [
+        [
+          6293
+        ]
+      ],
+      "8": [
+        "Speak with Jorah Annison in the Undercity."
+      ],
+      "28": [
+        2996,
+        3001
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1803,
+        "23": 8,
+        "p": 134217862
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "Для того, щоб викликати скверногончу на бій, тобі знадобиться більше, ніж просто коло виклику.\n\nМої три послідовники і я допоможемо тобі створити магічні кола. Тобі потрібна копія давно втраченого фоліанта змови. Він був написаний групою чорнокнижників, які змогли вперше викликати скверногончу.\n\nМожливо, Джорах Аннісон зможе допомогти. Зараз він працює картографом в Підмісті, але все ще знає більше стародавніх текстів, ніж будь-хто з моїх знайомих.",
+        "objective": "Поговоріть з Джорахом Аннісоном в Підмісті.",
+        "progress": null,
+        "complete": "Картографія! Картинки далекі від реальності. Вони мені не потрібні.\n\nУ книгах, в повістях, в описах! Там істина лежить. Я б обміняв усі мапи в цьому магазині на одну книгу про зародження некромантії або історію про тріумф Темної Леді.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 8589934770,
+    "currentPrimaryRaceMask": 146,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1802": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1802,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 65,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 65,
+      "side": 1,
+      "xp": 2450,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 256,
+        "reqrace": 65
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6294
+        ]
+      ],
+      "3": [
+        [
+          6294
+        ]
+      ],
+      "8": [
+        "Retrieve the Moldy Tome and Tattered Manuscript for Krom Stoutarm in Ironforge."
+      ],
+      "10": {
+        "3": [
+          [
+            6931,
+            null,
+            0
+          ],
+          [
+            6997,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1758
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 4294967373,
+        "7": 256,
+        "17": -61,
+        "22": 1804,
+        "23": 8,
+        "p": 4742
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "Він втрачений, але є здогадка, де можна спробувати його пошукати.\n\nЗ нього зробили тільки одну копію і вона колись зазнала вандалізму: більшість книги була вирвана з палітурки. Ходять чутки, що вона якимось чином потрапила до рук одного кентавра із Тисячі Шипів.\n\nРешта була загублена на узбережжі на захід Південнобережжя, звідки її мали доставити човном до гавані Менетілів. Але вона туди не прибула.\n\nВ обмін на цю інформацію, я прошу тебе, якщо ти її знайдеш — принеси мені, щоб я зміг її переглянути.",
+        "objective": "Поверніть запліснявілий фоліант і пошарпаний манускрипт Крому Міцноруку в Залізогарт.",
+        "progress": "То чутки підтвердилися, {ім'я}?",
+        "complete": "Неймовірно! Тепер я можу бути одним з тих небагатьох, хто бачив його зміст.\n\nЯ не можу дочекатися, коли зможу прочитати цей текст далі. Це великий день, {ім'я}! Якщо ти дозволиш мені, я з радістю перегляну його, перш ніж ти підеш. Я впевнений, що Страгад згодиться надіслати мені копію.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [
+      " \n     Moldy Tome  &nbsp;( 1 )   \n     Tattered Manuscript  &nbsp;( 1 )   \n "
+    ],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [
+      {
+        "id": 6931,
+        "label": "Moldy Tome",
+        "quantity": 1
+      },
+      {
+        "id": 6997,
+        "label": "Tattered Manuscript",
+        "quantity": 1
+      }
+    ],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 4294967373,
+    "currentPrimaryRaceMask": 65,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1803": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1803,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 146,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 146,
+      "side": 2,
+      "xp": 610,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 256,
+        "reqrace": 146
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6293
+        ]
+      ],
+      "3": [
+        [
+          6293
+        ]
+      ],
+      "8": [
+        "Retrieve the Moldy Tome and Tattered Manuscript for Jorah Annison in the Undercity."
+      ],
+      "10": {
+        "3": [
+          [
+            6931,
+            null,
+            0
+          ],
+          [
+            6997,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1801
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 8589934770,
+        "7": 256,
+        "17": -61,
+        "22": 1805,
+        "23": 8,
+        "p": 4742
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "А! Бачу, що ти також {стать:чорнокнижник:чорнокнижниця} із подібними смаками до моїх. Дійсно, отримати фоліант Змови — це гідне прагнення. Чи {стать:знав:знала} ти, що колись він зберігався в стінах Лордерона? Однак його зіпсували, майже половина сторінок вирвана. Хто міг скоїти такий ганебний вчинок?\n\nОтже, половина тексту втрачена, ходять чутки, ніби вона потрапила до рук кентаврів із Тисячі Шипів.\n\nРешта тексту мала бути перевезена до Залізогарту, але була втрачена на узбережжі на захід від Південнобережжя.",
+        "objective": "Поверніть запліснявілий фоліант і пошарпаний манускрипт Джораху Аннісону в Підмістя.",
+        "progress": "Можливо, ти й віриш у казку, {ім'я}, але навіть в найсміливіших чутках можна знайти частку правди.",
+        "complete": "Так-так-так! Що це ти {стать:приніс:принесла}?\n\nЦе неймовірно, {ім'я}. Я б не подумав, що це можливо, але ось він в моїх руках — цілий екземпляр фоліанта Змови.\n\nДозволь мені погортати його сторінки, хоча б на мить, перш ніж ти знову вирушиш в дорогу.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [
+      " \n     Moldy Tome  &nbsp;( 1 )   \n     Tattered Manuscript  &nbsp;( 1 )   \n "
+    ],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [
+      {
+        "id": 6931,
+        "label": "Moldy Tome",
+        "quantity": 1
+      },
+      {
+        "id": 6997,
+        "label": "Tattered Manuscript",
+        "quantity": 1
+      }
+    ],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 8589934770,
+    "currentPrimaryRaceMask": 146,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1804": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1804,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 65,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 65,
+      "side": 1,
+      "xp": 2450,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 256,
+        "reqrace": 65
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6294
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Bring the Reconstructed Tome and 3 Rods of Channeling to Strahad Farsan in Ratchet."
+      ],
+      "10": {
+        "3": [
+          [
+            6930,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1802
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 4294967373,
+        "7": 256,
+        "11": 7006,
+        "17": -61,
+        "22": 1795,
+        "p": 4742
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "Як же не хочеться випускати його з рук! Але ти його {стать:знайшов:знайшла} і, звичайно ж, здійсниш з його допомогою куди важливіші справи. Тільки, будь ласка, нагадай Страгаду, що я хочу отримати копію.\n\nДо речі, про нього, він прислав мені звістку, поки тебе не було. Він просив передати тобі, що для його помічників, які допоможуть з викликом ти {стать:повинен:повинна} дістати три жезли виклику.\n\nВін може не знати, де їх знайти, але я знаю! Вони востаннє використовувалися орками з клану Драконової Пащі в Заболотті. Я б пошукав у їхніх чаклунів!",
+        "objective": "Принесіть відновлений фоліант і 3 жезли виклику Страгаду Фарсану в Брашпиль.",
+        "progress": "Давненько я тебе тут не бачив. Ти {стать:знайшов:знайшла} фоліант і жезли?",
+        "complete": "Чудово робота! Фоліант виклику і три бездоганних... може, трохи подряпаних... жезлів виклику.\n\nЦе буде цікаво. Вже давно не було {стать:молодого:молодої} {клас:р}, що {стать:вирішив:вирішила} завести свою власну скверногончу.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [
+      " \n     Reconstructed Tome  (Provided) &nbsp;( 1 )   \n     Rod of Channeling  &nbsp;( 3 )   \n "
+    ],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [
+      {
+        "id": 7006,
+        "label": "Reconstructed Tome",
+        "quantity": 1,
+        "provided": true
+      },
+      {
+        "id": 6930,
+        "label": "Rod of Channeling",
+        "quantity": 3
+      }
+    ],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 4294967373,
+    "currentPrimaryRaceMask": 65,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1805": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1805,
+      "level": 30,
+      "name": "Tome of the Cabal",
+      "race": 146,
+      "reqclass": 256,
+      "reqlevel": 30,
+      "reqrace": 146,
+      "side": 2,
+      "xp": 2450,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "Tome of the Cabal",
+        "icon": "quest-start",
+        "_side": 2,
+        "reqclass": 256,
+        "reqrace": 146
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6293
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Bring the Reconstructed Tome and 3 Rods of Channeling to Strahad Farsan in Ratchet."
+      ],
+      "10": {
+        "3": [
+          [
+            6930,
+            null,
+            0
+          ]
+        ]
+      },
+      "13": [
+        1803
+      ],
+      "S": {
+        "1": "Tome of the Cabal",
+        "4": 30,
+        "5": 30,
+        "6": 8589934770,
+        "7": 256,
+        "11": 7006,
+        "17": -61,
+        "22": 1795,
+        "p": 4742
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Фоліант змови",
+        "detail": "Це один з найцікавіших текстів, які я читав за останні кілька років. Вибір тут дещо обмежений — переважно книги по географії — і я вже прочитав їх усі. Я сподіваюся, що Страгад надішле мені копію цього фоліанту, коли матиме можливість.\n\nДо речі, про нього, він прислав мені звістку, поки тебе не було. Для свого завдання ти {стать:повинен:повинна} дістати три жезли виклику.\n\nЯкщо дозволиш мені почитати фоліант, я розкрию тобі секрет: ти зможеш знайти жезли в орків з клану Драконової Пащі в Заболотті.",
+        "objective": "Принесіть відновлений фоліант і 3 жезли виклику Страгаду Фарсану в Брашпиль.",
+        "progress": "Так, {ім'я}? Чим я можу тобі послужити?",
+        "complete": "Чудово робота! Фоліант виклику і три бездоганних... може, трохи подряпаних... жезлів виклику.\n\nЦе буде цікаво. Вже давно не було {стать:молодого:молодої} {клас:р}, що {стать:вирішив:вирішила} завести свою власну скверногончу.",
+        "en": "Tome of the Cabal",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary g_quests and own-ID type5 agree; installed expanded Forever race mask retained as metadata discrepancy; UA Both is coverage label, not acceptance proof.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [
+      " \n     Reconstructed Tome  (Provided) &nbsp;( 1 )   \n     Rod of Channeling  &nbsp;( 3 )   \n "
+    ],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [
+      {
+        "id": 7006,
+        "label": "Reconstructed Tome",
+        "quantity": 1,
+        "provided": true
+      },
+      {
+        "id": 6930,
+        "label": "Rod of Channeling",
+        "quantity": 3
+      }
+    ],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": 8589934770,
+    "currentPrimaryRaceMask": 146,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  },
+  "1795": {
+    "ownGQuests": {
+      "category": -61,
+      "category2": 4,
+      "classs": 256,
+      "id": 1795,
+      "itemrewards": [
+        [
+          22244,
+          1
+        ]
+      ],
+      "level": 30,
+      "name": "The Binding",
+      "reqclass": 256,
+      "reqlevel": 30,
+      "side": 3,
+      "xp": 2450,
+      "envChange": {
+        "status": "unchanged",
+        "labels": [],
+        "lines": []
+      }
+    },
+    "ownType5Records": [
+      {
+        "name_enus": "The Binding",
+        "icon": "quest-start",
+        "_side": 3,
+        "reqclass": 256,
+        "reqrace": 0
+      }
+    ],
+    "installedRecord": {
+      "2": [
+        [
+          6251
+        ]
+      ],
+      "3": [
+        [
+          6251
+        ]
+      ],
+      "8": [
+        "Using the Tome of the Cabal, summon and subdue a felhunter, then return the Tome of the Cabal to Strahad Farsan in Ratchet."
+      ],
+      "10": [
+        [
+          [
+            6268,
+            null,
+            0
+          ]
+        ]
+      ],
+      "13": [
+        1805,
+        1804
+      ],
+      "29": [
+        [
+          null,
+          3,
+          "Summon the Felhunter",
+          0,
+          [
+            [
+              "object",
+              92388
+            ]
+          ]
+        ]
+      ],
+      "S": {
+        "1": "The Binding",
+        "4": 30,
+        "5": 30,
+        "7": 256,
+        "11": 6999,
+        "17": -61,
+        "p": 268440198
+      }
+    },
+    "upstreamVariants": [
+      {
+        "title": "Зв'язування",
+        "detail": "Якщо ти достатньо {стать:підготувався:підготувалася}, то ми можемо розпочинати. Дозволь мені пояснити тобі план.\n\nЯ створю базовий круг виклику. Після цього мої помічники використають жезли для створення більшого кола.\n\nПісля цього прочитай заклинання з фоліанта Змови, і відбудеться виклик скверногончої. Будь {стать:обережним:обережною}, {ім'я}. Скверногонча — це сильний ворог, і я б хотів бачити, як ти збережеш свою голову на плечах.",
+        "objective": "За допомогою фоліанта Змови підкоріть скверногончу, а потім поверніть фоліант Страгаду Фарсану в Брашпиль.",
+        "progress": "{стать:Кожен:Кожна} {клас} {стать:повинен:повинна} мати у своєму розпорядженні скверногончу. Хоча її важко приручити, та сила, яку він приносить своєму господареві, набагато перевищує ціну.",
+        "complete": "Мушу визнати, {ім'я}, я вражений. Коли я зіткнувся зі своєю скверногончою, я ледь зберіг своє життя. Я відчуваю, що у тебе є потенціал стати {стать:одним:однією} з наймогутніших {стать:чорнокнижників:чорнокнижниць} цієї ери.",
+        "en": "The Binding",
+        "faction": "Both"
+      }
+    ],
+    "eligibilityDecision": "Current own-ID primary side3 and type5 _side3 reqrace0; installed S has no race restriction. Both-faction shared Warlock follow-up after either1804 or1805.",
+    "allVariantsChecked": true,
+    "objectiveTablesPlain": [
+      " \n     &nbsp;      Summoned Felhunter  slain &nbsp;( 1 )   \n     Tome of the Cabal  (Provided) &nbsp;( 1 )   \n "
+    ],
+    "liveAcceptance": "not tested",
+    "objectiveTableFacts": [
+      {
+        "id": 6268,
+        "kind": "npc",
+        "label": "Summoned Felhunter",
+        "quantity": 1,
+        "tableState": "slain"
+      },
+      {
+        "id": 6999,
+        "label": "Tome of the Cabal",
+        "quantity": 1,
+        "provided": true
+      }
+    ],
+    "installedSchema": {
+      "12": "preQuestGroup",
+      "13": "preQuestSingle",
+      "S22": "nextQuestInChain"
+    },
+    "installedExpandedRaceMask": null,
+    "currentPrimaryRaceMask": 0,
+    "currentPrimaryClassMask": 256,
+    "raceMaskCaveat": "Current primary mask65 corresponds Human/Gnome;146 Orc/Undead/Troll; shared1795 has0. These are stored page restrictions, not live acceptance claims or assumed class/race availability."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-25T06:53:42.101705+00:00",
+  "partitions": {
+    "class_routes": {
+      "result": "PASS",
+      "questIDs": 10,
+      "sourcedFields": 45,
+      "enabledFields": 45,
+      "holds": [],
+      "reviewGroups": 2,
+      "additionalActualSourceVariants": 0,
+      "allWorkerJSONSHA256": {
+        "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+        "author-summary.json": "acb858937dd55d6ca80b00be37b4f567c0a6bcdf88c3716d34521c657663ed51",
+        "comparison-provenance.json": "372792956a25a53f58b1e850a68330d18c689a686aa21c8996758bd45d2e7ce5",
+        "deepl-g1-b1-index.json": "b0aa75d2324496e5582b6428a8b321cd72289e90fee33ade23e48fe25c97733d",
+        "deepl-g1-b1-request.json": "371c976cf2bfb3a86381577731351950520f7aaecb913d1579b622a6975654c4",
+        "deepl-g1-b1-response.json": "d7634987718e904fac21fbe046bbefe5968cdd08806d8d7d74cc2823ffac02f8",
+        "deepl-g2-b1-index.json": "efb6595a7f68e822ee106ae46308137d4ad35e92819cc5814e16cdcaf22c2473",
+        "deepl-g2-b1-request.json": "51ecf4e20cc87cfaafa2c28f9939b30554626b0e0508df2db8f9da085825c8d1",
+        "deepl-g2-b1-response.json": "ea5d9ce565da7f4548200bf6c95339b18e45bd6d85221d6d3bfd7aaf7a626f47",
+        "deepl-g2-b2-index.json": "81f71bb2b5402c5ab9ae6e42fcefc2d78d362e3f2ad0ba32c07233dc670dff47",
+        "deepl-g2-b2-request.json": "d6b6a5229efbc8ee0dae2d3357d23dd4c5cfa4cecb2827712e1b9b36bfcd3ee0",
+        "deepl-g2-b2-response.json": "029f9da460d60b70c949ff1ea8fe71db7c953f9dd04e18212abb3cb26cbc337b",
+        "edited.json": "2d811a45eb6d80cf1052c3f1d50f522e618813cf5daaf1f3ba58a28f3bc0303b",
+        "english-sources.json": "4850adb0809f67c18a7a67f69e4a28677ed5b4f14b22a91db247dc4c25e17487",
+        "fetched.json": "155ac2bee2a3e11eccf6675a46d55df3375fcade69c2cac236cf899adb217894",
+        "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+        "identity-contracts.json": "7ce8edd3064925f5496eb4d73625b7cecdb166fd80b13654258eaed757085934",
+        "maintained-identity-screen.json": "61a7bfecc3c082da372327539184eac9f7d1ba40402b941713d67185512148b7",
+        "owned-check-receipt.json": "6bb21d4530f18477ea48f25c4e306ed425814f3119077587ba2e7bb37b75b8ab",
+        "pronunciations.json": "fcceae5bab4a20cf06571c0abe870e95a8b8d4a14ea1b26810d117db23a38eaf",
+        "review-audit.json": "140862e9ca02ecd254a282bce7209bbc5016a1794f25cd0fb119c5dcd0acc532",
+        "review-groups.json": "49868eab72b1c9027b2229122e8ce61a01d5eb2ab88503fde8c9b518351f5428",
+        "semantic-contracts.json": "900ff6b5b6d0e0fff197675e67d3c63e78507d4a5654771a769c7aed651af2fc",
+        "semantic-notes.json": "3671fa01207d970c6bf853403ec9b285fc0ac953087ca0144a1d574721be4ff3",
+        "source-boundaries.json": "64c02b71fb45960cc76ad332b51450f36facd3416c626cd1ff13edfa6df0c144",
+        "source-sanity.json": "f08e41e1c269bca5e4158d028ee3878a0e2a85e1760126aa6a269ffe5acd9418"
+      },
+      "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+    }
+  },
+  "sourcedFields": 45,
+  "enabledFields": 45,
+  "scope": [
+    "class_routes"
+  ],
+  "sharedVerifierSHA256": "5785c9f17cc8ff794c27c7b3528db118697ad9e4d02447195c605795934c2dd8",
+  "execution": "Exact runpy.run_path shared verify_workers.py; only final shared report Path.write_text suppressed; validation logic unchanged."
+}

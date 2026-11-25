@@ -98,5 +98,33 @@ class ReviewedRouteExclusionTests(unittest.TestCase):
             reviewed_hold_test_source('Changed historical exclusion',self.reviewed())
 
 
+    def test_reviewed_forever_forge_requires_exact_reviewed_fields_and_identity(self):
+        import json,hashlib
+        from lupa.lua51 import LuaRuntime,LuaError
+        source=BASE/'BuildSource/tests.lua'
+        preserved=source.read_bytes()
+        original=self.exclusion_probe()
+        pack=json.loads((BASE.parent/'translations/scheduled-routes-v1.2.23/pack.json').read_text(encoding='utf8'))
+        fields=pack['drafts']['86776']
+        def run(code,title='Ingredients for the Forge',placeholder=False):
+            lua=LuaRuntime(register_eval=False,register_builtins=False)
+            lua.globals().quest_title=title
+            lua.execute("A={quests={[86776]={en=quest_title}}}")
+            if placeholder:lua.execute("A.quests[5841]={en='Unreviewed placeholder'}")
+            lua.execute(code)
+        with self.assertRaises(LuaError):run(original)
+        current=reviewed_hold_test_source(original,{'86776':fields})
+        run(current)
+        with self.assertRaises(LuaError):run(current,title='Wrong same-title source')
+        with self.assertRaises(LuaError):run(current,placeholder=True)
+        with self.assertRaises(AssertionError):
+            reviewed_hold_test_source(original,{'86776':{'title':fields['title']}})
+        wrong=dict(fields);wrong['objective']=fields['objective'].replace('10','11')
+        self.assertNotEqual(wrong,fields)
+        with self.assertRaises(AssertionError):reviewed_hold_test_source(original,{'86776':wrong})
+        with self.assertRaises(AssertionError):reviewed_hold_test_source('Changed historical exclusion',{'86776':fields})
+        self.assertEqual(source.read_bytes(),preserved)
+
+
 if __name__=='__main__':
     unittest.main()

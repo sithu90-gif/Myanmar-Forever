@@ -1,0 +1,127 @@
+{
+  "result": "PASS",
+  "questCount": 20,
+  "sourceFields": 90,
+  "enabledFields": 89,
+  "formalHolds": 1,
+  "unavailableSlots": 10,
+  "identityContracts": 20,
+  "semanticContractCounts": {
+    "numeric": 1,
+    "written": 5,
+    "actions": 30,
+    "ordered": 5,
+    "directions": 5
+  },
+  "meaningfulNegatives": [
+    {
+      "name": "wrong count on Bronze Bars",
+      "result": "rejected",
+      "id": 86776,
+      "field": "objective"
+    },
+    {
+      "name": "reward Tin Bar substituted for quest Bronze Bars",
+      "result": "rejected",
+      "id": 86776,
+      "field": "objective"
+    },
+    {
+      "name": "wrong giver identity for flower recovery",
+      "result": "rejected",
+      "id": 98208,
+      "field": "objective"
+    },
+    {
+      "name": "wreck north instead of south",
+      "result": "rejected",
+      "id": 98208,
+      "field": "detail"
+    },
+    {
+      "name": "Backus road south instead of north",
+      "result": "rejected",
+      "id": 1243,
+      "field": "detail"
+    },
+    {
+      "name": "wrong direction target: Backus replaced by Elling",
+      "result": "rejected",
+      "id": 1243,
+      "field": "detail"
+    },
+    {
+      "name": "farm north instead of south",
+      "result": "rejected",
+      "id": 1244,
+      "field": "detail"
+    },
+    {
+      "name": "Hendel east instead of west",
+      "result": "rejected",
+      "id": 1266,
+      "field": "detail"
+    },
+    {
+      "name": "condition removed from follow-up favor",
+      "result": "rejected",
+      "id": 98208,
+      "field": "complete"
+    },
+    {
+      "name": "stationing condition negated",
+      "result": "rejected",
+      "id": 1264,
+      "field": "detail"
+    },
+    {
+      "name": "permission condition negated",
+      "result": "rejected",
+      "id": 1265,
+      "field": "complete"
+    },
+    {
+      "name": "capture after escape instead of before",
+      "result": "rejected",
+      "id": 1249,
+      "field": "objective"
+    },
+    {
+      "name": "kill added to defeat Dashel",
+      "result": "rejected",
+      "id": 1447,
+      "field": "objective"
+    },
+    {
+      "name": "death forbidden reversed",
+      "result": "rejected",
+      "id": 1324,
+      "field": "progress"
+    },
+    {
+      "name": "plan ordering labels swapped",
+      "result": "rejected",
+      "id": 1247,
+      "field": "detail"
+    },
+    {
+      "name": "future reward substituted for situation updates",
+      "result": "rejected",
+      "id": 1267,
+      "field": "complete"
+    },
+    {
+      "name": "give note before finding Jorgen; tokens retained",
+      "result": "rejected",
+      "id": 1241,
+      "field": "detail"
+    }
+  ],
+  "linguisticLint": [],
+  "validateFields": "PASS",
+  "rawPrimaryReparse": "PASS",
+  "paragraphAndBracketStateCounts": "PASS",
+  "checkedAtUTC": "2026-11-25T07:02:14.145187+00:00",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

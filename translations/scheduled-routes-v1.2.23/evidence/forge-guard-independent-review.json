@@ -1,0 +1,108 @@
+{
+  "result": "PASS",
+  "scope": "Independent build/test guard review only; no fresh linguistic, native, or live claim",
+  "checkedAtUTC": "2026-11-25T07:21:04.574876+00:00",
+  "baseCommit": "b0abe93971a199a904d4a7a0a1a54996a1e30bb0",
+  "questID": 86776,
+  "EnglishIdentity": "Ingredients for the Forge",
+  "pythonTestCount": 26,
+  "pythonTests": "PASS",
+  "pythonTestLog": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-25\\forge-guard-review-python-tests.log",
+  "pythonTestLogSHA256": "93e47ee308a33b7c92086773acb124284afe43c013da3138c44f12aa30033071",
+  "actualDiffLog": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\afternoon-2026-11-25\\forge-guard-review-diff.log",
+  "actualDiffSHA256": "9c98409df15636d448cbb7375742053eee273fe4b23ef44fd55dda73812a62d4",
+  "changedToolHashes": {
+    "tools/build_release.py": {
+      "before": "905307b31f742cefa6ea8ae2edf34493543788bb3aca96fb7cae8f757ba60d65",
+      "after": "769c6f99a48d2067959fbbdad3b16bb189f8a5c75b44f950217adbc7d71364ad"
+    },
+    "tools/test_build_release.py": {
+      "before": "92f069ef13bcc6227f6985ffa1a0be2e3282fc3c15aa5eb776770a40e72484fe",
+      "after": "bda0341fc33d14c3e9d5a121d9f214c968ced7490145c8f294a40720d8eee128"
+    }
+  },
+  "testedPythonSourceHashes": {
+    "tools/audit_coverage.py": "817f4bef118b19b6c66e9fc57ca5e0fa7bca26c094ae431633a04ead237a010b",
+    "tools/build_candidate.py": "19341f535444f475070fcedf5dd76cf3e9c6a7a93c3954bb2bc003287ae6a904",
+    "tools/build_release.py": "769c6f99a48d2067959fbbdad3b16bb189f8a5c75b44f950217adbc7d71364ad",
+    "tools/countercheck_ua.py": "8c320ea798772246b081d6998f3003f511fd8af483eeb3e541bc89ece4393c6c",
+    "tools/fetch_quest_sources.py": "eb59a2a767b9b90b52db41c26a03e130a0eb95aec8850120fc084c82fd22a599",
+    "tools/render_pack_review.py": "9727c08d07a323e4139afbdf25728a26d7e8486683e9bb499a3b169358cdc4f9",
+    "tools/render_release_review.py": "2f86e5eb7726e3bf1d444789b4096ed872a37a2afd63de6745ab1a8d205d9d87",
+    "tools/render_translation_review.py": "f9574fc440bf81021a06958f81682f560fdd97fb9be16152ed548411dc70268a",
+    "tools/test_audit_coverage.py": "47e6538724e22d830aced7a3a80341a37eaf1753d10f527fc35712c873b54332",
+    "tools/test_build_release.py": "bda0341fc33d14c3e9d5a121d9f214c968ced7490145c8f294a40720d8eee128",
+    "tools/test_fetch_quest_sources.py": "526b33a6968a826b309b3a60542234cee7521cc6b9bb8021839e4550cab06c90",
+    "tools/test_guarded_disabling.py": "8e66cdd4bdbee7cd6394df648bdc8df1b22b2198e7989aa27f5961f2908beced",
+    "tools/verify_release_snapshot.py": "29b45fa05c89b798c6a314695305ef295f3c9808e2bfa337e87a05f49ad86fa3"
+  },
+  "allOtherTestedPythonSourcesUnchanged": true,
+  "buildToolASTOutsideReviewedFunctionUnchanged": true,
+  "protectedArtifactHashes": {
+    "Myanmar_Forever_NorthshireTest\\BuildSource\\tests.lua": "930cc7f6778d830d98dd2df80b65ae930309902f7777dcf33225b8703d86bdd7",
+    "translations\\scheduled-routes-v1.2.23\\pack.json": "9a4638bddbec3d4dfdab7d1b87ac070fdc7de3cf2216e2e4d9f8c78a7585e813",
+    "translations\\scheduled-routes-v1.2.23\\english-sources.json": "6d6bef20ccba78e887ca57900817665282992981429b1f19fbc5346a2d59cfd9",
+    "translations\\scheduled-routes-v1.2.23\\review-audit.json": "c6807c71cecf5ae442970676f2fa983ed7ea5dcd444047776f4a9a248663d72e",
+    "translations\\scheduled-routes-v1.2.23\\evidence\\independent-review\\alliance_routes.json": "54e66414d7e922cf3735259114f76c3264d50763d25edc54d7d4cfca3e60c2da"
+  },
+  "protectedArtifactsUnchangedDuringNegatives": true,
+  "exactMyanmarFieldHashes": {
+    "complete": "27a8c06d17db441e3034d597dc5e06bd549022cafbbaa49dd34905ece6eb5f11",
+    "detail": "cc618bdc40c60d31d24ab7c98f68558236d7eb5e277068a7a907b73c916847ec",
+    "objective": "d36b1c9f240c77e8d3c3494a2a2025495d706c9b9c7e23e67a0c54b76f440ba7",
+    "progress": "c479611292786046c7e61bc44c8f1750e326a0ab8361ef1a6cabb25c27b39e45",
+    "title": "7e62060a19ba0137d6f3c9f43269bb33a3f0bbc2d398e5805197ef6c981155d5"
+  },
+  "sourceReviewHashBindings": "PASS: source English and Myanmar fields match release audit and independent prior review",
+  "sourceHTMLSHA256": "336585ad0cb84f2e41d53f157bdd4abf25d682e0c12c1d24a5d8932b64f40888",
+  "retainedGuards": [
+    "original snapshot bytes and SHA256",
+    "exact historical route-exclusion anchor",
+    "every other inherited exclusion",
+    "source English and Myanmar per-field SHA256",
+    "quantity and substitution checks",
+    "guarded source holds and exact-prior-hash field overrides"
+  ],
+  "additionalNegativeChecks": [
+    "real manifest composition retains exact reviewed Forge fields",
+    "original historical probe rejects newly included Forge",
+    "reviewed exact-field probe accepts Forge English identity",
+    "wrong same-title identity rejected",
+    "missing runtime Forge rejected",
+    "complete changed rejected by exact review guard",
+    "complete missing rejected by exact review guard",
+    "complete empty rejected by exact review guard",
+    "detail changed rejected by exact review guard",
+    "detail missing rejected by exact review guard",
+    "detail empty rejected by exact review guard",
+    "objective changed rejected by exact review guard",
+    "objective missing rejected by exact review guard",
+    "objective empty rejected by exact review guard",
+    "progress changed rejected by exact review guard",
+    "progress missing rejected by exact review guard",
+    "progress empty rejected by exact review guard",
+    "title changed rejected by exact review guard",
+    "title missing rejected by exact review guard",
+    "title empty rejected by exact review guard",
+    "unreviewed exclusion 5841 retained",
+    "unreviewed exclusion 7673 retained",
+    "unreviewed exclusion 7674 retained",
+    "unreviewed exclusion 7675 retained",
+    "unreviewed exclusion 7676 retained",
+    "unreviewed exclusion 467 retained",
+    "unreviewed exclusion 466 retained",
+    "unreviewed exclusion 256 retained",
+    "unreviewed exclusion 2500 retained",
+    "unreviewed exclusion 2501 retained",
+    "unreviewed exclusion 3182 retained",
+    "missing/duplicated/altered historical exclusion anchors rejected",
+    "all five stale English and Myanmar field review hashes rejected by unchanged validate_fields"
+  ],
+  "findings": [],
+  "pending": [
+    "Parent fresh Lua/font/catalog/ZIP validation",
+    "Native Myanmar proofreading",
+    "Current live verification",
+    "Controller hardware verification"
+  ]
+}

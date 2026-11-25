@@ -193,11 +193,16 @@ def reviewed_hold_test_source(source_text, drafts):
     # The preserved starter snapshot excluded these travel quests from its
     # original scope. A composed, field-reviewed later route may include them.
     # Adapt only the build copy and retain all other placeholder exclusions.
-    reviewed_routes={'467':"Stonegear's Search",'466':'Search for Incendicite','256':"WANTED: Chok'sul"}
+    reviewed_routes={'467':"Stonegear's Search",'466':'Search for Incendicite','256':"WANTED: Chok'sul",'86776':'Ingredients for the Forge'}
     released={qid:title for qid,title in reviewed_routes.items() if drafts.get(qid)}
     if released:
         for qid in released:
             assert all(drafts[qid].get(f) for f in ('title','detail','objective','complete')), 'Reviewed route requires its sourced dialogue fields'
+        # Forever-added Forge dialogue was independently reviewed for1.2.23.
+        # Only these exact five reviewed fields may relax its old starter-only scope.
+        if '86776' in released:
+            reviewed_forge_hashes={'title': '7e62060a19ba0137d6f3c9f43269bb33a3f0bbc2d398e5805197ef6c981155d5', 'detail': 'cc618bdc40c60d31d24ab7c98f68558236d7eb5e277068a7a907b73c916847ec', 'objective': 'd36b1c9f240c77e8d3c3494a2a2025495d706c9b9c7e23e67a0c54b76f440ba7', 'progress': 'c479611292786046c7e61bc44c8f1750e326a0ab8361ef1a6cabb25c27b39e45', 'complete': '27a8c06d17db441e3034d597dc5e06bd549022cafbbaa49dd34905ece6eb5f11'}
+            assert {f:text_sha(drafts['86776'].get(f)) for f in FIELDS}==reviewed_forge_hashes, 'Forge route requires its exact independently reviewed fields'
         excluded=[5841,7673,7674,7675,7676,467,466,86776,256,2500,2501,3182]
         old="for _,id in ipairs({"+','.join(map(str,excluded))+"}) do\n  assert(not A.quests[id],'Out-of-scope/placeholder quest released')\nend"
         assert source_text.count(old)==1, 'Historical route-exclusion assertion changed; review the test update'

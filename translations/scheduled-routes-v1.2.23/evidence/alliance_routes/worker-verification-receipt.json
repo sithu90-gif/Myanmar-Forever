@@ -1,0 +1,87 @@
+{
+  "rootVerifierSHA256": "5785c9f17cc8ff794c27c7b3528db118697ad9e4d02447195c605795934c2dd8",
+  "execution": "Exact root verify_workers.py, all original validation logic unchanged; only final shared report write suppressed; argv alliance_routes",
+  "result": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-25T07:02:14.367873+00:00",
+    "partitions": {
+      "alliance_routes": {
+        "result": "PASS",
+        "questIDs": 20,
+        "sourcedFields": 90,
+        "enabledFields": 89,
+        "holds": [
+          {
+            "id": 1274,
+            "field": "detail",
+            "reason": "Current source contains <sir/madam> gender branch, unsupported by QuestBridge/TermIntroductions runtime (supports name/class/race/priest/priestess only). Field held; no one-gender or neutral normalization enabled.",
+            "sourceEnglish": "Excuse me, <sir/madam>. Bishop DeLavey asked me to approach adventurers that might be able to help him with a delicate matter.\n\nIf you could quietly head to Stormwind Keep and speak to him at your earliest convenience, I'm sure he would appreciate your help. Again, please be discreet. It is a matter of some importance.",
+            "englishSHA256": "761534bfc152e3fa9f2572af8a9bdcbc5583166bb93ec1e57260a648364e7af6",
+            "rawDeepLProposal": "ခင်ဗျား၊ ဘီရှော့ ဒေလေဗီက အရေးကြီးတဲ့ကိစ္စတစ်ခုအတွက် ကူညီနိုင်မယ့် စွန့်စားခရီးသွားတွေကို ရှာဖွေဖို့ ကျွန်ုပ်အား တောင်းဆိုထားပါသည်။\n\nကျေးဇူးပြု၍ တိတ်ဆိတ်စွာ Stormwind Keep သို့ သွားရောက်ပြီး အမြန်ဆုံး သူနှင့် တွေ့ဆုံပြောဆိုပေးပါက သူက သင့်ကူညီမှုကို အထူးကျေးဇူးတင်မည်ဟု ယုံကြည်ပါသည်။ ထပ်မံ၍ လျှို့ဝှက်စွာ ဆောင်ရွက်ပေးပါရန် တောင်းဆိုအပ်ပါသည်။ ဤကိစ္စမှာ အရေးကြီးပါသည်။",
+            "rawDeepLSHA256": "319a59f7d7176482023040f103d03e75895a829b9dc772b800055eb6db7f810c",
+            "authorOriginalEditedProposal": "ခွင့်ပြုပါဦး၊ <sir/madam>။ နူးညံ့သိမ်မွေ့စွာ ကိုင်တွယ်ရမယ့် ကိစ္စတစ်ခုမှာ ကူညီနိုင်မယ့် စွန့်စားသူတွေကို ချဉ်းကပ်ဖို့ Bishop DeLavey (ဘစ်ရှပ် ဒဲလေဗီ) က ကျွန်တော့်ကို မှာထားပါတယ်။\n\nအဆင်ပြေသမျှ အမြန်ဆုံး Stormwind Keep (စတော်မ်ဝင်းဒ် ကီးပ်) ကို တိတ်တဆိတ်သွားပြီး သူနဲ့ စကားပြောပေးမယ်ဆိုရင် ခင်ဗျားရဲ့ အကူအညီကို သူ ကျေးဇူးတင်မှာ သေချာပါတယ်။ ထပ်ပြောပါရစေ၊ သိုသိုသိပ်သိပ် လုပ်ပေးပါ။ အရေးကြီးတဲ့ ကိစ္စတစ်ခုပါ။",
+            "authorOriginalEditedSHA256": "b74d92038ffac903ff91ae58492aacb54f27ee9c3f11517726b539ec022375b6",
+            "rawDeepLRequestFile": "deepl-g1-1-request.json",
+            "rawDeepLResponseFile": "deepl-g1-1-response.json",
+            "rawDeepLIndexFile": "deepl-g1-1-index.json",
+            "requestIndex": 15,
+            "responseIndex": 15,
+            "responseTargetIndex": 0,
+            "runtimeEvidence": {
+              "TermIntroductions.luaSHA256": "b184e063ca7eb454a21bdd2512ae33d6eb944388ed47861f3ac832b489ad2eab",
+              "lines": "124-131 recognized marker branches; sir/madam absent"
+            },
+            "nativeMyanmarProofreading": "pending",
+            "currentLiveVerification": "not tested",
+            "rawDeepLRequestSHA256": "144c5d9eb031b8671c2cf0690ef7362202d7de046bb2b5c274d155822564793d",
+            "rawDeepLResponseSHA256": "2899403d0cea64402b7de6d3062475c9f9d07fb6615aa806a7f8ec745c45b277",
+            "rawDeepLIndexSHA256": "b4c3d09a4217e93c2c0604b4f2c0f3b4801fd1627ba0c86340f0a019da16c30f",
+            "sourceHTMLSHA256": "b8fa056afe34ec3e5fb749ecc1c785dc9a665b596b9167c864ace178bc68682c",
+            "sourceURL": "https://www.wowhead.com/forever/quest%3D1274/the-missing-diplomat"
+          }
+        ],
+        "reviewGroups": 2,
+        "additionalActualSourceVariants": 0,
+        "allWorkerJSONSHA256": {
+          "annotation-exceptions.json": "5de3eb058f39eaf69d057d9fad21cf632d814b7781dc926cf709ff5b16dab553",
+          "author-summary.json": "49530ba090426cf9274e9eb3e0d4fd18213099258258dab4f53e2f9fbbd935dc",
+          "comparison-provenance.json": "2a6939299f650c207aee44ef048bf550001b1a735e793ef80a9d7a1a9be59f74",
+          "deepl-g1-1-index.json": "b4c3d09a4217e93c2c0604b4f2c0f3b4801fd1627ba0c86340f0a019da16c30f",
+          "deepl-g1-1-request.json": "144c5d9eb031b8671c2cf0690ef7362202d7de046bb2b5c274d155822564793d",
+          "deepl-g1-1-response.json": "2899403d0cea64402b7de6d3062475c9f9d07fb6615aa806a7f8ec745c45b277",
+          "deepl-g1-2-index.json": "117d0194c7f13514bf0206428928977fcf4e4fcf9b029b7b18916a1c1f462528",
+          "deepl-g1-2-request.json": "db98c2af06801ae85083ffca7986fb4d808d590c83d4e945b87565208e1adeec",
+          "deepl-g1-2-response.json": "db37191b14d96cf4cdfa48f49cdbeb1f3c0df086d3fb8aaffd9379bf9f6066d0",
+          "deepl-g2-1-index.json": "508238fea0b002da38f9ddb8d622036de3414523f7483f17104f1443d4512cb3",
+          "deepl-g2-1-request.json": "9e66cb1040f04ad8d55527396ff288ee2bfef7eaa1689eeaef81a0d9e9231f22",
+          "deepl-g2-1-response.json": "76d8b926da556bbebb91f0a44f3292b6f567e741f6bc56173189fb286cd9b238",
+          "deepl-g2-2-index.json": "9ab2c24e907301c27ae185d2e30774c4d4d1e2ac0c0946aba9bf29247ef10b02",
+          "deepl-g2-2-request.json": "0d5cf06eea75f5d83a0c2ecd42d67c38ebaf79a3d9b2e380d3f3b567c5ca8098",
+          "deepl-g2-2-response.json": "d8f2d15f4225a51eed07c6efb83bfa7507962c12580c4ffee84d0396a67e3a71",
+          "edited.json": "3c3c93d43307f15b8d66dc90039f48d2a326b45e7a3a279ca7c20aadfa7013c6",
+          "editorial-new-pronunciations.json": "778db07de697968410130fff3124d914ec33fa202e72ead489b490bb17760bf2",
+          "english-sources.json": "50c9a770ccdc8741d0bb891771d1c2c66cdbb5ea1461274fb5ee00c908569cdd",
+          "fetched.json": "9d41d7af2d3e58cba6508c883e0bf3b1d0d744dbea214f0bd05644d343c64aff",
+          "group1-checks.json": "11717e734114f09ce64e747b24cc584a03f6bd1e7e06471d0d50a000eca68bfd",
+          "group2-checks.json": "a51207aa864755e4dff2778721c2be4596520d2d63725b4e782aaedc4146b679",
+          "held-fields.json": "f24e5542d4e1d562810eb2bcde2c7f6da28a857ae575d9525f858eb26189af2d",
+          "identity-contracts.json": "1d3c717a28c39d1123e948f1ad627c1924aefa7332e77b5edd19b7fda1607675",
+          "maintained-identity-screen.json": "c8053906109ba8a23d2bb387036bf7d63fedc2f0d7debfdcb548f0b232453e0f",
+          "owned-check-receipt.json": "e3c554c6d6c415d36ef9cfb54a614a2a48829d0707323a8a4dfdbd153aafa61d",
+          "pronunciations.json": "1079389a4dbd6347bf5ef7d675775bb09f94ea43a7b7609a882fe90de524ab9a",
+          "review-audit.json": "b7ff7dc3baa41acd63908e1232819ae5ae9882f13905829818098c63f88bc8e9",
+          "review-groups.json": "f767d2d38587ba8c2c36faaa8ee3b2bc665dcdd4fe6e66bfe9321b1ecf2e2608",
+          "semantic-contracts.json": "b8fb9f50bbea11226153b4307d2839a83d69109473b6f58729a2af321e6819d8",
+          "semantic-notes.json": "9f8bef020d6e2325b49325cbf759098bcce27bf6e91b58394206de657db720cb",
+          "source-boundaries.json": "768ffa78c9da925246d6ea8c1958f8b55176aa09b435755907c2f57d1660f561",
+          "source-sanity.json": "9cbc60b0e9eaa59cb0f4c488411df376c662637c03a16ec8bfb8857f5b4209a4",
+          "worker-verification-receipt.json": "5f8601dba0ceb4b5ef7bf4b5ec1465870e19e2cd5e58530289dd736059581688"
+        },
+        "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+      }
+    },
+    "sourcedFields": 90,
+    "enabledFields": 89
+  },
+  "checkedAtUTC": "2026-11-25T07:02:14.729728+00:00"
+}
