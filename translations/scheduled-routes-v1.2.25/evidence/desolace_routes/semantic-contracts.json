@@ -1,0 +1,369 @@
+{
+  "numeric": [
+    {
+      "id": 1458,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Hatefury Claws",
+          "quantity": 10,
+          "span": "Hatefury Claws (ဟိတ်ဖျူရီ ကလောဇ်) 10 ခု"
+        },
+        {
+          "term": "Hatefury Horns",
+          "quantity": 10,
+          "span": "Hatefury Horns (ဟိတ်ဖျူရီ ဟောန်ဇ်) 10 ခု"
+        }
+      ],
+      "meaning": "Ten claws and ten horns, independently bound to actual linked items."
+    },
+    {
+      "id": 1459,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Scorpashi Venom",
+          "quantity": 7,
+          "span": "Scorpashi Venom (စကော်ပါရှီ ဗဲနမ်) အဆိပ် 7 ပုလင်း"
+        },
+        {
+          "term": "Aged Kodo Hides",
+          "quantity": 3,
+          "span": "Aged Kodo Hides (အေ့ဂျ်ဒ် ကိုးဒိုး ဟိုက်ဒ်ဇ်) သားရေ 3 ချပ်"
+        }
+      ],
+      "meaning": "Seven venom vials and three aged-kodo hides must not be swapped."
+    },
+    {
+      "id": 1466,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Felhound Brains",
+          "quantity": 10,
+          "span": "Felhound Brains (ဖဲလ်ဟောင်းဒ် ဘရိန်းဇ်) 10 ခု"
+        },
+        {
+          "term": "Nether Wings",
+          "quantity": 10,
+          "span": "Nether Wings (နက်သာ ဝင်းဂ်ဇ်) 10 ခု"
+        },
+        {
+          "term": "Doomwarder Blood",
+          "quantity": 10,
+          "span": "Doomwarder Blood (ဒူးမ်ဝေါဒါ ဘလဒ်) 10 ပုလင်း"
+        }
+      ],
+      "meaning": "Three separate ten-item requirements; blood unit remains vials."
+    },
+    {
+      "id": 1387,
+      "field": "objective",
+      "bindings": [
+        {
+          "term": "Centaur Ears",
+          "quantity": 15,
+          "span": "Centaur Ears (ဆန်တော အီးယားဇ်) 15 ခု"
+        }
+      ],
+      "meaning": "Fifteen ears for Alliance Corporal Melkins."
+    }
+  ],
+  "written": [
+    {
+      "id": 1453,
+      "field": "detail",
+      "needles": [
+        "တစ်ပတ်လောက်",
+        "ရိုးရိုးသားသား",
+        "လုပ်ချင်တယ်ဆိုရင်"
+      ],
+      "meaning": "A good week's honest work is offered conditionally, not mandatory employment."
+    },
+    {
+      "id": 1466,
+      "field": "detail",
+      "needles": [
+        "mana eaters (မာနာ အီးတာဇ်)၊ mage hunters (မေ့ဂျ် ဟန်တာဇ်) ဒါမှမဟုတ် ley hunters (လေး ဟန်တာဇ်) တို့ဆီက ဦးနှောက် ဆယ်ခု",
+        "nether maiden (နက်သာ မေးဒန်)၊ sister (စစ်စတာ) ဒါမှမဟုတ် sorceress (ဆော်စရက်စ်) တို့ဆီက nether wings (နက်သာ ဝင်းဂ်ဇ်) ဆယ်ခု",
+        "doomwarder captain (ဒူးမ်ဝေါဒါ ကပ်ပတိန်) ဒါမှမဟုတ် lord (လော့ဒ်) ဆီက doomwarder blood (ဒူးမ်ဝေါဒါ ဘလဒ်) ဆယ်ပုလင်း"
+      ],
+      "meaning": "Each written ten remains attached to its actual reagent and family alternatives; literal source ellipses preserved."
+    }
+  ],
+  "actions": [
+    {
+      "id": 1454,
+      "field": "objective",
+      "needles": [
+        "Karnitol's Chest",
+        "ရှာပါ"
+      ],
+      "forbidden": [
+        "Karnitol's Satchel"
+      ],
+      "meaning": "Find the chest object, not the later satchel item."
+    },
+    {
+      "id": 1455,
+      "field": "objective",
+      "needles": [
+        "Kreldig Ungor",
+        "ပြန်သွားပါ"
+      ],
+      "forbidden": [
+        "Roetten"
+      ],
+      "meaning": "Return to Kreldig after inspecting the empty chest."
+    },
+    {
+      "id": 1456,
+      "field": "detail",
+      "needles": [
+        "မဟုတ်လောက်ဘူး",
+        "ထင်တယ်",
+        "ဆင်းလာခဲ့တယ်ဆိုရင်",
+        "တောင်ဘက်"
+      ],
+      "meaning": "Hope and a best-bet theory remain uncertain; a powerful scouting party is conditional."
+    },
+    {
+      "id": 1456,
+      "field": "objective",
+      "needles": [
+        "Karnitol's Satchel",
+        "ရှာပြီး",
+        "ပြန်ပို့ပါ"
+      ],
+      "forbidden": [
+        "Karnitol's Chest"
+      ],
+      "meaning": "Find the satchel then return it, a distinct same-title stage."
+    },
+    {
+      "id": 1457,
+      "field": "detail",
+      "needles": [
+        "သတိမထားမိရင်",
+        "အချိန်ပြည့်",
+        "စိတ်ရှည်လှတဲ့သူတော့ မဟုတ်ဘူး",
+        "ပေးကမ်းရက်ရော"
+      ],
+      "meaning": "Preserve the full-time joke and impatient yet generous client."
+    },
+    {
+      "id": 1457,
+      "field": "progress",
+      "needles": [
+        "ကိစ္စရှိရင်",
+        "မဟုတ်ရင်တော့",
+        "လက်အောက်က"
+      ],
+      "meaning": "Business visitors are heard; others are sent to capable underlings."
+    },
+    {
+      "id": 1458,
+      "field": "progress",
+      "needles": [
+        "မသေချာဘူး",
+        "ငါထင်တယ်",
+        "အများကြီး ပိုအန္တရာယ်ရှိ"
+      ],
+      "meaning": "Rumored satyr/night-elf relationship and speaker doubt remain."
+    },
+    {
+      "id": 1459,
+      "field": "detail",
+      "needles": [
+        "scorpashi ဘယ်ကောင်ဆီကမဆို",
+        "aged kodo",
+        "သေခါနီးကောင်တွေ",
+        "ရှေးကျတဲ့ကောင်တွေဆီက မဟုတ်ရဘူး"
+      ],
+      "meaning": "Any scorpashi qualifies; only aged kodo hides, excluding dying/ancient."
+    },
+    {
+      "id": 1459,
+      "field": "complete",
+      "needles": [
+        "အနည်းဆုံး တစ်ဝက်",
+        "အကုန်ပြီးလို့ ငါအိမ်ပြန်ရောက်တဲ့အခါ",
+        "အေးလ်ဘီယာတစ်ခွက်"
+      ],
+      "meaning": "At least half the time saved; ale offer conditioned on list done and being home."
+    },
+    {
+      "id": 1466,
+      "field": "detail",
+      "needles": [
+        "နောက်ဆုံးပစ္စည်း",
+        "အချိန်နည်းနည်း ပိုကြာ",
+        "မလုပ်ချင်ဘူးဆိုရင်လည်း",
+        "ငါ နားလည်ပါတယ်"
+      ],
+      "meaning": "Last difficult job expected longer; player may decline."
+    },
+    {
+      "id": 1467,
+      "field": "detail",
+      "needles": [
+        "Roetten",
+        "Leftwitch's package",
+        "လုံလောက်သင့်ပါတယ်",
+        "စကားကောင်း ပြောပေးဦး"
+      ],
+      "meaning": "Payment handoff with should-be-enough uncertainty and future recommendation."
+    },
+    {
+      "id": 1467,
+      "field": "progress",
+      "needles": [
+        "ပေတွေ ထုနှက်သံ",
+        "ဖားဖိုတွေ",
+        "ဒီည ညစာစားပြီး အချိုပွဲ",
+        "ပိုင်မုန့်တစ်ခု"
+      ],
+      "meaning": "Cheerful anvils, bellows, tonight's dessert pie details preserved."
+    },
+    {
+      "id": 1467,
+      "field": "complete",
+      "needles": [
+        "<class>",
+        "တစ်ပတ်လုံး ကြိုးစား",
+        "Reclaimers Inc."
+      ],
+      "meaning": "Class addressee and hard-week payment retained."
+    },
+    {
+      "id": 1387,
+      "field": "detail",
+      "needles": [
+        "ငြိမ်းချမ်းရေးဆိုတာကို ရဖို့ဆိုရင်",
+        "ရက်စက်ကြမ်းကြုတ်မှု",
+        "အများကြီး၊ အများကြီး",
+        "Alliance"
+      ],
+      "forbidden": [
+        "Horde",
+        "Felgur Twocuts"
+      ],
+      "meaning": "Alliance war-end rationale and many ears, distinct from Horde bounty."
+    },
+    {
+      "id": 1387,
+      "field": "complete",
+      "needles": [
+        "Alliance",
+        "မေးခွန်းထုတ်စရာ မရှိဘူး",
+        "သွေးသွန်းစေခဲ့တာ",
+        "သံသယမရှိဘူး"
+      ],
+      "meaning": "Unquestioned Alliance service and enemy bloodshed said with confidence to save lives."
+    }
+  ],
+  "ordered": [
+    {
+      "id": 1454,
+      "field": "complete",
+      "terms": [
+        "ရေကြောင့်",
+        "ဒုတိယ",
+        "မီးလောင်ရာ"
+      ],
+      "meaning": "Narrator first checks water damage, then forced opening and triggered traps."
+    },
+    {
+      "id": 1455,
+      "field": "detail",
+      "terms": [
+        "ခြစ်ရာများကို",
+        "လုံးဝဗလာ",
+        "သေတ္တာကိုပိတ်ကာ"
+      ],
+      "meaning": "Inspect scratches, discover emptiness, then close chest to leave."
+    }
+  ],
+  "directions": [
+    {
+      "id": 1453,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Stonetalon Mountains",
+          "direction": "အရှေ့ဘက်",
+          "span": "Stonetalon Mountains (စတုန်းတဲလန် မောင်တင်စ်) ကနေ ဝင်လာရင် အရှေ့ဘက်ကို သွားလိုက်။"
+        },
+        {
+          "place": "Desolace",
+          "direction": "မြောက်ပိုင်း",
+          "span": "Desolace မြောက်ပိုင်း တောင်တန်းတွေထဲမှာ"
+        }
+      ],
+      "meaning": "East when entering from Stonetalon, camp hidden in northern Desolace."
+    },
+    {
+      "id": 1454,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Desolace",
+          "direction": "အနောက်မြောက်ဘက်",
+          "span": "Desolace (ဒက်ဆိုလေ့စ်) ရဲ့ အနောက်မြောက်ဘက် ကမ်းလွန်မှာ"
+        }
+      ],
+      "meaning": "Ship was attacked off northwest Desolace."
+    },
+    {
+      "id": 1456,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Ranazjar Isle",
+          "direction": "မြောက်ဘက်",
+          "span": "မြောက်ဘက် Ranazjar Isle (ရာနက်ဇ်ဂျာ အိုင်းလ်) အနီးက ပင်လယ်ကြမ်းပြင်မှာ"
+        }
+      ],
+      "meaning": "Ruins underwater to the north near Ranazjar Isle; no island-north reinterpretation."
+    },
+    {
+      "id": 1458,
+      "field": "detail",
+      "bindings": [
+        {
+          "place": "Hatefury satyr",
+          "direction": "အရှေ့ဘက်",
+          "span": "ဒီနေရာရဲ့ အရှေ့ဘက်က Hatefury satyr (ဟိတ်ဖျူရီ စေးတာ)"
+        }
+      ],
+      "meaning": "Hatefury satyr are east of this location."
+    }
+  ],
+  "formalHolds": [],
+  "englishSHA256": {
+    "1458.objective": "98f033f0d68ffb4906b5cb46d2ac8a169460bbacf9508cb1a0cfa1f483db9d2a",
+    "1459.objective": "7b8e04b98fbefde081793cf8d20f4d4e7ea0e0b832cdf2cb99cf9d5abeccf6e9",
+    "1466.objective": "d1adb5db3ba7563ce1f544d6c703d030b8db718e5f94e25f28b0f53cb18db8e4",
+    "1387.objective": "745247bebe0adf42acfdb8b5627ad6ee86f5b188481cd7af114740302c4e649f",
+    "1453.detail": "fd3f0e9a5549679916c4785545b5bb227d011c56c1ecc5450ac94e9a5f0da2a7",
+    "1466.detail": "1c9bf90798b1078d24b7a7822a80fdb5bffdc921ac4254604018b6c5cbe17c15",
+    "1454.objective": "52945f12e5b7ffde87ec1a76234819e100ab83dbeedbb7af377ae2a59ebaea83",
+    "1455.objective": "4ac22368f50eb066b459d9a8b6806aaf6bc93f3b6674bc1f02ff6b3d00b0d3be",
+    "1456.detail": "4b72d8152093f66ffeb27e46c2d26f41dd0ce79451f36cece54ad5865f03698c",
+    "1456.objective": "278178e7774a1ffb1d04d572a371df81d4a7761926818b9d9618cfb8c7a40aac",
+    "1457.detail": "6b168609399dd5586737d928646364368be95f5c29d3fbdf61a8423473e5f3e3",
+    "1457.progress": "15429cb17a19683be0c4912362a1595e348ec377f891de6753a258fdd5ae09e8",
+    "1458.progress": "7f2611f745975661ec95d358c693900b44ddb3018095e77229c6ab4e67e2aa1b",
+    "1459.detail": "b05de986c55af58db90bb11e948029fa9eb69518394747af0c735e8881f14d2e",
+    "1459.complete": "0ee6eea23c78ff1b36907b2171d76633f1debeff7af2e5de25e0f73150c8f22d",
+    "1467.detail": "8f00403024ca6ff0a60d1d045e40411dbec6612d9e26d95d808a7aa6be247d30",
+    "1467.progress": "a7dd61c6847d9714a2531e87aa373836dba86217250a1998866492e4846ec5c9",
+    "1467.complete": "693d357c868c487729ca1856bb3f2351fb3500c0d31fca2e96169c8df9e3252f",
+    "1387.detail": "eee051425a20d8a6f673ee11f9c869ac4855ed9f224df6b3880278fa6464f844",
+    "1387.complete": "31aecbb2d155e224165cc43c984f5cd6ba0084995db95d138f6b2b20b1b31c0e",
+    "1454.complete": "3f34c03e15589cbd594e168f60564bf4c7c8351dd2d9438d8e9354286a922da6",
+    "1455.detail": "5ec9802a917cd9d55de7d061f4f76825d6a8cd3eee47276d369793e983a19e05",
+    "1454.detail": "bd90f2e6889fd5f0737a908dce2d96be47f814c64b84e651e0765232410b0720",
+    "1458.detail": "7676c6787345a0c3b1ee30f2a0c951fc4f3bdbb6dbf028aa841407c067eb2d3b"
+  }
+}

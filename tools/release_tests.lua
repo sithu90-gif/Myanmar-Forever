@@ -1857,3 +1857,95 @@ if A.quests[647] and A.quests[1431] and A.quests[1939] then
   questID=0;titleOverride=nil;fire('QUEST_FINISHED')
   print('PASS:50 source quest contracts,Thandol/Corrupter/Mage stages,Alonso partial-state boundaries and unavailable-state guards.')
 end
+
+if A.quests[96781] and A.quests[583] and A.quests[1453] then
+  debugCommand('off');titleOverride=nil
+  for _,id in ipairs({1947,1948,1949,1950,96781,96782,96783,96784,96785,96786,1712,1713,1714,1718,1719,1791,1792,1951,1952,1953,185,186,187,188,190,191,192,193,583,5762,194,195,196,197,208,338,339,340,341,342,1387,1453,1454,1455,1456,1457,1458,1459,1466,1467}) do
+    assert(A.quests[id] and A.quests[id].title,'26NovemberAfternoon quest missing:'..id)
+    questID=id
+    for event,field in pairs({QUEST_DETAIL='detail',QUEST_PROGRESS='progress',QUEST_COMPLETE='complete'}) do
+      fire(event);flush()
+      assert(A.window:IsShown()==(A.quests[id][field]~=nil),'Afternoon state routing failed:'..id..'/'..field)
+      assert(MMNorthshireCaptures[id].states[field].title==A.quests[id].en,'Afternoon capture lost exact quest title/ID')
+    end
+  end
+  assert(not A.quests[5639].detail and not A.quests[5728].detail and not A.quests[95250].detail and not A.quests[111].progress,'Historical source holds refilled')
+  questID=0;fire('QUEST_FINISHED')
+  print('PASS:26NovemberAfternoon50 records and150 new dialogue routing/capture cases with inherited fallback guards.')
+end
+
+if A.quests[96781] and A.quests[583] and A.quests[1453] then
+  local contracts={    {96781,"objective",{"Barton's Scouting Report","Myrokos Silentform","Ravenholdt Manor"}},
+    {96782,"detail",{"Barton","Alterac","Perenolde","Blade of House Perenolde","Royal Aegis of Perenolde","Syndicate","ogre"}},
+    {96783,"objective",{"Stromgarde Keep","Northfold Manor","Syndicate"}},
+    {96784,"objective",{"Syndicate","Stromgarde Keep"}},
+    {96785,"objective",{"Anastasia","Stromgarde Keep"}},
+    {96786,"objective",{"Syndicate","Ravenholdt Manor","Myrokos Silentform"}},
+    {1947,"detail",{"mage","human","Tabetha","Dustwallow Marsh","Theramore","Stonemaul Ruins"}},
+    {1948,"objective",{"Jade","Bolt Charged Bramble","Dustwallow Marsh","Tabetha"}},
+    {1949,"detail",{"Magus Tirth","Rituals of Power","mage","Shimmering Flats","gnome","goblin"}},
+    {1950,"complete",{"Johnson"}},
+    {1951,"title",{"Rituals of Power"}},
+    {1952,"title",{"Mage"}},
+    {1953,"detail",{"Dustwallow Marsh","Tabetha","mage","Theramore"}},
+    {1718,"detail",{"warrior","Barrens","Ratchet","Fray Island","Klannoc Macleod","Merchant Coast"}},
+    {1719,"detail",{"The Affray","warrior","Fray Island","Twiggy Flathead","Big Will"}},
+    {1791,"detail",{"berserker's stance","Alterac Mountains","Western Plaguelands","troll","Bath'rah the Windwatcher","shaman","Tarren Mill"}},
+    {1712,"objective",{"Bath'rah's Parchment","Alterac","Bath'rah the Windwatcher"}},
+    {1713,"objective",{"Whirlwind Heart","Bath'rah Windwatcher"}},
+    {1792,"complete",{"Whirlwind Heart","Cyclonian"}},
+    {1714,"title",{"Essence of the Exile"}},
+    {185,"objective",{"Nesingwary's Expedition","Ajeck Rouack","Young Stranglethorn Tigers"}},
+    {186,"objective",{"Nesingwary's Expedition","Ajeck Rouack","Stranglethorn Tigers"}},
+    {187,"objective",{"Nesingwary's Expedition","Ajeck Rouack","Elder Stranglethorn Tigers"}},
+    {188,"objective",{"Nesingwary's Expedition","Ajeck Rouack","Sin'Dall"}},
+    {190,"objective",{"Nesingwary's Expedition","Young Panthers","Sir S. J. Erlgadin"}},
+    {191,"objective",{"Nesingwary's Expedition","Panthers","Sir S. J. Erlgadin"}},
+    {192,"objective",{"Nesingwary's Expedition","Shadowmaw Panthers","Sir S. J. Erlgadin"}},
+    {193,"objective",{"Nesingwary's Expedition","Fang of Bhag'thera","Sir S. J. Erlgadin"}},
+    {583,"objective",{"Hemet Nesingwary"}},
+    {5762,"objective",{"Kravel's Crate","Stranglethorn","Hemet Nesingwary"}},
+    {194,"objective",{"Hemet Nesingwary","Stranglethorn Raptors"}},
+    {195,"objective",{"Hemet Nesingwary","Lashtail Raptors"}},
+    {196,"objective",{"Hemet Nesingwary","Jungle Stalkers"}},
+    {197,"objective",{"Hemet Nesingwary","Stranglethorn","raptor","Tethis"}},
+    {208,"objective",{"Hemet Nesingwary","King Bangalash"}},
+    {338,"objective",{"The Green Hills of Stranglethorn","Barnil"}},
+    {339,"objective",{"Chapter I","Nesingwary","The Green Hills of Stranglethorn","Barnil Stonepot"}},
+    {340,"objective",{"Chapter II","Nesingwary","The Green Hills of Stranglethorn","Barnil Stonepot"}},
+    {341,"objective",{"Chapter III","Nesingwary","The Green Hills of Stranglethorn","Barnil Stonepot"}},
+    {342,"objective",{"Chapter IV","Nesingwary","The Green Hills of Stranglethorn","Barnil Stonepot"}},
+    {1387,"objective",{"Centaur Ears","Corporal Melkins","Nijel's Point","Desolace"}},
+    {1453,"objective",{"Kreldig Ungor","Desolace"}},
+    {1454,"objective",{"Karnitol's Chest","Desolace"}},
+    {1455,"objective",{"Kreldig Ungor","Desolace"}},
+    {1456,"objective",{"Karnitol's Satchel","Kreldig Ungor","Desolace"}},
+    {1457,"objective",{"Karnitol's Satchel","Roetten Stonehammer","Ironforge"}},
+    {1458,"objective",{"Hatefury Claws","Hatefury Horns","Kreldig Ungor","Desolace"}},
+    {1459,"objective",{"Scorpashi Venom","Aged Kodo Hides","Kreldig Ungor","Desolace"}},
+    {1466,"objective",{"Felhound Brains","Nether Wings","Doomwarder Blood","Kreldig Ungor","Desolace"}},
+    {1467,"objective",{"Leftwitch's Package","Roetten Stonehammer","Ironforge"}}}
+  for _,c in ipairs(contracts) do
+    local value=assert(A.quests[c[1]][c[2]],'Source identity field absent'):lower()
+    for _,term in ipairs(c[3]) do assert(value:find(term:lower(),1,true),'Source identity failed:'..c[1]..'/'..term) end
+  end
+  for _,c in ipairs({}) do
+    questID=c[1];fire(({detail='QUEST_DETAIL',objective='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[c[2]]);flush()
+    assert(A.window:IsShown() and shown.text:find(A.quests[c[1]][c[2]],1,true),'Encoded source field did not render for exactID')
+  end
+  for _,r in ipairs({{96783,"progress"},{96784,"progress"},{1947,"progress"},{1949,"progress"},{1952,"progress"},{1953,"progress"},{1718,"progress"},{1791,"progress"},{1792,"detail"},{1792,"objective"},{1792,"progress"},{1714,"objective"},{583,"progress"},{1453,"progress"},{1454,"progress"},{1455,"progress"}}) do assert(not A.quests[r[1]][r[2]],'Invented current source state:'..r[1]..'/'..r[2]) end
+  for _,r in ipairs({{1714,"detail"}}) do
+    assert(not A.quests[r[1]][r[2]],'Unsupported source field enabled:'..r[1]..'/'..r[2])
+    local event=({detail='QUEST_DETAIL',progress='QUEST_PROGRESS',complete='QUEST_COMPLETE'})[r[2]]
+    if event then
+      questID=r[1];fire(event);flush()
+      assert(not A.window:IsShown() and MMNorthshireCaptures[r[1]].states[r[2]].translationFallback~=nil,'Held state lost original fallback/capture')
+    end
+  end
+  for _,p in ipairs({{96781,96782},{96783,96784},{96784,96785},{96785,96786},{1947,1949},{1949,1950},{1950,1951},{1951,1952},{1947,1948},{1948,1952},{1952,1953},{1718,1719},{1719,1791},{1791,1712},{1712,1713},{5762,583},{583,185},{185,186},{186,187},{187,188},{583,190},{190,191},{191,192},{192,193},{583,194},{194,195},{195,196},{196,197},{188,208},{193,208},{197,208},{338,339},{339,340},{340,341},{341,342},{1453,1454},{1454,1455},{1455,1456},{1456,1457},{1453,1458},{1458,1459},{1459,1466},{1466,1467}}) do assert(A.quests[p[1]].objective~=A.quests[p[2]].objective,'Distinct current-source task stages collapsed') end
+  assert(A.quests[185].en==A.quests[186].en and A.quests[186].en==A.quests[187].en and A.quests[187].en==A.quests[188].en,'Tiger Mastery same-title IDs changed')
+  assert(A.quests[194].en==A.quests[195].en and A.quests[195].en==A.quests[196].en and A.quests[196].en==A.quests[197].en,'Raptor Mastery same-title IDs changed')
+  assert(A.quests[1387].objective~=A.quests[1366].objective,'Alliance and Horde Centaur Bounty recipient objectives collapsed')
+  questID=0;titleOverride=nil;fire('QUEST_FINISHED')
+  print('PASS:50 source quest contracts,Mastery/Reclaimers/Mage/Warrior/Rogue stages,partial-state boundaries and unavailable-state guards.')
+end

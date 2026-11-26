@@ -1,0 +1,112 @@
+{
+  "version": "1.2.25",
+  "result": "PASS",
+  "kind": "conditional_afternoon",
+  "localDate": "2026-11-26",
+  "newQuestIDs": 50,
+  "newQuestFields": 233,
+  "newEnabledFieldsTotal": 233,
+  "newAvailableSourceFields": 234,
+  "newSourceAbsentFields": 16,
+  "newHeldFields": [
+    {
+      "id": 1714,
+      "field": "detail",
+      "reason": "Preserve explicitly labeled secondary Description; hold disabled pending primary or current live confirmation. Duplication does not establish absence.",
+      "sourceEnglish": "The cauldron bubbles.  Its vapors beckon...",
+      "rawDeepLProposal": "အိုးကြီးသည် ဖုတ်ဖုတ်ဆူနေသည်။ ၎င်း၏ အငွေ့များက ဆွဲဆောင်နေသည်...",
+      "rawDeepLRequestFile": "deepl-05-request.json",
+      "rawDeepLResponseFile": "deepl-05-response.json",
+      "rawDeepLIndexFile": "deepl-05-index.json",
+      "requestIndex": 0,
+      "responseIndex": 0,
+      "responseTargetIndex": 0,
+      "englishSHA256": "af967a2d3fb3adeb1e52323e52201846d5e9c16e3a5bc51cf1ed1de3b7718347",
+      "rawDeepLSHA256": "b7705955d5d7ea4db05eec61e3266cef94cc921582e7801f5e65e82753034880",
+      "rawDeepLRequestSHA256": "8a6da88254bcbc650762a7f92202dfe192b05938509d95df27497ca29a186daa",
+      "rawDeepLResponseSHA256": "73290f0f74a5db24a2cb9c2f4cfd6def41b84e6fe0dbe25235a2d3d7437dfdce",
+      "rawDeepLIndexSHA256": "ca794c39438672c555abeaae7679c391aa92c54553804c482bf7b26ac7ed66d9",
+      "sourceHTMLFile": "1714-sixty.html",
+      "sourceHTMLSHA256": "2046ff7e88c5edbf5c2443eff0fa8406ed1b841565364f46f5ae4181121c8c9b",
+      "primaryHTMLFile": "1714-wowhead.html",
+      "primaryHTMLSHA256": "f69db48b558c747910bdee7d863573c9f5641234980d88ced42ace656d64faee",
+      "reviewNotes": "Separate source-aware English/Myanmar reread of the actual proposal completed. It conveys a bubbling cauldron and drawing vapors; raw DeepL uses attraction rather than literal beckoning. No enabled editorial text is supplied while source state presence is disputed. Native proofreading and current live confirmation remain pending.",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested",
+      "independentAssistedReview": "completed; held source/runtime disposition confirmed",
+      "independentReviewEvidence": "evidence/independent-review/class_routes.json"
+    }
+  ],
+  "filledExistingFields": 0,
+  "guardedCorrectedExistingFields": 0,
+  "newRecordReviewCorrectionOperations": 0,
+  "questIDs": 2136,
+  "translatedFields": 9751,
+  "dialogueStates": 5585,
+  "absentOrHeldDialogueStates": 823,
+  "activeHeldUniqueFields": 92,
+  "pythonTests": 26,
+  "luaRegressionGroups": 64,
+  "newQuestStateRoutingChecks": 150,
+  "newIdentityContracts": 50,
+  "additionalIdentityContracts": 0,
+  "reviewedConnectedGroups": 6,
+  "inheritedForgeScopeGuard": "Preserved exact reviewed v1.2.23 exception; no build-tool changes",
+  "prioritizedCapturedQuestIDs": 0,
+  "prioritizedSavedDialogueStates": 0,
+  "postBuildSavedCaptureAudit": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-26T07:19:27.677354+00:00",
+    "catalogVersion": "1.2.25",
+    "capturedStates": 310,
+    "capturedQuestIDs": 132,
+    "statusCounts": {
+      "translated": 310
+    },
+    "remainingSavedGaps": [],
+    "sourceFiles": [
+      {
+        "sha256": "e4e2a3082506ae8be12e123ff2d0cf90e58a6a3606fe991995e1c0dba1f37d26",
+        "savedAtUTC": "2026-11-22T04:26:07.463612+00:00"
+      }
+    ],
+    "method": "Private restricted Lua read and title/state classification against composed catalog. Only canonical static titles, IDs, state names, presence status and hashes exported; no raw account/character/substituted dialogue.",
+    "currentLivePlaytest": "not performed",
+    "nativeMyanmarProofreading": "pending"
+  },
+  "upstreamReference": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-26T06:33:54.542781+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "upstreamChangedExistingQuestIDs": [],
+  "enabledExistingChangesRequired": false,
+  "olderReviewedFieldsUnchanged": true,
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationApproval": "pending",
+  "liveClientVerification": "not tested",
+  "controllerHardware": "not tested",
+  "dailyNewRecordsAfterCompletion": 100,
+  "zip": {
+    "name": "MyanmarForever_v1.2.25.zip",
+    "bytes": 1303576,
+    "sha256": "dceea0c5185cc572c23859baaec75d1439a9f662a76f09520257e7afaff6378c"
+  },
+  "canonicalMetadataHashAliasRepairs": 0,
+  "inheritedUAUnavailableEnglishStates": [
+    {
+      "id": 111,
+      "field": "progress",
+      "decision": "UA1.1.1 added state, current primary/secondary English unavailable; baseline null preserved. Source/liveness uncertainty recorded separately from formal sourced holds."
+    }
+  ],
+  "unconfirmedUAOnlyStates": [],
+  "newUnavailableCurrentEnglishStates": 16,
+  "sourceAvailabilityMeaning": "Missing currentEnglish is notinvented; UA-only discrepancies are separatefromconfirmedabsenceinreferences and liveabsence isnotclaimed."
+}

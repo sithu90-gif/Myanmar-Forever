@@ -1,0 +1,18 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "An error occurred invoking 'list-glossaries': Tool 'list-glossaries' needs DeepL Pro. The user is on the DeepL Free plan. The DeepL Free plan includes text and document translation and DeepL Write (rephrase-text, correct-text). Glossaries, style rules and custom instructions need DeepL Pro. Tell the user that this feature needs DeepL Pro."
+    }
+  ],
+  "structuredContent": {
+    "error": {
+      "outcome": "client_error",
+      "reason": "pro_required",
+      "message": "Tool 'list-glossaries' needs DeepL Pro. The user is on the DeepL Free plan. The DeepL Free plan includes text and document translation and DeepL Write (rephrase-text, correct-text). Glossaries, style rules and custom instructions need DeepL Pro. Tell the user that this feature needs DeepL Pro.",
+      "retryable": false
+    },
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

@@ -1,0 +1,169 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-26T07:00:42.142886+00:00",
+  "quests": 10,
+  "enabledFields": 47,
+  "unavailableFields": 3,
+  "linguisticLint": [],
+  "validateFields": "PASS",
+  "rawPrimaryReparse": "PASS",
+  "paragraphsMarkersDigitsStages": "PASS",
+  "allCanonicalReviewHashAliases": "PASS",
+  "maintainedDictionaryTermsPreserved": 5130,
+  "identityContracts": 10,
+  "semanticContracts": {
+    "numeric": 4,
+    "written": 2,
+    "actions": 15,
+    "ordered": 2,
+    "directions": 4
+  },
+  "negativeControls": [
+    {
+      "control": "Wrong recipient in introductory objective",
+      "result": "rejected",
+      "id": 1453,
+      "field": "objective",
+      "mutation": {
+        "from": "Kreldig Ungor",
+        "to": "Roetten Stonehammer"
+      }
+    },
+    {
+      "control": "Wrong east/west entry direction",
+      "result": "rejected",
+      "id": 1453,
+      "field": "detail",
+      "mutation": {
+        "from": "အရှေ့ဘက်",
+        "to": "အနောက်ဘက်"
+      }
+    },
+    {
+      "control": "Wrong northwest shipwreck direction",
+      "result": "rejected",
+      "id": 1454,
+      "field": "detail",
+      "mutation": {
+        "from": "အနောက်မြောက်ဘက်",
+        "to": "အရှေ့တောင်ဘက်"
+      }
+    },
+    {
+      "control": "Removed scout conditional",
+      "result": "rejected",
+      "id": 1456,
+      "field": "detail",
+      "mutation": {
+        "from": "ဆင်းလာခဲ့တယ်ဆိုရင်",
+        "to": "ဆင်းလာခဲ့တယ်"
+      }
+    },
+    {
+      "control": "Wrong same-title chest/satchel stage",
+      "result": "rejected",
+      "id": 1454,
+      "field": "objective",
+      "mutation": {
+        "from": "Karnitol's Chest",
+        "to": "Karnitol's Satchel"
+      }
+    },
+    {
+      "control": "Emptiness discovery and closing action swapped",
+      "result": "rejected",
+      "id": 1455,
+      "field": "detail"
+    },
+    {
+      "control": "Wrong venom quantity rejected",
+      "result": "rejected",
+      "id": 1459,
+      "field": "objective",
+      "mutation": {
+        "from": "အဆိပ် 7 ပုလင်းနှင့်",
+        "to": "အဆိပ် 3 ပုလင်းနှင့်"
+      }
+    },
+    {
+      "control": "7 venom and3 hide target bindings swapped, unchanged digit multiset",
+      "result": "rejected",
+      "id": 1459,
+      "field": "objective"
+    },
+    {
+      "control": "Aged kodo exclusion removed",
+      "result": "rejected",
+      "id": 1459,
+      "field": "detail",
+      "mutation": {
+        "from": "မဟုတ်ရဘူး",
+        "to": "ဖြစ်ရမယ်"
+      }
+    },
+    {
+      "control": "Hatefury east direction reversed",
+      "result": "rejected",
+      "id": 1458,
+      "field": "detail",
+      "mutation": {
+        "from": "အရှေ့ဘက်",
+        "to": "အနောက်ဘက်"
+      }
+    },
+    {
+      "control": "Alliance bounty recipient changed to Horde recipient",
+      "result": "rejected",
+      "id": 1387,
+      "field": "objective",
+      "mutation": {
+        "from": "Corporal Melkins",
+        "to": "Felgur Twocuts"
+      }
+    },
+    {
+      "control": "Written ten brains changed to nine",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "mutation": {
+        "from": "ဦးနှောက် ဆယ်ခု",
+        "to": "ဦးနှောက် ကိုးခု"
+      }
+    },
+    {
+      "control": "Decline option removed",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "mutation": {
+        "from": "ငါ နားလည်ပါတယ်",
+        "to": "မဖြစ်မနေလုပ်ရမယ်"
+      }
+    },
+    {
+      "control": "Payment handoff moved to Desolace",
+      "result": "rejected",
+      "id": 1467,
+      "field": "objective",
+      "mutation": {
+        "from": "Ironforge",
+        "to": "Desolace"
+      }
+    }
+  ],
+  "checkedFilesSHA256": {
+    "edited.json": "2f427e9788cf9ff696a4f51a70efbc2fd31cd3ecfe601c7cc54cc3f4c2982f98",
+    "english-sources.json": "d07375df343523a08e572ea254b8c501ce699ce81cc2703a4cb8aa88b72fc6ac",
+    "review-audit.json": "d7749b91663961dfd3f5372dbfa4f473a6f76774ecad4e74f57aaa57384319d0",
+    "comparison-provenance.json": "21f2e3e6ec3a3beaf3923b3cf46f1a8143f7dd4c43078fe16f1eae857788d791",
+    "pronunciations.json": "8f183b4fd178033fd7dcaeb7de451158466b84ad868c7bd72c402c9ce7ad0bdc",
+    "annotation-exceptions.json": "5173709da1b926e76601eeea8b58f4d8aeab96959dba54cd3b974f7f08d97ecf",
+    "identity-contracts.json": "0bff9063de9baddc4471a006d6f58473f09c8e44dfabb00ed402809cd4884294",
+    "semantic-contracts.json": "0bdde1238c28e8aae0564ea05c12c999b2cdbba08b9e60aabf2bf6a24169d832",
+    "run_checks.py": "6ccfcd3c458d16e7f4ce2867f84357d21b0c51805485dc0a8d4ec4429047a187"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}

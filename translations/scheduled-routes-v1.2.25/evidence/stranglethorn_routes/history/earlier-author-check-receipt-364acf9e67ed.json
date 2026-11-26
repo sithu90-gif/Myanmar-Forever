@@ -1,0 +1,97 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-26T06:59:02.831788+00:00",
+  "quests": 20,
+  "enabledFields": 99,
+  "fieldSlots": 100,
+  "unavailableFields": [
+    [
+      583,
+      "progress"
+    ]
+  ],
+  "formalHolds": 0,
+  "linguisticLint": "PASS",
+  "validateFields": "PASS",
+  "sourceReparseAndRootPrimaryPin": "PASS",
+  "paragraphBoundaries": "PASS",
+  "canonicalFieldHashAliases": "PASS",
+  "identityContracts": 20,
+  "numericContracts": 9,
+  "writtenContracts": 15,
+  "actionContracts": 20,
+  "orderedContracts": 2,
+  "directionContracts": 1,
+  "negativeControls": [
+    {
+      "control": "Wrong young tiger quantity 10 to 11",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Same-count stage swap young target to elder target",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Mature stage swapped to Young target despite substring overlap",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Named trophy target replaced with preceding target",
+      "result": "REJECTED"
+    },
+    {
+      "control": "North direction reversed south",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Before-condition reversed into after",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Four complete chapters changed to three",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Tiger/panther teacher mapping swapped",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Prior hunt progression reordered",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Wrong page identifier for quest 339",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Wrong page identifier for quest 340",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Wrong page identifier for quest 341",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Wrong page identifier for quest 342",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Invented unavailable 583 Progress",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Player marker removed",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Wrong primary source target with same numeric quantity",
+      "result": "REJECTED"
+    },
+    {
+      "control": "Removed primary Completion boundary",
+      "result": "REJECTED"
+    }
+  ],
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

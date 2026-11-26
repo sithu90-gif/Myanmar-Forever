@@ -1,0 +1,160 @@
+{
+  "partition": "class_routes",
+  "status": "Author complete; frozen candidate pending fresh independent review and root integration/package validation",
+  "questCount": 20,
+  "fieldSlots": 100,
+  "sourcedFields": 88,
+  "enabledFields": 87,
+  "unavailableFields": 12,
+  "formalHeldFields": [
+    {
+      "id": 1714,
+      "field": "detail",
+      "reason": "Preserve explicitly labeled secondary Description; hold disabled pending primary or current live confirmation. Duplication does not establish absence.",
+      "sourceEnglish": "The cauldron bubbles.  Its vapors beckon...",
+      "rawDeepLProposal": "အိုးကြီးသည် ဖုတ်ဖုတ်ဆူနေသည်။ ၎င်း၏ အငွေ့များက ဆွဲဆောင်နေသည်...",
+      "rawDeepLRequestFile": "deepl-05-request.json",
+      "rawDeepLResponseFile": "deepl-05-response.json",
+      "rawDeepLIndexFile": "deepl-05-index.json",
+      "requestIndex": 0,
+      "responseIndex": 0,
+      "responseTargetIndex": 0,
+      "englishSHA256": "af967a2d3fb3adeb1e52323e52201846d5e9c16e3a5bc51cf1ed1de3b7718347",
+      "rawDeepLSHA256": "b7705955d5d7ea4db05eec61e3266cef94cc921582e7801f5e65e82753034880",
+      "rawDeepLRequestSHA256": "8a6da88254bcbc650762a7f92202dfe192b05938509d95df27497ca29a186daa",
+      "rawDeepLResponseSHA256": "73290f0f74a5db24a2cb9c2f4cfd6def41b84e6fe0dbe25235a2d3d7437dfdce",
+      "rawDeepLIndexSHA256": "ca794c39438672c555abeaae7679c391aa92c54553804c482bf7b26ac7ed66d9",
+      "sourceHTMLFile": "1714-sixty.html",
+      "sourceHTMLSHA256": "2046ff7e88c5edbf5c2443eff0fa8406ed1b841565364f46f5ae4181121c8c9b",
+      "primaryHTMLFile": "1714-wowhead.html",
+      "primaryHTMLSHA256": "f69db48b558c747910bdee7d863573c9f5641234980d88ced42ace656d64faee",
+      "reviewNotes": "Separate source-aware English/Myanmar reread of the actual proposal completed. It conveys a bubbling cauldron and drawing vapors; raw DeepL uses attraction rather than literal beckoning. No enabled editorial text is supplied while source state presence is disputed. Native proofreading and current live confirmation remain pending.",
+      "nativeMyanmarProofreading": "pending",
+      "currentLiveVerification": "not tested"
+    }
+  ],
+  "reviewGroups": [
+    {
+      "questIDs": [
+        96781,
+        96782,
+        96783,
+        96784,
+        96785,
+        96786,
+        1947,
+        1948,
+        1949,
+        1950
+      ],
+      "sourcedFields": 46,
+      "enabledFields": 46,
+      "status": "Separate full source-aware English/Myanmar author reread complete"
+    },
+    {
+      "questIDs": [
+        1951,
+        1952,
+        1953,
+        1718,
+        1719,
+        1791,
+        1712,
+        1713,
+        1792,
+        1714
+      ],
+      "sourcedFields": 42,
+      "enabledFields": 41,
+      "status": "Separate full source-aware English/Myanmar author reread complete"
+    }
+  ],
+  "routes": [
+    "Rogue Ravenholdt: Barton report and Perenolde heirlooms; separate Northfold/Stromgarde disguise/Anastasia secret-deal branch.",
+    "Mage: Journey to the Marsh, parallel Items of Power and Hidden Secrets/Get the Scoop/Rituals of Power prerequisites for Mage wand; distinct required35 Return to the Marsh handoff.",
+    "Warrior: Islander/Affray, Windwatcher/Cyclonian/Summoning/Whirlwind Weapon with Essence of the Exile side requirement."
+  ],
+  "upstreamPin": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-26T06:33:54.542781+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "installedMetadataPin": {
+    "version": "1.1.3",
+    "tocSHA256": "ace910659975d6bf089372c96535dda44b2ec1c4281bb9efb4b9f188b7321f26",
+    "decodedCatalogSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "questCount": 5982,
+    "decodedInstalledRecordsSHA256": "3ee55a3b952858971be12efb7a962193555a668ae28ec826bed492a4124e7968",
+    "summaryMetadataSHA256": "db2366462b8e795624293332b13c8e6a03cb29cd7c67ace9832a36eb282be681",
+    "normalization": "Full decoded records retained; S title-only lists normalized to one-based keys, without invented levels."
+  },
+  "sourcePrimaryPins": "All 20 exact current own g_quests and every own Gatherer record checked; canonical HTML matches root current-primary-own-id-metadata.json. No unused/obsolete/unavailable own record found.",
+  "sourceCaveats": [
+    "96784–96786 current primary own side 2 conflicts with UA Both and cross-faction route implications; current live faction eligibility remains unverified.",
+    "1718 completion primary class differs from secondary name;1719 / 1791 primary dynamic class differs from secondary static warrior. English primary controls.",
+    "1714 primary has no Description; secondary explicitly labels Description identical to primary Progress. Separate genuine DeepL proposal preserved and detail held null pending current primary/live confirmation.",
+    "1953 current primary required 35, level 40, class 128, side 3 and four fields confirmed; secondary fetch succeeded.",
+    "1947 / 1950 failed secondary TLS fetches retried with required repository fetcher in owned subfolder; only successful secondary HTML merged.",
+    "1719 current source time limit and1791 fire-in-eyes text retained despite UA omission;1712 static primary warrior phrase does not acquire UA class branch."
+  ],
+  "genuineDeepL": {
+    "calls": 5,
+    "actualTexts": 88,
+    "requestCharacterCounts": [
+      4196,
+      2766,
+      4236,
+      799,
+      43
+    ],
+    "sourceLang": "unset; auto-detect",
+    "targetLangs": [
+      "MY"
+    ],
+    "cloudGlossary": "DeepL Free unavailable per root fresh pro_required result; no cloud glossary changes",
+    "editorialTerminology": "Maintained local 5130-term seed; all owned keys compared directly with seed, exact matching for existing entries",
+    "ignoredContext": "Literal context passed, raw Free responses record context ignored."
+  },
+  "pronunciationDictionary": {
+    "seedTerms": 5130,
+    "ownedDictionaryTerms": 66,
+    "matchingSeedTerms": 27,
+    "newPronunciationProposalsPendingNative": 39
+  },
+  "validation": {
+    "linguisticLint": "PASS",
+    "buildReleaseValidateFields": "PASS",
+    "sourceReparseAndBoundaryChecks": "PASS",
+    "canonicalCurrentFieldHashChecks": "PASS",
+    "semanticIdentityAndNegativeControls": "PASS",
+    "meaningfulRejectedMutations": 57,
+    "exactScopedRootWorkerVerifier": "PASS; receipt saved in root-worker-verifier-receipt.json, only final shared report write suppressed"
+  },
+  "enabledTextConservation": "1714 source-state adjudication changed no enabled author text;1714-adjudication-conservation.json pins the exact prior/current edited.json hash.",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationNativeReview": "pending",
+  "currentLiveForeverVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "freshIndependentAssistedReview": "pending",
+  "productOrStateOrGitWrites": "None. Only owned class_routes evidence written. Prior 91 product holds untouched.",
+  "sourceAndFinalTextSHA256": {
+    "english-sources.json": "81bb95d6af08e8fbe3f22be7a887cda2d15a2e1b5e2b1ec6a19c31cbd4c67ee1",
+    "edited.json": "a5e38810d3c7e1a2e37038cfa22bb1a33c009e7204c71d6b5dde2847771dfc77",
+    "review-audit.json": "2d69e01cc47405313d4f7c104d76c7f95fb825b633757691424f75fda680ba1b",
+    "pronunciations.json": "ac54f4c9857421792a0aea24bf2d5a20af9a4451706626ac2e9a6f8380c4db1d",
+    "annotation-exceptions.json": "0a226c1fca214829cc4bbafe1863fe916ec3085451d27b1ed1814343948dc4b1",
+    "held-fields.json": "c2cbcacb723aadb409a43c6fc9c4552b71e57f5278c3be2a4f6cea4390c415e1",
+    "comparison-provenance.json": "c1193205d166c822feed14810bb4ecd61cc2c319dea37e143b8098ece1a537ce",
+    "source-boundaries.json": "2f93ff6e12b7b3bc036b716188bf5185909793b343711e4a19e92460f2fd3cec",
+    "semantic-contracts.json": "5270f6d41b710649f6c3d563a00f9ddf1804566433731b4dc2f491f69226ebf6",
+    "identity-contracts.json": "88d4a9bbb5d940508adb4da39283e51a20f4cee5d250e0e9b1eee588940b72e9",
+    "review-groups.json": "82d451723865a94a9ede7d5636d8cae38d85f74cd07a69388515c1ef182122d2",
+    "owned-check-receipt.json": "e327b3fd0c43b0c4afeffc4e8146d572eefa6fe277c26ee90e43a532fbad7fbe"
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "partition": "stranglethorn_routes",
+  "status": "Author work complete; frozen for fresh independent review after checks",
+  "questIDs": [
+    5762,
+    583,
+    185,
+    186,
+    187,
+    188,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    208,
+    338,
+    339,
+    340,
+    341,
+    342
+  ],
+  "quests": 20,
+  "fieldSlots": 100,
+  "sourcedFields": 99,
+  "enabledFields": 99,
+  "formalHolds": [],
+  "unavailableFields": [
+    {
+      "id": 583,
+      "field": "progress",
+      "reason": "No Progress state in either current primary or secondary English reference."
+    }
+  ],
+  "reviewGroups": 2,
+  "routes": [
+    "Kravel shipment and Nesingwary camp introduction",
+    "Complete four-step Tiger Mastery",
+    "Complete four-step Panther Mastery",
+    "Complete four-step Raptor Mastery",
+    "Combined Big Game Hunter finale",
+    "Green Hills manuscript and all four page-collection chapters"
+  ],
+  "currentQuestLevelRange": [
+    30,
+    43
+  ],
+  "currentRequiredLevelRange": [
+    28,
+    30
+  ],
+  "higherEndpoints": [
+    {
+      "id": 196,
+      "questLevel": 41,
+      "requiredLevel": 28
+    },
+    {
+      "id": 197,
+      "questLevel": 43,
+      "requiredLevel": 28
+    },
+    {
+      "id": 208,
+      "questLevel": 43,
+      "requiredLevel": 28
+    }
+  ],
+  "sourcePins": {
+    "repository": "sysrover/UA_Forever",
+    "version": "1.1.2",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "checkedAt": "2026-11-26T06:33:54.542781+00:00",
+    "releaseURL": "https://github.com/sysrover/UA_Forever/releases/tag/1.1.2",
+    "publishedAtUTC": "2026-11-24T04:16:06Z",
+    "assetURL": "https://github.com/sysrover/UA_Forever/releases/download/1.1.2/UA_Forever-1.1.2.zip",
+    "assetSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd"
+  },
+  "sourcePinReferenceSHA256": "d73c8bf8bc2f21031bf3efdf81929ba378e1bad47ca7bb94a800f8f41b2081ea",
+  "metadataPinReferenceSHA256": "253041d977b00d8465e97deb6ff3be193561e2a365a996ef95df0f46cd826468",
+  "actualDeepLCalls": 4,
+  "actualDeepLTexts": 99,
+  "DeepLRequestCharacterCounts": [
+    4182,
+    2076,
+    4224,
+    2106
+  ],
+  "DeepLSettings": "Auto-detected English; MY target; literal context submitted and explicitly ignored on Free. No custom instructions or cloud glossary changes. Maintained local map applied editorially.",
+  "maintainedTerminologySeedTerms": 5130,
+  "usedPronunciations": 49,
+  "usedMaintainedSpellings": 8,
+  "newPronunciationProposals": 41,
+  "assistedAuthorReview": "Every English and final Myanmar state separately reread after drafting; affected 195/341 corrections reread; source paragraphs, targets, stages and quantities checked.",
+  "independentAssistedReview": "pending fresh reviewer",
+  "nativeMyanmarProofreading": "pending",
+  "newPronunciationNativeReview": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested",
+  "sourceCaveats": [
+    "196/197/208 connected endpoints are levels 41, 43 and 43, not capped at 40; exact current metadata is separated from installed metadata.",
+    "193 uses Bhag'thera;208 detail uses Bag'thera. Exact displayed aliases retained.",
+    "197 detail uses his talon; Progress uses her. Source per-state wording retained without invented resolution.",
+    "191 primary Progress is available despite secondary omission.",
+    "196 UA wording changes future best-hunt tip to best-hunter status; both English references agree on the tip, and English controls.",
+    "341 source typo 21and means page 21 and page 24. Exact objective item identities and quantity 1 checked.",
+    "208 current envChange is rewards only; no dialogue change or invented state."
+  ],
+  "checks": [
+    "Actual linguistic_lint.lint and build_release.validate_fields PASS",
+    "All current primary states reparsed and matched to root own-ID pins; paragraph and marker/count checks PASS",
+    "17 meaningful wrong source/target/count/direction/condition/teacher/order/page/unavailable/marker controls rejected",
+    "Exact root verify_workers.py scoped stranglethorn_routes executed unchanged; only final shared report write suppressed"
+  ],
+  "checkReceipts": [
+    "checks/author-check-receipt.json",
+    "checks/root-verifier-receipt.json",
+    "checks/root-verifier-report.json"
+  ],
+  "releaseAndIntegration": "Root owned; no product, state, Git or other partition changes."
+}

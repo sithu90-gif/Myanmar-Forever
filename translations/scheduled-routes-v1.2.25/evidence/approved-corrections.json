@@ -1,0 +1,202 @@
+{
+  "result": "Source-supported independent corrections approved under exact source/author hash guards",
+  "acceptedFields": {
+    "class_routes": [],
+    "stranglethorn_routes": [],
+    "desolace_routes": []
+  },
+  "pronunciationOverrides": {},
+  "annotationExceptionRemovals": {
+    "class_routes": [],
+    "stranglethorn_routes": [],
+    "desolace_routes": []
+  },
+  "semanticContractChanges": [],
+  "acceptedEvidenceCorrections": [
+    {
+      "partition": "desolace_routes",
+      "file": "source-boundaries.json",
+      "authorFileSHA256": "c62d8c5bef6c4c4104414c88ab28a61451f30e4aceeaf0cf0a2f78eeff160a06",
+      "correctedFileSHA256": "89fa9ca9a374324b26bdd4212de52bc37e63f7120babf3620e92b705ca694f0d",
+      "correctionCount": 2,
+      "changes": [
+        {
+          "file": "source-boundaries.json",
+          "authorFileSHA256": "c62d8c5bef6c4c4104414c88ab28a61451f30e4aceeaf0cf0a2f78eeff160a06",
+          "jsonPath": [
+            "1457",
+            "primarySecondaryDifferences",
+            2,
+            "disposition"
+          ],
+          "oldValue": "Primary literal marker case controls; semantic text otherwise agrees.",
+          "oldValueSHA256": "0249c186aeb7c7cd09d0f1f81d5101372e6b2d63104e52b17f3744763fe81fc7",
+          "newValue": "Primary double hyphen differs from secondary spaced hyphen; both use literal <name>. Semantic dialogue otherwise agrees; primary punctuation controls.",
+          "sourceEvidence": {
+            "id": 1457,
+            "field": "progress",
+            "primaryFile": "1457-wowhead.html",
+            "primarySHA256": "3bada3867ba8d7f76d214529c18d79efed14634a3245ee90c0021afc62cad9c4",
+            "secondaryFile": "1457-sixty.html",
+            "secondarySHA256": "14ccd6bf8dd7a171ae6551d77644bf6e3c81b3eaf2360f5072deccc71db9cf75",
+            "primary": "Business is booming, <name>, and I don't have a lot of time for questions. If you've got business with the Reclaimers, then let's hear it. If not, I'm gonna have to ask you to talk to one of me underlings--they're adept enough at taking care of things 'round here.",
+            "secondary": "Business is booming, <name>, and I don't have a lot of time for questions. If you've got business with the Reclaimers, then let's hear it. If not, I'm gonna have to ask you to talk to one of me underlings - they're adept enough at taking care of things 'round here."
+          },
+          "reason": "Both raw references use identical lowercase <name>; the only difference is underlings-- versus underlings - ."
+        },
+        {
+          "file": "source-boundaries.json",
+          "authorFileSHA256": "c62d8c5bef6c4c4104414c88ab28a61451f30e4aceeaf0cf0a2f78eeff160a06",
+          "jsonPath": [
+            "1387",
+            "primarySecondaryDifferences",
+            1,
+            "disposition"
+          ],
+          "oldValue": "Primary literal marker case controls; semantic text otherwise agrees.",
+          "oldValueSHA256": "0249c186aeb7c7cd09d0f1f81d5101372e6b2d63104e52b17f3744763fe81fc7",
+          "newValue": "Primary nonbreaking-space normalization yields double spaces where secondary has single spaces; both use literal <name>. Semantic dialogue otherwise agrees; primary source spacing is retained.",
+          "sourceEvidence": {
+            "id": 1387,
+            "field": "complete",
+            "primaryFile": "1387-wowhead.html",
+            "primarySHA256": "fac4b05745e257b1f31f036ec42cfd528d5a00dff425a146c7104871ec81457c",
+            "secondaryFile": "1387-sixty.html",
+            "secondarySHA256": "78d869966ad1071b3e0e2aef5a8af41202585ca7d9e0af7fd9ffa809eca7a9ed",
+            "primary": "Ah, the ears.  Well done.\n\nYour service to the Alliance is unquestioned, <name>.  The blood you spilled in Desolace will, no doubt, save countless lives.",
+            "secondary": "Ah, the ears. Well done.\n\nYour service to the Alliance is unquestioned, <name>. The blood you spilled in Desolace will, no doubt, save countless lives."
+          },
+          "reason": "No marker-case difference occurs in this field. The source difference is double versus single spaces after sentences."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/desolace_routes/source-boundaries.json",
+      "correctedPublicPath": "evidence/desolace_routes/source-boundaries.json"
+    },
+    {
+      "partition": "desolace_routes",
+      "file": "maintained-identity-screen.json",
+      "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+      "correctedFileSHA256": "19ff7ed8e6c7e303de560f70445aebc07ad616a3650e9ce29df7776d1535be3c",
+      "correctionCount": 5,
+      "changes": [
+        {
+          "file": "maintained-identity-screen.json",
+          "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "jsonPath": [
+            "rows",
+            82,
+            "disposition"
+          ],
+          "oldValue": "Source-aware ordinary narrative/common term here; no independent named identity to annotate.",
+          "oldValueSHA256": "daf38325e0aba4057101dc780710966423aa010b132558bbe0b9864f209b76a9",
+          "newValue": "Retained English organization identity Reclaimers Inc. and its whole Myanmar pronunciation are present, including the final abbreviation period; the duplicate Reclaimers Inc screen candidate is the same identity.",
+          "sourceEvidence": {
+            "id": 1458,
+            "field": "title",
+            "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+            "reviewedMyanmarSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+            "term": "Reclaimers Inc.",
+            "sourceHTMLSHA256": "936a10decdd777d23639a8424ccdbbf574f50ec9a163bef623b42882d15b810c"
+          },
+          "reason": "The literal source term is the named organization, not an ordinary narrative/common term. This corrects only the screen disposition; current prose and pronunciation are already correct."
+        },
+        {
+          "file": "maintained-identity-screen.json",
+          "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "jsonPath": [
+            "rows",
+            104,
+            "disposition"
+          ],
+          "oldValue": "Source-aware ordinary narrative/common term here; no independent named identity to annotate.",
+          "oldValueSHA256": "daf38325e0aba4057101dc780710966423aa010b132558bbe0b9864f209b76a9",
+          "newValue": "Retained English organization identity Reclaimers Inc. and its whole Myanmar pronunciation are present, including the final abbreviation period; the duplicate Reclaimers Inc screen candidate is the same identity.",
+          "sourceEvidence": {
+            "id": 1459,
+            "field": "title",
+            "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+            "reviewedMyanmarSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+            "term": "Reclaimers Inc.",
+            "sourceHTMLSHA256": "0e6e3e573cc8dcb6edb570e3747e2ba6e8e5a9681d974f4664ba541b5ae4bc61"
+          },
+          "reason": "The literal source term is the named organization, not an ordinary narrative/common term. This corrects only the screen disposition; current prose and pronunciation are already correct."
+        },
+        {
+          "file": "maintained-identity-screen.json",
+          "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "jsonPath": [
+            "rows",
+            122,
+            "disposition"
+          ],
+          "oldValue": "Source-aware ordinary narrative/common term here; no independent named identity to annotate.",
+          "oldValueSHA256": "daf38325e0aba4057101dc780710966423aa010b132558bbe0b9864f209b76a9",
+          "newValue": "Retained English organization identity Reclaimers Inc. and its whole Myanmar pronunciation are present, including the final abbreviation period; the duplicate Reclaimers Inc screen candidate is the same identity.",
+          "sourceEvidence": {
+            "id": 1466,
+            "field": "title",
+            "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+            "reviewedMyanmarSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+            "term": "Reclaimers Inc.",
+            "sourceHTMLSHA256": "a066e74ce55836431191975b3ab6da8eb3ae9f1e54d5ecb38d126797e9ba4620"
+          },
+          "reason": "The literal source term is the named organization, not an ordinary narrative/common term. This corrects only the screen disposition; current prose and pronunciation are already correct."
+        },
+        {
+          "file": "maintained-identity-screen.json",
+          "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "jsonPath": [
+            "rows",
+            153,
+            "disposition"
+          ],
+          "oldValue": "Source-aware ordinary narrative/common term here; no independent named identity to annotate.",
+          "oldValueSHA256": "daf38325e0aba4057101dc780710966423aa010b132558bbe0b9864f209b76a9",
+          "newValue": "Retained English organization identity Reclaimers Inc. and its whole Myanmar pronunciation are present, including the final abbreviation period; the duplicate Reclaimers Inc screen candidate is the same identity.",
+          "sourceEvidence": {
+            "id": 1467,
+            "field": "title",
+            "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+            "reviewedMyanmarSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+            "term": "Reclaimers Inc.",
+            "sourceHTMLSHA256": "4796f9a4525e509d2c145b65a2a82cd3818ae02bef2c36f3a9b3fccdd3a72f96"
+          },
+          "reason": "The literal source term is the named organization, not an ordinary narrative/common term. This corrects only the screen disposition; current prose and pronunciation are already correct."
+        },
+        {
+          "file": "maintained-identity-screen.json",
+          "authorFileSHA256": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "jsonPath": [
+            "rows",
+            170,
+            "disposition"
+          ],
+          "oldValue": "Source-aware ordinary narrative/common term here; no independent named identity to annotate.",
+          "oldValueSHA256": "daf38325e0aba4057101dc780710966423aa010b132558bbe0b9864f209b76a9",
+          "newValue": "Retained English organization identity Reclaimers Inc. and its whole Myanmar pronunciation are present, including the final abbreviation period; the duplicate Reclaimers Inc screen candidate is the same identity.",
+          "sourceEvidence": {
+            "id": 1467,
+            "field": "complete",
+            "englishSHA256": "693d357c868c487729ca1856bb3f2351fb3500c0d31fca2e96169c8df9e3252f",
+            "reviewedMyanmarSHA256": "3bfc9536d55b18b31b0b2cba4a21edf8264e53dd06dc8aa8c9c3cc904e166ae0",
+            "term": "Reclaimers Inc.",
+            "sourceHTMLSHA256": "4796f9a4525e509d2c145b65a2a82cd3818ae02bef2c36f3a9b3fccdd3a72f96"
+          },
+          "reason": "The literal source term is the named organization, not an ordinary narrative/common term. This corrects only the screen disposition; current prose and pronunciation are already correct."
+        }
+      ],
+      "frozenOriginalRelocatedInPublicEvidenceTo": "evidence/candidate-history/author-original/desolace_routes/maintained-identity-screen.json",
+      "correctedPublicPath": "evidence/desolace_routes/maintained-identity-screen.json"
+    }
+  ],
+  "independentReportSHA256": {
+    "class_routes": "53f9140a37f8f6b540c6050f92fe4219e08deb72502a366712db2b4e5768ab84",
+    "stranglethorn_routes": "ce7630645cbc642faedcc24a2f65ec05a9fa0d64df37cdce49048f73a5ad3307",
+    "desolace_routes": "04c225430deac015df8ed8b4d0c500b8c734e065e46329723287b7f0f90fc248"
+  },
+  "additionalIdentityContracts": [],
+  "priorCatalogTextChanges": false,
+  "renderedCompanionDisposition": "Frozen author HTML stays historical in source work; not published. Final download HTML is generated from corrected candidate fields, not stale author notes.",
+  "nativeMyanmarProofreading": "pending",
+  "liveClientVerification": "not tested"
+}

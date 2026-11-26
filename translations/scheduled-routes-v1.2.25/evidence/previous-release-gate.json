@@ -1,0 +1,80 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-26T06:34:58.149814+00:00",
+  "baseVersion": "1.2.24",
+  "commit": "4e2b6a28597fd8b331738df1d8fe588c4986b9c7",
+  "morningBatchComplete": true,
+  "noActiveBatch": true,
+  "knownEnabledIssues": [],
+  "dailyNewRecordsBefore": 50,
+  "dailyCeiling": 100,
+  "freshTaggedFiles": {
+    "dist/MyanmarForever_v1.2.24.zip": {
+      "sha256": "8d526b0a7e6e1605b30146a59156fc518806130fdf76df0b5c89458fa42468fc",
+      "bytes": 1279197,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "docs/validation/v1.2.24-2026-11-26.json": {
+      "sha256": "9b19b0dddddc1b9fdb5b677db5370e8d9d32285fbb561a7bd1ec9a78046a6211",
+      "bytes": 238669,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "releases/1.2.24-NOTES.md": {
+      "sha256": "6ecef51e607303e7df768c9f4b3e7d040a58a006fa6e7138e149464e9d000cd6",
+      "bytes": 1897,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "docs/validation/v1.2.24-review.json": {
+      "sha256": "0c03cba19bdf988e36c2285b30ba5f9b4ccf98884607817f2dd0801d1664cd5e",
+      "bytes": 8296,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "translations/scheduled-routes-v1.2.24/pack.json": {
+      "sha256": "d3a77d85366ec72701fe99ba2cb8f8a0cf67e4677b1ea6039633e560a43d5395",
+      "bytes": 568974,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "releases/1.2.24.json": {
+      "sha256": "e37268483e4dd112dc0ad95e28793d9ab3800d4c2d925f69f4cc714fe65f28b0",
+      "bytes": 3114,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "translations/reviewed-rod-repair-v1.2.15/pack.json": {
+      "sha256": "3f7516d24430b1cd8c6f7b5940a352a545023da0f233bf1c4610fe851196c6d2",
+      "bytes": 17075,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "translations/pronunciation-repair-v1.2.21/pack.json": {
+      "sha256": "f789eb08d45f5eaecc77264f35b9783cb6010ab6898bd59628527187ef1b57f3",
+      "bytes": 11198,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "tools/build_release.py": {
+      "sha256": "769c6f99a48d2067959fbbdad3b16bb189f8a5c75b44f950217adbc7d71364ad",
+      "bytes": 24228,
+      "transport": "bounded curl; actual GET bytes"
+    },
+    "tools/test_build_release.py": {
+      "sha256": "bda0341fc33d14c3e9d5a121d9f214c968ced7490145c8f294a40720d8eee128",
+      "bytes": 7638,
+      "transport": "bounded curl; actual GET bytes"
+    }
+  },
+  "savedArtifactHashes": {
+    "MyanmarForever_v1.2.24.zip": "8d526b0a7e6e1605b30146a59156fc518806130fdf76df0b5c89458fa42468fc",
+    "validation.json": "9b19b0dddddc1b9fdb5b677db5370e8d9d32285fbb561a7bd1ec9a78046a6211",
+    "CHANGELOG.md": "6ecef51e607303e7df768c9f4b3e7d040a58a006fa6e7138e149464e9d000cd6",
+    "REVIEW-REPORT.md": "b74a1f718569becac02af70e475fd43bf1f0ea06319a6106742f30ef0af0ee3a",
+    "TRANSLATION-REVIEW.html": "f802a1f467380540b26122570c5854af1f63473cb0ab312534dd86b15b23ecc1",
+    "SHA256SUMS.txt": "a985132b3c94312cc155273012212180be8fe38b3590c348977ef3cf55607306"
+  },
+  "zipCRC": "PASS",
+  "sourceIndependentReviewAndPackage": "PASS",
+  "baseQuestIDs": 2086,
+  "baseFields": 9518,
+  "baseSlots": 10430,
+  "inheritedFormalHolds": 91,
+  "transportNote": "Inline stdin runner stalled and was interrupted; direct file runner with explicit child stdin and bounded curl used. Actual downloaded bytes compared.",
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested"
+}

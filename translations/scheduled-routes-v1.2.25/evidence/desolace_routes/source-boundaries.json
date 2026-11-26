@@ -1,0 +1,1240 @@
+{
+  "1453": {
+    "ownIDGQuests": [
+      {
+        "category": 1537,
+        "category2": 0,
+        "id": 1453,
+        "level": 33,
+        "name": "Reclaimers' Business in Desolace",
+        "reprewards": [
+          [
+            47,
+            50
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 1300,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Reclaimers' Business in Desolace",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "starts": [
+        [
+          5637
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Справи корпорації \"Віднова\" в Спустошищі",
+        "detail": "У Спустошищі є робота для тебе, {ім'я}. Це моторошне місце, осквернене кентаврами та іншою гидотою. Та якщо шукаєш, де гарно попрацювати — вирушай туди, зустрінься з Крелдіґом Унґором і скажи, що я тебе прислав.\n\nТи знайдеш його в оплоті Найджела — це маленький затишний табір, схований у горах на півночі Спустошища. Просто прямуй на схід від входу з Каміннопазуристих гір. Вхід до табору легко проминути, тож будь {стать:уважним:уважною}.",
+        "objective": "Поговоріть з Крелдіґом Унґором в Спустошищі.",
+        "progress": null,
+        "complete": "Радий бачити, що корпорації \"Віднова\" не бракує ні роботи, ні шукачів пригод, готових прийти на допомогу.\n\nЯ Крелдіґ, {ім'я}. Ти чиниш розумно, допомагаючи корпорації \"Віднова\". Кожен чогось потребує: втрачену сімейну реліквію, чарівний предмет, кохану людину. Та мало що. Але коли за справу береться наша корпорація — за гарну ціну кожен може знайти те, що втратив.",
+        "en": "Reclaimers' Business in Desolace",
+        "faction": "Alliance"
+      }
+    ],
+    "objectiveTableLabels": [],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "detail",
+        "primary": "There's work to be done in Desolace, <name>. It's an atrocious place, befouled by centaur and other nasties. But if you're looking for a good week's honest work, then head there, meet with Kreldig Ungor, and tell him I sentcha.\n\nYou can find him holed up at Nijel's Point--it's a little cozy camp hidden in the mountains of northern Desolace. Just head east if you enter from the Stonetalon Mountains. It's easy to miss, so be on the lookout.",
+        "secondary": "There's work to be done in Desolace, <Name>. It's an atrocious place, befouled by centaur and other nasties. But if you're looking for a good week's honest work, then head there, meet with Kreldig Ungor, and tell him I sentcha.\n\nYou can find him holed up at Nijel's Point--it's a little cozy camp hidden in the mountains of northern Desolace. Just head east if you enter from the Stonetalon Mountains. It's easy to miss, so be on the lookout.",
+        "disposition": "Primary literal marker case controls; semantic text otherwise agrees."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "2dfa89454cb254e25281ded9159a3e22d13fb538bc9e0a56434b491547d8fc6d",
+    "UAEnglishDifferenceReview": [
+      "UA and English share intro task/route; English literal <name> case controls over secondary <Name>."
+    ]
+  },
+  "1454": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1454,
+        "level": 39,
+        "name": "The Karnitol Shipwreck",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3000,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "The Karnitol Shipwreck",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1453
+      ],
+      "nextQuestInChain": 1455,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        null,
+        [
+          35251
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Пожитки Карнітола",
+        "detail": "Моє перше завдання стосується мага Карнітола — це якийсь дворянин зі Штормовію. На його корабель напали морські велетні, коли він пропливав біля північно-західного узбережжя Спустошища. Він зі слугами намагався витягти на берег одну з найцінніших скринь, але коли морські велетні накинулися на них, йому довелося кинути її та телепортувати себе і своїх слуг в безпечне місце.\n\nТак ось, він хоче, щоб ми знайшли його скриню та повернули її разом з усім вмістом у Штормовій.",
+        "objective": "Знайдіть скриню Карнітола в Спустошищі.",
+        "progress": null,
+        "complete": "Схоже, що скриня не постраждала від води.\n\nОднак видно, що кришка була відкрита силою. І які б магічні пастки для її захисту тут не були встановлені, вони встигли спрацювати: краї скрині обпечені.",
+        "en": "The Karnitol Shipwreck",
+        "faction": "Alliance"
+      }
+    ],
+    "objectiveTableLabels": [],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/object=35251/karnitols-chest",
+        "text": "Karnitol's Chest"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Find Karnitol's Chest in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "1a06dff8449c31c0ce222ababcd119016581f2cddce309db0d6bbf6f0be604c5",
+    "UAEnglishDifferenceReview": [
+      "UA title describes Karnitol possessions; exact English alias and current own-ID title are The Karnitol Shipwreck. Preserve English meaningful title."
+    ]
+  },
+  "1455": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1455,
+        "level": 39,
+        "name": "The Karnitol Shipwreck",
+        "reprewards": [
+          [
+            47,
+            50
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 1500,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "The Karnitol Shipwreck",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1454
+      ],
+      "nextQuestInChain": 1456,
+      "starts": [
+        null,
+        [
+          35251
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Пожитки Карнітола",
+        "detail": "Ви витрачаєте кілька хвилин, щоб дізнатися, хто або що, відкрило скриню. Судячи з довгих глибоких подряпин на боках і кришці, це була не людина і не велетень.... Ці подряпини не схожі й на сліди від кинджала чи меча.\n\nВідкривши скриню, ви бачите, що вона порожня.\n\nРобити нічого: залишається тільки закрити скриню і піти. Крелдіґ буде розчарований.",
+        "objective": "Поверніться до Крелдіґа Унґора в Спустошище.",
+        "progress": null,
+        "complete": "З поверненням до оплоту Найджела, {ім'я}. Розказуй, що ти {стать:знайшов:знайшла}.\n\nЯк?! Нічого? Боюся, за порожню скриню нам не заплатять.\n\nРозкажи мені більше про ці сліди, які ти {стать:бачив:бачила}... ці подряпини.",
+        "en": "The Karnitol Shipwreck",
+        "faction": "Alliance"
+      }
+    ],
+    "objectiveTableLabels": [],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Return to Kreldig Ungor in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "fbd3079c8db52fa6b6c7826fcec2e52a32d295c9957f3a0834282bce9412746f",
+    "UAEnglishDifferenceReview": [
+      "UA title again describes possessions; exact own-ID stage is empty chest inspection/return, distinct from finding chest."
+    ]
+  },
+  "1456": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1456,
+        "level": 39,
+        "name": "The Karnitol Shipwreck",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3000,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "The Karnitol Shipwreck",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1455
+      ],
+      "nextQuestInChain": 1457,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Пожитки Карнітола",
+        "detail": "Цікаво...\n\nЩо ж, можливо, ще не все втрачено.\n\nВздовж цього ж узбережжя, трохи на північ від острова Раназжар, на дні океану є руїни нічних ельфів. Слизькорізи, плем'я наг, зробили їх своїм домом. Гадаю, вони мають відношення до історії зі скринею.\n\nЯкщо розвідники наг зайшли так далеко на південь, значить, вони були досить сильними. Якщо ти хочеш знайти речі Карнітола, я б спочатку перевірив наймогутніших наг: хвилеловів або морських відьом.",
+        "objective": "Знайдіть торбу Карнітола і поверніть її Крелдіґу Унґору в Спустошище.",
+        "progress": "Не знаю вже, ким там був цей Найджел, але його табір — не найприємніше місце для ночівлі, можеш мені повірити, {ім'я}.",
+        "complete": "Це ж чудово, {ім'я}! Ти {стать:знайшов:знайшла} пожитки Карнітола!\n\nЧерез цих клятих наг завжди самі лиш проблеми. Краще все життя воювати з Ордою, ніж мати справу з цими створіннями. Ти {стать:зробив:зробила} велику послугу для корпорації \"Віднова\".",
+        "en": "The Karnitol Shipwreck",
+        "faction": "Alliance"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Karnitol's Satchel (1)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6245/karnitols-satchel",
+        "text": "Karnitol's Satchel"
+      },
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/item=6245/karnitols-satchel",
+        "text": "Karnitol's Satchel"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Find Karnitol's Satchel and return it to Kreldig Ungor in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "ac303bc83d17aa5cb8df93727c07f4f502dbdd6d1f77bf16798ef4b490e48faf",
+    "UAEnglishDifferenceReview": [
+      "UA wording places ruins slightly north of Ranazjar Isle; current English says to the north near Ranazjar Isle. English near-island wording controls; do not assert ruins north of island itself."
+    ]
+  },
+  "1457": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1457,
+        "itemchoices": [
+          [
+            6791,
+            1
+          ],
+          [
+            6792,
+            1
+          ]
+        ],
+        "level": 39,
+        "name": "The Karnitol Shipwreck",
+        "reprewards": [
+          [
+            47,
+            75
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2250,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "The Karnitol Shipwreck",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1456
+      ],
+      "nextQuestInChain": null,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5637
+        ]
+      ],
+      "providedItem": 6245
+    },
+    "uaVariants": [
+      {
+        "title": "Пожитки Карнітола",
+        "detail": "Віднеси речі Карнітола до Ройттена в Залізогарт і він добре тобі заплатить.\n\nХа-ха, але обережно — якщо твоя робота йому сподобається, він візьме тебе до нас на повний робочий день.\n\nЗнову ж таки, чудова робота, {ім'я}.\n\nБудь {стать:обережним:обережною} на зворотному шляху і не затримуйся — Карнітол не любить чекати... зате він добре платить!",
+        "objective": "Віднесіть торбу Карнітола Ройттену Камнемолоту в Залізогарт.",
+        "progress": "Бізнес процвітає, {ім'я}, і в мене немає часу на балачки. Якщо в тебе є справи до корпорації \"Віднова\", то я готовий тебе вислухати. Якщо ж ні, то краще пудри мізки комусь з моїх підлеглих — вони достатньо тямлять в справах, щоб відповісти на твої запитання.",
+        "complete": "А, так, було діло з Карнітолом в Спустошищі. Чудово!\n\nОтже, скриню знищено, але всі речі на місці, правильно? Що ж, добре. Одна з переваг у моїй справі полягає в тому, що якщо хтось незадоволений, я можу послати його до біса! Вони платять за те, що ми знайдемо їхні речі... а не за те, що вони будуть у гарному стані.\n\nЧудова робота, {ім'я}. Давай-но подивимося, скільки тобі можна заплатити.",
+        "en": "The Karnitol Shipwreck",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Karnitol's Satchel (Provided) (1)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6245/karnitols-satchel",
+        "text": "Karnitol's Satchel"
+      },
+      {
+        "url": "/forever/npc=5637/roetten-stonehammer",
+        "text": "Roetten Stonehammer"
+      },
+      {
+        "url": "/forever/item=6245/karnitols-satchel",
+        "text": "Karnitol's Satchel"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "detail",
+        "primary": "Take Karnitol's things back to Roetten in Ironforge and he'll pay you for a job well done.\n\nHaha, if you're not careful, he's gonna be so pleased with ya that he'll ask you to join us full time.\n\nAgain, great job, <name>.\n\nBe careful on your way back, and don't take too much time--Karnitol's not the most of patient of men, but he's very generous nonetheless.",
+        "secondary": "Take Karnitol's things back to Roetten in Ironforge and he'll pay you for a job well done.\n\nHaha, if you're not careful, he's gonna be so pleased with ya that he'll ask you to join us full time.\n\nAgain, great job, <Name>.\n\nBe careful on your way back, and don't take too much time--Karnitol's not the most of patient of men, but he's very generous nonetheless.",
+        "disposition": "Primary literal marker case controls; semantic text otherwise agrees."
+      },
+      {
+        "field": "objective",
+        "primary": "Bring Karnitol's Satchel to Roetten Stonehammer in Ironforge.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      },
+      {
+        "field": "progress",
+        "primary": "Business is booming, <name>, and I don't have a lot of time for questions. If you've got business with the Reclaimers, then let's hear it. If not, I'm gonna have to ask you to talk to one of me underlings--they're adept enough at taking care of things 'round here.",
+        "secondary": "Business is booming, <name>, and I don't have a lot of time for questions. If you've got business with the Reclaimers, then let's hear it. If not, I'm gonna have to ask you to talk to one of me underlings - they're adept enough at taking care of things 'round here.",
+        "disposition": "Primary double hyphen differs from secondary spaced hyphen; both use literal <name>. Semantic dialogue otherwise agrees; primary punctuation controls."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "3bada3867ba8d7f76d214529c18d79efed14634a3245ee90c0021afc62cad9c4",
+    "UAEnglishDifferenceReview": [
+      "UA faction Both differs from current exact side1 and installed Alliance race mask. Current quest is the satchel delivery to Roetten Stonehammer, not another shipwreck state."
+    ]
+  },
+  "1458": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1458,
+        "level": 33,
+        "money": 3500,
+        "name": "Reagents for Reclaimers Inc.",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2650,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Reagents for Reclaimers Inc.",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1453
+      ],
+      "nextQuestInChain": 1459,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Реагенти для корпорації \"Віднова\"",
+        "detail": "Одне з моїх завдань тут — збір реактивів для Лівшиці, гнома-мага з Хараноса. Ройттен, мабуть, думає, що це легко, якщо ми вже тут. Йому байдуже, що ми не підготовлені до цього.\n\nПерші кілька реактивів з його списку буде досить легко дістати, а той, хто мені допоможе з цим, отримає кілька монет.\n\nМені потрібні роги та кігті скаженолютих сатирів — вони живуть неподалік, на сході. Принеси їх мені, а потім ми займемося рештою списку.",
+        "objective": "Принесіть 10 кігтів скаженолютих сатирів і 10 рогів скаженолютих сатирів Крелдіґу Унґору в Спустошище.",
+        "progress": "Огидні створіння, ці сатири. Кажуть, що вони якось пов'язані з нічними ельфами, але я не надто в це вірю.\n\nДумаю, ці чутки пішли через одного ельфа, який втягнув їх у війну кілька років тому. З того часу весь світ змінився. Став набагато небезпечнішим і страшнішим.",
+        "complete": "Добре, добре, {ім'я}. Не впевнений щодо їхньої якості, але якщо Лівшиця хотів якісь особливі реактиви, треба було говорити це до того, як відправляти нас сюди.\n\nНу що, поглянемо що там далі в списку?",
+        "en": "Reagents for Reclaimers Inc.",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Hatefury Claw (10)",
+      "Hatefury Horn (10)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6246/hatefury-claw",
+        "text": "Hatefury Claws"
+      },
+      {
+        "url": "/forever/item=6247/hatefury-horn",
+        "text": "Hatefury Horns"
+      },
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/item=6246/hatefury-claw",
+        "text": "Hatefury Claw"
+      },
+      {
+        "url": "/forever/item=6247/hatefury-horn",
+        "text": "Hatefury Horn"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Bring 10 Hatefury Claws, and 10 Hatefury Horns to Kreldig Ungor in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "936a10decdd777d23639a8424ccdbbf574f50ec9a163bef623b42882d15b810c",
+    "UAEnglishDifferenceReview": [
+      "UA paraphrases payment as a few coins; current English good chunk of coin controls amount implication. No numeral invented. UA Both does not override exact side1."
+    ]
+  },
+  "1459": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1459,
+        "level": 35,
+        "money": 2500,
+        "name": "Reagents for Reclaimers Inc.",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 2750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Reagents for Reclaimers Inc.",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1458
+      ],
+      "nextQuestInChain": 1466,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Реагенти для корпорації \"Віднова\"",
+        "detail": "Що там далі в списку Лівшиці... подивимось... хм. А, ось.\n\nДосить легко, тут навіть є чіткі вказівки. Йому потрібна отрута скорпаші та шкура кодо. Дрібним шрифтом написано, що і те, і інше — від конкретних істот: отруту потрібно добути з будь-яких скорпаші, а шкура — саме зі старих кодо, але ні в якому разі не від вмираючих чи древніх.\n\nЦі маги, я тобі кажу... їм постійно потрібні якісь дивні речі.",
+        "objective": "Принесіть 7 флаконів отрути скорпаші та 3 шкури старого кодо Крелдіґу Унґору в Спустошище.",
+        "progress": "Вибач, що не сказав тобі, де знайти кодо чи скорпаші. Я погано знаю це місце та в мене не було часу, щоб вивчити його.",
+        "complete": "Твоя допомога просто неоціненна, {ім'я}. Завдяки тобі я проведу в Спустошищі удвічі менше часу. Ще трохи, і я зможу повернутись в Залізогарт та добряче відпочити...\n\nКоли ми розберемося з цим списком і я повернуся додому, знайди мене, я обов'язково пригощу тебе елем.\n\nА поки що займемося рештою реагентів.",
+        "en": "Reagents for Reclaimers Inc.",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Scorpashi Venom (7)",
+      "Aged Kodo Hide (3)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6248/scorpashi-venom",
+        "text": "Scorpashi Venom"
+      },
+      {
+        "url": "/forever/item=6249/aged-kodo-hide",
+        "text": "Aged Kodo Hides"
+      },
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/item=6248/scorpashi-venom",
+        "text": "Scorpashi Venom"
+      },
+      {
+        "url": "/forever/item=6249/aged-kodo-hide",
+        "text": "Aged Kodo Hide"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Bring 7 vials of Scorpashi Venom and 3 Aged Kodo Hides to Kreldig Ungor in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "0e6e3e573cc8dcb6edb570e3747e2ba6e8e5a9681d974f4664ba541b5ae4bc61",
+    "UAEnglishDifferenceReview": [
+      "Current English says time saved by half at least; preserve at least rather than an exact-half ceiling. UA Both does not override side1."
+    ]
+  },
+  "1466": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1466,
+        "level": 40,
+        "money": 3500,
+        "name": "Reagents for Reclaimers Inc.",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3150,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Reagents for Reclaimers Inc.",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1459
+      ],
+      "nextQuestInChain": 1467,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5638
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Реагенти для корпорації \"Віднова\"",
+        "detail": "Це останнє в списку, не буду тобі брехати, задання не з приємних. Скоріше за все, воно займе в тебе трохи більше часу, ніж попередні.\n\nГаразд, досить застережень, до роботи. Лівшиця каже, що йому потрібно: десять мізків маноїдів, мисливців на магів або лей-мисливців. Десять крил підсвітної діви, сестри або чаклунки, і... десять флаконів крові стража приречення від капітанів чи лордів.\n\nДосить легко, чи не так? Якщо ти не захочеш виконувати це, я тебе зрозумію.",
+        "objective": "Принесіть 10 мізків скверногончих, 10 підсвітних крил та 10 флаконів крові стража приречення Крелдіґу Унґору в Спустошище.",
+        "progress": "Я навіть уявити собі не міг, що всі ці демонічні істоти живуть в Спустошищі. Я чув лише про кентаврів, що населили ці землі після того, як нічні ельфи покинули їх багато років тому.\n\nЦікаво, як ці створіння опинилися тут і навіщо?",
+        "complete": "Чесно кажучи, ніколи б не подумав, що тобі це вдасться. Ти {стать:дивовижний:дивовижна}, {ім'я}. Боротися з демонами заради експериментів схибленого мага і повернутися {стать:цілим і неушкодженим:цілою і неушкодженою}. Чудова робота!\n\nЯ особисто розповім про тебе Ройттену коли повернуся в Залізогарт.",
+        "en": "Reagents for Reclaimers Inc.",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Felhound Brain (10)",
+      "Nether Wing (10)",
+      "Doomwarder Blood (10)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6250/felhound-brain",
+        "text": "Felhound Brains"
+      },
+      {
+        "url": "/forever/item=6251/nether-wing",
+        "text": "Nether Wings"
+      },
+      {
+        "url": "/forever/item=6252/doomwarder-blood",
+        "text": "Doomwarder Blood"
+      },
+      {
+        "url": "/forever/npc=5638/kreldig-ungor",
+        "text": "Kreldig Ungor"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/item=6250/felhound-brain",
+        "text": "Felhound Brain"
+      },
+      {
+        "url": "/forever/item=6251/nether-wing",
+        "text": "Nether Wing"
+      },
+      {
+        "url": "/forever/item=6252/doomwarder-blood",
+        "text": "Doomwarder Blood"
+      },
+      {
+        "url": "/forever/item=6251/nether-wing",
+        "text": "nether wings"
+      },
+      {
+        "url": "/forever/item=6252/doomwarder-blood",
+        "text": "doomwarder blood"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Bring 10 Felhound Brains, 10 Nether Wings, and 10 vials of Doomwarder Blood to Kreldig Ungor in Desolace.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "a066e74ce55836431191975b3ab6da8eb3ae9f1e54d5ecb38d126797e9ba4620",
+    "UAEnglishDifferenceReview": [
+      "UA completion adds a mad/crazy modifier to mage, absent in English. Do not add it. UA Both does not override current side1. All written tens and literal target-family ellipses checked separately."
+    ],
+    "fieldLocalShortReferences": {
+      "detail": {
+        "sister": {
+          "literalSourcePhrase": "a nether maiden, sister or sorceress",
+          "familySuppliedBy": "nether",
+          "disposition": "Retain sister with pronunciation as source ellipsis; no guessed full NPC alias/ID."
+        },
+        "sorceress": {
+          "literalSourcePhrase": "a nether maiden, sister or sorceress",
+          "familySuppliedBy": "nether",
+          "disposition": "Retain sorceress with pronunciation as source ellipsis; no guessed full NPC alias/ID."
+        },
+        "lord": {
+          "literalSourcePhrase": "a doomwarder captain, or lord",
+          "familySuppliedBy": "doomwarder",
+          "disposition": "Retain lord rank with pronunciation as source ellipsis; no guessed full NPC alias/ID."
+        }
+      }
+    }
+  },
+  "1467": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1467,
+        "itemchoices": [
+          [
+            6793,
+            1
+          ],
+          [
+            6794,
+            1
+          ]
+        ],
+        "level": 40,
+        "money": 3500,
+        "name": "Reagents for Reclaimers Inc.",
+        "reprewards": [
+          [
+            47,
+            100
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3150,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Reagents for Reclaimers Inc.",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1466
+      ],
+      "nextQuestInChain": null,
+      "starts": [
+        [
+          5638
+        ]
+      ],
+      "ends": [
+        [
+          5637
+        ]
+      ],
+      "providedItem": 6253
+    },
+    "uaVariants": [
+      {
+        "title": "Реагенти для корпорації \"Віднова\"",
+        "detail": "Щоб отримати оплату, тобі доведеться повернутися в Залізогарт і поговорити з Ройттеном. Думаю, він буде радий позбутися від пакунка Лівшиці. Просто віддай йому це і ти отримаєш свою винагороду.\n\nІ не хвилюйся, я замовлю за тебе слівце, коли повернуся. Мені теж не дуже хочеться сидіти в Спустошищі.",
+        "objective": "Віднесіть пакунок Лівшиці Ройттену Камнемолоту в Залізогарт.",
+        "progress": "Радий тебе бачити, {ім'я}. Бізнес процвітає, ковадла дзвенять по усьому Залізогарту, міхи роздмухують вогонь, а моя дружина пече для мене пиріг. Чи може життя бути кращим?",
+        "complete": "О, пакунок для Лівшиці зі Спустошища. Чудово. Я ціную твою роботу і своєчасність виконання, {клас:к}. Радий, що ти {стать:взявся:взялася} за це завдання.\n\nОсь твоя оплата. Нехай усі знають, що корпорація \"Віднова\" завжди гідно платить за важку роботу.",
+        "en": "Reagents for Reclaimers Inc.",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Leftwitch's Package (Provided) (1)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6253/leftwitchs-package",
+        "text": "Leftwitch's Package"
+      },
+      {
+        "url": "/forever/npc=5637/roetten-stonehammer",
+        "text": "Roetten Stonehammer"
+      },
+      {
+        "url": "/forever/item=6253/leftwitchs-package",
+        "text": "Leftwitch's Package"
+      },
+      {
+        "url": "/forever/item=6253/leftwitchs-package",
+        "text": "Leftwitch's package"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "objective",
+        "primary": "Bring Leftwitch's Package back to Roetten Stonehammer in Ironforge.",
+        "secondary": null,
+        "disposition": "Primary English controls. Secondary omission is not a primary missing state."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "4796f9a4525e509d2c145b65a2a82cd3818ae02bef2c36f3a9b3fccdd3a72f96",
+    "UAEnglishDifferenceReview": [
+      "Current English progress explicitly includes dessert after tonight's dinner; preserve those details even where UA is shorter. UA Both does not override exact side1."
+    ]
+  },
+  "1387": {
+    "ownIDGQuests": [
+      {
+        "category": 405,
+        "category2": 1,
+        "id": 1387,
+        "itemrewards": [
+          [
+            6790,
+            1
+          ]
+        ],
+        "level": 31,
+        "name": "Centaur Bounty",
+        "reprewards": [
+          [
+            72,
+            150
+          ]
+        ],
+        "reqlevel": 30,
+        "side": 1,
+        "xp": 3750,
+        "envChange": {
+          "status": "unchanged",
+          "labels": [],
+          "lines": []
+        }
+      }
+    ],
+    "ownIDGatherer": [
+      {
+        "name_enus": "Centaur Bounty",
+        "icon": "quest-start",
+        "_side": 1,
+        "reqclass": 0,
+        "reqrace": 0
+      }
+    ],
+    "installedPrerequisites": {
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "starts": [
+        [
+          5752
+        ]
+      ],
+      "ends": [
+        [
+          5752
+        ]
+      ],
+      "providedItem": null
+    },
+    "uaVariants": [
+      {
+        "title": "Нагорода за кентаврів",
+        "detail": "Раса кентаврів складається з багатьох кланів. У кожного з них є свій лідер і свої цілі, але всі клани мають одну спільну рису. Жорстокість.\n\nЯкщо ми хочемо досягти миру, кентаврів треба знищити. І я доручаю тобі це зробити.\n\nБлукаючи Спустошищем, ти будеш вбивати кентаврів і збирати їхні вуха. Принеси мені багато вух.\n\nЗроби це на благо Альянсу, {ім'я}, і ми станемо на крок ближче до завершення цієї війни.",
+        "objective": "Принесіть 15 вух кентаврів капралу Мелкінсу в оплот Найджела, що в Спустошищі.",
+        "progress": "Ти маєш що сказати, {ім'я}?",
+        "complete": "О, вуха. Молодець.\n\nЖодних сумнівів, ти {стать:зробив:зробила} великий вклад для Альянсу, {ім'я}. Повір, кров, яку ти {стать:пролив:пролила} в Спустошищі, врятує незліченну кількість життів.",
+        "en": "Centaur Bounty",
+        "faction": "Both"
+      }
+    ],
+    "objectiveTableLabels": [
+      "Centaur Ear (15)"
+    ],
+    "displayedHTMLLinks": [
+      {
+        "url": "/forever/item=6067/centaur-ear",
+        "text": "Centaur Ears"
+      },
+      {
+        "url": "/forever/npc=5752/corporal-melkins",
+        "text": "Corporal Melkins"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "/forever/item=6067/centaur-ear",
+        "text": "Centaur Ear"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      },
+      {
+        "url": "javascript:",
+        "text": "Progress"
+      },
+      {
+        "url": "javascript:",
+        "text": "Completion"
+      },
+      {
+        "url": "/forever/zone=405/desolace",
+        "text": "Desolace"
+      }
+    ],
+    "primarySecondaryDifferences": [
+      {
+        "field": "detail",
+        "primary": "Many clans make up the centaur race.  Each has its own leader and agenda, but all the clans have one thing in common.  Cruelty.\n\nIf we are to ever find peace, then the centaurs must be removed.  And so I put you on the task to do just that.\n\nWhile wandering Desolace, hunt centaur and take their ears.  Bring me many, many ears.\n\nDo this in service of the Alliance, <name>, and we will be one step closer to war's end.",
+        "secondary": "Many clans make up the centaur race.  Each has its own leader and agenda, but all the clans have one thing in common.  Cruelty.\n\nIf we are to ever find peace, then the centaurs must be removed.  And so I put you on the task to do just that.\n\nWhile wandering Desolace, hunt centaur and take their ears.  Bring me many, many ears.\n\nDo this in service of the Alliance, <Name>, and we will be one step closer to war's end.",
+        "disposition": "Primary literal marker case controls; semantic text otherwise agrees."
+      },
+      {
+        "field": "complete",
+        "primary": "Ah, the ears.  Well done.\n\nYour service to the Alliance is unquestioned, <name>.  The blood you spilled in Desolace will, no doubt, save countless lives.",
+        "secondary": "Ah, the ears. Well done.\n\nYour service to the Alliance is unquestioned, <name>. The blood you spilled in Desolace will, no doubt, save countless lives.",
+        "disposition": "Primary nonbreaking-space normalization yields double spaces where secondary has single spaces; both use literal <name>. Semantic dialogue otherwise agrees; primary source spacing is retained."
+      }
+    ],
+    "availableFields": [
+      "title",
+      "objective",
+      "progress",
+      "complete",
+      "detail"
+    ],
+    "unavailableFields": [],
+    "stateBoundaries": "Description stops at next h2; Progress and Completion own hidden divs. Objective narrative stops before objective table; table requirements independently checked. No rewards/comments used as dialogue.",
+    "eligibility": "Current exact own record is Alliance side 1, unrestricted reqclass/reqrace 0, required level 30, unchanged; installed record and UA support connected route. No source notice marks own quest obsolete, unused or unavailable. Not current live acceptability proof.",
+    "sourceSHA256": "fac4b05745e257b1f31f036ec42cfd528d5a00dff425a146c7104871ec81457c",
+    "UAEnglishDifferenceReview": [
+      "UA Both is not current faction eligibility proof; exact source side1, Alliance service and Corporal Melkins NPC5752 at Nijel's Point control. Morning1366 objective is Felgur Twocuts with15 ears; no task/dialogue copying."
+    ]
+  }
+}

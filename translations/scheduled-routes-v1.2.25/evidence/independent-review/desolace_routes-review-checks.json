@@ -1,0 +1,1219 @@
+{
+  "result": "PASS",
+  "executedAtUTC": "2026-11-26T07:08:52.759097+00:00",
+  "scope": "desolace_routes",
+  "exactVerifierSHA256": "556780f93663da859d2266d80967c59af3e5104fe489f9548f3c3e41f552c0f3",
+  "onlySuppressedStatement": "(W/filename).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\\n',encoding='utf-8',newline='\\n')",
+  "validationLogic": "All original assertions executed unchanged; only final shared report write replaced by in-memory capture.",
+  "actualScopedReport": {
+    "result": "PASS",
+    "checkedAtUTC": "2026-11-26T07:08:52.718471+00:00",
+    "partitions": {
+      "desolace_routes": {
+        "result": "PASS",
+        "questIDs": 10,
+        "sourcedFields": 47,
+        "enabledFields": 47,
+        "holds": [],
+        "reviewGroups": 2,
+        "additionalActualSourceVariants": 0,
+        "allWorkerJSONSHA256": {
+          "annotation-exceptions.json": "5173709da1b926e76601eeea8b58f4d8aeab96959dba54cd3b974f7f08d97ecf",
+          "author-summary.json": "d7ed6fd014c5777f2846302210ca4ae9ef7b20a0d253744e9342a261b840c0d7",
+          "checks-final.json": "65e1eb0cfefafee525f8321e087ddf4c2475fcec48730f4bf191b0883d7256c2",
+          "checks-group1.json": "4e86fbd17259c5783f2fe6f1cd40a45eee47f67d4d448a764e3c010d3c066f49",
+          "comparison-provenance.json": "21f2e3e6ec3a3beaf3923b3cf46f1a8143f7dd4c43078fe16f1eae857788d791",
+          "deepl-1-index.json": "3370b539556a485094942b2fa579ad4517d9fa987f3a10033d5942c5658439b5",
+          "deepl-1-request.json": "25f758fad7b2608aba5eedf7534b780a93ae5de89a7d0d082389405403f1e7a8",
+          "deepl-1-response.json": "06eede1f8af21fb48d8deeec4134e967c84142656da5e61ccd6c7c0e0d597948",
+          "deepl-2-index.json": "d220c7cca294f8d2c41014a88afc371497ec71dc8d25098779d031bcebc24edb",
+          "deepl-2-request.json": "ae772a8b36051d711ee28957357b91da5b5a6907ea4d793bdad2f45ea6105c26",
+          "deepl-2-response.json": "aa1439035ebf199ea8073796a19968c86f20b5c10e611fd5ed59573e65b49e25",
+          "deepl-3-index.json": "9542b9b4ffd95a546992d4d6b91da88c7e5d4a9c2d45e6a33b0e10e8ac25929f",
+          "deepl-3-request.json": "afe5c3294f4b08c4cf3d002029aee5dadb8752fb448facaa75a55302c69c6509",
+          "deepl-3-response.json": "fe9902740b4e5d14a253d01fd32fd0378416aa14af5d944c0694a91da52df32f",
+          "deepl-4-index.json": "4d8bd1d3977931853d5f6c7dc0c364f3818cbb298da8db919b9812403dfc43ab",
+          "deepl-4-request.json": "97bfb0e91a684e2877543d46138abd1ea168b15c1890bfa8730dea784e70f3c3",
+          "deepl-4-response.json": "138c68c95faa466188b6459597bb5160f01d02b24336a5a5c6b920d953ab60a2",
+          "edited.json": "2f427e9788cf9ff696a4f51a70efbc2fd31cd3ecfe601c7cc54cc3f4c2982f98",
+          "english-sources.json": "d07375df343523a08e572ea254b8c501ce699ce81cc2703a4cb8aa88b72fc6ac",
+          "fetched.json": "bfd7253ce1a2a6dd0fff6cc4a36697c67c81d38f97b0d5f9ed4c743157001ed2",
+          "frozen-artifact-hashes.json": "fc4cd1f6c94685df08997a505f0c749bff8a0d8719b6bab2a73658f1e04ad77d",
+          "held-fields.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+          "identity-contracts.json": "0bff9063de9baddc4471a006d6f58473f09c8e44dfabb00ed402809cd4884294",
+          "maintained-identity-screen.json": "639770049fbadf8cc7defba799270c0d24debab823ca6294daecf8b2a98cd4ed",
+          "new-pronunciation-proposals.json": "b94238dcbb2ab78456baef5e55fde354f756e85b0fd96dca7da327e2771864f5",
+          "owned-scoped-verifier-receipt.json": "95db65bd499a01b7fa5b66266903c311e4dc08cff9e9960863c970566abc7f98",
+          "pronunciation-core-review.json": "261a29ef40264d48faddc44e646e8ac944fc6cb14747bf37e3764bb94297c078",
+          "pronunciations.json": "8f183b4fd178033fd7dcaeb7de451158466b84ad868c7bd72c402c9ce7ad0bdc",
+          "review-audit.json": "d7749b91663961dfd3f5372dbfa4f473a6f76774ecad4e74f57aaa57384319d0",
+          "review-groups.json": "b9c9ebc151d1630ad105f0e1fde8099cf364c1dfc4aca9512049c55b567975d0",
+          "semantic-contracts.json": "0bdde1238c28e8aae0564ea05c12c999b2cdbba08b9e60aabf2bf6a24169d832",
+          "semantic-notes.json": "77ae7bb75ceed9bde92ab127353a06a633a0d8b9acea207926ff5b1d5710b7ca",
+          "source-boundaries.json": "c62d8c5bef6c4c4104414c88ab28a61451f30e4aceeaf0cf0a2f78eeff160a06",
+          "source-retry-record.json": "eec0d2e13cbdea1d0cb404f960e5f0f9707d5b6a63945dbad00a4e386fdf9132",
+          "source-sanity.json": "af45ec0ae6ac04346e7316f30efbec09017e649a23b5a91f049822cec5a7ac40"
+        },
+        "checks": "Actual raw input/output/index/hash and all source/edited/review field hashes; current primary reparsed; linguistic lint and validate_fields PASS"
+      }
+    },
+    "sourcedFields": 47,
+    "enabledFields": 47
+  },
+  "sourceReparse": "10 primary and 10 secondary HTML sources, all available/unavailable states, exact own-ID objects and tables checked",
+  "sourceRows": [
+    {
+      "id": 1453,
+      "primarySHA256": "2dfa89454cb254e25281ded9159a3e22d13fb538bc9e0a56434b491547d8fc6d",
+      "secondarySHA256": "d2df64d892864de32716026e8d3534cd329dd7665ac24cff5f42a7658a9f4b4f",
+      "level": 33,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "items": [],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Reclaimers' Business in Desolace"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": false,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1454,
+      "primarySHA256": "1a06dff8449c31c0ce222ababcd119016581f2cddce309db0d6bbf6f0be604c5",
+      "secondarySHA256": "e1371ec417f1e334301f550ae57e6b0165d136bf483e3e337d76a3d7ae39930d",
+      "level": 39,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1453
+      ],
+      "nextQuestInChain": 1455,
+      "items": [],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "The Karnitol Shipwreck"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": false,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1455,
+      "primarySHA256": "fbd3079c8db52fa6b6c7826fcec2e52a32d295c9957f3a0834282bce9412746f",
+      "secondarySHA256": "4fd5cea37b5b2d85132cc994871286a891c78aeb2d5b97e93869dba14f3805b7",
+      "level": 39,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1454
+      ],
+      "nextQuestInChain": 1456,
+      "items": [],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "The Karnitol Shipwreck"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": false,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1456,
+      "primarySHA256": "ac303bc83d17aa5cb8df93727c07f4f502dbdd6d1f77bf16798ef4b490e48faf",
+      "secondarySHA256": "9e27bb0ec3dc806db85f0c9f35cfed7a61a2b751016d986bd17038bad3e51859",
+      "level": 39,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1455
+      ],
+      "nextQuestInChain": 1457,
+      "items": [
+        {
+          "itemID": 6245,
+          "label": "Karnitol's Satchel",
+          "quantity": 1
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "The Karnitol Shipwreck"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1457,
+      "primarySHA256": "3bada3867ba8d7f76d214529c18d79efed14634a3245ee90c0021afc62cad9c4",
+      "secondarySHA256": "14ccd6bf8dd7a171ae6551d77644bf6e3c81b3eaf2360f5072deccc71db9cf75",
+      "level": 39,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1456
+      ],
+      "nextQuestInChain": null,
+      "items": [
+        {
+          "itemID": 6245,
+          "label": "Karnitol's Satchel",
+          "quantity": 1
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "The Karnitol Shipwreck"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1458,
+      "primarySHA256": "936a10decdd777d23639a8424ccdbbf574f50ec9a163bef623b42882d15b810c",
+      "secondarySHA256": "aafe6ecd1c7146ee1e318c5f907c6910aa9c5fe40f3e53c9c83a5185786761cc",
+      "level": 33,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1453
+      ],
+      "nextQuestInChain": 1459,
+      "items": [
+        {
+          "itemID": 6246,
+          "label": "Hatefury Claw",
+          "quantity": 10
+        },
+        {
+          "itemID": 6247,
+          "label": "Hatefury Horn",
+          "quantity": 10
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Reagents for Reclaimers Inc."
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1459,
+      "primarySHA256": "0e6e3e573cc8dcb6edb570e3747e2ba6e8e5a9681d974f4664ba541b5ae4bc61",
+      "secondarySHA256": "1b09e46d5ae818b792a7358546b4c0438c5c98a8ea9fd3a3f8d059f9230a1400",
+      "level": 35,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1458
+      ],
+      "nextQuestInChain": 1466,
+      "items": [
+        {
+          "itemID": 6248,
+          "label": "Scorpashi Venom",
+          "quantity": 7
+        },
+        {
+          "itemID": 6249,
+          "label": "Aged Kodo Hide",
+          "quantity": 3
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Reagents for Reclaimers Inc."
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1466,
+      "primarySHA256": "a066e74ce55836431191975b3ab6da8eb3ae9f1e54d5ecb38d126797e9ba4620",
+      "secondarySHA256": "d34220e4140887493089ac84410bf695cd8cd92431b8c497bea3ee510b15f2b3",
+      "level": 40,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1459
+      ],
+      "nextQuestInChain": 1467,
+      "items": [
+        {
+          "itemID": 6250,
+          "label": "Felhound Brain",
+          "quantity": 10
+        },
+        {
+          "itemID": 6251,
+          "label": "Nether Wing",
+          "quantity": 10
+        },
+        {
+          "itemID": 6252,
+          "label": "Doomwarder Blood",
+          "quantity": 10
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Reagents for Reclaimers Inc."
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1467,
+      "primarySHA256": "4796f9a4525e509d2c145b65a2a82cd3818ae02bef2c36f3a9b3fccdd3a72f96",
+      "secondarySHA256": "df5e46227f0825a86df80a2361bdc8e26b95690e6ce508a2df560b4a1b3a9bb3",
+      "level": 40,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": [
+        1466
+      ],
+      "nextQuestInChain": null,
+      "items": [
+        {
+          "itemID": 6253,
+          "label": "Leftwitch's Package",
+          "quantity": 1
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Reagents for Reclaimers Inc."
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    },
+    {
+      "id": 1387,
+      "primarySHA256": "fac4b05745e257b1f31f036ec42cfd528d5a00dff425a146c7104871ec81457c",
+      "secondarySHA256": "78d869966ad1071b3e0e2aef5a8af41202585ca7d9e0af7fd9ffa809eca7a9ed",
+      "level": 31,
+      "requiredLevel": 30,
+      "side": 1,
+      "reqclass": 0,
+      "reqrace": 0,
+      "installedRaceMask": 4294967373,
+      "preQuestGroup": null,
+      "preQuestSingle": null,
+      "nextQuestInChain": null,
+      "items": [
+        {
+          "itemID": 6067,
+          "label": "Centaur Ear",
+          "quantity": 15
+        }
+      ],
+      "availableFields": [
+        "title",
+        "detail",
+        "objective",
+        "progress",
+        "complete"
+      ],
+      "UAEnglishTitles": [
+        "Centaur Bounty"
+      ],
+      "UAStates": [
+        {
+          "title": true,
+          "objective": true,
+          "progress": true,
+          "complete": true,
+          "detail": true
+        }
+      ]
+    }
+  ],
+  "actualUA": {
+    "packageFile": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\upstream\\UA_Forever-1.1.2.zip",
+    "packageSHA256": "afc6bed62cabaa51c217434c97a8fe97af6f96c4c42dad7807ab6f83254a0428",
+    "catalogFile": "C:\\Users\\edwar\\Documents\\Codex\\2026-11-05\\what-is-our-latest-wow-addon\\work\\upstream\\1.1.2\\UA_Forever\\entries\\forever\\cliend_db\\quests.lua",
+    "catalogSHA256": "40c3b10522a110d974358908d37fd23537fc6adf4c8d50a27a419dea7b0db0bd",
+    "commit": "d7815c501035ad37c05f7a3b935724ae9b632fe5",
+    "version": "1.1.2",
+    "exactSelectedVariantsCompared": 10,
+    "result": "PASS"
+  },
+  "DeepLChains": [
+    {
+      "id": 1453,
+      "field": "title",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 0,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 0,
+      "englishSHA256": "cb5735ba7329faa93471b01c723b0912c3023fa195f683719b80ea3ffe737ea5",
+      "rawDeepLSHA256": "392e0748604c070ca1e32aefdf656e78bf9a47cf424c14e03275521cf77e561b",
+      "finalEditedSHA256": "6b1b48805851409beea9b50d4a08eb5d3cfc953fd98495d18ce3fd4e173bb4ba"
+    },
+    {
+      "id": 1453,
+      "field": "detail",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 1,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 1,
+      "englishSHA256": "fd3f0e9a5549679916c4785545b5bb227d011c56c1ecc5450ac94e9a5f0da2a7",
+      "rawDeepLSHA256": "e34349f4fedc6ee7fed0f8d5b1507781fccd3e6523e2385dbb68c8e60ed2c5dd",
+      "finalEditedSHA256": "448b50f3dc5dad1a74e93fc39797037601c88765b47c52eb034d8c95b2d6c124"
+    },
+    {
+      "id": 1453,
+      "field": "objective",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 2,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 2,
+      "englishSHA256": "44cc36db86e4ec14ead3e0985d96e439b9cd63ae69fbb372313830c584cbdafd",
+      "rawDeepLSHA256": "cd99942810cd4284b6d9258d739213b7650afd2bd62aa391997dfcee7a5dd1cb",
+      "finalEditedSHA256": "2ae608d5e7d25efbea1e870df478dd6ebe44e6357babe8a324d4f556e8dde6e2"
+    },
+    {
+      "id": 1453,
+      "field": "complete",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 3,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 3,
+      "englishSHA256": "364c9dbe2245863c15be20229e174e9d7e021f184ec63584a33578dafa1b7ba9",
+      "rawDeepLSHA256": "00bd3774fe15ea816c45df25c470d66ec1817b63e4b41a00297e168065c7741f",
+      "finalEditedSHA256": "e312a874753fc9824764847dfefe785e5edb45b5546c46d7b933bcd5979192f8"
+    },
+    {
+      "id": 1454,
+      "field": "title",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 4,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 4,
+      "englishSHA256": "b3dbe3077d30eb9b93c5205ea66f93034a4cfacc2df7b818c6e0cc965b41813f",
+      "rawDeepLSHA256": "541bf3d4a2794ab34621f9fb7b704e8dd859b875d94d16065e8f410e50dda37c",
+      "finalEditedSHA256": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3"
+    },
+    {
+      "id": 1454,
+      "field": "detail",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 5,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 5,
+      "englishSHA256": "bd90f2e6889fd5f0737a908dce2d96be47f814c64b84e651e0765232410b0720",
+      "rawDeepLSHA256": "8dfb5546ad0b5a4f5f04ffaf71bc591062d899ced1adade161ad6c1cf19257ec",
+      "finalEditedSHA256": "fa369bc21bebd39530a673c715bdb38a60886c993dd8a7dcddf46abb5a157eac"
+    },
+    {
+      "id": 1454,
+      "field": "objective",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 6,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 6,
+      "englishSHA256": "52945f12e5b7ffde87ec1a76234819e100ab83dbeedbb7af377ae2a59ebaea83",
+      "rawDeepLSHA256": "f96c596fcbf645e5e8931ce89fe0e0a6a99a3ef1266632eeaaa392e5bc5dac1b",
+      "finalEditedSHA256": "f9f94aea2707816145c9444cce20e0ed8d93194ecb77f5877fd0d525f4c8156e"
+    },
+    {
+      "id": 1454,
+      "field": "complete",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 7,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 7,
+      "englishSHA256": "3f34c03e15589cbd594e168f60564bf4c7c8351dd2d9438d8e9354286a922da6",
+      "rawDeepLSHA256": "d2f6a18aa7a55cb2326f1ebcda75bbf1cf7d84983bd2c5c3dbdec580a1178c90",
+      "finalEditedSHA256": "d2df9b87fe2a28304a1d726abce7d07d7ea250cbf6bbe68ab03ad3fdd0c399d3"
+    },
+    {
+      "id": 1455,
+      "field": "title",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 8,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 8,
+      "englishSHA256": "b3dbe3077d30eb9b93c5205ea66f93034a4cfacc2df7b818c6e0cc965b41813f",
+      "rawDeepLSHA256": "541bf3d4a2794ab34621f9fb7b704e8dd859b875d94d16065e8f410e50dda37c",
+      "finalEditedSHA256": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3"
+    },
+    {
+      "id": 1455,
+      "field": "detail",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 9,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 9,
+      "englishSHA256": "5ec9802a917cd9d55de7d061f4f76825d6a8cd3eee47276d369793e983a19e05",
+      "rawDeepLSHA256": "0078552b80fc1c78a6202b084dd1acb893d4680b1e36f672dc9819f77f5bb3a6",
+      "finalEditedSHA256": "78768315c905258860e8ece878996875450af038180f3de246bf8f6faf8d5af9"
+    },
+    {
+      "id": 1455,
+      "field": "objective",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 10,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 10,
+      "englishSHA256": "4ac22368f50eb066b459d9a8b6806aaf6bc93f3b6674bc1f02ff6b3d00b0d3be",
+      "rawDeepLSHA256": "a8a0a231e6105403d15f99f4361f81e2c5a5923cd90d77a4fcd05bd2cc6c4dca",
+      "finalEditedSHA256": "8e611d3626f70897290437137856cf75667640cf23c2d54f6743e925640ae746"
+    },
+    {
+      "id": 1455,
+      "field": "complete",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 11,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 11,
+      "englishSHA256": "c42e6876a2b6f03896ae95accb8d0baeec349c8ba20b68fa178c82d527162149",
+      "rawDeepLSHA256": "fd7867ac5c84c5b64992e38ce7dd93c4ac8dd56c1f9199aa0d29ebcbc2f8ce94",
+      "finalEditedSHA256": "c59241b7e08ca62736c2c2886fe0a06814fa8b4cba7f80454a030e9d1dac1fed"
+    },
+    {
+      "id": 1456,
+      "field": "title",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 12,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 12,
+      "englishSHA256": "b3dbe3077d30eb9b93c5205ea66f93034a4cfacc2df7b818c6e0cc965b41813f",
+      "rawDeepLSHA256": "541bf3d4a2794ab34621f9fb7b704e8dd859b875d94d16065e8f410e50dda37c",
+      "finalEditedSHA256": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3"
+    },
+    {
+      "id": 1456,
+      "field": "detail",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 13,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 13,
+      "englishSHA256": "4b72d8152093f66ffeb27e46c2d26f41dd0ce79451f36cece54ad5865f03698c",
+      "rawDeepLSHA256": "d770be568b5abac7faf6767cbefc651417eafc123f9a9744431e0893fd821956",
+      "finalEditedSHA256": "9c2f692c23dd9f01676d9267e8708032e74a6ac2bd1a72c992cf145677660c6b"
+    },
+    {
+      "id": 1456,
+      "field": "objective",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 14,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 14,
+      "englishSHA256": "278178e7774a1ffb1d04d572a371df81d4a7761926818b9d9618cfb8c7a40aac",
+      "rawDeepLSHA256": "c025826172d6d43af897257a5c7a79c756fda94df3bbd5854e758bdbfd86fd54",
+      "finalEditedSHA256": "6c3055762def4fb880bb03f7f159fd3be238ff31eeac15b62c1bb01b7723d7ab"
+    },
+    {
+      "id": 1456,
+      "field": "progress",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 15,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 15,
+      "englishSHA256": "f21287cc10d3091268c7907806902adea5d5a869c7c3f017480f02395e761de5",
+      "rawDeepLSHA256": "9871600a69c3d7d9881c3d35dc2d8e84673433518969d34a769caf4c685dcbb5",
+      "finalEditedSHA256": "f8409e462d97738b487b9b2bd0c8dfed63f13924bb8b57c37569832532e3777f"
+    },
+    {
+      "id": 1456,
+      "field": "complete",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 16,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 16,
+      "englishSHA256": "12187a74c6cc1a31c2c7686414565d6bcaa0ea502338065e29cbca7ddd6c8a8a",
+      "rawDeepLSHA256": "13addc2456f3c3d01bcb217c4d87dcca280d9491b38084f48ceeed0f46112a01",
+      "finalEditedSHA256": "05fbf5705ccd7e3640cafdef9b6b723291d958a750f4a8267d2ba9cc4e7487d1"
+    },
+    {
+      "id": 1457,
+      "field": "title",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 17,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 17,
+      "englishSHA256": "b3dbe3077d30eb9b93c5205ea66f93034a4cfacc2df7b818c6e0cc965b41813f",
+      "rawDeepLSHA256": "541bf3d4a2794ab34621f9fb7b704e8dd859b875d94d16065e8f410e50dda37c",
+      "finalEditedSHA256": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3"
+    },
+    {
+      "id": 1457,
+      "field": "detail",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 18,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 18,
+      "englishSHA256": "6b168609399dd5586737d928646364368be95f5c29d3fbdf61a8423473e5f3e3",
+      "rawDeepLSHA256": "18aa6e90b16023dbb3e3bed2616b76ecde82c6202f17f3eb60a917d206d1e7b1",
+      "finalEditedSHA256": "7f20183ecce9f009d504d0612285b5a83abcedcf3e0aafed4e406bda2a1ad565"
+    },
+    {
+      "id": 1457,
+      "field": "objective",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 19,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 19,
+      "englishSHA256": "1be58184518ad56233cc7defce4ac7b9025bcce695bd92043f48fe94d5d075da",
+      "rawDeepLSHA256": "9e5f66129cc6c9c1568ee68a1f4ff433da1e24644746366892ffdc73da122074",
+      "finalEditedSHA256": "6cd592edfa1626a48902572680759bbcd7297713e7c44279f80707e4bc83a0cf"
+    },
+    {
+      "id": 1457,
+      "field": "progress",
+      "requestFile": "deepl-1-request.json",
+      "requestIndex": 20,
+      "responseFile": "deepl-1-response.json",
+      "responseIndex": 20,
+      "englishSHA256": "15429cb17a19683be0c4912362a1595e348ec377f891de6753a258fdd5ae09e8",
+      "rawDeepLSHA256": "33767b872a67f4cc48124e43763f3a4a410c826b71ab79fb1f6ec3bd8b853025",
+      "finalEditedSHA256": "cc35d5bc0b7ecaf367ddf53e327269a63d2efeafe5000a490f86fd86d1209642"
+    },
+    {
+      "id": 1457,
+      "field": "complete",
+      "requestFile": "deepl-2-request.json",
+      "requestIndex": 0,
+      "responseFile": "deepl-2-response.json",
+      "responseIndex": 0,
+      "englishSHA256": "5e15fa98e5a8e0bb11f18ca2ee01ddfbbf426d3509cb92e1bf59825ff50ec960",
+      "rawDeepLSHA256": "f245f0ba2e9d150ce0af11cc7f6484e903428d9fc4603729b62bc5eeab73136b",
+      "finalEditedSHA256": "78c3243ab9051271f54c70d8c83eb2599670df8debe2a584961157b344c80816"
+    },
+    {
+      "id": 1458,
+      "field": "title",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 0,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 0,
+      "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+      "rawDeepLSHA256": "802fa16b4a646065b403e1f03b882b14c7b5b246032b63be92e69e82d2e6a69c",
+      "finalEditedSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da"
+    },
+    {
+      "id": 1458,
+      "field": "detail",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 1,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 1,
+      "englishSHA256": "7676c6787345a0c3b1ee30f2a0c951fc4f3bdbb6dbf028aa841407c067eb2d3b",
+      "rawDeepLSHA256": "82889afd0bc253dd2deee85188c5093e68d01e8677350643177f78f2cc8839cb",
+      "finalEditedSHA256": "3a8f56b83ec178c6f24f235c2d4f2e34200ac6506640001472741ebd87eb7b6e"
+    },
+    {
+      "id": 1458,
+      "field": "objective",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 2,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 2,
+      "englishSHA256": "98f033f0d68ffb4906b5cb46d2ac8a169460bbacf9508cb1a0cfa1f483db9d2a",
+      "rawDeepLSHA256": "2ee5ae5f8e36e5c86fb61ff18eac41c80e890eda237a3449af4ec9af3fe42d35",
+      "finalEditedSHA256": "ddcbc6b77d4c87062d8b940c26f982abdfbb3b8fb1f567f5597b47b7d9e0b08e"
+    },
+    {
+      "id": 1458,
+      "field": "progress",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 3,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 3,
+      "englishSHA256": "7f2611f745975661ec95d358c693900b44ddb3018095e77229c6ab4e67e2aa1b",
+      "rawDeepLSHA256": "25de50967c9adc68d2c38f64d9d7ce1ff16f39d62c22ceff511ff54aa805f6e8",
+      "finalEditedSHA256": "a4958d44bddcfe4904cbe5fc485cfa08f87ea82cee12c76b24ead322e87ddf6a"
+    },
+    {
+      "id": 1458,
+      "field": "complete",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 4,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 4,
+      "englishSHA256": "10c79210ddb9f1b4bf4bc11145886bd68f461281224e3cabee0e3b58f1c9e393",
+      "rawDeepLSHA256": "70633778265fd650adb677df020723d7b1621fd1d5c2d6202b99551cd4d939f4",
+      "finalEditedSHA256": "0e7455abb4c7e47206e9dfc5dd8881506e77e0de47a80f5847486c24ed95a8cc"
+    },
+    {
+      "id": 1459,
+      "field": "title",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 5,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 5,
+      "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+      "rawDeepLSHA256": "802fa16b4a646065b403e1f03b882b14c7b5b246032b63be92e69e82d2e6a69c",
+      "finalEditedSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da"
+    },
+    {
+      "id": 1459,
+      "field": "detail",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 6,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 6,
+      "englishSHA256": "b05de986c55af58db90bb11e948029fa9eb69518394747af0c735e8881f14d2e",
+      "rawDeepLSHA256": "19146af3badfc850bfd5ed1a3025377c686b4655d799b9a6f1baf25a01fd53e2",
+      "finalEditedSHA256": "e90a17ad6472526f85c9c51c6cba2f6af535347fbbf859b86d892c8ad172eaef"
+    },
+    {
+      "id": 1459,
+      "field": "objective",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 7,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 7,
+      "englishSHA256": "7b8e04b98fbefde081793cf8d20f4d4e7ea0e0b832cdf2cb99cf9d5abeccf6e9",
+      "rawDeepLSHA256": "549ae2ded5096ac6c18ae019dc7e92e7b9acee8527b99f35a6ff88f1c62470d7",
+      "finalEditedSHA256": "c0729848d2b154a63348678f2771edc6418a24344b9097a455fcc213fc989e90"
+    },
+    {
+      "id": 1459,
+      "field": "progress",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 8,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 8,
+      "englishSHA256": "50a84724bb9667502ecb5c9389145665986f39576d7dd510f8e752eedad46da9",
+      "rawDeepLSHA256": "de3b381c58895bab2bbc6ba3d144cf073497ee2ea008645f270ac40422b33d33",
+      "finalEditedSHA256": "061ea75cb5c31826d5c936b558686123944ef2e3571b9465260782bbc6fa6596"
+    },
+    {
+      "id": 1459,
+      "field": "complete",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 9,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 9,
+      "englishSHA256": "0ee6eea23c78ff1b36907b2171d76633f1debeff7af2e5de25e0f73150c8f22d",
+      "rawDeepLSHA256": "fe234828e47957eb9b873b857ec713e316b40d0335d04f5290d1395f13e7e2f8",
+      "finalEditedSHA256": "58f69ad9ad86213a6737ad9c9975865aa7f727259e276c6143304bcf9b008218"
+    },
+    {
+      "id": 1466,
+      "field": "title",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 10,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 10,
+      "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+      "rawDeepLSHA256": "802fa16b4a646065b403e1f03b882b14c7b5b246032b63be92e69e82d2e6a69c",
+      "finalEditedSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da"
+    },
+    {
+      "id": 1466,
+      "field": "detail",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 11,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 11,
+      "englishSHA256": "1c9bf90798b1078d24b7a7822a80fdb5bffdc921ac4254604018b6c5cbe17c15",
+      "rawDeepLSHA256": "3cbaaf9ecf324d3daa9961f0e3db7a9756eea256d14f1c68cb0df498e5b43330",
+      "finalEditedSHA256": "72953d80d83a0a905ee01555335d212ea4123b06df7467b7ea9a4457d8bf3109"
+    },
+    {
+      "id": 1466,
+      "field": "objective",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 12,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 12,
+      "englishSHA256": "d1adb5db3ba7563ce1f544d6c703d030b8db718e5f94e25f28b0f53cb18db8e4",
+      "rawDeepLSHA256": "76f5293a44d7f9170f2c50fdd4089b48b74d79f1328beaa07b52549d9ba05db3",
+      "finalEditedSHA256": "e6ac1f6cecb2c6993bd690ed4e166ef81f1969ac03ed26759ade1a4e75d7e35f"
+    },
+    {
+      "id": 1466,
+      "field": "progress",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 13,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 13,
+      "englishSHA256": "948f90933954f94492f6cbb4e59746a109048f62690f701b2fe1dba60c2ef59e",
+      "rawDeepLSHA256": "726fa08a9df087f4056b97986c6f9d1883bc8d49921aea79b604dde1580d63a2",
+      "finalEditedSHA256": "85cd37353281bc415b360539e1ef74da8f127a6211ab6ae8a4d1bf0a15307708"
+    },
+    {
+      "id": 1466,
+      "field": "complete",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 14,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 14,
+      "englishSHA256": "f4d4402193ba0cea9aaf6d61472bf80fe3c0362f7c282dd3d7fa33f2454b40c3",
+      "rawDeepLSHA256": "430eee48449161764e9c5ccdb514c9b5395ffffd0c8e5c2ae8a9b5ee5dc27399",
+      "finalEditedSHA256": "7a449256b54dfbf593bb2e64a9a32148161e7411c138c8b12bb9dc0b2317df94"
+    },
+    {
+      "id": 1467,
+      "field": "title",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 15,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 15,
+      "englishSHA256": "4e6dcba3a67c292e1f5faf4e819c3a19298f5278608a5a31e583bffdf382101d",
+      "rawDeepLSHA256": "802fa16b4a646065b403e1f03b882b14c7b5b246032b63be92e69e82d2e6a69c",
+      "finalEditedSHA256": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da"
+    },
+    {
+      "id": 1467,
+      "field": "detail",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 16,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 16,
+      "englishSHA256": "8f00403024ca6ff0a60d1d045e40411dbec6612d9e26d95d808a7aa6be247d30",
+      "rawDeepLSHA256": "0602e2df700fbed18d59bb9354fcd100e77ac4bd502599db2584b919d083f51b",
+      "finalEditedSHA256": "534ed8e0b9269672ec584d991015d74a31ac4777149f111a2c792c9a69c44ee1"
+    },
+    {
+      "id": 1467,
+      "field": "objective",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 17,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 17,
+      "englishSHA256": "ebc815e35688273c565397ed53dc707824cd2d33da236b9ad26107cf47b1aba4",
+      "rawDeepLSHA256": "f22eec7823c10db1c1eb1afbac24a6202f9c1fc48c7648b45bf7f0ccc383d829",
+      "finalEditedSHA256": "43b6d20f4981629df0cba082cf9a935a74abef8d798fa17b83f1fcf272f2afc0"
+    },
+    {
+      "id": 1467,
+      "field": "progress",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 18,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 18,
+      "englishSHA256": "a7dd61c6847d9714a2531e87aa373836dba86217250a1998866492e4846ec5c9",
+      "rawDeepLSHA256": "b7fefba3186d6b23ecc45b108aff0ac89ef900f2674825135857773970bf579a",
+      "finalEditedSHA256": "84aebe3dd030fdaf248bf0c5da6357968c7c8333bd7dea91a2276a163687327b"
+    },
+    {
+      "id": 1467,
+      "field": "complete",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 19,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 19,
+      "englishSHA256": "693d357c868c487729ca1856bb3f2351fb3500c0d31fca2e96169c8df9e3252f",
+      "rawDeepLSHA256": "0bc7bc4f4b62a25059d825193b5b81cd894d6161dfe045aafecbf0d5812d0ad1",
+      "finalEditedSHA256": "3bfc9536d55b18b31b0b2cba4a21edf8264e53dd06dc8aa8c9c3cc904e166ae0"
+    },
+    {
+      "id": 1387,
+      "field": "title",
+      "requestFile": "deepl-3-request.json",
+      "requestIndex": 20,
+      "responseFile": "deepl-3-response.json",
+      "responseIndex": 20,
+      "englishSHA256": "38b865c40334e2fcd5c1fa094dbaef2556e25425ac9694bc74f8667732ab4d41",
+      "rawDeepLSHA256": "ca1ce97348f26cbfbf408f5e1db6e91d6f17df9895a5f4f72e4b8590ecac6b77",
+      "finalEditedSHA256": "3b0b19329c688e1a594e2dab0e7753f33fb333c6da74930af31c3ba49d6588aa"
+    },
+    {
+      "id": 1387,
+      "field": "detail",
+      "requestFile": "deepl-4-request.json",
+      "requestIndex": 0,
+      "responseFile": "deepl-4-response.json",
+      "responseIndex": 0,
+      "englishSHA256": "eee051425a20d8a6f673ee11f9c869ac4855ed9f224df6b3880278fa6464f844",
+      "rawDeepLSHA256": "073b6d62489c6a191b118199e2258228e29b2851518cd02854ec77cf082a849f",
+      "finalEditedSHA256": "27d475240dac45fb6a8c2f931b086802f758f512ae6eaf84f9407e2cd6218eef"
+    },
+    {
+      "id": 1387,
+      "field": "objective",
+      "requestFile": "deepl-4-request.json",
+      "requestIndex": 1,
+      "responseFile": "deepl-4-response.json",
+      "responseIndex": 1,
+      "englishSHA256": "745247bebe0adf42acfdb8b5627ad6ee86f5b188481cd7af114740302c4e649f",
+      "rawDeepLSHA256": "9aa34aa444e07b1aa1fbabeca50584817f8a077b097c95d544b58bfb4fa168f5",
+      "finalEditedSHA256": "af8824b1c55a3c662f757df3cb72ba9c14b510a81ccd84d42f5260c7fcc2f3b0"
+    },
+    {
+      "id": 1387,
+      "field": "progress",
+      "requestFile": "deepl-4-request.json",
+      "requestIndex": 2,
+      "responseFile": "deepl-4-response.json",
+      "responseIndex": 2,
+      "englishSHA256": "19221b4005eee66cfaf456302f6c02502b28356660061042993681a543f3477d",
+      "rawDeepLSHA256": "05774a59f8ecd468d0620aad19f57b46f210eefe56d477574bf9a4eea77e2ea9",
+      "finalEditedSHA256": "145b7ba72665fc8433442dbdff966410be7be451eca402e3526d802f8ae30598"
+    },
+    {
+      "id": 1387,
+      "field": "complete",
+      "requestFile": "deepl-4-request.json",
+      "requestIndex": 3,
+      "responseFile": "deepl-4-response.json",
+      "responseIndex": 3,
+      "englishSHA256": "31aecbb2d155e224165cc43c984f5cd6ba0084995db95d138f6b2b20b1b31c0e",
+      "rawDeepLSHA256": "5f7e6aef35d38d082e0b6a3bb69a867da8a448d92dcb9e644bbe7efbf3422805",
+      "finalEditedSHA256": "dbc273b62ce46a8aa26aed806dec0814f423f7b0c3853af1dd4823aa7ae5b576"
+    }
+  ],
+  "maintainedSeedSHA256": "d7e77c866175297fa8f87b07dc72d9602e7007dbd44165340b2bfafb831380b8",
+  "maintainedTermsChecked": 5130,
+  "wholeAnnotatedIdentityOccurrencesChecked": 123,
+  "broadIdentityCandidatesRead": 171,
+  "negativeControls": [
+    {
+      "control": "Wrong Alliance bounty recipient with unchanged 15 ears",
+      "result": "rejected",
+      "id": 1387,
+      "field": "objective",
+      "old": "Corporal Melkins",
+      "new": "Felgur Twocuts"
+    },
+    {
+      "control": "Wrong Alliance bounty camp with unchanged quantity",
+      "result": "rejected",
+      "id": 1387,
+      "field": "objective",
+      "old": "Nijel's Point",
+      "new": "Shadowprey Village"
+    },
+    {
+      "control": "Venom/hide 7 and 3 target quantities swapped",
+      "result": "rejected",
+      "id": 1459,
+      "field": "objective",
+      "old": "အဆိပ် 7 ပုလင်းနှင့်",
+      "new": "အဆိပ် 3 ပုလင်းနှင့်"
+    },
+    {
+      "control": "Same digit multiset 7/3 exchanged between venom and hide",
+      "result": "rejected",
+      "id": 1459,
+      "field": "objective"
+    },
+    {
+      "control": "Written ten brains altered to nine",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "old": "ဦးနှောက် ဆယ်ခု",
+      "new": "ဦးနှောက် ကိုးခု"
+    },
+    {
+      "control": "Nether alternative family removed",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "old": "sister (စစ်စတာ)",
+      "new": "အမတစ်ယောက်"
+    },
+    {
+      "control": "Doomwarder source family removed",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "old": "doomwarder captain",
+      "new": "captain"
+    },
+    {
+      "control": "Reagent decline permission reversed",
+      "result": "rejected",
+      "id": 1466,
+      "field": "detail",
+      "old": "ငါ နားလည်ပါတယ်",
+      "new": "မဖြစ်မနေလုပ်ရမယ်"
+    },
+    {
+      "control": "Any scorpashi restriction changed",
+      "result": "rejected",
+      "id": 1459,
+      "field": "detail",
+      "old": "scorpashi ဘယ်ကောင်ဆီကမဆို",
+      "new": "scorpashi အချို့ဆီကသာ"
+    },
+    {
+      "control": "Dying ancient kodo exclusion reversed",
+      "result": "rejected",
+      "id": 1459,
+      "field": "detail",
+      "old": "မဟုတ်ရဘူး",
+      "new": "ဖြစ်ရမယ်"
+    },
+    {
+      "control": "Conditional scout evidence asserted as fact",
+      "result": "rejected",
+      "id": 1456,
+      "field": "detail",
+      "old": "ဆင်းလာခဲ့တယ်ဆိုရင်",
+      "new": "ဆင်းလာခဲ့တယ်"
+    },
+    {
+      "control": "East Stonetalon entry reversed",
+      "result": "rejected",
+      "id": 1453,
+      "field": "detail",
+      "old": "အရှေ့ဘက်",
+      "new": "အနောက်ဘက်"
+    },
+    {
+      "control": "Northwest shipwreck direction reversed",
+      "result": "rejected",
+      "id": 1454,
+      "field": "detail",
+      "old": "အနောက်မြောက်ဘက်",
+      "new": "အရှေ့တောင်ဘက်"
+    },
+    {
+      "control": "North near island direction shifted south",
+      "result": "rejected",
+      "id": 1456,
+      "field": "detail",
+      "old": "မြောက်ဘက် Ranazjar Isle",
+      "new": "တောင်ဘက် Ranazjar Isle"
+    },
+    {
+      "control": "Eastern Hatefury direction reversed",
+      "result": "rejected",
+      "id": 1458,
+      "field": "detail",
+      "old": "အရှေ့ဘက်",
+      "new": "အနောက်ဘက်"
+    },
+    {
+      "control": "Chest and satchel stage exchanged",
+      "result": "rejected",
+      "id": 1454,
+      "field": "objective",
+      "old": "Karnitol's Chest",
+      "new": "Karnitol's Satchel"
+    },
+    {
+      "control": "Intro sent-by agency reversed",
+      "result": "rejected",
+      "id": 1453,
+      "field": "detail",
+      "old": "ငါလွှတ်လိုက်တာ",
+      "new": "မင်းလွှတ်လိုက်တာ"
+    },
+    {
+      "control": "Welcome-back destination made origin",
+      "result": "rejected",
+      "id": 1455,
+      "field": "complete",
+      "old": "Nijel's Point (နိုင်ဂျယ်လ်ဇ် ပွိုင့်တ်) ကို ပြန်ရောက်လာတာ",
+      "new": "Nijel's Point (နိုင်ဂျယ်လ်ဇ် ပွိုင့်တ်) ကနေ ပြန်ရောက်လာတာ"
+    },
+    {
+      "control": "Client generosity converted to charity",
+      "result": "rejected",
+      "id": 1457,
+      "field": "detail",
+      "old": "ပေးကမ်းရက်ရော",
+      "new": "လှူဒါန်းမှု"
+    },
+    {
+      "control": "Named linked package changed",
+      "result": "rejected",
+      "id": 1467,
+      "field": "detail",
+      "old": "Leftwitch's package",
+      "new": "package"
+    },
+    {
+      "control": "Payment destination changed",
+      "result": "rejected",
+      "id": 1467,
+      "field": "objective",
+      "old": "Ironforge",
+      "new": "Desolace"
+    },
+    {
+      "control": "Alliance changed to Horde",
+      "result": "rejected",
+      "id": 1387,
+      "field": "complete",
+      "old": "Alliance",
+      "new": "Horde"
+    },
+    {
+      "control": "Whole ranked identity pronunciation omitted",
+      "result": "rejected",
+      "id": 1387,
+      "field": "objective",
+      "old": "Corporal Melkins (ကော်ပရယ်လ် မဲလ်ကင်ဇ်)",
+      "new": "Corporal Melkins"
+    },
+    {
+      "control": "Chest emptiness discovery and close action swapped",
+      "result": "rejected",
+      "id": 1455,
+      "field": "detail"
+    },
+    {
+      "control": "Exact own-ID Alliance side changed to Horde while neighboring records untouched",
+      "result": "rejected",
+      "id": 1387
+    }
+  ],
+  "frozenBefore": {
+    "manifestSHA256": "fc4cd1f6c94685df08997a505f0c749bff8a0d8719b6bab2a73658f1e04ad77d",
+    "checkedFiles": 62,
+    "mismatches": []
+  },
+  "frozenAfter": {
+    "manifestSHA256": "fc4cd1f6c94685df08997a505f0c749bff8a0d8719b6bab2a73658f1e04ad77d",
+    "checkedFiles": 62,
+    "mismatches": []
+  }
+}

@@ -1,0 +1,997 @@
+{
+  "result": "PASS",
+  "sourceIdentityContracts": 50,
+  "additionalIdentityContracts": 0,
+  "numericTargetBindings": 18,
+  "writtenTargetBindings": 17,
+  "orderedTaskContracts": 7,
+  "actionContracts": 56,
+  "directionBindings": 12,
+  "negativeCases": [
+    {
+      "case": "Wrong objective identity 96781",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 96782",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 96783",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 96784",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 96785",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 96786",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1947",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1948",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1949",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1950",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1951",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1952",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1953",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1718",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1719",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1791",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1712",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1713",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1792",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1714",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 185",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 186",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 187",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 188",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 190",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 191",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 192",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 193",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 583",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 5762",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 194",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 195",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 196",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 197",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 208",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 338",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 339",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 340",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 341",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 342",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1387",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1453",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1454",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1455",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1456",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1457",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1458",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1459",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1466",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong objective identity 1467",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1948",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 185",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 186",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 187",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 190",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 191",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 192",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 194",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 195",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 196",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1458",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1459",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1466",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong target quantity 1387",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 339.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 340.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 341.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 342.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 185.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 186.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 187.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 187.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 193.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 194.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 195.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 196.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 197.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 208.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 338.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1453.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1466.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96781.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96782.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96783.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96784.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96785.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 96786.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1947.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1948.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1949.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1950.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1951.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1952.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1953.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1718.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1719.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1791.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1712.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1713.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1792.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1714.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1791.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 185.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 186.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 187.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 188.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 190.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 191.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 192.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 193.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 583.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 5762.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 194.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 195.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 196.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 197.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 208.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 338.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 339.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 340.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 341.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 342.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1454.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1455.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1456.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1456.objective",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1457.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1457.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1458.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1459.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1459.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1466.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1467.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1467.progress",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1467.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1387.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Remove reviewed condition 1387.complete",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 96781",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 1719",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 1714",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 583",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 208",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 1454",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap task stages 1455",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 96786.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1947.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1947.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1953.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1718.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1791.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 5762.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1453.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1453.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1454.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1456.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Wrong direction/place binding 1458.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Enable unsupported field 1714.detail",
+      "result": "rejected"
+    },
+    {
+      "case": "Swap unequal target counts 1459",
+      "result": "rejected"
+    }
+  ],
+  "guardedFieldHashes": {
+    "1947": {
+      "title": "ef04c1edb01773c6c45f1f6472a85f97a69d9c06e2f18d13463a238832a8c380",
+      "detail": "74a5b5912c3e824e3984718bd132cacd399514965556e19d0450e7bd16b4d82d",
+      "objective": "5d5b38f470b2e1c17abe232676ac8983348a1bb8d6786c638f245210cb165e49",
+      "progress": null,
+      "complete": "8e98d90542d76a682aee059092b0ae61fe9b89a4083f9691295427579e63a0b1"
+    },
+    "1948": {
+      "title": "bf4ef80f06b060cbf3aa75142b6f0786311d70510f2d3fe46c73c2b12dbca458",
+      "detail": "ad13b36b76298368b643004c9cd73d7fb870ea5e929ef831163dc76bbaed5eca",
+      "objective": "74a3422de415a3008eee60f0c3463f9652dfeaae29219b96dab0e32be3cfa24f",
+      "progress": "5411d67a8f659dcb9177cdcf6efa3d9399c957ec8264c5a8ec619654427bebe8",
+      "complete": "e373136cc9dd4c2dcc0c185a693586caa178a004a0726fc24689e37d12766c0b"
+    },
+    "1949": {
+      "title": "2a0faf1e4087a66b1360d8a2fe31f886384f038b2c7d0fb04e55f8200ee30a43",
+      "detail": "31d9386cf4b274ad3952345b48ce7813d8d302ad7cba48bfb2765ffddd73e5a2",
+      "objective": "b3312b783742e3e40048fc23fd769cb96931ba0ff2f1e1bc6dd344e7935d10a4",
+      "progress": null,
+      "complete": "110a694a7632256b13aae2ef666ede24da2b5176b1134a20713400255530c323"
+    },
+    "1950": {
+      "title": "75f00400d4577b16da28391aa2cd28b7e6f26ad910696e6a7f22cef4b00c28f0",
+      "detail": "475733b2ddeda1e13fbedb1f67f675b7e7f1b57835c0239935bef2ee2d5f1a35",
+      "objective": "d0916c841cae47cf460be2463c1760c85c6cc7259a7f03b2170b2585f4cbddbc",
+      "progress": "9f99776a2e431da813ce68b4e3bd6f94cb2088a0c46d0cc3ba9262f1364ed33a",
+      "complete": "ef2f2ed738908fa507710efb12f7495e7155a298cacd9e4ee1ac38c8991007f8"
+    },
+    "96781": {
+      "title": "5c7a8c667a635e1603e7ba47022dae7353af880996c8aafaa6dc432ae08ed568",
+      "detail": "a5f089623f9edfbce4db7d277f0a8aa4e4b9e745a99530c043f9bd5426c412f6",
+      "objective": "3e558da7d3c0864528950f6ca4f7ade9e680e6d199273abfcf7d0cc7a86c705a",
+      "progress": "ff22b7e748909ec162d4a88ab15101cdf663329c3bc9f3bb541a26747464c02e",
+      "complete": "de1a059def21e6bc5f3a4cfed504341f679384c85b3e2c1f6c83261ba374256a"
+    },
+    "96782": {
+      "title": "232c882ca21b5805d02be6bff4bbb073f1c3df042f395db25ee46e1c29aaf0d8",
+      "detail": "7784a9bdec8c2ae54f4917aace841cfba6a51a07107930f21ab0bc819847b9af",
+      "objective": "a0954cfe64e31f302db124abebfe3824fb166131c8dc67f9ff4328621e8fff77",
+      "progress": "13cd7028a4d759de7a4c117571a227e78d0f4db59036199419bb90327cf3eb09",
+      "complete": "1f850b49d630010ec3387a8b4816782191b5f933f71fa61d1c33a833dfaa12ae"
+    },
+    "96783": {
+      "title": "1c68315eede8170cc653e6bc7493648ddae579232bdccbf9ad19e717062493eb",
+      "detail": "97470dc4c103dfeaeae669e4e4f51435a4f3d50934f17f98b522aae809961310",
+      "objective": "d0cf73d01169e978c371c90755246705f7b0756e4e6540850d4a407e48dd302e",
+      "progress": null,
+      "complete": "8865f70d2fec6323d918d43f9b0eb34a0c913a88de4c2eec8e56da4a883f0bc2"
+    },
+    "96784": {
+      "title": "990b2ab88f1622ed57bc7da4822c66721bc412590bdc8e1531307799c71251c2",
+      "detail": "b0a9eb4be994c4979cce2e33f115612af64dcd338cc4b9937dfb588e6f5161e9",
+      "objective": "b656726f05e173453497b11c646fb5a820ab7b9bb9912a98dd084585c1170ec4",
+      "progress": null,
+      "complete": "ebd43e195c0fa6d1e9c2d26460543917e4e9df536e9a0a8e2359a97ee3d14982"
+    },
+    "96785": {
+      "title": "646e56abace9f1d4c0da1ab80ceaa65d24cc79e9304cd21efc1a536b83db27e2",
+      "detail": "dd132ce5b25f90752f7ff713cea1bc78522b056e864b0326d6443cfe335ed661",
+      "objective": "793478cc9d003b6e887d8bb048eb564437243e7668f7e1297afe7d24af3d2230",
+      "progress": "7c236ce24d40c062c23a36ce50a86b10d5fc1c5ee1b059fc4ae0f93527a138ef",
+      "complete": "232d9def6e86037ac0742cd73bcb273817174abb5508db69eb01801ebb04300f"
+    },
+    "96786": {
+      "title": "aef34de399cb938dad671fc6e59c137810bc250dbe982fe19e12acccb318076c",
+      "detail": "75943a2a8de48b6e058a4272158e866bc59787ee5b04daf270883fbccedb3b2a",
+      "objective": "846e47588d610e86210f830df709213f1eac38b7b4e1090bb107c997f87806fc",
+      "progress": "218507268150c51aa0feda24f0ff0f1bae24a54aa01afb090ab9447a3e5deef2",
+      "complete": "e56e5b3b11e07369f9b8ed66b3968dd1016fe226d5deb20c7470c52015858da5"
+    },
+    "1712": {
+      "title": "111623706bc25148c3c94810a0ee1e9ddf813ad20f514dfe1da9f8dd96b1dd59",
+      "detail": "6aa8fbabaec51dcc516608b14348f94e1f232a9bd7e16c2ff31c6ba27696b74c",
+      "objective": "a41ea9a3d53b0a3d96e64653bc96145030eb5eda80e655e499dee0a52827760b",
+      "progress": "a5639b2be55ddc0341b0a7a971fd3ed2964fb35d27062eacd154aa3eee4557d4",
+      "complete": "46aa6c66931dc417d3b803439ad1e2dd8f866560b71b5399dced815ca14a860c"
+    },
+    "1713": {
+      "title": "724cca46afd9ac21f4ba55dc5c36f17f2bc971a10ee284f0b521ba8dcfd01c70",
+      "detail": "b272b50b7218dcc394180c0530e7643c2b6a4b4844c2e31811524f9efa54ed06",
+      "objective": "1dc13442bcb06cbbaedbf4d2aa3bb08d466143753ec979df4f1a3d3eb4946cba",
+      "progress": "839cc88c6687a8cb97ab6cf235316ccbaaec4ac0e2ca0a8779d2c5d1d1a2e7ea",
+      "complete": "646f4dcfa90e6b464bdc3428a578bb0d914256d4181acbc23180b29c494cecdc"
+    },
+    "1714": {
+      "title": "5a9dc10345d22a5b3023893354fad0a1533f2023f1f94a5f0ad9c925cf02bab0",
+      "detail": null,
+      "objective": null,
+      "progress": "019a5236a206124fb789e165992c85d8d44a97c589f509e6acb5fc2de5200f0d",
+      "complete": "0296e761df3cf62b24d1838521149ae635ef1dc61ea324a2ee0629c328ff70bf"
+    },
+    "1718": {
+      "title": "9155bfb3e7439a685ebe7a40574a7564c1c9f603b01d73dabe5bcfb23f129cc6",
+      "detail": "1fdd05970cfbfdde2db144e77dec4ae6585c6a2cb446ccf961577082a2631594",
+      "objective": "696bfe71a55a664025c1e809fcbf32b92415333ed79ebd8ac2a31f933066042d",
+      "progress": null,
+      "complete": "d617b610089c3d1502b2ceda275e0e67c4276050787d647c8b819d7131bf8e87"
+    },
+    "1719": {
+      "title": "ba1f89a52dbe3955e0c238c17d5346205a57a44f638b045be10f591fd45df9d1",
+      "detail": "e94352c19f5e638d9e157206ac35cf1e4c1d68f1660c8554bf4be7692568df80",
+      "objective": "3ee5c99b236c3a594f3b0bcd8febc939595c6c993ce205d6ea1e4d2a21a5dcea",
+      "progress": "deeda2762150c27e4a78870cf1fe1f37c1f89476e6180b9df89ec3d4b2a41ab6",
+      "complete": "6f77b4c86d1b692dfc2e18ae668d7503fc2b881a0c13c20a44bc05cff4cb2044"
+    },
+    "1791": {
+      "title": "48bb0b4e3098a4b5970a0be33beda47738418be2488c86f19b330f186caeedeb",
+      "detail": "89be0aab070a3709ec56f6b1f0758b57c83d9a1a1eaf6e6096b9e79304dc615d",
+      "objective": "351dbe0c32af2d8b0cca6d66122202dab47d01c140dc267cdfffb5196786da1f",
+      "progress": null,
+      "complete": "cc45e069afb26fe5d452411db0e9ad84c2a8d04116ae992d59ac0e73fdcecbfb"
+    },
+    "1792": {
+      "title": "d2c7f06b4c8d5464f46c6b263c1a4c429ab7999a3cbff6c9f89feeeee9dc546b",
+      "detail": null,
+      "objective": null,
+      "progress": null,
+      "complete": "26cfeb592bfe0ded000522c77eeed4f50ef2c85b4a6d61f190cd69037e95390c"
+    },
+    "1951": {
+      "title": "b0c4dd8b66f70272e2a1383ad7cdb086c5f5d20675d9d1e719a28954d463307b",
+      "detail": "ddda3ab6c40b65228427bcdf3d8b2fd0bc70c031dc63ff248fa547de23082ec7",
+      "objective": "0c97a02961480bf7cbee148b99b47c7d578797e98eafa2971ed85427382a6f4f",
+      "progress": "8f2765de2ecde6bf643c973ee1c3f9f17082f1848cd06d3a80eb19c7f3ba4d81",
+      "complete": "4b42286d3ed2f0dd589f2233da788b401820f24311e861e47de8e70416b14ada"
+    },
+    "1952": {
+      "title": "436223da66ef2071a372e6f221e0f7e0ad9b2489b87c1a0d083fc09bacc6e685",
+      "detail": "59d1ff7df808c6170602d33eaf073880ddbd15fce80627f9cdeb264d24051a2a",
+      "objective": "0e61ca56af3ad889c14460d4e5db10fac4a0491be4b12265ef77518b6a4597f2",
+      "progress": null,
+      "complete": "763325af07592bb8ddcd2cb2c4ef96c6258ed7d59b3047bc6f2b0a795d9a4c91"
+    },
+    "1953": {
+      "title": "dcf95e924350d3bc88db9e92028bd924f0f8f15d527934607c1c69ce4295f1bd",
+      "detail": "4b924d6e3af9d0fab2afa06cf59019226ee81442ae35f769213a69704eceb685",
+      "objective": "5d5b38f470b2e1c17abe232676ac8983348a1bb8d6786c638f245210cb165e49",
+      "progress": null,
+      "complete": "6d91714a2dae1eeb24f18d89a08b0b536101ea83f130c3d02d7f0062c339e90d"
+    },
+    "185": {
+      "title": "dd7259659eb7d2736207ad688cefa4b50f910e2e46aebd543fc08d459cc2bb97",
+      "detail": "c6af1d447f35cd0f3e3dba83b4a1e6c966e5437bbfea8b35e8c1ef6fb59647f9",
+      "objective": "56b0b676f7f091d84e376bca2dde71f3e231e1c9e27c18e24ac886d13827756b",
+      "progress": "ccd5866e1754fa12ba8a7c4b9e3e2d5abe15a5d0d004e32c212417d8cac25ed5",
+      "complete": "e2aa47ade11167458fad1a25538887624c4a84383f5c0ee2b71f33c11d8b1f47"
+    },
+    "186": {
+      "title": "dd7259659eb7d2736207ad688cefa4b50f910e2e46aebd543fc08d459cc2bb97",
+      "detail": "cab7aa55724fbc4e76b6c46799794c4eb4c9b7516c0cd521262d3a87c4344755",
+      "objective": "57f1de38479f98367c840b940bbf4c7e2214457456060ef69a18b65cb962c27d",
+      "progress": "cb75d829e5fb4673f66dbfc442c48f81c3ef001a48727d32fe3cee75ce1d9ca3",
+      "complete": "c162cece85f532e3b6fae8b7e96eccbb7c529679d1e3f79643bd566d02b9b536"
+    },
+    "187": {
+      "title": "dd7259659eb7d2736207ad688cefa4b50f910e2e46aebd543fc08d459cc2bb97",
+      "detail": "b0738d6c4bff1e835b753fd2aa70529654b9d17466e6da14914ebbd358595d4a",
+      "objective": "9fb7c8bc1efba41fa73e63a52d6d28305047f41c9e8c6ad117c3f54024e2ffed",
+      "progress": "898730df15d85229c28fc02ce2d344c5dd47ab686e1e4a6b447f3fcec9b6a3d4",
+      "complete": "e952b9afd8e5eafcdba73fff6a63c09e017bb2cbec19d26f4a8ada421ab19328"
+    },
+    "188": {
+      "title": "dd7259659eb7d2736207ad688cefa4b50f910e2e46aebd543fc08d459cc2bb97",
+      "detail": "345b4c87fe03fe69adb95431b7eea31af95b7089f77f7833c629150a1c6a38bd",
+      "objective": "9abd741af2e9a3f88ba500cf547c36c041c4a2e0498632558f90ed0b7334ac8b",
+      "progress": "40a020e8331aea706706c7dff2a7a02f8a0999602532490e1ad3642931a86286",
+      "complete": "480c18325978a987c2a56b4ee80d64dd1fd8088f06e5bf505b8a46c9beffa4b4"
+    },
+    "190": {
+      "title": "f74915fb11fae75c12a0ad52a4561c158fb6c3c952c4b2252178709c1cebdc87",
+      "detail": "3dabb0960cab4c24de005491b4024c0bb0f151466499fc0ecd6db55d7aec3781",
+      "objective": "4f9d7fce3f536ef11a9eedbfce7b101851953eb2cfd4191ff40d83310d75ccc7",
+      "progress": "f3559762b7404d97b4e70a105a7f8287b4ad3eefb14d6e1f318553ebf2075837",
+      "complete": "3487501e4ae250ff4d9b9447bfef7b07ba0b7df76657afc34ef2c56a722bf88f"
+    },
+    "191": {
+      "title": "f74915fb11fae75c12a0ad52a4561c158fb6c3c952c4b2252178709c1cebdc87",
+      "detail": "a6b456df7978abd985d35c7de82b1c9b299112c2d8a9adde4810b7df34e04a0e",
+      "objective": "39b505768cc8fc1ece97a2ac13b180d1745dc447fb135711fb1efa9019fd6634",
+      "progress": "e8e55af445a451af51f2b0e7cb8578b17de97e37782b4ff30ae940f2a2a6ff3e",
+      "complete": "c53430b4bef370f961a80692bf624a42dda622ce93aca905151356f1c07ab1f8"
+    },
+    "192": {
+      "title": "f74915fb11fae75c12a0ad52a4561c158fb6c3c952c4b2252178709c1cebdc87",
+      "detail": "e747bfc6e9dde312ee6a99282a62fba62680ee484e0de1f092c317c3d44beabe",
+      "objective": "e3bdf6a36aa3084612b212ba9c98f38d2ca1dd541ead43035dba32b098a3c859",
+      "progress": "b4f63bb27de1377a6f01dd2b8c4adbe582254452873245898c0adeae485887db",
+      "complete": "e37128f9a295f4c73e3055991eafb8069f0c07e64968887f42631b3e5451361d"
+    },
+    "193": {
+      "title": "f74915fb11fae75c12a0ad52a4561c158fb6c3c952c4b2252178709c1cebdc87",
+      "detail": "bc4b82310c80334de1c5ee02b0edf12ececdfe577f9ce50f669037f4dee66b5b",
+      "objective": "da2ab9d1b644d164422426b63892fd41e1378cedd5321e74961d43af3afc99d3",
+      "progress": "85c342d463fb83700ab68eba47ae8467cd1a839ec64cf5ebf8f03e2af7715cb4",
+      "complete": "75f3104a12f45e409610506da7ad5d5f122020fb46707e56b7a7574527ee837d"
+    },
+    "583": {
+      "title": "33883ffb4c3f85482d5af01a02f79923cab87d9cbe55ded22ff94eb523fc14bb",
+      "detail": "cb5be124d0dd17cde7805f6176fe36b89db5a82b187910f1393cbe979b7a15ea",
+      "objective": "3a81a38454b64fe6ae7e8b51945dfde1646f0ac4442649aa8fd363270ff0d92b",
+      "progress": null,
+      "complete": "58636739d6c8f16d57c3bdd59ca35860ad52c05ee859158a7076512351211bb7"
+    },
+    "5762": {
+      "title": "536724fc937a6c453ae8976d9e3f4ac315d0dbc8fc2b2f3512386d3f30454529",
+      "detail": "1002795b453034e4a29294ec5953eb75339a51a1c8a65c23cd0879dc7fa9c7c0",
+      "objective": "d750def4e1194a96be4f4b8a3f794ef02754d12e1da566ad9f946ddf22aa6ec7",
+      "progress": "fa6ade47fc1c6e2dd55775ad1aaa4a8cd2a5c15ca219cd44d714f5178d97da0b",
+      "complete": "4f1104cc06e5c613d9adcbeb8ff7b90af1fb88ba197baa1e01cee65ab27fe057"
+    },
+    "194": {
+      "title": "4c3938410b13c260aa75304061898bae56a2d772c09863632c26a6b5fba5704b",
+      "detail": "db66662b423fd417d411f80f6238eac6ac47fd3e73717c9b048d96627bbc200e",
+      "objective": "036bedb1de315ddc451eef988ff4059676a627329966a73c96fbd93d9a2f9534",
+      "progress": "aaaf5eba6a5a41d8be9d4fbf51e7f07db74f079094cfcb1789edfc7736745581",
+      "complete": "3353ea3c0e3ef2242fb10b00603d8af096c7c49c096cee6807604c0e826938d8"
+    },
+    "195": {
+      "title": "4c3938410b13c260aa75304061898bae56a2d772c09863632c26a6b5fba5704b",
+      "detail": "09a16da669f250b3c7d597d47160ce231483acee7c4d899c6abe4e6c1dda9c7a",
+      "objective": "3b816cbec5f261020a7bd106b9e21aff255d7c6bce23837f37b3194588b330d3",
+      "progress": "0a6512b5dcf27b272d6fa727fb1365a5e2e68518b29142fb30c5142c89bbd860",
+      "complete": "0cbd57063eaa95de67df8bba049d2b2be71c5b745eae35690e7031fb3d2a83c5"
+    },
+    "196": {
+      "title": "4c3938410b13c260aa75304061898bae56a2d772c09863632c26a6b5fba5704b",
+      "detail": "68881acaaec661e4792b5204a1ddf086f3bebcbcf17a8d2c4932356965c9c96e",
+      "objective": "8fe108e531b17c27707ffd43a7a5f5ff7c9416abd29e3f84f7c2bed89ead667c",
+      "progress": "f1e89c0812aaf3e0ed5151702a773aca20923d71f3e3532f99833a01490809f9",
+      "complete": "fbba0aed2245f9485cd58d2b2fce5d1f41bd93798db9ef8e7c0be16c3fe37af3"
+    },
+    "197": {
+      "title": "4c3938410b13c260aa75304061898bae56a2d772c09863632c26a6b5fba5704b",
+      "detail": "0d08acfb45b7801fd0285ad63e9cabdd75b6fc1057ab9fcd858dbc987a471dce",
+      "objective": "7e6513cfeba697a113217faf04e2bd199b90c52c6a123bc43b8b101b0609e199",
+      "progress": "479acff5d22e5bd9a69981c3396485685997ef81d763b30afb5eef13f9c7ff43",
+      "complete": "c8beed696f27d5a55a56e5be4b67bb1cc747ca906081532d73dcac1e17c33b68"
+    },
+    "208": {
+      "title": "5fd67b9990b43aeda76e61f02e0c5883fb40882392a873a63085353854db7f64",
+      "detail": "de4834d98814d6a776b03e7ab494f3b15ba7331a2ff59c28caccc2278e95c159",
+      "objective": "8e371649eb831dec1a484688622bfc0e48363333b94c9409aee6a09b76a41a3a",
+      "progress": "8a380eb989ae9c01eaf4b79ae5364d5b2f2716f418eb77ecc4f3d2b994ce256a",
+      "complete": "0d104389df3bacce6ea95e6283d46f756eced883247a077fe19f70e00a40f254"
+    },
+    "338": {
+      "title": "fe6ed223479119aebd14a51f8ab825a418ad266f778e653ac0bf6bfbfb066f04",
+      "detail": "ad3cd7baf12207e909d18ea457ed45725243512b1ff2c45e91eb85c871318ad8",
+      "objective": "4c59798f9069a75a968b216a9babdfdc589dcee63fb9e7e60092820bdda4f5b1",
+      "progress": "91a39c7a1801bd105b56947407d96e1883cffa1b11b34d5aa6694ccc206b1255",
+      "complete": "06983b0e3a3457be0e764581bdb5b49a4dd493549d8547c26a6c41368193890a"
+    },
+    "339": {
+      "title": "a2f5bf66627981e6fc3cdc3e28e88991a71e01e4af2fdf01a0341778ba510e96",
+      "detail": "d2490aec4fc6c36a878d8f215e6d473dc69862656bcc270f381e702246460c66",
+      "objective": "165e5f5aadec189de6fd67c625f858110291daf35c29cea869c9c58cb7d52373",
+      "progress": "23570817f0920e45d45fc006306e00d80b58f5ab3e16fb64fed2ea5dd0852679",
+      "complete": "c8b40e0605c0c25dd4e17cd70df3ed0d2f866e127fb9bdc01384a316a0746e2b"
+    },
+    "340": {
+      "title": "324b1ffd5c2258c7ac88c65b8816ad0f0ebaff3b3190103d7c8cc2b0aa333857",
+      "detail": "d68e167905a2a04193fe9b6fac421570840d3a2ec70e0da088b311b817bd2cda",
+      "objective": "5df6339175ebc0c2f88a79b52742220b7e37266d155e39a06e7e989d0fc54e99",
+      "progress": "ffbf456f6c5876b9f5ddaabd3857148adcc5a7636405c1808f8a654d144b118e",
+      "complete": "8337175427d74371aa624ec9b3ffa28b0b5570d1237d6be19ad737bdbf34e574"
+    },
+    "341": {
+      "title": "3a2230b39b237e1297ec9c401bb4d7e0ed571c5553e6ee6fdd58ab29d16d3a7a",
+      "detail": "18db72495764a45ab03f538f08430f6cf98070ada3793b90496676b35692d661",
+      "objective": "6cea70fce231fae9c6ad40d4fff285bab5d30da8a6188e861f2192429b0f871c",
+      "progress": "e91df38ddf9472612f5ad972c9ef5d90863f2834c0f9c203788ce243a60fcb6b",
+      "complete": "1b8f619c2e02ff963f92b0402ae8a28d108577c9c798116f3ca46dcae42d4e93"
+    },
+    "342": {
+      "title": "4f4f8b539a838cc17e5d15e3b77a07979b0d67f94c5a05df5b7ca1f3f91b2bbd",
+      "detail": "9f4c48d24398d0264b89915c19692f7cf10ff227eff413d2c28bf8b85162fdf9",
+      "objective": "4e4c2cc34fe8324f6d7b1df5a51f058ed1f9ae4085d846762850174fd255c3be",
+      "progress": "6afe84d754a02a61cdf53467dd5baeaccedd90749e87b9fc754870ea07c3b7c1",
+      "complete": "3f84752ad834a9d2629c46efe75d54b47f3f93623ad29f48cda5671735c2c82e"
+    },
+    "1387": {
+      "title": "3b0b19329c688e1a594e2dab0e7753f33fb333c6da74930af31c3ba49d6588aa",
+      "detail": "27d475240dac45fb6a8c2f931b086802f758f512ae6eaf84f9407e2cd6218eef",
+      "objective": "af8824b1c55a3c662f757df3cb72ba9c14b510a81ccd84d42f5260c7fcc2f3b0",
+      "progress": "145b7ba72665fc8433442dbdff966410be7be451eca402e3526d802f8ae30598",
+      "complete": "dbc273b62ce46a8aa26aed806dec0814f423f7b0c3853af1dd4823aa7ae5b576"
+    },
+    "1453": {
+      "title": "6b1b48805851409beea9b50d4a08eb5d3cfc953fd98495d18ce3fd4e173bb4ba",
+      "detail": "448b50f3dc5dad1a74e93fc39797037601c88765b47c52eb034d8c95b2d6c124",
+      "objective": "2ae608d5e7d25efbea1e870df478dd6ebe44e6357babe8a324d4f556e8dde6e2",
+      "progress": null,
+      "complete": "e312a874753fc9824764847dfefe785e5edb45b5546c46d7b933bcd5979192f8"
+    },
+    "1454": {
+      "title": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3",
+      "detail": "fa369bc21bebd39530a673c715bdb38a60886c993dd8a7dcddf46abb5a157eac",
+      "objective": "f9f94aea2707816145c9444cce20e0ed8d93194ecb77f5877fd0d525f4c8156e",
+      "progress": null,
+      "complete": "d2df9b87fe2a28304a1d726abce7d07d7ea250cbf6bbe68ab03ad3fdd0c399d3"
+    },
+    "1455": {
+      "title": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3",
+      "detail": "78768315c905258860e8ece878996875450af038180f3de246bf8f6faf8d5af9",
+      "objective": "8e611d3626f70897290437137856cf75667640cf23c2d54f6743e925640ae746",
+      "progress": null,
+      "complete": "c59241b7e08ca62736c2c2886fe0a06814fa8b4cba7f80454a030e9d1dac1fed"
+    },
+    "1456": {
+      "title": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3",
+      "detail": "9c2f692c23dd9f01676d9267e8708032e74a6ac2bd1a72c992cf145677660c6b",
+      "objective": "6c3055762def4fb880bb03f7f159fd3be238ff31eeac15b62c1bb01b7723d7ab",
+      "progress": "f8409e462d97738b487b9b2bd0c8dfed63f13924bb8b57c37569832532e3777f",
+      "complete": "05fbf5705ccd7e3640cafdef9b6b723291d958a750f4a8267d2ba9cc4e7487d1"
+    },
+    "1457": {
+      "title": "bbd33c1208f6390f468f5d65a7ae762c7ff7d008f8864fe2adf338e3d49740f3",
+      "detail": "7f20183ecce9f009d504d0612285b5a83abcedcf3e0aafed4e406bda2a1ad565",
+      "objective": "6cd592edfa1626a48902572680759bbcd7297713e7c44279f80707e4bc83a0cf",
+      "progress": "cc35d5bc0b7ecaf367ddf53e327269a63d2efeafe5000a490f86fd86d1209642",
+      "complete": "78c3243ab9051271f54c70d8c83eb2599670df8debe2a584961157b344c80816"
+    },
+    "1458": {
+      "title": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+      "detail": "3a8f56b83ec178c6f24f235c2d4f2e34200ac6506640001472741ebd87eb7b6e",
+      "objective": "ddcbc6b77d4c87062d8b940c26f982abdfbb3b8fb1f567f5597b47b7d9e0b08e",
+      "progress": "a4958d44bddcfe4904cbe5fc485cfa08f87ea82cee12c76b24ead322e87ddf6a",
+      "complete": "0e7455abb4c7e47206e9dfc5dd8881506e77e0de47a80f5847486c24ed95a8cc"
+    },
+    "1459": {
+      "title": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+      "detail": "e90a17ad6472526f85c9c51c6cba2f6af535347fbbf859b86d892c8ad172eaef",
+      "objective": "c0729848d2b154a63348678f2771edc6418a24344b9097a455fcc213fc989e90",
+      "progress": "061ea75cb5c31826d5c936b558686123944ef2e3571b9465260782bbc6fa6596",
+      "complete": "58f69ad9ad86213a6737ad9c9975865aa7f727259e276c6143304bcf9b008218"
+    },
+    "1466": {
+      "title": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+      "detail": "72953d80d83a0a905ee01555335d212ea4123b06df7467b7ea9a4457d8bf3109",
+      "objective": "e6ac1f6cecb2c6993bd690ed4e166ef81f1969ac03ed26759ade1a4e75d7e35f",
+      "progress": "85cd37353281bc415b360539e1ef74da8f127a6211ab6ae8a4d1bf0a15307708",
+      "complete": "7a449256b54dfbf593bb2e64a9a32148161e7411c138c8b12bb9dc0b2317df94"
+    },
+    "1467": {
+      "title": "32b6e18211334be5b4df1d718abbb9f295aa29278e74712b7e40b1028fa110da",
+      "detail": "534ed8e0b9269672ec584d991015d74a31ac4777149f111a2c792c9a69c44ee1",
+      "objective": "43b6d20f4981629df0cba082cf9a935a74abef8d798fa17b83f1fcf272f2afc0",
+      "progress": "84aebe3dd030fdaf248bf0c5da6357968c7c8333bd7dea91a2276a163687327b",
+      "complete": "3bfc9536d55b18b31b0b2cba4a21edf8264e53dd06dc8aa8c9c3cc904e166ae0"
+    }
+  },
+  "claim": "Source-grounded regressions supplement separate assisted bilingual review; not native proofreading or current live verification."
+}

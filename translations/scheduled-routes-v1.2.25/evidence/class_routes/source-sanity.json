@@ -1,0 +1,1004 @@
+{
+  "96781": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "What are they after in those ruins, I wonder?",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "It appears you've some light fingers on you, <name>. Very good.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "96782": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "Odds are we shall have those heirlooms before Barton even notices his reports are missing.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Excellent. I will hold these in safekeeping, for now, while I decide what best to do with them.\n\nYou are dismissed, <name>. Good work.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "96783": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "complete",
+        "primaryEnglish": "<Taking the uniform, you ready yourself for the next part of your mission.>",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "96784": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "type": "faction",
+        "primarySide": 2,
+        "uaFaction": [
+          "Both"
+        ],
+        "installedRaceMask": null,
+        "decision": "Retain exact metadata conflict; source review is not live faction eligibility verification."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "objective",
+        "primaryEnglish": "While disguised as a member of the Syndicate, find someone inside Stromgarde Keep who knows about the secret deal.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "<Anastasia's eyes narrow with suspicion.>\n\n...how exactly do you know about the deal?",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "96785": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "type": "faction",
+        "primarySide": 2,
+        "uaFaction": [
+          "Both"
+        ],
+        "installedRaceMask": null,
+        "decision": "Retain exact metadata conflict; source review is not live faction eligibility verification."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "I told you already, I've got nothing for you. Now beat it!",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Why you...where did you find that!?\n\n<Anastasia takes a moment to compose herself.>\n\nFine. I'll tell you about the deal. Just give me that back, and we'll call it even.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "96786": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "type": "faction",
+        "primarySide": 2,
+        "uaFaction": [
+          "Both"
+        ],
+        "installedRaceMask": null,
+        "decision": "Retain exact metadata conflict; source review is not live faction eligibility verification."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "Ah, <name>, I see you've returned from Stromgarde.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Well well, you seem to have acquired this through no small effort. You play the game of subterfuge well.\n\nIf you are wondering about the content of this package, I hope you understand that is on a need-to-know basis.\n\nNevertheless, you have served the manor honorably. For that, you certainly ought to be rewarded.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "progress",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1947": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "complete",
+        "primaryEnglish": "Quiet!  I'm in a delicate juncture and mustn't be disturbed!\n\nOne moment...",
+        "secondaryEnglish": "Quiet! I'm in a delicate juncture and mustn't be disturbed!\n\nOne moment...",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1948": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "Hello, <name>.  Do you have the items I require?",
+        "secondaryEnglish": "Hello, <name>. Do you have the items I require?",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Aha!  You got the jade and made the bramble!  Well done!\n\nIs that smoke I see rising from your ears?  You might have gotten too close when the lightning struck the totem sticks, but don't worry.  Being hit by lightning is good luck!",
+        "secondaryEnglish": "Aha! You got the jade and made the bramble! Well done!\n\nIs that smoke I see rising from your ears? You might have gotten too close when the lightning struck the totem sticks, but don't worry. Being hit by lightning is good luck!",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "progress",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 3
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "objective",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA omits explicit digit1; current English1 Jade retained.",
+        "decision": "Current English controls; variance preserved for live review."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1949": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1950": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "objective",
+        "primaryEnglish": "Find the phrase to Tirth's strongbox, then return to Tirth.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "progress",
+        "primaryEnglish": "What are you waiting for?  I need my magic phrase!",
+        "secondaryEnglish": "What are you waiting for? I need my magic phrase!",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1951": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA asks generically about the book; current English repeats Rituals of Power.",
+        "decision": "Current English controls; variance preserved for live review."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1952": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 2,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "objective",
+        "primaryEnglish": "Speak with Tabetha after her ritual.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1953": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "detail",
+        "primaryEnglish": "It is time, <name>, for you to speak with Tabetha... the hermit of Dustwallow Marsh.  She will instruct you on the creation of a powerful mage's implement.\n\nTabetha's shack lies deep in Dustwallow Marsh, west of Theramore.",
+        "secondaryEnglish": "It is time, <Name>, for you to speak with Tabetha... the hermit of Dustwallow Marsh.  She will instruct you on the creation of a powerful mage's implement.\n\nTabetha's shack lies deep in Dustwallow Marsh, west of Theramore.",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1718": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "field": "complete",
+        "secondary": "<name>",
+        "primary": "<class>",
+        "decision": "Primary dynamic class wins; no secondary replacement."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "detail",
+        "primaryEnglish": "Your renown as a warrior grows, <name>.  Now it is time to pit yourself against your peers and see where you stand.\n\nThere is an island off the coast of the Barrens, south of Ratchet.  It is called Fray Island and it is a place where warriors meet.\n\nMeet, and fight.\n\nSpeak with the chief warrior of Fray Island, Klannoc Macleod.  If he finds you worthy, then Klannoc will lead you further down the warrior's path.\n\nTo reach Fray Island, search for the sand bar shallows along the Merchant Coast.",
+        "secondaryEnglish": "Your renown as a warrior grows, <Name>.  Now it is time to pit yourself against your peers and see where you stand.\n\nThere is an island off the coast of the Barrens, south of Ratchet.  It is called Fray Island and it is a place where warriors meet.\n\nMeet, and fight.\n\nSpeak with the chief warrior of Fray Island, Klannoc Macleod.  If he finds you worthy, then Klannoc will lead you further down the warrior's path.\n\nTo reach Fray Island, search for the sand bar shallows along the Merchant Coast.",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Hello, <class>.  It's good to see you made it to Fray Island.  I hope you find it to your liking...",
+        "secondaryEnglish": "Hello, <name>. It's good to see you made it to Fray Island. I hope you find it to your liking...",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "detail",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 2,
+          "race": 0,
+          "genderBranches": 2
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 1,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 1,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1719": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "field": "complete",
+        "secondary": "warrior",
+        "primary": "<class>",
+        "decision": "Primary dynamic class wins."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "objective",
+        "primaryEnglish": "Kill Big Will, then speak to Klannoc Macleod on Fray Island.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "Well done, <name>.  You have passed The Affray!\n\nYou are a worthy <class>, and I am honored to teach you...",
+        "secondaryEnglish": "Well done, <name>. You have passed The Affray!\n\nYou are a worthy warrior, and I am honored to teach you...",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "detail",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "progress",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 1,
+          "race": 0,
+          "genderBranches": 2
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 1,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "detail",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA omits final return-within-allowed-time restriction; current English restriction retained.",
+        "decision": "Current English controls; variance preserved for live review."
+      },
+      {
+        "field": "complete",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA class marker corresponds to current dynamic class; secondary replaces it with warrior.",
+        "decision": "Current English controls; variance preserved for live review."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1791": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "complete"
+    ],
+    "unavailableFields": [
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "field": "complete",
+        "secondary": "warrior",
+        "primary": "<class>",
+        "decision": "Primary dynamic class wins."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "complete",
+        "primaryEnglish": "You have traveled far, young <class>.  I see fire in your eyes.  You seek a weapon of great power, yes?\n\nI can help you with your quest.  And you can help me with mine.",
+        "secondaryEnglish": "You have traveled far, young warrior.  I see fire in your eyes.  You seek a weapon of great power, yes?\n\nI can help you with your quest.  And you can help me with mine.",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 1,
+          "race": 0,
+          "genderBranches": 2
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 1,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA omits current English fire-in-your-eyes sentence and primary class differs from static secondary warrior.",
+        "decision": "Current English controls; variance preserved for live review."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1712": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "Do you have the items, <name>?  Gathering them is the proof I need that you have the strength to face Cyclonian.",
+        "secondaryEnglish": "Do you have the items, <name>? Gathering them is the proof I need that you have the strength to face Cyclonian.",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "You have gathered the items for my spell, and have shown me your strength and cunning.  But the next stage of our quest is even more perilous.\n\nLet us hope your strength does not falter.",
+        "secondaryEnglish": "You have gathered the items for my spell, and have shown me your strength and cunning. But the next stage of our quest is even more perilous.\n\nLet us hope your strength does not falter.",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "detail",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 1,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "progress",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 2
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "detail",
+        "type": "sourceAwareUpstreamMeaningDifference",
+        "note": "UA substitutes dynamic class in its prove-worth sentence; primary English explicitly says great warrior without a class marker.",
+        "decision": "Current English controls; variance preserved for live review."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1713": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "objective",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [
+      {
+        "field": "detail",
+        "primaryEnglish": "I am ready to perform the ritual to summon Cyclonian.  When he is summoned, you must defeat him and take his whirlwind heart.  This I will use to instill a weapon with Cyclonian's power.\n\n<name>, are you ready to face the wind lord?",
+        "secondaryEnglish": "I am ready to perform the ritual to summon Cyclonian.  When he is summoned, you must defeat him and take his whirlwind heart.  This I will use to instill a weapon with Cyclonian's power.\n\n<Name>, are you ready to face the wind lord?",
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "objective",
+        "primaryEnglish": "Bring the Whirlwind Heart to Bath'rah Windwatcher.",
+        "secondaryEnglish": null,
+        "whitespaceOnly": false,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "complete",
+        "primaryEnglish": "You did it!  You defeated Cyclonian and gained the Whirlwind Heart!",
+        "secondaryEnglish": "You did it! You defeated Cyclonian and gained the Whirlwind Heart!",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "detail",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 1
+        },
+        "primaryMarkerCounts": {
+          "name": 1,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      },
+      {
+        "field": "complete",
+        "type": "upstreamSubstitutionStructure",
+        "upstreamMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0,
+          "genderBranches": 2
+        },
+        "primaryMarkerCounts": {
+          "name": 0,
+          "class": 0,
+          "race": 0
+        },
+        "decision": "English source marker structure controls; no unsupported gender or player branch invented."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {}
+  },
+  "1792": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "complete"
+    ],
+    "unavailableFields": [
+      "detail",
+      "objective",
+      "progress"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [],
+    "referenceDifferences": [],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "detail": "Primary and independent secondary absent; unavailable.",
+      "objective": "Primary and independent secondary absent; unavailable.",
+      "progress": "Primary and independent secondary absent; unavailable."
+    }
+  },
+  "1714": {
+    "primaryReparsedMatches": true,
+    "ownQuestIDVerified": true,
+    "ownGathererCount": 1,
+    "availableFields": [
+      "title",
+      "detail",
+      "progress",
+      "complete"
+    ],
+    "unavailableFields": [
+      "objective"
+    ],
+    "sourceAbsenceIsNotTransportFailure": true,
+    "sourceConflicts": [
+      {
+        "field": "detail",
+        "type": "disputedSourceStatePresence",
+        "primaryDescription": null,
+        "secondaryDescription": "The cauldron bubbles.  Its vapors beckon...",
+        "secondaryDescriptionHTMLSHA256": "2046ff7e88c5edbf5c2443eff0fa8406ed1b841565364f46f5ae4181121c8c9b",
+        "primaryProgressIdentical": true,
+        "decision": "Preserve explicitly labeled secondary Description; hold disabled pending primary or current live confirmation. Duplication does not establish absence."
+      }
+    ],
+    "referenceDifferences": [
+      {
+        "field": "progress",
+        "primaryEnglish": "The cauldron bubbles.  Its vapors beckon...",
+        "secondaryEnglish": "The cauldron bubbles. Its vapors beckon...",
+        "whitespaceOnly": true,
+        "decision": "Primary field retained. Secondary absence does not erase available primary text."
+      },
+      {
+        "field": "detail",
+        "type": "disputedSourceStatePresence",
+        "primaryDescription": null,
+        "secondaryDescription": "The cauldron bubbles.  Its vapors beckon...",
+        "secondaryDescriptionHTMLSHA256": "2046ff7e88c5edbf5c2443eff0fa8406ed1b841565364f46f5ae4181121c8c9b",
+        "primaryProgressIdentical": true,
+        "decision": "Preserve explicitly labeled secondary Description; hold disabled pending primary or current live confirmation. Duplication does not establish absence."
+      }
+    ],
+    "rootOwnIDSourcePinMatch": true,
+    "missingStateDecision": {
+      "objective": "Primary and independent secondary absent; unavailable."
+    },
+    "heldStateDecision": {
+      "field": "detail",
+      "type": "disputedSourceStatePresence",
+      "primaryDescription": null,
+      "secondaryDescription": "The cauldron bubbles.  Its vapors beckon...",
+      "secondaryDescriptionHTMLSHA256": "2046ff7e88c5edbf5c2443eff0fa8406ed1b841565364f46f5ae4181121c8c9b",
+      "primaryProgressIdentical": true,
+      "decision": "Preserve explicitly labeled secondary Description; hold disabled pending primary or current live confirmation. Duplication does not establish absence."
+    },
+    "canonicalSourceOverridesReparsePrimaryUnchanged": true
+  }
+}

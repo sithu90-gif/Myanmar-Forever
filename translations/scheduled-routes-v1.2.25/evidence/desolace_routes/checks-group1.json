@@ -1,0 +1,93 @@
+{
+  "result": "PASS",
+  "checkedAtUTC": "2026-11-26T06:52:27.056356+00:00",
+  "quests": 5,
+  "enabledFields": 22,
+  "unavailableFields": 3,
+  "linguisticLint": [],
+  "validateFields": "PASS",
+  "rawPrimaryReparse": "PASS",
+  "paragraphsMarkersDigitsStages": "PASS",
+  "allCanonicalReviewHashAliases": "PASS",
+  "maintainedDictionaryTermsPreserved": 5130,
+  "identityContracts": 5,
+  "semanticContracts": {
+    "numeric": 0,
+    "written": 1,
+    "actions": 6,
+    "ordered": 2,
+    "directions": 3
+  },
+  "negativeControls": [
+    {
+      "control": "Wrong recipient in introductory objective",
+      "result": "rejected",
+      "id": 1453,
+      "field": "objective",
+      "mutation": {
+        "from": "Kreldig Ungor",
+        "to": "Roetten Stonehammer"
+      }
+    },
+    {
+      "control": "Wrong east/west entry direction",
+      "result": "rejected",
+      "id": 1453,
+      "field": "detail",
+      "mutation": {
+        "from": "အရှေ့ဘက်",
+        "to": "အနောက်ဘက်"
+      }
+    },
+    {
+      "control": "Wrong northwest shipwreck direction",
+      "result": "rejected",
+      "id": 1454,
+      "field": "detail",
+      "mutation": {
+        "from": "အနောက်မြောက်ဘက်",
+        "to": "အရှေ့တောင်ဘက်"
+      }
+    },
+    {
+      "control": "Removed scout conditional",
+      "result": "rejected",
+      "id": 1456,
+      "field": "detail",
+      "mutation": {
+        "from": "ဆင်းလာခဲ့တယ်ဆိုရင်",
+        "to": "ဆင်းလာခဲ့တယ်"
+      }
+    },
+    {
+      "control": "Wrong same-title chest/satchel stage",
+      "result": "rejected",
+      "id": 1454,
+      "field": "objective",
+      "mutation": {
+        "from": "Karnitol's Chest",
+        "to": "Karnitol's Satchel"
+      }
+    },
+    {
+      "control": "Emptiness discovery and closing action swapped",
+      "result": "rejected",
+      "id": 1455,
+      "field": "detail"
+    }
+  ],
+  "checkedFilesSHA256": {
+    "edited.json": "d05cec7f87266b1bc1ee05d8046ce493acad4bb887a1a14c47bee371e67ba0e0",
+    "english-sources.json": "d07375df343523a08e572ea254b8c501ce699ce81cc2703a4cb8aa88b72fc6ac",
+    "review-audit.json": "5ae7440bfc3efb6654f3cb58e431756961423dde5c48c7ab1923a4735e411281",
+    "comparison-provenance.json": "bf0ab54e77ae802e2aaacb7564ad699288d43e841b874ca172d2d1b0f417e4a1",
+    "pronunciations.json": "0d49d4c7a5869a863a51df7848bfa4b7913ccbfdaba0e76901bded59b4c9a8a2",
+    "annotation-exceptions.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "identity-contracts.json": "9b6bc06c79767062e3ca68b2db2e8e443d2aaf57aa49c702480132a8e035490b",
+    "semantic-contracts.json": "039ca00fcf73338678008e395a102ce5996f29ca91ac4dcab7312fa5d4e737c7",
+    "run_checks.py": "a95ddb8680989838f4f12d9f214f41156b7290b721b16673544d9b42ed4bfe20"
+  },
+  "nativeMyanmarProofreading": "pending",
+  "currentLiveVerification": "not tested",
+  "controllerHardwareVerification": "not tested"
+}
